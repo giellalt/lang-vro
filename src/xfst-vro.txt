@@ -1,0 +1,90 @@
+! This file is a script for the Xerox xfst interface.
+! It gives the morphophonological rules for Võro.
+
+
+! In this file, testcases are marked as follows:
+
+! space exclmark euro space upper:lower
+! Please add tests for eventual new rules or problems
+
+! To test: in kt/vro/src, do:
+! xfst -e "source xfst-vro.txt"
+! invert net
+! save s
+! quit
+! cat xfst-vro.txt | grep €|cut -d" " -f3|cut -d":" -f1|lookup s
+
+
+clear stack
+
+
+! Definition section !
+! ================== !
+
+echo << THE DEFININTIONS >>
+
+define Cns [ b | c | č | d | f | g | h | j | k | l 
+           | B | C | Č | D | F | G | H | J | K | L 
+           | m | n | p | r | s | š | t | v | z | ž
+           | M | N | P | R | S | Š | T | V | Z | Ž ] ;
+
+define VwsBack [ a | o | u | A | O | U ] ;
+
+define VwsFront [ ü | ä | ö | Ü | Ä | Ö ] ;
+
+define VwsNeutr [ e | i | E | I ] ;
+
+define Vws [ VwsBack | VwsFront| VwsNeutr ] ;
+
+define Softie [ ’ ] ; ! soft sign
+
+define Lts [ Cns | Vws | Softie ] ; !
+
+define Dummy %> ; 
+
+
+
+! Rule section !
+! ============ !
+
+echo << THE RULES >>
+
+
+define VowelCorrelation [ V1 -> а || [ QAO1 ]  %> h _ ,,
+                          V1 -> e || [ i ]  %>  h _ ,,
+                          V1 -> e || [ QEQ ]  %> h _  ,,
+                          V1 -> o || o %> h _   ] ; ! Vowel harmony
+
+define VowelHarmonyE1 [ E1 -> õ || VwsBack [ Cns | VwsBack | VwsNeutr ]*  %> l _ ] ; 
+! vowel harmony for le/lõ
+
+define StemFinalVowelLoss [ QAO1 -> 0 , QEQ -> 0 || _ .#. ] ;
+ !€ ты>хА1на:тэхэна
+
+define SGGEN1Tot [ SGGEN1 -> 0 || Vws %> _ .#. ] ;
+
+define D1Tot [ D1 -> t || Vws %> _ .#. ] ;
+
+define PLPART1 [ PLPART1 -> d || [ Vws Vws %> | Vws %> Vws ] _ .#. ,,
+                 PLPART1 -> t || [ Cns Vws %> | Cns %> Vws ] _ .#. ] ;
+
+define Z1Loss [ Z1 -> 0 || _ ] ;
+
+
+define DummyDeletion Dummy -> 0 ;
+
+
+
+read regex [
+
+    VowelCorrelation
+.o. VowelHarmonyE1
+.o. StemFinalVowelLoss
+.o. SGGEN1Tot
+.o. D1Tot
+.o. PLPART1
+.o. Z1Loss
+.o. DummyDeletion
+] ;
+
+
