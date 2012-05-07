@@ -1,0 +1,27 @@
+Config:
+  hfst:
+    Gen: ../bin/vro-gen.hfstol
+    Morph: ../bin/vro.hfstol
+  xerox:
+    Gen: ../bin/ivro.fst
+    Morph: ../bin/vro.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - altri: # Noun 'altar' - full paradigm
+     .altri+N+Sg+Nom: altri
+     .altri+N+Sg+Gen: altri
+     .altri+N+Sg+Part: altrit
+     .altri+N+Sg+Ill: altrihe
+
+     .altri+N+Pl+Nom: altriq
+     .altri+N+Pl+Gen: altridõ
+     .altri+N+Pl+Part: altriid
+     .altri+N+Pl+Ill: [altriihe, altrihe]
+     .altri+N+Pl+All: [altriilõ, altrilõ]

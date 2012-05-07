@@ -1,0 +1,13 @@
+
+; Testing
+
+./HfstTester.py -x vro-tests.yaml
+
+#When there are [FAIL] marks that might involve other pos-s use
+-i, --ignore-extra-analyses
+
+./HfstTester.py -x -i vro-tests.yaml
+
+#py HfstTester.py -cixf vro-tests.yaml
+
+make num-paradigm WORD=нёль
