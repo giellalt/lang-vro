@@ -1,0 +1,118 @@
+LEXICON N-altri-1 ! 
+: NOUN ;
++N:i%> PLALLSUF ;
++N:i%> PLILLSUF ;
+
+LEXICON NOUN-hanśa ! 
+: NOUN ;
+
+
+LEXICON NOUN
++N: SGNOMSUF ;
++N: SGGENSUF ;
++N: SGPARTSUF ;
++N: SGILLSUF ;
++N: SGADESUF ;
+
++N: PLNOMSUF ;
++N: PLGENSUF ;
++N: PLPARTSUF ;
++N:%> PLILLSUF ;
++N:%> PLALLSUF ;
+
+
+LEXICON SGNOMSUF
++Sg+Nom: K ;
+
+LEXICON SGGENSUF
++Sg+Gen:%>SGGEN1 K ; ! Ø
+
+LEXICON SGPARTSUF
++Sg+Part:%>D1 K ; ! t/d/Ø
+
+LEXICON SGILLSUF
++Sg+Ill:%>hV1 K ; ! he/htE/hE/hA/hU/ho/tE/dE/Ø
+
+LEXICON SGINESUF
++Sg+Ine:%>s K ; ! n (n/h/hn)
+
+LEXICON SGELASUF
++Sg+Ela:%>späi K ; ! st
+
+LEXICON SGALLSUF
++Sg+All:%>le K ; ! lE
+
+LEXICON SGADESUF
++Sg+Ade:%>l K ; ! l
+
+LEXICON SGABlSUF
++Sg+Abl:%>lpäi K ; ! lt
+
+LEXICON SGTRASUF
++Sg+Tra:%>s K ; ! s
+
+LEXICON SGTER1SUF
++Sg+Ter:%>niq K ; ! niq
+
+LEXICON SGABESUF
++Sg+Abe:%>ldaq K ; ! ldAq
+
+LEXICON SGCOMSUF
++Sg+Com:%>nke K ; ! gaq
+
+LEXICON SGPRLSUF
++Sg+Prl:%>ldE K ; ! ldE
+
+
+
+
+
+!! Start Plural
+LEXICON PLNOMSUF
++Pl+Nom:%>q K ;
+
+LEXICON PLGENSUF
++Pl+Gen:%>dõ K ; ! PLGEN1
+
+LEXICON PLPARTSUF
++Pl+Part:%>iPLPART1 K ; ! t/d/Ø
+
+LEXICON PLILLSUF
++Pl+Ill:hV1 K ; ! he/htE/hE/hA/hU/ho/tE/dE/Ø
+
+LEXICON PLINESUF
++Pl+Ine:%>s K ; ! n (n/h/hn)
+
+LEXICON PLELASUF
++Pl+Ela:%>späi K ; ! st
+
+LEXICON PLALLSUF
++Pl+All:lE1 K ; ! lE
+
+LEXICON PLADESUF
++Pl+Ade:%>l K ; ! l
+
+LEXICON PLABlSUF
++Pl+Abl:%>lpäi K ; ! lt
+
+LEXICON PLTRASUF
++Pl+Tra:%>s K ; ! s
+
+LEXICON PLTER1SUF
++Pl+Ter:%>niq K ; ! niq
+
+LEXICON PLABESUF
++Pl+Abe:%>ldaq K ; ! ldAq
+
+LEXICON PLCOMSUF
++Pl+Com:%>nke K ; ! gaq
+
+LEXICON PLPRLSUF
++Pl+Prl:%>ldE K ; ! ldE
+
+
+
+
+
+
+!! Possessor Indices
