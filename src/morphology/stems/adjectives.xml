@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <e>
+      <lg>
+         <l>vahtsõnõ</l>
+         <stg>
+            <st Contlex="N-6">vahtsõ</st>
+         </stg>
+         <stress>.vahtsõnõ</stress>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="est">
+            <t>uus</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vana</l>
+         <stg>
+            <st Contlex="Adj-28">van|a</st>
+         </stg>
+         <stress>vana</stress>
+      </lg>
+      <pos>A</pos>
+      <mg>
+          &lt; 
+         <b>vahn</b>
+          vana; 
+         <xg>
+            <x>vana inemine</x>
+            <xt>täiskasvanu;</xt>
+         </xg>
+          
+         <xg>
+            <x>võiq vana!</x>
+            <xt>ohoh!, oh sa poiss! (imestushüüatus)</xt>
+         </xg>
+          
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>vanaaolinõ</l>
+         <stg>
+            <st Contlex="Adj-elolinõ">vanaaoli</st>
+         </stg>
+         <stress>vana.aolinõ</stress>
+      </lg>
+      <pos>A</pos>
+      <mg>
+          
+         <m>
+            <head/>
+            <semRel lemmaID="vana.ao|nõ" Contlex="Adj-7" semRelType="synonym"/>
+         </m>
+         <tg lang="est"><t pos="A">
+          vanaaegne</t></tg>
+      </mg>
+   </e>
+</r>
