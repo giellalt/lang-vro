@@ -1,0 +1,32 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - viskama: # Verb '/(eng) to throw /(fin) heittää' - partial paradigm
+     viskama+V+Ind+Prs+ScSg1: viska
+     viskama+V+Ind+Prs+ScSg2: [viskat, viskadõq]
+     viskama+V+Ind+Prs+ScSg3: viskas
+     viskama+V+Ind+Prs+ScPl1: viskamiq
+     viskama+V+Ind+Prs+ScPl2: [viskatiq, viskadõq]
+     viskama+V+Ind+Prs+ScPl3: viskasõq
+     viskama+V+Ind+Prs+Sc+ConNeg: [viska, viska-aiq, viskaq]
+     viskama+V+Ind+Prs+OcSg1: visada
+     viskama+V+Ind+Prs+OcSg2: [visatat, visatadõq]
+     viskama+V+Ind+Prs+OcSg3: visatas
+     viskama+V+Ind+Prs+OcPl1: visatamiq
+     viskama+V+Ind+Prs+OcPl2: [visatatiq, visatadõq]
+     viskama+V+Ind+Prs+OcPl3: visatasõq
+     viskama+V+Ind+Prs+Oc+ConNeg: [visada, visada-aiq, visadaq]
+
