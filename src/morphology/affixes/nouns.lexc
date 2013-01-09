@@ -1,9 +1,70 @@
-!! Noun inflection
-!! ---------------
-!! The UNDEFINED language nouns inflect in cases.
+!! Noun inflection for Võro
+!! ------------------------
+
 
 LEXICON N-1
-+N: # ;
++N: strong-v-stem ;
++N:%^WG weak-v-stem ;
++N: short-par ;
++N: short-ill ;
++N+Pl:%>i2 shortillpl ;
+
+ 
+LEXICON strong-v-stem
+ nom-strong ;
+! +Sg:%>i2 com ;
+! +Pl:%>i2 com ;
+
+LEXICON weak-v-stem
+ +Sg+Gen: K ;
+ +Pl+Nom:%>q K ;
+ +Sg: sgpl-cases ;     ! these two lexica for cases with
+ +Pl:%>i2 sgpl-cases ; ! the same affix in sg and pl
+
+
+
+
+! Sublexica for the vowel stems
+! - - - - - - - - - - - - - - - 
+
+ LEXICON nom-strong
+ +Sg+Nom: K ;
+  
+LEXICON sgpl-cases
+ +Ill:%>he K ;
+ +Ine:%>n K ;
+ +Ine:%>h K ;
+ +Ine:%>hn K ;
+ +Ela:%>st K ;
+ +All:%>l%^E K ;
+ +Ade:%>l K ;
+ +Abl:%>lt K ;
+ +Tra:%>s K ;
+ +Ter:%>niq K ;
+ +Abe:%>ld%^Aq K ;
+ +Com:%>gaq K ;
+
+LEXICON SGILL_he
++Ill:%>he K ;
+
+LEXICON com
+ +Com:%>ne Pxx ; ! Not to K, since Px must be present
+                 ! Note that adjectives have -ine without Px
+
+
+! Lexica for the non-uniform cases
+! --------------------------------
+
+LEXICON short-par
+ +Sg+Par:%>%^A K ;
+! does not handle valoaan vs. *salaaan
+
+LEXICON long-par
+ +Sg+Par:%>t%^A K ;
+
+LEXICON short-ill
+ +Sg+Ill:%>%^Vn K ;
+
 
 LEXICON N-2
 +N: # ;
@@ -21,7 +82,7 @@ LEXICON N-5
 LEXICON N-kärbläne
 +N+Sg+Nom:ne # ;
 LEXICON N-kärbläne-PL
-+N+Pl+Nom:dseq # ;
++N+Pl+Nom:seq # ;
 !elolinõ:eloli
 LEXICON N-elolinõ
 +N: N-elolinõ_01 ;
