@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - suhvli: # Noun 'laatikko'
+     suhvli+N+Sg+Nom: suhvli
+     suhvli+N+Sg+Gen: suhvlin
+     suhvli+N+Sg+Acc: suhvlin
+     suhvli+N+Sg+Par: kannaa
+     suhvli+N+Sg+Ill: kannaa
+     suhvli+N+Sg+Ine: suhvlis
+     suhvli+N+Sg+Ela: suhvlist
+     suhvli+N+Sg+All: suhvlille
+     suhvli+N+Sg+Ade: suhvlil
+     suhvli+N+Sg+Abl: suhvlilt
+     suhvli+N+Sg+Tra: suhvliks
+     suhvli+N+Sg+Ess: suhvlinna
+     suhvli+N+Sg+Exe: suhvlint
+
+     suhvli+N+Pl+Nom: suhvlit
+     suhvli+N+Pl+Gen: kannoin
+     suhvli+N+Pl+Acc: suhvlit
+     suhvli+N+Pl+Par: kannoja
+     suhvli+N+Pl+Ill: kannoi
+     suhvli+N+Pl+Ine: kanois
+     suhvli+N+Pl+Ela: kanoist
+     suhvli+N+Pl+All: kanoille
+     suhvli+N+Pl+Ade: kanoil
+     suhvli+N+Pl+Abl: kanoilt
+     suhvli+N+Pl+Tra: kanoiks
+     suhvli+N+Pl+Ess: kanoinna
+     suhvli+N+Pl+Exe: kanoint
+
+
