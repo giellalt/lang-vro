@@ -51,6 +51,11 @@ LEXICON com
  +Com:%>ne Pxx ; ! Not to K, since Px must be present
                  ! Note that adjectives have -ine without Px
 
+!This Needs to be moved. Here it is adjacent to the source
+LEXICON Pxx
++PxSg1: K ;
+
+
 
 ! Lexica for the non-uniform cases
 ! --------------------------------
@@ -65,6 +70,8 @@ LEXICON long-par
 LEXICON short-ill
  +Sg+Ill:%>%^Vn K ;
 
+LEXICON shortillpl
+ +Pl+Ill:%>%^Vn K ; ! CHECK THIS 2013-01-11
 
 LEXICON N-2
 +N: # ;
