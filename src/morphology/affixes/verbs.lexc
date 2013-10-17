@@ -39,8 +39,14 @@ LEXICON V-61manitsõma
 +V+WORK: # ;
 LEXICON V-62argnõma
 +V+WORK: # ;
-LEXICON V-63sõimama
-+V+WORK: # ;
+LEXICON V-63sõimama !!= @CODE@ sõimama:sõima
+!! * Yaml: __viskama__
++V: V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
++V: V0-INF_mA ;
+
 LEXICON V-64puhksama
 +V+WORK: # ;
 LEXICON V-65sibahama
@@ -83,8 +89,15 @@ LEXICON V-83nõstma
 +V+WORK: # ;
 LEXICON V-84laskma
 +V+WORK: # ;
-LEXICON V-85hirnma
-+V+WORK: # ;
+LEXICON V-85hirnma !!= @CODE@ kakma:kaku
+!! * Yaml: __kakma__
++V:%{UÜ%} V0-IND-PRS-SC-12 ;
++V:%{UÜ%} V0-IND-PRS-SC-CONNEG ;
++V:%{XC%} V0-IND-PRS-SCSG3_ZERO ;
++V: V0-IND-PRS-SCPL3_vAq ;
++V:%{UÜ%} V0-IND-PRS-PC ;
++V: V0-INF_mA ;
+
 LEXICON V-86istma
 +V+WORK: # ;
 LEXICON V-87kosima
@@ -102,11 +115,67 @@ LEXICON V-manitsõma
 +V+Ind+Prt+ScSg3:tś # ;
 +V+Inf:daq # ;
 +V+Inf:tsaq # ;
-+V+PrfPrcAct:nuq # ;
-+V+PrfPrcAct:tsnuq # ;
-+V+PrfPrcPss:t # ;
-+V+PrfPrcPss:tsõt # ;
++V+ActPrfPrc:nuq # ;
++V+ActPrfPrc:tsnuq # ;
++V+PssPrfPrc:t # ;
++V+PssPrfPrc:tsõt # ;
 
+!! !INDICATIVE PRESENT SUBJECT CONJUGATION
+LEXICON V0-IND-PRS-SC-12
++Ind+Prs+ScSg1: K ;
++Ind+Prs+ScSg2:%>t K ;
++Ind+Prs+ScSg2:%>dõq K ;
++Ind+Prs+ScPl1:%>miq K ;
++Ind+Prs+ScPl2:%>tiq K ;
++Ind+Prs+ScPl2:%>dõq K ;
+
+LEXICON V0-IND-PRS-SCSG3_ZERO
++Ind+Prs+ScSg3: K ;
+LEXICON V0-IND-PRS-SCPL3_vAq
++Ind+Prs+ScPl3:%>v%{AÄ%}q K ;
+
+
+LEXICON V0-IND-PRS-SC3_s
++Ind+Prs+ScSg3:%>s K ;
++Ind+Prs+ScPl3:%>sõq K ;
+
+LEXICON V0-IND-PRS-SC-CONNEG
++Ind+Prs+Sc+ConNeg: K ;
++Ind+Prs+Sc+ConNeg:%-%{XV%}iq K ;
++Ind+Prs+Sc+ConNeg:%>q K ;
+
+
+!! !INDICATIVE PRESENT OBJECT CONJUGATION
+LEXICON V0-IND-PRS-OC
++Ind+Prs+OcSg1:%^WGStem%>d%{AÄ%} K ;
++Ind+Prs+OcSg2:%^WGStem%>t%{AÄ%}t K ;
++Ind+Prs+OcSg2:%^WGStem%>t%{AÄ%}dõq K ;
++Ind+Prs+OcSg3:%^WGStem%>t%{AÄ%}s K ;
++Ind+Prs+OcPl1:%^WGStem%>t%{AÄ%}miq K ;
++Ind+Prs+OcPl2:%^WGStem%>t%{AÄ%}tiq K ;
++Ind+Prs+OcPl2:%^WGStem%>t%{AÄ%}dõq K ;
++Ind+Prs+OcPl3:%^WGStem%>t%{AÄ%}sõq K ;
++Ind+Prs+Oc+ConNeg:%^WGStem%>d%{AÄ%} K ;
++Ind+Prs+Oc+ConNeg:%^WGStem%>d%{AÄ%}%-%{XV%}iq K ;
++Ind+Prs+Oc+ConNeg:%^WGStem%>d%{AÄ%}q K ;
+
+!! !INDICATIVE PRESENT PASSIVE CONJUGATION
+LEXICON V0-IND-PRS-PC
++Ind+Prs+PcSg1:%^WGStem%>d%{AÄ%} K ;
++Ind+Prs+PcSg2:%^WGStem%>t%{AÄ%}t K ;
++Ind+Prs+PcSg2:%^WGStem%>t%{AÄ%}dõq K ;
++Ind+Prs+PcSg3:%^WGStem%>t%{AÄ%}s K ;
++Ind+Prs+PcPl1:%^WGStem%>t%{AÄ%}miq K ;
++Ind+Prs+PcPl2:%^WGStem%>t%{AÄ%}tiq K ;
++Ind+Prs+PcPl2:%^WGStem%>t%{AÄ%}dõq K ;
++Ind+Prs+PcPl3:%^WGStem%>t%{AÄ%}sõq K ;
++Ind+Prs+Pc+ConNeg:%^WGStem%>d%{AÄ%} K ;
++Ind+Prs+Pc+ConNeg:%^WGStem%>d%{AÄ%}%-%{XV%}iq K ;
++Ind+Prs+Pc+ConNeg:%^WGStem%>d%{AÄ%}q K ;
+
+!! !NON-FINITES
+LEXICON V0-INF_mA
++Inf: K ;
 
 ! vim: set ft=xfst-lexc:
 
