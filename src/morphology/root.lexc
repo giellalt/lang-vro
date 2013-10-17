@@ -56,8 +56,8 @@ Multichar_Symbols
  +PcSg1 +PcSg2 +PcSg3 +PcPl1 +PcPl2 +PcPl3 +Pc
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
- +PrcPrsAct
- +PrfPrcAct +PrfPrcPss
+ +ActPrsPrc
+ +ActPrfPrc +PssPrfPrc
 
 ! Abbreviated words are classified with:
  +ABBR +ACR 
@@ -104,8 +104,13 @@ Multichar_Symbols
 !! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- {aä} {oö} {uü}
-AÄ1 OÖ1 UY1 V1 V2 V3 K1 
+ %{OÖ%} 	!!= @CODE@ Vowel harmony with oö
+ %{UÜ%} 	!!= @CODE@ Vowel harmony with uü
+ %{AÄ%} 	!!= @CODE@ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ %{ÕE%}  	!!= @CODE@ Vowel harmony with õe
+ %{XV%}		!!= @CODE@ This is used for echoing the previous vowel
+ %{XC%}		!!= @CODE@ This is used for lengthening a consonant
+ OÖ1 UY1 V1 V2 V3 K1 
 !! And following triggers to control variation
  {front} {back}
 %^NoGrad %^WGStem ^TS ^RVws 
