@@ -44,6 +44,12 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+  %{OÖ%} 	 Vowel harmony with oö
+  %{UÜ%} 	 Vowel harmony with uü
+  %{AÄ%} 	 Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+  %{ÕE%}  	 Vowel harmony with õe
+  %{XV%}		 This is used for echoing the previous vowel
+  %{XC%}		 This is used for lengthening a consonant
 And following triggers to control variation
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
