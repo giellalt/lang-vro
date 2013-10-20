@@ -3,8 +3,17 @@ The Võro morphophonological/twolc rules file
 
 
 
+  %{AÄ%}:0 	 Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
 
+  %{OÖ%}:0 	 Vowel harmony with oö OÖ1:o OÖ1:ö
 
+  %{UÜ%}:0 	 Vowel harmony with uü UY1:u UY1:y
+
+  %{ÕE%}:0        Vowel harmony with õe
+
+  %{XV%}:0		 This is used for echoing the previous vowel
+
+  %{XC%}:0	 This is used for lengthening a consonant
 
 
 
@@ -37,120 +46,123 @@ Right context for gradation
 !!!Rules
 
 
+!!VOWEL HARMONY 
+!Vowel harmony suffixes Front
+__%{AÄ%}:ä__  
 
-__StemVowLoss__  
+!Vowel harmony suffixes Back
+__%{AÄ%}:a__  
 
-__StemALoss__  
+__%{UÜ%}:ü__  
 
+__%{UÜ%}:u__  
 
-__StemAÄLoss__  
+__%{ÕE%}:e__
 
-
-__StemULoss__  
-
-
-__i:Zero__  
-
-__i:j__  
-
-__a:e__  
-
-__ä:e__  
+__%{ÕE%}:õ__
 
 
-__AÄ1:ä__  
+Stem vowel loss before plural "i"
+__%{ÕE%}:õ__  
+A loss
+__%{ÕE%}:õ__  
+%{AÄ%} loss
+__%{ÕE%}:õ__  
+U loss [u:0 | y:0]
+__%{ÕE%}:õ__  
+( %>  %^WCns:0 |  %>  %^LCns:0 ) %> i %> ;
+Stem vowel "i" loss before plural "i"
+__%{ÕE%}:õ__  
+iToj between vowels
+__%{ÕE%}:õ__  
+a to e in comparatives
+__%{ÕE%}:õ__  
+ä to e in comparatives
+__%{ÕE%}:õ__  
+Vowel harmony suffixes Front
+__%{ÕE%}:õ__  
+Vowel harmony suffixes Back
+__%{ÕE%}:õ__  
+Vws %> %^LCns: V1:
+Vowel agreement in illative 
+__%{ÕE%}:õ__  
+Vowel agreement in illative e
+__%{ÕE%}:õ__  
+Illative i with no intermittent _h_
+__%{ÕE%}:õ__  
 
-__AÄ1:a__  
 
-__OÖ1:ö__  
+__%{XV%}:u__
 
-__OÖ1:o__  
-
-__UY1:y__  
-
-__UY1:u__  
-
-__V1:aeouüäö__  
-
-__V1:e__  
-
-__V1:i__  
-
-__V2:aeiouüäö__  
+__%{XV%}:a__
 
 
-__V2:Zero__  
-
-
+ _mato:maool_ not allowed
+Used with patsas type nominals
+__%{XV%}:a__  
+__%{XV%}:a__  
+Vowel lengthening for the inesive and adessive with V3
 This deals with secondary or perhaps pertary vowel lengthening
-__V3:a__  
-
-__V3:e__  
-
-__V3:i__  
-
-__V3:o__  
-
-__V3:u__  
-
-__V3:ä__  
-
-__V3:ö__  
-
-__V3:y__  
-
-__V3:Zero__  
-
-__V3:Zero__  
+e.g. gen plural, ine, ade
+__%{XV%}:a__  
+__%{XV%}:a__  
+__%{XV%}:a__  
+__%{XV%}:a__  
+__%{XV%}:a__  
+__%{XV%}:a__  
+__%{XV%}:a__  
+__%{XV%}:a__  
+__%{XV%}:a__  
+! Vowel Lengthening
+mato : mattoon,
+__%{XV%}:a__  
 
 
-__consonant lengthening__  
-__j lengthening__  
+
+mato : mattoo, näytettävä : näytettävvää
+__%{XV%}:a__  
 
 
+__%{XC%}:k__
+
+
+oja: oija
+__%{XC%}:k__  
+TO HERE
 Consonant weakening 
-
-
-
-__Ut:vv Uk:vv weakening__  
-
-__0:v Lengthening with Ut:vv weakening__  
-
-
-
-
-__it:j__  
-
-__st:ss weakening__  
-
-
-__rt:rr weakening__  
-
-__lt:ll weakening__  
-
-__nt:nn weakening__  
-
+t:0, k:0 (suku:suun), p:v, ht:h, hk:h, lt:ll, rt:rr
+mp:mm, nt:nn, st:ss,
+it:ij, lk:l, rk:r, nk:ng, sk:s, tk:t, 
+kk:k, tt:t, pp:p
+ut:vv, yt:vv (uut:uuvv), uk:vv
+aika:ajan, poika:pojan, reikä:reijän, liika:liijan
+lp:lv, rp:rv
 p
-
-__mp:mm weakening__  
-
-
-__nk:ng weakening__  
+__%{XC%}:k__  
+[ ( %> ) :Vws ( 0: ) %> %^WCns:0 | Vws:0 %> i: %> %^WCns:0 | Vws:0 %>  %^WCns:0 %> i: %> ] ;
+__%{XC%}:k__  
+__%{XC%}:k__  
+viis: viijes
+__%{XC%}:k__  
+__%{XC%}:k__  
+last-minute verbs
+"ti:si in verbs"
+__%{XC%}:k__  
+__%{XC%}:k__  
+__%{XC%}:k__  
+__%{XC%}:k__  
 
 
 __kToZero__  
 
-__kToj__  
-
-__Double stop:weakens tToZero__  
-
-__p:v__  
-
-__double pp to p__  
-
+liika:liijan, reikä:reijän
+__kToZero__  
+mato : maot, ! mato : maool
+tToZero in weak
+__kToZero__  
+lupa : luvan
+__kToZero__  
+__kToZero__  
 Vowel raising
-__o:u ö:y in Inf__  
-
-
-
-
+__kToZero__  
+V3: /<= :Vws :0* :Vws :0* _ ;
