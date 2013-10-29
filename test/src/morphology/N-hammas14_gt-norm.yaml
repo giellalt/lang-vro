@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hammas: # Noun (14) hammas 'eng /est /fin' - full paradigm
+     hammas+N+Sg+Nom: hammas
+     hammas+N+Sg+Gen: hamba
+     hammas+N+Sg+Par: hammast
+     hammas+N+Sg+Ill: hambahe
+     hammas+N+Pl+Gen: [hambidõ, hammastõ]
+     hammas+N+Pl+Par: hambit
+     hammas+N+Pl+Ill: [hambihe, hammastõhe]
+     hammas+N+Pl+All: [hambilõ, hammastõlõ]
+

@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - makõ2: # Noun (9) makõ2 'eng /est /fin' - full paradigm
+     makõ+N+Sg+Nom: makõ
+     makõ+N+Sg+Gen: magõhõ
+     makõ+N+Sg+Par: magõhõt
+     makõ+N+Sg+Ill: magõhõhe
+     makõ+N+Pl+Gen: magõhidõ
+     makõ+N+Pl+Par: magõhit
+     makõ+N+Pl+Ill: magõhihe
+     makõ+N+Pl+All: magõhilõ
+

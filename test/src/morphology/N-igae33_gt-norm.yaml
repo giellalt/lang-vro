@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - igä: # Noun (33) igä 'eng /est /fin' - full paradigm
+     igä+N+Sg+Nom: igä
+     igä+N+Sg+Gen: iä
+     igä+N+Sg+Par: ikä
+     igä+N+Sg+Ill: ikkä
+     igä+N+Pl+Gen: iki
+     igä+N+Pl+Par: iki
+     igä+N+Pl+Ill: [ikkihe, ikki]
+     igä+N+Pl+All: ikile
+

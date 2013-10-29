@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - elläi: # Noun (4) elläi 'eng /est /fin' - full paradigm
+     elläi+N+Sg+Nom: elläi
+     elläi+N+Sg+Gen: eläjä
+     elläi+N+Sg+Par: eläjät
+     elläi+N+Sg+Ill: eläjähe
+     elläi+N+Pl+Gen: eläjide
+     elläi+N+Pl+Par: eläjit
+     elläi+N+Pl+Ill: eläjihe
+     elläi+N+Pl+All: eläjile
+

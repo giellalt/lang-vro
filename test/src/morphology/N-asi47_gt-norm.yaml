@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - asi: # Noun (47) asi 'eng /est /fin' - full paradigm
+     asi+N+Sg+Nom: asi
+     asi+N+Sg+Gen: aśa
+     asi+N+Sg+Par: asja
+     asi+N+Sg+Ill: asja
+     asi+N+Pl+Gen: asjo
+     asi+N+Pl+Par: asjo
+     asi+N+Pl+Ill: [asjohe, asjo]
+     asi+N+Pl+All: aśolõ
+

@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tükk: # Noun (41) tükk 'eng /est /fin' - full paradigm
+     tükk+N+Sg+Nom: tükk
+     tükk+N+Sg+Gen: tükü
+     tükk+N+Sg+Par: tükkü
+     tükk+N+Sg+Ill: tükkü
+     tükk+N+Pl+Gen: [tükke, tükkä]
+     tükk+N+Pl+Par: [tükke, tükkä]
+     tükk+N+Pl+Ill: [tükkehe, tükke, tükkähe, tükkä]
+     tükk+N+Pl+All: [tükele, tükäle]
+

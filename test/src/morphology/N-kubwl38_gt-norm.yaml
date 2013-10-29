@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - "kubõl, kupl": # Noun (38) "kubõl, kupl" 'eng /est /fin' - full paradigm
+     kubõl+N+Sg+Nom: [kubõl, kupl]
+     kubõl+N+Sg+Gen: kubla
+     kubõl+N+Sg+Par: kupla
+     kubõl+N+Sg+Ill: kupla
+     kubõl+N+Pl+Gen: kuplõ
+     kubõl+N+Pl+Par: kuplõ
+     kubõl+N+Pl+Ill: [kuplõhe, kuplõ]
+     kubõl+N+Pl+All: kublõlõ
+

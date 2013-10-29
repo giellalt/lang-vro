@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kuu: # Noun (29) kuu 'eng /est /fin' - full paradigm
+     kuu+N+Sg+Nom: kuu
+     kuu+N+Sg+Gen: kuu
+     kuu+N+Sg+Par: kuud
+     kuu+N+Sg+Ill: [kuuhtõ, kuuhõ]
+     kuu+N+Pl+Gen: kuiõ
+     kuu+N+Pl+Par: kuid
+     kuu+N+Pl+Ill: [kuihtõ, kuihõ]
+     kuu+N+Pl+All: kuilõ
+

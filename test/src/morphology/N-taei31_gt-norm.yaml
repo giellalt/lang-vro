@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - täi: # Noun (31) täi 'eng /est /fin' - full paradigm
+     täi+N+Sg+Nom: täi
+     täi+N+Sg+Gen: täi
+     täi+N+Sg+Par: täid
+     täi+N+Sg+Ill: [täihte, täihe]
+     täi+N+Pl+Gen: täie
+     täi+N+Pl+Par: täie
+     täi+N+Pl+Ill: [täihte, täihe]
+     täi+N+Pl+All: täele
+
+

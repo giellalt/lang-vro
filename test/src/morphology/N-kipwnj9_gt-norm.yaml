@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kipõñ: # Noun (9) kipõñ 'eng /est /fin' - full paradigm
+     kipõñ+N+Sg+Nom: kipõñ
+     kipõñ+N+Sg+Gen: kibõna
+     kipõñ+N+Sg+Par: kibõnat
+     kipõñ+N+Sg+Ill: kibõnahe
+     kipõñ+N+Pl+Gen: kibõnidõ
+     kipõñ+N+Pl+Par: kibõnit
+     kipõñ+N+Pl+Ill: kibõnihe
+     kipõñ+N+Pl+All: kibõnilõ
+

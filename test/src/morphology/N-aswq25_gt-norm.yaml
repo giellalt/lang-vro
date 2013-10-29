@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - asõq: # Noun (25) asõq 'eng /est /fin' - full paradigm
+     asõq+N+Sg+Nom: asõq
+     asõq+N+Sg+Gen: [asõmõ, asõma]
+     asõq+N+Sg+Par: asõnd
+     asõq+N+Sg+Ill: [asõmõhe, asõmahe]
+     asõq+N+Pl+Gen: [asõmidõ, asõndõ]
+     asõq+N+Pl+Par: asõmit
+     asõq+N+Pl+Ill: [asõmihe, asõndõhe]
+     asõq+N+Pl+All: [asõmilõ, asõndõlõ]
+

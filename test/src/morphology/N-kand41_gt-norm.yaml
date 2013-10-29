@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kand: # Noun (41) kand 'eng /est /fin' - full paradigm
+     kand+N+Sg+Nom: kand
+     kand+N+Sg+Gen: kanno
+     kand+N+Sg+Par: kando
+     kand+N+Sg+Ill: kando
+     kand+N+Pl+Gen: [kandõ, kanda]
+     kand+N+Pl+Par: [kandõ, kanda]
+     kand+N+Pl+Ill: [kandõhe, kandõ, kandahe]
+     kand+N+Pl+All: [kannõlõ, kannalõ]
+

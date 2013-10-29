@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - silm: # Noun (36) silm 'eng /est /fin' - full paradigm
+     silm+N+Sg+Nom: silm
+     silm+N+Sg+Gen: silmä
+     silm+N+Sg+Par: silmä
+     silm+N+Sg+Ill: silmä
+     silm+N+Pl+Gen: silmi
+     silm+N+Pl+Par: silmi
+     silm+N+Pl+Ill: [silmihe, silmi]
+     silm+N+Pl+All: silmile
+

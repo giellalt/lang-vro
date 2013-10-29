@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - talo: # Noun (40) talo 'eng /est /fin' - full paradigm
+     talo+N+Sg+Nom: talo
+     talo+N+Sg+Gen: talo
+     talo+N+Sg+Par: tallo
+     talo+N+Sg+Ill: tallo
+     talo+N+Pl+Gen: [tallõ, talla]
+     talo+N+Pl+Par: [tallõ, talla]
+     talo+N+Pl+Ill: [tallõhe, tallõ, tallahe, talla]
+     talo+N+Pl+All: [tallõlõ, talõlõ, tallalõ, talalõ]
+

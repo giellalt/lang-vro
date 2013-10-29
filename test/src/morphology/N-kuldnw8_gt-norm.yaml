@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - `kuldnõ: # Noun (8) `kuldnõ 'eng /est /fin' - full paradigm
+     kuldnõ+N+Sg+Nom: kuldnõ
+     kuldnõ+N+Sg+Gen: kuldsõ
+     kuldnõ+N+Sg+Par: kuldsõt
+     kuldnõ+N+Sg+Ill: kuldsõhe
+     kuldnõ+N+Pl+Gen: kuldsidõ
+     kuldnõ+N+Pl+Par: kuldsit
+     kuldnõ+N+Pl+Ill: kuldsihe
+     kuldnõ+N+Pl+All: kuldsilõ
+

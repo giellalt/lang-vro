@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ritśkas: # Noun (14) ritśkas 'eng /est /fin' - full paradigm
+     ritśkas+N+Sg+Nom: ritśkas
+     ritśkas+N+Sg+Gen: ritśka
+     ritśkas+N+Sg+Par: [ritśkast, ritśkat]
+     ritśkas+N+Sg+Ill: ritśkahe
+     ritśkas+N+Pl+Gen: [ritśkidõ, ritśkastõ]
+     ritśkas+N+Pl+Par: ritśkit
+     ritśkas+N+Pl+Ill: [ritśkihe, ritśkastõhe]
+     ritśkas+N+Pl+All: [ritśkilõ, ritśkastõlõ]
+

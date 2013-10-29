@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kotus: # Noun (15) kotus 'eng /est /fin' - full paradigm
+     kotus+N+Sg+Nom: kotus
+     kotus+N+Sg+Gen: [kotussõ, kotusõ]
+     kotus+N+Sg+Par: kotust
+     kotus+N+Sg+Ill: kotussõhe
+     kotus+N+Pl+Gen: [kotussidõ, kotustõ]
+     kotus+N+Pl+Par: kotussit
+     kotus+N+Pl+Ill: [kotussihe, kotustõhe]
+     kotus+N+Pl+All: [kotussilõ, kotustõlõ]
+

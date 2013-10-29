@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - "kogõr, kokr": # Noun (36) "kogõr, kokr" 'eng /est /fin' - full paradigm
+     kogõr+N+Sg+Nom: [kogõr, kokr]
+     kogõr+N+Sg+Gen: kogrõ
+     kogõr+N+Sg+Par: kokrõ
+     kogõr+N+Sg+Ill: kokrõ
+     kogõr+N+Pl+Gen: kokri
+     kogõr+N+Pl+Par: kokri
+     kogõr+N+Pl+Ill: [kokrihe, kokri]
+     kogõr+N+Pl+All: kogrilõ
+

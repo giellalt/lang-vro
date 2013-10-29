@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - oppaja: # Noun (5) oppaja 'eng /est /fin' - full paradigm
+     oppaja+N+Sg+Nom: oppaja
+     oppaja+N+Sg+Gen: oppaja
+     oppaja+N+Sg+Par: oppajat
+     oppaja+N+Sg+Ill: oppajahe
+     oppaja+N+Pl+Gen: oppajidõ
+     oppaja+N+Pl+Par: oppajit
+     oppaja+N+Pl+Ill: oppajihe
+     oppaja+N+Pl+All: oppajilõ
+

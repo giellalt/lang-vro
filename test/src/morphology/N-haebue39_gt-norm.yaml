@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - häbü: # Noun (39) häbü 'eng /est /fin' - full paradigm
+     häbü+N+Sg+Nom: häbü
+     häbü+N+Sg+Gen: häü
+     häbü+N+Sg+Par: häpü
+     häbü+N+Sg+Ill: häppü
+     häbü+N+Pl+Gen: [häpe, häpä]
+     häbü+N+Pl+Par: [häpe, häpä]
+     häbü+N+Pl+Ill: [häppehe, häppe, häppähe, häppä]
+     häbü+N+Pl+All: [häpele, häpäle]
+

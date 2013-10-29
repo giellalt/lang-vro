@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kask: # Noun (8) kask 'eng /est /fin' - full paradigm
+     kask+N+Sg+Nom: kask
+     kask+N+Sg+Gen: kaska
+     kask+N+Sg+Par: kaskat
+     kask+N+Sg+Ill: kaskahe
+     kask+N+Pl+Gen: kaskidõ
+     kask+N+Pl+Par: kaskit
+     kask+N+Pl+Ill: kaskihe
+     kask+N+Pl+All: kaskilõ
+

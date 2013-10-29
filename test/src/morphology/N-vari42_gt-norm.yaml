@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vari: # Noun (42) vari 'eng /est /fin' - full paradigm
+     vari+N+Sg+Nom: vari
+     vari+N+Sg+Gen: vaŕo
+     vari+N+Sg+Par: varjo
+     vari+N+Sg+Ill: varjo
+     vari+N+Pl+Gen: [varjõ, varja]
+     vari+N+Pl+Par: [varjõ, varja]
+     vari+N+Pl+Ill: [varjõhe, varjõ, varjahe, varja]
+     vari+N+Pl+All: [vaŕõlõ, vaŕalõ]
+

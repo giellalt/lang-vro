@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tarõ: # Noun (35) tarõ 'eng /est /fin' - full paradigm
+     tarõ+N+Sg+Nom: tarõ
+     tarõ+N+Sg+Gen: tarõ
+     tarõ+N+Sg+Par: tarrõ
+     tarõ+N+Sg+Ill: tarrõ
+     tarõ+N+Pl+Gen: tarri
+     tarõ+N+Pl+Par: tarri
+     tarõ+N+Pl+Ill: [tarrihe, tarri]
+     tarõ+N+Pl+All: [tarrilõ, tarilõ]
+

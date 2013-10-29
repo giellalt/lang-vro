@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - võrokõnõ: # Noun (22) võrokõnõ 'eng /est /fin' - full paradigm
+     võrokõnõ+N+Sg+Nom: võrokõnõ
+     võrokõnõ+N+Sg+Gen: võrokõsõ
+     võrokõnõ+N+Sg+Par: võrokõist
+     võrokõnõ+N+Sg+Ill: võrokõistõ
+     võrokõnõ+N+Pl+Gen: [võrokõisi, võrokõistõ]
+     võrokõnõ+N+Pl+Par: võrokõisi
+     võrokõnõ+N+Pl+Ill: võrokõisihe
+     võrokõnõ+N+Pl+All: [võrokõisilõ, võrokõistõlõ]
+
