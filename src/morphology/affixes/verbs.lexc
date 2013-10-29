@@ -51,6 +51,7 @@ LEXICON V-63sõimama !!= @CODE@ sõimama:sõima
 +V: V0-IND-PRT-SC3_s ;
 +V: V0-IND-PRT-OC ;
 
++V: DEVERBAL_minÕ ;
 +V: V0-INF_mA ;
 +V: V0-INF_dAq ;
 +V: V0-ACT-PRS-PRC ;
@@ -257,6 +258,11 @@ LEXICON V0-INF_mA
 
 LEXICON V0-INF_dAq
 +Inf:%>d%{AÄ%}q K ;
+
+LEXICON DEVERBAL_minÕ
++Der/minÕ+N:%>mi NMN_16INEMINE ;
+
+
 
 LEXICON V0-ACT-PRS-PRC
 +ActPrsPrc:v K ;
