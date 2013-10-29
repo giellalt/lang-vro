@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hapu: # Noun (27) hapu 'eng /est /fin' - full paradigm
+     hapu+N+Sg+Nom: hapu
+     hapu+N+Sg+Gen: [hapnõ, hapna]
+     hapu+N+Sg+Par: hapund
+     hapu+N+Sg+Ill: [hapnõhe, hapnahe]
+     hapu+N+Pl+Gen: [hapnidõ, hapundõ]
+     hapu+N+Pl+Par: hapnit
+     hapu+N+Pl+Ill: [hapnihe, hapundõhe]
+     hapu+N+Pl+All: [hapnilõ, hapundõlõ]
+

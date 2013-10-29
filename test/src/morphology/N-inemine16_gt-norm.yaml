@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - inemine: # Noun (16) inemine 'eng /est /fin' - full paradigm
+     inemine+N+Sg+Nom: inemine
+     inemine+N+Sg+Gen: inemise
+     inemine+N+Sg+Par: inemist
+     inemine+N+Sg+Ill: inemiste
+     inemine+N+Pl+Gen: [inemiisi, inemiste]
+     inemine+N+Pl+Par: inemiisi
+     inemine+N+Pl+Ill: inemiisihe
+     inemine+N+Pl+All: [inemiisile, inemistele]
+

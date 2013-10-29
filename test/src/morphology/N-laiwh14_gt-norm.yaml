@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - laiõh: # Noun (14) laiõh 'eng /est /fin' - full paradigm
+     laiõh+N+Sg+Nom: laiõh
+     laiõh+N+Sg+Gen: laidõ
+     laiõh+N+Sg+Par: laiõht
+     laiõh+N+Sg+Ill: laidõhe
+     laiõh+N+Pl+Gen: [laididõ, laiõhtõ]
+     laiõh+N+Pl+Par: laidit
+     laiõh+N+Pl+Ill: [laidihe, laiõhtõhe]
+     laiõh+N+Pl+All: [laidilõ, laiõhtõlõ]
+

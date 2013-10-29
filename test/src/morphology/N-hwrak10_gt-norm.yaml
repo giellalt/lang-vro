@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hõrak: # Noun (10) hõrak 'eng /est /fin' - full paradigm
+     hõrak+N+Sg+Nom: hõrak
+     hõrak+N+Sg+Gen: [hõraga, hõragu]
+     hõrak+N+Sg+Par: hõrakat
+     hõrak+N+Sg+Ill: [hõrakahe, hõrakuhe]
+     hõrak+N+Pl+Gen: hõrakidõ
+     hõrak+N+Pl+Par: hõrakit
+     hõrak+N+Pl+Ill: hõrakihe
+     hõrak+N+Pl+All: hõrakilõ
+

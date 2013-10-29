@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - jalg: # Noun (46) jalg 'eng /est /fin' - full paradigm
+     jalg+N+Sg+Nom: jalg
+     jalg+N+Sg+Gen: jala
+     jalg+N+Sg+Par: jalga
+     jalg+N+Sg+Ill: jalga
+     jalg+N+Pl+Gen: jalgo
+     jalg+N+Pl+Par: jalgo
+     jalg+N+Pl+Ill: [jalgohe, jalgo]
+     jalg+N+Pl+All: jalolõ
+

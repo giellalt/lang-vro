@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - `tialanõ: # Noun (19) `tialanõ 'eng /est /fin' - full paradigm
+     tialanõ+N+Sg+Nom: tialanõ
+     tialanõ+N+Sg+Gen: [tialadsõ, tialasõ]
+     tialanõ+N+Sg+Par: tialast
+     tialanõ+N+Sg+Ill: tialastõ
+     tialanõ+N+Pl+Gen: [tialaidsi, tialaisi, tialastõ]
+     tialanõ+N+Pl+Par: [tialaidsi, tialaisi]
+     tialanõ+N+Pl+Ill: [tialaidsihe, tialaisihe]
+     tialanõ+N+Pl+All: [tialaidsilõ, tialaisilõ, tialastõlõ]
+

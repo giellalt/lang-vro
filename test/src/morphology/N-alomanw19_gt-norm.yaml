@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - alomanõ: # Noun (19) alomanõ 'eng /est /fin' - full paradigm
+     alomanõ+N+Sg+Nom: alomanõ
+     alomanõ+N+Sg+Gen: alomadsõ
+     alomanõ+N+Sg+Par: alomast
+     alomanõ+N+Sg+Ill: alomastõ
+     alomanõ+N+Pl+Gen: [alomaidsi, alomastõ]
+     alomanõ+N+Pl+Par: alomaidsi
+     alomanõ+N+Pl+Ill: alomaidsihe
+     alomanõ+N+Pl+All: [alomaidsilõ, alomastõlõ]
+

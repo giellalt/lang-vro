@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - aig: # Noun (41) aig 'eng /est /fin' - full paradigm
+     aig+N+Sg+Nom: aig
+     aig+N+Sg+Gen: ao
+     aig+N+Sg+Par: aigo
+     aig+N+Sg+Ill: aigo
+     aig+N+Pl+Gen: aigõ
+     aig+N+Pl+Par: aigõ
+     aig+N+Pl+Ill: [aigõhe, aigõ]
+     aig+N+Pl+All: aelõ
+

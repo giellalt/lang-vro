@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kuld: # Noun (38) kuld 'eng /est /fin' - full paradigm
+     kuld+N+Sg+Nom: kuld
+     kuld+N+Sg+Gen: kulla
+     kuld+N+Sg+Par: kulda
+     kuld+N+Sg+Ill: kulda
+     kuld+N+Pl+Gen: kuldõ
+     kuld+N+Pl+Par: kuldõ
+     kuld+N+Pl+Ill: [kuldõhe, kuldõ]
+     kuld+N+Pl+All: kullõlõ
+

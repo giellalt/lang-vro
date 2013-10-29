@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - "nagõl, nakl": # Noun (46) "nagõl, nakl" 'eng /est /fin' - full paradigm
+     nagõl+N+Sg+Nom: [nagõl, nakl]
+     nagõl+N+Sg+Gen: nagla
+     nagõl+N+Sg+Par: nakla
+     nagõl+N+Sg+Ill: nakla
+     nagõl+N+Pl+Gen: naklo
+     nagõl+N+Pl+Par: naklo
+     nagõl+N+Pl+Ill: [naklohe, naklo]
+     nagõl+N+Pl+All: naglolõ
+

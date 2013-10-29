@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kuuĺ: # Noun (38) kuuĺ 'eng /est /fin' - full paradigm
+     kuuĺ+N+Sg+Nom: kuuĺ
+     kuuĺ+N+Sg+Gen: kooli
+     kuuĺ+N+Sg+Par: kuuli
+     kuuĺ+N+Sg+Ill: kuuli
+     kuuĺ+N+Pl+Gen: kuulõ
+     kuuĺ+N+Pl+Par: kuulõ
+     kuuĺ+N+Pl+Ill: [kuulõhe, kuulõhe]
+     kuuĺ+N+Pl+All: koolõlõ
+

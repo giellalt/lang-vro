@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - väits: # Noun (20) väits 'eng /est /fin' - full paradigm
+     väits+N+Sg+Nom: väits
+     väits+N+Sg+Gen: väidse
+     väits+N+Sg+Par: väist
+     väits+N+Sg+Ill: väiste
+     väits+N+Pl+Gen: [väitsi, väiste]
+     väits+N+Pl+Par: väitsi
+     väits+N+Pl+Ill: [väitsihe, väitsi]
+     väits+N+Pl+All: [väidsile, väistele]
+

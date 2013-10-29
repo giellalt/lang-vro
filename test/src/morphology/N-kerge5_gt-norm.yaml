@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - `kerge: # Noun (5) `kerge 'eng /est /fin' - full paradigm
+     kerge+N+Sg+Nom: kerge
+     kerge+N+Sg+Gen: kerge
+     kerge+N+Sg+Par: kerget
+     kerge+N+Sg+Ill: kergehe
+     kerge+N+Pl+Gen: kergide
+     kerge+N+Pl+Par: kergit
+     kerge+N+Pl+Ill: kergihe
+     kerge+N+Pl+All: kergile
+

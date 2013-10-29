@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - särǵ: # Noun (36) särǵ 'eng /est /fin' - full paradigm
+     särǵ+N+Sg+Nom: särǵ
+     särǵ+N+Sg+Gen: säre
+     särǵ+N+Sg+Par: särge
+     särǵ+N+Sg+Ill: särge
+     särǵ+N+Pl+Gen: särgi
+     särǵ+N+Pl+Par: särgi
+     särǵ+N+Pl+Ill: [särgihe, särgi]
+     särǵ+N+Pl+All: särile
+

@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ehitüs: # Noun (18) ehitüs 'eng /est /fin' - full paradigm
+     ehitüs+N+Sg+Nom: ehitüs
+     ehitüs+N+Sg+Gen: ehitüse
+     ehitüs+N+Sg+Par: ehitüst
+     ehitüs+N+Sg+Ill: ehitüste
+     ehitüs+N+Pl+Gen: [ehitüisi, ehitüste]
+     ehitüs+N+Pl+Par: ehitüisi
+     ehitüs+N+Pl+Ill: ehitüisihe
+     ehitüs+N+Pl+All: [ehitüisile, ehitüstele]
+

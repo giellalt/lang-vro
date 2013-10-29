@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hain: # Noun (46) hain 'eng /est /fin' - full paradigm
+     hain+N+Sg+Nom: hain
+     hain+N+Sg+Gen: haina
+     hain+N+Sg+Par: haina
+     hain+N+Sg+Ill: haina
+     hain+N+Pl+Gen: haino
+     hain+N+Pl+Par: haino
+     hain+N+Pl+Ill: [hainohe, haino]
+     hain+N+Pl+All: hainolõ
+

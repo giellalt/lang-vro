@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - alonõ: # Noun (13) alonõ 'eng /est /fin' - full paradigm
+     alonõ+N+Sg+Nom: alonõ
+     alonõ+N+Sg+Gen: alodsõ
+     alonõ+N+Sg+Par: alost
+     alonõ+N+Sg+Ill: alotsõhe
+     alonõ+N+Pl+Gen: [alotsidõ, alostõ]
+     alonõ+N+Pl+Par: alotsit
+     alonõ+N+Pl+Ill: [alotsihe, alostõhe]
+     alonõ+N+Pl+All: [alotsilõ, alostõlõ]
+
