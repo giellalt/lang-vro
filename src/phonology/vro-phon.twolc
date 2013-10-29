@@ -67,7 +67,7 @@ K1:k
 %^TS:0
 
 ! Vowel raising
-%^RVws:0
+%^RVow:0
 
 %^VowRM:0 !!= @CODE@ this will remove stem final vowel
 
@@ -81,7 +81,7 @@ Cy
 X
 Y
 
-%^LVws:0
+%^LVow:0
 %^LCns:0
 %^WCns:0
 %^AtoO:0
@@ -96,45 +96,45 @@ Y
 
 Sets
 
-VwsBack = a o u õ ;
-VwsFront = ä ö y ü ;
-VwsNeutral = e i ; 
-VwsNonHigh = a o ä ö e ;
-Vws = a o u ä ö y ü e i õ ;
+VowBack = a o u õ ;
+VowFront = ä ö y ü ;
+VowNeutral = e i ; 
+VowNonHigh = a o ä ö e ;
+Vow = a o u ä ö y ü e i õ ;
 
 Cns = b d f g h j k l m n p q r s š t v z ž ;
 
-Letters = Vws Cns ;
+Letters = Vow Cns ;
 
-VwsDummies = %^WGStem %> ;
+VowDummies = %^WGStem %> ;
 
 Definitions
 
 ! Front Trigger
-FT =  [ # Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] \[ # | VwsBack: | :VwsBack ]*  ;
+FT =  [ # Cns* [ VowFront | VowNeutral | i: ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
 
 
 ! Back Trigger 
-BT =   ( # Cns* ( [ VwsNeutral | i: ] \[ # | VwsFront: | :VwsFront ]* ) ) [ VwsBack: | :VwsBack ]  \[ # | VwsFront: | :VwsFront ]* ;
+BT =   ( # Cns* ( [ VowNeutral | i: ] \[ # | VowFront: | :VowFront ]* ) ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
 
 ! Gradation strong to weak
 !GS2W = [ p:v | m p:m | t:0 | l t:l | r t:r | n t:n | s t:s | k:0 | l k:0 | r k:0 | n k:g | s k:0 ] ;
 
 ! Short vowel
-SV = [ [ # | Cns+ ] :Vws ] ;
+SV = [ [ # | Cns+ ] :Vow ] ;
 
  ! If a vowel is preceeded by this, is can be long
 !  in both the inessive and the adessive
 ! Inessive lengthening of vowel
-IL = [ # Cns* Vws : Cns:+ | Cns* Vws+ Cns:+  Vws:+ Cns:+  ] ;
+IL = [ # Cns* Vow : Cns:+ | Cns* Vow+ Cns:+  Vow:+ Cns:+  ] ;
 
 !! Right context for gradation
-GRC =  [ [ ( %> ) %{AÄ%}: | %{OÖ%}: | %{UÜ%}: | Vws: | :Vws ]  ( %> i ) |  %>  i ] %> %^WCns:0  ;
+GRC =  [ [ ( %> ) %{AÄ%}: | %{OÖ%}: | %{UÜ%}: | Vow: | :Vow ]  ( %> i ) |  %>  i ] %> %^WCns:0  ;
 
 ! oma:ommaa, 
 ! Subsequent Long Vowel
 ! preceeded by "Cns _"
-! 2012-10-11 SLV =  [ :Vws [ ( %> %^LCns:0 %^LVws:0 | %> %^LCns:0 | %> i %> | %> ) [ V1:Vws | %{AÄ%}: ] |  0:Vws %> ( %^LCns:0 | %^WCns: ) %^LVws: | %> %^LCns:0  ] ] ;
+! 2012-10-11 SLV =  [ :Vow [ ( %> %^LCns:0 %^LVow:0 | %> %^LCns:0 | %> i %> | %> ) [ V1:Vow | %{AÄ%}: ] |  0:Vow %> ( %^LCns:0 | %^WCns: ) %^LVow: | %> %^LCns:0  ] ] ;
 
 !! !!!Rules
 
@@ -189,15 +189,7 @@ Rules
 
 
 
-! Secondary Consonant lengthening
-!!2013-10-17!! mato : mattoo, näytettävä : näytettävvää
-!!2013-10-17!!"even-syllable" This should be secondary
-!!2013-10-17!"consonant lengthening"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! 0:Cx <=> 
-!!2013-10-17!         [ # Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ( %> %^LCns:0 ) | # Cns*  Vws | %^OddSyll:0 ] Cx _ ( [ Vws: | :Vws ] ( :Vws ) ) %> %^LCns:0 ; !
-!!2013-10-17!         # Cns* Vws Cx _ [ Vws 0: Cns ( Cns:0 ) :Vws | Vws %^SyllBr:0 e ] %^StretchSyll2:0 ; ! ommeena<omena ; venät:vennäen
-!!2013-10-17!           where Cx in (m p t s n r l k g h) ;
+!! Secondary Consonant lengthening
 
 
 "%{XC%}:k"
@@ -205,128 +197,27 @@ Rules
  %{XC%}:k <=> k _ ;
 
 
-!
-!!2013-10-17!! oja: oija
-!!2013-10-17!"j lengthening"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17!0:i <=> [ # ] Cns* Vws _ j Vws ( 0: ) %> %^LCns:0  ;
-!!2013-10-17!          [ [ :Cns | :Cns Vws:0 ] ( %> ) | Cns: ] i _ %> ( %^LCns: | %^WCns:0 ) %^LVws: ;
-!!2013-10-17!         [ # ] Cns* Vws Cns 0: i _ Cns :0 Vws [ Cns | [ # ] ] ;
-!!2013-10-17!         # Cns* Vws _ j [ Vws 0: Cns ( Cns:0 ) :Vws | Vws %^SyllBr:0 e ] %^StretchSyll2:0 ; ! ommeena<omena ; venät:vennäen, kaijaava
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!! TO HERE
-!!2013-10-17!!
-!!2013-10-17!!! Consonant weakening 
-!!2013-10-17!!
-!!2013-10-17!! t:0, k:0 (suku:suun), p:v, ht:h, hk:h, lt:ll, rt:rr
-!!2013-10-17!! mp:mm, nt:nn, st:ss,
-!!2013-10-17!! it:ij, lk:l, rk:r, nk:ng, sk:s, tk:t, 
-!!2013-10-17!! kk:k, tt:t, pp:p
-!!2013-10-17!! ut:vv, yt:vv (uut:uuvv), uk:vv
-!!2013-10-17!! aika:ajan, poika:pojan, reikä:reijän, liika:liijan
-!!2013-10-17!! lp:lv, rp:rv
-!!2013-10-17!
-!!2013-10-17!!! p
-!!2013-10-17!
-!!2013-10-17!"mp:mm weakening"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17!p:m <=> [ :Vws ( %> %^WCns:0 ) | [ a: | ä: ] %> %^WCns:0 %^E1:0 | %{AÄ%}: | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | %{AÄ%}: %> %^WCns:0 ( V3: ) Cns | %^TS:0 i %> %^WCns:0 ] ;
-!!2013-10-17!        m _ Vws l %^WGStem:0 ; ! ompel- to ommel-
-!!2013-10-17!! [ ( %> ) :Vws ( 0: ) %> %^WCns:0 | Vws:0 %> i: %> %^WCns:0 | Vws:0 %>  %^WCns:0 %> i: %> ] ;
-!!2013-10-17!!%> %^WCns %^E1 mp
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!"Ut:vv Uk:vv weakening"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! Cx:Cy <=> [ # ] Cns* Vws [ u: | y: ] _ 0:v [ GRC | %^TS:0 i %> %^WCns:0 ] ;
-!!2013-10-17!              where Cx in (k t)
-!!2013-10-17!                    Cy in (v v) matched ;
-!!2013-10-17!
-!!2013-10-17!"0:v Lengthening with Ut:vv weakening"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! 0:v <=> [ # ] Cns* Vws [ u: | y: ] [ t: | k: ]  _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
-!!2013-10-17!         [ # ][ Cns* Vws | Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ] v _  ( :Vws | %{AÄ%}: ) [ 0:Vws %> %^LCns: | %> %^LCns: :0* :Vws ] ; ! arvattava:arvattavvaa
-!!2013-10-17!        # Cns* Vws v _ Vws [ Vws 0: Cns ( Cns:0 ) :Vws | Vws %^SyllBr:0 e ] %^StretchSyll2:0 ; ! kevät:kevväen, tavvaara
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!! viis: viijes
-!!2013-10-17!"it:j"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! t:j <=> [ i | o ] i _ [ e | o ] %> %^WCns:0 ;
-!!2013-10-17!
-!!2013-10-17!"st:ss weakening"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17!t:s <=> Vws+ s _ ( %^TS:0 ) GRC ;
-!!2013-10-17!! last-minute verbs
-!!2013-10-17!! "ti:si in verbs"
-!!2013-10-17!   [ n | l | r | Vws Vws ] _ %^TS:0 ; !  pittää: piti 
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!"rt:rr weakening"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17!t:r <=>  Vws r _ GRC ;
-!!2013-10-17!
-!!2013-10-17!"lt:ll weakening"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17!t:l <=>  Vws l _ GRC ;
-!!2013-10-17!
-!!2013-10-17!"nt:nn weakening"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17!t:n <=>  Vws ( %> %^WCns:0 ) n _ GRC ;
-!!2013-10-17!
-!!2013-10-17!"nk:ng weakening"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17!k:g <=> [ # ] Cns* Vws n _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
+!! !Consonant weakening 
+
 
 
 ! aika: ajan
 "kToZero"
 !! __@RULENAME@__  
 k:0 <=> s _ a %^WGStem: ;
-! [  #  Cns* Vws (( r | i | VwsNonHigh ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
-![ [ # ] Cns* Vws (( r | i ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ Vws: | :Vws | ( Vws ) %> i ] ( %> i: | %^StretchSyll2:0 ) %> %^WCns:0 ;
-!        [ # ] Cns* VwsBack i: _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
+! [  #  Cns* Vow (( r | i | VowNonHigh ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
+![ [ # ] Cns* Vow (( r | i ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ Vow: | :Vow | ( Vow ) %> i ] ( %> i: | %^StretchSyll2:0 ) %> %^WCns:0 ;
+!        [ # ] Cns* VowBack i: _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
 
-!!2013-10-17!! liika:liijan, reikä:reijän
-!!2013-10-17!"kToj"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! k:j <=> [ # ] Cns* [ VwsFront | VwsNeutral ] i: _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
-!!2013-10-17!
-!!2013-10-17!! mato : maot, ! mato : maool
-!!2013-10-17!! tToZero in weak
-!!2013-10-17!"Double stop:weakens tToZero"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17!t:0 <=> [ # Cns* Vws | # Cns* Vws [ Vws - [ i | u | y ] ] | Vws h [ y | u ] ] _  GRC ;
-!!2013-10-17!        [ # Cns*  Vws+ [ h | (r) t ] | Vws ( %> %^WCns:0 ) t | Cns* Vws+ Cns+ Vws+ ( n ) t | Vws t ] _  [ GRC | %^TS:0 i %> %^WCns:0 ] ;
-!!2013-10-17!        t _ Vws l %^WGStem:0 ; ! ottel- to otel-
-!!2013-10-17!
-!!2013-10-17!! lupa : luvan
-!!2013-10-17!"p:v"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17!p:v <=> [ # ] Cns* Vws ( r | l | Vws ) _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
-!!2013-10-17!
-!!2013-10-17!"double pp to p"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17!p:0 <=> [ # Cns* Vws ( m ) p | # Cns* Vws Vws p | Cns* Vws+ Cns+ Vws+ p ] _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
-!!2013-10-17!
-!!2013-10-17!!! Vowel raising
-!!2013-10-17!"o:u ö:y in Inf"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! Vx:Vy <=> _ Vx: %> v v %{AÄ%}: %^RVws:0 ;
-!!2013-10-17!           Vx: _ %> v v %{AÄ%}: %^RVws:0 ;
-!!2013-10-17!          where Vx in (o ö)
-!!2013-10-17!                Vy in (u y) matched ;
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!!"Disallow WLoss after non-v"
-!!2013-10-17!!WLoss:0 /<= [[ :* Letters ] - [ :* [ в л | в О1: л ] ] ] %> _ ;
-!!2013-10-17!
-!!2013-10-17!!"Disallow V3 after two consecutive realized vowels"
-!!2013-10-17!! V3: /<= :Vws :0* :Vws :0* _ ;
-!!2013-10-17!
-!!2013-10-17!
+
+!! !CONSONANT QUALITY CHANGE
+"dTot"
+!! __@RULENAME@__
+ d:t <=> [ s | h ] %> _ ;
+
+
+"tTod"
+!! __@RULENAME@__
+ t:d <=> Vow Vow %> _ ;
+
+
