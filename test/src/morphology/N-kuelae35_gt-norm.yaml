@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - külä: # Noun (35) külä 'eng village/est /fin' - full paradigm
+     külä+N+Sg+Nom: külä
+     külä+N+Sg+Gen: külä
+     külä+N+Sg+Par: küllä
+     külä+N+Sg+Ill: küllä
+     külä+N+Sg+Ine: [külähn, külän]
+     külä+N+Sg+Ela: küläst
+     külä+N+Sg+All: küläle
+     külä+N+Sg+Ade: küläl
+     külä+N+Sg+Abl: külält
+     külä+N+Sg+Tra: küläs
+     külä+N+Sg+Ter: küläniq
+     külä+N+Sg+Abe: küläldäq
+     külä+N+Sg+Com: külägaq
+     külä+N+Pl+Nom: küläq
+     külä+N+Pl+Gen: külli
+     külä+N+Pl+Par: külli
+     külä+N+Pl+Ill: [küllihe, külli]
+     külä+N+Pl+Ine: [küllihn, külihn, küllin, külin]
+     külä+N+Pl+Ela: külist
+     külä+N+Pl+All: [küllile, külile]
+     külä+N+Pl+Ade: [küllil, külil]
+     külä+N+Pl+Abl: [küllilt, külilt]
+     külä+N+Pl+Tra: [küllis, külis]
+     külä+N+Pl+Ter: [külliniq, küliniq]
+     külä+N+Pl+Abe: [küllildäq, külildäq]
+     külä+N+Pl+Com: külligaq
+
