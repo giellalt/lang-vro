@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `ristʼmä: # Verb (86) `ristʼmä 'eng /est /fin' - full paradigm
+     `ristʼmä+V+Inf/mA: `ristʼmä
+     `ristʼmä+V+Inf: `ristiq
+     `ristʼmä+V+ActPrtPrc: `ristʼnüq
+     `ristʼmä+V+PssPrtPrc: ristit
+     `ristʼmä+V+Ind+Prs+ScSg1: risti
+     `ristʼmä+V+Ind+Prs+ScSg3: ristʼ
+     `ristʼmä+V+Ind+Prt+ScSg1: [ristʼe, `ristʼse]
+     `ristʼmä+V+Ind+Prt+ScSg3: [`ristʼe, `ristʼse]
+

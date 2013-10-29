@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - tulõma: # Verb (79) tulõma 'eng /est /fin' - full paradigm
+     tulõma+V+Inf/mA: tulõma
+     tulõma+V+Inf: tullaq
+     tulõma+V+ActPrtPrc: tulnuq
+     tulõma+V+PssPrtPrc: tult
+     tulõma+V+Ind+Prs+ScSg1: tulõ
+     tulõma+V+Ind+Prs+ScSg3: tulõ
+     tulõma+V+Ind+Prt+ScSg1: [tulli, `tulĺe]
+     tulõma+V+Ind+Prt+ScSg3: [tulĺ, `tulĺe]
+

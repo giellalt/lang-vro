@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `süümä: # Verb (77) `süümä 'eng /est /fin' - full paradigm
+     `süümä+V+Inf/mA: `süümä
+     `süümä+V+Inf: süvväq
+     `süümä+V+ActPrtPrc: söönüq
+     `süümä+V+PssPrtPrc: süüd
+     `süümä+V+Ind+Prs+ScSg1: süü
+     `süümä+V+Ind+Prs+ScSg3: [süü, sööse]
+     `süümä+V+Ind+Prt+ScSg1: `sei(e)
+     `süümä+V+Ind+Prt+ScSg3: `sei(e)
+

@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - nõsõma: # Verb (51) nõsõma 'eng /est /fin' - full paradigm
+     nõsõma+V+Inf/mA: nõsõma
+     nõsõma+V+Inf: nõstaq
+     nõsõma+V+ActPrtPrc: nõsnuq
+     nõsõma+V+PssPrtPrc: nõst
+     nõsõma+V+Ind+Prs+ScSg1: nõsõ
+     nõsõma+V+Ind+Prs+ScSg3: nõsõs
+     nõsõma+V+Ind+Prt+ScSg1: `nõssi
+     nõsõma+V+Ind+Prt+ScSg3: `nõssi
+
