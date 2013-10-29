@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tütäŕ: # Noun (28) tütäŕ 'eng /est /fin' - full paradigm
+     tütäŕ+N+Sg+Nom: tütäŕ
+     tütäŕ+N+Sg+Gen: tütre
+     tütäŕ+N+Sg+Par: tütärd
+     tütäŕ+N+Sg+Ill: tütrehe
+     tütäŕ+N+Pl+Gen: [tütride, tütärde]
+     tütäŕ+N+Pl+Par: tütrit
+     tütäŕ+N+Pl+Ill: [tütrihe, tütärdehe]
+     tütäŕ+N+Pl+All: [tütrile, tütärdele]
+

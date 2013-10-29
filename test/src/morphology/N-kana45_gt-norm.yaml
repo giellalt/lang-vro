@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kana: # Noun (45) kana 'eng /est /fin' - full paradigm
+     kana+N+Sg+Nom: kana
+     kana+N+Sg+Gen: kana
+     kana+N+Sg+Par: kanna
+     kana+N+Sg+Ill: kanna
+     kana+N+Pl+Gen: kanno
+     kana+N+Pl+Par: kanno
+     kana+N+Pl+Ill: [kannohe, kanno]
+     kana+N+Pl+All: [kannolõ, kanolõ]
+

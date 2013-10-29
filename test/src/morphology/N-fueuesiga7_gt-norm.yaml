@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - füüsiga: # Noun (7) füüsiga 'eng /est /fin' - full paradigm
+     füüsiga+N+Sg+Nom: füüsiga
+     füüsiga+N+Sg+Gen: füüsiga
+     füüsiga+N+Sg+Par: füüsikat
+     füüsiga+N+Sg+Ill: füüsikahe
+     füüsiga+N+Pl+Gen: füüsikide
+     füüsiga+N+Pl+Par: füüsikit
+     füüsiga+N+Pl+Ill: füüsikihe
+     füüsiga+N+Pl+All: füüsikile
+

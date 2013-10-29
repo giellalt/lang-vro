@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tüü: # Noun (30) tüü 'eng /est /fin' - full paradigm
+     tüü+N+Sg+Nom: tüü
+     tüü+N+Sg+Gen: tüü
+     tüü+N+Sg+Par: tüüd
+     tüü+N+Sg+Ill: [tüühü, tühüq]
+     tüü+N+Pl+Gen: töie
+     tüü+N+Pl+Par: töid
+     tüü+N+Pl+Ill: [töihte, töihe]
+     tüü+N+Pl+All: töile
+

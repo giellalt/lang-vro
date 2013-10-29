@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - puhm: # Noun (38) puhm 'eng /est /fin' - full paradigm
+     puhm+N+Sg+Nom: puhm
+     puhm+N+Sg+Gen: puhma
+     puhm+N+Sg+Par: puhma
+     puhm+N+Sg+Ill: puhma
+     puhm+N+Pl+Gen: puhmõ
+     puhm+N+Pl+Par: puhmõ
+     puhm+N+Pl+Ill: [puhmõhe, puhmõ]
+     puhm+N+Pl+All: puhmõlõ
+

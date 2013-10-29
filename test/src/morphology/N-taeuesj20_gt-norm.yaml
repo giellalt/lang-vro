@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - täüś: # Noun (20) täüś 'eng /est /fin' - full paradigm
+     täüś+N+Sg+Nom: täüś
+     täüś+N+Sg+Gen: tävve
+     täüś+N+Sg+Par: täüt
+     täüś+N+Sg+Ill: täüde
+     täüś+N+Pl+Gen: [täüsi, täüte]
+     täüś+N+Pl+Par: täüsi
+     täüś+N+Pl+Ill: [täüsihe, täüsi]
+     täüś+N+Pl+All: [tävvile, täütele]
+

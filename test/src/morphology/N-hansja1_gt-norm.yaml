@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hanśa: # Noun (1) hanśa 'eng /est /fin' - full paradigm
+     hanśa+N+Sg+Nom: hanśa
+     hanśa+N+Sg+Gen: hanśa
+     hanśa+N+Sg+Par: hanśat
+     hanśa+N+Sg+Ill: hanśahtõ
+     hanśa+N+Pl+Gen: hanśadõ
+     hanśa+N+Pl+Par: hanśasit
+     hanśa+N+Pl+Ill: hanśadõhe
+     hanśa+N+Pl+All: hanśadõlõ
+

@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - käsi: # Noun (24) käsi 'eng /est /fin' - full paradigm
+     käsi+N+Sg+Nom: käsi
+     käsi+N+Sg+Gen: käe
+     käsi+N+Sg+Par: kätt
+     käsi+N+Sg+Ill: kätte
+     käsi+N+Pl+Gen: [kässi, käte]
+     käsi+N+Pl+Par: kässi
+     käsi+N+Pl+Ill: [kässihe, kässi]
+     käsi+N+Pl+All: [kässile, käsile, kätele]
+
