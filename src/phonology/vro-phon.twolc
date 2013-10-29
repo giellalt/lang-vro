@@ -7,7 +7,7 @@ Alphabet
 a b d e f g h i j k l m n o p q r s š t u v y z ž õ ü ä ö
 A B D E F G H I J K L M N O P Q R S Š T U V Y Z Ž Õ Ü Ä Ö
 
-ś
+ǵ ḱ ĺ ń ś  ʼ
 
 ! Vowel harmony with "(t)a/ä"
  %{AÄ%}:0 	!!= @CODE@ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
@@ -68,6 +68,8 @@ K1:k
 
 ! Vowel raising
 %^RVws:0
+
+%^VowRM:0 !!= @CODE@ this will remove stem final vowel
 
 %: !used with Proper nouns
 %- !Hyphen in  constructions 
@@ -142,12 +144,12 @@ Rules
 !! !Vowel harmony suffixes Front
 "%{AÄ%}:ä"
 !! __@RULENAME@__  
- %{AÄ%}:ä <=> FT %> [ m | v | t | d ] _   ;
+ %{AÄ%}:ä <=> FT %> [ m |(s i) v | t | d ] _   ;
 
 !! !Vowel harmony suffixes Back
 "%{AÄ%}:a"
 !! __@RULENAME@__  
- %{AÄ%}:a <=> BT %> [ m | v | t | d ] _   ;
+ %{AÄ%}:a <=> BT %> [ m |(s i) v | t | d ] _   ;
 
 !
 ! Vowel harmony suffixes Front
@@ -170,174 +172,21 @@ Rules
 !! __@RULENAME@__
  %{ÕE%}:õ <=>  BT _ ;
 
+! Vowel loss
+"a:0"
+!! __@RULENAME@__
+ a:0 <=>  Cns: _ %^VowRM: %> ; 
 
-!!!!!!
-!!2013-10-17!! Stem vowel loss before plural "i"
-!!2013-10-17!"StemVowLoss"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! X:Y <=> X _  %> i  %> ;
-!!2013-10-17!!( %>  %^WCns:0 |  %>  %^LCns:0 ) %> [ i | i:j ] ;
-!!2013-10-17!          where X in (e o ö)
-!!2013-10-17!                Y in (0 0 0) matched ;
-!!2013-10-17!
-!!2013-10-17!! A loss
-!!2013-10-17!"StemALoss"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! X:Y <=>  _   ( %> %^LCns:0 ) %> i: %> ;
-!!2013-10-17!          where X in (a ä)
-!!2013-10-17!                Y in (0 0) matched ;
-!!2013-10-17!
-!!2013-10-17!!€ osa%>^WCns%>i%>st
-!!2013-10-17!!€ os0000i0st
-!!2013-10-17!
-!!2013-10-17!!%>%^LCnsi%>V1
-!!2013-10-17!! %{AÄ%} loss
-!!2013-10-17!"StemAÄLoss"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! %{AÄ%}:0 <=> [ %{AÄ%}: | Cns: | :Cns ] _ ( %> %^LCns:0 ) %> i %> ;
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!! U loss [u:0 | y:0]
-!!2013-10-17!"StemULoss"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! X:Y <=> X _ %>  i  %> ;
-!!2013-10-17!! ( %>  %^WCns:0 |  %>  %^LCns:0 ) %> i %> ;
-!!2013-10-17!         [ e | ä | a | o | ö ] _  [ t: | k: ] 0:v ;
-!!2013-10-17!          where X in (u y ü)
-!!2013-10-17!                Y in (0 0 0) matched ;
-!!2013-10-17!!Vws:0 %>  %^WCns:0 %> i: %> 
-!!2013-10-17!
-!!2013-10-17!!€ maa%>i%>n
-!!2013-10-17!!€ ma00i0n
-!!2013-10-17!
-!!2013-10-17!! Stem vowel "i" loss before plural "i"
-!!2013-10-17!"i:Zero"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! i:0 <=> i _ %> i  %> ;
-!!2013-10-17!
-!!2013-10-17!! iToj between vowels
-!!2013-10-17!"i:j"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! i:j <=> :Vws ( %>  %^LCns:0 ) %> _ %> :Vws ;
-!!2013-10-17!         Vws _ Cns:0 Vws: ;
-!!2013-10-17!!veitte%>%^WCnstt%{UÜ%}%>%^LCns%>i%>%{AÄ%}
-!!2013-10-17!!€ em0o0i%>%^LCns%{AÄ%}
-!!2013-10-17!!€ emmooj00a
-!!2013-10-17!
-!!2013-10-17!! a to e in comparatives
-!!2013-10-17!"a:e"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! a:e <=> _ %> %^WCns:0 %^E1:0 ;
-!!2013-10-17!
-!!2013-10-17!! ä to e in comparatives
-!!2013-10-17!"ä:e"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! ä:e <=> _ %> %^WCns:0 %^E1:0 ;
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!!
-!!2013-10-17!! Vowel harmony suffixes Front
-!!2013-10-17!"%{OÖ%}:ö"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! %{OÖ%}:ö <=>  FT _ ;
-!!2013-10-17!
-!!2013-10-17!! Vowel harmony suffixes Back
-!!2013-10-17!"%{OÖ%}:o"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! %{OÖ%}:o <=>  BT _ ;
-!!2013-10-17!
-!!2013-10-17!! Vws %> %^LCns: V1:
-!!2013-10-17!! Vowel agreement in illative 
-!!2013-10-17!"V1:aeouüäö"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V1:Vx <=> :Vx %> [ h | ( %^LCns: %> ) ] _ ;
-!!2013-10-17!        where Vx in (a o u ä ö ü y) ;
-!!2013-10-17!
-!!2013-10-17!! Vowel agreement in illative e
-!!2013-10-17!"V1:e"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V1:e <=> [ e | i ] %>  h  _ ;
-!!2013-10-17!          e ( %> %^LCns: ) %>  _ ;
-!!2013-10-17!
-!!2013-10-17!! Illative i with no intermittent _h_
-!!2013-10-17!"V1:i"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V1:i <=> i ( %> %^LCns: ) %> _ ;
-
+!!
 
 "%{XV%}:u"
 !! __@RULENAME@__
- %{XV%}:u <=> :u %- _ i q ;
+ %{XV%}:u <=> :u %- _ [i q|s] ;
 
 "%{XV%}:a"
 !! __@RULENAME@__
- %{XV%}:a <=> :a %- _ i q ;
+ %{XV%}:a <=> :a %- _ [i q|s] ;
 
-
-!!2013-10-17!!  _mato:maool_ not allowed
-!!2013-10-17!! Used with patsas type nominals
-!!2013-10-17!"V2:aeiouüäö"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V2:Vx <=>  Vx ( h ( :h ) ) %>  ( %^LCns:0 )  _ [ V2: | ( %> ([ %^WCns:0 | %^LCns:0 ] ( V3: ) ) )  Cns ] ;
-!!2013-10-17!            Vx ( h ( :h ) ) %>  ( %^LCns:0 | %^WCns:0 ) V2: _ [ ( %> )  Cns ]  ;
-!!2013-10-17!        where Vx in (a o u ä ö ü e i y) ;
-!!2013-10-17!
-!!2013-10-17!
-!!2013-10-17!"V2:Zero"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V2:0 <=> Vws %> _ %> i: %> ;
-!!2013-10-17!
-!!2013-10-17!!FROM HERE
-!!2013-10-17!
-!!2013-10-17!! Vowel lengthening for the inesive and adessive with V3
-!!2013-10-17!!! This deals with secondary or perhaps pertary vowel lengthening
-!!2013-10-17!! e.g. gen plural, ine, ade
-!!2013-10-17!"V3:a"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V3:a <=> :Cns :0* :a :0* _ ;
-!!2013-10-17!
-!!2013-10-17!"V3:e"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V3:e <=> :Cns :0* :e :0* _ ;
-!!2013-10-17!
-!!2013-10-17!"V3:i"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V3:i <=> :Cns :0* :i :0* _ ;
-!!2013-10-17!
-!!2013-10-17!"V3:o"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V3:o <=> :Cns :0* :o :0* _ ;
-!!2013-10-17!
-!!2013-10-17!"V3:u"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V3:u <=> :Cns :0* :u :0* _ ;
-!!2013-10-17!
-!!2013-10-17!"V3:ä"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V3:ä <=> :Cns :0* :ä :0* _ ;
-!!2013-10-17!
-!!2013-10-17!"V3:ö"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V3:ö <=> :Cns :0* :ö :0* _ ;
-!!2013-10-17!
-!!2013-10-17!"V3:y"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V3:y <=> :Cns :0* :y :0* _ ;
-!!2013-10-17!
-!!2013-10-17!"V3:Zero"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! V3:0 <=> :Vws :0* :Vws :0* _ ;
-!!2013-10-17!
-!!2013-10-17!! ! Vowel Lengthening
-!!2013-10-17!! mato : mattoon,
-!!2013-10-17! "Zero:Vx"
-!!2013-10-17!!! __@RULENAME@__  
-!!2013-10-17! 0:Vx <=> ( Vws+ :Cns+ ) Vx _ %> ( %^LCns: | %^WCns:0 ) %^LVws: ;
-!!2013-10-17!          # Cns* Vws [ Cns 0: | 0:i j ] Vx _ Cns ( Cns:0 ) :Vws %^StretchSyll2:0 ; ! ommeena<omena
-!!2013-10-17!! 
-!!2013-10-17!         [ # ] Cns* Vws Cns 0: Vx _ Cns :0 Vws [ Cns | [ # ] ] ;
-!!2013-10-17!       where Vx in (a o u ä ö y e) ; 
 
 
 ! Secondary Consonant lengthening
