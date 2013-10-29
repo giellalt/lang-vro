@@ -45,7 +45,19 @@ LEXICON V-63sõimama !!= @CODE@ sõimama:sõima
 +V: V0-IND-PRS-SC-CONNEG ;
 +V: V0-IND-PRS-SC3_s ;
 +V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12 ;
++V: V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SC3_s ;
++V: V0-IND-PRT-OC ;
+
 +V: V0-INF_mA ;
++V: V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
 
 LEXICON V-64puhksama
 +V+WORK: # ;
@@ -97,6 +109,7 @@ LEXICON V-85hirnma !!= @CODE@ kakma:kaku
 +V: V0-IND-PRS-SCPL3_vAq ;
 +V:%{UÜ%} V0-IND-PRS-PC ;
 +V: V0-INF_mA ;
++V: V0-INF_dAq ;
 
 LEXICON V-86istma
 +V+WORK: # ;
@@ -128,6 +141,7 @@ LEXICON V0-IND-PRS-SC-12
 +Ind+Prs+ScPl1:%>miq K ;
 +Ind+Prs+ScPl2:%>tiq K ;
 +Ind+Prs+ScPl2:%>dõq K ;
++Ind+Prs+ScPl2:%>t K ;
 
 LEXICON V0-IND-PRS-SCSG3_ZERO
 +Ind+Prs+ScSg3: K ;
@@ -173,21 +187,128 @@ LEXICON V0-IND-PRS-PC
 +Ind+Prs+Pc+ConNeg:%^WGStem%>d%{AÄ%}%-%{XV%}iq K ;
 +Ind+Prs+Pc+ConNeg:%^WGStem%>d%{AÄ%}q K ;
 
+!! !INDICATIVE PRETERIT SUBJECT CONJUGATION
+LEXICON V0-IND-PRT-SC-12
++Ind+Prt+ScSg1:%^VowRM%>si K ;
++Ind+Prt+ScSg2:%^VowRM%>siq K ;
++Ind+Prt+ScSg2:%^VowRM%>sit K ;
++Ind+Prt+ScSg2:%^VowRM%>sidõq K ;
++Ind+Prt+ScPl1:%^VowRM%>simiq K ;
++Ind+Prt+ScPl1:%^VowRM%>si K ;
++Ind+Prt+ScPl2:%^VowRM%>sitiq K ;
++Ind+Prt+ScPl2:%^VowRM%>sit K ;
++Ind+Prt+ScPl2:%^VowRM%>siq K ;
++Ind+Prt+ScPl2:%^VowRM%>sidõq K ;
+
+LEXICON V0-IND-PRT-SCSG3_ZERO
++Ind+Prt+ScSg3:%^WGStem%>ś K ;
+LEXICON V0-IND-PRT-SCPL3_vAq
++Ind+Prt+ScPl3:%^VowRM%>siq K ;
++Ind+Prt+ScPl3:%^VowRM%>siv%{AÄ%}q K ;
+
+
+LEXICON V0-IND-PRT-SC3_s
++Ind+Prt+ScSg3:%^WGStem%>ś K ;
++Ind+Prt+ScPl3:%^VowRM%>siq K ;
++Ind+Prt+ScPl3:%^VowRM%>siv%{AÄ%}q K ;
+
+LEXICON V0-IND-PRT-SC-CONNEG
++Ind+Prt+Sc+ConNeg: K ;
++Ind+Prt+Sc+ConNeg:%-%{XV%}s K ;
++Ind+Prt+Sc+ConNeg:%>q K ;
+
+
+!! !INDICATIVE PRETERIT OBJECT CONJUGATION
+LEXICON V0-IND-PRT-OC
++Ind+Prt+OcSg1:%^WGStem%>di K ;
++Ind+Prt+OcSg2:%^WGStem%>diq K ;
++Ind+Prt+OcSg2:%^WGStem%>tit K ;
++Ind+Prt+OcSg2:%^WGStem%>tidõq K ;
++Ind+Prt+OcSg3:%^WGStem%>ti K ;
++Ind+Prt+OcPl1:%^WGStem%>timiq K ;
++Ind+Prt+OcPl1:%^WGStem%>di K ;
++Ind+Prt+OcPl2:%^WGStem%>diq K ;
++Ind+Prt+OcPl2:%^WGStem%>titiq K ;
++Ind+Prt+OcPl2:%^WGStem%>tit K ;
++Ind+Prt+OcPl2:%^WGStem%>tidõq K ;
++Ind+Prt+OcPl3:%^WGStem%>diq K ;
++Ind+Prt+Oc+ConNeg:%^WGStem%>d%{AÄ%}q K ;
++Ind+Prt+Oc+ConNeg:%^WGStem%>d%{AÄ%}%-%{XV%}s K ;
++Ind+Prt+Oc+ConNeg:%^WGStem%>d%{AÄ%}%-s K ;
++Ind+Prt+Oc+ConNeg:%^WGStem%>d%{AÄ%} K ;
+
+!! !INDICATIVE PRETERIT PASSIVE CONJUGATION
+LEXICON V0-IND-PRT-PC
++Ind+Prt+PcSg1:%^WGStem%>d%{AÄ%} K ;
++Ind+Prt+PcSg2:%^WGStem%>t%{AÄ%}t K ;
++Ind+Prt+PcSg2:%^WGStem%>t%{AÄ%}dõq K ;
++Ind+Prt+PcSg3:%^WGStem%>t%{AÄ%}s K ;
++Ind+Prt+PcPl1:%^WGStem%>t%{AÄ%}miq K ;
++Ind+Prt+PcPl2:%^WGStem%>t%{AÄ%}tiq K ;
++Ind+Prt+PcPl2:%^WGStem%>t%{AÄ%}dõq K ;
++Ind+Prt+PcPl3:%^WGStem%>t%{AÄ%}sõq K ;
++Ind+Prt+Pc+ConNeg:%^WGStem%>d%{AÄ%} K ;
++Ind+Prt+Pc+ConNeg:%^WGStem%>d%{AÄ%}%-%{XV%}iq K ;
++Ind+Prt+Pc+ConNeg:%^WGStem%>d%{AÄ%}q K ;
+
 !! !NON-FINITES
 LEXICON V0-INF_mA
-+Inf: K ;
++Inf/mA:%>m%{AÄ%} K ;
+
+LEXICON V0-INF_dAq
++Inf:%>d%{AÄ%}q K ;
 
 LEXICON V0-ACT-PRS-PRC
-+ActPrsPrc: K ;
++ActPrsPrc:v K ;
++ActPrsPrc+Sg+Nom:v K ;
++ActPrsPrc+Sg+Gen:%>v%{AÄ%} K ;
++ActPrsPrc+Sg+Par:%>v%{AÄ%}t K ;
++ActPrsPrc+Sg+Ill:%>v%{AÄ%}he K ;
++ActPrsPrc+Pl+Nom:%>v%{AÄ%}q K ;
++ActPrsPrc+Pl+Gen:%>vid%{ÕE%} K ;
++ActPrsPrc+Pl+Par:%>vit K ;
++ActPrsPrc+Pl+Ill:%>vihe K ;
 
 LEXICON V0-ACT-PRT-PRC
-+ActPrtPrc: K ;
++ActPrtPrc:%^WGStem%>n%{UÜ%}q K ;
++ActPrtPrc+Sg+Nom:%^WGStem%>n%{UÜ%}q K ;
++ActPrtPrc+Sg+Gen:%^WGStem%>n%{UÜ%}q K ;
++ActPrtPrc+Sg+Par:%^WGStem%>n%{UÜ%}t K ;
++ActPrtPrc+Sg+Ill:%^WGStem%>n%{UÜ%}he K ;
++ActPrtPrc+Pl+Nom:%^WGStem%>n%{UÜ%}q K ;
++ActPrtPrc+Pl+Gen:%^WGStem%>n%{UÜ%}id%{ÕE%} K ;
++ActPrtPrc+Pl+Gen:%^WGStem%>n%{UÜ%}isi K ;
++ActPrtPrc+Pl+Par:%^WGStem%>n%{UÜ%}id K ;
++ActPrtPrc+Pl+Par:%^WGStem%>n%{UÜ%}isi K ;
++ActPrtPrc+Pl+Ill:%^WGStem%>n%{UÜ%}isihe K ;
++ActPrtPrc+Pl+Ill:%^WGStem%>n%{UÜ%}ihe K ;
+
 
 LEXICON V0-PSS-PRS-PRC
-+PssPrsPrc: K ;
++PssPrsPrc:%^WGStem%>t%{AÄ%}v K ;
++PssPrsPrc+Sg+Nom:%^WGStem%>t%{AÄ%}v K ;
++PssPrsPrc+Sg+Gen:%^WGStem%>t%{AÄ%}%>v%{AÄ%} K ;
++PssPrsPrc+Sg+Par:%^WGStem%>t%{AÄ%}%>v%{AÄ%}t K ;
++PssPrsPrc+Sg+Ill:%^WGStem%>t%{AÄ%}%>v%{AÄ%}he K ;
++PssPrsPrc+Pl+Nom:%^WGStem%>t%{AÄ%}%>v%{AÄ%}q K ;
++PssPrsPrc+Pl+Gen:%^WGStem%>t%{AÄ%}%>vid%{ÕE%} K ;
++PssPrsPrc+Pl+Par:%^WGStem%>t%{AÄ%}%>vit K ;
++PssPrsPrc+Pl+Ill:%^WGStem%>t%{AÄ%}%>vihe K ;
+
 
 LEXICON V0-PSS-PRT-PRC
-+PssPrtPrc: K ;
++PssPrtPrc:%^WGStem%>t K ;
++PssPrtPrc+Sg+Nom:%^WGStem%>t K ;
++PssPrtPrc+Sg+Gen:%^WGStem%>d%{UÜ%} K ;
++PssPrtPrc+Sg+Par:%^WGStem%>t%{UÜ%}t K ;
++PssPrtPrc+Sg+Ill:%^WGStem%>t%{UÜ%}he K ;
++PssPrtPrc+Pl+Nom:%^WGStem%>d%{UÜ%}q K ;
++PssPrtPrc+Pl+Gen:%^WGStem%>t%{UÜ%}id%{ÕE%} K ;
++PssPrtPrc+Pl+Gen:%^WGStem%>t%{UÜ%}isi K ;
++PssPrtPrc+Pl+Par:%^WGStem%>t%{UÜ%}id K ;
++PssPrtPrc+Pl+Par:%^WGStem%>t%{UÜ%}isi K ;
++PssPrtPrc+Pl+Ill:%^WGStem%>t%{UÜ%}isihe K ;
++PssPrtPrc+Pl+Ill:%^WGStem%>t%{UÜ%}ihe K ;
 
 ! vim: set ft=xfst-lexc:
 

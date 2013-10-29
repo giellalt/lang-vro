@@ -55,7 +55,9 @@ Multichar_Symbols
 ! Passive conjugation
  +PcSg1 +PcSg2 +PcSg3 +PcPl1 +PcPl2 +PcPl3 +Pc
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+ +Inf	        !!= @CODE@ sõimadaq, elädäq
+ +Inf/mA	!!= @CODE@ sõimama, elämä
+ +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
  +ActPrsPrc
  +ActPrfPrc +PssPrfPrc
 
@@ -114,6 +116,8 @@ Multichar_Symbols
 !! And following triggers to control variation
  {front} {back}
 %^NoGrad %^WGStem ^TS ^RVws 
+%^VowRM  !!= @CODE@ this will remove stem final vowel
+
 %: %> %- 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
