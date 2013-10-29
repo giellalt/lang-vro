@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `kaotama: # Verb (59) `kaotama 'eng /est /fin' - full paradigm
+     `kaotama+V+Inf/mA: `kaotama
+     `kaotama+V+Inf: `kaotaq
+     `kaotama+V+ActPrtPrc: `kaotanuq
+     `kaotama+V+PssPrtPrc: `kaotõt
+     `kaotama+V+Ind+Prs+ScSg1: `kaoda
+     `kaotama+V+Ind+Prs+ScSg3: `kaotas
+     `kaotama+V+Ind+Prt+ScSg1: `kaodi
+     `kaotama+V+Ind+Prt+ScSg3: kaoç
+

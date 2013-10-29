@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kergütämä: # Verb (59) kergütämä 'eng /est /fin' - full paradigm
+     kergütämä+V+Inf/mA: kergütämä
+     kergütämä+V+Inf: kergütäq
+     kergütämä+V+ActPrtPrc: kergütänüq
+     kergütämä+V+PssPrtPrc: kergütet
+     kergütämä+V+Ind+Prs+ScSg1: kergudä
+     kergütämä+V+Ind+Prs+ScSg3: kergütäs
+     kergütämä+V+Ind+Prt+ScSg1: kergüdi
+     kergütämä+V+Ind+Prt+ScSg3: kergüç
+

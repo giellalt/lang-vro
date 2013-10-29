@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `lõpma: # Verb (49) `lõpma 'eng /est /fin' - full paradigm
+     `lõpma+V+Inf/mA: `lõpma
+     `lõpma+V+Inf: lõppõq
+     `lõpma+V+ActPrtPrc: `lõpnuq
+     `lõpma+V+PssPrtPrc: lõpõt
+     `lõpma+V+Ind+Prs+ScSg1: lõpõ
+     `lõpma+V+Ind+Prs+ScSg3: lõpõs
+     `lõpma+V+Ind+Prt+ScSg1: lõppi
+     `lõpma+V+Ind+Prt+ScSg3: lõppi
+

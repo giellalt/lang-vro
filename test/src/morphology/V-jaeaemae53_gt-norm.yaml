@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `jäämä: # Verb (53) `jäämä 'eng /est /fin' - full paradigm
+     `jäämä+V+Inf/mA: `jäämä
+     `jäämä+V+Inf: jäiäq
+     `jäämä+V+ActPrtPrc: jäänüq
+     `jäämä+V+PssPrtPrc: jääd
+     `jäämä+V+Ind+Prs+ScSg1: jää
+     `jäämä+V+Ind+Prs+ScSg3: [jääs, jääse]
+     `jäämä+V+Ind+Prt+ScSg1: `jäi(e)
+     `jäämä+V+Ind+Prt+ScSg3: `jäi(e)
+

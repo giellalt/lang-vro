@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `laskma: # Verb (84) `laskma 'eng /est /fin' - full paradigm
+     `laskma+V+Inf/mA: `laskma
+     `laskma+V+Inf: `laskõq
+     `laskma+V+ActPrtPrc: `lasknuq
+     `laskma+V+PssPrtPrc: last
+     `laskma+V+Ind+Prs+ScSg1: lasõ
+     `laskma+V+Ind+Prs+ScSg3: lask
+     `laskma+V+Ind+Prt+ScSg1: [lasi, `lasksõ]
+     `laskma+V+Ind+Prt+ScSg3: [lasù, `lasksõ]
+

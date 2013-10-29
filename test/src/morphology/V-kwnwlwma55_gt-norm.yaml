@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kõnõlõma: # Verb (55) kõnõlõma 'eng /est /fin' - full paradigm
+     kõnõlõma+V+Inf/mA: kõnõlõma
+     kõnõlõma+V+Inf: kõnõldaq
+     kõnõlõma+V+ActPrtPrc: kõnõlnuq
+     kõnõlõma+V+PssPrtPrc: kõnõld
+     kõnõlõma+V+Ind+Prs+ScSg1: kõnõlõ
+     kõnõlõma+V+Ind+Prs+ScSg3: kõnõlõs
+     kõnõlõma+V+Ind+Prt+ScSg1: kõnõli
+     kõnõlõma+V+Ind+Prt+ScSg3: kõnõï
+

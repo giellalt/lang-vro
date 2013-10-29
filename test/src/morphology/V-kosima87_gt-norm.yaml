@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kosima: # Verb (87) kosima 'eng /est /fin' - full paradigm
+     kosima+V+Inf/mA: kosima
+     kosima+V+Inf: kossiq
+     kosima+V+ActPrtPrc: kosinuq
+     kosima+V+PssPrtPrc: kosit
+     kosima+V+Ind+Prs+ScSg1: kosi
+     kosima+V+Ind+Prs+ScSg3: kosi
+     kosima+V+Ind+Prt+ScSg1: kosõ
+     kosima+V+Ind+Prt+ScSg3: kosõ
+

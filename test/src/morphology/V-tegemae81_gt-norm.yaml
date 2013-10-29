@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - tegemä: # Verb (81) tegemä 'eng /est /fin' - full paradigm
+     tegemä+V+Inf/mA: tegemä
+     tegemä+V+Inf: tetäq
+     tegemä+V+ActPrtPrc: tennüq
+     tegemä+V+PssPrtPrc: tett
+     tegemä+V+Ind+Prs+ScSg1: tii
+     tegemä+V+Ind+Prs+ScSg3: tege
+     tegemä+V+Ind+Prt+ScSg1: [`tei(e), `tekse]
+     tegemä+V+Ind+Prt+ScSg3: [tekù, tegi, `tekse]
+

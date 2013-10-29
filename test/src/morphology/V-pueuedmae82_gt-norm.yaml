@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `püüdmä: # Verb (82) `püüdmä 'eng /est /fin' - full paradigm
+     `püüdmä+V+Inf/mA: `püüdmä
+     `püüdmä+V+Inf: (`)püüdäq
+     `püüdmä+V+ActPrtPrc: `püüdnüq
+     `püüdmä+V+PssPrtPrc: püvvet
+     `püüdmä+V+Ind+Prs+ScSg1: püvvä
+     `püüdmä+V+Ind+Prs+ScSg3: püüd
+     `püüdmä+V+Ind+Prt+ScSg1: [püvvi, `püüdse]
+     `püüdmä+V+Ind+Prt+ScSg3: [püüdʼ, `püüdse]
+

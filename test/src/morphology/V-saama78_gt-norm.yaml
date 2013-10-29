@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `saama: # Verb (78) `saama 'eng /est /fin' - full paradigm
+     `saama+V+Inf/mA: `saama
+     `saama+V+Inf: saiaq
+     `saama+V+ActPrtPrc: saanuq
+     `saama+V+PssPrtPrc: saad
+     `saama+V+Ind+Prs+ScSg1: saa
+     `saama+V+Ind+Prs+ScSg3: [saa, saasõ]
+     `saama+V+Ind+Prt+ScSg1: `sai(õ)
+     `saama+V+Ind+Prt+ScSg3: `sai(õ)
+

@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - erätümä: # Verb (71) erätümä 'eng /est /fin' - full paradigm
+     erätümä+V+Inf/mA: erätümä
+     erätümä+V+Inf: erätüdäq
+     erätümä+V+ActPrtPrc: erätünüq
+     erätümä+V+PssPrtPrc: erätüt
+     erätümä+V+Ind+Prs+ScSg1: erädü
+     erätümä+V+Ind+Prs+ScSg3: erätüs
+     erätümä+V+Ind+Prt+ScSg1: erädü
+     erätümä+V+Ind+Prt+ScSg3: erätü
+

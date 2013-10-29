@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - sibahama: # Verb (65) sibahama 'eng /est /fin' - full paradigm
+     sibahama+V+Inf/mA: sibahama
+     sibahama+V+Inf: sibadaq
+     sibahama+V+ActPrtPrc: sibanuq
+     sibahama+V+PssPrtPrc: sibat
+     sibahama+V+Ind+Prs+ScSg1: sibaha
+     sibahama+V+Ind+Prs+ScSg3: sibahas
+     sibahama+V+Ind+Prt+ScSg1: sibasi
+     sibahama+V+Ind+Prt+ScSg3: sibasi
+

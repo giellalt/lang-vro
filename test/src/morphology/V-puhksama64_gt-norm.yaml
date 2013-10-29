@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `puhksama: # Verb (64) `puhksama 'eng /est /fin' - full paradigm
+     `puhksama+V+Inf/mA: `puhksama
+     `puhksama+V+Inf: puhastaq
+     `puhksama+V+ActPrtPrc: puhasnuq
+     `puhksama+V+PssPrtPrc: puhast
+     `puhksama+V+Ind+Prs+ScSg1: `puhksa
+     `puhksama+V+Ind+Prs+ScSg3: `puhksas
+     `puhksama+V+Ind+Prt+ScSg1: `puhksi
+     `puhksama+V+Ind+Prt+ScSg3: puhaú
+

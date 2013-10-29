@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `sõimama: # Verb (63) `sõimama 'eng /est /fin' - full paradigm
+     `sõimama+V+Inf/mA: `sõimama
+     `sõimama+V+Inf: sõimadaq
+     `sõimama+V+ActPrtPrc: sõimanuq
+     `sõimama+V+PssPrtPrc: sõimat
+     `sõimama+V+Ind+Prs+ScSg1: `sõima
+     `sõimama+V+Ind+Prs+ScSg3: `sõimas
+     `sõimama+V+Ind+Prt+ScSg1: `sõimssi
+     `sõimama+V+Ind+Prt+ScSg3: sõimaú
+
