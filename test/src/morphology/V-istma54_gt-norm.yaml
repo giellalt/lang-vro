@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `istma1: # Verb (54) `istma1 'eng /est /fin' - full paradigm
+     `istma+V+Inf/mA: `istma
+     `istma+V+Inf: `istuq
+     `istma+V+ActPrtPrc: `istnuq
+     `istma+V+PssPrtPrc: istut
+     `istma+V+Ind+Prs+ScSg1: istu
+     `istma+V+Ind+Prs+ScSg3: istus
+     `istma+V+Ind+Prt+ScSg1: [isti, istõ]
+     `istma+V+Ind+Prt+ScSg3: [istʼ, `istõ]
+

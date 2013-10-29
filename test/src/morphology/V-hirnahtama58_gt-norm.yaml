@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - hirnahtama: # Verb (58) hirnahtama 'eng /est /fin' - full paradigm
+     hirnahtama+V+Inf/mA: hirnahtama
+     hirnahtama+V+Inf: hirnahtaq
+     hirnahtama+V+ActPrtPrc: hirnahtanuq
+     hirnahtama+V+PssPrtPrc: hirnahtõt
+     hirnahtama+V+Ind+Prs+ScSg1: hirnahta
+     hirnahtama+V+Ind+Prs+ScSg3: hirnahtas
+     hirnahtama+V+Ind+Prt+ScSg1: hirnahti
+     hirnahtama+V+Ind+Prt+ScSg3: hirnahtʼ
+

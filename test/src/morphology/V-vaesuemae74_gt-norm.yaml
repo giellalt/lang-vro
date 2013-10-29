@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - väsümä: # Verb (74) väsümä 'eng /est /fin' - full paradigm
+     väsümä+V+Inf/mA: väsümä
+     väsümä+V+Inf: vässüq
+     väsümä+V+ActPrtPrc: väsünüq
+     väsümä+V+PssPrtPrc: väsüt
+     väsümä+V+Ind+Prs+ScSg1: väsü
+     väsümä+V+Ind+Prs+ScSg3: väsüs
+     väsümä+V+Ind+Prt+ScSg1: `vässü
+     väsümä+V+Ind+Prt+ScSg3: `vässü
+

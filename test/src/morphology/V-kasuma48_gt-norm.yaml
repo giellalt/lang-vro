@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kasuma: # Verb (48) kasuma 'eng /est /fin' - full paradigm
+     kasuma+V+Inf/mA: kasuma
+     kasuma+V+Inf: kassuq
+     kasuma+V+ActPrtPrc: kasunuq
+     kasuma+V+PssPrtPrc: kasut
+     kasuma+V+Ind+Prs+ScSg1: kasu
+     kasuma+V+Ind+Prs+ScSg3: kasus
+     kasuma+V+Ind+Prt+ScSg1: `kasvi
+     kasuma+V+Ind+Prt+ScSg3: `kasvi
+
