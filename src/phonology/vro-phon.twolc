@@ -69,8 +69,9 @@ K1:k
 ! The ti => si
 %^TS:0
 
-! Vowel raising
-%^RVow:0
+
+%^RVow:0 !!= @CODE@ Raises vowel
+%^LowerVow:0 !!= @CODE@ Lowers vowel
 
 %^VowRM:0 !!= @CODE@ this will remove stem final vowel
 
@@ -177,10 +178,40 @@ Rules
 !! __@RULENAME@__
  %{ÕE%}:õ <=>  BT _ ;
 
-! Vowel loss
+
+!! !VOWEL LOWERING
+
+"u:o"
+!! __@RULENAME@__
+ u:o <=>  u: _ %^LowerVow: ;
+    _ u: %^LowerVow: ;
+
+"ü:ö"
+!! __@RULENAME@__
+ ü:ö <=>  ü: _ %^LowerVow: ;
+    _ ü: %^LowerVow: ;
+
+"u2õ"
+!! __@RULENAME@__
+ u:õ <=> u: _ %> i ;
+
+"ü2e"
+!! __@RULENAME@__
+ ü:e <=> ü: _ %> i ;
+
+
+!! !VOWEL LOSS
 "a:0"
 !! __@RULENAME@__
  a:0 <=>  Cns: _ %^VowRM: %> ; 
+
+"u20"
+!! __@RULENAME@__
+ u:0 <=> _ u: %> i ;
+
+"ü20"
+!! __@RULENAME@__
+ ü:0 <=> _ ü: %> i ;
 
 !!
 
@@ -197,6 +228,16 @@ Rules
 "i2j"
 !! __@RULENAME@__
  i:j <=> Vow _ (%^WGStem:) %> :Vow ;
+
+"u2v"
+!! __@RULENAME@__
+ u:v <=> u _ %> v %{AÄ%}: q ;
+
+"ü2v"
+!! __@RULENAME@__
+ ü:v <=> ü _ %> v %{AÄ%}: q ;
+
+
 
 
 !! Secondary Consonant lengthening
@@ -246,7 +287,7 @@ k:0 <=> s _ a %^WGStem: ;
 
 "tTod"
 !! __@RULENAME@__
- t:d <=> Vow (%^SGStem:) (%>) Vow %> _ ;
+ t:d <=> Vow [(%^SGStem:) (%>) Vow | Vow (%^WGStem:)] %> _ ;
 
 
 !!

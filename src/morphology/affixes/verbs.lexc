@@ -47,7 +47,7 @@ LEXICON V-63sõimama !!= @CODE@ sõimama:sõima
 +V: V0-IND-PRS-SC3_s ;
 +V: V0-IND-PRS-OC ;
 
-+V: V0-IND-PRT-SC-12 ;
++V: V0-IND-PRT-SC-12_si ;
 +V: V0-IND-PRT-SC-CONNEG ;
 +V: V0-IND-PRT-SC3_s ;
 +V: V0-IND-PRT-OC ;
@@ -87,8 +87,30 @@ LEXICON V-75valama
 +V+WORK: # ;
 LEXICON V-76pügämä
 +V+WORK: # ;
-LEXICON V-77süümä
-+V+WORK: # ;
+
+LEXICON V_77SÜÜMÄ !!= @CODE@ süümä:süü
+!! * Yaml: __sueuemae__
++V: V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SCSG3_ZERO ;
++V:%^LowerVow V0-IND-PRS-SCSG3_se ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_i ;
++V: V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V: V0-INF_vAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
+
+
 LEXICON V-78saama
 +V+WORK: # ;
 LEXICON V-79tulõma
@@ -147,6 +169,8 @@ LEXICON V0-IND-PRS-SC-12
 
 LEXICON V0-IND-PRS-SCSG3_ZERO
 +Ind+Prs+ScSg3: K ;
+LEXICON V0-IND-PRS-SCSG3_se
++Ind+Prs+ScSg3:%>se K ;
 LEXICON V0-IND-PRS-SCPL3_vAq
 +Ind+Prs+ScPl3:%>v%{AÄ%}q K ;
 
@@ -190,7 +214,20 @@ LEXICON V0-IND-PRS-PC
 +Ind+Prs+Pc+ConNeg:%^WGStem%>d%{AÄ%}q K ;
 
 !! !INDICATIVE PRETERIT SUBJECT CONJUGATION
-LEXICON V0-IND-PRT-SC-12
+LEXICON V0-IND-PRT-SC-12_i
++Ind+Prt+ScSg1:%>i K ;
++Ind+Prt+ScSg1:%>i%{ÕE%} K ;
++Ind+Prt+ScSg2:%>iq K ;
++Ind+Prt+ScSg2:%>it K ;
++Ind+Prt+ScSg2:%>idõq K ;
++Ind+Prt+ScPl1:%>imiq K ;
++Ind+Prt+ScPl1:%>i K ;
++Ind+Prt+ScPl2:%>itiq K ;
++Ind+Prt+ScPl2:%>it K ;
++Ind+Prt+ScPl2:%>iq K ;
++Ind+Prt+ScPl2:%>idõq K ;
+
+LEXICON V0-IND-PRT-SC-12_si
 +Ind+Prt+ScSg1:%^VowRM%>si K ;
 +Ind+Prt+ScSg2:%^VowRM%>siq K ;
 +Ind+Prt+ScSg2:%^VowRM%>sit K ;
@@ -202,8 +239,9 @@ LEXICON V0-IND-PRT-SC-12
 +Ind+Prt+ScPl2:%^VowRM%>siq K ;
 +Ind+Prt+ScPl2:%^VowRM%>sidõq K ;
 
-LEXICON V0-IND-PRT-SCSG3_ZERO
-+Ind+Prt+ScSg3:%^WGStem%>ś K ;
+LEXICON V0-IND-PRT-SCSG3_i
++Ind+Prt+ScSg3:%>i K ;
++Ind+Prt+ScSg3:%>ie K ;
 LEXICON V0-IND-PRT-SCPL3_vAq
 +Ind+Prt+ScPl3:%^VowRM%>siq K ;
 +Ind+Prt+ScPl3:%^VowRM%>siv%{AÄ%}q K ;
@@ -259,6 +297,9 @@ LEXICON V0-INF_mA
 
 LEXICON V0-INF_dAq
 +Inf:%>d%{AÄ%}q K ;
+
+LEXICON V0-INF_vAq
++Inf:%>v%{AÄ%}q K ;
 
 LEXICON DEVERBAL_minÕ
 +Der/minÕ+N:%>mi NMN_16INEMINE ;
