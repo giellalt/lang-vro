@@ -20,8 +20,16 @@ LEXICON N_2SUHVLI-PL
 +N:	NMN_2SUHVLI-PL ;
 
 
-LEXICON N-3perädü
-+N+Sg+Nom+WORK: K ;
+LEXICON N_3PERÄDÜ !!= @CODE@ perädü:perädü
+!! * Yaml: __peraedue__
+   N_3PERÄDÜ-SG ;
+   N_3PERÄDÜ-PL ;
+
+LEXICON N_3PERÄDÜ-SG
++N:     NMN_3PERÄDÜ-SG ;
+LEXICON N_3PERÄDÜ-PL
++N:     NMN_3PERÄDÜ-PL ;
+
 
 LEXICON N-4tervüs
 +N+Sg+Nom+WORK: K ;
@@ -295,7 +303,7 @@ LEXICON NMN_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
         NMN_1HANSʼA-PL ;
 LEXICON NMN_1HANSʼA-SG
 	SG-NOM ;
-	SG-GEN_ZERO ;
+	SG-GEN_ZERO-STEM ;
 	SG-PAR_t ;
 	SG-ILL_htÕ ;
 LEXICON NMN_1HANSʼA-PL
@@ -312,11 +320,9 @@ LEXICON NMN_2SUHVLI
 
 LEXICON NMN_2SUHVLI-SG
 	SG-NOM	;
-	SG-GEN_ZERO	;
+	SG-GEN_ZERO-STEM       ;
 	SG-PAR_t	;
 	SG-ILL_he	;
-	SG-INE_n	;
-	SG-ELA_st	;
 LEXICON NMN_2SUHVLI-PL
 	PL-NOM ;
 	PL-GEN_dÕ ;
@@ -326,6 +332,24 @@ LEXICON NMN_2SUHVLI-PL
 :i      PL-ILL_he       ;
 :i      PL-ALL_lÕ       ;
 
+LEXICON NMN_3PERÄDÜ !!= @CODE@ perädü:perädü
+!! * Yaml: __peraedue__
+   NMN_3PERÄDÜ-SG ;
+   NMN_3PERÄDÜ-PL ;
+
+LEXICON NMN_3PERÄDÜ-SG
+	SG-NOM	;
+	SG-GEN_ZERO-STEM	;
+:%^SGStem SG-PAR_t	;
+:%^SGStem SG-ILL_he	;
+LEXICON NMN_3PERÄDÜ-PL
+	PL-NOM ;
+:%^SGStem%>i	PL-GEN_dÕ ;
+:%^SGStem%>i        PL-ILL_he       ;
+:%^SGStem%>i      PL-PAR_t        ;
+:%^SGStem%>i      PL-ILL_he       ;
+:%^SGStem%>i      PL-ALL_lÕ       ;
+
 LEXICON NMN_9KIPÕNʼ !!= @CODE@ kipõnʼ:kipõnʼ
 !! * Yaml: __ellaei, kipwnj__
    NMN_9KIPÕNʼ-SG ;
@@ -333,7 +357,7 @@ LEXICON NMN_9KIPÕNʼ !!= @CODE@ kipõnʼ:kipõnʼ
 
 LEXICON NMN_9KIPÕNʼ-SG
 	SG-NOM	;
-:%^WGStem%>%{AÄ%}	SG-GEN_ZERO	;
+:%^WGStem%>%{AÄ%}	SG-GEN_ZERO-STEM	;
 :%^WGStem%>%{AÄ%}	SG-PAR_t	;
 :%^WGStem%>%{AÄ%}	SG-ILL_he	;
 :%^WGStem%>%{AÄ%}	SG-INE_n	;
@@ -353,7 +377,7 @@ LEXICON NMN_13ALONÕ !!= @CODE@ alonõ:alo
         NMN_13ALONÕ-PL ;
 LEXICON NMN_13ALONÕ-SG
 :%>n%{ÕE%}	SG-NOM ;
-:%>ds%{ÕE%}      SG-GEN_ZERO ;
+:%>ds%{ÕE%}      SG-GEN_ZERO-STEM ;
 :s		SG-PAR_t ;
 :ts%{ÕE%}      	SG-ILL_he ;
 
@@ -366,8 +390,7 @@ LEXICON NMN_13ALONÕ-PL
 :tsi		PL-PAR_t ;
 :tsi		PL-ILL_he ;
 :tsi		PL-ALL_lÕ ;
-
-
+:tsi		PL-ADE ;
 
 
 LEXICON NMN_16INEMINE !!= @CODE@ inemine:inemi
@@ -375,18 +398,19 @@ LEXICON NMN_16INEMINE !!= @CODE@ inemine:inemi
         NMN_16INEMINE-PL ;
 LEXICON NMN_16INEMINE-SG
 :%>n%{ÕE%}	SG-NOM ;
-:%>s%{ÕE%}      SG-GEN_ZERO ;
+:%>s%{ÕE%}      SG-GEN_ZERO-STEM ;
 :s		SG-PAR_t ;
 :s        	SG-ILL_tÕ ;
 
 LEXICON NMN_16INEMINE-PL
 :%>s%{ÕE%}      PL-NOM ;
 :s		PL-GEN_dÕ ;
+:s		PL-ALL_dÕlÕ ;
 :isi		PL-GEN_ZERO ;
 :isi		PL-PAR_ZERO ;
 :isi		PL-ILL_he ;
 :isi		PL-ALL_lÕ ;
-:s		PL-ALL_dÕlÕ ;
+:isi		PL-ADE ;
 
 
 LEXICON NMN_19ALOMANÕ !!= @CODE@ alomanõ:aloma
@@ -394,25 +418,26 @@ LEXICON NMN_19ALOMANÕ !!= @CODE@ alomanõ:aloma
         NMN_19ALOMANÕ-PL ;
 LEXICON NMN_19ALOMANÕ-SG
 :%>n%{ÕE%}	SG-NOM ;
-:%>ds%{ÕE%}      SG-GEN_ZERO ;
+:%>ds%{ÕE%}      SG-GEN_ZERO-STEM ;
 :s		SG-PAR_t ;
 :s        	SG-ILL_tÕ ;
 
 LEXICON NMN_19ALOMANÕ-PL
 :%>s%{ÕE%}      PL-NOM ;
 :s		PL-GEN_dÕ ;
+:s		PL-ALL_dÕlÕ ;
 :idsi		PL-GEN_ZERO ;
 :idsi		PL-PAR_ZERO ;
 :idsi		PL-ILL_he ;
 :idsi		PL-ALL_lÕ ;
-:s		PL-ALL_dÕlÕ ;
+:idsi		PL-ADE ;
 
 LEXICON NMN_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
         NMN_22VÕROKÕNÕ-SG ;
         NMN_22VÕROKÕNÕ-PL ;
 LEXICON NMN_22VÕROKÕNÕ-SG
 :%>n%{ÕE%}	SG-NOM ;
-:%>s%{ÕE%}      SG-GEN_ZERO ;
+:%>s%{ÕE%}      SG-GEN_ZERO-STEM ;
 :is		SG-PAR_t ;
 :is        	SG-ILL_tÕ ;
 
@@ -424,8 +449,21 @@ LEXICON NMN_22VÕROKÕNÕ-PL
 :isi		PL-PAR_ZERO ;
 :isi		PL-ILL_he ;
 :isi		PL-ALL_lÕ ;
+:isi		PL-ADE ;
+
+!! !SINGULAR GENITIVE STEMS
+LEXICON SG-GEN_ZERO-STEM
+	SG-GEN_ZERO ;
+	SG-ABL ;
+	SG-ADE ;
+	SG-ALL ;
+	SG-ELA_st       ;
+	SG-INE_n        ;
 
 !! !PLURAL TAGS
+LEXICON  PL-ADE
++Pl+Ade:%>l K ;
+
 LEXICON  PL-ALL_lÕ
 +Pl+All:%>l%{ÕE%} K ;
 
@@ -458,6 +496,15 @@ LEXICON  PL-PAR_t
 
 
 !! !SINGULAR TAGS
+LEXICON	 SG-ABL
++Sg+Abl:%>lt K ;
+
+LEXICON	 SG-ADE
++Sg+Ade:%>l K ;
+
+LEXICON	 SG-ALL
++Sg+All:%>l%{ÕE%} K ;
+
 LEXICON	 SG-ELA_st
 +Sg+Ela:%>st K ;
 
