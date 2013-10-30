@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - perädü: # Adjective (3) perädü 'eng /est päratu/fin' - full paradigm
+     perädü+A+Sg+Nom: perädü
+     perädü+A+Sg+Gen: perädü
+     perädü+A+Sg+Par: perätüt
+     perädü+A+Sg+Ill: perätühe
+     perädü+A+Pl+Gen: perätüide
+     perädü+A+Pl+Par: perätüid
+     perädü+A+Pl+Ill: perätüihe
+     perädü+A+Pl+All: perätüile
+
