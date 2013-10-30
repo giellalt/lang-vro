@@ -117,7 +117,9 @@ Multichar_Symbols
  {front} {back}
 %^VowRM  !!= @CODE@ this will remove stem final vowel
 %^SGStem !!= @CODE@ This strengthens "perädü" to "perätüt"
-%^NoGrad %^WGStem ^TS ^RVow 
+%^NoGrad %^WGStem ^TS 
+%^RVow      !!= @CODE@ Raises vowel
+%^LowerVow  !!= @CODE@ Lowers vowel
 
 %: %> %- 
 !! We have manually optimised the structure of our lexicon using following
