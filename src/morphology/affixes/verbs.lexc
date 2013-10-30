@@ -3,7 +3,8 @@
 !! Võro language verbs inflect for person and number.
 
 LEXICON V-48elämä
-!elämä:elä
+!! elämä:elä
++V: DEVERBAL_minÕ ;
 +V+WORK: # ;
 
 LEXICON V-49lõpma
@@ -261,7 +262,7 @@ LEXICON V0-INF_dAq
 
 LEXICON DEVERBAL_minÕ
 +Der/minÕ+N:%>mi NMN_16INEMINE ;
-
++Der/JA+N:%>j NMN_9KIPÕNʼ ; !!= @CODE@ This should have a +Der/JA tag
 
 
 LEXICON V0-ACT-PRS-PRC

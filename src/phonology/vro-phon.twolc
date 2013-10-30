@@ -144,12 +144,14 @@ Rules
 !! !Vowel harmony suffixes Front
 "%{AÄ%}:ä"
 !! __@RULENAME@__  
- %{AÄ%}:ä <=> FT %> [ m |(s i) v | t | d ] _   ;
+ %{AÄ%}:ä <=> FT %> [ :j | m |(s i) v | t | d ] _   ;
+              FT  :Cns (ʼ:) (%^WGStem:) %> _ ;
 
 !! !Vowel harmony suffixes Back
 "%{AÄ%}:a"
 !! __@RULENAME@__  
- %{AÄ%}:a <=> BT %> [ m |(s i) v | t | d ] _   ;
+ %{AÄ%}:a <=> BT %> [ :j | m |(s i) v | t | d ] _   ;
+              BT  :Cns (ʼ:) (%^WGStem:) %> _ ;
 
 !
 ! Vowel harmony suffixes Front
@@ -188,9 +190,17 @@ Rules
  %{XV%}:a <=> :a %- _ [i q|s] ;
 
 
+!!
+"i2j"
+!! __@RULENAME@__
+ i:j <=> Vow _ (%^WGStem:) %> :Vow ;
+
 
 !! Secondary Consonant lengthening
 
+"0:l"
+!! __@RULENAME@__
+ 0:l <=> Vow l _ :Vow %> j:i ;
 
 "%{XC%}:k"
 !! __@RULENAME@__
@@ -209,8 +219,23 @@ k:0 <=> s _ a %^WGStem: ;
 ![ [ # ] Cns* Vow (( r | i ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ Vow: | :Vow | ( Vow ) %> i ] ( %> i: | %^StretchSyll2:0 ) %> %^WCns:0 ;
 !        [ # ] Cns* VowBack i: _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
 
+"ll2l"
+!! __@RULENAME@__
+ l:0 <=> l _ Vow i: %^WGStem: ;
+
+"p2b"
+!! __@RULENAME@__
+ p:b <=> Vow _ Vow [ n (ʼ:) ] %^WGStem: ;
+
 
 !! !CONSONANT QUALITY CHANGE
+
+"j2i"
+!! __@RULENAME@__
+ j:i <=> :Vow %> _ [ # | %- ];
+
+
+
 "dTot"
 !! __@RULENAME@__
  d:t <=> [ s | h ] %> _ ;
@@ -221,3 +246,9 @@ k:0 <=> s _ a %^WGStem: ;
  t:d <=> Vow Vow %> _ ;
 
 
+!!
+"ʼ:0"
+!! __@RULENAME@__
+ ʼ:0 <=>  :Cns _ (%^WGStem:) %> :Vow ;
+!€ kipõnʼ>%{AÄ%}
+!€ kipõn00a
