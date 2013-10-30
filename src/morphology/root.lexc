@@ -115,8 +115,9 @@ Multichar_Symbols
  OÖ1 UY1 V1 V2 V3 K1 
 !! And following triggers to control variation
  {front} {back}
-%^NoGrad %^WGStem ^TS ^RVow 
 %^VowRM  !!= @CODE@ this will remove stem final vowel
+%^SGStem !!= @CODE@ This strengthens "perädü" to "perätüt"
+%^NoGrad %^WGStem ^TS ^RVow 
 
 %: %> %- 
 !! We have manually optimised the structure of our lexicon using following
