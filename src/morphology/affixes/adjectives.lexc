@@ -2,6 +2,40 @@
 !! --------------------
 !! The UNDEFINED language adjectives compare.
 
+
+LEXICON A_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
+	A_1HANSʼA-SG ;
+	A_1HANSʼA-PL ;
+
+LEXICON A_1HANSʼA-SG
++A:	NMN_1HANSʼA-SG ; 
+LEXICON A_1HANSʼA-PL
++A:	NMN_1HANSʼA-PL ; 
+
+LEXICON A_2SUHVLI
+!! * Yaml: __suhvli__
+   A_2SUHVLI-SG ;
+   A_2SUHVLI-PL ;
+
+LEXICON A_2SUHVLI-SG
++A:	NMN_2SUHVLI-SG ;
+LEXICON A_2SUHVLI-PL
++A:	NMN_2SUHVLI-PL ;
+
+
+LEXICON A_3PERÄDÜ !!= @CODE@ perädü:perädü
+!! * Yaml: __peraedue__
+   A_3PERÄDÜ-SG ;
+   A_3PERÄDÜ-PL ;
+
+LEXICON A_3PERÄDÜ-SG
++A:     NMN_3PERÄDÜ-SG ;
+LEXICON A_3PERÄDÜ-PL
++A:     NMN_3PERÄDÜ-PL ;
+
+
+
+
 LEXICON Adj-28
 +A: K ;
 
