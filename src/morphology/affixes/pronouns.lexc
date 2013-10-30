@@ -1,0 +1,39 @@
+!! Pronoun inflection
+!! ----------------------
+!! The Võro language pronouns inflect in the same cases as regular
+!! nouns, but with a colon (':') as separator.
+
+LEXICON PERS-SG1
++Pron+Pers+Sg1: PERS-SG1-2-NOM-COM ;
++Pron+Pers+Sg1:u PERS-SG1-2-ABE-TRA ;
++Pron+Pers+Sg1:ino PERS-SG1-2-ABE-TRA ;
+
+LEXICON PERS-SG2
++Pron+Pers+Sg2: PERS-SG1-2-NOM-COM ;
++Pron+Pers+Sg2:u PERS-SG1-2-ABE-TRA ;
++Pron+Pers+Sg2:ino PERS-SG1-2-ABE-TRA ;
+
+LEXICON PERS-SG1-2-NOM-COM
++Nom:aq K ;
++Nom:ina K ;
++Gen:uq K ;
++Gen:ino K ;
++Par:inno K ;
++All:llõ K ;
++All:olõ K ;
++Ter:oniq K ;
++Com:qkaq K ;
++Com:nogaq K ;
+
+
+LEXICON PERS-SG1-2-ABE-TRA
++Abe:ldaq K ;
++Abl:lt K ;
++Ade:l K ;
++Ela:st K ;
++Tra:s K ;
+
+
+
+! vim: set ft=xfst-lexc:
+

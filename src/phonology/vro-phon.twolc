@@ -60,7 +60,10 @@ K1:k
 %^NoGrad:0 ! This will be placed after a stem to break Gradation
 
 ! this weakens the stem _ompel_ to _ommel_
-%^WGStem:0
+%^WGStem:0 !!= @CODE@ This weakens "kipõnʼ" to "kibõna"
+
+%^SGStem:0 !!= @CODE@ This strengthens "perädü" to "perätüt"
+
 
 
 ! The ti => si
@@ -239,11 +242,11 @@ k:0 <=> s _ a %^WGStem: ;
 "dTot"
 !! __@RULENAME@__
  d:t <=> [ s | h ] %> _ ;
-
+     _ Vow %^SGStem: ;
 
 "tTod"
 !! __@RULENAME@__
- t:d <=> Vow Vow %> _ ;
+ t:d <=> Vow (%^SGStem:) (%>) Vow %> _ ;
 
 
 !!
