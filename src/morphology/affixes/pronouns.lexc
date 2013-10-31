@@ -33,6 +33,26 @@ LEXICON PERS-SG1-2-ABE-TRA
 +Ela:st K ;
 +Tra:s K ;
 
+LEXICON PERS-PL1 !!= @CODE@ miiq:m
++Pron+Pers+Pl1: PERS-PL1-2 ;
+
+LEXICON PERS-PL2 !!= @CODE@ tiiq:t
++Pron+Pers+Pl2: PERS-PL1-2 ;
+
+LEXICON PERS-PL1-2
++Nom:iiq K ;
++Nom:i K ;
++Gen:iiq K ;
++Gen:i K ;
++Par:eid K ;
++Ela:eist K ;
++All:eile K ;
++Ade:eil K ;
++Abl:eilt K ;
++Tra:eis K ;
++Abe:eildäq K ;
++Com:iiqkaq K ;
+
 
 
 ! vim: set ft=xfst-lexc:
