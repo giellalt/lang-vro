@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - miä: # Noun (37) miä 'eng what /est /fin' - full paradigm
+     miä+Pron+Interr+SP+Nom: miä
+     miä+Pron+Interr+SP+Gen: mink
+     miä+Pron+Interr+SP+Par: midä
+     miä+Pron+Interr+SP+Ill: [minkahe, miihe]
+     miä+Pron+Interr+SP+Ine: [minkahn, minkan, miihn, miin]
+     miä+Pron+Interr+SP+Ela: [minkast, miist]
+     miä+Pron+Interr+SP+All: [minkalõ, miile]
+     miä+Pron+Interr+SP+Ade: [minkal, miil]
+     miä+Pron+Interr+SP+Abl: [minkalt, miilt]
+     miä+Pron+Interr+SP+Tra: [minkas, miis]
+     miä+Pron+Interr+SP+Ter: [minkaniq, meeniq]
+     miä+Pron+Interr+SP+Abe: [minkaldaq, miildäq]
+     miä+Pron+Interr+SP+Com: minkaq
+
+
