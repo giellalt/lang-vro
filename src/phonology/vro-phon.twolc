@@ -74,6 +74,7 @@ K1:k
 %^LowerVow:0 !!= @CODE@ Lowers vowel
 
 %^VowRM:0 !!= @CODE@ this will remove stem final vowel
+%^CnsRM:0 !!= @CODE@ this will remove stem final consonant tervüs:tervü
 
 %: !used with Proper nouns
 %- !Hyphen in  constructions 
@@ -203,7 +204,11 @@ Rules
 !! !VOWEL LOSS
 "a:0"
 !! __@RULENAME@__
- a:0 <=>  Cns: _ %^VowRM: %> ; 
+ a:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+
+"ä:0"
+!! __@RULENAME@__
+ ä:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
 
 "u20"
 !! __@RULENAME@__
@@ -246,6 +251,10 @@ Rules
 !! __@RULENAME@__
  0:l <=> Vow l _ :Vow %> j:i ;
 
+"%{XC%}:s"
+!! __@RULENAME@__
+ %{XC%}:s <=> s _ ;
+
 "%{XC%}:k"
 !! __@RULENAME@__
  %{XC%}:k <=> k _ ;
@@ -287,10 +296,15 @@ k:0 <=> s _ a %^WGStem: ;
 
 "tTod"
 !! __@RULENAME@__
- t:d <=> Vow [(%^SGStem:) (%>) Vow | Vow (%^WGStem:)] %> _ ;
+ t:d <=> Vow [(%^SGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ ;
+
+!! !STEM-FINAL CONSONANT LOSS
+"s20"
+!! __@RULENAME@__
+ s:0 <=> [ u | ü | a: | ä: ] _ (%^VowRM:)  %^CnsRM:  ;
 
 
-!!
+!! !Other marks
 "ʼ:0"
 !! __@RULENAME@__
  ʼ:0 <=>  :Cns _ (%^WGStem:) %> :Vow ;
