@@ -31,8 +31,15 @@ LEXICON N_3PERÄDÜ-PL
 +N:     NMN_3PERÄDÜ-PL ;
 
 
-LEXICON N-4tervüs
-+N+Sg+Nom+WORK: K ;
+LEXICON N_4TERVÜS
+!! * Yaml: __tervues__
+   N_4TERVÜS-SG ;
+   N_4TERVÜS-PL ;
+LEXICON N_4TERVÜS-SG
++N:     NMN_4TERVÜS-SG ;
+LEXICON N_4TERVÜS-PL
++N:     NMN_4TERVÜS-PL ;
+
 
 LEXICON N-5suhvli
 +N+Sg+Nom+WORK: K ;
@@ -72,11 +79,23 @@ LEXICON N_13ALONÕ-SG
 LEXICON N_13ALONÕ-PL
 +N:     NMN_13ALONÕ-PL ;
 
-LEXICON N-14ritśkas
-+N+Sg+Nom+WORK: K ;
+LEXICON N_14RITSʼKAS !!= @CODE@ 
+        N_14RITSʼKAS-SG ;
+        N_14RITSʼKAS-PL ;
+LEXICON N_14RITSʼKAS-SG
++N:     NMN_14RITSʼKAS-SG ;
+LEXICON N_14RITSʼKAS-PL
++N:     NMN_14RITSʼKAS-PL ;
 
-LEXICON N-15kotus
-+N+Sg+Nom+WORK: K ;
+
+LEXICON N_15KOTUS
+        N_15KOTUS-SG ;
+        N_15KOTUS-PL ;
+LEXICON N_15KOTUS-SG
++N:     NMN_15KOTUS-SG ;
+LEXICON N_15KOTUS-PL
++N:     NMN_15KOTUS-PL ;
+
 
 LEXICON N_16INEMINE !!= @CODE@ inemine:inemi
 	N_16INEMINE-SG ;
@@ -87,11 +106,23 @@ LEXICON N_16INEMINE-PL
 +N:	NMN_16INEMINE-PL ;
 
 
-LEXICON N-17tervüs
-+N+Sg+Nom+WORK: K ;
+LEXICON N_17TERVÜS
+        N_17TERVÜS-SG ;
+        N_17TERVÜS-PL ;
+LEXICON N_17TERVÜS-SG
++N:     NMN_17TERVÜS-SG ;
+LEXICON N_17TERVÜS-PL
++N:     NMN_17TERVÜS-PL ;
 
-LEXICON N-18ehitüs
-+N+Sg+Nom+WORK: K ;
+
+LEXICON N_18EHITÜS
+        N_18EHITÜS-SG ;
+        N_18EHITÜS-PL ;
+LEXICON N_18EHITÜS-SG
++N:     NMN_18EHITÜS-SG ;
+LEXICON N_18EHITÜS-PL
++N:     NMN_18EHITÜS-PL ;
+
 
 LEXICON N_19ALOMANÕ !!= @CODE@ alomanõ:aloma
 	N_19ALOMANÕ-SG ;
@@ -101,8 +132,14 @@ LEXICON N_19ALOMANÕ-SG
 LEXICON N_19ALOMANÕ-PL
 +N:	NMN_19ALOMANÕ-PL ;
 
-LEXICON N-20väitś
-+N+Sg+Nom+WORK: K ;
+LEXICON N_20VÄITSʼ
+	N_20VÄITSʼ-SG ;
+        N_20VÄITSʼ-PL ;
+LEXICON N_20VÄITSʼ-SG
++N:     NMN_20VÄITSʼ-SG ;
+LEXICON N_20VÄITSʼ-PL
++N:     NMN_20VÄITSʼ-PL ;
+
 
 LEXICON N-21hüdsi
 +N+Sg+Nom+WORK: K ;
@@ -116,7 +153,7 @@ LEXICON N_22VÕROKÕNÕ-PL
 +N:     NMN_22VÕROKÕNÕ-PL ;
 
 
-LEXICON N-23kiiĺ
+LEXICON N_23KIILʼ
 +N+Sg+Nom+WORK: K ;
 
 LEXICON N-24käsi
@@ -125,13 +162,13 @@ LEXICON N-24käsi
 LEXICON N-25asõq
 +N+Sg+Nom+WORK: K ;
 
-LEXICON N-26hepeḿ
+LEXICON N_26HEPEMʼ
 +N+Sg+Nom+WORK: K ;
 
 LEXICON N-27eheq
 +N+Sg+Nom+WORK: K ;
 
-LEXICON N-28tütäŕ
+LEXICON N_28TÜTÄRʼ
 +N+Sg+Nom+WORK: K ;
 
 LEXICON N-29kuu
@@ -346,18 +383,25 @@ LEXICON NMN_3PERÄDÜ-SG
 LEXICON NMN_3PERÄDÜ-PL
 	PL-NOM ;
 :%^SGStem%>i	PL-GEN_dÕ ;
-:%^SGStem%>i        PL-ILL_he       ;
-:%^SGStem%>i      PL-PAR_t        ;
 :%^SGStem%>i      PL-ILL_he       ;
+:%^SGStem%>i      PL-PAR_t        ;
 :%^SGStem%>i      PL-ALL_lÕ       ;
 
 LEXICON NMN_4TERVÜS
   NMN_4TERVÜS-SG ;
   NMN_4TERVÜS-PL ;
 LEXICON NMN_4TERVÜS-SG 
-+WORK: #;
+        SG-NOM  ;
+:%^CnsRM   SG-GEN_ZERO-STEM        ;
+:%^CnsRM   SG-PAR_t      ;
+:%^CnsRM   SG-ILL_he     ;
+
 LEXICON NMN_4TERVÜS-PL 
-+WORK: #;
+:%^CnsRM   PL-NOM  ;
+:%^CnsRM%>i PL-GEN_dÕ ;
+:%^CnsRM%>i PL-ILL_he ;
+:%^CnsRM%>i PL-PAR_t ;
+:%^CnsRM%>i PL-ALL_lÕ ;
 
 LEXICON NMN_5SUHVLI
   NMN_5SUHVLI-SG ;
@@ -461,17 +505,44 @@ LEXICON NMN_14RITSʼKAS
   NMN_14RITSʼKAS-PL ;
 
 LEXICON NMN_14RITSʼKAS-SG 
-+WORK: #;
+        SG-NOM  ;
+:%^CnsRM   SG-GEN_ZERO-STEM        ;
+:%^CnsRM   SG-PAR_t      ;
+   	   SG-PAR_t      ;
+:%^CnsRM   SG-ILL_he     ;
+
 LEXICON NMN_14RITSʼKAS-PL 
-+WORK: #;
+:%^CnsRM   PL-NOM  ;
+:%^VowRM%^CnsRM%>i PL-GEN_dÕ ;
+:%^VowRM%^CnsRM%>i PL-ILL_he ;
+:%^VowRM%^CnsRM%>i PL-PAR_t ;
+:%^VowRM%^CnsRM%>i PL-ALL_lÕ ;
+ PL-GEN_dÕ ;
+ PL-ALL_dÕlÕ ;
+ PL-ILL_dÕhe ;
+
 LEXICON NMN_15KOTUS
   NMN_15KOTUS-SG ;
   NMN_15KOTUS-PL ;
 
 LEXICON NMN_15KOTUS-SG 
-+WORK: #;
+        SG-NOM  ;
+:%{XC%}%{ÕE%}   SG-GEN_ZERO-STEM        ;
+:%{ÕE%}   SG-GEN_ZERO-STEM        ;
+   SG-PAR_t      ;
+:%{XC%}%{ÕE%}   SG-ILL_he     ;
+
 LEXICON NMN_15KOTUS-PL 
-+WORK: #;
+:%{XC%}%{ÕE%}   PL-NOM  ;
+:%{XC%}i PL-GEN_dÕ ;
+:%{XC%}i PL-ILL_he ;
+:%{XC%}i PL-PAR_t ;
+:%{XC%}i PL-ALL_lÕ ;
+ PL-GEN_dÕ ;
+ PL-ILL_dÕhe ;
+ PL-ALL_dÕlÕ ;
+
+
 LEXICON NMN_16INEMINE !!= @CODE@ inemine:inemi
         NMN_16INEMINE-SG ;
         NMN_16INEMINE-PL ;
@@ -496,17 +567,41 @@ LEXICON NMN_17TERVÜS
   NMN_17TERVÜS-PL ;
 
 LEXICON NMN_17TERVÜS-SG 
-+WORK: #;
+        SG-NOM  ;
+:%>%{ÕE%}   SG-GEN_ZERO-STEM        ;
+   SG-PAR_t      ;
+   SG-ILL_tÕ     ;
+
 LEXICON NMN_17TERVÜS-PL 
-+WORK: #;
+:%^CnsRM   PL-NOM  ;
+ PL-GEN_dÕ ;
+ PL-ILL_dÕhe ;
+ PL-ALL_dÕlÕ ;
+:%^CnsRM%>isi PL-GEN_ZERO ;
+:%^CnsRM%>isi PL-ILL_he ;
+:%^CnsRM%>isi PL-PAR_ZERO ;
+:%^CnsRM%>isi PL-ALL_lÕ ;
+
+
 LEXICON NMN_18EHITÜS
   NMN_18EHITÜS-SG ;
   NMN_18EHITÜS-PL ;
 
 LEXICON NMN_18EHITÜS-SG 
-+WORK: #;
+        SG-NOM  ;
+:%>%{ÕE%}   SG-GEN_ZERO-STEM        ;
+   SG-PAR_t      ;
+   SG-ILL_tÕ     ;
+
 LEXICON NMN_18EHITÜS-PL 
-+WORK: #;
+:%^CnsRM   PL-NOM  ;
+ PL-GEN_dÕ ;
+ PL-ALL_dÕlÕ ;
+:%^CnsRM%>isi PL-GEN_ZERO ;
+:%^CnsRM%>isi PL-ILL_he ;
+:%^CnsRM%>isi PL-PAR_ZERO ;
+:%^CnsRM%>isi PL-ALL_lÕ ;
+
 
 LEXICON NMN_19ALOMANÕ !!= @CODE@ alomanõ:aloma
         NMN_19ALOMANÕ-SG ;
