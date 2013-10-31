@@ -3,6 +3,7 @@
 !! The Võro language pronouns inflect in the same cases as regular
 !! nouns, but with a colon (':') as separator.
 
+!! !PERSONAL PRONOUN
 LEXICON PERS-SG1
 +Pron+Pers+Sg1: PERS-SG1-2-NOM-COM ;
 +Pron+Pers+Sg1:u PERS-SG1-2-ABE-TRA ;
@@ -24,7 +25,6 @@ LEXICON PERS-SG1-2-NOM-COM
 +Ter:oniq K ;
 +Com:qkaq K ;
 +Com:nogaq K ;
-
 
 LEXICON PERS-SG1-2-ABE-TRA
 +Abe:ldaq K ;
@@ -52,6 +52,40 @@ LEXICON PERS-PL1-2
 +Tra:eis K ;
 +Abe:eildäq K ;
 +Com:iiqkaq K ;
+
+
+!! !INTERROGATIVE PRONOUNS
+LEXICON PRON-INTERR-HUM
++Pron+Interr+Hum+SP+Nom:iä # ;
++Pron+Interr+Hum+SP+Gen:ink # ;
++Pron+Interr+Hum+SP+Par:edä # ;
++Pron+Interr+Hum+SP+Com:inkaq # ;
++Pron+Interr+Hum+SP:inka PRON-INTERR_miä-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
++Pron+Interr+Hum+SP:e PRON-INTERR_miä-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
++Pron+Interr+Hum+SP:inka TERSUF ;
++Pron+Interr+Hum+SP:eeniq TER_ZERO ;
+
+LEXICON PRON-INTERR_miä
++Pron+Interr+SP:iä NOMSUF ;
++Pron+Interr+SP:ink GEN_ZERO ;
++Pron+Interr+SP:i PARSUF_dA ;
++Pron+Interr+SP:inkaq COM_ZERO ;
++Pron+Interr+SP:inka TERSUF ;
++Pron+Interr+SP:ee TERSUF ;
++Pron+Interr+SP:inka PRON-INTERR_miä-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
++Pron+Interr+SP:ii PRON-INTERR_miä-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
+
+
+LEXICON PRON-INTERR_miä-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA
+ ABESUF ;
+ ABLSUF ;
+ ADESUF ;
+ ALLSUF_lÕ ;
+ ELASUF ;
+ ILLSUF_he ;
+ INESUF_N-H-HN ;
+ TRASUF ;
+
 
 
 
