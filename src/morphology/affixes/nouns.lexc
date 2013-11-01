@@ -69,8 +69,14 @@ LEXICON N_9KIPÕNʼ-SG
 LEXICON N_9KIPÕNʼ-PL
 +N:	NMN_9KIPÕNʼ-PL ;
 
-LEXICON N-10hõrak
-+N+Sg+Nom+WORK: K ;
+LEXICON N_10HÕRAK !!= @CODE@ 
+        N_10HÕRAK-SG ;
+        N_10HÕRAK-PL ;
+LEXICON N_10HÕRAK-SG
++N:     NMN_10HÕRAK-SG ;
+LEXICON N_10HÕRAK-PL
++N:     NMN_10HÕRAK-PL ;
+
 
 LEXICON N-11läteq
 +N+Sg+Nom+WORK: K ;
@@ -220,8 +226,14 @@ LEXICON N-41kand
 LEXICON N-42vari
 +N+Sg+Nom+WORK: K ;
 
-LEXICON N-43kanarik
-+N+Sg+Nom+WORK: K ;
+LEXICON N_43KANARIK !!= @CODE@
+        N_43KANARIK-SG ;
+        N_43KANARIK-PL ;
+LEXICON N_43KANARIK-SG
++N:     NMN_43KANARIK-SG ;
+LEXICON N_43KANARIK-PL
++N:     NMN_43KANARIK-PL ;
+
 
 LEXICON N-44sõda
 +N+Sg+Nom+WORK: K ;
@@ -472,11 +484,21 @@ LEXICON NMN_9KIPÕNʼ-PL
 LEXICON NMN_10HÕRAK
   NMN_10HÕRAK-SG ;
   NMN_10HÕRAK-PL ;
-
 LEXICON NMN_10HÕRAK-SG 
-+WORK: #;
+        SG-NOM  ;
+:%^WGStem%>%{AÄ%}       SG-GEN_ZERO-STEM        ;
+:%^WGStem%>%{UÜ%}       SG-GEN_ZERO-STEM        ;
+:%>%{AÄ%}       SG-PAR_t        ;
+:%>%{AÄ%}       SG-ILL_he       ;
+:%>%{UÜ%}       SG-ILL_he       ;
+
 LEXICON NMN_10HÕRAK-PL 
-+WORK: #;
+:%^WGStem%>%{AÄ%}       PL-NOM ;
+:%^VowRM%>i    PL-GEN_dÕ ;
+:%^VowRM%>i        PL-ILL_he       ;
+:%^VowRM%>i        PL-ALL_lÕ       ;
+:%^VowRM%>i      PL-PAR_t        ;
+
 LEXICON NMN_11LÄTEQ
   NMN_11LÄTEQ-SG ;
   NMN_11LÄTEQ-PL ;
@@ -836,9 +858,23 @@ LEXICON NMN_43KANARIK
   NMN_43KANARIK-PL ;
 
 LEXICON NMN_43KANARIK-SG 
-+WORK: #;
+        SG-NOM  ;
+:%^WGStem%>%{UÜ%}       SG-GEN_ZERO-STEM        ;
+:%{XC%}%>%{UÜ%}       SG-ILL_ZERO        ;
+:%{XC%}%>%{UÜ%}       SG-PAR_ZERO        ;
+
 LEXICON NMN_43KANARIK-PL 
-+WORK: #;
+:%^WGStem%>%{UÜ%}       PL-NOM ;
+:%{XC%}%>%{ÕE%}    PL-GEN_ZERO ;
+:%{XC%}%>%{AÄ%}    PL-GEN_ZERO ;
+:%{XC%}%>%{ÕE%}    PL-PAR_ZERO ;
+:%{XC%}%>%{AÄ%}    PL-PAR_ZERO ;
+:%{XC%}%>%{ÕE%}    PL-ILL_ZERO ;
+:%{XC%}%>%{AÄ%}    PL-ILL_ZERO ;
+:%{XC%}%>%{ÕE%}    PL-ILL_he ;
+:%{XC%}%>%{AÄ%}    PL-ILL_he ;
+:%^WGStem%>%{ÕE%}  PL-ALL_STEM ;
+:%^WGStem%>%{AÄ%}  PL-ALL_STEM ;
 
 
 LEXICON NMN_44SÕDA
@@ -878,16 +914,33 @@ LEXICON NMN_47ASI-PL
 
 !! !SINGULAR GENITIVE STEMS
 LEXICON SG-GEN_ZERO-STEM
-	SG-GEN_ZERO ;
 	SG-ABL ;
 	SG-ADE ;
 	SG-ALL ;
 	SG-ELA_st       ;
+	SG-GEN_ZERO ;
+	SG-INE_h        ;
+	SG-INE_hn        ;
 	SG-INE_n        ;
 
+!! !PLURAL ALLATIVE STEMS
+LEXICON PL-ALL_STEM
+   PL-ABL ;
+   PL-ADE ;
+   PL-ALL_lÕ ;
+   PL-ELA ;
+   PL-INE_h ;
+   PL-INE_hn ;
+   PL-INE_n ;
 
 !! !TAGS THAT CAN BE FOLLOWED BY CLITICS "K"
 !! !PLURAL TAGS
+LEXICON PL-ABE
++Pl+Abe:%>ld%{AÄ%}q K ;
+
+LEXICON PL-ABL
++Pl+Abl:%>lt K ;
+
 LEXICON  PL-ADE
 +Pl+Ade:%>l K ;
 
@@ -897,17 +950,33 @@ LEXICON  PL-ALL_lÕ
 LEXICON  PL-ALL_dÕlÕ
 +Pl+All:%>d%{ÕE%}l%{ÕE%} K ;
 
+LEXICON PL-ELA
++Pl+Ela:%>st K ;
+
 LEXICON  PL-GEN_ZERO
 +Pl+Gen: K ;
 
 LEXICON  PL-GEN_dÕ
 +Pl+Gen:%>d%{ÕE%} K ;
 
+LEXICON PL-ILL_ZERO
++Pl+Ill: K ;
+
 LEXICON PL-ILL_he
 +Pl+Ill:%>he K ;
 
 LEXICON PL-ILL_dÕhe
 +Pl+Ill:%>d%{ÕE%}he K ;
+
+LEXICON PL-INE_h
++Pl+Ine:%>h K ;
+
+LEXICON PL-INE_hn
++Pl+Ine:%>hn K ;
+
+LEXICON PL-INE_n
++Pl+Ine:%>n K ;
+
 
 LEXICON PL-NOM
 +Pl+Nom:%>q K ;
@@ -938,6 +1007,9 @@ LEXICON	 SG-ELA_st
 LEXICON	 SG-GEN_ZERO
 +Sg+Gen: K ;
 
+LEXICON	SG-ILL_ZERO
++Sg+Ill: K ;
+
 LEXICON	SG-ILL_he
 +Sg+Ill:%>he K ;
 
@@ -947,11 +1019,20 @@ LEXICON	SG-ILL_htÕ
 LEXICON	SG-ILL_tÕ
 +Sg+Ill:%>t%{ÕE%} K ;
 
+LEXICON	SG-INE_h
++Sg+Ine:%>h K ;
+
+LEXICON	SG-INE_hn !!= @CODE@ RARE
++Sg+Ine:%>hn K ;
+
 LEXICON	SG-INE_n
 +Sg+Ine:%>n K ;
 
 LEXICON SG-NOM
 +Sg+Nom: K ;
+
+LEXICON	 SG-PAR_ZERO
++Sg+Par: K ;
 
 LEXICON	 SG-PAR_t
 +Sg+Par:%>t K ;
