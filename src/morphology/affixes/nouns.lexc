@@ -41,8 +41,15 @@ LEXICON N_4TERVÜS-PL
 +N:     NMN_4TERVÜS-PL ;
 
 
-LEXICON N-5suhvli
-+N+Sg+Nom+WORK: K ;
+LEXICON N_5SUHVLI
+!! * Yaml: ____
+   N_5SUHVLI-SG ;
+   N_5SUHVLI-PL ;
+
+LEXICON N_5SUHVLI-SG
++N:	NMN_5SUHVLI-SG ;
+LEXICON N_5SUHVLI-PL
++N:	NMN_5SUHVLI-PL ;
 
 LEXICON N-6makõ
 +N+Sg+Nom+WORK: K ;
@@ -407,9 +414,16 @@ LEXICON NMN_5SUHVLI
   NMN_5SUHVLI-SG ;
   NMN_5SUHVLI-PL ;
 LEXICON NMN_5SUHVLI-SG 
-+WORK: #;
-LEXICON NMN_5SUHVLI-PL 
-+WORK: #;
+	SG-NOM	;
+	SG-GEN_ZERO-STEM       ;
+	SG-PAR_t	;
+	SG-ILL_he	;
+LEXICON NMN_5SUHVLI-PL
+	PL-NOM ;
+:%^VowRM%>i	PL-GEN_dÕ ;
+:%^VowRM%>i        PL-ILL_he       ;
+:%^VowRM%>i        PL-ALL_lÕ       ;
+:%^VowRM%>i      PL-PAR_t        ;
 
 LEXICON NMN_6MAKÕ
   NMN_6MAKÕ-SG ;
