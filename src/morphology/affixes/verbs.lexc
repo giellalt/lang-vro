@@ -2,6 +2,10 @@
 !! ---------------
 !! Võro language verbs inflect for person and number.
 
+LEXICON V_EI
++V+Neg+Prs:i # ;
++V+Neg+Prt:s # ;
+
 LEXICON V-48elämä
 !! elämä:elä
 +V: DEVERBAL_minÕ ;
@@ -111,10 +115,53 @@ LEXICON V_77SÜÜMÄ !!= @CODE@ süümä:süü
 
 
 
-LEXICON V-78saama
-+V+WORK: # ;
+LEXICON V_78SAAMA
+!! * Yaml: __saama__
++V: V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SCSG3_ZERO ;
++V:%^LowerVow V0-IND-PRS-SCSG3_se ;
++V: V0-IND-PRS-SCPL3_vAq ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_i ;
++V: V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V: V0-INF_iAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
+
 LEXICON V-79tulõma
 +V+WORK: # ;
+LEXICON V_OLÕMA !!= @CODE@ olõma:o
++V: V0-IND-PRS-SC-12 ;
++V:lõ V0-IND-PRS-SC-CONNEG ;
++V+Ind+Prs+ScSg3:m K ;
++V+Ind+Prs+ScPl3:mmaq K ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_i ;
++V: V0-IND-PRT-SC-CONNEG ;
++V+Ind+Prt+ScSg3:llʼ K ;
++V+Ind+Prt+ScSg3:lli K ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V: V0-INF_vAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
+
 LEXICON V-80rapahutma
 +V+WORK: # ;
 LEXICON V-81tegemä
@@ -170,7 +217,9 @@ LEXICON V0-IND-PRS-SC-12
 LEXICON V0-IND-PRS-SCSG3_ZERO
 +Ind+Prs+ScSg3: K ;
 LEXICON V0-IND-PRS-SCSG3_se
-+Ind+Prs+ScSg3:%>se K ;
++Ind+Prs+ScSg3:%>s%{ÕE%} K ;
+LEXICON V0-IND-PRS-SCPL3_iAq
++Ind+Prs+ScPl3:%>i%{AÄ%}q K ;
 LEXICON V0-IND-PRS-SCPL3_vAq
 +Ind+Prs+ScPl3:%>v%{AÄ%}q K ;
 
@@ -241,7 +290,7 @@ LEXICON V0-IND-PRT-SC-12_si
 
 LEXICON V0-IND-PRT-SCSG3_i
 +Ind+Prt+ScSg3:%>i K ;
-+Ind+Prt+ScSg3:%>ie K ;
++Ind+Prt+ScSg3:%>i%{ÕE%} K ;
 LEXICON V0-IND-PRT-SCPL3_vAq
 +Ind+Prt+ScPl3:%^VowRM%>siq K ;
 +Ind+Prt+ScPl3:%^VowRM%>siv%{AÄ%}q K ;
@@ -297,6 +346,9 @@ LEXICON V0-INF_mA
 
 LEXICON V0-INF_dAq
 +Inf:%>d%{AÄ%}q K ;
+
+LEXICON V0-INF_iAq
++Inf:%>i%{AÄ%}q K ;
 
 LEXICON V0-INF_vAq
 +Inf:%>v%{AÄ%}q K ;

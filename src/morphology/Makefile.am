@@ -22,9 +22,12 @@ GT_LEXC_ROOT=root.lexc
 GT_LEXC_SRCS=\
 			 stems/abbr.lexc \
 			 stems/acro.lexc \
+			 stems/exceptions.lexc \
 			 stems/punct.lexc \
 			 affixes/adjectives.lexc \
+			 affixes/adverbs.lexc \
 			 affixes/nouns.lexc \
+			 affixes/postpositions.lexc \
 			 affixes/pronouns.lexc \
 			 affixes/propernouns.lexc \
 			 affixes/quantifiers.lexc \

@@ -143,15 +143,15 @@ LEXICON Root
    quantifiers	;
    verbs   ;
 
+   Exceptions ;
+
 !! less complex word classes
 LEXICON ACRONDELIMITER
 +Acro: # ;
 
-LEXICON AdvTag
-+Adv: K ;
-LEXICON CcTag
+LEXICON CC_
 +CC: K ;
-LEXICON CsTag
+LEXICON CS_
 +CS: K ;
 LEXICON InterjTag
 +Interj: K ;

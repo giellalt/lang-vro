@@ -204,7 +204,12 @@ Rules
 !! !VOWEL LOSS
 "a:0"
 !! __@RULENAME@__
+!!{{{
  a:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+      a _ %> i ; !!= @CODE@ 
+!€ saa>i
+!€ sa00i
+!!}}}
 
 "ä:0"
 !! __@RULENAME@__
@@ -226,11 +231,15 @@ Rules
 
 "%{XV%}:u"
 !! __@RULENAME@__
- %{XV%}:u <=> :u %- _ [i q|s] ;
+ %{XV%}:u <=> :u ( %- ) _  ;
 
 "%{XV%}:a"
 !! __@RULENAME@__
- %{XV%}:a <=> :a %- _ [i q|s] ;
+ %{XV%}:a <=> :a ( %- ) _  ;
+
+"%{XV%}:ä"
+!! __@RULENAME@__
+ %{XV%}:ä <=> :ä ( %- ) _  ;
 
 
 !!
