@@ -118,10 +118,12 @@ Multichar_Symbols
  OÖ1 UY1 V1 V2 V3 K1 
 !! And following triggers to control variation
  {front} {back}
-%^VowRM  !!= @CODE@ this will remove stem final vowel
-%^CnsRM  !!= @CODE@ this will remove stem final consonant tervüs:tervü
-%^SGStem !!= @CODE@ This strengthens "perädü" to "perätüt"
-%^NoGrad %^WGStem ^TS 
+ %^VowRM  !!= @CODE@ this will remove stem final vowel
+ %^CnsRM  !!= @CODE@ this will remove stem final consonant tervüs:tervü
+ %^StrGStem !!= @CODE@ This strengthens "perädü" to "perätüt"
+ %^NoGrad
+ %^WGStem !!= @CODE@ This weakens 
+ %^TS	  !!= @CODE@  
 %^RVow      !!= @CODE@ Raises vowel
 %^LowerVow  !!= @CODE@ Lowers vowel
 

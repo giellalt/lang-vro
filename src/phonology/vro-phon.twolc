@@ -62,7 +62,7 @@ K1:k
 ! this weakens the stem _ompel_ to _ommel_
 %^WGStem:0 !!= @CODE@ This weakens "kipõnʼ" to "kibõna"
 
-%^SGStem:0 !!= @CODE@ This strengthens "perädü" to "perätüt"
+%^StrGStem:0 !!= @CODE@ This strengthens "perädü" to "perätüt"
 
 
 
@@ -312,11 +312,11 @@ k:0 <=> s _ a %^WGStem: ;
 "dTot"
 !! __@RULENAME@__
  d:t <=> [ s | h ] %> _ ;
-     _ Vow %^SGStem: ;
+     _ Vow %^StrGStem: ;
 
 "tTod"
 !! __@RULENAME@__
- t:d <=> Vow [(%^SGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ ;
+ t:d <=> Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ ;
 
 !! !STEM-FINAL CONSONANT LOSS
 "s20"
