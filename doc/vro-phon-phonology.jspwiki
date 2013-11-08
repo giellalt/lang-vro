@@ -19,9 +19,19 @@ The Võro morphophonological/twolc rules file
 
 
 
+ %^WGStem:0  This weakens "kipõnʼ" to "kibõna"
+
+ %^StrGStem:0  This strengthens "perädü" to "perätüt"
 
 
 
+
+
+ %^RVow:0  Raises vowel
+ %^LowerVow:0  Lowers vowel
+
+ %^VowRM:0  this will remove stem final vowel
+ %^CnsRM:0  this will remove stem final consonant tervüs:tervü
 
 
 
@@ -62,107 +72,82 @@ __%{ÕE%}:e__
 __%{ÕE%}:õ__
 
 
-Stem vowel loss before plural "i"
-__%{ÕE%}:õ__  
-A loss
-__%{ÕE%}:õ__  
-%{AÄ%} loss
-__%{ÕE%}:õ__  
-U loss [u:0 | y:0]
-__%{ÕE%}:õ__  
-( %>  %^WCns:0 |  %>  %^LCns:0 ) %> i %> ;
-Stem vowel "i" loss before plural "i"
-__%{ÕE%}:õ__  
-iToj between vowels
-__%{ÕE%}:õ__  
-a to e in comparatives
-__%{ÕE%}:õ__  
-ä to e in comparatives
-__%{ÕE%}:õ__  
-Vowel harmony suffixes Front
-__%{ÕE%}:õ__  
-Vowel harmony suffixes Back
-__%{ÕE%}:õ__  
-Vws %> %^LCns: V1:
-Vowel agreement in illative 
-__%{ÕE%}:õ__  
-Vowel agreement in illative e
-__%{ÕE%}:õ__  
-Illative i with no intermittent _h_
-__%{ÕE%}:õ__  
+!VOWEL LOWERING
+
+__u:o__
+
+__ü:ö__
+
+__u2õ__
+
+__ü2e__
+
+
+!VOWEL LOSS
+__a:0__
+       a _ %> i ;  
+
+__ä:0__
+
+__e:0__
+
+__u20__
+
+__ü20__
 
 
 __%{XV%}:u__
 
 __%{XV%}:a__
 
+__%{XV%}:ä__
 
- _mato:maool_ not allowed
-Used with patsas type nominals
-__%{XV%}:a__  
-__%{XV%}:a__  
-Vowel lengthening for the inesive and adessive with V3
-This deals with secondary or perhaps pertary vowel lengthening
-e.g. gen plural, ine, ade
-__%{XV%}:a__  
-__%{XV%}:a__  
-__%{XV%}:a__  
-__%{XV%}:a__  
-__%{XV%}:a__  
-__%{XV%}:a__  
-__%{XV%}:a__  
-__%{XV%}:a__  
-__%{XV%}:a__  
-! Vowel Lengthening
-mato : mattoon,
-__%{XV%}:a__  
+
+__i2j__
+
+__u2v__
+
+__ü2v__
 
 
 
-mato : mattoo, näytettävä : näytettävvää
-__%{XV%}:a__  
 
+Secondary Consonant lengthening
+
+__0:l__
+
+__%{XC%}:s__
 
 __%{XC%}:k__
 
 
-oja: oija
-__%{XC%}:k__  
-TO HERE
-Consonant weakening 
-t:0, k:0 (suku:suun), p:v, ht:h, hk:h, lt:ll, rt:rr
-mp:mm, nt:nn, st:ss,
-it:ij, lk:l, rk:r, nk:ng, sk:s, tk:t, 
-kk:k, tt:t, pp:p
-ut:vv, yt:vv (uut:uuvv), uk:vv
-aika:ajan, poika:pojan, reikä:reijän, liika:liijan
-lp:lv, rp:rv
-p
-__%{XC%}:k__  
-[ ( %> ) :Vws ( 0: ) %> %^WCns:0 | Vws:0 %> i: %> %^WCns:0 | Vws:0 %>  %^WCns:0 %> i: %> ] ;
-__%{XC%}:k__  
-__%{XC%}:k__  
-viis: viijes
-__%{XC%}:k__  
-__%{XC%}:k__  
-last-minute verbs
-"ti:si in verbs"
-__%{XC%}:k__  
-__%{XC%}:k__  
-__%{XC%}:k__  
-__%{XC%}:k__  
+!Consonant weakening 
+
 
 
 __kToZero__  
 
-liika:liijan, reikä:reijän
-__kToZero__  
-mato : maot, ! mato : maool
-tToZero in weak
-__kToZero__  
-lupa : luvan
-__kToZero__  
-__kToZero__  
-Vowel raising
-__kToZero__  
-V3: /<= :Vws :0* :Vws :0* _ ;
+__ll2l__
+
+
+__p2b__
+
+
+!CONSONANT QUALITY CHANGE
+
+__j2i__
+
+__k2g__
+
+
+
+__dTot__
+
+__tTod__
+
+!STEM-FINAL CONSONANT LOSS
+__s20__
+
+
+!Other marks
+__ʼ:0__

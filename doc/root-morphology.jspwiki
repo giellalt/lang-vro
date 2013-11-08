@@ -17,6 +17,10 @@ The parts of speech are further split up into:
 The Usage extents are marked using following tags:
 
 The nominals are inflected in the following Case and Number
+  +Sg    Singular
+  +Pl    Plural
+  +SP    Singular and Plural, used for CG and Apertium
+
 
 The possession is marked as such:
 The comparative forms are:
@@ -24,6 +28,8 @@ Numerals are classified under:
 Verb moods are:
 Verb personal forms are:
 Other verb forms are
+  +Inf	         sõimadaq, elädäq
+  +Inf/mA	 sõimama, elämä
 
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
@@ -38,7 +44,7 @@ Semantics are classified with
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
-
+  +Der/JA 	actor
 
 Morphophonology
 ---------------
@@ -51,11 +57,20 @@ symbols in the lexicon files:
   %{XV%}		 This is used for echoing the previous vowel
   %{XC%}		 This is used for lengthening a consonant
 And following triggers to control variation
+  %^VowRM   this will remove stem final vowel
+  %^CnsRM   this will remove stem final consonant tervüs:tervü
+  %^StrGStem  This strengthens "perädü" to "perätüt"
+  %^WGStem  This weakens 
+  %^TS	    
+ %^RVow       Raises vowel
+ %^LowerVow   Lowers vowel
+
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
 
 The word forms in the Võro language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+
 
 less complex word classes
 
