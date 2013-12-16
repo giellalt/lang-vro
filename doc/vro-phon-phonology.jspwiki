@@ -24,6 +24,7 @@ The Võro morphophonological/twolc rules file
  %^StrGStem:0  This strengthens "perädü" to "perätüt"
 
 
+ %^TS:0  The ti => si
 
 
 
@@ -62,7 +63,6 @@ __%{AÄ%}:ä__
 
 !Vowel harmony suffixes Back
 __%{AÄ%}:a__  
-
 __%{UÜ%}:ü__  
 
 __%{UÜ%}:u__  
@@ -90,6 +90,11 @@ __a:0__
 __ä:0__
 
 __e:0__
+
+__o:0__
+
+__i:0__
+
 
 __u20__
 
@@ -147,6 +152,9 @@ __tTod__
 
 !STEM-FINAL CONSONANT LOSS
 __s20__
+
+__d20__
+
 
 
 !Other marks
