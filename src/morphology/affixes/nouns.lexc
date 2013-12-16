@@ -154,8 +154,13 @@ LEXICON N_20VÄITSʼ-PL
 +N:     NMN_20VÄITSʼ-PL ;
 
 
-LEXICON N-21hüdsi
-+N+Sg+Nom+WORK: K ;
+LEXICON N_21HÜDSI !!= @CODE@ hüdsi:hüdsi
+	N_21HÜDSI-SG ;
+        N_21HÜDSI-PL ;
+LEXICON N_21HÜDSI-SG
++N:     NMN_21HÜDSI-SG ;
+LEXICON N_21HÜDSI-PL
++N:     NMN_21HÜDSI-PL ;
 
 LEXICON N_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
         N_22VÕROKÕNÕ-SG ;
@@ -217,10 +222,17 @@ LEXICON N-38puhm
 LEXICON N-39häbü
 +N+Sg+Nom+WORK: K ;
 
-LEXICON N-40talo
-+N+Sg+Nom+WORK: K ;
+LEXICON N_40TALO !!= @CODE@ talo:talo
+        N_40TALO-SG ;
+        N_40TALO-PL ;
+LEXICON N_40TALO-SG
++N:     NMN_40TALO-SG ;
+LEXICON N_40TALO-PL
++N:     NMN_40TALO-PL ;
+
 
 LEXICON N-41kand
+!! * Yaml: __aig__
 +N+Sg+Nom+WORK: K ;
 
 LEXICON N-42vari
@@ -397,14 +409,14 @@ LEXICON NMN_3PERÄDÜ !!= @CODE@ perädü:perädü
 LEXICON NMN_3PERÄDÜ-SG
 	SG-NOM	;
 	SG-GEN_ZERO-STEM	;
-:%^SGStem SG-PAR_t	;
-:%^SGStem SG-ILL_he	;
+:%^StrGStem SG-PAR_t	;
+:%^StrGStem SG-ILL_he	;
 LEXICON NMN_3PERÄDÜ-PL
 	PL-NOM ;
-:%^SGStem%>i	PL-GEN_dÕ ;
-:%^SGStem%>i      PL-ILL_he       ;
-:%^SGStem%>i      PL-PAR_t        ;
-:%^SGStem%>i      PL-ALL_lÕ-STEM       ;
+:%^StrGStem%>i	PL-GEN_dÕ ;
+:%^StrGStem%>i      PL-ILL_he       ;
+:%^StrGStem%>i      PL-PAR_t        ;
+:%^StrGStem%>i      PL-ALL_lÕ-STEM       ;
 
 LEXICON NMN_4TERVÜS
   NMN_4TERVÜS-SG ;
@@ -669,9 +681,21 @@ LEXICON NMN_21HÜDSI
   NMN_21HÜDSI-PL ;
 
 LEXICON NMN_21HÜDSI-SG 
-+WORK: #;
+      SG-NOM ;
+:%^VowRM%{ÕE%}      SG-GEN_ZERO-STEM ;
+:%^WGStem%^VowRM      SG-PAR_t ;
+:%^WGStem%^VowRM      SG-ILL_tÕ ;
+
 LEXICON NMN_21HÜDSI-PL 
-+WORK: #;
+:%{ÕE%}      PL-NOM ;
+:%^StrGStem             PL-GEN_ZERO ;
+:%^StrGStem           PL-PAR_ZERO ;
+:%^StrGStem           PL-ILL_he ;
+:%^StrGStem           PL-ILL_ZERO ;
+:%^WGStem%^VowRM              PL-GEN_dÕ ;
+:%^WGStem%^VowRM              PL-ALL_dÕlÕ ;
+:           PL-ALL_lÕ-STEM ;
+
 LEXICON NMN_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
         NMN_22VÕROKÕNÕ-SG ;
         NMN_22VÕROKÕNÕ-PL ;
@@ -830,9 +854,26 @@ LEXICON NMN_40TALO
   NMN_40TALO-SG ;
   NMN_40TALO-PL ;
 LEXICON NMN_40TALO-SG 
-+WORK: #;
+        SG-NOM  ;
+:%^WGStem       SG-GEN_ZERO-STEM        ;
+:%^StrGStem       SG-ILL_ZERO        ;
+:%^StrGStem       SG-PAR_ZERO        ;
+
 LEXICON NMN_40TALO-PL 
-+WORK: #;
+:%^WGStem       PL-NOM ;
+:%^StrGStem%^VowRM%{AÄ%}    PL-GEN_ZERO ;
+:%^StrGStem%^VowRM%{ÕE%}    PL-GEN_ZERO ;
+:%^StrGStem%^VowRM%{ÕE%}    PL-PAR_ZERO ;
+:%^StrGStem%^VowRM%{AÄ%}    PL-PAR_ZERO ;
+:%^StrGStem%^VowRM%{ÕE%}    PL-ILL_ZERO ;
+:%^StrGStem%^VowRM%{AÄ%}    PL-ILL_ZERO ;
+:%^StrGStem%^VowRM%{ÕE%}    PL-ILL_he ;
+:%^StrGStem%^VowRM%{AÄ%}    PL-ILL_he ;
+:%^WGStem%^VowRM%{ÕE%}  PL-ALL_lÕ-STEM ;
+:%^WGStem%^VowRM%{AÄ%}  PL-ALL_lÕ-STEM ;
+:%^StrGStem%^VowRM%{ÕE%}  PL-ALL_lÕ-STEM ;
+:%^StrGStem%^VowRM%{AÄ%}  PL-ALL_lÕ-STEM ;
+
 
 LEXICON NMN_41KAND
   NMN_41KAND-SG ;
@@ -1003,7 +1044,7 @@ LEXICON	 SG-ELA_st
 +Sg+Ela:%>st K ;
 
 LEXICON	 SG-GEN_ZERO
-+Sg+Gen: K ;
++Sg+Gen:%> K ;
 
 LEXICON	SG-ILL_ZERO
 +Sg+Ill: K ;

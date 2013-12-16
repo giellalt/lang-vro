@@ -65,9 +65,8 @@ K1:k
 %^StrGStem:0 !!= @CODE@ This strengthens "perädü" to "perätüt"
 
 
+%^TS:0 !!= @CODE@ The ti => si
 
-! The ti => si
-%^TS:0
 
 
 %^RVow:0 !!= @CODE@ Raises vowel
@@ -116,11 +115,13 @@ VowDummies = %^WGStem %> ;
 Definitions
 
 ! Front Trigger
-FT =  [ # Cns* [ VowFront | VowNeutral | i: ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
+FT =   # Cns* [[ VowFront | VowNeutral ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
+! # Cns* [[ VowFront | VowNeutral | i: ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
 
 
 ! Back Trigger 
-BT =   ( # Cns* ( [ VowNeutral | i: ] \[ # | VowFront: | :VowFront ]* ) ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
+BT =   # Cns* ( [ VowNeutral ] ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
+! # Cns* ( [ VowNeutral | i: ] \[ # | VowFront: | :VowFront ]* ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
 
 ! Gradation strong to weak
 !GS2W = [ p:v | m p:m | t:0 | l t:l | r t:r | n t:n | s t:s | k:0 | l k:0 | r k:0 | n k:g | s k:0 ] ;
@@ -150,14 +151,15 @@ Rules
 "%{AÄ%}:ä"
 !! __@RULENAME@__  
  %{AÄ%}:ä <=> FT %> [ :j | m |(s i) v | t | d ] _   ;
-              FT  :Cns (ʼ:) (%^WGStem:) %> _ ;
+              FT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
+	      FT  (%^StrGStem:|%^WGStem:) %^VowRM: _ ;
 
 !! !Vowel harmony suffixes Back
 "%{AÄ%}:a"
 !! __@RULENAME@__  
  %{AÄ%}:a <=> BT %> [ :j | m |(s i) v | t | d ] _   ;
-              BT  :Cns (ʼ:) (%^WGStem:) %> _ ;
-
+              BT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
+	      BT  (%^StrGStem:|%^WGStem:) %^VowRM: _  ;
 !
 ! Vowel harmony suffixes Front
 "%{UÜ%}:ü"
@@ -213,11 +215,20 @@ Rules
 
 "ä:0"
 !! __@RULENAME@__
- ä:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+ ä:0 <=>  [ Cns: | :Cns ] _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
 
 "e:0"
 !! __@RULENAME@__
- e:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+ e:0 <=>  [ Cns: | :Cns ] _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+
+"o:0"
+!! __@RULENAME@__
+ o:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:|%^StrGStem:) %^VowRM: (%{ÕE%}:|%{AÄ%}:) ]   ; 
+
+"i:0"
+!! __@RULENAME@__
+ i:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:) %^VowRM: (%{ÕE%}:) | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+
 
 "u20"
 !! __@RULENAME@__
@@ -263,6 +274,7 @@ Rules
 "0:l"
 !! __@RULENAME@__
  0:l <=> Vow l _ :Vow %> j:i ;
+         Vow l _ Vow: %^StrGStem: ;
 
 "%{XC%}:s"
 !! __@RULENAME@__
@@ -311,8 +323,8 @@ k:0 <=> s _ a %^WGStem: ;
 
 "dTot"
 !! __@RULENAME@__
- d:t <=> [ s | h ] %> _ ;
-     _ Vow %^StrGStem: ;
+ d:t <=> [ s | h ] (Vow: %^WGStem: %^VowRM:) %> _ ;
+    Vow _ (s) Vow %^StrGStem: ;
 
 "tTod"
 !! __@RULENAME@__
@@ -322,6 +334,11 @@ k:0 <=> s _ a %^WGStem: ;
 "s20"
 !! __@RULENAME@__
  s:0 <=> [ u | ü | a: | ä: ] _ (%^VowRM:)  %^CnsRM:  ;
+
+"d20"
+!! __@RULENAME@__
+ d:0 <=>  Vow _ s Vow: %^WGStem: (%^VowRM:)  ;
+
 
 
 !! !Other marks
