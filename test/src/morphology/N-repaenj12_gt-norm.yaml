@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - repänʼ: # Noun (12) repänʼ 'eng /est /fin' - full paradigm
+     repänʼ+N+Sg+Nom: repänʼ
+     repänʼ+N+Sg+Gen: rebäse
+     repänʼ+N+Sg+Par: rebäst
+     repänʼ+N+Sg+Ill: rebäsehe
+     repänʼ+N+Pl+Gen: [rebäside, rebäste]
+     repänʼ+N+Pl+Par: rebäsit
+     repänʼ+N+Pl+Ill: [rebäsihe, rebästehe]
+     repänʼ+N+Pl+All: [rebäsile, rebästele]
+
