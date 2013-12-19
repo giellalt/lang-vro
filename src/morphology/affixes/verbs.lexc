@@ -138,17 +138,19 @@ LEXICON V_78SAAMA
 +V: V0-PSS-PRT-PRC ;
 
 
-LEXICON V-79tulõma !!= @CODE@ tulõma:tul
+LEXICON V_79TULÕMA !!= @CODE@ tulõma:tul
 !! * Yaml: __tulwma__
 +V:%{ÕE%} V0-IND-PRS-SC-12 ;
 +V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
 +V:%{ÕE%} V0-IND-PRS-SCSG3_ZERO ;
-+V: V0-IND-PRS-SCPL3_vAq ;
++V:%{ÕE%} V0-IND-PRS-SCPL3_vAq ;
 +V: V0-IND-PRS-OC ;
 
 +V: V0-IND-PRT-SC-12_i ;
 +V: V0-IND-PRT-SC-CONNEG ;
-+V: V0-IND-PRT-SCSG3_i ;
+!+V: V0-IND-PRT-SCSG3_i ;
++V+Ind+Prt+ScSg3:lʼ K ;
++V+Ind+Prt+ScSg3:li K ;
 +V: V0-IND-PRT-OC ;
 
 +V:%{ÕE%} DEVERBAL_minÕ ;
@@ -173,9 +175,9 @@ LEXICON V_OLÕMA !!= @CODE@ olõma:o
 +V+Ind+Prt+ScSg3:lli K ;
 +V: V0-IND-PRT-OC ;
 
-+V: DEVERBAL_minÕ ;
-+V: V0-INF_mA ;
-+V: V0-INF_vAq ;
++V:l%{ÕE%} DEVERBAL_minÕ ;
++V:l%{ÕE%} V0-INF_mA ;
++V:l V0-INF_dAq ;
 +V: V0-ACT-PRS-PRC ;
 +V:%^LowerVow V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
