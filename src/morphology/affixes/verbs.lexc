@@ -138,8 +138,28 @@ LEXICON V_78SAAMA
 +V: V0-PSS-PRT-PRC ;
 
 
-LEXICON V-79tulõma
-+V+WORK: # ;
+LEXICON V-79tulõma !!= @CODE@ tulõma:tul
+!! * Yaml: __tulwma__
++V:%{ÕE%} V0-IND-PRS-SC-12 ;
++V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
++V:%{ÕE%} V0-IND-PRS-SCSG3_ZERO ;
++V: V0-IND-PRS-SCPL3_vAq ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_i ;
++V: V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-OC ;
+
++V:%{ÕE%} DEVERBAL_minÕ ;
++V:%{ÕE%} V0-INF_mA ;
++V: V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
+
 LEXICON V_OLÕMA !!= @CODE@ olõma:o
 +V: V0-IND-PRS-SC-12 ;
 +V:lõ V0-IND-PRS-SC-CONNEG ;

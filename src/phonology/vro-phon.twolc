@@ -150,14 +150,14 @@ Rules
 !! !Vowel harmony suffixes Front
 "%{AÄ%}:ä"
 !! __@RULENAME@__  
- %{AÄ%}:ä <=> FT %> [ :j | m |(s i) v | t | d ] _   ;
+ %{AÄ%}:ä <=> FT %> [ :j | m |(s i) v | t | d: ] _   ;
               FT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
 	      FT  (%^StrGStem:|%^WGStem:) %^VowRM: _ ;
 
 !! !Vowel harmony suffixes Back
 "%{AÄ%}:a"
 !! __@RULENAME@__  
- %{AÄ%}:a <=> BT %> [ :j | m |(s i) v | t | d ] _   ;
+ %{AÄ%}:a <=> BT %> [ :j | m |(s i) v | t | d: ] _   ;
               BT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
 	      BT  (%^StrGStem:|%^WGStem:) %^VowRM: _  ;
 !
@@ -228,7 +228,7 @@ Rules
 "i:0"
 !! __@RULENAME@__
  i:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:) %^VowRM: (%{ÕE%}:) | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
-
+          Vow l 0:l %>: _ %{ÕE%}: ;
 
 "u20"
 !! __@RULENAME@__
@@ -275,10 +275,14 @@ Rules
 !! __@RULENAME@__
  0:l <=> Vow l _ :Vow %> j:i ;
          Vow l _ Vow: %^StrGStem: ;
-
+	 Vow l _ %> i: (%{ÕE%}: ) [ %> | # ] ;
 "%{XC%}:s"
 !! __@RULENAME@__
  %{XC%}:s <=> s _ ;
+
+"%{XC%}:l"
+!! __@RULENAME@__
+ %{XC%}:l <=> l _ ;
 
 "%{XC%}:k"
 !! __@RULENAME@__
@@ -320,6 +324,11 @@ k:0 <=> s _ a %^WGStem: ;
 !€ hõrag00a
 
 
+"dTol"
+!! __@RULENAME@__
+ d:l <=> l %> _ %{AÄ%}: q ;
+
+!%>d%{AÄ%}q
 
 "dTot"
 !! __@RULENAME@__
