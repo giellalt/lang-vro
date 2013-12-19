@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - unõh(t)uma: # Verb (70) unõh(t)uma 'eng /est /fin' - full paradigm
+     unõh(t)uma+V+Inf/mA: [unõhtuma, unõhuma]
+     unõh(t)uma+V+Inf: [unõhtudaq, unõhudaq]
+     unõh(t)uma+V+ActPrtPrc: [unõh(t)unuq
+     unõh(t)uma+V+PssPrtPrc: [unõhtut, unõhut]
+     unõh(t)uma+V+Ind+Prs+ScSg1: [unõhtu, unõhu]
+     unõh(t)uma+V+Ind+Prs+ScSg3: [unõhtus, unõhus]
+     unõh(t)uma+V+Ind+Prt+ScSg1: [unõhtu, unõhu]
+     unõh(t)uma+V+Ind+Prt+ScSg3: [unõhtu, unõhu]
+
