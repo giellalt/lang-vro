@@ -364,6 +364,14 @@ LEXICON N-orsikas
 LEXICON N-meelikäs
 +N+Sg+Nom:s # ;
 
+LEXICON N_ELÄNÜQ !!= * @CODE@ elänüq:elänü
+    N_ELÄNÜQ-SG  ;
+    N_ELÄNÜQ-PL  ;
+
+LEXICON  N_ELÄNÜQ-SG
++N:	NMN_ELÄNÜQ-SG  ;
+LEXICON N_ELÄNÜQ-PL
++N:	NMN_ELÄNÜQ-PL  ;
 
 !! !NOMINAL DECLENSIONS
 
@@ -948,6 +956,23 @@ LEXICON NMN_47ASI-SG
 LEXICON NMN_47ASI-PL 
 +WORK: #;
 
+LEXICON NMN_ELÄNÜQ !!= * @CODE@ elänüq:elänü
+	NMN_ELÄNÜQ-SG  ;
+	NMN_ELÄNÜQ-PL  ;
+LEXICON NMN_ELÄNÜQ-SG
++Sg+Nom:q K ;
++Sg+Gen:q K ;
++Sg+Par:t K ;
++Sg+Ill:he K ;
+
+LEXICON NMN_ELÄNÜQ-PL
++Pl+Nom:q K ;
++Pl+Gen:id%{ÕE%} K ;
++Pl+Gen:isi K ;
++Pl+Par:id K ;
++Pl+Par:isi K ;
++Pl+Ill:isihe K ;
++Pl+Ill:ihe K ;
 
 
 !! !SINGULAR GENITIVE STEMS

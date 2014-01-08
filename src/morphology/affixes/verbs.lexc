@@ -146,11 +146,12 @@ LEXICON V_79TULÕMA !!= @CODE@ tulõma:tul
 +V:%{ÕE%} V0-IND-PRS-SCPL3_vAq ;
 +V: V0-IND-PRS-OC ;
 
-+V: V0-IND-PRT-SC-12_i ;
-+V: V0-IND-PRT-SC-CONNEG ;
++V:%{XC%} V0-IND-PRT-SC-12_i ;
++V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
 !+V: V0-IND-PRT-SCSG3_i ;
-+V+Ind+Prt+ScSg3:lʼ K ;
-+V+Ind+Prt+ScSg3:li K ;
++V+Ind+Prt+ScSg3:%{XC%}ʼ K ;
++V+Ind+Prt+ScSg3:%{XC%}i K ;
++V:%{XC%} V0-IND-PRT-SCPL3_vAq ;
 +V: V0-IND-PRT-OC ;
 
 +V:%{ÕE%} DEVERBAL_minÕ ;
@@ -314,8 +315,8 @@ LEXICON V0-IND-PRT-SCSG3_i
 +Ind+Prt+ScSg3:%>i K ;
 +Ind+Prt+ScSg3:%>i%{ÕE%} K ;
 LEXICON V0-IND-PRT-SCPL3_vAq
-+Ind+Prt+ScPl3:%^VowRM%>siq K ;
-+Ind+Prt+ScPl3:%^VowRM%>siv%{AÄ%}q K ;
++Ind+Prt+ScPl3:%^VowRM%>iq K ;
++Ind+Prt+ScPl3:%^VowRM%>iv%{AÄ%}q K ;
 
 
 LEXICON V0-IND-PRT-SC3_s
@@ -381,7 +382,8 @@ LEXICON DEVERBAL_minÕ
 
 
 LEXICON V0-ACT-PRS-PRC
-+ActPrsPrc:v K ;
++ActPrsPrc:%{XC}%{ÕE%}v K ;
++ActPrsPrc:%{XC}%{ÕE%}v A_9KIPÕNʼ ;
 +ActPrsPrc+Sg+Nom:v K ;
 +ActPrsPrc+Sg+Gen:%>v%{AÄ%} K ;
 +ActPrsPrc+Sg+Par:%>v%{AÄ%}t K ;
@@ -393,17 +395,18 @@ LEXICON V0-ACT-PRS-PRC
 
 LEXICON V0-ACT-PRT-PRC
 +ActPrtPrc:%^WGStem%>n%{UÜ%}q K ;
-+ActPrtPrc+Sg+Nom:%^WGStem%>n%{UÜ%}q K ;
-+ActPrtPrc+Sg+Gen:%^WGStem%>n%{UÜ%}q K ;
-+ActPrtPrc+Sg+Par:%^WGStem%>n%{UÜ%}t K ;
-+ActPrtPrc+Sg+Ill:%^WGStem%>n%{UÜ%}he K ;
-+ActPrtPrc+Pl+Nom:%^WGStem%>n%{UÜ%}q K ;
-+ActPrtPrc+Pl+Gen:%^WGStem%>n%{UÜ%}id%{ÕE%} K ;
-+ActPrtPrc+Pl+Gen:%^WGStem%>n%{UÜ%}isi K ;
-+ActPrtPrc+Pl+Par:%^WGStem%>n%{UÜ%}id K ;
-+ActPrtPrc+Pl+Par:%^WGStem%>n%{UÜ%}isi K ;
-+ActPrtPrc+Pl+Ill:%^WGStem%>n%{UÜ%}isihe K ;
-+ActPrtPrc+Pl+Ill:%^WGStem%>n%{UÜ%}ihe K ;
++ActPrtPrc:%^WGStem%>n%{UÜ%} A_ELÄNÜQ ;
+!+ActPrtPrc+Sg+Nom:%^WGStem%>n%{UÜ%}q K ;
+!+ActPrtPrc+Sg+Gen:%^WGStem%>n%{UÜ%}q K ;
+!+ActPrtPrc+Sg+Par:%^WGStem%>n%{UÜ%}t K ;
+!+ActPrtPrc+Sg+Ill:%^WGStem%>n%{UÜ%}he K ;
+!+ActPrtPrc+Pl+Nom:%^WGStem%>n%{UÜ%}q K ;
+!+ActPrtPrc+Pl+Gen:%^WGStem%>n%{UÜ%}id%{ÕE%} K ;
+!+ActPrtPrc+Pl+Gen:%^WGStem%>n%{UÜ%}isi K ;
+!+ActPrtPrc+Pl+Par:%^WGStem%>n%{UÜ%}id K ;
+!+ActPrtPrc+Pl+Par:%^WGStem%>n%{UÜ%}isi K ;
+!+ActPrtPrc+Pl+Ill:%^WGStem%>n%{UÜ%}isihe K ;
+!+ActPrtPrc+Pl+Ill:%^WGStem%>n%{UÜ%}ihe K ;
 
 
 LEXICON V0-PSS-PRS-PRC
