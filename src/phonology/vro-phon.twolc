@@ -152,14 +152,14 @@ Rules
 !! __@RULENAME@__  
  %{AÄ%}:ä <=> FT %> [ :j | m |(s i) v | t | d: ] _   ;
               FT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
-	      FT  (%^StrGStem:|%^WGStem:) %^VowRM: _ ;
-
+	      FT  (%^StrGStem:|%^WGStem:) %^VowRM: ( %> i v | %> s i v ) _ ;
+!%^VowRM%>iv%{AÄ%}q
 !! !Vowel harmony suffixes Back
 "%{AÄ%}:a"
 !! __@RULENAME@__  
  %{AÄ%}:a <=> BT %> [ :j | m |(s i) v | t | d: ] _   ;
               BT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
-	      BT  (%^StrGStem:|%^WGStem:) %^VowRM: _  ;
+	      BT  (%^StrGStem:|%^WGStem:) %^VowRM: ( %> i v | %> s i v ) _  ;
 !
 ! Vowel harmony suffixes Front
 "%{UÜ%}:ü"
@@ -252,6 +252,10 @@ Rules
 !! __@RULENAME@__
  %{XV%}:ä <=> :ä ( %- ) _  ;
 
+"%{XV%}:õ"
+!! __@RULENAME@__
+ %{XV%}:õ <=> :õ ( %- ) _  ;
+
 
 !!
 "i2j"
@@ -278,20 +282,18 @@ Rules
 	 Vow l _ %> i: (%{ÕE%}: ) [ %> | # ] ;
 "%{XC%}:s"
 !! __@RULENAME@__
- %{XC%}:s <=> s _ ;
+ %{XC%}:s <=> s: _ ;
 
 "%{XC%}:l"
 !! __@RULENAME@__
- %{XC%}:l <=> l _ ;
+ %{XC%}:l <=> l: _ ;
 
 "%{XC%}:k"
 !! __@RULENAME@__
- %{XC%}:k <=> k _ ;
+ %{XC%}:k <=> k: _ ;
 
 
 !! !Consonant weakening 
-
-
 
 ! aika: ajan
 "kToZero"
@@ -301,9 +303,10 @@ k:0 <=> s _ a %^WGStem: ;
 ![ [ # ] Cns* Vow (( r | i ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ Vow: | :Vow | ( Vow ) %> i ] ( %> i: | %^StretchSyll2:0 ) %> %^WCns:0 ;
 !        [ # ] Cns* VowBack i: _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
 
-"ll2l"
+"lToZero"
 !! __@RULENAME@__
  l:0 <=> l _ Vow i: %^WGStem: ;
+         _ %{XC%}:l %{ÕE%}: v %^WGStem: ;
 
 
 "p2b"
