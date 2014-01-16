@@ -231,9 +231,15 @@ LEXICON N_40TALO-PL
 +N:     NMN_40TALO-PL ;
 
 
-LEXICON N-41kand
-!! * Yaml: __aig__
-+N+Sg+Nom+WORK: K ;
+LEXICON N_41KAND !!= @CODE@ kand:kand
+!! * Yaml: __aig, kand__
+        N_41KAND-SG ;
+	N_41KAND-PL ;
+LEXICON N_41KAND-SG
++N:     NMN_41KAND-SG ;
+LEXICON N_41KAND-PL
++N:     NMN_41KAND-PL ;
+
 
 LEXICON N-42vari
 +N+Sg+Nom+WORK: K ;
@@ -882,14 +888,28 @@ LEXICON NMN_40TALO-PL
 :%^StrGStem%^VowRM%{ÕE%}  PL-ALL_lÕ-STEM ;
 :%^StrGStem%^VowRM%{AÄ%}  PL-ALL_lÕ-STEM ;
 
-
-LEXICON NMN_41KAND
+LEXICON NMN_41KAND !!= @CODE@ kand:kand
   NMN_41KAND-SG ;
   NMN_41KAND-PL ;
 LEXICON NMN_41KAND-SG 
-+WORK: #;
+        SG-NOM  ;
+:%^WGStem%>%{OÖ%}       SG-GEN_ZERO-STEM        ;
+:%>%{OÖ%}       SG-ILL_ZERO        ;
+:%>%{OÖ%}       SG-PAR_ZERO        ;
+
 LEXICON NMN_41KAND-PL 
-+WORK: #;
+:%^WGStem       PL-NOM ;
+:%{AÄ%}    PL-GEN_ZERO ;
+:%{ÕE%}    PL-GEN_ZERO ;
+:%{ÕE%}    PL-PAR_ZERO ;
+:%{AÄ%}    PL-PAR_ZERO ;
+:%{ÕE%}    PL-ILL_ZERO ;
+:%{AÄ%}    PL-ILL_ZERO ;
+:%{ÕE%}    PL-ILL_he ;
+:%{AÄ%}    PL-ILL_he ;
+:%^WGStem%{ÕE%}  PL-ALL_lÕ-STEM ;
+:%^WGStem%{AÄ%}  PL-ALL_lÕ-STEM ;
+
 
 LEXICON NMN_42VARI
   NMN_42VARI-SG ;
