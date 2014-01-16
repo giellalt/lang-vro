@@ -152,14 +152,14 @@ Rules
 !! __@RULENAME@__  
  %{AÄ%}:ä <=> FT %> [ :j | m |(s i) v | t | d: ] _   ;
               FT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
-	      FT  (%^StrGStem:|%^WGStem:) %^VowRM: ( %> i v | %> s i v ) _ ;
+	      FT  (%^StrGStem:|%^WGStem:) (%^VowRM:) ( %> i v | %> s i v ) _ ;
 !%^VowRM%>iv%{AÄ%}q
 !! !Vowel harmony suffixes Back
 "%{AÄ%}:a"
 !! __@RULENAME@__  
  %{AÄ%}:a <=> BT %> [ :j | m |(s i) v | t | d: ] _   ;
               BT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
-	      BT  (%^StrGStem:|%^WGStem:) %^VowRM: ( %> i v | %> s i v ) _  ;
+	      BT  (%^StrGStem:|%^WGStem:) (%^VowRM:) ( %> i v | %> s i v ) _  ;
 !
 ! Vowel harmony suffixes Front
 "%{UÜ%}:ü"
@@ -309,23 +309,16 @@ k:0 <=> s _ a %^WGStem: ;
          _ %{XC%}:l %{ÕE%}: v %^WGStem: ;
 
 
+!! !CONSONANT QUALITY CHANGE
+
 "p2b"
 !! __@RULENAME@__
  p:b <=> Vow _ Vow [ n (ʼ:) ] %^WGStem: ;
 
 
-!! !CONSONANT QUALITY CHANGE
-
-"j2i"
+"d2n"
 !! __@RULENAME@__
- j:i <=> :Vow %> _ [ # | %- ];
-
-"k2g"
-!! __@RULENAME@__
- k:g <=> Vow _ %^WGStem: ;
-!€ hõrak%^WGStem>%{AÄ%}
-!€ hõrag00a
-
+ d:n <=> n _ %^WGStem: ;
 
 "dTol"
 !! __@RULENAME@__
@@ -341,6 +334,17 @@ k:0 <=> s _ a %^WGStem: ;
 "tTod"
 !! __@RULENAME@__
  t:d <=> Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ ;
+
+"j2i"
+!! __@RULENAME@__
+ j:i <=> :Vow %> _ [ # | %- ];
+
+"k2g"
+!! __@RULENAME@__
+ k:g <=> Vow _ %^WGStem: ;
+!€ hõrak%^WGStem>%{AÄ%}
+!€ hõrag00a
+
 
 !! !STEM-FINAL CONSONANT LOSS
 "s20"
