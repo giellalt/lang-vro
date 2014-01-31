@@ -35,15 +35,15 @@ GT_LEXC_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-			 stems/adjectives.lexc \
-			 stems/adpositions.lexc \
-			 stems/adverbs.lexc \
-			 stems/conjunctors.lexc \
-			 stems/interjections.lexc \
-			 stems/nouns.lexc \
-			 stems/pronouns.lexc \
-			 stems/quantifiers.lexc \
-			 stems/verbs.lexc 
+			 $(srcdir)/stems/adjectives.lexc \
+			 $(srcdir)/stems/adpositions.lexc \
+			 $(srcdir)/stems/adverbs.lexc \
+			 $(srcdir)/stems/conjunctors.lexc \
+			 $(srcdir)/stems/interjections.lexc \
+			 $(srcdir)/stems/nouns.lexc \
+			 $(srcdir)/stems/pronouns.lexc \
+			 $(srcdir)/stems/quantifiers.lexc \
+			 $(srcdir)/stems/verbs.lexc 
 
 
 # Set this to the names of all source xml files, if any
