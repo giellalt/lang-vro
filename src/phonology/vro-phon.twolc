@@ -115,7 +115,7 @@ VowDummies = %^WGStem %> ;
 Definitions
 
 ! Front Trigger
-FT =   # Cns* [[ VowFront | VowNeutral ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
+FT =   # Cns* [[ VowFront | VowNeutral ] | :VowFront ] \[ # | %> i v | %> s i v | VowBack: | :VowBack ]*  ;
 ! # Cns* [[ VowFront | VowNeutral | i: ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
 
 
