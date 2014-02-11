@@ -58,8 +58,6 @@ GT_XML_SRCS=\
 			 stems/quantifiers.xml \
 			 stems/verbs.xml 
 
-
-
-include $(top_srcdir)/am-shared/lexc-include.am
+include $(top_srcdir)/am-shared/src-morphology-dir-include.am
 
 # vim: set ft=automake:
