@@ -175,7 +175,31 @@ Rules
 !! __@RULENAME@__
  ü:e <=> ü: _ %> i ;
 
-!! !VOWEL RAISING
+!! !VOWEL CHANGE WITH PLURAL
+
+"ʼ2e"
+!! __@RULENAME@__
+!! {{{
+ ʼ:e <=>  _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: )  %> \[ :Vow | Vow: ]  ;
+!€# särgʼ%^WGStem#
+!€0 sär0e00
+!! }}}
+
+"ʼ2i"
+!! __@RULENAME@__
+!! {{{
+ ʼ:i <=>  _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: ) %^PLPRT: ;
+!€# särgʼ%^WGStem%^PLPRT
+!€0 särgi00
+!! }}}
+
+"i2e"
+!! __@RULENAME@__
+!! {{{
+ i:e <=>  _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
+!€# pin0i%^StrGStem%^PLPRT
+!€0 pinne00
+!! }}}
 
 "a2o"
 !! __@RULENAME@__
@@ -364,6 +388,13 @@ k:0 <=> s _ a %^WGStem: ;
  d:0 <=>  Vow _ s Vow: %^WGStem: (%^VowRM:)  ;
           Vow: _ Vow: %^WGStem: ;
 
+"g20"
+!! __@RULENAME@__
+!! {{{
+ g:0 <=>  _ ʼ: %^WGStem: ;
+!€# särgʼ%^WGStem>#
+!€0 sär0e000
+!! }}}
 
 !! !Other marks
 "ʼ:0"
