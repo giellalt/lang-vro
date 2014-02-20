@@ -210,11 +210,22 @@ LEXICON N-34tuli
 LEXICON N-35tarõ
 +N+Sg+Nom+WORK: K ;
 
-LEXICON N-36säri
-+N+Sg+Nom+WORK: K ;
+LEXICON N_36SÄRGʼ !!= @CODE@ särgʼ:särgʼ
+        N_36SÄRGʼ-SG ;
+        N_36SÄRGʼ-PL ;
+LEXICON N_36SÄRGʼ-SG
++N:     NMN_36SÄRGʼ-SG ;
+LEXICON N_36SÄRGʼ-PL
++N:     NMN_36SÄRGʼ-PL ;
 
-LEXICON N-37pini
-+N+Sg+Nom+WORK: K ;
+
+LEXICON N_37PINI !!= @CODE@ pini:pini
+        N_37PINI-SG ;
+        N_37PINI-PL ;
+LEXICON N_37PINI-SG
++N:     NMN_37PINI-SG ;
+LEXICON N_37PINI-PL
++N:     NMN_37PINI-PL ;
 
 LEXICON N-38puhm
 +N+Sg+Nom+WORK: K ;
@@ -845,21 +856,41 @@ LEXICON NMN_35TARÕ-SG
 LEXICON NMN_35TARÕ-PL 
 +WORK: #;
 
-LEXICON NMN_36SÄRI
-  NMN_36SÄRI-SG ;
-  NMN_36SÄRI-PL ;
-LEXICON NMN_36SÄRI-SG 
-+WORK: #;
-LEXICON NMN_36SÄRI-PL 
-+WORK: #;
+LEXICON NMN_36SÄRGʼ
+  NMN_36SÄRGʼ-SG ;
+  NMN_36SÄRGʼ-PL ;
+LEXICON NMN_36SÄRGʼ-SG 
+        SG-NOM  ;
+:%^WGStem%>       SG-GEN_ZERO-STEM        ;
+:%>       SG-ILL_ZERO        ;
+:%>       SG-PAR_ZERO        ;
+
+LEXICON NMN_36SÄRGʼ-PL 
+:%^WGStem       PL-NOM ;
+:%^StrGStem%^PLPRT    PL-GEN_ZERO ;
+:%^StrGStem%^PLPRT    PL-PAR_ZERO ;
+:%^StrGStem%^PLPRT    PL-ILL_ZERO ;
+:%^StrGStem%^PLPRT    PL-ILL_he ;
+:%^WGStem%^PLPRT  PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_37PINI
   NMN_37PINI-SG ;
   NMN_37PINI-PL ;
 LEXICON NMN_37PINI-SG 
-+WORK: #;
+        SG-NOM  ;
+:%^WGStem       SG-GEN_ZERO-STEM        ;
+:%^StrGStem       SG-ILL_ZERO        ;
+:%^StrGStem       SG-PAR_ZERO        ;
+
 LEXICON NMN_37PINI-PL 
-+WORK: #;
+:%^WGStem       PL-NOM ;
+:%^StrGStem%^PLPRT    PL-GEN_ZERO ;
+:%^StrGStem%^PLPRT    PL-PAR_ZERO ;
+:%^StrGStem%^PLPRT    PL-ILL_ZERO ;
+:%^StrGStem%^PLPRT    PL-ILL_he ;
+:%^StrGStem%^PLPRT  PL-ALL_lÕ-STEM ;
+:%^PLPRT  PL-ALL_lÕ-STEM ;
+
 
 LEXICON NMN_38PUHM
   NMN_38PUHM-SG ;
