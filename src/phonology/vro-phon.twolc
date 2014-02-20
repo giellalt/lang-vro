@@ -24,36 +24,6 @@ A B D E F G H I J K L M N O P Q R S Š T U V Y Z Ž Õ Ü Ä Ö
 
  %{XC%}:0	!!= @CODE@ This is used for lengthening a consonant
 
-! this appears in the illative
-V1:a
-V1:e
-V1:i
-V1:o
-V1:u
-V1:y
-V1:ä
-V1:ö
-
-! These appear with the inessive and adessive
-V2:a
-V2:e
-V2:i
-V2:o
-V2:u
-V2:y
-V2:ä
-V2:ö
-
-! These reduplicate the preceding vowel if it in turn is preceded by a consonant
-V3:a
-V3:e
-V3:i
-V3:o
-V3:u
-V3:y
-V3:ä
-V3:ö
-V3:0
 
 ! this k is not effected by gradation
 K1:k
@@ -64,10 +34,12 @@ K1:k
 
 %^StrGStem:0 !!= @CODE@ This strengthens "perädü" to "perätüt"
 
+%^XStrGStem:0 !!= @CODE@ This extra-strengthens "sõda" to "sõtta"
+
 
 %^TS:0 !!= @CODE@ The ti => si
 
-
+%^PLPRT:0 !!= @CODE@ The a:o attested in Plural kana:kanno and prt
 
 %^RVow:0 !!= @CODE@ Raises vowel
 %^LowerVow:0 !!= @CODE@ Lowers vowel
@@ -100,11 +72,11 @@ Y
 
 Sets
 
-VowBack = a o u õ ;
-VowFront = ä ö y ü ;
+VowBack = a o u õ y;
+VowFront = ä ö ü ;
 VowNeutral = e i ; 
 VowNonHigh = a o ä ö e ;
-Vow = a o u ä ö y ü e i õ ;
+Vow = a o u ä ö ü e i õ y ;
 
 Cns = b d f g h j k l m n p q r s š t v z ž ;
 
@@ -115,7 +87,7 @@ VowDummies = %^WGStem %> ;
 Definitions
 
 ! Front Trigger
-FT =   # Cns* [[ VowFront | VowNeutral ] | :VowFront ] \[ # | %> i v | %> s i v | VowBack: | :VowBack ]*  ;
+FT =   # Cns* [[ VowFront | VowNeutral ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
 ! # Cns* [[ VowFront | VowNeutral | i: ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
 
 
@@ -151,15 +123,16 @@ Rules
 "%{AÄ%}:ä"
 !! __@RULENAME@__  
  %{AÄ%}:ä <=> FT %> [ :j | m |(s i) v | t | d: ] _   ;
-              FT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
+!              FT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
 	      FT  (%^StrGStem:|%^WGStem:) (%^VowRM:) ( %> i v | %> s i v ) _ ;
 !%^VowRM%>iv%{AÄ%}q
 !! !Vowel harmony suffixes Back
 "%{AÄ%}:a"
 !! __@RULENAME@__  
  %{AÄ%}:a <=> BT %> [ :j | m |(s i) v | t | d: ] _   ;
-              BT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
-	      BT  (%^StrGStem:|%^WGStem:) (%^VowRM:) ( %> i v | %> s i v ) _  ;
+!              BT  :Cns (ʼ:) (%^StrGStem:|%^WGStem:) %> _ ;
+	      BT  (%^StrGStem:|%^WGStem:) (%^VowRM:)  _  ;
+!	      BT  (%^StrGStem:|%^WGStem:) (%^VowRM:) ( %> i v | %> s i v ) _  ;
 !
 ! Vowel harmony suffixes Front
 "%{UÜ%}:ü"
@@ -202,6 +175,24 @@ Rules
 !! __@RULENAME@__
  ü:e <=> ü: _ %> i ;
 
+!! !VOWEL RAISING
+
+"a2o"
+!! __@RULENAME@__
+!! {{{
+ a:o <=>   _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
+!€# kan0a%^StrGStem%^PLPRT
+!€0 kanno00
+!! }}}
+
+
+"õ2y"
+!! __@RULENAME@__
+!! {{{
+ õ:y <=>   _ Cns:0 a (%^WGStem:) ;
+!€# sõda%^WGStem
+!€0 sy0a0
+!! }}}
 
 !! !VOWEL LOSS
 "a:0"
@@ -275,11 +266,27 @@ Rules
 
 !! Secondary Consonant lengthening
 
+"0:n"
+!! __@RULENAME@__
+ 0:n <=> Vow n _ Vow: %^StrGStem: ;
+
+!        Vow n _ :Vow %> j:i ;
+!	 Vow n _ %> i: (%{ÕE%}: ) [ %> | # ] ;
+
+"0:t"
+!! __@RULENAME@__
+!! {{{
+ 0:t <=> Vow d: _ Vow: %^XStrGStem: ;
+!€# sõd0a%^XStrGStem%^PLPRT
+!€0 sõtto00
+!! }}}
+
 "0:l"
 !! __@RULENAME@__
  0:l <=> Vow l _ :Vow %> j:i ;
          Vow l _ Vow: %^StrGStem: ;
 	 Vow l _ %> i: (%{ÕE%}: ) [ %> | # ] ;
+
 "%{XC%}:s"
 !! __@RULENAME@__
  %{XC%}:s <=> s: _ ;
@@ -329,7 +336,8 @@ k:0 <=> s _ a %^WGStem: ;
 "dTot"
 !! __@RULENAME@__
  d:t <=> [ s | h ] (Vow: %^WGStem: %^VowRM:) %> _ ;
-    Vow _ (s) Vow %^StrGStem: ;
+    Vow _ (s) Vow: %^StrGStem: ;
+    Vow _ 0: Vow: %^XStrGStem: ;
 
 "tTod"
 !! __@RULENAME@__
@@ -354,7 +362,7 @@ k:0 <=> s _ a %^WGStem: ;
 "d20"
 !! __@RULENAME@__
  d:0 <=>  Vow _ s Vow: %^WGStem: (%^VowRM:)  ;
-
+          Vow: _ Vow: %^WGStem: ;
 
 
 !! !Other marks

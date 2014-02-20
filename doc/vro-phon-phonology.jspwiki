@@ -17,16 +17,16 @@ The Võro morphophonological/twolc rules file
 
 
 
-
-
  %^WGStem:0  This weakens "kipõnʼ" to "kibõna"
 
  %^StrGStem:0  This strengthens "perädü" to "perätüt"
 
+ %^XStrGStem:0  This extra-strengthens "sõda" to "sõtta"
+
 
  %^TS:0  The ti => si
 
-
+ %^PLPRT:0  The a:o attested in Plural kana:kanno and prt
 
  %^RVow:0  Raises vowel
  %^LowerVow:0  Lowers vowel
@@ -81,6 +81,16 @@ __u2õ__
 
 __ü2e__
 
+!VOWEL RAISING
+
+__a2o__
+{{{
+}}}
+
+
+__õ2y__
+{{{
+}}}
 
 !VOWEL LOSS
 __a:0__
@@ -121,7 +131,15 @@ __ü2v__
 
 Secondary Consonant lengthening
 
+__0:n__
+
+
+__0:t__
+{{{
+}}}
+
 __0:l__
+
 __%{XC%}:s__
 
 __%{XC%}:l__
@@ -159,7 +177,6 @@ __k2g__
 __s20__
 
 __d20__
-
 
 
 !Other marks
