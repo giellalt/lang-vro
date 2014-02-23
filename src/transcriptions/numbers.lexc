@@ -20,8 +20,10 @@ Multichar_Symbols
 
 LEXICON Root
 < %+String [a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|q|y|z|æ|ø|å|ä|ö|á|č|đ|ŋ|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|Æ|Ø|Å|Ä|Ö|Á|Č|Đ|Ŋ|Š|Ŧ|Ž]* > COMMA ; ! This first line is to allow all letter strings.
-+NumNum NUMBERSECTION ;
-+NumNum COMMASECTION ;
+ NUMBERSECTION ;
+!+NumNum NUMBERSECTION ;
+!+NumNum COMMASECTION ;
+
 
 LEXICON NUMBERSECTION
 HUNDREDSM ;		! 200M
@@ -243,76 +245,93 @@ stoerelåhkede+Use/NG:1  CUODAAT ;
 stoerrelåhkede+Use/NG:1  CUODAAT ;
 
 LEXICON HUNDREDS
-göökte:2   CUODI ;
-golme:3    CUODI ;
-njieljie:4 CUODI ;
-njielje+Use/NG:4  CUODI ;
-nieljie+Use/NG:4  CUODI ;
-nielje+Use/NG:4  CUODI ;
-vïjhte:5   CUODI ;
-govhte:6   CUODI ;
-tjïjhtje:7 CUODI ;
-gaektsie:8 CUODI ;
-uktsie:9   CUODI ;
+katś:2 CUODI ;
+kolm:3 CUODI ;
+neli:4 CUODI ;
+nelli+Use/NG:4 CUODI ;
+viiś:5 CUODI ;
+kuuś:6 CUODI ;
+säidse:7 CUODI ;
+katõsa:8 CUODI ;
+katõssa:8 CUODI ;
+ütesä:9 CUODI ;
+ütessä:9 CUODI ;
+
 
 LEXICON CUODI
-tjuetie:   HUNDRED ;
-stoereluhkie+Use/NG:   HUNDRED ;
-stoerreluhkie+Use/NG:   HUNDRED ;
+sada:   HUNDRED ;
 tjuatede:  CUODAAT ;
 stoerelåhkede+Use/NG:  CUODAAT ;
 stoerrelåhkede+Use/NG:  CUODAAT ;
 
 LEXICON HUNDRED
-      TENS ;
-      TEENS ;
-:%0   ONES ;
+% :      TENS ;
+% :      TEENS ;
+% :%0   ONES ;
 :%0%0 COMMA ;
 
 LEXICON CUODAAT
 :%0%0%.    COMMA ;
 
 LEXICON TEENS
-luhkie:1 ONES ;
+ütśtõist:11 TEENS-VARIATION ;
+katśtõist:12 TEENS-VARIATION ;
+kolmtõist:13 TEENS-VARIATION ;
+nelitõist:14 TEENS-VARIATION ;
+nellitõist:14 TEENS-VARIATION ;
+viiśtõist:15 TEENS-VARIATION ;
+kuuśtõist:16 TEENS-VARIATION ;
+säidsetõist:17 TEENS-VARIATION ;
+katõsatõist:18 TEENS-VARIATION ;
+katõssatõist:18 TEENS-VARIATION ;
+ütesätõist:19 TEENS-VARIATION ;
+ütessätõist:19 TEENS-VARIATION ;
+
+
+LEXICON TEENS-VARIATION
+ COMMA ;
+kümme: COMMA ;
+kümmend: COMMA ;
 
 
 LEXICON TENS
-luhkie:1%0 COMMA ;
-låhkede:1%0%. COMMA ;
-göökte:2 LUHKIE ;
-golme:3 LUHKIE ;
-njieljie:4 LUHKIE ;
-njielje+Use/NG:4 LUHKIE ;
-nieljie+Use/NG:4 LUHKIE ;
-nielje+Use/NG:4 LUHKIE ;
-vïjhte:5 LUHKIE ;
-govhte:6 LUHKIE ;
-tjïjhtje:7 LUHKIE ;
-gaektsie:8 LUHKIE ;
-uktsie:9 LUHKIE ;
+kümme:1%0 COMMA ;
+kümnes:1%0%. COMMA ;
+katś:2 LUHKIE ;
+kolm:3 LUHKIE ;
+neli:4 LUHKIE ;
+nelli+Use/NG:4 LUHKIE ;
+viiś:5 LUHKIE ;
+kuuś:6 LUHKIE ;
+säidse:7 LUHKIE ;
+katõsa:8 LUHKIE ;
+katõssa:8 LUHKIE ;
+ütesä:9 LUHKIE ;
+ütessä:9 LUHKIE ;
 
 LEXICON LUHKIE
-luhkie:%0 COMMA ;
-låhkede:%0%. COMMA ;
-luhkie: ONES ;
+kümmend:%0 COMMA ;
+!låhkede:%0%. COMMA ;
+kümmend% : ONES ;
 
 LEXICON ONES
 CARDINAL ;
 ORDINAL ;
 
 LEXICON CARDINAL
-akte:1 COMMA ;
-göökte:2 COMMA ;
-golme:3 COMMA ;
-njieljie:4 COMMA ;
-njielje+Use/NG:4 COMMA ;
-nieljie+Use/NG:4 COMMA ;  
-nielje+Use/NG:4 COMMA ; 
-vïjhte:5 COMMA ;
-govhte:6 COMMA ;
-tjïjhtje:7 COMMA ;
-gaektsie:8 COMMA ;
-uktsie:9 COMMA ;
+ütś:1 COMMA ;
+katś:2 COMMA ;
+kolm:3 COMMA ;
+neli:4 COMMA ;
+nelli:4 COMMA ;
+!nelli+Use/NG:4 COMMA ;
+viiś:5 COMMA ;
+kuuś:6 COMMA ;
+säidse:7 COMMA ;
+katõsa:8 COMMA ;
+katõssa+Use/NG:8 COMMA ;
+ütesä:9 COMMA ;
+ütesä+Use/NG:9 COMMA ;
 
 LEXICON ORDINAL
 voestes:1%.     COMMA ;
