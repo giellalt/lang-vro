@@ -36,90 +36,90 @@ sada:1 HUNDREDT ;	! 100000-100999
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
-tåvsene:1 THOUSAND ;	! 1000-1999
+tuhat:1 THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
 ONES ;			! 1-9
 
 LEXICON HUNDREDSM
-göökte:2  CUODIM ;
-golme:3 CUODIM ;
-njieljie:4 CUODIM ; ! Google: 459
-njielje+Use/NG:4 CUODIM ;  ! Google: 218
-nieljie+Use/NG:4 CUODIM ;  ! Google:  61
- nielje+Use/NG:4 CUODIM ;  ! Google: irrelevant (20,600)
-vïjhte:5 CUODIM ;
-govhte:6 CUODIM ;
-tjïjhtje:7 CUODIM ;
-gaektsie:8 CUODIM ;
-uktsie:9 CUODIM ;
+katś:2 CUODIM ;
+kolm:3 CUODIM ;
+neli:4 CUODIM ;
+nelli+Use/NG:4 CUODIM ;
+viiś:5 CUODIM ;
+kuuś:6 CUODIM ;
+säidse:7 CUODIM ;
+katõsa:8 CUODIM ;
+katõssa+Use/NG:8 CUODIM ;
+ütesä:9 CUODIM ;
+ütessä+Use/NG:9 CUODIM ;
 
 LEXICON CUODIM
-tjuetie: HUNDREDM ;
-stoereluhkie: HUNDREDM ;
-stoerreluhkie: HUNDREDM ;
+sada: HUNDREDM ;
 
 LEXICON HUNDREDM
-      TENSM ;
-      TEENSM ;
-:%0   ONESM ;
+% :      TENSM ;
+% :      TEENSM ;
+% :%0   ONESM ;
 :%0%0 MILJON ;
 
 LEXICON TEENSM
-luhkie:1 TEENM ;
+ütśtõist:11 LOHKAIM ;
+katśtõist:12 LOHKAIM ;
+kolmtõist:13 LOHKAIM ;
+nelitõist:14 LOHKAIM ;
+nellitõist+Use/NG:14 LOHKAIM ;
+viiśtõist:15 LOHKAIM ;
+kuuśtõist:16 LOHKAIM ;
+säidsetõist:17 LOHKAIM ;
+katõsatõist:18 LOHKAIM ;
+katõssatõist+Use/NG:18 LOHKAIM ;
+ütesätõist:19 LOHKAIM ;
+ütessätõist+Use/NG:19 LOHKAIM ;
 
-LEXICON TEENM
-akte:1     LOHKAIM ;
-göökte:2   LOHKAIM ;
-golme:3    LOHKAIM ;
-njieljie:4 LOHKAIM ;
-njielje+Use/NG:4  LOHKAIM ;
-nieljie+Use/NG:4  LOHKAIM ;
- nielje+Use/NG:4  LOHKAIM ;
-vïjhte:5   LOHKAIM ;
-govhte:6   LOHKAIM ;
-tjïjhtje:7 LOHKAIM ;
-gaektsie:8 LOHKAIM ;
-uktsie:9   LOHKAIM ;
 
 LEXICON LOHKAIM
-MILJON ;
+ MILJON ;
+kümme+Use/NG: MILJON ;
+kümmend+Use/NG: MILJON ;
 
 LEXICON TENSM
-luhkie:1%0 MILJON ;
-göökte:2   LUHKIEM ;
-golme:3    LUHKIEM ;
-njieljie:4 LUHKIEM ;
-njielje+Use/NG:4  LUHKIEM ;
-nieljie+Use/NG:4  LUHKIEM ;
- nielje+Use/NG:4  LUHKIEM ;
-vïjhte:5   LUHKIEM ;
-govhte:6   LUHKIEM ;
-tjïjhtje:7 LUHKIEM ;
-gaektsie:8 LUHKIEM ;
-uktsie:9   LUHKIEM ;
+kümme:1%0 MILJON ;
+katś:2 LUHKIEM ;
+kolm:3 LUHKIEM ;
+neli:4 LUHKIEM ;
+nelli+Use/NG:4 LUHKIEM ;
+viiś:5 LUHKIEM ;
+kuuś:6 LUHKIEM ;
+säidse:7 LUHKIEM ;
+katõsa:8 LUHKIEM ;
+katõssa+Use/NG:8 LUHKIEM ;
+ütesä:9 LUHKIEM ;
+ütessä+Use/NG:9 LUHKIEM ;
+
 
 LEXICON LUHKIEM
-luhkie:%0 MILJON ;
-luhkie:   ONESM ;
+kümmend:%0 MILJON ;
+kümmend:   ONESM ;
 
 LEXICON ONESM
-akte% miljon% :1 OVERTHOUSANDS ;
-göökte:2         MILJON ;
-golme:3          MILJON ;
-njieljie:4       MILJON ;
-njielje+Use/NG:4        MILJON ;
-nieljie+Use/NG:4        MILJON ;
- nielje+Use/NG:4        MILJON ;
-vïjhte:5         MILJON ;
-govhte:6         MILJON ;
-tjïjhtje:7       MILJON ;
-gaektsie:8       MILJON ;
-uktsie:9         MILJON ; 
+ütś% millʼon% :1 OVERTHOUSANDS ;
+katś:2 MILJON ;
+kolm:3 MILJON ;
+neli:4 MILJON ;
+nelli+Use/NG:4 MILJON ;
+viiś:5 MILJON ;
+kuuś:6 MILJON ;
+säidse:7 MILJON ;
+katõsa:8 MILJON ;
+katõssa+Use/NG:8 MILJON ;
+ütesä:9 MILJON ;
+ütessä+Use/NG:9 MILJON ;
+
 
 LEXICON MILJON
-% miljona% : OVERTHOUSANDS ;
+% millʼonat% : OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -127,13 +127,11 @@ LEXICON MILJON
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
-tjuetie:1 HUNDREDT ;	! 100.000.000
-stoereluhkie:1 HUNDREDT ;	! 100.000.000
-stoerreluhkie:1 HUNDREDT ;	! 100.000.000
+sada:1 HUNDREDT ;	! 100.000.000
 :%0 TENST ;		!  20.000.000
-:%0 TEENST ;		!  10.000.000
+% :%0 TEENST ;		!  10.000.000
 :%0%0 ONEST ;		!   2.000.000
-tåvsene:%0%01 THOUSAND ;	!   1.000.000
+tuhat:%0%01 THOUSAND ;	!   1.000.000
 :%0%0%0 UNDERTHOUSAND ;	
 :%0%0%0%0 TENS ;
 :%0%0%0%0 TEENS ;
@@ -141,84 +139,86 @@ tåvsene:%0%01 THOUSAND ;	!   1.000.000
 :%0%0%0%0%0%0 COMMA ;	!  x000000
 
 LEXICON HUNDREDST
-göökte:2   CUODIT ;	! 200000-299999
-golme:3    CUODIT ;	! 300000-399999
-njieljie:4 CUODIT ;	! 400000-499999
-njielje+Use/NG:4  CUODIT ;
-nieljie+Use/NG:4  CUODIT ;
-nielje+Use/NG:4  CUODIT ;
-vïjhte:5   CUODIT ;	! 500000-599999
-govhte:6   CUODIT ;	! 600000-699999
-tjïjhtje:7 CUODIT ;	! 700000-799999
-gaektsie:8 CUODIT ;	! 800000-899999
-uktsie:9   CUODIT ;	! 900000-999999
+katś:2   CUODIT ;	! 200000-299999
+kolm:3    CUODIT ;	! 300000-399999
+neli:4 CUODIT ;	! 400000-499999
+nelli+Use/NG:4  CUODIT ;
+viiś:5   CUODIT ;	! 500000-599999
+kuuś:6   CUODIT ;	! 600000-699999
+säidse:7 CUODIT ;	! 700000-799999
+katõssa+Use/NG:8 CUODIT ;	! 800000-899999
+katõsa:8 CUODIT ;	! 800000-899999
+ütessä+Use/NG:9   CUODIT ;	! 900000-999999
+ütesä:9   CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
-tjuetie: HUNDREDT ;	! 100000-199999
-stoereluhkie+Use/NG: HUNDREDT ;	! 100000-199999
-stoerreluhkie+Use/NG: HUNDREDT ;	! 100000-199999
+sada: HUNDREDT ;	! 100000-199999
 
 LEXICON HUNDREDT	! X = 1-9, Y = 0-9
-TENST ;			! X2XYYY, X10YYY
-TEENST ;		! X1XYYY
-akte:%01 THOUSANDS ;
-:%0 ONEST ;		! XX0YYY
-:%0%0 THOUSANDS ;	! X00YYY
+% : TENST ;			! X2XYYY, X10YYY
+% : TEENST ;		! X1XYYY
+% ütś:%01 THOUSANDS ;
+% :%0 ONEST ;		! XX0YYY
+% :%0%0 THOUSANDS ;	! X00YYY
 
 LEXICON TEENST
-luhkie:1   TEENT ;
-luhkie:1%0 THOUSANDS ;
+ütśtõist:11 TEENT ;
+katśtõist:12 TEENT ;
+kolmtõist:13 TEENT ;
+nelitõist:14 TEENT ;
+nellitõist+Use/NG:14 TEENT ;
+viiśtõist:15 TEENT ;
+kuuśtõist:16 TEENT ;
+säidsetõist:17 TEENT ;
+katõsatõist:18 TEENT ;
+katõssatõist+Use/NG:18 TEENT ;
+ütesätõist:19 TEENT ;
+ütessätõist+Use/NG:19 TEENT ;
+kümme:1%0 THOUSANDS ;
 
 LEXICON TEENT
-akte:1     LOHKAIT ;
-göökte:2   LOHKAIT ;
-golme:3    LOHKAIT ;
-njieljie:4 LOHKAIT ;
-njielje+Use/NG:4  LOHKAIT ;
-nieljie+Use/NG:4  LOHKAIT ;
-nielje+Use/NG:4  LOHKAIT ;
-vïjhte:5   LOHKAIT ;
-govhte:6   LOHKAIT ;
-tjïjhtje:7 LOHKAIT ;
-gaektsie:8 LOHKAIT ;
-uktsie:9   LOHKAIT ;
+ LOHKAIT ;
+kümme+Use/NG: LOHKAIT ;
+kümmend+Use/NG: LOHKAIT ;
 
 LEXICON LOHKAIT
 THOUSANDS ;
 
 LEXICON TENST
-göökteluhkie:2   LUHKIET ;
-golmeluhkie:3    LUHKIET ;
-njieljieluhkie:4 LUHKIET ;
-njieljeluhkie+Use/NG:4  LUHKIET ;
-nieljieluhkie+Use/NG:4  LUHKIET ;
- nieljeluhkie+Use/NG:4  LUHKIET ;
-vïjhteluhkie:5   LUHKIET ;
-govhteluhkie:6   LUHKIET ;
-tjïjhtjeluhkie:7 LUHKIET ;
-gaektsieluhkie:8 LUHKIET ;
-uktsieluhkie:9   LUHKIET ;
+kümme:1%0 THOUSANDS ;
+kümnes:1%0%. THOUSANDS ;
+katś:2 LUHKIET ;
+kolm:3 LUHKIET ;
+neli:4 LUHKIET ;
+nelli+Use/NG:4 LUHKIET ;
+viiś:5 LUHKIET ;
+kuuś:6 LUHKIET ;
+säidse:7 LUHKIET ;
+katõsa:8 LUHKIET ;
+katõssa+Use/NG:8 LUHKIET ;
+ütesä:9 LUHKIET ;
+ütessä+Use/NG:9 LUHKIET ;
 
 LEXICON LUHKIET
-:%0 THOUSANDS ;
-akte:1 THOUSANDS ;
-ONEST ;
+kümmend:%0 THOUSANDS ;
+ütś% tuhat:1 THOUSAND ;
+kümmend% : ONEST ;
 
 LEXICON ONEST
-göökte:2 THOUSANDS ;
-golme:3 THOUSANDS ;
-njieljie:4 THOUSANDS ;
-njielje+Use/NG:4 THOUSANDS ;
-nieljie+Use/NG:4 THOUSANDS ;  
- nielje+Use/NG:4 THOUSANDS ;   
-vïjhte:5 THOUSANDS ;
-govhte:6 THOUSANDS ;
-tjïjhtje:7 THOUSANDS ;
-gaektsie:8 THOUSANDS ;
-uktsie:9 THOUSANDS ;
+katś:2 THOUSANDS ;
+kolm:3 THOUSANDS ;
+neli:4 THOUSANDS ;
+nelli+Use/NG:4 THOUSANDS ;
+viiś:5 THOUSANDS ;
+kuuś:6 THOUSANDS ;
+säidse:7 THOUSANDS ;
+katõsa:8 THOUSANDS ;
+katõssa+Use/NG:8 THOUSANDS ;
+ütesä:9 THOUSANDS ;
+ütessä+Use/NG:9 THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-tåvsene: THOUSAND ;
+tuhandõt% : THOUSAND ;
 
 LEXICON THOUSAND
 UNDERTHOUSAND ;	   ! 1100-1999
@@ -245,9 +245,9 @@ viiś:5 CUODI ;
 kuuś:6 CUODI ;
 säidse:7 CUODI ;
 katõsa:8 CUODI ;
-katõssa:8 CUODI ;
+katõssa+Use/NG:8 CUODI ;
 ütesä:9 CUODI ;
-ütessä:9 CUODI ;
+ütessä+Use/NG:9 CUODI ;
 
 
 LEXICON CUODI
@@ -268,20 +268,20 @@ LEXICON TEENS
 katśtõist:12 TEENS-VARIATION ;
 kolmtõist:13 TEENS-VARIATION ;
 nelitõist:14 TEENS-VARIATION ;
-nellitõist:14 TEENS-VARIATION ;
+nellitõist+Use/NG:14 TEENS-VARIATION ;
 viiśtõist:15 TEENS-VARIATION ;
 kuuśtõist:16 TEENS-VARIATION ;
 säidsetõist:17 TEENS-VARIATION ;
 katõsatõist:18 TEENS-VARIATION ;
-katõssatõist:18 TEENS-VARIATION ;
+katõssatõist+Use/NG:18 TEENS-VARIATION ;
 ütesätõist:19 TEENS-VARIATION ;
-ütessätõist:19 TEENS-VARIATION ;
+ütessätõist+Use/NG:19 TEENS-VARIATION ;
 
 
 LEXICON TEENS-VARIATION
  COMMA ;
-kümme: COMMA ;
-kümmend: COMMA ;
+kümme+Use/NG: COMMA ;
+kümmend+Use/NG: COMMA ;
 
 
 LEXICON TENS
@@ -295,9 +295,9 @@ viiś:5 LUHKIE ;
 kuuś:6 LUHKIE ;
 säidse:7 LUHKIE ;
 katõsa:8 LUHKIE ;
-katõssa:8 LUHKIE ;
+katõssa+Use/NG:8 LUHKIE ;
 ütesä:9 LUHKIE ;
-ütessä:9 LUHKIE ;
+ütessä+Use/NG:9 LUHKIE ;
 
 LEXICON LUHKIE
 kümmend:%0 COMMA ;
@@ -313,15 +313,14 @@ LEXICON CARDINAL
 katś:2 COMMA ;
 kolm:3 COMMA ;
 neli:4 COMMA ;
-nelli:4 COMMA ;
-!nelli+Use/NG:4 COMMA ;
+nelli+Use/NG:4 COMMA ;
 viiś:5 COMMA ;
 kuuś:6 COMMA ;
 säidse:7 COMMA ;
 katõsa:8 COMMA ;
 katõssa+Use/NG:8 COMMA ;
 ütesä:9 COMMA ;
-ütesä+Use/NG:9 COMMA ;
+ütessä+Use/NG:9 COMMA ;
 
 LEXICON ORDINAL
 voestes:1%.     COMMA ;
