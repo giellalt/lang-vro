@@ -26,6 +26,11 @@ LEXICON Root
 
 
 LEXICON NUMBERSECTION
+HUNDREDSG ;             ! 200G
+sada:1 HUNDREDG ;       ! 100G
+TENSG ;                 ! 20-99G
+TEENSG ;                ! 10-19G
+ONESG ;                 ! 1-9G
 HUNDREDSM ;		! 200M
 sada:1 HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
@@ -41,6 +46,107 @@ UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
 ONES ;			! 1-9
+
+LEXICON HUNDREDSG
+katś:2 CUODIG ;
+kolm:3 CUODIG ;
+neli:4 CUODIG ;
+nelli+Use/NG:4 CUODIG ;
+viiś:5 CUODIG ;
+kuuś:6 CUODIG ;
+säidse:7 CUODIG ;
+katõsa:8 CUODIG ;
+katõssa+Use/NG:8 CUODIG ;
+ütesä:9 CUODIG ;
+ütessä+Use/NG:9 CUODIG ;
+
+LEXICON CUODIG
+sada: HUNDREDG ;
+
+LEXICON HUNDREDG
+% :      TENSG ;
+% :      TEENSG ;
+% :%0   ONESG ;
+:%0%0 GIGA ;
+
+LEXICON TEENSG
+ütśtõist:11 LOHKAIG ;
+katśtõist:12 LOHKAIG ;
+kolmtõist:13 LOHKAIG ;
+nelitõist:14 LOHKAIG ;
+nellitõist+Use/NG:14 LOHKAIG ;
+viiśtõist:15 LOHKAIG ;
+kuuśtõist:16 LOHKAIG ;
+säidsetõist:17 LOHKAIG ;
+katõsatõist:18 LOHKAIG ;
+katõssatõist+Use/NG:18 LOHKAIG ;
+ütesätõist:19 LOHKAIG ;
+ütessätõist+Use/NG:19 LOHKAIG ;
+
+
+LEXICON LOHKAIG
+ GIGA ;
+kümme+Use/NG: GIGA ;
+kümmend+Use/NG: GIGA ;
+
+LEXICON TENSG
+kümme:1%0 GIGA ;
+katś:2 LUHKIEG ;
+kolm:3 LUHKIEG ;
+neli:4 LUHKIEG ;
+nelli+Use/NG:4 LUHKIEG ;
+viiś:5 LUHKIEG ;
+kuuś:6 LUHKIEG ;
+säidse:7 LUHKIEG ;
+katõsa:8 LUHKIEG ;
+katõssa+Use/NG:8 LUHKIEG ;
+ütesä:9 LUHKIEG ;
+ütessä+Use/NG:9 LUHKIEG ;
+
+
+LEXICON LUHKIEG
+kümmend:%0 GIGA ;
+kümmend% :   ONESG ;
+
+LEXICON ONESG
+ütś% millʼard% :1 OVERGIGAS ;
+katś:2 GIGA ;
+kolm:3 GIGA ;
+neli:4 GIGA ;
+nelli+Use/NG:4 GIGA ;
+viiś:5 GIGA ;
+kuuś:6 GIGA ;
+säidse:7 GIGA ;
+katõsa:8 GIGA ;
+katõssa+Use/NG:8 GIGA ;
+ütesä:9 GIGA ;
+ütessä+Use/NG:9 GIGA ;
+
+
+LEXICON GIGA
+% millʼardit% : OVERGIGAS ;
+
+! =================
+! Under the billions
+! =================
+LEXICON OVERGIGAS
+HUNDREDSM ;		! 200M
+sada:1 HUNDREDM ;	! 100M
+:%0 TENSM ;			! 20-99M
+% :%0 TEENSM ;		! 10-19M
+:%0%0 ONESM ;			! 1-9M
+:%0%0%0 HUNDREDST ;		! x00.000.000
+sada:%0%0%01 HUNDREDT ;	! 100.000.000
+:%0%0%0%0 TENST ;		!  20.000.000
+% :%0%0%0%0 TEENST ;		!  10.000.000
+:%0%0%0%0%0 ONEST ;		!   2.000.000
+tuhat:%0%0%0%0%01 THOUSAND ;	!   1.000.000
+:%0%0%0%0%0%0 UNDERTHOUSAND ;	
+:%0%0%0%0%0%0%0 TENS ;
+:%0%0%0%0%0%0%0 TEENS ;
+:%0%0%0%0%0%0%0%0 ONES ;
+:%0%0%0%0%0%0%0%0%0 COMMA ;	!  x000000
+
 
 LEXICON HUNDREDSM
 katś:2 CUODIM ;
@@ -231,7 +337,7 @@ katõssa+Use/NG:8 THOUSANDS ;
 ütessä+Use/NG:9 THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-tuhat% : THOUSAND ;
+tuhat: THOUSAND ;
 
 LEXICON THOUSAND
 % : UNDERTHOUSAND ;	   ! 1100-1999
