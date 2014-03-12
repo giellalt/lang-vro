@@ -158,7 +158,7 @@ LEXICON HUNDREDT	! X = 1-9, Y = 0-9
 % : TENST ;			! X2XYYY, X10YYY
 % : TEENST ;		! X1XYYY
 % ütś:%01 THOUSANDS ;
-% :%0 ONEST ;		! XX0YYY
+% :%0 XONEST ;		! XX0YYY
 % :%0%0 THOUSANDS ;	! X00YYY
 
 LEXICON TEENST
@@ -200,9 +200,22 @@ katõssa+Use/NG:8 LUHKIET ;
 ütessä+Use/NG:9 LUHKIET ;
 
 LEXICON LUHKIET
-kümmend:%0 THOUSANDS ;
+kümmend% :%0 THOUSANDS ;
 ütś% tuhat:1 THOUSAND ;
-kümmend% : ONEST ;
+kümmend% : XONEST ;
+
+LEXICON XONEST
+katś% :2 THOUSANDS ;
+kolm% :3 THOUSANDS ;
+neli% :4 THOUSANDS ;
+nelli+Use/NG% :4 THOUSANDS ;
+viiś% :5 THOUSANDS ;
+kuuś% :6 THOUSANDS ;
+säidse% :7 THOUSANDS ;
+katõsa% :8 THOUSANDS ;
+katõssa+Use/NG% :8 THOUSANDS ;
+ütesä% :9 THOUSANDS ;
+ütessä+Use/NG% :9 THOUSANDS ;
 
 LEXICON ONEST
 katś:2 THOUSANDS ;
@@ -218,13 +231,13 @@ katõssa+Use/NG:8 THOUSANDS ;
 ütessä+Use/NG:9 THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-tuhandõt% : THOUSAND ;
+tuhat% : THOUSAND ;
 
 LEXICON THOUSAND
-UNDERTHOUSAND ;	   ! 1100-1999
-:%0 TENS ;	   ! 1020-1099
-:%0 TEENS ;	   ! 1010-1019
-:%0%0 ONES ;	   ! 1001-1009
+% : UNDERTHOUSAND ;	   ! 1100-1999
+% :%0 TENS ;	   ! 1020-1099
+% :%0 TEENS ;	   ! 1010-1019
+% :%0%0 ONES ;	   ! 1001-1009
 :%0%0%0 COMMA ;	   ! 1000
 
 !===========================
