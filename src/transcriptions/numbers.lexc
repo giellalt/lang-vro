@@ -465,7 +465,7 @@ viies:5 ORD-CUODIG ;
 kuvvõs:6 ORD-CUODIG ;
 säitsmes:7 ORD-CUODIG ;
 katsas:8 ORD-CUODIG ;
-ütesäs:9 ORD-CUODIG ;
+ütsäs:9 ORD-CUODIG ;
 
 LEXICON ORD-CUODIG
 saas: ORD-HUNDREDG ;
@@ -477,7 +477,7 @@ LEXICON ORD-HUNDREDG
 :%0%0 ORD-GIGA ;
 
 LEXICON ORD-TEENSG
-ütśtõist:11 ORD-LOHKAIG ;
+ütestõist:11 ORD-LOHKAIG ;
 katõstõist:12 ORD-LOHKAIG ;
 kolmastõist:13 ORD-LOHKAIG ;
 nelästõist:14 ORD-LOHKAIG ;
@@ -486,7 +486,7 @@ viiestõist:15 ORD-LOHKAIG ;
 kuvvõstõist:16 ORD-LOHKAIG ;
 säitsmestõist:17 ORD-LOHKAIG ;
 katsastõist:18 ORD-LOHKAIG ;
-ütesästõist:19 ORD-LOHKAIG ;
+ütsästõist:19 ORD-LOHKAIG ;
 
 
 LEXICON ORD-LOHKAIG
@@ -503,7 +503,7 @@ viies:5 ORD-LUHKIEG ;
 kuvvõs:6 ORD-LUHKIEG ;
 säitsmes:7 ORD-LUHKIEG ;
 katsas:8 ORD-LUHKIEG ;
-ütesäs:9 ORD-LUHKIEG ;
+ütsäs:9 ORD-LUHKIEG ;
 
 
 LEXICON ORD-LUHKIEG
@@ -511,7 +511,7 @@ kümnes:%0 ORD-GIGA ;
 kümnes% :   ORD-ONESG ;
 
 LEXICON ORD-ONESG
-ütś% millʼard% :1 ORD-OVERGIGAS ;
+ütes% millʼard% :1 ORD-OVERGIGAS ;
 katõs:2 ORD-GIGA ;
 kolmas:3 ORD-GIGA ;
 neläs:4 ORD-GIGA ;
@@ -520,7 +520,7 @@ viies:5 ORD-GIGA ;
 kuvvõs:6 ORD-GIGA ;
 säitsmes:7 ORD-GIGA ;
 katsas:8 ORD-GIGA ;
-ütesäs:9 ORD-GIGA ;
+ütsäs:9 ORD-GIGA ;
 
 
 LEXICON ORD-GIGA
@@ -557,7 +557,7 @@ viies:5 ORD-CUODIM ;
 kuvvõs:6 ORD-CUODIM ;
 säitsmes:7 ORD-CUODIM ;
 katsas:8 ORD-CUODIM ;
-ütesäs:9 ORD-CUODIM ;
+ütsäs:9 ORD-CUODIM ;
 
 LEXICON ORD-CUODIM
 saas: ORD-HUNDREDM ;
@@ -569,7 +569,7 @@ LEXICON ORD-HUNDREDM
 :%0%0 ORD-MILJON ;
 
 LEXICON ORD-TEENSM
-ütśtõist:11 ORD-LOHKAIM ;
+ütestõist:11 ORD-LOHKAIM ;
 katõstõist:12 ORD-LOHKAIM ;
 kolmastõist:13 ORD-LOHKAIM ;
 nelästõist:14 ORD-LOHKAIM ;
@@ -578,7 +578,7 @@ viiestõist:15 ORD-LOHKAIM ;
 kuvvõstõist:16 ORD-LOHKAIM ;
 säitsmestõist:17 ORD-LOHKAIM ;
 katsastõist:18 ORD-LOHKAIM ;
-ütesästõist:19 ORD-LOHKAIM ;
+ütsästõist:19 ORD-LOHKAIM ;
 
 
 LEXICON ORD-LOHKAIM
@@ -595,7 +595,7 @@ viies:5 ORD-LUHKIEM ;
 kuvvõs:6 ORD-LUHKIEM ;
 säitsmes:7 ORD-LUHKIEM ;
 katsas:8 ORD-LUHKIEM ;
-ütesäs:9 ORD-LUHKIEM ;
+ütsäs:9 ORD-LUHKIEM ;
 
 
 LEXICON ORD-LUHKIEM
@@ -613,7 +613,7 @@ viies:5 ORD-MILJON ;
 kuvvõs:6 ORD-MILJON ;
 säitsmes:7 ORD-MILJON ;
 katsas:8 ORD-MILJON ;
-ütesäs:9 ORD-MILJON ;
+ütsäs:9 ORD-MILJON ;
 
 
 LEXICON ORD-MILJON
@@ -646,7 +646,7 @@ viies:5   ORD-CUODIT ;	! 500000-599999
 kuvvõs:6   ORD-CUODIT ;	! 600000-699999
 säitsmes:7 ORD-CUODIT ;	! 700000-799999
 katsas:8 ORD-CUODIT ;	! 800000-899999
-ütesäs:9   ORD-CUODIT ;	! 900000-999999
+ütsäs:9   ORD-CUODIT ;	! 900000-999999
 
 LEXICON ORD-CUODIT
 saas: ORD-HUNDREDT ;	! 100000-199999
@@ -654,12 +654,12 @@ saas: ORD-HUNDREDT ;	! 100000-199999
 LEXICON ORD-HUNDREDT	! X = 1-9, Y = 0-9
 % : ORD-TENST ;			! X2XYYY, X10YYY
 % : ORD-TEENST ;		! X1XYYY
-% ütś:%01 ORD-THOUSANDS ;
+% ütes:%01 ORD-THOUSANDS ;
 % :%0 XONEST ;		! XX0YYY
 % :%0%0 ORD-THOUSANDS ;	! X00YYY
 
 LEXICON ORD-TEENST
-ütśtõist:11 ORD-TEENT ;
+ütestõist:11 ORD-TEENT ;
 katõstõist:12 ORD-TEENT ;
 kolmastõist:13 ORD-TEENT ;
 nelästõist:14 ORD-TEENT ;
@@ -668,7 +668,7 @@ viiestõist:15 ORD-TEENT ;
 kuvvõstõist:16 ORD-TEENT ;
 säitsmestõist:17 ORD-TEENT ;
 katsastõist:18 ORD-TEENT ;
-ütesästõist:19 ORD-TEENT ;
+ütsästõist:19 ORD-TEENT ;
 kümnes:1%0 ORD-THOUSANDS ;
 
 LEXICON ORD-TEENT
@@ -688,7 +688,7 @@ viies:5 ORD-LUHKIET ;
 kuvvõs:6 ORD-LUHKIET ;
 säitsmes:7 ORD-LUHKIET ;
 katsas:8 ORD-LUHKIET ;
-ütesäs:9 ORD-LUHKIET ;
+ütsäs:9 ORD-LUHKIET ;
 
 LEXICON ORD-LUHKIET
 kümnes% :%0 ORD-THOUSANDS ;
@@ -704,7 +704,7 @@ viies% :5 ORD-THOUSANDS ;
 kuvvõs% :6 ORD-THOUSANDS ;
 säitsmes% :7 ORD-THOUSANDS ;
 katsas% :8 ORD-THOUSANDS ;
-ütesäs% :9 ORD-THOUSANDS ;
+ütsäs% :9 ORD-THOUSANDS ;
 
 LEXICON ORD-ONEST
 katõs:2 ORD-THOUSANDS ;
@@ -715,7 +715,7 @@ viies:5 ORD-THOUSANDS ;
 kuvvõs:6 ORD-THOUSANDS ;
 säitsmes:7 ORD-THOUSANDS ;
 katsas:8 ORD-THOUSANDS ;
-ütesäs:9 ORD-THOUSANDS ;
+ütsäs:9 ORD-THOUSANDS ;
 
 LEXICON ORD-THOUSANDS      ! x > 1
 tuhandõs: ORD-THOUSAND ;
@@ -744,7 +744,7 @@ viies:5 ORD-CUODI ;
 kuvvõs:6 ORD-CUODI ;
 säitsmes:7 ORD-CUODI ;
 katsas:8 ORD-CUODI ;
-ütesäs:9 ORD-CUODI ;
+ütsäs:9 ORD-CUODI ;
 
 
 LEXICON ORD-CUODI
@@ -757,7 +757,7 @@ LEXICON ORD-HUNDRED
 :%0%0%. COMMA ;
 
 LEXICON ORD-TEENS
-ütśtõist:11 ORD-TEENS-VARIATION ;
+ütestõist:11 ORD-TEENS-VARIATION ;
 katõstõist:12 ORD-TEENS-VARIATION ;
 kolmastõist:13 ORD-TEENS-VARIATION ;
 nelästõist:14 ORD-TEENS-VARIATION ;
@@ -766,7 +766,7 @@ viiestõist:15 ORD-TEENS-VARIATION ;
 kuvvõstõist:16 ORD-TEENS-VARIATION ;
 säitsmestõist:17 ORD-TEENS-VARIATION ;
 katsastõist:18 ORD-TEENS-VARIATION ;
-ütesästõist:19 ORD-TEENS-VARIATION ;
+ütsästõist:19 ORD-TEENS-VARIATION ;
 
 
 LEXICON ORD-TEENS-VARIATION
@@ -784,11 +784,10 @@ viies:5 ORD-LUHKIE ;
 kuvvõs:6 ORD-LUHKIE ;
 säitsmes:7 ORD-LUHKIE ;
 katsas:8 ORD-LUHKIE ;
-ütesäs:9 ORD-LUHKIE ;
+ütsäs:9 ORD-LUHKIE ;
 
 LEXICON ORD-LUHKIE
 kümnes:%0%. COMMA ;
-!låhkede:%0%. COMMA ;
 kümnes% : ORD-ONES ;
 
 LEXICON ORD-ONES
