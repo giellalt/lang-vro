@@ -210,6 +210,22 @@ Rules
 !€0 pinne00
 !! }}}
 
+"ü2e"
+!! __@RULENAME@__
+!! {{{
+ ü:e =>  _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
+!€# häbü%^StrGStem%^PLPRT
+!€0 häpe00
+!! }}}
+
+"ü2ä"
+!! __@RULENAME@__
+!! {{{
+ ü:ä =>  _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
+!€# häbü%^StrGStem%^PLPRT
+!€0 häpä00
+!! }}}
+
 "a2o"
 !! __@RULENAME@__
 !! {{{
@@ -305,6 +321,14 @@ Rules
 
 !! Secondary Consonant lengthening
 
+"0:p"
+!! __@RULENAME@__
+!! {{{
+ 0:p <=> Vow b: _ Vow: %^XStrGStem: ;
+!€# häb0ü%^XStrGStem
+!€0 häppü00
+!! }}}
+
 "0:n"
 !! __@RULENAME@__
  0:n <=> Vow n _ Vow: %^StrGStem: ;
@@ -360,6 +384,16 @@ k:0 <=> s _ a %^WGStem: ;
 "p2b"
 !! __@RULENAME@__
  p:b <=> Vow _ Vow [ n (ʼ:) ] %^WGStem: ;
+
+"b20"
+!! __@RULENAME@__
+ b:0 <=> Vow _ Vow  %^WGStem: ;
+
+"bTop"
+!! __@RULENAME@__
+ b:p <=> 
+    Vow _ Vow: %^StrGStem: ;
+    Vow _ 0: Vow: %^XStrGStem: ;
 
 
 "d2n"
