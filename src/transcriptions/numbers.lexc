@@ -433,32 +433,32 @@ katõssa+Use/NG:8 COMMA ;
 ütesä:9 COMMA ;
 ütessä+Use/NG:9 COMMA ;
 
-!!+++
+!! Ordinal numerals begin
 LEXICON ORD-NUMBERSECTION
-ORD-HUNDREDSG ;             ! 200G
+ ORD-HUNDREDSG ;             ! 200G
 saas:1 ORD-HUNDREDG ;       ! 100G
-ORD-TENSG ;                 ! 20-99G
-ORD-TEENSG ;                ! 10-19G
-ORD-ONESG ;                 ! 1-9G
-ORD-HUNDREDSM ;		! 200M
+ ORD-TENSG ;                 ! 20-99G
+ ORD-TEENSG ;                ! 10-19G
+ ORD-ONESG ;                 ! 1-9G
+ ORD-HUNDREDSM ;		! 200M
 saas:1 ORD-HUNDREDM ;	! 100M
-ORD-TENSM ;			! 20-99M
-ORD-TEENSM ;		! 10-19M
-ORD-ONESM ;			! 1-9M
-ORD-HUNDREDST ;		! 200000-999999
+ ORD-TENSM ;			! 20-99M
+ ORD-TEENSM ;		! 10-19M
+ ORD-ONESM ;			! 1-9M
+ ORD-HUNDREDST ;		! 200000-999999
 saas:1 ORD-HUNDREDT ;	! 100000-100999
-ORD-TENST ;			! 20000-99999,10000-10999
-ORD-TEENST ;		! 11000-19999
-ORD-ONEST ;			! 2000-9999
+ ORD-TENST ;			! 20000-99999,10000-10999
+ ORD-TEENST ;		! 11000-19999
+ ORD-ONEST ;			! 2000-9999
 tuhandõs:1 ORD-THOUSAND ;	! 1000-1999
-ORD-UNDERTHOUSAND ;		! 100-999
-ORD-TENS ;			! 20-99
-ORD-TEENS ;			! 10-19
-ORD-ONES ;			! 1-9
+ ORD-UNDERTHOUSAND ;		! 100-999
+ ORD-TENS ;			! 20-99
+ ORD-TEENS ;			! 10-19
+ ORD-ONES ;			! 1-9
 
 LEXICON ORD-HUNDREDSG
 katõs:2 ORD-CUODIG ;
-kolmas:3 ORD-CUODIG ;
+kolmõs:3 ORD-CUODIG ;
 neläs:4 ORD-CUODIG ;
 nelläs+Use/NG:4 ORD-CUODIG ;
 viies:5 ORD-CUODIG ;
@@ -496,7 +496,7 @@ kümnes+Use/NG: ORD-GIGA ;
 LEXICON ORD-TENSG
 kümnes:1%0 ORD-GIGA ;
 katõs:2 ORD-LUHKIEG ;
-kolmas:3 ORD-LUHKIEG ;
+kolmõs:3 ORD-LUHKIEG ;
 neläs:4 ORD-LUHKIEG ;
 nelläs+Use/NG:4 ORD-LUHKIEG ;
 viies:5 ORD-LUHKIEG ;
@@ -513,7 +513,7 @@ kümnes% :   ORD-ONESG ;
 LEXICON ORD-ONESG
 ütes% millʼard% :1 ORD-OVERGIGAS ;
 katõs:2 ORD-GIGA ;
-kolmas:3 ORD-GIGA ;
+kolmõs:3 ORD-GIGA ;
 neläs:4 ORD-GIGA ;
 nelläs+Use/NG:4 ORD-GIGA ;
 viies:5 ORD-GIGA ;
@@ -524,13 +524,13 @@ katsas:8 ORD-GIGA ;
 
 
 LEXICON ORD-GIGA
-% millʼardit% : ORD-OVERGIGAS ;
+% millʼardis% : ORD-OVERGIGAS ;
 
 ! =================
 ! Under the billions
 ! =================
 LEXICON ORD-OVERGIGAS
-HUNDREDSM ;		! 200M
+ ORD-HUNDREDSM ;		! 200M
 saas:1 ORD-HUNDREDM ;	! 100M
 :%0 ORD-TENSM ;			! 20-99M
 % :%0 ORD-TEENSM ;		! 10-19M
@@ -550,7 +550,7 @@ tuhandõs:%0%0%0%0%01 ORD-THOUSAND ;	!   1.000.000
 
 LEXICON ORD-HUNDREDSM
 katõs:2 ORD-CUODIM ;
-kolmas:3 ORD-CUODIM ;
+kolmõs:3 ORD-CUODIM ;
 neläs:4 ORD-CUODIM ;
 nelläs+Use/NG:4 ORD-CUODIM ;
 viies:5 ORD-CUODIM ;
@@ -588,7 +588,7 @@ kümnes+Use/NG: ORD-MILJON ;
 LEXICON ORD-TENSM
 kümnes:1%0 ORD-MILJON ;
 katõs:2 ORD-LUHKIEM ;
-kolmas:3 ORD-LUHKIEM ;
+kolmõs:3 ORD-LUHKIEM ;
 neläs:4 ORD-LUHKIEM ;
 nelläs+Use/NG:4 ORD-LUHKIEM ;
 viies:5 ORD-LUHKIEM ;
@@ -606,7 +606,7 @@ LEXICON ORD-ONESM
 ütes% millʼonas% :1 ORD-OVERTHOUSANDS ;
 ütes% millʼonis% +Use/NG:1 ORD-OVERTHOUSANDS ;
 katõs:2 ORD-MILJON ;
-kolmas:3 ORD-MILJON ;
+kolmõs:3 ORD-MILJON ;
 neläs:4 ORD-MILJON ;
 nelläs+Use/NG:4 ORD-MILJON ;
 viies:5 ORD-MILJON ;
@@ -625,7 +625,7 @@ LEXICON ORD-MILJON
 ! =================
 
 LEXICON ORD-OVERTHOUSANDS
-ORD-HUNDREDST ;		! x00.000.000
+ ORD-HUNDREDST ;		! x00.000.000
 saas:1 ORD-HUNDREDT ;	! 100.000.000
 :%0 ORD-TENST ;		!  20.000.000
 % :%0 ORD-TEENST ;		!  10.000.000
@@ -639,7 +639,7 @@ tuhandõs:%0%01 ORD-THOUSAND ;	!   1.000.000
 
 LEXICON ORD-HUNDREDST
 katõs:2   ORD-CUODIT ;	! 200000-299999
-kolmas:3    ORD-CUODIT ;	! 300000-399999
+kolmõs:3    ORD-CUODIT ;	! 300000-399999
 neläs:4 ORD-CUODIT ;	! 400000-499999
 nelläs+Use/NG:4  ORD-CUODIT ;
 viies:5   ORD-CUODIT ;	! 500000-599999
@@ -676,12 +676,12 @@ LEXICON ORD-TEENT
 kümnes+Use/NG: ORD-LOHKAIT ;
 
 LEXICON ORD-LOHKAIT
-THOUSANDS ;
+ ORD-THOUSANDS ;
 
 LEXICON ORD-TENST
 kümnes:1%0%. ORD-THOUSANDS ;
 katõs:2 ORD-LUHKIET ;
-kolmas:3 ORD-LUHKIET ;
+kolmõs:3 ORD-LUHKIET ;
 neläs:4 ORD-LUHKIET ;
 nelläs+Use/NG:4 ORD-LUHKIET ;
 viies:5 ORD-LUHKIET ;
@@ -692,12 +692,11 @@ katsas:8 ORD-LUHKIET ;
 
 LEXICON ORD-LUHKIET
 kümnes% :%0 ORD-THOUSANDS ;
-ütes% tuhandõs:1 ORD-THOUSAND ;
 kümnes% : ORD-XONEST ;
 
 LEXICON ORD-XONEST
 katõs% :2 ORD-THOUSANDS ;
-kolmas% :3 ORD-THOUSANDS ;
+kolmõs% :3 ORD-THOUSANDS ;
 neläs% :4 ORD-THOUSANDS ;
 nelläs+Use/NG% :4 ORD-THOUSANDS ;
 viies% :5 ORD-THOUSANDS ;
@@ -707,8 +706,9 @@ katsas% :8 ORD-THOUSANDS ;
 ütsäs% :9 ORD-THOUSANDS ;
 
 LEXICON ORD-ONEST
+ütes:1 ORD-THOUSANDS ;
 katõs:2 ORD-THOUSANDS ;
-kolmas:3 ORD-THOUSANDS ;
+kolmõs:3 ORD-THOUSANDS ;
 neläs:4 ORD-THOUSANDS ;
 nelläs+Use/NG:4 ORD-THOUSANDS ;
 viies:5 ORD-THOUSANDS ;
@@ -732,12 +732,12 @@ LEXICON ORD-THOUSAND
 !===========================
 
 LEXICON ORD-UNDERTHOUSAND
-ORD-HUNDREDS ;
+ ORD-HUNDREDS ;
 saas:1 ORD-HUNDRED ;
 
 LEXICON ORD-HUNDREDS
 katõs:2 ORD-CUODI ;
-kolmas:3 ORD-CUODI ;
+kolmõs:3 ORD-CUODI ;
 neläs:4 ORD-CUODI ;
 nelläs+Use/NG:4 ORD-CUODI ;
 viies:5 ORD-CUODI ;
@@ -777,7 +777,7 @@ kümnes+Use/NG:%. COMMA ;
 LEXICON ORD-TENS
 kümnes:1%0%. COMMA ;
 katõs:2 ORD-LUHKIE ;
-kolmas:3 ORD-LUHKIE ;
+kolmõs:3 ORD-LUHKIE ;
 neläs:4 ORD-LUHKIE ;
 nelläs+Use/NG:4 ORD-LUHKIE ;
 viies:5 ORD-LUHKIE ;
@@ -791,7 +791,7 @@ kümnes:%0%. COMMA ;
 kümnes% : ORD-ONES ;
 
 LEXICON ORD-ONES
-ORDINAL ;
+ ORDINAL ;
 
 LEXICON ORDINAL
 edimäne:1%. COMMA ;
