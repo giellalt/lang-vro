@@ -286,8 +286,14 @@ LEXICON N_45KANA-PL
 LEXICON N-46hain
 +N+Sg+Nom+WORK: K ;
 
-LEXICON N-47asi
-+N+Sg+Nom+WORK: K ;
+LEXICON N_47ASI
+        N_47ASI-SG ;
+        N_47ASI-PL ;
+LEXICON N_47ASI-SG
++N:     NMN_47ASI-SG ;
+LEXICON N_47ASI-PL
++N:     NMN_47ASI-PL ;
+
 
 LEXICON N-1
 +N: strong-v-stem ;
@@ -1036,9 +1042,19 @@ LEXICON NMN_47ASI
   NMN_47ASI-SG ;
   NMN_47ASI-PL ;
 LEXICON NMN_47ASI-SG 
-+WORK: #;
+        SG-NOM  ;
+:%^WGStem       SG-GEN_ZERO-STEM        ;
+:%^StrGStem       SG-ILL_ZERO        ;
+:%^StrGStem       SG-PAR_ZERO        ;
 LEXICON NMN_47ASI-PL 
-+WORK: #;
+:%^WGStem       PL-NOM ;
+:%^StrGStem%^PLPRT    PL-GEN_ZERO ;
+:%^StrGStem%^PLPRT    PL-PAR_ZERO ;
+:%^StrGStem%^PLPRT    PL-ILL_ZERO ;
+:%^StrGStem%^PLPRT    PL-ILL_he ;
+:%^StrGStem%^PLPRT  PL-ALL_lÕ-STEM ;
+:%^PLPRT  PL-ALL_lÕ-STEM ;
+
 
 LEXICON NMN_ELÄNÜQ !!= * @CODE@ elänüq:elänü
 	NMN_ELÄNÜQ-SG  ;
