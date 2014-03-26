@@ -283,10 +283,16 @@ LEXICON N_45KANA-PL
 
 
 
-LEXICON N-46hain
-+N+Sg+Nom+WORK: K ;
+LEXICON N_46HAIN !!= @CODE@ hain:hain
+        N_46HAIN-SG ;
+        N_46HAIN-PL ;
+LEXICON N_46HAIN-SG
++N:     NMN_46HAIN-SG ;
+LEXICON N_46HAIN-PL
++N:     NMN_46HAIN-PL ;
 
-LEXICON N_47ASI
+
+LEXICON N_47ASI !!= @CODE@ asi:asi
         N_47ASI-SG ;
         N_47ASI-PL ;
 LEXICON N_47ASI-SG
@@ -1034,26 +1040,35 @@ LEXICON NMN_46HAIN
   NMN_46HAIN-SG ;
   NMN_46HAIN-PL ;
 LEXICON NMN_46HAIN-SG 
-+WORK: #;
+        SG-NOM  ;
+:%^WGStem%>%{AÄ%}       SG-GEN_ZERO-STEM        ;
+:%^StrGStem%>%{AÄ%}       SG-ILL_ZERO        ;
+:%^StrGStem%>%{AÄ%}       SG-PAR_ZERO        ;
+
 LEXICON NMN_46HAIN-PL 
-+WORK: #;
+:%^WGStem%>%{AÄ%}       PL-NOM ;
+:%^StrGStem%>%{OÖ%}    PL-GEN_ZERO ;
+:%^StrGStem%>%{OÖ%}    PL-PAR_ZERO ;
+:%^StrGStem%>%{OÖ%}    PL-ILL_ZERO ;
+:%^StrGStem%>%{OÖ%}    PL-ILL_he ;
+:%^WGStem%>%{OÖ%}  PL-ALL_lÕ-STEM ;
+
 
 LEXICON NMN_47ASI
   NMN_47ASI-SG ;
   NMN_47ASI-PL ;
 LEXICON NMN_47ASI-SG 
         SG-NOM  ;
-:%^WGStem       SG-GEN_ZERO-STEM        ;
-:%^StrGStem       SG-ILL_ZERO        ;
-:%^StrGStem       SG-PAR_ZERO        ;
+:%^WGStem%>%{AÄ%}       SG-GEN_ZERO-STEM        ;
+:%^StrGStem%>%{AÄ%}       SG-ILL_ZERO        ;
+:%^StrGStem%>%{AÄ%}       SG-PAR_ZERO        ;
 LEXICON NMN_47ASI-PL 
-:%^WGStem       PL-NOM ;
-:%^StrGStem%^PLPRT    PL-GEN_ZERO ;
-:%^StrGStem%^PLPRT    PL-PAR_ZERO ;
-:%^StrGStem%^PLPRT    PL-ILL_ZERO ;
-:%^StrGStem%^PLPRT    PL-ILL_he ;
-:%^StrGStem%^PLPRT  PL-ALL_lÕ-STEM ;
-:%^PLPRT  PL-ALL_lÕ-STEM ;
+:%^WGStem%>%{AÄ%}       PL-NOM ;
+:%^StrGStem%>%{OÖ%}    PL-GEN_ZERO ;
+:%^StrGStem%>%{OÖ%}    PL-PAR_ZERO ;
+:%^StrGStem%>%{OÖ%}    PL-ILL_ZERO ;
+:%^StrGStem%>%{OÖ%}    PL-ILL_he ;
+:%^WGStem%>%{OÖ%}  PL-ALL_lÕ-STEM ;
 
 
 LEXICON NMN_ELÄNÜQ !!= * @CODE@ elänüq:elänü

@@ -144,6 +144,15 @@ Rules
 !! __@RULENAME@__  
  %{UÜ%}:u <=>  BT _ ;
 
+"%{OÖ%}:ö"
+!! __@RULENAME@__  
+ %{OÖ%}:ö <=>  FT _ ;
+
+! Vowel harmony suffixes Back
+"%{OÖ%}:o"
+!! __@RULENAME@__  
+ %{OÖ%}:o <=>  BT _ ;
+
 ! Vowel harmony suffixes Front
 "%{ÕE%}:e"
 !! __@RULENAME@__
@@ -276,10 +285,11 @@ Rules
 "i2j"
 !! __@RULENAME@__
  i:j <=> Vow _ (%^WGStem:) %> :Vow ;
+         Cns _ %^StrGStem: %> :Vow ;
 
 "i2ʼ"
 !! __@RULENAME@__
- i:ʼ <=> s _ %^WGStem: :Vow ;
+ i:ʼ <=> Cns _ %^WGStem: %> :Vow ;
 
 
 "u2v"
