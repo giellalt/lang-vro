@@ -252,8 +252,14 @@ LEXICON N_41KAND-PL
 +N:     NMN_41KAND-PL ;
 
 
-LEXICON N-42vari
-+N+Sg+Nom+WORK: K ;
+LEXICON N_42VARI
+        N_42VARI-SG ;
+        N_42VARI-PL ;
+LEXICON N_42VARI-SG
++N:     NMN_42VARI-SG ;
+LEXICON N_42VARI-PL
++N:     NMN_42VARI-PL ;
+
 
 LEXICON N_43KANARIK !!= @CODE@
         N_43KANARIK-SG ;
@@ -971,9 +977,24 @@ LEXICON NMN_42VARI
   NMN_42VARI-SG ;
   NMN_42VARI-PL ;
 LEXICON NMN_42VARI-SG 
-+WORK: #;
+        SG-NOM  ;
+:%^WGStem%>%{OÖ%}       SG-GEN_ZERO-STEM        ;
+:%^StrGStem%>%{OÖ%}       SG-ILL_ZERO        ;
+:%^StrGStem%>%{OÖ%}       SG-PAR_ZERO        ;
+
 LEXICON NMN_42VARI-PL 
-+WORK: #;
+:%^WGStem%>%{AÄ%}       PL-NOM ;
+:%^StrGStem%>%{AÄ%}    PL-GEN_ZERO ;
+:%^StrGStem%>%{AÄ%}    PL-PAR_ZERO ;
+:%^StrGStem%>%{AÄ%}    PL-ILL_ZERO ;
+:%^StrGStem%>%{ÕE%}    PL-GEN_ZERO ;
+:%^StrGStem%>%{ÕE%}    PL-PAR_ZERO ;
+:%^StrGStem%>%{ÕE%}    PL-ILL_ZERO ;
+:%^StrGStem%>%{AÄ%}    PL-ILL_he ;
+:%^StrGStem%>%{ÕE%}    PL-ILL_he ;
+:%^WGStem%>%{AÄ%}  PL-ALL_lÕ-STEM ;
+:%^WGStem%>%{ÕE%}  PL-ALL_lÕ-STEM ;
+
 
 LEXICON NMN_43KANARIK
   NMN_43KANARIK-SG ;
@@ -1015,7 +1036,6 @@ LEXICON NMN_44SÕDA-PL
 :%^XStrGStem%^PLPRT    PL-ILL_ZERO ;
 :%^XStrGStem%^PLPRT    PL-ILL_he ;
 :%^StrGStem%^PLPRT  PL-ALL_lÕ-STEM ;
-
 
 
 LEXICON NMN_45KANA
