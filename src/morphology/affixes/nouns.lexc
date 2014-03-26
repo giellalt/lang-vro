@@ -230,8 +230,14 @@ LEXICON N_37PINI-PL
 LEXICON N-38puhm
 +N+Sg+Nom+WORK: K ;
 
-LEXICON N-39häbü
-+N+Sg+Nom+WORK: K ;
+LEXICON N_39HÄBÜ
+        N_39HÄBÜ-SG ;
+        N_39HÄBÜ-PL ;
+LEXICON N_39HÄBÜ-SG
++N:     NMN_39HÄBÜ-SG ;
+LEXICON N_39HÄBÜ-PL
++N:     NMN_39HÄBÜ-PL ;
+
 
 LEXICON N_40TALO !!= @CODE@ talo:talo
         N_40TALO-SG ;
@@ -922,9 +928,18 @@ LEXICON NMN_39HÄBÜ
   NMN_39HÄBÜ-SG ;
   NMN_39HÄBÜ-PL ;
 LEXICON NMN_39HÄBÜ-SG 
-+WORK: #;
+        SG-NOM  ;
+:%^WGStem        SG-GEN_ZERO-STEM        ;
+:%^StrGStem SG-PAR_ZERO    ;
+:%^XStrGStem SG-ILL_ZERO   ;
+
 LEXICON NMN_39HÄBÜ-PL 
-+WORK: #;
+        PL-NOM ;
+:%^StrGStem%^PLPRT  PL-GEN_ZERO ;
+:%^XStrGStem%^PLPRT      PL-ILL_ZERO       ;
+:%^XStrGStem%^PLPRT      PL-ILL_he       ;
+:%^StrGStem%^PLPRT      PL-PAR_ZERO        ;
+:%^StrGStem%^PLPRT      PL-ALL_lÕ-STEM       ;
 
 LEXICON NMN_40TALO
   NMN_40TALO-SG ;
