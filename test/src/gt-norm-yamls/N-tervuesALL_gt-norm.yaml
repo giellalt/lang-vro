@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - `tervüs3: # Noun (17,8,4) `tervüs1-3 'eng /est /fin' - full paradigm
+     tervüs+N+Sg+Nom: tervüs
+     tervüs+N+Sg+Gen: [tervüse, tervü]
+     tervüs+N+Sg+Par: [tervüst, tervüt]
+     tervüs+N+Sg+Ill: [tervüste, tervühe]
+     tervüs+N+Pl+Gen: [tervüisi, tervüste, tervide, tervüide]
+     tervüs+N+Pl+Par: [tervüisi, tervit, tervüid]
+     tervüs+N+Pl+Ill: [tervüisihe, tervüstehe, tervihe, tervüihe]
+     tervüs+N+Pl+All: [tervüisile, tervüstele, tervile, tervüile]
+

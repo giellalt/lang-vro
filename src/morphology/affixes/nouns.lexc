@@ -31,6 +31,16 @@ LEXICON N_3PERÄDÜ-PL
 +N:     NMN_3PERÄDÜ-PL ;
 
 
+LEXICON N_TERVÜS
+!! * Yaml: __tervuesALL__
+   N_TERVÜS-SG ;
+   N_TERVÜS-PL ;
+LEXICON N_TERVÜS-SG
++N:     NMN_TERVÜS-SG ;
+LEXICON N_TERVÜS-PL
++N:     NMN_TERVÜS-PL ;
+
+
 LEXICON N_4TERVÜS
 !! * Yaml: __tervues__
    N_4TERVÜS-SG ;
@@ -479,6 +489,35 @@ LEXICON NMN_3PERÄDÜ-PL
 :%^StrGStem%>i      PL-ILL_he       ;
 :%^StrGStem%>i      PL-PAR_t        ;
 :%^StrGStem%>i      PL-ALL_lÕ-STEM       ;
+
+LEXICON NMN_TERVÜS !! Types 4, 8, 17
+  NMN_TERVÜS-SG ;
+  NMN_TERVÜS-PL ;
+LEXICON NMN_TERVÜS-SG 
+        SG-NOM  ;
+:%>%{ÕE%}   SG-GEN_ZERO-STEM        ; !pref
+:%^CnsRM   SG-GEN_ZERO-STEM        ;
+   SG-PAR_t      ; !pref
+:%^CnsRM   SG-PAR_t      ;
+   SG-ILL_tÕ     ; !pref
+:%^CnsRM   SG-ILL_he     ;
+
+LEXICON NMN_TERVÜS-PL 
+:%>%{ÕE%}   PL-NOM  ; !pref
+:%^CnsRM   PL-NOM  ;
+:%^CnsRM%>isi PL-GEN_ZERO ; !pref
+ PL-GEN_dÕ ; 
+:%^CnsRM%>i PL-GEN_dÕ ;
+:%^VowRM%^CnsRM%>i PL-GEN_dÕ ; tervide
+:%^CnsRM%>isi PL-ILL_he ; !pref
+:%^CnsRM%>i PL-ILL_he ;
+:%^VowRM%^CnsRM%>i PL-ILL_he ; tervihe
+:%^CnsRM%>isi PL-PAR_ZERO ;!pref
+:%^CnsRM%>i PL-PAR_d ;
+:%^VowRM%^CnsRM%>i PL-PAR_t ;
+:%^CnsRM%>isi PL-ALL_lÕ-STEM ; !pref
+:%^CnsRM%>i PL-ALL_lÕ-STEM ;
+:%^VowRM%^CnsRM%>i PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_4TERVÜS
   NMN_4TERVÜS-SG ;
@@ -1197,6 +1236,9 @@ LEXICON PL-NOM
 
 LEXICON  PL-PAR_ZERO
 +Pl+Par: K ;
+
+LEXICON  PL-PAR_d
++Pl+Par:%>d K ;
 
 LEXICON  PL-PAR_sit
 +Pl+Par:%>sit K ;

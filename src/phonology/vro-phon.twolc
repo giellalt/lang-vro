@@ -180,9 +180,6 @@ Rules
 !! __@RULENAME@__
  u:õ <=> u: _ %> i ;
 
-"ü2e"
-!! __@RULENAME@__
- ü:e <=> ü: _ %> i ;
 
 !! !VOWEL CHANGE WITH PLURAL
 
@@ -216,6 +213,7 @@ Rules
  ü:e =>  _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
 !€# häbü%^StrGStem%^PLPRT
 !€0 häpe00
+    ü: _ %> i ;
 !! }}}
 
 "ü2ä"
@@ -257,6 +255,24 @@ Rules
 !! __@RULENAME@__
  ä:0 <=>  [ Cns: | :Cns ] _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
 
+"u:0"
+!! __@RULENAME@__
+!! {{{
+ u:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+!€# tervüs%^VowRM%^CnsRM%>i%>t
+!€0 terv00000i0t
+      _ u: %> i ;
+!! }}}
+
+"ü:0"
+!! __@RULENAME@__
+!! {{{
+ ü:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+!€# tervüs%^VowRM%^CnsRM%>i%>t
+!€0 terv00000i0t
+         _ ü: %> i ;
+!! }}}
+
 "e:0"
 !! __@RULENAME@__
  e:0 <=>  [ Cns: | :Cns ] _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
@@ -270,13 +286,6 @@ Rules
  i:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:) %^VowRM: (%{ÕE%}:) | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
           Vow l 0:l %>: _ %{ÕE%}: ;
 
-"u20"
-!! __@RULENAME@__
- u:0 <=> _ u: %> i ;
-
-"ü20"
-!! __@RULENAME@__
- ü:0 <=> _ ü: %> i ;
 
 !!
 
@@ -430,7 +439,7 @@ k:0 <=> s _ a %^WGStem: ;
 !! !STEM-FINAL CONSONANT LOSS
 "s20"
 !! __@RULENAME@__
- s:0 <=> [ u | ü | a: | ä: ] _ (%^VowRM:)  %^CnsRM:  ;
+ s:0 <=> [ u: | ü: | a: | ä: ] _ (%^VowRM:)  %^CnsRM:  ;
 
 "d20"
 !! __@RULENAME@__
