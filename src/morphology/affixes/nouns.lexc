@@ -9,6 +9,17 @@ LEXICON N_1HANSʼA-SG
 LEXICON N_1HANSʼA-PL
 +N:	NMN_1HANSʼA-PL ; 
 
+LEXICON N_SUHVLI
+!! * Yaml: __suhvli__
+   N_SUHVLI-SG ;
+   N_SUHVLI-PL ;
+
+LEXICON N_SUHVLI-SG
++N:	NMN_SUHVLI-SG ;
+LEXICON N_SUHVLI-PL
++N:	NMN_SUHVLI-PL ;
+
+
 LEXICON N_2SUHVLI
 !! * Yaml: __suhvli__
    N_2SUHVLI-SG ;
@@ -453,6 +464,26 @@ LEXICON NMN_1HANSʼA-PL
 	PL-ILL_dÕhe ;
 	PL-NOM ;
 	PL-PAR_sit ;
+
+LEXICON NMN_SUHVLI
+!! * Yaml: __suhvli__
+   NMN_SUHVLI-SG ;
+   NMN_SUHVLI-PL ;
+
+LEXICON NMN_SUHVLI-SG
+	SG-NOM	;
+	SG-GEN_ZERO-STEM       ;
+	SG-PAR_t	;
+	SG-ILL_he	;
+LEXICON NMN_SUHVLI-PL
+	PL-NOM ;
+	PL-GEN_dÕ ;
+        PL-ILL_he       ;
+        PL-ALL_lÕ-STEM       ;
+      PL-PAR_t        ;
+:i      PL-PAR_t        ;
+:i      PL-ILL_he       ;
+:i      PL-ALL_lÕ-STEM       ;
 
 LEXICON NMN_2SUHVLI
 !! * Yaml: __suhvli__

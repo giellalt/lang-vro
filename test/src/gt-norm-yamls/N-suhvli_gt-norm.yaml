@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - suhvli: # Noun 'laatikko'
+  Noun - suhvli: # Noun (5, 2) 'laatikko'
      suhvli+N+Sg+Nom: suhvli
      suhvli+N+Sg+Gen: suhvli
      suhvli+N+Sg+Par: suhvlit
@@ -22,6 +22,6 @@ Tests:
      suhvli+N+Sg+Ine: [suhvlin, suhvlih, suhvlihn]
      suhvli+N+Sg+Ela: suhvlist
      suhvli+N+Pl+Gen: suhvlidõ
-     suhvli+N+Pl+Par: suhvliid
+     suhvli+N+Pl+Par: [suhvliid, suhvlit]
      suhvli+N+Pl+Ill: [suhvlihe, suhvliihe]
      suhvli+N+Pl+All: [suhvlilõ, suhvliilõ]
