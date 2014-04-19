@@ -245,7 +245,7 @@ Rules
 "a:0"
 !! __@RULENAME@__
 !! {{{
- a:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+ a:0 <=>  Cns: _ [ (%^StrGStem:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
       a _ %> i ; !!= @CODE@ 
 !€# saa>i
 !€0 sa00i
@@ -434,6 +434,12 @@ k:0 <=> s _ a %^WGStem: ;
  k:g <=> Vow _ %^WGStem: ;
 !€# hõrak%^WGStem>%{AÄ%}
 !€0 hõrag00a
+
+"gTok"
+!! __@RULENAME@__
+ g:k <=> 
+    Vow _ Vow: %^StrGStem: ;
+    Vow _ 0: Vow: %^XStrGStem: ;
 
 
 !! !STEM-FINAL CONSONANT LOSS
