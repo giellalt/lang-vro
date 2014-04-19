@@ -75,7 +75,16 @@ LEXICON N_5SUHVLI-PL
 LEXICON N-6makõ
 +N+Sg+Nom+WORK: K ;
 
-LEXICON N-7füüsiga
+LEXICON N_7FÜÜSIGA
+!! * Yaml: __fueuesiga__
+   N_7FÜÜSIGA-SG ;
+   N_7FÜÜSIGA-PL ;
+
+LEXICON N_7FÜÜSIGA-SG
++N:     NMN_7FÜÜSIGA-SG ;
+LEXICON N_7FÜÜSIGA-PL
++N:     NMN_7FÜÜSIGA-PL ;
+
 +N+Sg+Nom+WORK: K ;
 
 LEXICON N-8häielm
@@ -594,9 +603,18 @@ LEXICON NMN_7FÜÜSIGA
   NMN_7FÜÜSIGA-PL ;
 
 LEXICON NMN_7FÜÜSIGA-SG 
-+WORK: #;
+	SG-NOM  ;
+        SG-GEN_ZERO-STEM       ;
+:%^StrGStem        SG-PAR_t        ;
+:%^StrGStem        SG-ILL_he       ;
+
 LEXICON NMN_7FÜÜSIGA-PL 
-+WORK: #;
+	PL-NOM ;
+:%^StrGStem%^VowRM%>i     PL-GEN_dÕ ;
+:%^StrGStem%^VowRM%>i        PL-ILL_he       ;
+:%^StrGStem%^VowRM%>i        PL-ALL_lÕ-STEM       ;
+:%^StrGStem%^VowRM%>i      PL-PAR_t        ;
+
 LEXICON NMN_8HÄIELM
   NMN_8HÄIELM-SG ;
   NMN_8HÄIELM-PL ;
