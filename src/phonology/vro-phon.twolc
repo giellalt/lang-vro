@@ -87,7 +87,10 @@ VowDummies = %^WGStem %> ;
 Definitions
 
 ! Front Trigger
-FT =   # Cns* [[ VowFront | VowNeutral ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
+FT =   # Cns* [[ VowFront | :VowFront ] \[ # | :VowBack ]* | [VowNeutral ] \[ # | :VowBack | VowBack: ]* ]  ;
+!€# füüsiga%^StrGStem%^VowRM%>i%>d%{ÕE%}
+!€0 füüsik0000i0de
+! # Cns* [[ VowFront | VowNeutral ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
 ! # Cns* [[ VowFront | VowNeutral | i: ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
 
 
