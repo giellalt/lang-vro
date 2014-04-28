@@ -249,14 +249,17 @@ Rules
 !! __@RULENAME@__
 !! {{{
  a:0 <=>  Cns: _ [ (%^StrGStem:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
-      a _ %> i ; !!= @CODE@ 
+      a _ %>  i  ; !!= @CODE@ 
 !€# saa>i
 !€0 sa00i
 !! }}}
 
 "ä:0"
 !! __@RULENAME@__
- ä:0 <=>  [ Cns: | :Cns ] _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+ ä:0 <=>  [ Cns: | :Cns ] _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | %^StrGStem: %> i  ] ; 
+ ä _ %>  i  ; !!= @CODE@ 
+!€# elä%>et
+!€0 el00et
 
 "u:0"
 !! __@RULENAME@__

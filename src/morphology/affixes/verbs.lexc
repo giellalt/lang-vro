@@ -6,10 +6,47 @@ LEXICON V_EI
 +V+Neg+Prs:i # ;
 +V+Neg+Prt:s # ;
 
-LEXICON V-48elämä
-!! elämä:elä
+LEXICON V_48ELÄMÄ
+!! There are other verbs here, cf. V_ELÄMÄ
+!! * Yaml: ____
++V: V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V:%^StrGStem V0-IND-PRT-SC-12_i ;
++V: V0-IND-PRT-SC-CONNEG ;
++V:%^StrGStem V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-OC ;
+
 +V: DEVERBAL_minÕ ;
-+V+WORK: # ;
++V: V0-INF_mA ;
++V:%^StrGStem V0-INF_ZEROq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V:%^VowRM%>e V0-PSS-PRT-PRC ;
+
+LEXICON V_ELÄMÄ
+!! elämä:elä
+!! * Yaml: __elaemae48__
++V: V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V:%^StrGStem V0-IND-PRT-SC-12_i ;
++V: V0-IND-PRT-SC-CONNEG ;
++V:%^StrGStem V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V:%^StrGStem V0-INF_ZEROq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V:%^VowRM%>e V0-PSS-PRT-PRC ;
 
 LEXICON V-49lõpma
 +V+WORK: # ;
@@ -100,9 +137,11 @@ LEXICON V_77SÜÜMÄ !!= @CODE@ süümä:süü
 +V:%^LowerVow V0-IND-PRS-SCSG3_se ;
 +V: V0-IND-PRS-OC ;
 
++V: V0-IND-PRT-SCSG1_iE ;
 +V: V0-IND-PRT-SC-12_i ;
 +V: V0-IND-PRT-SC-CONNEG ;
 +V: V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-SCSG3_iE ;
 +V: V0-IND-PRT-OC ;
 
 +V: DEVERBAL_minÕ ;
@@ -124,9 +163,11 @@ LEXICON V_78SAAMA
 +V: V0-IND-PRS-SCPL3_vAq ;
 +V: V0-IND-PRS-OC ;
 
++V: V0-IND-PRT-SCSG1_iE ;
 +V: V0-IND-PRT-SC-12_i ;
 +V: V0-IND-PRT-SC-CONNEG ;
 +V: V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-SCSG3_iE ;
 +V: V0-IND-PRT-OC ;
 
 +V: DEVERBAL_minÕ ;
@@ -146,6 +187,7 @@ LEXICON V_79TULÕMA !!= @CODE@ tulõma:tul
 +V:%{ÕE%} V0-IND-PRS-SCPL3_vAq ;
 +V: V0-IND-PRS-OC ;
 
++V:%{XC%} V0-IND-PRT-SCSG1_iE ;
 +V:%{XC%} V0-IND-PRT-SC-12_i ;
 +V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
 !+V: V0-IND-PRT-SCSG3_i ;
@@ -170,6 +212,7 @@ LEXICON V_OLÕMA !!= @CODE@ olõma:o
 +V+Ind+Prs+ScPl3:mmaq K ;
 +V: V0-IND-PRS-OC ;
 
++V: V0-IND-PRT-SCSG1_iE ;
 +V: V0-IND-PRT-SC-12_i ;
 +V: V0-IND-PRT-SC-CONNEG ;
 +V+Ind+Prt+ScSg3:llʼ K ;
@@ -286,9 +329,11 @@ LEXICON V0-IND-PRS-PC
 +Ind+Prs+Pc+ConNeg:%^WGStem%>d%{AÄ%}q K ;
 
 !! !INDICATIVE PRETERIT SUBJECT CONJUGATION
+LEXICON V0-IND-PRT-SCSG1_iE
++Ind+Prt+ScSg1:%>i%{ÕE%} K ;
+
 LEXICON V0-IND-PRT-SC-12_i
 +Ind+Prt+ScSg1:%>i K ;
-+Ind+Prt+ScSg1:%>i%{ÕE%} K ;
 +Ind+Prt+ScSg2:%>iq K ;
 +Ind+Prt+ScSg2:%>it K ;
 +Ind+Prt+ScSg2:%>idõq K ;
@@ -313,7 +358,9 @@ LEXICON V0-IND-PRT-SC-12_si
 
 LEXICON V0-IND-PRT-SCSG3_i
 +Ind+Prt+ScSg3:%>i K ;
+LEXICON V0-IND-PRT-SCSG3_iE
 +Ind+Prt+ScSg3:%>i%{ÕE%} K ;
+
 LEXICON V0-IND-PRT-SCPL3_vAq
 +Ind+Prt+ScPl3:%^VowRM%>iq K ;
 +Ind+Prt+ScPl3:%^VowRM%>iv%{AÄ%}q K ;
@@ -375,6 +422,12 @@ LEXICON V0-INF_iAq
 
 LEXICON V0-INF_vAq
 +Inf:%>v%{AÄ%}q K ;
+
+LEXICON V0-INF_Aq
++Inf:%>%{AÄ%}q K ;
+
+LEXICON V0-INF_ZEROq
++Inf:%>q K ;
 
 LEXICON DEVERBAL_minÕ
 +Der/minÕ+N:%>mi NMN_16INEMINE ;
