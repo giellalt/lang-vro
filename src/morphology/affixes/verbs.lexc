@@ -51,14 +51,79 @@ LEXICON V_ELÄMÄ
 LEXICON V-49lõpma
 +V+WORK: # ;
 
-LEXICON V-50helisemä
-+V+WORK: # ;
+LEXICON V_50HELISEMÄ
+!! * Yaml: __helisemae50__
++V:%{ÕE%} V0-IND-PRS-SC-12 ;
++V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
++V:%{ÕE%} V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
 
-LEXICON V-51nõsõma
-+V+WORK: # ;
++V: V0-IND-PRT-SC-12_i ;
++V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_i ;
++V:%{XC%} V0-IND-PRT-SCPL3_vAq ;
++V: V0-IND-PRT-OC ;
 
-LEXICON V-52ehitellemä
-+V+WORK: # ;
++V:%{ÕE%} DEVERBAL_minÕ ;
++V:%{ÕE%} V0-INF_mA ;
++V: V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
+
+
+LEXICON V_51NÕSÕMA
+!! * Yaml: __nwswma51__
+!! cf. tulõma
++V:%{ÕE%} V0-IND-PRS-SC-12 ;
++V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
++V:%{ÕE%} V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V:%{XC%} V0-IND-PRT-SC-12_i ;
++V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
++V:%{XC%} V0-IND-PRT-SCSG3_i ;
++V:%{XC%} V0-IND-PRT-SCPL3_vAq ;
++V: V0-IND-PRT-OC ;
+
++V:%{ÕE%} DEVERBAL_minÕ ;
++V:%{ÕE%} V0-INF_mA ;
++V: V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
+LEXICON V_52EHITELLEMÄ
+!! ehitellemä:ehitel
+!! * Yaml: __ehitellemae52__
++V:%{XC%}%{ÕE%} V0-IND-PRS-SC-12 ;
++V:%{ÕE%} V0-IND-PRS-SC-12 ;
++V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
++V:%{XC%}%{ÕE%} V0-IND-PRS-SC3_s ;
++V:%{ÕE%} V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_i ;
++V:%{XC%} V0-IND-PRT-SC-12_i ;
++V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_i ;
++V:%{XC%} V0-IND-PRT-SCSG3_i ;
++V:%{XC%} V0-IND-PRT-SCPL3_vAq ;
++V: V0-IND-PRT-OC ;
+
++V:%{ÕE%} DEVERBAL_minÕ ;
++V:%{ÕE%} V0-INF_mA ;
++V:%{XC%}%{ÕE%} V0-INF_mA ;
++V:%{XC%} V0-INF_Aq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC_d ;
+
+
 
 LEXICON V-53jäämä
 +V+WORK: # ;
@@ -66,21 +131,121 @@ LEXICON V-53jäämä
 LEXICON V-54istma
 +V+WORK: # ;
 LEXICON V-55kõnõlõma
-+V+WORK: # ;
+!! * Yaml: __helisemae50__
++V:%{ÕE%} V0-IND-PRS-SC-12 ;
++V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
++V:%{ÕE%} V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_i ;
++V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-SCPL3_vAq ;
++V: V0-IND-PRT-OC ;
+
++V:%{ÕE%} DEVERBAL_minÕ ;
++V:%{ÕE%} V0-INF_mA ;
++V: V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
+
 LEXICON V-56hiibõlõma
-+V+WORK: # ;
+!! * Yaml: __helisemae50__
++V:%{ÕE%} V0-IND-PRS-SC-12 ;
++V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
++V:%{ÕE%} V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_i ;
++V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-SCPL3_vAq ;
++V: V0-IND-PRT-OC ;
+
++V:%{ÕE%} DEVERBAL_minÕ ;
++V:%{ÕE%} V0-INF_mA ;
++V: V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
+
 LEXICON V-57taplõma
-+V+WORK: # ;
+!! * Yaml: __helisemae50__
++V:%{ÕE%} V0-IND-PRS-SC-12 ;
++V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
++V:%{ÕE%} V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_i ;
++V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-SCPL3_vAq ;
++V: V0-IND-PRT-OC ;
+
++V:%{ÕE%} DEVERBAL_minÕ ;
++V:%{ÕE%} V0-INF_mA ;
++V: V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
+
 LEXICON V-58hirnahtama
 +V+WORK: # ;
 LEXICON V-59kaotama
 +V+WORK: # ;
 LEXICON V-60manitsõma
-+V+WORK: # ;
+!! * Yaml: __helisemae50__
++V:%{ÕE%} V0-IND-PRS-SC-12 ;
++V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
++V:%{ÕE%} V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_i ;
++V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-SCPL3_vAq ;
++V: V0-IND-PRT-OC ;
+
++V:%{ÕE%} DEVERBAL_minÕ ;
++V:%{ÕE%} V0-INF_mA ;
++V: V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
+
 LEXICON V-61manitsõma
 +V+WORK: # ;
 LEXICON V-62argnõma
-+V+WORK: # ;
+!! * Yaml: __helisemae50__
++V:%{ÕE%} V0-IND-PRS-SC-12 ;
++V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
++V:%{ÕE%} V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_i ;
++V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-SCPL3_vAq ;
++V: V0-IND-PRT-OC ;
+
++V:%{ÕE%} DEVERBAL_minÕ ;
++V:%{ÕE%} V0-INF_mA ;
++V: V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
+
 LEXICON V-63sõimama !!= @CODE@ sõimama:sõima
 !! * Yaml: __viskama__
 +V: V0-IND-PRS-SC-12 ;
@@ -192,7 +357,7 @@ LEXICON V_79TULÕMA !!= @CODE@ tulõma:tul
 +V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
 !+V: V0-IND-PRT-SCSG3_i ;
 +V+Ind+Prt+ScSg3:%{XC%}ʼ K ;
-+V+Ind+Prt+ScSg3:%{XC%}i K ;
++V:%{XC%} V0-IND-PRT-SCSG3_i ;
 +V:%{XC%} V0-IND-PRT-SCPL3_vAq ;
 +V: V0-IND-PRT-OC ;
 
@@ -487,6 +652,20 @@ LEXICON V0-PSS-PRT-PRC
 +PssPrtPrc+Pl+Par:%^WGStem%>t%{UÜ%}isi K ;
 +PssPrtPrc+Pl+Ill:%^WGStem%>t%{UÜ%}isihe K ;
 +PssPrtPrc+Pl+Ill:%^WGStem%>t%{UÜ%}ihe K ;
+
+LEXICON V0-PSS-PRT-PRC_d
++PssPrtPrc:%^WGStem%>d K ;
++PssPrtPrc+Sg+Nom:%^WGStem%>d K ;
++PssPrtPrc+Sg+Gen:%^WGStem%>d%{UÜ%} K ;
++PssPrtPrc+Sg+Par:%^WGStem%>d%{UÜ%}t K ;
++PssPrtPrc+Sg+Ill:%^WGStem%>d%{UÜ%}he K ;
++PssPrtPrc+Pl+Nom:%^WGStem%>d%{UÜ%}q K ;
++PssPrtPrc+Pl+Gen:%^WGStem%>d%{UÜ%}id%{ÕE%} K ;
++PssPrtPrc+Pl+Gen:%^WGStem%>d%{UÜ%}isi K ;
++PssPrtPrc+Pl+Par:%^WGStem%>d%{UÜ%}id K ;
++PssPrtPrc+Pl+Par:%^WGStem%>d%{UÜ%}isi K ;
++PssPrtPrc+Pl+Ill:%^WGStem%>d%{UÜ%}isihe K ;
++PssPrtPrc+Pl+Ill:%^WGStem%>d%{UÜ%}ihe K ;
 
 ! vim: set ft=xfst-lexc:
 
