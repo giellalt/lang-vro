@@ -74,6 +74,7 @@ And following triggers to control variation
   %^StrGStem  This strengthens "perädü" to "perätüt"
   %^XStrGStem  This extra-strengthens "sõda" to "sõtta"
   %^WGStem  This weakens 
+  %^SYNC  syncope tapõld : taplõma 
   %^TS	    
   %^PLPRT  The a:o attested in Plural kana:kanno and prt
  %^RVow       Raises vowel
@@ -110,6 +111,7 @@ The Võro morphophonological/twolc rules file
   %{XC%}:0	 This is used for lengthening a consonant
 
 
+Triggers
 
  %^WGStem:0  This weakens "kipõnʼ" to "kibõna"
 
@@ -117,6 +119,7 @@ The Võro morphophonological/twolc rules file
 
  %^XStrGStem:0  This extra-strengthens "sõda" to "sõtta"
 
+ %^SYNC:0  syncope tapõld : taplõma 
 
  %^TS:0  The ti => si
 
@@ -233,6 +236,9 @@ __o:0__
 __i:0__
 
 
+__õ:0__
+
+VOWEL LENGTHENING
 
 __%{XV%}:u__
 
@@ -255,7 +261,7 @@ __ü2v__
 
 
 
-Secondary Consonant lengthening
+SECONDARY CONSONANT LENGTHENING
 
 __0:p__
 {{{
