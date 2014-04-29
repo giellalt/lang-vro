@@ -176,26 +176,27 @@ LEXICON V_56HIIBÕLÕMA
 +V: V0-PSS-PRT-PRC_d ;
 
 
-LEXICON V-57taplõma
-!! * Yaml: __helisemae50__
-+V:%{ÕE%} V0-IND-PRS-SC-12 ;
+LEXICON V_57TAPLÕMA
+!! taplõma:tapõl
+!! * Yaml: __taplwma57__
++V:%^SYNC%{ÕE%} V0-IND-PRS-SC-12 ;
 +V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
-+V:%{ÕE%} V0-IND-PRS-SC3_s ;
++V:%^SYNC%{ÕE%} V0-IND-PRS-SC3_s ;
 +V: V0-IND-PRS-OC ;
 
-+V: V0-IND-PRT-SC-12_i ;
++V:%^SYNC V0-IND-PRT-SC-12_i ;
 +V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
-+V: V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-SCSG3_APOSTROPHE ;
 +V: V0-IND-PRT-SCPL3_vAq ;
 +V: V0-IND-PRT-OC ;
 
-+V:%{ÕE%} DEVERBAL_minÕ ;
-+V:%{ÕE%} V0-INF_mA ;
++V:%^SYNC%{ÕE%} DEVERBAL_minÕ ;
++V:%^SYNC%{ÕE%} V0-INF_mA ;
 +V: V0-INF_dAq ;
 +V: V0-ACT-PRS-PRC ;
 +V:%^LowerVow V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC ;
++V: V0-PSS-PRT-PRC_d ;
 
 
 LEXICON V-58hirnahtama

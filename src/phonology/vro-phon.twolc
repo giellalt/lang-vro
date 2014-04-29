@@ -25,6 +25,7 @@ A B D E F G H I J K L M N O P Q R S Š T U V Y Z Ž Õ Ü Ä Ö
  %{XC%}:0	!!= @CODE@ This is used for lengthening a consonant
 
 
+!! Triggers
 ! this k is not effected by gradation
 K1:k
 %^NoGrad:0 ! This will be placed after a stem to break Gradation
@@ -36,6 +37,7 @@ K1:k
 
 %^XStrGStem:0 !!= @CODE@ This extra-strengthens "sõda" to "sõtta"
 
+%^SYNC:0 !!= @CODE@ syncope tapõld : taplõma 
 
 %^TS:0 !!= @CODE@ The ti => si
 
@@ -82,7 +84,7 @@ Cns = b d f g h j k l m n p q r s š t v z ž ;
 
 Letters = Vow Cns ;
 
-VowDummies = %^WGStem %> ;
+VowDummies = %^WGStem %> %^SYNC ;
 
 Definitions
 
@@ -282,6 +284,7 @@ Rules
 "e:0"
 !! __@RULENAME@__
  e:0 <=>  [ Cns: | :Cns ] _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+           [ Cns: | :Cns ] _ l %^SYNC:  ;
 
 "o:0"
 !! __@RULENAME@__
@@ -293,7 +296,13 @@ Rules
           Vow l 0:l %>: _ %{ÕE%}: ;
 
 
-!!
+"õ:0"
+!! __@RULENAME@__
+ õ:0 <=>  [ Cns: | :Cns ] _ l %^SYNC:  ;
+!€# tapõl%^SYNC%{ÕE%}%>m%{AÄ%}
+!€0 tap0l0õ0ma
+
+!! VOWEL LENGTHENING
 
 "%{XV%}:u"
 !! __@RULENAME@__
@@ -334,7 +343,7 @@ Rules
 
 
 
-!! Secondary Consonant lengthening
+!! SECONDARY CONSONANT LENGTHENING
 
 "0:p"
 !! __@RULENAME@__
