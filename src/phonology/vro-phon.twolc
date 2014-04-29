@@ -95,7 +95,7 @@ FT =   # Cns* [[ VowFront | :VowFront ] \[ # | :VowBack ]* | [VowNeutral ] \[ # 
 
 
 ! Back Trigger 
-BT =   # Cns* ( [ VowNeutral ] ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
+BT =   # Cns* ( [ VowNeutral ]+ Cns* ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
 ! # Cns* ( [ VowNeutral | i: ] \[ # | VowFront: | :VowFront ]* ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
 
 ! Gradation strong to weak
@@ -363,7 +363,7 @@ Rules
 !! __@RULENAME@__
  0:l <=> Vow l _ :Vow %> j:i ;
          Vow l _ Vow: %^StrGStem: ;
-	 Vow l _ %> i: (%{ÕE%}: ) [ %> | # ] ;
+!	 Vow l _ %> i: (%{ÕE%}: ) [ %> | # ] ;
 
 "%{XC%}:s"
 !! __@RULENAME@__
@@ -417,9 +417,12 @@ k:0 <=> s _ a %^WGStem: ;
 
 "dTol"
 !! __@RULENAME@__
- d:l <=> l %> _ %{AÄ%}: q ;
+ d:l <=> # Cns* Vow l %> _ %{AÄ%}: q ;
+!€# tul%>d%{AÄ%}q
+!€0 tul0laq
+!€# kõnõl%>d%{AÄ%}q
+!€0 kõnõl0daq
 
-!%>d%{AÄ%}q
 
 "dTot"
 !! __@RULENAME@__
@@ -461,8 +464,8 @@ k:0 <=> s _ a %^WGStem: ;
 "g20"
 !! __@RULENAME@__
 !! {{{
- g:0 <=>  _ ʼ: %^WGStem: ;
-!€# särgʼ%^WGStem>#
+ g:0 <=>  _ [ ʼ: | %{ÕE%}: ] %^WGStem: ;
+!€# särgʼ%^WGStem%>#
 !€0 sär0e000
 !! }}}
 
