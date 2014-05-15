@@ -1054,18 +1054,18 @@ LEXICON NMN_30TÜÜ-SG
         SG-NOM  ;
         SG-GEN_ZERO-STEM       ;
 	SG-PAR_t        ;
-	SG-ILL_hÕ       ;
-	SG-ILL_htÕ       ;
+	SG-ILL_hU       ;
+:%^VowRM	SG-ILL_hUq       ;
 
 LEXICON NMN_30TÜÜ-PL 
 !+WORK: #;
         PL-NOM ;
-:%>i     PL-GEN_Õ ;
-:%>i        PL-ILL_htÕ       ;
-:%>i        PL-ILL_hÕ       ;
-:%>i        PL-ALL_lÕ-STEM       ;
-:%>i%{ÕE%}        PL-ALL_lÕ-STEM       ;
-:%>i      PL-PAR_d        ;
+:%^LowerVow%>i     PL-GEN_Õ ;
+:%^LowerVow%>i        PL-ILL_htÕ       ;
+:%^LowerVow%>i        PL-ILL_hÕ       ;
+:%^LowerVow%>i        PL-ALL_lÕ-STEM       ;
+:%^LowerVow%>i%{ÕE%}        PL-ALL_lÕ-STEM       ;
+:%^LowerVow%>i      PL-PAR_d        ;
 
 LEXICON NMN_31TÄI
   NMN_31TÄI-SG ;
@@ -1483,6 +1483,12 @@ LEXICON	SG-ILL_ZERO
 
 LEXICON	SG-ILL_he
 +Sg+Ill:%>he K ;
+
+LEXICON	SG-ILL_hU
++Sg+Ill:%>h%{UÜ%} K ;
+
+LEXICON	SG-ILL_hUq
++Sg+Ill:%>h%{UÜ%}q K ;
 
 LEXICON	SG-ILL_hÕ
 +Sg+Ill:%>h%{ÕE%} K ;
