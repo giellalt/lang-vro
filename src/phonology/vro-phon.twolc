@@ -269,7 +269,9 @@ Rules
  u:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
 !€# tervüs%^VowRM%^CnsRM%>i%>t
 !€0 terv00000i0t
-      _ u: %> i ;
+      _ u: (%^VowRM:) %> i ;
+!€# kuu%^VowRM%>i%>d
+!€0 k0u00i0d
 !! }}}
 
 "ü:0"
@@ -324,7 +326,8 @@ Rules
 !!
 "i2j"
 !! __@RULENAME@__
- i:j <=> Vow _ (%^WGStem:) %> :Vow ;
+ i:j <=> Vow Cns:+ Vow _ (%^WGStem:) %> :Vow ;
+! Vow _ (%^WGStem:) %> :Vow ;
          Cns _ %^StrGStem: %> :Vow ;
 
 "i2ʼ"
