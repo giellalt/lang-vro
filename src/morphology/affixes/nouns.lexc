@@ -219,14 +219,29 @@ LEXICON N-27eheq
 LEXICON N_28TÜTÄRʼ
 +N+Sg+Nom+WORK: K ;
 
-LEXICON N-29kuu
-+N+Sg+Nom+WORK: K ;
+LEXICON N_29KUU
+ N_29KUU-SG ;
+ N_29KUU-PL ;
+LEXICON N_29KUU-SG
++N: NMN_29KUU-SG ;
+LEXICON N_29KUU-PL
++N: NMN_29KUU-PL ;
 
-LEXICON N-30tüü
-+N+Sg+Nom+WORK: K ;
+LEXICON N_30TÜÜ
+ N_30TÜÜ-SG ;
+ N_30TÜÜ-PL ;
+LEXICON N_30TÜÜ-SG
++N: NMN_30TÜÜ-SG ;
+LEXICON N_30TÜÜ-PL
++N: NMN_30TÜÜ-PL ;
 
-LEXICON N-31täi
-+N+Sg+Nom+WORK: K ;
+LEXICON N_31TÄI
+ N_31TÄI-SG ;
+ N_31TÄI-PL ;
+LEXICON N_31TÄI-SG
++N: NMN_31TÄI-SG ;
+LEXICON N_31TÄI-PL
++N: NMN_31TÄI-PL ;
 
 LEXICON N-32veri
 +N+Sg+Nom+WORK: K ;
@@ -595,9 +610,20 @@ LEXICON NMN_6MAKÕ
   NMN_6MAKÕ-PL ;
 
 LEXICON NMN_6MAKÕ-SG 
-+WORK: #;
+!+WORK: #;
+        SG-NOM  ;
+        SG-GEN_ZERO-STEM       ;
+        SG-PAR_t        ;
+        SG-ILL_he       ;
+
 LEXICON NMN_6MAKÕ-PL 
-+WORK: #;
+!+WORK: #;
+        PL-NOM ;
+:%^VowRM%>i     PL-GEN_dÕ ;
+:%^VowRM%>i        PL-ILL_he       ;
+:%^VowRM%>i        PL-ALL_lÕ-STEM       ;
+:%^VowRM%>i      PL-PAR_t        ;
+
 LEXICON NMN_7FÜÜSIGA
   NMN_7FÜÜSIGA-SG ;
   NMN_7FÜÜSIGA-PL ;
@@ -620,9 +646,20 @@ LEXICON NMN_8HÄIELM
   NMN_8HÄIELM-PL ;
 
 LEXICON NMN_8HÄIELM-SG 
-+WORK: #;
+!+WORK: #;
+        SG-NOM  ;
+        SG-GEN_ZERO-STEM       ;
+:%^StrGStem        SG-PAR_t        ;
+:%^StrGStem        SG-ILL_he       ;
+
 LEXICON NMN_8HÄIELM-PL 
-+WORK: #;
+!+WORK: #;
+        PL-NOM ;
+:%^StrGStem%^VowRM%>i     PL-GEN_dÕ ;
+:%^StrGStem%^VowRM%>i        PL-ILL_he       ;
+:%^StrGStem%^VowRM%>i        PL-ALL_lÕ-STEM       ;
+:%^StrGStem%^VowRM%>i      PL-PAR_t        ;
+
 LEXICON NMN_9KIPÕNʼ !!= @CODE@ kipõnʼ:kipõnʼ
 !! * Yaml: __ellaei, kipwnj__
    NMN_9KIPÕNʼ-SG ;
@@ -666,17 +703,42 @@ LEXICON NMN_11LÄTEQ
   NMN_11LÄTEQ-PL ;
 
 LEXICON NMN_11LÄTEQ-SG 
-+WORK: #;
+!+WORK: #;
++Sg+Nom:q K ;
++Sg+Gen:q K ;
++Sg+Par:t K ;
++Sg+Ill:he K ;
+
 LEXICON NMN_11LÄTEQ-PL 
-+WORK: #;
+!+WORK: #;
++Pl+Nom:q K ;
++Pl+Gen:id%{ÕE%} K ;
++Pl+Gen:isi K ;
++Pl+Par:id K ;
++Pl+Par:isi K ;
++Pl+Ill:isihe K ;
++Pl+Ill:ihe K ;
+
 LEXICON NMN_12REPÄNʼ
   NMN_12REPÄNʼ-SG ;
   NMN_12REPÄNʼ-PL ;
 
 LEXICON NMN_12REPÄNʼ-SG 
-+WORK: #;
+!+WORK: #;
+        SG-NOM  ;
+:%^WGStem%>%{AÄ%}       SG-GEN_ZERO-STEM        ;
+:%^WGStem%>%{UÜ%}       SG-GEN_ZERO-STEM        ;
+:%>%{AÄ%}       SG-PAR_t        ;
+:%>%{AÄ%}       SG-ILL_he       ;
+:%>%{UÜ%}       SG-ILL_he       ;
+
 LEXICON NMN_12REPÄNʼ-PL 
-+WORK: #;
+!+WORK: #;
+:%^WGStem%>%{AÄ%}       PL-NOM ;
+:%^VowRM%>i    PL-GEN_dÕ ;
+:%^VowRM%>i        PL-ILL_he       ;
+:%^VowRM%>i        PL-ALL_lÕ-STEM       ;
+:%^VowRM%>i      PL-PAR_t        ;
 
 LEXICON NMN_13ALONÕ !!= @CODE@ alonõ:alo
         NMN_13ALONÕ-SG ;
@@ -869,25 +931,63 @@ LEXICON NMN_23KIILʼ
   NMN_23KIILʼ-PL ;
 
 LEXICON NMN_23KIILʼ-SG 
-+WORK: #;
+!+WORK: #;
+:%>n%{ÕE%}      SG-NOM ;
+:%>s%{ÕE%}      SG-GEN_ZERO-STEM ;
+:is             SG-PAR_t ;
+:is             SG-ILL_tÕ ;
+
 LEXICON NMN_23KIILʼ-PL 
-+WORK: #;
+!+WORK: #;
+:%>s%{ÕE%}      PL-NOM ;
+:is             PL-GEN_dÕ ;
+:is             PL-ALL_dÕlÕ ;
+:isi            PL-GEN_ZERO ;
+:isi            PL-PAR_ZERO ;
+:isi            PL-ILL_he ;
+:isi            PL-ALL_lÕ-STEM ;
+
 LEXICON NMN_24KÄSI
   NMN_24KÄSI-SG ;
   NMN_24KÄSI-PL ;
 LEXICON NMN_24KÄSI-SG 
-+WORK: #;
+!+WORK: #;
+:%>n%{ÕE%}      SG-NOM ;
+:%>s%{ÕE%}      SG-GEN_ZERO-STEM ;
+:is             SG-PAR_t ;
+:is             SG-ILL_tÕ ;
+
 LEXICON NMN_24KÄSI-PL 
-+WORK: #;
+!+WORK: #;
+:%>s%{ÕE%}      PL-NOM ;
+:is             PL-GEN_dÕ ;
+:is             PL-ALL_dÕlÕ ;
+:isi            PL-GEN_ZERO ;
+:isi            PL-PAR_ZERO ;
+:isi            PL-ILL_he ;
+:isi            PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_25ASÕQ
   NMN_25ASÕQ-SG ;
   NMN_25ASÕQ-PL ;
 
 LEXICON NMN_25ASÕQ-SG 
-+WORK: #;
+!+WORK: #;
++Sg+Nom:q K ;
++Sg+Gen:q K ;
++Sg+Par:t K ;
++Sg+Ill:he K ;
+
 LEXICON NMN_25ASÕQ-PL 
-+WORK: #;
+!+WORK: #;
++Pl+Nom:q K ;
++Pl+Gen:id%{ÕE%} K ;
++Pl+Gen:isi K ;
++Pl+Par:id K ;
++Pl+Par:isi K ;
++Pl+Ill:isihe K ;
++Pl+Ill:ihe K ;
+
 LEXICON NMN_26HEPEMʼ
   NMN_26HEPEMʼ-SG ;
   NMN_26HEPEMʼ-PL ;
@@ -901,9 +1001,22 @@ LEXICON NMN_27EHEQ
   NMN_27EHEQ-PL ;
 
 LEXICON NMN_27EHEQ-SG 
-+WORK: #;
+!+WORK: #;
++Sg+Nom:q K ;
++Sg+Gen:q K ;
++Sg+Par:t K ;
++Sg+Ill:he K ;
+
 LEXICON NMN_27EHEQ-PL 
-+WORK: #;
+!+WORK: #;
++Pl+Nom:q K ;
++Pl+Gen:id%{ÕE%} K ;
++Pl+Gen:isi K ;
++Pl+Par:id K ;
++Pl+Par:isi K ;
++Pl+Ill:isihe K ;
++Pl+Ill:ihe K ;
+
 LEXICON NMN_28TÜTÄRʼ
   NMN_28TÜTÄRʼ-SG ;
   NMN_28TÜTÄRʼ-PL ;
@@ -917,25 +1030,63 @@ LEXICON NMN_29KUU
   NMN_29KUU-PL ;
 
 LEXICON NMN_29KUU-SG 
-+WORK: #;
+        SG-NOM  ;
+        SG-GEN_ZERO-STEM       ;
+        SG-PAR_t        ;
+	SG-ILL_hÕ       ;
+	SG-ILL_htÕ       ;
 LEXICON NMN_29KUU-PL 
-+WORK: #;
+        PL-NOM ;
+:%^VowRM%>i     PL-GEN_Õ ;
+:%^VowRM%>i        PL-ILL_htÕ       ;
+:%^VowRM%>i        PL-ILL_hÕ       ;
+:%^VowRM%>i        PL-ALL_lÕ-STEM       ;
+:%^VowRM%>i%{ÕE%}        PL-ALL_lÕ-STEM       ;
+:%^VowRM%>i      PL-PAR_d        ;
+
+
 LEXICON NMN_30TÜÜ
   NMN_30TÜÜ-SG ;
   NMN_30TÜÜ-PL ;
 
 LEXICON NMN_30TÜÜ-SG 
-+WORK: #;
+!+WORK: #;
+        SG-NOM  ;
+        SG-GEN_ZERO-STEM       ;
+	SG-PAR_t        ;
+	SG-ILL_hÕ       ;
+	SG-ILL_htÕ       ;
+
 LEXICON NMN_30TÜÜ-PL 
-+WORK: #;
+!+WORK: #;
+        PL-NOM ;
+:%>i     PL-GEN_Õ ;
+:%>i        PL-ILL_htÕ       ;
+:%>i        PL-ILL_hÕ       ;
+:%>i        PL-ALL_lÕ-STEM       ;
+:%>i%{ÕE%}        PL-ALL_lÕ-STEM       ;
+:%>i      PL-PAR_d        ;
+
 LEXICON NMN_31TÄI
   NMN_31TÄI-SG ;
   NMN_31TÄI-PL ;
 
 LEXICON NMN_31TÄI-SG 
-+WORK: #;
+        SG-NOM  ;
+        SG-GEN_ZERO-STEM       ;
+	SG-PAR_t        ;
+	SG-ILL_hÕ       ;
+	SG-ILL_htÕ       ;
+
 LEXICON NMN_31TÄI-PL 
-+WORK: #;
+        PL-NOM ;
+:     PL-GEN_Õ ;
+:        PL-ILL_htÕ       ;
+:        PL-ILL_hÕ       ;
+:%^PLPRT        PL-ALL_lÕ-STEM       ;
+:%>%{ÕE%}        PL-ALL_lÕ-STEM       ;
+:      PL-PAR_Õ        ;
+
 LEXICON NMN_32VERI
   NMN_32VERI-SG ;
   NMN_32VERI-PL ;
@@ -1249,6 +1400,9 @@ LEXICON  PL-ADE
 LEXICON  PL-ALL_lÕ
 +Pl+All:%>l%{ÕE%} K ;
 
+LEXICON  PL-ALL_ÕlÕ
++Pl+All:%>%{ÕE%}l%{ÕE%} K ;
+
 LEXICON  PL-ALL_dÕlÕ
 +Pl+All:%>d%{ÕE%}l%{ÕE%} K ;
 
@@ -1261,11 +1415,20 @@ LEXICON  PL-GEN_ZERO
 LEXICON  PL-GEN_dÕ
 +Pl+Gen:%>d%{ÕE%} K ;
 
+LEXICON  PL-GEN_Õ
++Pl+Gen:%>%{ÕE%} K ;
+
 LEXICON PL-ILL_ZERO
 +Pl+Ill: K ;
 
 LEXICON PL-ILL_he
 +Pl+Ill:%>he K ;
+
+LEXICON PL-ILL_hÕ
++Pl+Ill:%>h%{ÕE%} K ;
+
+LEXICON PL-ILL_htÕ
++Pl+Ill:%>ht%{ÕE%} K ;
 
 LEXICON PL-ILL_dÕhe
 +Pl+Ill:%>d%{ÕE%}he K ;
@@ -1288,6 +1451,9 @@ LEXICON  PL-PAR_ZERO
 
 LEXICON  PL-PAR_d
 +Pl+Par:%>d K ;
+
+LEXICON  PL-PAR_Õ
++Pl+Par:%>%{ÕE%} K ;
 
 LEXICON  PL-PAR_sit
 +Pl+Par:%>sit K ;
@@ -1317,6 +1483,9 @@ LEXICON	SG-ILL_ZERO
 
 LEXICON	SG-ILL_he
 +Sg+Ill:%>he K ;
+
+LEXICON	SG-ILL_hÕ
++Sg+Ill:%>h%{ÕE%} K ;
 
 LEXICON	SG-ILL_htÕ
 +Sg+Ill:%>ht%{ÕE%} K ;
