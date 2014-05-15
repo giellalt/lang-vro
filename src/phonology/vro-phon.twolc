@@ -89,7 +89,7 @@ VowDummies = %^WGStem %> %^SYNC ;
 Definitions
 
 ! Front Trigger
-FT =   # Cns* [[ VowFront | :VowFront ] \[ # | :VowBack ]* | [VowNeutral ] \[ # | :VowBack | VowBack: ]* ]  ;
+FT =   # Cns* [[ VowFront: | :VowFront ] \[ # | :VowBack ]* | [VowNeutral ] \[ # | :VowBack | VowBack: ]* ]  ;
 !€# füüsiga%^StrGStem%^VowRM%>i%>d%{ÕE%}
 !€0 füüsik0000i0de
 ! # Cns* [[ VowFront | VowNeutral ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
@@ -179,7 +179,7 @@ Rules
 "ü:ö"
 !! __@RULENAME@__
  ü:ö <=>  ü: _ %^LowerVow: ;
-    _ ü: %^LowerVow: ;
+    _ ü: %^LowerVow: [ # | %> [ :Cns | [ :Vow - :i ]] ] ;
 
 "u2õ"
 !! __@RULENAME@__
@@ -210,6 +210,7 @@ Rules
  i:e <=>  _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
 !€# pin0i%^StrGStem%^PLPRT
 !€0 pinne00
+
 !! }}}
 
 "ü2e"
@@ -280,7 +281,7 @@ Rules
  ü:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
 !€# tervüs%^VowRM%^CnsRM%>i%>t
 !€0 terv00000i0t
-         _ ü: %> i ;
+         _ ü: (%^LowerVow:) %> i ;
 !! }}}
 
 "e:0"
