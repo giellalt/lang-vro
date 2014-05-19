@@ -210,7 +210,6 @@ Rules
  i:e <=>  _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
 !€# pin0i%^StrGStem%^PLPRT
 !€0 pinne00
-
 !! }}}
 
 "ü2e"
@@ -297,6 +296,9 @@ Rules
 !! __@RULENAME@__
  i:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:) %^VowRM: (%{ÕE%}:) | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
           Vow l 0:l %>: _ %{ÕE%}: ;
+       a _ g: %^WGStem: %> %{OÖ%}: ;
+!€# aig%^WGStem%>%{OÖ%}
+!€0 a0000o
 
 
 "õ:0"
@@ -480,6 +482,8 @@ k:0 <=> s _ a %^WGStem: ;
  g:0 <=>  _ [ ʼ: | %{ÕE%}: ] %^WGStem: ;
 !€# särgʼ%^WGStem%>#
 !€0 sär0e000
+!€# aig%^WGStem%>%{OÖ%}
+!€0 a0000o
 !! }}}
 
 !! !Other marks
