@@ -258,7 +258,7 @@ Rules
 
 "ä:0"
 !! __@RULENAME@__
- ä:0 <=>  [ Cns: | :Cns ] _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | %^StrGStem: %> i  ] ; 
+ ä:0 <=>  [ Cns: | :Cns ] _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
  ä _ %>  i  ; !!= @CODE@ 
 !€# elä%>et
 !€0 el00et
@@ -380,6 +380,12 @@ Rules
          Vow l _ Vow: %^StrGStem: ;
 !	 Vow l _ %> i: (%{ÕE%}: ) [ %> | # ] ;
 
+"0:k"
+!! __@RULENAME@__
+ 0:k <=> Vow g: _ Vow: %^XStrGStem: ;
+!€# ig0ä%^XStrGStem
+!€0 ikkä0
+
 "%{XC%}:s"
 !! __@RULENAME@__
  %{XC%}:s <=> s: _ ;
@@ -464,7 +470,8 @@ k:0 <=> s _ a %^WGStem: ;
  g:k <=> 
     Vow _ Vow: %^StrGStem: ;
     Vow _ 0: Vow: %^XStrGStem: ;
-
+!€# ig0ä%^XStrGStem
+!€0 ikkä0
 
 !! !STEM-FINAL CONSONANT LOSS
 "s20"
@@ -479,9 +486,11 @@ k:0 <=> s _ a %^WGStem: ;
 "g20"
 !! __@RULENAME@__
 !! {{{
- g:0 <=>  _ [ ʼ: | %{ÕE%}: ] %^WGStem: ;
+ g:0 <=>  _ [ ʼ: | %{ÕE%}: |ä] %^WGStem: ;
 !€# särgʼ%^WGStem%>#
 !€0 sär0e000
+!€# igä%^WGStem
+!€0 i0ä0
 !€# aig%^WGStem%>%{OÖ%}
 !€0 a0000o
 !! }}}
