@@ -360,7 +360,6 @@ LEXICON N_38PUHM-SG
 +N: NMN_38PUHM-SG ;
 LEXICON N_38PUHM-PL
 +N: NMN_38PUHM-PL ;
-+N+Sg+Nom+WORK: K ;
 
 LEXICON N_39HÄBÜ
         N_39HÄBÜ-SG ;
@@ -1256,9 +1255,18 @@ LEXICON NMN_38PUHM
   NMN_38PUHM-SG ;
   NMN_38PUHM-PL ;
 LEXICON NMN_38PUHM-SG 
-+WORK: #;
+        SG-NOM  ;
+:%{AÄ%}       SG-GEN_ZERO-STEM        ;
+:%{AÄ%}       SG-ILL_ZERO        ;
+:%{AÄ%}       SG-PAR_ZERO        ;
+
 LEXICON NMN_38PUHM-PL 
-+WORK: #;
+:%{EÕ%}       PL-NOM ;
+:%{EÕ%}    PL-GEN_ZERO ;
+:%{EÕ%}    PL-PAR_ZERO ;
+:%{EÕ%}    PL-ILL_ZERO ;
+:%{EÕ%}    PL-ILL_he ;
+:%{EÕ%}    PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_39HÄBÜ
   NMN_39HÄBÜ-SG ;
