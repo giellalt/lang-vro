@@ -25,7 +25,7 @@ LEXICON V_48ELÄMÄ
 +V: V0-ACT-PRS-PRC ;
 +V: V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V:%^VowRM%>e V0-PSS-PRT-PRC ;
++V:%^VowRM%>e%^WGStem V0-PSS-PRT-PRC ;
 
 LEXICON V_ELÄMÄ
 !! elämä:elä
@@ -46,7 +46,7 @@ LEXICON V_ELÄMÄ
 +V: V0-ACT-PRS-PRC ;
 +V: V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V:%^VowRM%>e V0-PSS-PRT-PRC ;
++V:%^VowRM%>e%^WGStem V0-PSS-PRT-PRC ;
 
 LEXICON V_49LÕPMA
 +V+WORK: # ;
@@ -70,7 +70,7 @@ LEXICON V_50HELISEMÄ
 +V: V0-ACT-PRS-PRC ;
 +V:%^LowerVow V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
 
 
 
@@ -94,7 +94,7 @@ LEXICON V_51NÕSÕMA
 +V: V0-ACT-PRS-PRC ;
 +V:%^LowerVow V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
 
 LEXICON V_52EHITELLEMÄ
 !! ehitellemä:ehitel
@@ -121,7 +121,7 @@ LEXICON V_52EHITELLEMÄ
 +V: V0-ACT-PRS-PRC ;
 +V:%^LowerVow V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC_d ;
++V:%^WGStem V0-PSS-PRT-PRC_d ;
 
 
 
@@ -149,7 +149,7 @@ LEXICON V_55KÕNÕLÕMA
 +V: V0-ACT-PRS-PRC ;
 +V: V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC_d ;
++V:%^WGStem V0-PSS-PRT-PRC_d ;
 
 
 LEXICON V_56HIIBÕLÕMA
@@ -173,7 +173,7 @@ LEXICON V_56HIIBÕLÕMA
 +V: V0-ACT-PRS-PRC ;
 +V:%^LowerVow V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC_d ;
++V:%^WGStem V0-PSS-PRT-PRC_d ;
 
 
 LEXICON V_57TAPLÕMA
@@ -196,7 +196,7 @@ LEXICON V_57TAPLÕMA
 +V: V0-ACT-PRS-PRC ;
 +V:%^LowerVow V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC_d ;
++V:%^WGStem V0-PSS-PRT-PRC_d ;
 
 
 LEXICON V_58HIRNAHTAMA
@@ -225,8 +225,8 @@ LEXICON V_MANITSÕMA
 +V: V0-ACT-PRT-PRC ;
 +V:ts V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC ;
-+V:ts%{ÕE%} V0-PSS-PRT-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
++V:ts%{ÕE%}%^WGStem V0-PSS-PRT-PRC ;
 
 LEXICON V_62ARGNÕMA
 !! argnõma:arg
@@ -252,7 +252,7 @@ LEXICON V_62ARGNÕMA
 
 
 LEXICON V_63SÕIMAMA !!= @CODE@ sõimama:sõima
-!! * Yaml: __viskama__
+!! * Yaml: __viskama, swimama63__
 +V: V0-IND-PRS-SC-12 ;
 +V: V0-IND-PRS-SC-CONNEG ;
 +V: V0-IND-PRS-SC3_s ;
@@ -269,7 +269,7 @@ LEXICON V_63SÕIMAMA !!= @CODE@ sõimama:sõima
 +V: V0-ACT-PRS-PRC ;
 +V: V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
 
 
 LEXICON V_64PUHKSAMA
@@ -297,8 +297,8 @@ LEXICON V_HARINÕMA !!harinõma:hari
 +V: V0-ACT-PRT-PRC ;
 +V:n V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC ;
-+V:n%{ÕE%} V0-PSS-PRT-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
++V:n%{ÕE%}%^WGStem V0-PSS-PRT-PRC ;
 
 
 LEXICON V-67harinõma
@@ -343,7 +343,7 @@ LEXICON V_77SÜÜMÄ !!= @CODE@ süümä:süü
 +V: V0-ACT-PRS-PRC ;
 +V:%^LowerVow V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
 
 
 
@@ -369,7 +369,7 @@ LEXICON V_78SAAMA
 +V: V0-ACT-PRS-PRC ;
 +V:%^LowerVow V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
 
 
 LEXICON V_79TULÕMA !!= @CODE@ tulõma:tul
@@ -395,7 +395,7 @@ LEXICON V_79TULÕMA !!= @CODE@ tulõma:tul
 +V: V0-ACT-PRS-PRC ;
 +V:%^LowerVow V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
 
 
 LEXICON V_OLÕMA !!= @CODE@ olõma:o
@@ -418,7 +418,7 @@ LEXICON V_OLÕMA !!= @CODE@ olõma:o
 +V: V0-ACT-PRS-PRC ;
 +V:%^LowerVow V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
 
 
 LEXICON V-80rapahutma
@@ -445,8 +445,30 @@ LEXICON V-86istma
 +V+WORK: # ;
 LEXICON V-87kosima
 +V+WORK: # ;
-LEXICON V-88sibama
-+V+WORK: # ;
+LEXICON V_88SIBAMA
+!! * Yaml: __V-sibama88,sibahama__
++V:%^StrGStem V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V:%^StrGStem V0-IND-PRS-SCSG3_ZERO ;
++V: V0-IND-PRS-SCPL3_vAq ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_si ;
++V: V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SC3_si ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V:%^StrGStem V0-INF_Aq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC ;
++V: V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
++V: V0-PSS-PRT-PRC ;
+
 !LEXICON V-89
 !+V+WORK: # ;
 !90
@@ -680,32 +702,32 @@ LEXICON V0-PSS-PRS-PRC
 
 
 LEXICON V0-PSS-PRT-PRC
-+PssPrtPrc:%^WGStem%>t K ;
-+PssPrtPrc+Sg+Nom:%^WGStem%>t K ;
-+PssPrtPrc+Sg+Gen:%^WGStem%>d%{UÜ%} K ;
-+PssPrtPrc+Sg+Par:%^WGStem%>t%{UÜ%}t K ;
-+PssPrtPrc+Sg+Ill:%^WGStem%>t%{UÜ%}he K ;
-+PssPrtPrc+Pl+Nom:%^WGStem%>d%{UÜ%}q K ;
-+PssPrtPrc+Pl+Gen:%^WGStem%>t%{UÜ%}id%{ÕE%} K ;
-+PssPrtPrc+Pl+Gen:%^WGStem%>t%{UÜ%}isi K ;
-+PssPrtPrc+Pl+Par:%^WGStem%>t%{UÜ%}id K ;
-+PssPrtPrc+Pl+Par:%^WGStem%>t%{UÜ%}isi K ;
-+PssPrtPrc+Pl+Ill:%^WGStem%>t%{UÜ%}isihe K ;
-+PssPrtPrc+Pl+Ill:%^WGStem%>t%{UÜ%}ihe K ;
++PssPrtPrc:%>t K ;
++PssPrtPrc+Sg+Nom:%>t K ;
++PssPrtPrc+Sg+Gen:%>d%{UÜ%} K ;
++PssPrtPrc+Sg+Par:%>t%{UÜ%}t K ;
++PssPrtPrc+Sg+Ill:%>t%{UÜ%}he K ;
++PssPrtPrc+Pl+Nom:%>d%{UÜ%}q K ;
++PssPrtPrc+Pl+Gen:%>t%{UÜ%}id%{ÕE%} K ;
++PssPrtPrc+Pl+Gen:%>t%{UÜ%}isi K ;
++PssPrtPrc+Pl+Par:%>t%{UÜ%}id K ;
++PssPrtPrc+Pl+Par:%>t%{UÜ%}isi K ;
++PssPrtPrc+Pl+Ill:%>t%{UÜ%}isihe K ;
++PssPrtPrc+Pl+Ill:%>t%{UÜ%}ihe K ;
 
 LEXICON V0-PSS-PRT-PRC_d
-+PssPrtPrc:%^WGStem%>d K ;
-+PssPrtPrc+Sg+Nom:%^WGStem%>d K ;
-+PssPrtPrc+Sg+Gen:%^WGStem%>d%{UÜ%} K ;
-+PssPrtPrc+Sg+Par:%^WGStem%>d%{UÜ%}t K ;
-+PssPrtPrc+Sg+Ill:%^WGStem%>d%{UÜ%}he K ;
-+PssPrtPrc+Pl+Nom:%^WGStem%>d%{UÜ%}q K ;
-+PssPrtPrc+Pl+Gen:%^WGStem%>d%{UÜ%}id%{ÕE%} K ;
-+PssPrtPrc+Pl+Gen:%^WGStem%>d%{UÜ%}isi K ;
-+PssPrtPrc+Pl+Par:%^WGStem%>d%{UÜ%}id K ;
-+PssPrtPrc+Pl+Par:%^WGStem%>d%{UÜ%}isi K ;
-+PssPrtPrc+Pl+Ill:%^WGStem%>d%{UÜ%}isihe K ;
-+PssPrtPrc+Pl+Ill:%^WGStem%>d%{UÜ%}ihe K ;
++PssPrtPrc:%>d K ;
++PssPrtPrc+Sg+Nom:%>d K ;
++PssPrtPrc+Sg+Gen:%>d%{UÜ%} K ;
++PssPrtPrc+Sg+Par:%>d%{UÜ%}t K ;
++PssPrtPrc+Sg+Ill:%>d%{UÜ%}he K ;
++PssPrtPrc+Pl+Nom:%>d%{UÜ%}q K ;
++PssPrtPrc+Pl+Gen:%>d%{UÜ%}id%{ÕE%} K ;
++PssPrtPrc+Pl+Gen:%>d%{UÜ%}isi K ;
++PssPrtPrc+Pl+Par:%>d%{UÜ%}id K ;
++PssPrtPrc+Pl+Par:%>d%{UÜ%}isi K ;
++PssPrtPrc+Pl+Ill:%>d%{UÜ%}isihe K ;
++PssPrtPrc+Pl+Ill:%>d%{UÜ%}ihe K ;
 
 ! vim: set ft=xfst-lexc:
 
