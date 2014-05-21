@@ -82,6 +82,8 @@ Vow = a o u ä ö ü e i õ y ;
 
 Cns = b d f g h j k l m n p q r s š t v z ž ;
 
+CnsVoiced = j l m n r v ;
+
 Letters = Vow Cns ;
 
 VowDummies = %^WGStem %> %^SYNC ;
@@ -250,15 +252,17 @@ Rules
 "a:0"
 !! __@RULENAME@__
 !! {{{
- a:0 <=>  Cns: _ [ (%^StrGStem:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+ a:0 <=>  Cns: _ [ (%^StrGStem:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
       a _ %>  i  ; !!= @CODE@ 
-!€# saa>i
+!€# saa%>i
 !€0 sa00i
+!€# sõima0%^VowRM%>si
+!€0 sõim0s00si
 !! }}}
 
 "ä:0"
 !! __@RULENAME@__
- ä:0 <=>  [ Cns: | :Cns ] _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
+ ä:0 <=>  [ Cns: | :Cns ] _ [ (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
  ä _ %>  i  ; !!= @CODE@ 
 !€# elä%>et
 !€0 el00et
@@ -373,6 +377,12 @@ Rules
 !€# sõd0a%^XStrGStem%^PLPRT
 !€0 sõtto00
 !! }}}
+
+"0:s"
+!! __@RULENAME@__
+ 0:s <=> CnsVoiced Vow: _ %^VowRM: %> s i ;
+!€# sõima0%^VowRM%>si
+!€0 sõim0s00si
 
 "0:l"
 !! __@RULENAME@__
