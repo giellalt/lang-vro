@@ -10,41 +10,167 @@ The morphological analyses of wordforms of UNDEFINED language are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
+ * +WORK   (eng) work needed !(vro) tüü
+
 The parts-of-speech are:
+ *  +N	    
+ * +A	    
+ * +Adv    
+ * +V	    
+
+ * +Pron   
+ * +CS	    
+ * +CC	    
+ * +Adp    
+ * +Po	    
+ * +Pr	    
+ * +Interj 
+ * +Pcle   
+ * +Num    
+ * +Qnt    
 
 The parts of speech are further split up into:
 
+ * +Prop   
+ * +Pers   
+ * +Dem    
+ * +Interr 
+ * +Refl   
+ * +Recipr 
+ * +Rel    
+ * +Indef  
+
 The Usage extents are marked using following tags:
+ *  +Use/Sub    
+ *  +Use/-Spell 
 
 The nominals are inflected in the following Case and Number
-  +Sg    Singular
-  +Pl    Plural
-  +SP    Singular and Plural, used for CG and Apertium
+ *  +Sg    Singular
+ *  +Pl    Plural
+ *  +SP    Singular and Plural, used for CG and Apertium
 
+ * +Ess    
+ * +Nom    
+ * +Gen    
+ * +Acc    
+ * +Ill    
+ * +Loc    
+ * +Com    
+ * +Com/Sh 
 
 The possession is marked as such:
+
+ * +PxSg1 
+ * +PxSg2 
+ * +PxSg3 
+ * +PxPl1 
+ * +PxPl2 
+ * +PxPl3 
+
 The comparative forms are:
+ *  +Comp  
+ *  +Superl 
 Numerals are classified under:
+ *  +Attr  
+ *  +Card 
+ *  +Ord  
 Verb moods are:
+ *  +Ind  
+ * +Prs   
+ * +Prt   
+ * +Pot   
+ * +Cond  
+ * +Imprt 
+
 Verb personal forms are:
+
+Subject conjugation
+
+ * +ScSg1 
+ * +ScSg2 
+ * +ScSg3 
+ * +ScPl1 
+ * +ScPl2 
+ * +ScPl3 
+ * +Sc	   
+
+Passive conjugation
+
+ * +PcSg1 
+ * +PcSg2 
+ * +PcSg3 
+ * +PcPl1 
+ * +PcPl2 
+ * +PcPl3 
+ * +Pc	   
 Other verb forms are
-  +Inf	         sõimadaq, elädäq
-  +Inf/mA	 sõimama, elämä
-  +PssPrtPrc    elet
+ *  +Inf	         sõimadaq, elädäq
+ *  +Inf/mA	 sõimama, elämä
+ * +Ger		
+ * +ConNeg		
+ * +ConNegII	
+ * +Neg		
+ * +ImprtII	
+ * +PrsPrc		
+ * +PrfPrc		
+ * +Sup		
+ * +VGen		
+ * +VAbess		
+ *  +ActPrsPrc	
+ *  +ActPrfPrc 
+ *  +PssPrtPrc    elet
+
+ * +ABBR 
+ * +ACR  
 
 Special symbols are classified with:
+ * +CLB   
+ * +PUNCT 
+ * +LEFT  
+ * +RIGHT 
 The verbs are syntactically split according to transitivity:
+ *  +TV 
+ *  +IV 
 Special multiword units are analysed with:
+ *  +Multi 
 Non-dictionary words can be recognised with:
+ *  +Guess 
 
 Question and Focus particles:
+
+ * +Qst 
+ * +Foc 
 
 
 Semantics are classified with
 
+ * +Mal	
+ * +Fem	
+ * +Sur	
+ *  +Plc 	
+ *  +Org	
+ *  +Obj	
+ *  +Ani	
+ *  +Hum	
+ *  +Plant	
+ *  +Group	
+ *  +Time 	
+ *  +Txt	
+ *  +Route	
+ *  +Measr 
+ *  +Wthr	
+ *  +Build 
+ *  +Edu	
+ *  +Veh	
+ *  +Clth	
+
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
+ *  +V→N	   
+ * +V→V	   
+ * +V→A	   
+ *  +Der/xxx  
   +Der/JA 	actor
 
 Morphophonology
@@ -62,6 +188,7 @@ And following triggers to control variation
   %^CnsRM   this will remove stem final consonant tervüs:tervü
   %^StrGStem  This strengthens "perädü" to "perätüt"
   %^XStrGStem  This extra-strengthens "sõda" to "sõtta"
+ *  %^NoGrad   
   %^WGStem  This weakens 
   %^SYNC  syncope tapõld : taplõma 
   %^TS	    
@@ -71,10 +198,26 @@ And following triggers to control variation
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
+ * @P.NeedNoun.ON@  
+ * @D.NeedNoun.ON@  
+ * @C.NeedNoun@     
+
+!!!The Root lexicon
+
 
 The word forms in the Võro language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+ *    adjectives  ;	  
+ *    adpositions   ;	  
+ *    adverbs   ;		  
+ *    conjunctors   ;	  
+ *    interjections   ;  
+ *    nouns   ;		  
+ *    pronouns	;		  
+ *    quantifiers	;	  
+ *    verbs   ;		  
 
+ *    Exceptions ;		  
 
 less complex word classes
 
