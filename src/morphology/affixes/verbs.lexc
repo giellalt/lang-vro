@@ -27,8 +27,7 @@ LEXICON V_48ELÄMÄ
 +V: V0-PSS-PRS-PRC ;
 +V:%^VowRM%>e%^WGStem V0-PSS-PRT-PRC ;
 
-LEXICON V_ELÄMÄ
-!! elämä:elä
+LEXICON V_ELÄMÄ !!≈ * __@CODE@__ elämä:elä
 !! * Yaml: __elaemae48__
 +V: V0-IND-PRS-SC-12 ;
 +V: V0-IND-PRS-SC-CONNEG ;
@@ -48,10 +47,10 @@ LEXICON V_ELÄMÄ
 +V: V0-PSS-PRS-PRC ;
 +V:%^VowRM%>e%^WGStem V0-PSS-PRT-PRC ;
 
-LEXICON V_49LÕPMA
+LEXICON V_49LÕPMA !!≈ * __@CODE@__ 
 +V+WORK: # ;
 
-LEXICON V_50HELISEMÄ
+LEXICON V_50HELISEMÄ !!≈ * __@CODE@__ helisemä:helis
 !! * Yaml: __helisemae50__
 +V:%{ÕE%} V0-IND-PRS-SC-12 ;
 +V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
@@ -74,7 +73,7 @@ LEXICON V_50HELISEMÄ
 
 
 
-LEXICON V_51NÕSÕMA
+LEXICON V_51NÕSÕMA !!≈ * __@CODE@__ nõsõma:nõs
 !! * Yaml: __nwswma51__
 !! cf. tulõma
 +V:%{ÕE%} V0-IND-PRS-SC-12 ;
@@ -96,7 +95,7 @@ LEXICON V_51NÕSÕMA
 +V: V0-PSS-PRS-PRC ;
 +V:%^WGStem V0-PSS-PRT-PRC ;
 
-LEXICON V_52EHITELLEMÄ
+LEXICON V_52EHITELLEMÄ !!≈ * __@CODE@__ ehitellemä:ehitel
 !! ehitellemä:ehitel
 !! * Yaml: __ehitellemae52__
 +V:%{XC%}%{ÕE%} V0-IND-PRS-SC-12 ;
@@ -124,13 +123,12 @@ LEXICON V_52EHITELLEMÄ
 +V:%^WGStem V0-PSS-PRT-PRC_d ;
 
 
-
-LEXICON V_53JÄÄMÄ
+LEXICON V_53JÄÄMÄ !!≈ * __@CODE@__ 
 +V+WORK: # ;
 
-LEXICON V_54ISTMA
+LEXICON V_54ISTMA !!≈ * __@CODE@__ 
 +V+WORK: # ;
-LEXICON V_55KÕNÕLÕMA
+LEXICON V_55KÕNÕLÕMA !!≈ * __@CODE@__ kõnõlõma:kõnõl
 !! * Yaml: __kwnwlwma55__
 +V:%{ÕE%} V0-IND-PRS-SC-12 ;
 +V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
@@ -152,7 +150,7 @@ LEXICON V_55KÕNÕLÕMA
 +V:%^WGStem V0-PSS-PRT-PRC_d ;
 
 
-LEXICON V_56HIIBÕLÕMA
+LEXICON V_56HIIBÕLÕMA !!≈ * __@CODE@__ hiibõlõma:hiibõl
 !! * Yaml: __hiibwlwma56__
 +V:%{ÕE%} V0-IND-PRS-SC-12 ;
 +V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
@@ -162,7 +160,7 @@ LEXICON V_56HIIBÕLÕMA
 
 +V: V0-IND-PRT-SC-12_i ;
 +V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
-+V: V0-IND-PRT-SCSG3_i ;
+!+V: V0-IND-PRT-SCSG3_i ;
 +V: V0-IND-PRT-SCSG3_APOSTROPHE ;
 +V: V0-IND-PRT-SCPL3_vAq ;
 +V: V0-IND-PRT-OC ;
@@ -251,7 +249,7 @@ LEXICON V_62ARGNÕMA
 +V:%{ÕE%}%^WGStem V0-PSS-PRT-PRC ;
 
 
-LEXICON V_63SÕIMAMA !!= @CODE@ sõimama:sõima
+LEXICON V_63SÕIMAMA !!≈ * __@CODE@__ sõimama:sõima
 !! * Yaml: __viskama, swimama63__
 +V: V0-IND-PRS-SC-12 ;
 +V: V0-IND-PRS-SC-CONNEG ;
@@ -274,9 +272,10 @@ LEXICON V_63SÕIMAMA !!= @CODE@ sõimama:sõima
 
 LEXICON V_64PUHKSAMA
 +V+WORK: # ;
-LEXICON V_65SIBAHAMA
+LEXICON V_65SIBAHAMA !!≈ * __@CODE@__ 
+
 +V+WORK: # ;
-LEXICON V_HARINÕMA !!harinõma:hari
+LEXICON V_HARINÕMA !!≈ * __@CODE@__ harinõma:hari
 !! * Yaml: __harinwma66,harinwma67 =>harinwma__
 +V:n%{ÕE%} V0-IND-PRS-SC-12 ;
 +V:n%{ÕE%} V0-IND-PRS-SC-CONNEG ;
@@ -291,38 +290,38 @@ LEXICON V_HARINÕMA !!harinõma:hari
 +V:n%{ÕE%} DEVERBAL_minÕ ;
 +V:n%{ÕE%} V0-INF_mA ;
 +V: V0-INF_dAq ;
-+V+Err/Sub:n%{ÕE%} V0-INF_dAq ;
++V:n%{ÕE%} V0-INF_dAq ;
+!+V+Err/Sub:n%{ÕE%} V0-INF_dAq ;
 +V: V0-ACT-PRS-PRC ;
 +V:n V0-ACT-PRS-PRC ;
 +V: V0-ACT-PRT-PRC ;
-+V:n V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
 +V:%^WGStem V0-PSS-PRT-PRC ;
 +V:n%{ÕE%}%^WGStem V0-PSS-PRT-PRC ;
 
 
-LEXICON V-67harinõma
+LEXICON V_67HARINÕMA
 +V+WORK: # ;
-LEXICON V-68nälgümä
+LEXICON V_68NÄLGÜMÄ
 +V+WORK: # ;
-LEXICON V-69sündümä
+LEXICON V_69SÜNDÜMÄ
 +V+WORK: # ;
-LEXICON V-70unõhtuma
+LEXICON V_70UNÕHTUMA
 +V+WORK: # ;
-LEXICON V-71erätümä
+LEXICON V_71ERÄTÜMÄ
 +V+WORK: # ;
-LEXICON V-72vaoma
+LEXICON V_72VAOMA
 +V+WORK: # ;
-LEXICON V-73vaoma
+LEXICON V_73VAOMA
 +V+WORK: # ;
-LEXICON V-74väsümä
+LEXICON V_74VÄSÜMÄ
 +V+WORK: # ;
-LEXICON V-75valama
+LEXICON V_75VALAMA
 +V+WORK: # ;
-LEXICON V-76pügämä
+LEXICON V_76PÜGÄMÄ
 +V+WORK: # ;
 
-LEXICON V_77SÜÜMÄ !!= @CODE@ süümä:süü
+LEXICON V_77SÜÜMÄ !!≈ * __@CODE@__ süümä:süü
 !! * Yaml: __sueuemae__
 +V: V0-IND-PRS-SC-12 ;
 +V: V0-IND-PRS-SC-CONNEG ;
@@ -345,7 +344,8 @@ LEXICON V_77SÜÜMÄ !!= @CODE@ süümä:süü
 +V: V0-PSS-PRS-PRC ;
 +V:%^WGStem V0-PSS-PRT-PRC ;
 
-
+LEXICON V_VÕIMA !!≈ * __@CODE@__ võima:või
++WORK: # ; 
 
 LEXICON V_78SAAMA
 !! * Yaml: __saama__
@@ -371,8 +371,10 @@ LEXICON V_78SAAMA
 +V: V0-PSS-PRS-PRC ;
 +V:%^WGStem V0-PSS-PRT-PRC ;
 
+LEXICON V_MINEMÄ !!≈ * __@CODE@__ minemä:min
++WORK: #;
 
-LEXICON V_79TULÕMA !!= @CODE@ tulõma:tul
+LEXICON V_79TULÕMA !!≈ * __@CODE@__ tulõma:tul
 !! * Yaml: __tulwma__
 +V:%{ÕE%} V0-IND-PRS-SC-12 ;
 +V:%{ÕE%} V0-IND-PRS-SC-CONNEG ;
@@ -398,7 +400,7 @@ LEXICON V_79TULÕMA !!= @CODE@ tulõma:tul
 +V:%^WGStem V0-PSS-PRT-PRC ;
 
 
-LEXICON V_OLÕMA !!= @CODE@ olõma:o
+LEXICON V_OLÕMA !!≈ * __@CODE@__ olõma:o
 +V: V0-IND-PRS-SC-12 ;
 +V:lõ V0-IND-PRS-SC-CONNEG ;
 +V+Ind+Prs+ScSg3:m K ;
@@ -421,17 +423,17 @@ LEXICON V_OLÕMA !!= @CODE@ olõma:o
 +V:%^WGStem V0-PSS-PRT-PRC ;
 
 
-LEXICON V-80rapahutma
+LEXICON V_80RAPAHUTMA
 +V+WORK: # ;
-LEXICON V-81tegemä
+LEXICON V_81TEGEMÄ
 +V+WORK: # ;
-LEXICON V-82püüdmä
+LEXICON V_82PÜÜDMÄ
 +V+WORK: # ;
-LEXICON V-83nõstma
+LEXICON V_83NÕSTMA
 +V+WORK: # ;
-LEXICON V-84laskma
+LEXICON V_84LASKMA
 +V+WORK: # ;
-LEXICON V-85hirnma !!= @CODE@ kakma:kaku
+LEXICON V_85HIRNMA !!≈ * __@CODE@__ kakma:kaku
 !! * Yaml: __kakma__
 +V:%{UÜ%} V0-IND-PRS-SC-12 ;
 +V:%{UÜ%} V0-IND-PRS-SC-CONNEG ;
@@ -441,9 +443,9 @@ LEXICON V-85hirnma !!= @CODE@ kakma:kaku
 +V: V0-INF_mA ;
 +V: V0-INF_dAq ;
 
-LEXICON V-86istma
+LEXICON V_86ISTMA
 +V+WORK: # ;
-LEXICON V-87kosima
+LEXICON V_87KOSIMA
 +V+WORK: # ;
 LEXICON V_88SIBAMA
 !! * Yaml: __V-sibama88,sibahama__
@@ -658,7 +660,7 @@ LEXICON V0-INF_ZEROq
 
 LEXICON DEVERBAL_minÕ
 +Der/minÕ+N:%>mi NMN_16INEMINE ;
-+Der/JA+N:%>j NMN_9KIPÕNʼ ; !!= @CODE@ This should have a +Der/JA tag
++Der/JA+N:%>j NMN_9KIPÕNʼ ; !!≈ * __@CODE@__ This should have a +Der/JA tag
 
 
 LEXICON V0-ACT-PRS-PRC
