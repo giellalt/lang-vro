@@ -464,7 +464,7 @@ k:0 <=> s _ a %^WGStem: ;
 "tTod"
 !! __@RULENAME@__
  t:d <=> Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ ;
-         Vow _ Vow: %^WGStem: ;
+         Vow _ [Vow: %^WGStem:|%^WGStem: (%>) :Vow ] ;
 
 "j2i"
 !! __@RULENAME@__
