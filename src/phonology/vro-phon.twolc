@@ -252,7 +252,7 @@ Rules
 "a:0"
 !! __@RULENAME@__
 !! {{{
- a:0 <=>  Cns: _ [ (%^StrGStem:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+ a:0 <=>  Cns: _ [ (%^StrGStem:|%^WGStem:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
       a _ %>  i  ; !!= @CODE@ 
 !€# saa%>i
 !€0 sa00i
@@ -464,6 +464,7 @@ k:0 <=> s _ a %^WGStem: ;
 "tTod"
 !! __@RULENAME@__
  t:d <=> Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ ;
+         Vow _ Vow: %^WGStem: ;
 
 "j2i"
 !! __@RULENAME@__

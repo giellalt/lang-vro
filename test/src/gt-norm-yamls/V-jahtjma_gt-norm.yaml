@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - jahtʼma: # Verb jahtʼma 'eng /est /fin' - full paradigm
+     jahtʼma+V+Inf/mA: jahtʼma
+     jahtʼma+V+Inf: jahtiq
+     jahtʼma+V+ActPrtPrc: jahtʼnuq
+     jahtʼma+V+PssPrtPrc: jahtit
+     jahtʼma+V+Ind+Prs+ScSg1: jahti
+     jahtʼma+V+Ind+Prs+ScSg3: jahtis
+     jahtʼma+V+Ind+Prt+ScSg1: [jahti, jahtʼsõ]
+     jahtʼma+V+Ind+Prt+ScSg3: [jahtʼ, jahtʼsõ]
+
