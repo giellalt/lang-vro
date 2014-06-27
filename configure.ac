@@ -165,6 +165,9 @@ AC_CONFIG_FILES([test/src/morphology/generate-noun-lemmas.sh], \
 AC_CONFIG_FILES([tools/shellscripts/uvro-gt.sh], \
       [chmod a+x tools/shellscripts/uvro-gt.sh])
 
+AC_CONFIG_FILES([test/src/morphology/test-verb-generation.sh], \
+      [chmod a+x test/src/morphology/test-verb-generation.sh])
+
 # This must be near the end of all configure.ac files:
 AC_OUTPUT
 

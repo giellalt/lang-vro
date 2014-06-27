@@ -15,6 +15,9 @@ The Võro morphophonological/twolc rules file
 
   %{XC%}:0	 This is used for lengthening a consonant
 
+  %^I7:0          This appears in stem vaoma:va%^I7o for vaio
+  %^V7:0          This appears in stem häömä:hä%^V7ö for hävvü
+  %^T7:0          This appears in stem kaoma:ka%^T7o for katoq
 
 Triggers
 
@@ -86,6 +89,8 @@ __ü:ö__
 
 __u2õ__
 
+!VOWEL RAISING
+__ö:ü__
 
 !VOWEL CHANGE WITH PLURAL
 
@@ -154,6 +159,8 @@ __%{XV%}:ä__
 
 __%{XV%}:õ__
 
+__%{XV%}:e__
+
 
 __i2j__
 
@@ -164,14 +171,20 @@ __u2v__
 
 __ü2v__
 
+__%^I7:i__
 
-
+__%^V7:v with 0:v__
 
 SECONDARY CONSONANT LENGTHENING
 
 __0:p__
 {{{
 }}}
+
+__0:v__
+{{{
+}}}
+
 
 __0:n__
 
