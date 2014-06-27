@@ -308,7 +308,7 @@ LEXICON V_63SÕIMAMA !!≈ * __@CODE@__ sõimama:sõima
 
 LEXICON V_64PUHKSAMA
 +V+WORK: # ;
-LEXICON V_65SIBAHAMA !!≈ * __@CODE@__ 
+LEXICON V_65SIBAHAMA !!≈ * __@CODE@__ >>88SIBAMA >>SIBAMA
 
 +V+WORK: # ;
 LEXICON V_HARINÕMA !!≈ * __@CODE@__ harinõma:hari
@@ -320,7 +320,7 @@ LEXICON V_HARINÕMA !!≈ * __@CODE@__ harinõma:hari
 
 +V: V0-IND-PRT-SC-12_si ;
 +V:%{ÕE%} V0-IND-PRT-SC-CONNEG ;
-+V: V0-IND-PRT-SC3_si ;
++V: V0-IND-PRT-SC3_si_WEAKGRADE ;
 +V: V0-IND-PRT-OC ;
 
 +V:n%{ÕE%} DEVERBAL_minÕ ;
@@ -346,8 +346,27 @@ LEXICON V_70UNÕHTUMA
 +V+WORK: # ;
 LEXICON V_71ERÄTÜMÄ
 +V+WORK: # ;
-LEXICON V_72VAOMA
-+V+WORK: # ;
+LEXICON V_72VAOMA !!≈ * __@CODE@__ vaoma:vao
+!! * Yaml: __vaoma__
++V: V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V:%^StrGStem V0-IND-PRT-SC-12_i ;
++V: V0-IND-PRT-SC-CONNEG ;
++V:%^StrGStem V0-IND-PRT-SCSG3_i ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V:%^StrGStem V0-INF_ZEROq ;
++V: V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC_WEAKGRADE ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
 LEXICON V_73VAOMA
 +V+WORK: # ;
 LEXICON V_74VÄSÜMÄ
@@ -549,8 +568,10 @@ LEXICON V_87KOSIMA
 LEXICON V_88SIBAMA
 !! * Yaml: __V-sibama88,sibahama__
 +V:%^StrGStem V0-IND-PRS-SC-12 ;
++V:%>h%{XV%} V0-IND-PRS-SC-12 ;
 +V: V0-IND-PRS-SC-CONNEG ;
 +V:%^StrGStem V0-IND-PRS-SCSG3_ZERO ;
++V:%>h%{XV%} V0-IND-PRS-SC3_s ;
 +V: V0-IND-PRS-SCPL3_vAq ;
 +V: V0-IND-PRS-OC ;
 
@@ -561,13 +582,13 @@ LEXICON V_88SIBAMA
 
 +V: DEVERBAL_minÕ ;
 +V: V0-INF_mA ;
-+V:%^StrGStem V0-INF_Aq ;
++V:%>h%{XV%} V0-INF_mA ;
++V: V0-INF_dAq ;
++V:%^StrGStem V0-INF_ZEROq ;
 +V: V0-ACT-PRS-PRC ;
 +V: V0-ACT-PRS-PRC ;
-+V: V0-ACT-PRT-PRC_WEAKGRADE ;
-+V: V0-ACT-PRT-PRC_WEAKGRADE ;
++V: V0-ACT-PRT-PRC ;
 +V: V0-PSS-PRS-PRC ;
-+V: V0-PSS-PRT-PRC ;
 +V: V0-PSS-PRT-PRC ;
 
 !LEXICON V-89
@@ -708,8 +729,13 @@ LEXICON V0-IND-PRT-SC3_sʼ
 +Ind+Prt+ScPl3:%^VowRM%>siq K ;
 +Ind+Prt+ScPl3:%^VowRM%>siv%{AÄ%}q K ;
 
-LEXICON V0-IND-PRT-SC3_si
+LEXICON V0-IND-PRT-SC3_si_WEAKGRADE
 +Ind+Prt+ScSg3:%^WGStem%>si K ;
++Ind+Prt+ScPl3:%^VowRM%>siq K ;
++Ind+Prt+ScPl3+Err/Sub:%^VowRM%>siv%{AÄ%}q K ;
+
+LEXICON V0-IND-PRT-SC3_si
++Ind+Prt+ScSg3:%>si K ;
 +Ind+Prt+ScPl3:%^VowRM%>siq K ;
 +Ind+Prt+ScPl3+Err/Sub:%^VowRM%>siv%{AÄ%}q K ;
 
@@ -790,11 +816,11 @@ LEXICON V0-ACT-PRS-PRC
 
 LEXICON V0-ACT-PRT-PRC
 +ActPrtPrc:%>n%{UÜ%}q K ;
-+ActPrtPrc:%>n%{UÜ%} A_ELÄNÜQ ;
++ActPrtPrc:%>n%{UÜ%} NMN_ELÄNÜQ ;
 
 LEXICON V0-ACT-PRT-PRC_WEAKGRADE
 +ActPrtPrc:%^WGStem%>n%{UÜ%}q K ;
-+ActPrtPrc:%^WGStem%>n%{UÜ%} A_ELÄNÜQ ;
++ActPrtPrc:%^WGStem%>n%{UÜ%} NMN_ELÄNÜQ ;
 !+ActPrtPrc+Sg+Nom:%^WGStem%>n%{UÜ%}q K ;
 !+ActPrtPrc+Sg+Gen:%^WGStem%>n%{UÜ%}q K ;
 !+ActPrtPrc+Sg+Par:%^WGStem%>n%{UÜ%}t K ;
