@@ -24,6 +24,9 @@ A B D E F G H I J K L M N O P Q R S Š T U V Y Z Ž Õ Ü Ä Ö
 
  %{XC%}:0	!!= @CODE@ This is used for lengthening a consonant
 
+ %^I7:0         !!= @CODE@ This appears in stem vaoma:va%^I7o for vaio
+ %^V7:0         !!= @CODE@ This appears in stem häömä:hä%^V7ö for hävvü
+ %^T7:0         !!= @CODE@ This appears in stem kaoma:ka%^T7o for katoq
 
 !! Triggers
 ! this k is not effected by gradation
@@ -99,7 +102,9 @@ FT =   # Cns* [[ VowFront: | :VowFront ] \[ # | :VowBack ]* | [VowNeutral ] \[ #
 
 
 ! Back Trigger 
-BT =   # Cns* ( [ VowNeutral ]+ Cns* ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
+BT =   # Cns* ( [ VowNeutral ]+ Cns:* ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
+!€# viska%^WGStem%>%{AÄ%}q
+!€0 vis0a00aq
 ! # Cns* ( [ VowNeutral | i: ] \[ # | VowFront: | :VowFront ]* ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
 
 ! Gradation strong to weak
@@ -116,10 +121,6 @@ IL = [ # Cns* Vow : Cns:+ | Cns* Vow+ Cns:+  Vow:+ Cns:+  ] ;
 !! Right context for gradation
 GRC =  [ [ ( %> ) %{AÄ%}: | %{OÖ%}: | %{UÜ%}: | Vow: | :Vow ]  ( %> i ) |  %>  i ] %> %^WCns:0  ;
 
-! oma:ommaa, 
-! Subsequent Long Vowel
-! preceeded by "Cns _"
-! 2012-10-11 SLV =  [ :Vow [ ( %> %^LCns:0 %^LVow:0 | %> %^LCns:0 | %> i %> | %> ) [ V1:Vow | %{AÄ%}: ] |  0:Vow %> ( %^LCns:0 | %^WCns: ) %^LVow: | %> %^LCns:0  ] ] ;
 
 !! !!!Rules
 
@@ -187,6 +188,12 @@ Rules
 !! __@RULENAME@__
  u:õ <=> u: _ %> i ;
 
+!! !VOWEL RAISING
+"ö:ü"
+!! __@RULENAME@__
+ ö:ü <=> Vow %^V7: 0: _ %^StrGStem: %> i: ;
+!€# hä%^V70ö%^StrGStem%>i
+!€0 hävvü000
 
 !! !VOWEL CHANGE WITH PLURAL
 
@@ -209,7 +216,7 @@ Rules
 "i2e"
 !! __@RULENAME@__
 !! {{{
- i:e <=>  _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
+ i:e <=> Cns 0: _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
 !€# pin0i%^StrGStem%^PLPRT
 !€0 pinne00
 !! }}}
@@ -303,6 +310,11 @@ Rules
        a _ g: %^WGStem: %> %{OÖ%}: ;
 !€# aig%^WGStem%>%{OÖ%}
 !€0 a0000o
+    Vow [ %^I7: | %^V7: 0: ] Vow: %^StrGStem: %> _ ;
+!€# va%^I7o%^StrGStem%>i
+!€0 vaio000
+!€# hä%^V70ö%^StrGStem%>i
+!€0 hävvü000
 
 
 "õ:0"
@@ -320,14 +332,21 @@ Rules
 "%{XV%}:a"
 !! __@RULENAME@__
  %{XV%}:a <=> :a ( %- ) _  ;
+       [ o | a ] %> h _ ;
 
 "%{XV%}:ä"
 !! __@RULENAME@__
  %{XV%}:ä <=> :ä ( %- ) _  ;
+       [ ö | ä ] %> h _ ;
 
 "%{XV%}:õ"
 !! __@RULENAME@__
  %{XV%}:õ <=> :õ ( %- ) _  ;
+        õ %> h _ ;
+
+"%{XV%}:e"
+!! __@RULENAME@__
+ %{XV%}:e <=>  e %> h _ ;
 
 
 !!
@@ -350,8 +369,17 @@ Rules
 !! __@RULENAME@__
  ü:v <=> ü _ %> v %{AÄ%}: q ;
 
+"%^I7:i"
+!! __@RULENAME@__
+ %^I7:i <=> Vow _ Vow %^StrGStem: %> [ i: | q ] ;
+!€# va%^I7o%^StrGStem%>i
+!€0 vaio000
 
-
+"%^V7:v with 0:v"
+!! __@RULENAME@__
+ %^V7:v <=> Vow _ 0: Vow %^StrGStem: %> i: ;
+!€# hä%^V70ö%^StrGStem%>i
+!€0 hävvü000
 
 !! SECONDARY CONSONANT LENGTHENING
 
@@ -362,6 +390,15 @@ Rules
 !€# häb0ü%^XStrGStem
 !€0 häppü00
 !! }}}
+
+"0:v"
+!! __@RULENAME@__
+!! {{{
+ 0:v <=> Vow %^V7: _ Vow: %^StrGStem: ;
+!€# hä%^V70ö%^StrGStem%>i
+!€0 hävvü000
+!! }}}
+
 
 "0:n"
 !! __@RULENAME@__

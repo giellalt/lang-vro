@@ -198,6 +198,9 @@ Multichar_Symbols
  %{ÕE%}  	!!= @CODE@ Vowel harmony with õe
  %{XV%}		!!= @CODE@ This is used for echoing the previous vowel
  %{XC%}		!!= @CODE@ This is used for lengthening a consonant
+ %^I7         !!= @CODE@  This appears in stem vaoma:va%^I7o for vaio
+ %^V7         !!= @CODE@  This appears in stem häömä:hä%^V7ö for hävvü
+ %^T7         !!= @CODE@  This appears in stem kaoma:ka%^T7o for katoq
  OÖ1 UY1 V1 V2 V3 K1 
 !! And following triggers to control variation
  {front} {back}
