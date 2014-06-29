@@ -1,7 +1,667 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="vro">
+   xml:lang="vro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l pos="A">perädü</l>
+
+      <stg>
+        <st Contlex="A_3PERÄDÜ">perädü</st>
+      </stg>
+
+      <stress>perädü</stress>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <no>1`</no>
+
+      <tg xml:lang="est">
+        <t pos="A">tohutu</t>
+
+        <t pos="A">päratu</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <no>2`</no>
+
+      <tg xml:lang="est">
+        <t pos="A">armetu</t>
+
+        <t pos="A">kõle</t>
+
+        <t pos="A">mahajäetud</t>
+
+        <t pos="A">kõrvaline</t>
+      </tg>
+
+      <xg>
+        <x>perädü om sääntsen suurõn majan ütsindä elläq</x>
+
+        <xt>kõle on sellises suures majas üksinda elada</xt>
+      </xg>
+
+      <xg>
+        <x>perädü paik</x>
+
+        <xt>mahajäetud, kõrvaline koht</xt>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">vahtsõnõ</l>
+
+      <stg>
+        <st Contlex="A_13ALONÕ">vahtsõ</st>
+      </stg>
+
+      <stress>.vahtsõnõ</stress>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg lang="est">
+        <t pos="A">uus</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">vana</l>
+
+      <stg>
+        <st Contlex="A_45KANA">vana</st>
+      </stg>
+
+      <stress>vana</stress>
+    </lg>
+
+    <mg>
+      
+
+      <l_ref type="&amp;lt;">vahn</l_ref>
+
+       
+
+      <tg xml:lang="est">
+        <t pos="A">vana</t>
+      </tg>
+
+       
+
+      <xg>
+        <x>vana inemine</x>
+
+        <xt>täiskasvanu</xt>
+      </xg>
+
+       
+
+      <xg>
+        <x>võiq vana!</x>
+
+        <xt>ohoh!, oh sa poiss! (imestushüüatus)</xt>
+      </xg>
+
+       
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">vanaaolinõ</l>
+
+      <stg>
+        <st Contlex="A_19ALOMANÕ">vanaaoli</st>
+      </stg>
+
+      <stress>vana.aolinõ</stress>
+    </lg>
+
+    <mg>
+      <l_ref pos="A" type="=">vanaaonõ</l_ref>
+
+      <tg lang="est">
+        <t pos="A">vanaaegne</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">-maolinõ</l>
+
+      <stg>
+        <st Contlex="A_19ALOMANÕ">-maoli</st>
+      </stg>
+
+      <stress>-`maolinõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg>
+        <t pos="A">-maitseline</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">-maonõ</l>
+
+      <stg>
+        <st Contlex="A_13ALONÕ">-#mao</st>
+      </stg>
+
+      <stress>-`maonõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg>
+        <t pos="A">-maitseline</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">-poolinõ</l>
+
+      <stg>
+        <st Contlex="A_13ALONÕ">-pooli</st>
+      </stg>
+
+      <stress>-poolinõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg>
+        <t pos="A">-poolne</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">-sagamanõ</l>
+
+      <stg>
+        <st Contlex="A_19ALOMANÕ">-sagama</st>
+      </stg>
+
+      <stress>-sagamanõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <l_ref type="=">-saganõ</l_ref>
+
+      <l_ref type="&gt;">-sugunõ</l_ref>
+
+      <l_ref type="&gt;">-sugumanõ</l_ref>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">-saganõ</l>
+
+      <stg>
+        <st Contlex="A_13ALONÕ">-saga</st>
+      </stg>
+
+      <stress>-saganõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">-sugumanõ</l>
+
+      <stg>
+        <st Contlex="A_19ALOMANÕ">-suguma</st>
+      </stg>
+
+      <stress>-sugumanõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <l_ref type="=">-sugu|nõ</l_ref>
+
+      <l_ref type="&lt;">-sagamanõ</l_ref>
+
+      <l_ref type="&lt;">-saganõ</l_ref>
+
+      <tg>
+        <t pos="A">-sugune</t>
+      </tg>
+
+      <xg>
+        <x>muqsugumanõ</x>
+
+        <xt>minusugune</xt>
+      </xg>
+
+      <xg>
+        <x>suqsugumanõ</x>
+
+        <xt>sinusugune</xt>
+      </xg>
+
+      <xg>
+        <x>timäsugumanõ</x>
+
+        <xt>temasugune</xt>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">-sugunõ</l>
+
+      <stg>
+        <st Contlex="A_13ALONÕ">-sugu</st>
+      </stg>
+
+      <stress>-sugunõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">aastaganõ</l>
+
+      <stg>
+        <st Contlex="N_19ALOMANÕ">aastaga</st>
+      </stg>
+
+      <stress>`aastaganõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <l_ref type="=">`aastanõ</l_ref>
+
+      <l_ref type="=">aast`aonõ</l_ref>
+
+      <l_ref type="=">ajastanõ</l_ref>
+
+      <tg xml:lang="est">
+        <t pos="A">aastane</t>
+      </tg>
+
+      <xg>
+        <x>üte-, katõ-, neläaastaganõ, katsa-aastaganõ</x>
+
+        <xt>ühe-, kahe-, nelja-aastane, kaheksa-aastane</xt>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">aastanõ</l>
+
+      <stg>
+        <st Contlex="N_13ALONÕ">aasta</st>
+      </stg>
+
+      <stress>`aastanõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">aastanõ</l>
+
+      <stg>
+        <st Contlex="N_19ALOMANÕ">aasta</st>
+      </stg>
+
+      <stress>`aastanõ</stress>
+    </lg>
+
+    <mg>
+       
+
+      <defNative/>
+
+      <l_ref type="=">aast`ao|nõ</l_ref>
+
+      , 
+
+      <prdgm>-dsõ, -st<SUP>7</SUP></prdgm>
+
+       
+
+      <l_ref type="=">`aastaganõ</l_ref>
+
+      <tg xml:lang="est">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">aastaonõ</l>
+
+      <stg>
+        <st Contlex="N_13ALONÕ">aast#ao</st>
+      </stg>
+
+      <stress>aast`aonõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e order="2">
+    <lg>
+      <l pos="A">abilinõ</l>
+
+      <stg>
+        <st Contlex="A_16INEMINE">abili</st>
+      </stg>
+
+      <stress>abili|nõ</stress>
+
+      <prdgm>-(d)sõ, -st<SUP>5</SUP></prdgm>
+    </lg>
+
+    <mg>
+      <tg xml:lang="est">
+        <t pos="A">abiline</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">abivalmis</l>
+
+      <stg>
+        <st Contlex="N_14RITSʼKAS">abi#valmi</st>
+      </stg>
+
+      <stress>abivalmis</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="A">abivalmis</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ahas</l>
+
+      <stg>
+        <st Contlex="N_14RITSʼKAS">aha</st>
+      </stg>
+
+      <stress>ahas</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="A">kitsas</t>
+
+        <t pos="A">ahas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">aher</l>
+
+      <stg>
+        <st Contlex="N_28TÜTÄRʼ">aher</st>
+      </stg>
+
+      <stress>aher</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="A">aher</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ahnõq</l>
+
+      <stg>
+        <st Contlex="N_11LÄTEQ">ahnõq</st>
+      </stg>
+
+      <stress>ahnõq</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="A">ahne</t>
+
+        <t pos="A">ablas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ahtagõnõ</l>
+
+      <stg>
+        <st Contlex="N_22VÕROKÕNÕ">ahtagõ</st>
+      </stg>
+
+      <stress>`ahtagõnõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="A">kitsas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">aiglanõ</l>
+
+      <stg>
+        <st Contlex="N_19ALOMANÕ">aigla</st>
+      </stg>
+
+      <stress>`aiglanõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="A">aeglane</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e order="2">
+    <lg>
+      <l pos="A">alossäädüsline</l>
+
+      <stg>
+        <st Contlex="A_16INEMINE">alossäädüsli</st>
+      </stg>
+
+      <stress>alos`säädüsli|ne*</stress>
+
+      <prdgm>-dse, -st<SUP>5</SUP></prdgm>
+    </lg>
+
+    <mg>
+      <tg xml:lang="est">
+        <t pos="A">põhimõtteline</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e order="2">
+    <lg>
+      <l pos="A">eräsline</l>
+
+      <stg>
+        <st Contlex="A_16INEMINE">eräsli</st>
+      </stg>
+
+      <stress>eräsli|ne*</stress>
+
+      <prdgm>-dse, -st<SUP>5</SUP></prdgm>
+    </lg>
+
+    <mg>
+      <tg xml:lang="est">
+        <t pos="A">isiklik</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e order="2">
+    <lg>
+      <l pos="A">esiqtahtlinõ</l>
+
+      <stg>
+        <st Contlex="A_16INEMINE">esiqtahtli</st>
+      </stg>
+
+      <stress>esiq`tahtli|nõ*</stress>
+
+      <prdgm>-dsõ, -st<SUP>5</SUP></prdgm>
+    </lg>
+
+    <mg>
+      <tg xml:lang="est">
+        <t pos="A">vabatahtlik</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e order="2">
+    <lg>
+      <l pos="A">haabjanõ</l>
+
+      <stg>
+        <st Contlex="A_16INEMINE">haabja</st>
+      </stg>
+
+      <stress>`haabja|nõ</stress>
+    </lg>
+
+    <mg>
+       
+
+      <l_ref type="=">`haabja|s</l_ref>
+
+      , 
+
+      <prdgm>-dsõ, -st<SUP>5</SUP></prdgm>
+
+       haabjas, haavakoore värvi, hallikas
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">makõmaolinõ</l>
+
+      <stg>
+        <st Contlex="A_19ALOMANÕ">makõ#maoli</st>
+      </stg>
+
+      <stress>makõ`maolinõ</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg>
+        <t pos="A">magusamaitseline</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="A">perädü</l>
@@ -26,66 +686,61 @@
     </mg>
   </e>
 
-   <e>
-      <lg>
-         <l>vahtsõnõ</l>
-         <stg>
-            <st Contlex="A_13ALONÕ">vahtsõ</st>
-         </stg>
-         <stress>.vahtsõnõ</stress>
-      </lg>
-      <pos>A</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg lang="est">
-            <t>uus</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>vana</l>
-         <stg>
-            <st Contlex="A_45KANA">vana</st>
-         </stg>
-         <stress>vana</stress>
-      </lg>
-      <pos>A</pos>
-      <mg>
-          &lt; 
-         <b>vahn</b>
-          vana; 
-         <xg>
-            <x>vana inemine</x>
-            <xt>täiskasvanu;</xt>
-         </xg>
-          
-         <xg>
-            <x>võiq vana!</x>
-            <xt>ohoh!, oh sa poiss! (imestushüüatus)</xt>
-         </xg>
-          
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l>vanaaolinõ</l>
-         <stg>
-            <st Contlex="A_19ALOMANÕ">vanaaoli</st>
-         </stg>
-         <stress>vana.aolinõ</stress>
-      </lg>
-      <pos>A</pos>
-      <mg>
-          
-         <m>
-            <head/>
-            <semRel lemmaID="vana.ao|nõ" Contlex="Adj-7" semRelType="synonym"/>
-         </m>
-         <tg lang="est"><t pos="A">
-          vanaaegne</t></tg>
-      </mg>
-   </e>
+  <e>
+    <lg>
+      <l pos="A">taasama</l>
+
+      <stg>
+        <st Contlex="A_45KANA">taa#sama</st>
+      </stg>
+
+      <stress>taasama</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t pos="A">seesama (<cc>hrl</cc> lähiümbruses asuva kohta)</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e order="2">
+    <lg>
+      <l pos="A">vinku-vanku</l>
+
+      <stg>
+        <st Contlex="A_">vinku-vanku</st>
+      </stg>
+
+      <stress>`vinku-`vanku</stress>
+    </lg>
+
+    <mg>
+      <tg xml:lang="est">
+        <t pos="A">siksakiline</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e order="2">
+    <lg>
+      <l pos="A">ütsʼvõrranõ</l>
+
+      <stg>
+        <st Contlex="A_13ALONÕ">ütsʼ#võrra</st>
+      </stg>
+
+      <stress>ütsʼvõrra|nõ*</stress>
+
+      <prdgm>-(d)sõ, -st<SUP>7</SUP></prdgm>
+    </lg>
+
+    <mg>
+      <tg xml:lang="est">
+        <t pos="A">võrdne</t>
+      </tg>
+    </mg>
+  </e>
 </r>
