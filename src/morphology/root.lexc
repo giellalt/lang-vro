@@ -201,7 +201,7 @@ Multichar_Symbols
  %^I7         !!= @CODE@  This appears in stem vaoma:va%^I7o for vaio
  %^V7         !!= @CODE@  This appears in stem häömä:hä%^V7ö for hävvü
  %^T7         !!= @CODE@  This appears in stem kaoma:ka%^T7o for katoq
- OÖ1 UY1 V1 V2 V3 K1 
+ OÖ1 UY1 V1 V2 V3 K1
 !! And following triggers to control variation
  {front} {back}
  %^VowRM  !!= @CODE@ this will remove stem final vowel
@@ -209,14 +209,14 @@ Multichar_Symbols
  %^StrGStem !!= @CODE@ This strengthens "perädü" to "perätüt"
  %^XStrGStem !!= @CODE@ This extra-strengthens "sõda" to "sõtta"
  %^NoGrad   !!≈ * __@CODE@__
- %^WGStem !!= @CODE@ This weakens 
- %^SYNC !!= @CODE@ syncope tapõld : taplõma 
- %^TS	  !!= @CODE@  
+ %^WGStem !!= @CODE@ This weakens
+ %^SYNC !!= @CODE@ syncope tapõld : taplõma
+ %^TS	  !!= @CODE@
  %^PLPRT !!= @CODE@ The a:o attested in Plural kana:kanno and prt
 %^RVow      !!= @CODE@ Raises vowel
 %^LowerVow  !!= @CODE@ Lowers vowel
 
-%: %> %- 
+%: %> %-
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
 @P.NeedNoun.ON@  !!≈ * __@CODE@__
