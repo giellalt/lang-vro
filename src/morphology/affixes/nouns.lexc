@@ -427,6 +427,7 @@ LEXICON N_45KANA-PL
 
 
 LEXICON N_46HAIN !!= @CODE@ hain:hain
+!! * Yaml: __jalg__
         N_46HAIN-SG ;
         N_46HAIN-PL ;
 LEXICON N_46HAIN-SG
@@ -1033,25 +1034,27 @@ LEXICON NMN_23KIILʼ-PL
 :isi            PL-ILL_he ;
 :isi            PL-ALL_lÕ-STEM ;
 
-LEXICON NMN_24KÄSI
+LEXICON NMN_24KÄSI !!= * __CODE__ käsi:kät
+!! * Yaml: __kaesi__
   NMN_24KÄSI-SG ;
   NMN_24KÄSI-PL ;
 LEXICON NMN_24KÄSI-SG 
 !+WORK: #;
-:%>n%{ÕE%}      SG-NOM ;
-:%>s%{ÕE%}      SG-GEN_ZERO-STEM ;
-:is             SG-PAR_t ;
-:is             SG-ILL_tÕ ;
+:%^TS%>i      SG-NOM ;
+:%^WGStem%>%{ÕE%}      SG-GEN_ZERO-STEM ;
+:             SG-PAR_t ;
+:             SG-ILL_tÕ ;
 
 LEXICON NMN_24KÄSI-PL 
 !+WORK: #;
-:%>s%{ÕE%}      PL-NOM ;
-:is             PL-GEN_dÕ ;
-:is             PL-ALL_dÕlÕ ;
-:isi            PL-GEN_ZERO ;
-:isi            PL-PAR_ZERO ;
-:isi            PL-ILL_he ;
-:isi            PL-ALL_lÕ-STEM ;
+:%^WGStem%>%{ÕE%}      PL-NOM ;
+:%>%{ÕE%}             PL-GEN_dÕ ;
+:%^TS%>si             PL-GEN_ZERO ;
+:%^TS%>si             PL-ALL_lÕ-STEM ;
+:%>%{ÕE%}             PL-ALL_lÕ-STEM ;
+:%^TS%>i             PL-ALL_lÕ-STEM ;
+:%^TS%>si            PL-PAR_ZERO ;
+:%^TS%>si            PL-ILL_he ;
 
 LEXICON NMN_25ASÕQ ! asõq:asõ
   NMN_25ASÕQ-SG ;
@@ -1415,7 +1418,7 @@ LEXICON NMN_45KANA-PL
 :%^StrGStem%^PLPRT  PL-ALL_lÕ-STEM ;
 :%^PLPRT  PL-ALL_lÕ-STEM ;
 
-LEXICON NMN_46HAIN
+LEXICON NMN_46HAIN  !!= @CODE@ jalg:jalg
   NMN_46HAIN-SG ;
   NMN_46HAIN-PL ;
 LEXICON NMN_46HAIN-SG 
@@ -1431,7 +1434,7 @@ LEXICON NMN_46HAIN-PL
 :%^StrGStem%>%{OÖ%}    PL-ILL_ZERO ;
 :%^StrGStem%>%{OÖ%}    PL-ILL_he ;
 :%^WGStem%>%{OÖ%}  PL-ALL_lÕ-STEM ;
-
+:%>%{OÖ%} 	   PL-COM ;
 
 LEXICON NMN_47ASI
   NMN_47ASI-SG ;
@@ -1471,15 +1474,18 @@ LEXICON NMN_ELÄNÜQ-PL
 
 !! !SINGULAR GENITIVE STEMS
 LEXICON SG-GEN_ZERO-STEM
+	SG-ABE ;
 	SG-ABL ;
 	SG-ADE ;
 	SG-ALL ;
+	SG-COM ;
 	SG-ELA_st       ;
 	SG-GEN_ZERO ;
 	SG-INE_h        ;
 	SG-INE_hn        ;
 	SG-INE_n        ;
-
+	SG-TER 		;
+	SG-TRA 		;
 !! !PLURAL ALLATIVE STEMS
 LEXICON PL-ALL_lÕ-STEM
    PL-ABE ;
@@ -1490,6 +1496,8 @@ LEXICON PL-ALL_lÕ-STEM
    PL-INE_h ;
    PL-INE_hn ;
    PL-INE_n ;
+   PL-TER ;
+   PL-TRA ;
 
 !! !TAGS THAT CAN BE FOLLOWED BY CLITICS "K"
 !! !PLURAL TAGS
@@ -1510,6 +1518,9 @@ LEXICON  PL-ALL_ÕlÕ
 
 LEXICON  PL-ALL_dÕlÕ
 +Pl+All:%>d%{ÕE%}l%{ÕE%} K ;
+
+LEXICON PL-COM
++Pl+Com:%>gaq K ;
 
 LEXICON PL-ELA
 +Pl+Ela:%>st K ;
@@ -1566,8 +1577,17 @@ LEXICON  PL-PAR_sit
 LEXICON  PL-PAR_t
 +Pl+Par:%>t K ;
 
+LEXICON  PL-TER
++Pl+Ter:%>niq K ;
+
+LEXICON  PL-TRA
++Pl+Tra:%>s K ;
+
 
 !! !SINGULAR TAGS
+LEXICON	 SG-ABE
++Sg+Abe:%>ld%{AÄ%}q K ;
+
 LEXICON	 SG-ABL
 +Sg+Abl:%>lt K ;
 
@@ -1576,6 +1596,9 @@ LEXICON	 SG-ADE
 
 LEXICON	 SG-ALL
 +Sg+All:%>l%{ÕE%} K ;
+
+LEXICON	 SG-COM
++Sg+Com:%>gaq K ;
 
 LEXICON	 SG-ELA_st
 +Sg+Ela:%>st K ;
@@ -1624,6 +1647,13 @@ LEXICON	 SG-PAR_d
 
 LEXICON	 SG-PAR_t
 +Sg+Par:%>t K ;
+
+LEXICON SG-TER
++Sg+Ter:%>niq # ;
+
+LEXICON SG-TRA
++Sg+Tra:%>s # ;
+
 
 !! !TAGS THAT CANNOT BE FOLLOWED BY CLITICS
 LEXICON INESUF_N-H-HN
