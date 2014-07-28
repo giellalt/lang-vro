@@ -498,6 +498,10 @@ k:0 <=> s _ a %^WGStem: ;
     Vow _ (s) Vow: %^StrGStem: ;
     Vow _ 0: Vow: %^XStrGStem: ;
 
+"tTos"
+!! __@RULENAME@__
+ t:s <=> _ %^TS: ;
+
 "tTod"
 !! __@RULENAME@__
  t:d <=> Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ ;
@@ -534,7 +538,7 @@ k:0 <=> s _ a %^WGStem: ;
 "g20"
 !! __@RULENAME@__
 !! {{{
- g:0 <=>  _ [ ʼ: | %{ÕE%}: |ä] %^WGStem: ;
+ g:0 <=>  _ ( ʼ: | %{ÕE%}: |ä) %^WGStem: ;
 !€# särgʼ%^WGStem%>#
 !€0 sär0e000
 !€# igä%^WGStem
