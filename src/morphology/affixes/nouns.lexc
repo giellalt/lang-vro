@@ -1020,26 +1020,26 @@ LEXICON NMN_22VÕROKÕNÕ-PL
 :isi		PL-ILL_he ;
 :isi		PL-ALL_lÕ-STEM ;
 
-LEXICON NMN_23KIILʼ
+LEXICON NMN_23KIILʼ !!= * __@CODE@__ kiilʼ:keel
+!! * Yaml: __N-kiilj__
   NMN_23KIILʼ-SG ;
   NMN_23KIILʼ-PL ;
 
 LEXICON NMN_23KIILʼ-SG 
-!+WORK: #;
-:%>n%{ÕE%}      SG-NOM ;
-:%>s%{ÕE%}      SG-GEN_ZERO-STEM ;
-:is             SG-PAR_t ;
-:is             SG-ILL_tÕ ;
+:%^RVowʼ      SG-NOM ;
+:%>%{ÕE%}      SG-GEN_ZERO-STEM ;
+:%^RVow             SG-PAR_t ;
+:%^RVowd%>%{ÕE%}             SG-ILL_ZERO ;
 
 LEXICON NMN_23KIILʼ-PL 
-!+WORK: #;
-:%>s%{ÕE%}      PL-NOM ;
-:is             PL-GEN_dÕ ;
-:is             PL-ALL_dÕlÕ ;
-:isi            PL-GEN_ZERO ;
-:isi            PL-PAR_ZERO ;
-:isi            PL-ILL_he ;
-:isi            PL-ALL_lÕ-STEM ;
+:%>%{ÕE%}      PL-NOM ;
+             PL-GEN_tÕ ;
+             PL-ALL_tÕlÕ ;
+:%^RVowi            PL-GEN_ZERO ;
+:%^RVowi            PL-PAR_ZERO ;
+:%^RVowi            PL-ILL_he ;
+:%^RVowi            PL-ILL_ZERO ;
+:%>i            PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_24KÄSI !!= * __CODE__ käsi:kät
 !! * Yaml: __kaesi__
@@ -1563,6 +1563,9 @@ LEXICON  PL-ALL_ÕlÕ
 LEXICON  PL-ALL_dÕlÕ
 +Pl+All:%>d%{ÕE%}l%{ÕE%} K ;
 
+LEXICON  PL-ALL_tÕlÕ
++Pl+All:%>t%{ÕE%}l%{ÕE%} K ;
+
 LEXICON PL-COM
 +Pl+Com:%>gaq K ;
 
@@ -1574,6 +1577,9 @@ LEXICON  PL-GEN_ZERO
 
 LEXICON  PL-GEN_dÕ
 +Pl+Gen:%>d%{ÕE%} K ;
+
+LEXICON  PL-GEN_tÕ
++Pl+Gen:%>t%{ÕE%} K ;
 
 LEXICON  PL-GEN_Õ
 +Pl+Gen:%>%{ÕE%} K ;
