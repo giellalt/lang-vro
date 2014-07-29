@@ -276,7 +276,6 @@ LEXICON N_28TÜTÄRʼ-SG
 +N: NMN_28TÜTÄRʼ-SG ;
 LEXICON N_28TÜTÄRʼ-PL
 +N: NMN_28TÜTÄRʼ-PL ;
-+N+Sg+Nom+WORK: K ;
 
 LEXICON N_29KUU
  N_29KUU-SG ;
@@ -1109,14 +1108,30 @@ LEXICON NMN_27EHEQ-PL
 +Pl+Ill:isihe K ;
 +Pl+Ill:ihe K ;
 
-LEXICON NMN_28TÜTÄRʼ
+LEXICON NMN_28TÜTÄRʼ !!= * __@CODE@__ tütärʼ:tütär
+!! * Yaml: __kannwl__
   NMN_28TÜTÄRʼ-SG ;
   NMN_28TÜTÄRʼ-PL ;
 
 LEXICON NMN_28TÜTÄRʼ-SG 
-+WORK: #;
++Sg+Nom:ʼ K ;
+:%^SYNC%>%{ÕE%} SG-GEN_ZERO ;
+ SG-PAR_d ;
+:%^SYNC%>%{ÕE%} SG-ILL_he ;
+
+
 LEXICON NMN_28TÜTÄRʼ-PL 
-+WORK: #;
+:%^SYNC%>%{ÕE%} PL-NOM ;
+:%^SYNC%>i PL-GEN_dÕ ;
+ PL-GEN_dÕ ;
+:%^SYNC%>i PL-PAR_t ;
+:%>d%{ÕE%} PL-ILL_he ;
+:%^SYNC%>i PL-ILL_he ;
+:%>d%{ÕE%} PL-ILL_he ;
+:%^SYNC%>i PL-ALL_lÕ-STEM ;
+:%>d%{ÕE%} PL-ALL_lÕ-STEM ;
+
+
 LEXICON NMN_29KUU
   NMN_29KUU-SG ;
   NMN_29KUU-PL ;
