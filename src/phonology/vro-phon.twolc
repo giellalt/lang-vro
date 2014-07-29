@@ -322,6 +322,8 @@ Rules
  õ:0 <=>  [ Cns: | :Cns ] _ l %^SYNC:  ;
 !€# tapõl%^SYNC%{ÕE%}%>m%{AÄ%}
 !€0 tap0l0õ0ma
+!€# kannõl%^SYNC%>%{ÕE%}
+!€0 kand0l00õ
 
 !! VOWEL LENGTHENING
 
@@ -506,6 +508,14 @@ k:0 <=> s _ a %^WGStem: ;
 !! __@RULENAME@__
  t:d <=> Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ ;
          Vow _ [Vow: %^WGStem:|%^WGStem: (%>) :Vow ] ;
+
+"nTod"
+!! __@RULENAME@__
+ n:d <=> n _ õ: l %^SYNC: ;
+
+!€# kannõl%^SYNC%>%{ÕE%}
+!€0 kand0l00õ
+
 
 "j2i"
 !! __@RULENAME@__
