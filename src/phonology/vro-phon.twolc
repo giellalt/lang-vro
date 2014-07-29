@@ -213,12 +213,29 @@ Rules
 !€0 särgi00
 !! }}}
 
+"e2i"
+!! __@RULENAME@__
+ e:i <=>  # Cns* _ e: [ l | n | r ] %^RVow: ;
+ # Cns* e: _ [ l | n | r ] %^RVow: ;
+!€# keel%^RVowʼ
+!€# kiil0ʼ
+
+"o2u"
+!! __@RULENAME@__
+ o:u <=>  # Cns* _ o: [ l | n | r ] %^RVow: ;
+ # Cns* o: _ [ l | n | r ] %^RVow: ;
+
+
 "i2e"
 !! __@RULENAME@__
 !! {{{
  i:e <=> Cns 0: _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
 !€# pin0i%^StrGStem%^PLPRT
 !€0 pinne00
+ # Cns* _ i: l %^LowerVow: ;
+ # Cns* i: _ l %^LowerVow: ;
+!€# kiil%^LowerVow%>%{ÕE%}
+!€# keel00e
 !! }}}
 
 "ü2e"
@@ -506,7 +523,7 @@ k:0 <=> s _ a %^WGStem: ;
 
 "tTod"
 !! __@RULENAME@__
- t:d <=> Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ ;
+ t:d <=> Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ [%> | # | :Vow ] ;
          Vow _ [Vow: %^WGStem:|%^WGStem: (%>) :Vow ] ;
 
 "nTod"
