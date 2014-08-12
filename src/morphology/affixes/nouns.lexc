@@ -854,26 +854,32 @@ LEXICON NMN_13ALONÕ-PL
 :tsi		PL-ALL_lÕ-STEM ;
 
 
-LEXICON NMN_14RITSʼKAS
+LEXICON NMN_14RITSʼKAS !!= * __@CODE@__ ritsʼkas:ritsʼka, hammas:hamba
   NMN_14RITSʼKAS-SG ;
   NMN_14RITSʼKAS-PL ;
 
 LEXICON NMN_14RITSʼKAS-SG 
-        SG-NOM  ;
-:%^CnsRM   SG-GEN_ZERO-STEM        ;
-:%^CnsRM   SG-PAR_t      ;
-   	   SG-PAR_t      ;
-:%^CnsRM   SG-ILL_he     ;
+:%^WGStem%>s        SG-NOM  ;
+   SG-GEN_ZERO-STEM        ;
+:%^WGStem%>s   SG-PAR_t      ;
+   SG-ILL_he     ;
+   SG-ILL_dÕ     ;
 
 LEXICON NMN_14RITSʼKAS-PL 
-:%^CnsRM   PL-NOM  ;
-:%^VowRM%^CnsRM%>i PL-GEN_dÕ ;
-:%^VowRM%^CnsRM%>i PL-ILL_he ;
-:%^VowRM%^CnsRM%>i PL-PAR_t ;
-:%^VowRM%^CnsRM%>i PL-ALL_lÕ-STEM ;
- PL-GEN_dÕ ;
- PL-ALL_dÕlÕ ;
- PL-ILL_dÕhe ;
+   PL-NOM  ;
+:%^VowRM%>i PL-GEN_dÕ ;
+:%^VowRM%>i PL-ILL_he ;
+:%^VowRM%>ii PL-ILL_he ;
+:%^VowRM%>i PL-ILL_dÕ ;
+:%^VowRM%>ii PL-ILL_dÕ ;
+:%^VowRM%>i PL-PAR_t ;
+:%^VowRM%>i PL-PAR_d ;
+:%^VowRM%>ii PL-PAR_d ;
+:%^VowRM%>i PL-ALL_lÕ-STEM ;
+:%^VowRM%>ii PL-ALL_lÕ-STEM ;
+:%^WGStem%>s PL-GEN_dÕ ;
+:%^WGStem%>s PL-ALL_dÕlÕ ;
+:%^WGStem%>s PL-ILL_dÕhe ;
 
 LEXICON NMN_15KOTUS
   NMN_15KOTUS-SG ;
@@ -1596,6 +1602,9 @@ LEXICON PL-ILL_hÕ
 LEXICON PL-ILL_htÕ
 +Pl+Ill:%>ht%{ÕE%} K ;
 
+LEXICON  PL-ILL_dÕ
++Pl+Ill:%>d%{ÕE%} K ;
+
 LEXICON PL-ILL_dÕhe
 +Pl+Ill:%>d%{ÕE%}he K ;
 
@@ -1676,6 +1685,9 @@ LEXICON	SG-ILL_htÕ
 
 LEXICON	SG-ILL_tÕ
 +Sg+Ill:%>t%{ÕE%} K ;
+
+LEXICON	SG-ILL_dÕ
++Sg+Ill:%>d%{ÕE%} K ;
 
 LEXICON	SG-INE_h
 +Sg+Ine:%>h K ;
