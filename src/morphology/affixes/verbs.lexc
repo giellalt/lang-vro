@@ -619,8 +619,28 @@ LEXICON V_86ISTMA !!≈ * __@CODE@__ istma:istu
 +V: V0-PSS-PRS-PRC ;
 +V: V0-PSS-PRT-PRC ;
 
-LEXICON V_87KOSIMA
-+V+WORK: # ;
+LEXICON V_87KOSIMA !!≈ * __@CODE@__ kosima:kosi
+!! * Yaml: __V-kosima__
++V: V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SCSG3_ZERO ;
++V:%{AÄ%} V0-IND-PRS-SCPL3_vAq ;
++V: V0-IND-PRS-OC ;
+
++V:%^VowRM V0-IND-PRT-SC-12_E ; 
++V: V0-IND-PRT-SC-CONNEG ;
++V:%^VowRM V0-IND-PRT-SCSG3_E ;
++V: V0-IND-PRT-SCPL3_vAq ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V:%^StrGStem V0-INF_ZEROq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
 LEXICON V_88SIBAMA
 !! * Yaml: __V-sibama88,sibahama__
 +V:%^StrGStem V0-IND-PRS-SC-12 ;
