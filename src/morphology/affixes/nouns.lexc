@@ -368,7 +368,7 @@ LEXICON N_38PUHM-SG
 LEXICON N_38PUHM-PL
 +N: NMN_38PUHM-PL ;
 
-LEXICON N_39HÄBÜ
+LEXICON N_39HÄBÜ !!= @CODE@ häbü:häbü
         N_39HÄBÜ-SG ;
         N_39HÄBÜ-PL ;
 LEXICON N_39HÄBÜ-SG
@@ -1336,11 +1336,16 @@ LEXICON NMN_39HÄBÜ-SG
 
 LEXICON NMN_39HÄBÜ-PL 
         PL-NOM ;
-:%^StrGStem%^PLPRT  PL-GEN_ZERO ;
-:%^XStrGStem%^PLPRT      PL-ILL_ZERO       ;
-:%^XStrGStem%^PLPRT      PL-ILL_he       ;
-:%^StrGStem%^PLPRT      PL-PAR_ZERO        ;
-:%^StrGStem%^PLPRT      PL-ALL_lÕ-STEM       ;
+:%^StrGStem%^LowerVowDelab  PL-GEN_ZERO ;
+:%^XStrGStem%^LowerVowDelab      PL-ILL_ZERO       ;
+:%^XStrGStem%^LowerVowDelab      PL-ILL_he       ;
+:%^StrGStem%^LowerVowDelab      PL-PAR_ZERO        ;
+:%^StrGStem%^LowerVowDelab      PL-ALL_lÕ-STEM       ;
+:%^StrGStem%^XLowerVowDelab  PL-GEN_ZERO ;
+:%^XStrGStem%^XLowerVowDelab      PL-ILL_ZERO       ;
+:%^XStrGStem%^XLowerVowDelab      PL-ILL_he       ;
+:%^StrGStem%^XLowerVowDelab      PL-PAR_ZERO        ;
+:%^StrGStem%^XLowerVowDelab      PL-ALL_lÕ-STEM       ;
 
 LEXICON NMN_40TALO
   NMN_40TALO-SG ;
