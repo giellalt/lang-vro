@@ -186,6 +186,9 @@ Rules
 !! __@RULENAME@__
  ü:ö <=>  ü: _ %^LowerVow: ;
     _ ü: %^LowerVow: [ # | %> [ :Cns | [ :Vow - :i ]] ] ;
+   # Cns:* _ Cns: Vow: %^LowerVow: ;
+!€# pügä%^LowerVow%^WGStem%^VowRM%>%{ÕE%}%>t
+!€0 pö000000e0t
 
 "u2õ"
 !! __@RULENAME@__
@@ -289,7 +292,7 @@ Rules
 
 "ä:0"
 !! __@RULENAME@__
- ä:0 <=>  [ Cns: | :Cns ] _ [ (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
+ ä:0 <=>  [ Cns: | :Cns ] _ [ (0:|:0+) %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
  ä _ %>  i  ; !!= @CODE@ 
 !€# elä%>et
 !€0 el00et
@@ -573,15 +576,15 @@ k:0 <=> s _ a %^WGStem: ;
 
 "g20"
 !! __@RULENAME@__
-!! {{{
- g:0 <=>  _ ( ʼ: | %{ÕE%}: |ä) %^WGStem: ;
+ g:0 <=>  _ ( ʼ: ) %^WGStem: ;
 !€# särgʼ%^WGStem%>#
 !€0 sär0e000
+ # Cns:*  Vow: _ [ %{ÕE%}: |ä: ] (%^LowerVow:) %^WGStem: ;
 !€# igä%^WGStem
 !€0 i0ä0
 !€# aig%^WGStem%>%{OÖ%}
 !€0 a0000o
-!! }}}
+
 
 !! !Other marks
 "ʼ:0"
