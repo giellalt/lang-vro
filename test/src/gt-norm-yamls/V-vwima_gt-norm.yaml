@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `võima: # Verb (72+73) `võima 'eng /est /fin' - full paradigm
+     võima+V+Inf/mA: võima
+     võima+V+Inf: võidaq
+     võima+V+ActPrtPrc: võinuq
+     võima+V+PssPrtPrc: võit
+     võima+V+Ind+Prs+ScSg1: või
+     võima+V+Ind+Prs+ScSg3: või
+     võima+V+Ind+Prt+ScSg1: [võidsõ, võisõ]
+     võima+V+Ind+Prt+ScSg3: [võidsõ, võisõ]
+
