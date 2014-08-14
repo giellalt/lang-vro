@@ -209,6 +209,9 @@ And following triggers to control variation
   %^PLPRT  The a:o attested in Plural kana:kanno and prt
  %^RVow       Raises vowel
  %^LowerVow   Lowers vowel
+ %^XLowerVow  Lowers vowel two levels
+ %^LowerVowDelab  Lowers vowel and delabializes it
+ %^XLowerVowDelab  Lowers vowel two levels and delabializes it
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
@@ -276,6 +279,9 @@ Triggers
 
  %^RVow:0  Raises vowel
  %^LowerVow:0  Lowers vowel
+ %^XLowerVow:0  Lowers vowel two levels
+ %^LowerVowDelab:0  Lowers vowel and delabializes it
+ %^XLowerVowDelab:0  Lowers vowel two levels and delabializes it
 
  %^VowRM:0  this will remove stem final vowel
  %^CnsRM:0  this will remove stem final consonant tervüs:tervü
