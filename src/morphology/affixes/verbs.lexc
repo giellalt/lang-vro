@@ -368,8 +368,26 @@ LEXICON V_72VAOMA !!≈ * __@CODE@__ vaoma:vao
 
 LEXICON V_73VAOMA
 +V+WORK: # ;
-LEXICON V_74VÄSÜMÄ
-+V+WORK: # ;
+LEXICON V_74VÄSÜMÄ !!≈ * __@CODE@__ väsümä:väsü
+!! * Yaml: __V-vaesuemae__
++V: V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V:%^StrGStem V0-IND-PRT-SC-12_ZERO ;
++V: V0-IND-PRT-SC-CONNEG ;
++V:%^StrGStem V0-IND-PRT-SCSG3_ZERO ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V:%^StrGStem V0-INF_ZEROq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC_WEAKGRADE ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
 LEXICON V_75VALAMA !!≈ * __@CODE@__ valama:vala
 !! * Yaml: __V-valama75__
 +V: V0-IND-PRS-SC-12 ;
@@ -744,6 +762,18 @@ LEXICON V0-IND-PRS-PC
 LEXICON V0-IND-PRT-SCSG1_iE
 +Ind+Prt+ScSg1:%>i%{ÕE%} K ;
 
+LEXICON V0-IND-PRT-SC-12_ZERO
++Ind+Prt+ScSg1: K ;
++Ind+Prt+ScSg2:%>q K ;
++Ind+Prt+ScSg2:%>t K ;
++Ind+Prt+ScSg2:%>dõq K ;
++Ind+Prt+ScPl1:%>miq K ;
++Ind+Prt+ScPl1: K ;
++Ind+Prt+ScPl2:%>tiq K ;
++Ind+Prt+ScPl2:%>t K ;
++Ind+Prt+ScPl2:%>q K ;
++Ind+Prt+ScPl2:%>dõq K ;
+
 LEXICON V0-IND-PRT-SC-12_i
 +Ind+Prt+ScSg1:%>i K ;
 +Ind+Prt+ScSg2:%>iq K ;
@@ -780,6 +810,8 @@ LEXICON V0-IND-PRT-SC-12_si
 +Ind+Prt+ScPl2:%>siq K ;
 +Ind+Prt+ScPl2:%>sidõq K ;
 
+LEXICON V0-IND-PRT-SCSG3_ZERO
++Ind+Prt+ScSg3: K ;
 LEXICON V0-IND-PRT-SCSG3_i
 +Ind+Prt+ScSg3:%>i K ;
 LEXICON V0-IND-PRT-SCSG3_APOSTROPHE
