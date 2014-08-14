@@ -342,10 +342,60 @@ LEXICON V_68NÄLGÜMÄ
 +V+WORK: # ;
 LEXICON V_69SÜNDÜMÄ
 +V+WORK: # ;
-LEXICON V_70UNÕHTUMA
-+V+WORK: # ;
-LEXICON V_71ERÄTÜMÄ
-+V+WORK: # ;
+LEXICON V_70UNÕHTUMA !!≈ * __@CODE@__ unõhtuma:unõhtu
+!! * Yaml: __V-unwhtuma__
++V: V0-IND-PRS-SC-12 ;
++V:%^WGStem V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V:%^WGStem V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SC3_s ;
++V:%^WGStem V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V: V0-IND-PRT-SC-12_ZERO ;
++V:%^WGStem V0-IND-PRT-SC-12_ZERO ;
++V: V0-IND-PRT-SC-CONNEG ;
++V:%^WGStem V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_ZERO ;
++V:%^WGStem V0-IND-PRT-SCSG3_ZERO ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V:%^WGStem DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V:%^WGStem V0-INF_mA ;
++V: V0-INF_dAq ;
++V:%^WGStem V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V:%^WGStem V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC ;
++V: V0-ACT-PRT-PRC_WEAKGRADE ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
++V:%^WGStem V0-PSS-PRS-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
+
+
+LEXICON V_71ERÄTÜMÄ !!≈ * __@CODE@__ erätümä:erätü
+!! * Yaml: __V-eraetuemae__
++V:%^WGStem V0-IND-PRS-SC-12 ;
++V:%^WGStem V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V:%^WGStem V0-IND-PRT-SC-12_ZERO ;
++V:%^WGStem V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_ZERO ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V: V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC ;
++V: V0-PSS-PRS-PRC ;
++V: V0-PSS-PRT-PRC ;
+
 LEXICON V_72VAOMA !!≈ * __@CODE@__ vaoma:vao
 !! * Yaml: __vaoma__
 +V: V0-IND-PRS-SC-12 ;
@@ -469,7 +519,7 @@ LEXICON V_VÕIMA !!≈ * __@CODE@__ võima:või
 
 +V: DEVERBAL_minÕ ;
 +V: V0-INF_mA ;
-+V:%^StrGStem V0-INF_ZEROq ;
++V:%^StrGStem V0-INF_dAq ;
 +V: V0-ACT-PRS-PRC ;
 +V: V0-ACT-PRT-PRC_WEAKGRADE ;
 +V:%^VowRM%>%{ÕE%} V0-PSS-PRS-PRC ;
