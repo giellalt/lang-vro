@@ -120,14 +120,21 @@ LEXICON N_10HÕRAK-PL
 +N:     NMN_10HÕRAK-PL ;
 
 
-LEXICON N_11LÄTEQ
+LEXICON N_11LÄTEQ !!= @CODE@ läteq:läte
  N_11LÄTEQ-SG ;
  N_11LÄTEQ-PL ;
 LEXICON N_11LÄTEQ-SG
 +N: NMN_11LÄTEQ-SG ;
 LEXICON N_11LÄTEQ-PL
 +N: NMN_11LÄTEQ-PL ;
-+N+Sg+Nom+WORK: K ;
+
+LEXICON N_11AINÕQ !!= @CODE@ ainõq:ainõ
+ N_11AINÕQ-SG ;
+ N_11AINÕQ-PL ;
+LEXICON N_11AINÕQ-SG
++N: NMN_11AINÕQ-SG ;
+LEXICON N_11AINÕQ-PL
++N: NMN_11AINÕQ-PL ;
 
 LEXICON N_12REPÄNʼ
  N_12REPÄNʼ-SG ;
@@ -792,7 +799,7 @@ LEXICON NMN_10HÕRAK-PL
 :%^VowRM%>i        PL-ALL_lÕ-STEM       ;
 :%^VowRM%>i      PL-PAR_t        ;
 
-LEXICON NMN_11LÄTEQ
+LEXICON NMN_11LÄTEQ !!= @CODE@ läteq:läte
   NMN_11LÄTEQ-SG ;
   NMN_11LÄTEQ-PL ;
 
@@ -804,6 +811,27 @@ LEXICON NMN_11LÄTEQ-SG
 +Sg+Ill:he K ;
 
 LEXICON NMN_11LÄTEQ-PL 
+!+WORK: #;
++Pl+Nom:q K ;
++Pl+Gen:id%{ÕE%} K ;
++Pl+Gen:isi K ;
++Pl+Par:id K ;
++Pl+Par:isi K ;
++Pl+Ill:isihe K ;
++Pl+Ill:ihe K ;
+
+LEXICON NMN_11AINÕQ !!= @CODE@ ainõq:ainõ
+  NMN_11AINÕQ-SG ;
+  NMN_11AINÕQ-PL ;
+
+LEXICON NMN_11AINÕQ-SG 
+!+WORK: #;
++Sg+Nom:q K ;
++Sg+Gen:q K ;
++Sg+Par:t K ;
++Sg+Ill:he K ;
+
+LEXICON NMN_11AINÕQ-PL 
 !+WORK: #;
 +Pl+Nom:q K ;
 +Pl+Gen:id%{ÕE%} K ;
