@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hamõh: # Noun (14RITSʼKAS =>PEREH) hamõh 'eng /est /fin' - full paradigm
+     hamõh+N+Sg+Nom: hamõh
+     hamõh+N+Sg+Gen: ritsʼka
+     hamõh+N+Sg+Par: [hamõht, ritsʼkat]
+     hamõh+N+Sg+Ill: ritsʼkahe
+     hamõh+N+Pl+Gen: [ritsʼkidõ, hamõhtõ]
+     hamõh+N+Pl+Par: ritsʼkit
+     hamõh+N+Pl+Ill: [ritsʼkihe, hamõhtõhe]
+     hamõh+N+Pl+All: [ritsʼkilõ, hamõhtõlõ]
+

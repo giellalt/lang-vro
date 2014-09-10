@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pereh: # Noun (14RITSʼKAS =>PEREH) pereh 'eng /est /fin' - full paradigm
+     pereh+N+Sg+Nom: pereh
+     pereh+N+Sg+Gen: ritsʼka
+     pereh+N+Sg+Par: [pereht, ritsʼkat]
+     pereh+N+Sg+Ill: ritsʼkahe
+     pereh+N+Pl+Gen: [ritsʼkidõ, perehtõ]
+     pereh+N+Pl+Par: ritsʼkit
+     pereh+N+Pl+Ill: [ritsʼkihe, perehtõhe]
+     pereh+N+Pl+All: [ritsʼkilõ, perehtõlõ]
+
