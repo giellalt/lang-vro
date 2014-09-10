@@ -153,13 +153,33 @@ LEXICON N_13ALONÕ-SG
 LEXICON N_13ALONÕ-PL
 +N:     NMN_13ALONÕ-PL ;
 
-LEXICON N_14RITSʼKAS !!= @CODE@ 
+LEXICON N_14RITSʼKAS !!= @CODE@ ritsʼkas:ritsʼka, saabas:saapa
         N_14RITSʼKAS-SG ;
         N_14RITSʼKAS-PL ;
 LEXICON N_14RITSʼKAS-SG
 +N:     NMN_14RITSʼKAS-SG ;
 LEXICON N_14RITSʼKAS-PL
 +N:     NMN_14RITSʼKAS-PL ;
+
+
+LEXICON N_HAMMAS !!= @CODE@ hammas:hamba, saabas:saapa
+!! distinguished from 14RITSʼKAS due to gradation
+        N_HAMMAS-SG ;
+        N_HAMMAS-PL ;
+LEXICON N_HAMMAS-SG
++N:     NMN_HAMMAS-SG ;
+LEXICON N_HAMMAS-PL
++N:     NMN_HAMMAS-PL ;
+
+
+LEXICON N_PEREH !!= @CODE@ pereh:pereh
+!! distinguished from 14RITSʼKAS due to word final h
+        N_PEREH-SG ;
+        N_PEREH-PL ;
+LEXICON N_PEREH-SG
++N:     NMN_PEREH-SG ;
+LEXICON N_PEREH-PL
++N:     NMN_PEREH-PL ;
 
 
 LEXICON N_15KOTUS
@@ -882,7 +902,7 @@ LEXICON NMN_13ALONÕ-PL
 :tsi		PL-ALL_lÕ-STEM ;
 
 
-LEXICON NMN_14RITSʼKAS !!= * __@CODE@__ ritsʼkas:ritsʼka, hammas:hamba
+LEXICON NMN_14RITSʼKAS !!= * __@CODE@__ ritsʼkas:ritsʼka
   NMN_14RITSʼKAS-SG ;
   NMN_14RITSʼKAS-PL ;
 
@@ -894,6 +914,73 @@ LEXICON NMN_14RITSʼKAS-SG
    SG-ILL_dÕ     ;
 
 LEXICON NMN_14RITSʼKAS-PL 
+   PL-NOM  ;
+:%^VowRM%>i PL-GEN_dÕ ;
+:%^VowRM%>i PL-ILL_he ;
+:%^VowRM%>ii PL-ILL_he ;
+:%^VowRM%>i PL-ILL_dÕ ;
+:%^VowRM%>ii PL-ILL_dÕ ;
+:%^VowRM%>i PL-PAR_t ;
+:%^VowRM%>i PL-PAR_d ;
+:%^VowRM%>ii PL-PAR_d ;
+:%^VowRM%>i PL-ALL_lÕ-STEM ;
+:%^VowRM%>ii PL-ALL_lÕ-STEM ;
+:%^WGStem%>s PL-GEN_dÕ ;
+:%^WGStem%>s%>d%{ÕE%} PL-ALL_lÕ-STEM ;
+:%^WGStem%>s PL-ALL_dÕlÕ ;
+:%^WGStem%>s PL-ILL_dÕhe ;
+:%^VowRM%>i%>d%{ÕE%}   PL-COM ;
+:%^VowRM%>ii%>d%{ÕE%}   PL-COM ;
+:%^WGStem%>s%>d%{ÕE%}   PL-COM ;
+
+LEXICON NMN_HAMMAS !!= * __@CODE@__ hammas:hamba
+!! Distinguished from 14RITSʼKAS due to gradation
+!! Yaml: __N-hammas_gt-norm.yaml__
+  NMN_HAMMAS-SG ;
+  NMN_HAMMAS-PL ;
+
+LEXICON NMN_HAMMAS-SG 
+:%^WGStem%>s        SG-NOM  ;
+   SG-GEN_ZERO-STEM        ;
+:%^WGStem%>s   SG-PAR_t      ;
+   SG-ILL_he     ;
+   SG-ILL_dÕ     ;
+
+LEXICON NMN_HAMMAS-PL 
+   PL-NOM  ;
+:%^VowRM%>i PL-GEN_dÕ ;
+:%^VowRM%>i PL-ILL_he ;
+:%^VowRM%>ii PL-ILL_he ;
+:%^VowRM%>i PL-ILL_dÕ ;
+:%^VowRM%>ii PL-ILL_dÕ ;
+:%^VowRM%>i PL-PAR_t ;
+:%^VowRM%>i PL-PAR_d ;
+:%^VowRM%>ii PL-PAR_d ;
+:%^VowRM%>i PL-ALL_lÕ-STEM ;
+:%^VowRM%>ii PL-ALL_lÕ-STEM ;
+:%^WGStem%>s PL-GEN_dÕ ;
+:%^WGStem%>s%>d%{ÕE%} PL-ALL_lÕ-STEM ;
+:%^WGStem%>s PL-ALL_dÕlÕ ;
+:%^WGStem%>s PL-ILL_dÕhe ;
+:%^VowRM%>i%>d%{ÕE%}   PL-COM ;
+:%^VowRM%>ii%>d%{ÕE%}   PL-COM ;
+:%^WGStem%>s%>d%{ÕE%}   PL-COM ;
+
+!!
+LEXICON NMN_PEREH !!= * __@CODE@__ pereh:pereh, hamõh:hamõh
+!! Distinguished from 14RITSʼKAS due  to word final h
+!! Yaml: __N-pereh_gt-norm.yaml, N-hamwh_gt-norm.yaml__
+  NMN_PEREH-SG ;
+  NMN_PEREH-PL ;
+
+LEXICON NMN_PEREH-SG 
+        SG-NOM  ;
+   SG-GEN_ZERO-STEM        ;
+   SG-PAR_t      ;
+   SG-ILL_he     ;
+   SG-ILL_dÕ     ;
+
+LEXICON NMN_PEREH-PL 
    PL-NOM  ;
 :%^VowRM%>i PL-GEN_dÕ ;
 :%^VowRM%>i PL-ILL_he ;
