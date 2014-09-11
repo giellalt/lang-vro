@@ -305,6 +305,14 @@ LEXICON N_27EHEQ-PL
 +N: NMN_27EHEQ-PL ;
 +N+Sg+Nom+WORK: K ;
 
+LEXICON N_HAPU !!= * __@CODE@__ hapu:hapu
+ N_HAPU-SG ;
+ N_HAPU-PL ;
+LEXICON N_HAPU-SG
++N: NMN_HAPU-SG ;
+LEXICON N_HAPU-PL
++N: NMN_HAPU-PL ;
+
 LEXICON N_28TÜTÄRʼ
  N_28TÜTÄRʼ-SG ;
  N_28TÜTÄRʼ-PL ;
@@ -1295,6 +1303,29 @@ LEXICON NMN_27EHEQ-PL
 +Pl+Par:isi K ;
 +Pl+Ill:isihe K ;
 +Pl+Ill:ihe K ;
+
+LEXICON NMN_HAPU !!= * __@CODE@__	hapu:hapu
+!! Yaml: __N-hapu27__
+  NMN_HAPU-SG ;
+  NMN_HAPU-PL ;
+
+LEXICON NMN_HAPU-SG 
++Sg+Nom: K ;
++Sg+Gen:%^VowRM%>n%{AÄ%} K ;
++Sg+Gen:%^VowRM%>n%{ÕE%} K ;
++Sg+Par:nd K ;
++Sg+Ill:%^VowRM%>n%{AÄ%}he K ;
++Sg+Ill:%^VowRM%>n%{ÕE%}he K ;
+
+LEXICON NMN_HAPU-PL 
++Pl+Nom:q K ;
++Pl+Gen:%^VowRM%>nid%{ÕE%} K ;
++Pl+Gen:%>nd%{ÕE%} K ;
++Pl+Par:%^VowRM%>nit K ;
++Pl+Ill:%^VowRM%>nihe K ;
++Pl+Ill:%>nd%{ÕE%}he K ;
++Pl+All:%^VowRM%>nil%{ÕE%} K ;
++Pl+All:%>nd%{ÕE%}l%{ÕE%} K ;
 
 LEXICON NMN_28TÜTÄRʼ !!= * __@CODE@__ tütärʼ:tütär
 !! * Yaml: __kannwl__
