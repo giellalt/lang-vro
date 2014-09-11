@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ainõq: # Noun (11) ainõq 'eng /est /fin' - full paradigm
+     ainõq+N+Sg+Nom: ainõq
+     ainõq+N+Sg+Gen: ainõ
+     ainõq+N+Sg+Par: ainõt
+     ainõq+N+Sg+Ill: ainõhõ
+     ainõq+N+Pl+Gen: [ainidõ, ainõtõ]
+     ainõq+N+Pl+Par: ainit
+     ainõq+N+Pl+Ill: [ainihõ, ainõtõhõ]
+     ainõq+N+Pl+All: [ainilõ, ainõtõlõ]
+
