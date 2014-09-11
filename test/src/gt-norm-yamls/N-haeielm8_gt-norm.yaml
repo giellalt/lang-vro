@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - häielm: # Noun (36) häielm 'eng /est /fin' - full paradigm
+     häielm+N+Sg+Nom: häielm
+     häielm+N+Sg+Gen: häielmä
+     häielm+N+Sg+Par: häielmä
+     häielm+N+Sg+Ill: häielmä
+     häielm+N+Pl+Gen: häielmi
+     häielm+N+Pl+Par: häielmi
+     häielm+N+Pl+Ill: [häielmihe, häielmi]
+     häielm+N+Pl+All: häielmile
+
