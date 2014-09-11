@@ -404,6 +404,14 @@ LEXICON N_38PUHM-SG
 LEXICON N_38PUHM-PL
 +N: NMN_38PUHM-PL ;
 
+LEXICON N_KULD
+ N_KULD-SG ;
+ N_KULD-PL ;
+LEXICON N_KULD-SG
++N: NMN_KULD-SG ;
+LEXICON N_KULD-PL
++N: NMN_KULD-PL ;
+
 LEXICON N_39HÄBÜ !!= @CODE@ häbü:häbü
         N_39HÄBÜ-SG ;
         N_39HÄBÜ-PL ;
@@ -988,31 +996,31 @@ LEXICON NMN_PEREH !!= * __@CODE@__ pereh:perre
   NMN_PEREH-PL ;
 
 LEXICON NMN_PEREH-SG 
-        SG-NOM  ;
+:%^WGStem%>h        SG-NOM  ;
    SG-GEN_ZERO-STEM        ;
-   SG-PAR_t      ;
+:%^WGStem%>h   SG-PAR_t      ;
    SG-ILL_he     ;
-   SG-ILL_dÕ     ;
+
 
 LEXICON NMN_PEREH-PL 
    PL-NOM  ;
 :%^VowRM%>i PL-GEN_dÕ ;
 :%^VowRM%>i PL-ILL_he ;
-:%^VowRM%>ii PL-ILL_he ;
-:%^VowRM%>i PL-ILL_dÕ ;
-:%^VowRM%>ii PL-ILL_dÕ ;
 :%^VowRM%>i PL-PAR_t ;
-:%^VowRM%>i PL-PAR_d ;
-:%^VowRM%>ii PL-PAR_d ;
 :%^VowRM%>i PL-ALL_lÕ-STEM ;
-:%^VowRM%>ii PL-ALL_lÕ-STEM ;
-:%^WGStem%>s PL-GEN_dÕ ;
-:%^WGStem%>s%>d%{ÕE%} PL-ALL_lÕ-STEM ;
-:%^WGStem%>s PL-ALL_dÕlÕ ;
-:%^WGStem%>s PL-ILL_dÕhe ;
+:%^WGStem%>h PL-GEN_dÕ ;
+:%^WGStem%>h%>t%{ÕE%} PL-ALL_lÕ-STEM ;
+:%^WGStem%>h PL-ALL_dÕlÕ ;
+:%^WGStem%>h PL-ILL_dÕhe ;
 :%^VowRM%>i%>d%{ÕE%}   PL-COM ;
 :%^VowRM%>ii%>d%{ÕE%}   PL-COM ;
 :%^WGStem%>s%>d%{ÕE%}   PL-COM ;
+!:%^VowRM%>ii PL-ILL_he ;
+!:%^VowRM%>i PL-ILL_dÕ ;
+!:%^VowRM%>ii PL-ILL_dÕ ;
+!:%^VowRM%>i PL-PAR_d ;
+!:%^VowRM%>ii PL-PAR_d ;
+!:%^VowRM%>ii PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_HAMÕH !!= * __@CODE@__ hamõh:hammõ
 !! Distinguished from 14RITSʼKAS due  to word final h
@@ -1021,31 +1029,31 @@ LEXICON NMN_HAMÕH !!= * __@CODE@__ hamõh:hammõ
   NMN_HAMÕH-PL ;
 
 LEXICON NMN_HAMÕH-SG 
-        SG-NOM  ;
+:%^WGStem%>h        SG-NOM  ;
    SG-GEN_ZERO-STEM        ;
-   SG-PAR_t      ;
+:%^WGStem%>h   SG-PAR_t      ;
    SG-ILL_he     ;
-   SG-ILL_dÕ     ;
+!   SG-ILL_dÕ     ;
 
 LEXICON NMN_HAMÕH-PL 
    PL-NOM  ;
 :%^VowRM%>i PL-GEN_dÕ ;
 :%^VowRM%>i PL-ILL_he ;
-:%^VowRM%>ii PL-ILL_he ;
-:%^VowRM%>i PL-ILL_dÕ ;
-:%^VowRM%>ii PL-ILL_dÕ ;
 :%^VowRM%>i PL-PAR_t ;
-:%^VowRM%>i PL-PAR_d ;
-:%^VowRM%>ii PL-PAR_d ;
 :%^VowRM%>i PL-ALL_lÕ-STEM ;
-:%^VowRM%>ii PL-ALL_lÕ-STEM ;
-:%^WGStem%>s PL-GEN_dÕ ;
-:%^WGStem%>s%>d%{ÕE%} PL-ALL_lÕ-STEM ;
-:%^WGStem%>s PL-ALL_dÕlÕ ;
-:%^WGStem%>s PL-ILL_dÕhe ;
+:%^WGStem%>h PL-GEN_dÕ ;
+:%^WGStem%>h%>t%{ÕE%} PL-ALL_lÕ-STEM ;
+:%^WGStem%>h PL-ALL_dÕlÕ ;
+:%^WGStem%>h PL-ILL_dÕhe ;
 :%^VowRM%>i%>d%{ÕE%}   PL-COM ;
 :%^VowRM%>ii%>d%{ÕE%}   PL-COM ;
 :%^WGStem%>s%>d%{ÕE%}   PL-COM ;
+!:%^VowRM%>ii PL-ILL_he ;
+!:%^VowRM%>i PL-ILL_dÕ ;
+!:%^VowRM%>ii PL-ILL_dÕ ;
+!:%^VowRM%>i PL-PAR_d ;
+!:%^VowRM%>ii PL-PAR_d ;
+!:%^VowRM%>ii PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_15KOTUS
   NMN_15KOTUS-SG ;
@@ -1480,6 +1488,24 @@ LEXICON NMN_38PUHM-SG
 :%{AÄ%}       SG-PAR_ZERO        ;
 
 LEXICON NMN_38PUHM-PL 
+:%{EÕ%}       PL-NOM ;
+:%{EÕ%}    PL-GEN_ZERO ;
+:%{EÕ%}    PL-PAR_ZERO ;
+:%{EÕ%}    PL-ILL_ZERO ;
+:%{EÕ%}    PL-ILL_he ;
+:%{EÕ%}    PL-ALL_lÕ-STEM ;
+
+LEXICON NMN_KULD !!= * __@CODE@__ kuld:kuld
+!! Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
+  NMN_KULD-SG ;
+  NMN_KULD-PL ;
+LEXICON NMN_KULD-SG 
+        SG-NOM  ;
+:%{AÄ%}       SG-GEN_ZERO-STEM        ;
+:%{AÄ%}       SG-ILL_ZERO        ;
+:%{AÄ%}       SG-PAR_ZERO        ;
+
+LEXICON NMN_KULD-PL 
 :%{EÕ%}       PL-NOM ;
 :%{EÕ%}    PL-GEN_ZERO ;
 :%{EÕ%}    PL-PAR_ZERO ;
