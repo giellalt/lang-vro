@@ -484,10 +484,23 @@ k:0 <=> s _ a %^WGStem: ;
 ![ [ # ] Cns* Vow (( r | i ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ Vow: | :Vow | ( Vow ) %> i ] ( %> i: | %^StretchSyll2:0 ) %> %^WCns:0 ;
 !        [ # ] Cns* VowBack i: _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
 
+"mToZero"
+!! __@RULENAME@__
+ m:0 <=> m_ Vow %^WGStem: ;
+!€# hammõ%^WGStem%>h
+!€0 ham0õ00h
+
+
 "lToZero"
 !! __@RULENAME@__
  l:0 <=> l _ Vow i: %^WGStem: ;
          _ %{XC%}:l %{ÕE%}: v %^WGStem: ;
+
+"rToZero"
+!! __@RULENAME@__
+ r:0 <=> r _ Vow %^WGStem: ;
+!€# perre%^WGStem%>h
+!€0 per0e00h
 
 "tToZero"
 !! __@RULENAME@__
