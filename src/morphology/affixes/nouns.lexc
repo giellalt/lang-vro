@@ -395,6 +395,15 @@ LEXICON N_36SÄRGʼ-SG
 LEXICON N_36SÄRGʼ-PL
 +N:     NMN_36SÄRGʼ-PL ;
 
+LEXICON N_KOGÕR !!= @CODE@ särgʼ:särgʼ
+!! derived from 36särgʼ
+        N_KOGÕR-SG ;
+        N_KOGÕR-PL ;
+LEXICON N_KOGÕR-SG
++N:     NMN_KOGÕR-SG ;
+LEXICON N_KOGÕR-PL
++N:     NMN_KOGÕR-PL ;
+
 
 LEXICON N_37PINI !!= @CODE@ pini:pini
         N_37PINI-SG ;
@@ -1489,6 +1498,27 @@ LEXICON NMN_36SÄRGʼ-PL
 :%^StrGStem%^PLPRT    PL-ILL_ZERO ;
 :%^StrGStem%^PLPRT    PL-ILL_he ;
 :%^WGStem%^PLPRT  PL-ALL_lÕ-STEM ;
+
+LEXICON NMN_KOGÕR !!= __@CODE@__
+!! derived from 36SÄRGʼ
+!! * Yaml: __N-kogwr36__
+  NMN_KOGÕR-SG ;
+  NMN_KOGÕR-PL ;
+LEXICON NMN_KOGÕR-SG 
+        SG-NOM  ;
+:%^StrGStem%^SYNC        SG-NOM  ;
+:%^SYNC%>%{ÕE%}       SG-GEN_ZERO-STEM        ;
+:%^StrGStem%^SYNC%>%{ÕE%}       SG-ILL_ZERO        ;
+:%^StrGStem%^SYNC%>%{ÕE%}       SG-PAR_ZERO        ;
+
+LEXICON NMN_KOGÕR-PL 
+:%^SYNC       PL-NOM ;
+:%^StrGStem%^SYNC%>i    PL-GEN_ZERO ;
+:%^StrGStem%^SYNC%>i    PL-PAR_ZERO ;
+:%^StrGStem%^SYNC%>i  PL-ILL_he ;
+:%^SYNC%>i  PL-ALL_lÕ-STEM ;
+
+:%^StrGStem%^SYNC%>i    PL-ILL_ZERO ;
 
 LEXICON NMN_37PINI
   NMN_37PINI-SG ;
