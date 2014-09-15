@@ -342,11 +342,13 @@ Rules
 
 "õ:0"
 !! __@RULENAME@__
- õ:0 <=>  [ Cns: | :Cns ] _ l %^SYNC:  ;
+ õ:0 <=>  [ Cns: | :Cns ] _ [ l | r ] (%^StrGStem:) %^SYNC:  ;
 !€# tapõl%^SYNC%{ÕE%}%>m%{AÄ%}
 !€0 tap0l0õ0ma
-!€# kannõl%^SYNC%>%{ÕE%}
-!€0 kand0l00õ
+!€# kannõl%^StrGStem%^SYNC%>%{ÕE%}
+!€0 kand0l000õ
+!€# kogõr%^StrGStem%^SYNC%>%{ÕE%}
+!€0 kok0r000õ
    _ (%^WGStem:) %^VowRM:  ;
 !€# hammõ%^WGStem%^VowRM%>ihe
 !€0 ham00000ihe
@@ -586,6 +588,10 @@ k:0 <=> s _ a %^WGStem: ;
     Vow _ 0: Vow: %^XStrGStem: ;
 !€# ig0ä%^XStrGStem
 !€0 ikkä0
+   Vow _ Vow: [ l | r ] %^StrGStem: %^SYNC: ;
+!€# kogõr%^StrGStem%^SYNC%>%{ÕE%}
+!€0 kok0r000õ
+
 
 !! !STEM-FINAL CONSONANT LOSS
 "s20"
