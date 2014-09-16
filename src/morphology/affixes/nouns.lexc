@@ -100,7 +100,14 @@ LEXICON N_8HÄIELM-SG
 +N: NMN_8HÄIELM-SG ;
 LEXICON N_8HÄIELM-PL
 +N: NMN_8HÄIELM-PL ;
-+N+Sg+Nom+WORK: K ;
+
+LEXICON N_SILM
+ N_SILM-SG ;
+ N_SILM-PL ;
+LEXICON N_SILM-SG
++N: NMN_SILM-SG ;
+LEXICON N_SILM-PL
++N: NMN_SILM-PL ;
 
 LEXICON N_9KIPÕNʼ
 !! * Yaml: __ellaei, suhvli__
@@ -798,23 +805,55 @@ LEXICON NMN_7FÜÜSIGA-PL
 :%^StrGStem%^VowRM%>i      PL-PAR_t        ;
 
 LEXICON NMN_8HÄIELM
-!! * Yaml: __kask__
+!! * Yaml: __kask, haeielm__
   NMN_8HÄIELM-SG ;
   NMN_8HÄIELM-PL ;
 
 LEXICON NMN_8HÄIELM-SG 
         SG-NOM  ;
 :%{AÄ%}        SG-GEN_ZERO-STEM       ;
-:%^StrGStem%>%{AÄ%}        SG-PAR_t        ;
-:%^StrGStem%>%{AÄ%}        SG-ILL_he       ;
+:%>%{AÄ%}        SG-PAR_t        ;
+:%>%{AÄ%}        SG-ILL_he       ;
+
+:%>%{AÄ%}        SG-ILL_dÕ       ;
 
 LEXICON NMN_8HÄIELM-PL 
-!+WORK: #;
         PL-NOM ;
-:%^StrGStem%^VowRM%>i     PL-GEN_dÕ ;
-:%^StrGStem%^VowRM%>i        PL-ILL_he       ;
-:%^StrGStem%^VowRM%>i        PL-ALL_lÕ-STEM       ;
-:%^StrGStem%^VowRM%>i      PL-PAR_t        ;
+:%>i     PL-GEN_dÕ ;
+:%>i        PL-ILL_he       ;
+:%>i        PL-ALL_lÕ-STEM       ;
+:%>i      PL-PAR_t        ;
+!! Secondary
+:%>ii        PL-ALL_lÕ-STEM       ;
+:%>ii     PL-GEN_dÕ ;
+:%>i        PL-ILL_dÕ       ;
+:%>ii        PL-ILL_dÕ       ;
+:%>ii        PL-ILL_he       ;
+:%>ii      PL-PAR_d        ;
+
+
+LEXICON NMN_SILM !!= * __@CODE@__ silm:silm
+!! * Yaml: __N-silm__
+!! gradation No, vowelHarmony Front
+  NMN_SILM-SG ;
+  NMN_SILM-PL ;
+
+LEXICON NMN_SILM-SG 
+        SG-NOM  ;
+:%>%{AÄ%}        SG-GEN_ZERO-STEM       ;
+:%>%{AÄ%}        SG-ILL_ZERO       ;
+:%>%{AÄ%}        SG-PAR_ZERO        ;
+
+
+LEXICON NMN_SILM-PL 
+        PL-NOM ;
+:%>i     PL-GEN_ZERO ;
+:%>i        PL-ILL_he       ;
+:%>i        PL-ALL_lÕ-STEM       ;
+:%>i      PL-PAR_ZERO        ;
+!! Secondary
+:%>i        PL-ILL_ZERO       ;
+
 
 LEXICON NMN_9KIPÕNʼ !!= @CODE@ kipõnʼ:kipõnʼ
 !! * Yaml: __ellaei, kipwnj__
