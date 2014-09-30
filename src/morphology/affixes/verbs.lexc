@@ -624,8 +624,31 @@ LEXICON V_80RAPAHUTMA !!≈ * __@CODE@__ rapahutma:rapahut
 
 LEXICON V_81TEGEMÄ
 +V+WORK: # ;
-LEXICON V_82PÜÜDMÄ
-+V+WORK: # ;
+LEXICON V_82PÜÜDMÄ !!≈ * __@CODE@__ püüdmä:püüd
+!! * Yaml: __pueuedmae__
++V:%^WGStem%{AÄ%} V0-IND-PRS-SC-12 ;
++V:%{AÄ%} V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SCSG3_ZERO ;
++V:%{AÄ%} V0-IND-PRS-SCPL3_vAq ;
++V: V0-IND-PRS-OC ;
+
++V:%^WGStem V0-IND-PRT-SC-12_i ;
++V+Ind+Prt+ScSg1:%>se K ;
++V: V0-IND-PRT-SCSG1_se ;
++V: V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_APOSTROPHE ;
++V: V0-IND-PRT-SCSG3_se ;
++V: V0-IND-PRT-SCPL3_vAq ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V: V0-INF_Aq ;
++V: V0-ACT-PRS-PRC ;
++V:%^LowerVow V0-ACT-PRT-PRC_WEAKGRADE ;
++V: V0-PSS-PRS-PRC ;
++V:%^WGStem%{ÕE%} V0-PSS-PRT-PRC ;
+
 LEXICON V_83NÕSTMA
 +V+WORK: # ;
 LEXICON V_84LASKMA
@@ -811,6 +834,8 @@ LEXICON V0-IND-PRS-PC
 !! !INDICATIVE PRETERIT SUBJECT CONJUGATION
 LEXICON V0-IND-PRT-SCSG1_iE
 +Ind+Prt+ScSg1:%>i%{ÕE%} K ;
+LEXICON V0-IND-PRT-SCSG1_se
++Ind+Prt+ScSg1:%>s%{ÕE%} K ;
 
 LEXICON V0-IND-PRT-SC-12_ZERO
 +Ind+Prt+ScSg1: K ;
@@ -870,6 +895,8 @@ LEXICON V0-IND-PRT-SCSG3_iE
 +Ind+Prt+ScSg3:%>i%{ÕE%} K ;
 LEXICON V0-IND-PRT-SCSG3_E
 +Ind+Prt+ScSg3:%>%{ÕE%} K ;
+LEXICON V0-IND-PRT-SCSG3_se
++Ind+Prt+ScSg3:%>s%{ÕE%} K ;
 
 LEXICON V0-IND-PRT-SCPL3_vAq
 +Ind+Prt+ScPl3:%^VowRM%>iq K ;
