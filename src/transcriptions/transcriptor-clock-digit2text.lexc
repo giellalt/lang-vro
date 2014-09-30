@@ -53,102 +53,102 @@ LEXICON Root
  REST ; ! 1-30
 
 LEXICON BEFORE
-:%0 beforesmallhours ;
+%0: beforesmallhours ;
 :+Use/NA beforesmallhours ;
 beforelargehours ;
  
 LEXICON beforesmallhours
-@U.TIME.2@:1@U.TIME.2@ BEFpunkt ; !01:31 - 01:59
-@U.TIME.3@:2@U.TIME.3@ BEFpunkt ; !02:31 - 02:59
-@U.TIME.4@:3@U.TIME.4@ BEFpunkt ; !03:31 - 03:59
-@U.TIME.5@:4@U.TIME.5@ BEFpunkt ; !04:31 - 04:59
-@U.TIME.6@:5@U.TIME.6@ BEFpunkt ; !05:31 - 05:59
-@U.TIME.7@:6@U.TIME.7@ BEFpunkt ; !06:31 - 06:59
-@U.TIME.8@:7@U.TIME.8@ BEFpunkt ; !07:31 - 07:59
-@U.TIME.9@:8@U.TIME.9@ BEFpunkt ; !08:31 - 08:59
-@U.TIME.10@:9@U.TIME.10@ BEFpunkt ; !09:31 - 09:59
+1@U.TIME.2@:@U.TIME.2@ BEFpunkt ; !01:31 - 01:59
+2@U.TIME.3@:@U.TIME.3@ BEFpunkt ; !02:31 - 02:59
+3@U.TIME.4@:@U.TIME.4@ BEFpunkt ; !03:31 - 03:59
+4@U.TIME.5@:@U.TIME.5@ BEFpunkt ; !04:31 - 04:59
+5@U.TIME.6@:@U.TIME.6@ BEFpunkt ; !05:31 - 05:59
+6@U.TIME.7@:@U.TIME.7@ BEFpunkt ; !06:31 - 06:59
+7@U.TIME.8@:@U.TIME.8@ BEFpunkt ; !07:31 - 07:59
+8@U.TIME.9@:@U.TIME.9@ BEFpunkt ; !08:31 - 08:59
+9@U.TIME.10@:@U.TIME.10@ BEFpunkt ; !09:31 - 09:59
 
-@U.TIME.2@:2@U.TIME.2@ MINHR ; !02:31 - 01:59
-@U.TIME.3@:3@U.TIME.3@ MINHR ; !02:31 - 02:59
-@U.TIME.4@:4@U.TIME.4@ MINHR ; !03:31 - 03:59
-@U.TIME.5@:5@U.TIME.5@ MINHR ; !04:31 - 04:59
-@U.TIME.6@:6@U.TIME.6@ MINHR ; !05:31 - 05:59
-@U.TIME.7@:7@U.TIME.7@ MINHR ; !06:31 - 06:59
-@U.TIME.8@:8@U.TIME.8@ MINHR ; !07:31 - 07:59
-@U.TIME.9@:9@U.TIME.9@ MINHR ; !08:31 - 08:59
-@U.TIME.1@:1@U.TIME.10@ MINHR ; !01:31 - 00:59
+2@U.TIME.2@:@U.TIME.2@ MINHR ; !02:31 - 01:59
+3@U.TIME.3@:@U.TIME.3@ MINHR ; !02:31 - 02:59
+4@U.TIME.4@:@U.TIME.4@ MINHR ; !03:31 - 03:59
+5@U.TIME.5@:@U.TIME.5@ MINHR ; !04:31 - 04:59
+6@U.TIME.6@:@U.TIME.6@ MINHR ; !05:31 - 05:59
+7@U.TIME.7@:@U.TIME.7@ MINHR ; !06:31 - 06:59
+8@U.TIME.8@:@U.TIME.8@ MINHR ; !07:31 - 07:59
+9@U.TIME.9@:@U.TIME.9@ MINHR ; !08:31 - 08:59
+1@U.TIME.1@:@U.TIME.10@ MINHR ; !01:31 - 00:59
 
 LEXICON beforelargehours
-@U.TIME.11@:1%0@U.TIME.11@ BEFpunkt ; !10:31 - 10:59
-@U.TIME.12@:11@U.TIME.12@ BEFpunkt ; !11:29 - 11:59
-@U.TIME.1@:12@U.TIME.1@ BEFpunkt ; !12:29 - 12:59
-@U.TIME.2@:13@U.TIME.2@ BEFpunkt ; !13:29 - 13:59
-@U.TIME.3@:14@U.TIME.3@ BEFpunkt ; !14:29 - 14:59
-@U.TIME.4@:15@U.TIME.4@ BEFpunkt ; !15:29 - 15:59
-@U.TIME.5@:16@U.TIME.5@ BEFpunkt ; !16:29 - 16:59
-@U.TIME.6@:17@U.TIME.6@ BEFpunkt ; !17:29 - 17:59
-@U.TIME.7@:18@U.TIME.7@ BEFpunkt ; !18:29 - 18:59
-@U.TIME.8@:19@U.TIME.8@ BEFpunkt ; !19:31 - 19:59
-@U.TIME.9@:2%0@U.TIME.9@ BEFpunkt ; !20:31 - 20:59
-@U.TIME.10@:21@U.TIME.10@ BEFpunkt ; !21:31 - 21:59
-@U.TIME.11@:22@U.TIME.11@ BEFpunkt ; !22:29 - 22:59
-@U.TIME.12@:23@U.TIME.12@ BEFpunkt ; !23:29 - 23:59
-@U.TIME.1@:%0%0@U.TIME.1@ BEFpunkt ; !00:29 - 00:59
+1%0@U.TIME.11@:@U.TIME.11@ BEFpunkt ; !10:31 - 10:59
+11@U.TIME.12@:@U.TIME.12@ BEFpunkt ; !11:29 - 11:59
+12@U.TIME.1@:@U.TIME.1@ BEFpunkt ; !12:29 - 12:59
+13@U.TIME.2@:@U.TIME.2@ BEFpunkt ; !13:29 - 13:59
+14@U.TIME.3@:@U.TIME.3@ BEFpunkt ; !14:29 - 14:59
+15@U.TIME.4@:@U.TIME.4@ BEFpunkt ; !15:29 - 15:59
+16@U.TIME.5@:@U.TIME.5@ BEFpunkt ; !16:29 - 16:59
+17@U.TIME.6@:@U.TIME.6@ BEFpunkt ; !17:29 - 17:59
+18@U.TIME.7@:@U.TIME.7@ BEFpunkt ; !18:29 - 18:59
+19@U.TIME.8@:@U.TIME.8@ BEFpunkt ; !19:31 - 19:59
+2%0@U.TIME.9@:@U.TIME.9@ BEFpunkt ; !20:31 - 20:59
+21@U.TIME.10@:@U.TIME.10@ BEFpunkt ; !21:31 - 21:59
+22@U.TIME.11@:@U.TIME.11@ BEFpunkt ; !22:29 - 22:59
+23@U.TIME.12@:@U.TIME.12@ BEFpunkt ; !23:29 - 23:59
+%0%0@U.TIME.1@:@U.TIME.1@ BEFpunkt ; !00:29 - 00:59
 
-@U.TIME.11@:11@U.TIME.11@ MINHR ; !10:31 - 10:59
-@U.TIME.12@:12@U.TIME.12@ MINHR ; !11:29 - 11:59
-@U.TIME.1@:13@U.TIME.1@ MINHR ; !12:29 - 12:59
-@U.TIME.2@:14@U.TIME.2@ MINHR ; !13:29 - 13:59
-@U.TIME.3@:15@U.TIME.3@ MINHR ; !14:29 - 14:59
-@U.TIME.4@:16@U.TIME.4@ MINHR ; !15:29 - 15:59
-@U.TIME.5@:17@U.TIME.5@ MINHR ; !16:29 - 16:59
-@U.TIME.6@:18@U.TIME.6@ MINHR ; !17:29 - 17:59
-@U.TIME.7@:19@U.TIME.7@ MINHR ; !18:29 - 18:59
-@U.TIME.8@:2%0@U.TIME.8@ MINHR ; !19:31 - 19:59
-@U.TIME.9@:21@U.TIME.9@ MINHR ; !20:31 - 20:59
-@U.TIME.10@:22@U.TIME.10@ MINHR ; !21:31 - 21:59
-@U.TIME.11@:23@U.TIME.11@ MINHR ; !22:29 - 22:59
-@U.TIME.12@:%0%0@U.TIME.12@ MINHR ; !23:29 - 23:59
-@U.TIME.1@:%01@U.TIME.1@ MINHR ; !00:29 - 00:59
+11@U.TIME.11@:@U.TIME.11@ MINHR ; !10:31 - 10:59
+12@U.TIME.12@:@U.TIME.12@ MINHR ; !11:29 - 11:59
+13@U.TIME.1@:@U.TIME.1@ MINHR ; !12:29 - 12:59
+14@U.TIME.2@:@U.TIME.2@ MINHR ; !13:29 - 13:59
+15@U.TIME.3@:@U.TIME.3@ MINHR ; !14:29 - 14:59
+16@U.TIME.4@:@U.TIME.4@ MINHR ; !15:29 - 15:59
+17@U.TIME.5@:@U.TIME.5@ MINHR ; !16:29 - 16:59
+18@U.TIME.6@:@U.TIME.6@ MINHR ; !17:29 - 17:59
+19@U.TIME.7@:@U.TIME.7@ MINHR ; !18:29 - 18:59
+2%0@U.TIME.8@:@U.TIME.8@ MINHR ; !19:31 - 19:59
+21@U.TIME.9@:@U.TIME.9@ MINHR ; !20:31 - 20:59
+22@U.TIME.10@:@U.TIME.10@ MINHR ; !21:31 - 21:59
+23@U.TIME.11@:@U.TIME.11@ MINHR ; !22:29 - 22:59
+%0%0@U.TIME.12@:@U.TIME.12@ MINHR ; !23:29 - 23:59
+%01@U.TIME.1@:@U.TIME.1@ MINHR ; !00:29 - 00:59
 
 LEXICON REST
-ütś@U.TIME.1@:%01@U.TIME.1@ AFTpunkt ;
-katś@U.TIME.2@:%02@U.TIME.2@ AFTpunkt ;
-kolm@U.TIME.3@:%03@U.TIME.3@ AFTpunkt ;
-neli@U.TIME.4@:%04@U.TIME.4@ AFTpunkt ;
-viiś@U.TIME.5@:%05@U.TIME.5@ AFTpunkt ;
-kuuś@U.TIME.6@:%06@U.TIME.6@ AFTpunkt ;
-säidse@U.TIME.7@:%07@U.TIME.7@ AFTpunkt ;
-katõsa@U.TIME.8@:%08@U.TIME.8@ AFTpunkt ;
-ütesä@U.TIME.9@:%09@U.TIME.9@ AFTpunkt ;
-kümme@U.TIME.10@:1%0@U.TIME.10@ AFTpunkt ;
-ütśtõist@U.TIME.11@:11@U.TIME.11@ AFTpunkt ;
-katśtõist@U.TIME.12@:12@U.TIME.12@ AFTpunkt ;
+%01@U.TIME.@:ütś@U.TIME.1@ AFTpunkt ;
+%02@U.TIME.@:katś@U.TIME.2@ AFTpunkt ;
+%03@U.TIME.@:kolm@U.TIME.3@ AFTpunkt ;
+%04@U.TIME.@:neli@U.TIME.4@ AFTpunkt ;
+%05@U.TIME.@:viiś@U.TIME.5@ AFTpunkt ;
+%06@U.TIME.@:kuuś@U.TIME.6@ AFTpunkt ;
+%07@U.TIME.@:säidse@U.TIME.7@ AFTpunkt ;
+%08@U.TIME.@:katõsa@U.TIME.8@ AFTpunkt ;
+%09@U.TIME.@:ütesä@U.TIME.9@ AFTpunkt ;
+1%0@U.TIME.@:kümme@U.TIME.10@ AFTpunkt ;
+11@U.TIME.@:ütśtõist@U.TIME.11@ AFTpunkt ;
+12@U.TIME.@:katśtõist@U.TIME.12@ AFTpunkt ;
 
-ütś@U.TIME.1@:13@U.TIME.1@ AFTpunkt ;
-katś@U.TIME.2@:14@U.TIME.2@ AFTpunkt ;
-kolm@U.TIME.3@:15@U.TIME.3@ AFTpunkt ;
-neli@U.TIME.4@:16@U.TIME.4@ AFTpunkt ;
-viiś@U.TIME.5@:17@U.TIME.5@ AFTpunkt ;
-kuuś@U.TIME.6@:18@U.TIME.6@ AFTpunkt ;
-säidse@U.TIME.7@:19@U.TIME.7@ AFTpunkt ;
-katõsa@U.TIME.8@:2%0@U.TIME.8@ AFTpunkt ;
-ütesä@U.TIME.9@:21@U.TIME.9@ AFTpunkt ;
-kümme@U.TIME.10@:22@U.TIME.10@ AFTpunkt ;
-ütśtõist@U.TIME.11@:23@U.TIME.11@ AFTpunkt ;
-katśtõist@U.TIME.12@:%0%0@U.TIME.12@ AFTpunkt ;
-puul% üü% @U.TIME.12@:%0%0@U.TIME.12@ # ;
+13@U.TIME.@:ütś@U.TIME.1@  AFTpunkt ;
+14@U.TIME.@:katś@U.TIME.2@  AFTpunkt ;
+15@U.TIME.@:kolm@U.TIME.3@  AFTpunkt ;
+16@U.TIME.@:neli@U.TIME.4@  AFTpunkt ;
+17@U.TIME.@:viiś@U.TIME.5@  AFTpunkt ;
+18@U.TIME.@:kuuś@U.TIME.6@  AFTpunkt ;
+19@U.TIME.@:säidse@U.TIME.7@  AFTpunkt ;
+2%0@U.TIME.8@:katõsa@U.TIME.8@ AFTpunkt ;
+21@U.TIME.9@:ütesä@U.TIME.9@  AFTpunkt ;
+22@U.TIME.10@:kümme@U.TIME.10@ AFTpunkt ;
+23@U.TIME.11@:ütśtõist@U.TIME.11@ AFTpunkt ;
+%0%0@U.TIME.12@:katśtõist@U.TIME.12@ AFTpunkt ;
+%0%0@U.TIME.12@:puul% üü% @U.TIME.12@ # ;
 
 
 
 LEXICON BEFpunkt
-:%:+Use/NA BEF ;
-:%.+Use/NA BEF ;
+%::+Use/NA BEF ;
+%.:+Use/NA BEF ;
 
 LEXICON AFTpunkt
-% läbi% :%:+Use/NA H-MAFT_minutes ; ! 2:00 = göökte
-:%.+Use/NA H-MAFT_minutes ; ! 2.00 = göökte
-:+Use/NA HOUR ; ! 2 = göökte
+%::% läbi+Use/NG%  H-MAFT_minutes ; ! 2:00 = göökte
+%.:+Use/NG H-MAFT_minutes ; ! 2.00 = göökte
+:+Use/NG HOUR ; ! 2 = göökte
 !@D.TIME.1@ AFTpunkt-PL ;
 
 !LEXICON AFTpunkt-PL
@@ -156,241 +156,242 @@ LEXICON AFTpunkt
 
 
 LEXICON H-MAFT_minutes
-:%0%0 # ;
-ütś% minot% :%01 # ;
-katś% :%02 ANDMINUTES ;
-kolm% :%03 ANDMINUTES ;
-neli% :%04 ANDMINUTES ;
-viiś% :%05 ANDMINUTES ;
-kuuś% :%06 ANDMINUTES ;
-säidse% :%07 ANDMINUTES ;
-katõsa% :%08 ANDMINUTES ;
-ütesä% :%09 ANDMINUTES ;
-kümme% :1%0 ANDMINUTES ;
-ütśtõist% :11 ANDMINUTES ;
-katśtõist% :12 ANDMINUTES ;
-kolmtõist% :13 ANDMINUTES ;
-nelitõist% :14 ANDMINUTES ;
-viiśtõist% :15 ANDMINUTES ; 
-kuuśtõist% :16 ANDMINUTES ;
-säidsetõist% :17 ANDMINUTES ;
-katõsatõist% :18 ANDMINUTES ;
-ütesätõist% :19 ANDMINUTES ;
-katśkümmend% :20 ANDMINUTES ;
-katśkümmend% ütś% :21 ANDMINUTES ;
-katśkümmend% katś% :22 ANDMINUTES ;
-katśkümmend% kolm% :23 ANDMINUTES ;
-katśkümmend% neli% :24 ANDMINUTES ;
-katśkümmend% viiś% :25 ANDMINUTES ;
-katśkümmend% kuuś% :26 ANDMINUTES ;
-katśkümmend% säidse% :27 ANDMINUTES ;
-katśkümmend% katõsa% :28 ANDMINUTES ;
-katśkümmend% ütesä% :29 ANDMINUTES ;
-kolmkümmend% :3%0 ANDMINUTES ;
-kolmkümmend% ütś% :31 ANDMINUTES ;
-kolmkümmend% katś% :32 ANDMINUTES ;
-kolmkümmend% kolm% :33 ANDMINUTES ;
-kolmkümmend% neli% :34 ANDMINUTES ;
-kolmkümmend% viiś% :35 ANDMINUTES ;
-kolmkümmend% kuuś% :36 ANDMINUTES ;
-kolmkümmend% säidse% :37 ANDMINUTES ;
-kolmkümmend% katõsa% :38 ANDMINUTES ; 
-kolmkümmend% ütesä% :39 ANDMINUTES ;
-nelikümmend% :4%0 ANDMINUTES ;
-nelikümmend% ütś% :41 ANDMINUTES ;
-nelikümmend% katś% :42 ANDMINUTES ;
-nelikümmend% kolm% :43 ANDMINUTES ;
-nelikümmend% neli% :44 ANDMINUTES ;
-nelikümmend% viiś% :45 ANDMINUTES ;
-nelikümmend% kuuś% :46 ANDMINUTES ;
-nelikümmend% säidse% :47 ANDMINUTES ;
-nelikümmend% katõsa% :48 ANDMINUTES ;
-nelikümmend% ütesä% :49 ANDMINUTES ;
-viiśkümmend% :5%0 ANDMINUTES ;
-viiśkümmend% ütś% :51 ANDMINUTES ;
-viiśkümmend% katś% :52 ANDMINUTES ;
-viiśkümmend% kolm% :53 ANDMINUTES ;
-viiśkümmend% neli% :54 ANDMINUTES ;
-viiśkümmend% viiś% :55 ANDMINUTES ; 
-viiśkümmend% kuuś% :56 ANDMINUTES ;
-viiśkümmend% säidse% :57 ANDMINUTES ;
-viiśkümmend% katõsa% :58 ANDMINUTES ; 
-viiśkümmend% ütesä% :59 ANDMINUTES ;
+%0%0: # ;
+%01:ütś% minot%  # ;
+%02:katś%  ANDMINUTES ;
+%03:kolm%  ANDMINUTES ;
+%04:neli%  ANDMINUTES ;
+%05:viiś%  ANDMINUTES ;
+%06:kuuś%  ANDMINUTES ;
+%07:säidse%  ANDMINUTES ;
+%08:katõsa%  ANDMINUTES ;
+%09:ütesä%  ANDMINUTES ;
+1%0:kümme%  ANDMINUTES ;
+11:ütśtõist%  ANDMINUTES ;
+12:katśtõist%  ANDMINUTES ;
+13:kolmtõist%  ANDMINUTES ;
+14:nelitõist%  ANDMINUTES ;
+15:viiśtõist%  ANDMINUTES ; 
+16:kuuśtõist%  ANDMINUTES ;
+17:säidsetõist%  ANDMINUTES ;
+18:katõsatõist%  ANDMINUTES ;
+19:ütesätõist%  ANDMINUTES ;
+2%0:katśkümmend%  ANDMINUTES ;
+21:katśkümmend% ütś%  ANDMINUTES ;
+22:katśkümmend% katś%  ANDMINUTES ;
+23:katśkümmend% kolm%  ANDMINUTES ;
+24:katśkümmend% neli%  ANDMINUTES ;
+25:katśkümmend% viiś%  ANDMINUTES ;
+26:katśkümmend% kuuś%  ANDMINUTES ;
+27:katśkümmend% säidse%  ANDMINUTES ;
+28:katśkümmend% katõsa%  ANDMINUTES ;
+29:katśkümmend% ütesä%  ANDMINUTES ;
+3%0:kolmkümmend%  ANDMINUTES ;
+31:kolmkümmend% ütś%  ANDMINUTES ;
+32:kolmkümmend% katś%  ANDMINUTES ;
+33:kolmkümmend% kolm%  ANDMINUTES ;
+34:kolmkümmend% neli%  ANDMINUTES ;
+35:kolmkümmend% viiś%  ANDMINUTES ;
+36:kolmkümmend% kuuś%  ANDMINUTES ;
+37:kolmkümmend% säidse%  ANDMINUTES ;
+38:kolmkümmend% katõsa%  ANDMINUTES ; 
+39:kolmkümmend% ütesä%  ANDMINUTES ;
+4%0:nelikümmend%  ANDMINUTES ;
+41:nelikümmend% ütś%  ANDMINUTES ;
+42:nelikümmend% katś%  ANDMINUTES ;
+43:nelikümmend% kolm%  ANDMINUTES ;
+44:nelikümmend% neli%  ANDMINUTES ;
+45:nelikümmend% viiś%  ANDMINUTES ;
+46:nelikümmend% kuuś%  ANDMINUTES ;
+47:nelikümmend% säidse%  ANDMINUTES ;
+48:nelikümmend% katõsa%  ANDMINUTES ;
+49:nelikümmend% ütesä%  ANDMINUTES ;
+5%0:viiśkümmend%  ANDMINUTES ;
+51:viiśkümmend% ütś%  ANDMINUTES ;
+52:viiśkümmend% katś%  ANDMINUTES ;
+53:viiśkümmend% kolm%  ANDMINUTES ;
+54:viiśkümmend% neli%  ANDMINUTES ;
+55:viiśkümmend% viiś%  ANDMINUTES ; 
+56:viiśkümmend% kuuś%  ANDMINUTES ;
+57:viiśkümmend% säidse%  ANDMINUTES ;
+58:viiśkümmend% katõsa%  ANDMINUTES ; 
+59:viiśkümmend% ütesä%  ANDMINUTES ;
 
 LEXICON MINHR
-:%:+Use/NA MINHR_1 ;
+%::+Use/NA MINHR_1 ;
 LEXICON MINHR_1
-:%0%0 # ;
-ütś% minot% :%01 HOUR-PAST_1 ;
-katś% :%02 HOUR-PAST ;
-kolm% :%03 HOUR-PAST ;
-neli% :%04 HOUR-PAST ;
-viiś% :%05 HOUR-PAST ;
-kuuś% :%06 HOUR-PAST ;
-säidse% :%07 HOUR-PAST ;
-katõsa% :%08 HOUR-PAST ;
-ütesä% :%09 HOUR-PAST ;
-kümme% :1%0 HOUR-PAST ;
-ütśtõist% :11 HOUR-PAST ;
-katśtõist% :12 HOUR-PAST ;
-kolmtõist% :13 HOUR-PAST ;
-nelitõist% :14 HOUR-PAST ;
-viiśtõist% :15 HOUR-PAST ; 
-kuuśtõist% :16 HOUR-PAST ;
-säidsetõist% :17 HOUR-PAST ;
-katõsatõist% :18 HOUR-PAST ;
-ütesätõist% :19 HOUR-PAST ;
-katśkümmend% :20 HOUR-PAST ;
-katśkümmend% ütś% :21 HOUR-PAST ;
-katśkümmend% katś% :22 HOUR-PAST ;
-katśkümmend% kolm% :23 HOUR-PAST ;
-katśkümmend% neli% :24 HOUR-PAST ;
-katśkümmend% viiś% :25 HOUR-PAST ;
-katśkümmend% kuuś% :26 HOUR-PAST ;
-katśkümmend% säidse% :27 HOUR-PAST ;
-katśkümmend% katõsa% :28 HOUR-PAST ;
-katśkümmend% ütesä% :29 HOUR-PAST ;
-kolmkümmend% :3%0 HOUR-PAST ;
-kolmkümmend% ütś% :31 HOUR-PAST ;
-kolmkümmend% katś% :32 HOUR-PAST ;
-kolmkümmend% kolm% :33 HOUR-PAST ;
-kolmkümmend% neli% :34 HOUR-PAST ;
-kolmkümmend% viiś% :35 HOUR-PAST ;
-kolmkümmend% kuuś% :36 HOUR-PAST ;
-kolmkümmend% säidse% :37 HOUR-PAST ;
-kolmkümmend% katõsa% :38 HOUR-PAST ; 
-kolmkümmend% ütesä% :39 HOUR-PAST ;
-nelikümmend% :4%0 HOUR-PAST ;
-nelikümmend% ütś% :41 HOUR-PAST ;
-nelikümmend% katś% :42 HOUR-PAST ;
-nelikümmend% kolm% :43 HOUR-PAST ;
-nelikümmend% neli% :44 HOUR-PAST ;
-nelikümmend% viiś% :45 HOUR-PAST ;
-nelikümmend% kuuś% :46 HOUR-PAST ;
-nelikümmend% säidse% :47 HOUR-PAST ;
-nelikümmend% katõsa% :48 HOUR-PAST ;
-nelikümmend% ütesä% :49 HOUR-PAST ;
-viiśkümmend% :5%0 HOUR-PAST ;
-viiśkümmend% ütś% :51 HOUR-PAST ;
-viiśkümmend% katś% :52 HOUR-PAST ;
-viiśkümmend% kolm% :53 HOUR-PAST ;
-viiśkümmend% neli% :54 HOUR-PAST ;
-viiśkümmend% viiś% :55 HOUR-PAST ; 
-viiśkümmend% kuuś% :56 HOUR-PAST ;
-viiśkümmend% säidse% :57 HOUR-PAST ;
-viiśkümmend% katõsa% :58 HOUR-PAST ; 
-viiśkümmend% ütesä% :59 HOUR-PAST ;
+%0%0: # ;
+%01:ütś% minot%   HOUR-PAST_1 ;
+%02:katś%   HOUR-PAST ;
+%03:kolm%   HOUR-PAST ;
+%04:neli%   HOUR-PAST ;
+%05:viiś%   HOUR-PAST ;
+%06:kuuś%   HOUR-PAST ;
+%07:säidse%  HOUR-PAST ;
+%08:katõsa%  HOUR-PAST ;
+%09:ütesä%  HOUR-PAST ;
+1%0:kümme%  HOUR-PAST ;
+11:ütśtõist%  HOUR-PAST ;
+12:katśtõist%  HOUR-PAST ;
+13:kolmtõist%  HOUR-PAST ;
+14:nelitõist%  HOUR-PAST ;
+15:viiśtõist%  HOUR-PAST ; 
+16:kuuśtõist%  HOUR-PAST ;
+17:säidsetõist%  HOUR-PAST ;
+18:katõsatõist%  HOUR-PAST ;
+19:ütesätõist%  HOUR-PAST ;
+2%0:katśkümmend%  HOUR-PAST ;
+21:katśkümmend% ütś%  HOUR-PAST ;
+22:katśkümmend% katś%  HOUR-PAST ;
+23:katśkümmend% kolm%  HOUR-PAST ;
+24:katśkümmend% neli%  HOUR-PAST ;
+25:katśkümmend% viiś%  HOUR-PAST ;
+26:katśkümmend% kuuś%  HOUR-PAST ;
+27:katśkümmend% säidse%  HOUR-PAST ;
+28:katśkümmend% katõsa%  HOUR-PAST ;
+29:katśkümmend% ütesä%  HOUR-PAST ;
+3%0:kolmkümmend%  HOUR-PAST ;
+31:kolmkümmend% ütś%  HOUR-PAST ;
+32:kolmkümmend% katś%  HOUR-PAST ;
+33:kolmkümmend% kolm%  HOUR-PAST ;
+34:kolmkümmend% neli%  HOUR-PAST ;
+35:kolmkümmend% viiś%  HOUR-PAST ;
+36:kolmkümmend% kuuś%  HOUR-PAST ;
+37:kolmkümmend% säidse%  HOUR-PAST ;
+38:kolmkümmend% katõsa%  HOUR-PAST ; 
+39:kolmkümmend% ütesä%  HOUR-PAST ;
+4%0:nelikümmend%  HOUR-PAST ;
+41:nelikümmend% ütś%  HOUR-PAST ;
+42:nelikümmend% katś%  HOUR-PAST ;
+43:nelikümmend% kolm%  HOUR-PAST ;
+44:nelikümmend% neli%  HOUR-PAST ;
+45:nelikümmend% viiś%  HOUR-PAST ;
+46:nelikümmend% kuuś%  HOUR-PAST ;
+47:nelikümmend% säidse%  HOUR-PAST ;
+48:nelikümmend% katõsa%  HOUR-PAST ;
+49:nelikümmend% ütesä%  HOUR-PAST ;
+5%0:viiśkümmend%  HOUR-PAST ;
+51:viiśkümmend% ütś%  HOUR-PAST ;
+52:viiśkümmend% katś%  HOUR-PAST ;
+53:viiśkümmend% kolm%  HOUR-PAST ;
+54:viiśkümmend% neli%  HOUR-PAST ;
+55:viiśkümmend% viiś%  HOUR-PAST ; 
+56:viiśkümmend% kuuś%  HOUR-PAST ;
+57:viiśkümmend% säidse%  HOUR-PAST ;
+58:viiśkümmend% katõsa%  HOUR-PAST ; 
+59:viiśkümmend% ütesä%  HOUR-PAST ;
 
 
 LEXICON ANDMINUTES
-minotit: # ;
+:minotit # ;
 
 LEXICON BEF
-viiś% :25+Use/NG TOHALF ; 
-neli% :26 TOHALF ; 
-kolm% :27 TOHALF ;
-katś% :28 TOHALF ; 
-ütś% :29 TOHALF ;
-puul% :3%0 HOUR ;
-katśkümmend% ütesä% :31 TO ;
-katśkümmend% katõsa% :32 TO ;
-katśkümmend% säidse% :33 TO ;
-katśkümmend% kuuś% :34 TO ;
-katśkümmend% viiś% :35 TO ;
-katśkümmend% neli% :36 TO ;
-katśkümmend% kolm% :37 TO ;
-katśkümmend% katś% :38 TO ; 
-katśkümmend% ütś% :39 TO ;
-katśkümmend% % :4%0 TO ;
-ütesätõist% :41 TO ;
-katõsatõist% :42 TO ;
-säidsetõist% :43 TO ;
-kuuśtõist% :44 TO ;
-viiśtõist% :45 TO ;
-nelitõist% :46 TO ;
-kolmtõist% :47 TO ;
-katśtõist% :48 TO ;
-ütśtõist% :49 TO ;
-kümme% :5%0 TO ;
-ütesä% :51 TO ;
-katõsa% :52 TO ;
-säidse% :53 TO ;
-kuuś% :54 TO ;
-viiś% :55 TO ; 
-neli% :56 TO ;
-kolm% :57 TO ;
-katś% :58 TO ; 
-ütś% :59 TO ;
+25:viiś+Use/NG%  TOHALF ; 
+26:neli%  TOHALF ; 
+27:kolm%  TOHALF ;
+28:katś%  TOHALF ; 
+29:ütś%  TOHALF ;
+3%0:puul%  HOUR ;
+31:katśkümmend% ütesä%  TO ;
+32:katśkümmend% katõsa%  TO ;
+33:katśkümmend% säidse%  TO ;
+34:katśkümmend% kuuś%  TO ;
+35:katśkümmend% viiś%  TO ;
+36:katśkümmend% neli%  TO ;
+37:katśkümmend% kolm%  TO ;
+38:katśkümmend% katś%  TO ; 
+39:katśkümmend% ütś%  TO ;
+4%0:katśkümmend%  TO ;
+41:ütesätõist%  TO ;
+42:katõsatõist%  TO ;
+43:säidsetõist%  TO ;
+44:kuuśtõist%  TO ;
+45:viiśtõist%  TO ;
+46:nelitõist%  TO ;
+47:kolmtõist%  TO ;
+48:katśtõist%  TO ;
+49:ütśtõist%  TO ;
+5%0:kümme%  TO ;
+51:ütesä%  TO ;
+52:katõsa%  TO ;
+53:säidse%  TO ;
+54:kuuś%  TO ;
+55:viiś%  TO ; 
+56:neli%  TO ;
+57:kolm%  TO ;
+58:katś%  TO ; 
+59:ütś%  TO ;
 
 LEXICON AFT
-ütś% :%01 ANDMINUTES_first ;
-katś% :%02 ANDMINUTES_first ;
-kolm% :%03 ANDMINUTES_first ;
-neli% :%04 ANDMINUTES_first ;
-viiś% :%05 ANDMINUTES_first ;
-kuuś% :%06 ANDMINUTES_first ;
-säidse% :%07 ANDMINUTES_first ;
-katõsa% :%08 ANDMINUTES_first ;
-ütesä% :%09 ANDMINUTES_first ;
-kümme% :1%0 ANDMINUTES_first ;
-ütśtõist% :11 ANDMINUTES_first ;
-katśtõist% :12 ANDMINUTES_first ;
-kolmtõist% :13 ANDMINUTES_first ;
-nelitõist% :14 ANDMINUTES_first ;
-viiśtõist% :15 ANDMINUTES_first ; 
-kuuśtõist% :16 ANDMINUTES_first ;
-säidsetõist% :17 ANDMINUTES_first ;
-katõsatõist% :18 ANDMINUTES_first ;
-ütesätõist% :19 ANDMINUTES_first ;
-katśkümmend% :20 ANDMINUTES_first ;
-katśkümmend% ütś% :21 ANDMINUTES_first ;
-katśkümmend% katś% :22 ANDMINUTES_first ;
-katśkümmend% kolm% :23 ANDMINUTES_first ;
-katśkümmend% neli% :24 ANDMINUTES_first ;
-katśkümmend% viiś% :25 ANDMINUTES_first ;
-katśkümmend% kuuś% :26+Use/NG ANDMINUTES_first ;
-katśkümmend% säidse% :27+Use/NG ANDMINUTES_first ;
-katśkümmend% katõsa% :28+Use/NG ANDMINUTES_first ;
-katśkümmend% ütesä% :29+Use/NG ANDMINUTES_first ;
+%01:ütś%   ANDMINUTES_first ;
+%02:katś%   ANDMINUTES_first ;
+%03:kolm%   ANDMINUTES_first ;
+%04:neli%   ANDMINUTES_first ;
+%05:viiś%   ANDMINUTES_first ;
+%06:kuuś%   ANDMINUTES_first ;
+%07:säidse%   ANDMINUTES_first ;
+%08:katõsa%   ANDMINUTES_first ;
+%09:ütesä%   ANDMINUTES_first ;
+1%0:kümme%   ANDMINUTES_first ;
+11:ütśtõist%  ANDMINUTES_first ;
+12:katśtõist%  ANDMINUTES_first ;
+13:kolmtõist%  ANDMINUTES_first ;
+14:nelitõist%  ANDMINUTES_first ;
+15:viiśtõist%  ANDMINUTES_first ; 
+16:kuuśtõist%  ANDMINUTES_first ;
+17:säidsetõist%   ANDMINUTES_first ;
+18:katõsatõist%   ANDMINUTES_first ;
+19:ütesätõist%  ANDMINUTES_first ;
+2%0:katśkümmend%  ANDMINUTES_first ;
+21:katśkümmend% ütś%   ANDMINUTES_first ;
+22:katśkümmend% katś%   ANDMINUTES_first ;
+23:katśkümmend% kolm%   ANDMINUTES_first ;
+24:katśkümmend% neli%   ANDMINUTES_first ;
+25:katśkümmend% viiś%   ANDMINUTES_first ;
+26:katśkümmend% kuuś+Use/NG%   ANDMINUTES_first ;
+27:katśkümmend% säidse+Use/NG%  ANDMINUTES_first ;
+28:katśkümmend% katõsa+Use/NG%   ANDMINUTES_first ;
+29:katśkümmend% ütesä+Use/NG%   ANDMINUTES_first ;
 
 LEXICON ANDMINUTES_first
-minotit% :+Use/NG HOUR ;
+:minotit+Use/NG%  HOUR ;
 
 LEXICON TOHALF
-minodi% peräst% puul% : HOUR ;
+:minodi% peräst% puul%  HOUR ;
 
 LEXICON TO
-minodi% peräst% : HOUR ; ! variant
+:minodi% peräst%  HOUR ; ! variant
 
 LEXICON HOUR
-ütś@U.TIME.1@:@U.TIME.1@ # ;
-katś@U.TIME.2@:@U.TIME.2@ # ;
-kolm@U.TIME.3@:@U.TIME.3@ # ;
-neli@U.TIME.4@:@U.TIME.4@ # ;
-viiś@U.TIME.5@:@U.TIME.5@ # ;
-kuuś@U.TIME.6@:@U.TIME.6@ # ;
-säidse@U.TIME.7@:@U.TIME.7@ # ;
-katõsa@U.TIME.8@:@U.TIME.8@ # ;
-ütesä@U.TIME.9@:@U.TIME.9@ # ;
-kümme@U.TIME.10@:@U.TIME.10@ # ;
-ütśtõist@U.TIME.11@:@U.TIME.11@ # ;
-katśtõist@U.TIME.12@:@U.TIME.12@ # ;
+@U.TIME.1@:ütś@U.TIME.1@ # ;
+@U.TIME.2@:katś@U.TIME.2@ # ;
+@U.TIME.3@:kolm@U.TIME.3@ # ;
+@U.TIME.4@:neli@U.TIME.4@ # ;
+@U.TIME.5@:viiś@U.TIME.5@ # ;
+@U.TIME.6@:kuuś@U.TIME.6@ # ;
+@U.TIME.7@:säidse@U.TIME.7@ # ;
+@U.TIME.8@:katõsa@U.TIME.8@ # ;
+@U.TIME.9@:ütesä@U.TIME.9@ # ;
+@U.TIME.10@:kümme@U.TIME.10@ # ;
+@U.TIME.11@:ütśtõist@U.TIME.11@ # ;
+@U.TIME.12@:katśtõist@U.TIME.12@ # ;
 
 LEXICON HOUR-PAST
-minotit% : HOUR-PAST_1 ;
+:minotit%  HOUR-PAST_1 ;
 LEXICON HOUR-PAST_1
-ütś@U.TIME.1@:@U.TIME.1@ PAST ;
-katś@U.TIME.2@:@U.TIME.2@ PAST ;
-kolm@U.TIME.3@:@U.TIME.3@ PAST ;
-neli@U.TIME.4@:@U.TIME.4@ PAST ;
-viiś@U.TIME.5@:@U.TIME.5@ PAST ;
-kuuś@U.TIME.6@:@U.TIME.6@ PAST ;
-säidse@U.TIME.7@:@U.TIME.7@ PAST ;
-katõsa@U.TIME.8@:@U.TIME.8@ PAST ;
-ütesä@U.TIME.9@:@U.TIME.9@ PAST ;
-kümme@U.TIME.10@:@U.TIME.10@ PAST ;
-ütśtõist@U.TIME.11@:@U.TIME.11@ PAST ;
-katśtõist@U.TIME.12@:@U.TIME.12@ PAST ;
+@U.TIME.1@:ütś@U.TIME.1@ PAST ;
+@U.TIME.2@:katś@U.TIME.2@ PAST ;
+@U.TIME.3@:kolm@U.TIME.3@ PAST ;
+@U.TIME.4@:neli@U.TIME.4@ PAST ;
+@U.TIME.5@:viiś@U.TIME.5@ PAST ;
+@U.TIME.6@:kuuś@U.TIME.6@ PAST ;
+@U.TIME.7@:säidse@U.TIME.7@ PAST ;
+@U.TIME.8@:katõsa@U.TIME.8@ PAST ;
+@U.TIME.9@:ütesä@U.TIME.9@ PAST ;
+@U.TIME.10@:kümme@U.TIME.10@ PAST ;
+@U.TIME.11@:ütśtõist@U.TIME.11@ PAST ;
+@U.TIME.12@:katśtõist@U.TIME.12@ PAST ;
+
 
 LEXICON PAST
-% läbi: # ;
+:% läbi # ;
