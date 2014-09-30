@@ -394,10 +394,15 @@ Rules
 "u2v"
 !! __@RULENAME@__
  u:v <=> u _ %> v %{AÄ%}: q ;
+         u _ d: %^WGStem: ;
 
 "ü2v"
 !! __@RULENAME@__
  ü:v <=> ü _ %> v %{AÄ%}: q ;
+         ü _ d: %^WGStem: ;
+!€# püüd%^WGStem%>et
+!€0 püvv00et
+
 
 "%^I7:i"
 !! __@RULENAME@__
@@ -547,6 +552,11 @@ k:0 <=> s _ a %^WGStem: ;
 !€# kõnõl%>d%{AÄ%}q
 !€0 kõnõl0daq
 
+"d2v"
+!! __@RULENAME@__
+ d:v <=> [ ü: |u: ] _ %^WGStem: ;
+!€# püüd%^WGStem%>et
+!€0 püvv00et
 
 "dTot"
 !! __@RULENAME@__
