@@ -1366,7 +1366,7 @@
 
   <e>
     <lg>
-      <l pos="N">ainugõnõ</l>
+      <l pos="A">ainugõnõ</l>
 
       <stg>
         <st Contlex="N_22VÕROKÕNÕ">ainugõ</st>
@@ -1418,7 +1418,7 @@
 
   <e>
     <lg>
-      <l pos="N">ainukõnõ</l>
+      <l pos="A">ainukõnõ</l>
 
       <stg>
         <st Contlex="N_22VÕROKÕNÕ">ainukõ</st>
@@ -1438,7 +1438,7 @@
 
   <e>
     <lg>
-      <l pos="N">ainulinõ</l>
+      <l pos="A">ainulinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">ainuli</st>
@@ -1458,7 +1458,7 @@
 
   <e>
     <lg>
-      <l pos="N">ainumanõ</l>
+      <l pos="A">ainumanõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">ainuma</st>
@@ -1478,7 +1478,7 @@
 
   <e>
     <lg>
-      <l pos="N">ainus</l>
+      <l pos="A">ainus</l>
 
       <stg>
         <st Contlex="N_TERVÜS">ainus</st>
@@ -1498,7 +1498,7 @@
 
   <e>
     <lg>
-      <l pos="N">ainus</l>
+      <l pos="A">ainus</l>
 
       <stg>
         <st Contlex="N_8HÄIELM">ainus</st>
@@ -1678,10 +1678,10 @@
 
   <e>
     <lg>
-      <l pos="N">ajastanõ</l>
+      <l pos="A">ajastanõ</l>
 
       <stg>
-        <st Contlex="N_19ALOMANÕ">ajasta</st>
+        <st Contlex="A_19ALOMANÕ">ajasta</st>
       </stg>
 
       <stress>ajastanõ</stress>
@@ -1716,7 +1716,7 @@
 
   <e>
     <lg>
-      <l pos="N">ajastaonõ</l>
+      <l pos="A">ajastaonõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">ajast#ao</st>
@@ -1758,7 +1758,7 @@
 
   <e>
     <lg>
-      <l pos="N">akadeemiline</l>
+      <l pos="A">akadeemiline</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">akadeemili</st>
@@ -1892,7 +1892,7 @@
 
   <e>
     <lg>
-      <l pos="N">alaaladu</l>
+      <l pos="A">alaaladu</l>
 
       <stg>
         <st Contlex="N_3PERÄDÜ">alaaladu</st>
@@ -1912,7 +1912,7 @@
 
   <e>
     <lg>
-      <l pos="N">aladu</l>
+      <l pos="A">aladu</l>
 
       <stg>
         <st Contlex="N_3PERÄDÜ">aladu</st>
@@ -1926,6 +1926,46 @@
 
       <tg xml:lang="est">
         <t>alatu</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">alaiäline</l>
+
+      <stg>
+        <st Contlex="N_16INEMINE">ala`iäli</st>
+      </stg>
+
+      <stress>ala`iäline</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">alaiäline</l>
+
+      <stg>
+        <st Contlex="N_19ALOMANÕ">ala`iäli</st>
+      </stg>
+
+      <stress>ala`iäline</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="est">
+        <t>alaealine</t>
       </tg>
     </mg>
   </e>
@@ -1972,7 +2012,7 @@
 
   <e>
     <lg>
-      <l pos="N">alalinõ</l>
+      <l pos="A">alalinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">alali</st>
@@ -2052,7 +2092,7 @@
 
   <e>
     <lg>
-      <l pos="N">alasinõ</l>
+      <l pos="A">alasinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">alasi</st>
@@ -2143,6 +2183,29 @@
       </tg>
     </mg>
   </e>
+
+  <e>
+    <lg>
+      <l pos="A">algaja</l>
+
+      <stg>
+	<st Contlex="N_5SUHVLI">algaja</st>
+      </stg>
+
+      <stress>`algaja</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <l_ref type="=">alostaja</l_ref>
+
+      <tg xml:lang="est">
+        <t>algaja</t>
+      </tg>
+    </mg>
+  </e>
+
 
   <e>
     <lg>
@@ -2304,7 +2367,7 @@
 
   <e>
     <lg>
-      <l pos="N">alomanõ</l>
+      <l pos="A">alomanõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">aloma</st>
@@ -2332,7 +2395,7 @@
 
   <e>
     <lg>
-      <l pos="N">alominõ</l>
+      <l pos="A">alominõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">alomi</st>
@@ -2564,6 +2627,28 @@
 
   <e>
     <lg>
+      <l pos="A">alostaja</l>
+
+      <stg>
+        <st Contlex="N_5SUHVLI">alostaja</st>
+      </stg>
+
+      <stress>alostaja</stress>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <l_ref type="=">`algaja</l_ref>
+
+      <tg xml:lang="est">
+        <t>algaja</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="N">alostaldrik</l>
 
       <stg>
@@ -2575,15 +2660,12 @@
 
     <mg>
        
-
       <defNative/>
 
       alustass; 
 
       <i>kohvikroosiq kääväq alostaldrigidõgaq</i>
-
        
-
       <i>üten</i>
 
        kohvitassid käivad koos alustassidega
@@ -2754,7 +2836,7 @@
 
   <e>
     <lg>
-      <l pos="N">ammunõ</l>
+      <l pos="A">ammunõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">ammu</st>
@@ -2778,7 +2860,7 @@
 
   <e>
     <lg>
-      <l pos="N">ammusinõ</l>
+      <l pos="A">ammusinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">ammusi</st>
@@ -2812,7 +2894,7 @@
 
   <e>
     <lg>
-      <l pos="N">ammuskinõ</l>
+      <l pos="A">ammuskinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">ammuski</st>
@@ -3002,7 +3084,7 @@
 
   <e>
     <lg>
-      <l pos="N">andsʼak</l>
+      <l pos="A">andsʼak</l>
 
       <stg>
         <st Contlex="N_10HÕRAK">andsʼak</st>
@@ -3520,7 +3602,7 @@
 
   <e>
     <lg>
-      <l pos="N">aoldõnõ</l>
+      <l pos="A">aoldõnõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">aoldõ</st>
@@ -3568,7 +3650,7 @@
 
   <e>
     <lg>
-      <l pos="N">aolinõ</l>
+      <l pos="A">aolinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">aoli</st>
@@ -3628,7 +3710,7 @@
 
   <e>
     <lg>
-      <l pos="N">aonõ</l>
+      <l pos="A">aonõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">ao</st>
@@ -3650,7 +3732,7 @@
 
   <e>
     <lg>
-      <l pos="N">aotlinõ</l>
+      <l pos="A">aotlinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">aotli</st>
@@ -3910,7 +3992,7 @@
 
   <e>
     <lg>
-      <l pos="N">aparʼ</l>
+      <l pos="A">aparʼ</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">aparʼ</st>
@@ -4428,7 +4510,7 @@
 
   <e>
     <lg>
-      <l pos="N">armsa</l>
+      <l pos="A">armsa</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">armsa</st>
@@ -4496,7 +4578,7 @@
 
   <e>
     <lg>
-      <l pos="N">armukadõ</l>
+      <l pos="A">armukadõ</l>
 
       <stg>
         <st Contlex="N_6MAKÕ">armukadõ</st>
@@ -4516,7 +4598,7 @@
 
   <e>
     <lg>
-      <l pos="N">armukadõ</l>
+      <l pos="A">armukadõ</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">armukadõ</st>
@@ -4576,7 +4658,7 @@
 
   <e>
     <lg>
-      <l pos="N">armulik</l>
+      <l pos="A">armulik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">armulik</st>
@@ -4598,7 +4680,7 @@
 
   <e>
     <lg>
-      <l pos="N">armulinõ</l>
+      <l pos="A">armulinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">armuli</st>
@@ -4622,7 +4704,7 @@
 
   <e>
     <lg>
-      <l pos="N">armõdu</l>
+      <l pos="A">armõdu</l>
 
       <stg>
         <st Contlex="N_3PERÄDÜ">armõdu</st>
@@ -5152,7 +5234,7 @@
 
   <e>
     <lg>
-      <l pos="N">asonõ</l>
+      <l pos="A">asonõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">aso</st>
@@ -5556,7 +5638,7 @@
 
   <e>
     <lg>
-      <l pos="N">asʼalik</l>
+      <l pos="A">asʼalik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">asʼalik</st>
@@ -5918,7 +6000,7 @@
 
   <e>
     <lg>
-      <l pos="N">ausa</l>
+      <l pos="A">ausa</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">ausa</st>
@@ -6120,7 +6202,7 @@
 
   <e>
     <lg>
-      <l pos="N">autonoomilinõ</l>
+      <l pos="A">autonoomilinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">autonoomili</st>
@@ -6248,7 +6330,7 @@
 
   <e>
     <lg>
-      <l pos="N">avvarʼ</l>
+      <l pos="A">avvarʼ</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">avvarʼ</st>
@@ -6270,7 +6352,7 @@
 
   <e>
     <lg>
-      <l pos="N">avvolinõ</l>
+      <l pos="A">avvolinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">avvoli</st>
@@ -7246,7 +7328,7 @@
 
   <e>
     <lg>
-      <l pos="N">edimäne</l>
+      <l pos="A">edimäne</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">edimä</st>
@@ -7570,7 +7652,7 @@
 
   <e>
     <lg>
-      <l pos="N">eeläne</l>
+      <l pos="A">eeläne</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">eelä</st>
@@ -7598,7 +7680,7 @@
 
   <e>
     <lg>
-      <l pos="N">eeläskine</l>
+      <l pos="A">eeläskine</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">eeläski</st>
@@ -7734,7 +7816,7 @@
 
   <e>
     <lg>
-      <l pos="N">egäpääväne</l>
+      <l pos="A">egäpääväne</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">egä#päävä</st>
@@ -7754,7 +7836,7 @@
 
   <e>
     <lg>
-      <l pos="N">egäsugumanõ</l>
+      <l pos="A">egäsugumanõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">egä#suguma</st>
@@ -8212,7 +8294,7 @@
 
   <e>
     <lg>
-      <l pos="N">elläv</l>
+      <l pos="A">elläv</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">elläv</st>
@@ -8782,7 +8864,7 @@
 
   <e>
     <lg>
-      <l pos="N">elähtänüq</l>
+      <l pos="A">elähtänüq</l>
 
       <stg>
         <st Contlex="N_ELÄNÜQ">elähtänü</st>
@@ -8804,7 +8886,7 @@
 
   <e>
     <lg>
-      <l pos="N">elähtünüq</l>
+      <l pos="A">elähtünüq</l>
 
       <stg>
         <st Contlex="N_ELÄNÜQ">elähtünü</st>
@@ -8954,7 +9036,7 @@
 
   <e>
     <lg>
-      <l pos="N">elänüq</l>
+      <l pos="A">elänüq</l>
 
       <stg>
         <st Contlex="N_ELÄNÜQ">elänü</st>
@@ -9162,7 +9244,7 @@
 
   <e>
     <lg>
-      <l pos="N">eräpoolõdu</l>
+      <l pos="A">eräpoolõdu</l>
 
       <stg>
         <st Contlex="N_3PERÄDÜ">eräpoolõdu</st>
@@ -9306,7 +9388,7 @@
 
   <e>
     <lg>
-      <l pos="N">esiqerälik</l>
+      <l pos="A">esiqerälik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">esiqerälik</st>
@@ -9332,7 +9414,7 @@
 
   <e>
     <lg>
-      <l pos="N">esiqeräline</l>
+      <l pos="A">esiqeräline</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">esiqeräli</st>
@@ -9352,7 +9434,7 @@
 
   <e>
     <lg>
-      <l pos="N">esiqsugumanõ</l>
+      <l pos="A">esiqsugumanõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">esiqsuguma</st>
@@ -9372,7 +9454,7 @@
 
   <e>
     <lg>
-      <l pos="N">esiqtahtlinõ</l>
+      <l pos="A">esiqtahtlinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">esiq`tahtli</st>
@@ -9392,7 +9474,7 @@
 
   <e>
     <lg>
-      <l pos="N">esiqviisiline</l>
+      <l pos="A">esiqviisiline</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">esiqviisili</st>
@@ -9580,7 +9662,7 @@
 
   <e>
     <lg>
-      <l pos="N">esälik</l>
+      <l pos="A">esälik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">esälik</st>
@@ -9624,7 +9706,7 @@
 
   <e>
     <lg>
-      <l pos="N">esäne</l>
+      <l pos="A">esäne</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">esä</st>
@@ -9664,7 +9746,7 @@
 
   <e>
     <lg>
-      <l pos="N">etev</l>
+      <l pos="A">etev</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">etev</st>
@@ -9704,7 +9786,7 @@
 
   <e>
     <lg>
-      <l pos="N">ettekaelik</l>
+      <l pos="A">ettekaelik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">ette`kaelik</st>
@@ -9996,7 +10078,7 @@
 
   <e>
     <lg>
-      <l pos="N">fanaatilinõ</l>
+      <l pos="A">fanaatilinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">fanaatili</st>
@@ -10078,7 +10160,7 @@
 
   <e>
     <lg>
-      <l pos="N">filigraanilinõ</l>
+      <l pos="A">filigraanilinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">filigraanili</st>
@@ -11046,7 +11128,7 @@
 
   <e>
     <lg>
-      <l pos="N">haavanõ</l>
+      <l pos="A">haavanõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">haava</st>
@@ -11168,7 +11250,7 @@
 
   <e>
     <lg>
-      <l pos="N">haavinõ</l>
+      <l pos="A">haavinõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">haavi</st>
@@ -11510,7 +11592,7 @@
 
   <e>
     <lg>
-      <l pos="N">hagras</l>
+      <l pos="A">hagras</l>
 
       <stg>
         <st Contlex="N_14RITSʼKAS">hagra</st>
@@ -11606,7 +11688,7 @@
 
   <e>
     <lg>
-      <l pos="N">hahk</l>
+      <l pos="A">hahk</l>
 
       <stg>
         <st Contlex="N_46HAIN">hahk</st>
@@ -11674,7 +11756,7 @@
 
   <e>
     <lg>
-      <l pos="N">hahkjanõ</l>
+      <l pos="A">hahkjanõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hahkja</st>
@@ -11702,7 +11784,7 @@
 
   <e>
     <lg>
-      <l pos="N">hahkjas</l>
+      <l pos="A">hahkjas</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hahkjas</st>
@@ -11848,7 +11930,7 @@
 
   <e>
     <lg>
-      <l pos="N">haiglanõ</l>
+      <l pos="A">haiglanõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">haigla</st>
@@ -11960,7 +12042,7 @@
 
   <e>
     <lg>
-      <l pos="N">haigõ</l>
+      <l pos="A">haigõ</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">haigõ</st>
@@ -12008,7 +12090,7 @@
 
   <e>
     <lg>
-      <l pos="N">haigõnõ</l>
+      <l pos="A">haigõnõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">haigõ</st>
@@ -12044,7 +12126,7 @@
 
   <e>
     <lg>
-      <l pos="N">haigõpoolinõ</l>
+      <l pos="A">haigõpoolinõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">haigõpooli</st>
@@ -12386,7 +12468,7 @@
 
   <e>
     <lg>
-      <l pos="N">hainanõ</l>
+      <l pos="A">hainanõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">haina</st>
@@ -12768,7 +12850,7 @@
 
   <e>
     <lg>
-      <l pos="N">hallanõ</l>
+      <l pos="A">hallanõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">halla</st>
@@ -12788,7 +12870,7 @@
 
   <e>
     <lg>
-      <l pos="N">hallikanõ</l>
+      <l pos="A">hallikanõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hallika</st>
@@ -12816,7 +12898,7 @@
 
   <e>
     <lg>
-      <l pos="N">hallikas</l>
+      <l pos="A">hallikas</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hallikas</st>
@@ -12880,7 +12962,7 @@
 
   <e>
     <lg>
-      <l pos="N">hallõ</l>
+      <l pos="A">hallõ</l>
 
       <stg>
         <st Contlex="N_6MAKÕ">hallõ</st>
@@ -12900,7 +12982,7 @@
 
   <e>
     <lg>
-      <l pos="N">hallõ</l>
+      <l pos="A">hallõ</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">hal|lõ</st>
@@ -12928,7 +13010,7 @@
 
   <e>
     <lg>
-      <l pos="N">hallõlik</l>
+      <l pos="A">hallõlik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">hallõlik</st>
@@ -12952,7 +13034,7 @@
 
   <e>
     <lg>
-      <l pos="N">hallõlinõ</l>
+      <l pos="A">hallõlinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hallõli</st>
@@ -13016,7 +13098,7 @@
 
   <e>
     <lg>
-      <l pos="N">hallʼ</l>
+      <l pos="A">hallʼ</l>
 
       <stg>
         <st Contlex="N_38PUHM">hallʼ</st>
@@ -13064,7 +13146,7 @@
 
   <e>
     <lg>
-      <l pos="N">halv</l>
+      <l pos="A">halv</l>
 
       <stg>
         <st Contlex="N_46HAIN">halv</st>
@@ -13162,7 +13244,7 @@
 
   <e>
     <lg>
-      <l pos="N">halʼas</l>
+      <l pos="A">halʼas</l>
 
       <stg>
         <st Contlex="N_14RITSʼKAS">halʼa</st>
@@ -14061,7 +14143,7 @@
 
   <e>
     <lg>
-      <l pos="N">haraliganõ</l>
+      <l pos="A">haraliganõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">haraliga</st>
@@ -14171,7 +14253,7 @@
 
   <e>
     <lg>
-      <l pos="N">hargliganõ</l>
+      <l pos="A">hargliganõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hargliga</st>
@@ -14219,7 +14301,7 @@
 
   <e>
     <lg>
-      <l pos="N">hargõlinõ</l>
+      <l pos="A">hargõlinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hargõli</st>
@@ -14283,7 +14365,7 @@
 
   <e>
     <lg>
-      <l pos="N">harikanõ</l>
+      <l pos="A">harikanõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">harika</st>
@@ -14307,7 +14389,7 @@
 
   <e>
     <lg>
-      <l pos="N">harilik</l>
+      <l pos="A">harilik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">harilik</st>
@@ -14499,7 +14581,7 @@
 
   <e>
     <lg>
-      <l pos="N">harolinõ</l>
+      <l pos="A">harolinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">haroli</st>
@@ -14547,7 +14629,7 @@
 
   <e>
     <lg>
-      <l pos="N">harv</l>
+      <l pos="A">harv</l>
 
       <stg>
         <st Contlex="N_46HAIN">harv</st>
@@ -14603,7 +14685,7 @@
 
   <e>
     <lg>
-      <l pos="N">harõlinõ</l>
+      <l pos="A">harõlinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">harõli</st>
@@ -14977,7 +15059,7 @@
 
   <e>
     <lg>
-      <l pos="N">hatanõ</l>
+      <l pos="A">hatanõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hata</st>
@@ -15167,7 +15249,7 @@
 
   <e>
     <lg>
-      <l pos="N">haudliganõ</l>
+      <l pos="A">haudliganõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">haudliga</st>
@@ -15193,7 +15275,7 @@
 
   <e>
     <lg>
-      <l pos="N">haudlik</l>
+      <l pos="A">haudlik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">haudlik</st>
@@ -15215,7 +15297,7 @@
 
   <e>
     <lg>
-      <l pos="N">haudlinõ</l>
+      <l pos="A">haudlinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">haudli</st>
@@ -15405,7 +15487,7 @@
 
   <e>
     <lg>
-      <l pos="N">havvonõ</l>
+      <l pos="A">havvonõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">havvo</st>
@@ -15675,7 +15757,7 @@
 
   <e>
     <lg>
-      <l pos="N">heigonõ</l>
+      <l pos="A">heigonõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">heigo</st>
@@ -15853,7 +15935,7 @@
 
   <e>
     <lg>
-      <l pos="N">helde</l>
+      <l pos="A">helde</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">helde</st>
@@ -15947,7 +16029,7 @@
 
   <e>
     <lg>
-      <l pos="N">helksä</l>
+      <l pos="A">helksä</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">helksä</st>
@@ -15985,7 +16067,7 @@
 
   <e>
     <lg>
-      <l pos="N">hell</l>
+      <l pos="A">hell</l>
 
       <stg>
         <st Contlex="N_36SÄRGʼ">hell</st>
@@ -16007,7 +16089,7 @@
 
   <e>
     <lg>
-      <l pos="N">helle</l>
+      <l pos="A">helle</l>
 
       <stg>
         <st Contlex="N_6MAKÕ">helle</st>
@@ -16027,7 +16109,7 @@
 
   <e>
     <lg>
-      <l pos="N">helle</l>
+      <l pos="A">helle</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">helle</st>
@@ -16065,7 +16147,7 @@
 
   <e>
     <lg>
-      <l pos="N">helleverrev</l>
+      <l pos="A">helleverrev</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">hellever|rev</st>
@@ -16165,7 +16247,7 @@
 
   <e>
     <lg>
-      <l pos="N">helläline</l>
+      <l pos="A">helläline</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">helläli</st>
@@ -16185,7 +16267,7 @@
 
   <e>
     <lg>
-      <l pos="N">helläne</l>
+      <l pos="A">helläne</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hellä</st>
@@ -16701,7 +16783,7 @@
 
   <e>
     <lg>
-      <l pos="N">hergonõ</l>
+      <l pos="A">hergonõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hergo</st>
@@ -16735,7 +16817,7 @@
 
   <e>
     <lg>
-      <l pos="N">herk</l>
+      <l pos="A">herk</l>
 
       <stg>
         <st Contlex="N_41KAND">herk</st>
@@ -16767,7 +16849,7 @@
 
   <e>
     <lg>
-      <l pos="N">herksä</l>
+      <l pos="A">herksä</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">herksä</st>
@@ -16937,7 +17019,7 @@
 
   <e>
     <lg>
-      <l pos="N">hernetähine</l>
+      <l pos="A">hernetähine</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hernetähi</st>
@@ -17033,7 +17115,7 @@
 
   <e>
     <lg>
-      <l pos="N">herre</l>
+      <l pos="A">herre</l>
 
       <stg>
         <st Contlex="N_6MAKÕ">herre</st>
@@ -17053,7 +17135,7 @@
 
   <e>
     <lg>
-      <l pos="N">herre</l>
+      <l pos="A">herre</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">her|re</st>
@@ -17243,7 +17325,7 @@
 
   <e>
     <lg>
-      <l pos="N">higine</l>
+      <l pos="A">higine</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">higi</st>
@@ -17315,7 +17397,7 @@
 
   <e>
     <lg>
-      <l pos="N">hiidüskine</l>
+      <l pos="A">hiidüskine</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hiidüski</st>
@@ -17357,7 +17439,7 @@
 
   <e>
     <lg>
-      <l pos="N">hiidʼonõ</l>
+      <l pos="A">hiidʼonõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hiidʼo</st>
@@ -17383,7 +17465,7 @@
 
   <e>
     <lg>
-      <l pos="N">hiilas</l>
+      <l pos="A">hiilas</l>
 
       <stg>
         <st Contlex="N_14RITSʼKAS">hiila</st>
@@ -17433,7 +17515,7 @@
 
   <e>
     <lg>
-      <l pos="N">hiilva</l>
+      <l pos="A">hiilva</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">hiilva</st>
@@ -17455,7 +17537,7 @@
 
   <e>
     <lg>
-      <l pos="N">hiine</l>
+      <l pos="A">hiine</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hii</st>
@@ -17675,7 +17757,7 @@
 
   <e>
     <lg>
-      <l pos="N">hiitlik</l>
+      <l pos="A">hiitlik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">hiitlik</st>
@@ -17759,7 +17841,7 @@
 
   <e>
     <lg>
-      <l pos="N">hilksa</l>
+      <l pos="A">hilksa</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">hilksa</st>
@@ -17797,7 +17879,7 @@
 
   <e>
     <lg>
-      <l pos="N">hille</l>
+      <l pos="A">hille</l>
 
       <stg>
         <st Contlex="N_6MAKÕ">hille</st>
@@ -17817,7 +17899,7 @@
 
   <e>
     <lg>
-      <l pos="N">hille</l>
+      <l pos="A">hille</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">hil|le</st>
@@ -17845,7 +17927,7 @@
 
   <e>
     <lg>
-      <l pos="N">hilläk</l>
+      <l pos="A">hilläk</l>
 
       <stg>
         <st Contlex="N_10HÕRAK">hilläk</st>
@@ -17987,7 +18069,7 @@
 
   <e>
     <lg>
-      <l pos="N">himokanõ</l>
+      <l pos="A">himokanõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">himoka</st>
@@ -18019,7 +18101,7 @@
 
   <e>
     <lg>
-      <l pos="N">himokas</l>
+      <l pos="A">himokas</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">himokas</st>
@@ -18039,7 +18121,7 @@
 
   <e>
     <lg>
-      <l pos="N">himolinõ</l>
+      <l pos="A">himolinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">himoli</st>
@@ -18201,7 +18283,7 @@
 
   <e>
     <lg>
-      <l pos="N">hindäsugunõ</l>
+      <l pos="A">hindäsugunõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hindäsugu</st>
@@ -18261,7 +18343,7 @@
 
   <e>
     <lg>
-      <l pos="N">hindävolinõ</l>
+      <l pos="A">hindävolinõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hindävoli</st>
@@ -18281,7 +18363,7 @@
 
   <e>
     <lg>
-      <l pos="N">hindäväsünüq</l>
+      <l pos="A">hindäväsünüq</l>
 
       <stg>
         <st Contlex="N_ELÄNÜQ">hindäväsünü</st>
@@ -18691,7 +18773,7 @@
 
   <e>
     <lg>
-      <l pos="N">hirmsa</l>
+      <l pos="A">hirmsa</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">hirmsa</st>
@@ -18735,7 +18817,7 @@
 
   <e>
     <lg>
-      <l pos="N">hirmudu</l>
+      <l pos="A">hirmudu</l>
 
       <stg>
         <st Contlex="N_3PERÄDÜ">hirmudu</st>
@@ -19199,7 +19281,7 @@
 
   <e>
     <lg>
-      <l pos="N">hoimanõ</l>
+      <l pos="A">hoimanõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hoima</st>
@@ -19239,7 +19321,7 @@
 
   <e>
     <lg>
-      <l pos="N">hoitlik</l>
+      <l pos="A">hoitlik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">hoitlik</st>
@@ -19677,7 +19759,7 @@
 
   <e>
     <lg>
-      <l pos="N">hoolas</l>
+      <l pos="A">hoolas</l>
 
       <stg>
         <st Contlex="N_14RITSʼKAS">hoola</st>
@@ -19699,7 +19781,7 @@
 
   <e>
     <lg>
-      <l pos="N">hoolikanõ</l>
+      <l pos="A">hoolikanõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hoolika</st>
@@ -19721,7 +19803,7 @@
 
   <e>
     <lg>
-      <l pos="N">hoolõdu</l>
+      <l pos="A">hoolõdu</l>
 
       <stg>
         <st Contlex="N_3PERÄDÜ">hoolõdu</st>
@@ -19741,7 +19823,7 @@
 
   <e>
     <lg>
-      <l pos="N">hoolõlinõ</l>
+      <l pos="A">hoolõlinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hoolõli</st>
@@ -20351,7 +20433,7 @@
 
   <e>
     <lg>
-      <l pos="N">huba</l>
+      <l pos="A">huba</l>
 
       <stg>
         <st Contlex="N_40TALO">huba</st>
@@ -20429,7 +20511,7 @@
 
   <e>
     <lg>
-      <l pos="N">hubanõ</l>
+      <l pos="A">hubanõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">huba</st>
@@ -20727,7 +20809,7 @@
 
   <e>
     <lg>
-      <l pos="N">hulbõlinõ</l>
+      <l pos="A">hulbõlinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hulbõli</st>
@@ -20985,7 +21067,7 @@
 
   <e>
     <lg>
-      <l pos="N">hummongunõ</l>
+      <l pos="A">hummongunõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hummongu</st>
@@ -21005,7 +21087,7 @@
 
   <e>
     <lg>
-      <l pos="N">hummõninõ</l>
+      <l pos="A">hummõninõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hummõni</st>
@@ -21659,7 +21741,7 @@
 
   <e>
     <lg>
-      <l pos="N">hurmõlinõ</l>
+      <l pos="A">hurmõlinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hurmõli</st>
@@ -22439,7 +22521,7 @@
 
   <e>
     <lg>
-      <l pos="N">huvitav</l>
+      <l pos="A">huvitav</l>
 
       <stg>
         <st Contlex="N_8HÄIELM">huvitav</st>
@@ -22535,7 +22617,7 @@
 
   <e>
     <lg>
-      <l pos="N">hyngsa</l>
+      <l pos="A">hyngsa</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">hyngsa</st>
@@ -22619,7 +22701,7 @@
 
   <e>
     <lg>
-      <l pos="N">häbelik</l>
+      <l pos="A">häbelik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">häbelik</st>
@@ -22675,7 +22757,7 @@
 
   <e>
     <lg>
-      <l pos="N">häbeläs</l>
+      <l pos="A">häbeläs</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">häbeläs</st>
@@ -22803,7 +22885,7 @@
 
   <e>
     <lg>
-      <l pos="N">hädälik</l>
+      <l pos="A">hädälik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">hädälik</st>
@@ -22825,7 +22907,7 @@
 
   <e>
     <lg>
-      <l pos="N">hädäline</l>
+      <l pos="A">hädäline</l>
 
       <stg>
         <st Contlex="N_16INEMINE">hädäli</st>
@@ -22887,7 +22969,7 @@
 
   <e>
     <lg>
-      <l pos="N">hädäne</l>
+      <l pos="A">hädäne</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hädä</st>
@@ -22909,7 +22991,7 @@
 
   <e>
     <lg>
-      <l pos="N">hädäohtlik</l>
+      <l pos="A">hädäohtlik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">hädä`ohtlik</st>
@@ -23613,7 +23695,7 @@
 
   <e>
     <lg>
-      <l pos="N">härmäne</l>
+      <l pos="A">härmäne</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">härmä</st>
@@ -23861,7 +23943,7 @@
 
   <e>
     <lg>
-      <l pos="N">hääline</l>
+      <l pos="A">hääline</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hääli</st>
@@ -23881,7 +23963,7 @@
 
   <e>
     <lg>
-      <l pos="N">hääpoolinõ</l>
+      <l pos="A">hääpoolinõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hääpooli</st>
@@ -23913,7 +23995,7 @@
 
   <e>
     <lg>
-      <l pos="N">hääpuulnõ</l>
+      <l pos="A">hääpuulnõ</l>
 
       <stg>
         <st Contlex="N_8HÄIELM">hää#puul|nõ</st>
@@ -23933,7 +24015,7 @@
 
   <e>
     <lg>
-      <l pos="N">häätahtlinõ</l>
+      <l pos="A">häätahtlinõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hää`tahtli</st>
@@ -24029,7 +24111,7 @@
 
   <e>
     <lg>
-      <l pos="N">häüligäne</l>
+      <l pos="A">häüligäne</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">häüligä</st>
@@ -24051,7 +24133,7 @@
 
   <e>
     <lg>
-      <l pos="N">häülik</l>
+      <l pos="A">häülik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">häülik</st>
@@ -24073,7 +24155,7 @@
 
   <e>
     <lg>
-      <l pos="N">häüläs</l>
+      <l pos="A">häüläs</l>
 
       <stg>
         <st Contlex="N_14RITSʼKAS">häülä</st>
@@ -24131,7 +24213,7 @@
 
   <e>
     <lg>
-      <l pos="N">häütü</l>
+      <l pos="A">häütü</l>
 
       <stg>
         <st Contlex="N_SUHVLI">häütü</st>
@@ -24153,7 +24235,7 @@
 
   <e>
     <lg>
-      <l pos="N">hõbõhõnõ</l>
+      <l pos="A">hõbõhõnõ</l>
 
       <stg>
         <st Contlex="N_19ALOMANÕ">hõbõhõ</st>
@@ -24173,7 +24255,7 @@
 
   <e>
     <lg>
-      <l pos="N">hõdras</l>
+      <l pos="A">hõdras</l>
 
       <stg>
         <st Contlex="N_14RITSʼKAS">hõdra</st>
@@ -24229,7 +24311,7 @@
 
   <e>
     <lg>
-      <l pos="N">hõdsʼonõ</l>
+      <l pos="A">hõdsʼonõ</l>
 
       <stg>
         <st Contlex="N_13ALONÕ">hõdsʼo</st>
@@ -24309,7 +24391,7 @@
 
   <e>
     <lg>
-      <l pos="N">hõel</l>
+      <l pos="A">hõel</l>
 
       <stg>
         <st Contlex="N_46HAIN">hõel</st>
@@ -24655,7 +24737,7 @@
 
   <e>
     <lg>
-      <l pos="N">hõllõ</l>
+      <l pos="A">hõllõ</l>
 
       <stg>
         <st Contlex="N_6MAKÕ">hõllõ</st>
@@ -24675,7 +24757,7 @@
 
   <e>
     <lg>
-      <l pos="N">hõllõ</l>
+      <l pos="A">hõllõ</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">hõl|lõ</st>
@@ -24775,7 +24857,7 @@
 
   <e>
     <lg>
-      <l pos="N">hõlpsa</l>
+      <l pos="A">hõlpsa</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">hõlpsa</st>
@@ -25077,7 +25159,7 @@
 
   <e>
     <lg>
-      <l pos="N">hõrksa</l>
+      <l pos="A">hõrksa</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">hõrksa</st>
@@ -25143,7 +25225,7 @@
 
   <e>
     <lg>
-      <l pos="N">hõrrõ</l>
+      <l pos="A">hõrrõ</l>
 
       <stg>
         <st Contlex="N_6MAKÕ">hõrrõ</st>
@@ -25163,7 +25245,7 @@
 
   <e>
     <lg>
-      <l pos="N">hõrrõ</l>
+      <l pos="A">hõrrõ</l>
 
       <stg>
         <st Contlex="N_9KIPÕNʼ">hõr|rõ</st>
@@ -25183,7 +25265,7 @@
 
   <e>
     <lg>
-      <l pos="N">hõrrõlik</l>
+      <l pos="A">hõrrõlik</l>
 
       <stg>
         <st Contlex="N_43KANARIK">hõrrõlik</st>
@@ -25518,7 +25600,7 @@
 
   <e>
     <lg>
-      <l pos="N">höörik</l>
+      <l pos="A">höörik</l>
 
       <stg>
         <st Contlex="N_10HÕRAK">höörik</st>
@@ -26154,7 +26236,7 @@
 
   <e>
     <lg>
-      <l pos="N">hürske</l>
+      <l pos="A">hürske</l>
 
       <stg>
         <st Contlex="N_5SUHVLI">hürske</st>
@@ -26380,7 +26462,7 @@
 
   <e>
     <lg>
-      <l pos="N">hüvä</l>
+      <l pos="A">hüvä</l>
 
       <stg>
         <st Contlex="N_35TARÕ">hüvä</st>
@@ -26509,7 +26591,7 @@
 
   <e>
     <lg>
-      <l pos="N">hüväpuulnõ</l>
+      <l pos="A">hüväpuulnõ</l>
 
       <stg>
         <st Contlex="N_8HÄIELM">hüvä#puul|nõ</st>
@@ -26659,7 +26741,7 @@
 
   <e>
     <lg>
-      <l pos="N">ideaalnõ</l>
+      <l pos="A">ideaalnõ</l>
 
       <stg>
         <st Contlex="N_8HÄIELM">ideaal|nõ</st>
@@ -26739,7 +26821,7 @@
 
   <e>
     <lg>
-      <l pos="N">igihallʼas</l>
+      <l pos="A">igihallʼas</l>
 
       <stg>
         <st Contlex="N_14RITSʼKAS">igi#hallʼa</st>
