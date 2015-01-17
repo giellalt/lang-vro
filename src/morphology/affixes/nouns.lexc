@@ -1623,7 +1623,7 @@ LEXICON NMN_39HÄBÜ-SG
 :%^XStrGStem SG-ILL_ZERO   ;
 
 LEXICON NMN_39HÄBÜ-PL 
-        PL-NOM ;
+:%^WGStem        PL-NOM ;
 :%^StrGStem%^LowerVowDelab  PL-GEN_ZERO ;
 :%^XStrGStem%^LowerVowDelab      PL-ILL_ZERO       ;
 :%^XStrGStem%^LowerVowDelab      PL-ILL_he       ;
@@ -1632,20 +1632,22 @@ LEXICON NMN_39HÄBÜ-PL
 :%^StrGStem%^XLowerVowDelab  PL-GEN_ZERO ;
 :%^XStrGStem%^XLowerVowDelab      PL-ILL_ZERO       ;
 :%^XStrGStem%^XLowerVowDelab      PL-ILL_he       ;
+:%^XStrGStem%^XLowerVowDelab      PL-ILL_dÕ       ;
 :%^StrGStem%^XLowerVowDelab      PL-PAR_ZERO        ;
 :%^StrGStem%^XLowerVowDelab      PL-ALL_lÕ-STEM       ;
+:%^StrGStem%^XLowerVowDelab PL-COM ;
 
 LEXICON NMN_40TALO
   NMN_40TALO-SG ;
   NMN_40TALO-PL ;
 LEXICON NMN_40TALO-SG 
         SG-NOM  ;
-:%^WGStem       SG-GEN_ZERO-STEM        ;
+       SG-GEN_ZERO-STEM        ;
 :%^StrGStem       SG-ILL_ZERO        ;
 :%^StrGStem       SG-PAR_ZERO        ;
 
 LEXICON NMN_40TALO-PL 
-:%^WGStem       PL-NOM ;
+       PL-NOM ;
 :%^StrGStem%^VowRM%{AÄ%}    PL-GEN_ZERO ;
 :%^StrGStem%^VowRM%{ÕE%}    PL-GEN_ZERO ;
 :%^StrGStem%^VowRM%{ÕE%}    PL-PAR_ZERO ;
