@@ -110,7 +110,8 @@ LEXICON N_SILM-PL
 +N: NMN_SILM-PL ;
 
 LEXICON N_9KIPÕNʼ
-!! * Yaml: __ellaei, suhvli__
+!! kipõnʼ:kipõnʼ
+!! * Yaml: __N-ellaei4, N-kipwnj9__
    N_9KIPÕNʼ-SG ;
    N_9KIPÕNʼ-PL ;
 LEXICON N_9KIPÕNʼ-SG
@@ -199,6 +200,8 @@ LEXICON N_HAMÕH-PL
 
 
 LEXICON N_15KOTUS
+!! kotus:kotus
+!! * Yaml: __N-kotus15__
         N_15KOTUS-SG ;
         N_15KOTUS-PL ;
 LEXICON N_15KOTUS-SG
@@ -207,7 +210,9 @@ LEXICON N_15KOTUS-PL
 +N:     NMN_15KOTUS-PL ;
 
 
-LEXICON N_16INEMINE !!= @CODE@ inemine:inemi
+LEXICON N_16INEMINE !!= @CODE@
+!! inemine:inemi
+!! * Yaml: __N-inemine16__
 	N_16INEMINE-SG ;
 	N_16INEMINE-PL ;
 LEXICON N_16INEMINE-SG
@@ -386,12 +391,23 @@ LEXICON N_34TULI-PL
 +N+Sg+Nom+WORK: K ;
 
 LEXICON N_35TARÕ
+!! tarõ:tar
  N_35TARÕ-SG ;
  N_35TARÕ-PL ;
 LEXICON N_35TARÕ-SG
 +N: NMN_35TARÕ-SG ;
 LEXICON N_35TARÕ-PL
 +N: NMN_35TARÕ-PL ;
++N+Sg+Nom+WORK: K ;
+
+LEXICON N_NIMI
+!! nimi:nim
+ N_NIMI-SG ;
+ N_NIMI-PL ;
+LEXICON N_NIMI-SG
++N: NMN_NIMI-SG ;
+LEXICON N_NIMI-PL
++N: NMN_NIMI-PL ;
 +N+Sg+Nom+WORK: K ;
 
 LEXICON N_36SÄRGʼ !!= @CODE@ särgʼ:särgʼ
@@ -1112,6 +1128,8 @@ LEXICON NMN_HAMÕH-PL
 !:%^VowRM%>ii PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_15KOTUS
+!! kotus:kotus
+!! * Yaml: __N-kotus15__
   NMN_15KOTUS-SG ;
   NMN_15KOTUS-PL ;
 
@@ -1519,6 +1537,16 @@ LEXICON NMN_35TARÕ
 LEXICON NMN_35TARÕ-SG 
 +WORK: #;
 LEXICON NMN_35TARÕ-PL 
++WORK: #;
+
+LEXICON NMN_NIMI
+!! nimi:nim
+!! * Yaml: __N-nimi__
+  NMN_NIMI-SG ;
+  NMN_NIMI-PL ;
+LEXICON NMN_NIMI-SG 
++WORK: #;
+LEXICON NMN_NIMI-PL 
 +WORK: #;
 
 LEXICON NMN_36SÄRGʼ
