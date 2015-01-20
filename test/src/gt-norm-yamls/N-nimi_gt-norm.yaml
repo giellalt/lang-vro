@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - nimi: # Noun nimi 'eng name /est /fin' - full paradigm
+     nimi+N+Sg+Nom: nimi
+     nimi+N+Sg+Gen: nime
+     nimi+N+Sg+Par: nimme
+     nimi+N+Sg+Ill: nimme
+     nimi+N+Pl+Gen: nimmi
+     nimi+N+Pl+Par: nimmi
+     nimi+N+Pl+Ill: [nimmihe, nimmi]
+     nimi+N+Pl+All: [nimile, nimmile]
+
