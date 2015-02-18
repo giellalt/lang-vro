@@ -63,7 +63,7 @@ LEXICON N_4TERVÜS-PL
 
 
 LEXICON N_5SUHVLI
-!! * Yaml: ____
+!! * Yaml: __N-oppaja5__
    N_5SUHVLI-SG ;
    N_5SUHVLI-PL ;
 
@@ -770,6 +770,7 @@ LEXICON NMN_4TERVÜS-PL
 :%^CnsRM%>i PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_5SUHVLI
+!! * Yaml: __N-oppaja5__
   NMN_5SUHVLI-SG ;
   NMN_5SUHVLI-PL ;
 LEXICON NMN_5SUHVLI-SG 
@@ -777,12 +778,22 @@ LEXICON NMN_5SUHVLI-SG
 	SG-GEN_ZERO-STEM       ;
 	SG-PAR_t	;
 	SG-ILL_he	;
+	SG-ILL_dÕ	;
 LEXICON NMN_5SUHVLI-PL
 	PL-NOM ;
 :%^VowRM%>i	PL-GEN_dÕ ;
+:%^VowRM%>ii	PL-GEN_dÕ ;
 :%^VowRM%>i        PL-ILL_he       ;
+:%^VowRM%>i        PL-ILL_dÕ       ;
+:%^VowRM%>ii        PL-ILL_dÕ       ;
+:%^VowRM%>ii        PL-ILL_he       ;
 :%^VowRM%>i        PL-ALL_lÕ-STEM       ;
+:%^VowRM%>ii        PL-ALL_lÕ-STEM       ;
 :%^VowRM%>i      PL-PAR_t        ;
+:%^VowRM%>ii      PL-PAR_d        ;
+:%^VowRM%>i%>d%{ÕE%}      PL-COM        ;
+:%^VowRM%>ii%>d%{ÕE%}      PL-COM        ;
+
 
 LEXICON NMN_6MAKÕ
   NMN_6MAKÕ-SG ;
