@@ -1,16 +1,11 @@
 
-Morphology
-----------
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
+!!!V̈õru tags and basic lexica
 
 
-Analysis symbols
-----------------
-The morphological analyses of wordforms of UNDEFINED language are presented
-in this system in terms of following symbols.
-(It is highly suggested to follow existing standards when adding new tags).
 
- * __+WORK__ (eng) work needed !(vro) tüü
+!!Analysis symbols
+
+ * __+WORK__ (eng) work needed 
 
 The parts-of-speech are:
  * __+N	__
@@ -239,15 +234,6 @@ Question and Focus particles:
 
 
 
-Semantics are classified with
- * __! +Sem/Kin__  Kinship term (reflected in special PxSg2 forms),
- * __! +Sem/Divinity__  Divinity (god personified),
- * __! +Sem/Constellation__  Constellation,
- * __! +Sem/Kin	__ Kin term
- * __! +Sem/Patr 	__  Patronym
- * __! +Sem/Rvr__  name of river or water way, media of transportation,
- * __! +Sem/Inanim__  Inanimate,
- * __! +Sem/NonHum__  Nonhuman,
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
@@ -256,65 +242,65 @@ source and target part-of-speech.
  * __+V→V	__
  * __+V→A	__
  * __+Der/xxx__
-  +Der/JA 	actor
+ __ +Der/JA __	actor
 
 Morphophonology
----------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
-  %{OÖ%} 	 Vowel harmony with oö
-  %{UÜ%} 	 Vowel harmony with uü
-  %{AÄ%} 	 Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
-  %{ÕE%}  	 Vowel harmony with õe
-  %{XV%}		 This is used for echoing the previous vowel
-  %{XC%}		 This is used for lengthening a consonant
-  %^I7           This appears in stem vaoma:va%^I7o for vaio
-  %^V7           This appears in stem häömä:hä%^V7ö for hävvü
-  %^T7           This appears in stem kaoma:ka%^T7o for katoq
+ __ %{OÖ%} 	__ Vowel harmony with oö
+ __ %{UÜ%} 	__ Vowel harmony with uü
+ __ %{AÄ%} 	__ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ __ %{ÕE%}  	__ Vowel harmony with õe
+ __ %{XV%}		__ This is used for echoing the previous vowel
+ __ %{XC%}		__ This is used for lengthening a consonant
+ __ %^I7         __  This appears in stem vaoma:va%^I7o for vaio
+ __ %^V7         __  This appears in stem häömä:hä%^V7ö for hävvü
+ __ %^T7         __  This appears in stem kaoma:ka%^T7o for katoq
 And following triggers to control variation
-  %^VowRM   this will remove stem final vowel
-  %^CnsRM   this will remove stem final consonant tervüs:tervü
-  %^StrGStem  This strengthens "perädü" to "perätüt"
-  %^XStrGStem  This extra-strengthens "sõda" to "sõtta"
- * __%^NoGrad__
-  %^WGStem  This weakens
-  %^SYNC  syncope tapõld : taplõma
-  %^TS	  
-  %^PLPRT  The a:o attested in Plural kana:kanno and prt
- %^RVow       Raises vowel
- %^LowerVow   Lowers vowel
- %^XLowerVow  Lowers vowel two levels
- %^LowerVowDelab  Lowers vowel and delabializes it
- %^XLowerVowDelab  Lowers vowel two levels and delabializes it
+ __ %^VowRM  __ this will remove stem final vowel
+ __ %^CnsRM  __ this will remove stem final consonant tervüs:tervü
+ __ %^StrGStem __ This strengthens "perädü" to "perätüt"
+ __ %^XStrGStem __ This extra-strengthens "sõda" to "sõtta"
+  __%^NoGrad__
+ __ %^WGStem __ This weakens
+ __ %^SYNC __ syncope tapõld : taplõma
+ __ %^TS	  __
+ __ %^PLPRT __ The a:o attested in Plural kana:kanno and prt
+ __%^RVow      __ Raises vowel
+ __%^LowerVow  __ Lowers vowel
+ __%^XLowerVow __ Lowers vowel two levels
+ __%^LowerVowDelab __ Lowers vowel and delabializes it
+ __%^XLowerVowDelab __ Lowers vowel two levels and delabializes it
 
 
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
- | @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- | @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- | @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+ | __@P.NeedNoun.ON@__ | (Dis)allow compounds with verbs unless nominalised
+ | __@D.NeedNoun.ON@__ | (Dis)allow compounds with verbs unless nominalised
+ | __@C.NeedNoun@__ | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
- | @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- | @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- | @P.CmpPref.FALSE@ | Block these words from making further compounds
- | @D.CmpLast.TRUE@ | Block such words from entering R
- | @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- | @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- | @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+ | __@P.CmpFrst.FALSE@__ | Require that words tagged as such only appear first
+ | __@D.CmpPref.TRUE@__ | Block such words from entering ENDLEX
+ | __@P.CmpPref.FALSE@__ | Block these words from making further compounds
+ | __@D.CmpLast.TRUE@__ | Block such words from entering R
+ | __@D.CmpNone.TRUE@__ | Combines with the next tag to prohibit compounding
+ | __@U.CmpNone.FALSE@__ | Combines with the prev tag to prohibit compounding
+ | __@P.CmpOnly.TRUE@__ | Sets a flag to indicate that the word has passed R
+ | __@D.CmpOnly.FALSE@__ | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
- | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+ | __@U.Cap.Obl@__ | Allowing downcasing of derived names: deatnulasj.
+ | __@U.Cap.Opt@__ | Allowing downcasing of derived names: deatnulasj.
 
 !!!The Root lexicon
 

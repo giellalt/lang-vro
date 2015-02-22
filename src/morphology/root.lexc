@@ -12,19 +12,14 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-!! Morphology
-!! ----------
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
+!! !!!V̈õru tags and basic lexica
 
 
 Multichar_Symbols
-!! Analysis symbols
-!! ----------------
-!! The morphological analyses of wordforms of UNDEFINED language are presented
-!! in this system in terms of following symbols.
-!! (It is highly suggested to follow existing standards when adding new tags).
 
-+WORK  !!≈ * __@CODE@__ (eng) work needed !(vro) tüü
+!! !!Analysis symbols
+
++WORK  !!≈ * __@CODE@__ (eng) work needed 
 
 !! The parts-of-speech are:
  +N	    !!≈ * __@CODE@__
@@ -380,15 +375,15 @@ Multichar_Symbols
 +Sem/Time_Wthr
 
 
-!! Semantics are classified with
-! +Sem/Kin    !!≈ * __@CODE@__  Kinship term (reflected in special PxSg2 forms),
-! +Sem/Divinity !!≈ * __@CODE@__  Divinity (god personified),
-! +Sem/Constellation !!≈ * __@CODE@__  Constellation,
-! +Sem/Kin	  !!≈ * __@CODE@__ Kin term
-! +Sem/Patr   	  !!≈ * __@CODE@__  Patronym
-! +Sem/Rvr    !!≈ * __@CODE@__  name of river or water way, media of transportation,
-! +Sem/Inanim !!≈ * __@CODE@__  Inanimate,
-! +Sem/NonHum !!≈ * __@CODE@__  Nonhuman,
+! Semantics are classified with
+! +Sem/Kin    !≈ * __@CODE@__  Kinship term (reflected in special PxSg2 forms),
+! +Sem/Divinity !≈ * __@CODE@__  Divinity (god personified),
+! +Sem/Constellation !≈ * __@CODE@__  Constellation,
+! +Sem/Kin	  !≈ * __@CODE@__ Kin term
+! +Sem/Patr   	  !≈ * __@CODE@__  Patronym
+! +Sem/Rvr    !≈ * __@CODE@__  name of river or water way, media of transportation,
+! +Sem/Inanim !≈ * __@CODE@__  Inanimate,
+! +Sem/NonHum !≈ * __@CODE@__  Nonhuman,
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
@@ -397,38 +392,38 @@ Multichar_Symbols
 +V→V	   !!≈ * __@CODE@__
 +V→A	   !!≈ * __@CODE@__
  +Der/xxx  !!≈ * __@CODE@__
- +Der/JA !!= @CODE@	actor
+ +Der/JA !!= __@CODE@__	actor
 
 !! Morphophonology
-!! ---------------
+! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- %{OÖ%} 	!!= @CODE@ Vowel harmony with oö
- %{UÜ%} 	!!= @CODE@ Vowel harmony with uü
- %{AÄ%} 	!!= @CODE@ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
- %{ÕE%}  	!!= @CODE@ Vowel harmony with õe
- %{XV%}		!!= @CODE@ This is used for echoing the previous vowel
- %{XC%}		!!= @CODE@ This is used for lengthening a consonant
- %^I7         !!= @CODE@  This appears in stem vaoma:va%^I7o for vaio
- %^V7         !!= @CODE@  This appears in stem häömä:hä%^V7ö for hävvü
- %^T7         !!= @CODE@  This appears in stem kaoma:ka%^T7o for katoq
+ %{OÖ%} 	!!= __@CODE@__ Vowel harmony with oö
+ %{UÜ%} 	!!= __@CODE@__ Vowel harmony with uü
+ %{AÄ%} 	!!= __@CODE@__ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ %{ÕE%}  	!!= __@CODE@__ Vowel harmony with õe
+ %{XV%}		!!= __@CODE@__ This is used for echoing the previous vowel
+ %{XC%}		!!= __@CODE@__ This is used for lengthening a consonant
+ %^I7         !!= __@CODE@__  This appears in stem vaoma:va%^I7o for vaio
+ %^V7         !!= __@CODE@__  This appears in stem häömä:hä%^V7ö for hävvü
+ %^T7         !!= __@CODE@__  This appears in stem kaoma:ka%^T7o for katoq
  OÖ1 UY1 V1 V2 V3 K1
 !! And following triggers to control variation
  {front} {back}
- %^VowRM  !!= @CODE@ this will remove stem final vowel
- %^CnsRM  !!= @CODE@ this will remove stem final consonant tervüs:tervü
- %^StrGStem !!= @CODE@ This strengthens "perädü" to "perätüt"
- %^XStrGStem !!= @CODE@ This extra-strengthens "sõda" to "sõtta"
- %^NoGrad   !!≈ * __@CODE@__
- %^WGStem !!= @CODE@ This weakens
- %^SYNC !!= @CODE@ syncope tapõld : taplõma
- %^TS	  !!= @CODE@
- %^PLPRT !!= @CODE@ The a:o attested in Plural kana:kanno and prt
-%^RVow      !!= @CODE@ Raises vowel
-%^LowerVow  !!= @CODE@ Lowers vowel
-%^XLowerVow !!= @CODE@ Lowers vowel two levels
-%^LowerVowDelab !!= @CODE@ Lowers vowel and delabializes it
-%^XLowerVowDelab !!= @CODE@ Lowers vowel two levels and delabializes it
+ %^VowRM  !!= __@CODE@__ this will remove stem final vowel
+ %^CnsRM  !!= __@CODE@__ this will remove stem final consonant tervüs:tervü
+ %^StrGStem !!= __@CODE@__ This strengthens "perädü" to "perätüt"
+ %^XStrGStem !!= __@CODE@__ This extra-strengthens "sõda" to "sõtta"
+ %^NoGrad   !!≈  __@CODE@__
+ %^WGStem !!= __@CODE@__ This weakens
+ %^SYNC !!= __@CODE@__ syncope tapõld : taplõma
+ %^TS	  !!= __@CODE@__
+ %^PLPRT !!= __@CODE@__ The a:o attested in Plural kana:kanno and prt
+%^RVow      !!= __@CODE@__ Raises vowel
+%^LowerVow  !!= __@CODE@__ Lowers vowel
+%^XLowerVow !!= __@CODE@__ Lowers vowel two levels
+%^LowerVowDelab !!= __@CODE@__ Lowers vowel and delabializes it
+%^XLowerVowDelab !!= __@CODE@__ Lowers vowel two levels and delabializes it
 
 %: %> %-
 
@@ -436,29 +431,30 @@ Multichar_Symbols
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @P.NeedNoun.ON@    !!≈ | __@CODE@__ | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ | __@CODE@__ | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ | __@CODE@__ | (Dis)allow compounds with verbs unless nominalised
 !! 
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ | @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ | @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ | @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ | @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
-!! 
+ @P.CmpFrst.FALSE@ !!≈ | __@CODE@__ | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ | __@CODE@__ | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ | __@CODE@__ | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ | __@CODE@__ | Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ | __@CODE@__ | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ | __@CODE@__ | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ | __@CODE@__ | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ | __@CODE@__ | Disallow words coming directly from root.
+
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+
+ @U.Cap.Obl@        !!≈ | __@CODE@__ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!≈ | __@CODE@__ | Allowing downcasing of derived names: deatnulasj.
 
 !! !!!The Root lexicon
 
