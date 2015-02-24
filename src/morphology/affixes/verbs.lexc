@@ -307,7 +307,25 @@ LEXICON V_63SÕIMAMA !!≈ * __@CODE@__ sõimama:sõima
 
 
 LEXICON V_64PUHKSAMA
-+V+WORK: # ;
+! puhksama:puhkas
++V:%^APOCH%>%{AÄ%} V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V:%^APOCH%>%{AÄ%} V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-OC ;
+
++V:%^APOCH V0-IND-PRT-SC-12_si-NO-s ;
++V: V0-IND-PRT-SC-CONNEG ;
++V:%^WGStem V0-IND-PRT-SC3_sʼ-NO-s ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V:%^APOCH%>%{AÄ%} V0-INF_mA ;
++V:%^WGStem V0-INF_tAq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC_WEAKGRADE ;
++V: V0-PSS-PRS-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
+
 LEXICON V_65SIBAHAMA !!≈ * __@CODE@__ >>88SIBAMA >>SIBAMA
 
 +V+WORK: # ;
@@ -904,6 +922,18 @@ LEXICON V0-IND-PRT-SC-12_si
 +Ind+Prt+ScPl2:%>siq K ;
 +Ind+Prt+ScPl2:%>sidõq K ;
 
+LEXICON V0-IND-PRT-SC-12_si-NO-s
++Ind+Prt+ScSg1:%>i K ;
++Ind+Prt+ScSg2:%>iq K ;
++Ind+Prt+ScSg2:%>it K ;
++Ind+Prt+ScSg2:%>idõq K ;
++Ind+Prt+ScPl1:%>imiq K ;
++Ind+Prt+ScPl1:%>i K ;
++Ind+Prt+ScPl2:%>itiq K ;
++Ind+Prt+ScPl2:%>it K ;
++Ind+Prt+ScPl2:%>iq K ;
++Ind+Prt+ScPl2:%>idõq K ;
+
 LEXICON V0-IND-PRT-SCSG3_ZERO
 +Ind+Prt+ScSg3: K ;
 LEXICON V0-IND-PRT-SCSG3_i
@@ -931,6 +961,11 @@ LEXICON V0-IND-PRT-SC3_sʼ
 +Ind+Prt+ScSg3:%^WGStem%>sʼ K ;
 +Ind+Prt+ScPl3:%^VowRM%>siq K ;
 +Ind+Prt+ScPl3:%^VowRM%>siv%{AÄ%}q K ;
+
+LEXICON V0-IND-PRT-SC3_sʼ-NO-s
++Ind+Prt+ScSg3:%^WGStem%>ʼ K ;
++Ind+Prt+ScPl3:%^VowRM%>iq K ;
++Ind+Prt+ScPl3:%^VowRM%>iv%{AÄ%}q K ;
 
 LEXICON V0-IND-PRT-SC3_si_WEAKGRADE
 +Ind+Prt+ScSg3:%^WGStem%>si K ;
@@ -987,6 +1022,9 @@ LEXICON V0-INF_mA
 
 LEXICON V0-INF_dAq
 +Inf:%>d%{AÄ%}q K ;
+
+LEXICON V0-INF_tAq
++Inf:%>t%{AÄ%}q K ;
 
 LEXICON V0-INF_iAq
 +Inf:%>i%{AÄ%}q K ;
