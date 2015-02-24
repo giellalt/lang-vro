@@ -410,6 +410,11 @@ Multichar_Symbols
  OÖ1 UY1 V1 V2 V3 K1
 !! And following triggers to control variation
  {front} {back}
+
+! puhksama but puhastaq
+%^APOCH !!= @CODE@ This causes apochope
+
+
  %^VowRM  !!= __@CODE@__ this will remove stem final vowel
  %^CnsRM  !!= __@CODE@__ this will remove stem final consonant tervüs:tervü
  %^StrGStem !!= __@CODE@__ This strengthens "perädü" to "perätüt"

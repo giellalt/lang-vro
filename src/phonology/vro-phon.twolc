@@ -33,6 +33,9 @@ A B D E F G H I J K L M N O P Q R S Š T U V Y Z Ž Õ Ü Ä Ö
 K1:k
 %^NoGrad:0 ! This will be placed after a stem to break Gradation
 
+! puhksama but puhastaq
+%^APOCH:0 !!= @CODE@ This causes apochope
+
 ! this weakens the stem _ompel_ to _ommel_
 %^WGStem:0 !!= @CODE@ This weakens "kipõnʼ" to "kibõna"
 
@@ -281,14 +284,16 @@ Rules
 !! !VOWEL LOSS
 "a:0"
 !! __@RULENAME@__
-!! {{{
  a:0 <=>  Cns: _ [ (%^StrGStem:|%^WGStem:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
       a _ %>  i  ; !!= @CODE@ 
 !€# saa%>i
 !€0 sa00i
 !€# sõima0%^VowRM%>si
 !€0 sõim0s00si
-!! }}}
+   _ Cns  %^APOCH:  ;
+!€# puhkas%^APOCH%>a%>m%{AÄ%}
+!€0 puhk0s00a0ma
+
 
 "ä:0"
 !! __@RULENAME@__
@@ -416,6 +421,7 @@ Rules
 !€# hä%^V70ö%^StrGStem%>i
 !€0 hävvü000
 
+
 !! SECONDARY CONSONANT LENGTHENING
 
 "0:p"
@@ -489,7 +495,11 @@ Rules
 ! aika: ajan
 "kToZero"
 !! __@RULENAME@__  
-k:0 <=> s _ a %^WGStem: ;
+k:0 <=> h _ Vow: s %^WGStem: ;
+!€# puhkas%^WGStem%>t%{AÄ%}q
+!€0 puh0as00taq
+
+ s _ a %^WGStem: ;
 ! [  #  Cns* Vow (( r | i | VowNonHigh ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
 ![ [ # ] Cns* Vow (( r | i ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ Vow: | :Vow | ( Vow ) %> i ] ( %> i: | %^StretchSyll2:0 ) %> %^WCns:0 ;
 !        [ # ] Cns* VowBack i: _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
