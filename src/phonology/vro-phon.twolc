@@ -188,10 +188,12 @@ Rules
 "ü:ö"
 !! __@RULENAME@__
  ü:ö <=>  ü: _ %^LowerVow: ;
-    _ ü: %^LowerVow: [ # | %> [ :Cns | [ :Vow - :i ]] ] ;
+    _ ü: %^LowerVow: (%^WGStem:) [ # | %> [ :Cns | [ :Vow - :i ]] ] ;
    # Cns:* _ Cns: Vow: %^LowerVow: ;
 !€# pügä%^LowerVow%^WGStem%^VowRM%>%{ÕE%}%>t
 !€0 pö000000e0t
+!€# süü%^LowerVow%^WGStem%>n%{UÜ%}q
+!€0 söö000nüq
 
 "u2õ"
 !! __@RULENAME@__
