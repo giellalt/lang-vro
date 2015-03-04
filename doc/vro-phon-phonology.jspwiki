@@ -21,6 +21,8 @@ The Võro morphophonological/twolc rules file
 
 Triggers
 
+ %^APOCH:0  This causes apochope
+
  %^WGStem:0  This weakens "kipõnʼ" to "kibõna"
 
  %^StrGStem:0  This strengthens "perädü" to "perätüt"
@@ -133,9 +135,8 @@ __õ2y__
 
 !VOWEL LOSS
 __a:0__
-{{{
        a _ %>  i  ;  
-}}}
+
 
 __ä:0__
   ä _ %>  i  ;  
@@ -184,6 +185,7 @@ __%^I7:i__
 
 __%^V7:v with 0:v__
 
+
 SECONDARY CONSONANT LENGTHENING
 
 __0:p__
@@ -218,6 +220,7 @@ __%{XC%}:k__
 !Consonant weakening 
 
 __kToZero__  
+
 
 __mToZero__
 
