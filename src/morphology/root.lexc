@@ -448,11 +448,13 @@ Multichar_Symbols
  @D.CmpPref.TRUE@  !!≈ | __@CODE@__ | Block such words from entering ENDLEX
  @P.CmpPref.FALSE@ !!≈ | __@CODE@__ | Block these words from making further compounds
  @D.CmpLast.TRUE@  !!≈ | __@CODE@__ | Block such words from entering R
+ @D.CmpSuff.TRUE@  !!≈ | __@CODE@__ | Block such words from entering R
+ @P.CmpSuff.TRUE@  !!≈ | __@CODE@__ | Mark that we have passed R
  @D.CmpNone.TRUE@  !!≈ | __@CODE@__ | Combines with the next tag to prohibit compounding
  @U.CmpNone.FALSE@ !!≈ | __@CODE@__ | Combines with the prev tag to prohibit compounding
  @P.CmpOnly.TRUE@  !!≈ | __@CODE@__ | Sets a flag to indicate that the word has passed R
  @D.CmpOnly.FALSE@ !!≈ | __@CODE@__ | Disallow words coming directly from root.
-
+!! 
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
