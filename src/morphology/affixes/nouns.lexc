@@ -1798,13 +1798,15 @@ LEXICON NMN_45KANA-SG
 :%^StrGStem       SG-PAR_ZERO        ;
 
 LEXICON NMN_45KANA-PL 
-:%^WGStem       PL-NOM ;
-:%^StrGStem%^PLPRT    PL-GEN_ZERO ;
-:%^StrGStem%^PLPRT    PL-PAR_ZERO ;
-:%^StrGStem%^PLPRT    PL-ILL_ZERO ;
-:%^StrGStem%^PLPRT    PL-ILL_he ;
-:%^StrGStem%^PLPRT  PL-ALL_lÕ-STEM ;
 :%^PLPRT  PL-ALL_lÕ-STEM ;
++Use/NG:%^StrGStem%^PLPRT  PL-ALL_lÕ-STEM ;
+:%^StrGStem%^PLPRT    PL-COM ;
+:%^StrGStem%^PLPRT    PL-GEN_ZERO ;
+:%^StrGStem%^PLPRT    PL-ILL_he ;
++Use/NG:%^StrGStem%^PLPRT    PL-ILL_ZERO ;
++Use/NG:%^StrGStem%^PLPRT    PL-ILL_dÕ ;
+:%^WGStem       PL-NOM ;
+:%^StrGStem%^PLPRT    PL-PAR_ZERO ;
 
 LEXICON NMN_46HAIN  !!= @CODE@ jalg:jalg
   NMN_46HAIN-SG ;
@@ -1869,8 +1871,8 @@ LEXICON SG-GEN_ZERO-STEM
 	SG-COM ;
 	SG-ELA_st       ;
 	SG-GEN_ZERO ;
-	SG-INE_h        ;
-	SG-INE_hn        ;
++Use/NG:	SG-INE_h        ;
++Use/NG:	SG-INE_hn        ;
 	SG-INE_n        ;
 	SG-TER 		;
 	SG-TRA 		;
