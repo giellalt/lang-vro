@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kana: # Noun (45) kana 'eng chicken/est kana/fin kana' - full paradigm
+    kana+N+Pl+Abe: [kanoldaq, kannoldaq]
+    kana+N+Pl+Abl: [kanolt, kannolt]
+    kana+N+Pl+Ade: [kanol, kannol]
+    kana+N+Pl+All: [kanolõ, kannolõ]
+    kana+N+Pl+Com: kannogaq
+    kana+N+Pl+Ela: [kanost, kannost]
+    kana+N+Pl+Gen: kanno
+    kana+N+Pl+Ill: [kannohe, kanno, kannodõ]
+    kana+N+Pl+Ine: [kanon, kanoh, kanohn, kannon, kannoh, kannohn]
+    kana+N+Pl+Nom: kanaq
+    kana+N+Pl+Par: kanno
+    kana+N+Pl+Ter: [kanoniq, kannoniq]
+    kana+N+Pl+Tra: [kanos, kannos]
+    kana+N+Sg+Abe: kanaldaq
+    kana+N+Sg+Abl: kanalt
+    kana+N+Sg+Ade: kanal
+    kana+N+Sg+All: kanalõ
+    kana+N+Sg+Com: kanagaq
+    kana+N+Sg+Ela: kanast
+    kana+N+Sg+Gen: kana
+    kana+N+Sg+Ill: kanna
+    kana+N+Sg+Ine: [kanan, kanah, kanahn]
+    kana+N+Sg+Nom: kana
+    kana+N+Sg+Par: kanna
+    kana+N+Sg+Tra: kanas
+    kana+N+Sg+Ter: kananiq
+
