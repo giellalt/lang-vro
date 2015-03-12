@@ -1,0 +1,62 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `võima: # Verb (72+73) `võima 'eng /est /fin' - full paradigm
+     võima+V+Inf/mA: võima
+     võima+V+Inf: võidaq
+     võima+V+Ind+Prs+ScSg1: või
+     võima+V+Ind+Prs+ScSg2: [võit, võidõq]
+     võima+V+Ind+Prs+ScSg3: või
+     võima+V+Ind+Prs+ScPl1: võimiq
+     võima+V+Ind+Prs+ScPl2: [võitiq, võit, võidõq]
+     võima+V+Ind+Prs+ScPl3: võivaq
+     võima+V+Ind+Prs+Sc+ConNeg: [või, või-iq, võiq]
+
+     võima+V+Ind+Prt+ScSg1: [võisõ, võidsõ]
+     võima+V+Ind+Prt+ScSg2: [võisõt, võisõq, võisõdõq, võidsõt, võidsõq, võidsõdõq]
+     võima+V+Ind+Prt+ScSg3: [võisõ, võidsõ]
+     võima+V+Ind+Prt+ScPl1: [võisõmiq, võisõ, võidsõmiq, võidsõ]
+     võima+V+Ind+Prt+ScPl2: [võisõtiq, võisõt, võisõq, võisõdõq, võidsõtiq, võidsõt, võidsõq, võidsõdõq]
+     võima+V+Ind+Prt+ScPl3: [võisõq, võisõvaq, võidsõq, võidsõvaq]
+     võima+V+Ind+Prt+Sc+ConNeg: [või, võiq]
+     võima+V+Ind+Prt+Sc+Neg: või-is
+
+     võima+V+ActPrsPrc+Sg+Nom: võiva
+     võima+V+ActPrsPrc+Sg+Gen: võiva
+     võima+V+ActPrsPrc+Sg+Par: võivat
+     võima+V+ActPrsPrc+Sg+Ill: võivahe
+     võima+V+ActPrsPrc+Pl+Nom: võivaq
+     võima+V+ActPrsPrc+Pl+Gen: võividõ
+     võima+V+ActPrsPrc+Pl+Par: võivit
+     võima+V+ActPrsPrc+Pl+Ill: võivihe
+
+     võima+V+ActPrtPrc+Sg+Nom: võinuq
+     võima+V+ActPrtPrc+Sg+Gen: võinuq
+     võima+V+ActPrtPrc+Sg+Par: võinut
+     võima+V+ActPrtPrc+Sg+Ill: võinuhe
+     võima+V+ActPrtPrc+Pl+Nom: võinuq
+     võima+V+ActPrtPrc+Pl+Gen: [võinuidõ, võinuisi]
+     võima+V+ActPrtPrc+Pl+Par: [võinuid, võinuisi]
+     võima+V+ActPrtPrc+Pl+Ill: [võinuihe, võinuisihe]
+
+
+     võima+V+ActPrtPrc: võinuq
+     võima+V+PssPrtPrc: võit
+
+
+

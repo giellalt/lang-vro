@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `vaoma: # Verb (72+73) `vaoma 'eng /est /fin' - full paradigm
+     vaoma+V+Inf/mA: vaoma
+     vaoma+V+Inf: [vaodaq, vaioq]
+     vaoma+V+ActPrtPrc: vaonuq
+     vaoma+V+PssPrtPrc: vaot
+     vaoma+V+Ind+Prs+ScSg1: vao
+     vaoma+V+Ind+Prs+ScSg3: vaos
+     vaoma+V+Ind+Prt+ScSg1: vaio
+     vaoma+V+Ind+Prt+ScSg3: vaio
+
