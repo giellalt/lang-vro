@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - valama: # Verb (75) valama 'eng /est /fin' - full paradigm
+     valama+V+Inf/mA: valama
+     valama+V+Inf: vallaq
+     valama+V+ActPrtPrc: valanuq
+     valama+V+PssPrtPrc: valõt
+     valama+V+Ind+Prs+ScSg1: vala
+     valama+V+Ind+Prs+ScSg3: vala
+     valama+V+Ind+Prt+ScSg1: vali
+     valama+V+Ind+Prt+ScSg3: vali
+
