@@ -408,7 +408,6 @@ LEXICON N_NIMI-SG
 +N: NMN_NIMI-SG ;
 LEXICON N_NIMI-PL
 +N: NMN_NIMI-PL ;
-+N+Sg+Nom+WORK: K ;
 
 LEXICON N_36SÄRGʼ !!= @CODE@ särgʼ:särgʼ
         N_36SÄRGʼ-SG ;
@@ -896,8 +895,8 @@ LEXICON NMN_9KIPÕNʼ-SG
 :%^WGStem%>%{AÄ%}	SG-ELA_st	;
 
 LEXICON NMN_9KIPÕNʼ-PL
-:%^WGStem%>%{AÄ%}	PL-NOM ;
-:%^WGStem%>i	PL-GEN_dÕ ;
+:%^WGStem%>%{AÄ%}	PL-NOM ;:
+%^WGStem%>i	PL-GEN_dÕ ;
 :%^WGStem%>i        PL-ILL_he       ;
 :%^WGStem%>i        PL-ALL_lÕ-STEM       ;
 :%^WGStem%>i      PL-PAR_t        ;
@@ -1556,9 +1555,21 @@ LEXICON NMN_NIMI
   NMN_NIMI-SG ;
   NMN_NIMI-PL ;
 LEXICON NMN_NIMI-SG 
-+WORK: #;
+:i        SG-NOM  ;
+:e        SG-GEN_ZERO-STEM       ;
+:%^StrGStem%>e        SG-PAR_ZERO        ;
+:%^StrGStem%>e        SG-ILL_ZERO       ;
+
 LEXICON NMN_NIMI-PL 
-+WORK: #;
+:e        PL-NOM ;
+:%^StrGStem%>i     PL-GEN_ZERO ;
+:%^StrGStem%>i        PL-ILL_hÕ       ;
++Use/NG:%^StrGStem%>i        PL-ILL_ZERO       ;
++Use/NG:%^StrGStem%>i        PL-ILL_dÕ       ;
+:%>i        PL-ALL_lÕ-STEM       ;
++Use/NG:%^StrGStem%>i        PL-ALL_lÕ-STEM       ;
+:%^StrGStem%>i      PL-PAR_Õ        ;
+:%^StrGStem%>i	    PL-COM ;
 
 LEXICON NMN_36SÄRGʼ
   NMN_36SÄRGʼ-SG ;
@@ -1848,7 +1859,8 @@ LEXICON NMN_ELÄNÜQ !!= * @CODE@ elänüq:elänü
 	NMN_ELÄNÜQ-PL  ;
 LEXICON NMN_ELÄNÜQ-SG
 +Sg+Nom:q K ;
-+Sg+Gen:q K ;
++Sg+Gen: K ;
+!+Sg+Gen:q K ;
 +Sg+Par:t K ;
 +Sg+Ill:he K ;
 
@@ -1948,14 +1960,15 @@ LEXICON  PL-ILL_dÕ
 LEXICON PL-ILL_dÕhe
 +Pl+Ill:%>d%{ÕE%}he K ;
 
-LEXICON PL-INE_h
-+Pl+Ine:%>h K ;
-
-LEXICON PL-INE_hn
-+Pl+Ine:%>hn K ;
-
 LEXICON PL-INE_n
 +Pl+Ine:%>n K ;
+
+LEXICON PL-INE_h
++Use/NG+Pl+Ine:%>h K ;
+
+LEXICON PL-INE_hn
++Use/NG+Pl+Ine:%>hn K ;
+
 
 
 LEXICON PL-NOM
@@ -2029,14 +2042,15 @@ LEXICON	SG-ILL_tÕ
 LEXICON	SG-ILL_dÕ
 +Sg+Ill:%>d%{ÕE%} K ;
 
-LEXICON	SG-INE_h
-+Sg+Ine:%>h K ;
-
-LEXICON	SG-INE_hn !!= @CODE@ RARE
-+Sg+Ine:%>hn K ;
-
 LEXICON	SG-INE_n
 +Sg+Ine:%>n K ;
+
+LEXICON	SG-INE_h
++Use/NG+Sg+Ine:%>h K ;
+
+LEXICON	SG-INE_hn !!= @CODE@ RARE
++Use/NG+Sg+Ine:%>hn K ;
+
 
 LEXICON SG-NOM
 +Sg+Nom: K ;
