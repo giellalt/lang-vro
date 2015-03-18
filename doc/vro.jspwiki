@@ -304,8 +304,6 @@ do no harm.
  | __@D.CmpPref.TRUE@__ | Block such words from entering ENDLEX
  | __@P.CmpPref.FALSE@__ | Block these words from making further compounds
  | __@D.CmpLast.TRUE@__ | Block such words from entering R
- | __@D.CmpSuff.TRUE@__ | Block such words from entering R
- | __@P.CmpSuff.TRUE@__ | Mark that we have passed R
  | __@D.CmpNone.TRUE@__ | Combines with the next tag to prohibit compounding
  | __@U.CmpNone.FALSE@__ | Combines with the prev tag to prohibit compounding
  | __@P.CmpOnly.TRUE@__ | Sets a flag to indicate that the word has passed R
