@@ -814,11 +814,11 @@ LEXICON V-manitsõma
 LEXICON V0-IND-PRS-SC-12
 +Ind+Prs+ScSg1: K ;
 +Ind+Prs+ScSg2:%>t K ;
-+Ind+Prs+ScSg2:%>dõq K ;
++Use/NG+Ind+Prs+ScSg2:%>d%{ÕE%}q K ;
 +Ind+Prs+ScPl1:%>miq K ;
 +Ind+Prs+ScPl2:%>tiq K ;
-+Ind+Prs+ScPl2:%>dõq K ;
-+Ind+Prs+ScPl2:%>t K ;
++Use/NG+Ind+Prs+ScPl2:%>d%{ÕE%}q K ;
++Use/NG+Ind+Prs+ScPl2:%>t K ;
 
 LEXICON V0-IND-PRS-SCSG3_ZERO
 +Ind+Prs+ScSg3: K ;
@@ -832,12 +832,12 @@ LEXICON V0-IND-PRS-SCPL3_vAq
 
 LEXICON V0-IND-PRS-SC3_s
 +Ind+Prs+ScSg3:%>s K ;
-+Ind+Prs+ScPl3:%>sõq K ;
++Ind+Prs+ScPl3:%>s%{ÕE%}q K ;
 
 LEXICON V0-IND-PRS-SC-CONNEG
 +Ind+Prs+Sc+ConNeg: K ;
-+Ind+Prs+Sc+ConNeg:%-%{XV%}iq K ;
-+Ind+Prs+Sc+ConNeg:%>q K ;
++Use/NG+Ind+Prs+Sc+ConNeg:%-%{XV%}iq K ;
++Use/NG+Ind+Prs+Sc+ConNeg:%>q K ;
 
 !! CHECK THIS
 !! !INDICATIVE PRESENT OBJECT CONJUGATION
@@ -876,15 +876,15 @@ LEXICON V0-IND-PRT-SCSG1_se
 
 LEXICON V0-IND-PRT-SC-12_ZERO
 +Ind+Prt+ScSg1: K ;
-+Ind+Prt+ScSg2:%>q K ;
 +Ind+Prt+ScSg2:%>t K ;
-+Ind+Prt+ScSg2:%>dõq K ;
++Use/NG+Ind+Prt+ScSg2:%>q K ;
++Use/NG+Ind+Prt+ScSg2:%>d%{ÕE%}q K ;
 +Ind+Prt+ScPl1:%>miq K ;
 +Ind+Prt+ScPl1: K ;
 +Ind+Prt+ScPl2:%>tiq K ;
-+Ind+Prt+ScPl2:%>t K ;
-+Ind+Prt+ScPl2:%>q K ;
-+Ind+Prt+ScPl2:%>dõq K ;
++Use/NG+Ind+Prt+ScPl2:%>t K ;
++Use/NG+Ind+Prt+ScPl2:%>q K ;
++Use/NG+Ind+Prt+ScPl2:%>d%{ÕE%}q K ;
 
 LEXICON V0-IND-PRT-SC-12_i
 +Ind+Prt+ScSg1:%>i K ;
@@ -1052,8 +1052,11 @@ LEXICON V0-ACT-PRS-PRC
 +ActPrsPrc+Sg+Ill:%>v%{AÄ%}he K ;
 +ActPrsPrc+Pl+Nom:%>v%{AÄ%}q K ;
 +ActPrsPrc+Pl+Gen:%>vid%{ÕE%} K ;
++Use/NG+ActPrsPrc+Pl+Gen:%>viid%{ÕE%} K ;
 +ActPrsPrc+Pl+Par:%>vit K ;
++Use/NG+ActPrsPrc+Pl+Par:%>viit K ;
 +ActPrsPrc+Pl+Ill:%>vihe K ;
++Use/NG+ActPrsPrc+Pl+Ill:%>viihe K ;
 
 LEXICON V0-ACT-PRT-PRC
 +ActPrtPrc:%>n%{UÜ%}q K ;
@@ -1076,6 +1079,20 @@ LEXICON V0-ACT-PRT-PRC_WEAKGRADE
 
 
 LEXICON V0-PSS-PRS-PRC
++PssPrsPrc:%>t%{AÄ%}v K ;
++PssPrsPrc+Sg+Nom:%>t%{AÄ%}v K ;
++PssPrsPrc+Sg+Gen:%>t%{AÄ%}%>v%{AÄ%} K ;
++PssPrsPrc+Sg+Par:%>t%{AÄ%}%>v%{AÄ%}t K ;
++PssPrsPrc+Sg+Ill:%>t%{AÄ%}%>v%{AÄ%}he K ;
++PssPrsPrc+Pl+Nom:%>t%{AÄ%}%>v%{AÄ%}q K ;
++PssPrsPrc+Pl+Gen:%>t%{AÄ%}%>vid%{ÕE%} K ;
++PssPrsPrc+Pl+Par:%>t%{AÄ%}%>vit K ;
++PssPrsPrc+Pl+Ill:%>t%{AÄ%}%>vihe K ;
++Use/NG+PssPrsPrc+Pl+Gen:%>t%{AÄ%}%>viid%{ÕE%} K ;
++Use/NG+PssPrsPrc+Pl+Par:%>t%{AÄ%}%>viit K ;
++Use/NG+PssPrsPrc+Pl+Ill:%>t%{AÄ%}%>viihe K ;
+
+LEXICON V0-PSS-PRS-PRC_WEAK
 +PssPrsPrc:%^WGStem%>t%{AÄ%}v K ;
 +PssPrsPrc+Sg+Nom:%^WGStem%>t%{AÄ%}v K ;
 +PssPrsPrc+Sg+Gen:%^WGStem%>t%{AÄ%}%>v%{AÄ%} K ;

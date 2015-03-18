@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-dict-gt-norm.hfst
+    Morph: ../../../src/analyser-dict-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-dict-gt-norm.xfst
+    Morph: ../../../src/analyser-dict-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - nimi: # Noun nimi 'eng name /est nimi/fin nimi' - full paradigm
+     nimi+N+Sg+Nom: nimi
+     nimi+N+Sg+Gen: nime
+     nimi+N+Sg+Par: nimme
+     nimi+N+Sg+Ill: nimme
+     nimi+N+Sg+Ine: nimen
+     nimi+N+Sg+Ela: nimest
+     nimi+N+Sg+All: nimele
+     nimi+N+Sg+Ade: nimel
+     nimi+N+Sg+Abl: nimelt
+     nimi+N+Sg+Tra: nimes
+     nimi+N+Sg+Ter: nimeniq
+     nimi+N+Sg+Abe: nimeldäq
+     nimi+N+Sg+Com: nimegaq
+     nimi+N+Pl+Nom: nimeq
+     nimi+N+Pl+Gen: nimmi
+     nimi+N+Pl+Par: nimmi
+     nimi+N+Pl+Ill: nimmihe
+     nimi+N+Pl+Ine: nimin
+     nimi+N+Pl+Ela: nimist
+     nimi+N+Pl+All: nimile
+     nimi+N+Pl+Ade: nimil
+     nimi+N+Pl+Abl: nimilt
+     nimi+N+Pl+Tra: nimis
+     nimi+N+Pl+Ter: niminiq
+     nimi+N+Pl+Abe: nimildäq
+     nimi+N+Pl+Com: nimmigaq
