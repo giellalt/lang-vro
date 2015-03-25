@@ -101,16 +101,17 @@ Definitions
 
 ! Front Trigger
 FT =   # Cns* [[ VowFront: | :VowFront ] \[ # | :VowBack ]* | [VowNeutral ] \[ # | :VowBack | VowBack: ]* ]  ;
-!€# füüsiga%^StrGStem%^VowRM%>i%>d%{ÕE%}
-!€0 füüsik0000i0de
+
 ! # Cns* [[ VowFront | VowNeutral ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
 ! # Cns* [[ VowFront | VowNeutral | i: ] | :VowFront ] \[ # | VowBack: | :VowBack ]*  ;
 
 
 ! Back Trigger 
-BT =   # Cns* ( [ VowNeutral ]+ Cns:* ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
+BT =   # Cns* ( [ VowNeutral ]+ Cns:* | ü:+ Cns:+ i Cns:+) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
 !€# viska%^WGStem%>%{AÄ%}q
 !€0 vis0a00aq
+!€# füüsiga%^StrGStem%^VowRM%>i%>d%{ÕE%}
+!€0 füüsik0000i0dõ
 ! # Cns* ( [ VowNeutral | i: ] \[ # | VowFront: | :VowFront ]* ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
 
 ! Gradation strong to weak
