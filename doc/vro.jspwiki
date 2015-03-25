@@ -49,6 +49,7 @@ The parts of speech are further split up into:
 The Usage extents are marked using following tags:
  * __+Err/Sub__
  * __+Use/-Spell__
+ * __+Use/NG__ No generation
 
 The nominals are inflected in the following Case and Number
  * __+Sg__ Singular
@@ -385,6 +386,7 @@ Triggers
 
  %^VowRM:0  this will remove stem final vowel
  %^CnsRM:0  this will remove stem final consonant tervüs:tervü
+
 
 
 
