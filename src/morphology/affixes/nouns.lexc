@@ -154,6 +154,7 @@ LEXICON N_12REPÄNʼ-PL
 +N+Sg+Nom+WORK: K ;
 
 LEXICON N_13ALONÕ !!= @CODE@ alonõ:alo
+! Gradation: No
 	N_13ALONÕ-SG ;
 	N_13ALONÕ-PL ;
 LEXICON N_13ALONÕ-SG
@@ -162,6 +163,7 @@ LEXICON N_13ALONÕ-PL
 +N:     NMN_13ALONÕ-PL ;
 
 LEXICON N_14RITSʼKAS !!= @CODE@ ritsʼkas:ritsʼka, saabas:saapa
+! Gradation: No
         N_14RITSʼKAS-SG ;
         N_14RITSʼKAS-PL ;
 LEXICON N_14RITSʼKAS-SG
@@ -171,6 +173,7 @@ LEXICON N_14RITSʼKAS-PL
 
 
 LEXICON N_HAMMAS !!= @CODE@ hammas:hamba, saabas:saapa
+! gradation: yes
 !! distinguished from 14RITSʼKAS due to gradation
         N_HAMMAS-SG ;
         N_HAMMAS-PL ;
@@ -181,6 +184,8 @@ LEXICON N_HAMMAS-PL
 
 
 LEXICON N_PEREH !!= @CODE@ pereh:pereh
+! vowel_harmony: front
+! gradation: yes
 !! distinguished from 14RITSʼKAS due to word final h
         N_PEREH-SG ;
         N_PEREH-PL ;
@@ -190,6 +195,8 @@ LEXICON N_PEREH-PL
 +N:     NMN_PEREH-PL ;
 
 LEXICON N_HAMÕH !!= @CODE@ hamõh:hamõh
+! vowel_harmony: back
+! gradation: yes
 !! distinguished from 14RITSʼKAS due to word final h
         N_HAMÕH-SG ;
         N_HAMÕH-PL ;
@@ -212,6 +219,7 @@ LEXICON N_15KOTUS-PL
 
 LEXICON N_16INEMINE !!= @CODE@
 !! inemine:inemi
+! Gradation: No
 !! * Yaml: __N-inemine16__
 	N_16INEMINE-SG ;
 	N_16INEMINE-PL ;
@@ -240,6 +248,7 @@ LEXICON N_18EHITÜS-PL
 
 
 LEXICON N_19ALOMANÕ !!= @CODE@ alomanõ:aloma
+! Gradation: No
 	N_19ALOMANÕ-SG ;
 	N_19ALOMANÕ-PL ;
 LEXICON N_19ALOMANÕ-SG
@@ -265,6 +274,7 @@ LEXICON N_21HÜDSI-PL
 +N:     NMN_21HÜDSI-PL ;
 
 LEXICON N_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
+! Gradation: No
         N_22VÕROKÕNÕ-SG ;
         N_22VÕROKÕNÕ-PL ;
 LEXICON N_22VÕROKÕNÕ-SG
@@ -274,6 +284,7 @@ LEXICON N_22VÕROKÕNÕ-PL
 
 
 LEXICON N_23KIILʼ
+! Gradation: No
  N_23KIILʼ-SG ;
  N_23KIILʼ-PL ;
 LEXICON N_23KIILʼ-SG
@@ -283,12 +294,25 @@ LEXICON N_23KIILʼ-PL
 +N+Sg+Nom+WORK: K ;
 
 LEXICON N_24KÄSI
+! gradation: yes
+! vowel_harmony: front
  N_24KÄSI-SG ;
  N_24KÄSI-PL ;
 LEXICON N_24KÄSI-SG
 +N: NMN_24KÄSI-SG ;
 LEXICON N_24KÄSI-PL
 +N: NMN_24KÄSI-PL ;
++N+Sg+Nom+WORK: K ;
+
+LEXICON N_24SUSI
+! gradation: yes
+! vowel_harmony: front
+ N_24SUSI-SG ;
+ N_24SUSI-PL ;
+LEXICON N_24SUSI-SG
++N: NMN_24SUSI-SG ;
+LEXICON N_24SUSI-PL
++N: NMN_24SUSI-PL ;
 +N+Sg+Nom+WORK: K ;
 
 LEXICON N_25ASÕQ
@@ -318,6 +342,7 @@ LEXICON N_27EHEQ-PL
 +N+Sg+Nom+WORK: K ;
 
 LEXICON N_HAPU !!= * __@CODE@__ hapu:hapu
+! gradation: yes
  N_HAPU-SG ;
  N_HAPU-PL ;
 LEXICON N_HAPU-SG
@@ -342,6 +367,7 @@ LEXICON N_PUNDAR-PL
 +N: NMN_PUNDAR-PL ;
 
 LEXICON N_29KUU
+! Gradation: No
  N_29KUU-SG ;
  N_29KUU-PL ;
 LEXICON N_29KUU-SG
@@ -350,6 +376,7 @@ LEXICON N_29KUU-PL
 +N: NMN_29KUU-PL ;
 
 LEXICON N_30TÜÜ
+! Gradation: No
  N_30TÜÜ-SG ;
  N_30TÜÜ-PL ;
 LEXICON N_30TÜÜ-SG
@@ -358,6 +385,7 @@ LEXICON N_30TÜÜ-PL
 +N: NMN_30TÜÜ-PL ;
 
 LEXICON N_31TÄI
+! Gradation: No
  N_31TÄI-SG ;
  N_31TÄI-PL ;
 LEXICON N_31TÄI-SG
@@ -374,6 +402,7 @@ LEXICON N_32VERI-PL
 +N: NMN_32VERI-PL ;
 
 LEXICON N_33IGÄ !!igä:igä
+! gradation: yes
  N_33IGÄ-SG ;
  N_33IGÄ-PL ;
 LEXICON N_33IGÄ-SG
@@ -1074,8 +1103,10 @@ LEXICON NMN_HAMMAS-PL
 
 
 LEXICON NMN_PEREH !!= * __@CODE@__ pereh:perre
+! vowel_harmony: front
+! gradation: yes
 !! Distinguished from 14RITSʼKAS due  to word final h
-!! Yaml: __N-pereh_gt-norm.yaml, N-hamwh_gt-norm.yaml__
+!! Yaml: __N-pereh_gt-norm.yaml__
   NMN_PEREH-SG ;
   NMN_PEREH-PL ;
 
@@ -1083,22 +1114,22 @@ LEXICON NMN_PEREH-SG
 :%^WGStem%>h        SG-NOM  ;
    SG-GEN_ZERO-STEM        ;
 :%^WGStem%>h   SG-PAR_t      ;
-   SG-ILL_he     ;
+   FRONT_SG-ILL_he     ;
 
 
 LEXICON NMN_PEREH-PL 
    PL-NOM  ;
-:%^VowRM%>i PL-GEN_dÕ ;
+:%^VowRM%>i FRONT_PL-GEN_de ;
 :%^VowRM%>i PL-ILL_he ;
 :%^VowRM%>i PL-PAR_t ;
 :%^VowRM%>i PL-ALL_lÕ-STEM ;
-:%^WGStem%>h PL-GEN_dÕ ;
-:%^WGStem%>h%>t%{ÕE%} PL-ALL_lÕ-STEM ;
++Use/NG:%^WGStem%>h FRONT_PL-GEN_te ;
++Use/NG:%^WGStem%>h%>t%{ÕE%} PL-ALL_lÕ-STEM ;
 :%^WGStem%>h PL-ALL_dÕlÕ ;
-:%^WGStem%>h PL-ILL_dÕhe ;
++Use/NG:%^WGStem%>h PL-ILL_dÕhe ;
 :%^VowRM%>i%>d%{ÕE%}   PL-COM ;
-:%^VowRM%>ii%>d%{ÕE%}   PL-COM ;
-:%^WGStem%>s%>d%{ÕE%}   PL-COM ;
++Use/NG:%^VowRM%>ii%>d%{ÕE%}   PL-COM ;
++Use/NG:%^WGStem%>s%>d%{ÕE%}   PL-COM ;
 !:%^VowRM%>ii PL-ILL_he ;
 !:%^VowRM%>i PL-ILL_dÕ ;
 !:%^VowRM%>ii PL-ILL_dÕ ;
@@ -1107,6 +1138,8 @@ LEXICON NMN_PEREH-PL
 !:%^VowRM%>ii PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_HAMÕH !!= * __@CODE@__ hamõh:hammõ
+! vowel_harmony: back
+! gradation: yes
 !! Distinguished from 14RITSʼKAS due  to word final h
 !! Yaml: __N-hamwh_gt-norm.yaml__
   NMN_HAMÕH-SG ;
@@ -1116,22 +1149,22 @@ LEXICON NMN_HAMÕH-SG
 :%^WGStem%>h        SG-NOM  ;
    SG-GEN_ZERO-STEM        ;
 :%^WGStem%>h   SG-PAR_t      ;
-   SG-ILL_he     ;
+   BACK_SG-ILL_hõ     ;
 !   SG-ILL_dÕ     ;
 
 LEXICON NMN_HAMÕH-PL 
    PL-NOM  ;
-:%^VowRM%>i PL-GEN_dÕ ;
+:%^VowRM%>i BACK_PL-GEN_dõ ;
 :%^VowRM%>i PL-ILL_he ;
 :%^VowRM%>i PL-PAR_t ;
 :%^VowRM%>i PL-ALL_lÕ-STEM ;
-:%^WGStem%>h PL-GEN_dÕ ;
-:%^WGStem%>h%>t%{ÕE%} PL-ALL_lÕ-STEM ;
++Use/NG:%^WGStem%>h BACK_PL-GEN_tõ ;
++Use/NG:%^WGStem%>h%>t%{ÕE%} PL-ALL_lÕ-STEM ;
 :%^WGStem%>h PL-ALL_dÕlÕ ;
-:%^WGStem%>h PL-ILL_dÕhe ;
++Use/NG:%^WGStem%>h PL-ILL_dÕhe ;
 :%^VowRM%>i%>d%{ÕE%}   PL-COM ;
-:%^VowRM%>ii%>d%{ÕE%}   PL-COM ;
-:%^WGStem%>s%>d%{ÕE%}   PL-COM ;
++Use/NG:%^VowRM%>ii%>d%{ÕE%}   PL-COM ;
++Use/NG:%^WGStem%>s%>d%{ÕE%}   PL-COM ;
 !:%^VowRM%>ii PL-ILL_he ;
 !:%^VowRM%>i PL-ILL_dÕ ;
 !:%^VowRM%>ii PL-ILL_dÕ ;
@@ -1307,27 +1340,57 @@ LEXICON NMN_23KIILʼ-PL
 :%^RVowi            PL-ILL_ZERO ;
 :%>i            PL-ALL_lÕ-STEM ;
 
-LEXICON NMN_24KÄSI !!= * __CODE__ käsi:kät
+LEXICON NMN_24KÄSI !!= * __CODE__ käsi:käd
+!  gradation: yes
+!  vowel_harmony: front
 !! * Yaml: __kaesi__
   NMN_24KÄSI-SG ;
   NMN_24KÄSI-PL ;
 LEXICON NMN_24KÄSI-SG 
-!+WORK: #;
 :%^TS%>i      SG-NOM ;
-:%^WGStem%>%{ÕE%}      SG-GEN_ZERO-STEM ;
-:             SG-PAR_t ;
-:             SG-ILL_tÕ ;
+:e%^WGStem      SG-GEN_ZERO-STEM ;
+:%^StrD2T             SG-PAR_t ;
+:%^StrD2T             FRONT_SG-ILL_te ;
 
 LEXICON NMN_24KÄSI-PL 
-!+WORK: #;
-:%^WGStem%>%{ÕE%}      PL-NOM ;
-:%>%{ÕE%}             PL-GEN_dÕ ;
+:e%^WGStem      PL-NOM ;
 :%^TS%>si             PL-GEN_ZERO ;
-:%^TS%>si             PL-ALL_lÕ-STEM ;
-:%>%{ÕE%}             PL-ALL_lÕ-STEM ;
++Use/NG:%^StrD2Te            PL-GEN_ZERO ;
 :%^TS%>i             PL-ALL_lÕ-STEM ;
++Use/NG:%^TS%>si             PL-ALL_lÕ-STEM ;
++Use/NG:%^StrD2Te             PL-ALL_lÕ-STEM ;
 :%^TS%>si            PL-PAR_ZERO ;
 :%^TS%>si            PL-ILL_he ;
++Use/NG:%^TS%>si            PL-ILL_ZERO ;
++Use/NG:%^TS%>si            FRONT_PL-ILL_de ;
+:%^TS%>si  	PL-COM ;
++Use/NG:%^StrD2Te	PL-COM ;
+
+LEXICON NMN_24SUSI !!= * __CODE__ susi:sud
+!  gradation: yes
+!  vowel_harmony: back
+!! * Yaml: __N-susi__
+  NMN_24SUSI-SG ;
+  NMN_24SUSI-PL ;
+LEXICON NMN_24SUSI-SG 
+:%^TS%>i      SG-NOM ;
+:e%^WGStem      SG-GEN_ZERO-STEM ;
+:%^StrD2T             SG-PAR_t ;
+:%^StrD2T             FRONT_SG-ILL_te ;
+
+LEXICON NMN_24SUSI-PL 
+:e%^WGStem      PL-NOM ;
+:%^TS%>si             PL-GEN_ZERO ;
++Use/NG:%^StrD2Te            PL-GEN_ZERO ;
+:%^TS%>i             PL-ALL_lÕ-STEM ;
++Use/NG:%^TS%>si             PL-ALL_lÕ-STEM ;
++Use/NG:%^StrD2Te             PL-ALL_lÕ-STEM ;
+:%^TS%>si            PL-PAR_ZERO ;
+:%^TS%>si            PL-ILL_he ;
++Use/NG:%^TS%>si            PL-ILL_ZERO ;
++Use/NG:%^TS%>si            FRONT_PL-ILL_de ;
+:%^TS%>si  	PL-COM ;
++Use/NG:%^StrD2Te	PL-COM ;
 
 LEXICON NMN_25ASÕQ ! asõq:asõ
   NMN_25ASÕQ-SG ;
@@ -1788,6 +1851,7 @@ LEXICON NMN_43KANARIK-PL
 
 
 LEXICON NMN_44SÕDA
+! gradation: yes
   NMN_44SÕDA-SG ;
   NMN_44SÕDA-PL ;
 LEXICON NMN_44SÕDA-SG 
@@ -1939,8 +2003,21 @@ LEXICON PL-ELA
 LEXICON  PL-GEN_ZERO
 +Pl+Gen: K ;
 
+LEXICON  BACK_PL-GEN_dõ
++Pl+Gen:%>dõ K ;
+
+LEXICON  FRONT_PL-GEN_de
++Pl+Gen:%>de K ;
+
+
 LEXICON  PL-GEN_dÕ
 +Pl+Gen:%>d%{ÕE%} K ;
+
+LEXICON  BACK_PL-GEN_tõ
++Pl+Gen:%>tõ K ;
+
+LEXICON  FRONT_PL-GEN_te
++Pl+Gen:%>te K ;
 
 LEXICON  PL-GEN_tÕ
 +Pl+Gen:%>t%{ÕE%} K ;
@@ -1951,15 +2028,27 @@ LEXICON  PL-GEN_Õ
 LEXICON PL-ILL_ZERO
 +Pl+Ill: K ;
 
-LEXICON PL-ILL_he
+LEXICON PL-ILL_he !IS THIS NEEDED?
 +Pl+Ill:%>he K ;
 
+LEXICON  BACK_PL-ILL_hõ
++Pl+Ill:%>hõ K ;
+LEXICON  FRONT_PL-ILL_he
++Pl+Ill:%>he K ;
 LEXICON PL-ILL_hÕ
 +Pl+Ill:%>h%{ÕE%} K ;
 
+LEXICON  BACK_PL-ILL_htõ
++Pl+Ill:%>htõ K ;
+LEXICON  FRONT_PL-ILL_hte
++Pl+Ill:%>hte K ;
 LEXICON PL-ILL_htÕ
 +Pl+Ill:%>ht%{ÕE%} K ;
 
+LEXICON  BACK_PL-ILL_dõ
++Pl+Ill:%>dõ K ;
+LEXICON  FRONT_PL-ILL_de
++Pl+Ill:%>de K ;
 LEXICON  PL-ILL_dÕ
 +Pl+Ill:%>d%{ÕE%} K ;
 
@@ -2036,12 +2125,24 @@ LEXICON	SG-ILL_hU
 LEXICON	SG-ILL_hUq
 +Sg+Ill:%>h%{UÜ%}q K ;
 
+LEXICON	BACK_SG-ILL_hõ
++Sg+Ill:%>hõ K ;
+LEXICON	FRONT_SG-ILL_he
++Sg+Ill:%>he K ;
 LEXICON	SG-ILL_hÕ
 +Sg+Ill:%>h%{ÕE%} K ;
 
+LEXICON	BACK_SG-ILL_htõ
++Sg+Ill:%>htõ K ;
+LEXICON	FRONT_SG-ILL_hte
++Sg+Ill:%>hte K ;
 LEXICON	SG-ILL_htÕ
 +Sg+Ill:%>ht%{ÕE%} K ;
 
+LEXICON	BACK_SG-ILL_tõ
++Sg+Ill:%>tõ K ;
+LEXICON	FRONT_SG-ILL_te
++Sg+Ill:%>te K ;
 LEXICON	SG-ILL_tÕ
 +Sg+Ill:%>t%{ÕE%} K ;
 
