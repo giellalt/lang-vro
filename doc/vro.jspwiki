@@ -272,6 +272,7 @@ And following triggers to control variation
 
  %^APOCH  This causes apochope
 
+ %^StrD2T  This changes g,d,b, => k,t,p
 
  __ %^VowRM  __ this will remove stem final vowel
  __ %^CnsRM  __ this will remove stem final consonant tervüs:tervü
@@ -365,6 +366,8 @@ The Võro morphophonological/twolc rules file
 Triggers
 
  %^APOCH:0  This causes apochope
+
+ %^StrD2T:0  This changes g,d,b => k,t,p
 
  %^WGStem:0  This weakens "kipõnʼ" to "kibõna"
 
@@ -596,6 +599,10 @@ __dTol__
 __d2v__
 
 __dTot__
+
+
+__dTos__
+
 
 __tTos__
 

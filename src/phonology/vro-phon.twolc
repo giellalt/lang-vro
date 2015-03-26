@@ -36,6 +36,9 @@ K1:k
 ! puhksama but puhastaq
 %^APOCH:0 !!= @CODE@ This causes apochope
 
+! 2015-03-26
+%^StrD2T:0 !!= @CODE@ This changes g,d,b => k,t,p
+
 ! this weakens the stem _ompel_ to _ommel_
 %^WGStem:0 !!= @CODE@ This weakens "kipõnʼ" to "kibõna"
 
@@ -582,8 +585,18 @@ k:0 <=> h _ Vow: s %^WGStem: ;
 "dTot"
 !! __@RULENAME@__
  d:t <=> [ s | h ] (Vow: %^WGStem: %^VowRM:) %> _ ;
+    Vow _ (Vow:) %^StrD2T: ;
+!!käsi+N+Sg+Par __hand, arm__
+!€# käd%^StrD2T%>t
+!€0 kät00t
     Vow _ (s) Vow: %^StrGStem: ;
     Vow _ 0: Vow: %^XStrGStem: ;
+
+
+"dTos"
+!! __@RULENAME@__
+ d:s <=> _ %^TS: ;
+
 
 "tTos"
 !! __@RULENAME@__
