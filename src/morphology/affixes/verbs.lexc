@@ -286,11 +286,14 @@ LEXICON V_62ARGNÕMA
 
 
 LEXICON V_63SÕIMAMA !!≈ * __@CODE@__ sõimama:sõima
-!! * Yaml: __viskama, swimama63__
+! Ind.Prs.ScSg3 in -s
+! vowel_harmony: back
+!! * Yaml: __V-swimama63__
 +V: V0-IND-PRS-SC-12 ;
 +V: V0-IND-PRS-SC-CONNEG ;
 +V: V0-IND-PRS-SC3_s ;
 +V: V0-IND-PRS-PC ;
++V: V0-IND-PRS-OC_BACK ;
 
 +V:%^VowRM%>s V0-IND-PRT-SC-12_si ; 
 +V: V0-IND-PRT-SC-CONNEG ;
@@ -305,6 +308,53 @@ LEXICON V_63SÕIMAMA !!≈ * __@CODE@__ sõimama:sõima
 +V: V0-PSS-PRS-PRC ;
 +V:%^WGStem V0-PSS-PRT-PRC ;
 
+LEXICON V_63VISKAMA !!≈ * __@CODE@__ viskama:viska
+! from V_63SÕIMAMA 
+! Ind.Prs.ScSg3 in -s
+! vowel_harmony: back
+!! * Yaml: __V-viskama63__
++V: V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-PC ;
++V: V0-IND-PRS-OC_BACK ;
+
++V:%^VowRM V0-IND-PRT-SC-12_si ; 
++V: V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SC3_sʼ ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V:%^WGStem V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC_WEAKGRADE ;
++V: V0-PSS-PRS-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
+
+
+LEXICON V_63HINGÄMÄ !!≈ * __@CODE@__ hingämä:hingä
+! Ind.Prs.ScSg3 in -s
+! vowel_harmony: front
+!! * Yaml: __V-hingaemae63__
++V: V0-IND-PRS-SC-12 ;
++V: V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-PC ;
++V: V0-IND-PRS-OC_FRONT ;
+
++V:%^VowRM%>s V0-IND-PRT-SC-12_si ; 
++V: V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SC3_sʼ ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minÕ ;
++V: V0-INF_mA ;
++V:%^WGStem V0-INF_dAq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC_WEAKGRADE ;
++V: V0-PSS-PRS-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC ;
 
 LEXICON V_64PUHKSAMA
 ! puhksama:puhkas
@@ -853,6 +903,32 @@ LEXICON V0-IND-PRS-OC
 +Ind+Prs+Oc+ConNeg:%^WGStem%>d%{AÄ%} K ;
 +Ind+Prs+Oc+ConNeg:%^WGStem%>d%{AÄ%}%-%{XV%}iq K ;
 +Ind+Prs+Oc+ConNeg:%^WGStem%>d%{AÄ%}q K ;
+
+LEXICON V0-IND-PRS-OC_BACK
++Ind+Prs+OcSg1:%^WGStem%>da K ;
++Ind+Prs+OcSg2:%^WGStem%>tat K ;
++Ind+Prs+OcSg2:%^WGStem%>tadõq K ;
++Ind+Prs+OcSg3:%^WGStem%>tas K ;
++Ind+Prs+OcPl1:%^WGStem%>tamiq K ;
++Ind+Prs+OcPl2:%^WGStem%>tatiq K ;
++Ind+Prs+OcPl2:%^WGStem%>tadõq K ;
++Ind+Prs+OcPl3:%^WGStem%>tasõq K ;
++Ind+Prs+Oc+ConNeg:%^WGStem%>da K ;
++Ind+Prs+Oc+ConNeg:%^WGStem%>da%-aiq K ;
++Ind+Prs+Oc+ConNeg:%^WGStem%>daq K ;
+
+LEXICON V0-IND-PRS-OC_FRONT
++Ind+Prs+OcSg1:%^WGStem%>dä K ;
++Ind+Prs+OcSg2:%^WGStem%>tät K ;
++Ind+Prs+OcSg2:%^WGStem%>tädeq K ;
++Ind+Prs+OcSg3:%^WGStem%>täs K ;
++Ind+Prs+OcPl1:%^WGStem%>tämiq K ;
++Ind+Prs+OcPl2:%^WGStem%>tätiq K ;
++Ind+Prs+OcPl2:%^WGStem%>tädeq K ;
++Ind+Prs+OcPl3:%^WGStem%>täseq K ;
++Ind+Prs+Oc+ConNeg:%^WGStem%>dä K ;
++Ind+Prs+Oc+ConNeg:%^WGStem%>dä%-äiq K ;
++Ind+Prs+Oc+ConNeg:%^WGStem%>däq K ;
 
 !! !INDICATIVE PRESENT PASSIVE CONJUGATION
 LEXICON V0-IND-PRS-PC
