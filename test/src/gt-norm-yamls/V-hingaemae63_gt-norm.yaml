@@ -1,0 +1,84 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - hingämä: # Verb (63) '/(eng) to  /(fin) ' - partial paradigm
+     hingämä+V+Inf/mA: hingämä
+     hingämä+V+Inf: hingädäq
+     hingämä+V+Ind+Prs+ScSg1: hingä
+     hingämä+V+Ind+Prs+ScSg2: hingät
+     hingämä+V+Ind+Prs+ScSg3: hingäs
+     hingämä+V+Ind+Prs+ScPl1: hingämiq
+     hingämä+V+Ind+Prs+ScPl2: hingätiq
+     hingämä+V+Ind+Prs+ScPl3: hingäseq
+     hingämä+V+Ind+Prs+Sc+ConNeg: hingä
+     hingämä+V+Ind+Prs+OcSg1: hingädä
+     hingämä+V+Ind+Prs+OcSg2: hingätät
+     hingämä+V+Ind+Prs+OcSg3: hingätäs
+     hingämä+V+Ind+Prs+OcPl1: hingätämiq
+     hingämä+V+Ind+Prs+OcPl2: hingätätiq
+     hingämä+V+Ind+Prs+OcPl3: hingätäseq
+     hingämä+V+Ind+Prs+Oc+ConNeg: hingädä
+
+     hingämä+V+Ind+Prt+ScSg1: hingsi
+     hingämä+V+Ind+Prt+ScSg2: hingsiq
+     hingämä+V+Ind+Prt+ScSg3: hingäsʼ
+     hingämä+V+Ind+Prt+ScPl1: hingsimiq
+     hingämä+V+Ind+Prt+ScPl2: hingsitiq
+     hingämä+V+Ind+Prt+ScPl3: hingsiq
+     hingämä+V+Ind+Prt+Sc+ConNeg: hingä
+     hingämä+V+Ind+Prt+OcSg1: hingädi
+     hingämä+V+Ind+Prt+OcSg2: hingädiq
+     hingämä+V+Ind+Prt+OcSg3: hingäti
+     hingämä+V+Ind+Prt+OcPl1: hingätimiq
+     hingämä+V+Ind+Prt+OcPl2: hingätitiq
+     hingämä+V+Ind+Prt+OcPl3: hingädiq
+     hingämä+V+Ind+Prt+Oc+ConNeg: hingädä
+
+     hingämä+V+ActPrsPrc+Sg+Nom: hingäv
+     hingämä+V+ActPrsPrc+Sg+Gen: hingävä
+     hingämä+V+ActPrsPrc+Sg+Par: hingävät
+     hingämä+V+ActPrsPrc+Sg+Ill: hingävähe
+     hingämä+V+ActPrsPrc+Pl+Nom: hingäväq
+     hingämä+V+ActPrsPrc+Pl+Gen: hingävide
+     hingämä+V+ActPrsPrc+Pl+Par: hingävit
+     hingämä+V+ActPrsPrc+Pl+Ill: hingävihe
+                    
+     hingämä+V+PssPrsPrc+Sg+Nom: hingätäv
+     hingämä+V+PssPrsPrc+Sg+Gen: hingätävä
+     hingämä+V+PssPrsPrc+Sg+Par: hingätävät
+     hingämä+V+PssPrsPrc+Sg+Ill: hingätävähe
+     hingämä+V+PssPrsPrc+Pl+Nom: hingätäväq
+     hingämä+V+PssPrsPrc+Pl+Gen: hingätävide
+     hingämä+V+PssPrsPrc+Pl+Par: hingätävit
+     hingämä+V+PssPrsPrc+Pl+Ill: hingätävihe
+
+     hingämä+V+ActPrtPrc+Sg+Nom: hingänüq
+     hingämä+V+ActPrtPrc+Sg+Gen: hingänüq
+     hingämä+V+ActPrtPrc+Sg+Par: hingänüt
+     hingämä+V+ActPrtPrc+Sg+Ill: hingänühe
+     hingämä+V+ActPrtPrc+Pl+Nom: hingänüq
+     hingämä+V+ActPrtPrc+Pl+Gen: hingänüide
+     hingämä+V+ActPrtPrc+Pl+Par: hingänüid
+     hingämä+V+ActPrtPrc+Pl+Ill: hingänüihe
+
+     hingämä+V+PssPrtPrc+Sg+Nom: hingät
+     hingämä+V+PssPrtPrc+Sg+Gen: hingädü
+     hingämä+V+PssPrtPrc+Sg+Par: hingätüt
+     hingämä+V+PssPrtPrc+Sg+Ill: hingätühe
+     hingämä+V+PssPrtPrc+Pl+Nom: hingädüq
+     hingämä+V+PssPrtPrc+Pl+Gen: hingätüide
+     hingämä+V+PssPrtPrc+Pl+Par: hingätüid
+     hingämä+V+PssPrtPrc+Pl+Ill: hingätüihe
