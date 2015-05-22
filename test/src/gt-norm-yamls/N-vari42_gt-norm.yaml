@@ -1,4 +1,4 @@
-Config:
+%Config:
   hfst:
     Gen: ../../../src/generator-gt-norm.hfst
     Morph: ../../../src/analyser-gt-norm.hfst
@@ -18,28 +18,28 @@ Tests:
 
   Noun - vari: # Noun (42) vari 'eng /est /fin' - full paradigm
     vari+N+Sg+Nom: vari
-    vari+N+Sg+Gen: var'o
+    vari+N+Sg+Gen: varʼo
     vari+N+Sg+Par: varjo
     vari+N+Sg+Ill: tallo
-    vari+N+Sg+Ine: [var'on, var'oh, var'ohn]
-    vari+N+Sg+Ela: var'ost
-    vari+N+Sg+All: var'olõ
-    vari+N+Sg+Ade: var'ol
-    vari+N+Sg+Abl: var'olt
-    vari+N+Sg+Tra: var'os
-    vari+N+Sg+Ter: var'oniq
-    vari+N+Sg+Abe: var'oldaq
-    vari+N+Sg+Com: var'ogaq
-    vari+N+Pl+Nom: var'oq
+    vari+N+Sg+Ine: [varʼon, varʼoh, varʼohn]
+    vari+N+Sg+Ela: varʼost
+    vari+N+Sg+All: varʼolõ
+    vari+N+Sg+Ade: varʼol
+    vari+N+Sg+Abl: varʼolt
+    vari+N+Sg+Tra: varʼos
+    vari+N+Sg+Ter: varʼoniq
+    vari+N+Sg+Abe: varʼoldaq
+    vari+N+Sg+Com: varʼogaq
+    vari+N+Pl+Nom: varʼoq
     vari+N+Pl+Gen: [varjõ, varja]
     vari+N+Pl+Par: [varjõ, varja]
     vari+N+Pl+Ill: [varjõhe, varjõ, varjõdõ, varjahe, varja, varjadõ]
-    vari+N+Pl+Ine: [var'õn, var'õh, var'õhn, var'an, var'ah, var'ahn]
-    vari+N+Pl+Ela: [var'õst, var'ast]
-    vari+N+Pl+All: [var'õlõ, var'alõ]
-    vari+N+Pl+Ade: [var'õl, var'al]
-    vari+N+Pl+Abl: [var'õlt, var'alt]
-    vari+N+Pl+Tra: [var'õs, var'as]
-    vari+N+Pl+Ter: [var'õniq, var'aniq]
-    vari+N+Pl+Abe: [var'õldaq, var'aldaq]
+    vari+N+Pl+Ine: [varʼõn, varʼõh, varʼõhn, varʼan, varʼah, varʼahn]
+    vari+N+Pl+Ela: [varʼõst, varʼast]
+    vari+N+Pl+All: [varʼõlõ, varʼalõ]
+    vari+N+Pl+Ade: [varʼõl, varʼal]
+    vari+N+Pl+Abl: [varʼõlt, varʼalt]
+    vari+N+Pl+Tra: [varʼõs, varʼas]
+    vari+N+Pl+Ter: [varʼõniq, varʼaniq]
+    vari+N+Pl+Abe: [varʼõldaq, varʼaldaq]
     vari+N+Pl+Com: [varjõgaq, varjagaq]
