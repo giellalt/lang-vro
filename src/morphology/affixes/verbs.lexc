@@ -736,10 +736,54 @@ LEXICON V_82PÜÜDMÄ !!≈ * __@CODE@__ püüdmä:püüd
 +V: V0-PSS-PRS-PRC ;
 +V:%^WGStem%{ÕE%} V0-PSS-PRT-PRC ;
 
-LEXICON V_83NÕSTMA
-+V+WORK: # ;
-LEXICON V_84LASKMA
-+V+WORK: # ;
+LEXICON V_83NÕSTMA  !!= * @CODE@ nõstma:nõst
+!! * Yaml: __nwstma__
++V:a V0-IND-PRS-SC-12 ;
++V:a V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SCSG3_ZERO ;
++V: V0-IND-PRS-SCPL3_vAq ;
++V:a V0-IND-PRS-PC ;
+
++V: V0-IND-PRT-SC-12_i ;
++V: V0-IND-PRT-SCSG1_sõ ;
++V: V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_APOSTROPHE ;
++V: V0-IND-PRT-SCSG3_sõ ;
++V: V0-IND-PRT-SCPL3_vaq ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minõ ;
++V: V0-INF_ma ;
++V: V0-INF_aq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC_BACK ;
++V: V0-PSS-PRS-PRC ;
++V:õ V0-PSS-PRT-PRC_BACK ;
+
+LEXICON V_84LASKMA !!= * @CODE@ laskma:lask
+!! * Yaml: __nwstma__
++V:%^WGStem%>õ V0-IND-PRS-SC-12 ;
++V:%^WGStem%>õ V0-IND-PRS-SC-CONNEG ;
++V: V0-IND-PRS-SCSG3_ZERO ;
++V: V0-IND-PRS-SCPL3_vAq ;
++V:%^WGStem%>õ V0-IND-PRS-PC ;
+
++V:%^WGStem V0-IND-PRT-SC-12_i ;
++V: V0-IND-PRT-SCSG1_sõ ;
++V: V0-IND-PRT-SC-CONNEG ;
++V: V0-IND-PRT-SCSG3_APOSTROPHE ;
++V: V0-IND-PRT-SCSG3_sõ ;
++V: V0-IND-PRT-SCPL3_vaq ;
++V: V0-IND-PRT-OC ;
+
++V: DEVERBAL_minõ ;
++V: V0-INF_ma ;
++V:%>õ V0-INF_ZEROq ;
++V: V0-ACT-PRS-PRC ;
++V: V0-ACT-PRT-PRC_BACK ;
++V: V0-PSS-PRS-PRC ;
++V:%^WGStem V0-PSS-PRT-PRC_BACK ;
+
 LEXICON V_85HIRNMA !!≈ * __@CODE@__ kakma:kaku hirnma:hirnu
 !! * Yaml: __kakma__
 +V:%{UÜ%} V0-IND-PRS-SC-12 ;
@@ -947,8 +991,11 @@ LEXICON V0-IND-PRS-PC
 !! !INDICATIVE PRETERIT SUBJECT CONJUGATION
 LEXICON V0-IND-PRT-SCSG1_iE
 +Ind+Prt+ScSg1:%>i%{ÕE%} K ;
+
 LEXICON V0-IND-PRT-SCSG1_se
-+Ind+Prt+ScSg1:%>s%{ÕE%} K ;
++Ind+Prt+ScSg1:%>se K ;
+LEXICON V0-IND-PRT-SCSG1_sõ
++Ind+Prt+ScSg1:%>sõ K ;
 
 LEXICON V0-IND-PRT-SC-12_ZERO
 +Ind+Prt+ScSg1: K ;
@@ -1020,12 +1067,21 @@ LEXICON V0-IND-PRT-SCSG3_iE
 +Ind+Prt+ScSg3:%>i%{ÕE%} K ;
 LEXICON V0-IND-PRT-SCSG3_E
 +Ind+Prt+ScSg3:%>%{ÕE%} K ;
+
 LEXICON V0-IND-PRT-SCSG3_se
-+Ind+Prt+ScSg3:%>s%{ÕE%} K ;
++Ind+Prt+ScSg3:%>se K ;
+LEXICON V0-IND-PRT-SCSG3_sõ
++Ind+Prt+ScSg3:%>sõ K ;
 
 LEXICON V0-IND-PRT-SCPL3_vAq
 +Ind+Prt+ScPl3:%^VowRM%>iq K ;
 +Ind+Prt+ScPl3:%^VowRM%>iv%{AÄ%}q K ;
+LEXICON V0-IND-PRT-SCPL3_vaq
++Ind+Prt+ScPl3:%^VowRM%>iq K ;
++Ind+Prt+ScPl3:%^VowRM%>ivaq K ;
+LEXICON V0-IND-PRT-SCPL3_väq
++Ind+Prt+ScPl3:%^VowRM%>iq K ;
++Ind+Prt+ScPl3:%^VowRM%>iväq K ;
 
 
 LEXICON V0-IND-PRT-SC3_s
@@ -1095,6 +1151,10 @@ LEXICON V0-IND-PRT-PC
 !! !NON-FINITES
 LEXICON V0-INF_mA
 +Inf/mA:%>m%{AÄ%} K ;
+LEXICON V0-INF_ma
++Inf/mA:%>ma K ;
+LEXICON V0-INF_mä
++Inf/mA:%>mä K ;
 
 LEXICON V0-INF_dAq
 +Inf:%>d%{AÄ%}q K ;
@@ -1110,11 +1170,21 @@ LEXICON V0-INF_vAq
 
 LEXICON V0-INF_Aq
 +Inf:%>%{AÄ%}q K ;
+LEXICON V0-INF_aq
++Inf:%>aq K ;
+LEXICON V0-INF_äq
++Inf:%>äq K ;
 
 LEXICON V0-INF_ZEROq
 +Inf:%>q K ;
 
 LEXICON DEVERBAL_minÕ
++Der/minÕ+N:%>mi NMN_16INEMINE ;
++Der/JA+N:%>j NMN_9KIPÕNʼ ; !!≈ * __@CODE@__ This should have a +Der/JA tag
+LEXICON DEVERBAL_mine
++Der/minÕ+N:%>mi NMN_16INEMINE ;
++Der/JA+N:%>j NMN_9KIPÕNʼ ; !!≈ * __@CODE@__ This should have a +Der/JA tag
+LEXICON DEVERBAL_minõ
 +Der/minÕ+N:%>mi NMN_16INEMINE ;
 +Der/JA+N:%>j NMN_9KIPÕNʼ ; !!≈ * __@CODE@__ This should have a +Der/JA tag
 
@@ -1137,6 +1207,12 @@ LEXICON V0-ACT-PRS-PRC
 LEXICON V0-ACT-PRT-PRC
 +ActPrtPrc:%>n%{UÜ%}q K ;
 +ActPrtPrc:%>n%{UÜ%} NMN_ELÄNÜQ ;
+LEXICON V0-ACT-PRT-PRC_BACK
++ActPrtPrc:%>nuq K ;
++ActPrtPrc:%>nu NMN_ELÄNÜQ ;
+LEXICON V0-ACT-PRT-PRC_FRONT
++ActPrtPrc:%>nüq K ;
++ActPrtPrc:%>nü NMN_ELÄNÜQ ;
 
 LEXICON V0-ACT-PRT-PRC_WEAKGRADE
 +ActPrtPrc:%^WGStem%>n%{UÜ%}q K ;
@@ -1193,6 +1269,33 @@ LEXICON V0-PSS-PRT-PRC
 +PssPrtPrc+Pl+Par:%>t%{UÜ%}isi K ;
 +PssPrtPrc+Pl+Ill:%>t%{UÜ%}isihe K ;
 +PssPrtPrc+Pl+Ill:%>t%{UÜ%}ihe K ;
+LEXICON V0-PSS-PRT-PRC_BACK
++PssPrtPrc:%>t K ;
++PssPrtPrc+Sg+Nom:%>t K ;
++PssPrtPrc+Sg+Gen:%>du K ;
++PssPrtPrc+Sg+Par:%>tut K ;
++PssPrtPrc+Sg+Ill:%>tuhe K ;
++PssPrtPrc+Pl+Nom:%>duq K ;
++PssPrtPrc+Pl+Gen:%>tuidõ K ;
++PssPrtPrc+Pl+Gen:%>tuisi K ;
++PssPrtPrc+Pl+Par:%>tuid K ;
++PssPrtPrc+Pl+Par:%>tuisi K ;
++PssPrtPrc+Pl+Ill:%>tuisihe K ;
++PssPrtPrc+Pl+Ill:%>tuihe K ;
+LEXICON V0-PSS-PRT-PRC_FRONT
++PssPrtPrc:%>t K ;
++PssPrtPrc+Sg+Nom:%>t K ;
++PssPrtPrc+Sg+Gen:%>dü K ;
++PssPrtPrc+Sg+Par:%>tüt K ;
++PssPrtPrc+Sg+Ill:%>tühe K ;
++PssPrtPrc+Pl+Nom:%>düq K ;
++PssPrtPrc+Pl+Gen:%>tüide K ;
++PssPrtPrc+Pl+Gen:%>tüisi K ;
++PssPrtPrc+Pl+Par:%>tüid K ;
++PssPrtPrc+Pl+Par:%>tüisi K ;
++PssPrtPrc+Pl+Ill:%>tüisihe K ;
++PssPrtPrc+Pl+Ill:%>tüihe K ;
+
 
 LEXICON V0-PSS-PRT-PRC_d
 +PssPrtPrc:%>d K ;
