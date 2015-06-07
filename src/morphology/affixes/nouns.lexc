@@ -1,5 +1,8 @@
 !! Noun inflection for Võro
 !! ------------------------
+LEXICON N_ !!= * @CODE@ Lacks specific continuation lexicon
++N+WORK: #;
+
 LEXICON N_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
 	N_1HANSʼA-SG ;
 	N_1HANSʼA-PL ;
@@ -162,6 +165,15 @@ LEXICON N_13ALONÕ-SG
 LEXICON N_13ALONÕ-PL
 +N:     NMN_13ALONÕ-PL ;
 
+LEXICON N_13TÄHINE !!= @CODE@ tähine:tähi
+! Gradation: No
+	N_13TÄHINE-SG ;
+	N_13TÄHINE-PL ;
+LEXICON N_13TÄHINE-SG
++N:     NMN_13TÄHINE-SG ;
+LEXICON N_13TÄHINE-PL
++N:     NMN_13TÄHINE-PL ;
+
 LEXICON N_14RITSʼKAS !!= @CODE@ ritsʼkas:ritsʼka, saabas:saapa
 ! Gradation: No
         N_14RITSʼKAS-SG ;
@@ -291,7 +303,16 @@ LEXICON N_23KIILʼ-SG
 +N: NMN_23KIILʼ-SG ;
 LEXICON N_23KIILʼ-PL
 +N: NMN_23KIILʼ-PL ;
-+N+Sg+Nom+WORK: K ;
+
+LEXICON N_23NUULʼ !!= * @CODE@ nuulʼ:nool
+! Gradation: No
+ N_23NUULʼ-SG ;
+ N_23NUULʼ-PL ;
+LEXICON N_23NUULʼ-SG
++N: NMN_23NUULʼ-SG ;
+LEXICON N_23NUULʼ-PL
++N: NMN_23NUULʼ-PL ;
+
 
 LEXICON N_24KÄSI
 ! gradation: yes
@@ -473,6 +494,14 @@ LEXICON N_38PUHM-SG
 +N: NMN_38PUHM-SG ;
 LEXICON N_38PUHM-PL
 +N: NMN_38PUHM-PL ;
+
+LEXICON N_38HÜTT
+ N_38HÜTT-SG ;
+ N_38HÜTT-PL ;
+LEXICON N_38HÜTT-SG
++N: NMN_38HÜTT-SG ;
+LEXICON N_38HÜTT-PL
++N: NMN_38HÜTT-PL ;
 
 LEXICON N_KULD
  N_KULD-SG ;
@@ -1021,20 +1050,39 @@ LEXICON NMN_13ALONÕ !!= @CODE@ alonõ:alo
         NMN_13ALONÕ-SG ;
         NMN_13ALONÕ-PL ;
 LEXICON NMN_13ALONÕ-SG
-:%>n%{ÕE%}	SG-NOM ;
-:%>ds%{ÕE%}      SG-GEN_ZERO-STEM ;
+:%>nõ	SG-NOM ;
+:%>dsõ      SG-GEN_ZERO-STEM ;
 :s		SG-PAR_t ;
-:ts%{ÕE%}      	SG-ILL_he ;
+:tsõ      	SG-ILL_he ;
 
 LEXICON NMN_13ALONÕ-PL
-:%>ds%{ÕE%}      PL-NOM ;
-:s		PL-GEN_dÕ ;
+:%>dsõ      BACK_PL-NOM ;
+:s		BACK_PL-GEN_dõ ;
 :s		PL-ILL_dÕhe ;
-:s		PL-ALL_dÕlÕ ;
-:tsi		PL-GEN_dÕ ;
+:s		BACK_PL-ALL_dõlõ ;
+:tsi		BACK_PL-GEN_dõ ;
 :tsi		PL-PAR_t ;
 :tsi		PL-ILL_he ;
-:tsi		PL-ALL_lÕ-STEM ;
+:tsi		PL-ALL_lõ-STEM ;
+
+LEXICON NMN_13TÄHINE !!= @CODE@ tähine:tähi
+        NMN_13TÄHINE-SG ;
+        NMN_13TÄHINE-PL ;
+LEXICON NMN_13TÄHINE-SG
+:%>ne	SG-NOM ;
+:%>dse      SG-GEN_ZERO-STEM ;
+:s		SG-PAR_t ;
+:tse      	SG-ILL_he ;
+
+LEXICON NMN_13TÄHINE-PL
+:%>dse      FRONT_PL-NOM ;
+:s		FRONT_PL-GEN_de ;
+:s		PL-ILL_dÕhe ;
+:s		FRONT_PL-ALL_dele ;
+:tsi		FRONT_PL-GEN_de ;
+:tsi		PL-PAR_t ;
+:tsi		PL-ILL_he ;
+:tsi		PL-ALL_le-STEM ;
 
 
 LEXICON NMN_14RITSʼKAS !!= * __@CODE@__ ritsʼkas:ritsʼka
@@ -1326,12 +1374,33 @@ LEXICON NMN_23KIILʼ !!= * __@CODE@__ kiilʼ:keel
 
 LEXICON NMN_23KIILʼ-SG 
 :%^RVowʼ      SG-NOM ;
-:%>%{ÕE%}      SG-GEN_ZERO-STEM ;
+:%>e      SG-GEN_ZERO-STEM ;
 :%^RVow             SG-PAR_t ;
-:%^RVowd%>%{ÕE%}             SG-ILL_ZERO ;
+:%^RVowd%>e             SG-ILL_ZERO ;
 
 LEXICON NMN_23KIILʼ-PL 
-:%>%{ÕE%}      PL-NOM ;
+:%>e      PL-NOM ;
+             PL-GEN_tÕ ;
+             PL-ALL_tÕlÕ ;
+:%^RVowi            PL-GEN_ZERO ;
+:%^RVowi            PL-PAR_ZERO ;
+:%^RVowi            PL-ILL_he ;
+:%^RVowi            PL-ILL_ZERO ;
+:%>i            PL-ALL_lÕ-STEM ;
+
+LEXICON NMN_23NUULʼ !!= * __@CODE@__ nuulʼ:nool
+!! * Yaml: __N-nuulj__
+  NMN_23NUULʼ-SG ;
+  NMN_23NUULʼ-PL ;
+
+LEXICON NMN_23NUULʼ-SG 
+:%^RVowʼ      SG-NOM ;
+:%>õ      SG-GEN_ZERO-STEM ;
+:%^RVow             SG-PAR_t ;
+:%^RVowd%>õ             SG-ILL_ZERO ;
+
+LEXICON NMN_23NUULʼ-PL 
+:%>õ      PL-NOM ;
              PL-GEN_tÕ ;
              PL-ALL_tÕlÕ ;
 :%^RVowi            PL-GEN_ZERO ;
@@ -1606,13 +1675,23 @@ LEXICON NMN_34TULI-SG
 +WORK: #;
 LEXICON NMN_34TULI-PL 
 +WORK: #;
-LEXICON NMN_35TARÕ
+LEXICON NMN_35TARÕ !!= * @CODE@ tarõ:tarõ
+!külä
   NMN_35TARÕ-SG ;
   NMN_35TARÕ-PL ;
 LEXICON NMN_35TARÕ-SG 
-+WORK: #;
+        SG-NOM  ;
+       SG-GEN_ZERO-STEM        ;
+:%^StrGStem       SG-ILL_ZERO        ;  ! tarrõ
+:%^StrGStem       SG-PAR_ZERO        ;  ! tarrõ
+
 LEXICON NMN_35TARÕ-PL 
-+WORK: #;
+       PL-NOM ;		! tarõq
+:%^StrGStem%>i    PL-GEN_ZERO ;
+:%^StrGStem%>i    PL-PAR_ZERO ;
+:%^StrGStem%>i    PL-ILL_ZERO ;
+:%^StrGStem%>i    PL-ILL_he ;
+:%^StrGStem%>i  PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_NIMI
 !! nimi:nim
@@ -1702,17 +1781,34 @@ LEXICON NMN_38PUHM
   NMN_38PUHM-PL ;
 LEXICON NMN_38PUHM-SG 
         SG-NOM  ;
-:%{AÄ%}       SG-GEN_ZERO-STEM        ;
-:%{AÄ%}       SG-ILL_ZERO        ;
-:%{AÄ%}       SG-PAR_ZERO        ;
+:a       SG-GEN_ZERO-STEM        ;
+:a       SG-ILL_ZERO        ;
+:a       SG-PAR_ZERO        ;
 
 LEXICON NMN_38PUHM-PL 
-:%{EÕ%}       PL-NOM ;
-:%{EÕ%}    PL-GEN_ZERO ;
-:%{EÕ%}    PL-PAR_ZERO ;
-:%{EÕ%}    PL-ILL_ZERO ;
-:%{EÕ%}    PL-ILL_he ;
-:%{EÕ%}    PL-ALL_lÕ-STEM ;
+:õ       PL-NOM ;
+:õ    PL-GEN_ZERO ;
+:õ    PL-PAR_ZERO ;
+:õ    PL-ILL_ZERO ;
+:õ    PL-ILL_he ;
+:õ    PL-ALL_lÕ-STEM ;
+
+LEXICON NMN_38HÜTT
+  NMN_38HÜTT-SG ;
+  NMN_38HÜTT-PL ;
+LEXICON NMN_38HÜTT-SG 
+        SG-NOM  ;
+:ä       SG-GEN_ZERO-STEM        ;
+:ä       SG-ILL_ZERO        ;
+:ä       SG-PAR_ZERO        ;
+
+LEXICON NMN_38HÜTT-PL 
+:e       PL-NOM ;
+:e    PL-GEN_ZERO ;
+:e    PL-PAR_ZERO ;
+:e    PL-ILL_ZERO ;
+:e    PL-ILL_he ;
+:e    PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_KULD !!= * __@CODE@__ kuld:kuld
 !! Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
@@ -1720,17 +1816,17 @@ LEXICON NMN_KULD !!= * __@CODE@__ kuld:kuld
   NMN_KULD-PL ;
 LEXICON NMN_KULD-SG 
         SG-NOM  ;
-:%{AÄ%}       SG-GEN_ZERO-STEM        ;
-:%{AÄ%}       SG-ILL_ZERO        ;
-:%{AÄ%}       SG-PAR_ZERO        ;
+:a       SG-GEN_ZERO-STEM        ;
+:a       SG-ILL_ZERO        ;
+:a       SG-PAR_ZERO        ;
 
 LEXICON NMN_KULD-PL 
-:%{EÕ%}       PL-NOM ;
-:%{EÕ%}    PL-GEN_ZERO ;
-:%{EÕ%}    PL-PAR_ZERO ;
-:%{EÕ%}    PL-ILL_ZERO ;
-:%{EÕ%}    PL-ILL_he ;
-:%{EÕ%}    PL-ALL_lÕ-STEM ;
+:õ       PL-NOM ;
+:õ    PL-GEN_ZERO ;
+:õ    PL-PAR_ZERO ;
+:õ    PL-ILL_ZERO ;
+:õ    PL-ILL_he ;
+:õ    PL-ALL_lÕ-STEM ;
 
 LEXICON NMN_39HÄBÜ
   NMN_39HÄBÜ-SG ;
@@ -1970,6 +2066,28 @@ LEXICON PL-ALL_lÕ-STEM
    PL-INE_n ;
    PL-TER ;
    PL-TRA ;
+LEXICON PL-ALL_lõ-STEM
+   PL-ABE ;
+   PL-ABL ;
+   PL-ADE ;
+   PL-ALL_lõ ;
+   PL-ELA ;
+   PL-INE_h ;
+   PL-INE_hn ;
+   PL-INE_n ;
+   PL-TER ;
+   PL-TRA ;
+LEXICON PL-ALL_le-STEM
+   PL-ABE ;
+   PL-ABL ;
+   PL-ADE ;
+   PL-ALL_le ;
+   PL-ELA ;
+   PL-INE_h ;
+   PL-INE_hn ;
+   PL-INE_n ;
+   PL-TER ;
+   PL-TRA ;
 
 !! !TAGS THAT CAN BE FOLLOWED BY CLITICS "K"
 !! !PLURAL TAGS
@@ -1984,12 +2102,20 @@ LEXICON  PL-ADE
 
 LEXICON  PL-ALL_lÕ
 +Pl+All:%>l%{ÕE%} K ;
+LEXICON  PL-ALL_lõ
++Pl+All:%>lõ K ;
+LEXICON  PL-ALL_le
++Pl+All:%>le K ;
 
 LEXICON  PL-ALL_ÕlÕ
 +Pl+All:%>%{ÕE%}l%{ÕE%} K ;
 
 LEXICON  PL-ALL_dÕlÕ
 +Pl+All:%>d%{ÕE%}l%{ÕE%} K ;
+LEXICON  BACK_PL-ALL_dõlõ
++Pl+All:%>dõlõ K ;
+LEXICON  FRONT_PL-ALL_dele
++Pl+All:%>dele K ;
 
 LEXICON  PL-ALL_tÕlÕ
 +Pl+All:%>t%{ÕE%}l%{ÕE%} K ;
@@ -2003,15 +2129,14 @@ LEXICON PL-ELA
 LEXICON  PL-GEN_ZERO
 +Pl+Gen: K ;
 
+LEXICON  PL-GEN_dÕ
++Pl+Gen:%>d%{ÕE%} K ;
 LEXICON  BACK_PL-GEN_dõ
 +Pl+Gen:%>dõ K ;
-
 LEXICON  FRONT_PL-GEN_de
 +Pl+Gen:%>de K ;
 
 
-LEXICON  PL-GEN_dÕ
-+Pl+Gen:%>d%{ÕE%} K ;
 
 LEXICON  BACK_PL-GEN_tõ
 +Pl+Gen:%>tõ K ;
@@ -2068,6 +2193,10 @@ LEXICON PL-INE_hn
 
 LEXICON PL-NOM
 +Pl+Nom:%>q K ;
+LEXICON BACK_PL-NOM
++Pl+Nom:%>q BACK_K ;
+LEXICON FRONT_PL-NOM
++Pl+Nom:%>q FRONT_K ;
 
 LEXICON  PL-PAR_ZERO
 +Pl+Par: K ;
@@ -2161,6 +2290,10 @@ LEXICON	SG-INE_hn !!= @CODE@ RARE
 
 LEXICON SG-NOM
 +Sg+Nom: K ;
+LEXICON BACK_SG-NOM
++Sg+Nom: BACK_K ;
+LEXICON FRONT_SG-NOM
++Sg+Nom: FRONT_K ;
 
 LEXICON	 SG-PAR_ZERO
 +Sg+Par: K ;
