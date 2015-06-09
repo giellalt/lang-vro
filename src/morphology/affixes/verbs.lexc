@@ -709,8 +709,34 @@ LEXICON V_80RAPAHUTMA !!≈ * __@CODE@__ rapahutma:rapahut
 +V: V0-PSS-PRS-PRC ;
 +V:%^WGStem%{ÕE%} V0-PSS-PRT-PRC ;
 
-LEXICON V_81TEGEMÄ
-+V+WORK: # ;
+LEXICON V_81TEGEMÄ !!≈ * __@CODE@__ tegemä:teg
+!! * Yaml: __tegemä__
+!! Work
+!+V:%^WGStem%{AÄ%} V0-IND-PRS-SC-12 ;
+!+V:%{AÄ%} V0-IND-PRS-SC-CONNEG ;
+!+V: V0-IND-PRS-SCSG3_ZERO ;
+!+V:%{AÄ%} V0-IND-PRS-SCPL3_vAq ;
+!+V: V0-IND-PRS-PC ;
+
+!+V:%^WGStem V0-IND-PRT-SC-12_i ;
+!+V+Ind+Prt+ScSg1:%>se K ;
+!+V: V0-IND-PRT-SCSG1_se ;
+!+V: V0-IND-PRT-SC-CONNEG ;
+!+V: V0-IND-PRT-SCSG3_APOSTROPHE ;
+!+V: V0-IND-PRT-SCSG3_se ;
+!+V: V0-IND-PRT-SCPL3_vAq ;
+!+V: V0-IND-PRT-OC ;
+
++V:e DEVERBAL_mine ;
++V:e V0-INF_mä ;
++V:%^WGStem V0-INF_täq ;
++V:e FRONT_V0-ACT-PRS-PRC_v ;
++V:%^WGStem%>n FRONT_V0-ACT-PRT-PRC_nüq ;
++V:%^WGStem FRONT_V0-PSS-PRS-PRC_täv ;
++V:%^WGStem FRONT_V0-PSS-PRT-PRC_tt ;
+
+
+
 LEXICON V_82PÜÜDMÄ !!≈ * __@CODE@__ püüdmä:püüd
 !! * Yaml: __pueuedmae__
 +V:%^WGStem%{AÄ%} V0-IND-PRS-SC-12 ;
@@ -756,9 +782,9 @@ LEXICON V_83NÕSTMA  !!= * @CODE@ nõstma:nõst
 +V: V0-INF_ma ;
 +V: V0-INF_aq ;
 +V: V0-ACT-PRS-PRC ;
-+V: V0-ACT-PRT-PRC_BACK ;
++V: BACK_V0-ACT-PRT-PRC_nuq ;
 +V: V0-PSS-PRS-PRC ;
-+V:õ V0-PSS-PRT-PRC_BACK ;
++V:õ BACK_V0-PSS-PRT-PRC_t ;
 
 LEXICON V_84LASKMA !!= * @CODE@ laskma:lask
 !! * Yaml: __nwstma__
@@ -780,9 +806,9 @@ LEXICON V_84LASKMA !!= * @CODE@ laskma:lask
 +V: V0-INF_ma ;
 +V:%>õ V0-INF_ZEROq ;
 +V: V0-ACT-PRS-PRC ;
-+V: V0-ACT-PRT-PRC_BACK ;
++V: BACK_V0-ACT-PRT-PRC_nuq ;
 +V: V0-PSS-PRS-PRC ;
-+V:%^WGStem V0-PSS-PRT-PRC_BACK ;
++V:%^WGStem BACK_V0-PSS-PRT-PRC_t ;
 
 LEXICON V_85HIRNMA !!≈ * __@CODE@__ kakma:kaku hirnma:hirnu
 !! * Yaml: __kakma__
@@ -1152,9 +1178,9 @@ LEXICON V0-IND-PRT-PC
 LEXICON V0-INF_mA
 +Inf/mA:%>m%{AÄ%} K ;
 LEXICON V0-INF_ma
-+Inf/mA:%>ma K ;
++Inf/mA:%>ma BACK_K ;
 LEXICON V0-INF_mä
-+Inf/mA:%>mä K ;
++Inf/mA:%>mä FRONT_K ;
 
 LEXICON V0-INF_dAq
 +Inf:%>d%{AÄ%}q K ;
@@ -1174,6 +1200,11 @@ LEXICON V0-INF_aq
 +Inf:%>aq K ;
 LEXICON V0-INF_äq
 +Inf:%>äq K ;
+
+LEXICON V0-INF_taq
++Inf:%>taq BACK_K ;
+LEXICON V0-INF_täq
++Inf:%>täq FRONT_K ;
 
 LEXICON V0-INF_ZEROq
 +Inf:%>q K ;
@@ -1204,13 +1235,43 @@ LEXICON V0-ACT-PRS-PRC
 +ActPrsPrc+Pl+Ill:%>vihe K ;
 +Use/NG+ActPrsPrc+Pl+Ill:%>viihe K ;
 
+LEXICON BACK_V0-ACT-PRS-PRC_v
++ActPrsPrc:v BACK_K ;
++ActPrsPrc:v A_9KIPÕNʼ ;
++ActPrsPrc+Sg+Nom:v BACK_K ;
++ActPrsPrc+Sg+Gen:%>va BACK_K ;
++ActPrsPrc+Sg+Par:%>vat BACK_K ;
++ActPrsPrc+Sg+Ill:%>vahe BACK_K ;
++ActPrsPrc+Pl+Nom:%>vaq BACK_K ;
++ActPrsPrc+Pl+Gen:%>vidõ BACK_K ;
++Use/NG+ActPrsPrc+Pl+Gen:%>viidõ BACK_K ;
++ActPrsPrc+Pl+Par:%>vit BACK_K ;
++Use/NG+ActPrsPrc+Pl+Par:%>viit BACK_K ;
++ActPrsPrc+Pl+Ill:%>vihe BACK_K ;
++Use/NG+ActPrsPrc+Pl+Ill:%>viihe BACK_K ;
+
+LEXICON FRONT_V0-ACT-PRS-PRC_v
++ActPrsPrc:v FRONT_K ;		! tegev
++ActPrsPrc:v A_9KIPÕNʼ ;
++ActPrsPrc+Sg+Nom:v FRONT_K ;
++ActPrsPrc+Sg+Gen:%>vä FRONT_K ;
++ActPrsPrc+Sg+Par:%>vät FRONT_K ;
++ActPrsPrc+Sg+Ill:%>vähe FRONT_K ;
++ActPrsPrc+Pl+Nom:%>väq FRONT_K ;
++ActPrsPrc+Pl+Gen:%>vide FRONT_K ;
++Use/NG+ActPrsPrc+Pl+Gen:%>viide FRONT_K ;
++ActPrsPrc+Pl+Par:%>vit FRONT_K ;
++Use/NG+ActPrsPrc+Pl+Par:%>viit FRONT_K ;
++ActPrsPrc+Pl+Ill:%>vihe FRONT_K ;
++Use/NG+ActPrsPrc+Pl+Ill:%>viihe FRONT_K ;
+
 LEXICON V0-ACT-PRT-PRC
 +ActPrtPrc:%>n%{UÜ%}q K ;
 +ActPrtPrc:%>n%{UÜ%} NMN_ELÄNÜQ ;
-LEXICON V0-ACT-PRT-PRC_BACK
+LEXICON BACK_V0-ACT-PRT-PRC_nuq
 +ActPrtPrc:%>nuq K ;
 +ActPrtPrc:%>nu NMN_ELÄNÜQ ;
-LEXICON V0-ACT-PRT-PRC_FRONT
+LEXICON FRONT_V0-ACT-PRT-PRC_nüq
 +ActPrtPrc:%>nüq K ;
 +ActPrtPrc:%>nü NMN_ELÄNÜQ ;
 
@@ -1244,6 +1305,34 @@ LEXICON V0-PSS-PRS-PRC
 +Use/NG+PssPrsPrc+Pl+Par:%>t%{AÄ%}%>viit K ;
 +Use/NG+PssPrsPrc+Pl+Ill:%>t%{AÄ%}%>viihe K ;
 
+LEXICON BACK_V0-PSS-PRS-PRC_tav
++PssPrsPrc:%>tav K ;
++PssPrsPrc+Sg+Nom:%>tav K ;
++PssPrsPrc+Sg+Gen:%>ta%>va K ;
++PssPrsPrc+Sg+Par:%>ta%>vat K ;
++PssPrsPrc+Sg+Ill:%>ta%>vahe K ;
++PssPrsPrc+Pl+Nom:%>ta%>vaq K ;
++PssPrsPrc+Pl+Gen:%>ta%>vidõ K ;
++PssPrsPrc+Pl+Par:%>ta%>vit K ;
++PssPrsPrc+Pl+Ill:%>ta%>vihe K ;
++Use/NG+PssPrsPrc+Pl+Gen:%>ta%>viidõ K ;
++Use/NG+PssPrsPrc+Pl+Par:%>ta%>viit K ;
++Use/NG+PssPrsPrc+Pl+Ill:%>ta%>viihe K ;
+
+LEXICON FRONT_V0-PSS-PRS-PRC_täv
++PssPrsPrc:%>täv K ;
++PssPrsPrc+Sg+Nom:%>täv K ;
++PssPrsPrc+Sg+Gen:%>tä%>vä K ;
++PssPrsPrc+Sg+Par:%>tä%>vät K ;
++PssPrsPrc+Sg+Ill:%>tä%>vähe K ;
++PssPrsPrc+Pl+Nom:%>tä%>väq K ;
++PssPrsPrc+Pl+Gen:%>tä%>vide K ;
++PssPrsPrc+Pl+Par:%>tä%>vit K ;
++PssPrsPrc+Pl+Ill:%>tä%>vihe K ;
++Use/NG+PssPrsPrc+Pl+Gen:%>tä%>viide K ;
++Use/NG+PssPrsPrc+Pl+Par:%>tä%>viit K ;
++Use/NG+PssPrsPrc+Pl+Ill:%>tä%>viihe K ;
+
 LEXICON V0-PSS-PRS-PRC_WEAK
 +PssPrsPrc:%^WGStem%>t%{AÄ%}v K ;
 +PssPrsPrc+Sg+Nom:%^WGStem%>t%{AÄ%}v K ;
@@ -1269,32 +1358,32 @@ LEXICON V0-PSS-PRT-PRC
 +PssPrtPrc+Pl+Par:%>t%{UÜ%}isi K ;
 +PssPrtPrc+Pl+Ill:%>t%{UÜ%}isihe K ;
 +PssPrtPrc+Pl+Ill:%>t%{UÜ%}ihe K ;
-LEXICON V0-PSS-PRT-PRC_BACK
-+PssPrtPrc:%>t K ;
-+PssPrtPrc+Sg+Nom:%>t K ;
-+PssPrtPrc+Sg+Gen:%>du K ;
-+PssPrtPrc+Sg+Par:%>tut K ;
-+PssPrtPrc+Sg+Ill:%>tuhe K ;
-+PssPrtPrc+Pl+Nom:%>duq K ;
-+PssPrtPrc+Pl+Gen:%>tuidõ K ;
-+PssPrtPrc+Pl+Gen:%>tuisi K ;
-+PssPrtPrc+Pl+Par:%>tuid K ;
-+PssPrtPrc+Pl+Par:%>tuisi K ;
-+PssPrtPrc+Pl+Ill:%>tuisihe K ;
-+PssPrtPrc+Pl+Ill:%>tuihe K ;
-LEXICON V0-PSS-PRT-PRC_FRONT
-+PssPrtPrc:%>t K ;
-+PssPrtPrc+Sg+Nom:%>t K ;
-+PssPrtPrc+Sg+Gen:%>dü K ;
-+PssPrtPrc+Sg+Par:%>tüt K ;
-+PssPrtPrc+Sg+Ill:%>tühe K ;
-+PssPrtPrc+Pl+Nom:%>düq K ;
-+PssPrtPrc+Pl+Gen:%>tüide K ;
-+PssPrtPrc+Pl+Gen:%>tüisi K ;
-+PssPrtPrc+Pl+Par:%>tüid K ;
-+PssPrtPrc+Pl+Par:%>tüisi K ;
-+PssPrtPrc+Pl+Ill:%>tüisihe K ;
-+PssPrtPrc+Pl+Ill:%>tüihe K ;
+LEXICON BACK_V0-PSS-PRT-PRC_t
++PssPrtPrc:%>t BACK_K ;
++PssPrtPrc+Sg+Nom:%>t BACK_K ;
++PssPrtPrc+Sg+Gen:%>du BACK_K ;
++PssPrtPrc+Sg+Par:%>tut BACK_K ;
++PssPrtPrc+Sg+Ill:%>tuhe BACK_K ;
++PssPrtPrc+Pl+Nom:%>duq BACK_K ;
++PssPrtPrc+Pl+Gen:%>tuidõ BACK_K ;
++PssPrtPrc+Pl+Gen:%>tuisi BACK_K ;
++PssPrtPrc+Pl+Par:%>tuid BACK_K ;
++PssPrtPrc+Pl+Par:%>tuisi BACK_K ;
++PssPrtPrc+Pl+Ill:%>tuisihe BACK_K ;
++PssPrtPrc+Pl+Ill:%>tuihe BACK_K ;
+LEXICON FRONT_V0-PSS-PRT-PRC_t
++PssPrtPrc:%>t FRONT_K ;
++PssPrtPrc+Sg+Nom:%>t FRONT_K ;
++PssPrtPrc+Sg+Gen:%>dü FRONT_K ;
++PssPrtPrc+Sg+Par:%>tüt FRONT_K ;
++PssPrtPrc+Sg+Ill:%>tühe FRONT_K ;
++PssPrtPrc+Pl+Nom:%>düq FRONT_K ;
++PssPrtPrc+Pl+Gen:%>tüide FRONT_K ;
++PssPrtPrc+Pl+Gen:%>tüisi FRONT_K ;
++PssPrtPrc+Pl+Par:%>tüid FRONT_K ;
++PssPrtPrc+Pl+Par:%>tüisi FRONT_K ;
++PssPrtPrc+Pl+Ill:%>tüisihe FRONT_K ;
++PssPrtPrc+Pl+Ill:%>tüihe FRONT_K ;
 
 
 LEXICON V0-PSS-PRT-PRC_d
@@ -1310,6 +1399,60 @@ LEXICON V0-PSS-PRT-PRC_d
 +PssPrtPrc+Pl+Par:%>d%{UÜ%}isi K ;
 +PssPrtPrc+Pl+Ill:%>d%{UÜ%}isihe K ;
 +PssPrtPrc+Pl+Ill:%>d%{UÜ%}ihe K ;
+LEXICON BACK_V0-PSS-PRT-PRC_d
++PssPrtPrc:%>d BACK_K ;
++PssPrtPrc+Sg+Nom:%>d BACK_K ;
++PssPrtPrc+Sg+Gen:%>du BACK_K ;
++PssPrtPrc+Sg+Par:%>dut BACK_K ;
++PssPrtPrc+Sg+Ill:%>duhe BACK_K ;
++PssPrtPrc+Pl+Nom:%>duq BACK_K ;
++PssPrtPrc+Pl+Gen:%>duid%{ÕE%} BACK_K ;
++PssPrtPrc+Pl+Gen:%>duisi BACK_K ;
++PssPrtPrc+Pl+Par:%>duid BACK_K ;
++PssPrtPrc+Pl+Par:%>duisi BACK_K ;
++PssPrtPrc+Pl+Ill:%>duisihe BACK_K ;
++PssPrtPrc+Pl+Ill:%>duihe BACK_K ;
+LEXICON FRONT_V0-PSS-PRT-PRC_d
++PssPrtPrc:%>d FRONT_K ;
++PssPrtPrc+Sg+Nom:%>d FRONT_K ;
++PssPrtPrc+Sg+Gen:%>dü FRONT_K ;
++PssPrtPrc+Sg+Par:%>düt FRONT_K ;
++PssPrtPrc+Sg+Ill:%>dühe FRONT_K ;
++PssPrtPrc+Pl+Nom:%>düq FRONT_K ;
++PssPrtPrc+Pl+Gen:%>düid%{ÕE%} FRONT_K ;
++PssPrtPrc+Pl+Gen:%>düisi FRONT_K ;
++PssPrtPrc+Pl+Par:%>düid FRONT_K ;
++PssPrtPrc+Pl+Par:%>düisi FRONT_K ;
++PssPrtPrc+Pl+Ill:%>düisihe FRONT_K ;
++PssPrtPrc+Pl+Ill:%>düihe FRONT_K ;
+
+
+LEXICON BACK_V0-PSS-PRT-PRC_tt
++PssPrtPrc:%>tt BACK_K ;
++PssPrtPrc+Sg+Nom:%>tt BACK_K ;
++PssPrtPrc+Sg+Gen:%>tu BACK_K ;
++PssPrtPrc+Sg+Par:%>ttut BACK_K ;
++PssPrtPrc+Sg+Ill:%>ttuhe BACK_K ;
++PssPrtPrc+Pl+Nom:%>tuq BACK_K ;
++PssPrtPrc+Pl+Gen:%>ttuidõ BACK_K ;
++PssPrtPrc+Pl+Gen:%>ttuisi BACK_K ;
++PssPrtPrc+Pl+Par:%>ttuid BACK_K ;
++PssPrtPrc+Pl+Par:%>ttuisi BACK_K ;
++PssPrtPrc+Pl+Ill:%>ttuisihe BACK_K ;
++PssPrtPrc+Pl+Ill:%>ttuihe BACK_K ;
+LEXICON FRONT_V0-PSS-PRT-PRC_tt
++PssPrtPrc:%>tt FRONT_K ;
++PssPrtPrc+Sg+Nom:%>tt FRONT_K ;
++PssPrtPrc+Sg+Gen:%>tü FRONT_K ;
++PssPrtPrc+Sg+Par:%>ttüt FRONT_K ;
++PssPrtPrc+Sg+Ill:%>ttühe FRONT_K ;
++PssPrtPrc+Pl+Nom:%>tüq FRONT_K ;
++PssPrtPrc+Pl+Gen:%>ttüide FRONT_K ;
++PssPrtPrc+Pl+Gen:%>ttüisi FRONT_K ;
++PssPrtPrc+Pl+Par:%>ttüid FRONT_K ;
++PssPrtPrc+Pl+Par:%>ttüisi FRONT_K ;
++PssPrtPrc+Pl+Ill:%>ttüisihe FRONT_K ;
++PssPrtPrc+Pl+Ill:%>ttüihe FRONT_K ;
 
 ! vim: set ft=xfst-lexc:
 

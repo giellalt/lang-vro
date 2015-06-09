@@ -118,9 +118,19 @@ LEXICON N_9KIPÕNʼ
    N_9KIPÕNʼ-SG ;
    N_9KIPÕNʼ-PL ;
 LEXICON N_9KIPÕNʼ-SG
-+N:	NMN_9KIPÕNʼ-SG ;
++N:     NMN_9KIPÕNʼ-SG ;
 LEXICON N_9KIPÕNʼ-PL
-+N:	NMN_9KIPÕNʼ-PL ;
++N:     NMN_9KIPÕNʼ-PL ;
+
+LEXICON N_9ELLÄI
+!! elläi:elläi
+!! * Yaml: __N-ellaei4, N-kipwnj9__
+   N_9ELLÄI-SG ;
+   N_9ELLÄI-PL ;
+LEXICON N_9ELLÄI-SG
++N:	NMN_9ELLÄI-SG ;
+LEXICON N_9ELLÄI-PL
++N:	NMN_9ELLÄI-PL ;
 
 LEXICON N_10HÕRAK !!= @CODE@ 
         N_10HÕRAK-SG ;
@@ -955,6 +965,26 @@ LEXICON NMN_9KIPÕNʼ-SG
 
 LEXICON NMN_9KIPÕNʼ-PL
 :%^WGStem%>%{AÄ%}	PL-NOM ;:
+%^WGStem%>i	PL-GEN_dÕ ;
+:%^WGStem%>i        PL-ILL_he       ;
+:%^WGStem%>i        PL-ALL_lÕ-STEM       ;
+:%^WGStem%>i      PL-PAR_t        ;
+
+LEXICON NMN_9ELLÄI !!= @CODE@ elläi:elläi
+!! * Yaml: __ellaei, kipwnj__
+   NMN_9ELLÄI-SG ;
+   NMN_9ELLÄI-PL ;
+
+LEXICON NMN_9ELLÄI-SG
+	SG-NOM	;
+:%^WGStem%>ä	SG-GEN_ZERO-STEM	;
+:%^WGStem%>ä	SG-PAR_t	;
+:%^WGStem%>ä	SG-ILL_he	;
+:%^WGStem%>ä	SG-INE_n	;
+:%^WGStem%>ä	SG-ELA_st	;
+
+LEXICON NMN_9ELLÄI-PL
+:%^WGStem%>ä	PL-NOM ;:
 %^WGStem%>i	PL-GEN_dÕ ;
 :%^WGStem%>i        PL-ILL_he       ;
 :%^WGStem%>i        PL-ALL_lÕ-STEM       ;
@@ -2118,9 +2148,6 @@ LEXICON  PL-ALL_lõ
 LEXICON  PL-ALL_le
 +Pl+All:%>le K ;
 
-LEXICON  PL-ALL_ÕlÕ
-+Pl+All:%>%{ÕE%}l%{ÕE%} K ;
-
 LEXICON  PL-ALL_dÕlÕ
 +Pl+All:%>d%{ÕE%}l%{ÕE%} K ;
 LEXICON  BACK_PL-ALL_dõlõ
@@ -2389,8 +2416,6 @@ LEXICON BACK_ALLSUF_lõ
 LEXICON FRONT_ALLSUF_le
 +All:%>le # ;
 
-LEXICON ALLSUF_llÕ
-+All:%>ll%{ÕE%} # ;
 LEXICON BACK_ALLSUF_llõ
 +All:%>llõ # ;
 LEXICON FRONT_ALLSUF_lle
