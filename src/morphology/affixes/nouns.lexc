@@ -438,7 +438,6 @@ LEXICON N_34TULI-SG
 +N: NMN_34TULI-SG ;
 LEXICON N_34TULI-PL
 +N: NMN_34TULI-PL ;
-+N+Sg+Nom+WORK: K ;
 
 LEXICON N_35TARÕ
 !! tarõ:tar
@@ -1672,9 +1671,21 @@ LEXICON NMN_34TULI
   NMN_34TULI-PL ;
 
 LEXICON NMN_34TULI-SG 
-+WORK: #;
+:i        SG-NOM  ;			! tuli
+:%>õ       SG-GEN_ZERO-STEM   ;  ! tulõ
+:%^StrGStem%>õ       SG-ILL_ZERO        ;
+:   SG-PAR_d  ;
+
 LEXICON NMN_34TULI-PL 
-+WORK: #;
+:%>õ       PL-NOM ;         ! tulõq
+:%^StrGStem%>i    PL-GEN_ZERO ;
+:%^StrGStem%>i    PL-PAR_ZERO ;
+:%^StrGStem%>i    PL-ILL_he ;
++Use/NG:%^StrGStem%>i    PL-ILL_ZERO ;
++Use/NG:%^StrGStem%>i    BACK_PL-ILL_dõ ;
+:%>i  PL-ALL_lÕ-STEM ;
++Use/NG:%^StrGStem%>i  PL-ALL_lÕ-STEM ;
+
 LEXICON NMN_35TARÕ !!= * @CODE@ tarõ:tarõ
 !külä
   NMN_35TARÕ-SG ;
