@@ -24,6 +24,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/acro.lexc \
 			 stems/exceptions.lexc \
 			 stems/punct.lexc \
+			 clitics.lexc \
 			 affixes/adjectives.lexc \
 			 affixes/adverbs.lexc \
 			 affixes/nouns.lexc \

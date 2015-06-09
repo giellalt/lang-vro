@@ -250,6 +250,17 @@ LEXICON N_16INEMINE-SG
 LEXICON N_16INEMINE-PL
 +N:	NMN_16INEMINE-PL ;
 
+LEXICON N_16ABILINÕ !!= @CODE@
+!! abilinõ:abili
+! Gradation: No
+!! * Yaml: __N-abilinw16__
+	N_16ABILINÕ-SG ;
+	N_16ABILINÕ-PL ;
+LEXICON N_16ABILINÕ-SG
++N:	NMN_16ABILINÕ-SG ;
+LEXICON N_16ABILINÕ-PL
++N:	NMN_16ABILINÕ-PL ;
+
 
 LEXICON N_17TERVÜS
         N_17TERVÜS-SG ;
@@ -1277,13 +1288,31 @@ LEXICON NMN_16INEMINE !!= @CODE@ inemine:inemi
         NMN_16INEMINE-SG ;
         NMN_16INEMINE-PL ;
 LEXICON NMN_16INEMINE-SG
-:%>n%{ÕE%}	SG-NOM ;
-:%>s%{ÕE%}      SG-GEN_ZERO-STEM ;
+:%>ne	FRONT_SG-NOM ;
+:%>se      SG-GEN_ZERO-STEM ;
 :s		SG-PAR_t ;
 :s        	SG-ILL_tÕ ;
 
 LEXICON NMN_16INEMINE-PL
-:%>s%{ÕE%}      PL-NOM ;
+:%>se      PL-NOM ;
+:s		PL-GEN_dÕ ;
+:s		PL-ALL_dÕlÕ ;
+:isi		PL-GEN_ZERO ;
+:isi		PL-PAR_ZERO ;
+:isi		PL-ILL_he ;
+:isi		PL-ALL_lÕ-STEM ;
+
+LEXICON NMN_16ABILINÕ !!= @CODE@ abilinõ:inemi
+        NMN_16ABILINÕ-SG ;
+        NMN_16ABILINÕ-PL ;
+LEXICON NMN_16ABILINÕ-SG
+:%>nõ 	SG-NOM ;
+:%>sõ   SG-GEN_ZERO-STEM ;
+:s		SG-PAR_t ;
+:s        	SG-ILL_tÕ ;
+
+LEXICON NMN_16ABILINÕ-PL
+:%>sõ      PL-NOM ;
 :s		PL-GEN_dÕ ;
 :s		PL-ALL_dÕlÕ ;
 :isi		PL-GEN_ZERO ;
@@ -2095,6 +2124,34 @@ LEXICON SG-GEN_ZERO-STEM
 	SG-INE_n        ;
 	SG-TER 		;
 	SG-TRA 		;
+LEXICON BACK_SG-GEN_ZERO-STEM
+	BACK_SG-ABE_ldaq ;
+	BACK_SG-ABL ;
+	BACK_SG-ADE ;
+	BACK_SG-ALL_lõ ;
+	BACK_SG-COM ;
+	BACK_SG-ELA_st       ;
+	BACK_SG-GEN_ZERO ;
+	BACK_SG-INE_h        ;
+	BACK_SG-INE_hn        ;
+	BACK_SG-INE_n        ;
+	BACK_SG-TER 		;
+	BACK_SG-TRA 		;
+LEXICON FRONT_SG-GEN_ZERO-STEM
+	FRONT_SG-ABE_ldäq ;
+	FRONT_SG-ABL ;
+	FRONT_SG-ADE ;
+	FRONT_SG-ALL_le ;
+	FRONT_SG-COM ;
+	FRONT_SG-ELA_st       ;
+	FRONT_SG-GEN_ZERO ;
+	FRONT_SG-INE_h        ;
+	FRONT_SG-INE_hn        ;
+	FRONT_SG-INE_n        ;
+	FRONT_SG-TER 		;
+	FRONT_SG-TRA 		;
+
+
 !! !PLURAL ALLATIVE STEMS
 LEXICON PL-ALL_lÕ-STEM
    PL-ABE ;
@@ -2276,82 +2333,119 @@ LEXICON  FRONT_SG-ABE_ldäq
 
 LEXICON	 SG-ABL
 +Sg+Abl:%>lt K ;
+LEXICON	 BACK_SG-ABL
++Sg+Abl:%>lt BACK_K ;
+LEXICON	 FRONT_SG-ABL
++Sg+Abl:%>lt FRONT_K ;
 
 LEXICON	 SG-ADE
 +Sg+Ade:%>l K ;
+LEXICON	 BACK_SG-ADE
++Sg+Ade:%>l BACK_K ;
+LEXICON	 FRONT_SG-ADE
++Sg+Ade:%>l FRONT_K ;
 
 LEXICON	 SG-ALL
 +Sg+All:%>l%{ÕE%} K ;
 LEXICON	 BACK_SG-ALL_lõ
-+Sg+All:%>lõ K ;
++Sg+All:%>lõ BACK_K ;
 LEXICON	 FRONT_SG-ALL_le
-+Sg+All:%>le K ;
++Sg+All:%>le FRONT_K ;
 
 LEXICON	 SG-COM
 +Sg+Com:%>gaq K ;
+LEXICON	 BACK_SG-COM
++Sg+Com:%>gaq BACK_K ;
+LEXICON	 FRONT_SG-COM
++Sg+Com:%>gaq FRONT_K ;
 
 LEXICON	 SG-ELA_st
 +Sg+Ela:%>st K ;
+LEXICON	 BACK_SG-ELA_st
++Sg+Ela:%>st BACK_K ;
+LEXICON	 FRONT_SG-ELA_st
++Sg+Ela:%>st FRONT_K ;
 
 LEXICON	 SG-GEN_ZERO
 +Sg+Gen:%> K ;
+LEXICON	 BACK_SG-GEN_ZERO
++Sg+Gen:%> BACK_K ;
+LEXICON	 FRONT_SG-GEN_ZERO
++Sg+Gen:%> FRONT_K ;
 
 LEXICON	SG-ILL_ZERO
 +Sg+Ill: K ;
+LEXICON	BACK_SG-ILL_ZERO
++Sg+Ill: BACK_K ;
+LEXICON	FRONT_SG-ILL_ZERO
++Sg+Ill: FRONT_K ;
 
+!! Should this be here?
 LEXICON	SG-ILL_he
 +Sg+Ill:%>he K ;
 
 LEXICON	SG-ILL_hU
 +Sg+Ill:%>h%{UÜ%} K ;
 LEXICON BACK_SG-ILL_hu
-+Sg+Ill:%>hu K ;
++Sg+Ill:%>hu BACK_K ;
 LEXICON FRONT_SG-ILL_hü
-+Sg+Ill:%>hü K ;
++Sg+Ill:%>hü FRONT_K ;
 
 LEXICON	SG-ILL_hUq
 +Sg+Ill:%>h%{UÜ%}q K ;
 LEXICON BACK_SG-ILL_huq
-+Sg+Ill:%>huq K ;
++Sg+Ill:%>huq BACK_K ;
 LEXICON FRONT_SG-ILL_hüq
-+Sg+Ill:%>hüq K ;
++Sg+Ill:%>hüq FRONT_K ;
 
 LEXICON	SG-ILL_hÕ
 +Sg+Ill:%>h%{ÕE%} K ;
 LEXICON	BACK_SG-ILL_hõ
-+Sg+Ill:%>hõ K ;
++Sg+Ill:%>hõ BACK_K ;
 LEXICON	FRONT_SG-ILL_he
-+Sg+Ill:%>he K ;
++Sg+Ill:%>he FRONT_K ;
 
 LEXICON	SG-ILL_htÕ
 +Sg+Ill:%>ht%{ÕE%} K ;
 LEXICON	BACK_SG-ILL_htõ
-+Sg+Ill:%>htõ K ;
++Sg+Ill:%>htõ BACK_K ;
 LEXICON	FRONT_SG-ILL_hte
-+Sg+Ill:%>hte K ;
++Sg+Ill:%>hte FRONT_K ;
 
 LEXICON	SG-ILL_tÕ
 +Sg+Ill:%>t%{ÕE%} K ;
 LEXICON	BACK_SG-ILL_tõ
-+Sg+Ill:%>tõ K ;
++Sg+Ill:%>tõ BACK_K ;
 LEXICON	FRONT_SG-ILL_te
-+Sg+Ill:%>te K ;
++Sg+Ill:%>te FRONT_K ;
 
 LEXICON	SG-ILL_dÕ
 +Sg+Ill:%>d%{ÕE%} K ;
 LEXICON BACK_SG-ILL_dõ
-+Sg+Ill:%>dõ K ;
++Sg+Ill:%>dõ BACK_K ;
 LEXICON FRONT_SG-ILL_de
-+Sg+Ill:%>de K ;
++Sg+Ill:%>de FRONT_K ;
 
 LEXICON	SG-INE_n
 +Sg+Ine:%>n K ;
+LEXICON	BACK_SG-INE_n
++Sg+Ine:%>n BACK_K ;
+LEXICON	FRONT_SG-INE_n
++Sg+Ine:%>n FRONT_K ;
 
 LEXICON	SG-INE_h
 +Sg+Ine+Use/NG:%>h K ;
+LEXICON	BACK_SG-INE_h
++Sg+Ine+Use/NG:%>h BACK_K ;
+LEXICON	FRONT_SG-INE_h
++Sg+Ine+Use/NG:%>h FRONT_K ;
 
 LEXICON	SG-INE_hn !!= @CODE@ RARE
 +Use/NG+Sg+Ine:%>hn K ;
+LEXICON	BACK_SG-INE_hn !!= @CODE@ RARE
++Use/NG+Sg+Ine:%>hn BACK_K ;
+LEXICON	FRONT_SG-INE_hn !!= @CODE@ RARE
++Use/NG+Sg+Ine:%>hn FRONT_K ;
 
 
 LEXICON SG-NOM
@@ -2384,8 +2478,16 @@ LEXICON  FRONT_SG-PAR_t
 
 LEXICON SG-TER
 +Sg+Ter:%>niq # ;
+LEXICON BACK_SG-TER
++Sg+Ter:%>niq # ;
+LEXICON FRONT_SG-TER
++Sg+Ter:%>niq # ;
 
 LEXICON SG-TRA
++Sg+Tra:%>s # ;
+LEXICON BACK_SG-TRA
++Sg+Tra:%>s # ;
+LEXICON FRONT_SG-TRA
 +Sg+Tra:%>s # ;
 
 
