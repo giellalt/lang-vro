@@ -2156,29 +2156,33 @@ LEXICON PL-ILL_ZERO
 LEXICON PL-ILL_he !IS THIS NEEDED?
 +Pl+Ill:%>he K ;
 
-LEXICON  BACK_PL-ILL_hõ
-+Pl+Ill:%>hõ K ;
-LEXICON  FRONT_PL-ILL_he
-+Pl+Ill:%>he K ;
 LEXICON PL-ILL_hÕ
 +Pl+Ill:%>h%{ÕE%} K ;
+LEXICON  BACK_PL-ILL_hõ
++Pl+Ill:%>hõ BACK_K ;
+LEXICON  FRONT_PL-ILL_he
++Pl+Ill:%>he FRONT_K ;
 
-LEXICON  BACK_PL-ILL_htõ
-+Pl+Ill:%>htõ K ;
-LEXICON  FRONT_PL-ILL_hte
-+Pl+Ill:%>hte K ;
 LEXICON PL-ILL_htÕ
 +Pl+Ill:%>ht%{ÕE%} K ;
+LEXICON  BACK_PL-ILL_htõ
++Pl+Ill:%>htõ BACK_K ;
+LEXICON  FRONT_PL-ILL_hte
++Pl+Ill:%>hte FRONT_K ;
 
-LEXICON  BACK_PL-ILL_dõ
-+Pl+Ill:%>dõ K ;
-LEXICON  FRONT_PL-ILL_de
-+Pl+Ill:%>de K ;
 LEXICON  PL-ILL_dÕ
 +Pl+Ill:%>d%{ÕE%} K ;
+LEXICON BACK_PL-ILL_dõ
++Pl+Ill:%>dõ BACK_K ;
+LEXICON FRONT_PL-ILL_de
++Pl+Ill:%>de FRONT_K ;
 
 LEXICON PL-ILL_dÕhe
 +Pl+Ill:%>d%{ÕE%}he K ;
+LEXICON BACK_PL-ILL_dõhe
++Pl+Ill:%>dõhe BACK_K ;
+LEXICON FRONT_PL-ILL_dehe
++Pl+Ill:%>dehe FRONT_K ;
 
 LEXICON PL-INE_n
 +Pl+Ine:%>n K ;
@@ -2206,6 +2210,10 @@ LEXICON  PL-PAR_d
 
 LEXICON  PL-PAR_Õ
 +Pl+Par:%>%{ÕE%} K ;
+LEXICON  BACK_PL-PAR_õ
++Pl+Par:%>õ K ;
+LEXICON  FRONT_PL-PAR_e
++Pl+Par:%>e K ;
 
 LEXICON  PL-PAR_sit
 +Pl+Par:%>sit K ;
@@ -2223,6 +2231,10 @@ LEXICON  PL-TRA
 !! !SINGULAR TAGS
 LEXICON	 SG-ABE
 +Sg+Abe:%>ld%{AÄ%}q K ;
+LEXICON  BACK_SG-ABE_ldaq
++Sg+Abe:%>ldaq BACK_K ;
+LEXICON  FRONT_SG-ABE_ldäq
++Sg+Abe:%>ldäq FRONT_K ;
 
 LEXICON	 SG-ABL
 +Sg+Abl:%>lt K ;
@@ -2232,6 +2244,10 @@ LEXICON	 SG-ADE
 
 LEXICON	 SG-ALL
 +Sg+All:%>l%{ÕE%} K ;
+LEXICON	 BACK_SG-ALL_lõ
++Sg+All:%>lõ K ;
+LEXICON	 FRONT_SG-ALL_le
++Sg+All:%>le K ;
 
 LEXICON	 SG-COM
 +Sg+Com:%>gaq K ;
@@ -2250,33 +2266,45 @@ LEXICON	SG-ILL_he
 
 LEXICON	SG-ILL_hU
 +Sg+Ill:%>h%{UÜ%} K ;
+LEXICON BACK_SG-ILL_hu
++Sg+Ill:%>hu K ;
+LEXICON FRONT_SG-ILL_hü
++Sg+Ill:%>hü K ;
 
 LEXICON	SG-ILL_hUq
 +Sg+Ill:%>h%{UÜ%}q K ;
+LEXICON BACK_SG-ILL_huq
++Sg+Ill:%>huq K ;
+LEXICON FRONT_SG-ILL_hüq
++Sg+Ill:%>hüq K ;
 
+LEXICON	SG-ILL_hÕ
++Sg+Ill:%>h%{ÕE%} K ;
 LEXICON	BACK_SG-ILL_hõ
 +Sg+Ill:%>hõ K ;
 LEXICON	FRONT_SG-ILL_he
 +Sg+Ill:%>he K ;
-LEXICON	SG-ILL_hÕ
-+Sg+Ill:%>h%{ÕE%} K ;
 
+LEXICON	SG-ILL_htÕ
++Sg+Ill:%>ht%{ÕE%} K ;
 LEXICON	BACK_SG-ILL_htõ
 +Sg+Ill:%>htõ K ;
 LEXICON	FRONT_SG-ILL_hte
 +Sg+Ill:%>hte K ;
-LEXICON	SG-ILL_htÕ
-+Sg+Ill:%>ht%{ÕE%} K ;
 
+LEXICON	SG-ILL_tÕ
++Sg+Ill:%>t%{ÕE%} K ;
 LEXICON	BACK_SG-ILL_tõ
 +Sg+Ill:%>tõ K ;
 LEXICON	FRONT_SG-ILL_te
 +Sg+Ill:%>te K ;
-LEXICON	SG-ILL_tÕ
-+Sg+Ill:%>t%{ÕE%} K ;
 
 LEXICON	SG-ILL_dÕ
 +Sg+Ill:%>d%{ÕE%} K ;
+LEXICON BACK_SG-ILL_dõ
++Sg+Ill:%>dõ K ;
+LEXICON FRONT_SG-ILL_de
++Sg+Ill:%>de K ;
 
 LEXICON	SG-INE_n
 +Sg+Ine:%>n K ;
@@ -2297,12 +2325,24 @@ LEXICON FRONT_SG-NOM
 
 LEXICON	 SG-PAR_ZERO
 +Sg+Par: K ;
+LEXICON	 BACK_SG-PAR_ZERO
++Sg+Par: BACK_K ;
+LEXICON	 FRONT_SG-PAR_ZERO
++Sg+Par: FRONT_K ;
 
 LEXICON	 SG-PAR_d
 +Sg+Par:%>d K ;
+LEXICON	 BACK_SG-PAR_d
++Sg+Par:%>d BACK_K ;
+LEXICON	 FRONT_SG-PAR_d
++Sg+Par:%>d FRONT_K ;
 
 LEXICON	 SG-PAR_t
 +Sg+Par:%>t K ;
+LEXICON  BACK_SG-PAR_t
++Sg+Par:%>t BACK_K ;
+LEXICON  FRONT_SG-PAR_t
++Sg+Par:%>t FRONT_K ;
 
 LEXICON SG-TER
 +Sg+Ter:%>niq # ;
@@ -2320,14 +2360,31 @@ LEXICON INESUF_N-H-HN
 !! !CASES ONLY
 LEXICON ABESUF
 +Abe:%>ld%{AÄ%}q # ;
+LEXICON BACK_ABESUF
++Abe:%>ldaq # ;
+LEXICON FRONT_ABESUF
++Abe:%>ldäq # ;
+
+
 LEXICON ABLSUF
 +Abl:%>lt # ;
 LEXICON ADESUF
 +Ade:%>l # ;
+
 LEXICON ALLSUF_lÕ
 +All:%>l%{ÕE%} # ;
+LEXICON BACK_ALLSUF_lõ
++All:%>lõ # ;
+LEXICON FRONT_ALLSUF_le
++All:%>le # ;
+
 LEXICON ALLSUF_llÕ
 +All:%>ll%{ÕE%} # ;
+LEXICON BACK_ALLSUF_llõ
++All:%>llõ # ;
+LEXICON FRONT_ALLSUF_lle
++All:%>lle # ;
+
 LEXICON COMSUF_kaq
 +Com:%>kaq # ;
 LEXICON ELASUF
@@ -2344,6 +2401,11 @@ LEXICON NOMSUF
  # ;
 LEXICON PARSUF_dA
 +Par:%>d%{AÄ%} # ;
+LEXICON BACK_PARSUF_da
++Par:%>da # ;
+LEXICON FRONT_PARSUF_dä
++Par:%>dä # ;
+
 LEXICON TERSUF
 +Ter:%>niq # ;
 LEXICON TRASUF
