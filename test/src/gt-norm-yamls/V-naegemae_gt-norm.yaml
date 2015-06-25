@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - nägemä: # Verb (81) nägemä 'eng to see/est nägema/fin nähdä' - full paradigm
+     nägemä+V+Inf/mA: nägemä
+     nägemä+V+Inf: nätäq
+     nägemä+V+ActPrtPrc: nännüq
+     nägemä+V+PssPrtPrc: nätt
+# Differs from tegemä form in "tii"
+     nägemä+V+Ind+Prs+ScSg1: näi
+     nägemä+V+Ind+Prs+ScSg3: näge
+     nägemä+V+Ind+Prt+ScSg1: [näie, näi, näkse]
+     nägemä+V+Ind+Prt+ScSg3: [näkkʼ, nägi, näkse]
+
