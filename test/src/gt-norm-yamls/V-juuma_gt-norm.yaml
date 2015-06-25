@@ -1,0 +1,86 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `juuma: # Verb (77) `juuma 'eng /est /fin' - full paradigm
+     juuma+V+Inf/mA: juuma
+     juuma+V+Inf: juvvaq
+     juuma+V+Ind+Prs+ScSg1: juu
+     juuma+V+Ind+Prs+ScSg2: [juut, juudõq]
+     juuma+V+Ind+Prs+ScSg3: [juu, joosõ]
+     juuma+V+Ind+Prs+ScPl1: joomiq
+     juuma+V+Ind+Prs+ScPl2: [juutiq, juudõq]
+     juuma+V+Ind+Prs+ScPl3: joovaq
+     juuma+V+Ind+Prs+Sc+ConNeg: juu
+     juuma+V+Ind+Prs+OcSg1: juvva
+     juuma+V+Ind+Prs+OcSg2: [juvvat, juvvadõq]
+     juuma+V+Ind+Prs+OcSg3: juvvas
+     juuma+V+Ind+Prs+OcPl1: juvvamiq
+     juuma+V+Ind+Prs+OcPl2: juvvatiq
+     juuma+V+Ind+Prs+OcPl3: juvvasõq
+     juuma+V+Ind+Prs+Oc+ConNeg: juvva
+
+     juuma+V+Ind+Prt+ScSg1: [jõi, jõiõ]
+     juuma+V+Ind+Prt+ScSg2: [jõit, jõiõt, jõiq, jõiõq, jõidõq, jõiõdõq]
+     juuma+V+Ind+Prt+ScSg3: [jõi, jõiõ]
+     juuma+V+Ind+Prt+ScPl1: [jõimiq, jõiõmiq]
+     juuma+V+Ind+Prt+ScPl2: [jõitiq, jõiõtiq, jõidõq, jõiõdõq]
+     juuma+V+Ind+Prt+ScPl3: [jõiq, jõiõq, jõivaq, jõiõvaq]
+     juuma+V+Ind+Prt+Sc+ConNeg: juu
+     juuma+V+Ind+Prt+OcSg1: juvvi
+     juuma+V+Ind+Prt+OcSg2: [juvvit, juvviq, juvvidõq]
+     juuma+V+Ind+Prt+OcSg3: juudi
+     juuma+V+Ind+Prt+OcPl1: juvvimiq
+     juuma+V+Ind+Prt+OcPl2: [juvvitiq, juvvidõq]
+     juuma+V+Ind+Prt+OcPl3: [juudiq, juudivaq]
+     juuma+V+Ind+Prt+Oc+ConNeg: juvva
+
+     juuma+V+ActPrsPrc+Sg+Nom: juuva
+     juuma+V+ActPrsPrc+Sg+Gen: juuva
+     juuma+V+ActPrsPrc+Sg+Par: juuvat
+     juuma+V+ActPrsPrc+Sg+Ill: juuvahõ
+     juuma+V+ActPrsPrc+Pl+Nom: juuvaq
+     juuma+V+ActPrsPrc+Pl+Gen: juuvidõ
+     juuma+V+ActPrsPrc+Pl+Par: juuvit
+     juuma+V+ActPrsPrc+Pl+Ill: juuvihõ
+
+     juuma+V+PssPrsPrc+Sg+Nom: juudav
+     juuma+V+PssPrsPrc+Sg+Gen: juudava
+     juuma+V+PssPrsPrc+Sg+Par: juudavat
+     juuma+V+PssPrsPrc+Sg+Ill: juudavahõ
+     juuma+V+PssPrsPrc+Pl+Nom: juudavaq
+     juuma+V+PssPrsPrc+Pl+Gen: juudavidõ
+     juuma+V+PssPrsPrc+Pl+Par: juudavit
+     juuma+V+PssPrsPrc+Pl+Ill: juudavihõ
+
+     juuma+V+ActPrtPrc+Sg+Nom: joonuq
+     juuma+V+ActPrtPrc+Sg+Gen: juunu
+     juuma+V+ActPrtPrc+Sg+Par: juunut
+     juuma+V+ActPrtPrc+Sg+Ill: juunuhõ
+     juuma+V+ActPrtPrc+Pl+Nom: juunuq
+     juuma+V+ActPrtPrc+Pl+Gen: [juunuidõ, juunuisi]
+     juuma+V+ActPrtPrc+Pl+Par: [juunuid, juunuisi]
+     juuma+V+ActPrtPrc+Pl+Ill: [juunuihõ, juunuisihõ]
+
+     juuma+V+PssPrtPrc+Sg+Nom: [juud, juudu]
+     juuma+V+PssPrtPrc+Sg+Gen: juudu
+     juuma+V+PssPrtPrc+Sg+Par: juudut
+     juuma+V+PssPrtPrc+Sg+Ill: juuduhõ
+     juuma+V+PssPrtPrc+Pl+Nom: juuduq
+     juuma+V+PssPrtPrc+Pl+Gen: [juuduidõ, juuduisi]
+     juuma+V+PssPrtPrc+Pl+Par: [juuduid, juuduisi]
+     juuma+V+PssPrtPrc+Pl+Ill: [juuduihõ, juuduisihõ]
