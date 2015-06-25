@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - minemä: # Verb (78) `saama 'eng /est /fin' - full paradigm
+     minemä+V+Inf/mA: minemä
+     minemä+V+Inf: minnäq
+     minemä+V+ActPrtPrc: lännüq
+     minemä+V+PssPrtPrc: [mint, mintü]
+
+     minemä+V+Ind+Prs+ScSg1: lää
+     minemä+V+Ind+Prs+ScSg2: [läät, läädeq]
+     minemä+V+Ind+Prs+ScSg3: lätt
+     minemä+V+Ind+Prs+ScPl1: läämiq
+     minemä+V+Ind+Prs+ScPl2: läätiq
+     minemä+V+Ind+Prs+ScPl3: [lääväq, lätväq]
+     minemä+V+Ind+Prs+Sc+ConNeg: lää
+     minemä+V+Ind+Prt+ScSg1: lätsi
+     minemä+V+Ind+Prt+ScSg2: [lätsit, lätsiq, lätsideq]
+     minemä+V+Ind+Prt+ScSg3: lätsʼ
+     minemä+V+Ind+Prt+ScPl1: lätsimiq
+     minemä+V+Ind+Prt+ScPl2: [lätsitiq, lätsideq]
+     minemä+V+Ind+Prt+ScPl3: [lätsiq, lätsiväq]
+     minemä+V+Ind+Prt+Sc+ConNeg: lää
+
+     minemä+V+Ind+Prs+OcSg3: mindäs
+
+     minemä+V+ActPrsPrc+Sg+Nom: minnev
+
+     minemä+V+Jus: minkuq
+
