@@ -1,0 +1,50 @@
+
+
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `sõitma: # Verb (83) `nõstma 'eng /est /fin' - full paradigm
+     sõitma+V+Inf/mA: sõitma
+     sõitma+V+Inf: sõitaq
+     sõitma+V+ActPrtPrc: sõitnuq
+     sõitma+V+PssPrtPrc: sõidõt
+
+     sõitma+V+Ind+Prs+ScSg1: sõida
+     sõitma+V+Ind+Prs+ScSg2: [sõidat, sõidadõq]
+     sõitma+V+Ind+Prs+ScSg3: sõit
+     sõitma+V+Ind+Prs+ScPl1: sõidamiq
+     sõitma+V+Ind+Prs+ScPl2: sõidatiq
+     sõitma+V+Ind+Prs+ScPl3: sõitvaq
+     sõitma+V+Ind+Prs+Sc+ConNeg: sõida
+     sõitma+V+Ind+Prt+ScSg1: [sõidi, sõitsõ]
+     sõitma+V+Ind+Prt+ScSg2: [sõidit, sõidiq, sõididõq, sõitsõt, sõitsõq, sõitsõdõq]
+     sõitma+V+Ind+Prt+ScSg3: [sõitʼ, sõitsõ]
+     sõitma+V+Ind+Prt+ScPl1: [sõidimiq, sõitsõmiq]
+     sõitma+V+Ind+Prt+ScPl2: [sõiditiq, sõitsõtiq]
+     sõitma+V+Ind+Prt+ScPl3: [sõidiq, sõidivaq, sõitsõq, sõitsõvaq]
+     sõitma+V+Ind+Prt+Sc+ConNeg: sõida
+
+     sõitma+V+Ind+Prs+OcSg1: sõidõda
+     sõitma+V+Ind+Prs+OcSg3: sõidõtas
+
+     sõitma+V+ActPrsPrc+Sg+Nom: sõitva
+
+     sõitma+V+Jus: sõitkuq
+
+
+
