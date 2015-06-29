@@ -221,6 +221,9 @@ LEXICON V_59KAOTAMA !!≈ * __@CODE@__ kaotama:kaota
 +V:%^WGStem V0-IND-PRS-SC-12 ;
 +V: V0-IND-PRS-SC-CONNEG ;
 +V: V0-IND-PRS-SC3_s ;
+!! (6) Ind_Prs_Sg2, Ind_Prs_Sg3, Ind_Prs_Pl2, Ind_Prs_Pl3,
+!! Ind_Prt_OcPl3
+!! ActPrsPrc, PssPrsPrc
 +V: V0-IND-PRS-PC ;
 
 +V:%^WGStem%^VowRM V0-IND-PRT-SC-12_i ;
@@ -315,7 +318,7 @@ LEXICON V_63VISKAMA !!≈ * __@CODE@__ viskama:viska
 !! * Yaml: __V-viskama63__
 +V: V0-IND-PRS-SC-12 ;
 +V: V0-IND-PRS-SC-CONNEG ;
-+V: V0-IND-PRS-SC3_s ;
++V: V0-IND-PRS-SC3_s_BACK ;
 +V: V0-IND-PRS-PC ;
 +V: V0-IND-PRS-OC_BACK ;
 
@@ -1025,6 +1028,13 @@ LEXICON V0-IND-PRS-SCPL3_vAq
 LEXICON V0-IND-PRS-SC3_s
 +Ind+Prs+ScSg3:%>s K ;
 +Ind+Prs+ScPl3:%>s%{ÕE%}q K ;
+LEXICON V0-IND-PRS-SC3_s_BACK
++Ind+Prs+ScSg3:%>s K ;
++Ind+Prs+ScPl3:%>sõq K ;
+LEXICON V0-IND-PRS-SC3_s_FRONT
++Ind+Prs+ScSg3:%>s K ;
++Ind+Prs+ScPl3:%>seq K ;
+
 
 LEXICON V0-IND-PRS-SC-CONNEG
 +Ind+Prs+Sc+ConNeg: K ;
