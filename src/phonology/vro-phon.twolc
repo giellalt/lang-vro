@@ -58,6 +58,9 @@ K1:k
 %^LowerVowDelab:0 !!= @CODE@ Lowers vowel and delabializes it
 %^XLowerVowDelab:0 !!= @CODE@ Lowers vowel two levels and delabializes it
 
+%^U2E:0 !!= @CODE@ lowers u:õ and ü:e delabializes and lowers
+%^U2A:0 !!= @CODE@ lowers u:a and ü:ä delabializes and lowers
+
 %^VowRM:0 !!= @CODE@ this will remove stem final vowel
 %^CnsRM:0 !!= @CODE@ this will remove stem final consonant tervüs:tervü
 
@@ -112,9 +115,9 @@ FT =   # Cns* [[ VowFront: | :VowFront ] \[ # | :VowBack ]* | [VowNeutral ] \[ #
 ! Back Trigger 
 BT =   # Cns* ( [ VowNeutral ]+ Cns:* | ü:+ Cns:+ i Cns:+) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
 !€# viska%^WGStem%>%{AÄ%}q
-!€0 vis0a00aq
+!€0 vis0a0%>aq
 !€# füüsiga%^StrGStem%^VowRM%>i%>d%{ÕE%}
-!€0 füüsik0000i0dõ
+!€0 füüsik000%>i%>dõ
 ! # Cns* ( [ VowNeutral | i: ] \[ # | VowFront: | :VowFront ]* ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
 
 ! Gradation strong to weak
@@ -195,9 +198,9 @@ Rules
     _ ü: %^LowerVow: (%^WGStem:) [ # | %> [ :Cns | [ :Vow - :i ]] ] ;
    # Cns:* _ Cns: Vow: %^LowerVow: ;
 !€# pügä%^LowerVow%^WGStem%^VowRM%>%{ÕE%}%>t
-!€0 pö000000e0t
+!€0 pö00000%>e%>t
 !€# süü%^LowerVow%^WGStem%>n%{UÜ%}q
-!€0 söö000nüq
+!€0 söö00%>nüq
 
 "u2õ"
 !! __@RULENAME@__
@@ -208,7 +211,7 @@ Rules
 !! __@RULENAME@__
  ö:ü <=> Vow %^V7: 0: _ %^StrGStem: %> i: ;
 !€# hä%^V70ö%^StrGStem%>i
-!€0 hävvü000
+!€0 hävvü0%>0
 
 !! !VOWEL CHANGE WITH PLURAL
 
@@ -217,7 +220,7 @@ Rules
 !! {{{
  ʼ:e <=>  _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: )  %> \[ :Vow | Vow: ]  ;
 !€# särgʼ%^WGStem#
-!€0 sär0e00
+!€0 sär0e0#
 !! }}}
 
 "ʼ2i"
@@ -251,13 +254,13 @@ Rules
  # Cns* _ i: l %^LowerVow: ;
  # Cns* i: _ l %^LowerVow: ;
 !€# kiil%^LowerVow%>%{ÕE%}
-!€# keel00e
+!€# keel0%>e
 !! }}}
 
 "ü2e"
 !! __@RULENAME@__
 !! {{{
- ü:e <=>  _ ( %^XStrGStem: | %^StrGStem: ) %^LowerVowDelab: ;
+ ü:e <=>  _ ( %^XStrGStem: | %^StrGStem: ) %^U2E: ;
 !€# häbü%^StrGStem%^PLPRT
 !€0 häpe00
     ü: _ %> i ;
@@ -266,7 +269,7 @@ Rules
 "ü2ä"
 !! __@RULENAME@__
 !! {{{
- ü:ä <=>  _ ( %^XStrGStem: | %^StrGStem: ) %^XLowerVowDelab: ;
+ ü:ä <=>  _ ( %^XStrGStem: | %^StrGStem: ) %^U2A: ;
 !€# häbü%^StrGStem%^PLPRT
 !€0 häpä00
 !! }}}
@@ -294,12 +297,12 @@ Rules
  a:0 <=>  Cns: _ [ (%^StrGStem:|%^WGStem:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
       a _ %>  i  ; !!= @CODE@ 
 !€# saa%>i
-!€0 sa00i
+!€0 sa0%>i
 !€# sõima0%^VowRM%>si
-!€0 sõim0s00si
+!€0 sõim0s0%>si
    _ Cns  %^APOCH:  ;
 !€# puhkas%^APOCH%>a%>m%{AÄ%}
-!€0 puhk0s00a0ma
+!€0 puhk0s0%>a%>ma
 
 
 "ä:0"
@@ -307,17 +310,17 @@ Rules
  ä:0 <=>  [ Cns: | :Cns ] _ [ (0:|:0+) %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
  ä _ %>  i  ; !!= @CODE@ 
 !€# elä%>et
-!€0 el00et
+!€0 el0%>et
 
 "u:0"
 !! __@RULENAME@__
 !! {{{
  u:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
 !€# tervüs%^VowRM%^CnsRM%>i%>t
-!€0 terv00000i0t
+!€0 terv0000%>i%>t
       _ u: (%^VowRM:) %> i ;
 !€# kuu%^VowRM%>i%>d
-!€0 k0u00i0d
+!€0 k0u0%>i%>d
 !! }}}
 
 "ü:0"
@@ -325,7 +328,7 @@ Rules
 !! {{{
  ü:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
 !€# tervüs%^VowRM%^CnsRM%>i%>t
-!€0 terv00000i0t
+!€0 terv0000%>i%>t
          _ ü: (%^LowerVow:) %> i ;
 !! }}}
 
@@ -344,26 +347,26 @@ Rules
           Vow l 0:l %>: _ %{ÕE%}: ;
        a _ g: %^WGStem: %> %{OÖ%}: ;
 !€# aig%^WGStem%>%{OÖ%}
-!€0 a0000o
+!€0 a000%>o
     Vow [ %^I7: | %^V7: 0: ] Vow: %^StrGStem: %> _ ;
 !€# va%^I7o%^StrGStem%>i
-!€0 vaio000
+!€0 vaio0%>0
 !€# hä%^V70ö%^StrGStem%>i
-!€0 hävvü000
+!€0 hävvü0%>0
 
 
 "õ:0"
 !! __@RULENAME@__
  õ:0 <=>  [ Cns: | :Cns ] _ [ l | r ] (%^StrGStem:) %^SYNC:  ;
 !€# tapõl%^SYNC%{ÕE%}%>m%{AÄ%}
-!€0 tap0l0õ0ma
+!€0 tap0l0õ%>ma
 !€# kannõl%^StrGStem%^SYNC%>%{ÕE%}
-!€0 kand0l000õ
+!€0 kand0l00%>õ
 !€# kogõr%^StrGStem%^SYNC%>%{ÕE%}
-!€0 kok0r000õ
+!€0 kok0r00%>õ
    _ (%^WGStem:) %^VowRM:  ;
 !€# hammõ%^WGStem%^VowRM%>ihe
-!€0 ham00000ihe
+!€0 ham0000%>ihe
 
 !! VOWEL LENGTHENING
 
@@ -413,20 +416,20 @@ Rules
  ü:v <=> ü _ %> v %{AÄ%}: q ;
          ü _ d: %^WGStem: ;
 !€# püüd%^WGStem%>et
-!€0 püvv00et
+!€0 püvv0%>et
 
 
 "%^I7:i"
 !! __@RULENAME@__
  %^I7:i <=> Vow _ Vow %^StrGStem: %> [ i: | q ] ;
 !€# va%^I7o%^StrGStem%>i
-!€0 vaio000
+!€0 vaio0%>0
 
 "%^V7:v with 0:v"
 !! __@RULENAME@__
  %^V7:v <=> Vow _ 0: Vow %^StrGStem: %> i: ;
 !€# hä%^V70ö%^StrGStem%>i
-!€0 hävvü000
+!€0 hävvü0%>0
 
 
 !! SECONDARY CONSONANT LENGTHENING
@@ -437,7 +440,7 @@ Rules
          Vow m _ (Vow:) %^StrGStem: ;
 !!nimi+N+Sg+Par __name__
 !€# nim0%^StrGStem%>e
-!€0 nimm00e
+!€0 nimm0%>e
 
 "0:p"
 !! __@RULENAME@__
@@ -452,7 +455,7 @@ Rules
 !! {{{
  0:v <=> Vow %^V7: _ Vow: %^StrGStem: ;
 !€# hä%^V70ö%^StrGStem%>i
-!€0 hävvü000
+!€0 hävvü0%>0
 !! }}}
 
 
@@ -475,10 +478,10 @@ Rules
 !! __@RULENAME@__
  0:s <=> CnsVoiced Vow: _ %^VowRM: %> s i ;
 !€# sõima0%^VowRM%>si
-!€0 sõim0s00si
+!€0 sõim0s0%>si
    Vow s: _ Vow: %^StrGStem: ;
 !€# kos0i%^StrGStem%>q
-!€0 kossi00q
+!€0 kossi0%>q
 
 "0:l"
 !! __@RULENAME@__
@@ -512,7 +515,7 @@ Rules
 !! __@RULENAME@__  
 k:0 <=> h _ Vow: s %^WGStem: ;
 !€# puhkas%^WGStem%>t%{AÄ%}q
-!€0 puh0as00taq
+!€0 puh0as0%>taq
 
  s _ a %^WGStem: ;
 ! [  #  Cns* Vow (( r | i | VowNonHigh ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
@@ -523,7 +526,7 @@ k:0 <=> h _ Vow: s %^WGStem: ;
 !! __@RULENAME@__
  m:0 <=> m_ Vow: %^WGStem: ;
 !€# hammõ%^WGStem%>h
-!€0 ham0õ00h
+!€0 ham0õ0%>h
 
 
 "lToZero"
@@ -535,7 +538,7 @@ k:0 <=> h _ Vow: s %^WGStem: ;
 !! __@RULENAME@__
  r:0 <=> r _ Vow %^WGStem: ;
 !€# perre%^WGStem%>h
-!€0 per0e00h
+!€0 per0e0%>h
 
 "tToZero"
 !! __@RULENAME@__
@@ -563,7 +566,7 @@ k:0 <=> h _ Vow: s %^WGStem: ;
 !! __@RULENAME@__
  b:m <=> m _ (Vow:) %^WGStem: ;
 !€# hamba%^WGStem%>s
-!€0 hamma00s
+!€0 hamma0%>s
 
 "d2n"
 !! __@RULENAME@__
@@ -573,15 +576,15 @@ k:0 <=> h _ Vow: s %^WGStem: ;
 !! __@RULENAME@__
  d:l <=> # Cns* Vow l %> _ %{AÄ%}: q ;
 !€# tul%>d%{AÄ%}q
-!€0 tul0laq
+!€0 tul%>laq
 !€# kõnõl%>d%{AÄ%}q
-!€0 kõnõl0daq
+!€0 kõnõl%>daq
 
 "d2v"
 !! __@RULENAME@__
  d:v <=> [ ü: |u: ] _ %^WGStem: ;
 !€# püüd%^WGStem%>et
-!€0 püvv00et
+!€0 püvv0%>et
 
 "dTot"
 !! __@RULENAME@__
@@ -589,7 +592,7 @@ k:0 <=> h _ Vow: s %^WGStem: ;
     Vow _ (Vow:) %^StrD2T: ;
 !!käsi+N+Sg+Par __hand, arm__
 !€# käd%^StrD2T%>t
-!€0 kät00t
+!€0 kät0%>t
     Vow _ (s) Vow: %^StrGStem: ;
     Vow _ 0: Vow: %^XStrGStem: ;
 
@@ -613,7 +616,7 @@ k:0 <=> h _ Vow: s %^WGStem: ;
  n:d <=> n _ õ: l %^SYNC: ;
 
 !€# kannõl%^SYNC%>%{ÕE%}
-!€0 kand0l00õ
+!€0 kand0l0%>õ
 
 
 "j2i"
@@ -624,7 +627,7 @@ k:0 <=> h _ Vow: s %^WGStem: ;
 !! __@RULENAME@__
  k:g <=> Vow _ %^WGStem: ;
 !€# hõrak%^WGStem>%{AÄ%}
-!€0 hõrag00a
+!€0 hõrag0%>a
 
 "gTok"
 !! __@RULENAME@__
@@ -635,7 +638,7 @@ k:0 <=> h _ Vow: s %^WGStem: ;
 !€0 ikkä0
    Vow _ Vow: [ l | r ] %^StrGStem: %^SYNC: ;
 !€# kogõr%^StrGStem%^SYNC%>%{ÕE%}
-!€0 kok0r000õ
+!€0 kok0r00%>õ
 
 
 !! !STEM-FINAL CONSONANT LOSS
@@ -652,19 +655,19 @@ k:0 <=> h _ Vow: s %^WGStem: ;
 !! __@RULENAME@__
  g:0 <=>  _ ( ʼ: ) %^WGStem: ;
 !€# särgʼ%^WGStem%>#
-!€0 sär0e000
+!€0 sär0e0%>0
  # Cns:*  Vow: _ [ %{ÕE%}: |ä: ] (%^LowerVow:) %^WGStem: ;
 !€# igä%^WGStem
 !€0 i0ä0
 !€# aig%^WGStem%>%{OÖ%}
-!€0 a0000o
+!€0 a000%>o
  Vow l _ Vow %^WGStem: ;
 !€# palgõ%^WGStem%>h
-!€0 pal0õ00h
+!€0 pal0õ0%>h
 
 !! !Other marks
 "ʼ:0"
 !! __@RULENAME@__
  ʼ:0 <=>  :Cns _ (%^WGStem:) %> :Vow ;
 !€# kipõnʼ>%{AÄ%}
-!€0 kipõn00a
+!€0 kipõn0%>a

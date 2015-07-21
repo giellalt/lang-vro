@@ -293,6 +293,9 @@ And following triggers to control variation
  __%^XLowerVow __ Lowers vowel two levels
  __%^LowerVowDelab __ Lowers vowel and delabializes it
  __%^XLowerVowDelab __ Lowers vowel two levels and delabializes it
+ %^U2E  lowers u:õ and ü:e delabializes and lowers
+ %^U2A  lowers u:a and ü:ä delabializes and lowers
+
 
 
 !!Flag diacritics
@@ -390,6 +393,9 @@ Triggers
  %^XLowerVow:0  Lowers vowel two levels
  %^LowerVowDelab:0  Lowers vowel and delabializes it
  %^XLowerVowDelab:0  Lowers vowel two levels and delabializes it
+
+ %^U2E:0  lowers u:õ and ü:e delabializes and lowers
+ %^U2A:0  lowers u:a and ü:ä delabializes and lowers
 
  %^VowRM:0  this will remove stem final vowel
  %^CnsRM:0  this will remove stem final consonant tervüs:tervü
