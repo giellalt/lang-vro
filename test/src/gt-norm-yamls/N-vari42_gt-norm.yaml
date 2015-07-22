@@ -1,4 +1,5 @@
-%Config:
+
+Config:
   hfst:
     Gen: ../../../src/generator-gt-norm.hfst
     Morph: ../../../src/analyser-gt-norm.hfst
@@ -20,7 +21,7 @@ Tests:
     vari+N+Sg+Nom: vari
     vari+N+Sg+Gen: varʼo
     vari+N+Sg+Par: varjo
-    vari+N+Sg+Ill: tallo
+    vari+N+Sg+Ill: varjo
     vari+N+Sg+Ine: [varʼon, varʼoh, varʼohn]
     vari+N+Sg+Ela: varʼost
     vari+N+Sg+All: varʼolõ

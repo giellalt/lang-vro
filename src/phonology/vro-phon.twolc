@@ -50,6 +50,9 @@ K1:k
 
 %^TS:0 !!= @CODE@ The ti => si
 
+%^I2ʼ:0 !!= @CODE@ The i => ʼ change
+%^I2J:0 !!= @CODE@ The i => j change
+
 %^PLPRT:0 !!= @CODE@ The a:o attested in Plural kana:kanno and prt
 
 %^RVow:0 !!= @CODE@ Raises vowel
@@ -399,11 +402,14 @@ Rules
 !! __@RULENAME@__
  i:j <=> Vow Cns:+ Vow _ (%^WGStem:) %> :Vow ;
 ! Vow _ (%^WGStem:) %> :Vow ;
-         Cns _ %^StrGStem: %> :Vow ;
+         Cns _ %^I2J: ;
+!         Cns _ %^StrGStem: %> :Vow ;
 
 "i2ʼ"
 !! __@RULENAME@__
- i:ʼ <=> Cns _ %^WGStem: %> :Vow ;
+ i:ʼ <=>
+  Cns _ %^I2ʼ: ;
+! Cns _ %^WGStem: %> :Vow ;
 
 
 "u2v"
