@@ -1,0 +1,58 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Ver%b - olõma: # Verb (79) olõma 'eng /est /fin' - full paradigm
+     olõma+V+Inf/mA: olõma
+     olõma+V+Inf: ollaq
+     olõma+V+Ind+Prs+ScSg1: olõ
+     olõma+V+Ind+Prs+ScSg2: [olõt, olõdõq]
+     olõma+V+Ind+Prs+ScSg3: [om, um]
+     olõma+V+Ind+Prs+ScPl1: olõmiq
+     olõma+V+Ind+Prs+ScPl2: [olõtiq, olõt, olõdõq]
+     olõma+V+Ind+Prs+ScPl3: [ommaq, ommavaq, ummaq, ummavaq]
+     olõma+V+Ind+Prs+Sc+ConNeg: [olõ, olõ-õiq, olõq]
+     olõma+V+Ind+Prs+OcSg3: oldas
+     olõma+V+Ind+Prs+Oc+ConNeg: [olda, olda-aiq, oldaq]
+     olõma+V+Ind+Prt+ScSg1: olli
+     olõma+V+Ind+Prt+ScSg2: [olliq, ollit, ollidõq]
+     olõma+V+Ind+Prt+ScSg3: [ollʼ, olle]
+     olõma+V+Ind+Prt+ScPl1: [ollimiq, olli]
+     olõma+V+Ind+Prt+ScPl2: [ollitiq, olliq, ollit, ollidõq]
+     olõma+V+Ind+Prt+ScPl3: [olliq, ollivaq]
+     olõma+V+Ind+Prt+Sc+ConNeg: [olõ, olõ-õs, olõq]
+
+     olõma+V+ActPrsPrc+A+Sg+Nom: ollõv
+     olõma+V+ActPrsPrc+A+Sg+Gen: olõva
+     olõma+V+ActPrsPrc+A+Sg+Par: olõvat
+     olõma+V+ActPrsPrc+A+Sg+Ill: olõvahe
+     olõma+V+ActPrsPrc+A+Pl+Nom: olõvaq
+     olõma+V+ActPrsPrc+A+Pl+Gen: olõvidõ
+     olõma+V+ActPrsPrc+A+Pl+Par: olõvit
+     olõma+V+ActPrsPrc+A+Pl+Ill: olõvihe
+                    
+     olõma+V+ActPrtPrc: olnuq
+
+     olõma+V+ActPrtPrc+A+Sg+Nom: olnuq
+     olõma+V+ActPrtPrc+A+Sg+Gen: olnu
+     olõma+V+ActPrtPrc+A+Sg+Par: olnut
+     olõma+V+ActPrtPrc+A+Sg+Ill: olnuhe
+     olõma+V+ActPrtPrc+A+Pl+Nom: olnuq
+     olõma+V+ActPrtPrc+A+Pl+Gen: [olnuidõ, olnuisi]
+     olõma+V+ActPrtPrc+A+Pl+Par: [olnuid, olnuisi]
+     olõma+V+ActPrtPrc+A+Pl+Ill: [olnuihe, olnuisihe]
+
