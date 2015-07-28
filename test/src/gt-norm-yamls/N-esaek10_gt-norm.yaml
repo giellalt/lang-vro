@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - esäk: # Noun (10) esäk 'eng /est /fin' - full paradigm
+     esäk+N+Sg+Nom: esäk
+     esäk+N+Sg+Gen: [esägä, esägü]
+     esäk+N+Sg+Par: [esäkät, esäküt]
+     esäk+N+Sg+Ill: [esäkähe, esäkühe, esäkäde, esäküde]
+     esäk+N+Sg+Ine: [esäkän, esäkäh, esäkähn, esäkün, esäküh, esäkühn]
+     esäk+N+Sg+Ela: [esäkäst, esäküst]
+     esäk+N+Sg+All: [esäkäle, esäküle]
+     esäk+N+Sg+Ade: [esäkäl, esäkül]
+     esäk+N+Sg+Abl: [esäkält, esäkült]
+     esäk+N+Sg+Tra: [esäkäs, esäküs]
+     esäk+N+Sg+Ter: [esäkäniq, esäküniq]
+     esäk+N+Sg+Abe: [esäkäldäq, esäküldäq]
+     esäk+N+Sg+Com: [esäkägaq, esäkügaq, esägägaq, esägügaq]
+     esäk+N+Pl+Nom: [esägäq, esägüq]
+     esäk+N+Pl+Gen: [esäkide, esäkiide]
+     esäk+N+Pl+Par: [esäkit, esäkiid]
+     esäk+N+Pl+Ill: [esäkihe, esäkiihe, esäkide, esäkiide]
+     esäk+N+Pl+Ine: [esäkin, esäkiin, esäkih, esäkiih, esäkihn, esäkiihn]
+     esäk+N+Pl+Ela: [esäkist, esäkiist]
+     esäk+N+Pl+All: [esäkile, esäkiile]
+     esäk+N+Pl+Ade: [esäkil, esäkiil]
+     esäk+N+Pl+Abl: [esäkilt, esäkiilt]
+     esäk+N+Pl+Tra: [esäkis, esäkiis]
+     esäk+N+Pl+Ter: [esäkiniq, esäkiiniq]
+     esäk+N+Pl+Abe: [esäkildäq, esäkiildäq]
+     esäk+N+Pl+Com: [esäkidegaq, esäkiidegaq]
