@@ -999,23 +999,35 @@ LEXICON NMN_9ELLÄI-PL
 :%^WGStem%>i        FRONT_PL-ALL_le-STEM       ;
 :%^WGStem%>i      FRONT_PL-PAR_t        ;
 
-LEXICON NMN_10HÕRAK
+LEXICON NMN_10HÕRAK !!= * @OCDE@ hõrak:hõrak
   NMN_10HÕRAK-SG ;
   NMN_10HÕRAK-PL ;
 LEXICON NMN_10HÕRAK-SG 
         BACK_SG-NOM  ;
-:%^WGStem%>a    BACK_SG-GEN_ZERO-STEM        ;
-:%^WGStem%>u       BACK_SG-GEN_ZERO-STEM        ;
+:%^WGStem%>a    BACK_SG-GEN_ZERO ;
+:%>a    BACK_SG-ALL_lõ-STEM        ;
 :%>a    BACK_SG-PAR_t        ;
 :%>a    BACK_SG-ILL_he       ;
-:%>u       BACK_SG-ILL_he       ;
++Use/NG:%^WGStem%>u    BACK_SG-GEN_ZERO ;
++Use/NG:%>u       BACK_SG-ALL_lõ-STEM        ;
++Use/NG:%>u    BACK_SG-PAR_t        ;
++Use/NG:%>a       BACK_SG-ILL_dõ       ;
++Use/NG:%>u       BACK_SG-ILL_dõ       ;
++Use/NG:%>u       BACK_SG-ILL_he       ;
 
 LEXICON NMN_10HÕRAK-PL 
 :%^WGStem%>a    BACK_PL-NOM ;
 :%^VowRM%>i    BACK_PL-GEN_dõ ;
-:%^VowRM%>i        BACK_PL-ILL_hõ       ;
+:%^VowRM%>i        BACK_PL-ILL_he       ;
 :%^VowRM%>i        BACK_PL-ALL_lõ-STEM       ;
 :%^VowRM%>i      BACK_PL-PAR_t        ;
+:%^VowRM%>idõ        PL-COM       ;
++Use/NG:%^WGStem%>u    BACK_PL-NOM ;
++Use/NG:%^VowRM%>ii    BACK_PL-GEN_dõ ;
++Use/NG:%^VowRM%>ii      BACK_PL-PAR_d        ;
++Use/NG:%^VowRM%>ii        BACK_PL-ILL_he       ;
++Use/NG:%^VowRM%>ii        BACK_PL-ALL_lõ-STEM       ;
++Use/NG:%^VowRM%>iidõ        PL-COM       ;
 
 LEXICON NMN_11LÄTEQ !!= * __@CODE@__ läteq:lätte
 !! Yaml: ____
@@ -1056,7 +1068,7 @@ LEXICON NMN_11AINÕQ !!= @CODE@ ainõq:ainõ
   NMN_11AINÕQ-PL ;
 
 LEXICON NMN_11AINÕQ-SG 
-+Sg+Nom::%^WGStem%>q K ;
++Sg+Nom:%^WGStem%>q K ;
  BACK_SG-GEN_ZERO-STEM ;
 +Sg+Par:%^WGStem%>t K ;
 +Sg+Ill:he K ;
@@ -2153,6 +2165,31 @@ LEXICON FRONT_SG-GEN_ZERO-STEM
 	FRONT_SG-COM ;
 	FRONT_SG-ELA_st       ;
 	FRONT_SG-GEN_ZERO ;
+	FRONT_SG-INE_h        ;
+	FRONT_SG-INE_hn        ;
+	FRONT_SG-INE_n        ;
+	FRONT_SG-TER 		;
+	FRONT_SG-TRA 		;
+
+LEXICON BACK_SG-ALL_lõ-STEM
+	BACK_SG-ABE_ldaq ;
+	BACK_SG-ABL ;
+	BACK_SG-ADE ;
+	BACK_SG-ALL_lõ ;
+	BACK_SG-COM ;
+	BACK_SG-ELA_st       ;
+	BACK_SG-INE_h        ;
+	BACK_SG-INE_hn        ;
+	BACK_SG-INE_n        ;
+	BACK_SG-TER 		;
+	BACK_SG-TRA 		;
+LEXICON FRONT_SG-ALL_le-STEM
+	FRONT_SG-ABE_ldäq ;
+	FRONT_SG-ABL ;
+	FRONT_SG-ADE ;
+	FRONT_SG-ALL_le ;
+	FRONT_SG-COM ;
+	FRONT_SG-ELA_st       ;
 	FRONT_SG-INE_h        ;
 	FRONT_SG-INE_hn        ;
 	FRONT_SG-INE_n        ;
