@@ -1023,23 +1023,32 @@ LEXICON NMN_11LÄTEQ !!= * __@CODE@__ läteq:lätte
   NMN_11LÄTEQ-PL ;
 
 LEXICON NMN_11LÄTEQ-SG 
-!+WORK: #;
 +Sg+Nom:%^WGStem%>q K ;
-+Sg+Gen: K ;
+ FRONT_SG-GEN_ZERO-STEM ;
 +Sg+Par:%^WGStem%>t K ;
 +Sg+Ill:%>he K ;
++Use/NG+Sg+Ill:%>de K ;
 
 LEXICON NMN_11LÄTEQ-PL 
-!+WORK: #;
 +Pl+Nom:%>q K ;
 +Pl+Gen:%^VowRM%>ide K ;
 +Pl+Par:%^VowRM%>it K ;
-+Pl+All:%^VowRM%>ile K ;
 +Pl+Ill:%^VowRM%>ihe K ;
 
-+Pl+All:%^WGStem%>tele K ;
-+Pl+Gen:%^WGStem%>te K ;
-+Pl+Ill:%^WGStem%>tehe K ;
+:%^VowRM%>i FRONT_PL-ALL_le-STEM ;
+:%^VowRM%>ide PL-COM ;
+
++Use/NG:%^VowRM%>iide PL-COM ;
++Use/NG:%>te PL-COM ;
++Use/NG:%^VowRM%>ii FRONT_PL-ALL_le-STEM ;
++Use/NG:%>tõ FRONT_PL-ALL_le-STEM ;
++Use/NG+Pl+Gen:%^VowRM%>iide K ;
++Use/NG+Pl+Par:%^VowRM%>iid K ;
++Use/NG+Pl+Ill:%^VowRM%>iihe K ;
++Use/NG+Pl+Ill:%>tehe K ;
++Use/NG+Pl+Ill:%^VowRM%>ide K ;
++Use/NG+Pl+Ill:%^VowRM%>iide K ;
++Use/NG+Pl+Ill:%>tede K ;
 
 
 LEXICON NMN_11AINÕQ !!= @CODE@ ainõq:ainõ
@@ -1047,21 +1056,32 @@ LEXICON NMN_11AINÕQ !!= @CODE@ ainõq:ainõ
   NMN_11AINÕQ-PL ;
 
 LEXICON NMN_11AINÕQ-SG 
-!+WORK: #;
-+Sg+Nom:q K ;
-+Sg+Gen:q K ;
-+Sg+Par:t K ;
++Sg+Nom::%^WGStem%>q K ;
+ BACK_SG-GEN_ZERO-STEM ;
++Sg+Par:%^WGStem%>t K ;
 +Sg+Ill:he K ;
++Use/NG+Sg+Ill:dõ K ;
 
 LEXICON NMN_11AINÕQ-PL 
-!+WORK: #;
 +Pl+Nom:q K ;
-+Pl+Gen:idõ K ;
-+Pl+Gen:isi K ;
-+Pl+Par:id K ;
-+Pl+Par:isi K ;
-+Pl+Ill:isihe K ;
-+Pl+Ill:ihe K ;
++Pl+Gen:%^VowRM%>idõ K ;
++Pl+Par:%^VowRM%>it K ;
++Pl+Ill:%^VowRM%>ihe K ;
+:%^VowRM%>i BACK_PL-ALL_lõ-STEM ;
+:%^VowRM%>idõ PL-COM ;
+
++Use/NG:%^VowRM%>iidõ PL-COM ;
++Use/NG:%>tõ PL-COM ;
++Use/NG:%^VowRM%>ii BACK_PL-ALL_lõ-STEM ;
++Use/NG:%>tõ BACK_PL-ALL_lõ-STEM ;
++Use/NG+Pl+Gen:%^VowRM%>iidõ K ;
++Use/NG+Pl+Par:%^VowRM%>iid K ;
++Use/NG+Pl+Ill:%^VowRM%>iihe K ;
++Use/NG+Pl+Ill:%>tõhe K ;
++Use/NG+Pl+Ill:%^VowRM%>idõ K ;
++Use/NG+Pl+Ill:%^VowRM%>iidõ K ;
++Use/NG+Pl+Ill:%>tõdõ K ;
+
 
 LEXICON NMN_12REPÄNʼ
   NMN_12REPÄNʼ-SG ;
@@ -2152,6 +2172,7 @@ LEXICON BACK_PL-ALL_lõ-STEM
    BACK_PL-INE_n ;
    BACK_PL-TER ;
    BACK_PL-TRA ;
+
 LEXICON FRONT_PL-ALL_le-STEM
    FRONT_PL-ABE_ldäq ;
    FRONT_PL-ABL ;
