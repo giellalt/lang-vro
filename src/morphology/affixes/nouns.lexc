@@ -42,15 +42,15 @@ LEXICON N_3PERÄDÜ-SG
 LEXICON N_3PERÄDÜ-PL
 +N:     NMN_3PERÄDÜ-PL ;
 
+LEXICON N_3ALADU !!= @CODE@ aladu:aladu
+!! * Yaml: __peraedue__
+   N_3ALADU-SG ;
+   N_3ALADU-PL ;
 
-LEXICON N_TERVÜS
-!! * Yaml: __tervuesALL__
-   N_TERVÜS-SG ;
-   N_TERVÜS-PL ;
-LEXICON N_TERVÜS-SG
-+N:     NMN_TERVÜS-SG ;
-LEXICON N_TERVÜS-PL
-+N:     NMN_TERVÜS-PL ;
+LEXICON N_3ALADU-SG
++N:     NMN_3ALADU-SG ;
+LEXICON N_3ALADU-PL
++N:     NMN_3ALADU-PL ;
 
 
 LEXICON N_4TERVÜS
@@ -61,6 +61,15 @@ LEXICON N_4TERVÜS-SG
 +N:     NMN_4TERVÜS-SG ;
 LEXICON N_4TERVÜS-PL
 +N:     NMN_4TERVÜS-PL ;
+
+LEXICON N_4AINUS
+!! * Yaml: __A-ainus__
+   N_4AINUS-SG ;
+   N_4AINUS-PL ;
+LEXICON N_4AINUS-SG
++N:     NMN_4AINUS-SG ;
+LEXICON N_4AINUS-PL
++N:     NMN_4AINUS-PL ;
 
 
 LEXICON N_5SUHVLI
@@ -265,15 +274,6 @@ LEXICON N_16ABILINÕ-SG
 +N:	NMN_16ABILINÕ-SG ;
 LEXICON N_16ABILINÕ-PL
 +N:	NMN_16ABILINÕ-PL ;
-
-
-LEXICON N_17TERVÜS
-        N_17TERVÜS-SG ;
-        N_17TERVÜS-PL ;
-LEXICON N_17TERVÜS-SG
-+N:     NMN_17TERVÜS-SG ;
-LEXICON N_17TERVÜS-PL
-+N:     NMN_17TERVÜS-PL ;
 
 
 LEXICON N_18EHITÜS
@@ -802,7 +802,7 @@ LEXICON NMN_2SUHVLI-PL
 +Use/NG:idõ     PL-COM ;
 
 LEXICON NMN_3PERÄDÜ !!= @CODE@ perädü:perädü
-!! * Yaml: __peraedue__
+!! * Yaml: __A-peraedue3__
    NMN_3PERÄDÜ-SG ;
    NMN_3PERÄDÜ-PL ;
 
@@ -818,51 +818,105 @@ LEXICON NMN_3PERÄDÜ-PL
 :%^StrGStem%>i      FRONT_PL-PAR_t        ;
 :%^StrGStem%>i      FRONT_PL-ALL_le-STEM       ;
 
-LEXICON NMN_TERVÜS !!= * __@CODE@__ Types 4, 8, 17
+LEXICON NMN_3ALADU !!= @CODE@ aladu:aladu
+!! * Yaml: __A-peraedue3__
+   NMN_3ALADU-SG ;
+   NMN_3ALADU-PL ;
+
+LEXICON NMN_3ALADU-SG
+	BACK_SG-NOM	;
+	BACK_SG-GEN_ZERO-STEM	;
+:%^StrGStem BACK_SG-PAR_t	;
+:%^StrGStem BACK_SG-ILL_he	;
+LEXICON NMN_3ALADU-PL
+	BACK_PL-NOM ;
+:%^StrGStem%>i	BACK_PL-GEN_dõ ;
+:%^StrGStem%>i      BACK_PL-ILL_he       ;
+:%^StrGStem%>i      BACK_PL-PAR_t        ;
+:%^StrGStem%>i      BACK_PL-ALL_lõ-STEM       ;
+
+LEXICON NMN_4TERVÜS !!= * __@CODE@__ Types 4, 8, 17
 !! tervüs:tervüs
-  NMN_TERVÜS-SG ;
-  NMN_TERVÜS-PL ;
-LEXICON NMN_TERVÜS-SG 
-        FRONT_SG-NOM  ;
-:%>e   FRONT_SG-GEN_ZERO-STEM        ; !pref
-:%^CnsRM   FRONT_SG-GEN_ZERO-STEM        ;
-   FRONT_SG-PAR_t      ; !pref
-:%^CnsRM   FRONT_SG-PAR_t      ;
-   FRONT_SG-ILL_te     ; !pref
-:%^CnsRM   FRONT_SG-ILL_he     ;
+!! * Yaml: __N-tervues4__
 
-LEXICON NMN_TERVÜS-PL 
-:%>e   FRONT_PL-NOM  ; !pref
-:%^CnsRM   FRONT_PL-NOM  ;
-:%^CnsRM%>isi FRONT_PL-GEN_ZERO ; !pref
- FRONT_PL-GEN_de ; 
-:%^CnsRM%>i FRONT_PL-GEN_de ;
-:%^VowRM%^CnsRM%>i FRONT_PL-GEN_de ; tervide
-:%^CnsRM%>isi FRONT_PL-ILL_he ; !pref
-:%^CnsRM%>i FRONT_PL-ILL_he ;
-:%^VowRM%^CnsRM%>i FRONT_PL-ILL_he ; tervihe
-:%^CnsRM%>isi FRONT_PL-PAR_ZERO ;!pref
-:%^CnsRM%>i FRONT_PL-PAR_d ;
-:%^VowRM%^CnsRM%>i FRONT_PL-PAR_t ;
-:%^CnsRM%>isi FRONT_PL-ALL_le-STEM ; !pref
-:%^CnsRM%>i FRONT_PL-ALL_le-STEM ;
-:%^VowRM%^CnsRM%>i FRONT_PL-ALL_le-STEM ;
-
-LEXICON NMN_4TERVÜS
   NMN_4TERVÜS-SG ;
   NMN_4TERVÜS-PL ;
 LEXICON NMN_4TERVÜS-SG 
         FRONT_SG-NOM  ;
-:%^CnsRM   FRONT_SG-GEN_ZERO-STEM        ;
-:%^CnsRM   FRONT_SG-PAR_t      ;
-:%^CnsRM   FRONT_SG-ILL_he     ;
+:%>e   FRONT_SG-GEN_ZERO-STEM        ; !pref
+   FRONT_SG-PAR_t      ; !pref
+   FRONT_SG-ILL_te     ; !pref
++Use/NG:%^CnsRM   FRONT_SG-GEN_ZERO-STEM        ;
++Use/NG:%^CnsRM   FRONT_SG-PAR_t      ;
++Use/NG:%^CnsRM   FRONT_SG-ILL_he     ;
 
 LEXICON NMN_4TERVÜS-PL 
-:%^CnsRM   FRONT_PL-NOM  ;
-:%^CnsRM%>i FRONT_PL-GEN_de ;
-:%^CnsRM%>i FRONT_PL-ILL_he ;
-:%^CnsRM%>i FRONT_PL-PAR_t ;
-:%^CnsRM%>i FRONT_PL-ALL_le-STEM ;
+:%>e   FRONT_PL-NOM  ; !pref
+:%^CnsRM%>isi FRONT_PL-GEN_ZERO ; !pref
+:%^CnsRM%>isi FRONT_PL-ILL_he ; !pref
+:%^CnsRM%>isi FRONT_PL-PAR_ZERO ;!pref
+:%^CnsRM%>isi FRONT_PL-ALL_le-STEM ; !pref
+:%^CnsRM%>isi PL-COM ;
+
++Use/NG:%^CnsRM   FRONT_PL-NOM  ;
++Use/NG: FRONT_PL-GEN_de ; 
++Use/NG:%^CnsRM%>i FRONT_PL-GEN_de ;
++Use/NG:%^VowRM%^CnsRM%>i FRONT_PL-GEN_de ; !!= * @CODE@ tervide
++Use/NG:%>te FRONT_PL-ILL_he ;
++Use/NG:%^CnsRM%>i FRONT_PL-ILL_he ;
++Use/NG:%^CnsRM%>isi FRONT_PL-ILL_ZERO ;
++Use/NG:%^CnsRM%>isi FRONT_PL-ILL_de ;
++Use/NG:%^VowRM%^CnsRM%>i FRONT_PL-ILL_he ; !!= * @CODE@ tervihe
++Use/NG:%^CnsRM%>i FRONT_PL-PAR_d ;
++Use/NG:%^VowRM%^CnsRM%>i FRONT_PL-PAR_t ;
++Use/NG:%>te FRONT_PL-ALL_le-STEM ;
++Use/NG:%^CnsRM%>i FRONT_PL-ALL_le-STEM ;
++Use/NG:%^VowRM%^CnsRM%>i FRONT_PL-ALL_le-STEM ;
++Use/NG:%^CnsRM%>ide PL-COM ;
++Use/NG:%^VowRM%^CnsRM%>ide PL-COM ;
++Use/NG:%>te PL-COM ;
+
+LEXICON NMN_4AINUS !!= * __@CODE@__ Types 4, 8, 17
+!! ainus:ainus
+!! * Yaml: __A-ainus4__
+
+  NMN_4AINUS-SG ;
+  NMN_4AINUS-PL ;
+LEXICON NMN_4AINUS-SG 
+        BACK_SG-NOM  ;
+:%>õ   BACK_SG-GEN_ZERO-STEM        ; !pref
+   BACK_SG-PAR_t      ; !pref
+   BACK_SG-ILL_tõ     ; !pref
++Use/NG:%^CnsRM   BACK_SG-GEN_ZERO-STEM        ;
++Use/NG:%^CnsRM   BACK_SG-PAR_t      ;
++Use/NG:%^CnsRM   BACK_SG-ILL_he     ;
+
+LEXICON NMN_4AINUS-PL 
+:%>õ   BACK_PL-NOM  ; !pref
+:%^CnsRM%>isi BACK_PL-GEN_ZERO ; !pref
+:%^CnsRM%>isi BACK_PL-ILL_he ; !pref
+:%^CnsRM%>isi BACK_PL-PAR_ZERO ;!pref
+:%^CnsRM%>isi BACK_PL-ALL_lõ-STEM ; !pref
+:%^CnsRM%>isi PL-COM ;
+
++Use/NG:%^CnsRM   BACK_PL-NOM  ;
++Use/NG: BACK_PL-GEN_dõ ; 
++Use/NG:%^CnsRM%>i BACK_PL-GEN_dõ ;
++Use/NG:%^VowRM%^CnsRM%>i BACK_PL-GEN_dõ ; !!= * @CODE@ tervide
++Use/NG:%>tõ BACK_PL-ILL_he ;
++Use/NG:%^CnsRM%>i BACK_PL-ILL_he ;
++Use/NG:%^CnsRM%>isi BACK_PL-ILL_ZERO ;
++Use/NG:%^CnsRM%>isi BACK_PL-ILL_dõ ;
++Use/NG:%^VowRM%^CnsRM%>i BACK_PL-ILL_he ; !!= * @CODE@ tervihe
++Use/NG:%^CnsRM%>i BACK_PL-PAR_d ;
++Use/NG:%^VowRM%^CnsRM%>i BACK_PL-PAR_t ;
++Use/NG:%>tõ BACK_PL-ALL_lõ-STEM ;
++Use/NG:%^CnsRM%>i BACK_PL-ALL_lõ-STEM ;
++Use/NG:%^VowRM%^CnsRM%>i BACK_PL-ALL_lõ-STEM ;
++Use/NG:%^CnsRM%>idõ PL-COM ;
++Use/NG:%^VowRM%^CnsRM%>idõ PL-COM ;
++Use/NG:%>tõ PL-COM ;
+
 
 LEXICON NMN_5SUHVLI
 !! * Yaml: __N-oppaja5__
@@ -992,7 +1046,7 @@ LEXICON NMN_9KIPÕNʼ-SG
 :%^WGStem%>a	SG-ELA_st	;
 
 LEXICON NMN_9KIPÕNʼ-PL
-:%^WGStem%>a	BACK_PL-NOM ;:
+:%^WGStem%>a	BACK_PL-NOM ;
 %^WGStem%>i	BACK_PL-GEN_dõ ;
 :%^WGStem%>i        BACK_PL-ILL_hõ       ;
 :%^WGStem%>i        BACK_PL-ALL_lõ-STEM       ;
@@ -1012,7 +1066,7 @@ LEXICON NMN_9ELLÄI-SG
 :%^WGStem%>ä	SG-ELA_st	;
 
 LEXICON NMN_9ELLÄI-PL
-:%^WGStem%>ä	FRONT_PL-NOM ;:
+:%^WGStem%>ä	FRONT_PL-NOM ;
 %^WGStem%>i	FRONT_PL-GEN_de ;
 :%^WGStem%>i        FRONT_PL-ILL_he       ;
 :%^WGStem%>i        FRONT_PL-ALL_le-STEM       ;
@@ -1406,26 +1460,6 @@ LEXICON NMN_16ABILINÕ-PL
 :isi		BACK_PL-PAR_ZERO ;
 :isi		BACK_PL-ILL_hõ ;
 :isi		BACK_PL-ALL_lõ-STEM ;
-
-LEXICON NMN_17TERVÜS
-  NMN_17TERVÜS-SG ;
-  NMN_17TERVÜS-PL ;
-
-LEXICON NMN_17TERVÜS-SG 
-        FRONT_SG-NOM  ;
-:%>e   FRONT_SG-GEN_ZERO-STEM        ;
-   FRONT_SG-PAR_t      ;
-   FRONT_SG-ILL_te     ;
-
-LEXICON NMN_17TERVÜS-PL 
-:%^CnsRM   FRONT_PL-NOM  ;
- FRONT_PL-GEN_de ;
- FRONT_PL-ILL_dehe ;
- FRONT_PL-ALL_dele ;
-:%^CnsRM%>isi FRONT_PL-GEN_ZERO ;
-:%^CnsRM%>isi FRONT_PL-ILL_he ;
-:%^CnsRM%>isi FRONT_PL-PAR_ZERO ;
-:%^CnsRM%>isi FRONT_PL-ALL_le-STEM ;
 
 
 LEXICON NMN_18EHITÜS
