@@ -1,0 +1,25 @@
+!! Clitics in Võro
+!! ---------------
+
+LEXICON K
+ FINAL1 ;
+
+LEXICON BACK_K
+ FINAL1 ;
++Clt:%>kinaq FINAL1 ;
+
+LEXICON FRONT_K
+ FINAL1 ;
++Clt:%>kinäq FINAL1 ;
++Err/Orth+Clt:%>kinaq FINAL1 ;
+
+! Final lexicon
+! =============
+
+
+LEXICON FINAL1
+                        #       ;
+
+
+! vim: set ft=xfst-lexc:
+
