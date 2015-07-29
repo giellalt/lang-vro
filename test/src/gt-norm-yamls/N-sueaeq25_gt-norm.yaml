@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - süä: # Noun (25) süä 'eng /est /fin' - full paradigm
+     süä+N+Sg+Nom: [süä, süä]
+     süä+N+Sg+Gen: [süäme, süämä]
+     süä+N+Sg+Par: süänd
+     süä+N+Sg+Ill: [süämehe, süämähe, süämede, süämäde]
+     süä+N+Sg+Ine: [süämen, süämän, süämeh, süämäh, süämehn, süämähn]
+     süä+N+Sg+Ela: [süämest, süämäst]
+     süä+N+Sg+All: [süämele, süämäle]
+     süä+N+Sg+Ade: [süämel, süämäl]
+     süä+N+Sg+Abl: [süämelt, süämält]
+     süä+N+Sg+Tra: [süämes, süämäs]
+     süä+N+Sg+Ter: [süämeniq, süämäniq]
+     süä+N+Sg+Abe: [süämeldäq, süämäldäq]
+     süä+N+Sg+Com: [süämegaq, süämägaq]
+     süä+N+Pl+Nom: [süämeq, süämäq]
+     süä+N+Pl+Gen: [süämide, süämiide]
+     süä+N+Pl+Par: [süämit, süämiid]
+     süä+N+Pl+Ill: [süämihe, süämiihe, süändehe, süämide, süämiide, süändede]
+     süä+N+Pl+Ine: [süämin, süämih, süämihn, süämiin, süämiih, süämiihn, süänden, süändeh, süändehn]
+     süä+N+Pl+Ela: [süämist, süämiist, süändest]
+     süä+N+Pl+All: [süämile, süämiile, süändele]
+     süä+N+Pl+Ade: [süämil, süämiil, süändel]
+     süä+N+Pl+Abl: [süämilt, süämiilt, süändelt]
+     süä+N+Pl+Tra: [süämis, süämiis, süändes]
+     süä+N+Pl+Ter: [süäminiq, süämiiniq, süändeniq]
+     süä+N+Pl+Abe: [süämildäq, süämiildäq, süändeldäq]
+     süä+N+Pl+Com: [süämidegaq, süämiidegaq, süändegaq]

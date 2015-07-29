@@ -21,6 +21,7 @@ LEXICON N_1HANSʼA-SG
 LEXICON N_1HANSʼA-PL
 +N:	NMN_1HANSʼA-PL ; 
 
+
 LEXICON N_2SUHVLI
 !! * Yaml: __suhvli__
    N_2SUHVLI-SG ;
@@ -72,15 +73,15 @@ LEXICON N_4AINUS-PL
 +N:     NMN_4AINUS-PL ;
 
 
-LEXICON N_5SUHVLI
+LEXICON N_5OPPAJA
 !! * Yaml: __N-oppaja5__
-   N_5SUHVLI-SG ;
-   N_5SUHVLI-PL ;
+   N_5OPPAJA-SG ;
+   N_5OPPAJA-PL ;
 
-LEXICON N_5SUHVLI-SG
-+N:	NMN_5SUHVLI-SG ;
-LEXICON N_5SUHVLI-PL
-+N:	NMN_5SUHVLI-PL ;
+LEXICON N_5OPPAJA-SG
++N:	NMN_5OPPAJA-SG ;
+LEXICON N_5OPPAJA-PL
++N:	NMN_5OPPAJA-PL ;
 
 LEXICON N_6MAKÕ
  N_6MAKÕ-SG ;
@@ -361,6 +362,14 @@ LEXICON N_24SUSI-SG
 LEXICON N_24SUSI-PL
 +N: NMN_24SUSI-PL ;
 +N+Sg+Nom+WORK: K ;
+
+LEXICON N_25SÜÄQ
+        N_25SÜÄQ-SG ;
+        N_25SÜÄQ-PL ;
+LEXICON N_25SÜÄQ-SG
++N:     NMN_25SÜÄQ-SG ;
+LEXICON N_25SÜÄQ-PL
++N:     NMN_25SÜÄQ-PL ;
 
 LEXICON N_25ASÕQ
         N_25ASÕQ-SG ;
@@ -819,7 +828,7 @@ LEXICON NMN_3PERÄDÜ-PL
 :%^StrGStem%>i      FRONT_PL-ALL_le-STEM       ;
 
 LEXICON NMN_3ALADU !!= @CODE@ aladu:aladu
-!! * Yaml: __A-peraedue3__
+!! * Yaml: __A-aladu3__
    NMN_3ALADU-SG ;
    NMN_3ALADU-PL ;
 
@@ -918,17 +927,17 @@ LEXICON NMN_4AINUS-PL
 +Use/NG:%>tõ PL-COM ;
 
 
-LEXICON NMN_5SUHVLI
+LEXICON NMN_5OPPAJA
 !! * Yaml: __N-oppaja5__
-  NMN_5SUHVLI-SG ;
-  NMN_5SUHVLI-PL ;
-LEXICON NMN_5SUHVLI-SG 
+  NMN_5OPPAJA-SG ;
+  NMN_5OPPAJA-PL ;
+LEXICON NMN_5OPPAJA-SG 
 	BACK_SG-NOM	;
 	BACK_SG-GEN_ZERO-STEM       ;
 	BACK_SG-PAR_t	;
 	BACK_SG-ILL_he	;
 	BACK_SG-ILL_dõ	;
-LEXICON NMN_5SUHVLI-PL
+LEXICON NMN_5OPPAJA-PL
 	BACK_PL-NOM ;
 :%^VowRM%>i	BACK_PL-GEN_dõ ;
 :%^VowRM%>ii	BACK_PL-GEN_dõ ;
@@ -1640,29 +1649,84 @@ LEXICON NMN_24SUSI-PL
 :%^TS%>si  	PL-COM ;
 +Use/NG:%^StrD2Te	PL-COM ;
 
-LEXICON NMN_25ASÕQ ! asõq:asõ
+LEXICON NMN_25SÜÄQ ! süä:süä
+  NMN_25SÜÄQ-SG ;
+  NMN_25SÜÄQ-PL ;
+
+LEXICON NMN_25SÜÄQ-SG 
+:%>me      FRONT_SG-GEN_ZERO-STEM ;
+      	FRONT_SG-NOM ;
+:%^WGStem%>n             	FRONT_SG-PAR_d ;
+:%>me     	FRONT_SG-ILL_he ;
+:%>me FRONT_SG-COM ;
+
++Use/NG:%>mä      FRONT_SG-GEN_ZERO-STEM ;
++Use/NG:%>mä     	FRONT_SG-ILL_he ;
++Use/NG:%>me     	FRONT_SG-ILL_de ;
++Use/NG:%>mä     	FRONT_SG-ILL_de ;
+:%>mä FRONT_SG-COM ;
+
+LEXICON NMN_25SÜÄQ-PL 
+:%>me      FRONT_PL-NOM ;
+:%>mi           FRONT_PL-GEN_de ;
+:mi           FRONT_PL-PAR_t ;
+:mi           FRONT_PL-ILL_he ;
+:mi           FRONT_PL-ALL_le-STEM ;
+:mide PL-COM ;
+
++Use/NG:%>mä      FRONT_PL-NOM ;
++Use/NG:%^WGStem%>n             	FRONT_PL-GEN_de ; !!= * @CODE@ CHECK THIS
++Use/NG:%>mii             	FRONT_PL-GEN_de ;
++Use/NG:mii           FRONT_PL-PAR_d ;
++Use/NG:mi     FRONT_PL-ILL_de ;
++Use/NG:mii     FRONT_PL-ILL_de ;
++Use/NG:%^WGStem%>nde     FRONT_PL-ILL_de ;
++Use/NG:mii     FRONT_PL-ILL_he ;
++Use/NG:%^WGStem%>nde     FRONT_PL-ILL_he ;
++Use/NG:mii           FRONT_PL-ALL_le-STEM ;
++Use/NG:%^WGStem%>nde     FRONT_PL-ALL_le-STEM ;
++Use/NG:miide PL-COM ;
++Use/NG:%^WGStem%>nde PL-COM ;
+
+LEXICON NMN_25ASÕQ !!= * @CODE@ asõq:asõ
   NMN_25ASÕQ-SG ;
   NMN_25ASÕQ-PL ;
 
 LEXICON NMN_25ASÕQ-SG 
-!+WORK: #;
 :%>mõ      BACK_SG-GEN_ZERO-STEM ;
-:%>ma      BACK_SG-GEN_ZERO-STEM ;
-:%>q      	BACK_SG-NOM ;
-:n             	BACK_SG-PAR_d ;
+:%^WGStem%>q      	BACK_SG-NOM ;
+:%^WGStem%>n             	BACK_SG-PAR_d ;
 :%>mõ     	BACK_SG-ILL_he ;
-:%>ma     	BACK_SG-ILL_he ;
+:%>mõ BACK_SG-COM ;
+
++Use/NG:%^WGStem      	BACK_SG-NOM ;
++Use/NG:%>ma      BACK_SG-GEN_ZERO-STEM ;
++Use/NG:%>ma     	BACK_SG-ILL_he ;
++Use/NG:%>mõ     	BACK_SG-ILL_dõ ;
++Use/NG:%>ma     	BACK_SG-ILL_dõ ;
+:%>ma BACK_SG-COM ;
 
 LEXICON NMN_25ASÕQ-PL 
-!+WORK: #;
 :%>mõ      BACK_PL-NOM ;
 :%>mi           BACK_PL-GEN_dõ ;
-:n             	BACK_PL-GEN_dõ ;
 :mi           BACK_PL-PAR_t ;
-:mi           BACK_PL-ILL_hõ ;
-:ndõ     BACK_PL-ILL_hõ ;
-:mi           BACK_PL-ALL_lõ ;
-:n     BACK_PL-ALL_dõlõ ;
+:mi           BACK_PL-ILL_he ;
+:mi           BACK_PL-ALL_lõ-STEM ;
+:midõ PL-COM ;
+
++Use/NG:%>ma      BACK_PL-NOM ;
++Use/NG:%^WGStem%>n             	BACK_PL-GEN_dõ ; !!= * @CODE@ CHECK THIS
++Use/NG:%>mii             	BACK_PL-GEN_dõ ;
++Use/NG:mii           BACK_PL-PAR_d ;
++Use/NG:mi     BACK_PL-ILL_dõ ;
++Use/NG:mii     BACK_PL-ILL_dõ ;
++Use/NG:%^WGStem%>ndõ     BACK_PL-ILL_dõ ;
++Use/NG:mii     BACK_PL-ILL_he ;
++Use/NG:%^WGStem%>ndõ     BACK_PL-ILL_he ;
++Use/NG:mii           BACK_PL-ALL_lõ-STEM ;
++Use/NG:%^WGStem%>ndõ     BACK_PL-ALL_lõ-STEM ;
++Use/NG:miidõ PL-COM ;
++Use/NG:%^WGStem%>ndõ PL-COM ;
 
 LEXICON NMN_26HEPEMʼ
   NMN_26HEPEMʼ-SG ;
