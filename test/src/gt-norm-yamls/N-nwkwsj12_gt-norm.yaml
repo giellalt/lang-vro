@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - nõkõsʼ: # Noun (12) nõkõsʼ 'eng /est /fin' - full paradigm
+     nõkõsʼ+N+Sg+Nom: nõkõsʼ
+     nõkõsʼ+N+Sg+Gen: [nõgõsõ, nõgõssõ]
+     nõkõsʼ+N+Sg+Par: nõgõst
+     nõkõsʼ+N+Sg+Ill: [nõgõsõhe, nõgõsõdõ]
+     nõkõsʼ+N+Sg+Ine: [nõgõsõn, nõgõsõh, nõgõsõhn]
+     nõkõsʼ+N+Sg+Ela: nõgõsõst
+     nõkõsʼ+N+Sg+All: nõgõsõlõ
+     nõkõsʼ+N+Sg+Ade: nõgõsõl
+     nõkõsʼ+N+Sg+Abl: nõgõsõlt
+     nõkõsʼ+N+Sg+Tra: nõgõsõs
+     nõkõsʼ+N+Sg+Ter: nõgõsõniq
+     nõkõsʼ+N+Sg+Abe: nõgõsõldaq
+     nõkõsʼ+N+Sg+Com: nõgõsõgaq
+     nõkõsʼ+N+Pl+Nom: nõgõsõq
+     nõkõsʼ+N+Pl+Gen: [nõgõsidõ, nõgõsiidõ, nõgõstõ]
+     nõkõsʼ+N+Pl+Par: [nõgõsit, nõgõsiid]
+     nõkõsʼ+N+Pl+Ill: [nõgõsihe, nõgõsiihe, nõgõsidõ, nõgõsiidõ, nõgõstõhe, nõgõstõdõ]
+     nõkõsʼ+N+Pl+Ine: [nõgõsin, nõgõsiin, nõgõsih, nõgõsiih, nõgõsihn, nõgõsiihn, nõgõstõn, nõgõstõh, nõgõstõhn]
+     nõkõsʼ+N+Pl+Ela: [nõgõsist, nõgõsiist, nõgõstõst]
+     nõkõsʼ+N+Pl+All: [nõgõsilõ, nõgõsiilõ, nõgõstõlõ]
+     nõkõsʼ+N+Pl+Ade: [nõgõsil, nõgõsiil, nõgõstõl]
+     nõkõsʼ+N+Pl+Abl: [nõgõsilt, nõgõsiilt, nõgõstõlt]
+     nõkõsʼ+N+Pl+Tra: [nõgõsis, nõgõsiis, nõgõstõs]
+     nõkõsʼ+N+Pl+Ter: [nõgõsiniq, nõgõsiiniq, nõgõstõniq]
+     nõkõsʼ+N+Pl+Abe: [nõgõsildaq, nõgõsiildaq, nõgõstõldaq]
+     nõkõsʼ+N+Pl+Com: [nõgõsidõgaq, nõgõsiidõgaq, nõgõstõgaq]
