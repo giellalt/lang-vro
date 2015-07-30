@@ -1407,42 +1407,68 @@ LEXICON NMN_12NÕKÕSʼ-PL
 
 
 LEXICON NMN_13ALONÕ !!= @CODE@ alonõ:alo
+!! __A-alonw__
         NMN_13ALONÕ-SG ;
         NMN_13ALONÕ-PL ;
 LEXICON NMN_13ALONÕ-SG
 :%>nõ	BACK_SG-NOM ;
-:%>dsõ      BACK_SG-GEN_ZERO-STEM ;
+:%>dsõ      BACK_SG-GEN_ZERO ;
 :s		BACK_SG-PAR_t ;
 :tsõ      	BACK_SG-ILL_he ;
+:%>tsõ      BACK_SG-ALL_lõ-STEM ;
++Use/NG:tsõ      	BACK_SG-ILL_dõ ;
++Use/NG:dsõ      	BACK_SG-COM ;
 
 LEXICON NMN_13ALONÕ-PL
 :%>dsõ      BACK_PL-NOM ;
-:s		BACK_PL-GEN_dõ ;
-:s		BACK_PL-ILL_dõhe ;
-:s		BACK_PL-ALL_dõlõ ;
 :tsi		BACK_PL-GEN_dõ ;
+:tsi		BACK_PL-ILL_he ;
 :tsi		BACK_PL-PAR_t ;
-:tsi		BACK_PL-ILL_hõ ;
 :tsi		BACK_PL-ALL_lõ-STEM ;
+:tsidõ		PL-COM ;
++Use/NG:s		BACK_PL-ILL_dõhe ;
++Use/NG:s		BACK_PL-GEN_dõ ;
++Use/NG:tsii		BACK_PL-GEN_dõ ;
++Use/NG:tsii		BACK_PL-PAR_d ;
++Use/NG:tsii		BACK_PL-ILL_he ;
++Use/NG:tsii		BACK_PL-ILL_dõ ;
++Use/NG:stõ		BACK_PL-ILL_dõ ;
++Use/NG:tsii		BACK_PL-ALL_lõ-STEM ;
++Use/NG:stõ		BACK_PL-ALL_lõ-STEM ;
++Use/NG:tsiidõ		PL-COM ;
++Use/NG:stõ		PL-COM ;
 
 LEXICON NMN_13TÄHINE !!= @CODE@ tähine:tähi
         NMN_13TÄHINE-SG ;
         NMN_13TÄHINE-PL ;
 LEXICON NMN_13TÄHINE-SG
 :%>ne	FRONT_SG-NOM ;
-:%>dse      FRONT_SG-GEN_ZERO-STEM ;
+:%>dse      FRONT_SG-GEN_ZERO ;
 :s		FRONT_SG-PAR_t ;
 :tse      	FRONT_SG-ILL_he ;
+:%>tse      FRONT_SG-ALL_le-STEM ;
++Use/NG:tse             FRONT_SG-ILL_de ;
++Use/NG:dse             FRONT_SG-COM ;
 
 LEXICON NMN_13TÄHINE-PL
 :%>dse      FRONT_PL-NOM ;
-:s		FRONT_PL-GEN_de ;
-:s		FRONT_PL-ILL_dehe ;
-:s		FRONT_PL-ALL_dele ;
-:tsi		FRONT_PL-GEN_de ;
-:tsi		FRONT_PL-PAR_t ;
-:tsi		FRONT_PL-ILL_he ;
-:tsi		FRONT_PL-ALL_le-STEM ;
+:tsi            FRONT_PL-GEN_de ;
+:tsi            FRONT_PL-ILL_he ;
+:tsi            FRONT_PL-PAR_t ;
+:tsi            FRONT_PL-ALL_le-STEM ;
+:tside          PL-COM ;
++Use/NG:s               FRONT_PL-ILL_dehe ;
++Use/NG:s               FRONT_PL-GEN_de ;
++Use/NG:tsii            FRONT_PL-GEN_de ;
++Use/NG:tsii            FRONT_PL-PAR_d ;
++Use/NG:tsii            FRONT_PL-ILL_he ;
++Use/NG:tsii            FRONT_PL-ILL_de ;
++Use/NG:ste             FRONT_PL-ILL_de ;
++Use/NG:tsii            FRONT_PL-ALL_le-STEM ;
++Use/NG:ste             FRONT_PL-ALL_le-STEM ;
++Use/NG:tsiide          PL-COM ;
++Use/NG:ste             PL-COM ;
+
 
 
 LEXICON NMN_14RITSʼKAS !!= * __@CODE@__ ritsʼkas:ritsʼka
