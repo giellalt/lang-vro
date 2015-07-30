@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - nuulʼ: # Noun (23) nuulʼ 'eng /est /fin' - full paradigm
+     nuulʼ+N+Sg+Nom: nuulʼ
+     nuulʼ+N+Sg+Gen: noolõ
+     nuulʼ+N+Sg+Par: nuult
+     nuulʼ+N+Sg+Ill: nuuldõ
+     nuulʼ+N+Sg+Ine: [noolõn, noolõh, noolõhn]
+     nuulʼ+N+Sg+Ela: noolõst
+     nuulʼ+N+Sg+All: noolõlõ
+     nuulʼ+N+Sg+Ade: noolõl
+     nuulʼ+N+Sg+Abl: noolõlt
+     nuulʼ+N+Sg+Tra: noolõs
+     nuulʼ+N+Sg+Ter: noolõniq
+     nuulʼ+N+Sg+Abe: noolõldaq
+     nuulʼ+N+Sg+Com: noolõgaq
+     nuulʼ+N+Pl+Nom: noolõq
+     nuulʼ+N+Pl+Gen: [nuuli, nooltõ]
+     nuulʼ+N+Pl+Par: nuuli
+     nuulʼ+N+Pl+Ill: [nuulihe, nuuli, nuulidõ]
+     nuulʼ+N+Pl+Ine: [noolin, noolih, noolihn, nooltõn, nooltõh, nooltõhn]
+     nuulʼ+N+Pl+Ela: [noolist, nooltõst]
+     nuulʼ+N+Pl+All: [noolilõ, nooltõlõ]
+     nuulʼ+N+Pl+Ade: [noolil, nooltõl]
+     nuulʼ+N+Pl+Abl: [noolilt, nooltõlt]
+     nuulʼ+N+Pl+Tra: [noolis, nooltõs]
+     nuulʼ+N+Pl+Ter: [nooliniq, nooltõniq]
+     nuulʼ+N+Pl+Abe: [noolildaq, nooltõldaq]
+     nuulʼ+N+Pl+Com: [nuuligaq, nooltõgaq]

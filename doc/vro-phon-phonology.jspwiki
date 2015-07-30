@@ -33,16 +33,17 @@ Triggers
 
  %^PenWGStem:0  This weakens "kipõnʼ" to "kibõna"
 
- %^SYNC:0  syncope tapõld : taplõma 
+ %^PenVowRM:0  syncope tapõld : taplõma 
 
  %^TS:0  The ti => si
+ %^TS2S:0  The -ts- => -s-
 
  %^I2ʼ:0  The i => ʼ change
  %^I2J:0  The i => j change
 
  %^PLPRT:0  The a:o attested in Plural kana:kanno and prt
 
- %^RVow:0  Raises vowel
+ %^VOWRaise:0  Raises vowel
  %^LowerVow:0  Lowers vowel
  %^XLowerVow:0  Lowers vowel two levels
  %^LowerVowDelab:0  Lowers vowel and delabializes it
@@ -145,7 +146,7 @@ __särgi00 examples:__
 
 __e2i__
 
-__keel%^RVowʼ examples:__
+__keel%^VOWRaiseʼ examples:__
 
 __kiil0ʼ examples:__
 
@@ -210,7 +211,7 @@ __sõima0%^VowRM%>si examples:__
 
 __sõim0s0%>si examples:__
 
-__puhkas%^APOCH%>a%>ma examples:__
+__puhkas%^PenVowRM%>a%>ma examples:__
 
 __puhk0s0%>a%>ma examples:__
 
@@ -221,6 +222,10 @@ __ä:0__
 __elä%>et examples:__
 
 __el0%>et examples:__
+
+__tütär%^PenVowRM%>e examples:__
+
+__tüt0r0%>e examples:__
 
 __u:0__
 {{{
@@ -236,6 +241,10 @@ __k0u0%>i%>d examples:__
 
 __ü:0__
 {{{
+
+__tüü%^VowRM%>hüq examples:__
+
+__tü00%>hüq examples:__
 
 __tervüs%^VowRM%^CnsRM%>i%>t examples:__
 
@@ -263,15 +272,15 @@ __hävvü0%>0 examples:__
 
 __õ:0__
 
-__tapõl%^SYNC%{ÕE%}%>ma examples:__
+__tapõl%^PenVowRM%{ÕE%}%>ma examples:__
 
 __tap0l0õ%>ma examples:__
 
-__kannõl%^StrGStem%^SYNC%>%{ÕE%} examples:__
+__kannõl%^StrGStem%^PenVowRM%>%{ÕE%} examples:__
 
 __kand0l00%>õ examples:__
 
-__kogõr%^StrGStem%^SYNC%>%{ÕE%} examples:__
+__kogõr%^StrGStem%^PenVowRM%>%{ÕE%} examples:__
 
 __kok0r00%>õ examples:__
 
@@ -414,7 +423,6 @@ __per0e0%>h examples:__
 
 __tToZero__
 
-
 !CONSONANT QUALITY CHANGE
 
 __p2b__
@@ -454,6 +462,10 @@ __käd%^StrD2T%>t examples:__
 
 __kät0%>t examples:__
 
+__hüdsi%^StrD2T%>l examples:__
+
+__hütsi0%>l examples:__
+
 
 __dTos__
 
@@ -465,7 +477,7 @@ __tTod__
 __nTod__
 
 
-__kannõl%^SYNC%>%{ÕE%} examples:__
+__kannõl%^PenVowRM%>%{ÕE%} examples:__
 
 __kand0l0%>õ examples:__
 
@@ -492,7 +504,7 @@ __ig0ä%^XStrGStem examples:__
 
 __ikkä0 examples:__
 
-__kogõr%^StrGStem%^SYNC%>%{ÕE%} examples:__
+__kogõr%^StrGStem%^PenVowRM%>%{ÕE%} examples:__
 
 __kok0r00%>õ examples:__
 
@@ -501,6 +513,10 @@ __kok0r00%>õ examples:__
 __s20__
 
 __d20__
+
+__hüdsi%^TS2S%^VowRM%>te examples:__
+
+__hü0s000%>te examples:__
 
 __g20__
 

@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pundar: # Noun (28) pundar 'eng /est /fin' - full paradigm
+     pundar+N+Sg+Nom: pundar
+     pundar+N+Sg+Gen: pundrõ
+     pundar+N+Sg+Par: pundard
+     pundar+N+Sg+Ill: [pundrõhe, pundrõdõ]
+     pundar+N+Sg+Ine: [pundrõn, pundrõh, pundrõhn]
+     pundar+N+Sg+Ela: pundrõst
+     pundar+N+Sg+All: pundrõlõ
+     pundar+N+Sg+Ade: pundrõl
+     pundar+N+Sg+Abl: pundrõlt
+     pundar+N+Sg+Tra: pundrõs
+     pundar+N+Sg+Ter: pundrõniq
+     pundar+N+Sg+Abe: pundrõldaq
+     pundar+N+Sg+Com: pundrõgaq
+     pundar+N+Pl+Nom: pundrõq
+     pundar+N+Pl+Gen: [pundridõ, pundriidõ, pundardõ]
+     pundar+N+Pl+Par: [pundrit, pundriid]
+     pundar+N+Pl+Ill: [pundrihe, pundriihe, pundridõ, pundriidõ, pundardõhe]
+     pundar+N+Pl+Ine: [pundrin, pundriin, pundrih, pundriih, pundrihn, pundriihn, pundardõn, pundardõh, pundardõhn]
+     pundar+N+Pl+Ela: [pundrist, pundriist, pundardõst]
+     pundar+N+Pl+All: [pundrilõ, pundriilõ, pundardõlõ]
+     pundar+N+Pl+Ade: [pundril, pundriil, pundardõl]
+     pundar+N+Pl+Abl: [pundrilt, pundriilt, pundardõlt]
+     pundar+N+Pl+Tra: [pundris, pundriis, pundardõs]
+     pundar+N+Pl+Ter: [pundriniq, pundriiniq, pundardõniq]
+     pundar+N+Pl+Abe: [pundrildaq, pundriildaq, pundardõldaq]
+     pundar+N+Pl+Com: [pundridõgaq, pundriidõgaq, pundardõgaq]
