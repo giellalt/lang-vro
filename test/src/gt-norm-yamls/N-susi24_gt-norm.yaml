@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - susi: # Noun (24) susi 'eng /est /fin' - full paradigm
+     susi+N+Sg+Nom: susi
+     susi+N+Sg+Gen: suõ
+     susi+N+Sg+Par: sutt
+     susi+N+Sg+Ill: suttõ
+     susi+N+Sg+Ine: [suõn, suõh, suõhn]
+     susi+N+Sg+Ela: suõst
+     susi+N+Sg+All: suõlõ
+     susi+N+Sg+Ade: suõl
+     susi+N+Sg+Abl: suõlt
+     susi+N+Sg+Tra: suõs
+     susi+N+Sg+Ter: suõniq
+     susi+N+Sg+Abe: suõldaq
+     susi+N+Sg+Com: suõgaq
+     susi+N+Pl+Nom: suõq
+     susi+N+Pl+Gen: [sussi, sutõ]
+     susi+N+Pl+Par: sussi
+     susi+N+Pl+Ill: [sussihe, sussi, sussidõ]
+     susi+N+Pl+Ine: [susin, susih, susihn, sussin, sussih, sussihn, sutõn, sutõh, sutõhn]
+     susi+N+Pl+Ela: [susist, sussist, sutõst]
+     susi+N+Pl+All: [susilõ, sussilõ, sutõlõ]
+     susi+N+Pl+Ade: [susil, sussil, sutõl]
+     susi+N+Pl+Abl: [susilt, sussilt, sutõlt]
+     susi+N+Pl+Tra: [susis, sussis, sutõs]
+     susi+N+Pl+Ter: [susiniq, sussiniq, sutõniq]
+     susi+N+Pl+Abe: [susildaq, sussildaq, sutõldaq]
+     susi+N+Pl+Com: [sussigaq, sutõgaq]
