@@ -31,6 +31,8 @@ Triggers
 
  %^XStrGStem:0  This extra-strengthens "sõda" to "sõtta"
 
+ %^PenWGStem:0  This weakens "kipõnʼ" to "kibõna"
+
  %^SYNC:0  syncope tapõld : taplõma 
 
  %^TS:0  The ti => si
@@ -359,6 +361,10 @@ __sõima0%^VowRM%>si examples:__
 
 __sõim0s0%>si examples:__
 
+__nõkõs0ʼ%^PenWGStem%^StrGStem%>õ examples:__
+
+__nõgõss000%>õ examples:__
+
 __kos0i%^StrGStem%>q examples:__
 
 __kossi0%>q examples:__
@@ -393,7 +399,7 @@ __puh0as0%>taq examples:__
 
 __mToZero__
 
-__hammõ%^WGStem%>h examples:__
+__hammõ%^PenWGStem%>h examples:__
 
 __ham0õ0%>h examples:__
 
@@ -420,7 +426,7 @@ __bTop__
 
 __b2m__
 
-__hamba%^WGStem%>s examples:__
+__hamba%^PenWGStem%>s examples:__
 
 __hamma0%>s examples:__
 
@@ -471,6 +477,10 @@ __k2g__
 __hõrak%^WGStem%>a examples:__
 
 __hõrag0%>a examples:__
+
+__süküs%^PenWGStem%>e examples:__
+
+__sügüs0%>e examples:__
 
 __gTok__
 
