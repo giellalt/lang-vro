@@ -1371,7 +1371,7 @@ LEXICON NMN_12SÜKÜS-PL
 +Use/NG:%^PenWGStem%>iide      PL-COM        ;
 +Use/NG:%^PenWGStem%>te      PL-COM        ;
 
-LEXICON NMN_12NÕKÕSʼ !!= * nõkõsʼ:nõkõsʼ
+LEXICON NMN_12NÕKÕSʼ !!= * @CODE@ nõkõsʼ:nõkõsʼ
 !! __N-suekues12__
   NMN_12NÕKÕSʼ-SG ;
   NMN_12NÕKÕSʼ-PL ;
@@ -1382,7 +1382,7 @@ LEXICON NMN_12NÕKÕSʼ-SG
 :%^PenWGStem       BACK_SG-PAR_t        ;
 :%^PenWGStem%>õ       BACK_SG-ILL_he       ;
 :%^PenWGStem%>õ       BACK_SG-COM ;
-+Use/NG:%^PenWGStem%^StrGStem%>õ       BACK_SG-GEN_ZERO-STEM        ;
++Use/NG:%^PenWGStem%^StrGStem%>õ       BACK_SG-GEN_ZERO-STEM        ; !!= * @CODE@ THIS NEEDS WORK
 +Use/NG:%^PenWGStem%>õ       BACK_SG-ILL_dõ       ;
 
 LEXICON NMN_12NÕKÕSʼ-PL 
