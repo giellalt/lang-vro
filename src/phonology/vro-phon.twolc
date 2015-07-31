@@ -59,9 +59,9 @@ K1:k
 %^PLPRT:0 !!= @CODE@ The a:o attested in Plural kana:kanno and prt
 
 %^VOWRaise:0 !!= @CODE@ Raises vowel
-%^LowerVow:0 !!= @CODE@ Lowers vowel
+%^VOWLower:0 !!= @CODE@ Lowers vowel
 %^XLowerVow:0 !!= @CODE@ Lowers vowel two levels
-%^LowerVowDelab:0 !!= @CODE@ Lowers vowel and delabializes it
+%^VOWLowerDelab:0 !!= @CODE@ Lowers vowel and delabializes it
 %^XLowerVowDelab:0 !!= @CODE@ Lowers vowel two levels and delabializes it
 
 %^U2E:0 !!= @CODE@ lowers u:õ and ü:e delabializes and lowers
@@ -182,17 +182,17 @@ Rules
 
 "u:o"
 !! __@RULENAME@__
- u:o <=>  u: _ %^LowerVow: ;
-    _ u: %^LowerVow: ;
+ u:o <=>  u: _ %^VOWLower: ;
+    _ u: %^VOWLower: ;
 
 "ü:ö"
 !! __@RULENAME@__
- ü:ö <=>  ü: _ %^LowerVow: ;
-    _ ü: %^LowerVow: (%^WGStem:) [ # | %> [ :Cns | [ :Vow - :i ]] ] ;
-   # Cns:* _ Cns: Vow: %^LowerVow: ;
-!!€# pügä%^LowerVow%^WGStem%^VowRM%>%{ÕE%}%>t
+ ü:ö <=>  ü: _ %^VOWLower: ;
+    _ ü: %^VOWLower: (%^WGStem:) [ # | %> [ :Cns | [ :Vow - :i ]] ] ;
+   # Cns:* _ Cns: Vow: %^VOWLower: ;
+!!€# pügä%^VOWLower%^WGStem%^VowRM%>%{ÕE%}%>t
 !!€0 pö00000%>e%>t
-!!€# süü%^LowerVow%^WGStem%>n%{UÜ%}q
+!!€# süü%^VOWLower%^WGStem%>n%{UÜ%}q
 !!€0 söö00%>nüq
 
 "u2õ"
@@ -244,9 +244,9 @@ Rules
  i:e <=> Cns 0: _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
 !!€# pin0i%^StrGStem%^PLPRT
 !!€0 pinne00
- # Cns* _ i: l %^LowerVow: ;
- # Cns* i: _ l %^LowerVow: ;
-!!€# kiil%^LowerVow%>%{ÕE%}
+ # Cns* _ i: l %^VOWLower: ;
+ # Cns* i: _ l %^VOWLower: ;
+!!€# kiil%^VOWLower%>%{ÕE%}
 !!€# keel0%>e
 !! }}}
 
@@ -327,7 +327,7 @@ Rules
 !!€0 tü00%>hüq
 !!€# tervüs%^VowRM%^CnsRM%>i%>t
 !!€0 terv0000%>i%>t
-         _ ü: (%^LowerVow:) %> i ;
+         _ ü: (%^VOWLower:) %> i ;
 !! }}}
 
 "e:0"
@@ -676,7 +676,7 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
  g:0 <=>  _ ( ʼ: ) %^WGStem: ;
 !!€# särgʼ%^WGStem%>#
 !!€0 sär0e0%>0
- # Cns:*  Vow: _ [ %{ÕE%}: |ä: ] (%^LowerVow:) %^WGStem: ;
+ # Cns:*  Vow: _ [ %{ÕE%}: |ä: ] (%^VOWLower:) %^WGStem: ;
 !!€# igä%^WGStem
 !!€0 i0ä0
 !!€# aig%^WGStem%>%{OÖ%}
