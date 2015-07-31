@@ -295,9 +295,9 @@ And following triggers to control variation
 
  __ %^PLPRT __ The a:o attested in Plural kana:kanno and prt
  __%^VOWRaise      __ Raises vowel
- __%^LowerVow  __ Lowers vowel
+ __%^VOWLower  __ Lowers vowel
  __%^XLowerVow __ Lowers vowel two levels
- __%^LowerVowDelab __ Lowers vowel and delabializes it
+ __%^VOWLowerDelab __ Lowers vowel and delabializes it
  __%^XLowerVowDelab __ Lowers vowel two levels and delabializes it
  %^U2E  lowers u:õ and ü:e delabializes and lowers
  %^U2A  lowers u:a and ü:ä delabializes and lowers
@@ -401,9 +401,9 @@ Triggers
  %^PLPRT:0  The a:o attested in Plural kana:kanno and prt
 
  %^VOWRaise:0  Raises vowel
- %^LowerVow:0  Lowers vowel
+ %^VOWLower:0  Lowers vowel
  %^XLowerVow:0  Lowers vowel two levels
- %^LowerVowDelab:0  Lowers vowel and delabializes it
+ %^VOWLowerDelab:0  Lowers vowel and delabializes it
  %^XLowerVowDelab:0  Lowers vowel two levels and delabializes it
 
  %^U2E:0  lowers u:õ and ü:e delabializes and lowers
@@ -466,11 +466,11 @@ __u:o__
 
 __ü:ö__
 
-__pügä%^LowerVow%^WGStem%^VowRM%>%{ÕE%}%>t examples:__
+__pügä%^VOWLower%^WGStem%^VowRM%>%{ÕE%}%>t examples:__
 
 __pö00000%>e%>t examples:__
 
-__süü%^LowerVow%^WGStem%>n%{UÜ%}q examples:__
+__süü%^VOWLower%^WGStem%>n%{UÜ%}q examples:__
 
 __söö00%>nüq examples:__
 
@@ -518,7 +518,7 @@ __pin0i%^StrGStem%^PLPRT examples:__
 
 __pinne00 examples:__
 
-__kiil%^LowerVow%>%{ÕE%} examples:__
+__kiil%^VOWLower%>%{ÕE%} examples:__
 
 __keel0%>e examples:__
 }}}
