@@ -140,6 +140,7 @@ IL = [ # Cns* Vow : Cns:+ | Cns* Vow+ Cns:+  Vow:+ Cns:+  ] ;
 !! Right context for gradation
 GRC =  [ [ %{OÖ%}: | %{UÜ%}: | Vow: | :Vow ]  ( %> i ) |  %>  i ] %> %^WCns:0  ;
 
+PenBetweenStemAndStemFinal = [(%^PenWGStem:)] ;
 
 !! !!!Rules
 
@@ -397,7 +398,9 @@ Rules
 !! __@RULENAME@__
  i:j <=> Vow Cns:+ Vow _ (%^WGStem:) %> :Vow ;
 ! Vow _ (%^WGStem:) %> :Vow ;
-         Cns _ %^I2J: ;
+         Vow: _ PenBetweenStemAndStemFinal %^I2J: ;
+!€ elläi%^PenWGStem%^I2J%>ä
+!€ el0äj00%>ä
 !         Cns _ %^StrGStem: %> :Vow ;
 
 "i2ʼ"
@@ -539,6 +542,8 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 "lToZero"
 !! __@RULENAME@__
  l:0 <=> l _ Vow i: %^PenWGStem: ;
+!€ elläi%^PenWGStem%^I2J%>ä
+!€ el0äj00%>ä
          _ %{XC%}:l %{ÕE%}: v %^PenWGStem: ;
 
 "rToZero"
