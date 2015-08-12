@@ -785,7 +785,7 @@ LEXICON V_77SÜÜMÄ !!≈ * __@CODE@__ süümä:süü
 +V: V0-IND-PRT-SC-12_i ;
 +V: FRONT_ACT-IND-PRT-CONNEG ;
 +V: V0-IND-PRT-SCSG3_i ;
-+V: V0-IND-PRT-SCSG3_iE ;
++V: FRONT_IND-PRT-SCSG3_ie ;
 +V: FRONT_VISKAMA_PSS-IND-PRT_ti ;
 
 +V: FRONT_V2N_mine ;
@@ -829,7 +829,7 @@ LEXICON V_78SAAMA
 +V: V0-IND-PRT-SC-12_i ;
 +V: BACK_ACT-IND-PRT-CONNEG ;
 +V: V0-IND-PRT-SCSG3_i ;
-+V: V0-IND-PRT-SCSG3_iE ;
++V: BACK_IND-PRT-SCSG3_iõ ;
 +V: BACK_VISKAMA_PSS-IND-PRT_ti ;
 
 +V: BACK_INF_ma ;
@@ -1034,7 +1034,7 @@ LEXICON V_JAHTʼMA !!≈ * __@CODE@__ jahtʼma:jahti
 +V:%^VowRM BACK_IND-PRT-SC-12_õ ; !2014-06-27 Is this correct
 +V: BACK_ACT-IND-PRT-CONNEG ;
 +V:%^VowRM BACK_IND-PRT-SCSG3_APOSTROPHE ;
-+V:%^VowRM V0-IND-PRT-SCSG3_E ;
++V:%^VowRM BACK_IND-PRT-SCSG3_õ ;
 +V: BACK_ACT-IND-PRT-SCPL3_vaq ;
 +V: BACK_VISKAMA_PSS-IND-PRT_ti ;
 
@@ -1057,7 +1057,7 @@ LEXICON V_86ISTMA !!≈ * __@CODE@__ istma:istu
 +V:%^VowRM BACK_IND-PRT-SC-12_õ ; !2014-06-27 Is this correct
 +V: BACK_ACT-IND-PRT-CONNEG ;
 +V:%^VowRM BACK_IND-PRT-SCSG3_APOSTROPHE ;
-+V:%^VowRM V0-IND-PRT-SCSG3_E ;
++V:%^VowRM BACK_IND-PRT-SCSG3_õ ;
 +V: BACK_ACT-IND-PRT-SCPL3_vaq ;
 +V: BACK_VISKAMA_PSS-IND-PRT_ti ;
 
@@ -1079,7 +1079,7 @@ LEXICON V_87KOSIMA !!≈ * __@CODE@__ kosima:kosi
 
 +V:%^VowRM BACK_IND-PRT-SC-12_õ ; 
 +V: BACK_ACT-IND-PRT-CONNEG ;
-+V:%^VowRM V0-IND-PRT-SCSG3_E ;
++V:%^VowRM BACK_IND-PRT-SCSG3_õ ;
 +V: BACK_ACT-IND-PRT-SCPL3_vaq ;
 +V: BACK_VISKAMA_PSS-IND-PRT_ti ;
 
@@ -1390,10 +1390,12 @@ LEXICON BACK_IND-PRT-SCSG3_APOSTROPHE
 LEXICON FRONT_IND-PRT-SCSG3_APOSTROPHE
 +Act+Ind+Prt+Sg3:%>ʼ FRONT_K ;
 
-LEXICON V0-IND-PRT-SCSG3_iE
-+Act+Ind+Prt+Sg3:%>i%{ÕE%} K ;
-LEXICON V0-IND-PRT-SCSG3_E
-+Act+Ind+Prt+Sg3:%>%{ÕE%} K ;
+LEXICON BACK_IND-PRT-SCSG3_iõ
++Act+Ind+Prt+Sg3:%>iõ BACK_K ;
+LEXICON FRONT_IND-PRT-SCSG3_ie
++Act+Ind+Prt+Sg3:%>ie FRONT_K ;
+LEXICON BACK_IND-PRT-SCSG3_õ
++Act+Ind+Prt+Sg3:%>õ K ;
 
 LEXICON V0-IND-PRT-SCSG3_se
 +Act+Ind+Prt+Sg3:%>se K ;
@@ -1859,7 +1861,7 @@ LEXICON BACK_JUUMA-PSS-PRF-PRC_d
 +Pss+PrfPrc+Sg+Par:%>dut BACK_K ;
 +Pss+PrfPrc+Sg+Ill:%>duhe BACK_K ;
 +Pss+PrfPrc+Pl+Nom:%>duq BACK_K ;
-+Pss+PrfPrc+Pl+Gen:%>duid%{ÕE%} BACK_K ;
++Pss+PrfPrc+Pl+Gen:%>duidõ BACK_K ;
 +Pss+PrfPrc+Pl+Gen:%>duisi BACK_K ;
 +Pss+PrfPrc+Pl+Par:%>duid BACK_K ;
 +Pss+PrfPrc+Pl+Par:%>duisi BACK_K ;
