@@ -1097,7 +1097,7 @@ LEXICON NMN_9ELLÄI !!= @CODE@ elläi:elläi
 
 LEXICON NMN_9ELLÄI-SG
 	FRONT_SG-NOM	;
-:%^PenWGStem%>ä	FRONT_SG-GEN_ZERO-STEM	;
+:%^PenWGStem%^I2J%>ä	FRONT_SG-GEN_ZERO-STEM	;
 :%^PenWGStem%>ä	FRONT_SG-PAR_t	;
 :%^PenWGStem%>ä	FRONT_SG-ILL_he	;
 :%^PenWGStem%>ä	FRONT_SG-COM	;
@@ -2541,22 +2541,23 @@ LEXICON NMN_46HAIN-PL
 :%^WGStem%>o       BACK_PL-ALL_lõ-STEM ;
 :%>%{OÖ%} 	   PL-COM ;
 
-LEXICON NMN_47ASI
+LEXICON NMN_47ASI !!= * @CODE@ asi:asi
   NMN_47ASI-SG ;
   NMN_47ASI-PL ;
 LEXICON NMN_47ASI-SG 
         BACK_SG-NOM  ;
-:%^WGStem%>a    BACK_SG-GEN_ZERO-STEM        ;
-:%^StrGStem%>a    BACK_SG-ILL_ZERO        ;
-:%^StrGStem%>a    BACK_SG-PAR_ZERO        ;
+:%^I2ʼ%>a    BACK_SG-GEN_ZERO-STEM        ;
+:%^I2J%>a    BACK_SG-ILL_ZERO        ;
+:%^I2J%>a    BACK_SG-PAR_ZERO        ;
 LEXICON NMN_47ASI-PL 
-:%^WGStem%>a    BACK_PL-NOM ;
-:%^StrGStem%>o       BACK_PL-GEN_ZERO ;
-:%^StrGStem%>o       BACK_PL-PAR_ZERO ;
-:%^StrGStem%>o       BACK_PL-ILL_ZERO ;
-:%^StrGStem%>o       BACK_PL-ILL_hõ ;
-:%^WGStem%>o       BACK_PL-ALL_lõ-STEM ;
-
+:%^I2ʼ%>a    BACK_PL-NOM ;
+:%^I2J%>o       BACK_PL-GEN_ZERO ;
+:%^I2J%>o       BACK_PL-PAR_ZERO ;
+:%^I2J%>o       BACK_PL-ILL_he ;
+:%^I2ʼ%>o       BACK_PL-ALL_lõ-STEM ;
+:%^I2J%>o       PL-COM ;
++Use/NG:%^I2J%>o       BACK_PL-ILL_ZERO ;
++Use/NG:%^I2J%>o       BACK_PL-ILL_dõ ;
 
 LEXICON NMN_ELÄNÜQ !!= * @CODE@ elänüq:elänü
 	NMN_ELÄNÜQ-SG  ;
