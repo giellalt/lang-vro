@@ -403,15 +403,13 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 ! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- %{OÖ%} 	!!= __@CODE@__ Vowel harmony with oö
- %{UÜ%} 	!!= __@CODE@__ Vowel harmony with uü
  %{AÄ%} 	!!= __@CODE@__ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
- %{ÕE%}  	!!= __@CODE@__ Vowel harmony with õe
  %{XV%}		!!= __@CODE@__ This is used for echoing the previous vowel
  %{XC%}		!!= __@CODE@__ This is used for lengthening a consonant
  %^I7         !!= __@CODE@__  This appears in stem vaoma:va%^I7o for vaio
  %^V7         !!= __@CODE@__  This appears in stem häömä:hä%^V7ö for hävvü
  %^T7         !!= __@CODE@__  This appears in stem kaoma:ka%^T7o for katoq
+ %^Y7         !!= __@CODE@__  This appears for syna = s%^Y7na and is rendered as õ in the norm
  OÖ1 UY1 V1 V2 V3 K1
 !! And following triggers to control variation
  {front} {back}
@@ -433,6 +431,8 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  %^PenVowRM !!= __@CODE@__ syncope tapõld : taplõma
  %^D2S	  !!= __@CODE@__ käsi, susi
 %^TS2S !!= @CODE@ The -ts- => -s-
+%^ʼ2E !!= @CODE@ The ʼ => e change
+%^ʼ2I !!= @CODE@ The ʼ => i change
 %^I2ʼ !!= @CODE@ The i => ʼ change
 %^I2J !!= @CODE@ The i => j change
 
