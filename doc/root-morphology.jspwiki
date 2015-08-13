@@ -253,10 +253,7 @@ source and target part-of-speech.
 Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
- __ %{OÖ%} 	__ Vowel harmony with oö
- __ %{UÜ%} 	__ Vowel harmony with uü
  __ %{AÄ%} 	__ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
- __ %{ÕE%}  	__ Vowel harmony with õe
  __ %{XV%}		__ This is used for echoing the previous vowel
  __ %{XC%}		__ This is used for lengthening a consonant
  __ %^I7         __  This appears in stem vaoma:va%^I7o for vaio
@@ -279,6 +276,8 @@ And following triggers to control variation
  __ %^PenVowRM __ syncope tapõld : taplõma
  __ %^D2S	  __ käsi, susi
  %^TS2S  The -ts- => -s-
+ %^ʼ2E  The ʼ => e change
+ %^ʼ2I  The ʼ => i change
  %^I2ʼ  The i => ʼ change
  %^I2J  The i => j change
 

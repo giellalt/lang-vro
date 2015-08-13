@@ -5,11 +5,6 @@ The Võro morphophonological/twolc rules file
 
   %{AÄ%}:0 	 Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
 
-  %{OÖ%}:0 	 Vowel harmony with oö OÖ1:o OÖ1:ö
-
-  %{UÜ%}:0 	 Vowel harmony with uü UY1:u UY1:y
-
-  %{ÕE%}:0        Vowel harmony with õe
 
   %{XV%}:0		 This is used for echoing the previous vowel
 
@@ -38,6 +33,8 @@ Triggers
  %^D2S:0  The ti => si
  %^TS2S:0  The -ts- => -s-
 
+ %^ʼ2E:0  The ʼ => e change
+ %^ʼ2I:0  The ʼ => i change
  %^I2ʼ:0  The i => ʼ change
  %^I2J:0  The i => j change
 
@@ -82,17 +79,6 @@ Right context for gradation
 
 !!VOWEL HARMONY 
 !Vowel harmony suffixes Front
-__%{UÜ%}:ü__  
-
-__%{UÜ%}:u__  
-
-__%{OÖ%}:ö__  
-
-__%{OÖ%}:o__  
-
-__%{ÕE%}:e__
-
-__%{ÕE%}:õ__
 
 
 !VOWEL LOWERING

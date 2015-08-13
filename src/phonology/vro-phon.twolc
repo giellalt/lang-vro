@@ -12,13 +12,6 @@ A B D E F G H I J K L M N O P Q R S Š T U V Y Z Ž Õ Ü Ä Ö
 ! Vowel harmony with "(t)a/ä"
  %{AÄ%}:0 	!!= @CODE@ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
 
-! Vowel harmony with "loi/löi" also kalatOÖ1in
- %{OÖ%}:0 	!!= @CODE@ Vowel harmony with oö OÖ1:o OÖ1:ö
-
-! Vowel harmony with "ttu/tty"
- %{UÜ%}:0 	!!= @CODE@ Vowel harmony with uü UY1:u UY1:y
-
- %{ÕE%}:0       !!= @CODE@ Vowel harmony with õe
 
  %{XV%}:0		!!= @CODE@ This is used for echoing the previous vowel
 
@@ -27,6 +20,8 @@ A B D E F G H I J K L M N O P Q R S Š T U V Y Z Ž Õ Ü Ä Ö
  %^I7:0         !!= @CODE@ This appears in stem vaoma:va%^I7o for vaio
  %^V7:0         !!= @CODE@ This appears in stem häömä:hä%^V7ö for hävvü
  %^T7:0         !!= @CODE@ This appears in stem kaoma:ka%^T7o for katoq
+
+Y7:õ  !!= __@CODE@__  This appears for syna = s%^Y7na and is rendered as õ in the norm
 
 !! Triggers
 ! this k is not effected by gradation
@@ -53,6 +48,8 @@ K1:k
 %^D2S:0 !!= @CODE@ The ti => si
 %^TS2S:0 !!= @CODE@ The -ts- => -s-
 
+%^ʼ2E:0 !!= @CODE@ The ʼ => e change
+%^ʼ2I:0 !!= @CODE@ The ʼ => i change
 %^I2ʼ:0 !!= @CODE@ The i => ʼ change
 %^I2J:0 !!= @CODE@ The i => j change
 
@@ -122,7 +119,7 @@ FT =   # Cns* [[ VowFront: | :VowFront ] \[ # | :VowBack ]* | [VowNeutral ] \[ #
 BT =   # Cns* ( [ VowNeutral ]+ Cns:* | ü:+ Cns:+ i Cns:+) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
 !€ viska%^WGStem%>aq
 !€ vis0a0%>aq
-!€ füüsiga%^StrGStem%^VowRM%>i%>d%{ÕE%}
+!€ füüsiga%^StrGStem%^VowRM%>i%>dõ
 !€ füüsik000%>i%>dõ
 ! # Cns* ( [ VowNeutral | i: ] \[ # | VowFront: | :VowFront ]* ) [ VowBack: | :VowBack ]  \[ # | VowFront: | :VowFront ]* ;
 
@@ -138,7 +135,7 @@ SV = [ [ # | Cns+ ] :Vow ] ;
 IL = [ # Cns* Vow : Cns:+ | Cns* Vow+ Cns:+  Vow:+ Cns:+  ] ;
 
 !! Right context for gradation
-GRC =  [ [ %{OÖ%}: | %{UÜ%}: | Vow: | :Vow ]  ( %> i ) |  %>  i ] %> %^WCns:0  ;
+GRC =  [ [ Vow: | :Vow ]  ( %> i ) |  %>  i ] %> %^WCns:0  ;
 
 PenBetweenStemAndStemFinal = [(%^PenWGStem:)] ;
 
@@ -148,35 +145,6 @@ Rules
 
 !! !!VOWEL HARMONY 
 !! !Vowel harmony suffixes Front
-!
-! Vowel harmony suffixes Front
-"%{UÜ%}:ü"
-!! __@RULENAME@__  
- %{UÜ%}:ü <=>  FT _ ;
-
-! Vowel harmony suffixes Back
-"%{UÜ%}:u"
-!! __@RULENAME@__  
- %{UÜ%}:u <=>  BT _ ;
-
-"%{OÖ%}:ö"
-!! __@RULENAME@__  
- %{OÖ%}:ö <=>  FT _ ;
-
-! Vowel harmony suffixes Back
-"%{OÖ%}:o"
-!! __@RULENAME@__  
- %{OÖ%}:o <=>  BT _ ;
-
-! Vowel harmony suffixes Front
-"%{ÕE%}:e"
-!! __@RULENAME@__
- %{ÕE%}:e <=>  FT _ ;
-
-! Vowel harmony suffixes Back
-"%{ÕE%}:õ"
-!! __@RULENAME@__
- %{ÕE%}:õ <=>  BT _ ;
 
 
 !! !VOWEL LOWERING
@@ -191,9 +159,9 @@ Rules
  ü:ö <=>  ü: _ %^VOWLower: ;
     _ ü: %^VOWLower: (%^WGStem:) [ # | %> [ :Cns | [ :Vow - :i ]] ] ;
    # Cns:* _ Cns: Vow: %^VOWLower: ;
-!€ pügä%^VOWLower%^WGStem%^VowRM%>%{ÕE%}%>t
+!€ pügä%^VOWLower%^WGStem%^VowRM%>e%>t
 !€ pö00000%>e%>t
-!€ süü%^VOWLower%^WGStem%>n%{UÜ%}q
+!€ süü%^VOWLower%^WGStem%>nüq
 !€ söö00%>nüq
 
 "u2õ"
@@ -212,7 +180,7 @@ Rules
 "ʼ2e"
 !! __@RULENAME@__
 !! {{{
- ʼ:e <=>  _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: )  %> \[ :Vow | Vow: ]  ;
+ ʼ:e <=>  _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: )  %^ʼ2E:  ;
 !€ särgʼ%^WGStem#
 !€ sär0e0#
 !! }}}
@@ -220,8 +188,8 @@ Rules
 "ʼ2i"
 !! __@RULENAME@__
 !! {{{
- ʼ:i <=>  _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: ) %^PLPRT: ;
-!€ särgʼ%^WGStem%^PLPRT
+ ʼ:i <=>  _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: ) %^ʼ2I: ;
+!€ särgʼ%^WGStem%^ʼ2I
 !€ särgi00
 !! }}}
 
@@ -247,7 +215,7 @@ Rules
 !€ pinne00
  # Cns* _ i: l %^VOWLower: ;
  # Cns* i: _ l %^VOWLower: ;
-!€ kiil%^VOWLower%>%{ÕE%}
+!€ kiil%^VOWLower%>e
 !€ keel0%>e
 !! }}}
 
@@ -338,7 +306,7 @@ Rules
 
 "o:0"
 !! __@RULENAME@__
- o:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:|%^StrGStem:) %^VowRM: (%{ÕE%}:) ]   ; 
+ o:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:|%^StrGStem:) %^VowRM: (õ) ]   ; 
 
 "i:0"
 !! __@RULENAME@__
@@ -346,9 +314,9 @@ Rules
 !! hüdsi+N+Sg+Par:
 !€ hüdsi%^TS2S%^VowRM%>t
 !€ hü0s000%>t
-          Vow l 0:l %>: _ %{ÕE%}: ;
-       a _ g: %^WGStem: %> %{OÖ%}: ;
-!€ aig%^WGStem%>%{OÖ%}
+          Vow l 0:l %>: _ [õ|e] ;
+       a _ g: %^WGStem: %> o: ;
+!€ aig%^WGStem%>o
 !€ a000%>o
     Vow [ %^I7: | %^V7: 0: ] Vow: %^StrGStem: %> _ ;
 !€ va%^I7o%^StrGStem%>i
@@ -360,11 +328,11 @@ Rules
 "õ:0"
 !! __@RULENAME@__
  õ:0 <=>  [ Cns: | :Cns ] _ [ l | r ] (%^StrGStem:) %^PenVowRM:  ;
-!€ tapõl%^PenVowRM%{ÕE%}%>ma
+!€ tapõl%^PenVowRMõ%>ma
 !€ tap0l0õ%>ma
-!€ kannõl%^StrGStem%^PenVowRM%>%{ÕE%}
+!€ kannõl%^StrGStem%^PenVowRM%>õ
 !€ kand0l00%>õ
-!€ kogõr%^StrGStem%^PenVowRM%>%{ÕE%}
+!€ kogõr%^StrGStem%^PenVowRM%>õ
 !€ kok0r00%>õ
    _ (%^WGStem:|%^StrGStem:) %^VowRM:  ;
 !€ hammõ%^WGStem%^VowRM%>ihe
@@ -474,7 +442,7 @@ Rules
  0:n <=> Vow n _ Vow: %^StrGStem: ;
 
 !        Vow n _ :Vow %> j:i ;
-!	 Vow n _ %> i: (%{ÕE%}: ) [ %> | # ] ;
+!	 Vow n _ %> i: (õ|e) [ %> | # ] ;
 
 "0:t"
 !! __@RULENAME@__
@@ -500,7 +468,7 @@ Rules
 !! __@RULENAME@__
  0:l <=> Vow l _ :Vow %> j:i ;
          Vow l _ Vow: %^StrGStem: ;
-!	 Vow l _ %> i: (%{ÕE%}: ) [ %> | # ] ;
+!	 Vow l _ %> i: (õ|e) [ %> | # ] ;
 
 "0:k"
 !! __@RULENAME@__
@@ -550,7 +518,7 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
  l:0 <=> l _ Vow i: %^PenWGStem: ;
 !€ elläi%^PenWGStem%^I2J%>ä
 !€ el0äj00%>ä
-         _ %{XC%}:l %{ÕE%}: v %^PenWGStem: ;
+         _ %{XC%}:l [õ|e] v %^PenWGStem: ;
 
 "rToZero"
 !! __@RULENAME@__
@@ -641,7 +609,7 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 !! __@RULENAME@__
  n:d <=> n _ õ: l %^PenVowRM: ;
 
-!€ kannõl%^PenVowRM%>%{ÕE%}
+!€ kannõl%^PenVowRM%>õ
 !€ kand0l0%>õ
 
 
@@ -668,7 +636,7 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 !€ ig0ä%^XStrGStem
 !€ ikkä0
    Vow _ Vow: [ l | r ] %^StrGStem: %^PenVowRM: ;
-!€ kogõr%^StrGStem%^PenVowRM%>%{ÕE%}
+!€ kogõr%^StrGStem%^PenVowRM%>õ
 !€ kok0r00%>õ
 
 
@@ -690,10 +658,10 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
  g:0 <=>  _ ( ʼ: ) %^WGStem: ;
 !€ särgʼ%^WGStem%>#
 !€ sär0e0%>0
- # Cns:*  Vow: _ [ %{ÕE%}: |ä: ] (%^VOWLower:) %^WGStem: ;
+ # Cns:*  Vow: _ [ õ|e |ä: ] (%^VOWLower:) %^WGStem: ;
 !€ igä%^WGStem
 !€ i0ä0
-!€ aig%^WGStem%>%{OÖ%}
+!€ aig%^WGStem%>o
 !€ a000%>o
  Vow l _ Vow %^WGStem: ;
 !€ palgõ%^WGStem%>h
