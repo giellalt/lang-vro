@@ -50,7 +50,7 @@ K1:k
 
 %^PenVowRM:0 !!= @CODE@ syncope tapõld : taplõma 
 
-%^TS:0 !!= @CODE@ The ti => si
+%^D2S:0 !!= @CODE@ The ti => si
 %^TS2S:0 !!= @CODE@ The -ts- => -s-
 
 %^I2ʼ:0 !!= @CODE@ The i => ʼ change
@@ -342,7 +342,10 @@ Rules
 
 "i:0"
 !! __@RULENAME@__
- i:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:) %^VowRM: (%{ÕE%}:) | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+ i:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:|%^TS2S:) %^VowRM: (õ|e) | Cns:0 %^PenVowRM: %^CnsRM: ]  %> ; 
+!! hüdsi+N+Sg+Par:
+!€ hüdsi%^TS2S%^VowRM%>t
+!€ hü0s000%>t
           Vow l 0:l %>: _ %{ÕE%}: ;
        a _ g: %^WGStem: %> %{OÖ%}: ;
 !€ aig%^WGStem%>%{OÖ%}
@@ -398,6 +401,9 @@ Rules
 !! __@RULENAME@__
  i:j <=> Vow Cns:+ Vow _ (%^WGStem:) %> :Vow ;
 ! Vow _ (%^WGStem:) %> :Vow ;
+         Cns _ %^I2J: ;
+!€ asi%^I2J%>a
+!€ asj0%>a
          Vow: _ PenBetweenStemAndStemFinal %^I2J: ;
 !€ elläi%^PenWGStem%^I2J%>ä
 !€ el0äj00%>ä
@@ -528,9 +534,9 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 !€ puh0as0%>taq
 
  s _ a %^PenWGStem: ;
-! [  #  Cns* Vow (( r | i | VowNonHigh ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
+! [  #  Cns* Vow (( r | i | VowNonHigh ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ GRC | %^D2S:0 i %> %^WCns:0 ] ;
 ![ [ # ] Cns* Vow (( r | i ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ Vow: | :Vow | ( Vow ) %> i ] ( %> i: | %^StretchSyll2:0 ) %> %^WCns:0 ;
-!        [ # ] Cns* VowBack i: _ [ GRC | %^TS:0 i %> %^WCns:0 ] ;
+!        [ # ] Cns* VowBack i: _ [ GRC | %^D2S:0 i %> %^WCns:0 ] ;
 
 "mToZero"
 !! __@RULENAME@__
@@ -555,7 +561,10 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 "tToZero"
 !! __@RULENAME@__
  t:0 <=> [ h | t ] _ Vow %^PenWGStem: ;
-         Vow _ s (ʼ:) %^TS2S: ;
+         Vow _ s (ʼ:|i:) %^TS2S: ;
+!! hüdsi+N+Sg+Par:
+!€ hüdsi%^TS2S%^VowRM%>t
+!€ hü0s000%>t
 
 !! !CONSONANT QUALITY CHANGE
 
@@ -565,7 +574,7 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 
 "b20"
 !! __@RULENAME@__
- b:0 <=> Vow _ Vow  %^PenWGStem: ;
+ b:0 <=> Vow _ Vow  [%^PenWGStem:|%^WGStem:] ;
 
 "bTop"
 !! __@RULENAME@__
@@ -614,12 +623,12 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 
 "dTos"
 !! __@RULENAME@__
- d:s <=> _ %^TS: ;
+ d:s <=> Vow: _ %^D2S: ;
 
 
 "tTos"
 !! __@RULENAME@__
- t:s <=> _ %^TS: ;
+ t:s <=> _ %^D2S: ;
 
 "tTod"
 !! __@RULENAME@__
