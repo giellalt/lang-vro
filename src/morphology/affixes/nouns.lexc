@@ -33,6 +33,17 @@ LEXICON N_2SUHVLI-PL
 +N:	NMN_2SUHVLI-PL ;
 
 
+LEXICON N_2KERGE
+!! * Yaml: __kerge__
+   N_2KERGE-SG ;
+   N_2KERGE-PL ;
+
+LEXICON N_2KERGE-SG
++N:	NMN_2KERGE-SG ;
+LEXICON N_2KERGE-PL
++N:	NMN_2KERGE-PL ;
+
+
 LEXICON N_3PERÄDÜ !!= @CODE@ perädü:perädü
 !! * Yaml: __peraedue__
    N_3PERÄDÜ-SG ;
@@ -856,6 +867,33 @@ LEXICON NMN_2SUHVLI-PL
 +Use/NG:i      BACK_PL-ILL_dõ       ;
 +Use/NG:i      BACK_PL-ALL_lõ-STEM       ;
 +Use/NG:idõ     PL-COM ;
+
+LEXICON NMN_2KERGE
+!! * Yaml: __kerge__
+   NMN_2KERGE-SG ;
+   NMN_2KERGE-PL ;
+
+LEXICON NMN_2KERGE-SG
+	FRONT_SG-NOM	;
+	FRONT_SG-GEN_ZERO-STEM       ;
+	FRONT_SG-PAR_t	;
+	FRONT_SG-ILL_he	;
+
++Use/NG:	FRONT_SG-ILL_de	;
+LEXICON NMN_2KERGE-PL
+	FRONT_PL-NOM ;
+:%^VowRM%>i	FRONT_PL-GEN_de ;
+:%^VowRM%>i        FRONT_PL-ILL_he       ;
+:%^VowRM%>i        FRONT_PL-ALL_le-STEM       ;
+:%^VowRM%>i      FRONT_PL-PAR_t        ;
+:%^VowRM%>ide     PL-COM ;
++Use/NG:%^VowRM%>ii	FRONT_PL-GEN_de ;
++Use/NG:%^VowRM%>ii      FRONT_PL-PAR_d        ;
++Use/NG:%^VowRM%>ii      FRONT_PL-ILL_he       ;
++Use/NG:%^VowRM%>i      FRONT_PL-ILL_de       ;
++Use/NG:%^VowRM%>ii      FRONT_PL-ILL_de       ;
++Use/NG:%^VowRM%>ii      FRONT_PL-ALL_le-STEM       ;
++Use/NG:%^VowRM%>iide     PL-COM ;
 
 LEXICON NMN_3PERÄDÜ !!= @CODE@ perädü:perädü
 !! * Yaml: __A-peraedue3__
