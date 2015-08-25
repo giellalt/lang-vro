@@ -444,6 +444,14 @@ LEXICON N_28TÜTÄRʼ-SG
 LEXICON N_28TÜTÄRʼ-PL
 +N: NMN_28TÜTÄRʼ-PL ;
 
+LEXICON N_28KANNÕLʼ
+ N_28KANNÕLʼ-SG ;
+ N_28KANNÕLʼ-PL ;
+LEXICON N_28KANNÕLʼ-SG
++N: NMN_28KANNÕLʼ-SG ;
+LEXICON N_28KANNÕLʼ-PL
++N: NMN_28KANNÕLʼ-PL ;
+
 LEXICON N_28PUNDAR
  N_28PUNDAR-SG ;
  N_28PUNDAR-PL ;
@@ -601,6 +609,15 @@ LEXICON N_41KAND-SG
 +N:     NMN_41KAND-SG ;
 LEXICON N_41KAND-PL
 +N:     NMN_41KAND-PL ;
+
+LEXICON N_41AIG !!= @CODE@ aig:aig
+!! * Yaml: __aig, aig__
+        N_41AIG-SG ;
+	N_41AIG-PL ;
+LEXICON N_41AIG-SG
++N:     NMN_41AIG-SG ;
+LEXICON N_41AIG-PL
++N:     NMN_41AIG-PL ;
 
 
 LEXICON N_42VARI
@@ -2106,6 +2123,39 @@ LEXICON NMN_28TÜTÄRʼ-PL
 +Use/NG:%^PenVowRM%>iide PL-COM ;
 +Use/NG:%>de PL-COM ;
 
+LEXICON NMN_28KANNÕLʼ !!= * __@CODE@__ kannõlʼ:kannõl
+!! * Yaml: __N-kannwl28__
+  NMN_28KANNÕLʼ-SG ;
+  NMN_28KANNÕLʼ-PL ;
+
+LEXICON NMN_28KANNÕLʼ-SG 
+:ʼ BACK_SG-NOM ;
+:%^PenVowRM%>õ SG-GEN_ZERO ;
+ BACK_SG-PAR_d ;
+:%^PenVowRM%>õ BACK_SG-ILL_he ;
+:%^PenVowRM%>õ BACK_SG-ALL_lõ-STEM ;
++Use/NG:%^PenVowRM%>õ BACK_SG-ILL_dõ ;
+
+LEXICON NMN_28KANNÕLʼ-PL 
+:%^PenVowRM%>õ BACK_PL-NOM ;
+:%^PenVowRM%>i BACK_PL-GEN_dõ ;
+:%^PenVowRM%>i BACK_PL-PAR_t ;
+:%^PenVowRM%>i BACK_PL-ILL_he ;
+:%^PenVowRM%>i BACK_PL-ALL_lõ-STEM ;
+:%^PenVowRM%>idõ PL-COM ;
++Use/NG:%^PenVowRM%>ii BACK_PL-GEN_dõ ;
++Use/NG: BACK_PL-GEN_dõ ;
++Use/NG:%^PenVowRM%>ii BACK_PL-PAR_d ;
++Use/NG:%>dõ BACK_PL-ILL_he ;
++Use/NG:%^PenVowRM%>ii BACK_PL-ILL_he ;
++Use/NG:%^PenVowRM%>i BACK_PL-ILL_dõ ;
++Use/NG:%^PenVowRM%>ii BACK_PL-ILL_dõ ;
++Use/NG:%>dõ BACK_PL-ILL_he ;
++Use/NG:%^PenVowRM%>ii BACK_PL-ALL_lõ-STEM ;
++Use/NG:%>dõ BACK_PL-ALL_lõ-STEM ;
++Use/NG:%^PenVowRM%>iidõ PL-COM ;
++Use/NG:%>dõ PL-COM ;
+
 LEXICON NMN_28PUNDAR !!= * __@CODE@__ pundar:pundar
 !! * Yaml: __N-pundar28__
   NMN_28PUNDAR-SG ;
@@ -2455,6 +2505,7 @@ LEXICON NMN_40TALO-PL
 :%^StrGStem%^VowRMõ    BACK_PL-ALL_lõ-STEM ;
 :%^StrGStem%^VowRMa    BACK_PL-ALL_lõ-STEM ;
 
+
 LEXICON NMN_41KAND !!= @CODE@ kand:kand
   NMN_41KAND-SG ;
   NMN_41KAND-PL ;
@@ -2473,14 +2524,44 @@ LEXICON NMN_41KAND-PL
 
 :õ    PL-COM ;
 
-+Use/NG:a    BACK_PL-GEN_ZERO ;
-+Use/NG:a    BACK_PL-PAR_ZERO ;
+!+Use/NG:a    BACK_PL-GEN_ZERO ;
+!+Use/NG:a    BACK_PL-PAR_ZERO ;
 +Use/NG:õ    BACK_PL-ILL_ZERO ;
 +Use/NG:a    BACK_PL-ILL_ZERO ;
 +Use/NG:a    BACK_PL-ILL_he ;
 +Use/NG:õ    BACK_PL-ILL_dõ ;
-+Use/NG:a    BACK_PL-ILL_dõ ;
-+Use/NG:%^WGStem%>a    BACK_PL-ALL_lõ-STEM ;
+!+Use/NG:a    BACK_PL-ILL_dõ ;
++Use/NG:%^WGStem%>e    BACK_PL-ALL_lõ-STEM ;
+!+Use/NG:%^WGStem%>a    BACK_PL-ALL_lõ-STEM ; Is this needed for KAND?
++Use/NG:a    PL-COM ;
+
+
+LEXICON NMN_41AIG !!= @CODE@ aig:aig
+  NMN_41AIG-SG ;
+  NMN_41AIG-PL ;
+LEXICON NMN_41AIG-SG 
+        BACK_SG-NOM  ;
+:%^WGStem%>o       BACK_SG-GEN_ZERO-STEM        ;
+:%>o       BACK_SG-ILL_ZERO        ;
+:%>o       BACK_SG-PAR_ZERO        ;
+
+LEXICON NMN_41AIG-PL 
+:%^WGStem%>o       BACK_PL-NOM ;
+:õ    BACK_PL-GEN_ZERO ;
+:õ    BACK_PL-PAR_ZERO ;
+:õ    BACK_PL-ILL_he ;
+:%^WGStem%>õ    BACK_PL-ALL_lõ-STEM ;
+
+:õ    PL-COM ;
+
+!+Use/NG:a    BACK_PL-GEN_ZERO ;
+!+Use/NG:a    BACK_PL-PAR_ZERO ;
++Use/NG:õ    BACK_PL-ILL_ZERO ;
++Use/NG:a    BACK_PL-ILL_ZERO ;
++Use/NG:a    BACK_PL-ILL_he ;
++Use/NG:õ    BACK_PL-ILL_dõ ;
+!+Use/NG:a    BACK_PL-ILL_dõ ;
++Use/NG:%^WGStem%>e    BACK_PL-ALL_lõ-STEM ;
 +Use/NG:a    PL-COM ;
 
 
@@ -2572,7 +2653,7 @@ LEXICON NMN_45KANA-PL
 +Use/NG:%^StrGStem%^PLPRT  BACK_PL-ALL_lõ-STEM ;
 :%^StrGStem%^PLPRT    PL-COM ;
 :%^StrGStem%^PLPRT    BACK_PL-GEN_ZERO ;
-:%^StrGStem%^PLPRT    BACK_PL-ILL_hõ ;
+:%^StrGStem%^PLPRT    BACK_PL-ILL_he ;
 +Use/NG:%^StrGStem%^PLPRT    BACK_PL-ILL_ZERO ;
 +Use/NG:%^StrGStem%^PLPRT    BACK_PL-ILL_dõ ;
 :%^WGStem       BACK_PL-NOM ;
