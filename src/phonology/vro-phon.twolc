@@ -24,6 +24,9 @@ A B D E F G H I J K L M N O P Q R S Š T U V Y Z Ž Õ Ü Ä Ö
 Y7:õ  !!= __@CODE@__  This appears for syna = s%^Y7na and is rendered as õ in the norm
 
 !! Triggers
+ %^UU2Õ:0	!!= @CODE@  juu%^UU2Õ%>i:j0õ0%>i
+
+
 ! this k is not effected by gradation
 K1:k
 %^NoGrad:0 ! This will be placed after a stem to break Gradation
@@ -108,6 +111,10 @@ VowDummies = %^WGStem %> %^PenVowRM ;
 
 Definitions
 
+!! Onset consonant or word boundary
+OnSetC = [:Cns (Cns:) |#|%>] ;
+
+
 ! Front Trigger
 FT =   # Cns* [[ VowFront: | :VowFront ] \[ # | :VowBack ]* | [VowNeutral ] \[ # | :VowBack | VowBack: ]* ]  ;
 
@@ -151,13 +158,14 @@ Rules
 
 "u:o"
 !! __@RULENAME@__
- u:o <=>  u: _ %^VOWLower: ;
-    _ u: %^VOWLower: ;
+ u:o <=>
+   u: _ %^VOWLower: ;
+ OnSetC   _ u: %^VOWLower: ;
 
 "ü:ö"
 !! __@RULENAME@__
  ü:ö <=>  ü: _ %^VOWLower: ;
-    _ ü: %^VOWLower: (%^WGStem:) [ # | %> [ :Cns | [ :Vow - :i ]] ] ;
+ OnSetC _ ü: %^VOWLower: (%^WGStem:) [ # | %> [ :Cns | [ :Vow - :i ]] ] ;
    # Cns:* _ Cns: Vow: %^VOWLower: ;
 !€ pügä%^VOWLower%^WGStem%^VowRM%>e%>t
 !€ pö00000%>e%>t
@@ -166,7 +174,9 @@ Rules
 
 "u2õ"
 !! __@RULENAME@__
- u:õ <=> u: _ %> i ;
+ u:õ <=> OnSetC u: _ %^UU2Õ: %> i ;
+!€ juu%^UU2Õ%>i
+!€ j0õ0%>i
 
 !! !VOWEL RAISING
 "ö:ü"
@@ -180,7 +190,7 @@ Rules
 "ʼ2e"
 !! __@RULENAME@__
 !! {{{
- ʼ:e <=>  _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: )  %^ʼ2E:  ;
+ ʼ:e <=> OnSetC _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: )  %^ʼ2E:  ;
 !€ särgʼ%^WGStem#
 !€ sär0e0#
 !! }}}
@@ -188,7 +198,7 @@ Rules
 "ʼ2i"
 !! __@RULENAME@__
 !! {{{
- ʼ:i <=>  _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: ) %^ʼ2I: ;
+ ʼ:i <=> OnSetC  _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: ) %^ʼ2I: ;
 !€ särgʼ%^WGStem%^ʼ2I
 !€ särgi00
 !! }}}
@@ -222,7 +232,7 @@ Rules
 "ü2e"
 !! __@RULENAME@__
 !! {{{
- ü:e <=>  _ ( %^XStrGStem: | %^StrGStem: ) %^U2E: ;
+ ü:e <=> OnSetC _ ( %^XStrGStem: | %^StrGStem: ) %^U2E: ;
 !€ häbü%^StrGStem%^PLPRT
 !€ häpe00
     ü: _ %> i ;
@@ -231,7 +241,7 @@ Rules
 "ü2ä"
 !! __@RULENAME@__
 !! {{{
- ü:ä <=>  _ ( %^XStrGStem: | %^StrGStem: ) %^U2A: ;
+ ü:ä <=> OnSetC _ ( %^XStrGStem: | %^StrGStem: ) %^U2A: ;
 !€ häbü%^StrGStem%^PLPRT
 !€ häpä00
 !! }}}
@@ -239,7 +249,7 @@ Rules
 "a2o"
 !! __@RULENAME@__
 !! {{{
- a:o <=>   _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
+ a:o <=> OnSetC  _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
 !€ kan0a%^StrGStem%^PLPRT
 !€ kanno00
 !! }}}
@@ -248,7 +258,7 @@ Rules
 "õ2y"
 !! __@RULENAME@__
 !! {{{
- õ:y <=>   _ Cns:0 a (%^WGStem:) ;
+ õ:y <=> OnSetC  _ Cns:0 a (%^WGStem:) ;
 !€ sõda%^WGStem
 !€ sy0a0
 !! }}}
@@ -256,7 +266,7 @@ Rules
 !! !VOWEL LOSS
 "a:0"
 !! __@RULENAME@__
- a:0 <=>  Cns: _ [ (%^StrGStem:|%^WGStem:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+ a:0 <=>  Cns: _ [ (%^StrGStem:|%^PenWGStem:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
       a _ %>  i  ; !!= @CODE@ 
 !€ saa%>i
 !€ sa0%>i
@@ -283,9 +293,11 @@ Rules
  u:0 <=>  Cns: _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
 !€ tervüs%^VowRM%^CnsRM%>i%>t
 !€ terv0000%>i%>t
-      _ u: (%^VowRM:) %> i ;
+   OnSetC _ u: [%^VowRM:|%^UU2Õ:] %> i ;
 !€ kuu%^VowRM%>i%>d
 !€ k0u0%>i%>d
+!€ juu%^UU2Õ%>i
+!€ j0õ0%>i
 !! }}}
 
 "ü:0"
@@ -296,7 +308,7 @@ Rules
 !€ tü00%>hüq
 !€ tervüs%^VowRM%^CnsRM%>i%>t
 !€ terv0000%>i%>t
-         _ ü: (%^VOWLower:) %> i ;
+   OnSetC _ ü: (%^VOWLower:) %> i ;
 !! }}}
 
 "e:0"
@@ -388,6 +400,8 @@ Rules
 !! __@RULENAME@__
  u:v <=> u _ %> v a q ;
          u _ d: %^WGStem: ;
+!€ juud%^WGStem%>a
+!€ juvv0%>a
 
 "ü2v"
 !! __@RULENAME@__
@@ -575,6 +589,8 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
  d:v <=> [ ü: |u: ] _ %^WGStem: ;
 !€ püüd%^WGStem%>et
 !€ püvv0%>et
+!€ juud%^WGStem%>a
+!€ juvv0%>a
 
 "dTot"
 !! __@RULENAME@__
@@ -602,8 +618,13 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 !! __@RULENAME@__
  t:d <=>
  Vow _ s (ʼ:) %^WGStem: ;
- Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ [%> | # | :Vow ] ;
          Vow _ [Vow: %^PenWGStem:|%^WGStem: (%>) :Vow ] ;
+!! kaotama+V+Act+Ind+Prs+Sg1: 
+!€ kaota%^PenWGStem
+!€ kaoda0
+
+!2015-09-02 Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ [%> | # | :Vow ] ;
+!! There should always be a trigger
 
 "nTod"
 !! __@RULENAME@__
