@@ -1042,8 +1042,10 @@ LEXICON V_82PÜÜDMÄ !!≈ * __@CODE@__ püüdmä:püüd
 +V:%^WGSteme FRONT_PSS-PRF-PRC_t ;
 
 LEXICON V_83NÕSTMA  !!= * @CODE@ nõstma:nõst
+!! gradation: no
 !! * Yaml: __nwstma__
 +V:a BACK_V0-IND-PRS-SC-12 ;
++V:%>a BACK_ACT-IND-CONNEGII ; !! nõsta
 +V:a BACK_ACT-IND-PRS-CONNEG ;
 +V: V0-IND-PRS-SCSG3_ZERO ;
 +V: BACK_V0-IND-PRS-SCPL3_vaq ;
@@ -1056,11 +1058,59 @@ LEXICON V_83NÕSTMA  !!= * @CODE@ nõstma:nõst
 +V: V0-IND-PRT-SCSG3_sõ ;
 +V: BACK_ACT-IND-PRT-SCPL3_vaq ;
 +V: BACK_VISKAMA_PSS-IND-PRT_ti ;
++V: MUTUAL_JUS_kuq ;
 
 +V: BACK_V2N_minõ ;
 +V: BACK_INF_ma ;
 +V: BACK_INF_aq ;
-+V:õ BACK_ACT-PRS-PRC_v ;
++V: BACK_ACT-PRS-PRC_va ;
++V: BACK_ACT-PRF-PRC_nuq ;
++V: BACK_V0-PSS-PRS-PRC_tav ;
++V:õ BACK_VISKAM-PSS-PRF-PRC_t ;
+
+LEXICON V_83SÕITMA  !!= * @CODE@ sõitma:sõit
+!! gradation: yes
+!! * Yaml: __switma__
++V+Act+Ind+Prs+Sg1:%^WGStem%>a BACK_K ; 
++V+Act+Ind+Prs+Sg2:%^WGStem%>at BACK_K ; 
++Use/NG+V+Act+Ind+Prs+Sg2:%^WGStem%>adõq BACK_K ; 
++V+Act+Ind+Prs+Pl1:%^WGStem%>amiq BACK_K ; 
++V+Act+Ind+Prs+Pl2:%^WGStem%>atiq BACK_K ; 
++V+Act+Ind+Prs+Sg3: BACK_K ; 
++V+Act+Ind+Prs+Pl3:%>vaq BACK_K ; 
++V:%^WGStem%>a BACK_ACT-IND-CONNEGII ; !! sõida
+
++V+Act+Ind+Prt+Sg1:%^WGStem%>i BACK_K ; 
++Use/NG+V+Act+Ind+Prt+Sg1:%>sõ BACK_K ; 
+
++V+Act+Ind+Prt+Sg2:%^WGStem%>it BACK_K ;
++Use/NG+V+Act+Ind+Prt+Sg2:%^WGStem%>iq BACK_K ;
++Use/NG+V+Act+Ind+Prt+Sg2:%^WGStem%>idõq BACK_K ;
++Use/NG+V+Act+Ind+Prt+Sg2:%>sõt BACK_K ;
++Use/NG+V+Act+Ind+Prt+Sg2:%>sõq BACK_K ;
++Use/NG+V+Act+Ind+Prt+Sg2:%>sõdõq BACK_K ;
++V: BACK_IND-PRT-SCSG3_APOSTROPHE ;
++V:a BACK_ACT-IND-PRS-CONNEG ;
++Use/NG+V+Act+Ind+Prt+Sg3:%>sõ BACK_K ;
++V+Act+Ind+Prt+Pl1:%^WGStem%>imiq BACK_K ;
++Use/NG+V+Act+Ind+Prt+Pl1:%>sõmiq BACK_K ;
++V+Act+Ind+Prt+Pl2:%^WGStem%>itiq BACK_K ;
++Use/NG+V+Act+Ind+Prt+Pl2:%>sõtiq BACK_K ;
++V+Act+Ind+Prt+Pl3:%^WGStem%>iq BACK_K ;
++Use/NG+V+Act+Ind+Prt+Pl3:%^WGStem%>ivaq BACK_K ;
++Use/NG+V+Act+Ind+Prt+Pl3:%>sõq BACK_K ;
++Use/NG+V+Act+Ind+Prt+Pl3:%>sõvaq BACK_K ;
+
+
++V:%^WGStem%>õ BACK_NÕSTMA-PSS-DISTRIBUTION ;
+
++V: BACK_VISKAMA_PSS-IND-PRT_ti ; !! IS THIS RIGHT? 2015-09-02
+
++V: MUTUAL_JUS_kuq ;
++V: BACK_V2N_minõ ;
++V: BACK_INF_ma ;
++V: BACK_INF_aq ;
++V: BACK_ACT-PRS-PRC_va ;
 +V: BACK_ACT-PRF-PRC_nuq ;
 +V: BACK_V0-PSS-PRS-PRC_tav ;
 +V:õ BACK_VISKAM-PSS-PRF-PRC_t ;
@@ -1229,10 +1279,16 @@ LEXICON FRONT_V0-IND-PRS-SC-12
 
 LEXICON BACK_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK
 +Act+Ind+Prs+Sg1: BACK_K ;
-+Act+Ind+ConNegII: BACK_K ;
+ BACK_ACT-IND-CONNEGII ;
 LEXICON FRONT_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK
 +Act+Ind+Prs+Sg1: FRONT_K ;
+FRONT_ACT-IND-CONNEGII ;
+
+LEXICON BACK_ACT-IND-CONNEGII
++Act+Ind+ConNegII: BACK_K ;
+LEXICON FRONT_ACT-IND-CONNEGII
 +Act+Ind+ConNegII: FRONT_K ;
+
 
 LEXICON BACK_ACT-IND-PRS-SG2_USUALLY-STRONG
 +Act+Ind+Prs+Sg2:%>t BACK_K ;
@@ -1284,7 +1340,9 @@ LEXICON FRONT_ACT-IND-PRS-CONNEG
 !! !JUS
 LEXICON MUTUAL_JUS !!= * @CODE@ regardless of harmony this is back
 +Jus:%>guq BACK_K ;
- 
+LEXICON MUTUAL_JUS_kuq 
++Jus:%>kuq BACK_K ;
+
 !! CHECK THIS
 !! !PASSIVE INDICATIVE PRESENT CONJUGATION
 
@@ -1765,6 +1823,18 @@ LEXICON FRONT_ACT-PRF-PRC_WEAKGRADE-nüq
 
 
 !! PASSIVE DISTRIBUTION
+LEXICON BACK_NÕSTMA-PSS-DISTRIBUTION
+BACK_NÕSTMA-PSS-IND-PRS_da ; !!= * @CODE@ +Pss+Ind+Prs+Sg1: sõidõda
+!BACK_KAOTAMA-PSS-IND-PRT_di ; !!= * @CODE@ +Pss+Ind+Prt+Sg1: sõidõdi
+!BACK_V0-PSS-PRS-PRC_dav ; !!= * @CODE@ +Pss+PrsPrc+Sg+Nom: kaotõdav
+BACK_KAOTAMA-PSS-PRF-PRC_t ; !!= * @CODE@ +Pss+PrfPrc+Sg+Nom: kaotõt
+
+!LEXICON FRONT_NÕSTMA-PSS-DISTRIBUTION
+!FRONT_KAOTAMA-PSS-IND-PRS_dä ; !!= * @CODE@ +Pss+Ind+Prs+Sg1: kergütedä
+!FRONT_KAOTAMA-PSS-IND-PRT_di ; !!= * @CODE@ +Pss+Ind+Prt+Sg1: kergütedi
+!FRONT_V0-PSS-PRS-PRC_däv ; !!= * @CODE@ +Pss+PrsPrc+Sg+Nom: kergütedäv
+!FRONT_KAOTAMA-PSS-PRF-PRC_t ; !!= * @CODE@ +Pss+PrfPrc+Sg+Nom: kergütet
+
 LEXICON BACK_KAOTAMA-PSS-DISTRIBUTION
 BACK_KAOTAMA-PSS-IND-PRS_da ; !!= * @CODE@ +Pss+Ind+Prs+Sg1: kaotõda
 BACK_KAOTAMA-PSS-IND-PRT_di ; !!= * @CODE@ +Pss+Ind+Prt+Sg1: kaotõdi
@@ -1776,6 +1846,16 @@ FRONT_KAOTAMA-PSS-IND-PRS_dä ; !!= * @CODE@ +Pss+Ind+Prs+Sg1: kergütedä
 FRONT_KAOTAMA-PSS-IND-PRT_di ; !!= * @CODE@ +Pss+Ind+Prt+Sg1: kergütedi
 FRONT_V0-PSS-PRS-PRC_däv ; !!= * @CODE@ +Pss+PrsPrc+Sg+Nom: kergütedäv
 FRONT_KAOTAMA-PSS-PRF-PRC_t ; !!= * @CODE@ +Pss+PrfPrc+Sg+Nom: kergütet
+
+LEXICON BACK_NÕSTMA-PSS-IND-PRS_da
++Pss+Ind+Prs+Sg1:%>da BACK_K ;
++Pss+Ind+Prs+Sg2:%>tat BACK_K ;
++Use/NG+Pss+Ind+Prs+Sg2:%>tadõq BACK_K ;
++Pss+Ind+Prs+Sg3:%>tas BACK_K ;
++Pss+Ind+Prs+Pl1:%>tamiq BACK_K ;
++Pss+Ind+Prs+Pl2:%>tatiq BACK_K ;
++Pss+Ind+Prs+Pl3:%>tasõq BACK_K ;
++Pss+Ind+Prs+ConNeg:%>da BACK_K ;
 
 LEXICON BACK_KAOTAMA-PSS-IND-PRS_da
 +Pss+Ind+Prs+Sg1:%>da BACK_K ;
