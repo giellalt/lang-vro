@@ -273,6 +273,8 @@ symbols in the lexicon files:
  __ %^Y7         __  This appears for syna = s%^Y7na and is rendered as õ in the norm
 And following triggers to control variation
 
+  %^UU2Õ	  juu%^UU2Õ%>i:j0õ0%>i
+
  %^APOCH  This causes apochope
 
  %^StrD2T  This changes g,d,b, => k,t,p
@@ -374,6 +376,9 @@ The Võro morphophonological/twolc rules file
  __Y7:õ  __  This appears for syna = s%^Y7na and is rendered as õ in the norm
 
 Triggers
+  %^UU2Õ:0	  juu%^UU2Õ%>i:j0õ0%>i
+
+
 
  %^APOCH:0  This causes apochope
 
@@ -421,6 +426,9 @@ Triggers
 
 
 
+
+
+Onset consonant or word boundary
 
 
 
@@ -616,6 +624,9 @@ __dTos__
 __tTos__
 
 __tTod__
+kaotama+V+Act+Ind+Prs+Sg1: 
+
+There should always be a trigger
 
 __nTod__
 
