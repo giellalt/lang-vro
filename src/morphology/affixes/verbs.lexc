@@ -777,7 +777,7 @@ LEXICON V_77JUUMA !!≈ * __@CODE@__ juuma:juu
 +V:%^VOWLower BACK_V0-IND-PRS-SCSG3_sõ ;
 +V: BACK_VISKAMA_PSS-IND-PRS ;
 
-+V: BACK_IND-PRT-SCSG1_iõ ;
++V:%^UU2Õ BACK_IND-PRT-SCSG1_iõ ;
 +V: V0-IND-PRT-SC-12_i ;
 +V+Use/NG+Act+Ind+Prt+Sg2:õ BACK_K ;
 
@@ -916,7 +916,17 @@ LEXICON V_78SAAMA
 +V:%^WGStem BACK_PSS-PRF-PRC_t ;
 
 LEXICON V_MINEMÄ !!≈ * __@CODE@__ minemä:min
-+WORK: #;
+!! * Yaml: __V-minemae__
++V:%>e FRONT_INF_mä ;
++V+Inf:%>näq FRONT_K ;
++V+Pss+PrfPrc:%>t FRONT_K ;
++Use/NG+V+Pss+PrfPrc:%>tü FRONT_K ;
++V+Pss+Ind+Prs+Sg3:%>däs FRONT_K ;
++V:%>ne FRONT_ACT-PRS-PRC_v ;
++V: MUTUAL_JUS_kuq ;
+!! Remainder is in exceptions.lexc
+
+
 
 LEXICON V_79TULÕMA !!≈ * __@CODE@__ tulõma:tul
 !! * Yaml: __tulwma__
