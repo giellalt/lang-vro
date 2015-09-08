@@ -2753,6 +2753,25 @@ LEXICON NMN_ELÄNÜQ-PL
 +Pl+Ill:isihe K ;
 +Pl+Ill:ihe K ;
 
+LEXICON BACK_NMN_ELÄNÜQ !!= * @CODE@ elänüq:elänü
+	BACK_NMN_ELÄNÜQ-SG  ;
+	BACK_NMN_ELÄNÜQ-PL  ;
+LEXICON BACK_NMN_ELÄNÜQ-SG
++Sg+Nom:q BACK_K ;
++Sg+Gen: BACK_K ;
+!+Sg+Gen:q BACK_K ;
++Sg+Par:t BACK_K ;
++Sg+Ill:he BACK_K ;
+
+LEXICON BACK_NMN_ELÄNÜQ-PL
++Pl+Nom:q BACK_K ;
++Pl+Gen:idõ BACK_K ;
++Pl+Gen:isi BACK_K ;
++Pl+Par:id BACK_K ;
++Pl+Par:isi BACK_K ;
++Pl+Ill:isihe BACK_K ;
++Pl+Ill:ihe BACK_K ;
+
 
 !! !SINGULAR GENITIVE STEMS
 LEXICON BACK_SG-GEN_ZERO-STEM
