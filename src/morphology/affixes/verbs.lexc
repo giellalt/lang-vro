@@ -1445,7 +1445,7 @@ LEXICON FRONT_IND-PRT-SC-12_ZERO
 LEXICON BACK_ACT-IND-PRT-SG1_ZERO_USUALLY-WEAK
 +Act+Ind+Prt+Sg1: BACK_K ;
 +Use/NG+Act+Ind+Prt+Sg2:%>q BACK_K ;
-+Act+Ind+Prt+Pl3:%>q BACK_K ;
++Act+Ind+Prt+Pl3:%>q BACK_K ; 
 LEXICON FRONT_ACT-IND-PRT-SG1_ZERO_USUALLY-WEAK
 +Act+Ind+Prt+Sg1: FRONT_K ;
 +Use/NG+Act+Ind+Prt+Sg2:%>q FRONT_K ;
@@ -1736,7 +1736,7 @@ LEXICON BACK_ACT-PRS-PRC_v
 +Act+PrsPrc+Pl+Gen:%>vidõ BACK_K ;
 +Use/NG+Act+PrsPrc+Pl+Gen:%>viidõ BACK_K ;
 +Act+PrsPrc+Pl+Par:%>vit BACK_K ;
-+Use/NG+Act+PrsPrc+Pl+Par:%>viit BACK_K ;
++Use/NG+Act+PrsPrc+Pl+Par:%>viid BACK_K ;
 +Act+PrsPrc+Pl+Ill:%>vihe BACK_K ;
 +Use/NG+Act+PrsPrc+Pl+Ill:%>viihe BACK_K ;
 
@@ -1751,7 +1751,7 @@ LEXICON FRONT_ACT-PRS-PRC_v
 +Act+PrsPrc+Pl+Gen:%>vide FRONT_K ;
 +Use/NG+Act+PrsPrc+Pl+Gen:%>viide FRONT_K ;
 +Act+PrsPrc+Pl+Par:%>vit FRONT_K ;
-+Use/NG+Act+PrsPrc+Pl+Par:%>viit FRONT_K ;
++Use/NG+Act+PrsPrc+Pl+Par:%>viid FRONT_K ;
 +Act+PrsPrc+Pl+Ill:%>vihe FRONT_K ;
 +Use/NG+Act+PrsPrc+Pl+Ill:%>viihe FRONT_K ;
 
@@ -1766,7 +1766,7 @@ LEXICON BACK_ACT-PRS-PRC_va
 +Act+PrsPrc+Pl+Gen:%>vidõ BACK_K ;
 +Use/NG+Act+PrsPrc+Pl+Gen:%>viidõ BACK_K ;
 +Act+PrsPrc+Pl+Par:%>vit BACK_K ;
-+Use/NG+Act+PrsPrc+Pl+Par:%>viit BACK_K ;
++Use/NG+Act+PrsPrc+Pl+Par:%>viid BACK_K ;
 +Act+PrsPrc+Pl+Ill:%>vihe BACK_K ;
 +Use/NG+Act+PrsPrc+Pl+Ill:%>viihe BACK_K ;
 
@@ -1781,7 +1781,7 @@ LEXICON FRONT_ACT-PRS-PRC_vä
 +Act+PrsPrc+Pl+Gen:%>vide FRONT_K ;
 +Use/NG+Act+PrsPrc+Pl+Gen:%>viide FRONT_K ;
 +Act+PrsPrc+Pl+Par:%>vit FRONT_K ;
-+Use/NG+Act+PrsPrc+Pl+Par:%>viit FRONT_K ;
++Use/NG+Act+PrsPrc+Pl+Par:%>viid FRONT_K ;
 +Act+PrsPrc+Pl+Ill:%>vihe FRONT_K ;
 +Use/NG+Act+PrsPrc+Pl+Ill:%>viihe FRONT_K ;
 
@@ -1923,7 +1923,7 @@ LEXICON BACK_V0-PSS-PRS-PRC_tav
 +Pss+PrsPrc+Pl+Par:%>ta%>vit K ;
 +Pss+PrsPrc+Pl+Ill:%>ta%>vihe K ;
 +Use/NG+Pss+PrsPrc+Pl+Gen:%>ta%>viidõ K ;
-+Use/NG+Pss+PrsPrc+Pl+Par:%>ta%>viit K ;
++Use/NG+Pss+PrsPrc+Pl+Par:%>ta%>viid K ;
 +Use/NG+Pss+PrsPrc+Pl+Ill:%>ta%>viihe K ;
 LEXICON FRONT_V0-PSS-PRS-PRC_täv
 +Pss+PrsPrc:%>täv K ;
@@ -1936,7 +1936,7 @@ LEXICON FRONT_V0-PSS-PRS-PRC_täv
 +Pss+PrsPrc+Pl+Par:%>tä%>vit K ;
 +Pss+PrsPrc+Pl+Ill:%>tä%>vihe K ;
 +Use/NG+Pss+PrsPrc+Pl+Gen:%>tä%>viide K ;
-+Use/NG+Pss+PrsPrc+Pl+Par:%>tä%>viit K ;
++Use/NG+Pss+PrsPrc+Pl+Par:%>tä%>viid K ;
 +Use/NG+Pss+PrsPrc+Pl+Ill:%>tä%>viihe K ;
 
 LEXICON BACK_V0-PSS-PRS-PRC_dav
@@ -1950,7 +1950,7 @@ LEXICON BACK_V0-PSS-PRS-PRC_dav
 +Pss+PrsPrc+Pl+Par:%>da%>vit K ;
 +Pss+PrsPrc+Pl+Ill:%>da%>vihe K ;
 +Use/NG+Pss+PrsPrc+Pl+Gen:%>da%>viidõ K ;
-+Use/NG+Pss+PrsPrc+Pl+Par:%>da%>viit K ;
++Use/NG+Pss+PrsPrc+Pl+Par:%>da%>viid K ;
 +Use/NG+Pss+PrsPrc+Pl+Ill:%>da%>viihe K ;
 LEXICON FRONT_V0-PSS-PRS-PRC_däv
 +Pss+PrsPrc:%>däv K ;
@@ -1963,7 +1963,7 @@ LEXICON FRONT_V0-PSS-PRS-PRC_däv
 +Pss+PrsPrc+Pl+Par:%>dä%>vit K ;
 +Pss+PrsPrc+Pl+Ill:%>dä%>vihe K ;
 +Use/NG+Pss+PrsPrc+Pl+Gen:%>dä%>viide K ;
-+Use/NG+Pss+PrsPrc+Pl+Par:%>dä%>viit K ;
++Use/NG+Pss+PrsPrc+Pl+Par:%>dä%>viid K ;
 +Use/NG+Pss+PrsPrc+Pl+Ill:%>dä%>viihe K ;
 
 LEXICON BACK_KAOTAMA-PSS-PRF-PRC_t
