@@ -19,40 +19,42 @@ Tests:
   Ver%b - olõma: # Verb (79) olõma 'eng /est /fin' - full paradigm
      olõma+V+Inf/mA: olõma
      olõma+V+Inf: ollaq
-     olõma+V+Ind+Prs+ScSg1: olõ
-     olõma+V+Ind+Prs+ScSg2: [olõt, olõdõq]
-     olõma+V+Ind+Prs+ScSg3: [om, um]
-     olõma+V+Ind+Prs+ScPl1: olõmiq
-     olõma+V+Ind+Prs+ScPl2: [olõtiq, olõt, olõdõq]
-     olõma+V+Ind+Prs+ScPl3: [ommaq, ommavaq, ummaq, ummavaq]
-     olõma+V+Ind+Prs+Sc+ConNeg: [olõ, olõ-õiq, olõq]
-     olõma+V+Ind+Prs+OcSg3: oldas
-     olõma+V+Ind+Prs+Oc+ConNeg: [olda, olda-aiq, oldaq]
-     olõma+V+Ind+Prt+ScSg1: olli
-     olõma+V+Ind+Prt+ScSg2: [olliq, ollit, ollidõq]
-     olõma+V+Ind+Prt+ScSg3: [ollʼ, olle]
-     olõma+V+Ind+Prt+ScPl1: [ollimiq, olli]
-     olõma+V+Ind+Prt+ScPl2: [ollitiq, olliq, ollit, ollidõq]
-     olõma+V+Ind+Prt+ScPl3: [olliq, ollivaq]
-     olõma+V+Ind+Prt+Sc+ConNeg: [olõ, olõ-õs, olõq]
+     olõma+V+Act+Ind+Prs+Sg1: olõ
+     olõma+V+Act+Ind+Prs+Sg2: [olõt, olõdõq]
+     olõma+V+Act+Ind+Prs+Sg3: [om, um]
+     olõma+V+Act+Ind+Prs+Pl1: olõmiq
+     olõma+V+Act+Ind+Prs+Pl2: [olõtiq, olõt, olõdõq]
+     olõma+V+Act+Ind+Prs+Pl3: [ommaq, ommavaq, ummaq, ummavaq]
+     olõma+V+Act+Ind+ConNegII: [olõ, olõq]
+     olõma+V+Act+Ind+Prs+ConNeg: olõ-õiq
+     olõma+V+Pss+Ind+Prs+Sg3: oldas
+     olõma+V+Pss+Ind+Prs+ConNeg: olda-aiq
+     olõma+V+Pss+Ind+ConNegII: [olda, oldaq]
+     olõma+V+Act+Ind+Prt+Sg1: olli
+     olõma+V+Act+Ind+Prt+Sg2: [olliq, ollit, ollidõq]
+     olõma+V+Act+Ind+Prt+Sg3: [ollʼ, olle]
+     olõma+V+Act+Ind+Prt+Pl1: [ollimiq, olli]
+     olõma+V+Act+Ind+Prt+Pl2: [ollitiq, olliq, ollit, ollidõq]
+     olõma+V+Act+Ind+Prt+Pl3: [olliq, ollivaq]
+     olõma+V+Act+Ind+Prt+ConNeg: olõ-õs
 
-     olõma+V+ActPrsPrc+A+Sg+Nom: ollõv
-     olõma+V+ActPrsPrc+A+Sg+Gen: olõva
-     olõma+V+ActPrsPrc+A+Sg+Par: olõvat
-     olõma+V+ActPrsPrc+A+Sg+Ill: olõvahe
-     olõma+V+ActPrsPrc+A+Pl+Nom: olõvaq
-     olõma+V+ActPrsPrc+A+Pl+Gen: olõvidõ
-     olõma+V+ActPrsPrc+A+Pl+Par: olõvit
-     olõma+V+ActPrsPrc+A+Pl+Ill: olõvihe
+     olõma+V+Act+PrsPrc+A+Sg+Nom: ollõv
+     olõma+V+Act+PrsPrc+A+Sg+Gen: olõva
+     olõma+V+Act+PrsPrc+A+Sg+Par: olõvat
+     olõma+V+Act+PrsPrc+A+Sg+Ill: olõvahe
+     olõma+V+Act+PrsPrc+A+Pl+Nom: olõvaq
+     olõma+V+Act+PrsPrc+A+Pl+Gen: olõvidõ
+     olõma+V+Act+PrsPrc+A+Pl+Par: olõvit
+     olõma+V+Act+PrsPrc+A+Pl+Ill: olõvihe
                     
-     olõma+V+ActPrtPrc: olnuq
+     olõma+V+Act+PrfPrc: olnuq
 
-     olõma+V+ActPrtPrc+A+Sg+Nom: olnuq
-     olõma+V+ActPrtPrc+A+Sg+Gen: olnu
-     olõma+V+ActPrtPrc+A+Sg+Par: olnut
-     olõma+V+ActPrtPrc+A+Sg+Ill: olnuhe
-     olõma+V+ActPrtPrc+A+Pl+Nom: olnuq
-     olõma+V+ActPrtPrc+A+Pl+Gen: [olnuidõ, olnuisi]
-     olõma+V+ActPrtPrc+A+Pl+Par: [olnuid, olnuisi]
-     olõma+V+ActPrtPrc+A+Pl+Ill: [olnuihe, olnuisihe]
+     olõma+V+Act+PrfPrc+A+Sg+Nom: olnuq
+     olõma+V+Act+PrfPrc+A+Sg+Gen: olnu
+     olõma+V+Act+PrfPrc+A+Sg+Par: olnut
+     olõma+V+Act+PrfPrc+A+Sg+Ill: olnuhe
+     olõma+V+Act+PrfPrc+A+Pl+Nom: olnuq
+     olõma+V+Act+PrfPrc+A+Pl+Gen: [olnuidõ, olnuisi]
+     olõma+V+Act+PrfPrc+A+Pl+Par: [olnuid, olnuisi]
+     olõma+V+Act+PrfPrc+A+Pl+Ill: [olnuihe, olnuisihe]
 
