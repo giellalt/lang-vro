@@ -5,11 +5,16 @@
 
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
-morf_codes="+V+Inf \
-            +V+Ind+Prs+Sg3 \
-            +V+Ind+Prt+Pl1 \
-            +V+ConNeg \
-            +V+PrfPrc"
+morf_codes="+V+Inf/mA \
+            +V+Inf \
+            +V+Act+Ind+Prs+Sg1 \
+            +V+Act+Ind+Prs+Sg3 \
+            +V+Act+Ind+Prt+Sg1 \
+            +V+Act+Ind+Prt+Sg3 \
+            +V+Act+Ind+ConNegII \
+            +V+Act+Jus \
+            +V+Act+PrfPrc    \
+            +V+Pss+PrfPrc"
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/morphology/stems/verbs.lexc
