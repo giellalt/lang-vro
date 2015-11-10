@@ -189,6 +189,14 @@ LEXICON N_10HEERITS-SG
 LEXICON N_10HEERITS-PL
 +N:     NMN_10HEERITS-PL ;
 
+LEXICON N_10AADRÕSʼ !!= @CODE@ aadrõsʼ:aadrõs
+        N_10AADRÕSʼ-SG ;
+        N_10AADRÕSʼ-PL ;
+LEXICON N_10AADRÕSʼ-SG
++N:     NMN_10AADRÕSʼ-SG ;
+LEXICON N_10AADRÕSʼ-PL
++N:     NMN_10AADRÕSʼ-PL ;
+
 LEXICON N_10HÜPÄTSʼ !!= @CODE@ hüpätsʼ:hüpätsʼ
         N_10HÜPÄTSʼ-SG ;
 	N_10HÜPÄTSʼ-PL ;
@@ -1369,6 +1377,34 @@ LEXICON NMN_10HEERITS-PL
 +Use/NG:%^VowRM%>ii        FRONT_PL-ILL_de       ;
 +Use/NG:%^VowRM%>ii        FRONT_PL-ALL_le-STEM       ;
 +Use/NG:%^VowRM%>iide        PL-COM       ;
+
+LEXICON NMN_10AADRÕSʼ !!= * @OCDE@ aadrõsʼ:aadrõs
+!! __N-hwrak10__
+  NMN_10AADRÕSʼ-SG ;
+  NMN_10AADRÕSʼ-PL ;
+LEXICON NMN_10AADRÕSʼ-SG 
+:ʼ        BACK_SG-NOM  ;
+:%>i    BACK_SG-GEN_ZERO ;
+:%>i    BACK_SG-ALL_lõ-STEM        ;
+:%>si    BACK_SG-PAR_t        ;
+:%>si    BACK_SG-ILL_he       ;
+:%>i BACK_SG-COM ;
++Use/NG:%>si       BACK_SG-ILL_dõ       ;
+
+LEXICON NMN_10AADRÕSʼ-PL 
+:%>i    BACK_PL-NOM ;
+:%>si    BACK_PL-GEN_dõ ;
+:%>si        BACK_PL-ILL_he       ;
+:%>si        BACK_PL-ALL_lõ-STEM       ;
+:%>si      BACK_PL-PAR_t        ;
+:%>sidõ        PL-COM       ;
++Use/NG:%>sii    BACK_PL-GEN_dõ ;
++Use/NG:%>sii      BACK_PL-PAR_d        ;
++Use/NG:%>sii        BACK_PL-ILL_he       ;
++Use/NG:%>si        BACK_PL-ILL_dõ       ;
++Use/NG:%>sii        BACK_PL-ILL_dõ       ;
++Use/NG:%>sii        BACK_PL-ALL_lõ-STEM       ;
++Use/NG:%>siidõ        PL-COM       ;
 
 LEXICON NMN_10HÜPÄTSʼ !!= * @OCDE@ hüpätsʼ:hüpäts
 !! vowel_harmony: ONLY FRONT
