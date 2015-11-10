@@ -42,11 +42,12 @@ HUNDREDST ;		! 200000-999999
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
-tuhat:1 THOUSAND ;	! 1000-1999
+1:tuhat THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
 ONES ;			! 1-9
+%0:nullʼ ENDLEX ;	! 0	
 
 LEXICON HUNDREDSG
 2:katsʼ  CUODIG ;
@@ -460,7 +461,8 @@ LEXICON ORD-NUMBERSECTION
  ORD-UNDERTHOUSAND ;		! 100-999
  ORD-TENS ;			! 20-99
  ORD-TEENS ;			! 10-19
- ORD-ONES ;			! 1-9
+ ORD-ONES-NO-THREE ;			! 1-2,4-9
+3%.:kolmas ENDLEX ;			! 3
 
 LEXICON ORD-HUNDREDSG
 2:katõs ORD-CUODIG ;
@@ -810,6 +812,18 @@ LEXICON ORDINAL
 2%.:tõõnõ COMMA ;
 2%.:tõnõ+Use/NG COMMA ;
 3%.:kolmõs  COMMA ;
+4%.:neläs  COMMA ;
+4%.:nelläs+Use/NG  COMMA ;
+5%.:viies  COMMA ;
+6%.:kuvvõs COMMA ;
+7%.:säitsmes  COMMA ;
+8%.:katsas  COMMA ;
+9%.:ütsäs  COMMA ;
+
+LEXICON ORD-ONES-NO-THREE
+1%.:edimäne COMMA ;
+2%.:tõõnõ COMMA ;
+2%.:tõnõ+Use/NG COMMA ;
 4%.:neläs  COMMA ;
 4%.:nelläs+Use/NG  COMMA ;
 5%.:viies  COMMA ;
