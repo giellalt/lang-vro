@@ -54,7 +54,7 @@ LEXICON Root
 
 LEXICON BEFORE
 %0: beforesmallhours ;
-:+Use/NA beforesmallhours ;
+:+Use/NG beforesmallhours ;
 beforelargehours ;
  
 LEXICON beforesmallhours
@@ -112,15 +112,22 @@ LEXICON beforelargehours
 %01@U.TIME.1@:@U.TIME.1@ MINHR ; !00:29 - 00:59
 
 LEXICON REST
-%01@U.TIME.1@:ütś@U.TIME.1@ AFTpunkt ;
-%02@U.TIME.2@:katś@U.TIME.2@ AFTpunkt ;
-%03@U.TIME.3@:kolm@U.TIME.3@ AFTpunkt ;
-%04@U.TIME.4@:neli@U.TIME.4@ AFTpunkt ;
-%05@U.TIME.5@:viiś@U.TIME.5@ AFTpunkt ;
-%06@U.TIME.6@:kuuś@U.TIME.6@ AFTpunkt ;
-%07@U.TIME.7@:säidse@U.TIME.7@ AFTpunkt ;
-%08@U.TIME.8@:katõsa@U.TIME.8@ AFTpunkt ;
-%09@U.TIME.9@:ütesä@U.TIME.9@ AFTpunkt ;
+%0: RESTsmallhours ;
+:+Use/NA  RESTsmallhours ;
+ RESTlargehours ;
+
+LEXICON RESTsmallhours
+1@U.TIME.1@:ütś@U.TIME.1@ AFTpunkt ;
+2@U.TIME.2@:katś@U.TIME.2@ AFTpunkt ;
+3@U.TIME.3@:kolm@U.TIME.3@ AFTpunkt ;
+4@U.TIME.4@:neli@U.TIME.4@ AFTpunkt ;
+5@U.TIME.5@:viiś@U.TIME.5@ AFTpunkt ;
+6@U.TIME.6@:kuuś@U.TIME.6@ AFTpunkt ;
+7@U.TIME.7@:säidse@U.TIME.7@ AFTpunkt ;
+8@U.TIME.8@:katõsa@U.TIME.8@ AFTpunkt ;
+9@U.TIME.9@:ütesä@U.TIME.9@ AFTpunkt ;
+
+LEXICON RESTlargehours
 1%0@U.TIME.10@:kümme@U.TIME.10@ AFTpunkt ;
 11@U.TIME.11@:ütśtõist@U.TIME.11@ AFTpunkt ;
 12@U.TIME.12@:katśtõist@U.TIME.12@ AFTpunkt ;
@@ -147,8 +154,11 @@ LEXICON BEFpunkt
 
 LEXICON AFTpunkt
 %:%0%0:%  # ;
-%::% läbi+Use/NG%  H-MAFT_minutes ; ! 2:00 = göökte
-%.:+Use/NG H-MAFT_minutes ; ! 2.00 = göökte
+%.%0%0:+Use/NA%  # ;
+%::% läbi+Use/NA%  H-MAFT_minutes ; ! 2:00 = göökte
+%.:% läbi+Use/NA%  H-MAFT_minutes ; ! 2.00 = göökte
+%::+Use/NA%  H-MAFT_minutes ; ! 2:00 = göökte
+%.:+Use/NA%  H-MAFT_minutes ; ! 2.00 = göökte
 :+Use/NG HOUR ; ! 2 = göökte
 !@D.TIME.1@ AFTpunkt-PL ;
 
@@ -157,7 +167,7 @@ LEXICON AFTpunkt
 
 
 LEXICON H-MAFT_minutes
-%0%0:  # ;
+!%0%0:  # ;
 %01:ütś% minot%  # ;
 %02:katś%  ANDMINUTES ;
 %03:kolm%  ANDMINUTES ;
@@ -219,9 +229,8 @@ LEXICON H-MAFT_minutes
 59:viiśkümmend% ütesä%  ANDMINUTES ;
 
 LEXICON MINHR
-%::+Use/NA MINHR_1 ;
+%::+Use/NG MINHR_1 ;
 LEXICON MINHR_1
-%0%0: # ;
 %01:ütś% minot%   HOUR-PAST_1 ;
 %02:katś%   HOUR-PAST ;
 %03:kolm%   HOUR-PAST ;
