@@ -366,15 +366,23 @@ LEXICON N_18EHITÜS-SG
 LEXICON N_18EHITÜS-PL
 +N:     NMN_18EHITÜS-PL ;
 
-
 LEXICON N_19ALOMANÕ !!= @CODE@ alomanõ:aloma
 ! Gradation: No
-	N_19ALOMANÕ-SG ;
-	N_19ALOMANÕ-PL ;
+        N_19ALOMANÕ-SG ;
+        N_19ALOMANÕ-PL ;
 LEXICON N_19ALOMANÕ-SG
-+N:	NMN_19ALOMANÕ-SG ;
++N:     NMN_19ALOMANÕ-SG ;
 LEXICON N_19ALOMANÕ-PL
-+N:	NMN_19ALOMANÕ-PL ;
++N:     NMN_19ALOMANÕ-PL ;
+
+LEXICON N_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
+! Gradation: No
+	N_19PEDÄJÄNE-SG ;
+	N_19PEDÄJÄNE-PL ;
+LEXICON N_19PEDÄJÄNE-SG
++N:	NMN_19PEDÄJÄNE-SG ;
+LEXICON N_19PEDÄJÄNE-PL
++N:	NMN_19PEDÄJÄNE-PL ;
 
 LEXICON N_20VÄITSʼ
 	N_20VÄITSʼ-SG ;
@@ -403,15 +411,6 @@ LEXICON N_22VÕROKÕNÕ-PL
 +N:     NMN_22VÕROKÕNÕ-PL ;
 
 
-LEXICON N_23KIILʼ
-! Gradation: No
- N_23KIILʼ-SG ;
- N_23KIILʼ-PL ;
-LEXICON N_23KIILʼ-SG
-+N: NMN_23KIILʼ-SG ;
-LEXICON N_23KIILʼ-PL
-+N: NMN_23KIILʼ-PL ;
-
 LEXICON N_23NUULʼ !!= * @CODE@ nuulʼ:nool
 ! Gradation: No
  N_23NUULʼ-SG ;
@@ -421,6 +420,15 @@ LEXICON N_23NUULʼ-SG
 LEXICON N_23NUULʼ-PL
 +N: NMN_23NUULʼ-PL ;
 
+
+LEXICON N_23KIILʼ  !!= * @CODE@ kiilʼ:keel
+! Gradation: No
+ N_23KIILʼ-SG ;
+ N_23KIILʼ-PL ;
+LEXICON N_23KIILʼ-SG
++N: NMN_23KIILʼ-SG ;
+LEXICON N_23KIILʼ-PL
++N: NMN_23KIILʼ-PL ;
 
 LEXICON N_24KÄSI
 ! gradation: yes
@@ -2002,6 +2010,29 @@ LEXICON NMN_19ALOMANÕ-PL
 +Use/NG:idsi		BACK_PL-ILL_dõ ;
 +Use/NG:stõ		BACK_PL-ALL_lõ-STEM ;
 +Use/NG:stõ PL-COM ;
+
+LEXICON NMN_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
+!! * Yaml: __A-alomanw19__
+        NMN_19PEDÄJÄNE-SG ;
+        NMN_19PEDÄJÄNE-PL ;
+LEXICON NMN_19PEDÄJÄNE-SG
+:%>ne	FRONT_SG-NOM ;
+:%>dse      FRONT_SG-GEN_ZERO-STEM ;
+:s		FRONT_SG-PAR_t ;
+:s        	FRONT_SG-ILL_te ;
+
+LEXICON NMN_19PEDÄJÄNE-PL
+:%>dse      FRONT_PL-NOM ;
+:idsi		FRONT_PL-GEN_ZERO ;
+:idsi		FRONT_PL-PAR_ZERO ;
+:idsi		FRONT_PL-ILL_he ;
+:idsi		FRONT_PL-ALL_le-STEM ;
+:idsi PL-COM ;
++Use/NG:ste		FRONT_PL-GEN_ZERO ;
++Use/NG:idsi		FRONT_PL-ILL_ZERO ;
++Use/NG:idsi		FRONT_PL-ILL_de ;
++Use/NG:ste		FRONT_PL-ALL_le-STEM ;
++Use/NG:ste PL-COM ;
 
 LEXICON NMN_20VÄITSʼ !!= * @CODE@ väitsʼ:väitsʼ
 !! * Yaml: __N-vaeitsj20__
