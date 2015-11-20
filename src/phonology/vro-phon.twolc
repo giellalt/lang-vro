@@ -26,6 +26,8 @@ Y7:õ  !!= __@CODE@__  This appears for syna = s%^Y7na and is rendered as õ in 
 !! Triggers
  %^UU2Õ:0	!!= @CODE@  juu%^UU2Õ%>i:j0õ0%>i
 
+ %^ÄI2ÄÄ:0 	!!= @CODE@ päiv%^ÄI2ÄÄ%>ä: päävä
+
 
 ! this k is not effected by gradation
 K1:k
@@ -228,6 +230,13 @@ Rules
 !€ kiil%^VOWLower%>e
 !€ keel0%>e
 !! }}}
+
+"i:ä"
+!! __@RULENAME@__
+ i:ä <=> ä _ Cns %^ÄI2ÄÄ: ;
+!€ päiv%^ÄI2ÄÄ%>ä
+!€ pääv0%>ä
+
 
 "ü2e"
 !! __@RULENAME@__
@@ -449,6 +458,9 @@ Rules
  0:v <=> Vow %^V7: _ Vow: %^StrGStem: ;
 !€ hä%^V70ö%^StrGStem%>i
 !€ hävvü0%>0
+ Vow v _ Vow: %^StrGStem: ;
+!€ kiv0i%^StrGStem
+!€ kivvi0
 !! }}}
 
 
