@@ -49,16 +49,23 @@ The nominals are inflected in the following Case and Number
  * __+Pl__ Plural
  * __+SP__ Singular and Plural, used for CG and Apertium
 
- * __+Ess__
- * __+Nom__
- * __+Gen__
- * __+Acc__
- * __+All__
- * __+Ill__
- * __+Loc__
- * __+Com__
+ * __+Abe__ abessive
+ * __+Abl__ ablative
+ * __+Acc__ accusative
+ * __+Ade__ adessive
+ * __+All__ allative
+ * __+Com__ comitative
  * __+Com/Sh__
-
+ * __+Ela__ elative
+ * __+Ess__ essive
+ * __+Ill__ illative
+ * __+Ine__ inessive
+ * __+Gen__ genitive
+ * __+Loc__ locative
+ * __+Nom__ nominative
+ * __+Par__ partitive
+ * __+Ter__ terminative
+ * __+Tra__ translative
 
 
 
@@ -268,6 +275,7 @@ And following triggers to control variation
 
   %^UU2Õ	  juu%^UU2Õ%>i:j0õ0%>i
 
+  %^ÄI2ÄÄ  päiv%^ÄI2ÄÄ%>ä: päävä
  %^APOCH  This causes apochope
 
  %^StrD2T  This changes g,d,b, => k,t,p

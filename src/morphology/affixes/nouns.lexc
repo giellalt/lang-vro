@@ -598,6 +598,14 @@ LEXICON N_36SÄRGʼ-SG
 LEXICON N_36SÄRGʼ-PL
 +N:     NMN_36SÄRGʼ-PL ;
 
+LEXICON N_36PÄIV !!= @CODE@ päiv:päiv
+        N_36PÄIV-SG ;
+        N_36PÄIV-PL ;
+LEXICON N_36PÄIV-SG
++N:     NMN_36PÄIV-SG ;
+LEXICON N_36PÄIV-PL
++N:     NMN_36PÄIV-PL ;
+
 LEXICON N_KOGÕR
 !! kogõr:kogõr
 !! * Yaml: __N-kogwr36__
@@ -2619,6 +2627,23 @@ LEXICON NMN_36SÄRGʼ-PL
 +Use/NG:%^StrGStem%^ʼ2I    FRONT_PL-ILL_de ;
 :%^WGStem%^ʼ2I  FRONT_PL-ALL_le-STEM ;
 :%^StrGStem%^ʼ2I PL-COM ;
+
+LEXICON NMN_36PÄIV !!= * @CODE@ päiv:päiv
+  NMN_36PÄIV-SG ;
+  NMN_36PÄIV-PL ;
+LEXICON NMN_36PÄIV-SG 
+        FRONT_SG-NOM  ;
+:%^ÄI2ÄÄ%>ä       FRONT_SG-GEN_ZERO-STEM        ;
+:%^ÄI2ÄÄ%>ä       FRONT_SG-ILL_ZERO        ;
+:%^ÄI2ÄÄ%>ä       FRONT_SG-PAR_ZERO        ;
+
+LEXICON NMN_36PÄIV-PL 
+:%^ÄI2ÄÄ%>ä       FRONT_PL-NOM ;
+:%>i    FRONT_PL-GEN_ZERO ;
+:%>i    FRONT_PL-PAR_ZERO ;
+:%>i    FRONT_PL-ILL_he ;
+:%>i  FRONT_PL-ALL_le-STEM ;
+:%>i PL-COM ;
 
 LEXICON NMN_KOGÕR !!= __@CODE@__
 !! kogõr:kogõr
