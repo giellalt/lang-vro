@@ -15,15 +15,25 @@ LEXICON A_2SUHVLI !!= @CODE@ suhvli:suhvli
 LEXICON A_3PERÄDÜ !!= @CODE@ perädü:perädü
 !! * Yaml: __A-peraedue__
 +A:   NMN_3PERÄDÜ ;
++A+Comp+Sg+Nom:%^StrGStem%>mb # ;
++Use/NG+A+Comp+Sg+Nom:%^StrGStem%>mp # ;
++Use/NG+A+Comp+Sg+Nom:%^StrGStem%>p # ;
 
 LEXICON A_3ALADU !!= @CODE@ aladu:aladu
 !! * Yaml: __A-aladu__
 +A:   NMN_3ALADU ;
++A+Comp+Sg+Nom:%^StrGStem%>mb # ;
++Use/NG+A+Comp+Sg+Nom:%^StrGStem%>mp # ;
++Use/NG+A+Comp+Sg+Nom:%^StrGStem%>p # ;
+
 
 LEXICON A_4TERVÜS
 +A:  NMN_4TERVÜS ;
-LEXICON A_4AINUS
+LEXICON A_4AINUS  !!= @CODE@ ainus:ainus
 +A:  NMN_4AINUS ;
++A+Comp+Sg+Nom:%^CnsRM%>mb # ;
++Use/NG+A+Comp+Sg+Nom:%^CnsRM%>mp # ;
++Use/NG+A+Comp+Sg+Nom:%^CnsRM%>p # ;
 
 LEXICON A_5OPPAJA
 +A:  NMN_5OPPAJA ;
@@ -40,6 +50,17 @@ LEXICON A_8HÄIELM
 LEXICON A_9KIPÕNʼ
 !! * Yaml: __ellaei, suhvli__
 +A:	NMN_9KIPÕNʼ ;
++A+Comp+Sg+Nom:%^PenWGStem%>amb # ;
++Use/NG+A+Comp+Sg+Nom:%^PenWGStem%>amp # ;
++Use/NG+A+Comp+Sg+Nom:%^PenWGStem%>ap # ;
+
+LEXICON A_9ELLÄI
+!! * Yaml: __ellaei__
++A:	NMN_9ELLÄI ;
++A+Comp+Sg+Nom:%^PenWGStem%>ämb # ;
++Use/NG+A+Comp+Sg+Nom:%^PenWGStem%>ämp # ;
++Use/NG+A+Comp+Sg+Nom:%^PenWGStem%>äp # ;
+
 
 LEXICON A_10HÕRAK
 +A:  NMN_10HÕRAK ;
@@ -66,7 +87,16 @@ LEXICON A_18EHITÜS
 +A:  NMN_18EHITÜS ;
 
 LEXICON A_19ALOMANÕ !!= @CODE@ alomanõ:aloma
-+A:	NMN_19ALOMANÕ ;
++A:     NMN_19ALOMANÕ ;
++A+Comp+Sg+Nom:dsõmb # ;
++Use/NG+A+Comp+Sg+Nom:dsõmp # ;
++Use/NG+A+Comp+Sg+Nom:dsõp # ;
+
+LEXICON A_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
++A:	NMN_19PEDÄJÄNE ;
++A+Comp+Sg+Nom:dsemb # ;
++Use/NG+A+Comp+Sg+Nom:dsemp # ;
++Use/NG+A+Comp+Sg+Nom:dsep # ;
 
 LEXICON A_20VÄITSʼ
 +A:  NMN_20VÄITSʼ ;
@@ -76,9 +106,21 @@ LEXICON A_21HÜDSI
 
 LEXICON A_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
 +A:     NMN_22VÕROKÕNÕ ;
++A+Comp+Sg+Nom:sõmb # ;
++Use/NG+A+Comp+Sg+Nom:sõmp # ;
++Use/NG+A+Comp+Sg+Nom:sõp # ;
+
+LEXICON A_23NUULʼ
++A:  NMN_23NUULʼ ;
++A+Comp+Sg+Nom:õmb # ;
++Use/NG+A+Comp+Sg+Nom:õmp # ;
++Use/NG+A+Comp+Sg+Nom:õp # ;
 
 LEXICON A_23KIILʼ
 +A:  NMN_23KIILʼ ;
++A+Comp+Sg+Nom:emb # ;
++Use/NG+A+Comp+Sg+Nom:emp # ;
++Use/NG+A+Comp+Sg+Nom:ep # ;
 
 LEXICON A_24KÄSI
 +A:  NMN_24KÄSI ;
@@ -148,6 +190,9 @@ LEXICON A_44SÕDA
 
 LEXICON A_45KANA
 +A:  NMN_45KANA ;
++A+Comp+Sg+Nom:%^VowRM%>õmb # ;
++Use/NG+A+Comp+Sg+Nom:%^VowRM%>õmp # ;
++Use/NG+A+Comp+Sg+Nom:%^VowRM%>õp # ;
 
 LEXICON A_46HAIN
 +A:  NMN_46HAIN ;
