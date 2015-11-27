@@ -62,7 +62,6 @@ endif # CAN_FOMA
 
 #################################################
 #### Add language-specific build rules here: ####
-@y@
 
 analyser-%.hfst: analyser-%.tmp.hfst                        \
 					filters/remove-combining-caron-below.hfst   \
@@ -148,13 +147,6 @@ generator-dict-gt-norm.xfst: generator-dict-gt-norm.tmp.xfst
 		 quit\n" | $(XFST) $(VERBOSITY)
 
 
-##################################################################
-#### END: Add local processing instructions ABOVE this line ######
-##################################################################
-
-include $(top_srcdir)/am-shared/src-dir-include.am
-
-@x@
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
 ##################################################################
