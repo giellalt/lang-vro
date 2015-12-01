@@ -515,6 +515,10 @@ LEXICON Root
 
    Exceptions ;		  !!≈ * __@CODE@__
 
+!! Incoming
+  ADP_NEWWORDS ;           !!≈ * __@CODE@__
+  N_NEWWORDS ;           !!≈ * __@CODE@__
+
 !! less complex word classes
 LEXICON ACRONDELIMITER
 +Acro: # ;
@@ -529,7 +533,7 @@ LEXICON NumTag
 +Qnt+Num: K ;
 LEXICON PersTag
 +Pron+Pers: K ;
-LEXICON PoTag
+LEXICON PO_
 +Po: K ;
 LEXICON QntTag
 +Qnt: K ;

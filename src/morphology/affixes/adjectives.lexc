@@ -5,15 +5,15 @@
 LEXICON A_
 +A+WORK: # ;
 
-LEXICON A_1HERRÄ !!= @CODE@ 1 herrä:herrä
-+A:	NMN_1HERRÄ ;
-
 LEXICON A_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
 +A:	NMN_1HANSʼA ;
 
-LEXICON A_2SUHVLI !!= @CODE@ suhvli:suhvli
+LEXICON A_1HERRÄ !!= @CODE@ 1 herrä:herrä
++A:	NMN_1HERRÄ ;
+
+LEXICON A_2ARTIKLI !!= @CODE@ suhvli:suhvli
 !! * Yaml: __suhvli__
-+A:   NMN_2SUHVLI ;
++A:   NMN_2ARTIKLI ;
 
 LEXICON A_3PERÄDÜ !!= @CODE@ perädü:perädü
 !! * Yaml: __A-peraedue__
@@ -178,8 +178,11 @@ LEXICON A_36SILM
 LEXICON A_37PINI
 +A:  NMN_37PINI ;
 
-LEXICON A_38PUHM
-+A:  NMN_38PUHM ;
+LEXICON A_38PUNG
++A:  NMN_38PUNG ;
+
+LEXICON A_38PULLʼ
++A:  NMN_38PULLʼ ;
 
 LEXICON A_39HÄBÜ
 +A:  NMN_39HÄBÜ ;
