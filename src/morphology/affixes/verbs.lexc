@@ -464,7 +464,7 @@ LEXICON V_59KERGÜTÄMÄ
 +V: FRONT_INF_ZEROq ;
 
 
-LEXICON V_MANITSÕMA !!≈ * __@CODE@__ manitsõma:mani
+LEXICON V_60MANITSÕMA !!≈ * __@CODE@__ manitsõma:mani
 !! * Yaml: __manitswma60,manitswma61>manitswma__
 +V:dsõ BACK_V0-IND-PRS-SC-12 ;
 +V:dsõ BACK_ACT-IND-PRS-CONNEG ;
@@ -487,6 +487,30 @@ LEXICON V_MANITSÕMA !!≈ * __@CODE@__ manitsõma:mani
 +V: BACK_V0-PSS-PRS-PRC_tav ;
 +V:%^WGStem BACK_PSS-PRF-PRC_t ;
 +V:tsõ%^WGStem BACK_PSS-PRF-PRC_t ;
+
+LEXICON V_60EHITSEMÄ !!≈ * __@CODE@__ ehitsemä:ehii
+!! * Yaml: __manitswma60,manitswma61>manitswma__
++V:dse FRONT_V0-IND-PRS-SC-12 ;
++V:dse FRONT_ACT-IND-PRS-CONNEG ;
++V:tse FRONT_ACT-IND-PRS-SC3_s ;
++V: FRONT_VISKAMA_PSS-IND-PRS ;
+
++V:ds V0-IND-PRT-SC-12_i ;
++V:e FRONT_ACT-IND-PRT-CONNEG ;
++V:ts FRONT_IND-PRT-SCSG3_APOSTROPHE ;
++V: FRONT_ACT-IND-PRT-SCPL3_väq ;
++V: FRONT_VISKAMA_PSS-IND-PRT_ti ;
+
++V:tse FRONT_INF_mä ;
++V: FRONT_INF_däq ;
++V:ts FRONT_INF_äq ;
++V: FRONT_ACT-PRS-PRC_v ;
++V:tse FRONT_ACT-PRS-PRC_v ;
++V: FRONT_ACT-PRF-PRC_WEAKGRADE-nüq ;
++V:ts FRONT_ACT-PRF-PRC_WEAKGRADE-nüq ;
++V: FRONT_V0-PSS-PRS-PRC_täv ;
++V:%^WGStem FRONT_PSS-PRF-PRC_t ;
++V:tse%^WGStem FRONT_PSS-PRF-PRC_t ;
 
 LEXICON V_62ARGNÕMA
 !! argnõma:arg
@@ -1786,7 +1810,7 @@ LEXICON V_87KERIMÄ !!≈ * __@CODE@__ kerimä:keri
 +V: FRONT_V0-PSS-PRS-PRC_täv ;
 +V: FRONT_PSS-PRF-PRC_t ;
 
-LEXICON V_88SIBAMA !!= * @CODE@ sibama:siba
+LEXICON V_88SIBAHAMA !!= * @CODE@ sibama:siba
 !! * Yaml: __V-sibama88,sibahama__
 +V:%^StrGStem BACK_V0-IND-PRS-SC-12 ;
 +V:%>h%{XV%} BACK_V0-IND-PRS-SC-12 ;
@@ -1811,7 +1835,7 @@ LEXICON V_88SIBAMA !!= * @CODE@ sibama:siba
 +V: BACK_V0-PSS-PRS-PRC_tav ;
 +V: BACK_PSS-PRF-PRC_t ;
 
-LEXICON V_88JÜVÄMÄ
+LEXICON V_88JÜVÄHÄMÄ
 !! * Yaml: __V-juevaemae88__
 +V:%^StrGStem FRONT_V0-IND-PRS-SC-12 ;
 +V:%>h%{XV%} FRONT_V0-IND-PRS-SC-12 ;
