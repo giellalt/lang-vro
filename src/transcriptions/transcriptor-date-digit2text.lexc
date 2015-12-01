@@ -37,6 +37,7 @@ Multichar_Symbols
 @U.MONTH.12@ 
 
 +Use/NG
++Use/NA
 
 
 LEXICON Root
@@ -137,6 +138,18 @@ LEXICON 29DAYS
 7:säitsmes			    B ;
 8:katsas				    B ;
 9:ütsäs				    B ;
+
+%01:edimäne+Use/NG			    B ;
+%02:tõõnõ+Use/NG			    B ;
+%02:tõnõ+Use/NG				    B ;
+%03:kolmas+Use/NG			    B ;
+%04:neläs+Use/NG			    B ;
+%05:viies+Use/NG			    B ;
+%06:kuvvõs+Use/NG			    B ;
+%07:säitsmes+Use/NG		    B ;
+%08:katsas+Use/NG			    B ;
+%09:ütsäs+Use/NG			    B ;
+
 1%0:kümnes				    B ;
 11:ütestõistkümnes		    B ;
 12:katõstõistkümnes			    B ;
@@ -182,6 +195,16 @@ LEXICON MONTH
    7@U.MONTH.7@:@U.MONTH.7@   X ;
    8@U.MONTH.8@:@U.MONTH.8@   X ;
    9@U.MONTH.9@:@U.MONTH.9@   X ;
+
+   %01@U.MONTH.1@:@U.MONTH.1@   X ;
+   %02@U.MONTH.2@:@U.MONTH.2@   X ;
+   %03@U.MONTH.3@:@U.MONTH.3@   X ;
+   %04@U.MONTH.4@:@U.MONTH.4@   X ;
+   %05@U.MONTH.5@:@U.MONTH.5@   X ;
+   %06@U.MONTH.6@:@U.MONTH.6@   X ;
+   %07@U.MONTH.7@:@U.MONTH.7@   X ;
+   %08@U.MONTH.8@:@U.MONTH.8@   X ;
+   %09@U.MONTH.9@:@U.MONTH.9@   X ;
 1%0@U.MONTH.10@:@U.MONTH.10@  X ;
  11@U.MONTH.11@:@U.MONTH.11@  X ;
  12@U.MONTH.12@:@U.MONTH.12@  X ;
