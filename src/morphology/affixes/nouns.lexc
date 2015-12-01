@@ -4,13 +4,22 @@ LEXICON N_ !!= * @CODE@ Lacks specific continuation lexicon
 +N+WORK: #;
 
 LEXICON N_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
-	N_1HANSʼA-SG ;
-	N_1HANSʼA-PL ;
+        N_1HANSʼA-SG ;
+        N_1HANSʼA-PL ;
 
 LEXICON N_1HANSʼA-SG
-+N:	NMN_1HANSʼA-SG ; 
++N:     NMN_1HANSʼA-SG ;
 LEXICON N_1HANSʼA-PL
-+N:	NMN_1HANSʼA-PL ; 
++N:     NMN_1HANSʼA-PL ;
+
+LEXICON N_1VIU !!= @CODE@ 1 viu:viu
+	N_1VIU-SG ;
+	N_1VIU-PL ;
+
+LEXICON N_1VIU-SG
++N:	NMN_1VIU-SG ; 
+LEXICON N_1VIU-PL
++N:	NMN_1VIU-PL ; 
 
 
 LEXICON N_1HERRÄ !!= @CODE@ 1 herrä:herrä
@@ -22,15 +31,24 @@ LEXICON N_1HERRÄ-SG
 LEXICON N_1HERRÄ-PL
 +N:	NMN_1HERRÄ-PL ; 
 
-LEXICON N_2SUHVLI
-!! * Yaml: __suhvli__
-   N_2SUHVLI-SG ;
-   N_2SUHVLI-PL ;
+LEXICON N_1PREI !!= @CODE@ 1 prei:prei
+	N_1PREI-SG ;
+	N_1PREI-PL ;
 
-LEXICON N_2SUHVLI-SG
-+N:	NMN_2SUHVLI-SG ;
-LEXICON N_2SUHVLI-PL
-+N:	NMN_2SUHVLI-PL ;
+LEXICON N_1PREI-SG
++N:	NMN_1PREI-SG ; 
+LEXICON N_1PREI-PL
++N:	NMN_1PREI-PL ; 
+
+LEXICON N_2ARTIKLI
+!! * Yaml: __suhvli__
+   N_2ARTIKLI-SG ;
+   N_2ARTIKLI-PL ;
+
+LEXICON N_2ARTIKLI-SG
++N:	NMN_2ARTIKLI-SG ;
+LEXICON N_2ARTIKLI-PL
++N:	NMN_2ARTIKLI-PL ;
 
 
 LEXICON N_2KERGE
@@ -357,6 +375,14 @@ LEXICON N_16ABILINÕ-SG
 LEXICON N_16ABILINÕ-PL
 +N:	NMN_16ABILINÕ-PL ;
 
+LEXICON N_18AIVASTUS
+        N_18AIVASTUS-SG ;
+        N_18AIVASTUS-PL ;
+LEXICON N_18AIVASTUS-SG
++N:     NMN_18AIVASTUS-SG ;
+LEXICON N_18AIVASTUS-PL
++N:     NMN_18AIVASTUS-PL ;
+
 
 LEXICON N_18EHITÜS
         N_18EHITÜS-SG ;
@@ -409,6 +435,15 @@ LEXICON N_22VÕROKÕNÕ-SG
 +N:     NMN_22VÕROKÕNÕ-SG ;
 LEXICON N_22VÕROKÕNÕ-PL
 +N:     NMN_22VÕROKÕNÕ-PL ;
+
+LEXICON N_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
+! Gradation: No
+        N_22VÄHÄKENE-SG ;
+        N_22VÄHÄKENE-PL ;
+LEXICON N_22VÄHÄKENE-SG
++N:     NMN_22VÄHÄKENE-SG ;
+LEXICON N_22VÄHÄKENE-PL
++N:     NMN_22VÄHÄKENE-PL ;
 
 
 LEXICON N_23NUULʼ !!= * @CODE@ nuulʼ:nool
@@ -637,13 +672,21 @@ LEXICON N_37PINI-SG
 LEXICON N_37PINI-PL
 +N:     NMN_37PINI-PL ;
 
-LEXICON N_38PUHM
- N_38PUHM-SG ;
- N_38PUHM-PL ;
-LEXICON N_38PUHM-SG
-+N: NMN_38PUHM-SG ;
-LEXICON N_38PUHM-PL
-+N: NMN_38PUHM-PL ;
+LEXICON N_38PUNG
+ N_38PUNG-SG ;
+ N_38PUNG-PL ;
+LEXICON N_38PUNG-SG
++N: NMN_38PUNG-SG ;
+LEXICON N_38PUNG-PL
++N: NMN_38PUNG-PL ;
+
+LEXICON N_38PULLʼ
+ N_38PULLʼ-SG ;
+ N_38PULLʼ-PL ;
+LEXICON N_38PULLʼ-SG
++N: NMN_38PULLʼ-SG ;
+LEXICON N_38PULLʼ-PL
++N: NMN_38PULLʼ-PL ;
 
 LEXICON N_38HÜTT !!= * @CODE@ hütt:hütt
  N_38HÜTT-SG ;
@@ -653,13 +696,13 @@ LEXICON N_38HÜTT-SG
 LEXICON N_38HÜTT-PL
 +N: NMN_38HÜTT-PL ;
 
-LEXICON N_KULD
- N_KULD-SG ;
- N_KULD-PL ;
-LEXICON N_KULD-SG
-+N: NMN_KULD-SG ;
-LEXICON N_KULD-PL
-+N: NMN_KULD-PL ;
+LEXICON N_38KULD
+ N_38KULD-SG ;
+ N_38KULD-PL ;
+LEXICON N_38KULD-SG
++N: NMN_38KULD-SG ;
+LEXICON N_38KULD-PL
++N: NMN_38KULD-PL ;
 
 LEXICON N_39HÄBÜ !!= * @CODE@ häbü:häbü
         N_39HÄBÜ-SG ;
@@ -868,26 +911,6 @@ LEXICON N_ELÄNÜQ-PL
 
 !! !NOMINAL DECLENSIONS
 
-LEXICON NMN_1HERRÄ !!= @CODE@ 1 herrä:herrä
-        NMN_1HERRÄ-SG ;
-        NMN_1HERRÄ-PL ;
-LEXICON NMN_1HERRÄ-SG
-	FRONT_SG-NOM ;
-	FRONT_SG-GEN_ZERO-STEM ;
-	FRONT_SG-PAR_t ;
-	FRONT_SG-ILL_hte ;
-+Use/NG:	FRONT_SG-ILL_de ;
-LEXICON NMN_1HERRÄ-PL
-:%>de	FRONT_PL-ALL_le-STEM ;
-	FRONT_PL-GEN_de ;
-:%>de	FRONT_PL-ILL_he ;
-	FRONT_PL-NOM ;
-	FRONT_PL-PAR_sit ;
-:%>de PL-COM ;
-
-+Use/NG:%>sii	FRONT_PL-PAR_d ;
-+Use/NG:%>de        FRONT_PL-ILL_de ;
-
 LEXICON NMN_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
         NMN_1HANSʼA-SG ;
         NMN_1HANSʼA-PL ;
@@ -908,19 +931,79 @@ LEXICON NMN_1HANSʼA-PL
 +Use/NG:%>sii	BACK_PL-PAR_d ;
 +Use/NG:%>dõ        BACK_PL-ILL_dõ ;
 
-LEXICON NMN_2SUHVLI
-!! * Yaml: __suhvli__
-   NMN_2SUHVLI-SG ;
-   NMN_2SUHVLI-PL ;
+LEXICON NMN_1VIU !!= @CODE@ 1 viu:viu
+        NMN_1VIU-SG ;
+        NMN_1VIU-PL ;
+LEXICON NMN_1VIU-SG
+	BACK_SG-NOM ;
+	BACK_SG-GEN_ZERO-STEM ;
+	BACK_SG-PAR_d ; !! in d
+	BACK_SG-ILL_htõ ;
++Use/NG:	BACK_SG-ILL_dõ ;
+LEXICON NMN_1VIU-PL
+:%>dõ	BACK_PL-ALL_lõ-STEM ;
+	BACK_PL-GEN_dõ ;
+:%>dõ	BACK_PL-ILL_he ;
+	BACK_PL-NOM ;
+	BACK_PL-PAR_sit ;
+:%>dõ PL-COM ;
 
-LEXICON NMN_2SUHVLI-SG
++Use/NG:%>sii	BACK_PL-PAR_d ;
++Use/NG:%>dõ        BACK_PL-ILL_dõ ;
+
+LEXICON NMN_1HERRÄ !!= @CODE@ 1 herrä:herrä
+        NMN_1HERRÄ-SG ;
+        NMN_1HERRÄ-PL ;
+LEXICON NMN_1HERRÄ-SG
+	FRONT_SG-NOM ;
+	FRONT_SG-GEN_ZERO-STEM ;
+	FRONT_SG-PAR_t ;
+	FRONT_SG-ILL_hte ;
++Use/NG:	FRONT_SG-ILL_de ;
+LEXICON NMN_1HERRÄ-PL
+:%>de	FRONT_PL-ALL_le-STEM ;
+	FRONT_PL-GEN_de ;
+:%>de	FRONT_PL-ILL_he ;
+	FRONT_PL-NOM ;
+	FRONT_PL-PAR_sit ;
+:%>de PL-COM ;
+
++Use/NG:%>sii	FRONT_PL-PAR_d ;
++Use/NG:%>de        FRONT_PL-ILL_de ;
+
+LEXICON NMN_1PREI !!= @CODE@ 1 prei:prei
+        NMN_1PREI-SG ;
+        NMN_1PREI-PL ;
+LEXICON NMN_1PREI-SG
+	FRONT_SG-NOM ;
+	FRONT_SG-GEN_ZERO-STEM ;
+	FRONT_SG-PAR_d ; !! in d
+	FRONT_SG-ILL_hte ;
++Use/NG:	FRONT_SG-ILL_de ;
+LEXICON NMN_1PREI-PL
+:%>de	FRONT_PL-ALL_le-STEM ;
+	FRONT_PL-GEN_de ;
+:%>de	FRONT_PL-ILL_he ;
+	FRONT_PL-NOM ;
+	FRONT_PL-PAR_sit ;
+:%>de PL-COM ;
+
++Use/NG:%>sii	FRONT_PL-PAR_d ;
++Use/NG:%>de        FRONT_PL-ILL_de ;
+
+LEXICON NMN_2ARTIKLI
+!! * Yaml: __suhvli__
+   NMN_2ARTIKLI-SG ;
+   NMN_2ARTIKLI-PL ;
+
+LEXICON NMN_2ARTIKLI-SG
 	BACK_SG-NOM	;
 	BACK_SG-GEN_ZERO-STEM       ;
 	BACK_SG-PAR_t	;
 	BACK_SG-ILL_he	;
 
 +Use/NG:	BACK_SG-ILL_dõ	;
-LEXICON NMN_2SUHVLI-PL
+LEXICON NMN_2ARTIKLI-PL
 	BACK_PL-NOM ;
 	BACK_PL-GEN_dõ ;
         BACK_PL-ILL_he       ;
@@ -1982,6 +2065,31 @@ LEXICON NMN_16ABILINÕ-PL
 +Use/NG:stõ		PL-COM ;
 
 
+LEXICON NMN_18AIVASTUS !!= * @CODE@ aivastus:aivastus
+!! * Yaml: __N-aivastus18__
+  NMN_18AIVASTUS-SG ;
+  NMN_18AIVASTUS-PL ;
+
+LEXICON NMN_18AIVASTUS-SG 
+        BACK_SG-NOM  ;
+:%>õ   BACK_SG-GEN_ZERO-STEM        ;
+   BACK_SG-PAR_t      ;
+   BACK_SG-ILL_tõ     ;
+
+LEXICON NMN_18AIVASTUS-PL 
+:%>õ   BACK_PL-NOM  ;
+:%^CnsRM%>isi BACK_PL-GEN_ZERO ;
+:%^CnsRM%>isi BACK_PL-ILL_he ;
+:%^CnsRM%>isi BACK_PL-PAR_ZERO ;
+:%^CnsRM%>isi BACK_PL-ALL_lõ-STEM ;
+:%^CnsRM%>isi PL-COM ;
++Use/NG:%>te BACK_PL-GEN_ZERO ;
++Use/NG:%^CnsRM%>isi BACK_PL-ILL_ZERO ;
++Use/NG:%^CnsRM%>isi BACK_PL-ILL_dõ ;
++Use/NG:tõ BACK_PL-ALL_lõ-STEM ;
++Use/NG:tõ PL-COM ;
+
+
 LEXICON NMN_18EHITÜS !!= * @CODE@ ehitüs:ehitüs
 !! * Yaml: __N-ehitues18__
   NMN_18EHITÜS-SG ;
@@ -2126,6 +2234,30 @@ LEXICON NMN_22VÕROKÕNÕ-PL
 +Use/NG:isi		BACK_PL-ILL_dõ ;
 +Use/NG:istõ		BACK_PL-ALL_lõ-STEM ;
 +Use/NG:istõ		PL-COM ;
+
+LEXICON NMN_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
+!! * Yaml: __N-vaehaekene22__
+        NMN_22VÄHÄKENE-SG ;
+        NMN_22VÄHÄKENE-PL ;
+LEXICON NMN_22VÄHÄKENE-SG
+:%>ne	FRONT_SG-NOM ;
+:%>se      FRONT_SG-GEN_ZERO-STEM ;
+:is		FRONT_SG-PAR_t ;
+:is        	FRONT_SG-ILL_te ;
+
+LEXICON NMN_22VÄHÄKENE-PL
+:%>se      FRONT_PL-NOM ;
+:is		FRONT_PL-ALL_dele ;
+:isi		FRONT_PL-GEN_ZERO ;
+:isi		FRONT_PL-PAR_ZERO ;
+:isi		FRONT_PL-ILL_he ;
+:isi		FRONT_PL-ALL_le-STEM ;
+:isi		PL-COM ;
++Use/NG:iste		FRONT_PL-GEN_ZERO ;
++Use/NG:isi		FRONT_PL-ILL_ZERO ;
++Use/NG:isi		FRONT_PL-ILL_de ;
++Use/NG:iste		FRONT_PL-ALL_le-STEM ;
++Use/NG:iste		PL-COM ;
 
 LEXICON NMN_23KIILʼ !!= * __@CODE@__ kiilʼ:keel
 !! * Yaml: __N-kiilj23__
@@ -2720,16 +2852,33 @@ LEXICON NMN_37PINI-PL
 :%^PLPRT  FRONT_PL-ALL_le-STEM ;
 
 
-LEXICON NMN_38PUHM
-  NMN_38PUHM-SG ;
-  NMN_38PUHM-PL ;
-LEXICON NMN_38PUHM-SG 
+LEXICON NMN_38PUNG
+  NMN_38PUNG-SG ;
+  NMN_38PUNG-PL ;
+LEXICON NMN_38PUNG-SG 
         BACK_SG-NOM  ;
 :a       BACK_SG-GEN_ZERO-STEM        ;
 :a       BACK_SG-ILL_ZERO        ;
 :a       BACK_SG-PAR_ZERO        ;
 
-LEXICON NMN_38PUHM-PL 
+LEXICON NMN_38PUNG-PL 
+:õ       BACK_PL-NOM ;
+:õ    BACK_PL-GEN_ZERO ;
+:õ    BACK_PL-PAR_ZERO ;
+:õ    BACK_PL-ILL_ZERO ;
+:õ    BACK_PL-ILL_hõ ;
+:õ    BACK_PL-ALL_lõ-STEM ;
+
+LEXICON NMN_38PULLʼ
+  NMN_38PULLʼ-SG ;
+  NMN_38PULLʼ-PL ;
+LEXICON NMN_38PULLʼ-SG 
+        BACK_SG-NOM  ;
+:a       BACK_SG-GEN_ZERO-STEM        ;
+:a       BACK_SG-ILL_ZERO        ;
+:a       BACK_SG-PAR_ZERO        ;
+
+LEXICON NMN_38PULLʼ-PL 
 :õ       BACK_PL-NOM ;
 :õ    BACK_PL-GEN_ZERO ;
 :õ    BACK_PL-PAR_ZERO ;
@@ -2754,23 +2903,23 @@ LEXICON NMN_38HÜTT-PL
 :e    FRONT_PL-ILL_he ;
 :e    FRONT_PL-ALL_le-STEM ;
 
-LEXICON NMN_KULD !!= * __@CODE@__ kuld:kuld
+LEXICON NMN_38KULD !!= * __@CODE@__ kuld:kuld
 !! Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
-  NMN_KULD-SG ;
-  NMN_KULD-PL ;
-LEXICON NMN_KULD-SG 
+  NMN_38KULD-SG ;
+  NMN_38KULD-PL ;
+LEXICON NMN_38KULD-SG 
         BACK_SG-NOM  ;
-:a       BACK_SG-GEN_ZERO-STEM        ;
+:%^WGStem%>a       BACK_SG-GEN_ZERO-STEM        ;
 :a       BACK_SG-ILL_ZERO        ;
 :a       BACK_SG-PAR_ZERO        ;
 
-LEXICON NMN_KULD-PL 
-:õ       BACK_PL-NOM ;
-:õ    BACK_PL-GEN_ZERO ;
+LEXICON NMN_38KULD-PL 
+:%^WGStem%>a       BACK_PL-NOM ;
+:%^WGStem%>õ    BACK_PL-GEN_ZERO ;
 :õ    BACK_PL-PAR_ZERO ;
 :õ    BACK_PL-ILL_ZERO ;
 :õ    BACK_PL-ILL_hõ ;
-:õ    BACK_PL-ALL_lõ-STEM ;
+:%^WGStem%>õ    BACK_PL-ALL_lõ-STEM ;
 
 LEXICON NMN_39HÄBÜ !!= * @CODE@ häbü:häbü
   NMN_39HÄBÜ-SG ;

@@ -2,8 +2,9 @@
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="vro">
-<e> <lg> <l>a(q)</l> <stg> <st Contlex="CC_">a(q)</st> </stg> <stress>a(q)</stress> </lg> <pos>CC</pos> <mg> <m> <head/> <semRel lemmaID="agaq" semRelType="sub"/> </m> <tg lang="est"> <t>aga, kuid;</t> </tg> <xg> <x>tä taht, a tä ei saaq</x> <xt>ta tahab, kuid ta ei saa;</xt> </xg> <xg> <x>a mille?</x> <xt>aga miks?</xt> </xg> </mg> </e>
-<e> <lg> <l>agaq</l> <stg> <st Contlex="CC_">agaq</st> </stg> <stress>agaq</stress> </lg> <pos>CC</pos> <mg> <m> <head/> <semRel lemmaID="a(q)" semRelType="prefer"/> </m> <tg lang="est"> <t/> </tg> </mg> </e>
-<e> <lg> <l>aguq</l> <stg> <st Contlex="CS_">aguq</st> </stg> <stress>aguq</stress> </lg> <pos>CS</pos> <mg> <m> <head> <register register="conversation"/> </head> </m> <xg> <x>a ku(q)</x> <xt>aga kui</xt> </xg> </mg> </e>
-<e> <lg> <l>ali</l> <stg> <st Contlex="CC_">ali</st> </stg> <stress>ali†</stress> </lg> <pos>CC</pos> <mg> <m> <head/> </m> <tg lang="est"> <t>ehk;</t> </tg> <xg> <x>nääq ali nimäq, tuu om sama</x> <xt>nad ehk nemad, see on sama</xt> </xg> </mg> </e>
+<e> <lg> <l pos="CC">a(q)</l> <stg> <st Contlex="CC_">a(q)</st> </stg> <stress>a(q)</stress> </lg> <mg> <m> <head/> <semRel lemmaID="agaq" semRelType="sub"/> </m> <tg lang="est"> <t>aga, kuid;</t> </tg> <xg> <x>tä taht, a tä ei saaq</x> <xt>ta tahab, kuid ta ei saa;</xt> </xg> <xg> <x>a mille?</x> <xt>aga miks?</xt> </xg> </mg> </e>
+<e> <lg> <l pos="CC">agaq</l> <stg> <st Contlex="CC_">agaq</st> </stg> <stress>agaq</stress> </lg> <mg> <m> <head/> <semRel lemmaID="a(q)" semRelType="prefer"/> </m> <tg lang="est"> <t/> </tg> </mg> </e>
+<e> <lg> <l pos="CC">aguq</l> <stg> <st Contlex="CS_">aguq</st> </stg> <stress>aguq</stress> </lg> <pos>CS</pos> <mg> <m> <head> <register register="conversation"/> </head> </m> <xg> <x>a ku(q)</x> <xt>aga kui</xt> </xg> </mg> </e>
+<e> <lg> <l pos="CC">ali</l> <stg> <st Contlex="CC_">ali</st> </stg> <stress>ali†</stress> </lg> <mg> <m> <head/> </m> <tg lang="est"> <t>ehk</t> </tg> <xg> <x>nääq ali nimäq, tuu om sama</x> <xt>nad ehk nemad, see on sama</xt> </xg> </mg> </e>
+<e> <lg> <l pos="CC">vai</l> <stg> <st Contlex="CC_">vai</st> </stg> <stress>ali†</stress> </lg> <mg> <m> <head/> </m> <tg lang="est"> <t>ehk</t> </tg> </mg> </e>
 </r>
