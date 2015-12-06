@@ -39,8 +39,8 @@ i̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 +CS	    !!≈ * __@CODE@__
 +CC	    !!≈ * __@CODE@__
 +Adp    !!≈ * __@CODE@__
-+Po	    !!≈ * __@CODE@__
-+Pr	    !!≈ * __@CODE@__
++Po	    !!≈ * __@CODE@__ Postposition
++Pr	    !!≈ * __@CODE@__ Preposition
 +Interj !!≈ * __@CODE@__
 +Pcle   !!≈ * __@CODE@__
 +Num    !!≈ * __@CODE@__
@@ -517,6 +517,7 @@ LEXICON Root
 
 !! Incoming
   ADP_NEWWORDS ;           !!≈ * __@CODE@__
+  ADV_NEWWORDS ;           !!≈ * __@CODE@__ 
   N_NEWWORDS ;           !!≈ * __@CODE@__
 
 !! less complex word classes
@@ -535,6 +536,8 @@ LEXICON PersTag
 +Pron+Pers: K ;
 LEXICON PO_
 +Po: K ;
+LEXICON PR_
++Pr: K ;
 LEXICON QntTag
 +Qnt: K ;
 

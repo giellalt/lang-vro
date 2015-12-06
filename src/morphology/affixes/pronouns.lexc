@@ -8,11 +8,32 @@ LEXICON PERS-SG1
 +Pron+Pers+Sg1: PERS-SG1-2-NOM-COM ;
 +Pron+Pers+Sg1:u PERS-SG1-2-ABE-TRA ;
 +Pron+Pers+Sg1:ino PERS-SG1-2-ABE-TRA ;
++Pron+Pers+Sg1+Par:innu K ;
++Pron+Pers+Sg1+All:ullõ K ;
 
 LEXICON PERS-SG2
 +Pron+Pers+Sg2: PERS-SG1-2-NOM-COM ;
 +Pron+Pers+Sg2:u PERS-SG1-2-ABE-TRA ;
 +Pron+Pers+Sg2:ino PERS-SG1-2-ABE-TRA ;
++Pron+Pers+Sg2+Par:innu K ;
++Pron+Pers+Sg2+All:ullõ K ;
+
+LEXICON PERS-SG3
++Pron+Pers+Sg3+Nom:imä K ;
++Pron+Pers+Sg3+Abl:imälda K ; !! CHECKME vowel harmony
++Pron+Pers+Sg3+Ade:imäl K ;
++Pron+Pers+Sg3+Com:imägaq K ;
++Err/Orth+Pron+Pers+Sg3+Com:imäga K ;
++Pron+Pers+Sg3+Ill:immä K ;
++Pron+Pers+Sg3+Gen:ä K ;
++Pron+Pers+Sg3+Nom:ä K ;
++Pron+Pers+Sg3+Par:edä K ;
++Pron+Pers+Sg3+Ade:äl K ;
++Pron+Pers+Sg3+All:älle K ;
+
+
++Pron+Pers+Sg3:u PERS-SG1-2-ABE-TRA ;
++Pron+Pers+Sg3:ino PERS-SG1-2-ABE-TRA ;
 
 LEXICON PERS-SG1-2-NOM-COM
 +Nom:aq K ;
