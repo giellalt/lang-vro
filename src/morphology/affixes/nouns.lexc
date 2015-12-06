@@ -183,6 +183,14 @@ LEXICON N_10HÕRAK-SG
 LEXICON N_10HÕRAK-PL
 +N:     NMN_10HÕRAK-PL ;
 
+LEXICON N_10HAIDAK !!= @CODE@ haidak:haidak
+        N_10HAIDAK-SG ;
+        N_10HAIDAK-PL ;
+LEXICON N_10HAIDAK-SG
++N:     NMN_10HAIDAK-SG ;
+LEXICON N_10HAIDAK-PL
++N:     NMN_10HAIDAK-PL ;
+
 LEXICON N_10ESÄK !!= @CODE@ esäk:esäk
         N_10ESÄK-SG ;
         N_10ESÄK-PL ;
@@ -554,7 +562,7 @@ LEXICON N_28PUNDAR-SG
 LEXICON N_28PUNDAR-PL
 +N: NMN_28PUNDAR-PL ;
 
-LEXICON N_29KUU
+LEXICON N_29KUU !!= * @CODE@ kuu:kuu
 ! Gradation: No
  N_29KUU-SG ;
  N_29KUU-PL ;
@@ -1397,6 +1405,34 @@ LEXICON NMN_10HÕRAK-PL
 +Use/NG:%^VowRM%>ii        BACK_PL-ALL_lõ-STEM       ;
 +Use/NG:%^VowRM%>iidõ        PL-COM       ;
 
+LEXICON NMN_10HAIDAK !!= * @OCDE@ haidak:haidak
+!! __N-hwrak10__
+  NMN_10HAIDAK-SG ;
+  NMN_10HAIDAK-PL ;
+LEXICON NMN_10HAIDAK-SG 
+        BACK_SG-NOM  ;
+:%^WGStem%>u    BACK_SG-GEN_ZERO ;
+:%>u       BACK_SG-ALL_lõ-STEM        ;
+:%>u    BACK_SG-PAR_t        ;
+:%>u       BACK_SG-ILL_dõ       ;
+:%>u       BACK_SG-ILL_he       ;
+:%^WGStem%>u BACK_SG-COM ;
+
+LEXICON NMN_10HAIDAK-PL 
+:%^WGStem%>u    BACK_PL-NOM ;
+:%^VowRM%>i    BACK_PL-GEN_dõ ;
+:%^VowRM%>i        BACK_PL-ILL_he       ;
+:%^VowRM%>i        BACK_PL-ALL_lõ-STEM       ;
+:%^VowRM%>i      BACK_PL-PAR_t        ;
+:%^VowRM%>idõ        PL-COM       ;
++Use/NG:%^VowRM%>ii    BACK_PL-GEN_dõ ;
++Use/NG:%^VowRM%>ii      BACK_PL-PAR_d        ;
++Use/NG:%^VowRM%>ii        BACK_PL-ILL_he       ;
++Use/NG:%^VowRM%>i        BACK_PL-ILL_dõ       ;
++Use/NG:%^VowRM%>ii        BACK_PL-ILL_dõ       ;
++Use/NG:%^VowRM%>ii        BACK_PL-ALL_lõ-STEM       ;
++Use/NG:%^VowRM%>iidõ        PL-COM       ;
+
 LEXICON NMN_10ESÄK !!= * @OCDE@ esäk:esäk
 !! vowel_harmony: BACK and FRONT
 !!  __N-esaek10__
@@ -1449,7 +1485,6 @@ LEXICON NMN_10AABITS-PL
 :%^VowRM%>i        BACK_PL-ALL_lõ-STEM       ;
 :%^VowRM%>i      BACK_PL-PAR_t        ;
 :%^VowRM%>idõ        PL-COM       ;
-+Use/NG:%^WGStem%>u    BACK_PL-NOM ;
 +Use/NG:%^VowRM%>ii    BACK_PL-GEN_dõ ;
 +Use/NG:%^VowRM%>ii      BACK_PL-PAR_d        ;
 +Use/NG:%^VowRM%>ii        BACK_PL-ILL_he       ;
