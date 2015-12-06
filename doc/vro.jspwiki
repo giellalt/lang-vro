@@ -37,8 +37,8 @@ The parts-of-speech are:
  * __+CS	__
  * __+CC	__
  * __+Adp__
- * __+Po	__
- * __+Pr	__
+ * __+Po	__ Postposition
+ * __+Pr	__ Preposition
  * __+Interj__
  * __+Pcle__
  * __+Num__
@@ -372,6 +372,7 @@ word classes, or optionally from prefixes:
 
 Incoming
  * __ADP_NEWWORDS ;__
+ * __ADV_NEWWORDS ;__ 
  * __N_NEWWORDS ;__
 
 less complex word classes
