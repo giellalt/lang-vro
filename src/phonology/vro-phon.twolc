@@ -11,9 +11,13 @@ A B D E F G H I J K L M N O P Q R S Š T U V Y Z Ž Õ Ü Ä Ö
 
 !! special letters
 u̬  !!≈ * __@CODE@__ u plus U+032C COMBINING CARON BELOW
+U̬  !!≈ * __@CODE@__ u plus U+032C COMBINING CARON BELOW
 ü̬  !!≈ * __@CODE@__ ü plus U+032C COMBINING CARON BELOW
+Ü̬  !!≈ * __@CODE@__ ü plus U+032C COMBINING CARON BELOW
 i̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
+I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 õ̭	 !!≈ * __@CODE@__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+Õ̭	 !!≈ * __@CODE@__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
 ˋ	 !!≈ * __@CODE@__ U+02CB MODIFIER LETTER GRAVE ACCENT
 
 ! Vowel harmony with "(t)a/ä"
@@ -60,6 +64,7 @@ K1:k
 %^D2S:0 !!= @CODE@ The ti => si
 %^TS2S:0 !!= @CODE@ The -ts- => -s-
 
+%^ʼ2Õ:0 !!= @CODE@ The ʼ => õ change
 %^ʼ2E:0 !!= @CODE@ The ʼ => e change
 %^ʼ2I:0 !!= @CODE@ The ʼ => i change
 %^I2ʼ:0 !!= @CODE@ The i => ʼ change
@@ -195,6 +200,14 @@ Rules
 !€ hävvü0%>0
 
 !! !VOWEL CHANGE WITH PLURAL
+
+"ʼ2õ"
+!! __@RULENAME@__
+!! {{{
+ ʼ:õ <=> OnSetC _ ( %^XStrGStem: | %^StrGStem: | %^WGStem: )  %^ʼ2Õ:  ;
+!€ hangʼ%^WGStem%^ʼ2Õ#
+!€ hangõ00#
+!! }}}
 
 "ʼ2e"
 !! __@RULENAME@__
