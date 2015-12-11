@@ -5,9 +5,13 @@ The Võro morphophonological/twolc rules file
 
 special letters
  * __u̬__ u plus U+032C COMBINING CARON BELOW
+ * __U̬__ u plus U+032C COMBINING CARON BELOW
  * __ü̬__ ü plus U+032C COMBINING CARON BELOW
+ * __Ü̬__ ü plus U+032C COMBINING CARON BELOW
  * __i̬	__ i plus U+032C COMBINING CARON BELOW
+ * __I̬	__ i plus U+032C COMBINING CARON BELOW
  * __õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+ * __Õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
  * __ˋ	__ U+02CB MODIFIER LETTER GRAVE ACCENT
 
   %{AÄ%}:0 	 Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
@@ -47,6 +51,7 @@ Triggers
  %^D2S:0  The ti => si
  %^TS2S:0  The -ts- => -s-
 
+ %^ʼ2Õ:0  The ʼ => õ change
  %^ʼ2E:0  The ʼ => e change
  %^ʼ2I:0  The ʼ => i change
  %^I2ʼ:0  The i => ʼ change
@@ -110,6 +115,10 @@ __u2õ__
 __ö:ü__
 
 !VOWEL CHANGE WITH PLURAL
+
+__ʼ2õ__
+{{{
+}}}
 
 __ʼ2e__
 {{{
