@@ -292,6 +292,8 @@ And following triggers to control variation
  __ %^XStrGStem __ This extra-strengthens "sõda" to "sõtta"
   __%^NoGrad__
  __ %^WGStem __ This weakens
+  %^Pen	       This moves us to penultimate coda
+
  %^PenWGStem  This weakens "kipõnʼ" to "kibõna"
 
  __ %^PenVowRM __ syncope tapõld : taplõma
@@ -363,6 +365,7 @@ word classes, or optionally from prefixes:
 Incoming
  * __ADP_NEWWORDS ;__
  * __ADV_NEWWORDS ;__ 
+ * __INTERJ_NEWWORDS ;__
  * __N_NEWWORDS ;__
  * __PROP_NEWWORDS ;__
 

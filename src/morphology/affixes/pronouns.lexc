@@ -79,6 +79,11 @@ LEXICON PRON-DEM
 +Pron+Sg+Nom: K ;
 +Pron+Sg+Nom:%>%{XV%} K ;
 
+LEXICON PRON-DEM_NÄ
++Pron+Pl+Nom: K ;
++Pron+Pl+Nom:%>%{XV%}q K ;
++Pron+Pl+Ade:il K ;
+
 !! !INTERROGATIVE PRONOUNS
 LEXICON PRON-INTERR-HUM
 +Pron+Interr+Sem/Hum+SP+Nom:iä # ;
@@ -120,7 +125,9 @@ LEXICON FRONT_PRON-INTERR_miä-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA
  FRONT_INESUF_N-H-HN ;
  FRONT_TRASUF ;
 
-
+LEXICON PRON-REFL_HINDÄ
++Pron+Refl+Gen: K ;
++Pron+Refl+Par:%^PenWGStem%>st K ;
 
 
 ! vim: set ft=xfst-lexc:
