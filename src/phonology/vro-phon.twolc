@@ -57,6 +57,8 @@ K1:k
 
 %^XStrGStem:0 !!= @CODE@ This extra-strengthens "sõda" to "sõtta"
 
+%^Pen:0	      !!= @CODE@ This moves us to penultimate coda
+
 %^PenWGStem:0 !!= @CODE@ This weakens "kipõnʼ" to "kibõna"
 
 %^PenVowRM:0 !!= @CODE@ syncope tapõld : taplõma 
@@ -504,8 +506,8 @@ Rules
  0:s <=> CnsVoiced Vow: _ %^VowRM: %> s i ;
 !€ sõima0%^VowRM%>si
 !€ sõim0s0%>si
-   Vow s: _ (ʼ:) (%^PenWGStem:) %^StrGStem: ;
-!€ nõkõs0ʼ%^PenWGStem%^StrGStem%>õ
+   Vow s: _ (ʼ:) (%^Pen: %^WGStem:) %^StrGStem: ;
+!€ nõkõs0ʼ%^Pen%^WGStem%^StrGStem%>õ
 !€ nõgõss000%>õ
    Vow s: _ Vow: %^StrGStem: ;
 !€ kos0i%^StrGStem%>q
@@ -514,8 +516,14 @@ Rules
 "0:l"
 !! __@RULENAME@__
  0:l <=> Vow l _ :Vow %> j:i ;
-         Vow l _ Vow: %^StrGStem: ;
+         Vow l _ Vow: %^Pen: %^StrGStem: ;
 !	 Vow l _ %> i: (õ|e) [ %> | # ] ;
+
+"0:r"
+!! __@RULENAME@__
+ 0:r <=>
+         Vow r _ Vow: %^Pen: %^StrGStem: ;
+
 
 "0:k"
 !! __@RULENAME@__
@@ -544,38 +552,38 @@ Rules
 ! aika: ajan
 "kToZero"
 !! __@RULENAME@__  
-k:0 <=> h _ Vow: s %^PenWGStem: ;
+k:0 <=> h _ Vow: s %^Pen: %^WGStem: ;
 !€ puhkas%^WGStem%>taq
 !€ puh0as0%>taq
 
- s _ a %^PenWGStem: ;
+ s _ a %^Pen: %^WGStem: ;
 ! [  #  Cns* Vow (( r | i | VowNonHigh ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ GRC | %^D2S:0 i %> %^WCns:0 ] ;
 ![ [ # ] Cns* Vow (( r | i ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ Vow: | :Vow | ( Vow ) %> i ] ( %> i: | %^StretchSyll2:0 ) %> %^WCns:0 ;
 !        [ # ] Cns* VowBack i: _ [ GRC | %^D2S:0 i %> %^WCns:0 ] ;
 
 "mToZero"
 !! __@RULENAME@__
- m:0 <=> m_ Vow: %^PenWGStem: ;
-!€ hammõ%^PenWGStem%>h
+ m:0 <=> m_ Vow: %^Pen: %^WGStem: ;
+!€ hammõ%^Pen%^WGStem%>h
 !€ ham0õ0%>h
 
 
 "lToZero"
 !! __@RULENAME@__
- l:0 <=> l _ Vow i: %^PenWGStem: ;
-!€ elläi%^PenWGStem%^I2J%>ä
+ l:0 <=> l _ Vow i: %^Pen: %^WGStem: ;
+!€ elläi%^Pen%^WGStem%^I2J%>ä
 !€ el0äj00%>ä
-         _ %{XC%}:l [õ|e] v %^PenWGStem: ;
+         _ %{XC%}:l [õ|e] v %^Pen: %^WGStem: ;
 
 "rToZero"
 !! __@RULENAME@__
- r:0 <=> r _ Vow %^PenWGStem: ;
+ r:0 <=> r _ Vow %^Pen: %^WGStem: ;
 !€ perre%^WGStem%>h
 !€ per0e0%>h
 
 "tToZero"
 !! __@RULENAME@__
- t:0 <=> [ h | t ] _ Vow %^PenWGStem: ;
+ t:0 <=> [ h | t ] _ Vow %^Pen: %^WGStem: ;
          Vow _ s (ʼ:|i:) %^TS2S: ;
 !! hüdsi+N+Sg+Par:
 !€ hüdsi%^TS2S%^VowRM%>t
@@ -585,11 +593,11 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 
 "p2b"
 !! __@RULENAME@__
- p:b <=> Vow _ Vow Cns:* (ʼ:) %^PenWGStem: ;
+ p:b <=> Vow _ Vow Cns:* (ʼ:) %^Pen: %^WGStem: ;
 
 "b20"
 !! __@RULENAME@__
- b:0 <=> Vow _ Vow  [%^PenWGStem:|%^WGStem:] ;
+ b:0 <=> Vow _ Vow  [%^Pen: %^WGStem:|%^WGStem:] ;
 
 "bTop"
 !! __@RULENAME@__
@@ -601,13 +609,14 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 "b2m"
 !! __@RULENAME@__
  b:m <=> m _  %^WGStem: ;
- m _ Vow: %^PenWGStem: ;
-!€ hamba%^PenWGStem%>s
+ m _ Vow: %^Pen: %^WGStem: ;
+!€ hamba%^Pen%^WGStem%>s
 !€ hamma0%>s
 
 "d2n"
 !! __@RULENAME@__
  d:n <=> n _ %^WGStem: ;
+ n _ Vow: %^Pen: %^WGStem: ;
 
 "dTol"
 !! __@RULENAME@__
@@ -653,9 +662,9 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 !! __@RULENAME@__
  t:d <=>
  Vow _ s (ʼ:) %^WGStem: ;
-         Vow _ [Vow: %^PenWGStem:|%^WGStem: (%>) :Vow ] ;
+         Vow _ [Vow: %^Pen: %^WGStem:|%^WGStem: (%>) :Vow ] ;
 !! kaotama+V+Act+Ind+Prs+Sg1: 
-!€ kaota%^PenWGStem
+!€ kaota%^Pen%^WGStem
 !€ kaoda0
 
 !2015-09-02 Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ [%> | # | :Vow ] ;
@@ -663,9 +672,9 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 
 "nTod"
 !! __@RULENAME@__
- n:d <=> n _ õ: l %^PenVowRM: ;
+ n:d <=> n _ õ: l %^Pen: %^VowRM: ;
 
-!€ kannõl%^PenVowRM%>õ
+!€ kannõl%^Pen%^VowRM%>õ
 !€ kand0l0%>õ
 
 
@@ -678,10 +687,10 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
  k:g <=> Vow _ %^WGStem: ;
 !€ hõrak%^WGStem%>a
 !€ hõrag0%>a
-     Vow _ Vow Cns:+ (ʼ:) %^PenWGStem: ;
-!€ süküs%^PenWGStem%>e
+     Vow _ Vow Cns:+ (ʼ:) %^Pen: %^WGStem: ;
+!€ süküs%^Pen%^WGStem%>e
 !€ sügüs0%>e
-!€ nõkõs0ʼ%^PenWGStem%^StrGStem%>õ
+!€ nõkõs0ʼ%^Pen%^WGStem%^StrGStem%>õ
 !€ nõgõss000%>õ
 
 "gTok"
@@ -691,8 +700,8 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
     Vow _ 0: Vow: %^XStrGStem: ;
 !€ ig0ä%^XStrGStem
 !€ ikkä0
-   Vow _ Vow: [ l | r ] %^StrGStem: %^PenVowRM: ;
-!€ kogõr%^StrGStem%^PenVowRM%>õ
+   Vow _ Vow: [ l | r ] %^StrGStem: %^Pen: %^VowRM: ;
+!€ kogõr%^StrGStem%^Pen%^VowRM%>õ
 !€ kok0r00%>õ
 
 
@@ -726,8 +735,8 @@ k:0 <=> h _ Vow: s %^PenWGStem: ;
 !! !Other marks
 "ʼ:0"
 !! __@RULENAME@__
- ʼ:0 <=>  :Cns _ (%^WGStem:|%^PenWGStem:) (%^StrGStem:|%^TS2S:) %> [:Vow|t] ;
+ ʼ:0 <=>  :Cns _ (%^WGStem:|%^Pen: %^WGStem:) (%^StrGStem:|%^TS2S:) %> [:Vow|t] ;
 !€ kipõnʼ%>a
 !€ kipõn0%>a
-!€ nõkõs0ʼ%^PenWGStem%^StrGStem%>õ
+!€ nõkõs0ʼ%^Pen%^WGStem%^StrGStem%>õ
 !€ nõgõss000%>õ

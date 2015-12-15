@@ -2,6 +2,6 @@
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="vro">
-<e> <lg> <l>aiteh</l> <stg> <st Contlex="InterjTag">aiteh</st> </stg> <stress>aiteh</stress> </lg> <pos>INTERJ</pos> <mg> <m> <head/> </m> <tg lang="est"> <t>aitäh</t> </tg> </mg> </e>
-<e> <lg> <l>aitjumma</l> <stg> <st Contlex="InterjTag">aitjumma</st> </stg> <stress>aitjumma</stress> </lg> <pos>INTERJ</pos> <mg> <m> <head/> <semRel lemmaID="ait'um(m)a" semRelType="synonym"/> </m> <tg lang="est"> <t>aituma, aitüma, aitäh</t> </tg> </mg> </e>
+<e> <lg> <l pos="Interj">aiteh</l> <stg> <st Contlex="INTERJ_">aiteh</st> </stg> <stress>aiteh</stress> </lg> <mg> <m> <head/> </m> <tg lang="est"> <t>aitäh</t> </tg> </mg> </e>
+<e> <lg> <l pos="Interj">aitjumma</l> <stg> <st Contlex="INTERJ_">aitjumma</st> </stg> <stress>aitjumma</stress> </lg> <mg> <m> <head/> <semRel lemmaID="ait'um(m)a" semRelType="synonym"/> </m> <tg lang="est"> <t>aituma, aitüma, aitäh</t> </tg> </mg> </e>
 </r>
