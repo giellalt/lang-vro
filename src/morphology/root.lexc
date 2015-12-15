@@ -446,6 +446,8 @@ i̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %^XStrGStem !!= __@CODE@__ This extra-strengthens "sõda" to "sõtta"
  %^NoGrad   !!≈  __@CODE@__
  %^WGStem !!= __@CODE@__ This weakens
+ %^Pen	      !!= @CODE@ This moves us to penultimate coda
+
 %^PenWGStem !!= @CODE@ This weakens "kipõnʼ" to "kibõna"
 
  %^PenVowRM !!= __@CODE@__ syncope tapõld : taplõma
@@ -519,6 +521,7 @@ LEXICON Root
 !! Incoming
   ADP_NEWWORDS ;           !!≈ * __@CODE@__
   ADV_NEWWORDS ;           !!≈ * __@CODE@__ 
+  INTERJ_NEWWORDS ;           !!≈ * __@CODE@__
   N_NEWWORDS ;           !!≈ * __@CODE@__
   PROP_NEWWORDS ;           !!≈ * __@CODE@__
 
@@ -530,7 +533,7 @@ LEXICON CC_
 +CC: K ;
 LEXICON CS_
 +CS: K ;
-LEXICON InterjTag
+LEXICON INTERJ_
 +Interj: K ;
 LEXICON NumTag
 +Qnt+Num: K ;

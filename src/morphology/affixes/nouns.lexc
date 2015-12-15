@@ -2801,16 +2801,16 @@ LEXICON NMN_35TARÕ !!= * @CODE@ tarõ:tarõ
 LEXICON NMN_35TARÕ-SG 
         BACK_SG-NOM  ;
        BACK_SG-GEN_ZERO-STEM        ;
-:%^StrGStem       BACK_SG-ILL_ZERO        ;  ! tarrõ
-:%^StrGStem       BACK_SG-PAR_ZERO        ;  ! tarrõ
+:%^Pen%^StrGStem       BACK_SG-ILL_ZERO        ;  ! tarrõ
+:%^Pen%^StrGStem       BACK_SG-PAR_ZERO        ;  ! tarrõ
 
 LEXICON NMN_35TARÕ-PL 
        BACK_PL-NOM ;		! tarõq
-:%^StrGStem%>i    BACK_PL-GEN_ZERO ;
-:%^StrGStem%>i    BACK_PL-PAR_ZERO ;
-:%^StrGStem%>i    BACK_PL-ILL_ZERO ;
-:%^StrGStem%>i    BACK_PL-ILL_hõ ;
-:%^StrGStem%>i  BACK_PL-ALL_lõ-STEM ;
+:%^Pen%^StrGStem%^VowRM%>i    BACK_PL-GEN_ZERO ;
+:%^Pen%^StrGStem%^VowRM%>i    BACK_PL-PAR_ZERO ;
+:%^Pen%^StrGStem%^VowRM%>i    BACK_PL-ILL_ZERO ;
+:%^Pen%^StrGStem%^VowRM%>i    BACK_PL-ILL_hõ ;
+:%^Pen%^StrGStem%^VowRM%>i  BACK_PL-ALL_lõ-STEM ;
 
 LEXICON NMN_NIMI
 !! nimi:nim
