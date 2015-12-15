@@ -642,7 +642,7 @@ LEXICON N_NIMI-SG
 LEXICON N_NIMI-PL
 +N: NMN_NIMI-PL ;
 
-LEXICON N_36HANGʼ !!= @CODE@ hangʼ:hangʼ
+LEXICON N_36HANGʼ !!= @CODE@ hangʼ:hang
         N_36HANGʼ-SG ;
 	N_36HANGʼ-PL ;
 LEXICON N_36HANGʼ-SG
@@ -650,7 +650,7 @@ LEXICON N_36HANGʼ-SG
 LEXICON N_36HANGʼ-PL
 +N:     NMN_36HANGʼ-PL ;
 
-LEXICON N_36SÄRGʼ !!= @CODE@ särgʼ:särgʼ
+LEXICON N_36SÄRGʼ !!= @CODE@ särgʼ:särg
         N_36SÄRGʼ-SG ;
         N_36SÄRGʼ-PL ;
 LEXICON N_36SÄRGʼ-SG
@@ -677,16 +677,16 @@ LEXICON N_KOGÕR-SG
 LEXICON N_KOGÕR-PL
 +N:     NMN_KOGÕR-PL ;
 
-LEXICON N_36SÕBÕR
+LEXICON N_46SÕBÕR
 !! sõbõr:sõbõr
 !! * Yaml: __N-swbwr36__
 !! derived from 36särgʼ
-        N_36SÕBÕR-SG ;
-        N_36SÕBÕR-PL ;
-LEXICON N_36SÕBÕR-SG
-+N:     NMN_36SÕBÕR-SG ;
-LEXICON N_36SÕBÕR-PL
-+N:     NMN_36SÕBÕR-PL ;
+        N_46SÕBÕR-SG ;
+        N_46SÕBÕR-PL ;
+LEXICON N_46SÕBÕR-SG
++N:     NMN_46SÕBÕR-SG ;
+LEXICON N_46SÕBÕR-PL
++N:     NMN_46SÕBÕR-PL ;
 
 
 LEXICON N_37PINI !!= @CODE@ pini:pini
@@ -2912,21 +2912,21 @@ LEXICON NMN_KOGÕR-PL
 
 :%^StrGStem%^PenVowRM%>i    BACK_PL-ILL_ZERO ;
 
-LEXICON NMN_36SÕBÕR !!= __@CODE@__
+LEXICON NMN_46SÕBÕR !!= __@CODE@__
 !! sõbõr:sõbõr
 !! * Yaml: __N-swbwr36__
 !! derived from 36SÄRGʼ
-  NMN_36SÕBÕR-SG ;
-  NMN_36SÕBÕR-PL ;
-LEXICON NMN_36SÕBÕR-SG 
+  NMN_46SÕBÕR-SG ;
+  NMN_46SÕBÕR-PL ;
+LEXICON NMN_46SÕBÕR-SG 
         BACK_SG-NOM  ;
 :%^StrGStem%^PenVowRM        BACK_SG-NOM  ;
 :%^PenVowRM%>a       BACK_SG-GEN_ZERO-STEM        ;
 :%^StrGStem%^PenVowRM%>a       BACK_SG-ILL_ZERO        ;
 :%^StrGStem%^PenVowRM%>a       BACK_SG-PAR_ZERO        ;
 
-LEXICON NMN_36SÕBÕR-PL 
-:%^PenVowRM       BACK_PL-NOM ;
+LEXICON NMN_46SÕBÕR-PL 
+:%^PenVowRM%>a       BACK_PL-NOM ;
 :%^StrGStem%^PenVowRM%>i    BACK_PL-GEN_ZERO ;
 :%^StrGStem%^PenVowRM%>i    BACK_PL-PAR_ZERO ;
 :%^StrGStem%^PenVowRM%>i  BACK_PL-ILL_hõ ;
