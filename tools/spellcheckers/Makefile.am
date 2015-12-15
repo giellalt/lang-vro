@@ -53,6 +53,7 @@ generator-speller-gt-norm.xfst: analyser-speller-gt-norm.tmp.xfst \
 		.o. @\"$(top_builddir)/src/filters/remove-modifier-letter-grave-accent.xfst\"      \
 		.o. @\"$(top_builddir)/src/filters/remove-combining-circumflex-accent-below.xfst\" \
 		    ;\n\
+		invert \n\
 		save stack $@\n\
 		quit\n" | $(XFST) $(VERBOSITY)
 
@@ -66,7 +67,6 @@ analyser-speller-gt-norm.xfst: analyser-speller-gt-norm.tmp.xfst \
 		.o. @\"$(top_builddir)/src/filters/remove-modifier-letter-grave-accent.xfst\"      \
 		.o. @\"$(top_builddir)/src/filters/remove-combining-circumflex-accent-below.xfst\" \
 		;\n\
-		invert \n\
 		save stack $@\n\
 		quit\n" | $(XFST) $(VERBOSITY)
 
@@ -80,6 +80,7 @@ generator-speller-gt-norm.foma: analyser-speller-gt-norm.tmp.foma \
 		.o. @\"$(top_builddir)/src/filters/remove-modifier-letter-grave-accent.foma\"      \
 		.o. @\"$(top_builddir)/src/filters/remove-combining-circumflex-accent-below.foma\" \
 		;\n\
+		invert \n\
 		save stack $@\n\
 		quit\n" | $(FOMA) $(VERBOSITY)
 
@@ -93,7 +94,6 @@ analyser-speller-gt-norm.foma: analyser-speller-gt-norm.tmp.foma \
 		.o. @\"$(top_builddir)/src/filters/remove-modifier-letter-grave-accent.foma\"      \
 		.o. @\"$(top_builddir)/src/filters/remove-combining-circumflex-accent-below.foma\" \
 		;\n\
-		invert \n\
 		save stack $@\n\
 		quit\n" | $(FOMA) $(VERBOSITY)
 
