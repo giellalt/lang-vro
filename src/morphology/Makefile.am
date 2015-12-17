@@ -32,6 +32,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/interjections_newwords.lexc     \
 			 stems/nouns_newwords.lexc     \
 			 stems/propernouns_newwords.lexc     \
+			 stems/verbs_newwords.lexc     \
 			 clitics.lexc               \
 			 affixes/adjectives.lexc    \
 			 affixes/adverbs.lexc       \

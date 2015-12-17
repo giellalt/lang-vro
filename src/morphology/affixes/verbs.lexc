@@ -319,19 +319,19 @@ LEXICON V_56HEIKELEMÄ !!≈ * __@CODE@__ heikelemä:heikel
 LEXICON V_57TAPLÕMA
 !! taplõma:tapõl
 !! * Yaml: __taplwma57__
-+V:%^PenVowRMõ BACK_V0-IND-PRS-SC-12 ;
++V:%^Pen%^VowRMõ BACK_V0-IND-PRS-SC-12 ;
 +V:õ BACK_ACT-IND-PRS-CONNEG ;
-+V:%^PenVowRMõ BACK_ACT-IND-PRS-SC3_s ;
++V:%^Pen%^VowRMõ BACK_ACT-IND-PRS-SC3_s ;
 +V: BACK_VISKAMA_PSS-IND-PRS ;
 
-+V:%^PenVowRM V0-IND-PRT-SC-12_i ;
++V:%^Pen%^VowRM V0-IND-PRT-SC-12_i ;
 +V:õ BACK_ACT-IND-PRT-CONNEG ;
 +V: BACK_IND-PRT-SCSG3_APOSTROPHE ;
 +V: BACK_ACT-IND-PRT-SCPL3_vaq ;
 +V: BACK_VISKAMA_PSS-IND-PRT_ti ;
 
-+V:%^PenVowRMõ BACK_V2N_minõ ;
-+V:%^PenVowRMõ BACK_INF_ma ;
++V:%^Pen%^VowRMõ BACK_V2N_minõ ;
++V:%^Pen%^VowRMõ BACK_INF_ma ;
 +V: BACK_INF_daq ;
 +V:õ BACK_ACT-PRS-PRC_v ;
 +V:%^VOWLower BACK_ACT-PRF-PRC_WEAKGRADE-nuq ;
@@ -342,18 +342,18 @@ LEXICON V_57TAPLÕMA
 LEXICON V_57KIIRDLEMÄ 
 !! kiirdlemä:tapõl
 !! * Yaml: __kiirdlemae57__
-+V:%^PenVowRMe FRONT_V0-IND-PRS-SC-12 ;
++V:%^Pen%^VowRMe FRONT_V0-IND-PRS-SC-12 ;
 +V:e FRONT_ACT-IND-PRS-CONNEG ;
-+V:%^PenVowRMe FRONT_ACT-IND-PRS-SC3_s ;
++V:%^Pen%^VowRMe FRONT_ACT-IND-PRS-SC3_s ;
 +V: FRONT_VISKAMA_PSS-IND-PRS ;
 
-+V:%^PenVowRM V0-IND-PRT-SC-12_i ;
++V:%^Pen%^VowRM V0-IND-PRT-SC-12_i ;
 +V:e FRONT_ACT-IND-PRT-CONNEG ;
 +V: FRONT_IND-PRT-SCSG3_APOSTROPHE ;
 +V: FRONT_ACT-IND-PRT-SCPL3_väq ;
 +V: FRONT_VISKAMA_PSS-IND-PRT_ti ;
 
-+V:%^PenVowRMe FRONT_INF_mä ;
++V:%^Pen%^VowRMe FRONT_INF_mä ;
 +V: FRONT_INF_däq ;
 +V:e FRONT_ACT-PRS-PRC_v ;
 +V:%^VOWLower FRONT_ACT-PRF-PRC_WEAKGRADE-nüq ;
@@ -383,7 +383,7 @@ LEXICON V_58HIRNAHTAMA !!≈ * __@CODE@__ hirnahtama:hirnahta
 
 LEXICON V_59KAOTAMA !!≈ * __@CODE@__ kaotama:kaota
 !!
-+V:%^PenWGStem BACK_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ; !!= * @CODE@ +Act+Ind+Prs+Sg1: kaoda
++V:%^Pen%^WGStem BACK_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ; !!= * @CODE@ +Act+Ind+Prs+Sg1: kaoda
 !! +Act+Ind+Prs+Sg1, +Act+Ind+ConNegII
 
 +V: BACK_ACT-IND-PRS-SG2_USUALLY-STRONG ;
@@ -393,7 +393,7 @@ LEXICON V_59KAOTAMA !!≈ * __@CODE@__ kaotama:kaota
 +V: BACK_ACT-IND-PRS-SC3_s ;
 !! +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
 
-+V:%^PenWGStem%^VowRM%>i   BACK_ACT-IND-PRT-SG1_ZERO_USUALLY-WEAK ;
++V:%^Pen%^WGStem%^VowRM%>i   BACK_ACT-IND-PRT-SG1_ZERO_USUALLY-WEAK ;
 !! +Act+Ind+Prt+Sg1, +Use/NG+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
 
 +V:%^VowRM%>i BACK_ACT-IND-PRT-SG2_USUALLY-STRONG ;
@@ -424,7 +424,7 @@ LEXICON V_59KERGÜTÄMÄ
 !! Based on 59KAOTAMA
 !! * Yaml: __kerguetaemae__
 !!
-+V:%^PenWGStem FRONT_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ;
++V:%^Pen%^WGStem FRONT_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ;
 !! +Act+Ind+Prs+Sg1, +Act+Ind+ConNegII
 
 +V: FRONT_ACT-IND-PRS-SG2_USUALLY-STRONG ;
@@ -434,7 +434,7 @@ LEXICON V_59KERGÜTÄMÄ
 +V: FRONT_ACT-IND-PRS-SC3_s ;
 !! +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
 
-+V:%^PenWGStem%^VowRM%>i   FRONT_ACT-IND-PRT-SG1_ZERO_USUALLY-WEAK ;
++V:%^Pen%^WGStem%^VowRM%>i   FRONT_ACT-IND-PRT-SG1_ZERO_USUALLY-WEAK ;
 !! +Act+Ind+Prt+Sg1, +Use/NG+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
 
 +V:%^VowRM%>i FRONT_ACT-IND-PRT-SG2_USUALLY-STRONG ;
@@ -751,18 +751,18 @@ LEXICON V_63HINGÄMÄ !!≈ * __@CODE@__ hingämä:hingä
 LEXICON V_64PUHKSAMA
 ! puhksama:puhkas
 !! * Yaml: __V-puhksama64__
-+V:%^PenVowRM%>a BACK_V0-IND-PRS-SC-12 ;
++V:%^Pen%^VowRM%>a BACK_V0-IND-PRS-SC-12 ;
 +V: BACK_ACT-IND-PRS-CONNEG ;
-+V:%^PenVowRM%>a BACK_ACT-IND-PRS-SC3_s ;
++V:%^Pen%^VowRM%>a BACK_ACT-IND-PRS-SC3_s ;
 +V: BACK_VISKAMA_PSS-IND-PRS ;
 
-+V:%^PenVowRM V0-IND-PRT-SC-12_si-NO-s ;
++V:%^Pen%^VowRM V0-IND-PRT-SC-12_si-NO-s ;
 +V: BACK_ACT-IND-PRT-CONNEG ;
 +V:%^WGStem BACK_IND-PRT-SC3_sʼ-NO-s ;
 +V: BACK_VISKAMA_PSS-IND-PRT_ti ;
 
 +V: BACK_V2N_minõ ;
-+V:%^PenVowRM%>a BACK_INF_ma ;
++V:%^Pen%^VowRM%>a BACK_INF_ma ;
 +V:%^WGStem BACK_INF_taq ;
 +V:a BACK_ACT-PRS-PRC_v ;
 +V: BACK_ACT-PRF-PRC_WEAKGRADE-nuq ;
@@ -772,18 +772,18 @@ LEXICON V_64PUHKSAMA
 LEXICON V_64REHKSÄMÄ
 ! rehksämä:rehkäs
 !! * Yaml: __V-rehksaemae64__
-+V:%^PenVowRM%>ä FRONT_V0-IND-PRS-SC-12 ;
++V:%^Pen%^VowRM%>ä FRONT_V0-IND-PRS-SC-12 ;
 +V: FRONT_ACT-IND-PRS-CONNEG ;
-+V:%^PenVowRM%>ä FRONT_ACT-IND-PRS-SC3_s ;
++V:%^Pen%^VowRM%>ä FRONT_ACT-IND-PRS-SC3_s ;
 +V: FRONT_VISKAMA_PSS-IND-PRS ;
 
-+V:%^PenVowRM V0-IND-PRT-SC-12_si-NO-s ;
++V:%^Pen%^VowRM V0-IND-PRT-SC-12_si-NO-s ;
 +V: FRONT_ACT-IND-PRT-CONNEG ;
 +V:%^WGStem FRONT_IND-PRT-SC3_sʼ-NO-s ;
 +V: FRONT_VISKAMA_PSS-IND-PRT_ti ;
 
 +V: FRONT_V2N_mine ;
-+V:%^PenVowRM%>ä FRONT_INF_mä ;
++V:%^Pen%^VowRM%>ä FRONT_INF_mä ;
 +V:%^WGStem FRONT_INF_täq ;
 +V:ä FRONT_ACT-PRS-PRC_v ;
 +V: FRONT_ACT-PRF-PRC_WEAKGRADE-nüq ;
