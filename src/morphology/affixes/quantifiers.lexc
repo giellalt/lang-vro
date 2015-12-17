@@ -3,15 +3,19 @@
 !! The Võro language quantifiers inflect in cases.
 
 !35
-!ütsʼ:
-LEXICON Num-35
-+Num: # ;
+!ütsʼ:üt
+LEXICON NUM_35ÜTSʼ
++Num+Card:sʼ FRONT_SG-NOM ;
++Num+Card:e FRONT_SG-GEN_ZERO-STEM ;
++Num+Card:e%^Pen%^StrGStem FRONT_SG-PAR_ZERO ;
+
 
 !49
-!kuusʼ:
-LEXICON Num-49
-+Num: # ;
-
+!kuusʼ:kuud
+LEXICON NUM_20KUUSʼ
++Num+Card:%^D2Sʼ BACK_SG-NOM  ;
++Num+Card:%^WGStem%>õ BACK_SG-GEN_ZERO-STEM  ;
++Num+Card:%^StrD2T BACK_SG-PAR_t  ;
 
 ! vim: set ft=xfst-lexc:
 
