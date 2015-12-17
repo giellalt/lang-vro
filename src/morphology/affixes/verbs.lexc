@@ -1108,14 +1108,14 @@ LEXICON V_75JÄRÄMÄ !!≈ * __@CODE@__ järämä:järä
 
 LEXICON V_76HIGOMA !!≈ * __@CODE@__ higoma:higo
 !! * Yaml: __V-higoma76__
-+V:%^WGStem BACK_V0-IND-PRS-SC-12 ;
++V:%^Pen%^WGStem BACK_V0-IND-PRS-SC-12 ;
 +V: BACK_ACT-IND-PRS-CONNEG ;
 +V: V0-IND-PRS-SCSG3_ZERO ;
 +V: BACK_V0-IND-PRS-SCPL3_iaq ;
 +V: BACK_VISKAMA_PSS-IND-PRS ;
 
-+V:%^VOWLower%^WGStem%^VowRM V0-IND-PRT-SC-12_i ;
-+V:%^VOWLower%^WGStem%^VowRM BACK_IND-PRT-SCSG1_iõ ;
++V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM V0-IND-PRT-SC-12_i ;
++V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM BACK_IND-PRT-SCSG1_iõ ;
 +V: BACK_ACT-IND-PRT-CONNEG ;
 +V:%^VowRM V0-IND-PRT-SCSG3_i ;
 +V: BACK_VISKAMA_PSS-IND-PRT_ti ;
@@ -1124,8 +1124,8 @@ LEXICON V_76HIGOMA !!≈ * __@CODE@__ higoma:higo
 +V:%^StrGStem BACK_INF_ZEROq ;
 +V: BACK_ACT-PRS-PRC_v ;
 +V: BACK_ACT-PRF-PRC_nuq ;
-+V:%^VOWLower%^WGStem%^VowRM%>õ BACK_V0-PSS-PRS-PRC_tav ;
-+V:%^VOWLower%^WGStem%^VowRM%>õ BACK_PSS-PRF-PRC_t ;
++V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>õ BACK_V0-PSS-PRS-PRC_tav ;!CHECKME
++V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>õ BACK_PSS-PRF-PRC_t ;
 
 LEXICON V_76PÜGÄMÄ !!≈ * __@CODE@__ pügämä:pügä
 !! * Yaml: __V-puegaemae76__

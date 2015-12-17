@@ -672,16 +672,25 @@ LEXICON N_35TARÕ-SG
 +N: NMN_35TARÕ-SG ;
 LEXICON N_35TARÕ-PL
 +N: NMN_35TARÕ-PL ;
-+N+Sg+Nom+WORK: K ;
 
-LEXICON N_NIMI
+LEXICON N_35PESÄ
+!! pesä:tar
+ N_35PESÄ-SG ;
+ N_35PESÄ-PL ;
+LEXICON N_35PESÄ-SG
++N: NMN_35PESÄ-SG ;
+LEXICON N_35PESÄ-PL
++N: NMN_35PESÄ-PL ;
+
+
+LEXICON N_35NIMI
 !! nimi:nim
- N_NIMI-SG ;
- N_NIMI-PL ;
-LEXICON N_NIMI-SG
-+N: NMN_NIMI-SG ;
-LEXICON N_NIMI-PL
-+N: NMN_NIMI-PL ;
+ N_35NIMI-SG ;
+ N_35NIMI-PL ;
+LEXICON N_35NIMI-SG
++N: NMN_35NIMI-SG ;
+LEXICON N_35NIMI-PL
++N: NMN_35NIMI-PL ;
 
 LEXICON N_36HANGʼ !!= @CODE@ hangʼ:hang
         N_36HANGʼ-SG ;
@@ -2977,18 +2986,36 @@ LEXICON NMN_35TARÕ-PL
 :%^Pen%^StrGStem%^VowRM%>i    BACK_PL-ILL_hõ ;
 :%^Pen%^StrGStem%^VowRM%>i  BACK_PL-ALL_lõ-STEM ;
 
-LEXICON NMN_NIMI
+LEXICON NMN_35PESÄ !!= * @CODE@ pesä:pesä
+!külä
+  NMN_35PESÄ-SG ;
+  NMN_35PESÄ-PL ;
+LEXICON NMN_35PESÄ-SG 
+        FRONT_SG-NOM  ;
+       FRONT_SG-GEN_ZERO-STEM        ;
+:%^Pen%^StrGStem       FRONT_SG-ILL_ZERO        ;  ! pessä
+:%^Pen%^StrGStem       FRONT_SG-PAR_ZERO        ;  ! pessä
+
+LEXICON NMN_35PESÄ-PL 
+       FRONT_PL-NOM ;		! pesäq
+:%^Pen%^StrGStem%^VowRM%>i    FRONT_PL-GEN_ZERO ;
+:%^Pen%^StrGStem%^VowRM%>i    FRONT_PL-PAR_ZERO ;
+:%^Pen%^StrGStem%^VowRM%>i    FRONT_PL-ILL_ZERO ;
+:%^Pen%^StrGStem%^VowRM%>i    FRONT_PL-ILL_he ;
+:%^Pen%^StrGStem%^VowRM%>i  FRONT_PL-ALL_le-STEM ;
+
+LEXICON NMN_35NIMI
 !! nimi:nim
 !! * Yaml: __N-nimi__
-  NMN_NIMI-SG ;
-  NMN_NIMI-PL ;
-LEXICON NMN_NIMI-SG 
+  NMN_35NIMI-SG ;
+  NMN_35NIMI-PL ;
+LEXICON NMN_35NIMI-SG 
 :i        FRONT_SG-NOM  ;
 :e        FRONT_SG-GEN_ZERO-STEM       ;
 :%^StrGStem%>e        FRONT_SG-PAR_ZERO        ;
 :%^StrGStem%>e        FRONT_SG-ILL_ZERO       ;
 
-LEXICON NMN_NIMI-PL 
+LEXICON NMN_35NIMI-PL 
 :e        FRONT_PL-NOM ;
 :%^StrGStem%>i     FRONT_PL-GEN_ZERO ;
 :%^StrGStem%>i        FRONT_PL-ILL_he       ;
@@ -3063,19 +3090,19 @@ LEXICON NMN_KOGÕR !!= __@CODE@__
   NMN_KOGÕR-PL ;
 LEXICON NMN_KOGÕR-SG 
         BACK_SG-NOM  ;
-:%^StrGStem%^Pen%^VowRM        BACK_SG-NOM  ;
+:%^Pen%^StrGStem%^Pen%^VowRM        BACK_SG-NOM  ;
 :%^Pen%^VowRM%>õ       BACK_SG-GEN_ZERO-STEM        ;
-:%^StrGStem%^Pen%^VowRM%>õ       BACK_SG-ILL_ZERO        ;
-:%^StrGStem%^Pen%^VowRM%>õ       BACK_SG-PAR_ZERO        ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>õ       BACK_SG-ILL_ZERO        ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>õ       BACK_SG-PAR_ZERO        ;
 
 LEXICON NMN_KOGÕR-PL 
 :%^Pen%^VowRM       BACK_PL-NOM ;
-:%^StrGStem%^Pen%^VowRM%>i    BACK_PL-GEN_ZERO ;
-:%^StrGStem%^Pen%^VowRM%>i    BACK_PL-PAR_ZERO ;
-:%^StrGStem%^Pen%^VowRM%>i  BACK_PL-ILL_hõ ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>i    BACK_PL-GEN_ZERO ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>i    BACK_PL-PAR_ZERO ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>i  BACK_PL-ILL_hõ ;
 :%^Pen%^VowRM%>i  BACK_PL-ALL_lõ-STEM ;
 
-:%^StrGStem%^Pen%^VowRM%>i    BACK_PL-ILL_ZERO ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>i    BACK_PL-ILL_ZERO ;
 
 LEXICON NMN_46SÕBÕR !!= __@CODE@__
 !! sõbõr:sõbõr
@@ -3085,16 +3112,16 @@ LEXICON NMN_46SÕBÕR !!= __@CODE@__
   NMN_46SÕBÕR-PL ;
 LEXICON NMN_46SÕBÕR-SG 
         BACK_SG-NOM  ;
-:%^StrGStem%^Pen%^VowRM        BACK_SG-NOM  ;
+:%^Pen%^StrGStem%^Pen%^VowRM        BACK_SG-NOM  ;
 :%^Pen%^VowRM%>a       BACK_SG-GEN_ZERO-STEM        ;
-:%^StrGStem%^Pen%^VowRM%>a       BACK_SG-ILL_ZERO        ;
-:%^StrGStem%^Pen%^VowRM%>a       BACK_SG-PAR_ZERO        ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>a       BACK_SG-ILL_ZERO        ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>a       BACK_SG-PAR_ZERO        ;
 
 LEXICON NMN_46SÕBÕR-PL 
 :%^Pen%^VowRM%>a       BACK_PL-NOM ;
-:%^StrGStem%^Pen%^VowRM%>i    BACK_PL-GEN_ZERO ;
-:%^StrGStem%^Pen%^VowRM%>i    BACK_PL-PAR_ZERO ;
-:%^StrGStem%^Pen%^VowRM%>i  BACK_PL-ILL_hõ ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>i    BACK_PL-GEN_ZERO ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>i    BACK_PL-PAR_ZERO ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>i  BACK_PL-ILL_hõ ;
 :%^Pen%^VowRM%>i  BACK_PL-ALL_lõ-STEM ;
 
 :%^StrGStem%^Pen%^VowRM%>i    BACK_PL-ILL_ZERO ;
@@ -3105,18 +3132,18 @@ LEXICON NMN_37PINI
   NMN_37PINI-PL ;
 LEXICON NMN_37PINI-SG 
         FRONT_SG-NOM  ;
-:%^WGStem       FRONT_SG-GEN_ZERO-STEM        ;
-:%^StrGStem       FRONT_SG-ILL_ZERO        ;
-:%^StrGStem       FRONT_SG-PAR_ZERO        ;
+:%^Pen%^WGStem       FRONT_SG-GEN_ZERO-STEM        ;
+:%^Pen%^StrGStem       FRONT_SG-ILL_ZERO        ;
+:%^Pen%^StrGStem       FRONT_SG-PAR_ZERO        ;
 
 LEXICON NMN_37PINI-PL 
-:%^WGStem       FRONT_PL-NOM ;
-:%^StrGStem%^PLPRT    FRONT_PL-GEN_ZERO ;
-:%^StrGStem%^PLPRT    FRONT_PL-PAR_ZERO ;
-:%^StrGStem%^PLPRT    FRONT_PL-ILL_ZERO ;
-:%^StrGStem%^PLPRT    FRONT_PL-ILL_he ;
-:%^StrGStem%^PLPRT  FRONT_PL-ALL_le-STEM ;
-:%^PLPRT  FRONT_PL-ALL_le-STEM ;
+:%^Pen%^WGStem       FRONT_PL-NOM ;
+:%^Pen%^StrGStem%^PLPRT    FRONT_PL-GEN_ZERO ;
+:%^Pen%^StrGStem%^PLPRT    FRONT_PL-PAR_ZERO ;
+:%^Pen%^StrGStem%^PLPRT    FRONT_PL-ILL_ZERO ;
+:%^Pen%^StrGStem%^PLPRT    FRONT_PL-ILL_he ;
+:%^Pen%^StrGStem%^PLPRT  FRONT_PL-ALL_le-STEM ;
+:%^Pen%^PLPRT  FRONT_PL-ALL_le-STEM ;
 
 
 LEXICON NMN_38PUNG
