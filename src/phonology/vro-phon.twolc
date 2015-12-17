@@ -160,7 +160,7 @@ IL = [ # Cns* Vow : Cns:+ | Cns* Vow+ Cns:+  Vow:+ Cns:+  ] ;
 !! Right context for gradation
 GRC =  [ [ Vow: | :Vow ]  ( %> i ) |  %>  i ] %> %^WCns:0  ;
 
-PenBetweenStemAndStemFinal = [(%^PenWGStem:)] ;
+PenBetweenStemAndStemFinal = [(%^Pen: %^WGStem:)] ;
 
 !! !!!Rules
 
@@ -297,14 +297,14 @@ Rules
 !! !VOWEL LOSS
 "a:0"
 !! __@RULENAME@__
- a:0 <=>  Cns: _ [ (%^StrGStem:|%^PenWGStem:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+ a:0 <=>  Cns: _ [ (%^StrGStem:|%^Pen: %^WGStem:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
       a _ %>  i  ; !!= @CODE@ 
 !€ saa%>i
 !€ sa0%>i
 !€ sõima0%^VowRM%>si
 !€ sõim0s0%>si
-  Cns:  _ Cns: (ʼ:) %^PenVowRM: ;
-!€ puhkas%^PenVowRM%>a%>ma
+  Cns:  _ Cns: (ʼ:) %^Pen: %^VowRM: ;
+!€ puhkas%^Pen%^VowRM%>a%>ma
 !€ puhk0s0%>a%>ma
 
 
@@ -314,8 +314,8 @@ Rules
  ä _ %>  i  ; !!= @CODE@ 
 !€ elä%>et
 !€ el0%>et
-  Cns: _ Cns: (ʼ:) %^PenVowRM: ;
-!€ tütär%^PenVowRM%>e
+  Cns: _ Cns: (ʼ:) %^Pen: %^VowRM: ;
+!€ tütär%^Pen%^VowRM%>e
 !€ tüt0r0%>e
 
 "u:0"
@@ -345,7 +345,7 @@ Rules
 "e:0"
 !! __@RULENAME@__
  e:0 <=>  [ Cns: | :Cns ] _ [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
-           [ Cns: | :Cns ] _ l %^PenVowRM:  ;
+           [ Cns: | :Cns ] _ l %^Pen: %^VowRM:  ;
 
 "o:0"
 !! __@RULENAME@__
@@ -353,7 +353,7 @@ Rules
 
 "i:0"
 !! __@RULENAME@__
- i:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:|%^TS2S:) %^VowRM: (õ|e) | Cns:0 %^PenVowRM: %^CnsRM: ]  %> ; 
+ i:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:|%^TS2S:) %^VowRM: (õ|e) | Cns:0 %^Pen: %^VowRM: %^CnsRM: ]  %> ; 
 !! hüdsi+N+Sg+Par:
 !€ hüdsi%^TS2S%^VowRM%>t
 !€ hü0s000%>t
@@ -370,12 +370,12 @@ Rules
 
 "õ:0"
 !! __@RULENAME@__
- õ:0 <=>  [ Cns: | :Cns ] _ [ l | r ] (%^StrGStem:) %^PenVowRM:  ;
-!€ tapõl%^PenVowRMõ%>ma
+ õ:0 <=>  [ Cns: | :Cns ] _ [ l | r ] (%^StrGStem:) %^Pen: %^VowRM:  ;
+!€ tapõl%^Pen%^VowRMõ%>ma
 !€ tap0l0õ%>ma
-!€ kannõl%^StrGStem%^PenVowRM%>õ
+!€ kannõl%^StrGStem%^Pen%^VowRM%>õ
 !€ kand0l00%>õ
-!€ kogõr%^StrGStem%^PenVowRM%>õ
+!€ kogõr%^StrGStem%^Pen%^VowRM%>õ
 !€ kok0r00%>õ
    _ (%^WGStem:|%^StrGStem:) %^VowRM:  ;
 !€ hammõ%^WGStem%^VowRM%>ihe
@@ -416,7 +416,7 @@ Rules
 !€ asi%^I2J%>a
 !€ asj0%>a
          Vow: _ PenBetweenStemAndStemFinal %^I2J: ;
-!€ elläi%^PenWGStem%^I2J%>ä
+!€ elläi%^Pen%^WGStem%^I2J%>ä
 !€ el0äj00%>ä
 !         Cns _ %^StrGStem: %> :Vow ;
 
