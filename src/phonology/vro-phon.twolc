@@ -160,7 +160,10 @@ IL = [ # Cns* Vow : Cns:+ | Cns* Vow+ Cns:+  Vow:+ Cns:+  ] ;
 !! Right context for gradation
 GRC =  [ [ Vow: | :Vow ]  ( %> i ) |  %>  i ] %> %^WCns:0  ;
 
+PenBetweenStemAndPenGrade = [(%^Pen: %^VOWLower:)] ;
+
 PenBetweenStemAndStemFinal = [(%^Pen: %^WGStem:)] ;
+
 
 !! !!!Rules
 
@@ -177,6 +180,9 @@ Rules
  u:o <=>
    u: _ %^VOWLower: ;
  OnSetC   _ u: %^VOWLower: ;
+ OnSetC _ Cns:+ Vow: %^Pen: %^VOWLower: ;
+!€ lugõ%^Pen%^VOWLower%^WGStem%^VowRM%>i
+!€ lo000000%>i
 
 "ü:ö"
 !! __@RULENAME@__
@@ -377,7 +383,7 @@ Rules
 !€ kand0l00%>õ
 !€ kogõr%^StrGStem%^Pen%^VowRM%>õ
 !€ kok0r00%>õ
-   _ (%^WGStem:|%^StrGStem:) %^VowRM:  ;
+ Cns: _ (%^Pen: %^VOWLower: %^Pen: %^WGStem:|%^WGStem:|%^StrGStem:) %^VowRM:  ;
 !€ hammõ%^WGStem%^VowRM%>ihe
 !€ ham0000%>ihe
 
@@ -461,7 +467,7 @@ Rules
 "0:m"
 !! __@RULENAME@__
  0:m <=>
-         Vow m _ (Vow:) %^StrGStem: ;
+         Vow m _ (Vow: %^Pen:) %^StrGStem: ;
 !!nimi+N+Sg+Par __name__
 !€ nim0%^StrGStem%>e
 !€ nimm0%>e
@@ -469,7 +475,7 @@ Rules
 "0:p"
 !! __@RULENAME@__
 !! {{{
- 0:p <=> Vow b: _ Vow: %^XStrGStem: ;
+ 0:p <=> Vow b: _ Vow: %^Pen: %^XStrGStem: ;
 !€ häb0ü%^XStrGStem
 !€ häppü00
 !! }}}
@@ -480,7 +486,7 @@ Rules
  0:v <=> Vow %^V7: _ Vow: %^StrGStem: ;
 !€ hä%^V70ö%^StrGStem%>i
 !€ hävvü0%>0
- Vow v _ Vow: %^StrGStem: ;
+ Vow v _ Vow: %^Pen: %^StrGStem: ;
 !€ kiv0i%^StrGStem
 !€ kivvi0
 !! }}}
@@ -488,14 +494,14 @@ Rules
 
 "0:n"
 !! __@RULENAME@__
- 0:n <=> Vow n _ Vow: %^StrGStem: ;
+ 0:n <=> Vow n _ Vow: %^Pen: %^StrGStem: ;
 
 !        Vow n _ :Vow %> j:i ;
 !	 Vow n _ %> i: (õ|e) [ %> | # ] ;
 
 "0:t"
 !! __@RULENAME@__
- 0:t <=> Vow d: _ Vow: %^XStrGStem: ;
+ 0:t <=> Vow d: _ Vow: %^Pen: %^XStrGStem: ;
 !€ sõd0a%^XStrGStem%^PLPRT
 !€ sõtto00
  t _ Vow: %^Pen: %^StrGStem: ;
@@ -510,7 +516,7 @@ Rules
    Vow s: _ (ʼ:) (%^Pen: %^WGStem:) %^StrGStem: ;
 !€ nõkõs0ʼ%^Pen%^WGStem%^StrGStem%>õ
 !€ nõgõss000%>õ
-   Vow s: _ Vow: %^StrGStem: ;
+   Vow s: _ Vow: %^Pen: %^StrGStem: ;
 !€ kos0i%^StrGStem%>q
 !€ kossi0%>q
 
@@ -528,10 +534,10 @@ Rules
 
 "0:k"
 !! __@RULENAME@__
- 0:k <=> Vow g: _ Vow: %^XStrGStem: ;
+ 0:k <=> Vow g: _ Vow: %^Pen: %^XStrGStem: ;
 !€ ig0ä%^XStrGStem
 !€ ikkä0
-   Vow k _ Vow: %^StrGStem: ;
+   Vow k _ Vow: %^Pen: %^StrGStem: ;
 !€ mak0õ%^StrGStem%^VowRM%>i%>dõ
 !€ makkõ00%>i%>dõ
 
@@ -564,27 +570,27 @@ k:0 <=> h _ Vow: s %^Pen: %^WGStem: ;
 
 "mToZero"
 !! __@RULENAME@__
- m:0 <=> m_ Vow: %^Pen: %^WGStem: ;
+ m:0 <=> m_ Vow: (Cns:* |i:) %^Pen: %^WGStem: ;
 !€ hammõ%^Pen%^WGStem%>h
 !€ ham0õ0%>h
 
 
 "lToZero"
 !! __@RULENAME@__
- l:0 <=> l _ Vow i: %^Pen: %^WGStem: ;
+ l:0 <=> l _ Vow (Cns:* |i:) %^Pen: %^WGStem: ;
 !€ elläi%^Pen%^WGStem%^I2J%>ä
 !€ el0äj00%>ä
          _ %{XC%}:l [õ|e] v %^Pen: %^WGStem: ;
 
 "rToZero"
 !! __@RULENAME@__
- r:0 <=> r _ Vow %^Pen: %^WGStem: ;
+ r:0 <=> r _ Vow: (Cns:* |i:) %^Pen: %^WGStem: ;
 !€ perre%^WGStem%>h
 !€ per0e0%>h
 
 "tToZero"
 !! __@RULENAME@__
- t:0 <=> [ h | t ] _ Vow %^Pen: %^WGStem: ;
+ t:0 <=> [ h | t ] _ Vow (Cns:* |i:) %^Pen: %^WGStem: ;
          Vow _ s (ʼ:|i:) %^TS2S: ;
 !! hüdsi+N+Sg+Par:
 !€ hüdsi%^TS2S%^VowRM%>t
@@ -717,18 +723,18 @@ k:0 <=> h _ Vow: s %^Pen: %^WGStem: ;
          Vow _ s (ʼ:|Vow:) %^TS2S: ;
 !€ hüdsi%^TS2S%^VowRM%>te
 !€ hü0s000%>te
-          Vow: _ Vow: %^WGStem: ;
+          Vow: _ Vow: PenBetweenStemAndPenGrade %^Pen: %^WGStem: ;
 
 "g20"
 !! __@RULENAME@__
- g:0 <=>  _ ( ʼ: ) %^WGStem: ;
+ g:0 <=> [Cns:|Vow:]  _ ( ʼ: ) %^WGStem: ;
 !€ särgʼ%^WGStem%>#
 !€ sär0e0%>0
- # Cns:*  Vow: _ [ õ|e |ä: ] (%^VOWLower:) %^WGStem: ;
-!€ igä%^WGStem
-!€ i0ä0
 !€ aig%^WGStem%>o
 !€ a000%>o
+   Vow: _ Vow: PenBetweenStemAndPenGrade %^Pen: %^WGStem: ;
+!€ igä%^Pen%^WGStem
+!€ i0ä00
  Vow l _ Vow %^WGStem: ;
 !€ palgõ%^WGStem%>h
 !€ pal0õ0%>h
