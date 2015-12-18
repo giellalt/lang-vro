@@ -1947,10 +1947,13 @@ LEXICON BACK_ACT-IND-PRS-CONNEG
 !+Act+Ind+ConNegII: BACK_K ;
 +Use/NG+Act+Ind+Prs+ConNeg:%-%{XV%}iq BACK_K ;
 +Use/NG+Act+Ind+ConNeg:%>q BACK_K ;
++Use/NG+Act+Ind+Prs+ConNeg:%-i BACK_K ; !!= * @CODE@ no vowel or q
+
 LEXICON FRONT_ACT-IND-PRS-CONNEG
 !+Act+Ind+ConNegII: FRONT_K ;
 +Use/NG+Act+Ind+Prs+ConNeg:%-%{XV%}iq FRONT_K ;
 +Use/NG+Act+Ind+ConNeg:%>q FRONT_K ;
++Use/NG+Act+Ind+Prs+ConNeg:%-i FRONT_K ; !!= * @CODE@ no vowel or q
 
 !! !JUS
 LEXICON MUTUAL_JUS !!= * @CODE@ regardless of harmony this is back
