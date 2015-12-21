@@ -5,6 +5,7 @@
 LEXICON V_EI
 +V+Neg+Prs:i # ;
 +V+Neg+Prt:s # ;
++V+Neg+Prt:siq # ;
 
 LEXICON V_48KASUMA
 !! There are other verbs here, cf. V_ELÄMÄ
@@ -384,7 +385,7 @@ LEXICON V_58HIRNAHTAMA !!≈ * __@CODE@__ hirnahtama:hirnahta
 LEXICON V_59KAOTAMA !!≈ * __@CODE@__ kaotama:kaota
 !!
 +V:%^Pen%^WGStem BACK_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ; !!= * @CODE@ +Act+Ind+Prs+Sg1: kaoda
-!! +Act+Ind+Prs+Sg1, +Act+Ind+ConNegII
+!! +Act+Ind+Prs+Sg1, +Act+Ind+ConNegII, +Act+Imprt+Sg2
 
 +V: BACK_ACT-IND-PRS-SG2_USUALLY-STRONG ;
 !! +Act+Ind+Prs+Sg2, +Use/NG+Act+Ind+Prs+Sg2, 
@@ -1893,9 +1894,12 @@ FRONT_ACT-IND-CONNEGII ;
 LEXICON BACK_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK
 +Act+Ind+Prs+Sg1: BACK_K ;
  BACK_ACT-IND-CONNEGII ;
++Act+Imprt+Sg2: BACK_K ;
+
 LEXICON FRONT_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK
 +Act+Ind+Prs+Sg1: FRONT_K ;
 FRONT_ACT-IND-CONNEGII ;
++Act+Imprt+Sg2:	 FRONT_K ;
 
 LEXICON BACK_ACT-IND-CONNEGII
 +Act+Ind+ConNegII: BACK_K ;
