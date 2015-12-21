@@ -1,0 +1,100 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - lugõma: # Verb (76) lugõma 'eng /est /fin' - full paradigm
+     lugõma+V+Inf/mA: lugõma
+     lugõma+V+Inf: [lukõq, lukeq]
+     lugõma+V+Act+PrfPrc: lugõnuq
+     lugõma+V+Pss+PrfPrc: loet
+
+
+##
+
+     lugõma+V+Act+Ind+Prs+Sg1: loe
+     lugõma+V+Act+Ind+Prs+Sg2: [loet, loedõq]
+     lugõma+V+Act+Ind+Prs+Sg3: lugõ
+     lugõma+V+Act+Ind+Prs+Pl1: loemiq
+     lugõma+V+Act+Ind+Prs+Pl2: loetiq
+     lugõma+V+Act+Ind+Prs+Pl3: lugõvaq
+     lugõma+V+Act+Ind+ConNegII: loe
+     lugõma+V+Act+Ind+Prt+Sg1: [loi, loie, lugõsi]
+#     lugõma+V+Act+Ind+Prt+Sg2: [kaotit, kaodiq, kaotidõq]
+     lugõma+V+Act+Ind+Prt+Sg3: lugi
+#     lugõma+V+Act+Ind+Prt+Pl1: kaotimiq
+#     lugõma+V+Act+Ind+Prt+Pl2: kaotitiq
+#     lugõma+V+Act+Ind+Prt+Pl3: [kaodiq, kaotivaq]
+
+#     lugõma+V+Pss+Ind+Prs+Sg1: kaotõda
+#     lugõma+V+Pss+Ind+Prs+Sg3: kaotõdas
+
+#     lugõma+V+Act+PrsPrc+Sg+Nom: kaotav
+
+#     lugõma+V+Jus: kaotaguq
+##
+#viskama => kaotama
+#     lugõma+V+Pss+Ind+Prs+Sg1: kaotõda
+#     lugõma+V+Pss+Ind+Prs+Sg2: [kaotõdat, kaotõdadõq]
+#     lugõma+V+Pss+Ind+Prs+Sg3: kaotõdas
+#     lugõma+V+Pss+Ind+Prs+Pl1: kaotõdamiq
+#     lugõma+V+Pss+Ind+Prs+Pl2: kaotõdatiq
+#     lugõma+V+Pss+Ind+Prs+Pl3: kaotõdasõq
+#     lugõma+V+Pss+Ind+Prs+ConNeg: kaotõda
+
+#     lugõma+V+Pss+Ind+Prt+Sg1: kaotõdi
+#     lugõma+V+Pss+Ind+Prt+Sg2: [kaotõdit, kaotõdiq, kaotõdidõq]
+#     lugõma+V+Pss+Ind+Prt+Sg3: kaotõdi
+#     lugõma+V+Pss+Ind+Prt+Pl1: kaotõdimiq
+#     lugõma+V+Pss+Ind+Prt+Pl2: kaotõditiq
+#     lugõma+V+Pss+Ind+Prt+Pl3: [kaotõdiq, kaotõdivaq]
+#     lugõma+V+Pss+Ind+Prt+ConNeg: kaotõda
+
+#     lugõma+V+Act+PrsPrc+Sg+Nom: kaotav
+#     lugõma+V+Act+PrsPrc+Sg+Gen: kaotava
+#     lugõma+V+Act+PrsPrc+Sg+Par: kaotavat
+#     lugõma+V+Act+PrsPrc+Sg+Ill: kaotavahe
+#     lugõma+V+Act+PrsPrc+Pl+Nom: kaotavaq
+#     lugõma+V+Act+PrsPrc+Pl+Gen: [kaotavidõ, kaotaviidõ]
+#     lugõma+V+Act+PrsPrc+Pl+Par: [kaotavit, kaotaviid]
+#     lugõma+V+Act+PrsPrc+Pl+Ill: [kaotavihe, kaotaviihe]
+                    
+#     lugõma+V+Pss+PrsPrc+Sg+Nom: kaotõdav
+#     lugõma+V+Pss+PrsPrc+Sg+Gen: kaotõdava
+#     lugõma+V+Pss+PrsPrc+Sg+Par: kaotõdavat
+#     lugõma+V+Pss+PrsPrc+Sg+Ill: kaotõdavahe
+#     lugõma+V+Pss+PrsPrc+Pl+Nom: kaotõdavaq
+#     lugõma+V+Pss+PrsPrc+Pl+Gen: [kaotõdavidõ, kaotõdaviidõ]
+#     lugõma+V+Pss+PrsPrc+Pl+Par: [kaotõdavit, kaotõdaviid]
+#     lugõma+V+Pss+PrsPrc+Pl+Ill: [kaotõdavihe, kaotõdaviihe]
+
+#     lugõma+V+Act+PrfPrc+Sg+Nom: kaotanuq
+#     lugõma+V+Act+PrfPrc+Sg+Gen: kaotanu
+#     lugõma+V+Act+PrfPrc+Sg+Par: kaotanut
+#     lugõma+V+Act+PrfPrc+Sg+Ill: kaotanuhe
+#     lugõma+V+Act+PrfPrc+Pl+Nom: kaotanuq
+#     lugõma+V+Act+PrfPrc+Pl+Gen: [kaotanuidõ, kaotanuisi]
+#     lugõma+V+Act+PrfPrc+Pl+Par: [kaotanuid, kaotanuisi]
+#     lugõma+V+Act+PrfPrc+Pl+Ill: [kaotanuihe, kaotanuisihe]
+
+#     lugõma+V+Pss+PrfPrc+Sg+Nom: kaotõt
+#     lugõma+V+Pss+PrfPrc+Sg+Gen: kaotõdu
+#     lugõma+V+Pss+PrfPrc+Sg+Par: kaotõdut
+#     lugõma+V+Pss+PrfPrc+Sg+Ill: kaotõduhe
+#     lugõma+V+Pss+PrfPrc+Pl+Nom: kaotõduq
+#     lugõma+V+Pss+PrfPrc+Pl+Gen: [kaotõduidõ, kaotõduisi]
+#     lugõma+V+Pss+PrfPrc+Pl+Par: [kaotõduid, kaotõduisi]
+#     lugõma+V+Pss+PrfPrc+Pl+Ill: [kaotõduihe, kaotõduisihe]

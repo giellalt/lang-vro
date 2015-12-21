@@ -20,7 +20,8 @@ LEXICON PERS-SG2
 
 LEXICON PERS-SG3
 +Pron+Pers+Sg3+Nom:imä K ;
-+Pron+Pers+Sg3+Abl:imälda K ; !! CHECKME vowel harmony
++Pron+Pers+Sg3+Abe:imäldäq FRONT_K ;
++Pron+Pers+Sg3+Abe:imälda K ; !! CHECKME vowel harmony
 +Pron+Pers+Sg3+Ade:imäl K ;
 +Pron+Pers+Sg3+Com:imägaq K ;
 +Err/Orth+Pron+Pers+Sg3+Com:imäga K ;
@@ -83,6 +84,14 @@ LEXICON PRON-DEM_NÄ
 +Pron+Pl+Nom: K ;
 +Pron+Pl+Nom:%>%{XV%}q K ;
 +Pron+Pl+Ade:il K ;
+
+LEXICON PRON-DEM_seo/taa
++Pron+Dem: BACK_SG-NOM ;
++Pron+Dem: BACK_SG-GEN_ZERO-STEM ;
++Pron+Dem: BACK_SG-PAR_d ;
+
+
+
 
 !! !INTERROGATIVE PRONOUNS
 LEXICON PRON-INTERR-HUM
