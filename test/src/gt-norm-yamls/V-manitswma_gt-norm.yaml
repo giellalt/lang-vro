@@ -19,22 +19,28 @@ Tests:
   Verb - manitsõma2: # Verb (61) manitsõma2 'eng /est /fin' - full paradigm
 # 60, 61
      manitsõma+V+Inf/mA: manitsõma
-# 60
-     manitsõma+V+Inf: manitsaq
-# 61
-     manitsõma+V+Inf: manidaq
-# 60
-     manitsõma+V+Act+PrfPrc: manitsnuq
-# 61
-     manitsõma+V+Act+PrfPrc: maninuq
-# 60
-     manitsõma+V+Pss+PrfPrc: manitsõt
-# 61
-     manitsõma+V+Pss+PrfPrc: manit
-# 60, 61
-     manitsõma+V+Act+Ind+Prs+Sg1: manidsõ
-     manitsõma+V+Act+Ind+Prs+Sg3: manitsõs
-     manitsõma+V+Act+Ind+Prt+Sg1: manidsi
-     manitsõma+V+Act+Ind+Prt+Sg3: manitsʼ
+     manitsõma+V+Inf: [manitsaq, manidaq]
+     manitsõma+V+Act+PrfPrc: [manitsnuq, maninuq]
+     manitsõma+V+Pss+PrfPrc: [manitsõt, manitsõtu, manit, manitu]
 
+     manitsõma+V+Act+Ind+Prs+Sg1: manidsõ
+     manitsõma+V+Act+Ind+Prs+Sg2: [manitsõt, manitsõdõq]
+     manitsõma+V+Act+Ind+Prs+Sg3: manitsõs
+     manitsõma+V+Act+Ind+Prs+Pl1: manitsõmiq
+     manitsõma+V+Act+Ind+Prs+Pl2: manitsõtiq
+     manitsõma+V+Act+Ind+Prs+Pl3: manitsõsõq
+     manitsõma+V+Act+Ind+ConNegII: manidsõ
+     manitsõma+V+Act+Ind+Prt+Sg1: manidsi
+     manitsõma+V+Act+Ind+Prt+Sg2: [manitsit, manidsiq, manitsidõq]
+     manitsõma+V+Act+Ind+Prt+Sg3: manitsʼ
+     manitsõma+V+Act+Ind+Prt+Pl1: manitsimiq
+     manitsõma+V+Act+Ind+Prt+Pl2: manitsitiq
+     manitsõma+V+Act+Ind+Prt+Pl3: [manidsiq, manitsivaq]
+
+     manitsõma+V+Pss+Ind+Prs+Sg1: manitsõda
+     manitsõma+V+Pss+Ind+Prs+Sg3: manitsõdas
+
+     manitsõma+V+Act+PrsPrc+Sg+Nom: manitsõv
+
+     manitsõma+V+Jus: [manitskuq, maniguq]
 
