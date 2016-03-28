@@ -625,7 +625,7 @@ LEXICON N_HAPU-SG
 LEXICON N_HAPU-PL
 +N: NMN_HAPU-PL ;
 
-LEXICON N_28TÜTÄRʼ
+LEXICON N_28TÜTÄRʼ !!= * __@CODE@__ tütärʼ:tütär
  N_28TÜTÄRʼ-SG ;
  N_28TÜTÄRʼ-PL ;
 LEXICON N_28TÜTÄRʼ-SG
@@ -633,13 +633,21 @@ LEXICON N_28TÜTÄRʼ-SG
 LEXICON N_28TÜTÄRʼ-PL
 +N: NMN_28TÜTÄRʼ-PL ;
 
-LEXICON N_28KANNÕLʼ
+LEXICON N_28KANNÕLʼ !!= * __@CODE@__ kannõlʼ:kandõl
  N_28KANNÕLʼ-SG ;
  N_28KANNÕLʼ-PL ;
 LEXICON N_28KANNÕLʼ-SG
 +N: NMN_28KANNÕLʼ-SG ;
 LEXICON N_28KANNÕLʼ-PL
 +N: NMN_28KANNÕLʼ-PL ;
+
+LEXICON N_28SÕSARʼ !!= * __@CODE@__ sõsarʼ:sõsar
+ N_28SÕSARʼ-SG ;
+ N_28SÕSARʼ-PL ;
+LEXICON N_28SÕSARʼ-SG
++N: NMN_28SÕSARʼ-SG ;
+LEXICON N_28SÕSARʼ-PL
++N: NMN_28SÕSARʼ-PL ;
 
 LEXICON N_28PUNDAR
  N_28PUNDAR-SG ;
@@ -799,6 +807,14 @@ LEXICON N_38PULLʼ-SG
 +N: NMN_38PULLʼ-SG ;
 LEXICON N_38PULLʼ-PL
 +N: NMN_38PULLʼ-PL ;
+
+LEXICON N_38PUUMʼ
+ N_38PUUMʼ-SG ;
+ N_38PUUMʼ-PL ;
+LEXICON N_38PUUMʼ-SG
++N: NMN_38PUUMʼ-SG ;
+LEXICON N_38PUUMʼ-PL
++N: NMN_38PUUMʼ-PL ;
 
 LEXICON N_38HÜTT !!= * @CODE@ hütt:hütt
  N_38HÜTT-SG ;
@@ -2910,21 +2926,61 @@ LEXICON NMN_28TÜTÄRʼ-PL
 +Use/NG:%^Pen%^VowRM%>iide PL-COM ;
 +Use/NG:%>de PL-COM ;
 
-LEXICON NMN_28KANNÕLʼ !!= * __@CODE@__ kannõlʼ:kannõl
+LEXICON NMN_28KANNÕLʼ !!= * __@CODE@__ kannõlʼ:kandõl
 !! * Yaml: __N-kannwl28__
+!! gradation= yes
   NMN_28KANNÕLʼ-SG ;
   NMN_28KANNÕLʼ-PL ;
 
 LEXICON NMN_28KANNÕLʼ-SG 
-:ʼ BACK_SG-NOM ;
+:%^Pen%^WGStemʼ BACK_SG-NOM ;
 :%^Pen%^VowRM%>õ SG-GEN_ZERO ;
- BACK_SG-PAR_d ;
+:%^Pen%^WGStem BACK_SG-PAR_d ;
 :%^Pen%^VowRM%>õ BACK_SG-ILL_he ;
 :%^Pen%^VowRM%>õ BACK_SG-ALL_lõ-STEM ;
 +Use/NG:%^Pen%^VowRM%>õ BACK_SG-ILL_dõ ;
 
 LEXICON NMN_28KANNÕLʼ-PL 
 :%^Pen%^VowRM%>õ BACK_PL-NOM ;
+:%^Pen%^VowRM%>i BACK_PL-GEN_dõ ;
+:%^Pen%^VowRM%>i BACK_PL-PAR_t ;
+:%^Pen%^VowRM%>i BACK_PL-ILL_he ;
+:%^Pen%^VowRM%>i BACK_PL-ALL_lõ-STEM ;
+:%^Pen%^VowRM%>idõ PL-COM ;
++Use/NG:%^Pen%^VowRM%>ii BACK_PL-GEN_dõ ;
++Use/NG:%^Pen%^WGStem BACK_PL-GEN_dõ ;
++Use/NG:%^Pen%^VowRM%>ii BACK_PL-PAR_d ;
++Use/NG:%^Pen%^WGStem%>dõ BACK_PL-ILL_he ;
++Use/NG:%^Pen%^VowRM%>ii BACK_PL-ILL_he ;
++Use/NG:%^Pen%^VowRM%>i BACK_PL-ILL_dõ ;
++Use/NG:%^Pen%^VowRM%>ii BACK_PL-ILL_dõ ;
++Use/NG:%^Pen%^WGStem%>dõ BACK_PL-ILL_he ;
++Use/NG:%^Pen%^VowRM%>ii BACK_PL-ALL_lõ-STEM ;
++Use/NG:%^Pen%^WGStem%>dõ BACK_PL-ALL_lõ-STEM ;
++Use/NG:%^Pen%^VowRM%>iidõ PL-COM ;
++Use/NG:%^Pen%^WGStem%>dõ PL-COM ;
+
+LEXICON NMN_28SÕSARʼ !!= * __@CODE@__ sõsarʼ:sõsar
+!! * Yaml: __N-kannwl28__
+!! gradation= no
+  NMN_28SÕSARʼ-SG ;
+  NMN_28SÕSARʼ-PL ;
+
+LEXICON NMN_28SÕSARʼ-SG 
+:ʼ BACK_SG-NOM ;
+:%^Pen%^VowRM%>a SG-GEN_ZERO ;
++Use/NG:%^Pen%^VowRM%>õ SG-GEN_ZERO ;
+: BACK_SG-PAR_d ;
+:%^Pen%^VowRM%>a BACK_SG-ILL_he ;
+:%^Pen%^VowRM%>a BACK_SG-ALL_lõ-STEM ;
++Use/NG:%^Pen%^VowRM%>a BACK_SG-ILL_dõ ;
++Use/NG:%^Pen%^VowRM%>õ BACK_SG-ILL_he ;
++Use/NG:%^Pen%^VowRM%>õ BACK_SG-ALL_lõ-STEM ;
++Use/NG:%^Pen%^VowRM%>õ BACK_SG-ILL_dõ ;
+
+LEXICON NMN_28SÕSARʼ-PL 
+:%^Pen%^VowRM%>a BACK_PL-NOM ;
++Use/NG:%^Pen%^VowRM%>õ BACK_PL-NOM ;
 :%^Pen%^VowRM%>i BACK_PL-GEN_dõ ;
 :%^Pen%^VowRM%>i BACK_PL-PAR_t ;
 :%^Pen%^VowRM%>i BACK_PL-ILL_he ;
@@ -3301,6 +3357,24 @@ LEXICON NMN_38PULLʼ-PL
 :õ    BACK_PL-ILL_ZERO ;
 :õ    BACK_PL-ILL_hõ ;
 :õ    BACK_PL-ALL_lõ-STEM ;
+
+LEXICON NMN_38PUUMʼ !!= * @CODE@ puumʼ:poom
+  NMN_38PUUMʼ-SG ;
+  NMN_38PUUMʼ-PL ;
+LEXICON NMN_38PUUMʼ-SG 
+:%^VOWRaise%>ʼ        BACK_SG-NOM  ; !!=    * @CODE@ pu̬u̬mʼ
++Err/Orth:%^VOWRaise        BACK_SG-NOM  ; !!=	* @CODE@ no final palatal
+:%^WGStem%>i       BACK_SG-GEN_ZERO-STEM        ; !!=    * @CODE@ poomi
+:%^VOWRaise%>i       BACK_SG-ILL_ZERO        ;
+:%^VOWRaise%>i       BACK_SG-PAR_ZERO        ;
+
+LEXICON NMN_38PUUMʼ-PL 
+:%^WGStem%>i       BACK_PL-NOM ;
+:%^VOWRaise%>õ    BACK_PL-GEN_ZERO ;
+:%^VOWRaise%>õ    BACK_PL-PAR_ZERO ;
+:%^VOWRaise%>õ    BACK_PL-ILL_ZERO ;
+:%^VOWRaise%>õ    BACK_PL-ILL_hõ ;
+:%^VOWRaise%>õ    BACK_PL-ALL_lõ-STEM ;
 
 LEXICON NMN_38HÜTT
   NMN_38HÜTT-SG ;
