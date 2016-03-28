@@ -243,8 +243,14 @@ Rules
 
 "o2u"
 !! __@RULENAME@__
- o:u <=>  # Cns* _ o: [ l | n | r ] %^VOWRaise: ;
- # Cns* o: _ [ l | n | r ] %^VOWRaise: ;
+ o:u <=>  # Cns* _ o: [ l | n | r | m] %^VOWRaise: ;
+ # Cns* o: _ [ l | n | r | m] %^VOWRaise: ;
+
+
+"o2u̬"
+!! __@RULENAME@__
+ o:u̬ <=>  # Cns* _ o: [ l | n | r | m] %^VOWRaise: ;
+ # Cns* o: _ [ l | n | r | m] %^VOWRaise: ;
 
 
 "i2e"
@@ -622,14 +628,14 @@ k:0 <=> h _ Vow: s %^Pen: %^WGStem: ;
 "b2m"
 !! __@RULENAME@__
  b:m <=> m _  %^WGStem: ;
- m _ Vow: %^Pen: %^WGStem: ;
+ m _ Vow: (Cns:+) %^Pen: %^WGStem: ;
 !!€ hamba%^Pen%^WGStem%>s
 !!€ hamma0%>s
 
 "d2n"
 !! __@RULENAME@__
  d:n <=> n _ %^WGStem: ;
- n _ Vow: %^Pen: %^WGStem: ;
+ n _ Vow: (Cns:+) %^Pen: %^WGStem: ;
 
 "dTol"
 !! __@RULENAME@__
