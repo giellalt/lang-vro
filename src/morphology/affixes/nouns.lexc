@@ -832,6 +832,22 @@ LEXICON N_38KULD-SG
 LEXICON N_38KULD-PL
 +N: NMN_38KULD-PL ;
 
+LEXICON N_38PUTR
+ N_38PUTR-SG ;
+ N_38PUTR-PL ;
+LEXICON N_38PUTR-SG
++N: NMN_38PUTR-SG ;
+LEXICON N_38PUTR-PL
++N: NMN_38PUTR-PL ;
+
+LEXICON N_39VIDO !!= * @CODE@ vido:vido
+        N_39VIDO-SG ;
+        N_39VIDO-PL ;
+LEXICON N_39VIDO-SG
++N:     NMN_39VIDO-SG ;
+LEXICON N_39VIDO-PL
++N:     NMN_39VIDO-PL ;
+
 LEXICON N_39HÄBÜ !!= * @CODE@ häbü:häbü
         N_39HÄBÜ-SG ;
         N_39HÄBÜ-PL ;
@@ -840,7 +856,6 @@ LEXICON N_39HÄBÜ-SG
 LEXICON N_39HÄBÜ-PL
 +N:     NMN_39HÄBÜ-PL ;
 
-
 LEXICON N_40TALO !!= @CODE@ talo:talo
         N_40TALO-SG ;
         N_40TALO-PL ;
@@ -848,6 +863,14 @@ LEXICON N_40TALO-SG
 +N:     NMN_40TALO-SG ;
 LEXICON N_40TALO-PL
 +N:     NMN_40TALO-PL ;
+
+LEXICON N_40HELÜ !!= @CODE@ helü:helü
+        N_40HELÜ-SG ;
+        N_40HELÜ-PL ;
+LEXICON N_40HELÜ-SG
++N:     NMN_40HELÜ-SG ;
+LEXICON N_40HELÜ-PL
++N:     NMN_40HELÜ-PL ;
 
 
 LEXICON N_41KAND !!= @CODE@ kand:kand
@@ -1275,7 +1298,7 @@ LEXICON NMN_4AINUS-PL
 +Use/NG:%>tõ PL-COM ;
 
 
-LEXICON NMN_5OPPAJA
+LEXICON NMN_5OPPAJA !!= * @CODE@ oppaja:oppaja
 !! * Yaml: __N-oppaja5__
   NMN_5OPPAJA-SG ;
   NMN_5OPPAJA-PL ;
@@ -3381,12 +3404,12 @@ LEXICON NMN_38HÜTT
   NMN_38HÜTT-PL ;
 LEXICON NMN_38HÜTT-SG 
         FRONT_SG-NOM  ;
-:ä       FRONT_SG-GEN_ZERO-STEM        ;
-:ä       FRONT_SG-ILL_ZERO        ;
-:ä       FRONT_SG-PAR_ZERO        ;
+:ü       FRONT_SG-GEN_ZERO-STEM        ;
+:ü       FRONT_SG-ILL_ZERO        ;
+:ü       FRONT_SG-PAR_ZERO        ;
 
 LEXICON NMN_38HÜTT-PL 
-:ä       FRONT_PL-NOM ;
+:ü       FRONT_PL-NOM ;
 :e    FRONT_PL-GEN_ZERO ;
 :e    FRONT_PL-PAR_ZERO ;
 :e    FRONT_PL-ILL_ZERO ;
@@ -3410,6 +3433,51 @@ LEXICON NMN_38KULD-PL
 :õ    BACK_PL-ILL_ZERO ;
 :õ    BACK_PL-ILL_hõ ;
 :%^WGStem%>õ    BACK_PL-ALL_lõ-STEM ;
+
+LEXICON NMN_38PUTR !!= * __@CODE@__ putr:putr
+!! Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
+!! stem_vowel="o"
+  NMN_38PUTR-SG ;
+  NMN_38PUTR-PL ;
+LEXICON NMN_38PUTR-SG 
+        BACK_SG-NOM  ;
+:%^WGStem%>o       BACK_SG-GEN_ZERO-STEM        ;
+:o       BACK_SG-ILL_ZERO        ;
+:o       BACK_SG-PAR_ZERO        ;
+
+LEXICON NMN_38PUTR-PL 
+:%^WGStem%>o       BACK_PL-NOM ;
+:%^WGStem%>õ    BACK_PL-GEN_ZERO ;
+:õ    BACK_PL-PAR_ZERO ;
+:õ    BACK_PL-ILL_ZERO ;
+:õ    BACK_PL-ILL_hõ ;
+:%^WGStem%>õ    BACK_PL-ALL_lõ-STEM ;
+
+LEXICON NMN_39VIDO !!= * @CODE@ vido:vido
+  NMN_39VIDO-SG ;
+  NMN_39VIDO-PL ;
+LEXICON NMN_39VIDO-SG 
+        BACK_SG-NOM  ;
+:%^WGStem        BACK_SG-GEN_ZERO-STEM        ;
+:%^StrGStem BACK_SG-PAR_ZERO    ;
+:%^XStrGStem BACK_SG-ILL_ZERO   ;
+
+LEXICON NMN_39VIDO-PL 
+:%^WGStem        BACK_PL-NOM ;
+:%^StrGStem%^U2E  BACK_PL-GEN_ZERO ;
+:%^XStrGStem%^U2E      BACK_PL-ILL_ZERO       ;
+:%^XStrGStem%^U2E      BACK_PL-ILL_he       ;
+:%^XStrGStem%^U2E      BACK_PL-ILL_dõ       ;
+:%^StrGStem%^U2E      BACK_PL-PAR_ZERO        ;
+:%^StrGStem%^U2E      BACK_PL-ALL_lõ-STEM       ;
+:%^StrGStem%^U2A  BACK_PL-GEN_ZERO ;
+:%^XStrGStem%^U2A      BACK_PL-ILL_ZERO       ;
+:%^XStrGStem%^U2A      BACK_PL-ILL_he       ;
+:%^XStrGStem%^U2A      BACK_PL-ILL_dõ       ;
+:%^StrGStem%^U2A      BACK_PL-PAR_ZERO        ;
+:%^StrGStem%^U2A      BACK_PL-ALL_lõ-STEM       ;
+:%^StrGStem%^U2A PL-COM ;
+:%^StrGStem%^U2E PL-COM ;
 
 LEXICON NMN_39HÄBÜ !!= * @CODE@ häbü:häbü
   NMN_39HÄBÜ-SG ;
@@ -3460,6 +3528,30 @@ LEXICON NMN_40TALO-PL
 :%^WGStem%^VowRMa    BACK_PL-ALL_lõ-STEM ;
 :%^StrGStem%^VowRMõ    BACK_PL-ALL_lõ-STEM ;
 :%^StrGStem%^VowRMa    BACK_PL-ALL_lõ-STEM ;
+
+LEXICON NMN_40HELÜ !!= * @CODE@ helü:helü
+  NMN_40HELÜ-SG ;
+  NMN_40HELÜ-PL ;
+LEXICON NMN_40HELÜ-SG 
+        FRONT_SG-NOM  ;
+       FRONT_SG-GEN_ZERO-STEM        ;
+:%^StrGStem       FRONT_SG-ILL_ZERO        ;
+:%^StrGStem       FRONT_SG-PAR_ZERO        ;
+
+LEXICON NMN_40HELÜ-PL 
+       FRONT_PL-NOM ;
+:%^StrGStem%^VowRMä    FRONT_PL-GEN_ZERO ;
+:%^StrGStem%^VowRMe    FRONT_PL-GEN_ZERO ;
+:%^StrGStem%^VowRMe    FRONT_PL-PAR_ZERO ;
+:%^StrGStem%^VowRMä    FRONT_PL-PAR_ZERO ;
+:%^StrGStem%^VowRMe    FRONT_PL-ILL_ZERO ;
+:%^StrGStem%^VowRMä    FRONT_PL-ILL_ZERO ;
+:%^StrGStem%^VowRMe    FRONT_PL-ILL_he ;
+:%^StrGStem%^VowRMä    FRONT_PL-ILL_he ;
+:%^WGStem%^VowRMe    FRONT_PL-ALL_le-STEM ;
+:%^WGStem%^VowRMä    FRONT_PL-ALL_le-STEM ;
+:%^StrGStem%^VowRMe    FRONT_PL-ALL_le-STEM ;
+:%^StrGStem%^VowRMä    FRONT_PL-ALL_le-STEM ;
 
 
 LEXICON NMN_41KAND !!= @CODE@ kand:kand
