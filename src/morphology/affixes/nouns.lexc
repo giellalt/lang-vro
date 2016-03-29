@@ -112,6 +112,16 @@ LEXICON N_5OPPAJA-SG
 LEXICON N_5OPPAJA-PL
 +N:	NMN_5OPPAJA-PL ;
 
+LEXICON N_5MÄNGJÄ
+!! * Yaml: __N-mängjä5__
+   N_5MÄNGJÄ-SG ;
+   N_5MÄNGJÄ-PL ;
+
+LEXICON N_5MÄNGJÄ-SG
++N:	NMN_5MÄNGJÄ-SG ;
+LEXICON N_5MÄNGJÄ-PL
++N:	NMN_5MÄNGJÄ-PL ;
+
 LEXICON N_6MAKÕ
  N_6MAKÕ-SG ;
  N_6MAKÕ-PL ;
@@ -138,6 +148,30 @@ LEXICON N_8KASK-SG
 LEXICON N_8KASK-PL
 +N: NMN_8KASK-PL ;
 
+LEXICON N_8SADANG
+ N_8SADANG-SG ;
+ N_8SADANG-PL ;
+LEXICON N_8SADANG-SG
++N: NMN_8SADANG-SG ;
+LEXICON N_8SADANG-PL
++N: NMN_8SADANG-PL ;
+
+LEXICON N_8DOLLARʼ
+ N_8DOLLARʼ-SG ;
+ N_8DOLLARʼ-PL ;
+LEXICON N_8DOLLARʼ-SG
++N: NMN_8DOLLARʼ-SG ;
+LEXICON N_8DOLLARʼ-PL
++N: NMN_8DOLLARʼ-PL ;
+
+LEXICON N_8EEDERʼ
+ N_8EEDERʼ-SG ;
+ N_8EEDERʼ-PL ;
+LEXICON N_8EEDERʼ-SG
++N: NMN_8EEDERʼ-SG ;
+LEXICON N_8EEDERʼ-PL
++N: NMN_8EEDERʼ-PL ;
+
 LEXICON N_8HÄIELM
  N_8HÄIELM-SG ;
  N_8HÄIELM-PL ;
@@ -145,15 +179,6 @@ LEXICON N_8HÄIELM-SG
 +N: NMN_8HÄIELM-SG ;
 LEXICON N_8HÄIELM-PL
 +N: NMN_8HÄIELM-PL ;
-
-LEXICON N_36SILM !!= * @CODE@ silm:silm
-!! harmony: front
- N_36SILM-SG ;
- N_36SILM-PL ;
-LEXICON N_36SILM-SG
-+N: NMN_36SILM-SG ;
-LEXICON N_36SILM-PL
-+N: NMN_36SILM-PL ;
 
 LEXICON N_9KIPÕNʼ
 !! kipõnʼ:kipõnʼ
@@ -508,11 +533,20 @@ LEXICON N_21HÜDSI-PL
 LEXICON N_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
 ! Gradation: No
         N_22VÕROKÕNÕ-SG ;
-        N_22VÕROKÕNÕ-PL ;
+	N_22VÕROKÕNÕ-PL ;
 LEXICON N_22VÕROKÕNÕ-SG
 +N:     NMN_22VÕROKÕNÕ-SG ;
 LEXICON N_22VÕROKÕNÕ-PL
 +N:     NMN_22VÕROKÕNÕ-PL ;
+
+LEXICON N_22NAANÕ !!= @CODE@ naanõ:naa
+! Gradation: No
+        N_22NAANÕ-SG ;
+        N_22NAANÕ-PL ;
+LEXICON N_22NAANÕ-SG
++N:     NMN_22NAANÕ-SG ;
+LEXICON N_22NAANÕ-PL
++N:     NMN_22NAANÕ-PL ;
 
 LEXICON N_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
 ! Gradation: No
@@ -761,6 +795,24 @@ LEXICON N_36PÄIV-SG
 LEXICON N_36PÄIV-PL
 +N:     NMN_36PÄIV-PL ;
 
+LEXICON N_36SILM !!= * @CODE@ silm:silm
+!! harmony: front
+ N_36SILM-SG ;
+ N_36SILM-PL ;
+LEXICON N_36SILM-SG
++N: NMN_36SILM-SG ;
+LEXICON N_36SILM-PL
++N: NMN_36SILM-PL ;
+
+LEXICON N_36LÄHK !!= * @CODE@ lähk:lähk
+!! harmony: front
+ N_36LÄHK-SG ;
+ N_36LÄHK-PL ;
+LEXICON N_36LÄHK-SG
++N: NMN_36LÄHK-SG ;
+LEXICON N_36LÄHK-PL
++N: NMN_36LÄHK-PL ;
+
 LEXICON N_KOGÕR
 !! kogõr:kogõr
 !! * Yaml: __N-kogwr36__
@@ -815,6 +867,14 @@ LEXICON N_38PUUMʼ-SG
 +N: NMN_38PUUMʼ-SG ;
 LEXICON N_38PUUMʼ-PL
 +N: NMN_38PUUMʼ-PL ;
+
+LEXICON N_38SÜÜKʼ
+ N_38SÜÜKʼ-SG ;
+ N_38SÜÜKʼ-PL ;
+LEXICON N_38SÜÜKʼ-SG
++N: NMN_38SÜÜKʼ-SG ;
+LEXICON N_38SÜÜKʼ-PL
++N: NMN_38SÜÜKʼ-PL ;
 
 LEXICON N_38HÜTT !!= * @CODE@ hütt:hütt
  N_38HÜTT-SG ;
@@ -872,15 +932,23 @@ LEXICON N_40HELÜ-SG
 LEXICON N_40HELÜ-PL
 +N:     NMN_40HELÜ-PL ;
 
-
 LEXICON N_41KAND !!= @CODE@ kand:kand
 !! * Yaml: __aig, kand__
         N_41KAND-SG ;
-	N_41KAND-PL ;
+        N_41KAND-PL ;
 LEXICON N_41KAND-SG
 +N:     NMN_41KAND-SG ;
 LEXICON N_41KAND-PL
 +N:     NMN_41KAND-PL ;
+
+LEXICON N_41JUHTʼ !!= @CODE@ juhtʼ:juht
+!! * Yaml: __juhtʼ__
+        N_41JUHTʼ-SG ;
+	N_41JUHTʼ-PL ;
+LEXICON N_41JUHTʼ-SG
++N:     NMN_41JUHTʼ-SG ;
+LEXICON N_41JUHTʼ-PL
++N:     NMN_41JUHTʼ-PL ;
 
 LEXICON N_41AIG !!= @CODE@ aig:aig
 !! * Yaml: __aig, aig__
@@ -1323,6 +1391,31 @@ LEXICON NMN_5OPPAJA-PL
 :%^VowRM%>i%>dõ      PL-COM        ;
 +Use/NG:%^VowRM%>ii%>dõ      PL-COM        ;
 
+LEXICON NMN_5MÄNGJÄ !!= * @CODE@ mängjä:mängjä
+!! * Yaml: __N-mängjä5__
+  NMN_5MÄNGJÄ-SG ;
+  NMN_5MÄNGJÄ-PL ;
+LEXICON NMN_5MÄNGJÄ-SG 
+	FRONT_SG-NOM	;
+	FRONT_SG-GEN_ZERO-STEM       ;
+	FRONT_SG-PAR_t	;
+	FRONT_SG-ILL_he	;
++Use/NG:	FRONT_SG-ILL_de	;
+LEXICON NMN_5MÄNGJÄ-PL
+	FRONT_PL-NOM ;
+:%^VowRM%>i	FRONT_PL-GEN_de ;
++Use/NG:%^VowRM%>ii	FRONT_PL-GEN_de ;
+:%^VowRM%>i        FRONT_PL-ILL_he       ;
+:%^VowRM%>i        FRONT_PL-ILL_de       ;
++Use/NG:%^VowRM%>ii        FRONT_PL-ILL_de       ;
++Use/NG:%^VowRM%>ii        FRONT_PL-ILL_he       ;
+:%^VowRM%>i        FRONT_PL-ALL_le-STEM       ;
++Use/NG:%^VowRM%>ii        FRONT_PL-ALL_le-STEM       ;
+:%^VowRM%>i      FRONT_PL-PAR_t        ;
++Use/NG:%^VowRM%>ii      FRONT_PL-PAR_d        ;
+:%^VowRM%>i%>de      PL-COM        ;
++Use/NG:%^VowRM%>ii%>de      PL-COM        ;
+
 
 LEXICON NMN_6MAKÕ !!= * @CODE@ makõ:makõ
   NMN_6MAKÕ-SG ;
@@ -1401,6 +1494,64 @@ LEXICON NMN_8KASK-PL
 +Use/NG:%>ii      BACK_PL-PAR_d        ;
 +Use/NG:%>iidõ      PL-COM        ;
 
+LEXICON NMN_8SADANG
+!! * Yaml: __N-sadang__
+  NMN_8SADANG-SG ;
+  NMN_8SADANG-PL ;
+
+LEXICON NMN_8SADANG-SG 
+        BACK_SG-NOM  ;
+:u        BACK_SG-GEN_ZERO-STEM       ;
+:%>u        BACK_SG-PAR_t        ;
+:%>u        BACK_SG-ILL_he       ;
+
+:%>u        BACK_SG-ILL_dõ       ;
+
+LEXICON NMN_8SADANG-PL 
+:u        BACK_PL-NOM ;
+:%>i     BACK_PL-GEN_dõ ;
+:%>i        BACK_PL-ILL_he       ;
+:%>i        BACK_PL-ALL_lõ-STEM       ;
+:%>i      BACK_PL-PAR_t        ;
+:%>idõ      PL-COM        ;
+!! Secondary
++Use/NG:%>ii        BACK_PL-ALL_lõ-STEM       ;
++Use/NG:%>ii     BACK_PL-GEN_dõ ;
++Use/NG:%>i        BACK_PL-ILL_dõ       ;
++Use/NG:%>ii        BACK_PL-ILL_dõ       ;
++Use/NG:%>ii        BACK_PL-ILL_he       ;
++Use/NG:%>ii      BACK_PL-PAR_d        ;
++Use/NG:%>iidõ      PL-COM        ;
+
+LEXICON NMN_8DOLLARʼ
+!! * Yaml: __N-dollarʼ__
+  NMN_8DOLLARʼ-SG ;
+  NMN_8DOLLARʼ-PL ;
+
+LEXICON NMN_8DOLLARʼ-SG 
+:ʼ        BACK_SG-NOM  ;
+:i        BACK_SG-GEN_ZERO-STEM       ;
+:%>i        BACK_SG-PAR_t        ;
+:%>i        BACK_SG-ILL_he       ;
+
+:%>i        BACK_SG-ILL_dõ       ;
+
+LEXICON NMN_8DOLLARʼ-PL 
+:i        BACK_PL-NOM ;
+:%>i     BACK_PL-GEN_dõ ;
+:%>i        BACK_PL-ILL_he       ;
+:%>i        BACK_PL-ALL_lõ-STEM       ;
+:%>i      BACK_PL-PAR_t        ;
+:%>idõ      PL-COM        ;
+!! Secondary
++Use/NG:%>ii        BACK_PL-ALL_lõ-STEM       ;
++Use/NG:%>ii     BACK_PL-GEN_dõ ;
++Use/NG:%>i        BACK_PL-ILL_dõ       ;
++Use/NG:%>ii        BACK_PL-ILL_dõ       ;
++Use/NG:%>ii        BACK_PL-ILL_he       ;
++Use/NG:%>ii      BACK_PL-PAR_d        ;
++Use/NG:%>iidõ      PL-COM        ;
+
 LEXICON NMN_8HÄIELM
 !! * Yaml: __kask, N-haeielm__
   NMN_8HÄIELM-SG ;
@@ -1430,6 +1581,35 @@ LEXICON NMN_8HÄIELM-PL
 +Use/NG:%>ii      FRONT_PL-PAR_d        ;
 +Use/NG:%>iide      PL-COM        ;
 
+LEXICON NMN_8EEDERʼ
+!! * Yaml: __kask, N-haeielm__
+  NMN_8EEDERʼ-SG ;
+  NMN_8EEDERʼ-PL ;
+
+LEXICON NMN_8EEDERʼ-SG 
+:ʼ        FRONT_SG-NOM  ;
+:i        FRONT_SG-GEN_ZERO-STEM       ;
+:%>i        FRONT_SG-PAR_t        ;
+:%>i        FRONT_SG-ILL_he       ;
+
+:%>i        FRONT_SG-ILL_de       ;
+
+LEXICON NMN_8EEDERʼ-PL 
+:i        FRONT_PL-NOM ;
+:%>i     FRONT_PL-GEN_de ;
+:%>i        FRONT_PL-ILL_he       ;
+:%>i        FRONT_PL-ALL_le-STEM       ;
+:%>i      FRONT_PL-PAR_t        ;
+:%>ide      PL-COM        ;
+!! Secondary
++Use/NG:%>ii        FRONT_PL-ALL_le-STEM       ;
++Use/NG:%>ii     FRONT_PL-GEN_de ;
++Use/NG:%>i        FRONT_PL-ILL_de       ;
++Use/NG:%>ii        FRONT_PL-ILL_de       ;
++Use/NG:%>ii        FRONT_PL-ILL_he       ;
++Use/NG:%>ii      FRONT_PL-PAR_d        ;
++Use/NG:%>iide      PL-COM        ;
+
 
 LEXICON NMN_36SILM !!= * __@CODE@__ silm:silm
 !! * Yaml: __N-silm36__
@@ -1445,6 +1625,30 @@ LEXICON NMN_36SILM-SG
 
 
 LEXICON NMN_36SILM-PL 
+:ä        FRONT_PL-NOM ;
+:%>i     FRONT_PL-GEN_ZERO ;
+:%>i        FRONT_PL-ILL_he       ;
+:%>i        FRONT_PL-ALL_le-STEM       ;
+:%>i      FRONT_PL-PAR_ZERO        ;
+:%>i      PL-COM        ;
+!! Secondary
++Use/NG:%>i        FRONT_PL-ILL_ZERO       ;
++Use/NG:%>i        FRONT_PL-ILL_de       ;
+
+LEXICON NMN_36LÄHK !!= * __@CODE@__ lähk:lähk
+!! * Yaml: __N-lähk36__
+!! gradation Yes, vowelHarmony Front
+  NMN_36LÄHK-SG ;
+  NMN_36LÄHK-PL ;
+
+LEXICON NMN_36LÄHK-SG 
+        FRONT_SG-NOM  ;
+:%>ä        FRONT_SG-GEN_ZERO-STEM       ;
+:%>ä        FRONT_SG-ILL_ZERO       ;
+:%>ä        FRONT_SG-PAR_ZERO        ;
+
+
+LEXICON NMN_36LÄHK-PL 
 :ä        FRONT_PL-NOM ;
 :%>i     FRONT_PL-GEN_ZERO ;
 :%>i        FRONT_PL-ILL_he       ;
@@ -2602,6 +2806,30 @@ LEXICON NMN_22VÕROKÕNÕ-PL
 +Use/NG:istõ		BACK_PL-ALL_lõ-STEM ;
 +Use/NG:istõ		PL-COM ;
 
+LEXICON NMN_22NAANÕ !!= @CODE@ naanõ:naa
+!! * Yaml: __N-vwrokwnw22__
+        NMN_22NAANÕ-SG ;
+        NMN_22NAANÕ-PL ;
+LEXICON NMN_22NAANÕ-SG
+:%>nõ	BACK_SG-NOM ;
+:%>sõ      BACK_SG-GEN_ZERO-STEM ;
+:%^VowRM%>is		BACK_SG-PAR_t ;
+:%^VowRM%>is        	BACK_SG-ILL_tõ ;
+
+LEXICON NMN_22NAANÕ-PL
+:%>sõ      BACK_PL-NOM ;
+:%^VowRM%>is		BACK_PL-ALL_dõlõ ;
+:%^VowRM%>isi		BACK_PL-GEN_ZERO ;
+:%^VowRM%>isi		BACK_PL-PAR_ZERO ;
+:%^VowRM%>isi		BACK_PL-ILL_he ;
+:%^VowRM%>isi		BACK_PL-ALL_lõ-STEM ;
+:%^VowRM%>isi		PL-COM ;
++Use/NG:%^VowRM%>istõ		BACK_PL-GEN_ZERO ;
++Use/NG:%^VowRM%>isi		BACK_PL-ILL_ZERO ;
++Use/NG:%^VowRM%>isi		BACK_PL-ILL_dõ ;
++Use/NG:%^VowRM%>istõ		BACK_PL-ALL_lõ-STEM ;
++Use/NG:%^VowRM%>istõ		PL-COM ;
+
 LEXICON NMN_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
 !! * Yaml: __N-vaehaekene22__
         NMN_22VÄHÄKENE-SG ;
@@ -3125,9 +3353,20 @@ LEXICON NMN_32VERI
   NMN_32VERI-SG ;
   NMN_32VERI-PL ;
 LEXICON NMN_32VERI-SG 
-+WORK: #;
+:i        FRONT_SG-NOM  ;			! veri
+:%>e       FRONT_SG-GEN_ZERO-STEM   ;  ! vere
+:%^StrGStem%>e       FRONT_SG-ILL_ZERO        ;
+:   FRONT_SG-PAR_d  ;
+
 LEXICON NMN_32VERI-PL 
-+WORK: #;
+:%>e       FRONT_PL-NOM ;         ! vereq
+:%^StrGStem%>i    FRONT_PL-GEN_ZERO ;
+:%^StrGStem%>i    FRONT_PL-PAR_ZERO ;
+:%^StrGStem%>i    FRONT_PL-ILL_hd ;
++Use/NG:%^StrGStem%>i    FRONT_PL-ILL_ZERO ;
++Use/NG:%^StrGStem%>i    FRONT_PL-ILL_dd ;
+:%>i  FRONT_PL-ALL_lõ-STEM ;
++Use/NG:%^StrGStem%>i  FRONT_PL-ALL_ld-STEM ;
 
 LEXICON NMN_33IGÄ
   NMN_33IGÄ-SG ;
@@ -3399,6 +3638,24 @@ LEXICON NMN_38PUUMʼ-PL
 :%^VOWRaise%>õ    BACK_PL-ILL_hõ ;
 :%^VOWRaise%>õ    BACK_PL-ALL_lõ-STEM ;
 
+LEXICON NMN_38SÜÜKʼ !!= * @CODE@ süükʼ:söök
+  NMN_38SÜÜKʼ-SG ;
+  NMN_38SÜÜKʼ-PL ;
+LEXICON NMN_38SÜÜKʼ-SG 
+:%^VOWRaise%>ʼ        FRONT_SG-NOM  ; !!=    * @CODE@ pu̬u̬mʼ
++Err/Orth:%^VOWRaise        FRONT_SG-NOM  ; !!=	* @CODE@ no final palatal
+:%^WGStem%>i       FRONT_SG-GEN_ZERO-STEM        ; !!=    * @CODE@ poomi
+:%^VOWRaise%>i       FRONT_SG-ILL_ZERO        ;
+:%^VOWRaise%>i       FRONT_SG-PAR_ZERO        ;
+
+LEXICON NMN_38SÜÜKʼ-PL 
+:%^WGStem%>i       FRONT_PL-NOM ;
+:%^VOWRaise%>e    FRONT_PL-GEN_ZERO ;
+:%^VOWRaise%>e    FRONT_PL-PAR_ZERO ;
+:%^VOWRaise%>e    FRONT_PL-ILL_ZERO ;
+:%^VOWRaise%>e    FRONT_PL-ILL_he ;
+:%^VOWRaise%>e    FRONT_PL-ALL_le-STEM ;
+
 LEXICON NMN_38HÜTT
   NMN_38HÜTT-SG ;
   NMN_38HÜTT-PL ;
@@ -3582,6 +3839,24 @@ LEXICON NMN_41KAND-PL
 +Use/NG:%^WGStem%>e    BACK_PL-ALL_lõ-STEM ;
 !+Use/NG:%^WGStem%>a    BACK_PL-ALL_lõ-STEM ; Is this needed for KAND?
 +Use/NG:a    PL-COM ;
+
+LEXICON NMN_41JUHTʼ !!= * @CODE@ juhtʼ:juht
+  NMN_41JUHTʼ-SG ;
+  NMN_41JUHTʼ-PL ;
+LEXICON NMN_41JUHTʼ-SG 
+:ʼ        BACK_SG-NOM  ;
++Err/Orth:        BACK_SG-NOM  ; !!=	* @CODE@ no final palatal
+:%^WGStem%>i       BACK_SG-GEN_ZERO-STEM        ;
+:i       BACK_SG-ILL_ZERO        ;
+:i       BACK_SG-PAR_ZERO        ;
+
+LEXICON NMN_41JUHTʼ-PL 
+:%^WGStem%>i       BACK_PL-NOM ;
+:%^WGStem%>õ    BACK_PL-GEN_ZERO ;
+:õ    BACK_PL-PAR_ZERO ;
+:õ    BACK_PL-ILL_ZERO ;
+:õ    BACK_PL-ILL_hõ ;
+:%^WGStem%>õ    BACK_PL-ALL_lõ-STEM ;
 
 
 LEXICON NMN_41AIG !!= @CODE@ aig:aig
