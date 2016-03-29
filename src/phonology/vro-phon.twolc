@@ -255,7 +255,6 @@ Rules
 
 "i2e"
 !! __@RULENAME@__
-!! {{{
  i:e <=> Cns 0: _ ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
 !!€ pin0i%^StrGStem%^PLPRT
 !!€ pinne00
@@ -263,7 +262,10 @@ Rules
  # Cns* i: _ l %^VOWLower: ;
 !!€ kiil%^VOWLower%>e
 !!€ keel0%>e
-!! }}}
+     e _ Cns %^ÄI2ÄÄ: ;
+!!€ leiv%^ÄI2ÄÄ%>ä
+!!€ leev0%>ä
+
 
 "i:ä"
 !! __@RULENAME@__
