@@ -880,6 +880,14 @@ LEXICON N_37PINI-SG
 LEXICON N_37PINI-PL
 +N:     NMN_37PINI-PL ;
 
+LEXICON N_37ÕLI !!= @CODE@ õli:õli
+        N_37ÕLI-SG ;
+        N_37ÕLI-PL ;
+LEXICON N_37ÕLI-SG
++N:     NMN_37ÕLI-SG ;
+LEXICON N_37ÕLI-PL
++N:     NMN_37ÕLI-PL ;
+
 LEXICON N_38PUNG
  N_38PUNG-SG ;
  N_38PUNG-PL ;
@@ -1013,6 +1021,23 @@ LEXICON N_43KANARIK-SG
 LEXICON N_43KANARIK-PL
 +N:     NMN_43KANARIK-PL ;
 
+LEXICON N_43SASLÕKʼ !!= @CODE@
+        N_43SASLÕKʼ-SG ;
+        N_43SASLÕKʼ-PL ;
+LEXICON N_43SASLÕKʼ-SG
++N:     NMN_43SASLÕKʼ-SG ;
+LEXICON N_43SASLÕKʼ-PL
++N:     NMN_43SASLÕKʼ-PL ;
+
+LEXICON N_43AASTAK !!= @CODE@
+        N_43AASTAK-SG ;
+        N_43AASTAK-PL ;
+LEXICON N_43AASTAK-SG
++N:     NMN_43AASTAK-SG ;
+LEXICON N_43AASTAK-PL
++N:     NMN_43AASTAK-PL ;
+
+
 
 LEXICON N_44SÕDA !!= @CODE@ sõda:sõda
         N_44SÕDA-SG ;
@@ -1058,6 +1083,14 @@ LEXICON N_47ASI-SG
 +N:     NMN_47ASI-SG ;
 LEXICON N_47ASI-PL
 +N:     NMN_47ASI-PL ;
+
+LEXICON N_47KIRI !!= @CODE@ kiri:kiri
+        N_47KIRI-SG ;
+        N_47KIRI-PL ;
+LEXICON N_47KIRI-SG
++N:     NMN_47KIRI-SG ;
+LEXICON N_47KIRI-PL
++N:     NMN_47KIRI-PL ;
 
 
 LEXICON N-1
@@ -3734,6 +3767,25 @@ LEXICON NMN_37PINI-PL
 :%^Pen%^StrGStem%^PLPRT  FRONT_PL-ALL_le-STEM ;
 :%^Pen%^PLPRT  FRONT_PL-ALL_le-STEM ;
 
+LEXICON NMN_37ÕLI
+! õli:õli
+  NMN_37ÕLI-SG ;
+  NMN_37ÕLI-PL ;
+LEXICON NMN_37ÕLI-SG 
+        BACK_SG-NOM  ;
+:%^Pen%^WGStem       BACK_SG-GEN_ZERO-STEM        ;
+:%^Pen%^StrGStem       BACK_SG-ILL_ZERO        ;
+:%^Pen%^StrGStem       BACK_SG-PAR_ZERO        ;
+
+LEXICON NMN_37ÕLI-PL 
+:%^Pen%^WGStem       BACK_PL-NOM ;
+:%^Pen%^StrGStem%^PLPRT    BACK_PL-GEN_ZERO ;
+:%^Pen%^StrGStem%^PLPRT    BACK_PL-PAR_ZERO ;
+:%^Pen%^StrGStem%^PLPRT    BACK_PL-ILL_ZERO ;
+:%^Pen%^StrGStem%^PLPRT    BACK_PL-ILL_he ;
+:%^Pen%^StrGStem%^PLPRT  BACK_PL-ALL_lõ-STEM ;
+:%^Pen%^PLPRT  BACK_PL-ALL_lõ-STEM ;
+
 
 LEXICON NMN_38PUNG
   NMN_38PUNG-SG ;
@@ -4091,6 +4143,44 @@ LEXICON NMN_43KANARIK-PL
 +Use/NG:%{XC%}%>a    BACK_PL-PAR_ZERO ;
 +Use/NG:%^WGStem%>a       PL-COM ;
 
+LEXICON NMN_43SASLÕKʼ
+  NMN_43SASLÕKʼ-SG ;
+  NMN_43SASLÕKʼ-PL ;
+
+LEXICON NMN_43SASLÕKʼ-SG 
+:ʼ        BACK_SG-NOM  ;
+:%^WGStem%>i       BACK_SG-GEN_ZERO-STEM        ;
+:%{XC%}%>i       BACK_SG-ILL_ZERO        ;
+:%{XC%}%>i       BACK_SG-PAR_ZERO        ;
+
+LEXICON NMN_43SASLÕKʼ-PL 
+:%^WGStem%>i       BACK_PL-NOM ;
+:%{XC%}%>õ    BACK_PL-GEN_ZERO ;
+:%{XC%}%>õ    BACK_PL-ILL_he ;
+:%{XC%}%>õ    BACK_PL-PAR_ZERO ;
+:%^WGStem%>õ    BACK_PL-ALL_lõ-STEM ;
+:%^WGStem%>õ       PL-COM ;
+
+LEXICON NMN_43AASTAK
+  NMN_43AASTAK-SG ;
+  NMN_43AASTAK-PL ;
+
+LEXICON NMN_43AASTAK-SG 
+:        BACK_SG-NOM  ;
+:%^WGStem%>a       BACK_SG-GEN_ZERO-STEM        ;
+:%{XC%}%>a       BACK_SG-ILL_ZERO        ;
+:%{XC%}%>a       BACK_SG-PAR_ZERO        ;
+
+LEXICON NMN_43AASTAK-PL 
+:%^WGStem%>a       BACK_PL-NOM ;
+:%{XC%}%>õ    BACK_PL-GEN_ZERO ;
+:%{XC%}%>õ    BACK_PL-ILL_he ;
+:%{XC%}%>õ    BACK_PL-PAR_ZERO ;
+:%^WGStem%>õ    BACK_PL-ALL_lõ-STEM ;
+:%^WGStem%>õ       PL-COM ;
+
+
+
 
 LEXICON NMN_44SÕDA
 ! gradation: yes
@@ -4185,6 +4275,29 @@ LEXICON NMN_47ASI-PL
 :%^I2J%>o       BACK_PL-GEN_ZERO ;
 :%^I2J%>o       BACK_PL-PAR_ZERO ;
 :%^I2J%>o       BACK_PL-ILL_he ;
+:%^I2ʼ%>o       BACK_PL-ALL_lõ-STEM ;
+:%^I2J%>o       PL-COM ;
++Use/NG:%^I2J%>o       BACK_PL-ILL_ZERO ;
++Use/NG:%^I2J%>o       BACK_PL-ILL_dõ ;
+
+LEXICON NMN_47KIRI !!= * @CODE@ kiri:kiri
+  NMN_47KIRI-SG ;
+  NMN_47KIRI-PL ;
+LEXICON NMN_47KIRI-SG 
+        BACK_SG-NOM  ;
+:%^VowRM%>ä    FRONT_SG-GEN_ZERO-STEM        ;
+:%^I2J%>ä    FRONT_SG-ILL_ZERO        ;
+:%^I2J%>ä    FRONT_SG-PAR_ZERO        ;
+:%^I2ʼ%>a    BACK_SG-GEN_ZERO-STEM        ;
+:%^I2J%>a    BACK_SG-ILL_ZERO        ;
+:%^I2J%>a    BACK_SG-PAR_ZERO        ;
+LEXICON NMN_47KIRI-PL 
+:%^VowRM%>ä    FRONT_PL-NOM ;
+:%^I2ʼ%>a    BACK_PL-NOM ;
+:%^I2J%>o       BACK_PL-GEN_ZERO ;
+:%^I2J%>o       BACK_PL-PAR_ZERO ;
+:%^I2J%>o       BACK_PL-ILL_he ;
+:%^VowRM%>ö       BACK_PL-ALL_lõ-STEM ; !!= * @CODE@ IS THIS A REAL FORM?
 :%^I2ʼ%>o       BACK_PL-ALL_lõ-STEM ;
 :%^I2J%>o       PL-COM ;
 +Use/NG:%^I2J%>o       BACK_PL-ILL_ZERO ;

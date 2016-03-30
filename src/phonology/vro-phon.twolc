@@ -235,44 +235,44 @@ Rules
 
 !"e2i"
 !!! __@RULENAME@__
-! e:i <=>  # Cns* _ e: [ k | l | n | r ] %^VOWRaise: ;
-!  # Cns* e: _ [ k | l | n | r ] %^VOWRaise: ;
+! e:i <=>  [ # Cns* | Cns ] _ e: [ k | l | n | r ] %^VOWRaise: ;
+!  [ # Cns* | Cns ] e: _ [ k | l | n | r ] %^VOWRaise: ;
  
 "e2i̬"
 !! __@RULENAME@__
- e:i̬ <=>  # Cns* _ e: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
- # Cns* e: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ e:i̬ <=>  [ # Cns* | Cns ] _ e: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ [ # Cns* | Cns ] e: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
 !!€ keel%^VOWRaiseʼ
 !!€ kiil0ʼ
 
 "õ2õ̭"
 !! __@RULENAME@__
- õ:õ̭ <=>  # Cns* _ õ: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
- # Cns* õ: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ õ:õ̭ <=>  [ # Cns* | Cns ] _ õ: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ [ # Cns* | Cns ] õ: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
 
 
 
 !"o2u"
 !!! __@RULENAME@__
-! o:u <=>  # Cns* _ o: [ k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
-! # Cns* o: _ [ k | l | n | r | m | t: s | r t: | v ] %^VOWRaise: ;
+! o:u <=>  [ # Cns* | Cns ] _ o: [ k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+! [ # Cns* | Cns ] o: _ [ k | l | n | r | m | t: s | r t: | v ] %^VOWRaise: ;
 
 
 "o2u̬"
 !! __@RULENAME@__
- o:u̬ <=>  # Cns* _ o: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
- # Cns* o: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ o:u̬ <=>  [ # Cns* | Cns ] _ o: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ [ # Cns* | Cns ] o: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
 
 
 "ö2ü̬"
 !! __@RULENAME@__
- ö:ü̬ <=>  # Cns* _ ö: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
- # Cns* ö: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ ö:ü̬ <=>  [ # Cns* | Cns ] _ ö: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ [ # Cns* | Cns ] ö: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
 
 "õ2õ̬"
 !! __@RULENAME@__
- õ:õ̬ <=>  # Cns* _ õ: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
- # Cns* õ: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ õ:õ̬ <=>  [ # Cns* | Cns ] _ õ: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ [ # Cns* | Cns ] õ: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
 
 
 
@@ -757,6 +757,10 @@ k:0 <=> h _ Vow: s %^Pen: %^WGStem: ;
 "s20"
 !! __@RULENAME@__
  s:0 <=> [ u: | ü: | a: | ä: ] _ (%^VowRM:)  %^CnsRM:  ;
+         s _ %^TS2S: ;
+!! ussʼ+N+Sg+Par __door__
+!!€ uss%^TS2S%>t
+!!€ us00%>t
 
 "d20"
 !! __@RULENAME@__
