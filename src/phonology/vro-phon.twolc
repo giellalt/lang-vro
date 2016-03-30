@@ -111,11 +111,11 @@ Y
 
 Sets
 
-VowBack = a o u õ y;
-VowFront = ä ö ü ;
-VowNeutral = e i ; 
-VowNonHigh = a o ä ö e ;
-Vow = a o u ä ö ü e i õ y ;
+VowBack = a o u õ y õ̭ u̬ ;
+VowFront = ä ö ü ü̬ ;
+VowNeutral = e i i̬ ; 
+VowNonHigh = a o ä ö e õ ;
+Vow = a o u ä ö ü e i õ y õ̭ ü̬ u̬ i̬ ;
 
 Cns = b d f g h j k l m n p q r s š t v z ž ;
 
@@ -233,24 +233,47 @@ Rules
 !!€ särgi00
 !! }}}
 
-"e2i"
+!"e2i"
+!!! __@RULENAME@__
+! e:i <=>  # Cns* _ e: [ k | l | n | r ] %^VOWRaise: ;
+!  # Cns* e: _ [ k | l | n | r ] %^VOWRaise: ;
+ 
+"e2i̬"
 !! __@RULENAME@__
- e:i <=>  # Cns* _ e: [ l | n | r ] %^VOWRaise: ;
-  # Cns* e: _ [ l | n | r ] %^VOWRaise: ;
+ e:i̬ <=>  # Cns* _ e: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ # Cns* e: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
 !!€ keel%^VOWRaiseʼ
 !!€ kiil0ʼ
-  
 
-"o2u"
+"õ2õ̭"
 !! __@RULENAME@__
- o:u <=>  # Cns* _ o: [ l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
- # Cns* o: _ [ l | n | r | m | t: s | r t: | v ] %^VOWRaise: ;
+ õ:õ̭ <=>  # Cns* _ õ: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ # Cns* õ: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+
+
+
+!"o2u"
+!!! __@RULENAME@__
+! o:u <=>  # Cns* _ o: [ k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+! # Cns* o: _ [ k | l | n | r | m | t: s | r t: | v ] %^VOWRaise: ;
 
 
 "o2u̬"
 !! __@RULENAME@__
- o:u̬ <=>  # Cns* _ o: [ l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
- # Cns* o: _ [ l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ o:u̬ <=>  # Cns* _ o: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ # Cns* o: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+
+
+"ö2ü̬"
+!! __@RULENAME@__
+ ö:ü̬ <=>  # Cns* _ ö: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ # Cns* ö: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+
+"õ2õ̬"
+!! __@RULENAME@__
+ õ:õ̬ <=>  # Cns* _ õ: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ # Cns* õ: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+
 
 
 "i2e"
@@ -538,6 +561,10 @@ Rules
 !! __@RULENAME@__
  0:r <=>
          Vow r _ Vow: %^Pen: %^StrGStem: ;
+
+"0:h"
+!! __@RULENAME@__
+ 0:h <=> Vow h _ Vow: %^Pen: %^StrGStem: ;
 
 
 "0:k"
