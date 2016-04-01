@@ -22,6 +22,7 @@ LEXICON Punctuation
 !! Period, comma, etc.
 
  %,+CLB:%,         # ;
+ %,%,%,+CLB:%,%,%, # ;
  %.+CLB:%.         # ;
  %.%.+CLB:%.%.     # ;
  %.%.%.+CLB:%.%.%. # ;
@@ -33,7 +34,6 @@ LEXICON Punctuation
  …+CLB:…           # ;
  ¿+CLB:¿           # ; ! Only seen as noise.
  ¶+CLB:¶           # ;
-
 
 !! !!Miscellaneous symbols, abbreviation symbols
 
