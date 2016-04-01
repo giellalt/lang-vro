@@ -1,16 +1,150 @@
-LEXICON Punctuation 
-+CLB:%,   # ;
-+CLB:%.   # ;
-+CLB:%:   # ;
-+CLB:%;	  # ;
-+CLB:%!	  # ;
-+CLB:%?	  # ;
-+PUNCT:%-  # ;
-+HYPH:%" # ;
-+HYPH:%« # ;
-+HYPH:%» # ;
-+PAR:%[ # ;
-+PAR:%] # ;
-+PAR:%( # ;
-+PAR:%) # ;
+
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+!! !!!Punctuation
+
+LEXICON Punctuation
+
+!! !!Clause boundary symbols:
+
+!! Period, comma, etc.
+
+ %,+CLB:%,         # ;
+ %.+CLB:%.         # ;
+ %.%.+CLB:%.%.     # ;
+ %.%.%.+CLB:%.%.%. # ;
+ %:+CLB:%:         # ;
+ %;+CLB:%;         # ;
+ ^excl+CLB:%!      # ;
+ ^pipe+CLB:%|      # ;
+ %?+CLB:%?         # ;
+ …+CLB:…           # ;
+ ¿+CLB:¿           # ; ! Only seen as noise.
+ ¶+CLB:¶           # ;
+
+
+!! !!Miscellaneous symbols, abbreviation symbols
+
+!! These could be moved to abbr-sme-lex.txt: §, $, €, ...
+
+ §+N+ABBR+Use/Circ:§ PUNCTconnector ;    ! §:s	!
+ §§+N+ABBR+Use/Circ:§§ PUNCTconnector ;  ! §:ain	!
+ $+N+ABBR+Use/Circ:$  PUNCTconnector ;    ! $:s	!
+ €+N+ABBR+Use/Circ:€  PUNCTconnector ;    ! €:s	!
+ £+N+ABBR+Use/Circ:£  PUNCTconnector ;    ! €:s	!
+ ®+N+ABBR:® # ;
+ ©+N+ABBR:© # ;
+
+
+!! !!Single punctuation marks
+
+  √+PUNCT:√   # ;
+  ◊+PUNCT:◊   # ;
+  •+PUNCT:•   # ;
+  ●+PUNCT:●   # ;
+  ·+PUNCT:·   # ;
+   ּ+PUNCT:ּ    # ;
+  ·+PUNCT:·   # ;
+  -+PUNCT:-   # ; ! hyphen
+ --+PUNCT:--  # ; ! double hyphen
+  –+PUNCT:–   # ; ! endash
+  —+PUNCT:—   # ; ! emdash
+  ―+PUNCT:―   # ; ! horizontal bar
+  =+PUNCT:=   # ;
+  ≈+PUNCT:≈   # ;
+ %%+PUNCT:%%  # ;
+  &+PUNCT:&   # ;
+ %"+PUNCT:%"  # ;
+  '+PUNCT:'7  # ; ! We use "'7" to avoid the CG symbol of ái'gi etc.
+ %*+PUNCT:%*  # ;
+  ++PUNCT:+   # ;
+  ±+PUNCT:±   # ;
+  `+PUNCT:`   # ;
+  ´+PUNCT:´   # ;
+  /+PUNCT:/   # ;
++/-+PUNCT:+/- # ;
+ %~+PUNCT:%~  # ;
+
+  §+N+ABBR+Sg+Nom:§ #  ; !Quick fix
+  §+N+ABBR+Sg+Acc:§ #  ; !Quick fix
+  §+N+ABBR+Sg+Gen:§ # ; !Quick fix
+  §§+N+ABBR+Sg+Nom:§§ # ; !Quick fix
+  §§+N+ABBR+Sg+Acc:§§ # ; !Quick fix
+  §§+N+ABBR+Sg+Gen:§§ # ; !Quick fix
+
+
+!! !!Paired punctuation marks
+
+!! Quotation marks, parentheses, etc.
+
+ »+PUNCT+RIGHT:»7     # ; ! XXX Does not work!
+ «+PUNCT+LEFT:«7      # ;
+ %“+PUNCT+LEFT:%“     # ;
+ %„+PUNCT+LEFT:%„     # ;
+ %”+PUNCT+RIGHT:%”    # ;
+ %‘+PUNCT+LEFT:%‘     # ;
+ %’+PUNCT+RIGHT:%’    # ;
+ %‹+PUNCT+LEFT:%‹     # ;
+ %›+PUNCT+RIGHT:%›    # ;
+ %(+PUNCT+LEFT:%(     # ;
+ %)+PUNCT+RIGHT:%)    # ;
+ %[+PUNCT+LEFT:%[     # ;
+ %]+PUNCT+RIGHT:%]    # ;
+ %{+PUNCT+LEFT:%{     # ;
+ %}+PUNCT+RIGHT:%}    # ;
+ %<+PUNCT+LEFT:%[%<%] # ;
+ %>+PUNCT+LEFT:%[%>%] # ;
+
+
+
+
+!! !!Lexica for introducing case tags
+
+!! This is for symbols functioning as abbreviation
+!! of words, rather than as text structuring symbols,
+!! i.e. for $ and €, but not for , and «.
+
+LEXICON PUNCTconnector
+ +Sg+Nom+: # ;              ! §
+ :%: PUNCTsuff ;	        ! §:sne
+ +Err/Orth: PUNCTsuff ;		! §esne
+ +Err/Orth:%-e PUNCTsuff ;	! §-esne
+ +Err/Orth:%'e PUNCTsuff ;	! §'esne
+
+LEXICON PUNCTsuff
+ +Sg+Gen:n # ;
+ +Sg+Acc:m # ;
+ +Sg+Ill:se # ;
+ +Sg+Ine:sne # ;
+ +Sg+Ela:ste # ;
+ +Sg+Com:ine # ;
+   +Ess:ine # ;
++Pl+Nom:h # ;
++Pl+Gen:ij # ;
++Pl+Acc:ide # ;
++Pl+Ill:ide # ;
++Pl+Ine:ine # ;
++Pl+Ela:jste # ;
++Pl+Com:jgujmie # ;
+
+
+! Todo: Some symbols from non-ISO code pages do not work
+
+!+PUNCT:"\150" # ; ! trying to capture some hyphens
+!+PUNCT:"\151" # ; ! trying to capture some hyphens
+! Did not work.
+
+
 
