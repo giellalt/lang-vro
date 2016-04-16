@@ -8,33 +8,38 @@ LEXICON PERS-SG1
 +Pron+Pers+Sg1: PERS-SG1-2-NOM-COM ;
 +Pron+Pers+Sg1:u PERS-SG1-2-ABE-TRA ;
 +Pron+Pers+Sg1:ino PERS-SG1-2-ABE-TRA ;
-+Pron+Pers+Sg1+Par:innu K ;
-+Pron+Pers+Sg1+All:ullõ K ;
 
 LEXICON PERS-SG2
 +Pron+Pers+Sg2: PERS-SG1-2-NOM-COM ;
 +Pron+Pers+Sg2:u PERS-SG1-2-ABE-TRA ;
 +Pron+Pers+Sg2:ino PERS-SG1-2-ABE-TRA ;
-+Pron+Pers+Sg2+Par:innu K ;
-+Pron+Pers+Sg2+All:ullõ K ;
 
 LEXICON PERS-SG3
-+Pron+Pers+Sg3+Nom:imä K ;
++Pron+Pers+Sg3+Nom: FOR-PERS-SG3-GEN/NOM ;
++Pron+Pers+Sg3+Gen: FOR-PERS-SG3-GEN/NOM ;
 +Pron+Pers+Sg3+Abe:imäldäq FRONT_K ;
 +Pron+Pers+Sg3+Abe:imälda K ; !! CHECKME vowel harmony
-+Pron+Pers+Sg3+Ade:imäl K ;
 +Pron+Pers+Sg3+Com:imägaq K ;
 +Err/Orth+Pron+Pers+Sg3+Com:imäga K ;
 +Pron+Pers+Sg3+Ill:immä K ;
-+Pron+Pers+Sg3+Gen:ä K ;
-+Pron+Pers+Sg3+Nom:ä K ;
 +Pron+Pers+Sg3+Par:edä K ;
++Pron+Pers+Sg3+Par:immä K ;
 +Pron+Pers+Sg3+Ade:äl K ;
 +Pron+Pers+Sg3+All:älle K ;
++Pron+Pers+Sg3+All:ääle K ;
++Pron+Pers+Sg3+All:imäle K ;
++Pron+Pers+Sg3+Ter:imäiq K ;
 
++Pron+Pers+Sg3:ä PERS-SG1-2-ABE-TRA ;
++Pron+Pers+Sg3:ää PERS-SG1-2-ABE-TRA ;
++Pron+Pers+Sg3:imä PERS-SG1-2-ABE-TRA ;
 
-+Pron+Pers+Sg3:u PERS-SG1-2-ABE-TRA ;
-+Pron+Pers+Sg3:ino PERS-SG1-2-ABE-TRA ;
+LEXICON FOR-PERS-SG3-GEN/NOM
+:ä K ;
+:ää K ;
+:imä K ;
+:iä K ;
+
 
 LEXICON PERS-SG1-2-NOM-COM
 +Nom:aq K ;
@@ -42,11 +47,14 @@ LEXICON PERS-SG1-2-NOM-COM
 +Gen:uq K ;
 +Gen:ino K ;
 +Par:inno K ;
-+All:llõ K ;
-+All:olõ K ;
++Par:innu K ;
++All:ullõ K ;
++All:inolõ K ;
++Ade:ul K ;
++Ade:inol K ;
 +Ter:oniq K ;
-+Com:qkaq K ;
-+Com:nogaq K ;
++Com:uqkaq K ;
++Com:inogaq K ;
 
 LEXICON PERS-SG1-2-ABE-TRA
 +Abe:ldaq K ;
@@ -61,29 +69,39 @@ LEXICON PERS-PL1 !!= @CODE@ miiq:m
 LEXICON PERS-PL2 !!= @CODE@ tiiq:t
 +Pron+Pers+Pl2: PERS-PL1-2 ;
 
+LEXICON PERS-PL3 !!= @CODE@ nääq:n
++Pron+Pers+Pl3+Nom:ä%>%{XV%}q K ;
++Pron+Pers+Pl3+Nom:ä K ;
++Pron+Pers+Pl3+Nom:imä K ;
++Pron+Pers+Pl3+Nom:iä K ;
++Pron+Pers+Pl3+Gen:äide K ;
++Pron+Pers+Pl3+Ter:äideniq K ;
++Pron+Pers+Pl3:ä FOR-PERS-PL1/2/3 ;
+
+
 LEXICON PERS-PL1-2
 +Nom:iiq K ;
 +Nom:i K ;
 +Gen:iiq K ;
 +Gen:i K ;
-+Par:eid K ;
-+Ela:eist K ;
-+All:eile K ;
-+Ade:eil K ;
-+Abl:eilt K ;
-+Tra:eis K ;
-+Abe:eildäq K ;
 +Com:iiqkaq K ;
+:e FOR-PERS-PL1/2/3 ;
+
+LEXICON FOR-PERS-PL1/2/3
++Par:id K ;
++Ela:ist K ;
++All:ile K ;
++Ade:il K ;
++Abl:ilt K ;
++Tra:is K ;
++Abe:ildäq K ;
+
+
 
 !! !DEMONSTRATIVE PRONOUNS
 LEXICON PRON-DEM
 +Pron+Sg+Nom: K ;
 +Pron+Sg+Nom:%>%{XV%} K ;
-
-LEXICON PRON-DEM_NÄ
-+Pron+Pl+Nom: K ;
-+Pron+Pl+Nom:%>%{XV%}q K ;
-+Pron+Pl+Ade:il K ;
 
 LEXICON PRON-DEM_seo/taa
 +Pron+Dem: BACK_SG-NOM ;
