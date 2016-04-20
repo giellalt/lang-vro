@@ -1069,6 +1069,11 @@ LEXICON V_74VÄSÜMÄ !!≈ * __@CODE@__ väsümä:väsü
 
 LEXICON V_75VALAMA !!≈ * __@CODE@__ valama:vala
 !! * Yaml: __V-valama75__
+!! vala, valla, vali, valõ
+!!test
++V: V0_75VALAMA ;
+
+!!
 +V: BACK_V0-IND-PRS-SC-12 ;
 +V: BACK_ACT-IND-PRS-CONNEG ;
 +V: V0-IND-PRS-SCSG3_ZERO ;
@@ -1081,11 +1086,41 @@ LEXICON V_75VALAMA !!≈ * __@CODE@__ valama:vala
 +V: BACK_VISKAMA_PSS-IND-PRT_ti ;
 
 +V: BACK_INF_ma ;
-+V:%^StrGStem BACK_INF_ZEROq ;
++V:%^Pen%^StrGStem BACK_INF_ZEROq ;
 +V: BACK_ACT-PRS-PRC_v ;
 +V: BACK_ACT-PRF-PRC_WEAKGRADE-nuq ;
 +V:%^VowRM%>õ BACK_V0-PSS-PRS-PRC_tav ;
 +V:%^VowRM%>õ BACK_PSS-PRF-PRC_t ;
+
+LEXICON V0_75VALAMA
++Inf/mA:%>ma # ;
++Inf:%^Pen%^StrGStem%>q # ;
++Act+PrfPrc:%>nuq # ;
++Pss+PrfPrc:%^VowRM%>õt # ;
++Pss+PrfPrc:%^VowRM%>õtu # ;
++Act+Ind+Prs+Sg1:%> # ;
++Act+Ind+Prs+Sg2:%>t # ;
++Act+Ind+Prs+Sg2:%>dõq # ;
++Act+Ind+Prs+Sg3:%> # ;
++Act+Ind+Prs+Sg3:%>s # ;
++Act+Ind+Prs+Pl1:%>miq # ;
++Act+Ind+Prs+Pl2:%>tiq # ;
++Act+Ind+Prs+Pl3:%>vaq # ;
++Act+Ind+Prs+Pl3:%>sõq # ;
++Act+Ind+ConNegII:%> # ;
++Act+Ind+Prt+Sg1:%^VowRM%>i # ;
++Act+Ind+Prt+Sg2:%^VowRM%>iq # ;
++Act+Ind+Prt+Sg2:%^VowRM%>idõq # ;
++Act+Ind+Prt+Sg2:%^VowRM%>it # ;
++Act+Ind+Prt+Sg3:%^VowRM%>i # ;
++Act+Ind+Prt+Pl1:%^VowRM%>imiq # ;
++Act+Ind+Prt+Pl2:%^VowRM%>itiq # ;
++Act+Ind+Prt+Pl3:%^VowRM%>iq # ;
++Act+Ind+Prt+Pl3:%^VowRM%>ivaq # ;
++Pss+Ind+Prs+Sg1:%^VowRM%>õda # ;
++Pss+Ind+Prs+Sg3:%^VowRM%>õtas # ;
++Act+PrsPrc+Sg+Nom:%^Pen%^StrGStem%>v # ;
++Jus:%>guq # ;
 
 LEXICON V_75JÄRÄMÄ !!≈ * __@CODE@__ järämä:järä
 !! * Yaml: __V-jaeraemae75__
@@ -1101,7 +1136,7 @@ LEXICON V_75JÄRÄMÄ !!≈ * __@CODE@__ järämä:järä
 +V: FRONT_VISKAMA_PSS-IND-PRT_ti ;
 
 +V: FRONT_INF_mä ;
-+V:%^StrGStem FRONT_INF_ZEROq ;
++V:%^Pen%^StrGStem FRONT_INF_ZEROq ;
 +V: FRONT_ACT-PRS-PRC_v ;
 +V: FRONT_ACT-PRF-PRC_WEAKGRADE-nüq ;
 +V:%^VowRM%>e FRONT_V0-PSS-PRS-PRC_täv ;
