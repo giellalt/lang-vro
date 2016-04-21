@@ -35,6 +35,7 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 Y7:õ  !!= __@CODE@__  This appears for syna = s%^Y7na and is rendered as õ in the norm
 
 !! Triggers
+ %^Õ2E:0	 !!= @CODE@ lugõ%^Pen%^WGStem%^Õ2E loe
  %^UU2Õ:0	!!= @CODE@  juu%^UU2Õ%>i:j0õ0%>i
 
  %^ÄI2ÄÄ:0 	!!= @CODE@ päiv%^ÄI2ÄÄ%>ä: päävä
@@ -180,9 +181,10 @@ Rules
  u:o <=>
    u: _ %^VOWLower: ;
  OnSetC   _ u: %^VOWLower: ;
- OnSetC _ Cns:+ Vow: %^Pen: %^VOWLower: ;
-!!€ lugõ%^Pen%^VOWLower%^WGStem%^VowRM%>i
-!!€ lo000000%>i
+ OnSetC _ Cns:0 Vow:0 %^Pen: %^WGStem: %^VowRM: %> i   ;
+ OnSetC _ Cns:0 Vow:e %^Pen: %^WGStem:    ;
+!!€ lugõ%^WGStem%^VowRM%>i
+!!€ lo0000%>i
 
 "ü:ö"
 !! __@RULENAME@__
@@ -331,10 +333,16 @@ Rules
 !!€ sy0a0
 !! }}}
 
+"õ2e"
+!! __@RULENAME@__
+ õ:e <=>  _ (%^Pen: %^WGStem:) %^Õ2E:;
+!!€ lugõ%^Pen%^WGStem%^Õ2E%>t
+!!€ lo0e000%>t
+
 !! !VOWEL LOSS
 "a:0"
 !! __@RULENAME@__
- a:0 <=>  Cns: _ [ (%^StrGStem:|%^Pen: %^WGStem:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
+ a:0 <=>  Cns: _ [ (%^StrGStem:|%^Pen: %^WGStem:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: %> ]  ; 
       a _ %>  i  ; !!= @CODE@ 
 !!€ saa%>i
 !!€ sa0%>i
@@ -414,7 +422,7 @@ Rules
 !!€ kand0l00%>õ
 !!€ kogõr%^StrGStem%^Pen%^VowRM%>õ
 !!€ kok0r00%>õ
- Cns: _ (%^Pen: %^VOWLower: %^Pen: %^WGStem:|%^WGStem:|%^StrGStem:) %^VowRM:  ;
+ Cns: _ (%^Pen: %^VOWLower: %^Pen: %^WGStem:|%^WGStem:|%^StrGStem:|%^Pen: %^WGStem:) %^VowRM:  ;
 !!€ hammõ%^WGStem%^VowRM%>ihe
 !!€ ham0000%>ihe
 
@@ -752,6 +760,7 @@ k:0 <=> h _ Vow: s %^Pen: %^WGStem: ;
 "gTok"
 !! __@RULENAME@__
  g:k <=> 
+    Vow _ Vow: ( l | r ) %^Pen: %^StrGStem: ;
     Vow _ Vow: %^StrGStem: ;
     Vow _ 0: Vow: %^XStrGStem: ;
 !!€ ig0ä%^XStrGStem
@@ -759,7 +768,7 @@ k:0 <=> h _ Vow: s %^Pen: %^WGStem: ;
    Vow _ Vow: [ l | r ] %^StrGStem: %^Pen: %^VowRM: ;
 !!€ kogõr%^StrGStem%^Pen%^VowRM%>õ
 !!€ kok0r00%>õ
-
+   [t ] (Vow:0) (%^VowRM:) %> _ u ;
 
 !! !STEM-FINAL CONSONANT LOSS
 "s20"
@@ -788,6 +797,11 @@ k:0 <=> h _ Vow: s %^Pen: %^WGStem: ;
    Vow: _ Vow: PenBetweenStemAndPenGrade %^Pen: %^WGStem: ;
 !!€ igä%^Pen%^WGStem
 !!€ i0ä00
+!! lugõma+V+Pss+PrfPrc __read/lukea__
+!!€ lugõ%^Pen%^WGStem%^Õ2E%>t
+!!€ lo0e000%>t
+
+
  Vow l _ Vow %^WGStem: ;
 !!€ palgõ%^WGStem%>h
 !!€ pal0õ0%>h

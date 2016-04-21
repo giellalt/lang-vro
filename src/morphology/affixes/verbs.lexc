@@ -1089,6 +1089,7 @@ LEXICON V_75VALAMA !!≈ * __@CODE@__ valama:vala
 +V:%^Pen%^StrGStem BACK_INF_ZEROq ;
 +V: BACK_ACT-PRS-PRC_v ;
 +V: BACK_ACT-PRF-PRC_WEAKGRADE-nuq ;
+
 +V:%^VowRM%>õ BACK_V0-PSS-PRS-PRC_tav ;
 +V:%^VowRM%>õ BACK_PSS-PRF-PRC_t ;
 
@@ -1144,24 +1145,64 @@ LEXICON V_75JÄRÄMÄ !!≈ * __@CODE@__ järämä:järä
 
 LEXICON V_76HIGOMA !!≈ * __@CODE@__ higoma:higo
 !! * Yaml: __V-higoma76__
-+V:%^Pen%^WGStem BACK_V0-IND-PRS-SC-12 ;
-+V: BACK_ACT-IND-PRS-CONNEG ;
-+V: V0-IND-PRS-SCSG3_ZERO ;
-+V: BACK_V0-IND-PRS-SCPL3_iaq ;
-+V: BACK_VISKAMA_PSS-IND-PRS ;
+!+V:%^Pen%^WGStem BACK_V0-IND-PRS-SC-12 ;
+!+V: BACK_ACT-IND-PRS-CONNEG ;
+!+V: V0-IND-PRS-SCSG3_ZERO ;
+!+V: BACK_V0-IND-PRS-SCPL3_iaq ;
+!+V: BACK_VISKAMA_PSS-IND-PRS ;
+!
+!+V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM V0-IND-PRT-SC-12_i ;
+!+V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM BACK_IND-PRT-SCSG1_iõ ;
+!+V: BACK_ACT-IND-PRT-CONNEG ;
+!+V:%^VowRM V0-IND-PRT-SCSG3_i ;
+!+V: BACK_VISKAMA_PSS-IND-PRT_ti ;
+!
+!+V: BACK_INF_ma ;
+!+V:%^StrGStem BACK_INF_ZEROq ;
+!+V: BACK_ACT-PRS-PRC_v ;
+!+V: BACK_ACT-PRF-PRC_nuq ;
+!+V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>õ BACK_V0-PSS-PRS-PRC_tav ;!CHECKME
+!+V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>õ BACK_PSS-PRF-PRC_t ;
++V: V0_76LUGÕMA ;
 
-+V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM V0-IND-PRT-SC-12_i ;
-+V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM BACK_IND-PRT-SCSG1_iõ ;
-+V: BACK_ACT-IND-PRT-CONNEG ;
-+V:%^VowRM V0-IND-PRT-SCSG3_i ;
-+V: BACK_VISKAMA_PSS-IND-PRT_ti ;
+LEXICON V0_76LUGÕMA
+!! Retain consonant and stem vowel
+: BACK_ACT-PRS-PRC_v_LUGÕMA ; !!= * @CODE@ (1) lugõma
+!! +Act+PrsPrc+Sg OBL, Inf/mA, 
+!! +Jus
 
-+V: BACK_INF_ma ;
-+V:%^StrGStem BACK_INF_ZEROq ;
-+V: BACK_ACT-PRS-PRC_v ;
-+V: BACK_ACT-PRF-PRC_nuq ;
-+V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>õ BACK_V0-PSS-PRS-PRC_tav ;!CHECKME
-+V:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>õ BACK_PSS-PRF-PRC_t ;
+
+!! Strengthen consonant retain stem vowel
+:%^Pen%^StrGStem BACK_INF_ZEROq ; !!= * @CODE@ (2) lukõq
+:%^Pen%^StrGStem BACK_ACT-PRSPRC-SG-NOM_v ; !!= * @CODE@ (2b) lukõv
+!! Inf, Act+PrsPrc+Sg+Nom
+
+!! Retain consonant and stem vowel
+: BACK_ACT-PRFPRC_v_LUGÕMA ; !!= * @CODE@ (3) lugõnuq
+!! +Act+PrfPrc
+
+!! Weaken consonant and semi-retension of stem vowel
+:%^Pen%^WGStem%^Õ2E BACK_LUGÕMA_PSS-PRC ; !!= * @CODE@ (4) loet
+!! Pss+PrfPrc, Pss+PrsPrc
+
+!! Weaken consonant and semi-retension of stem vowel
+:%^Pen%^WGStem%^Õ2E BACK_LUGÕMA_IND-CONNEGII ; !!= * @CODE@ (5) loet
+!! Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
+!! Pss+Ind
+
+!! Retain consonant and stem vowel
+: BACK_ACT-IND-PRS-3_LUGÕMA ; !!= * @CODE@ (6) lugõma
+!! Ind+Prs+ 3
+
+!! Weaken consonant and replace stem vowel with i
+:%^Pen%^WGStem%^VowRM%>i BACK_LOGÕMA_ACT-IND-PRT-SG1 ; !!= * @CODE@ (7) loi
+!! Act+Ind+PrtSg1/Sg2/Pl1-3
+
+!! Retain consonant remove stem vowel and add i
+:%^VowRM%>i BACK_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) lugi
+!! Act+Ind+Prt+Sg3
+
+
 
 LEXICON V_76PÜGÄMÄ !!≈ * __@CODE@__ pügämä:pügä
 !! * Yaml: __V-puegaemae76__
@@ -1421,28 +1462,68 @@ LEXICON V_MINEMÄ !!≈ * __@CODE@__ minemä:min
 
 LEXICON V_79TULÕMA !!≈ * __@CODE@__ tulõma:tul
 !! * Yaml: __tulwma__
-+V:õ BACK_V0-IND-PRS-SC-12 ;
-+V:õ BACK_ACT-IND-PRS-CONNEG ;
-+V:õ V0-IND-PRS-SCSG3_ZERO ;
-+V:õ BACK_V0-IND-PRS-SCPL3_vaq ;
-+V: BACK_VISKAMA_PSS-IND-PRS ;
+!+V:õ BACK_V0-IND-PRS-SC-12 ;
+!+V:õ BACK_ACT-IND-PRS-CONNEG ;
+!+V:õ V0-IND-PRS-SCSG3_ZERO ;
+!+V:õ BACK_V0-IND-PRS-SCPL3_vaq ;
+!+V: BACK_VISKAMA_PSS-IND-PRS ;
+!
+!+V:%{XC%} BACK_IND-PRT-SCSG1_iõ ;
+!+V:%{XC%} V0-IND-PRT-SC-12_i ;
+!+V:õ BACK_ACT-IND-PRT-CONNEG ;
+!!+V: V0-IND-PRT-SCSG3_i ;
+!+V+Act+Ind+Prt+Sg3:%{XC%}ʼ K ;
+!+V:%{XC%} V0-IND-PRT-SCSG3_i ;
+!+V:%{XC%} BACK_ACT-IND-PRT-SCPL3_vaq ;
+!+V: BACK_VISKAMA_PSS-IND-PRT_ti ;
+!
+!+V:õ BACK_INF_ma ;
+!+V: BACK_INF_daq ;
+!+V:õ BACK_ACT-PRS-PRC_v ;
+!+V:%^VOWLower BACK_ACT-PRF-PRC_WEAKGRADE-nuq ;
+!+V: BACK_V0-PSS-PRS-PRC_tav ;
+!+V:%^WGStem BACK_PSS-PRF-PRC_t ;
 
-+V:%{XC%} BACK_IND-PRT-SCSG1_iõ ;
-+V:%{XC%} V0-IND-PRT-SC-12_i ;
-+V:õ BACK_ACT-IND-PRT-CONNEG ;
-!+V: V0-IND-PRT-SCSG3_i ;
-+V+Act+Ind+Prt+Sg3:%{XC%}ʼ K ;
-+V:%{XC%} V0-IND-PRT-SCSG3_i ;
-+V:%{XC%} BACK_ACT-IND-PRT-SCPL3_vaq ;
-+V: BACK_VISKAMA_PSS-IND-PRT_ti ;
++V: V0_79TULÕMA ;
 
-+V:õ BACK_INF_ma ;
-+V: BACK_INF_daq ;
-+V:õ BACK_ACT-PRS-PRC_v ;
-+V:%^VOWLower BACK_ACT-PRF-PRC_WEAKGRADE-nuq ;
-+V: BACK_V0-PSS-PRS-PRC_tav ;
-+V:%^WGStem BACK_PSS-PRF-PRC_t ;
+LEXICON V0_79TULÕMA !!= * @CODE@ tulõma:tul
+!! Retain consonant and stem vowel
+:õ BACK_ACT-PRS-PRC_v_LUGÕMA ; !!= * @CODE@ (1) tulõma
+!! +Act+PrsPrc+Sg OBL, Inf/mA, 
+!! +Jus, 
 
+!! Strengthen consonant
+:%{XC%} BACK_INF_aq ; !!= * @CODE@ (2) tullaq
+!! Inf 
+!! Strengthen consonant 
+:%{XC%}%>õ BACK_ACT-PRSPRC-SG-NOM_v ; !!= * @CODE@ (2b) tullõv
+!! Act+PrsPrc+Sg+Nom
+
+!! Retain consonant and stem vowel
+: BACK_ACT-PRFPRC_v_LUGÕMA ; !!= * @CODE@ (3) tulnuq
+!! +Act+PrfPrc
+
+!! Retain consonant 
+: BACK_LUGÕMA_PSS-PRC ; !!= * @CODE@ (4) tul
+!! Pss+PrfPrc, Pss+PrsPrc, 
+
+
+!! Retain consonant and add õ
+:õ BACK_LUGÕMA_IND-CONNEGII ; !!= * @CODE@ (5) tulõ
+!! Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
+!! Pss+Ind
+
+!! Retain consonant and stem vowel
+:õ BACK_ACT-IND-PRS-3_LUGÕMA ; !!= * @CODE@ (6) tulõma
+!! Ind+Prs+ 3
+
+!! Strengthen consonant and replace stem vowel with i
+:%{XC%}%>i BACK_LOGÕMA_ACT-IND-PRT-SG1 ; !!= * @CODE@ (7) loi
+!! Act+Ind+PrtSg1/Sg2/Pl1-3
+
+!! Strengthen consonant and add ʼ
+:%{XC%}%>ʼ BACK_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tullʼ
+!! Act+Ind+Prt+Sg3
 
 LEXICON V_OLÕMA !!≈ * __@CODE@__ olõma:o
 +V: BACK_V0-IND-PRS-SC-12 ;
@@ -1466,25 +1547,66 @@ LEXICON V_OLÕMA !!≈ * __@CODE@__ olõma:o
 +V:%^WGStem BACK_PSS-PRF-PRC_t ;
 
 
-LEXICON V_80RAPAHUTMA !!≈ * __@CODE@__ rapahutma:rapahut
-+V:%^WGStema BACK_V0-IND-PRS-SC-12 ;
-+V:a BACK_ACT-IND-PRS-CONNEG ;
-+V: V0-IND-PRS-SCSG3_ZERO ;
-+V:a BACK_V0-IND-PRS-SCPL3_vaq ;
-+V: BACK_VISKAMA_PSS-IND-PRS ;
+LEXICON V_80RAPAHUTMA !!≈ * __@CODE@__ rapahutma:rapahuta
+!+V:%^WGStema BACK_V0-IND-PRS-SC-12 ;
+!+V:a BACK_ACT-IND-PRS-CONNEG ;
+!+V: V0-IND-PRS-SCSG3_ZERO ;
+!+V:a BACK_V0-IND-PRS-SCPL3_vaq ;
+!+V: BACK_VISKAMA_PSS-IND-PRS ;
+!
+!+V:%^WGStem V0-IND-PRT-SC-12_i ;
+!+V: BACK_ACT-IND-PRT-CONNEG ;
+!+V: BACK_IND-PRT-SCSG3_APOSTROPHE ;
+!+V: BACK_ACT-IND-PRT-SCPL3_vaq ;
+!+V: BACK_VISKAMA_PSS-IND-PRT_ti ;
+!
+!+V: BACK_INF_ma ;
+!+V: BACK_INF_aq ;
+!+V:a BACK_ACT-PRS-PRC_v ;
+!+V:%^VOWLower BACK_ACT-PRF-PRC_WEAKGRADE-nuq ;
+!+V: BACK_V0-PSS-PRS-PRC_tav ;
+!+V:%^WGStemõ BACK_PSS-PRF-PRC_t ;
++V: V0_80RAPAHUTMA ;
 
-+V:%^WGStem V0-IND-PRT-SC-12_i ;
-+V: BACK_ACT-IND-PRT-CONNEG ;
-+V: BACK_IND-PRT-SCSG3_APOSTROPHE ;
-+V: BACK_ACT-IND-PRT-SCPL3_vaq ;
-+V: BACK_VISKAMA_PSS-IND-PRT_ti ;
+LEXICON V0_80RAPAHUTMA !!= * @CODE@ rapahutma:rapahuta
+!! Retain consonant and stem vowel
+:%^VowRM BACK_ACT-PRS-PRC_v_LUGÕMA ; !!= * @CODE@ (1) rapahutma
+!! +Act+PrsPrc+Sg OBL, Inf/mA, 
+!! +Jus, 
 
-+V: BACK_INF_ma ;
-+V: BACK_INF_aq ;
-+V:a BACK_ACT-PRS-PRC_v ;
-+V:%^VOWLower BACK_ACT-PRF-PRC_WEAKGRADE-nuq ;
-+V: BACK_V0-PSS-PRS-PRC_tav ;
-+V:%^WGStemõ BACK_PSS-PRF-PRC_t ;
+!! Strengthen consonant
+: BACK_INF_ZEROq ; !!= * @CODE@ (2) rapahutaq
+!! Inf 
+!! Strengthen consonant 
+:%^VowRM BACK_ACT-PRSPRC-SG-NOM_va ; !!= * @CODE@ (2b) rapahutva
+!! Act+PrsPrc+Sg+Nom
+
+!! Retain consonant and stem vowel
+:%^VowRM BACK_ACT-PRFPRC_v_LUGÕMA ; !!= * @CODE@ (3) rapahutnuq
+!! +Act+PrfPrc
+
+!! Retain consonant 
+:%^Pen%^WGStem%^VowRM%>õ BACK_LUGÕMA_PSS-PRC ; !!= * @CODE@ (4) rapahudõ
+!! Pss+PrfPrc, Pss+PrsPrc, 
+
+
+!! Retain consonant and add õ
+:%^Pen%^WGStem BACK_LUGÕMA_IND-CONNEGII ; !!= * @CODE@ (5) rapahuda
+!! Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
+!! Pss+Ind
+
+!! Retain consonant and stem vowel
+:%^VowRM BACK_ACT-IND-PRS-3_LUGÕMA ; !!= * @CODE@ (6) rapahut
+!! Ind+Prs+ 3
+
+!! Strengthen consonant and replace stem vowel with i
+:%^Pen%^WGStem%^VowRM%>i BACK_LOGÕMA_ACT-IND-PRT-SG1 ; !!= * @CODE@ (7) rapahudi
+!! Act+Ind+PrtSg1/Sg2/Pl1-3
+
+!! Strengthen consonant and add ʼ
+:%^VowRM%>ʼ BACK_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tullʼ
+!! Act+Ind+Prt+Sg3
+
 
 LEXICON V_80HÄMMÄHÜTMÄ !!≈ * __@CODE@__ hämmähütmä:hämmähüt
 +V:%^WGStema FRONT_V0-IND-PRS-SC-12 ;
@@ -2386,6 +2508,7 @@ LEXICON FRONT_V2N_mine
 +Der/minÕ+N:%>mi NMN_16INEMINE ;
 +Der/JA+N:%>j NMN_9ELLÄI ; !!≈ * __@CODE@__ This should have a +Der/JA tag
 
+
 LEXICON BACK_ACT-PRS-PRC_v
 +Act+PrsPrc:v BACK_K ;
 +Act+PrsPrc:v A_9KIPÕNʼ ;
@@ -2705,11 +2828,11 @@ LEXICON BACK_PSS-PRF-PRC_t
 +Pss+PrfPrc+Sg+Ill:%>tuhe BACK_K ;
 +Pss+PrfPrc+Pl+Nom:%>duq BACK_K ;
 +Pss+PrfPrc+Pl+Gen:%>tuidõ BACK_K ;
-+Pss+PrfPrc+Pl+Gen:%>tuisi BACK_K ;
++Use/NG+Pss+PrfPrc+Pl+Gen:%>tuisi BACK_K ;
 +Pss+PrfPrc+Pl+Par:%>tuid BACK_K ;
-+Pss+PrfPrc+Pl+Par:%>tuisi BACK_K ;
-+Pss+PrfPrc+Pl+Ill:%>tuisihe BACK_K ;
++Use/NG+Pss+PrfPrc+Pl+Par:%>tuisi BACK_K ;
 +Pss+PrfPrc+Pl+Ill:%>tuihe BACK_K ;
++Use/NG+Pss+PrfPrc+Pl+Ill:%>tuisihe BACK_K ;
 +Use/NG+Pss+PrfPrc+Pl+Nom:%>du BACK_K ; !!= * @CODE@ no q
 
 LEXICON FRONT_PSS-PRF-PRC_t
@@ -2820,6 +2943,127 @@ LEXICON FRONT_V0-PSS-PRF-PRC_tt
 +Pss+PrfPrc+Pl+Ill:%>ttüisihe FRONT_K ;
 +Pss+PrfPrc+Pl+Ill:%>ttüihe FRONT_K ;
 +Use/NG+Pss+PrfPrc+Pl+Nom:%>tü FRONT_K ; !!= * @CODE@ no q
+
+!!
+LEXICON BACK_ACT-PRS-PRC_v_LUGÕMA !!= * @CODE@ lugõma:lugõ
+!! Retain consonant and stem vowel
++Inf/mA:%>ma BACK_K ;
+!
+
++Act+PrsPrc+Sg+Gen:%>va BACK_K ;
++Act+PrsPrc+Sg+Par:%>vat BACK_K ;
++Act+PrsPrc+Sg+Ill:%>vahe BACK_K ;
++Act+PrsPrc+Pl+Nom:%>vaq BACK_K ;
++Act+PrsPrc+Pl+Gen:%>vidõ BACK_K ;
++Use/NG+Act+PrsPrc+Pl+Gen:%>viidõ BACK_K ;
++Act+PrsPrc+Pl+Par:%>vit BACK_K ;
++Use/NG+Act+PrsPrc+Pl+Par:%>viid BACK_K ;
++Act+PrsPrc+Pl+Ill:%>vihe BACK_K ;
++Use/NG+Act+PrsPrc+Pl+Ill:%>viihe BACK_K ;
++Use/NG+Act+PrsPrc+Pl+Nom:%>va BACK_K ; !!= * @CODE@ no q
+!
++Jus:%>guq BACK_K ;
+!
+
+LEXICON BACK_ACT-IND-PRS-3_LUGÕMA !!= * @CODE@ (6) lugõma:lugõ
++Act+Ind+Prs+Sg3: BACK_K ;
++Act+Ind+Prs+Pl3:%>vaq BACK_K ; 
+
+LEXICON BACK_ACT-PRFPRC_v_LUGÕMA
++Act+PrfPrc:%>nuq K ;
++Act+PrfPrc:%>nu BACK_NMN_ELÄNÜQ ; !FIX ME
++Use/NG+Act+PrfPrc:%>nu K ; !!= * @CODE@ no q
+
+
+LEXICON BACK_LUGÕMA_IND-PRT-SG3
++Act+Ind+Prt+Sg3: BACK_K ;
+
+LEXICON BACK_ACT-PRSPRC-SG-NOM_v
++Act+PrsPrc+Sg+Nom:%>v BACK_K ;
+LEXICON BACK_ACT-PRSPRC-SG-NOM_va
++Act+PrsPrc+Sg+Nom:%>va BACK_K ;
+
+LEXICON BACK_LUGÕMA_IND-CONNEGII
+!
++Act+Ind+Prs+Sg1: BACK_K ;
++Act+Ind+Prs+Sg2:%>t BACK_K ;
++Act+Ind+Prs+Sg2:%>dõq BACK_K ;
++Act+Ind+Prs+Sg3: BACK_K ;
++Act+Ind+Prs+Pl1:%>miq BACK_K ;
++Act+Ind+Prs+Pl2:%>tiq BACK_K ;
++Act+Ind+ConNegII:%>q BACK_K ;
++Use/NG+Act+Ind+ConNegII: BACK_K ;
+BACK_ACT-IND-PRS-CONNEG ;
+BACK_ACT-IND-PRT-CONNEG ;
+
+LEXICON BACK_LUGÕMA_PSS-PRC
++Pss+PrfPrc:%>t BACK_K ;
++Pss+PrfPrc+Sg+Nom:%>t BACK_K ;
++Use/NG+Pss+PrfPrc:%>tu BACK_K ;
++Use/NG+Pss+PrfPrc+Sg+Nom:%>tu BACK_K ;
++Pss+PrfPrc+Sg+Gen:%>du BACK_K ;
++Pss+PrfPrc+Sg+Par:%>tut BACK_K ;
++Pss+PrfPrc+Sg+Ill:%>tuhe BACK_K ;
++Pss+PrfPrc+Pl+Nom:%>duq BACK_K ;
++Pss+PrfPrc+Pl+Gen:%>tuidõ BACK_K ;
++Pss+PrfPrc+Pl+Par:%>tuid BACK_K ;
++Pss+PrfPrc+Pl+Ill:%>tuihe BACK_K ;
++Use/NG+Pss+PrfPrc+Pl+Gen:%>tuisi BACK_K ;
++Use/NG+Pss+PrfPrc+Pl+Par:%>tuisi BACK_K ;
++Use/NG+Pss+PrfPrc+Pl+Ill:%>tuisihe BACK_K ;
++Use/NG+Pss+PrfPrc+Pl+Nom:%>du BACK_K ; !!= * @CODE@ no q
+!
++Pss+PrsPrc:%>tav K ;
++Pss+PrsPrc+Sg+Nom:%>tav K ;
++Pss+PrsPrc+Sg+Gen:%>ta%>va K ;
++Pss+PrsPrc+Sg+Par:%>ta%>vat K ;
++Pss+PrsPrc+Sg+Ill:%>ta%>vahe K ;
++Pss+PrsPrc+Pl+Nom:%>ta%>vaq K ;
++Pss+PrsPrc+Pl+Gen:%>ta%>vidõ K ;
++Pss+PrsPrc+Pl+Par:%>ta%>vit K ;
++Pss+PrsPrc+Pl+Ill:%>ta%>vihe K ;
++Use/NG+Pss+PrsPrc+Pl+Gen:%>ta%>viidõ K ;
++Use/NG+Pss+PrsPrc+Pl+Par:%>ta%>viid K ;
++Use/NG+Pss+PrsPrc+Pl+Ill:%>ta%>viihe K ;
++Use/NG+Pss+PrsPrc+Pl+Nom:%>ta%>va K ; !!= * @CODE@ no q
+!
++Pss+Ind+Prs+Sg1:%>da BACK_K ;
++Pss+Ind+Prs+Sg2:%>tat BACK_K ;
++Use/NG+Pss+Ind+Prs+Sg2:%>tadõq BACK_K ;
++Pss+Ind+Prs+Sg3:%>tas BACK_K ;
++Pss+Ind+Prs+Pl1:%>tamiq BACK_K ;
++Pss+Ind+Prs+Pl2:%>tatiq BACK_K ;
++Pss+Ind+Prs+Pl3:%>tasõq BACK_K ;
++Pss+Ind+ConNegII:%>da BACK_K ;
+
++Pss+Ind+Prt+Sg1:%>di BACK_K ;
++Pss+Ind+Prt+Sg2:%>tit BACK_K ;
++Use/NG+Pss+Ind+Prt+Sg2:%>tidõq BACK_K ;
++Pss+Ind+Prt+Sg3:%>ti BACK_K ;
++Pss+Ind+Prt+Pl1:%>timiq BACK_K ;
++Pss+Ind+Prt+Pl2:%>titiq BACK_K ;
++Pss+Ind+Prt+Pl3:%>diq BACK_K ;
++Use/NG+Pss+Ind+Prt+Pl3:%>tivaq BACK_K ;
+
+
+LEXICON BACK_LOGÕMA_ACT-IND-PRT-SG1
++Act+Ind+Prt+Sg1: BACK_K ;
++Use/NG+Act+Ind+Prt+Sg1:%>e BACK_K ;
++Act+Ind+Prt+Sg2:%>t BACK_K ;
++Use/NG+Act+Ind+Prt+Sg2:%>q BACK_K ;
++Use/NG+Act+Ind+Prt+Sg2:%>dõq BACK_K ;
++Use/NG+Act+Ind+Prt+Sg2:%>õq BACK_K ;
++Use/NG+Act+Ind+Prt+Sg2:%>õt BACK_K ;
++Use/NG+Act+Ind+Prt+Sg2:%>õdõq BACK_K ;
++Act+Ind+Prt+Pl1:%>miq BACK_K ;
++Use/NG+Act+Ind+Prt+Pl1:%>õmiq BACK_K ;
++Act+Ind+Prt+Pl2:%>tiq BACK_K ;
++Use/NG+Act+Ind+Prt+Pl2:%>õtiq BACK_K ;
++Act+Ind+Prt+Pl3:%>q BACK_K ;
++Use/NG+Act+Ind+Prt+Pl3:%>vaq BACK_K ;
++Use/NG+Act+Ind+Prt+Pl3:%>õq BACK_K ;
++Use/NG+Act+Ind+Prt+Pl3:%>õvaq BACK_K ;
+
 
 ! vim: set ft=xfst-lexc:
 
