@@ -290,6 +290,7 @@ symbols in the lexicon files:
  __ %^Y7         __  This appears for syna = s%^Y7na and is rendered as õ in the norm
 And following triggers to control variation
 
+  %^Õ2E	  lugõ%^Pen%^WGStem%^Õ2E loe
   %^UU2Õ	  juu%^UU2Õ%>i:j0õ0%>i
 
   %^ÄI2ÄÄ  päiv%^ÄI2ÄÄ%>ä: päävä
@@ -417,6 +418,7 @@ special letters
  __Y7:õ  __  This appears for syna = s%^Y7na and is rendered as õ in the norm
 
 Triggers
+  %^Õ2E:0	  lugõ%^Pen%^WGStem%^Õ2E loe
   %^UU2Õ:0	  juu%^UU2Õ%>i:j0õ0%>i
 
   %^ÄI2ÄÄ:0 	 päiv%^ÄI2ÄÄ%>ä: päävä
@@ -503,8 +505,8 @@ Right context for gradation
 !VOWEL LOWERING
 
 __u:o__
-* __lugõ%^Pen%^VOWLower%^WGStem%^VowRM%>i__
-* __lo000000%>i__
+* __lugõ%^WGStem%^VowRM%>i__
+* __lo0000%>i__
 
 __ü:ö__
 * __pügä%^VOWLower%^WGStem%^VowRM%>e%>t__
@@ -601,6 +603,10 @@ __õ2y__
 * __sõda%^WGStem__
 * __sy0a0__
 }}}
+
+__õ2e__
+* __lugõ%^Pen%^WGStem%^Õ2E%>t__
+* __lo0e000%>t__
 
 !VOWEL LOSS
 __a:0__
@@ -866,7 +872,6 @@ __gTok__
 * __kogõr%^StrGStem%^Pen%^VowRM%>õ__
 * __kok0r00%>õ__
 
-
 !STEM-FINAL CONSONANT LOSS
 __s20__
 ussʼ+N+Sg+Par __door__
@@ -884,6 +889,11 @@ __g20__
 * __a000%>o__
 * __igä%^Pen%^WGStem__
 * __i0ä00__
+lugõma+V+Pss+PrfPrc __read/lukea__
+* __lugõ%^Pen%^WGStem%^Õ2E%>t__
+* __lo0e000%>t__
+
+
 * __palgõ%^WGStem%>h__
 * __pal0õ0%>h__
 
