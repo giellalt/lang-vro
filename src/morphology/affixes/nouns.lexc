@@ -517,6 +517,14 @@ LEXICON N_20LATSʼ-SG
 LEXICON N_20LATSʼ-PL
 +N:     NMN_20LATSʼ-PL ;
 
+LEXICON N_20TÄÜSʼ !!= @CODE@ täüsʼ:täü
+        N_20TÄÜSʼ-SG ;
+	N_20TÄÜSʼ-PL ;
+LEXICON N_20TÄÜSʼ-SG
++N:     NMN_20TÄÜSʼ-SG ;
+LEXICON N_20TÄÜSʼ-PL
++N:     NMN_20TÄÜSʼ-PL ;
+
 LEXICON N_20VÄITSʼ !!= @CODE@ väitsʼ:väits
         N_20VÄITSʼ-SG ;
 	N_20VÄITSʼ-PL ;
@@ -2857,6 +2865,31 @@ LEXICON NMN_20VÄITSʼ-PL
 +Use/NG:%^TS2S%>te             FRONT_PL-ALL_le-STEM ;
 +Use/NG:%^TS2S%>te	PL-COM ;
 
+LEXICON NMN_20TÄÜSʼ !!= * @CODE@ täüsʼ:täü
+!! * Yaml: __N-vaeitsj20__
+  NMN_20TÄÜSʼ-SG ;
+  NMN_20TÄÜSʼ-PL ;
+
+LEXICON NMN_20TÄÜSʼ-SG 
+:sʼ      FRONT_SG-NOM ;
+:%^VowRM%>vv%>e      FRONT_SG-GEN_ZERO-STEM ;
+:             FRONT_SG-PAR_t ;
+:            FRONT_SG-ILL_de ;
+
+LEXICON NMN_20TÄÜSʼ-PL 
+:%^VowRM%>vv%>e      FRONT_PL-NOM ;
+:s%>i             FRONT_PL-GEN_ZERO ;
+:%>te             FRONT_PL-GEN_ZERO ;
+:s%>i            FRONT_PL-PAR_ZERO ;
+:s%>i            FRONT_PL-ILL_he ;
+:s%>i             FRONT_PL-ALL_le-STEM ;
+:s%>i  	PL-COM ;
+
++Use/NG:%>te            FRONT_PL-GEN_ZERO ;
++Use/NG:s%>i            FRONT_PL-ILL_de ;
++Use/NG:%>te             FRONT_PL-ALL_le-STEM ;
++Use/NG:%>te	PL-COM ;
+
 LEXICON NMN_20KÜÜDSʼ !!= * @CODE@ küüdsʼ:küüds
 !! * Yaml: __N-vaeitsj20__
   NMN_20KÜÜDSʼ-SG ;
@@ -3579,7 +3612,7 @@ LEXICON NMN_31TÄI-PL
 :     FRONT_PL-GEN_e ;
 :        FRONT_PL-ILL_hte       ;
 :        FRONT_PL-ILL_he       ;
-:%^PLPRT        FRONT_PL-ALL_le-STEM       ;
+:%^VowRM%>e        FRONT_PL-ALL_le-STEM       ;
 :%>e        FRONT_PL-ALL_le-STEM       ;
 :      FRONT_PL-PAR_e        ;
 
@@ -4524,6 +4557,7 @@ LEXICON  FRONT_PL-ALL_dele
 
 LEXICON PL-COM
 +Pl+Com:%>gaq BACK_K ;
++Use/NG+Pl+Com:%>ga BACK_K ;
 
 LEXICON BACK_PL-ELA
 +Pl+Ela:%>st BACK_K ;
