@@ -1368,14 +1368,14 @@ LEXICON NMN_3PERÄDÜ !!= @CODE@ perädü:perädü
 LEXICON NMN_3PERÄDÜ-SG
 	FRONT_SG-NOM	;
 	FRONT_SG-GEN_ZERO-STEM	;
-:%^StrGStem FRONT_SG-PAR_t	;
-:%^StrGStem FRONT_SG-ILL_he	;
+:%^Pen%^StrGStem FRONT_SG-PAR_t	;
+:%^Pen%^StrGStem FRONT_SG-ILL_he	;
 LEXICON NMN_3PERÄDÜ-PL
 	FRONT_PL-NOM ;
-:%^StrGStem%>i	FRONT_PL-GEN_de ;
-:%^StrGStem%>i      FRONT_PL-ILL_he       ;
-:%^StrGStem%>i      FRONT_PL-PAR_t        ;
-:%^StrGStem%>i      FRONT_PL-ALL_le-STEM       ;
+:%^Pen%^StrGStem%>i	FRONT_PL-GEN_de ;
+:%^Pen%^StrGStem%>i      FRONT_PL-ILL_he       ;
+:%^Pen%^StrGStem%>i      FRONT_PL-PAR_t        ;
+:%^Pen%^StrGStem%>i      FRONT_PL-ALL_le-STEM       ;
 
 LEXICON NMN_3ALADU !!= @CODE@ aladu:aladu
 !! * Yaml: __A-aladu3__
@@ -1385,14 +1385,14 @@ LEXICON NMN_3ALADU !!= @CODE@ aladu:aladu
 LEXICON NMN_3ALADU-SG
 	BACK_SG-NOM	;
 	BACK_SG-GEN_ZERO-STEM	;
-:%^StrGStem BACK_SG-PAR_t	;
-:%^StrGStem BACK_SG-ILL_he	;
+:%^Pen%^StrGStem BACK_SG-PAR_t	;
+:%^Pen%^StrGStem BACK_SG-ILL_he	;
 LEXICON NMN_3ALADU-PL
 	BACK_PL-NOM ;
-:%^StrGStem%>i	BACK_PL-GEN_dõ ;
-:%^StrGStem%>i      BACK_PL-ILL_he       ;
-:%^StrGStem%>i      BACK_PL-PAR_t        ;
-:%^StrGStem%>i      BACK_PL-ALL_lõ-STEM       ;
+:%^Pen%^StrGStem%>i	BACK_PL-GEN_dõ ;
+:%^Pen%^StrGStem%>i      BACK_PL-ILL_he       ;
+:%^Pen%^StrGStem%>i      BACK_PL-PAR_t        ;
+:%^Pen%^StrGStem%>i      BACK_PL-ALL_lõ-STEM       ;
 
 LEXICON NMN_4TERVÜS !!= * __@CODE@__ Types 4, 8, 17
 !! tervüs:tervüs
@@ -1522,15 +1522,15 @@ LEXICON NMN_6MAKÕ-SG
         BACK_SG-NOM  ;
         BACK_SG-GEN_ZERO-STEM       ;
         BACK_SG-PAR_t        ;
-:%^StrGStem        BACK_SG-ILL_he       ;
+:%^Pen%^StrGStem        BACK_SG-ILL_he       ;
 
 LEXICON NMN_6MAKÕ-PL 
 !+WORK: #;
         BACK_PL-NOM ;
-:%^StrGStem%^VowRM%>i     BACK_PL-GEN_dõ ;
-:%^StrGStem%^VowRM%>i        BACK_PL-ILL_he       ;
-:%^StrGStem%^VowRM%>i        BACK_PL-ALL_lõ-STEM       ;
-:%^StrGStem%^VowRM%>i      BACK_PL-PAR_t        ;
+:%^Pen%^StrGStem%^VowRM%>i     BACK_PL-GEN_dõ ;
+:%^Pen%^StrGStem%^VowRM%>i        BACK_PL-ILL_he       ;
+:%^Pen%^StrGStem%^VowRM%>i        BACK_PL-ALL_lõ-STEM       ;
+:%^Pen%^StrGStem%^VowRM%>i      BACK_PL-PAR_t        ;
 
 LEXICON NMN_7FÜÜSIGA
   NMN_7FÜÜSIGA-SG ;
@@ -1539,27 +1539,27 @@ LEXICON NMN_7FÜÜSIGA
 LEXICON NMN_7FÜÜSIGA-SG 
 	FRONT_SG-NOM  ;
         BACK_SG-GEN_ZERO       ;
-:%^StrGStem        BACK_SG-PAR_t        ;
-:%^StrGStem        BACK_SG-ILL_he       ;
-:%^StrGStem        BACK_SG-ILL_dõ       ;
-:%^StrGStem	   BACK_SG-ALL_lõ-STEM ;
+:%^Pen%^StrGStem        BACK_SG-PAR_t        ;
+:%^Pen%^StrGStem        BACK_SG-ILL_he       ;
+:%^Pen%^StrGStem        BACK_SG-ILL_dõ       ;
+:%^Pen%^StrGStem	   BACK_SG-ALL_lõ-STEM ;
 	BACK_SG-COM ;
 
 LEXICON NMN_7FÜÜSIGA-PL 
 	BACK_PL-NOM ;
-:%^StrGStem%^VowRM%>i     BACK_PL-GEN_dõ ;
-:%^StrGStem%^VowRM%>i        BACK_PL-ILL_he       ;
-:%^StrGStem%^VowRM%>i        BACK_PL-ALL_lõ-STEM       ;
-:%^StrGStem%^VowRM%>i      BACK_PL-PAR_t        ;
-:%^StrGStem%^VowRM%>idõ      PL-COM ;
+:%^Pen%^StrGStem%^VowRM%>i     BACK_PL-GEN_dõ ;
+:%^Pen%^StrGStem%^VowRM%>i        BACK_PL-ILL_he       ;
+:%^Pen%^StrGStem%^VowRM%>i        BACK_PL-ALL_lõ-STEM       ;
+:%^Pen%^StrGStem%^VowRM%>i      BACK_PL-PAR_t        ;
+:%^Pen%^StrGStem%^VowRM%>idõ      PL-COM ;
 
-+Use/NG:%^StrGStem%^VowRM%>ii     BACK_PL-PAR_d ;
-+Use/NG:%^StrGStem%^VowRM%>ii     BACK_PL-GEN_dõ ;
-+Use/NG:%^StrGStem%^VowRM%>ii        BACK_PL-ILL_he       ;
-+Use/NG:%^StrGStem%^VowRM%>i        BACK_PL-ILL_dõ       ;
-+Use/NG:%^StrGStem%^VowRM%>ii        BACK_PL-ILL_dõ       ;
-+Use/NG:%^StrGStem%^VowRM%>ii        BACK_PL-ALL_lõ-STEM       ;
-+Use/NG:%^StrGStem%^VowRM%>iidõ      PL-COM ;
++Use/NG:%^Pen%^StrGStem%^VowRM%>ii     BACK_PL-PAR_d ;
++Use/NG:%^Pen%^StrGStem%^VowRM%>ii     BACK_PL-GEN_dõ ;
++Use/NG:%^Pen%^StrGStem%^VowRM%>ii        BACK_PL-ILL_he       ;
++Use/NG:%^Pen%^StrGStem%^VowRM%>i        BACK_PL-ILL_dõ       ;
++Use/NG:%^Pen%^StrGStem%^VowRM%>ii        BACK_PL-ILL_dõ       ;
++Use/NG:%^Pen%^StrGStem%^VowRM%>ii        BACK_PL-ALL_lõ-STEM       ;
++Use/NG:%^Pen%^StrGStem%^VowRM%>iidõ      PL-COM ;
 
 LEXICON NMN_8KASK
 !! * Yaml: __N-kask__
@@ -2922,15 +2922,15 @@ LEXICON NMN_21HÜDSI-SG
 LEXICON NMN_21HÜDSI-PL 
 :%^VowRM%>e      FRONT_PL-NOM ;
 :%^StrD2T             FRONT_PL-GEN_ZERO ;
-:%^StrGStem           FRONT_PL-PAR_ZERO ;
-:%^StrGStem           FRONT_PL-ILL_he ;
-:%^StrGStem           FRONT_PL-ILL_ZERO ;
+:%^Pen%^StrGStem           FRONT_PL-PAR_ZERO ;
+:%^Pen%^StrGStem           FRONT_PL-ILL_he ;
+:%^Pen%^StrGStem           FRONT_PL-ILL_ZERO ;
 :           FRONT_PL-ALL_le-STEM ;
 :%^StrD2T PL-COM ;
 +Use/NG:%^TS2S%^VowRM%>te              FRONT_PL-GEN_ZERO ;
 +Use/NG:%^StrD2T           FRONT_PL-ALL_le-STEM ;
 +Use/NG:%^TS2S%^VowRM%>te             FRONT_PL-GEN_ZERO ;
-+Use/NG:%^StrGStem           FRONT_PL-ILL_de ;
++Use/NG:%^Pen%^StrGStem           FRONT_PL-ILL_de ;
 
 LEXICON NMN_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
 !! * Yaml: __N-vwrokwnw22__
@@ -3629,18 +3629,18 @@ LEXICON NMN_33IGÄ
 LEXICON NMN_33IGÄ-SG 
         FRONT_SG-NOM  ;
 :%^WGStem       FRONT_SG-GEN_ZERO-STEM        ;
-:%^XStrGStem       FRONT_SG-ILL_ZERO        ;
-:%^StrGStem       FRONT_SG-PAR_ZERO        ;
+:%^Pen%^XStrGStem       FRONT_SG-ILL_ZERO        ;
+:%^Pen%^StrGStem       FRONT_SG-PAR_ZERO        ;
 
 LEXICON NMN_33IGÄ-PL 
 :%^WGStem       FRONT_PL-NOM ;
-:%^StrGStem%>i    FRONT_PL-GEN_ZERO ;
-:%^StrGStem%>i    FRONT_PL-PAR_ZERO ;
-:%^XStrGStem%>i    FRONT_PL-ILL_he ;
-:%^StrGStem%>i  FRONT_PL-ALL_le-STEM ;
-:%^StrGStem%>i    PL-COM ;
-+Use/NG:%^XStrGStem%>i    FRONT_PL-ILL_ZERO ;
-+Use/NG:%^XStrGStem%>i    FRONT_PL-ILL_de ;
+:%^Pen%^StrGStem%>i    FRONT_PL-GEN_ZERO ;
+:%^Pen%^StrGStem%>i    FRONT_PL-PAR_ZERO ;
+:%^Pen%^XStrGStem%>i    FRONT_PL-ILL_he ;
+:%^Pen%^StrGStem%>i  FRONT_PL-ALL_le-STEM ;
+:%^Pen%^StrGStem%>i    PL-COM ;
++Use/NG:%^Pen%^XStrGStem%>i    FRONT_PL-ILL_ZERO ;
++Use/NG:%^Pen%^XStrGStem%>i    FRONT_PL-ILL_de ;
 
 LEXICON NMN_34TULI
   NMN_34TULI-SG ;

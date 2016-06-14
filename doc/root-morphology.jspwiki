@@ -1,5 +1,5 @@
 
-!!!V̈õru tags and basic lexica
+!!!Võru tags and basic lexica
 
  !!!Definitions for Multichar_Symbols
 
@@ -12,9 +12,13 @@ language are presented in this system in terms of the following symbols.
  * __+WORK__ (eng) work needed 
 special letters
  * __u̬__ u plus U+032C COMBINING CARON BELOW
+ * __U̬__ u plus U+032C COMBINING CARON BELOW
  * __ü̬__ ü plus U+032C COMBINING CARON BELOW
+ * __Ü̬__ ü plus U+032C COMBINING CARON BELOW
  * __i̬	__ i plus U+032C COMBINING CARON BELOW
+ * __I̬	__ i plus U+032C COMBINING CARON BELOW
  * __õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+ * __Õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
 
 The parts-of-speech are:
  * __+N	__ Noun
@@ -124,9 +128,9 @@ Other verb forms are
  * __+Inf	__ sõimadaq, elädäq
  * __+Inf/mA	__ sõimama, elämä
  * __+Ger		__
- * __+ConNeg		__
- * __+ConNegII	__
- * __+Neg		__
+ * __+ConNegI	__ saa eiq 3 elements in 2 orthographic units
+ * __+ConNegII	__ ei saaq 3 elements in 2 orthographic units
+ * __+Neg		__ saa-aiq 3 elements in 1 orthographic unit
  * __+ImprtII	__
  * __+PrsPrc		__
  * __+PrfPrc		__
@@ -360,7 +364,7 @@ word classes, or optionally from prefixes:
  * __nouns ;		__
  * __pronouns	;		__
  * __quantifiers	;	__
- * __verbs ;		__
+look at verb_newwords.lexc
 
  * __Exceptions ;		__
 
