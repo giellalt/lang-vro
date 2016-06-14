@@ -245,7 +245,12 @@ Rules
  e:i̬ <=>  [ # Cns* | Cns ] _ e: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
  [ # Cns* | Cns ] e: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
 !!€ keel%^VOWRaiseʼ
-!!€ kiil0ʼ
+!!€ ki̬i̬l0ʼ
+      # Cns:* _ Cns:0 (%^WGStem:) %> e: ;
+      # Cns:* e: Cns:0 (%^WGStem:) %> _  ;
+!! tegemä+V+Act+Ind+Prs+Sg1: __do__
+!!€ teg%^WGStem%>e
+!!€ ti̬00%>i̬
 
 "õ2õ̭"
 !! __@RULENAME@__
@@ -254,16 +259,16 @@ Rules
 
 
 
-!"o2u"
-!!! __@RULENAME@__
-! o:u <=>  [ # Cns* | Cns ] _ o: [ k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
-! [ # Cns* | Cns ] o: _ [ k | l | n | r | m | t: s | r t: | v ] %^VOWRaise: ;
+"o2u"
+!! __@RULENAME@__
+ o:u <=>  [ # Cns* | Cns ] _ o:0 %^VOWRaise: %^VowRM: ;
+
 
 
 "o2u̬"
 !! __@RULENAME@__
- o:u̬ <=>  [ # Cns* | Cns ] _ o: [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
- [ # Cns* | Cns ] o: _ [ s | t | k | l | n | r | m | t: s | r t: | v] %^VOWRaise: ;
+ o:u̬ <=>  [ # Cns* | Cns ] _ o: ( s | t | k | l | n | r | m | t: s | r t: | v) %^VOWRaise: ;
+ [ # Cns* | Cns ] o: _ ( s | t | k | l | n | r | m | t: s | r t: | v) %^VOWRaise: ;
 
 
 "ö2ü̬"
@@ -395,6 +400,14 @@ Rules
 "o:0"
 !! __@RULENAME@__
  o:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:|%^StrGStem:) %^VowRM: (õ) ]   ; 
+           o: _ (%^VOWRaise:) %^VowRM: ;
+!!€ joo%^VOWRaise%^VowRM%>vv%>aq
+!!€ ju000%>vv%>aq
+
+"ö:0"
+!! __@RULENAME@__
+ ö:0 <=>  [ Cns: | :Cns ] _ [ (%^WGStem:|%^StrGStem:) %^VowRM: (e) ]   ; 
+           ö: _ (%^VOWRaise:) %^VowRM: ;
 
 "i:0"
 !! __@RULENAME@__
@@ -585,8 +598,8 @@ Rules
 
 "0:k"
 !! __@RULENAME@__
- 0:k <=> Vow g: _ Vow: %^Pen: %^XStrGStem: ;
-!!€ ig0ä%^XStrGStem
+ 0:k <=> Vow g: _ (Vow: %^Pen:) %^XStrGStem: ;
+!!€ ig0ä %^Pen%^XStrGStem
 !!€ ikkä0
    Vow k _ Vow: %^Pen: %^StrGStem: ;
 !!€ mak0õ%^StrGStem%^VowRM%>i%>dõ
@@ -709,8 +722,8 @@ k:0 <=> h _ Vow: s %^Pen: %^WGStem: ;
 !!€ kät0%>t
 !!€ hüdsi%^StrD2T%>l
 !!€ hütsi0%>l
-    Vow _ (s) Vow: %^StrGStem: ;
-    Vow _ 0: Vow: %^XStrGStem: ;
+    Vow _ (s) (Vow: %^Pen:) %^StrGStem: ;
+    Vow _ 0: (Vow: %^Pen:) %^XStrGStem: ;
 
 
 "dTos"
@@ -759,10 +772,11 @@ k:0 <=> h _ Vow: s %^Pen: %^WGStem: ;
 
 "gTok"
 !! __@RULENAME@__
- g:k <=> 
+ g:k <=>
+    Vow _ %^StrGStem:  ; 
     Vow _ Vow: ( l | r ) %^Pen: %^StrGStem: ;
     Vow _ Vow: %^StrGStem: ;
-    Vow _ 0: Vow: %^XStrGStem: ;
+    Vow _ 0: (Vow: %^Pen:) %^XStrGStem: ;
 !!€ ig0ä%^XStrGStem
 !!€ ikkä0
    Vow _ Vow: [ l | r ] %^StrGStem: %^Pen: %^VowRM: ;

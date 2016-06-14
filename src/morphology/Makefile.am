@@ -67,9 +67,9 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/interjections.lexc \
 			 $(srcdir)/stems/nouns.lexc \
 			 $(srcdir)/stems/pronouns.lexc \
-			 $(srcdir)/stems/quantifiers.lexc \
-			 $(srcdir)/stems/verbs.lexc 
+			 $(srcdir)/stems/quantifiers.lexc
 
+# 			 $(srcdir)/stems/verbs.lexc 
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
@@ -80,8 +80,9 @@ GT_XML_SRCS=\
 			 stems/interjections.xml \
 			 stems/nouns.xml \
 			 stems/pronouns.xml \
-			 stems/quantifiers.xml \
-			 stems/verbs.xml 
+			 stems/quantifiers.xml 
+
+#			 stems/verbs.xml 
 
 # Define any additional lexc sources here (compiled on their own):
 GT_LOCAL_SRCS=

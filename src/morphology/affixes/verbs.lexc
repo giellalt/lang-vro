@@ -331,13 +331,15 @@ LEXICON V_57TAPLÕMA
 +V: BACK_ACT-IND-PRT-SCPL3_vaq ;
 +V: BACK_VISKAMA_PSS-IND-PRT_ti ;
 
-+V:%^Pen%^VowRMõ BACK_V2N_minõ ;
-+V:%^Pen%^VowRMõ BACK_INF_ma ;
-+V: BACK_INF_daq ;
-+V:õ BACK_ACT-PRS-PRC_v ;
 +V:%^VOWLower BACK_ACT-PRF-PRC_WEAKGRADE-nuq ;
 +V: BACK_V0-PSS-PRS-PRC_tav ;
 +V:%^WGStem BACK_JUUMA-PSS-PRF-PRC_d ;
+
++V:%^Pen%^VowRM%>õ BACK_V2N_minõ ;
++V:%^Pen%^VowRM%>õ BACK_INF_ma ;
++V:%^Pen%^VowRM%>õ BACK_ACT-PRS-PRC_v ;
++V: BACK_INF_daq ;
++V: BACK_PSS-PRFPRC_du ;
 
 
 LEXICON V_57KIIRDLEMÄ 
@@ -594,43 +596,33 @@ LEXICON V_63VISKAMA !!≈ * __@CODE@__ viskama:viska
 +Use/NG+V+Act+Ind+Prs+Pl3:%>sõ BACK_K ;	!!= * @CODE@ no	q
 
 
-+V+Act+Ind+Prt+Sg3:%^WGStem%>sʼ BACK_K ;
-+V+Act+Ind+Prt+Sg1:%^WGStem%>ssi BACK_K ;
-+V+Act+Ind+Prt+Sg2:%^WGStem%>ssit BACK_K ;
-+V+Act+Ind+Prt+Sg2:%^WGStem%>ssiq BACK_K ;
-+V+Act+Ind+Prt+Sg2:%^WGStem%>ssidõq BACK_K ;
-+V+Act+Ind+Prt+Pl1:%^WGStem%>ssimiq BACK_K ;
-+V+Act+Ind+Prt+Pl2:%^WGStem%>ssitiq BACK_K ;
-+V+Act+Ind+Prt+Pl3:%^WGStem%>ssiq BACK_K ;
-+V+Act+Ind+Prt+Pl3:%^WGStem%>ssivaq BACK_K ;
++V+Act+Ind+Prt+Sg3:%^Pen%^WGStem%>sʼ BACK_K ;
++V+Act+Ind+Prt+Sg1:%^Pen%^WGStem%>ssi BACK_K ;
++V+Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssit BACK_K ;
++V+Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssiq BACK_K ;
++V+Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssidõq BACK_K ;
++V+Act+Ind+Prt+Pl1:%^Pen%^WGStem%>ssimiq BACK_K ;
++V+Act+Ind+Prt+Pl2:%^Pen%^WGStem%>ssitiq BACK_K ;
++V+Act+Ind+Prt+Pl3:%^Pen%^WGStem%>ssiq BACK_K ;
++V+Act+Ind+Prt+Pl3:%^Pen%^WGStem%>ssivaq BACK_K ;
 
-+Use/NG+V+Act+Ind+Prt+Sg2:%^WGStem%>ssi BACK_K ; !!= * @CODE@ no	q
-+Use/NG+V+Act+Ind+Prt+Sg2:%^WGStem%>ssidõ BACK_K ;   !!= * @CODE@ no	q
-+Use/NG+V+Act+Ind+Prt+Pl1:%^WGStem%>ssimi BACK_K ;   !!= * @CODE@ no	q
-+Use/NG+V+Act+Ind+Prt+Pl2:%^WGStem%>ssiti BACK_K ;   !!= * @CODE@ no	q
-+Use/NG+V+Act+Ind+Prt+Pl3:%^WGStem%>ssi BACK_K ; !!= * @CODE@ no  q
-+Use/NG+V+Act+Ind+Prt+Pl3:%^WGStem%>ssiva BACK_K ;   !!= * @CODE@ no	q
++Use/NG+V+Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssi BACK_K ; !!= * @CODE@ no	q
++Use/NG+V+Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssidõ BACK_K ;   !!= * @CODE@ no	q
++Use/NG+V+Act+Ind+Prt+Pl1:%^Pen%^WGStem%>ssimi BACK_K ;   !!= * @CODE@ no	q
++Use/NG+V+Act+Ind+Prt+Pl2:%^Pen%^WGStem%>ssiti BACK_K ;   !!= * @CODE@ no	q
++Use/NG+V+Act+Ind+Prt+Pl3:%^Pen%^WGStem%>ssi BACK_K ; !!= * @CODE@ no  q
++Use/NG+V+Act+Ind+Prt+Pl3:%^Pen%^WGStem%>ssiva BACK_K ;   !!= * @CODE@ no	q
 
 
-+V:%^WGStem BACK_VISKAMA_PSS-IND-PRS ;
++V:%^Pen%^WGStem BACK_VISKAMA_PSS-IND-PRS ;
 
-+V+Pss+Ind+Prt+ConNeg:%^WGStem%>da BACK_K ;
-+V+Pss+Ind+Prt+Sg1:%^WGStem%>di BACK_K ;
-+V+Pss+Ind+Prt+Sg2:%^WGStem%>diq BACK_K ;
-+V+Pss+Ind+Prt+Pl3:%^WGStem%>diq BACK_K ;
-+V+Pss+Ind+Prt+Sg2:%^WGStem%>tit BACK_K ;
-+V+Pss+Ind+Prt+Sg2:%^WGStem%>tidõq BACK_K ;
-+V+Pss+Ind+Prt+Sg3:%^WGStem%>ti BACK_K ;
-+V+Pss+Ind+Prt+Pl1:%^WGStem%>timiq BACK_K ;
-+V+Pss+Ind+Prt+Pl2:%^WGStem%>titiq BACK_K ;
-+V+Pss+Ind+Prt+Pl3:%^WGStem%>tivaq BACK_K ;
 
-+Use/NG+V+Pss+Ind+Prt+Sg2:%^WGStem%>di BACK_K ; !!= * @CODE@ no    q
-+Use/NG+V+Pss+Ind+Prt+Pl3:%^WGStem%>di BACK_K ; !!= * @CODE@ no    q
-+Use/NG+V+Pss+Ind+Prt+Sg2:%^WGStem%>tidõ BACK_K ; !!= * @CODE@ no    q
-+Use/NG+V+Pss+Ind+Prt+Pl1:%^WGStem%>timi BACK_K ; !!= * @CODE@ no    q
-+Use/NG+V+Pss+Ind+Prt+Pl2:%^WGStem%>titi BACK_K ; !!= * @CODE@ no    q
-+Use/NG+V+Pss+Ind+Prt+Pl3:%^WGStem%>tiva BACK_K ; !!= * @CODE@ no    q
++Use/NG+V+Pss+Ind+Prt+Sg2:%^Pen%^WGStem%>di BACK_K ; !!= * @CODE@ no    q
++Use/NG+V+Pss+Ind+Prt+Pl3:%^Pen%^WGStem%>di BACK_K ; !!= * @CODE@ no    q
++Use/NG+V+Pss+Ind+Prt+Sg2:%^Pen%^WGStem%>tidõ BACK_K ; !!= * @CODE@ no    q
++Use/NG+V+Pss+Ind+Prt+Pl1:%^Pen%^WGStem%>timi BACK_K ; !!= * @CODE@ no    q
++Use/NG+V+Pss+Ind+Prt+Pl2:%^Pen%^WGStem%>titi BACK_K ; !!= * @CODE@ no    q
++Use/NG+V+Pss+Ind+Prt+Pl3:%^Pen%^WGStem%>tiva BACK_K ; !!= * @CODE@ no    q
 
 
 +V+Act+Ind+Prt+Sg1:%^VowRM%>si BACK_K ;
@@ -659,21 +651,22 @@ LEXICON V_63VISKAMA !!≈ * __@CODE@__ viskama:viska
 
 +V: BACK_VISKAMA_PSS-IND-PRS ;
 
-+V:%^VowRM V0-IND-PRT-SC-12_si ; 
++V:%^Pen%^VowRM V0-IND-PRT-SC-12_si ; 
 +V: BACK_ACT-IND-PRT-CONNEG ;
 +V: BACK_IND-PRT-SC3_sʼ ;
-+V: BACK_VISKAMA_PSS-IND-PRT_ti ;
 
++V:%^Pen%^WGStem BACK_VISKAMA_PSS-IND-PRT_ti ;
+!! +Pss+Ind+Prt +Sg1-+Pl3, ConNeg
 
 
 +V: BACK_INF_ma ;
 +V: BACK_ACT-PRS-PRC_v ;
 
-+V:%^WGStem BACK_INF_daq ;
-+V:%^WGStem BACK_ACT-PRF-PRC_nuq ;
-+V:%^WGStem BACK_V0-PSS-PRS-PRC_tav ;
-+V:%^WGStem BACK_VISKAMA-PSS-PRF-PRC_t ;
-+V+Pss+PrfPrc+Sg+Nom:%^WGStem%>tu BACK_K ;
++V:%^Pen%^WGStem BACK_INF_daq ;
++V:%^Pen%^WGStem BACK_ACT-PRF-PRC_nuq ;
++V:%^Pen%^WGStem BACK_V0-PSS-PRS-PRC_tav ;
++V:%^Pen%^WGStem BACK_VISKAMA-PSS-PRF-PRC_t ;
++V+Pss+PrfPrc+Sg+Nom:%^Pen%^WGStem%>tu BACK_K ;
 
 
 
@@ -692,29 +685,18 @@ LEXICON V_63HINGÄMÄ !!≈ * __@CODE@__ hingämä:hingä
 +V+Act+Ind+Prs+Pl3:%>seq FRONT_K ;
 +V+Act+Ind+ConNegII: FRONT_K ;
 
-+V+Act+Ind+Prt+Sg3:%^WGStem%>sʼ FRONT_K ;
-+V+Act+Ind+Prt+Sg1:%^WGStem%>ssi FRONT_K ;
-+V+Act+Ind+Prt+Sg2:%^WGStem%>ssit FRONT_K ;
-+V+Act+Ind+Prt+Sg2:%^WGStem%>ssiq FRONT_K ;
-+V+Act+Ind+Prt+Sg2:%^WGStem%>ssideq FRONT_K ;
-+V+Act+Ind+Prt+Pl1:%^WGStem%>ssimiq FRONT_K ;
-+V+Act+Ind+Prt+Pl2:%^WGStem%>ssitiq FRONT_K ;
-+V+Act+Ind+Prt+Pl3:%^WGStem%>ssiq FRONT_K ;
-+V+Act+Ind+Prt+Pl3:%^WGStem%>ssiväq FRONT_K ;
++V+Act+Ind+Prt+Sg3:%^Pen%^WGStem%>sʼ FRONT_K ;
++V+Act+Ind+Prt+Sg1:%^Pen%^WGStem%>ssi FRONT_K ;
++V+Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssit FRONT_K ;
++V+Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssiq FRONT_K ;
++V+Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssideq FRONT_K ;
++V+Act+Ind+Prt+Pl1:%^Pen%^WGStem%>ssimiq FRONT_K ;
++V+Act+Ind+Prt+Pl2:%^Pen%^WGStem%>ssitiq FRONT_K ;
++V+Act+Ind+Prt+Pl3:%^Pen%^WGStem%>ssiq FRONT_K ;
++V+Act+Ind+Prt+Pl3:%^Pen%^WGStem%>ssiväq FRONT_K ;
 
-+V:%^WGStem FRONT_VISKAMA_PSS-IND-PRS ;
++V:%^Pen%^WGStem FRONT_VISKAMA_PSS-IND-PRS ;
 
-
-+V+Pss+Ind+Prt+ConNeg:%^WGStem%>dä FRONT_K ;
-+V+Pss+Ind+Prt+Sg1:%^WGStem%>di FRONT_K ;
-+V+Pss+Ind+Prt+Sg2:%^WGStem%>diq FRONT_K ;
-+V+Pss+Ind+Prt+Pl3:%^WGStem%>diq FRONT_K ;
-+V+Pss+Ind+Prt+Sg2:%^WGStem%>tit FRONT_K ;
-+V+Pss+Ind+Prt+Sg2:%^WGStem%>tideq FRONT_K ;
-+V+Pss+Ind+Prt+Sg3:%^WGStem%>ti FRONT_K ;
-+V+Pss+Ind+Prt+Pl1:%^WGStem%>timiq FRONT_K ;
-+V+Pss+Ind+Prt+Pl2:%^WGStem%>titiq FRONT_K ;
-+V+Pss+Ind+Prt+Pl3:%^WGStem%>tiväq FRONT_K ;
 
 +V+Act+Ind+Prt+Sg1:%^VowRM%>si FRONT_K ;
 +V+Act+Ind+Prt+Sg2:%^VowRM%>sit FRONT_K ;
@@ -736,17 +718,19 @@ LEXICON V_63HINGÄMÄ !!≈ * __@CODE@__ hingämä:hingä
 !+V:%^VowRM%>s V0-IND-PRT-SC-12_si ; 
 !+V: FRONT_ACT-IND-PRT-CONNEG ;
 !+V: FRONT_IND-PRT-SC3_sʼ ;
-!+V: FRONT_VISKAMA_PSS-IND-PRT_ti ;
+
++V:%^Pen%^WGStem FRONT_VISKAMA_PSS-IND-PRT_ti ;
+!! +Pss+Ind+Prt +Sg1-+Pl3, ConNeg
 
 
 +V: FRONT_INF_mä ;
 +V: FRONT_ACT-PRS-PRC_v ;
 
-+V:%^WGStem FRONT_INF_däq ;
-+V:%^WGStem FRONT_ACT-PRF-PRC_nüq ;
-+V:%^WGStem FRONT_V0-PSS-PRS-PRC_täv ;
-+V:%^WGStem FRONT_VISKAMA-PSS-PRF-PRC_t ;
-+V+Pss+PrfPrc+Sg+Nom:%^WGStem%>tü FRONT_K ;
++V:%^Pen%^WGStem FRONT_INF_däq ;
++V:%^Pen%^WGStem FRONT_ACT-PRF-PRC_nüq ;
++V:%^Pen%^WGStem FRONT_V0-PSS-PRS-PRC_täv ;
++V:%^Pen%^WGStem FRONT_VISKAMA-PSS-PRF-PRC_t ;
++V+Pss+PrfPrc+Sg+Nom:%^Pen%^WGStem%>tü FRONT_K ;
 
 
 LEXICON V_64PUHKSAMA
@@ -1225,24 +1209,25 @@ LEXICON V_76PÜGÄMÄ !!≈ * __@CODE@__ pügämä:pügä
 +V:%^VOWLower%^WGStem%^VowRM%>e FRONT_V0-PSS-PRS-PRC_täv ;
 +V:%^VOWLower%^WGStem%^VowRM%>e FRONT_PSS-PRF-PRC_t ;
 
-LEXICON V_77JUUMA !!≈ * __@CODE@__ juuma:juu
+LEXICON V_77JUUMA !!≈ * __@CODE@__ juuma:joo
 !! * Yaml: __juuma__
-+V: BACK_INF_ma ; !!= * @CODE@ juu
-+V:d%^WGStem BACK_INF_aq ; !!= * @CODE@ juvv
++V:%^VOWRaise BACK_INF_ma ; !!= * @CODE@ juu
++V:%^VOWRaise%^VowRM%>vv BACK_INF_aq ; !!= * @CODE@ juvv
 
-+V+Act+Ind+Prs+Sg1: BACK_K ; !!= * @CODE@ juu
-+V+Act+Ind+Prs+Sg2:%>t BACK_K ; !!= * @CODE@ juut
-+Use/NG+V+Act+Ind+Prs+Sg2:%>dõq BACK_K ; !!= * @CODE@ juudõq
-+V+Act+Ind+Prs+Sg3: BACK_K ; !!= * @CODE@ juu
-+V+Act+Ind+Prs+Pl2:%>tiq BACK_K ; !!= * @CODE@ juutiq
-+Use/NG+V+Act+Ind+Prs+Pl2:%>dõq BACK_K ; !!= * @CODE@ juudõq
-+V+Act+Ind+ConNegII: BACK_K ; !!= * @CODE@ juu
++V+Act+Ind+Prs+Sg1:%^VOWRaise BACK_K ; !!= * @CODE@ juu
++V+Act+Ind+Prs+Sg2:%^VOWRaise%>t BACK_K ; !!= * @CODE@ juut
++Use/NG+V+Act+Ind+Prs+Sg2:%^VOWRaise%>dõq BACK_K ; !!= * @CODE@ juudõq
++V+Act+Ind+Prs+Sg3:%^VOWRaise BACK_K ; !!= * @CODE@ juu
++V+Act+Ind+Prs+Pl2:%^VOWRaise%>tiq BACK_K ; !!= * @CODE@ juutiq
++Use/NG+V+Act+Ind+Prs+Pl2:%^VOWRaise%>dõq BACK_K ; !!= * @CODE@ juudõq
++V+Act+Ind+ConNegI:%^VOWRaise BACK_K ; !!= * @CODE@ juu
++V+Act+Ind+ConNegII:%^VOWRaise%>q BACK_K ; !!= * @CODE@ juuq
 
-+Use/NG+V+Act+Ind+Prs+Sg3:%^VOWLower%>sõ BACK_K ; !!= * @CODE@ joosõ
-+V+Act+Ind+Prs+Pl1:%^VOWLower%>miq BACK_K ; !!= * @CODE@ joomiq
-+V+Act+Ind+Prs+Pl3:%^VOWLower%>vaq BACK_K ; !!= * @CODE@ joovaq
++Use/NG+V+Act+Ind+Prs+Sg3:%>sõ BACK_K ; !!= * @CODE@ joosõ
++V+Act+Ind+Prs+Pl1:%>miq BACK_K ; !!= * @CODE@ joomiq
++V+Act+Ind+Prs+Pl3:%>vaq BACK_K ; !!= * @CODE@ joovaq
 
-+V:d%^WGStem%>a BACK_JUVVA_PSS-IND-PRS ; !!= * @CODE@ juvva
++V:%^VOWRaise%^VowRM%>vv%>a BACK_JUVVA_PSS-IND-PRS ; !!= * @CODE@ juvva
 
 !!These must be fixed 2015-06-09
 !+V+Act+Ind+Prt+Sg1: sei BACK_K ;
@@ -1267,42 +1252,42 @@ LEXICON V_77JUUMA !!≈ * __@CODE@__ juuma:juu
 !+Use/NG+V+Act+Ind+Prt+Pl3: seieväq BACK_K ;
 
 
-+V:d%^WGStem BACK_IND-PRT-OC1-2_i ; !!= * @CODE@ juvv
++V:%^VOWRaise%^VowRM%>vv BACK_IND-PRT-OC1-2_i ; !!= * @CODE@ juvv
 
-+V:d BACK_IND-PRT-OC3_i ; !!= * @CODE@ juud
++V:%^VOWRaise%>d BACK_IND-PRT-OC3_i ; !!= * @CODE@ juud
 
-+V: BACK_ACT-PRS-PRC_va ; !!= * @CODE@ juu
++V:%^VOWRaise BACK_ACT-PRS-PRC_va ; !!= * @CODE@ juu
 
-+V: BACK_V0-PSS-PRS-PRC_dav ; !!= * @CODE@ juu
++V:%^VOWRaise BACK_V0-PSS-PRS-PRC_dav ; !!= * @CODE@ juu
 
-+V+Act+PrfPrc+Sg+Nom:%^VOWLower%>nuq BACK_K ; !!= * @CODE@ joonuq
++V+Act+PrfPrc+Sg+Nom:nuq BACK_K ; !!= * @CODE@ joonuq
 
-+V: BACK_ACT-PRF-PRC-OBL_nu ; !!= * @CODE@ juu
++V:%^VOWRaise BACK_ACT-PRF-PRC-OBL_nu ; !!= * @CODE@ juu
 
-+V: BACK_JUUMA-PSS-PRF-PRC_d ; !!≈ * @CODE@ juu
++V:%^VOWRaise BACK_JUUMA-PSS-PRF-PRC_d ; !!≈ * @CODE@ juu
 !!
 
-+V: BACK_V0-IND-PRS-SC-12 ; !!≈ * @CODE@ juu, juut, 
-+V: BACK_ACT-IND-PRS-CONNEG ;
-+V: V0-IND-PRS-SCSG3_ZERO ;
-+V:%^VOWLower BACK_V0-IND-PRS-SCSG3_sõ ;
-+V: BACK_VISKAMA_PSS-IND-PRS ;
++V:%^VOWRaise BACK_V0-IND-PRS-SC-12 ; !!≈ * @CODE@ juu, juut, 
++V:%^VOWRaise BACK_ACT-IND-PRS-CONNEG ;
++V:%^VOWRaise V0-IND-PRS-SCSG3_ZERO ;
++V: BACK_V0-IND-PRS-SCSG3_sõ ;
++V:%^VOWRaise BACK_VISKAMA_PSS-IND-PRS ;
 
 +V:%^UU2Õ BACK_IND-PRT-SCSG1_iõ ;
-+V: V0-IND-PRT-SC-12_i ;
-+V+Use/NG+Act+Ind+Prt+Sg2:õ BACK_K ;
++V:%^VOWRaise V0-IND-PRT-SC-12_i ;
++V+Use/NG+Act+Ind+Prt+Sg2:%^VOWRaise%>õ BACK_K ;
 
-+V: BACK_ACT-IND-PRT-CONNEG ;
-+V: V0-IND-PRT-SCSG3_i ;
-+V: BACK_IND-PRT-SCSG3_iõ ;
-+V: BACK_VISKAMA_PSS-IND-PRT_ti ;
++V:%^VOWRaise BACK_ACT-IND-PRT-CONNEG ;
++V:%^VOWRaise V0-IND-PRT-SCSG3_i ;
++V:%^VOWRaise BACK_IND-PRT-SCSG3_iõ ;
++V:%^VOWRaise BACK_VISKAMA_PSS-IND-PRT_ti ;
 
-+V: BACK_INF_ma ;
-+V: BACK_INF_vaq ;
-+V: BACK_ACT-PRS-PRC_v ;
-+V:%^VOWLower BACK_ACT-PRF-PRC_WEAKGRADE-nuq ;
-+V: BACK_V0-PSS-PRS-PRC_tav ;
-+V:%^WGStem BACK_PSS-PRF-PRC_t ;
++V:%^VOWRaise BACK_INF_ma ;
++V:%^VOWRaiseVowRM%>v BACK_INF_vaq ;
++V:%^VOWRaise BACK_ACT-PRS-PRC_v ;
++V: BACK_ACT-PRF-PRC_WEAKGRADE-nuq ;
++V:%^VOWRaise BACK_V0-PSS-PRS-PRC_tav ;
++V:%^VOWRaise BACK_PSS-PRF-PRC_t ;
 
 LEXICON V_77SÜÜMÄ !!≈ * __@CODE@__ süümä:süü
 !! * Yaml: __sueuemae__
@@ -1631,26 +1616,27 @@ LEXICON V_80HÄMMÄHÜTMÄ !!≈ * __@CODE@__ hämmähütmä:hämmähüt
 LEXICON V_81TEGEMÄ !!≈ * __@CODE@__ tegemä:teg
 !! * Yaml: __tegemä__
 !! Work
-+V:%^WGSteme FRONT_V0-IND-PRS-SC-12 ;
++V:%^WGStem%>e FRONT_V0-IND-PRS-SC-12 ;
 !+V:ä FRONT_ACT-IND-PRS-CONNEG ;
 +V:e V0-IND-PRS-SCSG3_ZERO ;
 !+V:ä FRONT_V0-IND-PRS-SCPL3_väq ;
-!+V: FRONT_VISKAMA_PSS-IND-PRS ;
++V:%^WGStem FRONT_VISKAMA_PSS-IND-PRS ;
 
-+V:%^WGStem V0-IND-PRT-SC-12_i ;
-!+V+Act+Ind+Prt+Sg1:%>se K ;
-!+V: FRONT_IND-PRT-SCSG1_se ;
-!+V: FRONT_ACT-IND-PRT-CONNEG ;
-!+V: FRONT_IND-PRT-SCSG3_APOSTROPHE ;
-!+V: V0-IND-PRT-SCSG3_se ;
-!+V: FRONT_ACT-IND-PRT-SCPL3_väq ;
-!+V: FRONT_VISKAMA_PSS-IND-PRT_ti ;
++V:%^WGStem FRONT_V0-IND-PRT-SC-12_i ;
++V:%^WGStem FRONT_V0-IND-PRT-SC-12_ie ;
++V:%^StrGStem FRONT_V0-IND-PRT-SC-12_se ;
++V:%^StrGStem FRONT_IND-PRT-SCSG1_se ;
++V: FRONT_ACT-IND-PRT-CONNEG ;
++V:%^XStrGStem FRONT_IND-PRT-SCSG3_APOSTROPHE ;
++V:%^StrGStem V0-IND-PRT-SCSG3_se ;
++V:%^WGStem FRONT_ACT-IND-PRT-SCPL3_väq ;
++V:%^WGStem FRONT_VISKAMA_PSS-IND-PRT_ti ;
 
 +V:e FRONT_INF_mä ;
 +V:%^WGStem FRONT_INF_täq ;
 +V:e FRONT_ACT-PRS-PRC_v ;
 +V:%^WGStem%>n FRONT_ACT-PRF-PRC_nüq ;
-+V:%^WGStem FRONT_V0-PSS-PRS-PRC_täv ;
++V:%^WGStem FRONT_V0-PSS-PRS-PRC_ttäv ;
 +V:%^WGStem FRONT_V0-PSS-PRF-PRC_tt ;
 
 
@@ -2059,10 +2045,10 @@ FRONT_ACT-IND-CONNEGII ;
 +Act+Imprt+Sg2:	 FRONT_K ;
 
 LEXICON BACK_ACT-IND-CONNEGII
-+Act+Ind+ConNegII: BACK_K ;
++Act+Ind+ConNegI: BACK_K ;
 +Use/NG+Act+Ind+ConNegII:%>q BACK_K ;
 LEXICON FRONT_ACT-IND-CONNEGII
-+Act+Ind+ConNegII: FRONT_K ;
++Act+Ind+ConNegI: FRONT_K ;
 +Use/NG+Act+Ind+ConNegII:%>q FRONT_K ;
 
 
@@ -2105,16 +2091,16 @@ LEXICON FRONT_ACT-IND-PRS-SC3_s
 +Act+Ind+Prs+Pl3:%>seq FRONT_K ;
 
 LEXICON BACK_ACT-IND-PRS-CONNEG
-!+Act+Ind+ConNegII: BACK_K ;
-+Use/NG+Act+Ind+Prs+ConNeg:%-%{XV%}iq BACK_K ;
-+Use/NG+Act+Ind+ConNeg:%>q BACK_K ;
-+Use/NG+Act+Ind+Prs+ConNeg:%-i BACK_K ; !!= * @CODE@ no vowel or q
+!+Act+Ind+ConNegI: BACK_K ;
++Use/NG+Act+Ind+Prs+Neg:%-%{XV%}iq BACK_K ;
++Use/NG+Act+Ind+ConNegII:%>q BACK_K ;
++Use/NG+Act+Ind+Prs+Neg:%-i BACK_K ; !!= * @CODE@ no vowel or q
 
 LEXICON FRONT_ACT-IND-PRS-CONNEG
 !+Act+Ind+ConNegII: FRONT_K ;
-+Use/NG+Act+Ind+Prs+ConNeg:%-%{XV%}iq FRONT_K ;
-+Use/NG+Act+Ind+ConNeg:%>q FRONT_K ;
-+Use/NG+Act+Ind+Prs+ConNeg:%-i FRONT_K ; !!= * @CODE@ no vowel or q
++Use/NG+Act+Ind+Prs+Neg:%-%{XV%}iq FRONT_K ;
++Use/NG+Act+Ind+ConNegII:%>q FRONT_K ;
++Use/NG+Act+Ind+Prs+Neg:%-i FRONT_K ; !!= * @CODE@ no vowel or q
 
 !! !JUS
 LEXICON MUTUAL_JUS !!= * @CODE@ regardless of harmony this is back
@@ -2134,9 +2120,9 @@ LEXICON BACK_VISKAMA_PSS-IND-PRS
 +Pss+Ind+Prs+Pl2:%>tatiq BACK_K ;
 +Pss+Ind+Prs+Pl2:%>tadõq BACK_K ;
 +Pss+Ind+Prs+Pl3:%>tasõq BACK_K ;
-+Pss+Ind+ConNegII:%>da BACK_K ;
-+Pss+Ind+Prs+ConNeg:%>da%-aiq BACK_K ;
-+Pss+Ind+ConNeg:%>daq BACK_K ;
++Pss+Ind+ConNegI:%>da BACK_K ;
++Pss+Ind+Prs+Neg:%>da%-aiq BACK_K ;
++Pss+Ind+ConNegII:%>daq BACK_K ;
 
 LEXICON FRONT_VISKAMA_PSS-IND-PRS 
 +Pss+Ind+Prs+Sg1:%>dä FRONT_K ;
@@ -2147,9 +2133,9 @@ LEXICON FRONT_VISKAMA_PSS-IND-PRS
 +Pss+Ind+Prs+Pl2:%>tätiq FRONT_K ;
 +Use/NG+Pss+Ind+Prs+Pl2:%>tädeq FRONT_K ;
 +Pss+Ind+Prs+Pl3:%>täseq FRONT_K ;
-+Pss+Ind+ConNegII:%>dä FRONT_K ;
-+Pss+Ind+Prs+ConNeg:%>dä%-äiq FRONT_K ;
-+Pss+Ind+ConNeg:%>däq FRONT_K ;
++Pss+Ind+ConNegI:%>dä FRONT_K ;
++Pss+Ind+Prs+Neg:%>dä%-äiq FRONT_K ;
++Pss+Ind+ConNegII:%>däq FRONT_K ;
 
 LEXICON BACK_JUVVA_PSS-IND-PRS !!= * @CODE@ juvva
 +Pss+Ind+Prs+Sg1: BACK_K ;
@@ -2159,9 +2145,9 @@ LEXICON BACK_JUVVA_PSS-IND-PRS !!= * @CODE@ juvva
 +Pss+Ind+Prs+Pl1:%>miq BACK_K ;
 +Pss+Ind+Prs+Pl2:%>tiq BACK_K ;
 +Pss+Ind+Prs+Pl3:%>sõq BACK_K ;
-+Pss+Ind+ConNegII: BACK_K ;
-+Pss+Ind+Prs+ConNeg:%>%-aiq BACK_K ;
-+Pss+Ind+ConNeg:%>q BACK_K ;
++Pss+Ind+ConNegI: BACK_K ;
++Pss+Ind+Prs+Neg:%>%-aiq BACK_K ;
++Pss+Ind+ConNegII:%>q BACK_K ;
 
 LEXICON FRONT_JUVVA_PSS-IND-PRS !!= * @CODE@ süvvä
 +Pss+Ind+Prs+Sg1: FRONT_K ;
@@ -2171,9 +2157,9 @@ LEXICON FRONT_JUVVA_PSS-IND-PRS !!= * @CODE@ süvvä
 +Pss+Ind+Prs+Pl1:%>miq FRONT_K ;
 +Pss+Ind+Prs+Pl2:%>tiq FRONT_K ;
 +Pss+Ind+Prs+Pl3:%>seq FRONT_K ;
-+Pss+Ind+ConNegII: FRONT_K ;
-+Pss+Ind+Prs+ConNeg:%>%-äiq FRONT_K ;
-+Pss+Ind+ConNeg:%>q FRONT_K ;
++Pss+Ind+ConNegI: FRONT_K ;
++Pss+Ind+Prs+Neg:%>%-äiq FRONT_K ;
++Pss+Ind+ConNegII:%>q FRONT_K ;
 
 
 
@@ -2245,6 +2231,39 @@ LEXICON V0-IND-PRT-SC-12_i
 +Act+Ind+Prt+Pl2:%>it K ;
 +Act+Ind+Prt+Pl2:%>iq K ;
 +Act+Ind+Prt+Pl2:%>idõq K ;
+
+LEXICON FRONT_V0-IND-PRT-SC-12_i
++Act+Ind+Prt+Sg1:%>i FRONT_K ;
++Act+Ind+Prt+Sg2:%>iq FRONT_K ;
++Act+Ind+Prt+Sg2:%>it FRONT_K ;
++Act+Ind+Prt+Sg2:%>ideq FRONT_K ;
++Act+Ind+Prt+Pl1:%>imiq FRONT_K ;
++Act+Ind+Prt+Pl2:%>itiq FRONT_K ;
++Act+Ind+Prt+Pl2:%>it FRONT_K ;
++Act+Ind+Prt+Pl2:%>iq FRONT_K ;
++Act+Ind+Prt+Pl2:%>ideq FRONT_K ;
+
+LEXICON FRONT_V0-IND-PRT-SC-12_ie
++Act+Ind+Prt+Sg1:%>ie FRONT_K ;
++Act+Ind+Prt+Sg2:%>ieq FRONT_K ;
++Act+Ind+Prt+Sg2:%>iet FRONT_K ;
++Act+Ind+Prt+Sg2:%>iedeq FRONT_K ;
++Act+Ind+Prt+Pl1:%>iemiq FRONT_K ;
++Act+Ind+Prt+Pl2:%>ietiq FRONT_K ;
++Act+Ind+Prt+Pl2:%>iet FRONT_K ;
++Act+Ind+Prt+Pl2:%>ieq FRONT_K ;
++Act+Ind+Prt+Pl2:%>iedeq FRONT_K ;
+
+LEXICON FRONT_V0-IND-PRT-SC-12_se
++Act+Ind+Prt+Sg1:%>se FRONT_K ;
++Act+Ind+Prt+Sg2:%>seq FRONT_K ;
++Act+Ind+Prt+Sg2:%>set FRONT_K ;
++Act+Ind+Prt+Sg2:%>sedeq FRONT_K ;
++Act+Ind+Prt+Pl1:%>semiq FRONT_K ;
++Act+Ind+Prt+Pl2:%>setiq FRONT_K ;
++Act+Ind+Prt+Pl2:%>set FRONT_K ;
++Act+Ind+Prt+Pl2:%>seq FRONT_K ;
++Act+Ind+Prt+Pl2:%>sedeq FRONT_K ;
 
 LEXICON BACK_IND-PRT-SC-12_õ
 +Act+Ind+Prt+Sg1:%>õ BACK_K ;
@@ -2371,52 +2390,55 @@ LEXICON FRONT_IND-PRT-SC3_si
 +Act+Ind+Prt+Pl3+Err/Orth:%^VowRM%>siväq FRONT_K ;
 
 LEXICON BACK_ACT-IND-PRT-CONNEG
-!+Act+Ind+ConNegII: BACK_K ;
-+Act+Ind+Prt+ConNeg:%-%{XV%}s BACK_K ;
-+Act+Ind+ConNeg:%>q BACK_K ;
++Act+Ind+ConNegI: BACK_K ;
++Act+Ind+Prt+Neg:%-%{XV%}s BACK_K ;
++Act+Ind+ConNegII:%>q BACK_K ;
 LEXICON FRONT_ACT-IND-PRT-CONNEG
-!+Act+Ind+ConNegII: FRONT_K ;
-+Act+Ind+Prt+ConNeg:%-%{XV%}s FRONT_K ;
-+Act+Ind+ConNeg:%>q FRONT_K ;
++Act+Ind+ConNegI: FRONT_K ;
++Act+Ind+Prt+Neg:%-%{XV%}s FRONT_K ;
++Act+Ind+ConNegII:%>q FRONT_K ;
 
 
 !! !PASSIVE INDICATIVE PRETERIT CONJUGATION
 
 LEXICON BACK_VISKAMA_PSS-IND-PRT_ti
-+Pss+Ind+Prt+Sg1:%^WGStem%>di K ;
-+Pss+Ind+Prt+Sg2:%^WGStem%>diq K ;
-+Pss+Ind+Prt+Sg2:%^WGStem%>tit K ;
-+Pss+Ind+Prt+Sg2:%^WGStem%>tidõq K ;
-+Pss+Ind+Prt+Sg3:%^WGStem%>ti K ;
-+Pss+Ind+Prt+Pl1:%^WGStem%>timiq K ;
-+Pss+Ind+Prt+Pl1:%^WGStem%>di K ;
-+Pss+Ind+Prt+Pl2:%^WGStem%>diq K ;
-+Pss+Ind+Prt+Pl2:%^WGStem%>titiq K ;
-+Pss+Ind+Prt+Pl2:%^WGStem%>tit K ;
-+Pss+Ind+Prt+Pl2:%^WGStem%>tidõq K ;
-+Pss+Ind+Prt+Pl3:%^WGStem%>diq K ;
-+Pss+Ind+Prt+ConNeg:%^WGStem%>daq K ;
-+Pss+Ind+Prt+ConNeg:%^WGStem%>da%-as K ;
-+Pss+Ind+Prt+ConNeg:%^WGStem%>da%-s K ;
-+Pss+Ind+Prt+ConNeg:%^WGStem%>da K ;
++Pss+Ind+Prt+Sg1:%>di K ;
++Pss+Ind+Prt+Sg2:%>diq K ;
++Pss+Ind+Prt+Sg2:%>tit K ;
++Pss+Ind+Prt+Sg2:%>tidõq K ;
++Pss+Ind+Prt+Sg3:%>ti K ;
++Pss+Ind+Prt+Pl1:%>timiq K ;
++Pss+Ind+Prt+Pl1:%>di K ;
++Pss+Ind+Prt+Pl2:%>diq K ;
++Pss+Ind+Prt+Pl2:%>titiq K ;
++Pss+Ind+Prt+Pl2:%>tit K ;
++Pss+Ind+Prt+Pl2:%>tidõq K ;
++Pss+Ind+Prt+Pl3:%>diq K ;
++Pss+Ind+Prt+Pl3:%>tivaq BACK_K ;
+
++Pss+Ind+Prt+ConNeg:%>daq K ;
++Pss+Ind+Prt+ConNeg:%>da%-as K ;
++Pss+Ind+Prt+ConNeg:%>da%-s K ;
++Pss+Ind+Prt+ConNegII:%>da K ;
 
 LEXICON FRONT_VISKAMA_PSS-IND-PRT_ti
-+Pss+Ind+Prt+Sg1:%^WGStem%>di K ;
-+Pss+Ind+Prt+Sg2:%^WGStem%>diq K ;
-+Pss+Ind+Prt+Sg2:%^WGStem%>tit K ;
-+Pss+Ind+Prt+Sg2:%^WGStem%>tideq K ;
-+Pss+Ind+Prt+Sg3:%^WGStem%>ti K ;
-+Pss+Ind+Prt+Pl1:%^WGStem%>timiq K ;
-+Pss+Ind+Prt+Pl1:%^WGStem%>di K ;
-+Pss+Ind+Prt+Pl2:%^WGStem%>diq K ;
-+Pss+Ind+Prt+Pl2:%^WGStem%>titiq K ;
-+Pss+Ind+Prt+Pl2:%^WGStem%>tit K ;
-+Pss+Ind+Prt+Pl2:%^WGStem%>tideq K ;
-+Pss+Ind+Prt+Pl3:%^WGStem%>diq K ;
-+Pss+Ind+Prt+ConNeg:%^WGStem%>däq K ;
-+Pss+Ind+Prt+ConNeg:%^WGStem%>dä%-äs K ;
-+Pss+Ind+Prt+ConNeg:%^WGStem%>dä%-s K ;
-+Pss+Ind+ConNeg:%^WGStem%>dä K ;
++Pss+Ind+Prt+Sg1:%>di K ;
++Pss+Ind+Prt+Sg2:%>diq K ;
++Pss+Ind+Prt+Sg2:%>tit K ;
++Pss+Ind+Prt+Sg2:%>tideq K ;
++Pss+Ind+Prt+Sg3:%>ti K ;
++Pss+Ind+Prt+Pl1:%>timiq K ;
++Pss+Ind+Prt+Pl1:%>di K ;
++Pss+Ind+Prt+Pl2:%>diq K ;
++Pss+Ind+Prt+Pl2:%>titiq K ;
++Pss+Ind+Prt+Pl2:%>tit K ;
++Pss+Ind+Prt+Pl2:%>tideq K ;
++Pss+Ind+Prt+Pl3:%>diq K ;
++Pss+Ind+Prt+Pl3:%>tiväq K ;
++Pss+Ind+Prt+ConNeg:%>däq K ;
++Pss+Ind+Prt+ConNeg:%>dä%-äs K ;
++Pss+Ind+Prt+ConNeg:%>dä%-s K ;
++Pss+Ind+ConNegII:%>dä K ;
 
 LEXICON BACK_IND-PRT-OC1-2_i !!= * @CODE@ juvv
 !! usually weak grade
@@ -2449,6 +2471,12 @@ LEXICON FRONT_IND-PRT-OC3_i !!= * @CODE@ süüd
 +Pss+Ind+Prt+Sg3:%>i FRONT_K ;
 +Pss+Ind+Prt+Pl3:%>iq FRONT_K ;
 +Use/NG+Pss+Ind+Prt+Pl3:%>iväq FRONT_K ;
+
+
+LEXICON BACK_PSS-PRFPRC_du
++Pss+PrfPrc:du BACK_K ;
+LEXICON FRONT_PSS-PRFPRC_dü
++Pss+PrfPrc:dü FRONT_K ;
 
 
 !! !NON-FINITES
@@ -2762,6 +2790,35 @@ LEXICON FRONT_V0-PSS-PRS-PRC_täv
 +Use/NG+Pss+PrsPrc+Pl+Ill:%>tä%>viihe K ;
 +Use/NG+Pss+PrsPrc+Pl+Nom:%>tä%>vä K ; !!= * @CODE@ no q
 
+LEXICON BACK_V0-PSS-PRS-PRC_ttav
++Pss+PrsPrc:%>ttav K ;
++Pss+PrsPrc+Sg+Nom:%>ttav K ;
++Pss+PrsPrc+Sg+Gen:%>tta%>va K ;
++Pss+PrsPrc+Sg+Par:%>tta%>vat K ;
++Pss+PrsPrc+Sg+Ill:%>tta%>vahe K ;
++Pss+PrsPrc+Pl+Nom:%>tta%>vaq K ;
++Pss+PrsPrc+Pl+Gen:%>tta%>vidõ K ;
++Pss+PrsPrc+Pl+Par:%>tta%>vit K ;
++Pss+PrsPrc+Pl+Ill:%>tta%>vihe K ;
++Use/NG+Pss+PrsPrc+Pl+Gen:%>tta%>viidõ K ;
++Use/NG+Pss+PrsPrc+Pl+Par:%>tta%>viid K ;
++Use/NG+Pss+PrsPrc+Pl+Ill:%>tta%>viihe K ;
++Use/NG+Pss+PrsPrc+Pl+Nom:%>tta%>va K ; !!= * @CODE@ no q
+LEXICON FRONT_V0-PSS-PRS-PRC_ttäv
++Pss+PrsPrc:%>ttäv K ;
++Pss+PrsPrc+Sg+Nom:%>ttäv K ;
++Pss+PrsPrc+Sg+Gen:%>ttä%>vä K ;
++Pss+PrsPrc+Sg+Par:%>ttä%>vät K ;
++Pss+PrsPrc+Sg+Ill:%>ttä%>vähe K ;
++Pss+PrsPrc+Pl+Nom:%>ttä%>väq K ;
++Pss+PrsPrc+Pl+Gen:%>ttä%>vide K ;
++Pss+PrsPrc+Pl+Par:%>ttä%>vit K ;
++Pss+PrsPrc+Pl+Ill:%>ttä%>vihe K ;
++Use/NG+Pss+PrsPrc+Pl+Gen:%>ttä%>viide K ;
++Use/NG+Pss+PrsPrc+Pl+Par:%>ttä%>viid K ;
++Use/NG+Pss+PrsPrc+Pl+Ill:%>ttä%>viihe K ;
++Use/NG+Pss+PrsPrc+Pl+Nom:%>ttä%>vä K ; !!= * @CODE@ no q
+
 LEXICON BACK_V0-PSS-PRS-PRC_dav
 +Pss+PrsPrc:%>dav K ;
 +Pss+PrsPrc+Sg+Nom:%>dav K ;
@@ -2776,6 +2833,7 @@ LEXICON BACK_V0-PSS-PRS-PRC_dav
 +Use/NG+Pss+PrsPrc+Pl+Par:%>da%>viid K ;
 +Use/NG+Pss+PrsPrc+Pl+Ill:%>da%>viihe K ;
 +use/NG+Pss+PrsPrc+Pl+Nom:%>da%>va K ; !!= * @CODE@ no q
+
 LEXICON FRONT_V0-PSS-PRS-PRC_däv
 +Pss+PrsPrc:%>däv K ;
 +Pss+PrsPrc+Sg+Nom:%>däv K ;
