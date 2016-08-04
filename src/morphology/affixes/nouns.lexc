@@ -695,6 +695,14 @@ LEXICON N_28TÜTÄRʼ-SG
 LEXICON N_28TÜTÄRʼ-PL
 +N: NMN_28TÜTÄRʼ-PL ;
 
+LEXICON N_28PINNÄRʼ !!= * __@CODE@__ pinnärʼ:pindär
+ N_28PINNÄRʼ-SG ;
+ N_28PINNÄRʼ-PL ;
+LEXICON N_28PINNÄRʼ-SG
++N: NMN_28PINNÄRʼ-SG ;
+LEXICON N_28PINNÄRʼ-PL
++N: NMN_28PINNÄRʼ-PL ;
+
 LEXICON N_28PAPÕRʼ !!= * __@CODE@__ papõrʼ:papõr
  N_28PAPÕRʼ-SG ;
  N_28PAPÕRʼ-PL ;
@@ -3341,6 +3349,39 @@ LEXICON NMN_28TÜTÄRʼ-SG
 +Use/NG:%^Pen%^VowRM%>e FRONT_SG-ILL_de ;
 
 LEXICON NMN_28TÜTÄRʼ-PL 
+:%^Pen%^VowRM%>e FRONT_PL-NOM ;
+:%^Pen%^VowRM%>i FRONT_PL-GEN_de ;
+:%^Pen%^VowRM%>i FRONT_PL-PAR_t ;
+:%^Pen%^VowRM%>i FRONT_PL-ILL_he ;
+:%^Pen%^VowRM%>i FRONT_PL-ALL_le-STEM ;
+:%^Pen%^VowRM%>ide PL-COM ;
++Use/NG:%^Pen%^VowRM%>ii FRONT_PL-GEN_de ;
++Use/NG: FRONT_PL-GEN_de ;
++Use/NG:%^Pen%^VowRM%>ii FRONT_PL-PAR_d ;
++Use/NG:%>de FRONT_PL-ILL_he ;
++Use/NG:%^Pen%^VowRM%>ii FRONT_PL-ILL_he ;
++Use/NG:%^Pen%^VowRM%>i FRONT_PL-ILL_de ;
++Use/NG:%^Pen%^VowRM%>ii FRONT_PL-ILL_de ;
++Use/NG:%>de FRONT_PL-ILL_he ;
++Use/NG:%^Pen%^VowRM%>ii FRONT_PL-ALL_le-STEM ;
++Use/NG:%>de FRONT_PL-ALL_le-STEM ;
++Use/NG:%^Pen%^VowRM%>iide PL-COM ;
++Use/NG:%>de PL-COM ;
+
+LEXICON NMN_28PINNÄRʼ !!= * __@CODE@__ pinnärʼ:pindär
+!! * Yaml: __N-pindaer28__
+  NMN_28PINNÄRʼ-SG ;
+  NMN_28PINNÄRʼ-PL ;
+
+LEXICON NMN_28PINNÄRʼ-SG 
+:ʼ FRONT_SG-NOM ;
+:%^Pen%^VowRM%>e SG-GEN_ZERO ;
+ FRONT_SG-PAR_d ;
+:%^Pen%^VowRM%>e FRONT_SG-ILL_he ;
+:%^Pen%^VowRM%>e FRONT_SG-ALL_le-STEM ;
++Use/NG:%^Pen%^VowRM%>e FRONT_SG-ILL_de ;
+
+LEXICON NMN_28PINNÄRʼ-PL 
 :%^Pen%^VowRM%>e FRONT_PL-NOM ;
 :%^Pen%^VowRM%>i FRONT_PL-GEN_de ;
 :%^Pen%^VowRM%>i FRONT_PL-PAR_t ;
