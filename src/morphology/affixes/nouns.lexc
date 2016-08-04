@@ -2003,6 +2003,34 @@ LEXICON NMN_10HAIDAK-PL
 +Use/NG:%>ii        BACK_PL-ALL_lõ-STEM       ;
 +Use/NG:%>iidõ        PL-COM       ;
 
+LEXICON NMN_10KADSAK !!= * @OCDE@ kadsak:kadsak
+!! __N-hwrak10__
+  NMN_10KADSAK-SG ;
+  NMN_10KADSAK-PL ;
+LEXICON NMN_10KADSAK-SG 
+        BACK_SG-NOM  ;
+:%^WGStem%>u    BACK_SG-GEN_ZERO ;
+:%>u       BACK_SG-ALL_lõ-STEM        ;
+:%>u    BACK_SG-PAR_t        ;
+:%>u       BACK_SG-ILL_dõ       ;
+:%>u       BACK_SG-ILL_he       ;
+:%^WGStem%>u BACK_SG-COM ;
+
+LEXICON NMN_10KADSAK-PL 
+:%^WGStem%>u    BACK_PL-NOM ;
+:%>i    BACK_PL-GEN_dõ ;
+:%>i        BACK_PL-ILL_he       ;
+:%>i        BACK_PL-ALL_lõ-STEM       ;
+:%>i      BACK_PL-PAR_t        ;
+:%>idõ        PL-COM       ;
++Use/NG:%>ii    BACK_PL-GEN_dõ ;
++Use/NG:%>ii      BACK_PL-PAR_d        ;
++Use/NG:%>ii        BACK_PL-ILL_he       ;
++Use/NG:%>i        BACK_PL-ILL_dõ       ;
++Use/NG:%>ii        BACK_PL-ILL_dõ       ;
++Use/NG:%>ii        BACK_PL-ALL_lõ-STEM       ;
++Use/NG:%>iidõ        PL-COM       ;
+
 LEXICON NMN_10ESÄK !!= * @OCDE@ esäk:esäk
 !! vowel_harmony: BACK and FRONT
 !!  __N-esaek10__
