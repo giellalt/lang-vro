@@ -21,7 +21,9 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 ˋ	 !!≈ * __@CODE@__ U+02CB MODIFIER LETTER GRAVE ACCENT
 
 ! Vowel harmony with "(t)a/ä"
- %{AÄ%}:0 	!!= @CODE@ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ %{aä%}:0 	!!= @CODE@ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ %{eõ%}:0 	!!= @CODE@ Vowel harmony with "e/õ"
+ %{uü%}:0 	!!= @CODE@ Vowel harmony with "u/ü"
 
 
  %{XV%}:0		!!= @CODE@ This is used for echoing the previous vowel
@@ -39,6 +41,8 @@ Y7:õ  !!= __@CODE@__  This appears for syna = s%^Y7na and is rendered as õ in 
  %^UU2Õ:0	!!= @CODE@  juu%^UU2Õ%>i:j0õ0%>i
 
  %^ÄI2ÄÄ:0 	!!= @CODE@ päiv%^ÄI2ÄÄ%>ä: päävä
+%{front%}:0	!!= @CODE@ front harmony
+%{back%}:0	!!= @CODE@ back harmony
 
 
 ! this k is not effected by gradation
@@ -131,6 +135,12 @@ Definitions
 !! Onset consonant or word boundary
 OnSetC = [:Cns (Cns:) |#|%>] ;
 
+! Back Harmony
+BHarm = [ %{back%}: \[ # | %{front%}: ]* ] ;
+
+! Front Harmony
+FHarm = [ %{front%}: \[ # | %{back%}: ]* ] ;
+
 
 ! Front Trigger
 FT =   # Cns* [[ VowFront: | :VowFront ] \[ # | :VowBack ]* | [VowNeutral ] \[ # | :VowBack | VowBack: ]* ]  ;
@@ -172,6 +182,35 @@ Rules
 
 !! !!VOWEL HARMONY 
 !! !Vowel harmony suffixes Front
+"%{aä%}:a"
+!! __@RULENAME@__
+%{aä%}:a <=>
+ BHARM _ ;
+
+"%{aä%}:ä"
+!! __@RULENAME@__
+%{aä%}:ä <=>
+ FHARM _ ;
+
+"%{uü%}:u"
+!! __@RULENAME@__
+%{uü%}:u <=>
+ BHARM _ ;
+
+"%{uü%}:ü"
+!! __@RULENAME@__
+%{uü%}:ü <=>
+ FHARM _ ;
+
+"%{eõ%}:õ"
+!! __@RULENAME@__
+%{eõ%}:õ <=>
+ BHARM _ ;
+
+"%{eõ%}:e"
+!! __@RULENAME@__
+%{eõ%}:e <=>
+ FHARM _ ;
 
 
 !! !VOWEL LOWERING

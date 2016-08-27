@@ -1772,6 +1772,9 @@ LEXICON NMN_36LÄHK-PL
 +Use/NG:%>i        FRONT_PL-ILL_de       ;
 
 
+LEXICON NMN_9KIPÕNʼ/ELLÄI !!= @CODE@ kipõnʼ:kipõnʼ fixme 2016-08-27
+!! * Yaml: __N-kipwnj__
+   NMN_9KIPÕNʼ-SG ;
 LEXICON NMN_9KIPÕNʼ !!= @CODE@ kipõnʼ:kipõnʼ
 !! * Yaml: __N-kipwnj__
    NMN_9KIPÕNʼ-SG ;
@@ -2708,6 +2711,9 @@ LEXICON NMN_15KOTUS-PL
 +Use/NG:%{XC%}iidõ PL-COM ;
 +Use/NG:tõ PL-COM ;
 
+LEXICON NMN_16ABILINÕ/INEMINE !!= @CODE@ inemine:inemi
+!! * Yaml: __N-inemine16__
+        NMN_16INEMINE-SG ;
 LEXICON NMN_16INEMINE !!= @CODE@ inemine:inemi
 !! * Yaml: __N-inemine16__
         NMN_16INEMINE-SG ;
@@ -4478,16 +4484,19 @@ LEXICON NMN_47KIRI-PL
 +Use/NG:%^I2J%>o       BACK_PL-ILL_dõ ;
 
 LEXICON NMN_ELÄNÜQ !!= * @CODE@ elänüq:elänü
-	NMN_ELÄNÜQ-SG  ;
-	NMN_ELÄNÜQ-PL  ;
-LEXICON NMN_ELÄNÜQ-SG
+	NMN_XX/ELÄNÜQ-SG  ;
+	NMN_XX/ELÄNÜQ-PL  ;
+LEXICON NMN_XX/ELÄNÜQ !!= * @CODE@ elänüq:elänü
+	NMN_XX/ELÄNÜQ-SG  ;
+	NMN_XX/ELÄNÜQ-PL  ;
+LEXICON NMN_XX/ELÄNÜQ-SG
 +Sg+Nom:q K ;
 +Sg+Gen: K ;
 !+Sg+Gen:q K ;
 +Sg+Par:t K ;
 +Sg+Ill:he K ;
 
-LEXICON NMN_ELÄNÜQ-PL
+LEXICON NMN_XX/ELÄNÜQ-PL
 +Pl+Nom:q K ;
 +Pl+Gen:ide K ;
 +Pl+Gen:isi K ;
@@ -4517,6 +4526,20 @@ LEXICON BACK_NMN_ELÄNÜQ-PL
 
 
 !! !SINGULAR GENITIVE STEMS
+LEXICON Harm-Neutr_SG-GEN_ZERO-STEM
+	Harm-Neutr_SG-ABE_ldaq ;
+	Harm-Neutr_SG-ABL ;
+	Harm-Neutr_SG-ADE ;
+	Harm-Neutr_SG-ALL_lõ ;
+	Harm-Neutr_SG-COM ;
+	Harm-Neutr_SG-ELA_st       ;
+	Harm-Neutr_SG-GEN_ZERO ;
+	Harm-Neutr_SG-INE_h        ;
+	Harm-Neutr_SG-INE_hn        ;
+	Harm-Neutr_SG-INE_n        ;
+	Harm-Neutr_SG-TER 		;
+	Harm-Neutr_SG-TRA 		;
+
 LEXICON BACK_SG-GEN_ZERO-STEM
 	BACK_SG-ABE_ldaq ;
 	BACK_SG-ABL ;
@@ -4571,6 +4594,18 @@ LEXICON FRONT_SG-ALL_le-STEM
 
 
 !! !PLURAL ALLATIVE STEMS
+LEXICON Harm-Neutr_PL-ALL_lE-STEM
+   Harm-Neutr_PL-ABE_ldAq ;
+   Harm-Neutr_PL-ABL ;
+   Harm-Neutr_PL-ADE ;
+   Harm-Neutr_PL-ALL_lE ;
+   Harm-Neutr_PL-ELA ;
+   Harm-Neutr_PL-INE_h ;
+   Harm-Neutr_PL-INE_hn ;
+   Harm-Neutr_PL-INE_n ;
+   Harm-Neutr_PL-TER ;
+   Harm-Neutr_PL-TRA ;
+
 LEXICON BACK_PL-ALL_lõ-STEM
    BACK_PL-ABE_ldaq ;
    BACK_PL-ABL ;
@@ -4597,6 +4632,9 @@ LEXICON FRONT_PL-ALL_le-STEM
 
 !! !TAGS THAT CAN BE FOLLOWED BY CLITICS "K"
 !! !PLURAL TAGS
+LEXICON Harm-Neutr_PL-ABE_ldAq
++Pl+Abe:%>ld%{aä%}q K ;
++Use/NG+Pl+Abe:%>ld%{aä%} K ; !!= * @CODE@ no q
 LEXICON BACK_PL-ABE_ldaq
 +Pl+Abe:%>ldaq BACK_K ;
 +Use/NG+Pl+Abe:%>lda BACK_K ; !!= * @CODE@ no q
@@ -4604,30 +4642,40 @@ LEXICON FRONT_PL-ABE_ldäq
 +Pl+Abe:%>ldäq FRONT_K ;
 +Use/NG+Pl+Abe:%>ldä FRONT_K ; !!= * @CODE@ no q
 
+LEXICON Harm-Neutr_PL-ABL
++Pl+Abl:%>lt K ;
 LEXICON BACK_PL-ABL
 +Pl+Abl:%>lt BACK_K ;
 LEXICON FRONT_PL-ABL
 +Pl+Abl:%>lt FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-ADE
++Pl+Ade:%>l K ;
 LEXICON  BACK_PL-ADE
 +Pl+Ade:%>l BACK_K ;
 LEXICON  FRONT_PL-ADE
 +Pl+Ade:%>l FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-ALL_lE
++Pl+All:%>l%{eõ%} K ;
 LEXICON  BACK_PL-ALL_lõ
 +Pl+All:%>lõ K ;
 LEXICON  FRONT_PL-ALL_le
 +Pl+All:%>le K ;
 
+LEXICON  Harm-Neutr_PL-ALL_dElE
++Pl+All:%>d%{eõ%}l%{eõ%} K ;
 LEXICON  BACK_PL-ALL_dõlõ
 +Pl+All:%>dõlõ K ;
 LEXICON  FRONT_PL-ALL_dele
 +Pl+All:%>dele K ;
 
 LEXICON PL-COM
-+Pl+Com:%>gaq BACK_K ;
-+Use/NG+Pl+Com:%>ga BACK_K ;
++Pl+Com:%>gaq%{back%} K ;
++Use/NG+Pl+Com:%>ga%{back%} K ;
 
+LEXICON Harm-Neutr_PL-ELA
++Pl+Ela:%>st K ;
 LEXICON BACK_PL-ELA
 +Pl+Ela:%>st BACK_K ;
 LEXICON FRONT_PL-ELA
@@ -4635,11 +4683,15 @@ LEXICON FRONT_PL-ELA
 
 LEXICON  PL-GEN_ZERO
 +Pl+Gen: K ;
+LEXICON  Harm-Neutr_PL-GEN_ZERO
++Pl+Gen: K ;
 LEXICON  BACK_PL-GEN_ZERO
 +Pl+Gen: BACK_K ;
 LEXICON  FRONT_PL-GEN_ZERO
 +Pl+Gen: FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-GEN_dE
++Pl+Gen:%>d%{eõ%} K ;
 LEXICON  BACK_PL-GEN_dõ
 +Pl+Gen:%>dõ BACK_K ;
 LEXICON  FRONT_PL-GEN_de
@@ -4647,21 +4699,31 @@ LEXICON  FRONT_PL-GEN_de
 
 
 
+LEXICON  Harm-Neutr_PL-GEN_tE
++Pl+Gen:%>t%{eõ%} K ;
 LEXICON  BACK_PL-GEN_tõ
 +Pl+Gen:%>tõ BACK_K ;
 LEXICON  FRONT_PL-GEN_te
 +Pl+Gen:%>te FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-GEN_E
++Pl+Gen:%>%{eõ%} K ;
 LEXICON  BACK_PL-GEN_õ
 +Pl+Gen:%>õ BACK_K ;
 LEXICON  FRONT_PL-GEN_e
 +Pl+Gen:%>e FRONT_K ;
 
+LEXICON Harm-Neutr_PL-ILL_ZERO
++Pl+Ill: K ;
 LEXICON BACK_PL-ILL_ZERO
 +Pl+Ill: BACK_K ;
 LEXICON FRONT_PL-ILL_ZERO
 +Pl+Ill: FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-ILL_hE
++Pl+Ill:%>h%{eõ%} K ;
+LEXICON  Harm-Neutr_PL-ILL_he
++Pl+Ill:%>he K ;
 LEXICON  BACK_PL-ILL_hõ
 +Pl+Ill:%>hõ BACK_K ;
 LEXICON  BACK_PL-ILL_he
@@ -4669,26 +4731,36 @@ LEXICON  BACK_PL-ILL_he
 LEXICON  FRONT_PL-ILL_he
 +Pl+Ill:%>he FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-ILL_htE
++Pl+Ill:%>ht%{eõ%} K ;
 LEXICON  BACK_PL-ILL_htõ
 +Pl+Ill:%>htõ BACK_K ;
 LEXICON  FRONT_PL-ILL_hte
 +Pl+Ill:%>hte FRONT_K ;
 
+LEXICON Harm-Neutr_PL-ILL_dE
++Pl+Ill:%>d%{eõ%} K ;
 LEXICON BACK_PL-ILL_dõ
 +Pl+Ill:%>dõ BACK_K ;
 LEXICON FRONT_PL-ILL_de
 +Pl+Ill:%>de FRONT_K ;
 
+LEXICON Harm-Neutr_PL-INE_n
++Pl+Ine:%>n K ;
 LEXICON BACK_PL-INE_n
 +Pl+Ine:%>n BACK_K ;
 LEXICON FRONT_PL-INE_n
 +Pl+Ine:%>n FRONT_K ;
 
+LEXICON Harm-Neutr_PL-INE_h
++Use/NG+Pl+Ine:%>h K ;
 LEXICON BACK_PL-INE_h
 +Use/NG+Pl+Ine:%>h BACK_K ;
 LEXICON FRONT_PL-INE_h
 +Use/NG+Pl+Ine:%>h FRONT_K ;
 
+LEXICON Harm-Neutr_PL-INE_hn
++Use/NG+Pl+Ine:%>hn K ;
 LEXICON BACK_PL-INE_hn
 +Use/NG+Pl+Ine:%>hn BACK_K ;
 LEXICON FRONT_PL-INE_hn
@@ -4696,41 +4768,57 @@ LEXICON FRONT_PL-INE_hn
 
 
 
+LEXICON Harm-Neutr_PL-NOM
++Pl+Nom:%>q K ;
 LEXICON BACK_PL-NOM
 +Pl+Nom:%>q BACK_K ;
 LEXICON FRONT_PL-NOM
 +Pl+Nom:%>q FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-PAR_ZERO
++Pl+Par: K ;
 LEXICON  BACK_PL-PAR_ZERO
 +Pl+Par: BACK_K ;
 LEXICON  FRONT_PL-PAR_ZERO
 +Pl+Par: FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-PAR_d
++Pl+Par:%>d K ;
 LEXICON  BACK_PL-PAR_d
 +Pl+Par:%>d BACK_K ;
 LEXICON  FRONT_PL-PAR_d
 +Pl+Par:%>d FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-PAR_E
++Pl+Par:%>%{eõ%} K ;
 LEXICON  BACK_PL-PAR_õ
 +Pl+Par:%>õ BACK_K ;
 LEXICON  FRONT_PL-PAR_e
 +Pl+Par:%>e FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-PAR_sit
++Pl+Par:%>sit K ;
 LEXICON  BACK_PL-PAR_sit
 +Pl+Par:%>sit BACK_K ;
 LEXICON  FRONT_PL-PAR_sit
 +Pl+Par:%>sit FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-PAR_t
++Pl+Par:%>t K ;
 LEXICON  BACK_PL-PAR_t
 +Pl+Par:%>t BACK_K ;
 LEXICON  FRONT_PL-PAR_t
 +Pl+Par:%>t FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-TER
++Pl+Ter:%>niq K ;
 LEXICON  BACK_PL-TER
 +Pl+Ter:%>niq BACK_K ;
 LEXICON  FRONT_PL-TER
 +Pl+Ter:%>niq FRONT_K ;
 
+LEXICON  Harm-Neutr_PL-TRA
++Pl+Tra:%>s K ;
 LEXICON  BACK_PL-TRA
 +Pl+Tra:%>s BACK_K ;
 LEXICON  FRONT_PL-TRA
@@ -4738,26 +4826,37 @@ LEXICON  FRONT_PL-TRA
 
 
 !! !SINGULAR TAGS
+LEXICON  Harm-Neutr_SG-ABE_ldaq
++Sg+Abe:%>ld%{aä%}q K ;
 LEXICON  BACK_SG-ABE_ldaq
 +Sg+Abe:%>ldaq BACK_K ;
 LEXICON  FRONT_SG-ABE_ldäq
 +Sg+Abe:%>ldäq FRONT_K ;
 
+LEXICON	 Harm-Neutr_SG-ABL
++Sg+Abl:%>lt K ;
 LEXICON	 BACK_SG-ABL
 +Sg+Abl:%>lt BACK_K ;
 LEXICON	 FRONT_SG-ABL
 +Sg+Abl:%>lt FRONT_K ;
 
+LEXICON	 Harm-Neutr_SG-ADE
++Sg+Ade:%>l K ;
 LEXICON	 BACK_SG-ADE
 +Sg+Ade:%>l BACK_K ;
 LEXICON	 FRONT_SG-ADE
 +Sg+Ade:%>l FRONT_K ;
 
+LEXICON	 Harm-Neutr_SG-ALL_lE
++Sg+All:%>l%{eõ%} K ;
 LEXICON	 BACK_SG-ALL_lõ
 +Sg+All:%>lõ BACK_K ;
 LEXICON	 FRONT_SG-ALL_le
 +Sg+All:%>le FRONT_K ;
 
+LEXICON	 Harm-Neutr_SG-COM
++Sg+Com:%>gaq K ;
++Use/NG+Sg+Com:%>ga K ; !!= * @CODE@ no q
 LEXICON	 BACK_SG-COM
 +Sg+Com:%>gaq BACK_K ;
 +Use/NG+Sg+Com:%>ga BACK_K ; !!= * @CODE@ no q
@@ -4779,12 +4878,18 @@ LEXICON	 BACK_SG-GEN_ZERO
 LEXICON	 FRONT_SG-GEN_ZERO
 +Sg+Gen:%> FRONT_K ;
 
+LEXICON	Harm-Neutr_SG-ILL_ZERO
++Sg+Ill: K ;
 LEXICON	BACK_SG-ILL_ZERO
 +Sg+Ill: BACK_K ;
 LEXICON	FRONT_SG-ILL_ZERO
 +Sg+Ill: FRONT_K ;
 
 
+LEXICON Harm-Neutr_SG-ILL_hU
++Sg+Ill:%>h%{uü%} K ;
+LEXICON Harm-Neutr_SG-ILL_hV
++Sg+Ill:%>h%{XV%} K ;
 LEXICON BACK_SG-ILL_hu
 +Sg+Ill:%>hu BACK_K ;
 LEXICON BACK_SG-ILL_hV
@@ -4792,6 +4897,10 @@ LEXICON BACK_SG-ILL_hV
 LEXICON FRONT_SG-ILL_hü
 +Sg+Ill:%>hü FRONT_K ;
 
+LEXICON Harm-Neutr_SG-ILL_huq
++Sg+Ill:%>h%{uü%}q K ;
+LEXICON Harm-Neutr_SG-ILL_hVq
++Sg+Ill:%>h%{XV%}q K ;
 LEXICON BACK_SG-ILL_huq
 +Sg+Ill:%>huq BACK_K ;
 LEXICON BACK_SG-ILL_hVq
@@ -4799,6 +4908,8 @@ LEXICON BACK_SG-ILL_hVq
 LEXICON FRONT_SG-ILL_hüq
 +Sg+Ill:%>hüq FRONT_K ;
 
+LEXICON	Harm-Neutr_SG-ILL_he
++Sg+Ill:%>he K ;
 LEXICON	BACK_SG-ILL_hõ
 +Sg+Ill:%>hõ BACK_K ;
 LEXICON	BACK_SG-ILL_he
@@ -4806,61 +4917,85 @@ LEXICON	BACK_SG-ILL_he
 LEXICON	FRONT_SG-ILL_he
 +Sg+Ill:%>he FRONT_K ;
 
+LEXICON	Harm-Neutr_SG-ILL_htE
++Sg+Ill:%>ht%{eõ%} K ;
 LEXICON	BACK_SG-ILL_htõ
 +Sg+Ill:%>htõ BACK_K ;
 LEXICON	FRONT_SG-ILL_hte
 +Sg+Ill:%>hte FRONT_K ;
 
+LEXICON	Harm-Neutr_SG-ILL_tE
++Sg+Ill:%>t%{eõ%} K ;
 LEXICON	BACK_SG-ILL_tõ
 +Sg+Ill:%>tõ BACK_K ;
 LEXICON	FRONT_SG-ILL_te
 +Sg+Ill:%>te FRONT_K ;
 
+LEXICON Harm-Neutr_SG-ILL_dE
++Sg+Ill:%>d%{eõ%} K ;
 LEXICON BACK_SG-ILL_dõ
 +Sg+Ill:%>dõ BACK_K ;
 LEXICON FRONT_SG-ILL_de
 +Sg+Ill:%>de FRONT_K ;
 
+LEXICON	Harm-Neutr_SG-INE_n
++Sg+Ine:%>n K ;
 LEXICON	BACK_SG-INE_n
 +Sg+Ine:%>n BACK_K ;
 LEXICON	FRONT_SG-INE_n
 +Sg+Ine:%>n FRONT_K ;
 
+LEXICON	Harm-Neutr_SG-INE_h
++Sg+Ine+Use/NG:%>h K ;
 LEXICON	BACK_SG-INE_h
 +Sg+Ine+Use/NG:%>h BACK_K ;
 LEXICON	FRONT_SG-INE_h
 +Sg+Ine+Use/NG:%>h FRONT_K ;
 
+LEXICON	Harm-Neutr_SG-INE_hn !!= @CODE@ RARE
++Use/NG+Sg+Ine:%>hn K ;
 LEXICON	BACK_SG-INE_hn !!= @CODE@ RARE
 +Use/NG+Sg+Ine:%>hn BACK_K ;
 LEXICON	FRONT_SG-INE_hn !!= @CODE@ RARE
 +Use/NG+Sg+Ine:%>hn FRONT_K ;
 
+LEXICON Harm-Neutr_SG-NOM
++Sg+Nom: K ;
 LEXICON BACK_SG-NOM
 +Sg+Nom: BACK_K ;
 LEXICON FRONT_SG-NOM
 +Sg+Nom: FRONT_K ;
 
+LEXICON	 Harm-Neutr_SG-PAR_ZERO
++Sg+Par: K ;
 LEXICON	 BACK_SG-PAR_ZERO
 +Sg+Par: BACK_K ;
 LEXICON	 FRONT_SG-PAR_ZERO
 +Sg+Par: FRONT_K ;
 
+LEXICON	 Harm-Neutr_SG-PAR_d
++Sg+Par:%>d K ;
 LEXICON	 BACK_SG-PAR_d
 +Sg+Par:%>d BACK_K ;
 LEXICON	 FRONT_SG-PAR_d
 +Sg+Par:%>d FRONT_K ;
 
+LEXICON  Harm-Neutr_SG-PAR_t
++Sg+Par:%>t K ;
 LEXICON  BACK_SG-PAR_t
 +Sg+Par:%>t BACK_K ;
 LEXICON  FRONT_SG-PAR_t
 +Sg+Par:%>t FRONT_K ;
 
+LEXICON Harm-Neutr_SG-TER
++Sg+Ter:%>niq # ;
 LEXICON BACK_SG-TER
 +Sg+Ter:%>niq # ;
 LEXICON FRONT_SG-TER
 +Sg+Ter:%>niq # ;
 
+LEXICON Harm-Neutr_SG-TRA
++Sg+Tra:%>s # ;
 LEXICON BACK_SG-TRA
 +Sg+Tra:%>s # ;
 LEXICON FRONT_SG-TRA
