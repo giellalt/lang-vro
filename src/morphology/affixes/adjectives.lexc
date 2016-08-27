@@ -46,6 +46,10 @@ LEXICON A_7FÜÜSIGA
 LEXICON A_8HÄIELM
 +A:  NMN_8HÄIELM ;
 
+LEXICON A_9KIPÕNʼ/ELLÄI
+!! * Yaml: __ellaei, suhvli__
++A:     NMN_9KIPÕNʼ/ELLÄI ;
++A:%^Pen%^WGStem%>%{aä%} Harm-Neutr_COMP ;
 LEXICON A_9KIPÕNʼ
 !! * Yaml: __ellaei, suhvli__
 +A:     NMN_9KIPÕNʼ ;
@@ -234,6 +238,24 @@ LEXICON A_ELÄNÜQ !!= * @CODE@ elänüq:elänü
 
 !!
 
+LEXICON Harm-Neutr_COMP
+
++Comp:%^Pen%^WGStem%>mb Harm-Neutr_COMP-01 ;
++Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>mp # ;
++Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>p # ;
+LEXICON Harm-Neutr_COMP-01
+:%{aä%} Harm-Neutr_SG-GEN_ZERO-STEM ;
++Sg+Ill:%{aä%}l%{eõ%} K ;
++Sg+Ill:%{aä%}he K ;
++Sg+Nom: K ;
+
+:i Harm-Neutr_PL-ALL_lE-STEM	;
+
++Pl+Gen:id%{eõ%} K ;
++Pl+Ill:ihe K ;
++Pl+Par:iid K ;
++Pl+Com:id%{eõ%}g%{aä%}q K ;
++Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON BACK_COMP
 

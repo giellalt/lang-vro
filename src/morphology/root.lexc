@@ -424,7 +424,9 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 ! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- %{AÄ%} 	!!= __@CODE@__ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ %{aä%} 	!!= __@CODE@__ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ %{eõ%} 	!!= __@CODE@__ Vowel harmony with "e/õ"
+ %{uü%} 	!!= __@CODE@__ Vowel harmony with "u/ü"
  %{XV%}		!!= __@CODE@__ This is used for echoing the previous vowel
  %{XC%}		!!= __@CODE@__ This is used for lengthening a consonant
  %^I7         !!= __@CODE@__  This appears in stem vaoma:va%^I7o for vaio
@@ -433,7 +435,7 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %^Y7         !!= __@CODE@__  This appears for syna = s%^Y7na and is rendered as õ in the norm
  OÖ1 UY1 V1 V2 V3 K1
 !! And following triggers to control variation
- {front} {back}
+ %{front%} %{back%}
 
  %^Õ2E	 !!= @CODE@ lugõ%^Pen%^WGStem%^Õ2E loe
  %^UU2Õ	!!= @CODE@  juu%^UU2Õ%>i:j0õ0%>i

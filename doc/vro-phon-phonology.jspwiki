@@ -14,7 +14,9 @@ special letters
  * __Õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
  * __ˋ	__ U+02CB MODIFIER LETTER GRAVE ACCENT
 
-  %{AÄ%}:0 	 Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+  %{aä%}:0 	 Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+  %{eõ%}:0 	 Vowel harmony with "e/õ"
+  %{uü%}:0 	 Vowel harmony with "u/ü"
 
 
   %{XV%}:0		 This is used for echoing the previous vowel
@@ -32,6 +34,8 @@ Triggers
   %^UU2Õ:0	  juu%^UU2Õ%>i:j0õ0%>i
 
   %^ÄI2ÄÄ:0 	 päiv%^ÄI2ÄÄ%>ä: päävä
+ %{front%}:0	 front harmony
+ %{back%}:0	 back harmony
 
 
 
@@ -92,6 +96,8 @@ Onset consonant or word boundary
 
 
 
+
+
 * __viska%^WGStem%>aq __
 * __vis0a0%>aq __
 * __füüsiga%^StrGStem%^VowRM%>i%>dõ __
@@ -110,6 +116,17 @@ Right context for gradation
 
 !!VOWEL HARMONY 
 !Vowel harmony suffixes Front
+__%{aä%}:a__
+
+__%{aä%}:ä__
+
+__%{uü%}:u__
+
+__%{uü%}:ü__
+
+__%{eõ%}:õ__
+
+__%{eõ%}:e__
 
 
 !VOWEL LOWERING
