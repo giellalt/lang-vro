@@ -37,6 +37,8 @@ Triggers
  %{front%}:0	 front harmony
  %{back%}:0	 back harmony
 
+ %^ErrorBack:0	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+
 
 
  %^APOCH:0  This causes apochope
@@ -77,6 +79,7 @@ Triggers
 
  %^VowRM:0  this will remove stem final vowel
  %^CnsRM:0  this will remove stem final consonant tervüs:tervü
+
 
 
 
@@ -240,7 +243,7 @@ __õ2e__
 
 !VOWEL LOSS
 __a:0__
-       a _ %>  i  ;  
+       a _ (HarmDummies:) %>  i  ;  
 * __saa%>i __
 * __sa0%>i __
 * __sõima0%^VowRM%>si __
@@ -537,3 +540,4 @@ __ʼ:0__
 * __kipõn0%>a __
 * __nõkõs0ʼ%^Pen%^WGStem%^StrGStem%>õ __
 * __nõgõss000%>õ __
+
