@@ -31,7 +31,7 @@ special letters
 
 Triggers
   %^Õ2E:0	  lugõ%^Pen%^WGStem%^Õ2E loe
-  %^UU2Õ:0	  juu%^UU2Õ%>i:j0õ0%>i
+  %^OO2Õ:0	  joo%^OO2Õ%>i:j0õ0%>i
 
   %^ÄI2ÄÄ:0 	 päiv%^ÄI2ÄÄ%>ä: päävä
  %{front%}:0	 front harmony
@@ -144,9 +144,13 @@ __ü:ö__
 * __süü%^VOWLower%^WGStem%>nüq __
 * __söö00%>nüq __
 
-__u2õ__
-* __juu%^UU2Õ%>i __
-* __j0õ0%>i __
+__o2õ__
+* __joo%^OO2Õ%>i __
+* __jõ00%>i __
+
+__ö2e__
+* __söö%^OO2Õ%>i __
+* __se00%>i __
 
 !VOWEL RAISING
 __ö:ü__
@@ -184,18 +188,10 @@ tegemä+V+Act+Ind+Prs+Sg1: __do__
 __õ2õ̭__
 
 
-
-__o2u__
-
-
-
 __o2u̬__
 
 
 __ö2ü̬__
-
-__õ2õ̬__
-
 
 
 __i2e__
@@ -253,7 +249,9 @@ __a:0__
 
 
 __ä:0__
-  ä _ %>  i  ;  
+  ä _ (%^VOWRaise:) %^VowRM:  ;  
+* __jää%^VOWRaise%^VowRM%>i __
+* __jä000%>i __
 * __elä%>et __
 * __el0%>et __
 * __tütär%^Pen%^VowRM%>e __
@@ -264,9 +262,7 @@ __u:0__
 * __tervüs%^VowRM%^CnsRM%>i%>t __
 * __terv0000%>i%>t __
 * __kuu%^VowRM%>i%>d __
-* __k0u0%>i%>d __
-* __juu%^UU2Õ%>i __
-* __j0õ0%>i __
+* __ku00%>i%>d __
 }}}
 
 __ü:0__
@@ -278,7 +274,6 @@ __ü:0__
 }}}
 
 __e:0__
-
 __o:0__
 * __joo%^VOWRaise%^VowRM%>vv%>aq __
 * __ju000%>vv%>aq __

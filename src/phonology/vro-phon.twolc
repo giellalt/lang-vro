@@ -38,7 +38,7 @@ Y7:õ  !!= __@CODE@__  This appears for syna = s%^Y7na and is rendered as õ in 
 
 !! Triggers
  %^Õ2E:0	 !!= @CODE@ lugõ%^Pen%^WGStem%^Õ2E loe
- %^UU2Õ:0	!!= @CODE@  juu%^UU2Õ%>i:j0õ0%>i
+ %^OO2Õ:0	!!= @CODE@  joo%^OO2Õ%>i:j0õ0%>i
 
  %^ÄI2ÄÄ:0 	!!= @CODE@ päiv%^ÄI2ÄÄ%>ä: päävä
 %{front%}:0	!!= @CODE@ front harmony
@@ -240,11 +240,17 @@ Rules
 !!€ süü%^VOWLower%^WGStem%>nüq
 !!€ söö00%>nüq
 
-"u2õ"
+"o2õ"
 !! __@RULENAME@__
- u:õ <=> OnSetC u: _ (HarmDummies:) %^UU2Õ: %> i ;
-!!€ juu%^UU2Õ%>i
-!!€ j0õ0%>i
+ o:õ <=> [Cns - [m|p|b|v]] _ o: (HarmDummies:) %^OO2Õ: %> i ;
+!!€ joo%^OO2Õ%>i
+!!€ jõ00%>i
+
+"ö2e"
+!! __@RULENAME@__
+ ö:e <=> [Cns - [m|p|b|v]] _ ö: (HarmDummies:) %^OO2Õ: %> i ;
+!!€ söö%^OO2Õ%>i
+!!€ se00%>i
 
 !! !VOWEL RAISING
 "ö:ü"
@@ -279,15 +285,12 @@ Rules
 !!€ särgi00
 !! }}}
 
-!"e2i"
-!!! __@RULENAME@__
-! e:i <=>  [ # Cns* | Cns ] _ e: [ k | l | n | r ] (HarmDummies:) %^VOWRaise: ;
-!  [ # Cns* | Cns ] e: _ [ k | l | n | r ] (HarmDummies:) %^VOWRaise: ;
  
 "e2i̬"
 !! __@RULENAME@__
- e:i̬ <=>  [ # Cns* | Cns ] _ e: [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
+ e:i̬ <=>  [ # Cns* | Cns ] _ e: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] e: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
+ [ # Cns* | Cns ] e: _ (HarmDummies:) %^VOWRaise: [#|%>] ;
 !!€ keel%^VOWRaiseʼ
 !!€ ki̬i̬l0ʼ
       # Cns:* _ Cns:0 (HarmDummies:) (%^WGStem:) %> e: ;
@@ -298,33 +301,23 @@ Rules
 
 "õ2õ̭"
 !! __@RULENAME@__
- õ:õ̭ <=>  [ # Cns* | Cns ] _ õ: [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
+ õ:õ̭ <=>  [ # Cns* | Cns ] _ õ: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] õ: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
-
-
-
-"o2u"
-!! __@RULENAME@__
- o:u <=>  [ # Cns* | Cns ] _ o:0 (HarmDummies:) %^VOWRaise: %^VowRM: ;
-
+ [ # Cns* | Cns ] õ: _ (HarmDummies:) %^VOWRaise: [#|%>] ;
 
 
 "o2u̬"
 !! __@RULENAME@__
  o:u̬ <=>  [ # Cns* | Cns ] _ o: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] o: _ ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
+ [ # Cns* | Cns ] o: _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWRaise: ;
+ [ # Cns* | Cns ] o: _ (HarmDummies:) %^VOWRaise: [#|%>] ;
 
 
 "ö2ü̬"
 !! __@RULENAME@__
- ö:ü̬ <=>  [ # Cns* | Cns ] _ ö: [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] ö: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
-
-"õ2õ̬"
-!! __@RULENAME@__
- õ:õ̬ <=>  [ # Cns* | Cns ] _ õ: [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] õ: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
-
+ ö:ü̬ <=>  [ # Cns* | Cns ] _ ö: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
+ [ # Cns* | Cns ] ö: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise:  ;
+[ # Cns* | Cns ] ö: _ (HarmDummies:) %^VOWRaise: [#|%>] ;
 
 
 "i2e"
@@ -406,7 +399,9 @@ Rules
 !! __@RULENAME@__
  ä:0 <=>  [ Cns: | :Cns ] _ (HarmDummies:) [ (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
 !  [ Cns: | :Cns ] _ (HarmDummies:) [ (0:|:0+) %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
- ä _ %>  i  ; !!= @CODE@ 
+ ä _ (%^VOWRaise:) %^VowRM:  ; !!= @CODE@ 
+!!€ jää%^VOWRaise%^VowRM%>i
+!!€ jä000%>i
 !!€ elä%>et
 !!€ el0%>et
   Cns: _ Cns: (HarmDummies:) (ʼ:) %^Pen: %^VowRM: ;
@@ -419,11 +414,9 @@ Rules
  u:0 <=>  Cns: _ (HarmDummies:) [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
 !!€ tervüs%^VowRM%^CnsRM%>i%>t
 !!€ terv0000%>i%>t
-   OnSetC _ u: (HarmDummies:) [%^VowRM:|%^UU2Õ:] %> i ;
+   OnSetC u: _ (HarmDummies:) %^VowRM: %> i ;
 !!€ kuu%^VowRM%>i%>d
-!!€ k0u0%>i%>d
-!!€ juu%^UU2Õ%>i
-!!€ j0õ0%>i
+!!€ ku00%>i%>d
 !! }}}
 
 "ü:0"
@@ -434,25 +427,25 @@ Rules
 !!€ tü00%>hüq
 !!€ tervüs%^VowRM%^CnsRM%>i%>t
 !!€ terv0000%>i%>t
-   OnSetC _ ü: (HarmDummies:) (%^VOWLower:) %> i ;
+   OnSetC ü: _ (HarmDummies:) (%^VOWLower:) %> i ;
 !! }}}
 
 "e:0"
 !! __@RULENAME@__
  e:0 <=>  [ Cns: | :Cns ] _ (HarmDummies:) [ %^VowRM: | Cns:0 %^VowRM: %^CnsRM: ]  %> ; 
            [ Cns: | :Cns ] _ l (HarmDummies:) %^Pen: %^VowRM:  ;
-
+           e: _ (%^VOWRaise:) %^VowRM: ;
 "o:0"
 !! __@RULENAME@__
  o:0 <=>  [ Cns: | :Cns ] _ (HarmDummies:) [ (%^WGStem:|%^StrGStem:) %^VowRM: (õ) ]   ; 
-           o: _ (HarmDummies:) (%^VOWRaise:) %^VowRM: ;
+           o: _ (HarmDummies:) [(%^VOWRaise:) %^VowRM:|%^OO2Õ:] ;
 !!€ joo%^VOWRaise%^VowRM%>vv%>aq
 !!€ ju000%>vv%>aq
 
 "ö:0"
 !! __@RULENAME@__
  ö:0 <=>  [ Cns: | :Cns ] _ (HarmDummies:) [ (%^WGStem:|%^StrGStem:) %^VowRM: (e) ]   ; 
-           ö: _ (HarmDummies:) (%^VOWRaise:) %^VowRM: ;
+           ö: _ (HarmDummies:) [(%^VOWRaise:) %^VowRM:|%^OO2Õ:] ;
 
 "i:0"
 !! __@RULENAME@__
