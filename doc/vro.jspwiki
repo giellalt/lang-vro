@@ -39,6 +39,7 @@ The parts-of-speech are:
  * __+Pron__ Pronon
  * __+CS	__ subjunction
  * __+CC	__ Correlating conjunction
+ * __+Det__ Determiners
  * __+Adp__ Adpositions
  * __+Po	__ Postposition
  * __+Pr	__ Preposition
@@ -294,6 +295,7 @@ symbols in the lexicon files:
  __ %^T7         __  This appears in stem kaoma:ka%^T7o for katoq
  __ %^Y7         __  This appears for syna = s%^Y7na and is rendered as õ in the norm
 And following triggers to control variation
+ %^ErrorBack	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
 
   %^Õ2E	  lugõ%^Pen%^WGStem%^Õ2E loe
   %^UU2Õ	  juu%^UU2Õ%>i:j0õ0%>i
@@ -383,6 +385,7 @@ look at verb_newwords.lexc
 Incoming
  * __ADP_NEWWORDS ;__
  * __ADV_NEWWORDS ;__ 
+ * __DET_NEWWORDS ;__
  * __INTERJ_NEWWORDS ;__
  * __N_NEWWORDS ;__
  * __PROP_NEWWORDS ;__
@@ -432,6 +435,8 @@ Triggers
  %{front%}:0	 front harmony
  %{back%}:0	 back harmony
 
+ %^ErrorBack:0	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+
 
 
  %^APOCH:0  This causes apochope
@@ -472,6 +477,7 @@ Triggers
 
  %^VowRM:0  this will remove stem final vowel
  %^CnsRM:0  this will remove stem final consonant tervüs:tervü
+
 
 
 
@@ -635,7 +641,7 @@ __õ2e__
 
 !VOWEL LOSS
 __a:0__
-       a _ %>  i  ;  
+       a _ (HarmDummies:) %>  i  ;  
 * __saa%>i __
 * __sa0%>i __
 * __sõima0%^VowRM%>si __
@@ -932,3 +938,4 @@ __ʼ:0__
 * __kipõn0%>a __
 * __nõkõs0ʼ%^Pen%^WGStem%^StrGStem%>õ __
 * __nõgõss000%>õ __
+

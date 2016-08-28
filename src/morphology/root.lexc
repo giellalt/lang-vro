@@ -42,6 +42,7 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 +Pron   !!≈ * __@CODE@__ Pronon
 +CS	    !!≈ * __@CODE@__ subjunction
 +CC	    !!≈ * __@CODE@__ Correlating conjunction
++Det    !!≈ * __@CODE@__ Determiners
 +Adp    !!≈ * __@CODE@__ Adpositions
 +Po	    !!≈ * __@CODE@__ Postposition
 +Pr	    !!≈ * __@CODE@__ Preposition
@@ -436,6 +437,8 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  OÖ1 UY1 V1 V2 V3 K1
 !! And following triggers to control variation
  %{front%} %{back%}
+!
+%^ErrorBack	!!= @CODE@ +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
 
  %^Õ2E	 !!= @CODE@ lugõ%^Pen%^WGStem%^Õ2E loe
  %^UU2Õ	!!= @CODE@  juu%^UU2Õ%>i:j0õ0%>i
@@ -531,6 +534,7 @@ LEXICON Root
 !! Incoming
   ADP_NEWWORDS ;           !!≈ * __@CODE@__
   ADV_NEWWORDS ;           !!≈ * __@CODE@__ 
+  DET_NEWWORDS ;           !!≈ * __@CODE@__
   INTERJ_NEWWORDS ;           !!≈ * __@CODE@__
   N_NEWWORDS ;           !!≈ * __@CODE@__
   PROP_NEWWORDS ;           !!≈ * __@CODE@__
@@ -544,6 +548,8 @@ LEXICON CC_
 +CC: K ;
 LEXICON CS_
 +CS: K ;
+LEXICON DET_
++Det: K ;
 LEXICON INTERJ_
 +Interj: K ;
 LEXICON NumTag
