@@ -252,7 +252,7 @@ LEXICON V_57TAPLÕMA/KIIRDLEMÄ
 : Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
 :%^WGStem Harm-Neutr_JUUMA-PSS-PRF-PRC_d ;
 
-:%^Pen%^VowRM%>%{eõ%} Harm-Neutr_V2N_minE ;
+:%^Pen%^VowRM%>%{eõ%} V2N_minE ;
 :%^Pen%^VowRM%>%{eõ%} Harm-Neutr_INF_mA ;
 :%^Pen%^VowRM%>%{eõ%} Harm-Neutr_ACT-PRS-PRC_v ;
 : Harm-Neutr_INF_dAq ;
@@ -536,7 +536,7 @@ LEXICON V_64PUHKSAMA/REHKSÄMÄ
 :%^WGStem Harm-Neutr_IND-PRT-SC3_sʼ-NO-s ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
-: Harm-Neutr_V2N_minE ;
+: V2N_minE ;
 :%^Pen%^VowRM%>%{aä%} Harm-Neutr_INF_mA ;
 :%^WGStem Harm-Neutr_INF_tAq ;
 :%{aä%} Harm-Neutr_ACT-PRS-PRC_v ;
@@ -614,34 +614,24 @@ LEXICON V_69SÜNDÜMÄ !!≈ * __@CODE@__ sündümä:sündü
 +V:%{front%} V_69HAARDUMA/SÜNDÜMÄ ;
 +V+WORK: # ;
 LEXICON V_69HAARDUMA/SÜNDÜMÄ !!≈ * __@CODE@__ sündümä:sündü
-: Harm-Neutr_V0-IND-PRS-SC-12 ;
-:%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
-: Harm-Neutr_ACT-IND-PRS-CONNEG ;
-:%^WGStem Harm-Neutr_ACT-IND-PRS-CONNEG ;
-: ACT-IND-PRS-3_s/sEq ;
-:%^WGStem ACT-IND-PRS-3_s/sEq ;
-: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+:%^Pen%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-CONNEG ;
+:%^Pen%^WGStem ACT-IND-PRS-3_s/sEq ;
+
+:%^Pen%^WGStem PSS-IND-PRS_tA/SG1 ;
 
 : Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
-:%^WGStem Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
-: Harm-Neutr_ACT-IND-PRT-CONNEG ;
-:%^WGStem Harm-Neutr_ACT-IND-PRT-CONNEG ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRT-CONNEG ;
 : V0-IND-PRT-SCSG3_ZERO ;
-:%^WGStem V0-IND-PRT-SCSG3_ZERO ;
-: Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+:%^Pen%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 : Harm-Neutr_INF_mA ;
-:%^WGStem Harm-Neutr_INF_mA ;
 : Harm-Neutr_INF_dAq ;
-:%^WGStem Harm-Neutr_INF_dAq ;
 : Harm-Neutr_ACT-PRS-PRC_v ;
-:%^WGStem Harm-Neutr_ACT-PRS-PRC_v ;
 : Harm-Neutr_ACT-PRF-PRC-ALL_nUq ;
-: Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
-: Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
-: Harm-Neutr_PSS-PRF-PRC_t ;
-:%^WGStem Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
-:%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
+:%^Pen%^WGStem Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
+:%^Pen%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
+
 
 LEXICON V_70UNÕHTUMA !!≈ * __@CODE@__ unõhtuma:unõhtu
 !! * Yaml: __V-unwhtuma__
@@ -652,33 +642,33 @@ LEXICON V_70ERÄLDÜMÄ !!≈ * __@CODE@__ eräldümä:eräldü
 
 LEXICON V_70UNÕHTUMA/ERÄLDÜMÄ !!≈ * __@CODE@__ unõhtuma:unõhtu
 : Harm-Neutr_V0-IND-PRS-SC-12 ;
-:%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
+:%^Pen%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
 : Harm-Neutr_ACT-IND-PRS-CONNEG ;
-:%^WGStem Harm-Neutr_ACT-IND-PRS-CONNEG ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-CONNEG ;
 : ACT-IND-PRS-3_s/sEq ;
-:%^WGStem ACT-IND-PRS-3_s/sEq ;
+:%^Pen%^WGStem ACT-IND-PRS-3_s/sEq ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
 : Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
-:%^WGStem Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
 : Harm-Neutr_ACT-IND-PRT-CONNEG ;
-:%^WGStem Harm-Neutr_ACT-IND-PRT-CONNEG ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRT-CONNEG ;
 : V0-IND-PRT-SCSG3_ZERO ;
-:%^WGStem V0-IND-PRT-SCSG3_ZERO ;
+:%^Pen%^WGStem V0-IND-PRT-SCSG3_ZERO ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 : Harm-Neutr_INF_mA ;
-:%^WGStem Harm-Neutr_INF_mA ;
+:%^Pen%^WGStem Harm-Neutr_INF_mA ;
 : Harm-Neutr_INF_dAq ;
-:%^WGStem Harm-Neutr_INF_dAq ;
+:%^Pen%^WGStem Harm-Neutr_INF_dAq ;
 : Harm-Neutr_ACT-PRS-PRC_v ;
-:%^WGStem Harm-Neutr_ACT-PRS-PRC_v ;
+:%^Pen%^WGStem Harm-Neutr_ACT-PRS-PRC_v ;
 : Harm-Neutr_ACT-PRF-PRC-ALL_nUq ;
 : Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
 : Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
 : Harm-Neutr_PSS-PRF-PRC_t ;
-:%^WGStem Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
-:%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
+:%^Pen%^WGStem Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
+:%^Pen%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
 
 
 
@@ -690,13 +680,13 @@ LEXICON V_71ERÄTÜMÄ !!≈ * __@CODE@__ erätümä:erätü
 +V:%{front%} V_71HALLÕTUMA/ERÄTÜMÄ ;
 
 LEXICON V_71HALLÕTUMA/ERÄTÜMÄ !!≈ * __@CODE@__ hallõtuma:hallõtu
-:%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
-:%^WGStem Harm-Neutr_ACT-IND-PRS-CONNEG ;
+:%^Pen%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-CONNEG ;
 : ACT-IND-PRS-3_s/sEq ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
-:%^WGStem Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
-:%^WGStem Harm-Neutr_ACT-IND-PRT-CONNEG ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRT-CONNEG ;
 : V0-IND-PRT-SCSG3_ZERO ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
@@ -980,7 +970,7 @@ LEXICON V_78SAAMA/XX
 : Harm-Neutr_ACT-PRS-PRC_v ;
 :%^VOWLower Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
 : Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
-:%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
+: Harm-Neutr_PSS-PRF-PRC_t ;
 
 LEXICON V_78VIIMÄ
 !! * Yaml: __V-viimae__
@@ -1596,8 +1586,8 @@ LEXICON ACT-IND-PRS-3_s/sEq
 
 LEXICON Harm-Neutr_ACT-IND-PRS-CONNEG
 !+Act+Ind+ConNegI: K ;
-+Use/NG+Act+Ind+Prs+Neg:%-%{XV%}iq K ;
 +Use/NG+Act+Ind+ConNegII:%>q K ;
++Use/NG+Act+Ind+Prs+Neg:%-%{XV%}iq K ;
 +Use/NG+Act+Ind+Prs+Neg:%-i K ; !!= * @CODE@ no vowel or q
 
 
@@ -1609,6 +1599,20 @@ LEXICON MUTUAL_JUS_kuq
 
 !! CHECK THIS
 !! !PASSIVE INDICATIVE PRESENT CONJUGATION
+
+LEXICON PSS-IND-PRS_tA/SG1
++Pss+Ind+Prs+Sg1:%>t%{aä%} K ;
++Pss+Ind+Prs+Sg2:%>t%{aä%}t K ;
++Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%}q K ;
++Pss+Ind+Prs+Sg3:%>t%{aä%}s K ;
++Pss+Ind+Prs+Pl1:%>t%{aä%}miq K ;
++Pss+Ind+Prs+Pl2:%>t%{aä%}tiq K ;
++Pss+Ind+Prs+Pl2:%>t%{aä%}d%{eõ%}q K ;
++Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%}q K ;
++Pss+Ind+ConNeg:%>t%{aä%} K ;
++Pss+Ind+Prs+Neg:%>t%{aä%}%-%{aä%}iq K ;
++Use/NG+Pss+Ind+Prs+Neg:%>t%{aä%}%-iq K ;
++Use/NG+Pss+Ind+ConNeg:%>t%{aä%}q K ;
 
 LEXICON Harm-Neutr_VISKAMA_PSS-IND-PRS
 +Pss+Ind+Prs+Sg1:%>d%{aä%} K ;
@@ -1853,7 +1857,7 @@ LEXICON Harm-Neutr_PSS-PRFPRC_dU
 !! !NON-FINITES
 LEXICON Harm-Neutr_INF_mA
 +Inf/mA:%>m%{aä%} K ;
- Harm-Neutr_V2N_minE ;
+ V2N_minE ;
 
 LEXICON Harm-Neutr_INF_dAq
 +Inf:%>d%{aä%}q K ;
@@ -1879,7 +1883,7 @@ LEXICON Harm-Neutr_INF_ZEROq
 +Inf:%>q K ;
 +Use/NG+Inf: K ; !!= * @CODE@ no q
 
-LEXICON Harm-Neutr_V2N_minE
+LEXICON V2N_minE
 +Der/minÕ+N:%>mi NMN_16ABILINÕ/INEMINE ;
 +Der/JA+N:%>j NMN_9KIPÕNʼ/ELLÄI ; !!≈ * __@CODE@__ This should have a +Der/JA tag
 
