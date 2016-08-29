@@ -90,12 +90,12 @@ LEXICON A_13TÄHINE !!= @CODE@ tähine:tähi
 +A:     NMN_13TÄHINE ;
 
 LEXICON A_14RITSʼKAS  !!= @CODE@ ritsʼkas:ritsʼka
-+A: BACK_COMP ;
-+A:  NMN_14RITSʼKAS ;
++A:%{back%} Harm-Neutr_COMP ;
++A:%{back%}  NMN_14RITSʼKAS ;
 
 LEXICON A_14HAMMAS  !!= @CODE@ rikas:rikka
-+A: BACK_COMP ;
-+A:  NMN_14HAMMAS ;
++A:%{back%} Harm-Neutr_COMP ;
++A:%{back%}  NMN_14HAMMAS/XX ;
 
 LEXICON A_15KOTUS
 +A:  NMN_15KOTUS ;
@@ -243,6 +243,7 @@ LEXICON Harm-Neutr_COMP
 +Comp:%^Pen%^WGStem%>mb Harm-Neutr_COMP-01 ;
 +Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>mp # ;
 +Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>p # ;
+
 LEXICON Harm-Neutr_COMP-01
 :%{aä%} Harm-Neutr_SG-GEN_ZERO-STEM ;
 +Sg+Ill:%{aä%}l%{eõ%} K ;
@@ -256,6 +257,8 @@ LEXICON Harm-Neutr_COMP-01
 +Pl+Par:iid K ;
 +Pl+Com:id%{eõ%}g%{aä%}q K ;
 +Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ; !!= * @CODE@ no q
+
+
 
 LEXICON BACK_COMP
 
