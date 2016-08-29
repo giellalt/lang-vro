@@ -176,9 +176,11 @@ IL = [ # Cns* Vow : Cns:+ | Cns* Vow+ Cns:+  Vow:+ Cns:+  ] ;
 !! Right context for gradation
 GRC =  [ [ Vow: | :Vow ]  ( %> i ) |  %>  i ] %> %^WCns:0  ;
 
+
+
 PenBetweenStemAndPenGrade = [(%^Pen: %^VOWLower:)] ;
 
-PenBetweenStemAndStemFinal = [(%^Pen: %^WGStem:)] ;
+PenBetweenStemAndStemFinal = [(HarmDummies:) (%^Pen: %^WGStem:)] ;
 
 
 !! !!!Rules
@@ -481,34 +483,34 @@ Rules
 
 "%{XV%}:u"
 !! __@RULENAME@__
- %{XV%}:u <=> :u ( %- ) _  ;
-       [ u | u: (HarmDummies:) (%^VowRM:) | u̬: (HarmDummies:) (%^VowRM:)] %> h _ ;
+ %{XV%}:u <=> :u PenBetweenStemAndStemFinal ( %- ) _  ;
+       [ u | u: PenBetweenStemAndStemFinal (%^VowRM:) | u̬: PenBetweenStemAndStemFinal (%^VowRM:)] %> h _ ;
 
      
 "%{XV%}:ü"
 !! __@RULENAME@__
- %{XV%}:ü <=> :ü ( %- ) _  ;
-       [ ü | ü: (HarmDummies:) (%^VowRM:) |ü̬: (HarmDummies:) (%^VowRM:) ] %> h _ ;
+ %{XV%}:ü <=> :ü PenBetweenStemAndStemFinal ( %- ) _  ;
+       [ ü | ü: PenBetweenStemAndStemFinal (%^VowRM:) |ü̬: PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
 
      
 "%{XV%}:a"
 !! __@RULENAME@__
- %{XV%}:a <=> :a ( %- ) _  ;
-       [ o | a | a: (HarmDummies:) (%^VowRM:) ] %> h _ ;
+ %{XV%}:a <=> :a PenBetweenStemAndStemFinal ( %- ) _  ;
+       [ o | a | a: PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
 
 "%{XV%}:ä"
 !! __@RULENAME@__
- %{XV%}:ä <=> :ä ( %- ) _  ;
-       [ ö | ä | ä: (HarmDummies:) (%^VowRM:) ] %> h _ ;
+ %{XV%}:ä <=> :ä PenBetweenStemAndStemFinal ( %- ) _  ;
+       [ ö | ä | ä: PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
 
 "%{XV%}:õ"
 !! __@RULENAME@__
- %{XV%}:õ <=> :õ ( %- ) _  ;
-        [õ | õ: (HarmDummies:) (%^VowRM:) ] %> h _ ;
+ %{XV%}:õ <=> :õ PenBetweenStemAndStemFinal ( %- ) _  ;
+        [õ | õ: PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
 
 "%{XV%}:e"
 !! __@RULENAME@__
- %{XV%}:e <=>  [ e | e: (HarmDummies:) (%^VowRM:)] %> h _ ;
+ %{XV%}:e <=>  [ e | e: PenBetweenStemAndStemFinal (%^VowRM:)] %> h _ ;
 
 
 !!
@@ -519,7 +521,7 @@ Rules
          Cns _ (HarmDummies:) %^I2J: ;
 !!€ asi%^I2J%>a
 !!€ asj0%>a
-         Vow: _ (HarmDummies:) PenBetweenStemAndStemFinal %^I2J: ;
+         Vow: _  PenBetweenStemAndStemFinal %^I2J: ;
 !!€ elläi%^Pen%^WGStem%^I2J%>ä
 !!€ el0äj00%>ä
 !         Cns _ (HarmDummies:) %^StrGStem: %> :Vow ;
