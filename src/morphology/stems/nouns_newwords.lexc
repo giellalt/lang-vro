@@ -9542,7 +9542,6 @@ tülü:tülü N_40HELÜ "_#ü, #lü__tül|ü_" ;
 tünʼo:tünʼo N_40TALO "_#nʼo, #nnʼo __tü|nʼo_" ;
 tüühimo:tü̬ü̬himo N_40TALO "_#o, #mo__tü̬ü̬him|o_" ;
 udsu:udsu N_40TALO "_udsu, utsu__udsu_" ;
-!uja:uja NMN_40 "_uja, ujja uia__uja_" ;
 ulʼo:ulʼo N_40TALO "_ulʼo, ullʼo__ulʼo_" ;
 uno:uno N_40TALO "_#o, #no__un|o_" ;
 uudishimo:uudishimo N_40TALO "_#o, #mo__uudishim|o_" ;
@@ -9557,6 +9556,8 @@ virustsoro:virustsoro N_40TALO "_#o, #ro__virustsor|o_" ;
 volikogo:volikogo N_40TALO "_#go, #ko__voliko|go_" ;
 võso:võso N_40TALO "_#o, #so__võs|o_" ;
 võro:võro N_40TALO "_#o, #ro_" ;
+uja:uja N_40UJA "_uja, ujja uia__uja_" ;
+oja:oja N_40UJA "_uja, ujja uia__uja_" ;
 
 
 !41 
@@ -10453,41 +10454,41 @@ vähälik:vähälik N_43KANARIK "_#gu, #kku__vähäli|k_" ;
 !44 
 !(VES 29) sõda
 
-!aastagasada:ˋaastagasada NMN_44 "_#saa, #sata __ˋaastaga|sada_" ;
-!ilmasõda:ilmasõda NMN_44 "_#sõ̭a, #sõta__ilma|sõda_" ;
-!jalgrada:jalgrada NMN_44 "_#a, #ta__jalgra|da_" ;
-!katsʼsada:katsʼsada NMN_44 "_katõsaa, kattõsata__katsʼsada_" ;
-!katõssasada:katõssasada NMN_44 "_ˋkatsasaa, ˋkatsatsata__katõssasada_" ;
-!kolmsada:kolmsada NMN_44 "_kolmõsaa, ˋkolmõsata__kolmsada_" ;
-!kuusʼsada:kuusʼsada NMN_44 "_kuvvõsaa, kuutsata__kuusʼsada_" ;
-!lagʼa:lagʼa NMN_44 "_#ja, #kʼa__la|gʼa_" ;
-!lagja:lagja NMN_44 "_#ja, #kja__la|gja_" ;
-!mõtsatsiga:mõtsatsiga NMN_44 "_#a, #ka__mõtsatsi|ga_" ;
-!nellisada:nellisada NMN_44 "_ne(l)läsaa, ˋneljäsata__nellisada_" ;
-!paarʼsada:paarʼsada NMN_44 "_paarisaa, ˋpaarisata__paarʼsada_" ;
-!pada:pada NMN_44 "_#a, #ta__pa|da_" ;
-!piripada:piripada NMN_44 "_#a, #ta __piripa|da_" ;
-!puurada:puurada NMN_44 "_#raa, #rata__puu|rada_" ;
-!rada:rada NMN_44 "_#a, #ta__ra|da_" ;
-!ragʼa:ragʼa NMN_44 "_#ja, #kʼa __ra|gʼa_" ;
-!ragja:ragja NMN_44 "_#ja, #kja__ra|gja_" ;
-!rida:rida NMN_44 "_#a, #ta__ri|da_" ;
-!sada:sada NMN_44 "_#a, #ta__sa|da_" ;
-!sõda:sõda NMN_44 "_sõ̭a, sõta__sõda_" ;
-!säidsesada:säidsesada NMN_44 "_ˋsäitsmesaa, säidsendsata__säidsesada_" ;
-!tagʼa:tagʼa NMN_44 "_#ja, #kʼa__ta|gʼa_" ;
-!tagja:tagja NMN_44 "_#ja, #kja__ta|gja_" ;
-!tiirada:ti̬i̬rada NMN_44 "_#a, #ta__ti̬i̬ra|da_" ;
-!tsiga:tsiga NMN_44 "_#a, #ka__tsi|ga_" ;
-!Tsirgurada:Tsirgurada NMN_44 "_#a, #ta __Tsirgura|da_" ;
-!tsirgurada:tsirgurada NMN_44 "_#a, #ta__tsirgura|da_" ;
-!unitsiga:unitsiga NMN_44 "_#a, #ka__unitsi|ga_" ;
-!vaga:vaga NMN_44 "_#a, #ka__va|ga_" ;
-!vagʼa:vagʼa NMN_44 "_#ja, #kʼa__va|gʼa_" ;
-!vagja:vagja NMN_44 "_#ja, #kja __va|gja_" ;
-!viga:viga NMN_44 "_#a, #ka__vi|ga_" ;
-!viisʼsada:viisʼsada NMN_44 "_viiesaa, viitsata__viisʼsada_" ;
-!ütessäsada:ütessäsada NMN_44 "_ˋütsäsaa, ˋütsätsata__ütessäsada_" ;
+aastagasada:ˋaastagasada N_44SÕDA "_#saa, #sata __ˋaastaga|sada_" ;
+ilmasõda:ilmasõda N_44SÕDA "_#sõ̭a, #sõta__ilma|sõda_" ;
+jalgrada:jalgrada N_44SÕDA "_#a, #ta__jalgra|da_" ;
+katsʼsada:katsʼsada NUM_44SÕDA "_katõsaa, kattõsata__katsʼsada_" ;
+katõssasada:katõssasada NUM_44SÕDA "_ˋkatsasaa, ˋkatsatsata__katõssasada_" ;
+kolmsada:kolmsada NUM_44SÕDA "_kolmõsaa, ˋkolmõsata__kolmsada_" ;
+kuusʼsada:kuusʼsada NUM_44SÕDA "_kuvvõsaa, kuutsata__kuusʼsada_" ;
+lagʼa:lagʼa N_44SÕDA "_#ja, #kʼa__la|gʼa_" ;
+lagja:lagja N_44SÕDA "_#ja, #kja__la|gja_" ;
+mõtsatsiga:mõtsatsiga N_44SÕDA "_#a, #ka__mõtsatsi|ga_" ;
+nellisada:nellisada NUM_44SÕDA "_ne(l)läsaa, ˋneljäsata__nellisada_" ;
+paarʼsada:paarʼsada NUM_44SÕDA "_paarisaa, ˋpaarisata__paarʼsada_" ;
+pada:pada N_44SÕDA "_#a, #ta__pa|da_" ;
+piripada:piripada N_44SÕDA "_#a, #ta __piripa|da_" ;
+puurada:puurada N_44SÕDA "_#raa, #rata__puu|rada_" ;
+rada:rada N_44SÕDA "_#a, #ta__ra|da_" ;
+ragʼa:ragʼa N_44SÕDA "_#ja, #kʼa __ra|gʼa_" ;
+ragja:ragja N_44SÕDA "_#ja, #kja__ra|gja_" ;
+rida:rida N_44SÕDA "_#a, #ta__ri|da_" ;
+sada:sada NUM_44SÕDA "_#a, #ta__sa|da_" ;
+sõda:sõda N_44SÕDA "_sõ̭a, sõta__sõda_" ;
+säidsesada:säidsesada N_44SÕDA "_ˋsäitsmesaa, säidsendsata__säidsesada_" ;
+tagʼa:tagʼa N_44SÕDA "_#ja, #kʼa__ta|gʼa_" ;
+tagja:tagja N_44SÕDA "_#ja, #kja__ta|gja_" ;
+tiirada:ti̬i̬rada N_44SÕDA "_#a, #ta__ti̬i̬ra|da_" ;
+tsiga:tsiga N_44SÕDA "_#a, #ka__tsi|ga_" ;
+Tsirgurada:Tsirgurada N_44SÕDA "_#a, #ta __Tsirgura|da_" ;
+tsirgurada:tsirgurada N_44SÕDA "_#a, #ta__tsirgura|da_" ;
+unitsiga:unitsiga N_44SÕDA "_#a, #ka__unitsi|ga_" ;
+vaga:vaga N_44SÕDA "_#a, #ka__va|ga_" ;
+vagʼa:vagʼa N_44SÕDA "_#ja, #kʼa__va|gʼa_" ;
+vagja:vagja N_44SÕDA "_#ja, #kja __va|gja_" ;
+viga:viga N_44SÕDA "_#a, #ka__vi|ga_" ;
+viisʼsada:viisʼsada NUM_44SÕDA "_viiesaa, viitsata__viisʼsada_" ;
+ütessäsada:ütessäsada NUM_44SÕDA "_ˋütsäsaa, ˋütsätsata__ütessäsada_" ;
 
 
 

@@ -483,6 +483,7 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 %: %> %-
 
 !! !!Flag diacritics
++Cmp 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
@@ -539,6 +540,11 @@ LEXICON Root
   N_NEWWORDS ;           !!≈ * __@CODE@__
   PROP_NEWWORDS ;           !!≈ * __@CODE@__
   V_NEWWORDS ;           !!≈ * __@CODE@__
+
+
+LEXICON NounRoot
+N_NEWWORDS ;
+nouns ;
 
 !! less complex word classes
 LEXICON ACRONDELIMITER
