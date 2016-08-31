@@ -1,0 +1,1157 @@
+!! Noun inflection for Võro
+! ------------------------
+LEXICON NUM_ !!= * @CODE@ Lacks specific continuation lexicon
++Num+WORK: #;
+
+LEXICON NUM_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
+        NUM_1HANSʼA-SG ;
+        NUM_1HANSʼA-PL ;
+
+LEXICON NUM_1HANSʼA-SG
++Num:%{back%}     NMN_1HANSʼA-SG ;
+LEXICON NUM_1HANSʼA-PL
++Num:%{back%}     NMN_1HANSʼA-PL ;
+
+LEXICON NUM_1VIU !!= @CODE@ 1 viu:viu
+	N_1VIU-SG ;
+	N_1VIU-PL ;
+
+LEXICON NUM_1VIU-SG
++Num:%{back%}	NMN_1VIU-SG ; 
+LEXICON NUM_1VIU-PL
++Num:%{back%}	NMN_1VIU-PL ; 
+
+
+LEXICON NUM_1HERRÄ !!= @CODE@ 1 herrä:herrä
+	N_1HERRÄ-SG ;
+	N_1HERRÄ-PL ;
+
+LEXICON NUM_1HERRÄ-SG
++Num:	NMN_1HERRÄ-SG ; 
+LEXICON NUM_1HERRÄ-PL
++Num:	NMN_1HERRÄ-PL ; 
+
+LEXICON NUM_1PREI !!= @CODE@ 1 prei:prei
+	N_1PREI-SG ;
+	N_1PREI-PL ;
+
+LEXICON NUM_1PREI-SG
++Num:	NMN_1PREI-SG ; 
+LEXICON NUM_1PREI-PL
++Num:	NMN_1PREI-PL ; 
+
+LEXICON NUM_2ARTIKLI
+!! * Yaml: __suhvli__
+   NUM_2ARTIKLI-SG ;
+   NUM_2ARTIKLI-PL ;
+
+LEXICON NUM_2ARTIKLI-SG
++Num:%{back%}	NMN_2ARTIKLI-SG ;
+LEXICON NUM_2ARTIKLI-PL
++Num:%{back%}	NMN_2ARTIKLI-PL ;
+
+
+LEXICON NUM_2KERGE
+!! * Yaml: __kerge__
+   NUM_2KERGE-SG ;
+   NUM_2KERGE-PL ;
+
+LEXICON NUM_2KERGE-SG
++Num:	NMN_2KERGE-SG ;
+LEXICON NUM_2KERGE-PL
++Num:	NMN_2KERGE-PL ;
+
+
+LEXICON NUM_3PERÄDÜ !!= @CODE@ perädü:perädü
+!! * Yaml: __peraedue__
+   NUM_3PERÄDÜ-SG ;
+   NUM_3PERÄDÜ-PL ;
+
+LEXICON NUM_3PERÄDÜ-SG
++Num:%{front%}     NMN_3PERÄDÜ-SG ;
+LEXICON NUM_3PERÄDÜ-PL
++Num:%{front%}     NMN_3PERÄDÜ-PL ;
+
+LEXICON NUM_3ALADU !!= @CODE@ aladu:aladu
+!! * Yaml: __peraedue__
+   NUM_3ALADU-SG ;
+   NUM_3ALADU-PL ;
+
+LEXICON NUM_3ALADU-SG
++Num:%{back%}     NMN_3ALADU-SG ;
+LEXICON NUM_3ALADU-PL
++Num:%{back%}     NMN_3ALADU-PL ;
+
+
+LEXICON NUM_4TERVÜS
+!! * Yaml: __tervues__
+   NUM_4TERVÜS-SG ;
+   NUM_4TERVÜS-PL ;
+LEXICON NUM_4TERVÜS-SG
++Num:%{front%}     NMN_4TERVÜS-SG ;
+LEXICON NUM_4TERVÜS-PL
++Num:%{front%}     NMN_4TERVÜS-PL ;
+
+LEXICON NUM_4AINUS
+!! * Yaml: __A-ainus__
+   NUM_4AINUS-SG ;
+   NUM_4AINUS-PL ;
+LEXICON NUM_4AINUS-SG
++Num:%{back%}     NMN_4AINUS-SG ;
+LEXICON NUM_4AINUS-PL
++Num:%{back%}     NMN_4AINUS-PL ;
+
+
+LEXICON NUM_5OPPAJA
+!! * Yaml: __N-oppaja5__
+   NUM_5OPPAJA-SG ;
+   NUM_5OPPAJA-PL ;
+
+LEXICON NUM_5OPPAJA-SG
++Num:%{back%}	NMN_5OPPAJA-SG ;
+LEXICON NUM_5OPPAJA-PL
++Num:%{back%}	NMN_5OPPAJA-PL ;
+
+LEXICON NUM_5MÄNGJÄ
+!! * Yaml: __N-mängjä5__
+   NUM_5MÄNGJÄ-SG ;
+   NUM_5MÄNGJÄ-PL ;
+
+LEXICON NUM_5MÄNGJÄ-SG
++Num:	NMN_5MÄNGJÄ-SG ;
+LEXICON NUM_5MÄNGJÄ-PL
++Num:	NMN_5MÄNGJÄ-PL ;
+
+LEXICON NUM_6MAKÕ
+ NUM_6MAKÕ-SG ;
+ NUM_6MAKÕ-PL ;
+LEXICON NUM_6MAKÕ-SG
++Num:%{back%} NMN_6MAKÕ-SG ;
+LEXICON NUM_6MAKÕ-PL
++Num:%{back%} NMN_6MAKÕ-PL ;
+
+LEXICON NUM_7FÜÜSIGA
+!! * Yaml: __fueuesiga__
+   NUM_7FÜÜSIGA-SG ;
+   NUM_7FÜÜSIGA-PL ;
+
+LEXICON NUM_7FÜÜSIGA-SG
++Num:%{back%}     NMN_7FÜÜSIGA-SG ;
+LEXICON NUM_7FÜÜSIGA-PL
++Num:%{back%}     NMN_7FÜÜSIGA-PL ;
+
+LEXICON NUM_8KASK
+ NUM_8KASK-SG ;
+ NUM_8KASK-PL ;
+LEXICON NUM_8KASK-SG
++Num:%{back%} NMN_8KASK-SG ;
+LEXICON NUM_8KASK-PL
++Num:%{back%} NMN_8KASK-PL ;
+
+LEXICON NUM_8SADANG
+ NUM_8SADANG-SG ;
+ NUM_8SADANG-PL ;
+LEXICON NUM_8SADANG-SG
++Num:%{back%} NMN_8SADANG-SG ;
+LEXICON NUM_8SADANG-PL
++Num:%{back%} NMN_8SADANG-PL ;
+
+LEXICON NUM_8DOLLARʼ
+ NUM_8DOLLARʼ-SG ;
+ NUM_8DOLLARʼ-PL ;
+LEXICON NUM_8DOLLARʼ-SG
++Num:%{back%} NMN_8DOLLARʼ-SG ;
+LEXICON NUM_8DOLLARʼ-PL
++Num:%{back%} NMN_8DOLLARʼ-PL ;
+
+LEXICON NUM_8EEDERʼ
+ NUM_8EEDERʼ-SG ;
+ NUM_8EEDERʼ-PL ;
+LEXICON NUM_8EEDERʼ-SG
++Num:%{front%} NMN_8EEDERʼ-SG ;
+LEXICON NUM_8EEDERʼ-PL
++Num:%{front%} NMN_8EEDERʼ-PL ;
+
+LEXICON NUM_8HÄIELM
+ NUM_8HÄIELM-SG ;
+ NUM_8HÄIELM-PL ;
+LEXICON NUM_8HÄIELM-SG
++Num:%{front%} NMN_8HÄIELM-SG ;
+LEXICON NUM_8HÄIELM-PL
++Num:%{front%} NMN_8HÄIELM-PL ;
+
+LEXICON NUM_9KIPÕNʼ
+!! kipõnʼ:kipõn
+!! * Yaml:__ N-kipwnj9__
+   NUM_9KIPÕNʼ-SG ;
+   NUM_9KIPÕNʼ-PL ;
+LEXICON NUM_9KIPÕNʼ-SG
++Num:%{back%}     NMN_9KIPÕNʼ-SG ;
+LEXICON NUM_9KIPÕNʼ-PL
++Num:%{back%}     NMN_9KIPÕNʼ-PL ;
+
+LEXICON NUM_9ALLASʼ
+!! allasʼ:allas
+!! * Yaml:__ N-kipwnj9__
+   NUM_9ALLASʼ-SG ;
+   NUM_9ALLASʼ-PL ;
+LEXICON NUM_9ALLASʼ-SG
++Num:%{back%}     NMN_9ALLASʼ-SG ;
+LEXICON NUM_9ALLASʼ-PL
++Num:%{back%}     NMN_9ALLASʼ-PL ;
+
+LEXICON NUM_9VETELʼ
+!! vetelʼ:vetel
+!! * Yaml:__ N-kipwnj9__
+   NUM_9VETELʼ-SG ;
+   NUM_9VETELʼ-PL ;
+LEXICON NUM_9VETELʼ-SG
++Num:%{front%}     NMN_9VETELʼ-SG ;
+LEXICON NUM_9VETELʼ-PL
++Num:%{front%}     NMN_9VETELʼ-PL ;
+
+LEXICON NUM_9TUKÕV
+!! tukõv:tukõv
+!! * Yaml: __N-ellaei4, N-kipwnj9__
+   NUM_9TUKÕV-SG ;
+   NUM_9TUKÕV-PL ;
+LEXICON NUM_9TUKÕV-SG
++Num:%{back%}     NMN_9TUKÕV-SG ;
+LEXICON NUM_9TUKÕV-PL
++Num:%{back%}     NMN_9TUKÕV-PL ;
+
+LEXICON NUM_9ELLÄI
+!! elläi:elläi
+!! * Yaml: __N-ellaei4, N-kipwnj9__
+   NUM_9ELLÄI-SG ;
+   NUM_9ELLÄI-PL ;
+LEXICON NUM_9ELLÄI-SG
++Num:%{front%}     NMN_9ELLÄI-SG ;
+LEXICON NUM_9ELLÄI-PL
++Num:%{front%}     NMN_9ELLÄI-PL ;
+
+LEXICON NUM_9VERREV
+!! verrev:verrev
+!! * Yaml: __N-ellaei4, N-kipwnj9__
+   NUM_9VERREV-SG ;
+   NUM_9VERREV-PL ;
+LEXICON NUM_9VERREV-SG
++Num:	NMN_9VERREV-SG ;
+LEXICON NUM_9VERREV-PL
++Num:	NMN_9VERREV-PL ;
+
+LEXICON NUM_10HÕRAK !!= @CODE@ hõrak:hõrak
+        NUM_10HÕRAK-SG ;
+        NUM_10HÕRAK-PL ;
+LEXICON NUM_10HÕRAK-SG
++Num:%{back%}     NMN_10HÕRAK-SG ;
+LEXICON NUM_10HÕRAK-PL
++Num:%{back%}     NMN_10HÕRAK-PL ;
+
+LEXICON NUM_10HAIDAK !!= @CODE@ haidak:haidak
+        NUM_10HAIDAK-SG ;
+        NUM_10HAIDAK-PL ;
+LEXICON NUM_10HAIDAK-SG
++Num:%{back%}     NMN_10HAIDAK-SG ;
+LEXICON NUM_10HAIDAK-PL
++Num:%{back%}     NMN_10HAIDAK-PL ;
+
+LEXICON NUM_10ESÄK !!= @CODE@ esäk:esäk
+        NUM_10ESÄK-SG ;
+        NUM_10ESÄK-PL ;
+LEXICON NUM_10ESÄK-SG
++Num:%{back%}     NMN_10ESÄK-SG ;
+LEXICON NUM_10ESÄK-PL
++Num:%{back%}     NMN_10ESÄK-PL ;
+
+LEXICON NUM_10VIDRIK !!= @CODE@ vidrik:vidrik
+!! gradation: no
+        NUM_10VIDRIK-SG ;
+        NUM_10VIDRIK-PL ;
+LEXICON NUM_10VIDRIK-SG
++Num:%{front%}     NMN_10VIDRIK-SG ;
+LEXICON NUM_10VIDRIK-PL
++Num:%{front%}     NMN_10VIDRIK-PL ;
+
+LEXICON NUM_10AABITS !!= @CODE@ aabits:aabits
+        NUM_10AABITS-SG ;
+        NUM_10AABITS-PL ;
+LEXICON NUM_10AABITS-SG
++Num:%{back%}     NMN_10AABITS-SG ;
+LEXICON NUM_10AABITS-PL
++Num:%{back%}     NMN_10AABITS-PL ;
+
+LEXICON NUM_10HEERITS !!= @CODE@ heerits:heerits
+        NUM_10HEERITS-SG ;
+        NUM_10HEERITS-PL ;
+LEXICON NUM_10HEERITS-SG
++Num:%{front%}     NMN_10HEERITS-SG ;
+LEXICON NUM_10HEERITS-PL
++Num:%{front%}     NMN_10HEERITS-PL ;
+
+LEXICON NUM_10AADRÕSʼ !!= @CODE@ aadrõsʼ:aadrõs
+        NUM_10AADRÕSʼ-SG ;
+        NUM_10AADRÕSʼ-PL ;
+LEXICON NUM_10AADRÕSʼ-SG
++Num:%{back%}     NMN_10AADRÕSʼ-SG ;
+LEXICON NUM_10AADRÕSʼ-PL
++Num:%{back%}     NMN_10AADRÕSʼ-PL ;
+
+LEXICON NUM_10AMMATʼ !!= @CODE@ ammatʼ:ammat
+        NUM_10AMMATʼ-SG ;
+        NUM_10AMMATʼ-PL ;
+LEXICON NUM_10AMMATʼ-SG
++Num:%{back%}     NMN_10AMMATʼ-SG ;
+LEXICON NUM_10AMMATʼ-PL
++Num:%{back%}     NMN_10AMMATʼ-PL ;
+
+LEXICON NUM_10HÜPÄTSʼ !!= @CODE@ hüpätsʼ:hüpätsʼ
+        NUM_10HÜPÄTSʼ-SG ;
+	N_10HÜPÄTSʼ-PL ;
+LEXICON NUM_10HÜPÄTSʼ-SG
++Num:%{front%}     NMN_10HÜPÄTSʼ-SG ;
+LEXICON NUM_10HÜPÄTSʼ-PL
++Num:%{front%}     NMN_10HÜPÄTSʼ-PL ;
+
+LEXICON NUM_10HERESKʼ !!= @CODE@ hereskʼ:hereskʼ
+        NUM_10HERESKʼ-SG ;
+        NUM_10HERESKʼ-PL ;
+LEXICON NUM_10HERESKʼ-SG
++Num:%{front%}     NMN_10HERESKʼ-SG ;
+LEXICON NUM_10HERESKʼ-PL
++Num:%{front%}     NMN_10HERESKʼ-PL ;
+
+LEXICON NUM_10KADSAK !!= @CODE@ kadsak:kadsak
+        NUM_10KADSAK-SG ;
+        NUM_10KADSAK-PL ;
+LEXICON NUM_10KADSAK-SG
++Num:%{back%}     NMN_10KADSAK-SG ;
+LEXICON NUM_10KADSAK-PL
++Num:%{back%}     NMN_10KADSAK-PL ;
+
+
+
+LEXICON NUM_11LÄTEQ !!= @CODE@ läteq:lätte
+ NUM_11LÄTEQ-SG ;
+ NUM_11LÄTEQ-PL ;
+LEXICON NUM_11LÄTEQ-SG
++Num:%{front%} NMN_11LÄTEQ-SG ;
+LEXICON NUM_11LÄTEQ-PL
++Num:%{front%} NMN_11LÄTEQ-PL ;
+
+LEXICON NUM_11AINÕQ !!= @CODE@ ainõq:ainõ
+ NUM_11AINÕQ-SG ;
+ NUM_11AINÕQ-PL ;
+LEXICON NUM_11AINÕQ-SG
++Num:%{back%} NMN_11AINÕQ-SG ;
+LEXICON NUM_11AINÕQ-PL
++Num:%{back%} NMN_11AINÕQ-PL ;
+
+LEXICON NUM_12REPÄNʼ
+ NUM_12REPÄNʼ-SG ;
+ NUM_12REPÄNʼ-PL ;
+LEXICON NUM_12REPÄNʼ-SG
++Num:%{front%} NMN_12REPÄNʼ-SG ;
+LEXICON NUM_12REPÄNʼ-PL
++Num:%{front%} NMN_12REPÄNʼ-PL ;
+
+LEXICON NUM_12HOPÕNʼ
+ NUM_12HOPÕNʼ-SG ;
+ NUM_12HOPÕNʼ-PL ;
+LEXICON NUM_12HOPÕNʼ-SG
++Num:%{back%} NMN_12HOPÕNʼ-SG ;
+LEXICON NUM_12HOPÕNʼ-PL
++Num:%{back%} NMN_12HOPÕNʼ-PL ;
+
+LEXICON NUM_12SÜKÜS
+ NUM_12SÜKÜS-SG ;
+ NUM_12SÜKÜS-PL ;
+LEXICON NUM_12SÜKÜS-SG
++Num:%{front%} NMN_12SÜKÜS-SG ;
+LEXICON NUM_12SÜKÜS-PL
++Num:%{front%} NMN_12SÜKÜS-PL ;
+
+LEXICON NUM_12NÕKÕSʼ
+ NUM_12NÕKÕSʼ-SG ;
+ NUM_12NÕKÕSʼ-PL ;
+LEXICON NUM_12NÕKÕSʼ-SG
++Num:%{back%} NMN_12NÕKÕSʼ-SG ;
+LEXICON NUM_12NÕKÕSʼ-PL
++Num:%{back%} NMN_12NÕKÕSʼ-PL ;
+
+LEXICON NUM_13ALONÕ !!= @CODE@ alonõ:alo
+! Gradation: No
+	N_13ALONÕ-SG ;
+	N_13ALONÕ-PL ;
+LEXICON NUM_13ALONÕ-SG
++Num:%{back%}     NMN_13ALONÕ-SG ;
+LEXICON NUM_13ALONÕ-PL
++Num:%{back%}     NMN_13ALONÕ-PL ;
+
+LEXICON NUM_13TÄHINE !!= @CODE@ tähine:tähi
+! Gradation: No
+	N_13TÄHINE-SG ;
+	N_13TÄHINE-PL ;
+LEXICON NUM_13TÄHINE-SG
++Num:%{front%}     NMN_13TÄHINE-SG ;
+LEXICON NUM_13TÄHINE-PL
++Num:%{front%}     NMN_13TÄHINE-PL ;
+
+LEXICON NUM_14RITSʼKAS !!= @CODE@ ritsʼkas:ritsʼka
+! Gradation: No
+        NUM_14RITSʼKAS-SG ;
+        NUM_14RITSʼKAS-PL ;
+LEXICON NUM_14RITSʼKAS-SG
++Num:%{back%}     NMN_14RITSʼKAS-SG ;
+LEXICON NUM_14RITSʼKAS-PL
++Num:%{back%}     NMN_14RITSʼKAS-PL ;
+
+
+LEXICON NUM_14HAMMAS !!= @CODE@ hammas:hamba, saabas:saapa
+! gradation: yes
+!! distinguished from 14RITSʼKAS due to gradation
+        NUM_14HAMMAS-SG ;
+        NUM_14HAMMAS-PL ;
+LEXICON NUM_14HAMMAS-SG
++Num:%{back%}     NMN_14HAMMAS/XX-SG ;
+LEXICON NUM_14HAMMAS-PL
++Num:%{back%}     NMN_14HAMMAS/XX-PL ;
+
+
+LEXICON NUM_PEREH !!= @CODE@ pereh:pereh
+! vowel_harmony: front
+! gradation: yes
+!! distinguished from 14RITSʼKAS due to word final h
+        NUM_PEREH-SG ;
+        NUM_PEREH-PL ;
+LEXICON NUM_PEREH-SG
++Num:%{front%}     NMN_PEREH-SG ;
+LEXICON NUM_PEREH-PL
++Num:%{front%}     NMN_PEREH-PL ;
+
+LEXICON NUM_HAMÕH !!= @CODE@ hamõh:hamõh
+! vowel_harmony: back
+! gradation: yes
+!! distinguished from 14RITSʼKAS due to word final h
+        NUM_HAMÕH-SG ;
+        NUM_HAMÕH-PL ;
+LEXICON NUM_HAMÕH-SG
++Num:%{back%}     NMN_HAMÕH-SG ;
+LEXICON NUM_HAMÕH-PL
++Num:%{back%}     NMN_HAMÕH-PL ;
+
+
+LEXICON NUM_15KOTUS
+!! kotus:kotus
+!! * Yaml: __N-kotus15__
+        NUM_15KOTUS-SG ;
+        NUM_15KOTUS-PL ;
+LEXICON NUM_15KOTUS-SG
++Num:%{back%}     NMN_15KOTUS-SG ;
+LEXICON NUM_15KOTUS-PL
++Num:%{back%}     NMN_15KOTUS-PL ;
+
+
+LEXICON NUM_16INEMINE !!= @CODE@
+!! inemine:inemi
+! Gradation: No
+!! * Yaml: __N-inemine16__
+	N_16INEMINE-SG ;
+	N_16INEMINE-PL ;
+LEXICON NUM_16INEMINE-SG
++Num:	NMN_16INEMINE-SG ;
+LEXICON NUM_16INEMINE-PL
++Num:	NMN_16INEMINE-PL ;
+
+LEXICON NUM_16ABILINÕ !!= @CODE@
+!! abilinõ:abili
+! Gradation: No
+!! * Yaml: __N-abilinw16__
+	N_16ABILINÕ-SG ;
+	N_16ABILINÕ-PL ;
+LEXICON NUM_16ABILINÕ-SG
++Num:	NMN_16ABILINÕ-SG ;
+LEXICON NUM_16ABILINÕ-PL
++Num:	NMN_16ABILINÕ-PL ;
+
+LEXICON NUM_18AIVASTUS
+        NUM_18AIVASTUS-SG ;
+        NUM_18AIVASTUS-PL ;
+LEXICON NUM_18AIVASTUS-SG
++Num:%{back%}     NMN_18AIVASTUS-SG ;
+LEXICON NUM_18AIVASTUS-PL
++Num:%{back%}     NMN_18AIVASTUS-PL ;
+
+
+LEXICON NUM_18EHITÜS
+        NUM_18EHITÜS-SG ;
+        NUM_18EHITÜS-PL ;
+LEXICON NUM_18EHITÜS-SG
++Num:%{front%}     NMN_18EHITÜS-SG ;
+LEXICON NUM_18EHITÜS-PL
++Num:%{front%}     NMN_18EHITÜS-PL ;
+
+LEXICON NUM_19ALOMANÕ !!= @CODE@ alomanõ:aloma
+! Gradation: No
+        NUM_19ALOMANÕ-SG ;
+        NUM_19ALOMANÕ-PL ;
+LEXICON NUM_19ALOMANÕ-SG
++Num:%{back%}     NMN_19ALOMANÕ-SG ;
+LEXICON NUM_19ALOMANÕ-PL
++Num:%{back%}     NMN_19ALOMANÕ-PL ;
+
+LEXICON NUM_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
+! Gradation: No
+	N_19PEDÄJÄNE-SG ;
+	N_19PEDÄJÄNE-PL ;
+LEXICON NUM_19PEDÄJÄNE-SG
++Num:	NMN_19PEDÄJÄNE-SG ;
+LEXICON NUM_19PEDÄJÄNE-PL
++Num:	NMN_19PEDÄJÄNE-PL ;
+
+LEXICON NUM_20LATSʼ !!= @CODE@ latsʼ:lats
+	N_20LATSʼ-SG ;
+        NUM_20LATSʼ-PL ;
+LEXICON NUM_20LATSʼ-SG
++Num:%{back%}     NMN_20LATSʼ-SG ;
+LEXICON NUM_20LATSʼ-PL
++Num:%{back%}     NMN_20LATSʼ-PL ;
+
+LEXICON NUM_20TÄÜSʼ !!= @CODE@ täüsʼ:täü
+        NUM_20TÄÜSʼ-SG ;
+	N_20TÄÜSʼ-PL ;
+LEXICON NUM_20TÄÜSʼ-SG
++Num:%{front%}     NMN_20TÄÜSʼ-SG ;
+LEXICON NUM_20TÄÜSʼ-PL
++Num:%{front%}     NMN_20TÄÜSʼ-PL ;
+
+LEXICON NUM_20VÄITSʼ !!= @CODE@ väitsʼ:väits
+        NUM_20VÄITSʼ-SG ;
+	N_20VÄITSʼ-PL ;
+LEXICON NUM_20VÄITSʼ-SG
++Num:%{front%}     NMN_20VÄITSʼ-SG ;
+LEXICON NUM_20VÄITSʼ-PL
++Num:%{front%}     NMN_20VÄITSʼ-PL ;
+
+LEXICON NUM_20KÜÜDSʼ !!= @CODE@ küüdsʼ:küüds
+	N_20KÜÜDSʼ-SG ;
+        NUM_20KÜÜDSʼ-PL ;
+LEXICON NUM_20KÜÜDSʼ-SG
++Num:%{front%}     NMN_20KÜÜDSʼ-SG ;
+LEXICON NUM_20KÜÜDSʼ-PL
++Num:%{front%}     NMN_20KÜÜDSʼ-PL ;
+
+LEXICON NUM_20MIISʼ
+	N_20MIISʼ-SG ;
+        NUM_20MIISʼ-PL ;
+LEXICON NUM_20MIISʼ-SG
++Num:%{front%}     NMN_20MIISʼ-SG ;
+LEXICON NUM_20MIISʼ-PL
++Num:%{front%}     NMN_20MIISʼ-PL ;
+
+
+LEXICON NUM_21HÜDSI !!= @CODE@ hüdsi:hüdsi
+	N_21HÜDSI-SG ;
+        NUM_21HÜDSI-PL ;
+LEXICON NUM_21HÜDSI-SG
++Num:%{front%}     NMN_21HÜDSI-SG ;
+LEXICON NUM_21HÜDSI-PL
++Num:%{front%}     NMN_21HÜDSI-PL ;
+
+LEXICON NUM_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
+! Gradation: No
+        NUM_22VÕROKÕNÕ-SG ;
+	N_22VÕROKÕNÕ-PL ;
+LEXICON NUM_22VÕROKÕNÕ-SG
++Num:%{back%}     NMN_22VÕROKÕNÕ-SG ;
+LEXICON NUM_22VÕROKÕNÕ-PL
++Num:%{back%}     NMN_22VÕROKÕNÕ-PL ;
+
+LEXICON NUM_22NAANÕ !!= @CODE@ naanõ:naa
+! Gradation: No
+        NUM_22NAANÕ-SG ;
+        NUM_22NAANÕ-PL ;
+LEXICON NUM_22NAANÕ-SG
++Num:%{back%}     NMN_22NAANÕ-SG ;
+LEXICON NUM_22NAANÕ-PL
++Num:%{back%}     NMN_22NAANÕ-PL ;
+
+LEXICON NUM_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
+! Gradation: No
+        NUM_22VÄHÄKENE-SG ;
+        NUM_22VÄHÄKENE-PL ;
+LEXICON NUM_22VÄHÄKENE-SG
++Num:%{back%}     NMN_22VÄHÄKENE-SG ;
+LEXICON NUM_22VÄHÄKENE-PL
++Num:%{back%}     NMN_22VÄHÄKENE-PL ;
+
+LEXICON NUM_23NUULʼ !!= * @CODE@ nuulʼ:nool
+! Gradation: No
+ NUM_23NUULʼ-SG ;
+ NUM_23NUULʼ-PL ;
+LEXICON NUM_23NUULʼ-SG
++Num:%{back%} NMN_23NUULʼ-SG ;
+LEXICON NUM_23NUULʼ-PL
++Num:%{back%} NMN_23NUULʼ-PL ;
+
+LEXICON NUM_23SUURʼ !!= * @CODE@ suurʼ:suur
+! Gradation: No
+ NUM_23SUURʼ-SG ;
+ NUM_23SUURʼ-PL ;
+LEXICON NUM_23SUURʼ-SG
++Num:%{back%} NMN_23SUURʼ-SG ;
+LEXICON NUM_23SUURʼ-PL
++Num:%{back%} NMN_23SUURʼ-PL ;
+
+
+LEXICON NUM_23KIILʼ  !!= * @CODE@ kiilʼ:keel
+! Gradation: No
+ NUM_23KIILʼ-SG ;
+ NUM_23KIILʼ-PL ;
+LEXICON NUM_23KIILʼ-SG
++Num:%{front%} NMN_23KIILʼ-SG ;
+LEXICON NUM_23KIILʼ-PL
++Num:%{front%} NMN_23KIILʼ-PL ;
+
+LEXICON NUM_23HIIRʼ  !!= * @CODE@ hiirʼ:hiir
+! Gradation: No
+ NUM_23HIIRʼ-SG ;
+ NUM_23HIIRʼ-PL ;
+LEXICON NUM_23HIIRʼ-SG
++Num:%{front%} NMN_23HIIRʼ-SG ;
+LEXICON NUM_23HIIRʼ-PL
++Num:%{front%} NMN_23HIIRʼ-PL ;
+
+LEXICON NUM_24KÄSI
+! gradation: yes
+! vowel_harmony: front
+ NUM_24KÄSI-SG ;
+ NUM_24KÄSI-PL ;
+LEXICON NUM_24KÄSI-SG
++Num:%{front%} NMN_24KÄSI-SG ;
+LEXICON NUM_24KÄSI-PL
++Num:%{front%} NMN_24KÄSI-PL ;
++Num+Sg+Numom+WORK: K ;
+
+LEXICON NUM_24SUSI
+! gradation: yes
+! vowel_harmony: front
+ NUM_24SUSI-SG ;
+ NUM_24SUSI-PL ;
+LEXICON NUM_24SUSI-SG
++Num:%{back%} NMN_24SUSI-SG ;
+LEXICON NUM_24SUSI-PL
++Num:%{back%} NMN_24SUSI-PL ;
++Num+Sg+Numom+WORK: K ;
+
+LEXICON NUM_25SÜÄQ
+        NUM_25SÜÄQ-SG ;
+        NUM_25SÜÄQ-PL ;
+LEXICON NUM_25SÜÄQ-SG
++Num:%{front%}     NMN_25SÜÄQ-SG ;
+LEXICON NUM_25SÜÄQ-PL
++Num:%{front%}     NMN_25SÜÄQ-PL ;
+
+LEXICON NUM_25ASÕQ
+        NUM_25ASÕQ-SG ;
+        NUM_25ASÕQ-PL ;
+LEXICON NUM_25ASÕQ-SG
++Num:%{back%}     NMN_25ASÕQ-SG ;
+LEXICON NUM_25ASÕQ-PL
++Num:%{back%}     NMN_25ASÕQ-PL ;
+
+LEXICON NUM_26HEPEMʼ
+ NUM_26HEPEMʼ-SG ;
+ NUM_26HEPEMʼ-PL ;
+LEXICON NUM_26HEPEMʼ-SG
++Num:%{front%} NMN_26HEPEMʼ-SG ;
+LEXICON NUM_26HEPEMʼ-PL
++Num:%{front%} NMN_26HEPEMʼ-PL ;
++Num+Sg+Numom+WORK: K ;
+
+LEXICON NUM_27EHEQ
+ NUM_27EHEQ-SG ;
+ NUM_27EHEQ-PL ;
+LEXICON NUM_27EHEQ-SG
++Num:%{front%} NMN_27EHEQ-SG ;
+LEXICON NUM_27EHEQ-PL
++Num:%{front%} NMN_27EHEQ-PL ;
++Num+Sg+Numom+WORK: K ;
+
+LEXICON NUM_HAPU !!= * __@CODE@__ hapu:hapu
+! gradation: yes
+ NUM_HAPU-SG ;
+ NUM_HAPU-PL ;
+LEXICON NUM_HAPU-SG
++Num:%{back%} NMN_HAPU-SG ;
+LEXICON NUM_HAPU-PL
++Num:%{back%} NMN_HAPU-PL ;
+
+LEXICON NUM_28TÜTÄRʼ !!= * __@CODE@__ tütärʼ:tütär
+ NUM_28TÜTÄRʼ-SG ;
+ NUM_28TÜTÄRʼ-PL ;
+LEXICON NUM_28TÜTÄRʼ-SG
++Num:%{front%} NMN_28TÜTÄRʼ-SG ;
+LEXICON NUM_28TÜTÄRʼ-PL
++Num:%{front%} NMN_28TÜTÄRʼ-PL ;
+
+LEXICON NUM_28PINNÄRʼ !!= * __@CODE@__ pinnärʼ:pindär
+ NUM_28PINNÄRʼ-SG ;
+ NUM_28PINNÄRʼ-PL ;
+LEXICON NUM_28PINNÄRʼ-SG
++Num:%{front%} NMN_28PINNÄRʼ-SG ;
+LEXICON NUM_28PINNÄRʼ-PL
++Num:%{front%} NMN_28PINNÄRʼ-PL ;
+
+LEXICON NUM_28PAPÕRʼ !!= * __@CODE@__ papõrʼ:papõr
+ NUM_28PAPÕRʼ-SG ;
+ NUM_28PAPÕRʼ-PL ;
+LEXICON NUM_28PAPÕRʼ-SG
++Num:%{back%} NMN_28PAPÕRʼ-SG ;
+LEXICON NUM_28PAPÕRʼ-PL
++Num:%{back%} NMN_28PAPÕRʼ-PL ;
+
+LEXICON NUM_28KANNÕLʼ !!= * __@CODE@__ kannõlʼ:kandõl
+ NUM_28KANNÕLʼ-SG ;
+ NUM_28KANNÕLʼ-PL ;
+LEXICON NUM_28KANNÕLʼ-SG
++Num:%{back%} NMN_28KANNÕLʼ-SG ;
+LEXICON NUM_28KANNÕLʼ-PL
++Num:%{back%} NMN_28KANNÕLʼ-PL ;
+
+LEXICON NUM_28SÕSARʼ !!= * __@CODE@__ sõsarʼ:sõsar
+ NUM_28SÕSARʼ-SG ;
+ NUM_28SÕSARʼ-PL ;
+LEXICON NUM_28SÕSARʼ-SG
++Num:%{back%} NMN_28SÕSARʼ-SG ;
+LEXICON NUM_28SÕSARʼ-PL
++Num:%{back%} NMN_28SÕSARʼ-PL ;
+
+LEXICON NUM_28PUNDAR
+ NUM_28PUNDAR-SG ;
+ NUM_28PUNDAR-PL ;
+LEXICON NUM_28PUNDAR-SG
++Num:%{back%} NMN_28PUNDAR-SG ;
+LEXICON NUM_28PUNDAR-PL
++Num:%{back%} NMN_28PUNDAR-PL ;
+
+LEXICON NUM_29KUU !!= * @CODE@ kuu:kuu
+! Gradation: No
+ NUM_29KUU-SG ;
+ NUM_29KUU-PL ;
+LEXICON NUM_29KUU-SG
++Num:%{back%} NMN_29KUU-SG ;
+LEXICON NUM_29KUU-PL
++Num:%{back%} NMN_29KUU-PL ;
+
+LEXICON NUM_29HÄÄ !!= * @CODE@ pää:pää
+! Gradation: No
+ NUM_29HÄÄ-SG ;
+ NUM_29HÄÄ-PL ;
+LEXICON NUM_29HÄÄ-SG
++Num:%{front%} NMN_29HÄÄ-SG ;
+LEXICON NUM_29HÄÄ-PL
++Num:%{front%} NMN_29HÄÄ-PL ;
+
+LEXICON NUM_30MAA
+! Gradation: No
+ NUM_30MAA-SG ;
+ NUM_30MAA-PL ;
+LEXICON NUM_30MAA-SG
++Num:%{back%} NMN_30MAA-SG ;
+LEXICON NUM_30MAA-PL
++Num:%{back%} NMN_30MAA-PL ;
+
+LEXICON NUM_30TÜÜ
+! Gradation: No
+ NUM_30TÜÜ-SG ;
+ NUM_30TÜÜ-PL ;
+LEXICON NUM_30TÜÜ-SG
++Num:%{front%} NMN_30TÜÜ-SG ;
+LEXICON NUM_30TÜÜ-PL
++Num:%{front%} NMN_30TÜÜ-PL ;
+
+LEXICON NUM_31TÄI
+! Gradation: No
+ NUM_31TÄI-SG ;
+ NUM_31TÄI-PL ;
+LEXICON NUM_31TÄI-SG
++Num:%{front%} NMN_31TÄI-SG ;
+LEXICON NUM_31TÄI-PL
++Num:%{front%} NMN_31TÄI-PL ;
+
+LEXICON NUM_31MAI
+! Gradation: No
+ NUM_31MAI-SG ;
+ NUM_31MAI-PL ;
+LEXICON NUM_31MAI-SG
++Num:%{back%} NMN_31MAI-SG ;
+LEXICON NUM_31MAI-PL
++Num:%{back%} NMN_31MAI-PL ;
+
+LEXICON NUM_32VERI !!veri:ver
+ NUM_32VERI-SG ;
+ NUM_32VERI-PL ;
+LEXICON NUM_32VERI-SG
++Num:%{front%} NMN_32VERI-SG ;
+LEXICON NUM_32VERI-PL
++Num:%{front%} NMN_32VERI-PL ;
+
+LEXICON NUM_33IGÄ !!igä:igä
+! gradation: yes
+ NUM_33IGÄ-SG ;
+ NUM_33IGÄ-PL ;
+LEXICON NUM_33IGÄ-SG
++Num:%{front%} NMN_33IGÄ-SG ;
+LEXICON NUM_33IGÄ-PL
++Num:%{front%} NMN_33IGÄ-PL ;
+
+LEXICON NUM_34TULI
+ NUM_34TULI-SG ;
+ NUM_34TULI-PL ;
+LEXICON NUM_34TULI-SG
++Num:%{back%} NMN_34TULI-SG ;
+LEXICON NUM_34TULI-PL
++Num:%{back%} NMN_34TULI-PL ;
+
+LEXICON NUM_35TARÕ
+!! tarõ:tar
+ NUM_35TARÕ-SG ;
+ NUM_35TARÕ-PL ;
+LEXICON NUM_35TARÕ-SG
++Num:%{back%} NMN_35TARÕ-SG ;
+LEXICON NUM_35TARÕ-PL
++Num:%{back%} NMN_35TARÕ-PL ;
+
+LEXICON NUM_35PESÄ
+!! pesä:tar
+ NUM_35PESÄ-SG ;
+ NUM_35PESÄ-PL ;
+LEXICON NUM_35PESÄ-SG
++Num:%{front%} NMN_35PESÄ-SG ;
+LEXICON NUM_35PESÄ-PL
++Num:%{front%} NMN_35PESÄ-PL ;
+
+
+LEXICON NUM_35NIMI
+!! nimi:nim
+ NUM_35NIMI-SG ;
+ NUM_35NIMI-PL ;
+LEXICON NUM_35NIMI-SG
++Num:%{front%} NMN_35NIMI-SG ;
+LEXICON NUM_35NIMI-PL
++Num:%{front%} NMN_35NIMI-PL ;
+
+LEXICON NUM_36HANGʼ !!= @CODE@ hangʼ:hang
+        NUM_36HANGʼ-SG ;
+	N_36HANGʼ-PL ;
+LEXICON NUM_36HANGʼ-SG
++Num:%{back%}     NMN_36HANGʼ-SG ;
+LEXICON NUM_36HANGʼ-PL
++Num:%{back%}     NMN_36HANGʼ-PL ;
+
+LEXICON NUM_36SÄRGʼ !!= @CODE@ särgʼ:särg
+        NUM_36SÄRGʼ-SG ;
+        NUM_36SÄRGʼ-PL ;
+LEXICON NUM_36SÄRGʼ-SG
++Num:%{front%}     NMN_36SÄRGʼ-SG ;
+LEXICON NUM_36SÄRGʼ-PL
++Num:%{front%}     NMN_36SÄRGʼ-PL ;
+
+LEXICON NUM_36PÄIV !!= @CODE@ päiv:päiv
+        NUM_36PÄIV-SG ;
+        NUM_36PÄIV-PL ;
+LEXICON NUM_36PÄIV-SG
++Num:%{front%}     NMN_36PÄIV-SG ;
+LEXICON NUM_36PÄIV-PL
++Num:%{front%}     NMN_36PÄIV-PL ;
+
+LEXICON NUM_36SILM !!= * @CODE@ silm:silm
+!! harmony: front
+ NUM_36SILM-SG ;
+ NUM_36SILM-PL ;
+LEXICON NUM_36SILM-SG
++Num:%{front%} NMN_36SILM-SG ;
+LEXICON NUM_36SILM-PL
++Num:%{front%} NMN_36SILM-PL ;
+
+LEXICON NUM_36LÄHK !!= * @CODE@ lähk:lähk
+!! harmony: front
+ NUM_36LÄHK-SG ;
+ NUM_36LÄHK-PL ;
+LEXICON NUM_36LÄHK-SG
++Num:%{front%} NMN_36LÄHK-SG ;
+LEXICON NUM_36LÄHK-PL
++Num:%{front%} NMN_36LÄHK-PL ;
+
+LEXICON NUM_KOGÕR
+!! kogõr:kogõr
+!! * Yaml: __N-kogwr36__
+!! derived from 36särgʼ
+        NUM_KOGÕR-SG ;
+        NUM_KOGÕR-PL ;
+LEXICON NUM_KOGÕR-SG
++Num:%{back%}     NMN_KOGÕR-SG ;
+LEXICON NUM_KOGÕR-PL
++Num:%{back%}     NMN_KOGÕR-PL ;
+
+LEXICON NUM_46SÕBÕR
+!! sõbõr:sõbõr
+!! * Yaml: __N-swbwr36__
+!! derived from 36särgʼ
+        NUM_46SÕBÕR-SG ;
+        NUM_46SÕBÕR-PL ;
+LEXICON NUM_46SÕBÕR-SG
++Num:%{back%}     NMN_46SÕBÕR-SG ;
+LEXICON NUM_46SÕBÕR-PL
++Num:%{back%}     NMN_46SÕBÕR-PL ;
+
+
+LEXICON NUM_37PINI !!= @CODE@ pini:pini
+        NUM_37PINI-SG ;
+        NUM_37PINI-PL ;
+LEXICON NUM_37PINI-SG
++Num:%{front%}     NMN_37PINI-SG ;
+LEXICON NUM_37PINI-PL
++Num:%{front%}     NMN_37PINI-PL ;
+
+LEXICON NUM_37ÕLI !!= @CODE@ õli:õli
+        NUM_37ÕLI-SG ;
+        NUM_37ÕLI-PL ;
+LEXICON NUM_37ÕLI-SG
++Num:%{back%}     NMN_37ÕLI-SG ;
+LEXICON NUM_37ÕLI-PL
++Num:%{back%}     NMN_37ÕLI-PL ;
+
+LEXICON NUM_38PUNG
+ NUM_38PUNG-SG ;
+ NUM_38PUNG-PL ;
+LEXICON NUM_38PUNG-SG
++Num:%{back%} NMN_38PUNG-SG ;
+LEXICON NUM_38PUNG-PL
++Num:%{back%} NMN_38PUNG-PL ;
+
+LEXICON NUM_38PULLʼ
+ NUM_38PULLʼ-SG ;
+ NUM_38PULLʼ-PL ;
+LEXICON NUM_38PULLʼ-SG
++Num:%{back%} NMN_38PULLʼ-SG ;
+LEXICON NUM_38PULLʼ-PL
++Num:%{back%} NMN_38PULLʼ-PL ;
+
+LEXICON NUM_38PAPPʼ
+ NUM_38PAPPʼ-SG ;
+ NUM_38PAPPʼ-PL ;
+LEXICON NUM_38PAPPʼ-SG
++Num:%{back%} NMN_38PAPPʼ/REHKʼ-SG ;
+LEXICON NUM_38PAPPʼ-PL
++Num:%{back%} NMN_38PAPPʼ/REHKʼ-PL ;
+
+LEXICON NUM_38REHKʼ
+ NUM_38REHKʼ-SG ;
+ NUM_38REHKʼ-PL ;
+LEXICON NUM_38REHKʼ-SG
++Num:%{front%} NMN_38PAPPʼ/REHKʼ-SG ;
+LEXICON NUM_38REHKʼ-PL
++Num:%{front%} NMN_38PAPPʼ/REHKʼ-PL ;
+
+LEXICON NUM_38PUUMʼ
+ NUM_38PUUMʼ-SG ;
+ NUM_38PUUMʼ-PL ;
+LEXICON NUM_38PUUMʼ-SG
++Num:%{back%} NMN_38PUUMʼ/SÜÜKʼ-SG ;
+LEXICON NUM_38PUUMʼ-PL
++Num:%{back%} NMN_38PUUMʼ/SÜÜKʼ-PL ;
+
+LEXICON NUM_38SÜÜKʼ
+ NUM_38SÜÜKʼ-SG ;
+ NUM_38SÜÜKʼ-PL ;
+LEXICON NUM_38SÜÜKʼ-SG
++Num:%{front%} NMN_38PUUMʼ/SÜÜKʼ-SG ;
+LEXICON NUM_38SÜÜKʼ-PL
++Num:%{front%} NMN_38PUUMʼ/SÜÜKʼ-PL ;
+
+LEXICON NUM_38HÜTT !!= * @CODE@ hütt:hütt
+ NUM_38HÜTT-SG ;
+ NUM_38HÜTT-PL ;
+LEXICON NUM_38HÜTT-SG
++Num:%{front%} NMN_38HÜTT-SG ;
+LEXICON NUM_38HÜTT-PL
++Num:%{front%} NMN_38HÜTT-PL ;
+
+LEXICON NUM_38KULD
+ NUM_38KULD-SG ;
+ NUM_38KULD-PL ;
+LEXICON NUM_38KULD-SG
++Num:%{back%} NMN_38KULD-SG ;
+LEXICON NUM_38KULD-PL
++Num:%{back%} NMN_38KULD-PL ;
+
+LEXICON NUM_38PUTR
+ NUM_38PUTR-SG ;
+ NUM_38PUTR-PL ;
+LEXICON NUM_38PUTR-SG
++Num:%{back%} NMN_38PUTR-SG ;
+LEXICON NUM_38PUTR-PL
++Num:%{back%} NMN_38PUTR-PL ;
+
+LEXICON NUM_39VIDO !!= * @CODE@ vido:vido
+        NUM_39VIDO-SG ;
+        NUM_39VIDO-PL ;
+LEXICON NUM_39VIDO-SG
++Num:%{back%}     NMN_39VIDO-SG ;
+LEXICON NUM_39VIDO-PL
++Num:%{back%}     NMN_39VIDO-PL ;
+
+LEXICON NUM_39HÄBÜ !!= * @CODE@ häbü:häbü
+        NUM_39HÄBÜ-SG ;
+        NUM_39HÄBÜ-PL ;
+LEXICON NUM_39HÄBÜ-SG
++Num:%{front%}     NMN_39HÄBÜ-SG ;
+LEXICON NUM_39HÄBÜ-PL
++Num:%{front%}     NMN_39HÄBÜ-PL ;
+
+LEXICON NUM_40TALO !!= @CODE@ talo:talo
+        NUM_40TALO-SG ;
+        NUM_40TALO-PL ;
+LEXICON NUM_40TALO-SG
++Num:%{back%}     NMN_40TALO/HELÜ-SG ;
+LEXICON NUM_40TALO-PL
++Num:%{back%}     NMN_40TALO/HELÜ-PL ;
+
+LEXICON NUM_40HELÜ !!= @CODE@ helü:helü
+        NUM_40HELÜ-SG ;
+        NUM_40HELÜ-PL ;
+LEXICON NUM_40HELÜ-SG
++Num:%{front%}     NMN_40TALO/HELÜ-SG ;
+LEXICON NUM_40HELÜ-PL
++Num:%{front%}     NMN_40TALO/HELÜ-PL ;
+
+LEXICON NUM_40UJA !!= @CODE@ uja:uja
+        NUM_40UJA-SG ;
+        NUM_40UJA-PL ;
+LEXICON NUM_40UJA-SG
++Num:%{back%}     NMN_40UJA/XX-SG ;
+LEXICON NUM_40UJA-PL
++Num:%{back%}     NMN_40UJA/XX-PL ;
+
+LEXICON NUM_41KAND !!= @CODE@ kand:kand
+!! * Yaml: __aig, kand__
+        NUM_41KAND-SG ;
+        NUM_41KAND-PL ;
+LEXICON NUM_41KAND-SG
++Num:%{back%}     NMN_41KAND-SG ;
+LEXICON NUM_41KAND-PL
++Num:%{back%}     NMN_41KAND-PL ;
+
+LEXICON NUM_41JUHTʼ !!= @CODE@ juhtʼ:juht
+!! * Yaml: __juhtʼ__
+        NUM_41JUHTʼ-SG ;
+	N_41JUHTʼ-PL ;
+LEXICON NUM_41JUHTʼ-SG
++Num:%{back%}     NMN_41JUHTʼ-SG ;
+LEXICON NUM_41JUHTʼ-PL
++Num:%{back%}     NMN_41JUHTʼ-PL ;
+
+LEXICON NUM_41AIG !!= @CODE@ aig:aig
+!! * Yaml: __aig, aig__
+        NUM_41AIG-SG ;
+	N_41AIG-PL ;
+LEXICON NUM_41AIG-SG
++Num:%{back%}     NMN_41AIG-SG ;
+LEXICON NUM_41AIG-PL
++Num:%{back%}     NMN_41AIG-PL ;
+
+
+LEXICON NUM_42VARI
+        NUM_42VARI-SG ;
+        NUM_42VARI-PL ;
+LEXICON NUM_42VARI-SG
++Num:%{back%}     NMN_42VARI-SG ;
+LEXICON NUM_42VARI-PL
++Num:%{back%}     NMN_42VARI-PL ;
+
+
+LEXICON NUM_43KANARIK !!= @CODE@
+        NUM_43KANARIK-SG ;
+        NUM_43KANARIK-PL ;
+LEXICON NUM_43KANARIK-SG
++Num:%{back%}     NMN_43KANARIK-SG ;
+LEXICON NUM_43KANARIK-PL
++Num:%{back%}     NMN_43KANARIK-PL ;
+
+LEXICON NUM_43SASLÕKʼ !!= @CODE@
+        NUM_43SASLÕKʼ-SG ;
+        NUM_43SASLÕKʼ-PL ;
+LEXICON NUM_43SASLÕKʼ-SG
++Num:%{back%}     NMN_43SASLÕKʼ-SG ;
+LEXICON NUM_43SASLÕKʼ-PL
++Num:%{back%}     NMN_43SASLÕKʼ-PL ;
+
+LEXICON NUM_43AASTAK !!= @CODE@
+        NUM_43AASTAK-SG ;
+        NUM_43AASTAK-PL ;
+LEXICON NUM_43AASTAK-SG
++Num:%{back%}     NMN_43AASTAK-SG ;
+LEXICON NUM_43AASTAK-PL
++Num:%{back%}     NMN_43AASTAK-PL ;
+
+
+
+LEXICON NUM_44SÕDA !!= @CODE@ sõda:sõda
+        NUM_44SÕDA-SG ;
+	N_44SÕDA-PL ;
+LEXICON NUM_44SÕDA-SG
++Num:%{back%}     NMN_44SÕDA-SG ;
+LEXICON NUM_44SÕDA-PL
++Num:%{back%}     NMN_44SÕDA-PL ;
+
+
+LEXICON NUM_45KANA !!= @CODE@ kana:kana
+        NUM_45KANA-SG ;
+	N_45KANA-PL ;
+LEXICON NUM_45KANA-SG
++Num:%{back%}     NMN_45KANA-SG ;
+LEXICON NUM_45KANA-PL
++Num:%{back%}     NMN_45KANA-PL ;
+
+
+LEXICON NUM_46HAIN !!= @CODE@ hain:hain
+!! * Yaml: __N-jalg, N-hain__
+        NUM_46HAIN-SG ;
+        NUM_46HAIN-PL ;
+LEXICON NUM_46HAIN-SG
++Num:%{back%}     NMN_46HAIN-SG ;
+LEXICON NUM_46HAIN-PL
++Num:%{back%}     NMN_46HAIN-PL ;
+
+LEXICON NUM_46TARK !!= @CODE@ tark:tark
+!! * Yaml: __N-jalg, N-tark__
+        NUM_46TARK-SG ;
+        NUM_46TARK-PL ;
+LEXICON NUM_46TARK-SG
++Num:%{back%}     NMN_46TARK-SG ;
+LEXICON NUM_46TARK-PL
++Num:%{back%}     NMN_46TARK-PL ;
+
+
+LEXICON NUM_47ASI !!= @CODE@ asi:asi
+        NUM_47ASI-SG ;
+        NUM_47ASI-PL ;
+LEXICON NUM_47ASI-SG
++Num:%{back%}     NMN_47ASI-SG ;
+LEXICON NUM_47ASI-PL
++Num:%{back%}     NMN_47ASI-PL ;
+
+LEXICON NUM_47KIRI !!= @CODE@ kiri:kiri
+        NUM_47KIRI-SG ;
+        NUM_47KIRI-PL ;
+LEXICON NUM_47KIRI-SG
++Num:%{front%}     NMN_47KIRI-SG ;
+LEXICON NUM_47KIRI-PL
++Num:%{front%}     NMN_47KIRI-PL ;
+
+
+
+! vim: set ft=xfst-lexc:
+
