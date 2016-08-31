@@ -268,6 +268,7 @@ source and target part-of-speech.
  * __+V→N	__
  * __+V→V	__
  * __+V→A	__
+ * __+Prop→A	__
  * __+Der/xxx__
  __ +Der/JA __	actor
 
@@ -377,7 +378,8 @@ Incoming
  * __DET_NEWWORDS ;__
  * __INTERJ_NEWWORDS ;__
  * __N_NEWWORDS ;__
- * __PROP_NEWWORDS ;__
+ * __@U.Cap.Obl@ PROP_NEWWORDS ;__
+ * __@U.Cap.Opt@ PROP_NEWWORDS ;__
  * __V_NEWWORDS ;__
 
 
