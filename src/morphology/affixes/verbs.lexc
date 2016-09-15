@@ -1066,7 +1066,7 @@ LEXICON V_79OLÕMA/XX !!≈ * __@CODE@__ olõma:o
 
 :l Harm-Neutr_IND-PRT-SCSG1_iE ;
 :l V0-IND-PRT-SC-12_i ;
-:l Harm-Neutr_ACT-IND-PRT-CONNEG ;
+:l%{eõ%} Harm-Neutr_ACT-IND-PRT-CONNEG ;
 +Act+Ind+Prt+Sg3:llʼ K ;
 +Act+Ind+Prt+Sg3:lli K ;
 +Act+Ind+Prt+Pl3:lliq K ;
@@ -1587,7 +1587,8 @@ LEXICON ACT-IND-PRS-3_s/sEq
 LEXICON Harm-Neutr_ACT-IND-PRS-CONNEG
 !+Act+Ind+ConNegI: K ;
 +Use/NG+Act+Ind+ConNegII:%>q K ;
-+Use/NG+Act+Ind+Prs+Neg:%-%{XV%}iq K ;
++Act+Ind+Prs+Neg:%-%{XV%}iq K ;
++Use/NG+Act+Ind+Prs+Neg:%-iq K ;
 +Use/NG+Act+Ind+Prs+Neg:%-i K ; !!= * @CODE@ no vowel or q
 
 
@@ -1625,6 +1626,7 @@ LEXICON Harm-Neutr_VISKAMA_PSS-IND-PRS
 +Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%}q K ;
 +Pss+Ind+ConNegI:%>d%{aä%} K ;
 +Pss+Ind+Prs+Neg:%>d%{aä%}%-%{aä%}iq K ;
++Use/NG+Pss+Ind+Prs+Neg:%>d%{aä%}%-iq K ;
 +Pss+Ind+ConNegII:%>d%{aä%}q K ;
 
 
@@ -1638,6 +1640,7 @@ LEXICON Harm-Neutr_JUVVA_PSS-IND-PRS !!= * @CODE@ juvva süvvä
 +Pss+Ind+Prs+Pl3:%>s%{eõ%}q K ;
 +Pss+Ind+ConNeg: K ;
 +Pss+Ind+Prs+Neg:%>%-%{aä%}iq K ;
++Use/NG+Pss+Ind+Prs+Neg:%>%-iq K ;
 +Pss+Ind+ConNegII:%>q K ;
 
 LEXICON Harm-Neutr_JUVVA_PSS-IND-PRT-1/2 !!= * @CODE@ juvvi süvvi
@@ -1809,6 +1812,7 @@ LEXICON Harm-Neutr_IND-PRT-SC3_si
 LEXICON Harm-Neutr_ACT-IND-PRT-CONNEG
 +Act+Ind+ConNegI: K ;
 +Act+Ind+Prt+Neg:%-%{XV%}s K ;
++Use/NG+Act+Ind+Prt+Neg:%-s K ;
 +Act+Ind+ConNegII:%>q K ;
 
 
