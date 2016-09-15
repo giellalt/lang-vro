@@ -337,6 +337,12 @@ And following triggers to control variation
 
 
 
+!Oahpa Place names and case used 
+ +%<plc_ine%>  Ine, Ill, Ela
+ +%<plc_ade%> 	Ade, All, Abl
+ +%<pcl_pääl%>  pääl, pääle, päält
+
+
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -858,6 +864,8 @@ __dTol__
 * __tul%>laq __
 * __kõnõl%>daq __
 * __kõnõl%>daq __
+* __vald%{back%}%^WGStem%>n __
+* __vall00%>n __
 
 __d2v__
 * __püüd%^WGStem%>et __
