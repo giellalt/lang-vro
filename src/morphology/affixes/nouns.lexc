@@ -3801,7 +3801,7 @@ LEXICON NMN_33UMA/IGÄ
 
 LEXICON NMN_33UMA/IGÄ-SG 
         Harm-Neutr_SG-NOM  ;
-:%^Pen%^WGStem       Harm-Neutr_SG-GEN_ZERO-STEM        ;
+:%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;
 :%^Pen%^XStrGStem       Harm-Neutr_SG-ILL_ZERO        ;
 :%^Pen%^StrGStem       Harm-Neutr_SG-PAR_ZERO        ;
 
@@ -3821,7 +3821,7 @@ LEXICON NMN_33JÕGI/MÄGI
 
 LEXICON NMN_33JÕGI/MÄGI-SG 
 :i        Harm-Neutr_SG-NOM  ;
-:%^WGStem%>%{eõ%}       Harm-Neutr_SG-GEN_ZERO-STEM        ;
+:%^WGStem%>%{eõ%}       SG-GEN_ZERO-STEM        ;
 :%^XStrGStem%>%{eõ%}       Harm-Neutr_SG-ILL_ZERO        ;
 :%^StrGStem%>%{eõ%}       Harm-Neutr_SG-PAR_ZERO        ;
 
@@ -3879,7 +3879,7 @@ LEXICON NMN_35UMA/PESÄ !!= * @CODE@ pesä:pesä
   NMN_35UMA/PESÄ-PL ;
 LEXICON NMN_35UMA/PESÄ-SG 
         Harm-Neutr_SG-NOM  ;
-       Harm-Neutr_SG-GEN_ZERO-STEM        ;
+       SG-GEN_ZERO-STEM        ;
 :%^Pen%^StrGStem       Harm-Neutr_SG-ILL_ZERO        ;  ! pessä
 :%^Pen%^StrGStem       Harm-Neutr_SG-PAR_ZERO        ;  ! pessä
 
@@ -3898,7 +3898,7 @@ LEXICON NMN_35LUMI/NIMI
   NMN_35LUMI/NIMI-PL ;
 LEXICON NMN_35LUMI/NIMI-SG 
 :i        Harm-Neutr_SG-NOM  ;
-:%{eõ%}        Harm-Neutr_SG-GEN_ZERO-STEM       ;
+:%{eõ%}        SG-GEN_ZERO-STEM       ;
 :%^StrGStem%>%{eõ%}        Harm-Neutr_SG-PAR_ZERO        ;
 :%^StrGStem%>%{eõ%}        Harm-Neutr_SG-ILL_ZERO       ;
 
