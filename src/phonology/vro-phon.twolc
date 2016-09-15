@@ -732,16 +732,21 @@ k:0 <=> [h|k] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 
 "d2n"
 !! __@RULENAME@__
- d:n <=> n _ (HarmDummies:) %^WGStem: ;
+ d:n <=> # Cns* Vow n (HarmDummies:) %> _ [a|ä] q ;
+ n _ (HarmDummies:) %^WGStem: ;
  n _ Vow: (Cns:+) (HarmDummies:) %^Pen: %^WGStem: ;
 
 "dTol"
 !! __@RULENAME@__
- d:l <=> # Cns* Vow l (HarmDummies:) %> _ [a|ä] q ;
+ d:l <=> # Cns* Vow [l (HarmDummies:)|(HarmDummies:) l] %> _ [a|ä] q ;
 !!€ tul%>daq
 !!€ tul%>laq
 !!€ kõnõl%>daq
 !!€ kõnõl%>daq
+    l _ (HarmDummies:) %^WGStem: ;
+!!€ vald%{back%}%^WGStem%>n
+!!€ vall00%>n
+   l _ Vow: (Cns:+) (HarmDummies:) %^Pen: %^WGStem: ;
 
 "d2v"
 !! __@RULENAME@__
