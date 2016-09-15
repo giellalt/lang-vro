@@ -77,7 +77,7 @@ LEXICON V_50TONISÕMA/HELISEMÄ !!≈ * __@CODE@__ tonisõma:tonis
 +V: V0-IND-PRT-SC-12_i ;
 +V:%{eõ%} Harm-Neutr_ACT-IND-PRT-CONNEG ;
 +V: V0-IND-PRT-SCSG3_i ;
-+V:%{XC%} Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
+!+V:%{XC%} Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
 +V: Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 +V:%{eõ%} Harm-Neutr_INF_mA ;
@@ -110,7 +110,7 @@ LEXICON V_51NÕSÕMA/PÄSEMÄ !!≈ * __@CODE@__ nõsõma:nõs
 :%{XC%} V0-IND-PRT-SC-12_i ;
 :%{eõ%} Harm-Neutr_ACT-IND-PRT-CONNEG ;
 :%{XC%} V0-IND-PRT-SCSG3_i ;
-:%{XC%} Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
+!:%{XC%} Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 :%{eõ%} Harm-Neutr_INF_mA ;
@@ -315,7 +315,7 @@ LEXICON V_59KAOTAMA/KERGÜTÄMÄ !!≈ * __@CODE@__ kaotama:kaota
 : Harm-Neutr_ACT-IND-PRS-CONNEG ;
 
 : Harm-Neutr_ACT-IND-PRT-CONNEG ;
-: Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
+!: Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
 
 : Harm-Neutr_INF_mA ;
 : Harm-Neutr_INF_ZEROq ;
@@ -349,7 +349,7 @@ LEXICON V_60MANITSÕMA/EHITSEMÄ !!≈ * __@CODE@__ manitsõma:mani
 :ds V0-IND-PRT-SC-12_i ;
 :%{eõ%} Harm-Neutr_ACT-IND-PRT-CONNEG ;
 :ts Harm-Neutr_IND-PRT-SCSG3_APOSTROPHE ;
-: Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
+!: Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 :ts%{eõ%} Harm-Neutr_INF_mA ;
@@ -382,7 +382,7 @@ LEXICON V_62ARGNÕMA/TÄRKNEMÄ
 :s V0-IND-PRT-SC-12_i ;
 :%{eõ%} Harm-Neutr_ACT-IND-PRT-CONNEG ;
 :%{eõ%} Harm-Neutr_IND-PRT-SC3_s ;
-: Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
+!: Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 :n%{eõ%} Harm-Neutr_INF_mA ;
