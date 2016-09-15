@@ -802,9 +802,9 @@ LEXICON N_33IGÄ !!igä:igä
  N_33IGÄ-SG ;
  N_33IGÄ-PL ;
 LEXICON N_33IGÄ-SG
-+N:%{front%} NMN_33UMA/IGÄ-SG ;
++N:%{front%} NMN_33XX/IGÄ-SG ;
 LEXICON N_33IGÄ-PL
-+N:%{front%} NMN_33UMA/IGÄ-PL ;
++N:%{front%} NMN_33XX/IGÄ-PL ;
 
 LEXICON N_33JÕGI !!jõgi:jõg
 ! gradation: yes
@@ -3795,17 +3795,17 @@ LEXICON NMN_32VERI-PL
 +Use/NG:%^StrGStem%>i  FRONT_PL-ALL_le-STEM ;
 
 
-LEXICON NMN_33MADSʼA/IGÄ
-  NMN_33MADSʼA/IGÄ-SG ;
-  NMN_33MADSʼA/IGÄ-PL ;
+LEXICON NMN_33XX/IGÄ
+  NMN_33XX/IGÄ-SG ;
+  NMN_33XX/IGÄ-PL ;
 
-LEXICON NMN_33MADSʼA/IGÄ-SG 
+LEXICON NMN_33XX/IGÄ-SG 
         Harm-Neutr_SG-NOM  ;
 :%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;
 :%^Pen%^XStrGStem       Harm-Neutr_SG-ILL_ZERO        ;
 :%^Pen%^StrGStem       Harm-Neutr_SG-PAR_ZERO        ;
 
-LEXICON NMN_33MADSʼA/IGÄ-PL 
+LEXICON NMN_33XX/IGÄ-PL 
 :%^Pen%^WGStem       Harm-Neutr_PL-NOM ;
 :%^Pen%^StrGStem%^VowRM%>i    Harm-Neutr_PL-GEN_ZERO ;
 :%^Pen%^StrGStem%^VowRM%>i    Harm-Neutr_PL-PAR_ZERO ;
