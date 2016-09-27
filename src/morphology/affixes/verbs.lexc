@@ -632,6 +632,30 @@ LEXICON V_69HAARDUMA/SÜNDÜMÄ !!≈ * __@CODE@__ sündümä:sündü
 :%^Pen%^WGStem Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
 :%^Pen%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
 
+LEXICON V_69SUURDUMA !!≈ * __@CODE@__ suurduma:suurdu
++V:%{back%} V_69SUURDUMA/HÜÜRDÜMÄ ;
+LEXICON V_69HÜÜRDÜMÄ !!≈ * __@CODE@__ hüürdümä:höördü
++V:%{front%} V_69SUURDUMA/HÜÜRDÜMÄ ;
++V+WORK: # ;
+LEXICON V_69SUURDUMA/HÜÜRDÜMÄ !!≈ * __@CODE@__ hüürdümä:höördü vowel raising Required 2016-09-15
+:%^Pen%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-CONNEG ;
+:%^Pen%^WGStem ACT-IND-PRS-3_s/sEq ;
+
+:%^Pen%^WGStem PSS-IND-PRS_tA/SG1 ;
+
+: Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRT-CONNEG ;
+: V0-IND-PRT-SCSG3_ZERO ;
+:%^Pen%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+
+: Harm-Neutr_INF_mA ;
+: Harm-Neutr_INF_dAq ;
+: Harm-Neutr_ACT-PRS-PRC_v ;
+: Harm-Neutr_ACT-PRF-PRC-ALL_nUq ;
+:%^Pen%^WGStem Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
+:%^Pen%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
+
 
 LEXICON V_70UNÕHTUMA !!≈ * __@CODE@__ unõhtuma:unõhtu
 !! * Yaml: __V-unwhtuma__
