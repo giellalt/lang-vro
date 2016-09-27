@@ -242,11 +242,35 @@ Rules
 !!€ süü%^VOWLower%^WGStem%>nüq
 !!€ söö00%>nüq
 
+"u2a"
+!! __@RULENAME@__
+ u:a <=>
+       Cns: _ (HarmDummies:) (%^Pen: %^WGStem:) %^U2A:0  ;
+!!€ laulu%^U2A
+!!€ laulõ0
+
+"o2a"
+!! __@RULENAME@__
+ o:a <=>
+       Cns: _ (HarmDummies:) (%^Pen: %^WGStem:) %^U2A:0  ;
+!!€ aigo%^U2A
+!!€ aiga0
+
 "o2õ"
 !! __@RULENAME@__
  o:õ <=> [Cns - [m|p|b|v]] _ o: (HarmDummies:) %^OO2Õ: %> i ;
 !!€ joo%^OO2Õ%>i
 !!€ jõ00%>i
+       [Cns: - [m:|p:|b:|v:]] _ (HarmDummies:) (%^Pen: %^WGStem:) %^OO2Õ:  ;
+!!€ aigo%^OO2Õ
+!!€ aigõ0
+
+"u2õ"
+!! __@RULENAME@__
+ u:õ <=>
+       [Cns: - [m:|p:|b:|v:]] _ (HarmDummies:) (%^Pen: %^WGStem:) %^OO2Õ:  ;
+!!€ laulu%^OO2Õ
+!!€ laulõ0
 
 "ö2e"
 !! __@RULENAME@__
@@ -457,8 +481,9 @@ Rules
 !!€ hü0s000%>t
           Vow l 0:l %>: _ (HarmDummies:) [õ|e] ;
        a _ g: (HarmDummies:) %^WGStem: %> [o:|e:] ;
-!!€ aig%^WGStem%>o
-!!€ a000%>o
+       a _ g: [o:|e:] (HarmDummies:) %^Pen: %^WGStem:  ;
+!!€ aigo%^Pen%^WGStem
+!!€ a00o00
     Vow [ %^I7: | %^V7: 0: ] Vow: (HarmDummies:) %^StrGStem: %> _ ;
 !!€ va%^I7o%^StrGStem%>i
 !!€ vaio0%>0
