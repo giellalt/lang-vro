@@ -526,9 +526,9 @@ LEXICON N_16INEMINE !!= @CODE@
 	N_16INEMINE-SG ;
 	N_16INEMINE-PL ;
 LEXICON N_16INEMINE-SG
-+N:	NMN_16INEMINE-SG ;
++N:%{front%}	NMN_16ABILINÕ/INEMINE-SG ;
 LEXICON N_16INEMINE-PL
-+N:	NMN_16INEMINE-PL ;
++N:%{front%}	NMN_16ABILINÕ/INEMINE-PL ;
 
 LEXICON N_16ABILINÕ !!= @CODE@
 !! abilinõ:abili
@@ -538,9 +538,9 @@ LEXICON N_16ABILINÕ !!= @CODE@
 	N_16ABILINÕ-SG ;
 	N_16ABILINÕ-PL ;
 LEXICON N_16ABILINÕ-SG
-+N:	NMN_16ABILINÕ-SG ;
++N:%{back%}	NMN_16ABILINÕ/INEMINE-SG ;
 LEXICON N_16ABILINÕ-PL
-+N:	NMN_16ABILINÕ-PL ;
++N:%{back%}	NMN_16ABILINÕ/INEMINE-PL ;
 
 LEXICON N_18AIVASTUS
 +N:	ATTESTED-NOUN-STEM-CONTINUED ;
@@ -567,9 +567,9 @@ LEXICON N_19ALOMANÕ !!= @CODE@ alomanõ:aloma
         N_19ALOMANÕ-SG ;
         N_19ALOMANÕ-PL ;
 LEXICON N_19ALOMANÕ-SG
-+N:%{back%}     NMN_19ALOMANÕ-SG ;
++N:%{back%}     NMN_19ALOMANÕ/PEDÄJÄNE-SG ;
 LEXICON N_19ALOMANÕ-PL
-+N:%{back%}     NMN_19ALOMANÕ-PL ;
++N:%{back%}     NMN_19ALOMANÕ/PEDÄJÄNE-PL ;
 
 LEXICON N_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
 ! Gradation: No
@@ -577,9 +577,9 @@ LEXICON N_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
 	N_19PEDÄJÄNE-SG ;
 	N_19PEDÄJÄNE-PL ;
 LEXICON N_19PEDÄJÄNE-SG
-+N:	NMN_19PEDÄJÄNE-SG ;
++N:%{front%}	NMN_19ALOMANÕ/PEDÄJÄNE-SG ;
 LEXICON N_19PEDÄJÄNE-PL
-+N:	NMN_19PEDÄJÄNE-PL ;
++N:%{front%}	NMN_19ALOMANÕ/PEDÄJÄNE-PL ;
 
 LEXICON N_20LATSʼ !!= @CODE@ latsʼ:lats
 +N:ʼ	ATTESTED-NOUN-STEM-CONTINUED ;
@@ -642,9 +642,9 @@ LEXICON N_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
         N_22VÕROKÕNÕ-SG ;
 	N_22VÕROKÕNÕ-PL ;
 LEXICON N_22VÕROKÕNÕ-SG
-+N:%{back%}     NMN_22VÕROKÕNÕ-SG ;
++N:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-SG ;
 LEXICON N_22VÕROKÕNÕ-PL
-+N:%{back%}     NMN_22VÕROKÕNÕ-PL ;
++N:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
 
 LEXICON N_22NAANÕ !!= @CODE@ naanõ:naa
 ! Gradation: No
@@ -662,9 +662,9 @@ LEXICON N_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
         N_22VÄHÄKENE-SG ;
         N_22VÄHÄKENE-PL ;
 LEXICON N_22VÄHÄKENE-SG
-+N:%{back%}     NMN_22VÄHÄKENE-SG ;
++N:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-SG ;
 LEXICON N_22VÄHÄKENE-PL
-+N:%{back%}     NMN_22VÄHÄKENE-PL ;
++N:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
 
 LEXICON N_23NUULʼ !!= * @CODE@ nuulʼ:nool
 ! Gradation: No
@@ -3041,51 +3041,29 @@ LEXICON NMN_18EHITÜS-PL
 +Use/NG:te PL-COM ;
 
 
-LEXICON NMN_19ALOMANÕ !!= @CODE@ alomanõ:aloma
+LEXICON NMN_19ALOMANÕ/PEDÄJÄNE  !!= @CODE@ alomanõ:aloma
 !! * Yaml: __A-alomanw19__
-        NMN_19ALOMANÕ-SG ;
-        NMN_19ALOMANÕ-PL ;
-LEXICON NMN_19ALOMANÕ-SG
-:%>nõ	Harm-Neutr_SG-NOM ;
-:%>dsõ      SG-GEN_ZERO-STEM ;
-:s		BACK_SG-PAR_t ;
-:s        	BACK_SG-ILL_tõ ;
+        NMN_19ALOMANÕ/PEDÄJÄNE-SG ;
+        NMN_19ALOMANÕ/PEDÄJÄNE-PL ;
+LEXICON NMN_19ALOMANÕ/PEDÄJÄNE-SG
+:%>n%{eõ%}	Harm-Neutr_SG-NOM ;
+:%>ds%{eõ%}      SG-GEN_ZERO-STEM ;
+:s		Harm-Neutr_SG-PAR_t ;
+:s        	Harm-Neutr_SG-ILL_tE ;
 
-LEXICON NMN_19ALOMANÕ-PL
-:%>dsõ      Harm-Neutr_PL-NOM ;
+LEXICON NMN_19ALOMANÕ/PEDÄJÄNE-PL
+:%>ds%{eõ%}      Harm-Neutr_PL-NOM ;
 :idsi		Harm-Neutr_PL-GEN_ZERO ;
 :idsi		Harm-Neutr_PL-PAR_ZERO ;
-:idsi		BACK_PL-ILL_he ;
+:idsi		Harm-Neutr_PL-ILL_he ;
 :idsi		Harm-Neutr_PL-ALL_lE-STEM ;
 :idsi PL-COM ;
-+Use/NG:stõ		Harm-Neutr_PL-GEN_ZERO ;
++Use/NG:st%{eõ%}		Harm-Neutr_PL-GEN_ZERO ;
 +Use/NG:idsi		Harm-Neutr_PL-ILL_ZERO ;
 +Use/NG:idsi		Harm-Neutr_PL-ILL_dE ;
-+Use/NG:stõ		Harm-Neutr_PL-ALL_lE-STEM ;
-+Use/NG:stõ PL-COM ;
++Use/NG:st%{eõ%}		Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:st%{eõ%} PL-COM ;
 
-LEXICON NMN_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
-!! * Yaml: __A-alomanw19__
-        NMN_19PEDÄJÄNE-SG ;
-        NMN_19PEDÄJÄNE-PL ;
-LEXICON NMN_19PEDÄJÄNE-SG
-:%>ne	FRONT_SG-NOM ;
-:%>dse      FRONT_SG-GEN_ZERO-STEM ;
-:s		FRONT_SG-PAR_t ;
-:s        	FRONT_SG-ILL_te ;
-
-LEXICON NMN_19PEDÄJÄNE-PL
-:%>dse      FRONT_PL-NOM ;
-:idsi		FRONT_PL-GEN_ZERO ;
-:idsi		FRONT_PL-PAR_ZERO ;
-:idsi		FRONT_PL-ILL_he ;
-:idsi		FRONT_PL-ALL_le-STEM ;
-:idsi PL-COM ;
-+Use/NG:ste		FRONT_PL-GEN_ZERO ;
-+Use/NG:idsi		FRONT_PL-ILL_ZERO ;
-+Use/NG:idsi		FRONT_PL-ILL_de ;
-+Use/NG:ste		FRONT_PL-ALL_le-STEM ;
-+Use/NG:ste PL-COM ;
 
 LEXICON NMN_20LATSʼ !!= * @CODE@ latsʼ:lats
 !! * Yaml: __N-latsj20__
@@ -3237,30 +3215,6 @@ LEXICON NMN_21HÜDSI-PL
 +Use/NG:%^TS2S%^VowRM%>te             FRONT_PL-GEN_ZERO ;
 +Use/NG:%^Pen%^StrGStem           FRONT_PL-ILL_de ;
 
-LEXICON NMN_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
-!! * Yaml: __N-vwrokwnw22__
-        NMN_22VÕROKÕNÕ-SG ;
-        NMN_22VÕROKÕNÕ-PL ;
-LEXICON NMN_22VÕROKÕNÕ-SG
-:%>nõ	Harm-Neutr_SG-NOM ;
-:%>sõ      SG-GEN_ZERO-STEM ;
-:is		BACK_SG-PAR_t ;
-:is        	BACK_SG-ILL_tõ ;
-
-LEXICON NMN_22VÕROKÕNÕ-PL
-:%>sõ      Harm-Neutr_PL-NOM ;
-:is		Harm-Neutr_PL-ALL_dElE ;
-:isi		Harm-Neutr_PL-GEN_ZERO ;
-:isi		Harm-Neutr_PL-PAR_ZERO ;
-:isi		BACK_PL-ILL_he ;
-:isi		Harm-Neutr_PL-ALL_lE-STEM ;
-:isi		PL-COM ;
-+Use/NG:istõ		Harm-Neutr_PL-GEN_ZERO ;
-+Use/NG:isi		Harm-Neutr_PL-ILL_ZERO ;
-+Use/NG:isi		Harm-Neutr_PL-ILL_dE ;
-+Use/NG:istõ		Harm-Neutr_PL-ALL_lE-STEM ;
-+Use/NG:istõ		PL-COM ;
-
 LEXICON NMN_22NAANÕ !!= @CODE@ naanõ:naa
 !! * Yaml: __N-vwrokwnw22__
         NMN_22NAANÕ-SG ;
@@ -3285,29 +3239,29 @@ LEXICON NMN_22NAANÕ-PL
 +Use/NG:%^VowRM%>istõ		Harm-Neutr_PL-ALL_lE-STEM ;
 +Use/NG:%^VowRM%>istõ		PL-COM ;
 
-LEXICON NMN_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
+LEXICON NMN_22VÕROKÕNÕ/VÄHÄKENE !!= @CODE@ vähäkene:vähäke
 !! * Yaml: __N-vaehaekene22__
-        NMN_22VÄHÄKENE-SG ;
-        NMN_22VÄHÄKENE-PL ;
-LEXICON NMN_22VÄHÄKENE-SG
-:%>ne	FRONT_SG-NOM ;
-:%>se      FRONT_SG-GEN_ZERO-STEM ;
-:is		FRONT_SG-PAR_t ;
-:is        	FRONT_SG-ILL_te ;
+        NMN_22VÕROKÕNÕ/VÄHÄKENE-SG ;
+        NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
+LEXICON NMN_22VÕROKÕNÕ/VÄHÄKENE-SG
+:%>n%{eõ%}	Harm-Neutr_SG-NOM ;
+:%>s%{eõ%}      Harm-Neutr_SG-GEN_ZERO-STEM ;
+:is		Harm-Neutr_SG-PAR_t ;
+:is        	Harm-Neutr_SG-ILL_tE ;
 
-LEXICON NMN_22VÄHÄKENE-PL
-:%>se      FRONT_PL-NOM ;
-:is		FRONT_PL-ALL_dele ;
-:isi		FRONT_PL-GEN_ZERO ;
-:isi		FRONT_PL-PAR_ZERO ;
-:isi		FRONT_PL-ILL_he ;
-:isi		FRONT_PL-ALL_le-STEM ;
+LEXICON NMN_22VÕROKÕNÕ/VÄHÄKENE-PL
+:%>s%{eõ%}      Harm-Neutr_PL-NOM ;
+:is		Harm-Neutr_PL-ALL_dElE ;
+:isi		Harm-Neutr_PL-GEN_ZERO ;
+:isi		Harm-Neutr_PL-PAR_ZERO ;
+:isi		Harm-Neutr_PL-ILL_he ;
+:isi		Harm-Neutr_PL-ALL_lE-STEM ;
 :isi		PL-COM ;
-+Use/NG:iste		FRONT_PL-GEN_ZERO ;
-+Use/NG:isi		FRONT_PL-ILL_ZERO ;
-+Use/NG:isi		FRONT_PL-ILL_de ;
-+Use/NG:iste		FRONT_PL-ALL_le-STEM ;
-+Use/NG:iste		PL-COM ;
++Use/NG:ist%{eõ%}		Harm-Neutr_PL-GEN_ZERO ;
++Use/NG:isi		Harm-Neutr_PL-ILL_ZERO ;
++Use/NG:isi		Harm-Neutr_PL-ILL_dE ;
++Use/NG:ist%{eõ%}		Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:ist%{eõ%}		PL-COM ;
 
 LEXICON NMN_23NUULʼ !!= * __@CODE@__ nuulʼ:nool
 !! * Yaml: __N-nuulj__
