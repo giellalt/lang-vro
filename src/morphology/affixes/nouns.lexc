@@ -522,7 +522,7 @@ LEXICON N_16INEMINE !!= @CODE@
 !! inemine:inemi
 ! Gradation: No
 !! * Yaml: __N-inemine16__
-+N:ne	ATTESTED-NOUN-STEM-CONTINUED ;
++N:s	ATTESTED-NOUN-STEM-CONTINUED ;
 	N_16INEMINE-SG ;
 	N_16INEMINE-PL ;
 LEXICON N_16INEMINE-SG
@@ -534,7 +534,7 @@ LEXICON N_16ABILINÕ !!= @CODE@
 !! abilinõ:abili
 ! Gradation: No
 !! * Yaml: __N-abilinw16__
-+N:nõ	ATTESTED-NOUN-STEM-CONTINUED ;
++N:s	ATTESTED-NOUN-STEM-CONTINUED ;
 	N_16ABILINÕ-SG ;
 	N_16ABILINÕ-PL ;
 LEXICON N_16ABILINÕ-SG
@@ -2966,54 +2966,29 @@ LEXICON NMN_15KOTUS-PL
 +Use/NG:%{XC%}iidõ PL-COM ;
 +Use/NG:tõ PL-COM ;
 
-LEXICON NMN_16ABILINÕ/INEMINE !!= @CODE@ inemine:inemi
+LEXICON NMN_16ABILINÕ/INEMINE !!= @CODE@ inemine:inemi abilinõ:abili
 !! * Yaml: __N-inemine16__
-        NMN_16INEMINE-SG ;
-LEXICON NMN_16INEMINE !!= @CODE@ inemine:inemi
-!! * Yaml: __N-inemine16__
-        NMN_16INEMINE-SG ;
-        NMN_16INEMINE-PL ;
-LEXICON NMN_16INEMINE-SG
-:%>ne	FRONT_SG-NOM ;
-:%>se      FRONT_SG-GEN_ZERO-STEM ;
-:s		FRONT_SG-PAR_t ;
-:s        	FRONT_SG-ILL_te ;
+        NMN_16ABILINÕ/INEMINE-SG ;
+        NMN_16ABILINÕ/INEMINE-PL ;
+LEXICON NMN_16ABILINÕ/INEMINE-SG
+:%>n%{eõ%}	Harm-Neutr_SG-NOM ;
+:%>s%{eõ%}      Harm-Neutr_SG-GEN_ZERO-STEM ;
+:s		Harm-Neutr_SG-PAR_t ;
+:s        	Harm-Neutr_SG-ILL_tE ;
 
-LEXICON NMN_16INEMINE-PL
-:%>se      FRONT_PL-NOM ;
+LEXICON NMN_16ABILINÕ/INEMINE-PL
+:%>s%{eõ%}      Harm-Neutr_PL-NOM ;
 :isi		PL-GEN_ZERO ;
-:isi		FRONT_PL-PAR_ZERO ;
-:isi		FRONT_PL-ILL_he ;
-:isi		FRONT_PL-ALL_le-STEM ;
-:isi		PL-COM ;
-+Use/NG:ste		FRONT_PL-GEN_ZERO ;
-+Use/NG:isi		FRONT_PL-ILL_ZERO ;
-+Use/NG:isi		FRONT_PL-ILL_de ;
-+Use/NG:ste		FRONT_PL-ALL_le-STEM ;
-+Use/NG:ste		PL-COM ;
-
-LEXICON NMN_16ABILINÕ !!= @CODE@ abilinõ:inemi
-!! * Yaml: __N-abilinw16__
-        NMN_16ABILINÕ-SG ;
-        NMN_16ABILINÕ-PL ;
-LEXICON NMN_16ABILINÕ-SG
-:%>nõ 	Harm-Neutr_SG-NOM ;
-:%>sõ   SG-GEN_ZERO-STEM ;
-:s		BACK_SG-PAR_t ;
-:s        	BACK_SG-ILL_tõ ;
-
-LEXICON NMN_16ABILINÕ-PL
-:%>sõ      Harm-Neutr_PL-NOM ;
-:isi		Harm-Neutr_PL-GEN_ZERO ;
 :isi		Harm-Neutr_PL-PAR_ZERO ;
-:isi		BACK_PL-ILL_he ;
+:isi		Harm-Neutr_PL-ILL_he ;
 :isi		Harm-Neutr_PL-ALL_lE-STEM ;
 :isi		PL-COM ;
-+Use/NG:stõ		Harm-Neutr_PL-GEN_ZERO ;
++Use/NG:st%{eõ%}		Harm-Neutr_PL-GEN_ZERO ;
 +Use/NG:isi		Harm-Neutr_PL-ILL_ZERO ;
 +Use/NG:isi		Harm-Neutr_PL-ILL_dE ;
-+Use/NG:stõ		Harm-Neutr_PL-ALL_lE-STEM ;
-+Use/NG:stõ		PL-COM ;
++Use/NG:st%{eõ%}		Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:st%{eõ%}		PL-COM ;
+
 
 
 LEXICON NMN_18AIVASTUS !!= * @CODE@ aivastus:aivastus
