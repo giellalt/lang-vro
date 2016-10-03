@@ -496,18 +496,18 @@ LEXICON NUM_19ALOMANÕ !!= @CODE@ alomanõ:aloma
         NUM_19ALOMANÕ-SG ;
         NUM_19ALOMANÕ-PL ;
 LEXICON NUM_19ALOMANÕ-SG
-+Num:%{back%}     NMN_19ALOMANÕ-SG ;
++Num:%{back%}     NMN_19ALOMANÕ/PEDÄJÄNE-SG ;
 LEXICON NUM_19ALOMANÕ-PL
-+Num:%{back%}     NMN_19ALOMANÕ-PL ;
++Num:%{back%}     NMN_19ALOMANÕ/PEDÄJÄNE-PL ;
 
 LEXICON NUM_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
 ! Gradation: No
 	N_19PEDÄJÄNE-SG ;
 	N_19PEDÄJÄNE-PL ;
 LEXICON NUM_19PEDÄJÄNE-SG
-+Num:	NMN_19PEDÄJÄNE-SG ;
++Num:%{front%}	NMN_19ALOMANÕ/PEDÄJÄNE-SG ;
 LEXICON NUM_19PEDÄJÄNE-PL
-+Num:	NMN_19PEDÄJÄNE-PL ;
++Num:%{front%}	NMN_19ALOMANÕ/PEDÄJÄNE-PL ;
 
 LEXICON NUM_20LATSʼ !!= @CODE@ latsʼ:lats
 	N_20LATSʼ-SG ;

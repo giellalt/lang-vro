@@ -495,9 +495,9 @@ LEXICON PROP_19ALOMANÕ !!= @CODE@ alomanõ:aloma
 @U.Cap.Obl@  PROP_19ALOMANÕ-SG ;
 @U.Cap.Obl@  PROP_19ALOMANÕ-PL ;
 LEXICON PROP_19ALOMANÕ-SG
-+N+Prop:%{back%}     NMN_19ALOMANÕ-SG ;
++N+Prop:%{back%}     NMN_19ALOMANÕ/PEDÄJÄNE-SG ;
 LEXICON PROP_19ALOMANÕ-PL
-+N+Prop:%{back%}     NMN_19ALOMANÕ-PL ;
++N+Prop:%{back%}     NMN_19ALOMANÕ/PEDÄJÄNE-PL ;
 
 LEXICON PROP_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
 ! Gradation: No
@@ -505,9 +505,9 @@ LEXICON PROP_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
 	PROP_19PEDÄJÄNE-SG ;
 	PROP_19PEDÄJÄNE-PL ;
 LEXICON PROP_19PEDÄJÄNE-SG
-+N+Prop:	NMN_19PEDÄJÄNE-SG ;
++N+Prop:%{front%}	NMN_19ALOMANÕ/PEDÄJÄNE-SG ;
 LEXICON PROP_19PEDÄJÄNE-PL
-+N+Prop:	NMN_19PEDÄJÄNE-PL ;
++N+Prop:%{front%}	NMN_19ALOMANÕ/PEDÄJÄNE-PL ;
 
 LEXICON PROP_20VÄITSʼ
 :%>e PROP-PLC-DOWNCASE-SG-GEN ;
