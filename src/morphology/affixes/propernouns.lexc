@@ -534,9 +534,9 @@ LEXICON PROP_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
 @U.Cap.Obl@  PROP_22VÕROKÕNÕ-SG ;
 @U.Cap.Obl@  PROP_22VÕROKÕNÕ-PL ;
 LEXICON PROP_22VÕROKÕNÕ-SG
-+N+Prop:%{back%}     NMN_22VÕROKÕNÕ-SG ;
++N+Prop:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-SG ;
 LEXICON PROP_22VÕROKÕNÕ-PL
-+N+Prop:%{back%}     NMN_22VÕROKÕNÕ-PL ;
++N+Prop:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
 
 LEXICON PROP_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
 ! Gradation: No
@@ -544,9 +544,9 @@ LEXICON PROP_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
 @U.Cap.Obl@  PROP_22VÄHÄKENE-SG ;
 @U.Cap.Obl@  PROP_22VÄHÄKENE-PL ;
 LEXICON PROP_22VÄHÄKENE-SG
-+N+Prop:%{front%}     NMN_22VÄHÄKENE-SG ;
++N+Prop:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-SG ;
 LEXICON PROP_22VÄHÄKENE-PL
-+N+Prop:%{front%}     NMN_22VÄHÄKENE-PL ;
++N+Prop:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
 
 
 LEXICON PROP_23NUULʼ !!= * @CODE@ nuulʼ:nool

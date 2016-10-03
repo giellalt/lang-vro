@@ -563,9 +563,9 @@ LEXICON NUM_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
         NUM_22VÕROKÕNÕ-SG ;
 	N_22VÕROKÕNÕ-PL ;
 LEXICON NUM_22VÕROKÕNÕ-SG
-+Num:%{back%}     NMN_22VÕROKÕNÕ-SG ;
++Num:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-SG ;
 LEXICON NUM_22VÕROKÕNÕ-PL
-+Num:%{back%}     NMN_22VÕROKÕNÕ-PL ;
++Num:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
 
 LEXICON NUM_22NAANÕ !!= @CODE@ naanõ:naa
 ! Gradation: No
@@ -581,9 +581,9 @@ LEXICON NUM_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
         NUM_22VÄHÄKENE-SG ;
         NUM_22VÄHÄKENE-PL ;
 LEXICON NUM_22VÄHÄKENE-SG
-+Num:%{back%}     NMN_22VÄHÄKENE-SG ;
++Num:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-SG ;
 LEXICON NUM_22VÄHÄKENE-PL
-+Num:%{back%}     NMN_22VÄHÄKENE-PL ;
++Num:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
 
 LEXICON NUM_23NUULʼ !!= * @CODE@ nuulʼ:nool
 ! Gradation: No
