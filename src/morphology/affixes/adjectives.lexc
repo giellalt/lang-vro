@@ -106,17 +106,17 @@ LEXICON A_15KOTUS
 +A:  NMN_15KOTUS ;
 
 LEXICON A_16INEMINE !!= @CODE@ inemine:inemi
-+A:	NMN_16INEMINE ;
++A:%{front%}	NMN_16ABILINÕ/INEMINE ;
 
 LEXICON A_18EHITÜS
 +A:  NMN_18EHITÜS ;
 
 LEXICON A_19ALOMANÕ !!= @CODE@ alomanõ:aloma
-+A:     NMN_19ALOMANÕ ;
++A:%{back%}     NMN_19ALOMANÕ/PEDÄJÄNE ;
 +A:dsõ BACK_COMP ;
 
 LEXICON A_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
-+A:	NMN_19PEDÄJÄNE ;
++A:%{front%}	NMN_19ALOMANÕ/PEDÄJÄNE ;
 +A:dse FRONT_COMP ;
 
 LEXICON A_20VÄITSʼ
@@ -126,7 +126,7 @@ LEXICON A_21HÜDSI
 +A:  NMN_21HÜDSI ;
 
 LEXICON A_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
-+A:     NMN_22VÕROKÕNÕ ;
++A:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE ;
 +A:sõ BACK_COMP ;
 
 LEXICON A_23NUULʼ
