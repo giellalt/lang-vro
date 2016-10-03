@@ -1419,7 +1419,7 @@ LEXICON V_85HAUDMA/VÄLKMÄ !!≈ * __@CODE@__ kakma:kaku haudma:haudu
 :%{XC%} ACT-IND-PRS-SG3_ZERO ;
 : ACT-IND-PRS-PL3_vAq ;
 :%{uü%} Harm-Neutr_VISKAMA_PSS-IND-PRS ;
-: Harm-Neutr_INF_mA ;
+:%^CC2C Harm-Neutr_INF_mA ;
 : Harm-Neutr_INF_dAq ;
 
 LEXICON V_86ISTMA !!≈ * __@CODE@__ istma:istu
@@ -1937,7 +1937,8 @@ LEXICON Harm-Neutr_INF_ZEROq
 +Use/NG+Inf: K ; !!= * @CODE@ no q
 
 LEXICON V2N_minE
-+Der/minÕ+N:%>mi NMN_16ABILINÕ/INEMINE ;
++Der/minE+N:%>mis ATTESTED-NOUN-STEM-CONTINUED ;
++Der/minE+N:%>mi NMN_16ABILINÕ/INEMINE ;
 +Der/JA+N:%>j NMN_9KIPÕNʼ/ELLÄI ; !!≈ * __@CODE@__ This should have a +Der/JA tag
 
 
@@ -2212,6 +2213,7 @@ LEXICON Harm-Neutr_V0-PSS-PRF-PRC_tt
 LEXICON Harm-Neutr_ACT-PRS-PRC_v_LUGÕMA !!= * @CODE@ lugõma:lugõ
 !! Retain consonant and stem vowel
 +Inf/mA:%>m%{aä%} K ;
+ V2N_minE ;
 !
 
 +Act+PrsPrc+Sg+Gen:%>v%{aä%} K ;
