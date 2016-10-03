@@ -298,6 +298,7 @@ symbols in the lexicon files:
 And following triggers to control variation
  %^ErrorBack	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
 
+  %^CC2C 	 att%^CC2C%>m%{aä%} atma
   %^Õ2E	  lugõ%^Pen%^WGStem%^Õ2E loe
   %^OO2Õ	  joo%^OO2Õ%>i:j0õ0%>i
 
@@ -440,6 +441,7 @@ special letters
 Triggers
   %^Õ2E:0	  lugõ%^Pen%^WGStem%^Õ2E loe
   %^OO2Õ:0	  joo%^OO2Õ%>i:j0õ0%>i
+  %^CC2C:0 	 att%^CC2C%>m%{aä%} atma
 
   %^ÄI2ÄÄ:0 	 päiv%^ÄI2ÄÄ%>ä: päävä
  %{front%}:0	 front harmony
@@ -835,6 +837,8 @@ __kToZero__
 * __puhkas%^WGStem%>taq __
 * __puh0as0%>taq __
 
+* __ikk%{back%}%^CC2C%>m%{aä%} __
+* __ik000%>ma __
 
 __mToZero__
 * __hammõ%^Pen%^WGStem%>h __
@@ -857,6 +861,10 @@ __tToZero__
 hüdsi+N+Sg+Par:
 * __hüdsi%^TS2S%^VowRM%>t __
 * __hü0s000%>t __
+* __att%{back%}%^CC2C%>m%{aä%} __
+* __at000%>ma __
+
+
 
 !CONSONANT QUALITY CHANGE
 

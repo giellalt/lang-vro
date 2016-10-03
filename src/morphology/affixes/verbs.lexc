@@ -1358,7 +1358,7 @@ LEXICON V_83ATMA/PETMÄ  !!= * @CODE@ sõitma:sõit
 : Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ; !! IS THIS RIGHT? 2015-09-02
 
 : MUTUAL_JUS_kuq ;
-: Harm-Neutr_INF_mA ;
+:%^CC2C Harm-Neutr_INF_mA ;
 : Harm-Neutr_INF_Aq ;
 : Harm-Neutr_ACT-PRS-PRC_vA ;
 : Harm-Neutr_ACT-PRF-PRC-ALL_nUq ;
@@ -1368,8 +1368,11 @@ LEXICON V_83ATMA/PETMÄ  !!= * @CODE@ sõitma:sõit
 
 LEXICON V_84LASKMA !!= * @CODE@ laskma:lask
 !! * Yaml: __nwstma__
-+V:%{back%} V_84LASKMA/XX ;
-LEXICON V_84LASKMA/XX !!= * @CODE@ laskma:lask
++V:%{back%} V_84LASKMA/KÄSKMÄ ;
+LEXICON V_84KÄSKMÄ !!= * @CODE@ käskmä:käsk
+!! * Yaml: __nwstma__
++V:%{front%} V_84LASKMA/KÄSKMÄ ;
+LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:lask
 !! * Yaml: __nwstma__
 :%^WGStem%>%{eõ%} Harm-Neutr_V0-IND-PRS-SC-12 ;
 :%^WGStem%>%{eõ%} Harm-Neutr_ACT-IND-PRS-CONNEG ;
