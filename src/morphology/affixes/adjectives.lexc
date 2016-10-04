@@ -46,10 +46,13 @@ LEXICON A_6MAKÕ
 +A:  NMN_6MAKÕ ;
 
 LEXICON A_7FÜÜSIGA
-+A:  NMN_7FÜÜSIGA ;
++A:%{back%}  NMN_7FÜÜSIGA ;
 
 LEXICON A_8HÄIELM
 +A:  NMN_8HÄIELM ;
+
+LEXICON A_8KULDNÕ !!= * @CODE@ kuldnõ:kuld
++A:%{back%}  NMN_8KULDNÕ/XX ;
 
 LEXICON A_9KIPÕNʼ/ELLÄI
 !! * Yaml: __ellaei, suhvli__
