@@ -480,6 +480,17 @@ LEXICON N_14HAMMAS-SG
 LEXICON N_14HAMMAS-PL
 +N:%{back%}     NMN_14HAMMAS/XX-PL ;
 
+LEXICON N_14NUMMÕRʼ !!= @CODE@ nummõrʼ:numbõr
+! gradation: yes
+!! distinguished from 14RITSʼKAS due to gradation
++N:%^Pen%^WGStem%>ʼ	ATTESTED-NOUN-STEM-CONTINUED ;
+        N_14NUMMÕRʼ-SG ;
+        N_14NUMMÕRʼ-PL ;
+LEXICON N_14NUMMÕRʼ-SG
++N:%{back%}     NMN_14NUMMÕRʼ/XX-SG ;
+LEXICON N_14NUMMÕRʼ-PL
++N:%{back%}     NMN_14NUMMÕRʼ/XX-PL ;
+
 
 LEXICON N_PEREH !!= @CODE@ pereh:pereh
 ! vowel_harmony: front
@@ -542,14 +553,33 @@ LEXICON N_16ABILINÕ-SG
 LEXICON N_16ABILINÕ-PL
 +N:%{back%}	NMN_16ABILINÕ/INEMINE-PL ;
 
+LEXICON N_17ALGUS
++N:	ATTESTED-NOUN-STEM-CONTINUED ;
+        N_17ALGUS-SG ;
+        N_17ALGUS-PL ;
+LEXICON N_17ALGUS-SG
++N:%{back%}     NMN_17ALGUS/ÜTSÜS-SG ;
+LEXICON N_17ALGUS-PL
++N:%{back%}     NMN_17ALGUS/ÜTSÜS-PL ;
+
+
+LEXICON N_17ÜTSÜS
++N:	ATTESTED-NOUN-STEM-CONTINUED ;
+        N_17ÜTSÜS-SG ;
+        N_17ÜTSÜS-PL ;
+LEXICON N_17ÜTSÜS-SG
++N:%{front%}     NMN_17ALGUS/ÜTSÜS-SG ;
+LEXICON N_17ÜTSÜS-PL
++N:%{front%}     NMN_17ALGUS/ÜTSÜS-PL ;
+
 LEXICON N_18AIVASTUS
 +N:	ATTESTED-NOUN-STEM-CONTINUED ;
         N_18AIVASTUS-SG ;
         N_18AIVASTUS-PL ;
 LEXICON N_18AIVASTUS-SG
-+N:%{back%}     NMN_18AIVASTUS-SG ;
++N:%{back%}     NMN_18AIVASTUS/EHITÜS-SG ;
 LEXICON N_18AIVASTUS-PL
-+N:%{back%}     NMN_18AIVASTUS-PL ;
++N:%{back%}     NMN_18AIVASTUS/EHITÜS-PL ;
 
 
 LEXICON N_18EHITÜS
@@ -557,9 +587,9 @@ LEXICON N_18EHITÜS
         N_18EHITÜS-SG ;
         N_18EHITÜS-PL ;
 LEXICON N_18EHITÜS-SG
-+N:%{front%}     NMN_18EHITÜS-SG ;
++N:%{front%}     NMN_18AIVASTUS/EHITÜS-SG ;
 LEXICON N_18EHITÜS-PL
-+N:%{front%}     NMN_18EHITÜS-PL ;
++N:%{front%}     NMN_18AIVASTUS/EHITÜS-PL ;
 
 LEXICON N_19ALOMANÕ !!= @CODE@ alomanõ:aloma
 ! Gradation: No
@@ -2826,6 +2856,38 @@ LEXICON NMN_14HAMMAS/XX-PL
 +Use/NG:%^VowRM%>ii%>dõ   PL-COM ;
 +Use/NG:%^Pen%^WGStem%>stõ   PL-COM ;
 
+LEXICON NMN_14NUMMÕRʼ/XX !!= * __@CODE@__ nummõrʼ:numbõr
+!! Distinguished from 14RITSʼKAS due to gradation
+!! Yaml: __N-nummõrʼ_gt-norm.yaml__
+  NMN_14NUMMÕRʼ/XX-SG ;
+  NMN_14NUMMÕRʼ/XX-PL ;
+
+LEXICON NMN_14NUMMÕRʼ/XX-SG 
+:%^Pen%^WGStem%>ʼ        Harm-Neutr_SG-NOM  ;
+   SG-GEN_ZERO-STEM        ;
+:%^Pen%^WGStem   Harm-Neutr_SG-PAR_d      ;
+:%^VowRM%>i   Harm-Neutr_SG-ILL_ZERO     ;
+   Harm-Neutr_SG-ILL_dE     ;
+
+LEXICON NMN_14NUMMÕRʼ/XX-PL 
+   Harm-Neutr_PL-NOM  ;
+:%^VowRM%>i Harm-Neutr_PL-GEN_dE ;
+:%^VowRM%>i Harm-Neutr_PL-ILL_he ;
+:%^VowRM%>i Harm-Neutr_PL-PAR_t ;
+:%^VowRM%>i Harm-Neutr_PL-ALL_lE-STEM ;
+:%^VowRM%>i%>d%{eõ%}   PL-COM ;
++Use/NG:%^VowRM%>ii Harm-Neutr_PL-GEN_dE ;
++Use/NG:%^Pen%^WGStem%>d%{eõ%} Harm-Neutr_PL-GEN_ZERO ;
++Use/NG:%^VowRM%>ii Harm-Neutr_PL-PAR_d ;
++Use/NG:%^VowRM%>ii Harm-Neutr_PL-ILL_he ;
++Use/NG:%^VowRM%>i Harm-Neutr_PL-ILL_dE ;
++Use/NG:%^VowRM%>ii Harm-Neutr_PL-ILL_dE ;
++Use/NG:%^VowRM%>ii Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:%^Pen%^WGStem%>d%{eõ%} Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:%^Pen%^WGStem%>d%{eõ%} Harm-Neutr_PL-ILL_he ;
++Use/NG:%^VowRM%>ii%>d%{eõ%}   PL-COM ;
++Use/NG:%^Pen%^WGStem%>d%{eõ%}   PL-COM ;
+
 
 LEXICON NMN_PEREH !!= * __@CODE@__ pereh:perre
 ! vowel_harmony: front
@@ -2958,29 +3020,53 @@ LEXICON NMN_16ABILINÕ/INEMINE-PL
 
 
 
-LEXICON NMN_18AIVASTUS !!= * @CODE@ aivastus:aivastus
+LEXICON NMN_17ALGUS/ÜTSÜS !!= * @CODE@ aivastus:aivastus
 !! * Yaml: __N-aivastus18__
-  NMN_18AIVASTUS-SG ;
-  NMN_18AIVASTUS-PL ;
+  NMN_17ALGUS/ÜTSÜS-SG ;
+  NMN_17ALGUS/ÜTSÜS-PL ;
 
-LEXICON NMN_18AIVASTUS-SG 
+LEXICON NMN_17ALGUS/ÜTSÜS-SG 
         Harm-Neutr_SG-NOM  ;
-:%>õ   SG-GEN_ZERO-STEM        ;
-   BACK_SG-PAR_t      ;
-   BACK_SG-ILL_tõ     ;
+:%>%{eõ%}   SG-GEN_ZERO-STEM        ;
+   Harm-Neutr_SG-PAR_t      ;
+   Harm-Neutr_SG-ILL_tE     ;
 
-LEXICON NMN_18AIVASTUS-PL 
-:%>õ   Harm-Neutr_PL-NOM  ;
+LEXICON NMN_17ALGUS/ÜTSÜS-PL 
+:%>%{eõ%}   Harm-Neutr_PL-NOM  ;
 :%^CnsRM%>isi Harm-Neutr_PL-GEN_ZERO ;
-:%^CnsRM%>isi BACK_PL-ILL_he ;
+:%^CnsRM%>isi Harm-Neutr_PL-ILL_he ;
 :%^CnsRM%>isi Harm-Neutr_PL-PAR_ZERO ;
 :%^CnsRM%>isi Harm-Neutr_PL-ALL_lE-STEM ;
 :%^CnsRM%>isi PL-COM ;
 +Use/NG:%>te Harm-Neutr_PL-GEN_ZERO ;
 +Use/NG:%^CnsRM%>isi Harm-Neutr_PL-ILL_ZERO ;
 +Use/NG:%^CnsRM%>isi Harm-Neutr_PL-ILL_dE ;
-+Use/NG:tõ Harm-Neutr_PL-ALL_lE-STEM ;
-+Use/NG:tõ PL-COM ;
++Use/NG:t%{eõ%} Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:t%{eõ%} PL-COM ;
+
+LEXICON NMN_18AIVASTUS/EHITÜS !!= * @CODE@ aivastus:aivastus
+!! * Yaml: __N-aivastus18__
+  NMN_18AIVASTUS/EHITÜS-SG ;
+  NMN_18AIVASTUS/EHITÜS-PL ;
+
+LEXICON NMN_18AIVASTUS/EHITÜS-SG 
+        Harm-Neutr_SG-NOM  ;
+:%>%{eõ%}   SG-GEN_ZERO-STEM        ;
+   Harm-Neutr_SG-PAR_t      ;
+   Harm-Neutr_SG-ILL_tE     ;
+
+LEXICON NMN_18AIVASTUS/EHITÜS-PL 
+:%>%{eõ%}   Harm-Neutr_PL-NOM  ;
+:%^CnsRM%>isi Harm-Neutr_PL-GEN_ZERO ;
+:%^CnsRM%>isi Harm-Neutr_PL-ILL_he ;
+:%^CnsRM%>isi Harm-Neutr_PL-PAR_ZERO ;
+:%^CnsRM%>isi Harm-Neutr_PL-ALL_lE-STEM ;
+:%^CnsRM%>isi PL-COM ;
++Use/NG:%>te Harm-Neutr_PL-GEN_ZERO ;
++Use/NG:%^CnsRM%>isi Harm-Neutr_PL-ILL_ZERO ;
++Use/NG:%^CnsRM%>isi Harm-Neutr_PL-ILL_dE ;
++Use/NG:t%{eõ%} Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:t%{eõ%} PL-COM ;
 
 
 LEXICON NMN_18EHITÜS !!= * @CODE@ ehitüs:ehitüs
@@ -4046,16 +4132,16 @@ LEXICON NMN_36PÄIV !!= * @CODE@ päiv:päiv
   NMN_36PÄIV-PL ;
 LEXICON NMN_36PÄIV-SG 
         FRONT_SG-NOM  ;
-:%^ÄI2ÄÄ%>%{aä%}       FRONT_SG-GEN_ZERO-STEM        ;
+:%^ÄI2ÄÄ%^WGStem%>%{aä%}       FRONT_SG-GEN_ZERO-STEM        ;
 :%^ÄI2ÄÄ%>%{aä%}       FRONT_SG-ILL_ZERO        ;
 :%^ÄI2ÄÄ%>%{aä%}       FRONT_SG-PAR_ZERO        ;
 
 LEXICON NMN_36PÄIV-PL 
-:%^ÄI2ÄÄ%>%{aä%}       FRONT_PL-NOM ;
+:%^ÄI2ÄÄ%^WGStem%>%{aä%}       FRONT_PL-NOM ;
 :%>i    FRONT_PL-GEN_ZERO ;
 :%>i    FRONT_PL-PAR_ZERO ;
 :%>i    FRONT_PL-ILL_he ;
-:%>i  FRONT_PL-ALL_le-STEM ;
+:%^WGStem%>i  FRONT_PL-ALL_le-STEM ;
 :%>i PL-COM ;
 
 LEXICON NMN_KOGÕR !!= __@CODE@__
