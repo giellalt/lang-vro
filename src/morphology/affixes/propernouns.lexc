@@ -982,15 +982,25 @@ LEXICON PROP_47ASI-PL
 
 
 
-LEXICON PROP_ELÄNÜQ !!= * @CODE@ elänüq:elänü
+LEXICON PROP_2KASUNUQ !!= * @CODE@ kasunuq:kasunu
 : PROP-PLC-DOWNCASE-SG-GEN ;
-@U.Cap.Obl@  PROP_ELÄNÜQ-SG  ;
-@U.Cap.Obl@  PROP_ELÄNÜQ-PL  ;
+@U.Cap.Obl@  PROP_2KASUNUQ-SG  ;
+@U.Cap.Obl@  PROP_2KASUNUQ-PL  ;
 
-LEXICON  PROP_ELÄNÜQ-SG
-+N+Prop:	NMN_XX/ELÄNÜQ-SG  ;
-LEXICON PROP_ELÄNÜQ-PL
-+N+Prop:	NMN_XX/ELÄNÜQ-PL  ;
+LEXICON  PROP_2KASUNUQ-SG
++N+Prop:%{back%} NMN_2KASUNUQ/ELÄNÜQ-SG  ;
+LEXICON PROP_2KASUNUQ-PL
++N+Prop:%{back%} NMN_2KASUNUQ/ELÄNÜQ-PL  ;
+
+LEXICON PROP_2ELÄNÜQ !!= * @CODE@ elänüq:elänü
+: PROP-PLC-DOWNCASE-SG-GEN ;
+@U.Cap.Obl@  PROP_2ELÄNÜQ-SG  ;
+@U.Cap.Obl@  PROP_2ELÄNÜQ-PL  ;
+
+LEXICON  PROP_2ELÄNÜQ-SG
++N+Prop:%{front%} NMN_2KASUNUQ/ELÄNÜQ-SG  ;
+LEXICON PROP_2ELÄNÜQ-PL
++N+Prop:%{front%} NMN_2KASUNUQ/ELÄNÜQ-PL  ;
 
 
 ! vim: set ft=xfst-lexc:

@@ -243,8 +243,10 @@ LEXICON Adj-28
 LEXICON Adj-elolinõ
 +A: N-elolinõ_01 ;
 
-LEXICON A_ELÄNÜQ !!= * @CODE@ elänüq:elänü
-+A:	NMN_ELÄNÜQ  ;
+LEXICON A_2KASUNUQ !!= * @CODE@ kasunuq:kasunu
++A:%{back%}	NMN_2KASUNUQ/ELÄNÜQ  ;
+LEXICON A_2ELÄNÜQ !!= * @CODE@ elänüq:elänü
++A:%{front%}	NMN_2KASUNUQ/ELÄNÜQ  ;
 
 !!
 
