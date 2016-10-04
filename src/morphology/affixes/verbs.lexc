@@ -120,36 +120,37 @@ LEXICON V_51NÕSÕMA/PÄSEMÄ !!≈ * __@CODE@__ nõsõma:nõs
 : Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
 :%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
 
-LEXICON V_52ALOSTÕLLÕMA !!≈ * __@CODE@__ alostõllõma:alostõl
+LEXICON V_52ALOSTÕLÕMA !!≈ * __@CODE@__ alostõlõma:alostõll
 !! * Yaml: __alostwllwma52__
-+V:%{back%} V_52ALOSTÕLLÕMA/EHITELLEMÄ ;
-LEXICON V_52EHITELLEMÄ !!≈ * __@CODE@__ ehitellemä:ehitel
-!! ehitellemä:ehitel
++V:%{back%} V_52ALOSTÕLÕMA/EHITELEMÄ ;
+LEXICON V_52EHITELEMÄ !!≈ * __@CODE@__ ehitelemä:ehitell
+!! ehitelemä:ehitell
 !! * Yaml: __ehitellemae52__
-+V:%{front%} V_52ALOSTÕLLÕMA/EHITELLEMÄ ;
++V:%{front%} V_52ALOSTÕLÕMA/EHITELEMÄ ;
 
-LEXICON V_52ALOSTÕLLÕMA/EHITELLEMÄ !!≈ * __@CODE@__ alostõllõma:alostõl
-:%{XC%}%{eõ%} Harm-Neutr_V0-IND-PRS-SC-12 ;
+LEXICON V_52ALOSTÕLÕMA/EHITELEMÄ !!≈ * __@CODE@__ alostõllõma:alostõl
 :%{eõ%} Harm-Neutr_V0-IND-PRS-SC-12 ;
-:%{eõ%} Harm-Neutr_ACT-IND-PRS-CONNEG ;
-:%{XC%}%{eõ%} ACT-IND-PRS-3_s/sEq ;
+:%^WGStem%{eõ%} Harm-Neutr_V0-IND-PRS-SC-12 ;
+:%^WGStem%{eõ%} Harm-Neutr_ACT-IND-PRS-CONNEG ;
 :%{eõ%} ACT-IND-PRS-3_s/sEq ;
-: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+:%^WGStem%{eõ%} ACT-IND-PRS-3_s/sEq ;
+:%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
+:%^WGStem V0-IND-PRT-SC-12_i ;
 : V0-IND-PRT-SC-12_i ;
-:%{XC%} V0-IND-PRT-SC-12_i ;
-:%{eõ%} Harm-Neutr_ACT-IND-PRT-CONNEG ;
+:%^WGStem%{eõ%} Harm-Neutr_ACT-IND-PRT-CONNEG ;
+:%^WGStem V0-IND-PRT-SCSG3_i ;
 : V0-IND-PRT-SCSG3_i ;
-:%{XC%} V0-IND-PRT-SCSG3_i ;
-:%{XC%} ACT-IND-PRT-PL3_q/vAq ;
-: Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+: ACT-IND-PRT-PL3_q/vAq ;
+:%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
-:%{eõ%} Harm-Neutr_INF_mA ;
-:%{XC%}%{eõ%} Harm-Neutr_INF_mA ;
-:%{XC%} Harm-Neutr_INF_Aq ;
-:%{eõ%} Harm-Neutr_ACT-PRS-PRC_v ;
-:%^VOWLower Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
-: Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
+:%^WGStem%{eõ%} Harm-Neutr_INF_mA ;
++Use/NG:%{eõ%} Harm-Neutr_INF_mA ;
+: Harm-Neutr_INF_Aq ;
+:%^WGStem%{eõ%} Harm-Neutr_ACT-PRS-PRC_v ;
+:%^WGStem%^VOWLower Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
+:%^WGStem Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
+
 :%^WGStem Harm-Neutr_JUUMA-PSS-PRF-PRC_d ;
 
 
