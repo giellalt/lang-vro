@@ -1451,15 +1451,15 @@ LEXICON N-orsikas
 LEXICON N-meelikäs
 +N+Sg+Nom:s # ;
 
-LEXICON N_ELÄNÜQ !!= * @CODE@ elänüq:elänü
+LEXICON N_2ELÄNÜQ !!= * @CODE@ elänüq:elänü
 +N:q	ATTESTED-NOUN-STEM-CONTINUED ;
-    N_ELÄNÜQ-SG  ;
-    N_ELÄNÜQ-PL  ;
+    N_2ELÄNÜQ-SG  ;
+    N_2ELÄNÜQ-PL  ;
 
-LEXICON  N_ELÄNÜQ-SG
-+N:	NMN_XX/ELÄNÜQ-SG  ;
-LEXICON N_ELÄNÜQ-PL
-+N:	NMN_XX/ELÄNÜQ-PL  ;
+LEXICON  N_2ELÄNÜQ-SG
++N:	NMN_2KASUNUQ/ELÄNÜQ-SG  ;
+LEXICON N_2ELÄNÜQ-PL
++N:	NMN_2KASUNUQ/ELÄNÜQ-PL  ;
 
 !! !NOMINAL DECLENSIONS
 
@@ -4707,13 +4707,11 @@ LEXICON NMN_47KIRI-PL
 +Use/NG:%^I2J%>o       Harm-Neutr_PL-ILL_ZERO ;
 +Use/NG:%^I2J%>o       Harm-Neutr_PL-ILL_dE ;
 
-LEXICON NMN_ELÄNÜQ !!= * @CODE@ elänüq:elänü
-	NMN_XX/ELÄNÜQ-SG  ;
-	NMN_XX/ELÄNÜQ-PL  ;
-LEXICON NMN_XX/ELÄNÜQ !!= * @CODE@ elänüq:elänü
-	NMN_XX/ELÄNÜQ-SG  ;
-	NMN_XX/ELÄNÜQ-PL  ;
-LEXICON NMN_XX/ELÄNÜQ-SG
+
+LEXICON NMN_2KASUNUQ/ELÄNÜQ !!= * @CODE@ elänüq:elänü
+	NMN_2KASUNUQ/ELÄNÜQ-SG  ;
+	NMN_2KASUNUQ/ELÄNÜQ-PL  ;
+LEXICON NMN_2KASUNUQ/ELÄNÜQ-SG
 :q ATTESTED-NOUN-STEM-CONTINUED ;
 +Sg+Nom:q K ;
 +Sg+Gen: K ;
@@ -4721,7 +4719,7 @@ LEXICON NMN_XX/ELÄNÜQ-SG
 +Sg+Par:t K ;
 +Sg+Ill:he K ;
 
-LEXICON NMN_XX/ELÄNÜQ-PL
+LEXICON NMN_2KASUNUQ/ELÄNÜQ-PL
 +Pl+Nom:q K ;
 +Pl+Gen:ide K ;
 +Pl+Gen:isi K ;
@@ -4729,26 +4727,6 @@ LEXICON NMN_XX/ELÄNÜQ-PL
 +Pl+Par:isi K ;
 +Pl+Ill:isihe K ;
 +Pl+Ill:ihe K ;
-
-LEXICON BACK_NMN_ELÄNÜQ !!= * @CODE@ elänüq:elänü
-	BACK_NMN_ELÄNÜQ-SG  ;
-	BACK_NMN_ELÄNÜQ-PL  ;
-LEXICON BACK_NMN_ELÄNÜQ-SG
-:q ATTESTED-NOUN-STEM-CONTINUED ;
-+Sg+Nom:q BACK_K ;
-+Sg+Gen: BACK_K ;
-!+Sg+Gen:q BACK_K ;
-+Sg+Par:t BACK_K ;
-+Sg+Ill:he BACK_K ;
-
-LEXICON BACK_NMN_ELÄNÜQ-PL
-+Pl+Nom:q BACK_K ;
-+Pl+Gen:idõ BACK_K ;
-+Pl+Gen:isi BACK_K ;
-+Pl+Par:id BACK_K ;
-+Pl+Par:isi BACK_K ;
-+Pl+Ill:isihe BACK_K ;
-+Pl+Ill:ihe BACK_K ;
 
 
 !! !SINGULAR GENITIVE STEMS
