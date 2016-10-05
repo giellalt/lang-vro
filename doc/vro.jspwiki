@@ -293,6 +293,7 @@ symbols in the lexicon files:
  __ %{XV%}		__ This is used for echoing the previous vowel
  __ %{XC%}		__ This is used for lengthening a consonant
  __ %^I7         __  This appears in stem vaoma:va%^I7o for vaio
+ __ %^K7         __  This appears in stem väemä:vä%^K7e for väkeq
  __ %^V7         __  This appears in stem häömä:hä%^V7ö for hävvü
  __ %^T7         __  This appears in stem kaoma:ka%^T7o for katoq
  __ %^Y7         __  This appears for syna = s%^Y7na and is rendered as õ in the norm
@@ -434,10 +435,11 @@ special letters
   %{XC%}:0	 This is used for lengthening a consonant
 
   %^I7:0          This appears in stem vaoma:va%^I7o for vaio
+  %^K7:0           This appears in stem väemä:vä%^K7e for väkeq
   %^V7:0          This appears in stem häömä:hä%^V7ö for hävvü
   %^T7:0          This appears in stem kaoma:ka%^T7o for katoq
 
- __Y7:õ  __  This appears for syna = s%^Y7na and is rendered as õ in the norm
+ __%^Y7:õ  __  This appears for syna = s%^Y7na and is rendered as õ in the norm
 
 Triggers
   %^Õ2E:0	  lugõ%^Pen%^WGStem%^Õ2E loe
@@ -770,9 +772,10 @@ __%^I7:i__
 * __va%^I7o%^StrGStem%>i __
 * __vaio0%>0 __
 
+
 __%^V7:v with 0:v__
-* __hä%^V70ö%^StrGStem%>i __
-* __hävvü0%>0 __
+* __hä%^V70ö%^StrGStem __
+* __hävvü0 __
 
 
 SECONDARY CONSONANT LENGTHENING

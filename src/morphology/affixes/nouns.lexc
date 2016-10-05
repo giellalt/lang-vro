@@ -411,6 +411,15 @@ LEXICON N_11KELMEQ-SG
 LEXICON N_11KELMEQ-PL
 +N:%{front%} NMN_11AINÕQ/KELMEQ-PL ;
 
+LEXICON N_11VAIH !!= @CODE@ vaih:vaih
++N:	ATTESTED-NOUN-STEM-CONTINUED ;
+ N_11VAIH-SG ;
+ N_11VAIH-PL ;
+LEXICON N_11VAIH-SG
++N:%{back%} NMN_11VAIH/XX-SG ;
+LEXICON N_11VAIH-PL
++N:%{back%} NMN_11VAIH/XX-PL ;
+
 LEXICON N_12REPÄNʼ
 +N:ʼ	ATTESTED-NOUN-STEM-CONTINUED ;
  N_12REPÄNʼ-SG ;
@@ -2592,6 +2601,40 @@ LEXICON NMN_11AINÕQ/KELMEQ-PL
 +Use/NG+Pl+Ill:%^VowRM%>id%{eõ%} K ;
 +Use/NG+Pl+Ill:%^VowRM%>iid%{eõ%} K ;
 +Use/NG+Pl+Ill:%^Pen%^WGStem%>t%{eõ%}d%{eõ%} K ;
+
+LEXICON NMN_11VAIH/XX !!= @CODE@ vaih:vaih
+!! __A-vaih11__
+  NMN_11VAIH/XX-SG ;
+  NMN_11VAIH/XX-PL ;
+
+LEXICON NMN_11VAIH/XX-SG 
+ ATTESTED-NOUN-STEM-CONTINUED ;
++Sg+Nom: K ;
+:%{eõ%} SG-GEN_ZERO-STEM ;
++Use/NG:h%{eõ%} SG-GEN_ZERO-STEM ;
++Sg+Par:%>t K ;
++Sg+Ill:%{eõ%} K ;
++Use/NG+Sg+Ill:d%{eõ%} K ;
+
+LEXICON NMN_11VAIH/XX-PL 
++Pl+Nom:%{eõ%}q K ;
++Pl+Gen:%>id%{eõ%} K ;
++Pl+Par:%>it K ;
++Pl+Ill:%>ihe K ;
+:%>i Harm-Neutr_PL-ALL_lE-STEM ;
+:%>id%{eõ%} PL-COM ;
+
++Use/NG:%>iid%{eõ%} PL-COM ;
++Use/NG:%>t%{eõ%} PL-COM ;
++Use/NG:%>ii Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:%>t%{eõ%} Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG+Pl+Gen:%>iid%{eõ%} K ;
++Use/NG+Pl+Par:%>iid K ;
++Use/NG+Pl+Ill:%>iihe K ;
++Use/NG+Pl+Ill:%>t%{eõ%}he K ;
++Use/NG+Pl+Ill:%>id%{eõ%} K ;
++Use/NG+Pl+Ill:%>iid%{eõ%} K ;
++Use/NG+Pl+Ill:%>t%{eõ%}d%{eõ%} K ;
 
 LEXICON NMN_11ANNÕQ/LÄTEQ !!= @CODE@ ainõq:ainõ
 !! __A-ainwq11__

@@ -6,18 +6,26 @@
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
 morf_codes="+V+Inf/mA \
-            +V+Inf \
             +V+Act+Ind+Prs+Sg1 \
+            +V+Act+Ind+Prs+Sg2 \
             +V+Act+Ind+Prs+Sg3 \
+            +V+Act+Ind+Prs+Pl1 \
+            +V+Act+Ind+Prs+Pl2 \
+            +V+Act+Ind+Prs+Pl3 \
             +V+Act+Ind+Prt+Sg1 \
+            +V+Act+Ind+Prt+Sg2 \
             +V+Act+Ind+Prt+Sg3 \
-            +V+Act+Ind+ConNegII \
-            +V+Act+Jus \
-            +V+Act+PrfPrc    \
-            +V+Pss+PrfPrc"
+            +V+Act+Ind+Prt+Pl1 \
+            +V+Act+Ind+Prt+Pl2 \
+            +V+Act+Ind+Prt+Pl3"
+
+#            +V+Act+Ind+ConNegII 
+#            +V+Act+Jus 
+#            +V+Act+PrfPrc    
+#            +V+Pss+PrfPrc
 
 # Lexicon source file for lexicons and lemmas:
-source_file=src/morphology/stems/verbs.lexc
+source_file=src/morphology/stems/verbs_newwords.lexc
 
 # Lexicons that should NOT be used to extract lemmas (egrep expression):
 exception_lexicons="(flagK)"
