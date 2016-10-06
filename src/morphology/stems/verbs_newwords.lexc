@@ -12,7 +12,7 @@ test:test V_48ELÄMÄ "" ;
 !(VES 71) kasuma
 
 !kasuma:kasuma V_48 "_#suq, #u, ˋkasvi__kas|uma_" ;
-!kuioma:kuioma V_48 "_#daq, #__kuio|ma_" ;
+!kuioma:kuioma V_48 "_#daq, #__kuio|ma_" ; !kuioq, kuio, kuivi
 
 elämä:elä V_48ELÄMÄ "_#läq, #ä__el|ämä_" ;
 imemä:ime V_48ELÄMÄ "_#meq, #e__im|emä_" ;
@@ -601,7 +601,7 @@ vahelõma:vahel V_55KÕNÕLÕMA "_vaheldaq, vahelõ__vahelõma_" ;
 vaiõlõma:vaiõl V_55KÕNÕLÕMA "_#daq, #õ__vaiõl|õma_" ;
 videlemä:videl V_55HÄRELEMÄ "_#däq, #e__videl|emä_" ;
 vigõlõma:vigõl V_55KÕNÕLÕMA "_#daq, #õ__vigõl|õma_" ;
-
+!laiskõlõma !!
 
 !56 
 !(VES 85) ˋhiibõlõma
@@ -808,6 +808,7 @@ vigõlõma:vigõl V_55KÕNÕLÕMA "_#daq, #õ__vigõl|õma_" ;
 !57 
 !(VES 78) ˋtaplõma
 
+!võistlõma:
 !haiklõma:ˋhaiklõma V_57 "_haigõldaq, ˋhaiklõ__ˋhaiklõma_" ;
 !hilplõma:ˋhilplõma V_57 "_hilbõldaq, ˋhilplõ__ˋhilplõma_" ;
 !jahtʼlõma:ˋjahtʼlõma V_57 "_jaheldaq, ˋjahtʼlõ__ˋjahtʼlõma_" ;
@@ -841,7 +842,7 @@ vigõlõma:vigõl V_55KÕNÕLÕMA "_#daq, #õ__vigõl|õma_" ;
 
 !58 
 !(VES 83) hirnahtama tähendämä
-
+!ohostama:
 aivastama:aivasta V_58HIRNAHTAMA "_#q, #__aivasta|ma_" ;
 alandama:alanda V_58HIRNAHTAMA "_#q, #__alanda|ma_" ;
 alostama:alosta V_58HIRNAHTAMA "_#q, #__alosta|ma_" ;
@@ -1574,6 +1575,8 @@ väristämä:väristä V_58TÄHENDÄMÄ "_#q, #__väristä|mä_" ;
 !(VES 81) ˋkaotama
 !(VES 82) kergütämä
 
+pingutama:pinguta V_59KAOTAMA ;
+luulõtama:luulõta V_59KAOTAMA ;
 autama:ˋauta V_59KAOTAMA "_#taq, #da__ˋau|tama_" ;
 ammutama:ammuta V_59KAOTAMA "_#taq, #da__ammu|tama_" ;
 arotama:arota V_59KAOTAMA "_#taq, #da__aro|tama_" ;
@@ -3515,7 +3518,7 @@ vüürdümä:vöördü V_69HÜÜRDÜMÄ "_vü̬ü̬rdüdäq, vöörü__vü̬ü̬
 
 !70 
 !(VES 84) unõh(t)uma
-
+!unõhuma:unõhtu
 !eräldümä:eräldümä V_70 "_#däq, #__eräldü|mä_" ;
 !habrastuma:habrastuma V_70 "_#daq, #__habrastu|ma_" ;
 !habõnduma:habõnduma V_70 "_#daq, #__habõndu|ma_" ;
@@ -3857,12 +3860,12 @@ tsagama:tsaga V_76HIGOMA "_#kaq, #a__tsa|gama_" ;
 !(VES 54) süümä
 
 juuma:joo V_77JUUMA "_juvvaq, ju̬u̬, ˋjõi(õ)__ju̬u̬ma_" ;
-!kʼauma:ˋkʼauma V_77 "_ˋkʼavvuq, kʼau, käve__ˋkʼauma_" ;
-!kjauma:ˋkjauma V_77 "_ˋkjavvuq, kjau, käve__ˋkjauma_" ;
+!kʼauma:ˋkʼauma V_77 "_ˋkʼavvuq, kʼau, käve__ˋkʼauma_" ;!seto
+!kjauma:ˋkjauma V_77 "_ˋkjavvuq, kjau, käve__ˋkjauma_" ;!seto
 !käümä:ˋkäümä V_77 "_ˋkävvüq, käü, käve__ˋkäümä_" ;
 luuma:loo V_77JUUMA "_luvvaq, lu̬u̬, ˋlõi(õ)__lu̬u̬ma_" ;
 lüümä:löö V_77SÜÜMÄ "_lüvväq, lü̬ü̬, ˋlei(e)__lü̬ü̬mä_" ;
-!müümä:möö V_77 "_müvväq, mü̬ü̬, ˋmöi(e), möönüq__mü̬ü̬mä_" ;
+müümä:möö V_77SÜÜMÄ "_müvväq, mü̬ü̬, ˋmöi(e), möönüq__mü̬ü̬mä_" ;
 puuma:poo V_77JUUMA "_puvvaq, pu̬u̬, ˋpoi(õ)__pu̬u̬ma_" ;
 süümä:söö V_77SÜÜMÄ "_süvväq, sü̬ü̬, ˋsei(e)__sü̬ü̬mä_" ;
 tuuma:too V_77JUUMA "_tuvvaq, tu̬u̬, ˋtõi(õ)__tu̬u̬ma_" ;
