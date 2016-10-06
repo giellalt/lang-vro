@@ -1256,6 +1256,24 @@ LEXICON N_40UJA-SG
 LEXICON N_40UJA-PL
 +N:%{back%}     NMN_40UJA/XX-PL ;
 
+LEXICON N_40SAVV !!= @CODE@ savv:savvu
++N:%^VowRM	ATTESTED-NOUN-STEM-CONTINUED ;
+        N_40SAVV-SG ;
+        N_40SAVV-PL ;
+LEXICON N_40SAVV-SG
++N:%{back%}     NMN_40SAVV/TÜKK-SG ;
+LEXICON N_40SAVV-PL
++N:%{back%}     NMN_40SAVV/TÜKK-PL ;
+
+LEXICON N_40TÜKK !!= @CODE@ tükk:tükkü
++N:%^VowRM	ATTESTED-NOUN-STEM-CONTINUED ;
+        N_40TÜKK-SG ;
+        N_40TÜKK-PL ;
+LEXICON N_40TÜKK-SG
++N:%{front%}     NMN_40SAVV/TÜKK-SG ;
+LEXICON N_40TÜKK-PL
++N:%{front%}     NMN_40SAVV/TÜKK-PL ;
+
 LEXICON N_41KAND !!= @CODE@ kand:kand
 !! * Yaml: __aig, kand__
 +N:	ATTESTED-NOUN-STEM-CONTINUED ;
@@ -4548,6 +4566,30 @@ LEXICON NMN_40TALO/HELÜ-PL
 :%^Pen%^WGStem%^VowRM%{aä%}    Harm-Neutr_PL-ALL_lE-STEM ;
 :%^Pen%^StrGStem%^VowRM%{eõ%}    Harm-Neutr_PL-ALL_lE-STEM ;
 :%^Pen%^StrGStem%^VowRM%{aä%}    Harm-Neutr_PL-ALL_lE-STEM ;
+
+LEXICON NMN_40SAVV/TÜKK !!= * @CODE@ savv:savvu tükk:tükkü
+  NMN_40SAVV/TÜKK-SG ;
+  NMN_40SAVV/TÜKK-PL ;
+LEXICON NMN_40SAVV/TÜKK-SG 
+:%^VowRM        Harm-Neutr_SG-NOM  ;
+:%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;
+:       Harm-Neutr_SG-ILL_ZERO        ;
+:       Harm-Neutr_SG-PAR_ZERO        ;
+
+LEXICON NMN_40SAVV/TÜKK-PL 
+:%^Pen%^WGStem       Harm-Neutr_PL-NOM ;
+:%^VowRM%{aä%}    Harm-Neutr_PL-GEN_ZERO ;
+:%^VowRM%{eõ%}    Harm-Neutr_PL-GEN_ZERO ;
+:%^VowRM%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
+:%^VowRM%{aä%}    Harm-Neutr_PL-PAR_ZERO ;
+:%^VowRM%{eõ%}    Harm-Neutr_PL-ILL_ZERO ;
+:%^VowRM%{aä%}    Harm-Neutr_PL-ILL_ZERO ;
+:%^VowRM%{eõ%}    Harm-Neutr_PL-ILL_hE ;
+:%^VowRM%{aä%}    Harm-Neutr_PL-ILL_hE ;
+:%^Pen%^WGStem%^VowRM%{eõ%}    Harm-Neutr_PL-ALL_lE-STEM ;
+:%^Pen%^WGStem%^VowRM%{aä%}    Harm-Neutr_PL-ALL_lE-STEM ;
+:%^VowRM%{eõ%}    Harm-Neutr_PL-ALL_lE-STEM ;
+:%^VowRM%{aä%}    Harm-Neutr_PL-ALL_lE-STEM ;
 
 
 
