@@ -256,13 +256,13 @@ LEXICON V_56HIIBÕLÕMA/HEIKELEMÄ !!≈ * __@CODE@__ hiibõlõma:hiibõl
 LEXICON V_57TAPLÕMA
 !! taplõma:tapõl
 !! * Yaml: __taplwma57__
-+V:%{back%} V_57TAPLÕMA/KIIRDLEMÄ ;
-LEXICON V_57KIIRDLEMÄ 
-!! kiirdlemä:tapõl
++V:%{back%} V_57TAPLÕMA/ÜTLEMÄ ;
+LEXICON V_57ÜTLEMÄ 
+!! ütlemä:ütel
 !! * Yaml: __kiirdlemae57__
-+V:%{front%} V_57TAPLÕMA/KIIRDLEMÄ ;
++V:%{front%} V_57TAPLÕMA/ÜTLEMÄ ;
 
-LEXICON V_57TAPLÕMA/KIIRDLEMÄ
+LEXICON V_57TAPLÕMA/ÜTLEMÄ
 :%^Pen%^VowRM%{eõ%} Harm-Neutr_V0-IND-PRS-SC-12 ;
 :%{eõ%} Harm-Neutr_ACT-IND-PRS-CONNEG ;
 :%^Pen%^VowRM%{eõ%} ACT-IND-PRS-3_s/sEq ;
@@ -278,11 +278,41 @@ LEXICON V_57TAPLÕMA/KIIRDLEMÄ
 : Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
 :%^WGStem Harm-Neutr_JUUMA-PSS-PRF-PRC_d ;
 
-:%^Pen%^VowRM%>%{eõ%} V2N_minE ;
 :%^Pen%^VowRM%>%{eõ%} Harm-Neutr_INF_mA ;
 :%^Pen%^VowRM%>%{eõ%} Harm-Neutr_ACT-PRS-PRC_v ;
 : Harm-Neutr_INF_dAq ;
 : Harm-Neutr_PSS-PRFPRC_dU ;
+
+LEXICON V_57VÕITLÕMA
+!! võitlõma:võitõl
+!! * Yaml: __taplwma57__
++V:%{back%} V_57VÕITLÕMA/KIIRDLEMÄ ;
+LEXICON V_57KIIRDLEMÄ 
+!! kiirdlemä:keerdel
+!! * Yaml: __kiirdlemae57__
++V:%{front%} V_57VÕITLÕMA/KIIRDLEMÄ ;
+
+LEXICON V_57VÕITLÕMA/KIIRDLEMÄ
+:%^Pen%^VowRM%{eõ%} Harm-Neutr_V0-IND-PRS-SC-12 ;
+:%{eõ%} Harm-Neutr_ACT-IND-PRS-CONNEG ;
+:%^Pen%^VowRM%{eõ%} ACT-IND-PRS-3_s/sEq ;
+: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+
+:%^Pen%^VowRM V0-IND-PRT-SC-12_i ;
+:%{eõ%} Harm-Neutr_ACT-IND-PRT-CONNEG ;
+: Harm-Neutr_IND-PRT-SCSG3_APOSTROPHE ;
+: ACT-IND-PRT-PL3_q/vAq ;
+: Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+
+:%^VOWLower Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
+: Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
+:%^Pen%^WGStem Harm-Neutr_JUUMA-PSS-PRF-PRC_d ;
+
+:%^Pen%^VowRM%>%{eõ%} Harm-Neutr_INF_mA ;
+:%^Pen%^VowRM%>%{eõ%} Harm-Neutr_ACT-PRS-PRC_v ;
+
+:%^Pen%^WGStem Harm-Neutr_INF_dAq ;
+:%^Pen%^WGStem Harm-Neutr_PSS-PRFPRC_dU ;
 
 
 LEXICON V_58HIRNAHTAMA !!≈ * __@CODE@__ hirnahtama:hirnahta
@@ -685,12 +715,49 @@ LEXICON V_69SUURDUMA/HÜÜRDÜMÄ !!≈ * __@CODE@__ hüürdümä:höördü vowe
 
 LEXICON V_70UNÕHTUMA !!≈ * __@CODE@__ unõhtuma:unõhtu
 !! * Yaml: __V-unwhtuma__
-+V:%{back%} V_70UNÕHTUMA/ERÄLDÜMÄ ;
++V:%{back%} V_70UNÕHTUMA/ÄNGÄHTÜMÄ ;
+LEXICON V_70ÄNGÄHTÜMÄ !!≈ * __@CODE@__ eräldümä:eräldü
+!! * Yaml: __V-eraelduemae__
++V:%{front%} V_70UNÕHTUMA/ÄNGÄHTÜMÄ ;
+
+LEXICON V_70UNÕHTUMA/ÄNGÄHTÜMÄ !!≈ * __@CODE@__ unõhtuma:unõhtu
+: Harm-Neutr_V0-IND-PRS-SC-12 ;
+:%^Pen%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
+: Harm-Neutr_ACT-IND-PRS-CONNEG ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-CONNEG ;
+: ACT-IND-PRS-3_s/sEq ;
+:%^Pen%^WGStem ACT-IND-PRS-3_s/sEq ;
+: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+
+: Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
+: Harm-Neutr_ACT-IND-PRT-CONNEG ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRT-CONNEG ;
+: V0-IND-PRT-SCSG3_ZERO ;
+:%^Pen%^WGStem V0-IND-PRT-SCSG3_ZERO ;
+: Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+
+: Harm-Neutr_INF_mA ;
+:%^Pen%^WGStem Harm-Neutr_INF_mA ;
+: Harm-Neutr_INF_dAq ;
+:%^Pen%^WGStem Harm-Neutr_INF_dAq ;
+: Harm-Neutr_ACT-PRS-PRC_v ;
+:%^Pen%^WGStem Harm-Neutr_ACT-PRS-PRC_v ;
+: Harm-Neutr_ACT-PRF-PRC-ALL_nUq ;
+: Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
+: Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
+: Harm-Neutr_PSS-PRF-PRC_t ;
+:%^Pen%^WGStem Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
+:%^Pen%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
+
+LEXICON V_70VIPÕRDUMA !!≈ * __@CODE@__ unõhtuma:unõhtu
+!! * Yaml: __V-unwhtuma__
++V:%{back%} V_70VIPÕRDUMA/ERÄLDÜMÄ ;
 LEXICON V_70ERÄLDÜMÄ !!≈ * __@CODE@__ eräldümä:eräldü
 !! * Yaml: __V-eraelduemae__
-+V:%{front%} V_70UNÕHTUMA/ERÄLDÜMÄ ;
++V:%{front%} V_70VIPÕRDUMA/ERÄLDÜMÄ ;
 
-LEXICON V_70UNÕHTUMA/ERÄLDÜMÄ !!≈ * __@CODE@__ unõhtuma:unõhtu
+LEXICON V_70VIPÕRDUMA/ERÄLDÜMÄ !!≈ * __@CODE@__ unõhtuma:unõhtu
 : Harm-Neutr_V0-IND-PRS-SC-12 ;
 :%^Pen%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
 : Harm-Neutr_ACT-IND-PRS-CONNEG ;

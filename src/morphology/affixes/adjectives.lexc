@@ -22,25 +22,29 @@ LEXICON A_2ARTIKLI !!= @CODE@ suhvli:suhvli
 
 LEXICON A_3ALADU !!= @CODE@ aladu:aladu
 !! * Yaml: __A-aladu__
-+A:   NMN_3ALADU ;
-+A:%^Pen%^StrGStem BACK_COMP ;
++A:%{back%}   NMN_3ALADU ;
++A:%{back%}%^Pen%^StrGStem COMP ;
 
 LEXICON A_3PERÄDÜ !!= @CODE@ perädü:perädü
 !! * Yaml: __A-peraedue__
-+A:   NMN_3PERÄDÜ ;
-+A:%^Pen%^StrGStem FRONT_COMP ;
++A:%{front%}   NMN_3PERÄDÜ ;
++A:%{front%}%^Pen%^StrGStem COMP ;
 
 
 
 LEXICON A_4TERVÜS
-+A:  NMN_4TERVÜS ;
++A:%{front%}  NMN_4TERVÜS ;
 LEXICON A_4AINUS  !!= @CODE@ ainus:ainus
-+A:  NMN_4AINUS ;
-+A:%^CnsRM BACK_COMP ;
++A:%{back%}  NMN_4AINUS ;
++A:%{back%}%^CnsRM COMP ;
 
 LEXICON A_5OPPAJA
-+A:  NMN_5OPPAJA ;
-+A: BACK_COMP ;
++A:%{back%}  NMN_5OPPAJA ;
++A:%{back%} COMP ;
+
+LEXICON A_5MÄNGJÄ
++A:%{front%}  NMN_5MÄNGJÄ ;
++A:%{front%} COMP ;
 
 LEXICON A_6MAKÕ
 +A:  NMN_6MAKÕ ;
@@ -60,23 +64,23 @@ LEXICON A_9KIPÕNʼ/ELLÄI
 +A:%^Pen%^WGStem%>%{aä%} Harm-Neutr_COMP ;
 LEXICON A_9KIPÕNʼ
 !! * Yaml: __ellaei, suhvli__
-+A:     NMN_9KIPÕNʼ ;
-+A:%^Pen%^WGStem%>a BACK_COMP ;
++A:%{back%}     NMN_9KIPÕNʼ ;
++A:%{back%}%^Pen%^WGStem%>a COMP ;
 
 LEXICON A_9TUKÕV
 !! * Yaml: __tukwv__
-+A:	NMN_9TUKÕV ;
-+A:%^Pen%^WGStem%>a BACK_COMP ;
++A:%{back%}	NMN_9TUKÕV ;
++A:%{back%}%^Pen%^WGStem%>a COMP ;
 
 LEXICON A_9ELLÄI
 !! * Yaml: __ellaei__
 +A:     NMN_9ELLÄI ;
-+A:%^Pen%^WGStem%^I2J%>ä FRONT_COMP ;
++A:%^Pen%^WGStem%^I2J%>ä%{front%} COMP ;
 
 LEXICON A_9VERREV
 !! * Yaml: __verrev__
 +A:	NMN_9VERREV ;
-+A:%^Pen%^WGStem%>ä FRONT_COMP ;
++A:%^Pen%^WGStem%>ä%{front%} COMP ;
 
 
 LEXICON A_10HÕRAK
@@ -119,11 +123,11 @@ LEXICON A_18EHITÜS
 
 LEXICON A_19ALOMANÕ !!= @CODE@ alomanõ:aloma
 +A:%{back%}     NMN_19ALOMANÕ/PEDÄJÄNE ;
-+A:dsõ BACK_COMP ;
++A:dsõ%{back%} COMP ;
 
 LEXICON A_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
 +A:%{front%}	NMN_19ALOMANÕ/PEDÄJÄNE ;
-+A:dse FRONT_COMP ;
++A:dse%{front%} COMP ;
 
 LEXICON A_20VÄITSʼ
 +A:  NMN_20VÄITSʼ ;
@@ -133,19 +137,19 @@ LEXICON A_21HÜDSI
 
 LEXICON A_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
 +A:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE ;
-+A:sõ BACK_COMP ;
++A:%{back%}sõ COMP ;
 
 LEXICON A_23NUULʼ
 +A:  NMN_23NUULʼ ;
-+A:õ BACK_COMP ;
++A:%{back%}õ COMP ;
 
 LEXICON A_23SUURʼ
 +A:  NMN_23SUURʼ ;
-+A:õ BACK_COMP ;
++A:%{back%}õ COMP ;
 
 LEXICON A_23KIILʼ
 +A:  NMN_23KIILʼ ;
-+A:e FRONT_COMP ;
++A:e%{front%} COMP ;
 
 
 LEXICON A_24KÄSI
@@ -221,22 +225,22 @@ LEXICON A_44SÕDA
 
 LEXICON A_45KANA
 +A:  NMN_45KANA ;
-+A:%^VowRM%>õ BACK_COMP ;
++A:%^VowRM%>õ%{back%} COMP ;
 
 LEXICON A_46HAIN
 !! gradation: no
 +A:  NMN_46HAIN ;
-+A:%>õ BACK_COMP ;
++A:%>õ%{back%} COMP ;
 
 LEXICON A_46TARK
 !! gradation: yes
 +A:  NMN_46TARK ;
-+A:%^WGStem%>õ BACK_COMP ;
++A:%^WGStem%>õ%{back%} COMP ;
 
 LEXICON A_46SÕBÕR
 !! gradation: no
 +A:%{back%}  NMN_46SÕBÕR ;
-+A:%>a BACK_COMP ;
++A:%>a%{back%} COMP ;
 
 LEXICON A_47ASI
 +A:  NMN_47ASI ;
@@ -278,42 +282,25 @@ LEXICON Harm-Neutr_COMP-01
 
 
 
-LEXICON BACK_COMP
 
-+Comp:%^Pen%^WGStem%>mb BACK_COMP-01 ;
+LEXICON COMP
+
++Comp:%>mb NMN_COMP ;
 +Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>mp # ;
 +Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>p # ;
-LEXICON BACK_COMP-01
-:a SG-GEN_ZERO-STEM ;
-+Sg+Ill:alõ BACK_K ;
-+Sg+Ill:ahe BACK_K ;
-+Sg+Nom: BACK_K ;
+LEXICON NMN_COMP
+:%{aä%} SG-GEN_ZERO-STEM ;
++Sg+All:%{aä%}l%{eõ%} K ;
++Sg+Ill:%{aä%}he K ;
++Sg+Nom: K ;
 
 :i Harm-Neutr_PL-ALL_lE-STEM	;
 
-+Pl+Gen:idõ BACK_K ;
-+Pl+Ill:ihe BACK_K ;
-+Pl+Par:iid BACK_K ;
-+Pl+Com:idõgaq BACK_K ;
-+Use/NG+Pl+Com:idõga BACK_K ; !!= * @CODE@ no q
-
-LEXICON FRONT_COMP
-!!
-+Comp:%^Pen%^WGStem%>mb FRONT_COMP-01 ;
-+Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>mp # ;
-+Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>p # ;
-
-LEXICON FRONT_COMP-01
-:ä FRONT_SG-GEN_ZERO-STEM ;
-+Sg+Ill:ähe FRONT_K ;
-+Sg+Nom: FRONT_K ;
-
-:i FRONT_PL-ALL_le-STEM ;
-+Pl+Gen:ide FRONT_K ;
-+Pl+Ill:ihe FRONT_K ;
-+Pl+Par:iid FRONT_K ;
-+Pl+Com:idegaq BACK_K ;
-+Use/NG+Pl+Com:idega BACK_K ; !!= * @CODE@ no q
++Pl+Gen:id%{eõ%} K ;
++Pl+Ill:ihe K ;
++Pl+Par:iid K ;
++Pl+Com:id%{eõ%}gaq K ;
++Use/NG+Pl+Com:id%{eõ%}ga K ; !!= * @CODE@ no q
 
 
 !!
