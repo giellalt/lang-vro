@@ -180,9 +180,11 @@ LEXICON V_52ALOSTÕLÕMA/EHITELEMÄ !!≈ * __@CODE@__ alostõllõma:alostõl
 
 
 
+LEXICON V_53KAEMA !!≈ * __@CODE@__ 
++V:%{back%} V_53KAEMA/JÄÄMÄ ;
 LEXICON V_53JÄÄMÄ !!≈ * __@CODE@__ 
-+V:%{front%} V_53XX/JÄÄMÄ ;
-LEXICON V_53XX/JÄÄMÄ !!≈ * __@CODE@__ 
++V:%{front%} V_53KAEMA/JÄÄMÄ ;
+LEXICON V_53KAEMA/JÄÄMÄ !!≈ * __@CODE@__ 
 :%^VOWRaise V_77JUUMA/SÜÜMÄ_RAISED-VOWEL ; !!= * @CODE@ jää kii
 : V_77JUUMA/SÜÜMÄ_NOT-RAISED-VOWEL ; !!= * @CODE@ jäänüq keenüq
 :%^VOWRaise%^VowRM%>i V_77JUUMA/SÜÜMÄ_RAISED-VOWEL-TENSE ; !!= * @CODE@ jäi kii
@@ -871,10 +873,10 @@ LEXICON V_73VAOMA/XX
 
 !+Jus: vaoguq
 
-LEXICON V_74KULUMA !!≈ * __@CODE@__ kuluma:kulu
+LEXICON V_74KULUMA !!≈ * __@CODE@__ kuluma:kullu
 !! * Yaml: __V-kuluma__
 +V:%{back%} V_74KULUMA/VÄSÜMÄ ;
-LEXICON V_74VÄSÜMÄ !!≈ * __@CODE@__ väsümä:väsü
+LEXICON V_74VÄSÜMÄ !!≈ * __@CODE@__ väsümä:vässü
 !! * Yaml: __V-vaesuemae__
 +V:%{front%} V_74KULUMA/VÄSÜMÄ ;
 
@@ -1069,6 +1071,31 @@ LEXICON V_77JUUMA/SÜÜMÄ_NON-RAISED-VOWEL-TENSE !!= * @CODE@ jõi-
 : V0-IND-PRT-SCSG3_ZERO ;
 +Use/NG: Harm-Neutr_IND-PRT-SCSG3_E ;
 : ACT-IND-PRT-PL3_q/vAq ;
+
+LEXICON V_77KÄÜMÄ !!≈ * __@CODE@__ käümä:käü
+!! * Yaml: __sueuemae__
++V:%{front%} V_77XX/KÄÜMÄ ;
+
+LEXICON V_77XX/KÄÜMÄ !!≈ * __@CODE@__ käümä:käü
+
+:%^VOWRaise V_77JUUMA/SÜÜMÄ_RAISED-VOWEL ; !!= * @CODE@ (1) käü
+! PSS-PRSPRC, PSS-PRFPRC, ACT-PRSPRC, INF_mA
+
+: V_77JUUMA/SÜÜMÄ_NOT-RAISED-VOWEL ; !!= * @CODE@ (2) käü-
+!
+
+:%^VowRM%>vv V_77JUUMA/SÜÜMÄ_RAISED-VOWEL-TENSE ; !!= * @CODE@ (3) kävv
+!
+
+:%^VowRM%>ve V_77JUUMA/SÜÜMÄ_NON-RAISED-VOWEL-TENSE ; !!= * @CODE@ (4) käve
+!
+
+: ACT-IND-PRS-SG3_ZERO ; !!= * @CODE@ (5) RAISED käü
+! Act+Ind+Prs+Sg3
+
+: ACT-IND-PRS-PL3_vAq ; !!= * @CODE@ (6) käüväq
+
+
 
 LEXICON V_VÕIMA !!≈ * __@CODE@__ võima:või
 !! * Yaml: __V-vwima__
