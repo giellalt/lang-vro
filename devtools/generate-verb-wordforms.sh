@@ -31,11 +31,6 @@ morf_codes="+V+Inf/mA \
             +V+Act+Ind+Prt+Pl2 \
             +V+Act+Ind+Prt+Pl3"
 
-#            +V+Act+Ind+ConNegII 
-#            +V+Act+Jus 
-#            +V+Act+PrfPrc    
-#            +V+Pss+PrfPrc
-
 # Lexicon source file for lexicons and lemmas:
 source_file=src/morphology/stems/verbs_newwords.lexc
 
