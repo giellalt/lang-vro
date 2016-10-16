@@ -96,10 +96,13 @@ LEXICON A_12REPÄNʼ
 +A:  NMN_12REPÄNʼ ;
 
 LEXICON A_13ALONÕ !!= @CODE@ alonõ:alo
-+A:     NMN_13ALONÕ ;
++A:%{back%}     NMN_13ALONÕ/TÄHINE ;
 
 LEXICON A_13TÄHINE !!= @CODE@ tähine:tähi
-+A:     NMN_13TÄHINE ;
++A:%{front%}     NMN_13ALONÕ/TÄHINE ;
+
+LEXICON A_13SÄÄNE !!= @CODE@ sääne:sää
++A:%{front%}     NMN_13XX/SÄÄNE ;
 
 LEXICON A_14RITSʼKAS  !!= @CODE@ ritsʼkas:ritsʼka
 +A:%{back%} Harm-Neutr_COMP ;
