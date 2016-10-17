@@ -68,7 +68,6 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/adverbs.lexc \
 			 $(srcdir)/stems/conjunctors.lexc \
 			 $(srcdir)/stems/interjections.lexc \
-			 $(srcdir)/stems/nouns.lexc \
 			 $(srcdir)/stems/pronouns.lexc \
 			 $(srcdir)/stems/quantifiers.lexc
 
@@ -81,7 +80,6 @@ GT_XML_SRCS=\
 			 stems/adverbs.xml \
 			 stems/conjunctors.xml \
 			 stems/interjections.xml \
-			 stems/nouns.xml \
 			 stems/pronouns.xml \
 			 stems/quantifiers.xml 
 
