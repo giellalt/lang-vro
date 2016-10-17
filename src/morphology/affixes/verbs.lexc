@@ -30,6 +30,29 @@ LEXICON V_48KASUMA/XX
 : Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
 :%^VowRM%>õ%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
 
+LEXICON V_48KUIOMA
+!! There are other verbs here, cf. V_ELÄMÄ
+!! * Yaml: __V-kuioma48__
++V:%{back%} V_48KUIOMA/XX ;
+
+LEXICON V_48KUIOMA/XX
+: Harm-Neutr_V0-IND-PRS-SC-12 ;
+: Harm-Neutr_ACT-IND-PRS-CONNEG ;
+: ACT-IND-PRS-3_s/sEq ;
+: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+
+:%^StrGStem V0-IND-PRT-SC-12_i ;
+: Harm-Neutr_ACT-IND-PRT-CONNEG ;
+:%^StrGStem V0-IND-PRT-SCSG3_i ;
+: Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+
+: Harm-Neutr_INF_mA ;
+:%^StrGStem Harm-Neutr_INF_ZEROq ;
+: Harm-Neutr_ACT-PRS-PRC_v ;
+: Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
+: Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
+:%^VowRM%>õ%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
+
 LEXICON V_48PALAMA
 !! There are other verbs here, cf. V_ELÄMÄ
 !! * Yaml: __V-palama48__
