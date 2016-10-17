@@ -372,9 +372,9 @@ LEXICON PROP_13ALONÕ !!= @CODE@ alonõ:alo
 @U.Cap.Obl@	PROP_13ALONÕ-SG ;
 @U.Cap.Obl@	PROP_13ALONÕ-PL ;
 LEXICON PROP_13ALONÕ-SG
-+N+Prop:%{back%}     NMN_13ALONÕ-SG ;
++N+Prop:%{back%}     NMN_13ALONÕ/TÄHINE-SG ;
 LEXICON PROP_13ALONÕ-PL
-+N+Prop:%{back%}     NMN_13ALONÕ-PL ;
++N+Prop:%{back%}     NMN_13ALONÕ/TÄHINE-PL ;
 
 LEXICON PROP_13TÄHINE !!= @CODE@ tähine:tähi
 ! Gradation: No
@@ -382,9 +382,9 @@ LEXICON PROP_13TÄHINE !!= @CODE@ tähine:tähi
 @U.Cap.Obl@	PROP_13TÄHINE-SG ;
 @U.Cap.Obl@	PROP_13TÄHINE-PL ;
 LEXICON PROP_13TÄHINE-SG
-+N+Prop:%{front%}     NMN_13TÄHINE-SG ;
++N+Prop:%{front%}     NMN_13ALONÕ/TÄHINE-SG ;
 LEXICON PROP_13TÄHINE-PL
-+N+Prop:%{front%}     NMN_13TÄHINE-PL ;
++N+Prop:%{front%}     NMN_13ALONÕ/TÄHINE-PL ;
 
 LEXICON PROP_14RITSʼKAS !!= @CODE@ ritsʼkas:ritsʼka, saabas:saapa
 ! Gradation: No
