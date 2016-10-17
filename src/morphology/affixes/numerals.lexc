@@ -384,18 +384,18 @@ LEXICON NUM_13ALONÕ !!= @CODE@ alonõ:alo
 	N_13ALONÕ-SG ;
 	N_13ALONÕ-PL ;
 LEXICON NUM_13ALONÕ-SG
-+Num:%{back%}     NMN_13ALONÕ-SG ;
++Num:%{back%}     NMN_13ALONÕ/TÄHINE-SG ;
 LEXICON NUM_13ALONÕ-PL
-+Num:%{back%}     NMN_13ALONÕ-PL ;
++Num:%{back%}     NMN_13ALONÕ/TÄHINE-PL ;
 
 LEXICON NUM_13TÄHINE !!= @CODE@ tähine:tähi
 ! Gradation: No
 	N_13TÄHINE-SG ;
 	N_13TÄHINE-PL ;
 LEXICON NUM_13TÄHINE-SG
-+Num:%{front%}     NMN_13TÄHINE-SG ;
++Num:%{front%}     NMN_13ALONÕ/TÄHINE-SG ;
 LEXICON NUM_13TÄHINE-PL
-+Num:%{front%}     NMN_13TÄHINE-PL ;
++Num:%{front%}     NMN_13ALONÕ/TÄHINE-PL ;
 
 LEXICON NUM_14RITSʼKAS !!= @CODE@ ritsʼkas:ritsʼka
 ! Gradation: No
