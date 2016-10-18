@@ -85,6 +85,30 @@ LEXICON V_ELÄMÄ !!≈ * __@CODE@__ elämä:elä
 !! * Yaml: __elaemae48__
 +V:%{front%} V_48PALAMA/ELÄMÄ ;
 
+LEXICON V_48SADAMA
+!! There are other verbs here, cf. V_ELÄMÄ
+!! * Yaml: __V-sadama48__
++V:%{back%} V_48SADAMA/XX ;
+LEXICON V_48SADAMA/XX
+:%^StrGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
+: Harm-Neutr_ACT-IND-PRS-CONNEG ;
+: ACT-IND-PRS-3_s/sEq ;
+: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+
+:%^XStrGStem%>%{eõ%} Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
+!! Act_Prt_Sg1: sattõ
+: Harm-Neutr_ACT-IND-PRT-CONNEG ;
+:%^XStrGStem%>%{eõ%} V0-IND-PRT-SCSG3_ZERO ;
+: Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+
+: Harm-Neutr_INF_mA ;
+:%^StrGStem Harm-Neutr_INF_ZEROq ;
+: Harm-Neutr_ACT-PRS-PRC_v ;
+: Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
+: Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
+:%^VowRM%>%{aä%} Harm-Neutr_PSS-PRF-PRC_t ;
+!! Pss_PrfPrc: sadat
+
 LEXICON V_49LÕPMA !!≈ * __@CODE@__ lõpma:lõpp
 +V:%{back%} V_49LÕPMA/XX ;
 LEXICON V_49LÕPMA/XX !!≈ * __@CODE@__ lõpma:lõpp
@@ -693,12 +717,11 @@ LEXICON V_69HAARDUMA !!≈ * __@CODE@__ haarduma:haardu
 +V:%{back%} V_69HAARDUMA/SÜNDÜMÄ ;
 LEXICON V_69SÜNDÜMÄ !!≈ * __@CODE@__ sündümä:sündü
 +V:%{front%} V_69HAARDUMA/SÜNDÜMÄ ;
-+V+WORK: # ;
 LEXICON V_69HAARDUMA/SÜNDÜMÄ !!≈ * __@CODE@__ sündümä:sündü
 :%^Pen%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
 :%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-CONNEG ;
-:%^Pen%^WGStem ACT-IND-PRS-3_s/sEq ;
-
+: ACT-IND-PRS-3_s/sEq ;
+!! Act_Ind_Prs_Pl3: essüseq
 :%^Pen%^WGStem PSS-IND-PRS_tA/SG1 ;
 
 : Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
@@ -717,7 +740,6 @@ LEXICON V_69SUURDUMA !!≈ * __@CODE@__ suurduma:suurdu
 +V:%{back%} V_69SUURDUMA/HÜÜRDÜMÄ ;
 LEXICON V_69HÜÜRDÜMÄ !!≈ * __@CODE@__ hüürdümä:höördü
 +V:%{front%} V_69SUURDUMA/HÜÜRDÜMÄ ;
-+V+WORK: # ;
 LEXICON V_69SUURDUMA/HÜÜRDÜMÄ !!≈ * __@CODE@__ hüürdümä:höördü vowel raising Required 2016-09-15
 :%^Pen%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
 :%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-CONNEG ;
@@ -725,27 +747,28 @@ LEXICON V_69SUURDUMA/HÜÜRDÜMÄ !!≈ * __@CODE@__ hüürdümä:höördü vowe
 
 :%^Pen%^WGStem PSS-IND-PRS_tA/SG1 ;
 
-: Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
+:%^Pen%^VOWRaise Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
 :%^Pen%^WGStem Harm-Neutr_ACT-IND-PRT-CONNEG ;
-: V0-IND-PRT-SCSG3_ZERO ;
+:%^Pen%^VOWRaise V0-IND-PRT-SCSG3_ZERO ;
 :%^Pen%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
-: Harm-Neutr_INF_mA ;
-: Harm-Neutr_INF_dAq ;
-: Harm-Neutr_ACT-PRS-PRC_v ;
-: Harm-Neutr_ACT-PRF-PRC-ALL_nUq ;
+:%^Pen%^VOWRaise Harm-Neutr_INF_mA ;
+!! V_Inf/mA: miildümä 
+:%^Pen%^VOWRaise Harm-Neutr_INF_dAq ;
+:%^Pen%^VOWRaise Harm-Neutr_ACT-PRS-PRC_v ;
+:%^Pen%^VOWRaise Harm-Neutr_ACT-PRF-PRC-ALL_nUq ;
 :%^Pen%^WGStem Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
 :%^Pen%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
 
 
-LEXICON V_70UNÕHTUMA !!≈ * __@CODE@__ unõhtuma:unõhtu
-!! * Yaml: __V-unwhtuma__
-+V:%{back%} V_70UNÕHTUMA/ÄNGÄHTÜMÄ ;
-LEXICON V_70ÄNGÄHTÜMÄ !!≈ * __@CODE@__ eräldümä:eräldü
+LEXICON V_70UNÕHUMA !!≈ * __@CODE@__ unõhuma:unõhtu
+!! * Yaml: __V-unwhuma__
++V:%{back%} V_70UNÕHUMA/ÄNGÄHÜMÄ ;
+LEXICON V_70ÄNGÄHÜMÄ !!≈ * __@CODE@__ ängähümä:ängähtü
 !! * Yaml: __V-eraelduemae__
-+V:%{front%} V_70UNÕHTUMA/ÄNGÄHTÜMÄ ;
++V:%{front%} V_70UNÕHUMA/ÄNGÄHÜMÄ ;
 
-LEXICON V_70UNÕHTUMA/ÄNGÄHTÜMÄ !!≈ * __@CODE@__ unõhtuma:unõhtu
+LEXICON V_70UNÕHUMA/ÄNGÄHÜMÄ !!≈ * __@CODE@__ unõhuma:unõhtu
 : Harm-Neutr_V0-IND-PRS-SC-12 ;
 :%^Pen%^WGStem Harm-Neutr_V0-IND-PRS-SC-12 ;
 : Harm-Neutr_ACT-IND-PRS-CONNEG ;
@@ -753,6 +776,7 @@ LEXICON V_70UNÕHTUMA/ÄNGÄHTÜMÄ !!≈ * __@CODE@__ unõhtuma:unõhtu
 : ACT-IND-PRS-3_s/sEq ;
 :%^Pen%^WGStem ACT-IND-PRS-3_s/sEq ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+
 
 : Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
 :%^Pen%^WGStem Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
@@ -1667,7 +1691,6 @@ LEXICON V_85HAUDMA/VÄLKMÄ !!≈ * __@CODE@__ kakma:kakk haudma:haud
 :%^CC2C ACT-IND-PRT-PL3_q/vAq ;
 :%^WGStem%>%{uü%} Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
-:%^WGStem Harm-Neutr_INF_mA ;
 :%{uü%} Harm-Neutr_INF_ZEROq ;
 :%^CC2C Harm-Neutr_ACT-PRS-PRC_vA ;
 :%^CC2C Harm-Neutr_ACT-PRF-PRC-ALL_nUq ;
