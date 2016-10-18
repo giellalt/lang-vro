@@ -346,7 +346,8 @@ Rules
  ö:ü̬ <=>  [ # Cns* | Cns ] _ ö: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] ö: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise:  ;
 [ # Cns* | Cns ] ö: _ (HarmDummies:) %^VOWRaise: [#|%>] ;
-
+  [ # Cns* | Cns ] _ ö: [ s | t | k | l | n | r | m | t: s | r t: | v| r d:] Vow: (HarmDummies:)  %^Pen:  %^VOWRaise: ;
+ [ # Cns* | Cns ] ö: _ [ s | t | k | l | n | r | m | t: s | r t: | v] Vow: (HarmDummies:) %^Pen: %^VOWRaise:  ;
 
 "i2e"
 !! __@RULENAME@__
@@ -692,7 +693,7 @@ Rules
 ! aika: ajan
 "kToZero"
 !! __@RULENAME@__  
-k:0 <=> [h|k] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
+k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 !!€ puhkas%^WGStem%>taq
 !!€ puh0as0%>taq
 
@@ -701,6 +702,7 @@ k:0 <=> [h|k] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 ![ [ # ] Cns* Vow (( r | i ) k | t | h | l | r | s ) | Vow :Cns+ :Vow+ k ] _ [ Vow: | :Vow | ( Vow ) %> i ] ( %> i: | %^StretchSyll2:0 ) %> %^WCns:0 ;
 !        [ # ] Cns* VowBack i: _ [ GRC | %^D2S:0 i %> %^WCns:0 ] ;
   k _ [(HarmDummies:)|Vow: (HarmDummies:) %^Pen:] [ %^CC2C:0 | %^WGStem: ] ;
+  [h|s] _ [(HarmDummies:)|Vow: (HarmDummies:) %^Pen:] %^WGStem:  ;
 !!€ ikkõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%}
 !!€ ik000000%>ma
 
@@ -874,9 +876,14 @@ k:0 <=> [h|k] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 
 "k2g"
 !! __@RULENAME@__
- k:g <=> [Vow|Cns] _ (HarmDummies:) %^WGStem: ;
+ k:g <=> [Vow|Cns - [h|k|s]] _ (HarmDummies:) %^WGStem: ;
 !!€ hõrak%^WGStem%>a
 !!€ hõrag0%>a
+!!$ hõrak%^WGStem%>a
+!!$ hõraK0%>a
+!!€ kisk%^WGStem%>%{uü%}%>t%{aä%}v
+!!€ kis0%>u%>tav
+
      Vow (Cns) _ Vow Cns:+ (HarmDummies:) (ʼ:) %^Pen: %^WGStem: ;
 !!€ süküs%^Pen%^WGStem%>e
 !!€ sügüs0%>e
