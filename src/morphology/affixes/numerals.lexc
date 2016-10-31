@@ -884,6 +884,23 @@ LEXICON NUM_36LÄHK-SG
 LEXICON NUM_36LÄHK-PL
 +Num:%{front%} NMN_36LÄHK-PL ;
 
+LEXICON NUM_36KATSʼ !!= * @CODE@ katsʼ:kat
+ NUM_36KATSʼ-SG ;
+ NUM_36KATSʼ-PL ;
+LEXICON NUM_36KATSʼ-SG
++Num:%{back%} NMN_36KATSʼ/ÜTSʼ-SG ;
+LEXICON NUM_36KATSʼ-PL
++Num:%{back%} NMN_36KATSʼ/ÜTSʼ-PL ;
+
+LEXICON NUM_36ÜTSʼ !!= * @CODE@ ütsʼ:üt
+ NUM_36ÜTSʼ-SG ;
+ NUM_36ÜTSʼ-PL ;
+LEXICON NUM_36ÜTSʼ-SG
++Num:%{front%} NMN_36KATSʼ/ÜTSʼ-SG ;
+LEXICON NUM_36ÜTSʼ-PL
++Num:%{front%} NMN_36KATSʼ/ÜTSʼ-PL ;
+
+
 LEXICON NUM_KOGÕR
 !! kogõr:kogõr
 !! * Yaml: __N-kogwr36__
