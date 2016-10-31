@@ -1133,6 +1133,23 @@ LEXICON N_KOGÕR-SG
 LEXICON N_KOGÕR-PL
 +N:%{back%}     NMN_KOGÕR-PL ;
 
+LEXICON N_36KATSʼ !!= * @CODE@ katsʼ:kat
+ N_36KATSʼ-SG ;
+ N_36KATSʼ-PL ;
+LEXICON N_36KATSʼ-SG
++N:%{back%} NMN_36KATSʼ/ÜTSʼ-SG ;
+LEXICON N_36KATSʼ-PL
++N:%{back%} NMN_36KATSʼ/ÜTSʼ-PL ;
+
+LEXICON N_36ÜTSʼ !!= * @CODE@ ütsʼ:üt
+ N_36ÜTSʼ-SG ;
+ N_36ÜTSʼ-PL ;
+LEXICON N_36ÜTSʼ-SG
++N:%{front%} NMN_36KATSʼ/ÜTSʼ-SG ;
+LEXICON N_36ÜTSʼ-PL
++N:%{front%} NMN_36KATSʼ/ÜTSʼ-PL ;
+
+
 LEXICON N_46SÕBÕR
 !! sõbõr:sõbõr
 !! * Yaml: __N-swbwr36__
@@ -2121,6 +2138,24 @@ LEXICON NMN_36LÄHK-PL
 +Use/NG:%>i        FRONT_PL-ILL_ZERO       ;
 +Use/NG:%>i        FRONT_PL-ILL_de       ;
 
+LEXICON NMN_36KATSʼ/ÜTSʼ
+NMN_36KATSʼ/ÜTSʼ-SG ;
+NMN_36KATSʼ/ÜTSʼ-PL ;
+LEXICON NMN_36KATSʼ/ÜTSʼ-SG
+:sʼ        Harm-Neutr_SG-NOM  ;
+:%>%{eõ%}        Harm-Neutr_SG-GEN_ZERO-STEM       ;
+:t%>%{eõ%}        Harm-Neutr_SG-ILL_ZERO       ;
+:t%>%{eõ%}        Harm-Neutr_SG-PAR_ZERO        ;
+LEXICON NMN_36KATSʼ/ÜTSʼ-PL
+:%{eõ%}        Harm-Neutr_PL-NOM ;
+:s%>i     Harm-Neutr_PL-GEN_ZERO ;
+:s%>i        Harm-Neutr_PL-ILL_he       ;
+:s%>i        Harm-Neutr_PL-ALL_le-STEM       ;
+:s%>i      Harm-Neutr_PL-PAR_ZERO        ;
+:s%>i      PL-COM        ;
+!! Secondary
++Use/NG:s%>i        Harm-Neutr_PL-ILL_ZERO       ;
++Use/NG:s%>i        Harm-Neutr_PL-ILL_de       ;
 
 LEXICON NMN_9KIPÕNʼ/ELLÄI !!= @CODE@ kipõnʼ:kipõnʼ fixme 2016-08-27
 !! * Yaml: __N-kipwnj__
