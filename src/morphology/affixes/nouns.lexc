@@ -552,9 +552,20 @@ LEXICON N_15KOTUS
         N_15KOTUS-SG ;
         N_15KOTUS-PL ;
 LEXICON N_15KOTUS-SG
-+N:%{back%}     NMN_15KOTUS-SG ;
++N:%{back%}     NMN_15KOTUS/ILVES-SG ;
 LEXICON N_15KOTUS-PL
-+N:%{back%}     NMN_15KOTUS-PL ;
++N:%{back%}     NMN_15KOTUS/ILVES-PL ;
+
+LEXICON N_15ILVES
+!! kotus:kotus
+!! * Yaml: __N-ilves15__
++N:	ATTESTED-NOUN-STEM-CONTINUED ;
+        N_15ILVES-SG ;
+        N_15ILVES-PL ;
+LEXICON N_15ILVES-SG
++N:%{front%}     NMN_15KOTUS/ILVES-SG ;
+LEXICON N_15ILVES-PL
++N:%{front%}     NMN_15KOTUS/ILVES-PL ;
 
 
 LEXICON N_16INEMINE !!= @CODE@
@@ -3134,39 +3145,39 @@ LEXICON NMN_HAMÕH-PL
 +Use/NG:%^VowRM%>ii Harm-Neutr_PL-PAR_d ;
 +Use/NG:%^VowRM%>ii Harm-Neutr_PL-ALL_lE-STEM ;
 
-LEXICON NMN_15KOTUS
+LEXICON NMN_15KOTUS/ILVES
 !! kotus:kotus
 !! * Yaml: __N-kotus15__
-  NMN_15KOTUS-SG ;
-  NMN_15KOTUS-PL ;
+  NMN_15KOTUS/ILVES-SG ;
+  NMN_15KOTUS/ILVES-PL ;
 
-LEXICON NMN_15KOTUS-SG 
+LEXICON NMN_15KOTUS/ILVES-SG 
         Harm-Neutr_SG-NOM  ;
-:õ   SG-GEN_ZERO  ;
-   BACK_SG-PAR_t      ;
-:õ Harm-Neutr_SG-COM ;
-+Use/NG:%{XC%}õ   SG-GEN_ZERO-STEM        ;
-+Use/NG:%{XC%}õ   BACK_SG-ILL_dõ     ;
-+Use/NG:%{XC%}õ   BACK_SG-ILL_he     ;
-+Use/NG:%{XC%}õ Harm-Neutr_SG-COM ;
+:%{eõ%}   SG-GEN_ZERO  ;
+   Harm-Neutr_SG-PAR_t      ;
+:%{eõ%} Harm-Neutr_SG-COM ;
++Use/NG:%{XC%}%{eõ%}   SG-GEN_ZERO-STEM        ;
++Use/NG:%{XC%}%{eõ%}   Harm-Neutr_SG-ILL_dõ     ;
++Use/NG:%{XC%}%{eõ%}   Harm-Neutr_SG-ILL_he     ;
++Use/NG:%{XC%}%{eõ%} Harm-Neutr_SG-COM ;
 
-LEXICON NMN_15KOTUS-PL 
-:õ   Harm-Neutr_PL-NOM  ;
+LEXICON NMN_15KOTUS/ILVES-PL 
+:%{eõ%}   Harm-Neutr_PL-NOM  ;
 :%{XC%}i Harm-Neutr_PL-GEN_dE ;
-:%{XC%}i BACK_PL-ILL_he ;
+:%{XC%}i Harm-Neutr_PL-ILL_he ;
 :%{XC%}i Harm-Neutr_PL-PAR_t ;
 :%{XC%}i Harm-Neutr_PL-ALL_lE-STEM ;
-:%{XC%}idõ PL-COM ;
+:%{XC%}id%{eõ%} PL-COM ;
 
-+Use/NG:%{XC%}õ   Harm-Neutr_PL-NOM  ;
-+Use/NG:tõ Harm-Neutr_PL-GEN_ZERO ;
++Use/NG:%{XC%}%{eõ%}   Harm-Neutr_PL-NOM  ;
++Use/NG:t%{eõ%} Harm-Neutr_PL-GEN_ZERO ;
 +Use/NG:%{XC%}ii Harm-Neutr_PL-GEN_dE ;
 +Use/NG:%{XC%}ii Harm-Neutr_PL-PAR_d ;
-+Use/NG:stõ BACK_PL-ILL_he ;
++Use/NG:st%{eõ%} Harm-Neutr_PL-ILL_he ;
 +Use/NG:%{XC%}ii Harm-Neutr_PL-ALL_lE-STEM ;
-+Use/NG:tõ Harm-Neutr_PL-ALL_lE-STEM ;
-+Use/NG:%{XC%}iidõ PL-COM ;
-+Use/NG:tõ PL-COM ;
++Use/NG:t%{eõ%} Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:%{XC%}iid%{eõ%} PL-COM ;
++Use/NG:t%{eõ%} PL-COM ;
 
 LEXICON NMN_16ABILINÕ/INEMINE !!= @CODE@ inemine:inemi abilinõ:abili
 !! * Yaml: __N-inemine16__
