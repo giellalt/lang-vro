@@ -144,7 +144,7 @@ LEXICON RESTlargehours
 22@U.TIME.10@:kümme@U.TIME.10@ AFTpunkt ;
 23@U.TIME.11@:ütsʼtõist@U.TIME.11@ AFTpunkt ;
 %0%0@U.TIME.12@:katsʼtõist@U.TIME.12@ AFTpunkt ;
-%0%0@U.TIME.12@:puul% üü% @U.TIME.12@ # ;
+%0%0@U.TIME.12@:puulʼ% üü% @U.TIME.12@ # ;
 
 
 
@@ -302,7 +302,7 @@ LEXICON BEF
 27:kolmõ%  TOHALF ;
 28:katõ%  TOHALF ; 
 29:üte%  TOHALF ;
-3%0:puul%  HOUR ;
+3%0:puulʼ%  HOUR ;
 31:katõkümne% ütsä%  TO ;
 32:katõkümne% katsa%  TO ;
 33:katõkümne% säitsme%  TO ;
@@ -365,11 +365,12 @@ LEXICON AFT
 28:katsʼkümmend% katõsa+Use/NG%   ANDMINUTES_first ;
 29:katsʼkümmend% ütesä+Use/NG%   ANDMINUTES_first ;
 
+
 LEXICON ANDMINUTES_first
 :minotit+Use/NG%  HOUR ;
 
 LEXICON TOHALF
-:minodi% peräst% puul%  HOUR ;
+:minodi% peräst% puulʼ%  HOUR ;
 
 LEXICON TO
 :minodi% peräst%  HOUR ; ! variant
