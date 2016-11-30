@@ -139,9 +139,18 @@ LEXICON N_6MAKÕ
  N_6MAKÕ-SG ;
  N_6MAKÕ-PL ;
 LEXICON N_6MAKÕ-SG
-+N:%{back%} NMN_6MAKÕ-SG ;
++N:%{back%} NMN_6MAKÕ/HELLE-SG ;
 LEXICON N_6MAKÕ-PL
-+N:%{back%} NMN_6MAKÕ-PL ;
++N:%{back%} NMN_6MAKÕ/HELLE-PL ;
+
+LEXICON N_6HELLE
++N:	ATTESTED-NOUN-STEM-CONTINUED ;
+ N_6HELLE-SG ;
+ N_6HELLE-PL ;
+LEXICON N_6HELLE-SG
++N:%{front%} NMN_6MAKÕ/HELLE-SG ;
+LEXICON N_6HELLE-PL
++N:%{front%} NMN_6MAKÕ/HELLE-PL ;
 
 LEXICON N_7FÜÜSIGA
 !! * Yaml: __fueuesiga__
@@ -1878,18 +1887,18 @@ LEXICON NMN_5MÄNGJÄ-PL
 +Use/NG:%^VowRM%>ii%>de      PL-COM        ;
 
 
-LEXICON NMN_6MAKÕ !!= * @CODE@ makõ:makõ
-  NMN_6MAKÕ-SG ;
-  NMN_6MAKÕ-PL ;
+LEXICON NMN_6MAKÕ/HELLE !!= * @CODE@ makõ:makõ
+  NMN_6MAKÕ/HELLE-SG ;
+  NMN_6MAKÕ/HELLE-PL ;
 
-LEXICON NMN_6MAKÕ-SG 
+LEXICON NMN_6MAKÕ/HELLE-SG 
 !+WORK: #;
         Harm-Neutr_SG-NOM  ;
         SG-GEN_ZERO-STEM       ;
         BACK_SG-PAR_t        ;
 :%^Pen%^StrGStem        BACK_SG-ILL_he       ;
 
-LEXICON NMN_6MAKÕ-PL 
+LEXICON NMN_6MAKÕ/HELLE-PL 
 !+WORK: #;
         Harm-Neutr_PL-NOM ;
 :%^Pen%^StrGStem%^VowRM%>i     Harm-Neutr_PL-GEN_dE ;
