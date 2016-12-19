@@ -214,9 +214,20 @@ LEXICON PROP_9KIPÕNʼ
 @U.Cap.Obl@   PROP_9KIPÕNʼ-SG ;
 @U.Cap.Obl@   PROP_9KIPÕNʼ-PL ;
 LEXICON PROP_9KIPÕNʼ-SG
-+N+Prop:%{back%}     NMN_9KIPÕNʼ-SG ;
++N+Prop:%{back%}     NMN_9KIPÕNʼ/VETELʼ-SG ;
 LEXICON PROP_9KIPÕNʼ-PL
-+N+Prop:%{back%}     NMN_9KIPÕNʼ-PL ;
++N+Prop:%{back%}     NMN_9KIPÕNʼ/VETELʼ-PL ;
+
+LEXICON PROP_9SALLAI
+!! sallai:sallai
+!! * Yaml: __N-ellaei4, N-kipwnj9__
+:%^Pen%^WGStem%>ä PROP-PLC-DOWNCASE-SG-GEN ;
+@U.Cap.Obl@   PROP_9SALLAI-SG ;
+@U.Cap.Obl@   PROP_9SALLAI-PL ;
+LEXICON PROP_9SALLAI-SG
++N+Prop:%{back%}	NMN_9SALLAI/ELLÄI-SG ;
+LEXICON PROP_9SALLAI-PL
++N+Prop:%{back%}	NMN_9SALLAI/ELLÄI-PL ;
 
 LEXICON PROP_9ELLÄI
 !! elläi:elläi
@@ -225,9 +236,9 @@ LEXICON PROP_9ELLÄI
 @U.Cap.Obl@   PROP_9ELLÄI-SG ;
 @U.Cap.Obl@   PROP_9ELLÄI-PL ;
 LEXICON PROP_9ELLÄI-SG
-+N+Prop:	NMN_9ELLÄI-SG ;
++N+Prop:%{front%}	NMN_9SALLAI/ELLÄI-SG ;
 LEXICON PROP_9ELLÄI-PL
-+N+Prop:	NMN_9ELLÄI-PL ;
++N+Prop:%{front%}	NMN_9SALLAI/ELLÄI-PL ;
 
 LEXICON PROP_10HÕRAK !!= @CODE@ hõrak:hõrak
 :%^WGStem%>a PROP-PLC-DOWNCASE-SG-GEN ;

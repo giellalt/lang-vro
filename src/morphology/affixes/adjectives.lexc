@@ -64,17 +64,27 @@ LEXICON A_9KIPÕNʼ/ELLÄI
 +A:%^Pen%^WGStem%>%{aä%} Harm-Neutr_COMP ;
 LEXICON A_9KIPÕNʼ
 !! * Yaml: __ellaei, suhvli__
-+A:%{back%}     NMN_9KIPÕNʼ ;
++A:%{back%}     NMN_9KIPÕNʼ/VETELʼ ;
 +A:%{back%}%^Pen%^WGStem%>a COMP ;
+
+LEXICON A_9VETELʼ
+!! * Yaml: __ellaei, suhvli__
++A:%{front%}     NMN_9KIPÕNʼ/VETELʼ ;
++A:%{front%}%^Pen%^WGStem%>a COMP ;
 
 LEXICON A_9TUKÕV
 !! * Yaml: __tukwv__
 +A:%{back%}	NMN_9TUKÕV ;
 +A:%{back%}%^Pen%^WGStem%>a COMP ;
 
+LEXICON A_9SALLAI
+!! * Yaml: __sallai__
++A:%{back%}     NMN_9SALLAI/ELLÄI ;
++A:%^Pen%^WGStem%^I2J%>a%{back%} COMP ;
+
 LEXICON A_9ELLÄI
 !! * Yaml: __ellaei__
-+A:     NMN_9ELLÄI ;
++A:%{front%}     NMN_9SALLAI/ELLÄI ;
 +A:%^Pen%^WGStem%^I2J%>ä%{front%} COMP ;
 
 LEXICON A_9VERREV
