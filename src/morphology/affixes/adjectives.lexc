@@ -74,8 +74,13 @@ LEXICON A_9VETELʼ
 
 LEXICON A_9TUKÕV
 !! * Yaml: __tukwv__
-+A:%{back%}	NMN_9TUKÕV ;
++A:%{back%}	NMN_9TUKÕV/VERREV ;
 +A:%{back%}%^Pen%^WGStem%>a COMP ;
+
+LEXICON A_9VERREV
+!! * Yaml: __verrev__
++A:%{front%}	NMN_9TUKÕV/VERREV ;
++A:%^Pen%^WGStem%>ä%{front%} COMP ;
 
 LEXICON A_9SALLAI
 !! * Yaml: __sallai__
@@ -87,10 +92,6 @@ LEXICON A_9ELLÄI
 +A:%{front%}     NMN_9SALLAI/ELLÄI ;
 +A:%^Pen%^WGStem%^I2J%>ä%{front%} COMP ;
 
-LEXICON A_9VERREV
-!! * Yaml: __verrev__
-+A:	NMN_9VERREV ;
-+A:%^Pen%^WGStem%>ä%{front%} COMP ;
 
 
 LEXICON A_10HÕRAK
