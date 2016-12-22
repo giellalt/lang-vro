@@ -292,6 +292,24 @@ symbols in the lexicon files:
  __ %{uü%} 	__ Vowel harmony with "u/ü"
  __ %{XV%}		__ This is used for echoing the previous vowel
  __ %{XC%}		__ This is used for lengthening a consonant
+
+gemination
+  %{hØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{jØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{lØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{mØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{nØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{rØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{sØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{vØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+strong and weak
+  %{pb%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{td%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kg%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+
+
+
+
  __ %^I7         __  This appears in stem vaoma:va%^I7o for vaio
  __ %^K7         __  This appears in stem väemä:vä%^K7e for väkeq
  __ %^V7         __  This appears in stem häömä:hä%^V7ö for hävvü
@@ -427,6 +445,20 @@ special letters
   %{aä%}:0 	 Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
   %{eõ%}:0 	 Vowel harmony with "e/õ"
   %{uü%}:0 	 Vowel harmony with "u/ü"
+
+  %{hØ%}:h 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{jØ%}:j 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{lØ%}:l 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{mØ%}:m 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{nØ%}:n 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{rØ%}:r 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{sØ%}:s 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{vØ%}:v 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+
+  %{pb%}:p 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kg%}:k 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+
 
 
   %{XV%}:0		 This is used for echoing the previous vowel
@@ -856,6 +888,7 @@ kevväi+N+Sg+Gen: __spring__
 * __kevväi%^Pen%^WGStem%>ä __
 * __kev0äj00%>ä __
 
+
 __lToZero__
 * __elläi%^Pen%^WGStem%^I2J%>ä __
 * __el0äj00%>ä __
@@ -865,6 +898,11 @@ __lToZero__
 * __kullõl^Pen%^VowRM%>%{eõ%}%>ma __
 * __kul00l00%>õ%>ma __
 
+__XØToZero__
+* __e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä __
+* __e0läj00%>ä __
+
+__StrongToWeak__
 
 __rToZero__
 * __perre%^WGStem%>h __

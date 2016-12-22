@@ -24,6 +24,20 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{aä%}:0 	!!= @CODE@ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
  %{eõ%}:0 	!!= @CODE@ Vowel harmony with "e/õ"
  %{uü%}:0 	!!= @CODE@ Vowel harmony with "u/ü"
+ 
+ %{hØ%}:h 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{jØ%}:j 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{lØ%}:l 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{mØ%}:m 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{nØ%}:n 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{rØ%}:r 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{sØ%}:s 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{vØ%}:v 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+
+ %{pb%}:p 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{td%}:t 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kg%}:k 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+
 
 
  %{XV%}:0		!!= @CODE@ This is used for echoing the previous vowel
@@ -727,6 +741,7 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 !!€ kevväi%^Pen%^WGStem%>ä
 !!€ kev0äj00%>ä
 
+
 "lToZero"
 !! __@RULENAME@__
  l:0 <=> l _ Vow (Cns:* |i:) (HarmDummies:) %^Pen: %^WGStem: ;
@@ -742,6 +757,18 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 !!€ kullõl^Pen%^VowRM%>%{eõ%}%>ma
 !!€ kul00l00%>õ%>ma
 
+"XØToZero"
+!! __@RULENAME@__
+ Cx:0 <=> _ Cns (ʼ) Vow (Cns:* |i:) (HarmDummies:) %^Pen: %^WGStem: ;
+         where Cx in (%{hØ%} %{jØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{vØ%}) ;
+!!€ e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä
+!!€ e0läj00%>ä
+
+"StrongToWeak"
+!! __@RULENAME@__
+ Cx:Cy <=> Vow _ (ʼ) Vow (Cns:* |i:) (HarmDummies:) %^Pen: %^WGStem: ;
+      where Cx in (%{pb%} %{td%} %{kg%} )
+            Cy in (   b       d     g   )   matched ;
 
 "rToZero"
 !! __@RULENAME@__
