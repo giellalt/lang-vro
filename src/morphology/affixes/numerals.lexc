@@ -108,9 +108,9 @@ LEXICON NUM_5OPPAJA
    NUM_5OPPAJA-PL ;
 
 LEXICON NUM_5OPPAJA-SG
-+Num:%{back%}	NMN_5OPPAJA-SG ;
++Num:%{back%}	NMN_5OPPAJA/MÄNGJÄ-SG ;
 LEXICON NUM_5OPPAJA-PL
-+Num:%{back%}	NMN_5OPPAJA-PL ;
++Num:%{back%}	NMN_5OPPAJA/MÄNGJÄ-PL ;
 
 LEXICON NUM_5MÄNGJÄ
 !! * Yaml: __N-mängjä5__
@@ -118,17 +118,17 @@ LEXICON NUM_5MÄNGJÄ
    NUM_5MÄNGJÄ-PL ;
 
 LEXICON NUM_5MÄNGJÄ-SG
-+Num:	NMN_5MÄNGJÄ-SG ;
++Num:	NMN_5OPPAJA/MÄNGJÄ-SG ;
 LEXICON NUM_5MÄNGJÄ-PL
-+Num:	NMN_5MÄNGJÄ-PL ;
++Num:	NMN_5OPPAJA/MÄNGJÄ-PL ;
 
 LEXICON NUM_6MAKÕ
  NUM_6MAKÕ-SG ;
  NUM_6MAKÕ-PL ;
 LEXICON NUM_6MAKÕ-SG
-+Num:%{back%} NMN_6MAKÕ-SG ;
++Num:%{back%} NMN_6MAKÕ/HELLE-SG ;
 LEXICON NUM_6MAKÕ-PL
-+Num:%{back%} NMN_6MAKÕ-PL ;
++Num:%{back%} NMN_6MAKÕ/HELLE-PL ;
 
 LEXICON NUM_7FÜÜSIGA
 !! * Yaml: __fueuesiga__
@@ -186,9 +186,9 @@ LEXICON NUM_9KIPÕNʼ
    NUM_9KIPÕNʼ-SG ;
    NUM_9KIPÕNʼ-PL ;
 LEXICON NUM_9KIPÕNʼ-SG
-+Num:%{back%}     NMN_9KIPÕNʼ-SG ;
++Num:%{back%}     NMN_9KIPÕNʼ/VETELʼ-SG ;
 LEXICON NUM_9KIPÕNʼ-PL
-+Num:%{back%}     NMN_9KIPÕNʼ-PL ;
++Num:%{back%}     NMN_9KIPÕNʼ/VETELʼ-PL ;
 
 LEXICON NUM_9ALLASʼ
 !! allasʼ:allas
@@ -196,9 +196,9 @@ LEXICON NUM_9ALLASʼ
    NUM_9ALLASʼ-SG ;
    NUM_9ALLASʼ-PL ;
 LEXICON NUM_9ALLASʼ-SG
-+Num:%{back%}     NMN_9ALLASʼ-SG ;
++Num:%{back%}     NMN_9ALLASʼ/SINNELʼ-SG ;
 LEXICON NUM_9ALLASʼ-PL
-+Num:%{back%}     NMN_9ALLASʼ-PL ;
++Num:%{back%}     NMN_9ALLASʼ/SINNELʼ-PL ;
 
 LEXICON NUM_9VETELʼ
 !! vetelʼ:vetel
@@ -216,9 +216,9 @@ LEXICON NUM_9TUKÕV
    NUM_9TUKÕV-SG ;
    NUM_9TUKÕV-PL ;
 LEXICON NUM_9TUKÕV-SG
-+Num:%{back%}     NMN_9TUKÕV-SG ;
++Num:%{back%}     NMN_9TUKÕV/VERREV-SG ;
 LEXICON NUM_9TUKÕV-PL
-+Num:%{back%}     NMN_9TUKÕV-PL ;
++Num:%{back%}     NMN_9TUKÕV/VERREV-PL ;
 
 LEXICON NUM_9ELLÄI
 !! elläi:elläi
@@ -226,9 +226,9 @@ LEXICON NUM_9ELLÄI
    NUM_9ELLÄI-SG ;
    NUM_9ELLÄI-PL ;
 LEXICON NUM_9ELLÄI-SG
-+Num:%{front%}     NMN_9ELLÄI-SG ;
++Num:%{front%}     NMN_9SALLAI/ELLÄI-SG ;
 LEXICON NUM_9ELLÄI-PL
-+Num:%{front%}     NMN_9ELLÄI-PL ;
++Num:%{front%}     NMN_9SALLAI/ELLÄI-PL ;
 
 LEXICON NUM_9VERREV
 !! verrev:verrev
@@ -1128,9 +1128,9 @@ LEXICON NUM_45KANA !!= @CODE@ kana:kana
         NUM_45KANA-SG ;
 	N_45KANA-PL ;
 LEXICON NUM_45KANA-SG
-+Num:%{back%}     NMN_45KANA-SG ;
++Num:%{back%}     NMN_45KANA/RIHÄ-SG ;
 LEXICON NUM_45KANA-PL
-+Num:%{back%}     NMN_45KANA-PL ;
++Num:%{back%}     NMN_45KANA/RIHÄ-PL ;
 
 
 LEXICON NUM_46HAIN !!= @CODE@ hain:hain
