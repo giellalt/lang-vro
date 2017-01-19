@@ -152,7 +152,7 @@ LEXICON N_6HELLE-SG
 LEXICON N_6HELLE-PL
 +N:%{front%} NMN_6MAKÕ/HELLE-PL ;
 
-LEXICON N_7FÜÜSIGA
+LEXICON N_7FÜÜSIGA !füüsiga:füüsi%{kg%}a
 !! * Yaml: __fueuesiga__
 +N:	ATTESTED-NOUN-STEM-CONTINUED ;
    N_7FÜÜSIGA-SG ;
@@ -412,7 +412,7 @@ LEXICON N_10AMMATʼ-SG
 LEXICON N_10AMMATʼ-PL
 +N:%{back%}     NMN_10AMMATʼ-PL ;
 
-LEXICON N_10HÜPÄTSʼ !!= @CODE@ hüpätsʼ:hüpätsʼ
+LEXICON N_10HÜPÄTSʼ !!= @CODE@ hüpätsʼ:hüpä%{td%}s
 +N:ʼ	ATTESTED-NOUN-STEM-CONTINUED ;
         N_10HÜPÄTSʼ-SG ;
 	N_10HÜPÄTSʼ-PL ;
@@ -889,16 +889,16 @@ LEXICON N_24SUSI-PL
 +N:%{back%} NMN_24SUSI-PL ;
 +N+Sg+Nom+WORK: K ;
 
-LEXICON N_25SÜÄQ
+LEXICON N_25SÜÄ
 !+N:	ATTESTED-NOUN-STEM-CONTINUED ;
-        N_25SÜÄQ-SG ;
-        N_25SÜÄQ-PL ;
-LEXICON N_25SÜÄQ-SG
-+N:%{front%}     NMN_25SÜÄQ-SG ;
-LEXICON N_25SÜÄQ-PL
-+N:%{front%}     NMN_25SÜÄQ-PL ;
+        N_25SÜÄ-SG ;
+        N_25SÜÄ-PL ;
+LEXICON N_25SÜÄ-SG
++N:%{front%}     NMN_25SÜÄ-SG ;
+LEXICON N_25SÜÄ-PL
++N:%{front%}     NMN_25SÜÄ-PL ;
 
-LEXICON N_25ASÕQ
+LEXICON N_25ASÕQ !asõq:asõ
 !+N:	ATTESTED-NOUN-STEM-CONTINUED ;
         N_25ASÕQ-SG ;
         N_25ASÕQ-PL ;
@@ -1095,9 +1095,18 @@ LEXICON N_34TULI ! tuli:tul
  N_34TULI-SG ;
  N_34TULI-PL ;
 LEXICON N_34TULI-SG
-+N:%{back%} NMN_34TULI-SG ;
++N:%{back%} NMN_34TULI/SÜLI-SG ;
 LEXICON N_34TULI-PL
-+N:%{back%} NMN_34TULI-PL ;
++N:%{back%} NMN_34TULI/SÜLI-PL ;
+
+LEXICON N_34SÜLI ! süli:sül
++N:i	ATTESTED-NOUN-STEM-CONTINUED ;
+ N_34SÜLI-SG ;
+ N_34SÜLI-PL ;
+LEXICON N_34SÜLI-SG
++N:%{front%} NMN_34TULI/SÜLI-SG ;
+LEXICON N_34SÜLI-PL
++N:%{front%} NMN_34TULI/SÜLI-PL ;
 
 LEXICON N_35TARÕ
 !! tarõ:tar
@@ -1975,29 +1984,29 @@ LEXICON NMN_7FÜÜSIGA
   NMN_7FÜÜSIGA-PL ;
 
 LEXICON NMN_7FÜÜSIGA-SG 
-	FRONT_SG-NOM  ;
-        SG-GEN_ZERO       ;
-:%^Pen%^StrGStem        Harm-Neutr_SG-PAR_t        ;
-:%^Pen%^StrGStem        Harm-Neutr_SG-ILL_he       ;
-:%^Pen%^StrGStem        Harm-Neutr_SG-ILL_dE       ;
-:%^Pen%^StrGStem	   Harm-Neutr_SG-ALL_lE-STEM ;
-	Harm-Neutr_SG-COM ;
+:%^Pen%^WGStem	Harm-Neutr_SG-NOM  ;
+:%^Pen%^WGStem        SG-GEN_ZERO       ;
+:        Harm-Neutr_SG-PAR_t        ;
+:        Harm-Neutr_SG-ILL_he       ;
+:        Harm-Neutr_SG-ILL_dE       ;
+:	   Harm-Neutr_SG-ALL_lE-STEM ;
+:%^Pen%^WGStem	Harm-Neutr_SG-COM ;
 
 LEXICON NMN_7FÜÜSIGA-PL 
-	Harm-Neutr_PL-NOM ;
-:%^Pen%^StrGStem%^VowRM%>i     Harm-Neutr_PL-GEN_dE ;
-:%^Pen%^StrGStem%^VowRM%>i        Harm-Neutr_PL-ILL_he       ;
-:%^Pen%^StrGStem%^VowRM%>i        Harm-Neutr_PL-ALL_lE-STEM       ;
-:%^Pen%^StrGStem%^VowRM%>i      Harm-Neutr_PL-PAR_t        ;
-:%^Pen%^StrGStem%^VowRM%>id%{eõ%}      PL-COM ;
+:%^Pen%^WGStem	Harm-Neutr_PL-NOM ;
+:%^VowRM%>i     Harm-Neutr_PL-GEN_dE ;
+:%^VowRM%>i        Harm-Neutr_PL-ILL_he       ;
+:%^VowRM%>i        Harm-Neutr_PL-ALL_lE-STEM       ;
+:%^VowRM%>i      Harm-Neutr_PL-PAR_t        ;
+:%^VowRM%>id%{eõ%}      PL-COM ;
 
-+Use/NG:%^Pen%^StrGStem%^VowRM%>ii     Harm-Neutr_PL-PAR_d ;
-+Use/NG:%^Pen%^StrGStem%^VowRM%>ii     Harm-Neutr_PL-GEN_dE ;
-+Use/NG:%^Pen%^StrGStem%^VowRM%>ii        Harm-Neutr_PL-ILL_he       ;
-+Use/NG:%^Pen%^StrGStem%^VowRM%>i        Harm-Neutr_PL-ILL_dE       ;
-+Use/NG:%^Pen%^StrGStem%^VowRM%>ii        Harm-Neutr_PL-ILL_dE       ;
-+Use/NG:%^Pen%^StrGStem%^VowRM%>ii        Harm-Neutr_PL-ALL_lE-STEM       ;
-+Use/NG:%^Pen%^StrGStem%^VowRM%>iid%{eõ%}      PL-COM ;
++Use/NG:%^VowRM%>ii     Harm-Neutr_PL-PAR_d ;
++Use/NG:%^VowRM%>ii     Harm-Neutr_PL-GEN_dE ;
++Use/NG:%^VowRM%>ii        Harm-Neutr_PL-ILL_he       ;
++Use/NG:%^VowRM%>i        Harm-Neutr_PL-ILL_dE       ;
++Use/NG:%^VowRM%>ii        Harm-Neutr_PL-ILL_dE       ;
++Use/NG:%^VowRM%>ii        Harm-Neutr_PL-ALL_lE-STEM       ;
++Use/NG:%^VowRM%>iid%{eõ%}      PL-COM ;
 
 LEXICON NMN_8KASK/HÄIELM
 !! * Yaml: __N-kask__
@@ -3821,13 +3830,13 @@ LEXICON NMN_24SUSI-PL
 +Use/NG:%^StrD2T%>õ             Harm-Neutr_PL-ALL_lE-STEM ;
 +Use/NG:%^StrD2T%>õ	PL-COM ;
 
-LEXICON NMN_25SÜÄQ ! süä:süä
+LEXICON NMN_25SÜÄ ! süä:süä
 !! * Yaml: __N-sueaeq25__
 !! Why is this equated with back-harmony asõq?
-  NMN_25SÜÄQ-SG ;
-  NMN_25SÜÄQ-PL ;
+  NMN_25SÜÄ-SG ;
+  NMN_25SÜÄ-PL ;
 
-LEXICON NMN_25SÜÄQ-SG 
+LEXICON NMN_25SÜÄ-SG 
 :%>me      FRONT_SG-GEN_ZERO-STEM ;
       	FRONT_SG-NOM ;
 :%>n             	FRONT_SG-PAR_d ;
@@ -3836,7 +3845,7 @@ LEXICON NMN_25SÜÄQ-SG
 
 +Use/NG:%>me     	FRONT_SG-ILL_de ;
 
-LEXICON NMN_25SÜÄQ-PL 
+LEXICON NMN_25SÜÄ-PL 
 :%>me      FRONT_PL-NOM ;
 :%>mi           FRONT_PL-GEN_de ;
 :mi           FRONT_PL-PAR_t ;
@@ -4363,17 +4372,17 @@ LEXICON NMN_33JÕGI/MÄGI-PL
 +Use/NG:%^XStrGStem%>i    Harm-Neutr_PL-ILL_ZERO ;
 +Use/NG:%^XStrGStem%>i    Harm-Neutr_PL-ILL_dE ;
 
-LEXICON NMN_34TULI
-  NMN_34TULI-SG ;
-  NMN_34TULI-PL ;
+LEXICON NMN_34TULI/SÜLI
+  NMN_34TULI/SÜLI-SG ;
+  NMN_34TULI/SÜLI-PL ;
 
-LEXICON NMN_34TULI-SG 
+LEXICON NMN_34TULI/SÜLI-SG 
 :i        Harm-Neutr_SG-NOM  ;			! tuli
 :%>õ       SG-GEN_ZERO-STEM   ;  ! tulõ
 :%^StrGStem%>õ       Harm-Neutr_SG-ILL_ZERO        ;
 :   BACK_SG-PAR_d  ;
 
-LEXICON NMN_34TULI-PL 
+LEXICON NMN_34TULI/SÜLI-PL 
 :%>õ       Harm-Neutr_PL-NOM ;         ! tulõq
 :%^StrGStem%>i    Harm-Neutr_PL-GEN_ZERO ;
 :%^StrGStem%>i    Harm-Neutr_PL-PAR_ZERO ;
@@ -4398,10 +4407,14 @@ LEXICON NMN_35TARÕ-PL
 :%^VowRM%>i    Harm-Neutr_PL-GEN_ZERO ;
 :%^VowRM%>i    Harm-Neutr_PL-PAR_ZERO ;
 :%^VowRM%>i    Harm-Neutr_PL-ILL_ZERO ;
-:%^VowRM%>i    Harm-Neutr_PL-ILL_hE ;
+:%^VowRM%>i    Harm-Neutr_PL-ILL_he ;
 :%^VowRM%>i  Harm-Neutr_PL-ALL_lE-STEM ;
+:%^VowRM%>i    PL-COM ;
 
-LEXICON NMN_35UMA/PESÄ !!= * @CODE@ pesä:pesä
++Use/NG:%^VowRM%>i    Harm-Neutr_PL-ILL_dE ;
++Use/NG:%^Pen%^WGStem%^VowRM%>i  Harm-Neutr_PL-ALL_lE-STEM ;
+
+LEXICON NMN_35UMA/PESÄ !!= * @CODE@ pesä:pe%{sØ%}sä
 !külä
   NMN_35UMA/PESÄ-SG ;
   NMN_35UMA/PESÄ-PL ;
@@ -4425,13 +4438,13 @@ LEXICON NMN_35LUMI/NIMI
   NMN_35LUMI/NIMI-SG ;
   NMN_35LUMI/NIMI-PL ;
 LEXICON NMN_35LUMI/NIMI-SG 
-:%^Pen%^WGStem%>i        Harm-Neutr_SG-NOM  ;
-:%^Pen%^WGStem%>%{eõ%}        SG-GEN_ZERO-STEM       ;
+:%^WGStem%>i        Harm-Neutr_SG-NOM  ;
+:%^WGStem%>%{eõ%}        SG-GEN_ZERO-STEM       ;
 :%>%{eõ%}        Harm-Neutr_SG-PAR_ZERO        ;
 :%>%{eõ%}        Harm-Neutr_SG-ILL_ZERO       ;
 
 LEXICON NMN_35LUMI/NIMI-PL 
-:%^Pen%^WGStem%>%{eõ%}        Harm-Neutr_PL-NOM ;
+:%^WGStem%>%{eõ%}        Harm-Neutr_PL-NOM ;
 :%>i     Harm-Neutr_PL-GEN_ZERO ;
 :%>i        Harm-Neutr_PL-ILL_he       ;
 +Use/NG:%>i        Harm-Neutr_PL-ILL_ZERO       ;

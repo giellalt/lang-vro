@@ -145,6 +145,8 @@ Cns = b d f g h j k l m n p q r s š t v z ž ;
 
 CnsVoiced = j l m n r v ;
 
+ArchCns =  %{hØ%} %{jØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{vØ%} %{pb%} %{td%} %{kg%} ;
+
 Letters = Vow Cns ;
 
 VowDummies = %^WGStem %> %^PenVowRM ;
@@ -405,7 +407,7 @@ Rules
 "a2o"
 !! __@RULENAME@__
 !! {{{
- a:o <=> OnSetC  _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
+ a:o <=> OnSetC  _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: | %^Pen: %^WGStem: ) %^PLPRT: ;
 !!€ kan0a%^StrGStem%^PLPRT
 !!€ kanno00
 !! }}}
@@ -428,7 +430,7 @@ Rules
 !! !VOWEL LOSS
 "a:0"
 !! __@RULENAME@__
- a:0 <=>  Cns: _ (HarmDummies:) [ (%^StrGStem:|%^Pen: %^WGStem:|%^Pen: %^CC2C:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: %> ]  ; 
+ a:0 <=> [ Cns:| ArchCns: ] _ (HarmDummies:) [ (%^StrGStem:|%^Pen: %^WGStem:|%^Pen: %^CC2C:) (0:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM: %> ]  ; 
       a _ (HarmDummies:) %>  i  ; !!= @CODE@ 
 !!€ saa%>i
 !!€ sa0%>i
@@ -759,7 +761,7 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 
 "XØToZero"
 !! __@RULENAME@__
- Cx:0 <=> _ Cns (ʼ) Vow (Cns:* |i:) (HarmDummies:) %^Pen: %^WGStem: ;
+ Cx:0 <=> _ Cns (ʼ) Vow: (Cns:* |i:) (HarmDummies:) %^Pen: %^WGStem: ;
          where Cx in (%{hØ%} %{jØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{vØ%}) ;
 !!€ e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä
 !!€ e0läj00%>ä
