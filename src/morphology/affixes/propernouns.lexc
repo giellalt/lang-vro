@@ -605,14 +605,14 @@ LEXICON PROP_24SUSI-PL
 +N+Prop:%{back%} NMN_24SUSI-PL ;
 +N+Sg+Nom+WORK: K ;
 
-LEXICON PROP_25SÜÄQ
+LEXICON PROP_25SÜÄ
 :%>me PROP-PLC-DOWNCASE-SG-GEN ;
-@U.Cap.Obl@  PROP_25SÜÄQ-SG ;
-@U.Cap.Obl@  PROP_25SÜÄQ-PL ;
-LEXICON PROP_25SÜÄQ-SG
-+N+Prop:%{front%}     NMN_25SÜÄQ-SG ;
-LEXICON PROP_25SÜÄQ-PL
-+N+Prop:%{front%}     NMN_25SÜÄQ-PL ;
+@U.Cap.Obl@  PROP_25SÜÄ-SG ;
+@U.Cap.Obl@  PROP_25SÜÄ-PL ;
+LEXICON PROP_25SÜÄ-SG
++N+Prop:%{front%}     NMN_25SÜÄ-SG ;
+LEXICON PROP_25SÜÄ-PL
++N+Prop:%{front%}     NMN_25SÜÄ-PL ;
 
 LEXICON PROP_25ASÕQ
 :mõ PROP-PLC-DOWNCASE-SG-GEN ;
@@ -755,9 +755,9 @@ LEXICON PROP_34TULI
  PROP_34TULI-SG ;
  PROP_34TULI-PL ;
 LEXICON PROP_34TULI-SG
-+N+Prop:%{back%} NMN_34TULI-SG ;
++N+Prop:%{back%} NMN_34TULI/SÜLI-SG ;
 LEXICON PROP_34TULI-PL
-+N+Prop:%{back%} NMN_34TULI-PL ;
++N+Prop:%{back%} NMN_34TULI/SÜLI-PL ;
 
 LEXICON PROP_35TARÕ
 !! tarõ:tar
