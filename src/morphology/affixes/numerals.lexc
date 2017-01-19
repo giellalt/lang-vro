@@ -644,13 +644,13 @@ LEXICON NUM_24SUSI-PL
 +Num:%{back%} NMN_24SUSI-PL ;
 +Num+Sg+Numom+WORK: K ;
 
-LEXICON NUM_25SÜÄQ
-        NUM_25SÜÄQ-SG ;
-        NUM_25SÜÄQ-PL ;
-LEXICON NUM_25SÜÄQ-SG
-+Num:%{front%}     NMN_25SÜÄQ-SG ;
-LEXICON NUM_25SÜÄQ-PL
-+Num:%{front%}     NMN_25SÜÄQ-PL ;
+LEXICON NUM_25SÜÄ
+        NUM_25SÜÄ-SG ;
+        NUM_25SÜÄ-PL ;
+LEXICON NUM_25SÜÄ-SG
++Num:%{front%}     NMN_25SÜÄ-SG ;
+LEXICON NUM_25SÜÄ-PL
++Num:%{front%}     NMN_25SÜÄ-PL ;
 
 LEXICON NUM_25ASÕQ
         NUM_25ASÕQ-SG ;
@@ -810,9 +810,9 @@ LEXICON NUM_34TULI
  NUM_34TULI-SG ;
  NUM_34TULI-PL ;
 LEXICON NUM_34TULI-SG
-+Num:%{back%} NMN_34TULI-SG ;
++Num:%{back%} NMN_34TULI/SÜLI-SG ;
 LEXICON NUM_34TULI-PL
-+Num:%{back%} NMN_34TULI-PL ;
++Num:%{back%} NMN_34TULI/SÜLI-PL ;
 
 LEXICON NUM_35TARÕ
 !! tarõ:tar
