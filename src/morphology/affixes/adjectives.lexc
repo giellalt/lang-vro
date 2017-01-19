@@ -39,15 +39,15 @@ LEXICON A_4AINUS  !!= @CODE@ ainus:ainus
 +A:%{back%}%^CnsRM COMP ;
 
 LEXICON A_5OPPAJA
-+A:%{back%}  NMN_5OPPAJA ;
++A:%{back%}  NMN_5OPPAJA/MÄNGJÄ ;
 +A:%{back%} COMP ;
 
 LEXICON A_5MÄNGJÄ
-+A:%{front%}  NMN_5MÄNGJÄ ;
++A:%{front%}  NMN_5OPPAJA/MÄNGJÄ ;
 +A:%{front%} COMP ;
 
 LEXICON A_6MAKÕ
-+A:  NMN_6MAKÕ ;
++A:  NMN_6MAKÕ/HELLE ;
 
 LEXICON A_7FÜÜSIGA
 +A:%{back%}  NMN_7FÜÜSIGA ;
@@ -238,7 +238,7 @@ LEXICON A_44SÕDA
 +A:  NMN_44SÕDA ;
 
 LEXICON A_45KANA
-+A:  NMN_45KANA ;
++A:  NMN_45KANA/RIHÄ ;
 +A:%^VowRM%>õ%{back%} COMP ;
 
 LEXICON A_46HAIN

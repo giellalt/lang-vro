@@ -258,6 +258,23 @@ Rules
 !!€ süü%^VOWLower%^WGStem%>nüq
 !!€ söö00%>nüq
 
+"ü2e"
+!! __@RULENAME@__
+!! {{{
+ ü:e <=> OnSetC _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: ) %^U2E: ;
+!!€ häbü%^StrGStem%^PLPRT
+!!€ häpe00
+    ü: _ (HarmDummies:) %> i ;
+!! }}}
+
+"ü2ä"
+!! __@RULENAME@__
+!! {{{
+ ü:ä <=> OnSetC _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: ) %^U2A: ;
+!!€ häbü%^StrGStem%^PLPRT
+!!€ häpä00
+!! }}}
+
 "u2a"
 !! __@RULENAME@__
  u:a <=>
@@ -384,23 +401,6 @@ Rules
 !!€ päiv%^ÄI2ÄÄ%>ä
 !!€ pääv0%>ä
 
-
-"ü2e"
-!! __@RULENAME@__
-!! {{{
- ü:e <=> OnSetC _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: ) %^U2E: ;
-!!€ häbü%^StrGStem%^PLPRT
-!!€ häpe00
-    ü: _ (HarmDummies:) %> i ;
-!! }}}
-
-"ü2ä"
-!! __@RULENAME@__
-!! {{{
- ü:ä <=> OnSetC _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: ) %^U2A: ;
-!!€ häbü%^StrGStem%^PLPRT
-!!€ häpä00
-!! }}}
 
 "a2o"
 !! __@RULENAME@__
