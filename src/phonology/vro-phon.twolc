@@ -24,6 +24,8 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{aä%}:0 	!!= @CODE@ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
  %{eõ%}:0 	!!= @CODE@ Vowel harmony with "e/õ"
  %{uü%}:0 	!!= @CODE@ Vowel harmony with "u/ü"
+
+
  
  %{hØ%}:h 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{jØ%}:j 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -37,6 +39,8 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{pb%}:p 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{td%}:t 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{kg%}:k 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+
+ %{tdØ%}:t 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
 
 
 
@@ -768,7 +772,7 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 
 "StrongToWeak"
 !! __@RULENAME@__
- Cx:Cy <=> Vow _ (ʼ) Vow (Cns:* |i:) (HarmDummies:) %^Pen: %^WGStem: ;
+ Cx:Cy <=> Vow _ (ʼ)[ Vow (Cns:* |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
       where Cx in (%{pb%} %{td%} %{kg%} )
             Cy in (   b       d     g   )   matched ;
 
