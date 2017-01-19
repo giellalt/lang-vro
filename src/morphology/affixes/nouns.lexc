@@ -119,9 +119,9 @@ LEXICON N_5OPPAJA
    N_5OPPAJA-PL ;
 
 LEXICON N_5OPPAJA-SG
-+N:%{back%}	NMN_5OPPAJA-SG ;
++N:%{back%}	NMN_5OPPAJA/MÄNGJÄ-SG ;
 LEXICON N_5OPPAJA-PL
-+N:%{back%}	NMN_5OPPAJA-PL ;
++N:%{back%}	NMN_5OPPAJA/MÄNGJÄ-PL ;
 
 LEXICON N_5MÄNGJÄ
 !! * Yaml: __N-mängjä5__
@@ -130,9 +130,9 @@ LEXICON N_5MÄNGJÄ
    N_5MÄNGJÄ-PL ;
 
 LEXICON N_5MÄNGJÄ-SG
-+N:	NMN_5MÄNGJÄ-SG ;
++N:	NMN_5OPPAJA/MÄNGJÄ-SG ;
 LEXICON N_5MÄNGJÄ-PL
-+N:	NMN_5MÄNGJÄ-PL ;
++N:	NMN_5OPPAJA/MÄNGJÄ-PL ;
 
 LEXICON N_6MAKÕ
 +N:	ATTESTED-NOUN-STEM-CONTINUED ;
@@ -1900,24 +1900,24 @@ LEXICON NMN_4AINUS-PL
 +Use/NG:%>t%{eõ%} PL-COM ;
 
 
-LEXICON NMN_5OPPAJA !!= * @CODE@ oppaja:oppaja
+LEXICON NMN_5OPPAJA/MÄNGJÄ !!= * @CODE@ oppaja:oppaja
 !! * Yaml: __N-oppaja5__
-  NMN_5OPPAJA-SG ;
-  NMN_5OPPAJA-PL ;
-LEXICON NMN_5OPPAJA-SG 
+  NMN_5OPPAJA/MÄNGJÄ-SG ;
+  NMN_5OPPAJA/MÄNGJÄ-PL ;
+LEXICON NMN_5OPPAJA/MÄNGJÄ-SG 
 	Harm-Neutr_SG-NOM	;
 	SG-GEN_ZERO-STEM       ;
-	BACK_SG-PAR_t	;
-	BACK_SG-ILL_he	;
-+Use/NG:	BACK_SG-ILL_dõ	;
-LEXICON NMN_5OPPAJA-PL
+	Harm-Neutr_SG-PAR_t	;
+	Harm-Neutr_SG-ILL_he	;
++Use/NG:	Harm-Neutr_SG-ILL_dE	;
+LEXICON NMN_5OPPAJA/MÄNGJÄ-PL
 	Harm-Neutr_PL-NOM ;
 :%^VowRM%>i	Harm-Neutr_PL-GEN_dE ;
 +Use/NG:%^VowRM%>ii	Harm-Neutr_PL-GEN_dE ;
 :%^VowRM%>i        BACK_PL-ILL_he       ;
 :%^VowRM%>i        Harm-Neutr_PL-ILL_dE       ;
 +Use/NG:%^VowRM%>ii        Harm-Neutr_PL-ILL_dE       ;
-+Use/NG:%^VowRM%>ii        BACK_PL-ILL_he       ;
++Use/NG:%^VowRM%>ii        Harm-Neutr_PL-ILL_he       ;
 :%^VowRM%>i        Harm-Neutr_PL-ALL_lE-STEM       ;
 +Use/NG:%^VowRM%>ii        Harm-Neutr_PL-ALL_lE-STEM       ;
 :%^VowRM%>i      Harm-Neutr_PL-PAR_t        ;
@@ -2243,7 +2243,7 @@ LEXICON NMN_36KATSʼ/ÜTSʼ-PL
 
 LEXICON NMN_9KIPÕNʼ/ELLÄI !!= @CODE@ kipõnʼ:kipõnʼ fixme 2016-08-27
 !! * Yaml: __N-kipwnj__
-   NMN_9KIPÕNʼ-SG ;
+   NMN_9KIPÕNʼ/VETELʼ-SG ;
 LEXICON NMN_9KIPÕNʼ/VETELʼ !!= @CODE@ kipõnʼ:kipõnʼ
 !! * Yaml: __N-kipwnj__
    NMN_9KIPÕNʼ/VETELʼ-SG ;
@@ -5070,8 +5070,8 @@ LEXICON NMN_44SÕDA-PL
 
 LEXICON NMN_45KANA/RIHÄ !!= * @CODE@ kana:ka%{nØ%}na
 !! * Yaml: __N-kana45__
-  NMN_45KANA-SG ;
-  NMN_45KANA-PL ;
+  NMN_45KANA/RIHÄ-SG ;
+  NMN_45KANA/RIHÄ-PL ;
 LEXICON NMN_45KANA/RIHÄ-SG 
 :%^Pen%^WGStem        Harm-Neutr_SG-NOM  ;
 :%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;
@@ -5277,10 +5277,10 @@ LEXICON FRONT_PL-ALL_le-STEM
 !! !PLURAL TAGS
 LEXICON Harm-Neutr_PL-ABE_ldAq
 +Pl+Abe:%>ld%{aä%}q K ;
-+Use/NG+Pl+Abe:%>ld%{aä%} K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Pl+Abe:%>ld%{aä%} K ; !!= * @CODE@ no q
 LEXICON FRONT_PL-ABE_ldäq
 +Pl+Abe:%>ldäq FRONT_K ;
-+Use/NG+Pl+Abe:%>ldä FRONT_K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Pl+Abe:%>ldä FRONT_K ; !!= * @CODE@ no q
 
 LEXICON Harm-Neutr_PL-ABL
 +Pl+Abl:%>lt K ;
@@ -5304,7 +5304,7 @@ LEXICON  FRONT_PL-ALL_dele
 
 LEXICON PL-COM
 +Pl+Com:%>gaq%{back%} K ;
-+Use/NG+Pl+Com:%>ga%{back%} K ;
++Err/Orth+Use/NG+Pl+Com:%>ga%{back%} K ;
 
 LEXICON Harm-Neutr_PL-ELA
 +Pl+Ela:%>st K ;
@@ -5439,11 +5439,11 @@ LEXICON	 FRONT_SG-ALL_le
 
 LEXICON	 Harm-Neutr_SG-COM
 +Sg+Com:%>gaq K ;
-+Use/NG+Sg+Com:%>ga K ; !!= * @CODE@ no q
-+Use/NG+Sg+Com:%>ga BACK_K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Sg+Com:%>ga K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Sg+Com:%>ga BACK_K ; !!= * @CODE@ no q
 LEXICON	 FRONT_SG-COM
 +Sg+Com:%>gaq BACK_K ;
-+Use/NG+Sg+Com:%>ga BACK_K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Sg+Com:%>ga BACK_K ; !!= * @CODE@ no q
 
 LEXICON	 SG-ELA_st
 +Sg+Ela:%>st K ;
