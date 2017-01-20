@@ -765,7 +765,7 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 
 "XØToZero"
 !! __@RULENAME@__
- Cx:0 <=> _ Cns (ʼ) Vow: (Cns:* |i:) (HarmDummies:) %^Pen: %^WGStem: ;
+ Cx:0 <=> _ Cns (ʼ) [Vow: (Cns:* |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
          where Cx in (%{hØ%} %{jØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{vØ%}) ;
 !!€ e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä
 !!€ e0läj00%>ä
@@ -773,8 +773,8 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 "StrongToWeak"
 !! __@RULENAME@__
  Cx:Cy <=> Vow _ (ʼ)[ Vow (Cns:* |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
-      where Cx in (%{pb%} %{td%} %{kg%} )
-            Cy in (   b       d     g   )   matched ;
+      where Cx in (%{pb%} %{td%} %{kg%} %{tdØ%} )
+            Cy in (   b       d     g      d    )   matched ;
 
 "rToZero"
 !! __@RULENAME@__
