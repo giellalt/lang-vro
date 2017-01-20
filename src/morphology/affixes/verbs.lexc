@@ -1872,6 +1872,8 @@ LEXICON ACT-IND-PRS-PL1_miq
 
 LEXICON ACT-IND-PRS-PL2_tiq
 +Act+Ind+Prs+Pl2:%>tiq K ;
+LEXICON ACT-IND-PRS-PL2_t
++Act+Ind+Prs+Pl2:%>t K ;
 LEXICON ACT-IND-PRS-PL2_dEq
 +Act+Ind+Prs+Pl2:%>d%{eõ%}q K ;
 
@@ -2192,27 +2194,27 @@ LEXICON Harm-Neutr_INF_mA
 
 LEXICON Harm-Neutr_INF_dAq
 +Inf:%>d%{aä%}q K ;
-+Use/NG+Inf:%>d%{aä%} K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Inf:%>d%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON Harm-Neutr_INF_iAq
 +Inf:%>i%{aä%}q K ;
-+Use/NG+Inf:%>i%{aä%} K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Inf:%>i%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON Harm-Neutr_INF_vAq
 +Inf:%>v%{aä%}q K ;
-+Use/NG+Inf:%>v%{aä%} K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Inf:%>v%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON Harm-Neutr_INF_Aq
 +Inf:%>%{aä%}q K ;
-+Use/NG+Inf:%>%{aä%} K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Inf:%>%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON Harm-Neutr_INF_tAq
 +Inf:%>t%{aä%}q K ;
-+Use/NG+Inf:%>t%{aä%} K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Inf:%>t%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON Harm-Neutr_INF_ZEROq
 +Inf:%>q K ;
-+Use/NG+Inf: K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Inf: K ; !!= * @CODE@ no q
 
 LEXICON V2N_minE
 +Der/minE+N:%>mis ATTESTED-NOUN-STEM-CONTINUED ;
