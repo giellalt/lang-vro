@@ -18,6 +18,8 @@ special letters
   %{eõ%}:0 	 Vowel harmony with "e/õ"
   %{uü%}:0 	 Vowel harmony with "u/ü"
 
+
+
   %{hØ%}:h 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{jØ%}:j 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{lØ%}:l 	 HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -30,6 +32,8 @@ special letters
   %{pb%}:p 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kg%}:k 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+
+  %{tdØ%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
 
 
 
@@ -109,6 +113,7 @@ Triggers
 
 
 
+
 Onset consonant or word boundary
 
 
@@ -161,6 +166,18 @@ __ü:ö__
 * __pö00000%>e%>t __
 * __süü%^VOWLower%^WGStem%>nüq __
 * __söö00%>nüq __
+
+__ü2e__
+{{{
+* __häbü%^StrGStem%^PLPRT __
+* __häpe00 __
+}}}
+
+__ü2ä__
+{{{
+* __häbü%^StrGStem%^PLPRT __
+* __häpä00 __
+}}}
 
 __u2a__
 * __laulu%^U2A __
@@ -239,18 +256,6 @@ __i:ä__
 * __päiv%^ÄI2ÄÄ%>ä __
 * __pääv0%>ä __
 
-
-__ü2e__
-{{{
-* __häbü%^StrGStem%^PLPRT __
-* __häpe00 __
-}}}
-
-__ü2ä__
-{{{
-* __häbü%^StrGStem%^PLPRT __
-* __häpä00 __
-}}}
 
 __a2o__
 {{{
