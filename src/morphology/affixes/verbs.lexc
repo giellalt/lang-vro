@@ -1834,8 +1834,8 @@ LEXICON Harm-Neutr_V0-IND-PRS-SC-12
 +Use/NG: ACT-IND-PRS-SG2_dEq ;
  ACT-IND-PRS-PL1_miq ;
  ACT-IND-PRS-PL2_tiq ;
-+Use/NG+Act+Ind+Prs+Pl2:%>d%{eõ%}q K ;
-+Use/NG+Act+Ind+Prs+Pl2:%>t K ;
+!+Use/NG+Act+Ind+Prs+Pl2:%>d%{eõ%}q K ; These will be dealt with in cg
+!+Use/NG+Act+Ind+Prs+Pl2:%>t K ; These will be dealt with in cg
 Harm-Neutr_ACT-IND-CONNEGII ;
 
 LEXICON Harm-Neutr_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK
@@ -1957,7 +1957,7 @@ LEXICON Harm-Neutr_JUVVA_PSS-IND-PRT-1/2 !!= * @CODE@ juvvi süvvi
 +Use/NG+Pss+Ind+Prt+Sg2:%>q K ;
 +Pss+Ind+Prs+Pl1:%>miq K ;
 +Pss+Ind+Prs+Pl2:%>tiq K ;
-+Use/NG+Pss+Ind+Prs+Pl2:%>d%{eõ%}q K ;
+!+Use/NG+Pss+Ind+Prs+Pl2:%>d%{eõ%}q K ; These will be dealt with in cg
 
 
 
@@ -1975,11 +1975,11 @@ LEXICON Harm-Neutr_ACT-IND-PRT-1/2_ZERO
 +Use/NG+Act+Ind+Prt+Sg2:%>q K ;
 +Use/NG+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>miq K ;
-+Use/NG+Act+Ind+Prt+Pl1: K ; ! CHECKME 2016-08-28
+!+Use/NG+Act+Ind+Prt+Pl1: K ; ! These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>tiq K ;
-+Use/NG+Act+Ind+Prt+Pl2:%>t K ;
-+Use/NG+Act+Ind+Prt+Pl2:%>q K ;
-+Use/NG+Act+Ind+Prt+Pl2:%>d%{eõ%}q K ;
+!+Use/NG+Act+Ind+Prt+Pl2:%>t K ; These will be dealt with in cg
+!+Use/NG+Act+Ind+Prt+Pl2:%>q K ; These will be dealt with in cg
+!+Use/NG+Act+Ind+Prt+Pl2:%>d%{eõ%}q K ; These will be dealt with in cg
 
 LEXICON Harm-Neutr_ACT-IND-PRT-SG1_ZERO_USUALLY-WEAK
 +Act+Ind+Prt+Sg1: K ;
@@ -2001,11 +2001,11 @@ LEXICON V0-IND-PRT-SC-12_i
 +Act+Ind+Prt+Sg2:%>it K ;
 +Act+Ind+Prt+Sg2:%>id%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>imiq K ;
-+Act+Ind+Prt+Pl1:%>i K ;
+!+Act+Ind+Prt+Pl1:%>i K ; These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>itiq K ;
-+Act+Ind+Prt+Pl2:%>it K ;
-+Act+Ind+Prt+Pl2:%>iq K ;
-+Act+Ind+Prt+Pl2:%>id%{eõ%}q K ;
+!+Act+Ind+Prt+Pl2:%>it K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>iq K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>id%{eõ%}q K ; These will be dealt with in cg
 
 LEXICON FRONT_V0-IND-PRT-SC-12_ie
 +Act+Ind+Prt+Sg1:%>ie K ;
@@ -2014,9 +2014,9 @@ LEXICON FRONT_V0-IND-PRT-SC-12_ie
 +Act+Ind+Prt+Sg2:%>iedeq K ;
 +Act+Ind+Prt+Pl1:%>iemiq K ;
 +Act+Ind+Prt+Pl2:%>ietiq K ;
-+Act+Ind+Prt+Pl2:%>iet K ;
-+Act+Ind+Prt+Pl2:%>ieq K ;
-+Act+Ind+Prt+Pl2:%>iedeq K ;
+!+Act+Ind+Prt+Pl2:%>iet K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>ieq K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>iedeq K ; These will be dealt with in cg
 
 LEXICON Harm-Neutr_V0-IND-PRT-SC-12_iE
 +Act+Ind+Prt+Sg1:%>i%{eõ%} K ;
@@ -2025,9 +2025,9 @@ LEXICON Harm-Neutr_V0-IND-PRT-SC-12_iE
 +Act+Ind+Prt+Sg2:%>i%{eõ%}d%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>i%{eõ%}miq K ;
 +Act+Ind+Prt+Pl2:%>i%{eõ%}tiq K ;
-+Act+Ind+Prt+Pl2:%>i%{eõ%}t K ;
-+Act+Ind+Prt+Pl2:%>i%{eõ%}q K ;
-+Act+Ind+Prt+Pl2:%>i%{eõ%}d%{eõ%}q K ;
+!+Act+Ind+Prt+Pl2:%>i%{eõ%}t K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>i%{eõ%}q K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>i%{eõ%}d%{eõ%}q K ; These will be dealt with in cg
 
 LEXICON FRONT_V0-IND-PRT-SC-12_se
 +Act+Ind+Prt+Sg1:%>se K ;
@@ -2036,9 +2036,9 @@ LEXICON FRONT_V0-IND-PRT-SC-12_se
 +Act+Ind+Prt+Sg2:%>sedeq K ;
 +Act+Ind+Prt+Pl1:%>semiq K ;
 +Act+Ind+Prt+Pl2:%>setiq K ;
-+Act+Ind+Prt+Pl2:%>set K ;
-+Act+Ind+Prt+Pl2:%>seq K ;
-+Act+Ind+Prt+Pl2:%>sedeq K ;
+!+Act+Ind+Prt+Pl2:%>set K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>seq K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>sedeq K ; These will be dealt with in cg
 
 LEXICON Harm-Neutr_V0-IND-PRT-SC-12_sE
 +Act+Ind+Prt+Sg1:%>s%{eõ%} K ;
@@ -2047,9 +2047,9 @@ LEXICON Harm-Neutr_V0-IND-PRT-SC-12_sE
 +Act+Ind+Prt+Sg2:%>s%{eõ%}d%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>s%{eõ%}miq K ;
 +Act+Ind+Prt+Pl2:%>s%{eõ%}tiq K ;
-+Act+Ind+Prt+Pl2:%>s%{eõ%}t K ;
-+Act+Ind+Prt+Pl2:%>s%{eõ%}q K ;
-+Act+Ind+Prt+Pl2:%>s%{eõ%}d%{eõ%}q K ;
+!+Act+Ind+Prt+Pl2:%>s%{eõ%}t K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>s%{eõ%}q K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>s%{eõ%}d%{eõ%}q K ; These will be dealt with in cg
 
 LEXICON Harm-Neutr_ACT-IND-PRT-1/2_E
 +Act+Ind+Prt+Sg1:%>%{eõ%} K ;
@@ -2057,11 +2057,11 @@ LEXICON Harm-Neutr_ACT-IND-PRT-1/2_E
 +Act+Ind+Prt+Sg2:%>%{eõ%}t K ;
 +Act+Ind+Prt+Sg2:%>%{eõ%}d%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>%{eõ%}miq K ;
-+Act+Ind+Prt+Pl1:%>%{eõ%} K ;
+!+Act+Ind+Prt+Pl1:%>%{eõ%} K ; These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>%{eõ%}tiq K ;
-+Act+Ind+Prt+Pl2:%>%{eõ%}t K ;
-+Act+Ind+Prt+Pl2:%>%{eõ%}q K ;
-+Act+Ind+Prt+Pl2:%>%{eõ%}d%{eõ%}q K ;
+!+Act+Ind+Prt+Pl2:%>%{eõ%}t K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>%{eõ%}q K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>%{eõ%}d%{eõ%}q K ; These will be dealt with in cg
 
 LEXICON V0-IND-PRT-SC-12_si
 +Act+Ind+Prt+Sg1:%>si K ;
@@ -2069,11 +2069,11 @@ LEXICON V0-IND-PRT-SC-12_si
 +Act+Ind+Prt+Sg2:%>sit K ;
 +Act+Ind+Prt+Sg2:%>sidõq K ;
 +Act+Ind+Prt+Pl1:%>simiq K ;
-+Act+Ind+Prt+Pl1:%>si K ;
+!+Act+Ind+Prt+Pl1:%>si K ; These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>sitiq K ;
-+Act+Ind+Prt+Pl2:%>sit K ;
-+Act+Ind+Prt+Pl2:%>siq K ;
-+Act+Ind+Prt+Pl2:%>sidõq K ;
+!+Act+Ind+Prt+Pl2:%>sit K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>siq K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>sidõq K ; These will be dealt with in cg
 
 LEXICON V0-IND-PRT-SC-12_si-NO-s
 +Act+Ind+Prt+Sg1:%>i K ;
@@ -2081,11 +2081,11 @@ LEXICON V0-IND-PRT-SC-12_si-NO-s
 +Act+Ind+Prt+Sg2:%>it K ;
 +Act+Ind+Prt+Sg2:%>idõq K ;
 +Act+Ind+Prt+Pl1:%>imiq K ;
-+Act+Ind+Prt+Pl1:%>i K ;
+!+Act+Ind+Prt+Pl1:%>i K ; These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>itiq K ;
-+Act+Ind+Prt+Pl2:%>it K ;
-+Act+Ind+Prt+Pl2:%>iq K ;
-+Act+Ind+Prt+Pl2:%>idõq K ;
+!+Act+Ind+Prt+Pl2:%>it K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>iq K ; These will be dealt with in cg
+!+Act+Ind+Prt+Pl2:%>idõq K ; These will be dealt with in cg
 
 LEXICON V0-IND-PRT-SCSG3_ZERO
 +Act+Ind+Prt+Sg3: K ;
@@ -2154,11 +2154,11 @@ LEXICON Harm-Neutr_VISKAMA_PSS-IND-PRT_ti
 +Pss+Ind+Prt+Sg2:%>tid%{eõ%}q K ;
 +Pss+Ind+Prt+Sg3:%>ti K ;
 +Pss+Ind+Prt+Pl1:%>timiq K ;
-+Pss+Ind+Prt+Pl1:%>di K ;
-+Pss+Ind+Prt+Pl2:%>diq K ;
+!+Pss+Ind+Prt+Pl1:%>di K ; These will be dealt with in cg
+!+Pss+Ind+Prt+Pl2:%>diq K ; These will be dealt with in cg
 +Pss+Ind+Prt+Pl2:%>titiq K ;
-+Pss+Ind+Prt+Pl2:%>tit K ;
-+Pss+Ind+Prt+Pl2:%>tid%{eõ%}q K ;
+!+Pss+Ind+Prt+Pl2:%>tit K ; These will be dealt with in cg
+!+Pss+Ind+Prt+Pl2:%>tid%{eõ%}q K ; These will be dealt with in cg
 +Pss+Ind+Prt+Pl3:%>diq K ;
 +Pss+Ind+Prt+Pl3:%>tiv%{aä%}q K ;
 +Pss+Ind+Prt+ConNeg:%>d%{aä%}q K ;
@@ -2175,7 +2175,7 @@ LEXICON Harm-Neutr_IND-PRT-OC1-2_i !!= * @CODE@ juvv süvv
 +Use/NG+Pss+Ind+Prt+Sg2:ideq K ;
 +Pss+Ind+Prt+Pl1:imiq K ;
 +Pss+Ind+Prt+Pl2:itiq K ;
-+Use/NG+Pss+Ind+Prt+Pl2:ideq K ;
+!+Use/NG+Pss+Ind+Prt+Pl2:ideq K ; These will be dealt with in cg
 +Pss+Ind+Prt+ConNeg:%{aä%} K ;
 
 LEXICON Harm-Neutr_IND-PRT-OC3_i !!= * @CODE@ süüd
