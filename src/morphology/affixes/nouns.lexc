@@ -2058,9 +2058,13 @@ LEXICON NMN_8KULDNÕ/XX-PL
 :%>si      Harm-Neutr_PL-PAR_t        ;
 :%>sid%{eõ%}      PL-COM        ;
 !! Secondary
++Use/NG:%>s     Harm-Neutr_PL-GEN_tE ;
++Use/NG:%>st%{eõ%}        Harm-Neutr_PL-ILL_he       ;
++Use/NG:%>st%{eõ%}        Harm-Neutr_PL-ILL_dE       ;
++Use/NG:%>st%{eõ%}        Harm-Neutr_PL-ALL_lE-STEM       ;
++Use/NG:%>st%{eõ%}   PL-COM        ;
 +Use/NG:%>sii        Harm-Neutr_PL-ALL_lE-STEM       ;
 +Use/NG:%>sii     Harm-Neutr_PL-GEN_dE ;
-+Use/NG:%>si        Harm-Neutr_PL-ILL_dE       ;
 +Use/NG:%>sii        Harm-Neutr_PL-ILL_dE       ;
 +Use/NG:%>sii        Harm-Neutr_PL-ILL_he       ;
 +Use/NG:%>sii      Harm-Neutr_PL-PAR_d        ;
@@ -4712,12 +4716,13 @@ ATTESTED-NOUN-STEM-CONTINUED ;
 
 LEXICON NMN_38KULD-PL 
 :%^WGStem%>%{aä%}       Harm-Neutr_PL-NOM ;
-:%^WGStem%>õ    Harm-Neutr_PL-GEN_ZERO ;
+:%>õ    Harm-Neutr_PL-GEN_ZERO ;
 :õ    Harm-Neutr_PL-PAR_ZERO ;
 :õ    Harm-Neutr_PL-ILL_ZERO ;
-:õ    Harm-Neutr_PL-ILL_hE ;
+:õ    Harm-Neutr_PL-ILL_he ;
+:õ    Harm-Neutr_PL-ILL_dE ;
 :%^WGStem%>õ    Harm-Neutr_PL-ALL_lE-STEM ;
-
+:%>õ    PL-COM ;
 LEXICON NMN_38PUTR !!= * __@CODE@__ putr:putr
 !! Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
 !! stem_vowel="o"
