@@ -11,14 +11,14 @@ LEXICON PROP-PLC-DOWNCASE-SG-GEN
 +N+Prop+Sg+Gen+Prop→A+A@U.Cap.Opt@:000000@U.Cap.Opt@ # ;
 
 LEXICON A_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
-+A:	NMN_1HANSʼA ;
++A:%{back%}	NMN_1HANSʼA ;
 
 LEXICON A_1HERRÄ !!= @CODE@ 1 herrä:herrä
-+A:	NMN_1HERRÄ ;
++A:%{front%}	NMN_1HERRÄ ;
 
 LEXICON A_2ARTIKLI !!= @CODE@ suhvli:suhvli
 !! * Yaml: __suhvli__
-+A:   NMN_2ARTIKLI ;
++A:%{back%}   NMN_2ARTIKLI ;
 
 LEXICON A_3ALADU !!= @CODE@ aladu:aladu
 !! * Yaml: __A-aladu__
@@ -47,18 +47,18 @@ LEXICON A_5MÄNGJÄ
 +A:%{front%} COMP ;
 
 LEXICON A_6MAKÕ
-+A:  NMN_6MAKÕ/HELLE ;
++A:%{back%}  NMN_6MAKÕ/HELLE ;
 
 LEXICON A_7FÜÜSIGA
 +A:%{back%}  NMN_7FÜÜSIGA ;
 
 LEXICON A_8HÄIELM
-+A:  NMN_8HÄIELM ;
++A:%{front%}  NMN_8HÄIELM ;
 
 LEXICON A_8KULDNÕ !!= * @CODE@ kuldnõ:kuld
 +A:%{back%}  NMN_8KULDNÕ/XX ;
 
-LEXICON A_9KIPÕNʼ/ELLÄI
+LEXICON A_9KIPÕNʼ/ELLÄI !!= * @CODE@ what is this
 !! * Yaml: __ellaei, suhvli__
 +A:     NMN_9KIPÕNʼ/ELLÄI ;
 +A:%^Pen%^WGStem%>%{aä%} Harm-Neutr_COMP ;
@@ -95,16 +95,16 @@ LEXICON A_9ELLÄI
 
 
 LEXICON A_10HÕRAK
-+A:  NMN_10HÕRAK ;
++A:%{back%}  NMN_10HÕRAK ;
 
 LEXICON A_10ESÄK
-+A:  NMN_10ESÄK ;
++A:%{back%}  NMN_10ESÄK ;
 
 LEXICON A_11LÄTEQ
 +A:%{front%}  NMN_11ANNÕQ/LÄTEQ ;
 
 LEXICON A_12REPÄNʼ
-+A:  NMN_12REPÄNʼ ;
++A:%{front%}  NMN_12REPÄNʼ ;
 
 LEXICON A_13ALONÕ !!= @CODE@ alonõ:alo
 +A:%{back%}     NMN_13ALONÕ/TÄHINE ;
@@ -124,7 +124,7 @@ LEXICON A_14HAMMAS  !!= @CODE@ rikas:rikka
 +A:%{back%}  NMN_14HAMMAS/XX ;
 
 LEXICON A_15KOTUS
-+A:  NMN_15KOTUS/ILVES ;
++A:%{back%}  NMN_15KOTUS/ILVES ;
 
 LEXICON A_16INEMINE !!= @CODE@ inemine:inemi
 +A:%{front%}	NMN_16ABILINÕ/INEMINE ;
@@ -144,111 +144,111 @@ LEXICON A_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
 +A:dse%{front%} COMP ;
 
 LEXICON A_20VÄITSʼ
-+A:  NMN_20VÄITSʼ ;
++A:%{front%}  NMN_20VÄITSʼ ;
 
 LEXICON A_21HÜDSI
-+A:  NMN_21HÜDSI ;
++A:%{front%}  NMN_21HÜDSI ;
 
 LEXICON A_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
 +A:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE ;
 +A:%{back%}sõ COMP ;
 
 LEXICON A_23NUULʼ
-+A:  NMN_23NUULʼ ;
++A:%{back%}  NMN_23NUULʼ ;
 +A:%{back%}õ COMP ;
 
 LEXICON A_23SUURʼ
-+A:  NMN_23SUURʼ ;
++A:%{back%}  NMN_23SUURʼ ;
 +A:%{back%}õ COMP ;
 
 LEXICON A_23KIILʼ
-+A:  NMN_23KIILʼ ;
++A:%{front%}  NMN_23KIILʼ ;
 +A:e%{front%} COMP ;
 
 
 LEXICON A_24KÄSI
-+A:  NMN_24KÄSI ;
++A:%{front%}  NMN_24KÄSI ;
 
 LEXICON A_25ASÕQ
-+A:  NMN_25ASÕQ ;
++A:%{back%}  NMN_25ASÕQ ;
 
 LEXICON A_26HEPEMʼ
-+A:  NMN_26HEPEMʼ ;
++A:%{front%}  NMN_26HEPEMʼ ;
 
 LEXICON A_27EHEQ
-+A:  NMN_27EHEQ ;
++A:%{front%}  NMN_27EHEQ ;
 
 LEXICON A_28TÜTÄRʼ
-+A:  NMN_28TÜTÄRʼ ;
++A:%{front%}  NMN_28TÜTÄRʼ ;
 
 LEXICON A_29KUU
-+A:  NMN_29KUU ;
++A:%{back%}  NMN_29KUU ;
 
 LEXICON A_30TÜÜ
-+A:  NMN_30TÜÜ ;
++A:%{front%}  NMN_30TÜÜ ;
 
 LEXICON A_31TÄI
-+A:  NMN_31TÄI ;
++A:%{front%}  NMN_31TÄI ;
 
 LEXICON A_32VERI
-+A:  NMN_32VERI ;
++A:%{front%}  NMN_32VERI ;
 
 LEXICON A_33IGÄ
-+A:  NMN_33XX/IGÄ ;
++A:%{front%}  NMN_33XX/IGÄ ;
 
 LEXICON A_34TULI
-+A:  NMN_34TULI/SÜLI ;
++A:%{back%}  NMN_34TULI/SÜLI ;
 
 LEXICON A_35TARÕ
-+A:  NMN_35TARÕ ;
++A:%{back%}  NMN_35TARÕ ;
 
 LEXICON A_36SÄRGʼ
-+A:  NMN_36SÄRGʼ ;
++A:%{front%}  NMN_36SÄRGʼ ;
 LEXICON A_36PÄIV
-+A:  NMN_36PÄIV ;
++A:%{front%}  NMN_36PÄIV ;
 
 LEXICON A_36SILM
-+A:  NMN_36SILM ;
++A:%{front%}  NMN_36SILM ;
 
 LEXICON A_37PINI
-+A:  NMN_37PINI ;
++A:%{front%}  NMN_37PINI ;
 
 LEXICON A_38PUNG
-+A:  NMN_38PUNG ;
++A:%{back%}  NMN_38PUNG ;
 
 LEXICON A_38PULLʼ
-+A:  NMN_38PULLʼ ;
++A:%{back%}  NMN_38PULLʼ ;
 
 LEXICON A_39HÄBÜ
-+A:  NMN_39HÄBÜ ;
++A:%{front%}  NMN_39HÄBÜ ;
 
 LEXICON A_40TALO
 +A:%{back%}  NMN_40TALO/HELÜ ;
 
 LEXICON A_41KAND
-+A:  NMN_41KAND ;
++A:%{back%}  NMN_41KAND ;
 
 LEXICON A_42VARI
-+A:  NMN_42VARI ;
++A:%{back%}  NMN_42VARI ;
 
 LEXICON A_43KANARIK
-+A:  NMN_43KANARIK ;
++A:%{back%}  NMN_43KANARIK ;
 
 LEXICON A_44SÕDA
-+A:  NMN_44SÕDA ;
++A:%{back%}  NMN_44SÕDA ;
 
 LEXICON A_45KANA
-+A:  NMN_45KANA/RIHÄ ;
++A:%{back%}  NMN_45KANA/RIHÄ ;
 +A:%^VowRM%>õ%{back%} COMP ;
 
 LEXICON A_46HAIN
 !! gradation: no
-+A:  NMN_46HAIN ;
++A:%{back%}  NMN_46HAIN ;
 +A:%>õ%{back%} COMP ;
 
 LEXICON A_46TARK
 !! gradation: yes
-+A:  NMN_46TARK ;
++A:%{back%}  NMN_46TARK ;
 +A:%^WGStem%>õ%{back%} COMP ;
 
 LEXICON A_46SÕBÕR
@@ -257,7 +257,7 @@ LEXICON A_46SÕBÕR
 +A:%>a%{back%} COMP ;
 
 LEXICON A_47ASI
-+A:  NMN_47ASI ;
++A:%{back%}  NMN_47ASI ;
 
 
 LEXICON Adj-28
