@@ -1845,14 +1845,14 @@ LEXICON ACT-IND-CONNEG
 LEXICON PSS-IND-CONNEG
 +Pss: IND-CONNEG ;
 LEXICON IND-CONNEG
-+Ind+Prs+Neg:%-%{XV%}iq K ;
-+Use/NG+Ind+Prs+Neg:%-iq K ;
++Ind+Prs+Neg:%-%{XV%}iq K ; !!= * @CODE@ This gives stress
++Use/NG+Ind+Prs+Neg:%-iq K ; !!= * @CODE@ This gives stress
++Use/NG+Ind+Prs+Neg:%-%{XV%}i K ; !!= * @CODE@ more neutral without q
++Use/NG+Ind+Prs+Neg:%-i K ; !!= * @CODE@ more neutral without q
 +Ind+ConNegI:%>q K ;
 +Ind+ConNegII: K ;
 +Ind+Prt+Neg:%-%{XV%}s K ;
 +Use/NG+Ind+Prt+Neg:%-s K ;
-+Err/Orth+Use/NG+Ind+Prs+Neg:%-i K ; !!= * @CODE@ no vowel or q
-+Err/Orth+Use/NG+Ind+Prs+Neg:%-%{XV%}i K ; !!= * @CODE@ no vowel or q
 
 
 
