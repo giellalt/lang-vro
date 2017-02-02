@@ -364,7 +364,7 @@ LEXICON N_10ESÄK !!= @CODE@ esäk:esäk
 LEXICON N_10ESÄK-SG
 +N:%{back%}     NMN_10ESÄK-SG ;
 LEXICON N_10ESÄK-PL
-+N:%{back%}     NMN_10ESÄK-PL ;
++N:%{front%}     NMN_10ESÄK-PL ;
 
 LEXICON N_10VIDRIK !!= @CODE@ vidrik:vidrik
 !! gradation: no
@@ -3932,7 +3932,7 @@ LEXICON NMN_27EHEQ-SG
 LEXICON NMN_27EHEQ-PL 
 !+WORK: #;
 +Pl+Nom:q K ;
-+Pl+Gen:ide K ;
++Pl+Gen:id%{eõ%} K ;
 +Pl+Gen:isi K ;
 +Pl+Par:id K ;
 +Pl+Par:isi K ;
@@ -5202,7 +5202,7 @@ LEXICON NMN_2KASUNUQ/ELÄNÜQ-SG
 
 LEXICON NMN_2KASUNUQ/ELÄNÜQ-PL
 +Pl+Nom:q K ;
-+Pl+Gen:ide K ;
++Pl+Gen:id%{eõ%} K ;
 +Pl+Gen:isi K ;
 +Pl+Par:id K ;
 +Pl+Par:isi K ;
@@ -5251,11 +5251,11 @@ LEXICON Harm-Neutr_PL-ALL_lE-STEM
    Harm-Neutr_PL-INE_hn ;
    Harm-Neutr_PL-INE_n ;
    Harm-Neutr_PL-TRA ;
+ Harm-Neutr_PL-TER ;
 
 
 LEXICON PL-GEN_ZERO-STEM
  PL-GEN_ZERO ;
- Harm-Neutr_PL-TER ;
  PL-COM ;
 
 !! !TAGS THAT CAN BE FOLLOWED BY CLITICS "K"
