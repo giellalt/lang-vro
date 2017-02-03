@@ -1232,7 +1232,7 @@ LEXICON V_79TULÕMA/XX !!≈ * __@CODE@__ tulõma:tul
 !! Ind+Prs+ 3
 
 !! Strengthen consonant and replace stem vowel with i
-:%{XC%}%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ; !!= * @CODE@ (7) loi
+:%{XC%}%>i TULÕMA_ACT-IND-PRT-SG1 ; !!= * @CODE@ (7) loi
 !! Act+Ind+PrtSg1/Sg2/Pl1-3
 
 !! Strengthen consonant and add ʼ
@@ -2549,6 +2549,17 @@ LEXICON Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1
 +Use/NG+Act+Ind+Prt+Pl3:%>v%{aä%}q K ;
 +Use/NG+Act+Ind+Prt+Pl3:%>%{eõ%}q K ;
 +Use/NG+Act+Ind+Prt+Pl3:%>%{eõ%}v%{aä%}q K ;
+
+LEXICON TULÕMA_ACT-IND-PRT-SG1
++Act+Ind+Prt+Sg1: K ;
++Act+Ind+Prt+Sg2:%>t K ;
++Use/NG+Act+Ind+Prt+Sg2:%>q K ;
++Use/NG+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
++Act+Ind+Prt+Pl1:%>miq K ;
++Act+Ind+Prt+Pl2:%>tiq K ;
++Act+Ind+Prt+Pl3:%>q K ;
++Use/NG+Act+Ind+Prt+Pl3:%>v%{aä%}q K ;
+
 
 ! vim: set ft=xfst-lexc:
 
