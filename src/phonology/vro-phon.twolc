@@ -34,12 +34,17 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{mØ%}:m 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{nØ%}:n 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{rØ%}:r 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
- %{sØ%}:s 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{sØ%}:s 	!!= @CODE@ HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
  %{vØ%}:v 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{bv%}:b 	!!= @CODE@ HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+ %{dr%}:d 	!!= @CODE@ HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
+ %{bm%}:b 	!!= @CODE@ HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+ %{dn%}:d 	!!= @CODE@ HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+
 
  %{pb%}:p 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{td%}:t 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
- %{kg%}:k 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kg%}:k 	!!= @CODE@ HJK and KimmoK ideas kaigas:kai%{kg%}as
 
  %{tdØ%}:t 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
 
@@ -444,7 +449,7 @@ Rules
   Cns:  _ Cns: (HarmDummies:) (ʼ:) %^Pen: %^VowRM: ;
 !!€ puhkas%^Pen%^VowRM%>a%>ma
 !!€ puhk0s0%>a%>ma
-
+  _  [%{hØ%}: | %{sØ%}:] (HarmDummies:) %^VowRM:  ;
 
 "ä:0"
 !! __@RULENAME@__
@@ -458,6 +463,7 @@ Rules
   Cns: _ Cns: (HarmDummies:) (ʼ:) %^Pen: %^VowRM: ;
 !!€ tütär%^Pen%^VowRM%>e
 !!€ tüt0r0%>e
+ _  [%{hØ%}: | %{sØ%}:] (HarmDummies:) %^VowRM:  ;
 
 "u:0"
 !! __@RULENAME@__
@@ -486,6 +492,10 @@ Rules
  e:0 <=>  [ Cns: | :Cns ] _ (HarmDummies:) [(%^Pen: %^CC2C:) %^VowRM: | Cns:0 (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: ]  ; 
            [ Cns: | :Cns ] _ l (HarmDummies:) %^Pen: %^VowRM:  ;
            e: _ (%^VOWRaise:) %^VowRM: ;
+	   _  [%{hØ%}: | %{sØ%}:] (HarmDummies:) %^VowRM:  ;
+!!€ herne%{hØ%}%{front%}%^VowRM%^WGStem%>id%{eõ%}
+!!€ hern00000%>ide
+
 "o:0"
 !! __@RULENAME@__
  o:0 <=>  [ Cns: | :Cns ] _ (HarmDummies:) [ (%^Pen: %^WGStem:|%^Pen: %^StrGStem:|%^Pen: %^CC2C:) %^VowRM: (õ) ]   ; 
@@ -528,6 +538,7 @@ Rules
  Cns: _ (HarmDummies:) (%^Pen: %^VOWLower: %^Pen: %^WGStem:|%^WGStem:|%^Pen: %^StrGStem:|%^Pen: %^CC2C:|%^Pen: %^WGStem:) %^VowRM:  ;
 !!€ hammõ%^WGStem%^VowRM%>ihe
 !!€ ham0000%>ihe
+	   _  [%{hØ%}: | %{sØ%}:] (HarmDummies:) %^VowRM:  ;
 
 !! VOWEL LENGTHENING
 
@@ -766,10 +777,15 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 
 "XØToZero"
 !! __@RULENAME@__
- Cx:0 <=> _ Cns (ʼ) [Vow: (Cns:* |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
+ Cx:0 <=>
+ _ Cns (ʼ) [Vow: (Cns:* |i:) (%{hØ%}:|%{sØ%}:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
+ Vow: _ (HarmDummies:) (%^VowRM: ) %^WGStem: ;
          where Cx in (%{hØ%} %{jØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{vØ%}) ;
+!! elläi+N+Sg+Gen
 !!€ e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä
 !!€ e0läj00%>ä
+!!€ ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^WGStem
+!!€ ha0mõh%{back%}%^Pen%^WGStem
 
 "StrongToWeak"
 !! __@RULENAME@__
