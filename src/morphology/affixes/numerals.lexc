@@ -397,14 +397,14 @@ LEXICON NUM_13TÄHINE-SG
 LEXICON NUM_13TÄHINE-PL
 +Num:%{front%}     NMN_13ALONÕ/TÄHINE-PL ;
 
-LEXICON NUM_14RITSʼKAS !!= @CODE@ ritsʼkas:ritsʼka
+LEXICON NUM_14RITSʼKAS !!= @CODE@ ritsʼkas:ritsʼka%{sØ%}
 ! Gradation: No
         NUM_14RITSʼKAS-SG ;
         NUM_14RITSʼKAS-PL ;
 LEXICON NUM_14RITSʼKAS-SG
-+Num:%{back%}     NMN_14RITSʼKAS-SG ;
++Num:%{back%}     NMN_14RITSʼKAS/HERNEH-SG ;
 LEXICON NUM_14RITSʼKAS-PL
-+Num:%{back%}     NMN_14RITSʼKAS-PL ;
++Num:%{back%}     NMN_14RITSʼKAS/HERNEH-PL ;
 
 
 LEXICON NUM_14HAMMAS !!= @CODE@ hammas:hamba, saabas:saapa
@@ -413,9 +413,9 @@ LEXICON NUM_14HAMMAS !!= @CODE@ hammas:hamba, saabas:saapa
         NUM_14HAMMAS-SG ;
         NUM_14HAMMAS-PL ;
 LEXICON NUM_14HAMMAS-SG
-+Num:%{back%}     NMN_14HAMMAS/XX-SG ;
++Num:%{back%}     NMN_14HAMMAS/IKÄS-SG ;
 LEXICON NUM_14HAMMAS-PL
-+Num:%{back%}     NMN_14HAMMAS/XX-PL ;
++Num:%{back%}     NMN_14HAMMAS/IKÄS-PL ;
 
 
 LEXICON NUM_PEREH !!= @CODE@ pereh:pereh

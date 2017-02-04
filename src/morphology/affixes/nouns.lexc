@@ -551,15 +551,25 @@ LEXICON N_13SÄÄNE-SG
 LEXICON N_13SÄÄNE-PL
 +N:%{front%}     NMN_13XX/SÄÄNE-PL ;
 
-LEXICON N_14RITSʼKAS !!= @CODE@ ritsʼkas:ritsʼka
+LEXICON N_14RITSʼKAS !!= @CODE@ ritsʼkas:ritsʼka%{sØ%}
 ! Gradation: No
-+N:s	ATTESTED-NOUN-STEM-CONTINUED ;
++N:	ATTESTED-NOUN-STEM-CONTINUED ;
         N_14RITSʼKAS-SG ;
         N_14RITSʼKAS-PL ;
 LEXICON N_14RITSʼKAS-SG
-+N:%{back%}     NMN_14RITSʼKAS-SG ;
++N:%{back%}     NMN_14RITSʼKAS/HERNEH-SG ;
 LEXICON N_14RITSʼKAS-PL
-+N:%{back%}     NMN_14RITSʼKAS-PL ;
++N:%{back%}     NMN_14RITSʼKAS/HERNEH-PL ;
+
+LEXICON N_14HERNEH !!= @CODE@ herneh:herne%{hØ%}
+! Gradation: No
++N:	ATTESTED-NOUN-STEM-CONTINUED ;
+        N_14HERNEH-SG ;
+        N_14HERNEH-PL ;
+LEXICON N_14HERNEH-SG
++N:%{front%}     NMN_14RITSʼKAS/HERNEH-SG ;
+LEXICON N_14HERNEH-PL
++N:%{front%}     NMN_14RITSʼKAS/HERNEH-PL ;
 
 
 LEXICON N_14HAMMAS !!= @CODE@ hammas:hamba, saabas:saapa
@@ -569,9 +579,20 @@ LEXICON N_14HAMMAS !!= @CODE@ hammas:hamba, saabas:saapa
         N_14HAMMAS-SG ;
         N_14HAMMAS-PL ;
 LEXICON N_14HAMMAS-SG
-+N:%{back%}     NMN_14HAMMAS/XX-SG ;
++N:%{back%}     NMN_14HAMMAS/IKÄS-SG ;
 LEXICON N_14HAMMAS-PL
-+N:%{back%}     NMN_14HAMMAS/XX-PL ;
++N:%{back%}     NMN_14HAMMAS/IKÄS-PL ;
+
+LEXICON N_14IKÄS !!= @CODE@ ikäs:ikkä
+! gradation: yes
+!! distinguished from 14RITSʼKAS due to gradation
++N:%^Pen%^WGStem%>s	ATTESTED-NOUN-STEM-CONTINUED ;
+        N_14IKÄS-SG ;
+        N_14IKÄS-PL ;
+LEXICON N_14IKÄS-SG
++N:%{front%}     NMN_14HAMMAS/IKÄS-SG ;
+LEXICON N_14IKÄS-PL
++N:%{front%}     NMN_14HAMMAS/IKÄS-PL ;
 
 LEXICON N_14NUMMÕRʼ !!= @CODE@ nummõrʼ:numbõr
 ! gradation: yes
@@ -3116,69 +3137,69 @@ LEXICON NMN_13XX/SÄÄNE-PL
 
 
 
-LEXICON NMN_14RITSʼKAS !!= * __@CODE@__ ritsʼkas:ritsʼka
-  NMN_14RITSʼKAS-SG ;
-  NMN_14RITSʼKAS-PL ;
+LEXICON NMN_14RITSʼKAS/HERNEH !!= * __@CODE@__ ritsʼkas:ritsʼka
+  NMN_14RITSʼKAS/HERNEH-SG ;
+  NMN_14RITSʼKAS/HERNEH-PL ;
 
-LEXICON NMN_14RITSʼKAS-SG 
-:%>s        Harm-Neutr_SG-NOM  ;
-   SG-GEN_ZERO-STEM        ;
-:%>s   Harm-Neutr_SG-PAR_t      ;
-   Harm-Neutr_SG-ILL_he     ;
-+Use/NG:   Harm-Neutr_SG-ILL_dE     ;
-+Use/NG:   Harm-Neutr_SG-PAR_t      ;
+LEXICON NMN_14RITSʼKAS/HERNEH-SG 
+:        Harm-Neutr_SG-NOM  ;
+:%^WGStem   SG-GEN_ZERO-STEM        ;
+:   Harm-Neutr_SG-PAR_t      ;
+:%^WGStem   Harm-Neutr_SG-ILL_he     ;
++Use/NG:%^WGStem   Harm-Neutr_SG-ILL_dE     ;
++Use/NG:%^WGStem   Harm-Neutr_SG-PAR_t      ;
 
-LEXICON NMN_14RITSʼKAS-PL 
-   Harm-Neutr_PL-NOM  ;
-:%^VowRM%>i Harm-Neutr_PL-GEN_dE ;
-:%^VowRM%>i Harm-Neutr_PL-ILL_he ;
-:%^VowRM%>i Harm-Neutr_PL-PAR_t ;
-:%^VowRM%>i Harm-Neutr_PL-ALL_lE-STEM ;
-:%^VowRM%>i%>dõ   PL-COM ;
-+Use/NG:%^VowRM%>ii Harm-Neutr_PL-GEN_dE ;
-+Use/NG:%>stõ PL-GEN_ZERO ;
-+Use/NG:%^VowRM%>ii Harm-Neutr_PL-ILL_he ;
-+Use/NG:%^VowRM%>i Harm-Neutr_PL-ILL_dE ;
-+Use/NG:%^VowRM%>ii Harm-Neutr_PL-ILL_dE ;
-+Use/NG:%>stõ Harm-Neutr_PL-ILL_dE ;
-+Use/NG:%^VowRM%>ii Harm-Neutr_PL-PAR_d ;
-+Use/NG:%^VowRM%>ii Harm-Neutr_PL-ALL_lE-STEM ;
-+Use/NG:%>stõ Harm-Neutr_PL-ALL_lE-STEM ;
-+Use/NG:%>stõ Harm-Neutr_PL-ILL_he ;
-+Use/NG:%^VowRM%>ii%>dõ   PL-COM ;
-+Use/NG:%>stõ   PL-COM ;
+LEXICON NMN_14RITSʼKAS/HERNEH-PL 
+:%^WGStem   Harm-Neutr_PL-NOM  ;
+:%^VowRM%^WGStem%>i Harm-Neutr_PL-GEN_dE ;
+:%^VowRM%^WGStem%>i Harm-Neutr_PL-ILL_he ;
+:%^VowRM%^WGStem%>i Harm-Neutr_PL-PAR_t ;
+:%^VowRM%^WGStem%>i Harm-Neutr_PL-ALL_lE-STEM ;
+:%^VowRM%^WGStem%>i%>d%{eõ%}   PL-COM ;
++Use/NG:%^VowRM%^WGStem%>ii Harm-Neutr_PL-GEN_dE ;
++Use/NG:%>t%{eõ%} PL-GEN_ZERO ;
++Use/NG:%^VowRM%^WGStem%>ii Harm-Neutr_PL-ILL_he ;
++Use/NG:%^VowRM%^WGStem%>i Harm-Neutr_PL-ILL_dE ;
++Use/NG:%^VowRM%^WGStem%>ii Harm-Neutr_PL-ILL_dE ;
++Use/NG:%>t%{eõ%} Harm-Neutr_PL-ILL_dE ;
++Use/NG:%^VowRM%^WGStem%>ii Harm-Neutr_PL-PAR_d ;
++Use/NG:%^VowRM%^WGStem%>ii Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:%>t%{eõ%} Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:%>t%{eõ%} Harm-Neutr_PL-ILL_he ;
++Use/NG:%^VowRM%^WGStem%>ii%>d%{eõ%}   PL-COM ;
++Use/NG:%>t%{eõ%}   PL-COM ;
 
-LEXICON NMN_14HAMMAS/XX !!= * __@CODE@__ hammas:hamba
+LEXICON NMN_14HAMMAS/IKÄS !!= * __@CODE@__ hammas:ham%{bm%}a%{sØ%}
 !! Distinguished from 14RITSʼKAS due to gradation
 !! Yaml: __N-hammas_gt-norm.yaml__
-  NMN_14HAMMAS/XX-SG ;
-  NMN_14HAMMAS/XX-PL ;
+  NMN_14HAMMAS/IKÄS-SG ;
+  NMN_14HAMMAS/IKÄS-PL ;
 
-LEXICON NMN_14HAMMAS/XX-SG 
-:%^Pen%^WGStem%>s        Harm-Neutr_SG-NOM  ;
-   SG-GEN_ZERO-STEM        ;
-:%^Pen%^WGStem%>s   Harm-Neutr_SG-PAR_t      ;
-   Harm-Neutr_SG-ILL_he     ;
-   Harm-Neutr_SG-ILL_dE     ;
+LEXICON NMN_14HAMMAS/IKÄS-SG 
+:%^Pen%^WGStem        Harm-Neutr_SG-NOM  ;
+:%^WGStem   SG-GEN_ZERO-STEM        ;
+:%^Pen%^WGStem   Harm-Neutr_SG-PAR_t      ;
+:%^WGStem   Harm-Neutr_SG-ILL_he     ;
+:%^WGStem   Harm-Neutr_SG-ILL_dE     ;
 
-LEXICON NMN_14HAMMAS/XX-PL 
-   Harm-Neutr_PL-NOM  ;
-:%^VowRM%>i Harm-Neutr_PL-GEN_dE ;
-:%^VowRM%>i Harm-Neutr_PL-ILL_he ;
-:%^VowRM%>i Harm-Neutr_PL-PAR_t ;
-:%^VowRM%>i Harm-Neutr_PL-ALL_lE-STEM ;
-:%^VowRM%>i%>dõ   PL-COM ;
-+Use/NG:%^VowRM%>ii Harm-Neutr_PL-GEN_dE ;
-+Use/NG:%^Pen%^WGStem%>stõ PL-GEN_ZERO ;
-+Use/NG:%^VowRM%>ii Harm-Neutr_PL-PAR_d ;
-+Use/NG:%^VowRM%>ii Harm-Neutr_PL-ILL_he ;
-+Use/NG:%^VowRM%>i Harm-Neutr_PL-ILL_dE ;
-+Use/NG:%^VowRM%>ii Harm-Neutr_PL-ILL_dE ;
-+Use/NG:%^VowRM%>ii Harm-Neutr_PL-ALL_lE-STEM ;
-+Use/NG:%^Pen%^WGStem%>stõ Harm-Neutr_PL-ALL_lE-STEM ;
-+Use/NG:%^Pen%^WGStem%>stõ Harm-Neutr_PL-ILL_he ;
-+Use/NG:%^VowRM%>ii%>dõ   PL-COM ;
-+Use/NG:%^Pen%^WGStem%>stõ   PL-COM ;
+LEXICON NMN_14HAMMAS/IKÄS-PL 
+:%^WGStem   Harm-Neutr_PL-NOM  ;
+:%^VowRM%^WGStem%>i Harm-Neutr_PL-GEN_dE ;
+:%^VowRM%^WGStem%>i Harm-Neutr_PL-ILL_he ;
+:%^VowRM%^WGStem%>i Harm-Neutr_PL-PAR_t ;
+:%^VowRM%^WGStem%>i Harm-Neutr_PL-ALL_lE-STEM ;
+:%^VowRM%^WGStem%>i%>d%{eõ%}   PL-COM ;
++Use/NG:%^VowRM%^WGStem%>ii Harm-Neutr_PL-GEN_dE ;
++Use/NG:%^Pen%^WGStem%>t%{eõ%} PL-GEN_ZERO ;
++Use/NG:%^VowRM%^WGStem%>ii Harm-Neutr_PL-PAR_d ;
++Use/NG:%^VowRM%^WGStem%>ii Harm-Neutr_PL-ILL_he ;
++Use/NG:%^VowRM%^WGStem%>i Harm-Neutr_PL-ILL_dE ;
++Use/NG:%^VowRM%^WGStem%>ii Harm-Neutr_PL-ILL_dE ;
++Use/NG:%^VowRM%^WGStem%>ii Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:%^Pen%^WGStem%>t%{eõ%} Harm-Neutr_PL-ALL_lE-STEM ;
++Use/NG:%^Pen%^WGStem%>t%{eõ%} Harm-Neutr_PL-ILL_he ;
++Use/NG:%^VowRM%^WGStem%>ii%>d%{eõ%}   PL-COM ;
++Use/NG:%^Pen%^WGStem%>t%{eõ%}   PL-COM ;
 
 LEXICON NMN_14NUMMÕRʼ/XX !!= * __@CODE@__ nummõrʼ:numbõr
 !! Distinguished from 14RITSʼKAS due to gradation
