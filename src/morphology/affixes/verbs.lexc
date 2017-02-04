@@ -309,12 +309,12 @@ LEXICON V_57ÜTLEMÄ
 LEXICON V_57TAPLÕMA/ÜTLEMÄ
 :%^Pen%^VowRM%{eõ%} Harm-Neutr_V0-IND-PRS-SC-12 ;
 :%^Pen%^VowRM%{eõ%} ACT-IND-PRS-3_s/sEq ;
-: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+: PSS-IND-PRS_dA/SG1 ;
 
 :%^Pen%^VowRM V0-IND-PRT-SC-12_i ;
-:%{eõ%} ACT-IND-CONNEG ;
+:%^Pen%^VowRM%>%{eõ%} ACT-IND-CONNEG ;
 : Harm-Neutr_IND-PRT-SCSG3_APOSTROPHE ;
-: ACT-IND-PRT-PL3_q/vAq ;
+:%^Pen%^VowRM ACT-IND-PRT-PL3_q/vAq ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 :%^VOWLower Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
@@ -325,6 +325,7 @@ LEXICON V_57TAPLÕMA/ÜTLEMÄ
 :%^Pen%^VowRM%>%{eõ%} Harm-Neutr_ACT-PRS-PRC_v ;
 : Harm-Neutr_INF_dAq ;
 : Harm-Neutr_PSS-PRFPRC_dU ;
+: MUTUAL_JUS ;
 
 LEXICON V_57VÕITLÕMA
 !! võitlõma:võitõl
@@ -470,7 +471,7 @@ LEXICON V_62TÄRKNEMÄ
 LEXICON V_62ARGNÕMA/TÄRKNEMÄ 
 :n%{eõ%} Harm-Neutr_V0-IND-PRS-SC-12 ;
 :n%{eõ%} ACT-IND-PRS-3_s/sEq ;
-: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+:%{eõ%}%^Pen%^WGStem PSS-IND-PRS_tA/SG1 ;
 
 :s V0-IND-PRT-SC-12_i ;
 :n%{eõ%} ACT-IND-CONNEG ;
@@ -484,7 +485,8 @@ LEXICON V_62ARGNÕMA/TÄRKNEMÄ
 :%{eõ%}%^Pen%^WGStem Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
 :%{eõ%}%^Pen%^WGStem Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
 :%{eõ%}%^Pen%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
-
+:%{eõ%}%^Pen%^WGStem PSS-PRF-PRC_tU-SG-NOM ;
+:%{eõ%}%^Pen%^WGStem MUTUAL_JUS_kuq ;
 
 LEXICON V_63SÕIMAMA !!≈ * __@CODE@__ sõimama:sõima
 ! Ind.Prs.ScSg3 in -s

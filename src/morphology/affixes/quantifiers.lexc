@@ -5,9 +5,9 @@
 !35
 !ütsʼ:üt
 LEXICON NUM_35ÜTSʼ
-+Num+Card:%{front%}sʼ FRONT_SG-NOM ;
++Num+Card:%{front%}sʼ Harm-Neutr_SG-NOM ;
 +Num+Card:%{front%}e SG-GEN_ZERO-STEM ;
-+Num+Card:%{front%}e%^Pen%^StrGStem FRONT_SG-PAR_ZERO ;
++Num+Card:%{front%}e%^Pen%^StrGStem Harm-Neutr_SG-PAR_ZERO ;
 
 
 !49
@@ -15,7 +15,7 @@ LEXICON NUM_35ÜTSʼ
 LEXICON NUM_20KUUSʼ
 +Num+Card:%^D2Sʼ Harm-Neutr_SG-NOM  ;
 +Num+Card:%^WGStem%>õ SG-GEN_ZERO-STEM  ;
-+Num+Card:%^StrD2T BACK_SG-PAR_t  ;
++Num+Card:%{back%}%^StrD2T Harm-Neutr_SG-PAR_t  ;
 
 ! vim: set ft=xfst-lexc:
 
