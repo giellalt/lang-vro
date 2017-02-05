@@ -28,6 +28,12 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 
 
  
+ %{dØ%}:d 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{tØ%}:t 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dv%}:d 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{uv%}:u 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{üv%}:ü 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+
  %{hØ%}:h 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{jØ%}:j 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{lØ%}:l 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -47,6 +53,7 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{kg%}:k 	!!= @CODE@ HJK and KimmoK ideas kaigas:kai%{kg%}as
 
  %{tdØ%}:t 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kgØ%}:t 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
 
 
 
@@ -601,13 +608,20 @@ Rules
 !!€ juud%^WGStem%>a
 !!€ juvv0%>a
 
-"ü2v"
+"%{uv%}:v"
 !! __@RULENAME@__
- ü:v <=> ü _ (HarmDummies:) %> v ä q ;
-         ü _ d: (HarmDummies:) %^WGStem: ;
-!!€ püüd%^WGStem%>et
+ %{uv%}:v <=> u _ %> v a q ;
+         u _ %{dv%}: (HarmDummies:) %^WGStem: ;
+!!€ ju%{uv%}%{dv%}%^WGStem%>a
+!!€ juvv0%>a
+
+"%{üv%}:v"
+!! __@RULENAME@__
+ %{üv%}:v <=> ü _ (HarmDummies:) %> v ä q ;
+         ü _ %{dv%}: (HarmDummies:) %^WGStem: ;
+!!€ pü%{üv%}%{dv%}%^WGStem%>et
 !!€ püvv0%>et
-!!€ süüd%^WGStem%>ä
+!!€ sü%{üv%}%{dv%}%^WGStem%>ä
 !!€ süvv0%>ä
 
 "%^I7:i"
@@ -850,11 +864,26 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 !!€ hamba%^Pen%^WGStem%>s
 !!€ hamma0%>s
 
+"%{bm%}:m"
+!! __@RULENAME@__
+ %{bm%}:m <=> _  (HarmDummies:) %^WGStem: ;
+ m _ Vow: (Cns:+| %{hØ%}:| %{sØ%}:) (HarmDummies:) %^Pen: %^WGStem: ;
+!!€ ham%{bm%}a%{sØ%}%^Pen%^WGStem
+!!€ hammas00
+
+
 "d2n"
 !! __@RULENAME@__
  d:n <=> # Cns* Vow n (HarmDummies:) %> _ [a|ä] q ;
  n _ (HarmDummies:) %^WGStem: ;
  n _ Vow: (Cns:+) (HarmDummies:) %^Pen: %^WGStem: ;
+
+"%{dn%}:n"
+!! __@RULENAME@__
+ %{dn%}:n <=> # Cns* Vow n (HarmDummies:) %> _ [a|ä] q ;
+ n _ (HarmDummies:) %^WGStem: ;
+ n _ Vow: (Cns:+| %{hØ%}:| %{sØ%}:) (HarmDummies:) %^Pen: %^WGStem: ;
+
 
 "dTol"
 !! __@RULENAME@__
@@ -868,6 +897,7 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 !!€ vall00%>n
    l _ Vow: (Cns:+) (HarmDummies:) %^Pen: %^WGStem: ;
 
+
 "d2v"
 !! __@RULENAME@__
  d:v <=> [ ü: |u: ] _ (HarmDummies:) %^WGStem: ;
@@ -877,6 +907,18 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 !!€ juvv0%>a
 !!€ süüd%^WGStem%>ä
 !!€ süvv0%>ä
+
+"%{dv%}:v"
+!! __@RULENAME@__
+ %{dv%}:v <=> [ %{üv%}: |%{uv%}: ] _ (HarmDummies:) %^WGStem: ;
+!!€ pü%{üv%}%{dv%}%^WGStem%>et
+!!€ püvv0%>et
+!!€ ju%{uv%}%{dv%}%^WGStem%>a
+!!€ juvv0%>a
+!!€ sü%{üv%}%{dv%}%^WGStem%>ä
+!!€ süvv0%>ä
+
+
 
 "dTot"
 !! __@RULENAME@__
@@ -912,6 +954,17 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 !2015-09-02 Vow [(%^StrGStem:| Cns:0 %^CnsRM:) (%>) Vow | Vow (%^WGStem:)] %> _ [%> | # | :Vow ] ;
 !! There should always be a trigger
 
+"%{td%}:d"
+!! __@RULENAME@__
+ %{td%}:d <=>
+ Vow _ s (HarmDummies:) (ʼ:) %^WGStem: ;
+         Vow _ [Vow: (HarmDummies:) %^Pen: %^WGStem:|(HarmDummies:) %^WGStem: (%>) :Vow ] ;
+!! kaotama+V+Act+Ind+Prs+Sg1:
+!!€ kao%{td%}a%^Pen%^WGStem
+!!€ kaoda0
+
+
+!!This should be dealt with in %{dn%}
 "nTod"
 !! __@RULENAME@__
  n:d <=> n _ õ: l (HarmDummies:) %^Pen: %^VowRM: ;
