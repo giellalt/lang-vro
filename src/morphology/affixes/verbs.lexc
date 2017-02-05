@@ -929,15 +929,17 @@ LEXICON V_74KULUMA/VÄSÜMÄ !!≈ * __@CODE@__ kuluma:kullu
 : Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
 :%^Pen%^WGStem ACT-IND-CONNEG ;
 : V0-IND-PRT-SCSG3_ZERO ;
+: ACT-IND-PRT-PL3_q/vAq ;
 :%^Pen%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 :%^Pen%^WGStem Harm-Neutr_INF_mA ;
 : Harm-Neutr_INF_ZEROq ;
-:%^Pen%^WGStem Harm-Neutr_ACT-PRS-PRC_v ;
+: Harm-Neutr_ACT-PRS-PRC_v ;
 :%^Pen%^WGStem Harm-Neutr_ACT-PRF-PRC_WEAKGRADE-nUq ;
 :%^Pen%^WGStem Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
 :%^Pen%^WGStem Harm-Neutr_PSS-PRF-PRC_t ;
-
+:%^Pen%^WGStem PSS-PRF-PRC_tU-SG-NOM ;
+:%^Pen%^WGStem MUTUAL_JUS ;
 
 LEXICON V_75VALAMA !!≈ * __@CODE@__ valama:vala
 !! * Yaml: __V-valama75__
@@ -1735,15 +1737,18 @@ LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * __@CODE@__ ehtʼmä:ehti
 : ACT-IND-CONNEG ;
 :%^VowRM Harm-Neutr_IND-PRT-SCSG3_APOSTROPHE ;
 :%^VowRM Harm-Neutr_IND-PRT-SCSG3_E ;
-:%>i ACT-IND-PRT-PL3_q/vAq ;
+:%^VowRM%>e Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
+:%^I2ʼ%>s%{eõ%} Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
+:%^I2ʼ ACT-IND-PRT-PL3_q/vAq ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 :%^Pen%^CC2C%^I2ʼ Harm-Neutr_INF_mA ;
 : Harm-Neutr_INF_ZEROq ;
 : Harm-Neutr_ACT-PRS-PRC_v ;
-:%^VowRM Harm-Neutr_ACT-PRF-PRC-ALL_nUq ;
+:%^I2ʼ Harm-Neutr_ACT-PRF-PRC-ALL_nUq ;
 : Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
 : Harm-Neutr_PSS-PRF-PRC_t ;
+: PSS-PRF-PRC_tU-SG-NOM ;
 
 LEXICON V_87KOSIMA !!≈ * __@CODE@__ kosima:kosi
 !! * Yaml: __V-kosima__
