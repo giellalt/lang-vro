@@ -1729,26 +1729,29 @@ LEXICON V_86EHTJMÄ !!≈ * __@CODE@__ ehtʼmä:ehti
 +V:%{front%} V_86JAHTJMA/EHTJMÄ ;
 LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * __@CODE@__ ehtʼmä:ehti
 : Harm-Neutr_V0-IND-PRS-SC-12 ;
-: ACT-IND-PRS-3_s/sEq ;
++Act+Ind+Prs+Sg3:%^I2ʼ K ;
+:%^I2ʼ ACT-IND-PRS-PL3_vAq ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
-:%^VowRM V0-IND-PRT-SC-12_i ;
+!:%^VowRM V0-IND-PRT-SC-12_i ;
 :%^VowRM Harm-Neutr_ACT-IND-PRT-1/2_E ; !2014-06-27 Is this correct
-: ACT-IND-CONNEG ;
-:%^VowRM Harm-Neutr_IND-PRT-SCSG3_APOSTROPHE ;
-:%^VowRM Harm-Neutr_IND-PRT-SCSG3_E ;
-:%^VowRM%>e Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
 :%^I2ʼ%>s%{eõ%} Harm-Neutr_ACT-IND-PRT-1/2_ZERO ;
-:%^I2ʼ ACT-IND-PRT-PL3_q/vAq ;
+: ACT-IND-CONNEG ;
+
+:%^VowRM Harm-Neutr_IND-PRT-SCSG3_E ;
++Act+Ind+Prt+Sg3:%^I2ʼ%>s%{eõ%} K ;
+:%^I2ʼ%>s%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
+:%^VowRM%>%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
 : Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 :%^Pen%^CC2C%^I2ʼ Harm-Neutr_INF_mA ;
 : Harm-Neutr_INF_ZEROq ;
-: Harm-Neutr_ACT-PRS-PRC_v ;
+:%^I2ʼ ACT-PRS-PRC_vA ;
 :%^I2ʼ Harm-Neutr_ACT-PRF-PRC-ALL_nUq ;
 : Harm-Neutr_V0-PSS-PRS-PRC_tAv ;
 : Harm-Neutr_PSS-PRF-PRC_t ;
 : PSS-PRF-PRC_tU-SG-NOM ;
+:%^I2ʼ MUTUAL_JUS_kuq ;
 
 LEXICON V_87KOSIMA !!≈ * __@CODE@__ kosima:kosi
 !! * Yaml: __V-kosima__
@@ -1983,9 +1986,6 @@ LEXICON Harm-Neutr_ACT-IND-PRT-1/2_ZERO
 +Act+Ind+Prt+Pl1:%>miq K ;
 !+Use/NG+Act+Ind+Prt+Pl1: K ; ! These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>tiq K ;
-!+Use/NG+Act+Ind+Prt+Pl2:%>t K ; These will be dealt with in cg
-!+Use/NG+Act+Ind+Prt+Pl2:%>q K ; These will be dealt with in cg
-!+Use/NG+Act+Ind+Prt+Pl2:%>d%{eõ%}q K ; These will be dealt with in cg
 
 LEXICON Harm-Neutr_ACT-IND-PRT-SG1_ZERO_USUALLY-WEAK
 +Act+Ind+Prt+Sg1: K ;
