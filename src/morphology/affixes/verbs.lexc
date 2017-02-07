@@ -552,12 +552,19 @@ LEXICON V_63VISKAMA/HINGÄMÄ !!≈ * __@CODE@__ viskama:viska
 +Act+Ind+Prt+Pl3:%^Pen%^WGStem%>ssiq K ;
 +Act+Ind+Prt+Pl3:%^Pen%^WGStem%>ssiv%{aä%}q K ;
 
-+Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssi K ; !!= * @CODE@ no	q
-+Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssid%{eõ%} K ;   !!= * @CODE@ no	q
-+Err/Orth+Use/NG+Act+Ind+Prt+Pl1:%^Pen%^WGStem%>ssimi K ;   !!= * @CODE@ no	q
-+Err/Orth+Use/NG+Act+Ind+Prt+Pl2:%^Pen%^WGStem%>ssiti K ;   !!= * @CODE@ no	q
-+Err/Orth+Use/NG+Act+Ind+Prt+Pl3:%^Pen%^WGStem%>ssi K ; !!= * @CODE@ no  q
-+Err/Orth+Use/NG+Act+Ind+Prt+Pl3:%^Pen%^WGStem%>ssiv%{aä%} K ;   !!= * @CODE@ no	q
+
++Act+Ind+Prt+Pl3:%^VowRM%>siq K ;
++Act+Ind+Prt+Pl3:%^VowRM%>siv%{aä%}q K ;
+
+:%^VowRM V0-IND-PRT-SC-12_si ; 
+
+: Harm-Neutr_V0-IND-PRS-SC-12 ;
+: ACT-IND-PRS-3_s/sEq ;
+!! (6) Ind_Prs_Sg2, Ind_Prs_Sg3, Ind_Prs_Pl2, Ind_Prs_Pl3,
+!! Ind_Prt_OcPl3
+!! ActPrsPrc, PssPrsPrc
+
+: ACT-IND-CONNEG ;
 
 :%^Pen%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
@@ -568,33 +575,6 @@ LEXICON V_63VISKAMA/HINGÄMÄ !!≈ * __@CODE@__ viskama:viska
 +Err/Orth+Use/NG+Pss+Ind+Prt+Pl2:%^Pen%^WGStem%>titi K ; !!= * @CODE@ no    q
 +Err/Orth+Use/NG+Pss+Ind+Prt+Pl3:%^Pen%^WGStem%>tiv%{aä%} K ; !!= * @CODE@ no    q
 
-+Act+Ind+Prt+Sg1:%^VowRM%>si K ;
-+Act+Ind+Prt+Sg2:%^VowRM%>sit K ;
-+Act+Ind+Prt+Sg2:%^VowRM%>siq K ;
-+Act+Ind+Prt+Sg2:%^VowRM%>sid%{eõ%}q K ;
-+Act+Ind+Prt+Pl1:%^VowRM%>simiq K ;
-+Act+Ind+Prt+Pl2:%^VowRM%>sitiq K ;
-+Act+Ind+Prt+Pl3:%^VowRM%>siq K ;
-+Act+Ind+Prt+Pl3:%^VowRM%>siv%{aä%}q K ;
-
-+Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%^VowRM%>si K ; !!= * @CODE@ no    q
-+Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%^VowRM%>sid%{eõ%} K ; !!= * @CODE@ no    q
-+Err/Orth+Use/NG+Act+Ind+Prt+Pl1:%^VowRM%>simi K ; !!= * @CODE@ no    q
-+Err/Orth+Use/NG+Act+Ind+Prt+Pl2:%^VowRM%>siti K ; !!= * @CODE@ no    q
-+Err/Orth+Use/NG+Act+Ind+Prt+Pl3:%^VowRM%>si K ; !!= * @CODE@ no    q
-+Err/Orth+Use/NG+Act+Ind+Prt+Pl3:%^VowRM%>siv%{aä%} K ; !!= * @CODE@ no    q
-
-: Harm-Neutr_V0-IND-PRS-SC-12 ;
-: ACT-IND-PRS-3_s/sEq ;
-!! (6) Ind_Prs_Sg2, Ind_Prs_Sg3, Ind_Prs_Pl2, Ind_Prs_Pl3,
-!! Ind_Prt_OcPl3
-!! ActPrsPrc, PssPrsPrc
-
-: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
-
-:%^Pen%^VowRM V0-IND-PRT-SC-12_si ; 
-: ACT-IND-CONNEG ;
-: Harm-Neutr_IND-PRT-SC3_sʼ ;
 
 :%^Pen%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 !! +Pss+Ind+Prt +Sg1-+Pl3, ConNeg
@@ -1987,7 +1967,6 @@ LEXICON Harm-Neutr_VISKAMA_PSS-IND-PRS
 +Pss+Ind+Prs+Sg3:%>t%{aä%}s K ;
 +Pss+Ind+Prs+Pl1:%>t%{aä%}miq K ;
 +Pss+Ind+Prs+Pl2:%>t%{aä%}tiq K ;
-+Pss+Ind+Prs+Pl2:%>t%{aä%}d%{eõ%}q K ;
 +Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%}q K ;
 :%>d%{aä%} PSS-IND-CONNEG ;
 
@@ -2113,7 +2092,7 @@ LEXICON V0-IND-PRT-SC-12_si
 +Act+Ind+Prt+Sg1:%>si K ;
 +Act+Ind+Prt+Sg2:%>siq K ;
 +Act+Ind+Prt+Sg2:%>sit K ;
-+Act+Ind+Prt+Sg2:%>sidõq K ;
++Act+Ind+Prt+Sg2:%>sid%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>simiq K ;
 !+Act+Ind+Prt+Pl1:%>si K ; These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>sitiq K ;
