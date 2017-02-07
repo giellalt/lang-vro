@@ -1579,13 +1579,6 @@ LEXICON N_47KIRI-PL
 +N:%{front%}     NMN_47KIRI-PL ;
 
 
-LEXICON N-1
-+N: strong-v-stem ;
-+N:%^WG weak-v-stem ;
-+N: short-par ;
-+N: short-ill ;
-+N+Pl:%>i2 shortillpl ;
-
  
 LEXICON strong-v-stem
  nom-strong ;
@@ -1622,13 +1615,13 @@ LEXICON sgpl-cases
  +Com:%>gaq K ;
 
 
-LEXICON com
- +Com:%>ne Pxx ; ! Not to K, since Px must be present
+!LEXICON com
+! +Com:%>ne Pxx ;  Not to K, since Px must be present
                  ! Note that adjectives have -ine without Px
 
 !This Needs to be moved. Here it is adjacent to the source
-LEXICON Pxx
-+PxSg1: K ;
+!LEXICON Pxx
+!+PxSg1: K ;
 
 
 
@@ -1639,8 +1632,8 @@ LEXICON short-par
  +Sg+Par:%>%^A K ;
 ! does not handle valoaan vs. *salaaan
 
-LEXICON long-par
- +Sg+Par:%>t%^A K ;
+!LEXICON long-par
+! +Sg+Par:%>t%^A K ;
 
 LEXICON short-ill
  +Sg+Ill:%>%^Vn K ;
@@ -1648,39 +1641,6 @@ LEXICON short-ill
 LEXICON shortillpl
  +Pl+Ill:%>%^Vn K ; ! CHECK THIS 2013-01-11
 
-LEXICON N-2
-+N: # ;
-
-LEXICON N-3
-+N: # ;
-
-LEXICON N-4
-+N: # ;
-
-!!! N-5
-LEXICON N-5
-+N: # ;
-!kärbläne:kärblä
-LEXICON N-kärbläne
-+N+Sg+Nom:ne # ;
-LEXICON N-kärbläne-PL
-+N+Pl+Nom:seq # ;
-!elolinõ:eloli
-LEXICON N-elolinõ
-+N: N-elolinõ_01 ;
-LEXICON N-elolinõ_01
-+Sg+Nom:nõ # ;
-
-LEXICON N-elolinõ-PL
-+N+Pl+Nom:dsõq # ;
-
-
-!orsikas:orsika
-LEXICON N-orsikas
-+N+Sg+Nom:s # ;
-!meelikäs:meelikä
-LEXICON N-meelikäs
-+N+Sg+Nom:s # ;
 
 LEXICON N_2ELÄNÜQ !!= * @CODE@ elänüq:elänü
 +N:q	ATTESTED-NOUN-STEM-CONTINUED ;
