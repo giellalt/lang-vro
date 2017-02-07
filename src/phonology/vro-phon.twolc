@@ -263,10 +263,10 @@ Rules
  u:o <=>
    u: _ (HarmDummies:) %^VOWLower: ;
  OnSetC   _ u: (HarmDummies:) %^VOWLower: ;
- OnSetC _ Cns:0 Vow:0 (HarmDummies:) %^Pen: %^WGStem: %^VowRM: %> i   ;
- OnSetC _ Cns:0 Vow:e (HarmDummies:) %^Pen: %^WGStem:    ;
-!!€ lugõ%^WGStem%^VowRM%>i
-!!€ lo0000%>i
+ OnSetC _ [Cns:0|%{pbØ%}:|%{tdØ%}:|%{kgØ%}:] Vow:0 (HarmDummies:) %^VOWLower: %^Pen: %^WGStem: %^VowRM:    ;
+ OnSetC _ [Cns:0 |%{pbØ%}:|%{tdØ%}:|%{kgØ%}:] Vow:e (HarmDummies:) %^VOWLower: %^Pen: %^WGStem:    ;
+!!€ lugõ%^VOWLower%^Pen%^WGStem%^VowRM%>i
+!!€ lo000000%>i
 
 "ü:ö"
 !! __@RULENAME@__
