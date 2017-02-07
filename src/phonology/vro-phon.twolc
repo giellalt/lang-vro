@@ -36,6 +36,7 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 
  %{hØ%}:h 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{jØ%}:j 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kØ%}:k 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{lØ%}:l 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{mØ%}:m 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{nØ%}:n 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -163,7 +164,7 @@ Cns = b d f g h j k l m n p q r s š t v z ž ;
 
 CnsVoiced = j l m n r v ;
 
-ArchCns =  %{hØ%} %{jØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{vØ%} %{pb%} %{td%} %{kg%} ;
+ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pb%} %{td%} %{kg%} %{dr%} %{dn%} ;
 
 Letters = Vow Cns ;
 
@@ -454,9 +455,9 @@ Rules
 !!€ sa0%>i
 !!€ sõima0%^VowRM%>si
 !!€ sõim0s0%>si
-  Cns:  _ Cns: (HarmDummies:) (ʼ:) %^Pen: %^VowRM: ;
+  [Cns:| ArchCns: ]  _ Cns: (HarmDummies:) (ʼ:) %^Pen: %^VowRM: ;
 !!€ puhkas%^Pen%^VowRM%>a%>ma
-!!€ puhk0s0%>a%>ma
+!!€ puhk0s00%>a%>ma
   _  [%{hØ%}: | %{sØ%}:] (HarmDummies:) %^VowRM:  ;
     _ (HarmDummies:) (%^VOWLower:) (%^Pen: %^WGStem:) %^VowRM: ;
 
@@ -470,7 +471,7 @@ Rules
 !!€ jä000%>i
 !!€ elä%>et
 !!€ el0%>et
-  Cns: _ Cns: (HarmDummies:) (ʼ:) %^Pen: %^VowRM: ;
+  [Cns:| ArchCns: ] _ Cns: (HarmDummies:) (ʼ:) %^Pen: %^VowRM: ;
 !!€ tütär%^Pen%^VowRM%>e
 !!€ tüt0r0%>e
  _  [%{hØ%}: | %{sØ%}:] (HarmDummies:) %^VowRM:  ;
@@ -767,6 +768,19 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 !!€ ikkõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%}
 !!€ ik000000%>ma
 
+"%{kØ%}:0"
+!! __@RULENAME@__  
+ %{kØ%}:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
+!!€ puhkas%^WGStem%>taq
+!!€ puh0as0%>taq
+
+ s _ a (HarmDummies:) %^Pen: %^WGStem: ;
+
+   _ k [(HarmDummies:)|Vow: (HarmDummies:) %^Pen:] [ %^CC2C:0 | %^WGStem: ] ;
+  [h|s] _ [(HarmDummies:)|Vow: (HarmDummies:) %^Pen:] %^WGStem:  ;
+!!€ i%{kØ%}kõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%}
+!!€ i0k00000%>ma
+
 "pToZero"
 !! __@RULENAME@__
  p:0 <=>
@@ -774,6 +788,14 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
   p _ Vow: (HarmDummies:) %^Pen: [%^CC2C:0|%^WGStem:] ;
 !!€ tapp%{back%}%^CC2C%>m%{aä%}
 !!€ tap000%>ma
+
+"%{pØ%}:0"
+!! __@RULENAME@__
+ %{pØ%}:0 <=>
+  _ p (HarmDummies:) [%^CC2C:0|%^WGStem:] ;
+  _ p Vow: (HarmDummies:) %^Pen: [%^CC2C:0|%^WGStem:] ;
+!!€ ta%{pØ%}p%{back%}%^CC2C%>m%{aä%}
+!!€ ta0p00%>ma
 
 "mToZero"
 !! __@RULENAME@__
