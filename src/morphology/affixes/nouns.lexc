@@ -4524,20 +4524,22 @@ LEXICON NMN_46SÕBÕR !!= __@CODE@__
   NMN_46SÕBÕR-SG ;
   NMN_46SÕBÕR-PL ;
 LEXICON NMN_46SÕBÕR-SG 
-        Harm-Neutr_SG-NOM  ;
-:%^Pen%^StrGStem%^Pen%^VowRM        Harm-Neutr_SG-NOM  ;
-:%^Pen%^VowRM%>%{aä%}       SG-GEN_ZERO-STEM        ;
-:%^Pen%^StrGStem%^Pen%^VowRM%>%{aä%}       Harm-Neutr_SG-ILL_ZERO        ;
-:%^Pen%^StrGStem%^Pen%^VowRM%>%{aä%}       Harm-Neutr_SG-PAR_ZERO        ;
+:%^Pen%^WGStem    Harm-Neutr_SG-NOM  ;
+:%^Pen%^VowRM        Harm-Neutr_SG-NOM  ;
+:%^Pen%^WGStem%^Pen%^VowRM%>%{aä%}       SG-GEN_ZERO-STEM        ;
+:%^Pen%^VowRM%>%{aä%}       Harm-Neutr_SG-ILL_ZERO        ;
+:%^Pen%^VowRM%>%{aä%}       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_46SÕBÕR-PL 
-:%^Pen%^VowRM%>%{aä%}       Harm-Neutr_PL-NOM ;
-:%^Pen%^StrGStem%^Pen%^VowRM%>i    PL-GEN_ZERO ;
-:%^Pen%^StrGStem%^Pen%^VowRM%>i    Harm-Neutr_PL-PAR_ZERO ;
-:%^Pen%^StrGStem%^Pen%^VowRM%>i  Harm-Neutr_PL-ILL_hE ;
-:%^Pen%^VowRM%>i  Harm-Neutr_PL-ALL_lE-STEM ;
+:%^Pen%^WGStem%^Pen%^VowRM%>%{aä%}       Harm-Neutr_PL-NOM ;
+:%^Pen%^VowRM%>%{eõ%}    PL-GEN_ZERO ;
+:%^Pen%^VowRM%>%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
+:%^Pen%^VowRM%>%{eõ%}  Harm-Neutr_PL-ILL_he ;
+:%^Pen%^VowRM%>%{eõ%}  Harm-Neutr_PL-ILL_dE ;
+:%^Pen%^WGStem%^Pen%^VowRM%>%{eõ%}  Harm-Neutr_PL-ALL_lE-STEM ;
 
-:%^StrGStem%^Pen%^VowRM%>i    Harm-Neutr_PL-ILL_ZERO ;
+:%^Pen%^VowRM%>%{eõ%}    Harm-Neutr_PL-ILL_ZERO ;
+:%^Pen%^VowRM%>%{eõ%}    PL-COM ;
 
 LEXICON NMN_37PINI
 ! pini:pini
