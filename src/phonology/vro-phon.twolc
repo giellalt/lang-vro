@@ -30,6 +30,8 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{ei%}:e 	!!= @CODE@ Vowel raising
  %{õy%}:õ 	!!= @CODE@ Vowel raising
 
+ %{eʼ%}:e 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{õʼ%}:õ 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
 
  
  %{dØ%}:d 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -60,6 +62,9 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{pbØ%}:b 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{tdØ%}:d 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{kgØ%}:g 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+
+ %{qmn%}:q 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{qn%}:q 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
 
 
 
@@ -539,6 +544,11 @@ Rules
    OnSetC ü: _ (HarmDummies:) (%^VOWLower:) %> i ;
     _ (HarmDummies:) (%^VOWLower:) (%^Pen: %^WGStem:) %^VowRM: ;
 !! }}}
+
+"Vx:ʼ"
+!! __@RULENAME@__
+ Vx:ʼ <=>  [ Cns: | :Cns |ArchCns:] _ (%{qmn%}:|%{qn%}:) (HarmDummies:) [(%^Pen: %^CC2C:|%^Pen: %^StrGStem:|%^Pen: %^XStrGStem:|%^Pen: %^WGStem:) %^VowRM: | Cns:0 (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: ]  ; 
+                 where Vx in (%{eʼ%} %{õʼ%}) ;
 
 "e:0"
 !! __@RULENAME@__
