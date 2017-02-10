@@ -2448,25 +2448,41 @@ LEXICON NMN_9VILLÕ/XX !!= @CODE@ tahhe:tahhe
 
 LEXICON NMN_9VILLÕ/XX-SG
 :	Harm-Neutr_SG-NOM	;
-:%^Pen%^WGStem%>hõ	SG-GEN_ZERO-STEM	;
-:%^Pen%^WGStem%>hõ	Harm-Neutr_SG-PAR_t	;
-:%^Pen%^WGStem%>hõ	Harm-Neutr_SG-ILL_he	;
-+Use/NG:%^Pen%^WGStem%>hõ	Harm-Neutr_SG-ILL_dE	;
+:%^Pen%^WGStem%>h%{eõ%}	SG-GEN_ZERO-STEM	;
+:	SG-GEN_ZERO-STEM	;
+:%^Pen%^WGStem%>h%{eõ%}	Harm-Neutr_SG-PAR_t	;
+:	Harm-Neutr_SG-PAR_t	;
+:%^Pen%^WGStem%>h%{eõ%}	Harm-Neutr_SG-ILL_he	;
++Use/NG:%^Pen%^WGStem%>h%{eõ%}	Harm-Neutr_SG-ILL_dE	;
++Use/NG:%^Pen%^XStrGStem	Harm-Neutr_SG-ILL_he	;
++Use/NG:%^Pen%^XStrGStem	Harm-Neutr_SG-ILL_dE	;
 
 LEXICON NMN_9VILLÕ/XX-PL
 :%^Pen%^WGStem%>hõ	Harm-Neutr_PL-NOM ;
+:	Harm-Neutr_PL-NOM ;
 :%^Pen%^WGStem%>hi	Harm-Neutr_PL-GEN_dE ;
 :%^Pen%^WGStem%>hi        Harm-Neutr_PL-ILL_he       ;
 :%^Pen%^WGStem%>hi        Harm-Neutr_PL-ALL_lE-STEM       ;
 :%^Pen%^WGStem%>hi      Harm-Neutr_PL-PAR_t        ;
 :%^Pen%^WGStem%>hid%{eõ%}      PL-COM        ;
 +Use/NG:%^Pen%^WGStem%>hii	Harm-Neutr_PL-GEN_dE ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>i	Harm-Neutr_PL-GEN_dE ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>ii	Harm-Neutr_PL-GEN_dE ;
 +Use/NG:%^Pen%^WGStem%>hii      Harm-Neutr_PL-PAR_d        ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>i      Harm-Neutr_PL-PAR_t        ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>ii      Harm-Neutr_PL-PAR_d        ;
 +Use/NG:%^Pen%^WGStem%>hii        Harm-Neutr_PL-ILL_he       ;
-+Use/NG:%^Pen%^WGStem%>hi        Harm-Neutr_PL-ILL_dE       ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>i        Harm-Neutr_PL-ILL_he       ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>ii        Harm-Neutr_PL-ILL_he       ;
 +Use/NG:%^Pen%^WGStem%>hii        Harm-Neutr_PL-ILL_dE       ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>i        Harm-Neutr_PL-ILL_dE       ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>ii        Harm-Neutr_PL-ILL_dE       ;
 +Use/NG:%^Pen%^WGStem%>hii        Harm-Neutr_PL-ALL_lE-STEM       ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>i        Harm-Neutr_PL-ALL_lE-STEM       ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>ii        Harm-Neutr_PL-ALL_lE-STEM       ;
 +Use/NG:%^Pen%^WGStem%>hiid%{eõ%}      PL-COM        ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>id%{eõ%}      PL-COM        ;
++Use/NG:%^Pen%^XStrGStem%^VowRM%>iid%{eõ%}      PL-COM        ;
 
 LEXICON NMN_10HÕRAK !!= * @OCDE@ hõrak:hõrak
 !! __N-hwrak10__
