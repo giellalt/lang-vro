@@ -663,7 +663,7 @@ Rules
 "i2ʼ"
 !! __@RULENAME@__
  i:ʼ <=>
-  Cns: _ (HarmDummies:) (%^Pen: %^CC2C:) %^I2ʼ: ;
+  [Cns:|ArchCns:] _ (HarmDummies:) (%^Pen: %^CC2C:) %^I2ʼ: ;
 ! Cns _ %^WGStem: %> :Vow ;
 
 
@@ -954,6 +954,11 @@ k:0 <=> [h|k|s] _ Vow: (s) (HarmDummies:) %^Pen: %^WGStem: ;
 !!€ att%{back%}%^CC2C%>m%{aä%}
 !!€ at000%>ma
 
+
+"%{tØ%}:0"
+!! __@RULENAME@__
+ %{tØ%}:0 <=> h _ Vow: (Cns:* ) (HarmDummies:) %^Pen: %^WGStem: ;
+  _ t [(HarmDummies:)| Vow: (HarmDummies:) %^Pen:] %^WGStem: ;
 
 
 !! !CONSONANT QUALITY CHANGE
