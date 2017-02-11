@@ -3,42 +3,42 @@
 !LEXICON NUM_ !!= * @CODE@ Lacks specific continuation lexicon
 !+Num+WORK: #;
 
-LEXICON NUM_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
-        NUM_1HANSʼA-SG ;
-        NUM_1HANSʼA-PL ;
+!LEXICON NUM_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
+!        NUM_1HANSʼA-SG ;
+!        NUM_1HANSʼA-PL ;
 
-LEXICON NUM_1HANSʼA-SG
-+Num:%{back%}     NMN_1HANSʼA-SG ;
-LEXICON NUM_1HANSʼA-PL
-+Num:%{back%}     NMN_1HANSʼA-PL ;
+!LEXICON NUM_1HANSʼA-SG
+!+Num:%{back%}     NMN_1HANSʼA-SG ;
+!LEXICON NUM_1HANSʼA-PL
+!+Num:%{back%}     NMN_1HANSʼA-PL ;
 
-LEXICON NUM_1VIU !!= @CODE@ 1 viu:viu
-	N_1VIU-SG ;
-	N_1VIU-PL ;
+!LEXICON NUM_1VIU !!= @CODE@ 1 viu:viu
+!	N_1VIU-SG ;
+!	N_1VIU-PL ;
 
-LEXICON NUM_1VIU-SG
-+Num:%{back%}	NMN_1VIU-SG ; 
-LEXICON NUM_1VIU-PL
-+Num:%{back%}	NMN_1VIU-PL ; 
+!LEXICON NUM_1VIU-SG
+!+Num:%{back%}	NMN_1VIU-SG ; 
+!LEXICON NUM_1VIU-PL
+!+Num:%{back%}	NMN_1VIU-PL ; 
 
 
-LEXICON NUM_1HERRÄ !!= @CODE@ 1 herrä:herrä
-	N_1HERRÄ-SG ;
-	N_1HERRÄ-PL ;
+!LEXICON NUM_1HERRÄ !!= @CODE@ 1 herrä:herrä
+!	N_1HERRÄ-SG ;
+!	N_1HERRÄ-PL ;
 
-LEXICON NUM_1HERRÄ-SG
-+Num:	NMN_1HERRÄ-SG ; 
-LEXICON NUM_1HERRÄ-PL
-+Num:	NMN_1HERRÄ-PL ; 
+!LEXICON NUM_1HERRÄ-SG
+!+Num:	NMN_1HERRÄ-SG ; 
+!LEXICON NUM_1HERRÄ-PL
+!+Num:	NMN_1HERRÄ-PL ; 
 
-LEXICON NUM_1PREI !!= @CODE@ 1 prei:prei
-	N_1PREI-SG ;
-	N_1PREI-PL ;
+!LEXICON NUM_1PREI !!= @CODE@ 1 prei:prei
+!	N_1PREI-SG ;
+!	N_1PREI-PL ;!
 
-LEXICON NUM_1PREI-SG
-+Num:	NMN_1PREI-SG ; 
-LEXICON NUM_1PREI-PL
-+Num:	NMN_1PREI-PL ; 
+!LEXICON NUM_1PREI-SG
+!+Num:	NMN_1PREI-SG ; 
+!LEXICON NUM_1PREI-PL
+!+Num:	NMN_1PREI-PL ; 
 
 !LEXICON NUM_2ARTIKLI
 !! * Yaml: __suhvli__
@@ -62,25 +62,25 @@ LEXICON NUM_1PREI-PL
 !+Num:	NMN_2KERGE-PL ;
 
 
-LEXICON NUM_3PERÄDÜ !!= @CODE@ perädü:perädü
+!LEXICON NUM_3PERÄDÜ !!= @CODE@ perädü:perädü
 !! * Yaml: __peraedue__
-   NUM_3PERÄDÜ-SG ;
-   NUM_3PERÄDÜ-PL ;
+!   NUM_3PERÄDÜ-SG ;
+!   NUM_3PERÄDÜ-PL ;
 
-LEXICON NUM_3PERÄDÜ-SG
-+Num:%{front%}     NMN_3PERÄDÜ-SG ;
-LEXICON NUM_3PERÄDÜ-PL
-+Num:%{front%}     NMN_3PERÄDÜ-PL ;
+!LEXICON NUM_3PERÄDÜ-SG
+!+Num:%{front%}     NMN_3PERÄDÜ-SG ;
+!LEXICON NUM_3PERÄDÜ-PL
+!+Num:%{front%}     NMN_3PERÄDÜ-PL ;
 
-LEXICON NUM_3ALADU !!= @CODE@ aladu:aladu
+!LEXICON NUM_3ALADU !!= @CODE@ aladu:aladu
 !! * Yaml: __peraedue__
-   NUM_3ALADU-SG ;
-   NUM_3ALADU-PL ;
+!   NUM_3ALADU-SG ;
+!   NUM_3ALADU-PL ;
 
-LEXICON NUM_3ALADU-SG
-+Num:%{back%}     NMN_3ALADU-SG ;
-LEXICON NUM_3ALADU-PL
-+Num:%{back%}     NMN_3ALADU-PL ;
+!LEXICON NUM_3ALADU-SG
+!+Num:%{back%}     NMN_3ALADU-SG ;
+!LEXICON NUM_3ALADU-PL
+!+Num:%{back%}     NMN_3ALADU-PL ;
 
 
 !LEXICON NUM_4TERVÜS
@@ -677,14 +677,14 @@ LEXICON NUM_3ALADU-PL
 !LEXICON NUM_27EHEQ-PL
 !+Num:%{front%} NMN_27ASTÕQ/EHEQ-PL ;
 
-LEXICON NUM_HAPU !!= * __@CODE@__ hapu:hapu
+!LEXICON NUM_HAPU !!= * __@CODE@__ hapu:hapu
 ! gradation: yes
- NUM_HAPU-SG ;
- NUM_HAPU-PL ;
-LEXICON NUM_HAPU-SG
-+Num:%{back%} NMN_27HAPU-SG ;
-LEXICON NUM_HAPU-PL
-+Num:%{back%} NMN_27HAPU-PL ;
+! NUM_HAPU-SG ;
+! NUM_HAPU-PL ;
+!LEXICON NUM_HAPU-SG
+!+Num:%{back%} NMN_27HAPU-SG ;
+!LEXICON NUM_HAPU-PL
+!+Num:%{back%} NMN_27HAPU-PL ;
 
 !LEXICON NUM_28TÜTÄRʼ !!= * __@CODE@__ tütärʼ:tütär
 ! NUM_28TÜTÄRʼ-SG ;

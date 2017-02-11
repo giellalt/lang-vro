@@ -276,7 +276,7 @@ LEXICON V_55KÕNÕLÕMA/HÄRELEMÄ
 : Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 :%{eõ%} Harm-Neutr_INF_mA ;
-: Harm-Neutr_INF_dAq ;
+: Harm-Neutr_INF_DAq ;
 :%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
 : Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
 : Harm-Neutr_V0-PSS-PRSPRC_tAv ;
@@ -2265,6 +2265,9 @@ LEXICON Harm-Neutr_PSS-PRFPRC_dU
 LEXICON Harm-Neutr_INF_mA
 +Inf/mA:%>m%{aä%} K ;
  V2N_minE ;
+
+LEXICON Harm-Neutr_INF_DAq
++Inf:%>d%{aä%}q%^Pen%^GWStem K ;
 
 LEXICON Harm-Neutr_INF_dAq
 +Inf:%>d%{aä%}q K ;
