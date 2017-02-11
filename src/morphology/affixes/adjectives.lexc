@@ -32,8 +32,8 @@ LEXICON A_3PERÄDÜ !!= @CODE@ perädü:perädü
 
 
 
-LEXICON A_4TERVÜS
-+A:%{front%}  NMN_4TERVÜS ;
+!LEXICON A_4TERVÜS
+!+A:%{front%}  NMN_4TERVÜS ;
 LEXICON A_4AINUS  !!= @CODE@ ainus:ainus
 +A:%{back%}  NMN_4AINUS ;
 +A:%{back%}%^CnsRM COMP ;
@@ -49,8 +49,8 @@ LEXICON A_5MÄNGJÄ
 LEXICON A_6MAKÕ
 +A:%{back%}  NMN_6MAKÕ/HELLE ;
 
-LEXICON A_7FÜÜSIGA
-+A:%{back%}  NMN_7FÜÜSIGA ;
+!LEXICON A_7FÜÜSIGA
+!+A:%{back%}  NMN_7FÜÜSIGA ;
 
 LEXICON A_8HÄIELM
 +A:%{front%}  NMN_8HÄIELM ;
@@ -67,10 +67,10 @@ LEXICON A_9KIPÕNʼ
 +A:%{back%}     NMN_9KIPÕNʼ/VETELʼ ;
 +A:%{back%}%^Pen%^WGStem%>a COMP ;
 
-LEXICON A_9VETELʼ
+!LEXICON A_9VETELʼ
 !! * Yaml: __ellaei, suhvli__
-+A:%{front%}     NMN_9KIPÕNʼ/VETELʼ ;
-+A:%{front%}%^Pen%^WGStem%>a COMP ;
+!+A:%{front%}     NMN_9KIPÕNʼ/VETELʼ ;
+!+A:%{front%}%^Pen%^WGStem%>a COMP ;
 
 LEXICON A_9TUKÕV
 !! * Yaml: __tukwv__
@@ -82,10 +82,10 @@ LEXICON A_9VERREV
 +A:%{front%}	NMN_9TUKÕV/VERREV ;
 +A:%^Pen%^WGStem%>ä%{front%} COMP ;
 
-LEXICON A_9SALLAI
+!LEXICON A_9SALLAI
 !! * Yaml: __sallai__
-+A:%{back%}     NMN_9SALLAI/ELLÄI ;
-+A:%^Pen%^WGStem%^I2J%>a%{back%} COMP ;
+!+A:%{back%}     NMN_9SALLAI/ELLÄI ;
+!+A:%^Pen%^WGStem%^I2J%>a%{back%} COMP ;
 
 LEXICON A_9ELLÄI
 !! * Yaml: __ellaei__
@@ -167,52 +167,52 @@ LEXICON A_23KIILʼ
 +A:e%{front%} COMP ;
 
 
-LEXICON A_24KÄSI
-+A:%{front%}  NMN_24KÄSI ;
+!LEXICON A_24KÄSI
+!+A:%{front%}  NMN_24KÄSI ;
 
-LEXICON A_25ASÕQ
-+A:%{back%}  NMN_25ASÕQ ;
+!LEXICON A_25ASÕQ
+!+A:%{back%}  NMN_25ASÕQ ;
 
-LEXICON A_26HEPEMʼ
-+A:%{front%}  NMN_26HEPEMʼ ;
+!LEXICON A_26HEPEMʼ
+!+A:%{front%}  NMN_26HEPEMʼ ;
 
-LEXICON A_27EHEQ
-+A:%{front%}  NMN_27ASTÕQ/EHEQ ;
+!LEXICON A_27EHEQ
+!+A:%{front%}  NMN_27ASTÕQ/EHEQ ;
 
 LEXICON A_28TÜTÄRʼ
 +A:%{front%}  NMN_28TÜTÄRʼ ;
 
-LEXICON A_29KUU
-+A:%{back%}  NMN_29KUU ;
+!LEXICON A_29KUU
+!+A:%{back%}  NMN_29KUU ;
 
-LEXICON A_30TÜÜ
-+A:%{front%}  NMN_30TÜÜ ;
+!LEXICON A_30TÜÜ
+!+A:%{front%}  NMN_30TÜÜ ;
 
-LEXICON A_31TÄI
-+A:%{front%}  NMN_31TÄI ;
+!LEXICON A_31TÄI
+!+A:%{front%}  NMN_31TÄI ;
 
-LEXICON A_32VERI
-+A:%{front%}  NMN_32VERI ;
+!LEXICON A_32VERI
+!+A:%{front%}  NMN_32VERI ;
 
-LEXICON A_33IGÄ
-+A:%{front%}  NMN_33XX/IGÄ ;
+!LEXICON A_33IGÄ
+!+A:%{front%}  NMN_33XX/IGÄ ;
 
-LEXICON A_34TULI
-+A:%{back%}  NMN_34TULI/SÜLI ;
+!LEXICON A_34TULI
+!+A:%{back%}  NMN_34TULI/SÜLI ;
 
 LEXICON A_35TARÕ
 +A:%{back%}  NMN_35TARÕ ;
 
 LEXICON A_36SÄRGʼ
 +A:%{front%}  NMN_36SÄRGʼ ;
-LEXICON A_36PÄIV
-+A:%{front%}  NMN_36PÄIV ;
+!LEXICON A_36PÄIV
+!+A:%{front%}  NMN_36PÄIV ;
 
 LEXICON A_36SILM
 +A:%{front%}  NMN_36SILM ;
 
-LEXICON A_37PINI
-+A:%{front%}  NMN_37PINI ;
+!LEXICON A_37PINI
+!+A:%{front%}  NMN_37PINI ;
 
 LEXICON A_38PUNG
 +A:%{back%}  NMN_38PUNG ;
@@ -220,8 +220,8 @@ LEXICON A_38PUNG
 LEXICON A_38PULLʼ
 +A:%{back%}  NMN_38PULLʼ ;
 
-LEXICON A_39HÄBÜ
-+A:%{front%}  NMN_39HÄBÜ ;
+!LEXICON A_39HÄBÜ
+!+A:%{front%}  NMN_39HÄBÜ ;
 
 LEXICON A_40TALO
 +A:%{back%}  NMN_40TALO/HELÜ ;
@@ -229,14 +229,14 @@ LEXICON A_40TALO
 LEXICON A_41KAND
 +A:%{back%}  NMN_41KAND ;
 
-LEXICON A_42VARI
-+A:%{back%}  NMN_42VARI ;
+!LEXICON A_42VARI
+!+A:%{back%}  NMN_42VARI ;
 
 LEXICON A_43KANARIK
 +A:%{back%}  NMN_43KANARIK ;
 
-LEXICON A_44SÕDA
-+A:%{back%}  NMN_44SÕDA ;
+!LEXICON A_44SÕDA
+!+A:%{back%}  NMN_44SÕDA ;
 
 LEXICON A_45KANA
 +A:%{back%}  NMN_45KANA/RIHÄ ;
@@ -257,8 +257,8 @@ LEXICON A_46SÕBÕR
 +A:%{back%}  NMN_46SÕBÕR ;
 +A:%>a%{back%} COMP ;
 
-LEXICON A_47ASI
-+A:%{back%}  NMN_47ASI ;
+!LEXICON A_47ASI
+!+A:%{back%}  NMN_47ASI ;
 
 
 LEXICON Adj-28
