@@ -529,6 +529,8 @@ Rules
 !! __@RULENAME@__
 !! {{{
  u:0 <=>  [Cns:|ArchCns:| Vow: ] _ (s:) (HarmDummies:) [ (%^Pen: %^CC2C:|%^Pen: %^StrGStem:|%^Pen: %^XStrGStem:|%^Pen: %^WGStem:) %^VowRM: | Cns:0 (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: ]  ; 
+!!€ hirnu%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%}
+!!€ hirn00000%>ma
 !!€ tervüs%^VowRM%^CnsRM%>i%>t
 !!€ terv0000%>i%>t
    OnSetC u: _ (HarmDummies:) (%^Pen: %^CC2C:) %^VowRM: %> i ;
@@ -623,7 +625,7 @@ Rules
      
 "%{XV%}:ü"
 !! __@RULENAME@__
- %{XV%}:ü <=> [:ü PenBetweenStemAndStemFinal | %{öü%}:ü (HarmDummies:) %^VOWRaise: ] ( %- ) _  ;
+ %{XV%}:ü <=> [:ü PenBetweenStemAndStemFinal | %{öü%}:ü̬  (HarmDummies:) %^VOWRaise: ] ( %- ) _  ;
        [ ü | ü: PenBetweenStemAndStemFinal (%^VowRM:) |ü̬ PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
 
      
