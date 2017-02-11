@@ -10,11 +10,11 @@ LEXICON A_
 LEXICON PROP-PLC-DOWNCASE-SG-GEN
 +N+Prop+Sg+Gen+Prop→A+A@U.Cap.Opt@:000000@U.Cap.Opt@ # ;
 
-LEXICON A_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
-+A:%{back%}	NMN_1HANSʼA ;
+!LEXICON A_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
+!+A:%{back%}	NMN_1HANSʼA ;
 
-LEXICON A_1HERRÄ !!= @CODE@ 1 herrä:herrä
-+A:%{front%}	NMN_1HERRÄ ;
+!LEXICON A_1HERRÄ !!= @CODE@ 1 herrä:herrä
+!+A:%{front%}	NMN_1HERRÄ ;
 
 LEXICON A_2ARTIKLI !!= @CODE@ suhvli:suhvli
 !! * Yaml: __suhvli__
@@ -104,17 +104,17 @@ LEXICON A_10ESÄK
 LEXICON A_11LÄTEQ
 +A:%{front%}  NMN_11ANNÕQ/LÄTEQ ;
 
-LEXICON A_12REPÄNʼ
-+A:%{front%}  NMN_12REPÄNʼ ;
+!LEXICON A_12REPÄNʼ
+!+A:%{front%}  NMN_12REPÄNʼ ;
 
 LEXICON A_13ALONÕ !!= @CODE@ alonõ:alo
 +A:%{back%}     NMN_13ALONÕ/TÄHINE ;
 
-LEXICON A_13TÄHINE !!= @CODE@ tähine:tähi
-+A:%{front%}     NMN_13ALONÕ/TÄHINE ;
+!LEXICON A_13TÄHINE !!= @CODE@ tähine:tähi
+!+A:%{front%}     NMN_13ALONÕ/TÄHINE ;
 
-LEXICON A_13SÄÄNE !!= @CODE@ sääne:sää
-+A:%{front%}     NMN_13XX/SÄÄNE ;
+!LEXICON A_13SÄÄNE !!= @CODE@ sääne:sää
+!+A:%{front%}     NMN_13XX/SÄÄNE ;
 
 LEXICON A_14RITSʼKAS  !!= @CODE@ ritsʼkas:ritsʼka
 +A:%{back%} Harm-Neutr_COMP ;
@@ -130,11 +130,11 @@ LEXICON A_15KOTUS
 LEXICON A_16INEMINE !!= @CODE@ inemine:inemi
 +A:%{front%}	NMN_16ABILINÕ/INEMINE ;
 
-LEXICON A_18AIVASTUS
-+A:%{back%}  NMN_18AIVASTUS/EHITÜS ;
+!LEXICON A_18AIVASTUS
+!+A:%{back%}  NMN_18AIVASTUS/EHITÜS ;
 
-LEXICON A_18EHITÜS
-+A:%{front%}  NMN_18AIVASTUS/EHITÜS ;
+!LEXICON A_18EHITÜS
+!+A:%{front%}  NMN_18AIVASTUS/EHITÜS ;
 
 LEXICON A_19ALOMANÕ !!= @CODE@ alomanõ:aloma
 +A:%{back%}     NMN_19ALOMANÕ/PEDÄJÄNE ;
@@ -144,11 +144,11 @@ LEXICON A_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
 +A:%{front%}	NMN_19ALOMANÕ/PEDÄJÄNE ;
 +A:dse%{front%} COMP ;
 
-LEXICON A_20VÄITSʼ
-+A:%{front%}  NMN_20VÄITSʼ ;
+!LEXICON A_20VÄITSʼ
+!+A:%{front%}  NMN_20VÄITSʼ ;
 
-LEXICON A_21HÜDSI
-+A:%{front%}  NMN_21HÜDSI ;
+!LEXICON A_21HÜDSI
+!+A:%{front%}  NMN_21HÜDSI ;
 
 LEXICON A_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
 +A:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE ;
@@ -162,9 +162,9 @@ LEXICON A_23SUURʼ
 +A:%{back%}  NMN_23SUURʼ ;
 +A:%{back%}õ COMP ;
 
-LEXICON A_23KIILʼ
-+A:%{front%}  NMN_23KIILʼ ;
-+A:e%{front%} COMP ;
+!LEXICON A_23KIILʼ
+!+A:%{front%}  NMN_23KIILʼ ;
+!+A:e%{front%} COMP ;
 
 
 !LEXICON A_24KÄSI
@@ -203,8 +203,8 @@ LEXICON A_28TÜTÄRʼ
 LEXICON A_35TARÕ
 +A:%{back%}  NMN_35TARÕ ;
 
-LEXICON A_36SÄRGʼ
-+A:%{front%}  NMN_36SÄRGʼ ;
+!LEXICON A_36SÄRGʼ
+!+A:%{front%}  NMN_36SÄRGʼ ;
 !LEXICON A_36PÄIV
 !+A:%{front%}  NMN_36PÄIV ;
 
