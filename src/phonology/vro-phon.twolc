@@ -435,12 +435,21 @@ Rules
  [ # Cns* | Cns ] o: _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] o: _ (HarmDummies:) %^VOWRaise: [#|%>] ;
 
+"Vx%{ou%}:Vyo"
+!! __@RULENAME@__
+ Vx:Vy <=> 
+  [ # Cns* | Cns ] _ Vx: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWLower: ;
+ [ # Cns* | Cns ] Vx: _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWLower: ;
+ [ # Cns* | Cns ] Vx: _ (HarmDummies:) %^VOWLower: [#|%>|%-] ;
+         where Vx in (%{ou%} %{öü%} %{õy%} %{ei%} )
+               Vy in (  o      ö      õ      e ) matched ;
 
 "%{ou%}2u̬"
 !! __@RULENAME@__
- %{ou%}:u̬ <=>  [ # Cns* | Cns ] _ %{ou%}: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] %{ou%}: _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] %{ou%}: _ (HarmDummies:) %^VOWRaise: [#|%>|%-] ;
+ %{ou%}:u̬ <=> 
+  [ # Cns* | Cns ] _ %{ou%}:u̬ ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
+ [ # Cns* | Cns ] %{ou%}:u̬ _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWRaise: ;
+ [ # Cns* | Cns ] %{ou%}:u̬ _ (HarmDummies:) %^VOWRaise: [#|%>|%-] ;
 
 !"ö2ü̬"
 !! __@RULENAME@__
@@ -917,7 +926,7 @@ k:0 <=>
 !! __@RULENAME@__
  Cx:0 <=>
  _ Cns (ʼ) [Vow: (Cns:* |i:) (%{hØ%}:|%{sØ%}:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
- Vow: _ (HarmDummies:) (%^VowRM: ) %^WGStem: ;
+ Vow: _ (HarmDummies:) (%^VowRM: ) %^CnsRM: ;
          where Cx in (%{hØ%} %{jØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{vØ%}) ;
 !! elläi+N+Sg+Gen
 !!€ e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä
@@ -927,7 +936,7 @@ k:0 <=>
 
 "StrongToWeak"
 !! __@RULENAME@__
- Cx:Cy <=> Vow _ (ʼ)[ Vow: (Cns:* |ArchCns: |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
+ Cx:Cy <=> Vow _ (ʼ)[ Vow: (Cns:* |:Cns+|ArchCns: |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
       where Cx in (%{pb%}  %{kg%} )
             Cy in (   b       g   )   matched ;
 
@@ -1196,6 +1205,11 @@ k:0 <=>
 !!€ hüdsi%^TS2S%^VowRM%>te
 !!€ hü0s000%>te
           Vow: _ Vow: (HarmDummies:) PenBetweenStemAndPenGrade %^Pen: %^WGStem: ;
+
+"%{dØ%}:0"
+!! __@RULENAME@__
+ %{dØ%}:0 <=>
+          Vow: _ Vow: (%{hØ%}: | %{sØ%}: |Cns:+|:Cns+ ) (HarmDummies:) PenBetweenStemAndPenGrade %^Pen: %^WGStem: ;
 
 
 "g20"
