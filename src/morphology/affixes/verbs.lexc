@@ -1111,7 +1111,7 @@ LEXICON V_77JUUMA/SÜÜMÄ !!≈ * __@CODE@__ juuma:joo
 :%^VOWRaise V_77JUUMA/SÜÜMÄ_RAISED-VOWEL ; !!= * @CODE@ (1) juu, süü
 ! PSS-PRSPRC, PSS-PRFPRC, ACT-PRSPRC, INF_mA
 
- V_77JUUMA/SÜÜMÄ_NOT-RAISED-VOWEL ; !!= * @CODE@ (2) joo- söö-
+:%^VOWLower V_77JUUMA/SÜÜMÄ_NOT-RAISED-VOWEL ; !!= * @CODE@ (2) joo- söö-
 !
 
 :%^VOWRaise%^VowRM%>vv V_77JUUMA/SÜÜMÄ_RAISED-VOWEL-TENSE ; !!= * @CODE@ (3) juvv
@@ -1145,6 +1145,7 @@ LEXICON V_77JUUMA/SÜÜMÄ_RAISED-VOWEL
 +Use/NG: ACT-IND-PRS-PL2_dEq ;
  ACT-IND-PRS-PL2_tiq ;
  ACT-IND-CONNEG ;
+ ACT-IND-PRS-SG3_ZERO ;
  Harm-Neutr_77JUUMA/SÜÜMÄ-PSS-IND-PRT_di ; !!= * @CODE@ only 3rd person
 
 LEXICON V_77JUUMA/SÜÜMÄ_NOT-RAISED-VOWEL !!= * @CODE@ joo- söö-
@@ -1153,6 +1154,7 @@ LEXICON V_77JUUMA/SÜÜMÄ_NOT-RAISED-VOWEL !!= * @CODE@ joo- söö-
 +Use/NG: ACT-IND-PRS-SG3_sE ;
  ACT-IND-PRS-PL1_miq ;
  ACT-COND-CONNEG ;
+ ACT-IND-PRS-PL3_vAq ; 
 
 LEXICON V_77JUUMA/SÜÜMÄ_RAISED-VOWEL-TENSE !!= * @CODE@ juvv
  Harm-Neutr_INF_Aq ; !!= * @CODE@ juvvaq süvväq
@@ -1978,7 +1980,7 @@ LEXICON ACT-IND-PRS-SG2_dEq
 +Act+Ind+Prs+Sg2:%>d%{eõ%}q K ;
 
 LEXICON ACT-IND-PRS-SG3_ZERO
-+Act+Ind+Prs+Sg: K ;
++Act+Ind+Prs+Sg3: K ;
 
 LEXICON ACT-IND-PRS-PL1_miq
 +Act+Ind+Prs+Pl1:%>miq K ;
@@ -2023,11 +2025,11 @@ LEXICON ACT-COND-CONNEG
 LEXICON PSS-COND-CONNEG
 +Pss: COND-CONNEG ;
 LEXICON COND-CONNEG
-+Cond+Prs+Neg:si%-iq K ;
-+Cond+Prs+Neg:si%-i K ;
-+Cond+Prt+Neg:si%-is K ;
-+Cond+ConNegI:siq K ;
-+Cond+ConNegII:si K ;
++Cond+Prs+Neg:%>si%-iq K ;
++Cond+Prs+Neg:%>si%-i K ;
++Cond+Prt+Neg:%>si%-is K ;
++Cond+ConNegI:%>siq K ;
++Cond+ConNegII:%>si K ;
 
 
 

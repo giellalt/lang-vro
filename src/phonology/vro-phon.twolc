@@ -388,17 +388,17 @@ Rules
 !! __@RULENAME@__
  e:i̬ <=>  [ # Cns* | Cns ] _ e: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] e: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] e: _ (HarmDummies:) %^VOWRaise: [#|%>|%-] ;
+ [ # Cns* | Cns ] e: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
 !!€ keel%^VOWRaiseʼ
 !!€ ki̬i̬l0ʼ
       # Cns:* _ [Cns:0|ArchCns:0] (HarmDummies:) (%^WGStem:) %> [e:|%{eõ%}:] ;
-      # Cns:* e: [Cns:0|ArchCns:0] (HarmDummies:) (%^WGStem:) %> _ [#|%>] ;
+      # Cns:* e: [Cns:0|ArchCns:0] (HarmDummies:) (%^WGStem:) %> _ [#|.#.|%>] ;
 !! tegemä+V+Act+Ind+Prs+Sg1: __do__
 !!€ teg%^WGStem%>e
 !!€ ti̬00%>i̬
 
 "%{eõ%}:i̬"
- %{eõ%}:i̬ <=> # Cns:* e: [Cns:0|ArchCns:0 ] %{front%) (%^WGStem:) %> _ [#|%>] ;
+ %{eõ%}:i̬ <=> # Cns:* e: [Cns:0|ArchCns:0 ] %{front%) (%^WGStem:) %> _ [#|.#.|%>] ;
 !! tegemä+V+Act+Ind+Prs+Sg1: __do__
 !!€ teg%^WGStem%>%{eõ%}
 !!€ ti̬00%>i̬
@@ -408,7 +408,7 @@ Rules
 !! __@RULENAME@__
  %{ei%}:i̬ <=>  [ # Cns* | Cns ] _ %{ei%}: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] %{ei%}: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] %{ei%}: _ (HarmDummies:) %^VOWRaise: [#|%>|%-] ;
+ [ # Cns* | Cns ] %{ei%}: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
 !!€ k%{ei%}%{ei%}l%^VOWRaiseʼ
 !!€ ki̬i̬l0ʼ
 
@@ -417,7 +417,7 @@ Rules
 !! __@RULENAME@__
  õ:õ̭ <=>  [ # Cns* | Cns ] _ õ: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] õ: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] õ: _ (HarmDummies:) %^VOWRaise: [#|%>|%-] ;
+ [ # Cns* | Cns ] õ: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
   > OnSetC  _ Cns:0 a (HarmDummies:) (%^WGStem:) ;
 !!€ sõda%^WGStem
 !!€ sõ̭0a0
@@ -426,36 +426,36 @@ Rules
 !! __@RULENAME@__
  %{õy%}:õ̭ <=>  [ # Cns* | Cns ] _ %{õy%}: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] %{õy%}: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] %{õy%}: _ (HarmDummies:) %^VOWRaise: [#|%>|%-] ;
+ [ # Cns* | Cns ] %{õy%}: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
 
 
 "o2u̬"
 !! __@RULENAME@__
  o:u̬ <=>  [ # Cns* | Cns ] _ o: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] o: _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] o: _ (HarmDummies:) %^VOWRaise: [#|%>] ;
+ [ # Cns* | Cns ] o: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>] ;
 
 "Vx%{ou%}:Vyo"
 !! __@RULENAME@__
  Vx:Vy <=> 
   [ # Cns* | Cns ] _ Vx: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWLower: ;
  [ # Cns* | Cns ] Vx: _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWLower: ;
- [ # Cns* | Cns ] Vx: _ (HarmDummies:) %^VOWLower: [#|%>|%-] ;
+ [ # Cns* | Cns ] Vx: _ (HarmDummies:) %^VOWLower: [#|.#.|%>|%-] ;
          where Vx in (%{ou%} %{öü%} %{õy%} %{ei%} )
                Vy in (  o      ö      õ      e ) matched ;
 
 "%{ou%}2u̬"
 !! __@RULENAME@__
  %{ou%}:u̬ <=> 
-  [ # Cns* | Cns ] _ %{ou%}:u̬ ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
+  [ # Cns* | Cns ] _ %{ou%}: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] %{ou%}:u̬ _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] %{ou%}:u̬ _ (HarmDummies:) %^VOWRaise: [#|%>|%-] ;
+ [ # Cns* | Cns ] %{ou%}:u̬ _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
 
 !"ö2ü̬"
 !! __@RULENAME@__
 ! ö:ü̬ <=>  [ # Cns* | Cns ] _ ö: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
 ! [ # Cns* | Cns ] ö: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise:  ;
-![ # Cns* | Cns ] ö: _ (HarmDummies:) %^VOWRaise: [#|%>] ;
+![ # Cns* | Cns ] ö: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>] ;
 !  [ # Cns* | Cns ] _ ö: [ s | t | k | l | n | r | m | t: s | r t: | v| r d:] Vow: (HarmDummies:)  %^Pen:  %^VOWRaise: ;
 ! [ # Cns* | Cns ] ö: _ [ s | t | k | l | n | r | m | t: s | r t: | v] Vow: (HarmDummies:) %^Pen: %^VOWRaise:  ;
 
@@ -463,7 +463,7 @@ Rules
 !! __@RULENAME@__
  %{öü%}:ü̬ <=>  [ # Cns* | Cns ] _ %{öü%}: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] %{öü%}: _ [ s | t | k | l | n | r | m | t: s | r t: | v] (HarmDummies:) %^VOWRaise:  ;
-[ # Cns* | Cns ] %{öü%}: _ (HarmDummies:) %^VOWRaise: [#|%>|%-] ;
+[ # Cns* | Cns ] %{öü%}: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
   [ # Cns* | Cns ] _ %{öü%}: [ s | t | k | l | n | r | m | t: s | r t: | v| r d:] Vow: (HarmDummies:)  %^Pen:  %^VOWRaise: ;
  [ # Cns* | Cns ] %{öü%}: _ [ s | t | k | l | n | r | m | t: s | r t: | v] Vow: (HarmDummies:) %^Pen: %^VOWRaise:  ;
 
@@ -585,6 +585,15 @@ Rules
 !!€ joo%^VOWRaise%^VowRM%>vv%>aq
 !!€ ju000%>vv%>aq
     _ (HarmDummies:) (%^VOWLower:) (%^Pen: %^WGStem:) %^VowRM: ;
+
+"Vx%{ou%}:0"
+!! __@RULENAME@__
+ Vx:0 <=>
+     Vx: _ (HarmDummies:) [(%^VOWRaise:) %^VowRM:|%^OO2Õ:] ;
+!!€ joo%^VOWRaise%^VowRM%>vv%>aq
+!!€ ju000%>vv%>aq
+          where Vx in (%{ou%} %{öü%} %{ei%} %{õy%} ) ;
+
 
 "ö:0"
 !! __@RULENAME@__
