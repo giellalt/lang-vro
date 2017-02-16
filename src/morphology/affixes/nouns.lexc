@@ -1237,7 +1237,7 @@ LEXICON N_36KOGÕR
 !! kogõr:kogõr
 !! * Yaml: __N-kogwr36__
 !! derived from 36särgʼ
-+N:	ATTESTED-NOUN-STEM-CONTINUED ;
++N:%^Pen%^WGStem	ATTESTED-NOUN-STEM-CONTINUED ;
         N_36KOGÕR-SG ;
         N_36KOGÕR-PL ;
 LEXICON N_36KOGÕR-SG
@@ -4437,19 +4437,21 @@ LEXICON NMN_36KOGÕR !!= __@CODE@__
   NMN_36KOGÕR-SG ;
   NMN_36KOGÕR-PL ;
 LEXICON NMN_36KOGÕR-SG 
-        Harm-Neutr_SG-NOM  ;
-:%^Pen%^StrGStem%^Pen%^VowRM        Harm-Neutr_SG-NOM  ;
-:%^Pen%^VowRM%>õ       SG-GEN_ZERO-STEM        ;
-:%^Pen%^StrGStem%^Pen%^VowRM%>õ       Harm-Neutr_SG-ILL_ZERO        ;
-:%^Pen%^StrGStem%^Pen%^VowRM%>õ       Harm-Neutr_SG-PAR_ZERO        ;
+:%^Pen%^WGStem        Harm-Neutr_SG-NOM  ;
+:%^Pen%^VowRM        Harm-Neutr_SG-NOM  ;
+:%^Pen%^WGStem%^Pen%^VowRM%>õ       SG-GEN_ZERO-STEM        ;
+:%^Pen%^VowRM%>õ       Harm-Neutr_SG-ILL_ZERO        ;
+:%^Pen%^VowRM%>õ       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_36KOGÕR-PL 
-:%^Pen%^VowRM       Harm-Neutr_PL-NOM ;
-:%^Pen%^StrGStem%^Pen%^VowRM%>i    PL-GEN_ZERO ;
-:%^Pen%^StrGStem%^Pen%^VowRM%>i    Harm-Neutr_PL-PAR_ZERO ;
-:%^Pen%^StrGStem%^Pen%^VowRM%>i  Harm-Neutr_PL-ILL_hE ;
-:%^Pen%^VowRM%>i  Harm-Neutr_PL-ALL_lE-STEM ;
+:%^Pen%^WGStem%^Pen%^VowRM       Harm-Neutr_PL-NOM ;
+:%^Pen%^VowRM%>i    PL-GEN_ZERO ;
+:%^Pen%^VowRM%>i    Harm-Neutr_PL-PAR_ZERO ;
+:%^Pen%^VowRM%>i  Harm-Neutr_PL-ILL_he ;
+:%^Pen%^WGStem%^Pen%^VowRM%>i  Harm-Neutr_PL-ALL_lE-STEM ;
+:%^Pen%^VowRM%>i    PL-COM ;
 
+:%^Pen%^VowRM%>i  Harm-Neutr_PL-ILL_dE ;
 :%^Pen%^StrGStem%^Pen%^VowRM%>i    Harm-Neutr_PL-ILL_ZERO ;
 
 LEXICON NMN_46SÕBÕR !!= __@CODE@__
