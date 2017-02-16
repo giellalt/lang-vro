@@ -65,10 +65,10 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{pbØ%}:b 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{tdØ%}:d 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{kgØ%}:g 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{jiʼ%}:i	!!= @CODE@ HJK and KimmoK ideas vari:var%{jiʼ%}o
 
  %{qmn%}:q 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{qn%}:q 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
-
 
 
  %{XV%}:0		!!= @CODE@ This is used for echoing the previous vowel
@@ -694,6 +694,15 @@ Rules
   [Cns:|ArchCns:] _ (HarmDummies:) (%^Pen: %^CC2C:) %^I2ʼ: ;
 ! Cns _ %^WGStem: %> :Vow ;
 
+"%{jiʼ%}:j"
+!! __@RULENAME@__
+ %{jiʼ%}:j  <=>
+    [Cns:|ArchCns:] _ Vow: (HarmDummies:) %^Pen: %^XStrGStem: ;
+
+"%{jiʼ%}:ʼ"
+!! __@RULENAME@__
+ %{jiʼ%}:ʼ  <=>
+    [Cns:|ArchCns:] _ Vow: (HarmDummies:) %^Pen: %^WGStem: ;
 
 "u2v"
 !! __@RULENAME@__
