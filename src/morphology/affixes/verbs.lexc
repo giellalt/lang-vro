@@ -7,27 +7,29 @@ LEXICON V_EI
 +V+Neg+Prt:s # ;
 +V+Neg+Prt:siq # ;
 
-LEXICON V_48KASUMA
+LEXICON V_48KASUMA !kasuma:ka%{sØ%}s
 !! There are other verbs here, cf. V_ELÄMÄ
 !! * Yaml: __V-kasuma48__
 +V:%{back%} V_48KASUMA/XX ;
 
 LEXICON V_48KASUMA/XX
- ACT-IND-PRS-12 ;
- ACT-IND-PRS-3_s/sEq ;
- Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+:%^WGStem%>%{uü%} ACT-IND-PRS-12 ;
+:%^WGStem%>%{uü%} ACT-IND-PRS-3_s/sEq ;
+:%^WGStem%>%{uü%} Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
-:%^StrGStem ACT-IND-PRT-12_i ;
- ACT-IND-CONNEG ;
-:%^StrGStem ACT-IND-PRT-SG3_i ;
- Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+:%^WGStem%>v ACT-IND-PRT-12_i ;
+:%^WGStem%>%{uü%} ACT-IND-CONNEG ;
+:%^WGStem%>v ACT-IND-PRT-SG3_i ;
+:%^WGStem%>%{uü%} Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
- Harm-Neutr_INF_mA ;
-:%^StrGStem Harm-Neutr_INF_ZEROq ;
- Harm-Neutr_ACT-PRSPRC_v ;
- Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
- Harm-Neutr_V0-PSS-PRSPRC_tAv ;
-:%^VowRM%>õ%^WGStem Harm-Neutr_PSS-PRFPRC_t ;
+:%^WGStem%>%{uü%} Harm-Neutr_INF_mA ;
+:%>%{uü%} Harm-Neutr_INF_ZEROq ;
+:%>%{uü%} Harm-Neutr_ACT-PRSPRC_v ;
+:%^WGStem%>%{uü%} Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
+:%^WGStem%>%{uü%} Harm-Neutr_V0-PSS-PRSPRC_tAv ;
+:%^WGStem%>%{uü%} Harm-Neutr_PSS-PRFPRC_t ;
+:%^WGStem%>%{uü%} PSS-PRFPRC_tU-SG-NOM ;
+:%^WGStem%>%{uü%} MUTUAL_JUS ;
 
 LEXICON V_48KUIOMA
 !! There are other verbs here, cf. V_ELÄMÄ
@@ -241,8 +243,26 @@ LEXICON V_53KAEMA !!≈ * __@CODE@__
 LEXICON V_53JÄÄMÄ !!≈ * __@CODE@__ 
 +V:%{front%} V_53KAEMA/JÄÄMÄ ;
 LEXICON V_53KAEMA/JÄÄMÄ !!≈ * __@CODE@__ 
-:%^VOWRaise V_77JUUMA/SÜÜMÄ_RAISED-VOWEL ; !!= * @CODE@ jää kii
- V_77JUUMA/SÜÜMÄ_NOT-RAISED-VOWEL ; !!= * @CODE@ jäänüq keenüq
+:%^VOWRaise Harm-Neutr_V0-PSS-PRSPRC_dAv ;
+:%^VOWRaise PSS-PRFPRC_d ;
+:%^VOWRaise ACT-PRSPRC_vA ;
+:%^VOWRaise Harm-Neutr_INF_mA ;
+:%^VOWRaise ACT-PRFPRC-OBL_nU ;
+:%^VOWRaise ACT-IND-PRS-SG1_ZERO ;
+:%^VOWRaise ACT-IND-PRS-SG2_t ;
++Use/NG:%^VOWRaise ACT-IND-PRS-SG2_dEq ;
++Use/NG:%^VOWRaise ACT-IND-PRS-PL2_dEq ;
+:%^VOWRaise ACT-IND-PRS-PL2_tiq ;
+:%^VOWRaise ACT-IND-CONNEG ;
+:%^VOWRaise ACT-IND-PRS-SG3_ZERO ;
+:%^VOWRaise Harm-Neutr_77JUUMA/SÜÜMÄ-PSS-IND-PRT_di ; !!= * @CODE@ only 3rd person
+
+ ACT-PRFPRC_nUq-SG-NOM ; !!= * @CODE@ jäänüq keenüq
++Use/NG: ACT-IND-PRS-SG3_sE ;
+ ACT-IND-PRS-PL1_miq ;
+ ACT-COND-CONNEG ;
+ ACT-IND-PRS-PL3_vAq ;
+
 :%^VOWRaise%^VowRM%>i V_77JUUMA/SÜÜMÄ_RAISED-VOWEL-TENSE ; !!= * @CODE@ jäi kii
 :%^VowRM%>i V_77JUUMA/SÜÜMÄ_NON-RAISED-VOWEL-TENSE ; !!= * @CODE@ jäi kei
 ! CHECKME 2016-08-28
@@ -457,6 +477,7 @@ LEXICON V_60EHITSEMÄ !!≈ * __@CODE@__ ehitsemä:ehii
 +V:%{front%} V_60MANITSÕMA/EHITSEMÄ ;
 
 LEXICON V_60MANITSÕMA/EHITSEMÄ !!≈ * __@CODE@__ manitsõma:mani
+
 :ds%{eõ%} ACT-IND-PRS-SG1_ZERO ;
 :ts%{eõ%} Harm-Neutr_ACT-IND-PRS-SG2_USUALLY-STRONG ;
 :ts%{eõ%} ACT-IND-PRS-3_s/sEq ;
@@ -853,12 +874,13 @@ LEXICON V_70VIPÕRDUMA/ERÄLDÜMÄ !!≈ * __@CODE@__ unõhtuma:unõhtu
 LEXICON V_71HALLÕTUMA !!≈ * __@CODE@__ hallõtuma:hallõtu
 !! * Yaml: __V-hallwtuma__
 +V:%{back%} V_71HALLÕTUMA/ERÄTÜMÄ ;
-LEXICON V_71ERÄTÜMÄ !!≈ * __@CODE@__ erätümä:erätü
+LEXICON V_71ERÄTÜMÄ !!≈ * __@CODE@__ erätümä:erä%{td%}ü
 !! * Yaml: __V-eraetuemae__
 +V:%{front%} V_71HALLÕTUMA/ERÄTÜMÄ ;
 
 LEXICON V_71HALLÕTUMA/ERÄTÜMÄ !!≈ * __@CODE@__ hallõtuma:hallõtu
-:%^Pen%^WGStem ACT-IND-PRS-12 ;
+:%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ;
+ Harm-Neutr_ACT-IND-PRS-SG2_USUALLY-STRONG ;
  ACT-IND-PRS-3_s/sEq ;
  Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
@@ -873,7 +895,8 @@ LEXICON V_71HALLÕTUMA/ERÄTÜMÄ !!≈ * __@CODE@__ hallõtuma:hallõtu
  ACT-PRFPRC-ALL_nUq ;
  Harm-Neutr_V0-PSS-PRSPRC_tAv ;
  Harm-Neutr_PSS-PRFPRC_t ;
-
+ PSS-PRFPRC_tU-SG-NOM ;
+ MUTUAL_JUS ;
 
 LEXICON V_72VAOMA !!≈ * __@CODE@__ vaoma:vao
 !! * Yaml: __vaoma__

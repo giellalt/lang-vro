@@ -468,12 +468,6 @@ Rules
  [ # Cns* | Cns ] %{öü%}: _ [ s | t | k | l | n | r | m | t: s | r t: | v] Vow: (HarmDummies:) %^Pen: %^VOWRaise:  ;
 
 
-"Vx%{ei%}:0"
-!! __@RULENAME@__
- Vx:0 <=> Vx: _ (HarmDummies:) [(%^VOWRaise:) %^VowRM: |%^OO2Õ:] ;
-        where Vx in (%{ou%} %{öü%} %{ei%} %{õy%}) ;
-
-
 "i2e"
 !! __@RULENAME@__
  i:e <=> Cns 0: _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
@@ -526,7 +520,7 @@ Rules
  ä:0 <=>  [ Cns: | :Cns | ArchCns:] _ (s:) (HarmDummies:) [ (0:) (%^Pen: %^CC2C:) %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
     _ (HarmDummies:) (%^VOWLower:) (%^Pen: (%^WGStem:|%^StrGStem:|%^XStrGStem:)) %^VowRM: ;
 !  [ Cns: | :Cns ] _ (HarmDummies:) [ (0:|:0+) %^VowRM: | Cns:0 %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
-                        ä _ (%^VOWRaise:) %^VowRM:  ;
+                        ä _ (HarmDummies:) (%^VOWRaise:) %^VowRM:  ;
 !!€ jää%^VOWRaise%^VowRM%>i
 !!€ jä000%>i
 !!€ elä%>et
