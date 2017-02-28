@@ -440,7 +440,7 @@ Rules
  Vx:Vy <=> 
   [ # Cns* | Cns ] _ Vx: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWLower: ;
  [ # Cns* | Cns ] Vx: _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWLower: ;
- [ # Cns* | Cns ] Vx: _ (HarmDummies:) %^VOWLower: [#|.#.|%>|%-] ;
+ [ # Cns* | Cns ] Vx: _ (HarmDummies:) %^VOWLower: (%^WGStem:) [#|.#.|%>|%-] ;
          where Vx in (%{ou%} %{öü%} %{õy%} %{ei%} )
                Vy in (  o      ö      õ      e ) matched ;
 
@@ -448,8 +448,8 @@ Rules
 !! __@RULENAME@__
  %{ou%}:u̬ <=> 
   [ # Cns* | Cns ] _ %{ou%}: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] %{ou%}:u̬ _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] %{ou%}:u̬ _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
+ [ # Cns* | Cns ] %{ou%}: _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWRaise: ;
+ [ # Cns* | Cns ] %{ou%}: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
 
 !"ö2ü̬"
 !! __@RULENAME@__
