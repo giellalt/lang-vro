@@ -438,8 +438,8 @@ Rules
 "Vx%{ou%}:Vyo"
 !! __@RULENAME@__
  Vx:Vy <=> 
-  [ # Cns* | Cns ] _ Vx: ( s | t | k | l | n | r | m | t: s | r t: | v) (HarmDummies:) %^VOWLower: ;
- [ # Cns* | Cns ] Vx: _ [ s | t | k | l | n | r | m | t: s | r t: | v ] (HarmDummies:) %^VOWLower: ;
+  [ # Cns* | Cns ] _ Vx: ( s | t | k | l | n | r | m | %{td%}: s | r t: | v) (HarmDummies:) %^VOWLower: ;
+ [ # Cns* | Cns ] Vx: _ [ s | t | k | l | n | r | m | %{td%}: s | r t: | v ] (HarmDummies:) %^VOWLower: ;
  [ # Cns* | Cns ] Vx: _ (HarmDummies:) %^VOWLower: (%^WGStem:) [#|.#.|%>|%-] ;
          where Vx in (%{ou%} %{öü%} %{õy%} %{ei%} )
                Vy in (  o      ö      õ      e ) matched ;

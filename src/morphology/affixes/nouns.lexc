@@ -845,7 +845,7 @@ LEXICON N_22VÄHÄKENE-SG
 LEXICON N_22VÄHÄKENE-PL
 +N:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
 
-LEXICON N_23NUULʼ !!= * @CODE@ nuulʼ:nool
+LEXICON N_23NUULʼ !!= * @CODE@ nuulʼ:n%{ou%}%{ou%}l
 ! Gradation: No
 +N:%^VOWRaise%>ʼ	ATTESTED-NOUN-STEM-CONTINUED ;
  N_23NUULʼ-SG ;
@@ -3609,12 +3609,12 @@ LEXICON NMN_23NUULʼ !!= * __@CODE@__ nuulʼ:nool
 
 LEXICON NMN_23NUULʼ-SG 
 :%^VOWRaise%>ʼ      Harm-Neutr_SG-NOM ;
-:%^VOWLower%>õ      SG-GEN_ZERO-STEM ;
+:%^VOWLower%>%{eõ%}      SG-GEN_ZERO-STEM ;
 :%^VOWRaise             Harm-Neutr_SG-PAR_t ;
-:%^VOWRaised%>õ             Harm-Neutr_SG-ILL_ZERO ;
+:%^VOWRaise%>d%>%{eõ%}             Harm-Neutr_SG-ILL_ZERO ;
 
 LEXICON NMN_23NUULʼ-PL 
-:%^VOWLower%>õ      Harm-Neutr_PL-NOM ;
+:%^VOWLower%>%{eõ%}      Harm-Neutr_PL-NOM ;
 :%^VOWRaise%>i            PL-GEN_ZERO ;
 :%^VOWRaise%>i            Harm-Neutr_PL-PAR_ZERO ;
 :%^VOWRaise%>i            PL-ILL_he ;
