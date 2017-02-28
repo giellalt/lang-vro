@@ -566,9 +566,9 @@ LEXICON PROP_18AIVASTUS-PL
 ! PROP_23NUULʼ-SG ;
 ! PROP_23NUULʼ-PL ;
 !LEXICON PROP_23NUULʼ-SG
-!+N+Prop:%{back%} NMN_23NUULʼ-SG ;
+!+N+Prop:%{back%} NMN_23NUULʼ/KIILʼ-SG ;
 !LEXICON PROP_23NUULʼ-PL
-!+N+Prop:%{back%} NMN_23NUULʼ-PL ;
+!+N+Prop:%{back%} NMN_23NUULʼ/KIILʼ-PL ;
 
 
 !LEXICON PROP_23KIILʼ  !!= * @CODE@ kiilʼ:keel
@@ -577,9 +577,9 @@ LEXICON PROP_18AIVASTUS-PL
 ! PROP_23KIILʼ-SG ;
 ! PROP_23KIILʼ-PL ;
 !LEXICON PROP_23KIILʼ-SG
-!+N+Prop:%{front%} NMN_23KIILʼ-SG ;
+!+N+Prop:%{front%} NMN_23NUULʼ/KIILʼ-SG ;
 !LEXICON PROP_23KIILʼ-PL
-!+N+Prop:%{front%} NMN_23KIILʼ-PL ;
+!+N+Prop:%{front%} NMN_23NUULʼ/KIILʼ-PL ;
 
 !LEXICON PROP_24KÄSI
 !! gradation: yes
@@ -667,18 +667,18 @@ LEXICON PROP_18AIVASTUS-PL
 ! PROP_28KANNÕLʼ-SG ;
 ! PROP_28KANNÕLʼ-PL ;
 !LEXICON PROP_28KANNÕLʼ-SG
-!+N+Prop:%{back%} NMN_28KANNÕLʼ-SG ;
+!+N+Prop:%{back%} NMN_28KANNÕLʼ/KINNERʼ-SG ;
 !LEXICON PROP_28KANNÕLʼ-PL
-!+N+Prop:%{back%} NMN_28KANNÕLʼ-PL ;
+!+N+Prop:%{back%} NMN_28KANNÕLʼ/KINNERʼ-PL ;
 
 !LEXICON PROP_28PUNDAR
 !:%^Pen%^VowRM%>a PROP-PLC-DOWNCASE-SG-GEN ;
 ! PROP_28PUNDAR-SG ;
 ! PROP_28PUNDAR-PL ;
 !LEXICON PROP_28PUNDAR-SG
-!+N+Prop:%{back%} NMN_28PUNDAR-SG ;
+!+N+Prop:%{back%} NMN_28PUNDAR/KÄMMÄL-SG ;
 !LEXICON PROP_28PUNDAR-PL
-!+N+Prop:%{back%} NMN_28PUNDAR-PL ;
+!+N+Prop:%{back%} NMN_28PUNDAR/KÄMMÄL-PL ;
 
 !LEXICON PROP_29KUU !!= * @CODE@ kuu:kuu
 !! Gradation: No
@@ -696,9 +696,9 @@ LEXICON PROP_30MAA
  PROP_30MAA-SG ;
  PROP_30MAA-PL ;
 LEXICON PROP_30MAA-SG
-+N+Prop:%{back%} NMN_30MAA-SG ;
++N+Prop:%{back%} NMN_30MAA/TÜÜ-SG ;
 LEXICON PROP_30MAA-PL
-+N+Prop:%{back%} NMN_30MAA-PL ;
++N+Prop:%{back%} NMN_30MAA/TÜÜ-PL ;
 
 
 LEXICON PROP_30TÜÜ
@@ -707,9 +707,9 @@ LEXICON PROP_30TÜÜ
  PROP_30TÜÜ-SG ;
  PROP_30TÜÜ-PL ;
 LEXICON PROP_30TÜÜ-SG
-+N+Prop:%{front%} NMN_30TÜÜ-SG ;
++N+Prop:%{front%} NMN_30MAA/TÜÜ-SG ;
 LEXICON PROP_30TÜÜ-PL
-+N+Prop:%{front%} NMN_30TÜÜ-PL ;
++N+Prop:%{front%} NMN_30MAA/TÜÜ-PL ;
 
 !LEXICON PROP_31MAI
 !! Gradation: No

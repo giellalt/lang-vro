@@ -583,7 +583,7 @@ Rules
 "Vx%{ou%}:0"
 !! __@RULENAME@__
  Vx:0 <=>
-     Vx: _ (HarmDummies:) [(%^VOWRaise:) %^VowRM:|%^OO2Õ:] ;
+     Vx: _ (HarmDummies:) [(%^VOWRaise:|%^VOWLower:) %^VowRM:|%^OO2Õ:] ;
 !!€ joo%^VOWRaise%^VowRM%>vv%>aq
 !!€ ju000%>vv%>aq
           where Vx in (%{ou%} %{öü%} %{ei%} %{õy%} ) ;
@@ -648,21 +648,25 @@ Rules
 !! __@RULENAME@__
  %{XV%}:a <=> :a PenBetweenStemAndStemFinal ( %- ) _  ;
        [ o | a | a: PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
+           a: [r|l] (HarmDummies:) %^Pen: %^VowRM: %> _ ; 
 
 "%{XV%}:ä"
 !! __@RULENAME@__
  %{XV%}:ä <=> :ä PenBetweenStemAndStemFinal ( %- ) _  ;
        [ ö | ä | ä: PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
+           ä: [r|l] (HarmDummies:) %^Pen: %^VowRM: %> _ ; 
 
 "%{XV%}:õ"
 !! __@RULENAME@__
  %{XV%}:õ <=>
    [:õ PenBetweenStemAndStemFinal| %{õy%}: (HarmDummies:) %^VOWRaise: ] ( %- ) _  ;
         [õ | õ: PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
+           õ: [r|l] (HarmDummies:) %^Pen: %^VowRM: %> _ ; 
 
 "%{XV%}:e"
 !! __@RULENAME@__
  %{XV%}:e <=>  [ e | e: PenBetweenStemAndStemFinal (%^VowRM:)] %> h _ ;
+           e: [r|l] (HarmDummies:) %^Pen: %^VowRM: %> _ ; 
 
 "%{XV%}:i"
 !! __@RULENAME@__
@@ -948,7 +952,7 @@ k:0 <=>
 
 "StrongToWeak"
 !! __@RULENAME@__
- Cx:Cy <=> Vow _ (ʼ)[ Vow: (Cns:* |:Cns+|ArchCns: |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
+ Cx:Cy <=> [Vow|Cns] _ (ʼ)[ Vow: (Cns:* |:Cns+|ArchCns: |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
       where Cx in (%{pb%}  %{kg%} )
             Cy in (   b       g   )   matched ;
 
@@ -961,6 +965,7 @@ k:0 <=>
 !!€ kao%{td%}a%^Pen%^WGStem
 !!€ kaoda0
    Vow _ (ʼ)[ Vow (Cns:* |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
+   Cns _ Vow: Cns (HarmDummies:) %^Pen: %^WGStem: ;
 
 "rToZero"
 !! __@RULENAME@__

@@ -155,7 +155,7 @@ LEXICON A_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
 +A:%{back%}sõ COMP ;
 
 LEXICON A_23NUULʼ
-+A:%{back%}  NMN_23NUULʼ ;
++A:%{back%}  NMN_23NUULʼ/KIILʼ ;
 +A:%{back%}õ COMP ;
 
 LEXICON A_23SUURʼ
@@ -163,7 +163,7 @@ LEXICON A_23SUURʼ
 +A:%{back%}õ COMP ;
 
 !LEXICON A_23KIILʼ
-!+A:%{front%}  NMN_23KIILʼ ;
+!+A:%{front%}  NMN_23NUULʼ/KIILʼ ;
 !+A:e%{front%} COMP ;
 
 
@@ -186,7 +186,7 @@ LEXICON A_28TÜTÄRʼ
 !+A:%{back%}  NMN_29KUU ;
 
 !LEXICON A_30TÜÜ
-!+A:%{front%}  NMN_30TÜÜ ;
+!+A:%{front%}  NMN_30MAA/TÜÜ ;
 
 !LEXICON A_31TÄI
 !+A:%{front%}  NMN_31TÄI ;
@@ -285,7 +285,7 @@ LEXICON Harm-Neutr_COMP-01
 +Sg+Ill:%{aä%}he K ;
 +Sg+Nom: K ;
 
-:i Harm-Neutr_PL-ALL_lE-STEM	;
+:i PL-ALL_lE-STEM	;
 
 +Pl+Gen:id%{eõ%} K ;
 +Pl+Ill:ihe K ;
@@ -307,7 +307,7 @@ LEXICON NMN_COMP
 +Sg+Ill:%{aä%}he K ;
 +Sg+Nom: K ;
 
-:i Harm-Neutr_PL-ALL_lE-STEM	;
+:i PL-ALL_lE-STEM	;
 
 +Pl+Gen:id%{eõ%} K ;
 +Pl+Ill:ihe K ;
