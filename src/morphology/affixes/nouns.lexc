@@ -1282,6 +1282,7 @@ LEXICON N_36ÜTSʼ-PL
 
 LEXICON N_46SÕBÕR
 !! sõbõr:sõbõr
+!! oblique plural in o
 !! * Yaml: __N-swbwr36__
 !! derived from 36särgʼ
 +N:	ATTESTED-NOUN-STEM-CONTINUED ;
@@ -1291,6 +1292,19 @@ LEXICON N_46SÕBÕR-SG
 +N:%{back%}     NMN_46SÕBÕR-SG ;
 LEXICON N_46SÕBÕR-PL
 +N:%{back%}     NMN_46SÕBÕR-PL ;
+
+LEXICON N_46KUBÕL
+!! kubõl:ku%{pb%}õl
+!! oblique plural in õ
+!! * Yaml: __N-swbwr36__
+!! derived from 36särgʼ
++N:	ATTESTED-NOUN-STEM-CONTINUED ;
+        N_46KUBÕL-SG ;
+        N_46KUBÕL-PL ;
+LEXICON N_46KUBÕL-SG
++N:%{back%}     NMN_46KUBÕL-SG ;
+LEXICON N_46KUBÕL-PL
++N:%{back%}     NMN_46KUBÕL-PL ;
 
 
 LEXICON N_37PINI !!= @CODE@ pini:pini
@@ -1446,7 +1460,7 @@ LEXICON N_40SAVV-SG
 LEXICON N_40SAVV-PL
 +N:%{back%}     NMN_40SAVV/TÜKK-PL ;
 
-LEXICON N_40TÜKK !!= @CODE@ tükk:tükkü
+LEXICON N_40TÜKK !!= @CODE@ tükk:tü%{kØ%}kü
 +N:%^VowRM	ATTESTED-NOUN-STEM-CONTINUED ;
         N_40TÜKK-SG ;
         N_40TÜKK-PL ;
@@ -4206,7 +4220,7 @@ LEXICON NMN_30MAA/TÜÜ-PL
 :%^VOWRaise        Harm-Neutr_PL-NOM ;
 :%^VOWLower%^VowRM%>i     Harm-Neutr_PL-GEN_E ;
 :%^VOWLower%^VowRM%>i        Harm-Neutr_PL-ILL_htE       ;
-:%^VOWLower%^VowRM%>i        PL-ALL_lE-STEM       ;
+:%^VOWLower%^VowRM%>i        PL-ALL_lE-STEM-LESS-TER ;
 :%^VOWLower%^VowRM%>i      Harm-Neutr_PL-PAR_d        ;
 +Use/NG:%^VOWLower%^VowRM%>i%{eõ%}        PL-COM       ;
 +Use/NG:%^VOWLower%^VowRM%>i%{eõ%}        PL-ALL_lE-STEM       ;
@@ -4264,7 +4278,7 @@ LEXICON NMN_31MAI-PL
 LEXICON NMN_32VERI-SG 
 :%^WGStem%>i        Harm-Neutr_SG-NOM  ;			! veri
 :%^WGStem%>e       SG-GEN_ZERO-STEM   ;  ! vere
-:%>e       Harm-Neutr_SG-ILL_ZERO        ;
+:%>i       Harm-Neutr_SG-ILL_ZERO        ;
 :%^WGStem   Harm-Neutr_SG-PAR_d  ;
 
 LEXICON NMN_32VERI-PL 
@@ -4276,7 +4290,7 @@ LEXICON NMN_32VERI-PL
 +Use/NG:%>i    PL-ILL_dE ;
 :%^WGStem%>i  PL-ALL_lE-STEM ;
 +Use/NG:%>i  PL-ALL_lE-STEM ;
-
+:%>i    PL-COM ;
 
 !LEXICON NMN_33XX/IGÄ
 !  NMN_33XX/IGÄ-SG ;
@@ -4474,7 +4488,7 @@ LEXICON NMN_36KOGÕR-SG
 :%^Pen%^VowRM%>õ       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_36KOGÕR-PL 
-:%^Pen%^WGStem%^Pen%^VowRM       Harm-Neutr_PL-NOM ;
+:%^Pen%^WGStem%^Pen%^VowRM%>õ       Harm-Neutr_PL-NOM ;
 :%^Pen%^VowRM%>i    PL-GEN_ZERO ;
 :%^Pen%^VowRM%>i    Harm-Neutr_PL-PAR_ZERO ;
 :%^Pen%^VowRM%>i  PL-ILL_he ;
@@ -4486,6 +4500,7 @@ LEXICON NMN_36KOGÕR-PL
 
 LEXICON NMN_46SÕBÕR !!= __@CODE@__
 !! sõbõr:sõbõr
+!! Oblique plural in o
 !! * Yaml: __N-swbwr36__
 !! derived from 36SÄRGʼ
   NMN_46SÕBÕR-SG ;
@@ -4507,6 +4522,31 @@ LEXICON NMN_46SÕBÕR-PL
 
 :%^Pen%^VowRM%>o    Harm-Neutr_PL-ILL_ZERO ;
 :%^Pen%^VowRM%>o    PL-COM ;
+
+LEXICON NMN_46KUBÕL !!= __@CODE@__
+!! kubõl:ku%{pb%}õl
+!! Oblique plural in õ
+!! * Yaml: __N-swbwr36__
+!! derived from 36SÄRGʼ
+  NMN_46KUBÕL-SG ;
+  NMN_46KUBÕL-PL ;
+LEXICON NMN_46KUBÕL-SG 
+:%^Pen%^WGStem    Harm-Neutr_SG-NOM  ;
+:%^Pen%^VowRM        Harm-Neutr_SG-NOM  ;
+:%^Pen%^WGStem%^Pen%^VowRM%>%{aä%}       SG-GEN_ZERO-STEM        ;
+:%^Pen%^VowRM%>%{aä%}       Harm-Neutr_SG-ILL_ZERO        ;
+:%^Pen%^VowRM%>%{aä%}       Harm-Neutr_SG-PAR_ZERO        ;
+
+LEXICON NMN_46KUBÕL-PL 
+:%^Pen%^WGStem%^Pen%^VowRM%>%{aä%}       Harm-Neutr_PL-NOM ;
+:%^Pen%^VowRM%>õ    PL-GEN_ZERO ;
+:%^Pen%^VowRM%>õ    Harm-Neutr_PL-PAR_ZERO ;
+:%^Pen%^VowRM%>õ  PL-ILL_he ;
+:%^Pen%^VowRM%>õ  PL-ILL_dE ;
+:%^Pen%^WGStem%^Pen%^VowRM%>õ  PL-ALL_lE-STEM ;
+
+:%^Pen%^VowRM%>õ    Harm-Neutr_PL-ILL_ZERO ;
+:%^Pen%^VowRM%>õ    PL-COM ;
 
 LEXICON NMN_37ÕLI/PINI
 ! pini:pi%{nØ%}ni
@@ -4763,7 +4803,7 @@ LEXICON NMN_40TALO/HELÜ-PL
 :%^VowRM%{eõ%} PL-COM ;
 :%^VowRM%{aä%} PL-COM ;
 
-LEXICON NMN_40SAVV/TÜKK !!= * @CODE@ savv:savvu tükk:tükkü
+LEXICON NMN_40SAVV/TÜKK !!= * @CODE@ savv:savvu tükk:tü%{kØ%}kü
   NMN_40SAVV/TÜKK-SG ;
   NMN_40SAVV/TÜKK-PL ;
 LEXICON NMN_40SAVV/TÜKK-SG 
@@ -4782,10 +4822,12 @@ LEXICON NMN_40SAVV/TÜKK-PL
 :%^VowRM%{aä%}    Harm-Neutr_PL-ILL_ZERO ;
 :%^VowRM%{eõ%}    Harm-Neutr_PL-ILL_hE ;
 :%^VowRM%{aä%}    Harm-Neutr_PL-ILL_hE ;
+:%^VowRM%{eõ%}    PL-ILL_dE ;
+:%^VowRM%{aä%}    PL-ILL_dE ;
 :%^Pen%^WGStem%^VowRM%{eõ%}    PL-ALL_lE-STEM ;
 :%^Pen%^WGStem%^VowRM%{aä%}    PL-ALL_lE-STEM ;
-:%^VowRM%{eõ%}    PL-ALL_lE-STEM ;
-:%^VowRM%{aä%}    PL-ALL_lE-STEM ;
+:%^VowRM%{eõ%}    PL-COM ;
+:%^VowRM%{aä%}    PL-COM ;
 
 
 
@@ -5211,6 +5253,9 @@ LEXICON Harm-Neutr_SG-ALL_lE-STEM
 
 !! !PLURAL ALLATIVE STEMS
 LEXICON PL-ALL_lE-STEM
+  PL-ALL_lE-STEM-LESS-TER ;
+PL-TER ;
+LEXICON PL-ALL_lE-STEM-LESS-TER
    Harm-Neutr_PL-ABE_ldAq ;
    Harm-Neutr_PL-ABL ;
    Harm-Neutr_PL-ADE ;
@@ -5220,7 +5265,6 @@ LEXICON PL-ALL_lE-STEM
    Harm-Neutr_PL-INE_hn ;
    Harm-Neutr_PL-INE_n ;
    Harm-Neutr_PL-TRA ;
- PL-TER ;
 
 
 LEXICON PL-GEN_ZERO-STEM
@@ -5328,7 +5372,7 @@ LEXICON	 Harm-Neutr_SG-ALL_lE
 +Sg+All:%>l%{eõ%} K ;
 
 LEXICON	 Harm-Neutr_SG-COM
-+Sg+Com:%{back%}%>gaq K ;
++Sg+Com:%>gaq%{back%} K ;
 +Err/Orth+Use/NG+Sg+Com:%>ga K ; !!= * @CODE@ no q
 +Err/Orth+Use/NG+Sg+Com:%>ga BACK_K ; !!= * @CODE@ no q
 
