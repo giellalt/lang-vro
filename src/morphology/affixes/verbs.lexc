@@ -486,10 +486,12 @@ LEXICON V_60MANITSÕMA/EHITSEMÄ !!≈ * __@CODE@__ manitsõma:mani
 :ts%{eõ%} ACT-IND-PRS-3_s/sEq ;
 
 :ds ACT-IND-PRT-SG1_i ;
-:ts ACT-IND-PRT-SG2/PL1/PL2_i ;
+:ds ACT-IND-PRT-SG2_iq-USUALLY-WEAK ;
+:ts ACT-IND-PRT-SG2/PL1/PL2_i-USUALLY-STRONG ;
 :ds%{eõ%} ACT-IND-CONNEG ;
 :ts ACT-IND-PRT-SG3_APOSTROPHE ;
-:tsi ACT-IND-PRT-PL3_q/vAq ;
+:tsi ACT-IND-PRT-PL3_vAq ;
+:dsi ACT-IND-PRT-PL3_q ;
 
 :ts%{eõ%} PSS-IND-PRS-ALL_dA ;
 :ts%{eõ%} PSS-IND-PRT-ALL_di ;
@@ -695,17 +697,17 @@ LEXICON V_67HARINÕMA/NÄGÜNEMÄ !!≈ * __@CODE@__ harinõma:hari
 
  ACT-IND-PRT-12_si ;
 :n%{eõ%} ACT-IND-CONNEG ;
- Harm-Neutr_IND-PRT-SC3_si_WEAKGRADE ;
-:%>i ACT-IND-PRT-PL3_q/vAq ;
- Harm-Neutr_VISKAMA_PSS-IND-PRS ;
- Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+ ACT-IND-PRT-SC3_si ;
+!:%>i ACT-IND-PRT-PL3_q/vAq ;
+:n%{eõ%} PSS-IND-PRS-ALL_dA ;
+:n%{eõ%} PSS-IND-PRT-ALL_di ;
 
 :n%{eõ%} Harm-Neutr_INF_mA ;
  Harm-Neutr_INF_dAq ;
 :n%{eõ%} Harm-Neutr_INF_dAq ;
 !+Err/Orth:n%{eõ%} Harm-Neutr_INF_dAq ;
- Harm-Neutr_ACT-PRSPRC_v ;
-!:n%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
+
+:n%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
  Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
  Harm-Neutr_V0-PSS-PRSPRC_tAv ;
 :%^WGStem Harm-Neutr_PSS-PRFPRC_t ;
@@ -1942,7 +1944,7 @@ LEXICON V_88SIBAHAMA/JÜVÄHÄMÄ !!= * @CODE@ sibama:siba
 
  ACT-IND-PRT-12_si ;
 :%^StrGStem ACT-IND-CONNEG ;
- IND-PRT-SC3_si ;
+ ACT-IND-PRT-SC3_si ;
  Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
  Harm-Neutr_INF_mA ;
@@ -2168,7 +2170,12 @@ LEXICON ACT-IND-PRT-12_i
 LEXICON ACT-IND-PRT-SG1_i
 +Act+Ind+Prt+Sg1:%>i K ;
 LEXICON ACT-IND-PRT-SG2/PL1/PL2_i
+ ACT-IND-PRT-SG2_iq-USUALLY-WEAK ;
+ ACT-IND-PRT-SG2/PL1/PL2_i-USUALLY-STRONG ;
+
+LEXICON ACT-IND-PRT-SG2_iq-USUALLY-WEAK
 +Act+Ind+Prt+Sg2:%>iq K ;
+LEXICON ACT-IND-PRT-SG2/PL1/PL2_i-USUALLY-STRONG
 +Act+Ind+Prt+Sg2:%>it K ;
 +Act+Ind+Prt+Sg2:%>id%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>imiq K ;
@@ -2254,12 +2261,7 @@ LEXICON Harm-Neutr_IND-PRT-SC3_sʼ-NO-s
 +Act+Ind+Prt+Pl3:%^VowRM%>iq K ;
 +Act+Ind+Prt+Pl3:%^VowRM%>iv%{aä%}q K ;
 
-LEXICON Harm-Neutr_IND-PRT-SC3_si_WEAKGRADE
-+Act+Ind+Prt+Sg3:%^WGStem%>si K ;
-+Act+Ind+Prt+Pl3:%^VowRM%>siq K ;
-+Act+Ind+Prt+Pl3+Err/Orth:%^VowRM%>siv%{aä%}q K ;
-
-LEXICON IND-PRT-SC3_si
+LEXICON ACT-IND-PRT-SC3_si
 +Act+Ind+Prt+Sg3:%>si K ;
 +Act+Ind+Prt+Pl3:%>siq K ;
 +Use/NG+Act+Ind+Prt+Pl3:%>siv%{aä%}q K ;
