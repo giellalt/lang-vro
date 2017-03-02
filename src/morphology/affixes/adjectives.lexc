@@ -10,15 +10,18 @@ LEXICON A_
 LEXICON PROP-PLC-DOWNCASE-SG-GEN
 +N+Prop+Sg+Gen+Prop→A+A@U.Cap.Opt@:000000@U.Cap.Opt@ # ;
 
-!LEXICON A_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
-!+A:%{back%}	NMN_1HANSʼA ;
+LEXICON A_1HANSʼA !!= @CODE@ 1 hansʼa:hansʼa
++A:%{back%}	NMN_1HANSʼA ;
 
-!LEXICON A_1HERRÄ !!= @CODE@ 1 herrä:herrä
-!+A:%{front%}	NMN_1HERRÄ ;
+LEXICON A_1HERRÄ !!= @CODE@ 1 herrä:herrä
++A:%{front%}	NMN_1HERRÄ ;
 
 LEXICON A_2ARTIKLI !!= @CODE@ suhvli:suhvli
 !! * Yaml: __suhvli__
 +A:%{back%}   NMN_2ARTIKLI ;
+
+LEXICON A_2KERGE !!= @CODE@ 1 kerge:
++A:%{front%}	NMN_2KERGE ;
 
 LEXICON A_3ALADU !!= @CODE@ aladu:aladu
 !! * Yaml: __A-aladu__
@@ -72,6 +75,11 @@ LEXICON A_9KIPÕNʼ
 !+A:%{front%}     NMN_9KIPÕNʼ/VETELʼ ;
 !+A:%{front%}%^Pen%^WGStem%>a COMP ;
 
+LEXICON A_9VILLÕ
+!! * Yaml: __villw__
++A:%{back%}	NMN_9VILLÕ/XX ;
++A:%{back%}%^Pen%^WGStem COMP ;
+
 LEXICON A_9TUKÕV
 !! * Yaml: __tukwv__
 +A:%{back%}	NMN_9TUKÕV/VERREV ;
@@ -103,6 +111,10 @@ LEXICON A_10ESÄK
 
 LEXICON A_11LÄTEQ
 +A:%{front%}  NMN_11ANNÕQ/LÄTEQ ;
+
+LEXICON A_11AINÕQ !!= @CODE@ ainõq:ainõ
++A:%{back%}  NMN_11AINÕQ/KELMEQ ;
+
 
 !LEXICON A_12REPÄNʼ
 !+A:%{front%}  NMN_12REPÄNʼ ;
