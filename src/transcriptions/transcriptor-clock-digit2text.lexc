@@ -56,7 +56,9 @@ LEXICON BEFORE
 %0: beforesmallhours ;
 :+Use/NA beforesmallhours ;
 beforelargehours ;
- 
+
+!a) kümme kolmkümmend kuuś minotit > kümme kolmkümmend kuuś Jack parandab
+!b) kümme kolmkümmend kuuś minotit > kümme ja kolmkümmend kuuś minotit Jack 
 LEXICON beforesmallhours
 1@U.TIME.2@:@U.TIME.2@ BEFpunkt ; !01:31 - 01:59
 2@U.TIME.3@:@U.TIME.3@ BEFpunkt ; !02:31 - 02:59
@@ -157,14 +159,15 @@ LEXICON AFTpunkt
 %.%0%0:+Use/NA%  # ;
 %::% läbi+Use/NA%  H-MAFT_minutes ; ! 2:00 = göökte
 %.:% läbi+Use/NA%  H-MAFT_minutes ; ! 2.00 = göökte
-%::+Use/NA%  H-MAFT_minutes ; ! 2:00 = göökte
-%.:+Use/NA%  H-MAFT_minutes ; ! 2.00 = göökte
+%::% ja+Use/NA%  H-MAFT_minutes ; ! 2:00 = göökte
+%.:% ja+Use/NA%  H-MAFT_minutes ; ! 2.00 = göökte
+%::+Use/NA%  H-MAFT_minutes-NO-MINOT ; ! 2:00 = göökte
+%.:+Use/NA%  H-MAFT_minutes-NO-MINOT ; ! 2.00 = göökte
 :+Use/NG HOUR ; ! 2 = göökte
 !@D.TIME.1@ AFTpunkt-PL ;
 
 !LEXICON AFTpunkt-PL
 !% tunni% :%:+Use/NA H-MAFT_minutes ; ! 2:00 = göökte
-
 
 LEXICON H-MAFT_minutes
 !%0%0:  # ;
@@ -227,6 +230,69 @@ LEXICON H-MAFT_minutes
 57:viisʼkümmend% säidse%  ANDMINUTES ;
 58:viisʼkümmend% katõsa%  ANDMINUTES ; 
 59:viisʼkümmend% ütesä%  ANDMINUTES ;
+
+LEXICON H-MAFT_minutes-NO-MINOT
+%0%0:nullʼ% nullʼ%  END ;
+%01:nullʼ% ütsʼ%   END ;
+%02:nullʼ% katsʼ%  END ;
+%03:nullʼ% kolm%  END ;
+%04:nullʼ% neli%  END ;
+%05:nullʼ% viisʼ%  END ;
+%06:nullʼ% kuusʼ%  END ;
+%07:nullʼ% säidse%  END ;
+%08:nullʼ% katõsa%  END ;
+%09:nullʼ% ütesä%  END ;
+1%0:kümme%  END ;
+11:ütsʼtõist%  END ;
+12:katsʼtõist%  END ;
+13:kolmtõist%  END ;
+14:nelitõist%  END ;
+15:viisʼtõist%  END ; 
+16:kuusʼtõist%  END ;
+17:säidsetõist%  END ;
+18:katõsatõist%  END ;
+19:ütesätõist%  END ;
+2%0:katsʼkümmend%  END ;
+21:katsʼkümmend% ütsʼ%  END ;
+22:katsʼkümmend% katsʼ%  END ;
+23:katsʼkümmend% kolm%  END ;
+24:katsʼkümmend% neli%  END ;
+25:katsʼkümmend% viisʼ%  END ;
+26:katsʼkümmend% kuusʼ%  END ;
+27:katsʼkümmend% säidse%  END ;
+28:katsʼkümmend% katõsa%  END ;
+29:katsʼkümmend% ütesä%  END ;
+3%0:kolmkümmend%  END ;
+31:kolmkümmend% ütsʼ%  END ;
+32:kolmkümmend% katsʼ%  END ;
+33:kolmkümmend% kolm%  END ;
+34:kolmkümmend% neli%  END ;
+35:kolmkümmend% viisʼ%  END ;
+36:kolmkümmend% kuusʼ%  END ;
+37:kolmkümmend% säidse%  END ;
+38:kolmkümmend% katõsa%  END ; 
+39:kolmkümmend% ütesä%  END ;
+4%0:nelikümmend%  END ;
+41:nelikümmend% ütsʼ%  END ;
+42:nelikümmend% katsʼ%  END ;
+43:nelikümmend% kolm%  END ;
+44:nelikümmend% neli%  END ;
+45:nelikümmend% viisʼ%  END ;
+46:nelikümmend% kuusʼ%  END ;
+47:nelikümmend% säidse%  END ;
+48:nelikümmend% katõsa%  END ;
+49:nelikümmend% ütesä%  END ;
+5%0:viisʼkümmend%  END ;
+51:viisʼkümmend% ütsʼ%  END ;
+52:viisʼkümmend% katsʼ%  END ;
+53:viisʼkümmend% kolm%  END ;
+54:viisʼkümmend% neli%  END ;
+55:viisʼkümmend% viisʼ%  END ; 
+56:viisʼkümmend% kuusʼ%  END ;
+57:viisʼkümmend% säidse%  END ;
+58:viisʼkümmend% katõsa%  END ; 
+59:viisʼkümmend% ütesä%  END ;
+
 
 LEXICON MINHR
 %::+Use/NG MINHR_1 ;
@@ -294,6 +360,9 @@ LEXICON MINHR_1
 
 LEXICON ANDMINUTES
 :minotit # ;
+
+LEXICON END
+ # ;
 
 LEXICON BEF
 15:veeränd%  HOUR ;
