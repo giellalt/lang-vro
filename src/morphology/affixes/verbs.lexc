@@ -319,13 +319,13 @@ LEXICON V_56HEIKELEMÄ !!≈ * __@CODE@__ heikelemä:heikel
 
 LEXICON V_56HIIBÕLÕMA/HEIKELEMÄ !!≈ * __@CODE@__ hiibõlõma:hiibõl
 :%{eõ%} ACT-IND-PRS-12 ;
-%{eõ%} ACT-IND-PRS-3_s/sEq ;
+:%{eõ%} ACT-IND-PRS-3_s/sEq ;
 
 
  ACT-IND-PRT-12_i ;
 :%{eõ%} ACT-IND-CONNEG ;
-!: ACT-IND-PRT-SG3_i ;
- ACT-IND-PRT-SG3_APOSTROPHE ;
+: ACT-IND-PRT-SG3_i ;
+! ACT-IND-PRT-SG3_APOSTROPHE ;
 :%>i ACT-IND-PRT-PL3_q/vAq ;
  PSS-IND-PRS-ALL_dA ;
  PSS-IND-PRT-ALL_di ;
@@ -1501,6 +1501,7 @@ LEXICON V_81XX/TEGEMÄ !!≈ * __@CODE@__ tegemä:teg
 :%^WGStem PSS-PRFPRC_tt ;
 :%^WGStem PSS-PRFPRC_ttU-SG-NOM ;
 :%^WGStem MUTUAL_JUS_kuq ;
+:%^StrGStem MUTUAL_JUS_kuq ;
 
 LEXICON V_82ANDMA !!≈ * __@CODE@__ andma:and
 !! * Yaml: __andma__

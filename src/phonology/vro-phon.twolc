@@ -1193,7 +1193,7 @@ k:0 <=>
 "%{kgØ%}:k"
 !! __@RULENAME@__
  %{kgØ%}:k <=>
-  Vow _ Vow: (HarmDummies:) (%^VOWLower:) %^Pen: %^StrGStem: ;
+  Vow _ [Vow: (HarmDummies:) (%^VOWLower:) %^Pen:|(HarmDummies:) (%^VOWLower:) ] %^StrGStem: ;
     Vow 0: _ Vow: (HarmDummies:) %^Pen: %^XStrGStem: ;
 
 
@@ -1265,7 +1265,7 @@ k:0 <=>
 "%{kgØ%}:0"
 !! __@RULENAME@__
  %{kgØ%}:0 <=> 
-   Vow: _ Vow: (HarmDummies:) (%^VOWLower:) %^Pen: %^WGStem: ;
+   Vow: _ [Vow: (HarmDummies:) (%^VOWLower:) %^Pen:| (HarmDummies:) (%^VOWLower:) ] %^WGStem: ;
 
 "j20"
 !! __@RULENAME@__
