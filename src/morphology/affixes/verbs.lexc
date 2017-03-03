@@ -526,7 +526,6 @@ LEXICON V_62TÄRKNEMÄ
 LEXICON V_62ARGNÕMA/TÄRKNEMÄ 
 :%>n%{eõ%} ACT-IND-PRS-12 ;
 :%>n%{eõ%} ACT-IND-PRS-3_s/sEq ;
-:%>%{eõ%}%^Pen%^WGStem PSS-IND-PRS-ALL_tA ;
 
 :%>s ACT-IND-PRT-12_i ;
 :%>n%{eõ%} ACT-IND-CONNEG ;
@@ -534,7 +533,8 @@ LEXICON V_62ARGNÕMA/TÄRKNEMÄ
 :%>si ACT-IND-PRT-PL3_q/vAq ;
 
 !: Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
- Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+:%^WGStem%>%{eõ%} PSS-IND-PRS-ALL_tA ;
+:%^WGStem%>%{eõ%} PSS-IND-PRT-ALL_ti ;
 
 :n%{eõ%} Harm-Neutr_INF_mA ;
 :%{eõ%}%^Pen%^WGStem Harm-Neutr_INF_dAq ;
