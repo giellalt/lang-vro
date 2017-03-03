@@ -39,6 +39,7 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{dv%}:d 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{gv%}:g 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{gl%}:g 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{gØ%}:g 	!!= @CODE@ HJK and KimmoK ideas argnõma:ar%{gØ%}
  %{uv%}:u 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
  %{üv%}:ü 	!!= @CODE@ HJK and KimmoK ideas kana:ka%{nØ%}na
 
@@ -1248,6 +1249,24 @@ k:0 <=>
 !! argnõma+V+Inf
 !!€ arg%{back%}%{eõ%}%^Pen%^WGStemd%{aä%}q
 !!€ ar00õ00daq
+
+"%{gØ%}:0"
+!! __@RULENAME@__
+ %{gØ%}:0 <=> [Cns: - [n:]|Vow:]  _ (HarmDummies:) ( ʼ: ) %^WGStem: ;
+!!€ sär%{gØ%}%^WGStem%>e
+!!€ sär00%>e
+!!€ aig%^WGStem%>o
+!!€ a000%>o
+   [Cns: - [n:]|Vow:] _ [Vow: (HarmDummies:)|(HarmDummies:) %{eõ%}:] PenBetweenStemAndPenGrade %^Pen: %^WGStem: ;
+!!€ i%{kgØ%}ä%^Pen%^WGStem
+!!€ i0ä00
+!! lugõma+V+Pss+PrfPrc __read/lukea__
+!!€ lu%{kgØ%}õ%^Pen%^WGStem%^Õ2E%>t
+!!€ lo0e000%>t
+!! argnõma+V+Inf
+!!€ arg%{back%}%{eõ%}%^Pen%^WGStemd%{aä%}q
+!!€ ar00õ00daq
+
 
 !2017-02-03 Vow l _ Vow (HarmDummies:) %^WGStem: ;
 !!€ palgõ%^WGStem%>h

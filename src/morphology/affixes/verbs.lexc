@@ -239,7 +239,7 @@ LEXICON V_52ALOSTÕLÕMA/EHITELEMÄ !!≈ * __@CODE@__ alostõllõma:alostõl
 
 :%^WGStem Harm-Neutr_JUUMA-PSS-PRFPRC_d ;
 :%^WGStem PSS-PRFPRC_dU-SG-NOM ;
- MUTUAL_JUS ;
+:%^WGStem MUTUAL_JUS ;
 
 
 LEXICON V_53KAEMA !!≈ * __@CODE@__ 
@@ -249,16 +249,17 @@ LEXICON V_53JÄÄMÄ !!≈ * __@CODE@__
 LEXICON V_53KAEMA/JÄÄMÄ !!≈ * __@CODE@__ 
 :%^VOWRaise Harm-Neutr_V0-PSS-PRSPRC_dAv ;
 :%^VOWRaise PSS-PRFPRC_d ;
+:%^VOWRaise PSS-PRFPRC_dU-SG-NOM ;
 :%^VOWRaise ACT-PRSPRC_vA ;
 :%^VOWRaise Harm-Neutr_INF_mA ;
 :%^VOWRaise ACT-PRFPRC-OBL_nU ;
 :%^VOWRaise ACT-IND-PRS-SG1_ZERO ;
 :%^VOWRaise ACT-IND-PRS-SG2_t ;
 +Use/NG:%^VOWRaise ACT-IND-PRS-SG2_dEq ;
-+Use/NG:%^VOWRaise ACT-IND-PRS-PL2_dEq ;
+!+Use/NG:%^VOWRaise ACT-IND-PRS-PL2_dEq ;
 :%^VOWRaise ACT-IND-PRS-PL2_tiq ;
 :%^VOWRaise ACT-IND-CONNEG ;
-:%^VOWRaise ACT-IND-PRS-SG3_ZERO ;
+!:%^VOWRaise ACT-IND-PRS-SG3_ZERO ;
 :%^VOWRaise Harm-Neutr_77JUUMA/SÜÜMÄ-PSS-IND-PRT_di ; !!= * @CODE@ only 3rd person
 
  ACT-PRFPRC_nUq-SG-NOM ; !!= * @CODE@ jäänüq keenüq
@@ -274,7 +275,7 @@ LEXICON V_53KAEMA/JÄÄMÄ !!≈ * __@CODE@__
 ! Act+Ind+Prs+Sg3
 
  ACT-IND-PRS-PL3_vAq ; !!= * @CODE@ (6) joovaq sööväq
-
+: MUTUAL_JUS ;
 
 LEXICON V_54ISTMA !!≈ * __@CODE@__ 
 +V+WORK: # ;
@@ -523,13 +524,15 @@ LEXICON V_62TÄRKNEMÄ
 +V:%{front%} V_62ARGNÕMA/TÄRKNEMÄ ;
 
 LEXICON V_62ARGNÕMA/TÄRKNEMÄ 
-:n%{eõ%} ACT-IND-PRS-12 ;
-:n%{eõ%} ACT-IND-PRS-3_s/sEq ;
-:%{eõ%}%^Pen%^WGStem PSS-IND-PRS-ALL_tA ;
+:%>n%{eõ%} ACT-IND-PRS-12 ;
+:%>n%{eõ%} ACT-IND-PRS-3_s/sEq ;
+:%>%{eõ%}%^Pen%^WGStem PSS-IND-PRS-ALL_tA ;
 
-:s ACT-IND-PRT-12_i ;
-:n%{eõ%} ACT-IND-CONNEG ;
-:%{eõ%} Harm-Neutr_IND-PRT-SC3_s ;
+:%>s ACT-IND-PRT-12_i ;
+:%>n%{eõ%} ACT-IND-CONNEG ;
+:%^WGStem%>%{eõ%} ACT-IND-PRT-SG3_sʼ ;
+:%>si ACT-IND-PRT-PL3_q/vAq ;
+
 !: Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
  Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
@@ -556,7 +559,7 @@ LEXICON V_63SÕIMAMA/XX !!≈ * __@CODE@__ sõimama:sõima
 :%>s ACT-IND-PRT-12_si ;
 
  ACT-IND-CONNEG ;
- Harm-Neutr_IND-PRT-SC3_sʼ ;
+ ACT-IND-PRT-SC3_sʼ ;
  Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
  Harm-Neutr_INF_mA ;
@@ -892,7 +895,7 @@ LEXICON V_71HALLÕTUMA/ERÄTÜMÄ !!≈ * __@CODE@__ hallõtuma:hallõtu
 :%^Pen%^WGStem ACT-IND-PRT-SG1_ZERO/SG2_q/PL3_q ;
  Harm-Neutr_ACT-IND-PRT-SG2_USUALLY-STRONG ;
 :%^Pen%^WGStem ACT-IND-CONNEG ;
- ACT-IND-PRT-SG3_ZERO ;
+:%^Pen%^WGStem ACT-IND-PRT-SG3_ZERO ;
  PSS-IND-PRS-ALL_dA ;
  PSS-IND-PRT-ALL_di ;
 
@@ -2248,17 +2251,19 @@ LEXICON ACT-IND-PRT-PL3_vAq
 +Use/NG+Act+Ind+Prt+Pl3:%>v%{aä%}q K ;
 
 
-LEXICON Harm-Neutr_IND-PRT-SC3_s
+LEXICON ACT-IND-PRT-SC3_s
 +Act+Ind+Prt+Sg3:%^WGStem%>s K ;
 +Act+Ind+Prt+Pl3:%>siq K ;
 +Act+Ind+Prt+Pl3:%>siv%{aä%}q K ;
 
-LEXICON Harm-Neutr_IND-PRT-SC3_sʼ
+LEXICON ACT-IND-PRT-SC3_sʼ
 +Act+Ind+Prt+Sg3:%^WGStem%>sʼ K ;
 +Act+Ind+Prt+Pl3:%^VowRM%>siq K ;
 +Act+Ind+Prt+Pl3:%^VowRM%>siv%{aä%}q K ;
+LEXICON ACT-IND-PRT-SG3_sʼ
++Act+Ind+Prt+Sg3:%^WGStem%>sʼ K ;
 
-LEXICON Harm-Neutr_IND-PRT-SC3_sʼ-NO-s
+LEXICON ACT-IND-PRT-SC3_sʼ-NO-s
 +Act+Ind+Prt+Sg3:%^WGStem%>ʼ K ;
 +Act+Ind+Prt+Pl3:%^VowRM%>iq K ;
 +Act+Ind+Prt+Pl3:%^VowRM%>iv%{aä%}q K ;
