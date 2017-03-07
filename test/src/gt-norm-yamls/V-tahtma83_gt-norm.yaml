@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `tahtma: # Verb (83) `nõstma 'eng /est /fin' - full paradigm
+     tahtma+V+Inf/mA: tahtma
+     tahtma+V+Inf: tahtaq
+     tahtma+V+ActPrtPrc: tahtnuq
+     tahtma+V+PssPrtPrc: [tahet, tahetu]
+
+     tahtma+V+Ind+Prs+ScSg1: taha
+     tahtma+V+Ind+Prs+ScSg2: [tahat, tahadõq]
+     tahtma+V+Ind+Prs+ScSg3: taht
+     tahtma+V+Ind+Prs+ScPl1: tahamiq
+     tahtma+V+Ind+Prs+ScPl2: tahatiq
+     tahtma+V+Ind+Prs+ScPl3: tahtvaq
+     tahtma+V+Ind+Prs+Sc+ConNeg: taha
+     tahtma+V+Ind+Prt+ScSg1: [tahtsõ, tahi]
+     tahtma+V+Ind+Prt+ScSg2: [tahtsõt, tahtsõq, tahtsõdõq, tahit, tahiq, tahidõq]
+     tahtma+V+Ind+Prt+ScSg3: [tahtsõ, tahtʼ]
+     tahtma+V+Ind+Prt+ScPl1: [tahtsõmiq, tahimiq]
+     tahtma+V+Ind+Prt+ScPl2: [tahtsõtiq, tahitiq]
+     tahtma+V+Ind+Prt+ScPl3: [tahtsõq, tahtsõvaq, tahiq, tahivaq]
+     tahtma+V+Ind+Prt+Sc+ConNeg: taha
+
+     tahtma+V+Ind+Prs+OcSg1: taheda
+     tahtma+V+Ind+Prs+OcSg3: tahetas
+
+     tahtma+V+ActPrsPrc+Sg+Nom: tahtva
+
+     tahtma+V+Jus: tahtkuq
+
