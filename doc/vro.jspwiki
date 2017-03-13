@@ -29,6 +29,7 @@ special letters
  * __I̬	__ i plus U+032C COMBINING CARON BELOW
  * __õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
  * __Õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+ * __%{ˋØ%}__ U+02CB MODIFIER LETTER GRAVE ACCENT used in rules
 
 The parts-of-speech are:
  * __+N	__ Noun
@@ -91,13 +92,7 @@ The nominals are inflected in the following Case and Number
 
 
 The possession is marked as such:
-
- * __+PxSg1__
- * __+PxSg2__
- * __+PxSg3__
- * __+PxPl1__
- * __+PxPl2__
- * __+PxPl3__
+There are no possessive markers
 
 The comparative forms are:
  * __+Comp__
@@ -281,8 +276,8 @@ source and target part-of-speech.
  * __+V→A	__
  * __+Prop→A	__
  * __+Der/xxx__
- __ +Der/JA __	actor
- __ +Der/minE __	actor
+ __ +Der/JA __	NomAg
+ __ +Der/minE __ NomAct
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -290,12 +285,30 @@ symbols in the lexicon files:
  __ %{aä%} 	__ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
  __ %{eõ%} 	__ Vowel harmony with "e/õ"
  __ %{uü%} 	__ Vowel harmony with "u/ü"
+  %{öü%} 	 Vowel raising
+  %{ou%} 	 Vowel raising
+  %{ei%} 	 Vowel raising
+  %{õy%} 	 Vowel raising
+
+  %{eʼ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{õʼ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+
+
  __ %{XV%}		__ This is used for echoing the previous vowel
  __ %{XC%}		__ This is used for lengthening a consonant
 
+  %{dØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dv%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gv%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gl%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gØ%} 	 HJK and KimmoK ideas argnõma:ar%{gØ%}
+  %{uv%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{üv%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
 gemination
   %{hØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{jØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{lØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{mØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{nØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -306,8 +319,19 @@ strong and weak
   %{pb%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{td%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kg%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{tdØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{bv%} 	 HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+  %{dr%} 	 HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
+  %{bm%} 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dn%} 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dl%} 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
 
+  %{pbØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tdØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kgØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{jiʼ%}	 HJK and KimmoK ideas vari:var%{jiʼ%}o
+
+  %{qmn%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{qn%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
 
 
 
@@ -320,12 +344,9 @@ And following triggers to control variation
  %^ErrorBack	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
 
   %^CC2C 	 att%^CC2C%>m%{aä%} atma
-  %^Õ2E	  lugõ%^Pen%^WGStem%^Õ2E loe
   %^OO2Õ	  joo%^OO2Õ%>i:j0õ0%>i
 
   %^ÄI2ÄÄ  päiv%^ÄI2ÄÄ%>ä: päävä
-
- %^APOCH  This causes apochope
 
  %^StrD2T  This changes g,d,b, => k,t,p
 
@@ -441,29 +462,57 @@ special letters
  * __I̬	__ i plus U+032C COMBINING CARON BELOW
  * __õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
  * __Õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
- * __ˋ	__ U+02CB MODIFIER LETTER GRAVE ACCENT
+ * __ˋ	__ U+02CB MODIFIER LETTER GRAVE ACCENT other parts of stem
+ * __%{ˋØ%}:0__ U+02CB MODIFIER LETTER GRAVE ACCENT used in rules
 
   %{aä%}:0 	 Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
   %{eõ%}:0 	 Vowel harmony with "e/õ"
   %{uü%}:0 	 Vowel harmony with "u/ü"
+  %{öü%}:ö 	 Vowel raising
+  %{ou%}:o 	 Vowel raising
+  %{ei%}:e 	 Vowel raising
+  %{õy%}:õ 	 Vowel raising
+
+  %{eʼ%}:e 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{õʼ%}:õ 	 HJK and KimmoK ideas kana:ka%{nØ%}na
 
 
+  %{dØ%}:d 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tØ%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dv%}:d 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gv%}:g 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gl%}:g 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gØ%}:g 	 HJK and KimmoK ideas argnõma:ar%{gØ%}
+  %{uv%}:u 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{üv%}:ü 	 HJK and KimmoK ideas kana:ka%{nØ%}na
 
   %{hØ%}:h 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{jØ%}:j 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kØ%}:k 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{lØ%}:l 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{mØ%}:m 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{nØ%}:n 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{rØ%}:r 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{sØ%}:s 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{sØ%}:s 	 HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
   %{vØ%}:v 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{bv%}:b 	 HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+  %{dr%}:d 	 HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
+  %{bm%}:b 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dn%}:d 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dl%}:d 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+
 
   %{pb%}:p 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kg%}:k 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kg%}:k 	 HJK and KimmoK ideas kaigas:kai%{kg%}as
 
-  %{tdØ%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pbØ%}:b 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tdØ%}:d 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kgØ%}:g 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{jiʼ%}:i	 HJK and KimmoK ideas vari:var%{jiʼ%}o
 
+  %{qmn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{qn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
 
 
   %{XV%}:0		 This is used for echoing the previous vowel
@@ -478,7 +527,6 @@ special letters
  __%^Y7:õ  __  This appears for syna = s%^Y7na and is rendered as õ in the norm
 
 Triggers
-  %^Õ2E:0	  lugõ%^Pen%^WGStem%^Õ2E loe
   %^OO2Õ:0	  joo%^OO2Õ%>i:j0õ0%>i
   %^CC2C:0 	 att%^CC2C%>m%{aä%} atma
 
@@ -543,6 +591,9 @@ Triggers
 
 
 
+
+
+
 Onset consonant or word boundary
 
 
@@ -587,8 +638,8 @@ __%{eõ%}:e__
 !VOWEL LOWERING
 
 __u:o__
-* __lugõ%^WGStem%^VowRM%>i __
-* __lo0000%>i __
+* __lugõ%^VOWLower%^Pen%^WGStem%^VowRM%>i __
+* __lo000000%>i __
 
 __ü:ö__
 * __pügä%^VOWLower%^WGStem%^VowRM%>e%>t __
@@ -596,23 +647,23 @@ __ü:ö__
 * __süü%^VOWLower%^WGStem%>nüq __
 * __söö00%>nüq __
 
-__ü2e__
+__ü:ö__
 {{{
 * __häbü%^StrGStem%^PLPRT __
 * __häpe00 __
 }}}
 
-__ü2ä__
+__ü:ö__
 {{{
 * __häbü%^StrGStem%^PLPRT __
 * __häpä00 __
 }}}
 
-__u2a__
+__ü:ö__
 * __laulu%^U2A __
 * __laulõ0 __
 
-__o2a__
+__ü:ö__
 * __aigo%^U2A __
 * __aiga0 __
 
@@ -629,6 +680,8 @@ __u2õ__
 __ö2e__
 * __söö%^OO2Õ%>i __
 * __se00%>i __
+
+__Delabializing o and ö__
 
 !VOWEL RAISING
 __ö:ü__
@@ -663,13 +716,33 @@ tegemä+V+Act+Ind+Prs+Sg1: __do__
 * __teg%^WGStem%>e __
 * __ti̬00%>i̬ __
 
+tegemä+V+Act+Ind+Prs+Sg1: __do__
+* __teg%^WGStem%>%{eõ%} __
+* __ti̬00%>i̬ __
+
+
+__%{ei%}2i̬__
+* __k%{ei%}%{ei%}l%^VOWRaiseʼ __
+* __ki̬i̬l0ʼ __
+
+
 __õ2õ̭__
+* __sõda%^WGStem __
+* __sõ̭0a0 __
+
+__%{õy%}2õ̭__
 
 
 __o2u̬__
 
+__Vx%{ou%}:Vyo__
 
-__ö2ü̬__
+__%{ou%}2u̬__
+
+__%{ou%}2u̬__
+
+__%{öü%}2ü̬__
+
 
 __i2e__
 * __pin0i%^StrGStem%^PLPRT __
@@ -678,6 +751,7 @@ __i2e__
 * __keel0%>e __
 * __leib%^ÄI2ÄÄ%^WGStem%>ä __
 * __leev0%>ä __
+
 
 
 
@@ -693,15 +767,6 @@ __a2o__
 }}}
 
 
-__õ2y__
-{{{
-* __sõda%^WGStem __
-* __sy0a0 __
-}}}
-
-__õ2e__
-* __lugõ%^Pen%^WGStem%^Õ2E%>t __
-* __lo0e000%>t __
 
 !VOWEL LOSS
 __a:0__
@@ -711,8 +776,7 @@ __a:0__
 * __sõima0%^VowRM%>si __
 * __sõim0s0%>si __
 * __puhkas%^Pen%^VowRM%>a%>ma __
-* __puhk0s0%>a%>ma __
-
+* __puhk0s00%>a%>ma __
 
 __ä:0__
 * __jää%^VOWRaise%^VowRM%>i __
@@ -724,6 +788,8 @@ __ä:0__
 
 __u:0__
 {{{
+* __hirnu%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%} __
+* __hirn00000%>ma __
 * __tervüs%^VowRM%^CnsRM%>i%>t __
 * __terv0000%>i%>t __
 * __kuu%^VowRM%>i%>d __
@@ -738,10 +804,20 @@ __ü:0__
 * __terv0000%>i%>t __
 }}}
 
+__Vx:ʼ__
+
 __e:0__
+* __herne%{hØ%}%{front%}%^VowRM%^WGStem%>id%{eõ%} __
+* __hern00000%>ide __
+
 __o:0__
 * __joo%^VOWRaise%^VowRM%>vv%>aq __
 * __ju000%>vv%>aq __
+
+__Vx%{ou%}:0__
+* __joo%^VOWRaise%^VowRM%>vv%>aq __
+* __ju000%>vv%>aq __
+
 
 __ö:0__
 
@@ -767,6 +843,7 @@ __õ:0__
 * __hammõ%^WGStem%^VowRM%>ihe __
 * __ham0000%>ihe __
 
+
 VOWEL LENGTHENING
 
 __%{XV%}:u__
@@ -783,6 +860,8 @@ __%{XV%}:õ__
 
 __%{XV%}:e__
 
+__%{XV%}:i__
+
 
 __i2j__
 * __asi%^I2J%>a __
@@ -792,15 +871,22 @@ __i2j__
 
 __i2ʼ__
 
+__%{jiʼ%}:j__
+
+__%{jiʼ%}:ʼ__
 
 __u2v__
 * __juud%^WGStem%>a __
 * __juvv0%>a __
 
-__ü2v__
-* __püüd%^WGStem%>et __
+__%{uv%}:v__
+* __ju%{uv%}%{dv%}%^WGStem%>a __
+* __juvv0%>a __
+
+__%{üv%}:v__
+* __pü%{üv%}%{dv%}%^WGStem%>et __
 * __püvv0%>et __
-* __süüd%^WGStem%>ä __
+* __sü%{üv%}%{dv%}%^WGStem%>ä __
 * __süvv0%>ä __
 
 __%^I7:i__
@@ -815,15 +901,45 @@ __%^V7:v with 0:v__
 
 SECONDARY CONSONANT LENGTHENING
 
-__0:m__
-* __nim0%^StrGStem%>e __
-* __nimm0%>e __
-
-__0:p__
+__%^V7:v with 0:v__
 {{{
 * __häb0ü%^XStrGStem __
 * __häppü00 __
 }}}
+
+__0:p__
+{{{
+* __hä0%{pbØ%}ü%^Pen%^XStrGStem __
+* __häppü00 __
+}}}
+
+__0:p__
+* __sõd0a%^XStrGStem%^PLPRT __
+* __sõtto00 __
+* __üt0e%^Pen%^StrGStem __
+* __ütte00 __
+
+__0:t__
+* __sõd0a%^XStrGStem%^PLPRT __
+* __sõtto00 __
+* __üt0e%^Pen%^StrGStem __
+* __ütte00 __
+
+__0:t__
+* __ig0ä __ {{%^Pen%^XStrGStem }}
+* __ikkä0 __
+* __mak0õ%^StrGStem%^VowRM%>i%>dõ __
+* __makkõ00%>i%>dõ __
+
+__0:k__
+* __ig0ä __ {{%^Pen%^XStrGStem }}
+* __ikkä0 __
+* __mak0õ%^StrGStem%^VowRM%>i%>dõ __
+* __makkõ00%>i%>dõ __
+
+__0:m__
+* __nim0%^StrGStem%>e __
+* __nimm0%>e __
 
 __0:v__
 {{{
@@ -836,12 +952,6 @@ __0:v__
 
 __0:n__
 
-
-__0:t__
-* __sõd0a%^XStrGStem%^PLPRT __
-* __sõtto00 __
-* __üt0e%^Pen%^StrGStem __
-* __ütte00 __
 
 __0:s__
 * __sõima0%^VowRM%>si __
@@ -857,12 +967,6 @@ __0:r__
 
 __0:h__
 
-
-__0:k__
-* __ig0ä __ {{%^Pen%^XStrGStem }}
-* __ikkä0 __
-* __mak0õ%^StrGStem%^VowRM%>i%>dõ __
-* __makkõ00%>i%>dõ __
 
 __%{XC%}:s__
 
@@ -880,9 +984,21 @@ __kToZero__
 * __ikkõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%} __
 * __ik000000%>ma __
 
+__%{kØ%}:0__  
+* __puhkas%^WGStem%>taq __
+* __puh0as0%>taq __
+
+
+* __i%{kØ%}kõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%} __
+* __i0k00000%>ma __
+
 __pToZero__
 * __tapp%{back%}%^CC2C%>m%{aä%} __
 * __tap000%>ma __
+
+__%{pØ%}:0__
+* __ta%{pØ%}p%{back%}%^CC2C%>m%{aä%} __
+* __ta0p00%>ma __
 
 __mToZero__
 * __hammõ%^Pen%^WGStem%>h __
@@ -904,10 +1020,18 @@ __lToZero__
 * __kul00l00%>õ%>ma __
 
 __XØToZero__
+elläi+N+Sg+Gen
 * __e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä __
 * __e0läj00%>ä __
+* __ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^WGStem __
+* __ha0mõh%{back%}%^Pen%^WGStem __
 
 __StrongToWeak__
+
+__%{td%}:d__
+kaotama+V+Act+Ind+Prs+Sg1:
+* __kao%{td%}a%^Pen%^WGStem __
+* __kaoda0 __
 
 __rToZero__
 * __perre%^WGStem%>h __
@@ -925,6 +1049,8 @@ hüdsi+N+Sg+Par:
 * __at000%>ma __
 
 
+__%{tØ%}:0__
+
 
 !CONSONANT QUALITY CHANGE
 
@@ -932,18 +1058,26 @@ __p2b__
 
 __b20__
 
+__%{pbØ%}:0__
+
 __b2v__
 * __leib%^ÄI2ÄÄ%^WGStem%>ä __
 * __leev0%>ä __
-
-__bTop__
 
 
 __b2m__
 * __hamba%^Pen%^WGStem%>s __
 * __hamma0%>s __
 
+__%{bm%}:m__
+* __ham%{bm%}a%{sØ%}%^Pen%^WGStem __
+* __hammas00 __
+
+
 __d2n__
+
+__%{dn%}:n__
+
 
 __dTol__
 * __tul%>daq __
@@ -953,6 +1087,15 @@ __dTol__
 * __vald%{back%}%^WGStem%>n __
 * __vall00%>n __
 
+__%{dl%}:l__
+* __tul%>%{dl%}aq%^Pen%^WGStem __
+* __tul%>laq00 __
+* __kõnõl%>%{dl%}aq%^Pen%^WGStem __
+* __kõnõl%>laq00 __
+* __val%{dl%}%{back%}%^WGStem%>n __
+* __vall00%>n __
+
+
 __d2v__
 * __püüd%^WGStem%>et __
 * __püvv0%>et __
@@ -960,6 +1103,16 @@ __d2v__
 * __juvv0%>a __
 * __süüd%^WGStem%>ä __
 * __süvv0%>ä __
+
+__%{dv%}:v__
+* __pü%{üv%}%{dv%}%^WGStem%>et __
+* __püvv0%>et __
+* __ju%{uv%}%{dv%}%^WGStem%>a __
+* __juvv0%>a __
+* __sü%{üv%}%{dv%}%^WGStem%>ä __
+* __süvv0%>ä __
+
+
 
 __dTot__
 * __käd%^StrD2T%>t __
@@ -979,6 +1132,7 @@ kaotama+V+Act+Ind+Prs+Sg1:
 * __kaoda0 __
 
 There should always be a trigger
+
 
 __nTod__
 
@@ -1001,11 +1155,23 @@ __k2g__
 * __nõkõs0ʼ%^Pen%^WGStem%^StrGStem%>õ __
 * __nõgõss000%>õ __
 
+
+
 __gTok__
 * __ig0ä%^XStrGStem __
 * __ikkä0 __
 * __kogõr%^StrGStem%^Pen%^VowRM%>õ __
 * __kok0r00%>õ __
+
+__bTop__
+
+__%{pbØ%}:p__
+
+
+__%{kgØ%}:k__
+
+
+__%{tdØ%}:t__
 
 !STEM-FINAL CONSONANT LOSS
 __s20__
@@ -1021,6 +1187,9 @@ __d20__
 * __hüdsi%^TS2S%^VowRM%>te __
 * __hü0s000%>te __
 
+__%{dØ%}:0__
+
+
 __g20__
 * __särgʼ%^WGStem%># __
 * __sär0e0%>0 __
@@ -1031,10 +1200,34 @@ __g20__
 lugõma+V+Pss+PrfPrc __read/lukea__
 * __lugõ%^Pen%^WGStem%^Õ2E%>t __
 * __lo0e000%>t __
+argnõma+V+Inf
+* __arg%{back%}%{eõ%}%^Pen%^WGStemd%{aä%}q __
+* __ar00õ00daq __
+
+__%{gØ%}:0__
+* __sär%{gØ%}%^WGStem%>e __
+* __sär00%>e __
+* __aig%^WGStem%>o __
+* __a000%>o __
+* __i%{kgØ%}ä%^Pen%^WGStem __
+* __i0ä00 __
+lugõma+V+Pss+PrfPrc __read/lukea__
+* __lu%{kgØ%}õ%^Pen%^WGStem%^Õ2E%>t __
+* __lo0e000%>t __
+argnõma+V+Inf
+* __arg%{back%}%{eõ%}%^Pen%^WGStemd%{aä%}q __
+* __ar00õ00daq __
 
 
 * __palgõ%^WGStem%>h __
 * __pal0õ0%>h __
+
+__%{tdØ%}:0__
+* __hüdsi%^TS2S%^VowRM%>te __
+* __hü0s000%>te __
+
+
+__%{kgØ%}:0__
 
 __j20__
 * __ujjo%{back%}%^Pen%^WGStem%>m%{aä%} __

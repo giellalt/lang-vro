@@ -18,6 +18,7 @@ special letters
  * __I̬	__ i plus U+032C COMBINING CARON BELOW
  * __õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
  * __Õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+ * __%{ˋØ%}__ U+02CB MODIFIER LETTER GRAVE ACCENT used in rules
 
 The parts-of-speech are:
  * __+N	__ Noun
@@ -80,13 +81,7 @@ The nominals are inflected in the following Case and Number
 
 
 The possession is marked as such:
-
- * __+PxSg1__
- * __+PxSg2__
- * __+PxSg3__
- * __+PxPl1__
- * __+PxPl2__
- * __+PxPl3__
+There are no possessive markers
 
 The comparative forms are:
  * __+Comp__
@@ -270,8 +265,8 @@ source and target part-of-speech.
  * __+V→A	__
  * __+Prop→A	__
  * __+Der/xxx__
- __ +Der/JA __	actor
- __ +Der/minE __	actor
+ __ +Der/JA __	NomAg
+ __ +Der/minE __ NomAct
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -279,12 +274,30 @@ symbols in the lexicon files:
  __ %{aä%} 	__ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
  __ %{eõ%} 	__ Vowel harmony with "e/õ"
  __ %{uü%} 	__ Vowel harmony with "u/ü"
+  %{öü%} 	 Vowel raising
+  %{ou%} 	 Vowel raising
+  %{ei%} 	 Vowel raising
+  %{õy%} 	 Vowel raising
+
+  %{eʼ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{õʼ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+
+
  __ %{XV%}		__ This is used for echoing the previous vowel
  __ %{XC%}		__ This is used for lengthening a consonant
 
+  %{dØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dv%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gv%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gl%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gØ%} 	 HJK and KimmoK ideas argnõma:ar%{gØ%}
+  %{uv%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{üv%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
 gemination
   %{hØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{jØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{lØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{mØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{nØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -295,8 +308,19 @@ strong and weak
   %{pb%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{td%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kg%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{tdØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{bv%} 	 HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+  %{dr%} 	 HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
+  %{bm%} 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dn%} 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dl%} 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
 
+  %{pbØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tdØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kgØ%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{jiʼ%}	 HJK and KimmoK ideas vari:var%{jiʼ%}o
+
+  %{qmn%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{qn%} 	 HJK and KimmoK ideas kana:ka%{nØ%}na
 
 
 
@@ -309,12 +333,9 @@ And following triggers to control variation
  %^ErrorBack	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
 
   %^CC2C 	 att%^CC2C%>m%{aä%} atma
-  %^Õ2E	  lugõ%^Pen%^WGStem%^Õ2E loe
   %^OO2Õ	  joo%^OO2Õ%>i:j0õ0%>i
 
   %^ÄI2ÄÄ  päiv%^ÄI2ÄÄ%>ä: päävä
-
- %^APOCH  This causes apochope
 
  %^StrD2T  This changes g,d,b, => k,t,p
 
