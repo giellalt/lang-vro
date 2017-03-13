@@ -23,6 +23,8 @@ I̬	 !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 
 ! Vowel harmony with "(t)a/ä"
  %{aä%}:0 	!!= @CODE@ Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ %{aeõ%}:0 	!!= @CODE@ Vowel harmony with "a/e/õ" passive
+ %{äe%}:0 	!!= @CODE@ Vowel harmony with "ä/e/õ" passive
  %{eõ%}:0 	!!= @CODE@ Vowel harmony with "e/õ"
  %{uü%}:0 	!!= @CODE@ Vowel harmony with "u/ü"
  %{öü%}:ö 	!!= @CODE@ Vowel raising
@@ -198,6 +200,9 @@ OnSetC = [:Cns (Cns:) |#|%>] ;
 ! Back Harmony
 BHARM = [ %{back%}: \[ # | %{front%}: ]* ] ;
 
+BHARMnotA = [[[Vow - [a]] Cns:+ ArchCnsInZero:? ]  %{back%}: \[ # | %{front%}: ]* ] ;
+
+
 ! Front Harmony
 FHARM = [ %{front%}: \[ # | %{back%}: ]* ] ;
 
@@ -274,6 +279,19 @@ Rules
 %{eõ%}:e <=>
  FHARM _ ;
 
+"%{aeõ%}:õ"
+!! __@RULENAME@__
+%{aeõ%}:õ <=>
+ BHARMnotA _ ;
+! [Vow - a] Cns:+ %{back%}: _ ;
+
+"%{aeõ%}:e"
+!! __@RULENAME@__
+%{aeõ%}:e <=>
+ FHARM _ ;
+  a Cns:+ %{back%}: _ ;
+!!€ tah%{tØ%}%^WGStem%>%{aeõ%}%>t%{uü%}
+!!€ tah00%>e%>tu
 
 !! !VOWEL LOWERING
 
