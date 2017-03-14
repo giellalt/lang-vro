@@ -1,131 +1,116 @@
-The Võro morphophonological/twolc rules file 
+!!!The Võro morphophonological/twolc rules file 
 
 
 
 
-special letters
+!!Special letters
  * __u̬__ u plus U+032C COMBINING CARON BELOW
  * __U̬__ u plus U+032C COMBINING CARON BELOW
  * __ü̬__ ü plus U+032C COMBINING CARON BELOW
  * __Ü̬__ ü plus U+032C COMBINING CARON BELOW
- * __i̬	__ i plus U+032C COMBINING CARON BELOW
- * __I̬	__ i plus U+032C COMBINING CARON BELOW
- * __õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
- * __Õ̭	__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
- * __ˋ	__ U+02CB MODIFIER LETTER GRAVE ACCENT other parts of stem
- * __%{ˋØ%}:0__ U+02CB MODIFIER LETTER GRAVE ACCENT used in rules
+ * __i̬__ i plus U+032C COMBINING CARON BELOW
+ * __I̬__ i plus U+032C COMBINING CARON BELOW
+ * __õ̭__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+ * __Õ̭__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+ * __ˋ__ U+02CB MODIFIER LETTER GRAVE ACCENT other parts of stem
+ {{{%{ˋØ%}:0 — U+02CB MODIFIER LETTER GRAVE ACCENT used in rules}}}
 
-  %{aä%}:0 	 Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
-  %{eõ%}:0 	 Vowel harmony with "e/õ"
-  %{uü%}:0 	 Vowel harmony with "u/ü"
-  %{öü%}:ö 	 Vowel raising
-  %{ou%}:o 	 Vowel raising
-  %{ei%}:e 	 Vowel raising
-  %{õy%}:õ 	 Vowel raising
+!!Vowel harmony with "(t)a/ä"
+{{{
+  %{aä%}:0    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+  %{aeõ%}:0   — Vowel harmony with "a/e/õ" passive
+  %{äe%}:0    — Vowel harmony with "ä/e/õ" passive
+  %{eõ%}:0    — Vowel harmony with "e/õ"
+  %{uü%}:0    — Vowel harmony with "u/ü"
+  %{öü%}:ö    — Vowel raising
+  %{ou%}:o    — Vowel raising
+  %{ei%}:e    — Vowel raising
+  %{õy%}:õ    — Vowel raising
+  %{eʼ%}:e    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{õʼ%}:õ    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dØ%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tØ%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dv%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gv%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gl%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gØ%}:g    — HJK and KimmoK ideas argnõma:ar%{gØ%}
+  %{uv%}:u    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{üv%}:ü    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{hØ%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{jØ%}:j    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kØ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{lØ%}:l    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{mØ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{nØ%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{rØ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{sØ%}:s    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+  %{vØ%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{bv%}:b    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+  %{dr%}:d    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
+  %{bm%}:b    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dn%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dl%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{pb%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
+  %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tdØ%}:d   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kgØ%}:g   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{jiʼ%}:i   — HJK and KimmoK ideas vari:var%{jiʼ%}o
+  %{qmn%}:q   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{qn%}:q    — HJK and KimmoK ideas kana:ka%{nØ%}na
+}}}
 
-  %{eʼ%}:e 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{õʼ%}:õ 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+!!Miscellaneous other symbols
+{{{
+  %{XV%}:0    — This is used for echoing the previous vowel
+  %{XC%}:0    — This is used for lengthening a consonant
+  %^I7:0      — This appears in stem vaoma:va%^I7o for vaio
+  %^K7:0      — This appears in stem väemä:vä%^K7e for väkeq
+  %^V7:0      — This appears in stem häömä:hä%^V7ö for hävvü
+  %^T7:0      — This appears in stem kaoma:ka%^T7o for katoq
+  %^Y7:õ      — This appears for syna = s%^Y7na and is rendered as õ in the norm
+}}}
 
-
-  %{dØ%}:d 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{tØ%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dv%}:d 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gv%}:g 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gl%}:g 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gØ%}:g 	 HJK and KimmoK ideas argnõma:ar%{gØ%}
-  %{uv%}:u 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{üv%}:ü 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-
-  %{hØ%}:h 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{jØ%}:j 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kØ%}:k 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{lØ%}:l 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{mØ%}:m 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{nØ%}:n 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{rØ%}:r 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{sØ%}:s 	 HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
-  %{vØ%}:v 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{bv%}:b 	 HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
-  %{dr%}:d 	 HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
-  %{bm%}:b 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-  %{dn%}:d 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-  %{dl%}:d 	 HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-
-
-  %{pb%}:p 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kg%}:k 	 HJK and KimmoK ideas kaigas:kai%{kg%}as
-
-  %{pbØ%}:b 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{tdØ%}:d 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kgØ%}:g 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{jiʼ%}:i	 HJK and KimmoK ideas vari:var%{jiʼ%}o
-
-  %{qmn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{qn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-
-
-  %{XV%}:0		 This is used for echoing the previous vowel
-
-  %{XC%}:0	 This is used for lengthening a consonant
-
-  %^I7:0          This appears in stem vaoma:va%^I7o for vaio
-  %^K7:0           This appears in stem väemä:vä%^K7e for väkeq
-  %^V7:0          This appears in stem häömä:hä%^V7ö for hävvü
-  %^T7:0          This appears in stem kaoma:ka%^T7o for katoq
-
- __%^Y7:õ  __  This appears for syna = s%^Y7na and is rendered as õ in the norm
-
-Triggers
-  %^OO2Õ:0	  joo%^OO2Õ%>i:j0õ0%>i
-  %^CC2C:0 	 att%^CC2C%>m%{aä%} atma
-
-  %^ÄI2ÄÄ:0 	 päiv%^ÄI2ÄÄ%>ä: päävä
- %{front%}:0	 front harmony
- %{back%}:0	 back harmony
-
- %^ErrorBack:0	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+!!Triggers
+{{{
+    %^OO2Õ:0    — joo%^OO2Õ%>i:j0õ0%>i
+    %^CC2C:0    — att%^CC2C%>m%{aä%} atma
+   %^ÄI2ÄÄ:0    — päiv%^ÄI2ÄÄ%>ä: päävä
+ %{front%}:0    — front harmony
+  %{back%}:0    — back harmony
+ %^ErrorBack:0  — +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+}}}
 
 
-
- %^APOCH:0  This causes apochope
-
- %^StrD2T:0  This changes g,d,b => k,t,p
-
- %^WGStem:0  This weakens "kipõnʼ" to "kibõna"
-
- %^StrGStem:0  This strengthens "perädü" to "perätüt"
-
- %^XStrGStem:0  This extra-strengthens "sõda" to "sõtta"
-
- %^Pen:0	       This moves us to penultimate coda
-
- %^PenWGStem:0  This weakens "kipõnʼ" to "kibõna"
-
- %^PenVowRM:0  syncope tapõld : taplõma 
-
- %^D2S:0  The ti => si
- %^TS2S:0  The -ts- => -s-
-
- %^ʼ2Õ:0  The ʼ => õ change
- %^ʼ2E:0  The ʼ => e change
- %^ʼ2I:0  The ʼ => i change
- %^I2ʼ:0  The i => ʼ change
- %^I2J:0  The i => j change
-
- %^PLPRT:0  The a:o attested in Plural kana:kanno and prt
-
- %^VOWRaise:0  Raises vowel
- %^VOWLower:0  Lowers vowel
- %^XLowerVow:0  Lowers vowel two levels
- %^VOWLowerDelab:0  Lowers vowel and delabializes it
- %^XLowerVowDelab:0  Lowers vowel two levels and delabializes it
-
- %^U2E:0  lowers u:õ and ü:e delabializes and lowers
- %^U2A:0  lowers u:a and ü:ä delabializes and lowers
-
- %^VowRM:0  this will remove stem final vowel
- %^CnsRM:0  this will remove stem final consonant tervüs:tervü
+{{{
+ %^NoGrad:0     — This will be placed after a stem to break Gradation
+ %^APOCH:0      — This causes apochope: puhksama vs puhastaq
+ %^StrD2T:0     — This changes g,d,b => k,t,p
+ %^WGStem:0     — This weakens "kipõnʼ" to "kibõna", "ompel" to "ommel"
+ %^StrGStem:0   — This strengthens "perädü" to "perätüt"
+ %^XStrGStem:0  — This extra-strengthens "sõda" to "sõtta"
+ %^Pen:0        — This moves us to penultimate coda
+ %^PenWGStem:0  — This weakens "kipõnʼ" to "kibõna"
+ %^PenVowRM:0   — syncope tapõld : taplõma 
+ %^D2S:0        — The ti => si
+ %^TS2S:0       — The -ts- => -s-
+ %^ʼ2Õ:0        — The ʼ => õ change
+ %^ʼ2E:0        — The ʼ => e change
+ %^ʼ2I:0        — The ʼ => i change
+ %^I2ʼ:0        — The i => ʼ change
+ %^I2J:0        — The i => j change
+ %^PLPRT:0      — The a:o attested in Plural kana:kanno and prt
+ %^VOWRaise:0   — Raises vowel
+ %^VOWLower:0   — Lowers vowel
+ %^XLowerVow:0  — Lowers vowel two levels
+ %^VOWLowerDelab:0   — Lowers vowel and delabializes it
+ %^XLowerVowDelab:0  — Lowers vowel two levels and delabializes it
+ %^U2E:0        — lowers u:õ and ü:e delabializes and lowers
+ %^U2A:0        — lowers u:a and ü:ä delabializes and lowers
+ %^VowRM:0      — this will remove stem final vowel
+ %^CnsRM:0      — this will remove stem final consonant tervüs:tervü
+}}}
 
 
 
@@ -145,6 +130,8 @@ Triggers
 
 
 Onset consonant or word boundary
+
+
 
 
 
@@ -184,6 +171,11 @@ __%{eõ%}:õ__
 
 __%{eõ%}:e__
 
+__%{aeõ%}:õ__
+
+__%{aeõ%}:e__
+* __tah%{tØ%}%^WGStem%>%{aeõ%}%>t%{uü%} __
+* __tah00%>e%>tu __
 
 !VOWEL LOWERING
 
