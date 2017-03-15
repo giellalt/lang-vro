@@ -430,7 +430,8 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 !! symbols in the lexicon files:
 !! {{{
  %{aä%}   !!= @CODE@ — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
- %{aeõ%}  !!= @CODE@ — Vowel harmony with "a/e/õ" passive
+ %{ae%}  !!= @CODE@ — Vowel harmony with "a/e/õ" passive tahetu
+ %{aõ%}  !!= @CODE@ — Vowel harmony with "a/e/õ" passive sõidõtu
  %{äe%}   !!= @CODE@ — Vowel harmony with "ä/e/õ" passive
  %{eõ%}   !!= @CODE@ — Vowel harmony with "e/õ"
  %{uü%}   !!= @CODE@ — Vowel harmony with "u/ü"
@@ -451,6 +452,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{uv%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{üv%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
 !! }}}
+
 
 !! !!Gemination
 !! {{{
@@ -498,7 +500,8 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 %^ErrorBack	!!= @CODE@ +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
 
  %^CC2C 	!!= @CODE@ att%^CC2C%>m%{aä%} atma
- %^OO2Õ	!!= @CODE@  joo%^OO2Õ%>i:j0õ0%>i
+ %^OO2Õ		!!= @CODE@  joo%^OO2Õ%>i:j0õ0%>i
+ %^PSS		!!= @CODE@ vowel in passive tahetu, sõidõtu, eletü
 
  %^ÄI2ÄÄ !!= @CODE@ päiv%^ÄI2ÄÄ%>ä: päävä
 
