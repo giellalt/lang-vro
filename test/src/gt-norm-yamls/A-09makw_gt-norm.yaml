@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - makõ2: # Noun (9) makõ2 'eng /est /fin' - full paradigm
+     makõ+Hom2+A+Sg+Nom: makõ
+     makõ+Hom2+A+Sg+Gen: [makõ, magõhõ]
+     makõ+Hom2+A+Sg+Par: [makõt, magõhõt]
+     makõ+Hom2+A+Sg+Ill: [makkõhe, magõhõhe, makkõdõ, magõhõdõ]
+     makõ+Hom2+A+Sg+Ine: [makõn, makõh, makõhn, magõhõn, magõhõh, magõhõhn]
+     makõ+Hom2+A+Sg+Ela: [makõst, magõhõst]
+     makõ+Hom2+A+Sg+All: [makõlõ, magõhõlõ]
+     makõ+Hom2+A+Sg+Ade: [makõl, magõhõl]
+     makõ+Hom2+A+Sg+Abl: [makõlt, magõhõlt]
+     makõ+Hom2+A+Sg+Tra: [makõs, magõhõs]
+     makõ+Hom2+A+Sg+Ter: [makõniq, magõhõniq]
+     makõ+Hom2+A+Sg+Abe: [makõldaq, magõhõldaq]
+     makõ+Hom2+A+Sg+Com: [makõgaq, magõhõgaq]
+     makõ+Hom2+A+Pl+Nom: [makõq, magõhõq]
+     makõ+Hom2+A+Pl+Gen: [makkidõ, magõhidõ, makkiidõ, magõhiidõ]
+     makõ+Hom2+A+Pl+Par: [makkit, magõhit, makkiid,  magõhiid]
+     makõ+Hom2+A+Pl+Ill: [makkihe, magõhihe, makkiihe, magõhiihe, makkidõ, makkiidõ, magõhiidõ]
+     makõ+Hom2+A+Pl+Ine: [makkin, magõhin, magõhiin, makkih, makkiin, makkiihn, makkiih, magõhih, magõhiih, makkihn, magõhihn, magõhiihn]
+     makõ+Hom2+A+Pl+Ela: [makkist, magõhist, makkiist, magõhiist]
+     makõ+Hom2+A+Pl+All: [makkilõ, magõhilõ, makkiilõ, magõhiilõ]
+     makõ+Hom2+A+Pl+Ade: [makkil, magõhil, makkiil, magõhiil]
+     makõ+Hom2+A+Pl+Abl: [makkilt, magõhilt, makkiilt, magõhiilt]
+     makõ+Hom2+A+Pl+Tra: [makkis, magõhis, makkiis, magõhiis]
+     makõ+Hom2+A+Pl+Ter: [makkiniq, magõhiniq, makkiiniq, magõhiiniq]
+     makõ+Hom2+A+Pl+Abe: [makkildaq, magõhildaq, makkiildaq, magõhiildaq]
+     makõ+Hom2+A+Pl+Com: [makkidõgaq, magõhidõgaq, makkiidõgaq, magõhiidõgaq]
