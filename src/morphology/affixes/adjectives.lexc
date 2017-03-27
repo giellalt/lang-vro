@@ -68,19 +68,36 @@ LEXICON A_8HÄIELM
 LEXICON A_8KULDNÕ !!= * @CODE@ kuldnõ:kuld
 +A:%{back%}  NMN_8KULDNÕ/XX ;
 
+LEXICON A_9ALLASʼ !!= * @CODE@
++A:%{back%}  NMN_9ALLASʼ/SINNELʼ ;
+
+LEXICON A_9SINNELʼ !!= * @CODE@
++A:%{front%}  NMN_9ALLASʼ/SINNELʼ ;
+
+LEXICON A_9TAHHE !!= * @CODE@
++A:%{back%}  NMN_9TAHHE/HERRE ;
+
+LEXICON A_9HERRE !!= * @CODE@
++A:%{front%}  NMN_9TAHHE/HERRE ;
+
 LEXICON A_9KIPÕNʼ/ELLÄI !!= * @CODE@ what is this
 !! * Yaml: __ellaei, suhvli__
 +A:     NMN_9KIPÕNʼ/ELLÄI ;
++A:%^Pen%^WGStem%>%{aä%} Harm-Neutr_COMP ;
+
+LEXICON A_9SALLAI !!= * @CODE@ what is this
+!! * Yaml: __ellaei, suhvli__
++A:%{back%}     NMN_9SALLAI/ELLÄI ;
 +A:%^Pen%^WGStem%>%{aä%} Harm-Neutr_COMP ;
 LEXICON A_9KIPÕNʼ
 !! * Yaml: __ellaei, suhvli__
 +A:%{back%}     NMN_9KIPÕNʼ/VETELʼ ;
 +A:%{back%}%^Pen%^WGStem%>a COMP ;
 
-!LEXICON A_9VETELʼ
+LEXICON A_9VETELʼ
 !! * Yaml: __ellaei, suhvli__
-!+A:%{front%}     NMN_9KIPÕNʼ/VETELʼ ;
-!+A:%{front%}%^Pen%^WGStem%>a COMP ;
++A:%{front%}     NMN_9KIPÕNʼ/VETELʼ ;
++A:%{front%}%^Pen%^WGStem%>a COMP ;
 
 LEXICON A_9VILLÕ
 !! * Yaml: __villw__
@@ -107,6 +124,20 @@ LEXICON A_9ELLÄI
 +A:%{front%}     NMN_9SALLAI/ELLÄI ;
 +A:%^Pen%^WGStem%^I2J%>ä%{front%} COMP ;
 
+LEXICON A_10AABITS
++A:%{back%}  NMN_10AABITS ;
+
+LEXICON A_10AMMATʼ
++A:%{back%}  NMN_10AMMATʼ ;
+
+LEXICON A_10HÜPÄTSʼ
++A:%{front%}  NMN_10HÜPÄTSʼ ;
+
+LEXICON A_10HAIDAK
++A:%{back%}  NMN_10HAIDAK ;
+
+LEXICON A_10HEERITS
++A:%{front%}  NMN_10HEERITS ;
 
 
 LEXICON A_10HÕRAK
@@ -122,6 +153,8 @@ LEXICON A_11LÄTEQ
 LEXICON A_11AINÕQ !!= @CODE@ ainõq:ainõ
 +A:%{back%}  NMN_11AINÕQ/KELMEQ ;
 
+LEXICON A_11KELMEQ !!= @CODE@ kelmeq:kelme
++A:%{front%}  NMN_11AINÕQ/KELMEQ ;
 
 !LEXICON A_12REPÄNʼ
 !+A:%{front%}  NMN_12REPÄNʼ ;
@@ -129,11 +162,14 @@ LEXICON A_11AINÕQ !!= @CODE@ ainõq:ainõ
 LEXICON A_13ALONÕ !!= @CODE@ alonõ:alo
 +A:%{back%}     NMN_13ALONÕ/TÄHINE ;
 
-!LEXICON A_13TÄHINE !!= @CODE@ tähine:tähi
-!+A:%{front%}     NMN_13ALONÕ/TÄHINE ;
+LEXICON A_13TÄHINE !!= @CODE@ tähine:tähi
++A:%{front%}     NMN_13ALONÕ/TÄHINE ;
 
-!LEXICON A_13SÄÄNE !!= @CODE@ sääne:sää
-!+A:%{front%}     NMN_13XX/SÄÄNE ;
+LEXICON A_13TÄHINE-PL !!= @CODE@ tähine:tähi
++A:%{front%}     NMN_13ALONÕ/TÄHINE-PL ;
+
+LEXICON A_13SÄÄNE !!= @CODE@ sääne:sää
++A:%{front%}     NMN_13XX/SÄÄNE ;
 
 LEXICON A_14RITSʼKAS  !!= @CODE@ ritsʼkas:ritsʼka
 +A:%{back%} Harm-Neutr_COMP ;
@@ -143,11 +179,18 @@ LEXICON A_14HAMMAS  !!= @CODE@ rikas:ri%{kØ%}ka%{sØ%}
 +A:%{back%} Harm-Neutr_COMP ;
 +A:%{back%}  NMN_14HAMMAS/IKÄS ;
 
+LEXICON A_14IKÄS  !!= @CODE@ rikas:ri%{kØ%}ka%{sØ%}
++A:%{front%} Harm-Neutr_COMP ;
++A:%{front%}  NMN_14HAMMAS/IKÄS ;
+
 LEXICON A_15KOTUS
 +A:%{back%}  NMN_15KOTUS/ILVES ;
 
 LEXICON A_16INEMINE !!= @CODE@ inemine:inemi
 +A:%{front%}	NMN_16ABILINÕ/INEMINE ;
+
+LEXICON A_16TSIRGUKÕNÕ
++A:%{back%} NMN_16TSIRGUKÕNÕ/TERÄKENE ;
 
 LEXICON A_17ALGUS
 +A:%{back%}     NMN_17ALGUS/ÜTSÜS ;

@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tähine: # Noun (13) tähine 'eng /est /fin' - full paradigm
+     tähine+A+Sg+Nom: tähine
+     tähine+A+Sg+Gen: tähidse
+     tähine+A+Sg+Par: tähist
+     tähine+A+Sg+Ill: [tähitsehe, tähitsede]
+     tähine+A+Sg+Ine: [tähitsen, tähitseh, tähitsehn]
+     tähine+A+Sg+Ade: tähitsel
+     tähine+A+Sg+Abl: tähitselt
+     tähine+A+Sg+Tra: tähitses
+     tähine+A+Sg+Ter: tähitseniq
+     tähine+A+Sg+Abe: tähitseldäq
+     tähine+A+Sg+Com: [tähitsegaq, tähidsegaq]
+     tähine+A+Pl+Nom: tähidseq
+     tähine+A+Pl+Gen: [tähitside, tähitsiide, tähiste]
+     tähine+A+Pl+Par: [tähitsit, tähitsiid]
+     tähine+A+Pl+Ill: [tähitsihe, tähitsiihe, tähitsiide, tähistehe, tähistede]
+     tähine+A+Pl+Ine: [tähitsin, tähitsih, tähitsihn, tähitsiin, tähitsiih, tähitsiihn, tähisten, tähisteh, tähistehn]
+     tähine+A+Pl+Ela: [tähitsist, tähitsiist, tähistest]
+     tähine+A+Pl+All: [tähitsile, tähitsiile, tähistele]
+     tähine+A+Pl+Ade: [tähitsil, tähitsiil, tähistel]
+     tähine+A+Pl+Abl: [tähitsilt, tähitsiilt, tähistelt]
+     tähine+A+Pl+Tra: [tähitsis, tähitsiis, tähistes]
+     tähine+A+Pl+Ter: [tähitsiniq, tähitsiiniq, tähisteniq]
+     tähine+A+Pl+Abe: [tähitsildäq, tähitsiildäq, tähisteldäq]
+     tähine+A+Pl+Com: [tähitsidegaq, tähitsiidegaq, tähistegaq]
