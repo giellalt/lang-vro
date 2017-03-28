@@ -558,32 +558,32 @@ LEXICON NUM_5MÄNGJÄ-PL
 !LEXICON NUM_21HÜDSI-PL
 !+Num:%{front%}     NMN_21HÜDSI-PL ;
 
-!LEXICON NUM_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
+LEXICON NUM_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
 ! Gradation: No
-!        NUM_22VÕROKÕNÕ-SG ;
-!	N_22VÕROKÕNÕ-PL ;
-!LEXICON NUM_22VÕROKÕNÕ-SG
-!+Num:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-SG ;
-!LEXICON NUM_22VÕROKÕNÕ-PL
-!+Num:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
+        NUM_22VÕROKÕNÕ-SG ;
+	N_22VÕROKÕNÕ-PL ;
+LEXICON NUM_22VÕROKÕNÕ-SG
++Num:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-SG ;
+LEXICON NUM_22VÕROKÕNÕ-PL
++Num:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
 
-!LEXICON NUM_22NAANÕ !!= @CODE@ naanõ:naa
+LEXICON NUM_22NAANÕ !!= @CODE@ naanõ:naa
 ! Gradation: No
-!        NUM_22NAANÕ-SG ;
-!        NUM_22NAANÕ-PL ;
-!LEXICON NUM_22NAANÕ-SG
-!+Num:%{back%}     NMN_22NAANÕ-SG ;
-!LEXICON NUM_22NAANÕ-PL
-!+Num:%{back%}     NMN_22NAANÕ-PL ;
+        NUM_22NAANÕ-SG ;
+        NUM_22NAANÕ-PL ;
+LEXICON NUM_22NAANÕ-SG
++Num:%{back%}     NMN_22NAANÕ-SG ;
+LEXICON NUM_22NAANÕ-PL
++Num:%{back%}     NMN_22NAANÕ-PL ;
 
-!LEXICON NUM_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
+LEXICON NUM_22VÄHÄKENE !!= @CODE@ vähäkene:vähäke
 ! Gradation: No
-!        NUM_22VÄHÄKENE-SG ;
-!        NUM_22VÄHÄKENE-PL ;
-!LEXICON NUM_22VÄHÄKENE-SG
-!+Num:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-SG ;
-!LEXICON NUM_22VÄHÄKENE-PL
-!+Num:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
+        NUM_22VÄHÄKENE-SG ;
+        NUM_22VÄHÄKENE-PL ;
+LEXICON NUM_22VÄHÄKENE-SG
++Num:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-SG ;
+LEXICON NUM_22VÄHÄKENE-PL
++Num:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE-PL ;
 
 !LEXICON NUM_23NUULʼ !!= * @CODE@ nuulʼ:nool
 ! Gradation: No
