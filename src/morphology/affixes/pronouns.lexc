@@ -174,11 +174,28 @@ LEXICON PRON-REFL_HINDÄ
 +Pron+Refl+Gen: K ;
 +Pron+Refl+Par:%^Pen%^WGStem%>st K ;
 
+
+LEXICON PRON_11LÄTEQ
++Pron:%{front%} NMN_11ANNÕQ/LÄTEQ ;
+
 LEXICON PRON_13SÄÄNE
 +Pron:%{front%} NMN_13XX/SÄÄNE ;
 
 LEXICON PRON_13TÄHINE
 +Pron:%{front%} NMN_13ALONÕ/TÄHINE ;
+
+LEXICON PRON_19PEDÄJÄNE
++Pron:%{front%} NMN_19ALOMANÕ/PEDÄJÄNE ;
+
+LEXICON PRON_22NAANÕ
++Pron:%{back%} NMN_22NAANÕ ;
+
+LEXICON PRON_22VÕROKÕNÕ
++Pron:%{back%} NMN_22VÕROKÕNÕ/VÄHÄKENE ;
+
+LEXICON PRON_22VÄHÄKENE
++Pron:%{front%} NMN_22VÕROKÕNÕ/VÄHÄKENE ;
+
 
 ! vim: set ft=xfst-lexc:
 

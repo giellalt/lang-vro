@@ -210,6 +210,9 @@ LEXICON A_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
 +A:%{front%}	NMN_19ALOMANÕ/PEDÄJÄNE ;
 +A:dse%{front%} COMP ;
 
+LEXICON A_19PEDÄJÄNE-PL !!= @CODE@ pedäjäne:pedäjä
++A:%{front%}	NMN_19ALOMANÕ/PEDÄJÄNE-PL ;
+
 !LEXICON A_20VÄITSʼ
 !+A:%{front%}  NMN_20VÄITSʼ ;
 
@@ -218,7 +221,11 @@ LEXICON A_19PEDÄJÄNE !!= @CODE@ pedäjäne:pedäjä
 
 LEXICON A_22VÕROKÕNÕ !!= @CODE@ võrokõnõ:võrokõ
 +A:%{back%}     NMN_22VÕROKÕNÕ/VÄHÄKENE ;
-+A:%{back%}sõ COMP ;
++A:%{back%}s%{eõ%} COMP ;
+
+LEXICON A_22VÄHÄKENE !!= @CODE@ võrokõnõ:võrokõ
++A:%{front%}     NMN_22VÕROKÕNÕ/VÄHÄKENE ;
++A:%{front%}s%{eõ%} COMP ;
 
 LEXICON A_23NUULʼ
 +A:%{back%}  NMN_23NUULʼ/KIILʼ ;

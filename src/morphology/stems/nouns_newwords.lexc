@@ -332,11 +332,18 @@ võtsi:võ̭tsi N_1HANSʼA "_#, #t__võ̭tsi_" ;
 äidi:äidi N_1HERRÄ "_#, #t__äidi_" ;
 äio:äio N_1HANSʼA "_#, #t__äio_" ;
 ääde:ääde N_1HERRÄ "_#, #t__ääde_" ;
+Anne+Sem/Ant_Fem:Anne PROP_1HANSʼA ;
+Mehka+Sem/Ant_Mal:Mehka PROP_1HANSʼA ;
 
+Hellä+Sem/Ant_Fem:Hellä PROP_1HERRÄ ;
+Mari+Sem/Ant_Fem:Mari PROP_1HANSʼA ;
 
 !2
 !(VES 1) ˋsuhvli1
 
+Piitre+Sem/Ant_Mal:Piitre PROP_2KERGE ;
+Mihkli+Sem/Ant_Mal:Mihkli PROP_2ARTIKLI ;
+Katri+Sem/Ant_Fem:Katri PROP_2ARTIKLI ;
 
 ingli:ingli N_2KERGE ;
 müübli:müübli N_2KERGE ;
@@ -2452,7 +2459,9 @@ väärtüs:ˋ#väärtüs N_18EHITÜS "_#, #t__ˋväärtü|s_" ;
 !9 
 !(VES 4) kipõnʼ, elläi,
 !(VES 14) makõ2
-
+Kallõv+Sem/Ant_Mal:Kallõv PROP_9TUKÕV "" ;
+Sullõv+Sem/Ant_Mal:Sullõv PROP_9TUKÕV "" ;
+Ollõv+Sem/Ant_Mal:Ollõv PROP_9TUKÕV "" ;
 ahhil:ahhil N_9TUKÕV "_#ila, #ilat__ah|hil_" ;
 ahhunʼ:ahhun N_9KIPÕNʼ "_#una, #unat__ah|hunʼ_" ;
 akanʼ:akan N_9KIPÕNʼ "_agana, aganat__akanʼ_" ;
@@ -3810,8 +3819,10 @@ vaih:vaih N_11VAIH "_ˋvaihõ ˋvahjõ, vahet vaiht__vaheq_" ;
 vallõq:vallõ N_11AINÕQ "_ˋvallõ, vallõt__vallõq_" ;
 valõq:va%{lØ%}lõ N_11ANNÕQ "_ˋvallõ, valõt__valõq_" ;
 vannõq:van%{dn%}õ N_11ANNÕQ "_ˋvandõ, vannõt__vannõq_" ;
-!veidʼoq:vei%{td%}ʼoq ADV_11 "_ˋveitʼo, veidʼot, ˋveitʼ(o)idõ, ˋveitʼoid, ˋveitit__veidʼoq_" ;
-veidüq:vei%{td%}ü ADV_11LÄTEQ "_ˋveitü, veidüt, ˋveit(ü)ide, ˋveitüid, ˋveitit __veidüq_" ;
+veidʼoq:vei%{td%}ʼoq ADV_ ;
+veidüq:vei%{td%}ü ADV_ ;
+!veidʼoq:vei%{td%}ʼoq PRON_11 "_ˋveitʼo, veidʼot, ˋveitʼ(o)idõ, ˋveitʼoid, ˋveitit__veidʼoq_" ;
+veidüq:vei%{td%}ü PRON_11LÄTEQ "_ˋveitü, veidüt, ˋveit(ü)ide, ˋveitüid, ˋveitit __veidüq_" ;
 veimeq:veime N_11KELMEQ "_ˋveime, veimet__veimeq_" ;
 vereq:ver%{dØ%}e N_11LÄTEQ "_ˋverde, veret__vereq_" ;
 veripaisõq:veripaisõ N_11AINÕQ "_#ˋpaisõ, #paisõt__veri|paisõq_" ;
@@ -3916,7 +3927,7 @@ ikunõ:iku A_13ALONÕ"_#dsõ, #st__iku|nõ_" ;
 illanõ:illa A_13ALONÕ"_#dsõ, #st__illa|nõ_" ;
 imäkeeline:imäkeeli A_13TÄHINE "_#dse, #st__imäkeeli|ne_" ;
 imäne:imä A_13TÄHINE "_#dse, #st__imä|ne_" ;
-imäne:imä S_13TÄHINE "_#dse, #st__imä|ne_" ;
+imäne:imä N_13TÄHINE "_#dse, #st__imä|ne_" ;
 inglis(e)keeline:ˋ#inglis(e)keeli A_13TÄHINE "_#dse, #st__ˋinglis(e)keeline_" ;
 inglus(õ)keeline:ˋ#inglus(õ)keeli A_13TÄHINE "_#dse, #st__ˋinglus(õ)keeline_" ;
 inglüsekeeline:ˋ#inglüsekeeli A_13TÄHINE "_#dse, #st__ˋinglüsekeeli|ne_" ;
@@ -6896,7 +6907,8 @@ peenʼokõnõ:peenʼokõ A_22VÕROKÕNÕ "_#sõ, #ist__peenʼokõ|nõ_" ;
 peenükene:peenüke A_22VÄHÄKENE "_#se, #ist __peenüke|ne_" ;
 pehmegene:ˋ#pehmege A_22VÄHÄKENE "_#se, #ist__ˋpehmege|ne_" ;
 pehmekene:pehmeke A_22VÄHÄKENE "_#se, #ist__pehmeke|ne_" ;
-pisokõnõ:pisokõ ADV_22VÕROKÕNÕ "_#sõ, #ist __pisokõ|nõ_" ;
+pisokõnõ:pisokõnõ ADV_ "_#sõ, #ist __pisokõ|nõ_" ;
+pisokõnõ:pisokõ PRON_22VÕROKÕNÕ "_#sõ, #ist __pisokõ|nõ_" ;
 plukikõnõ:plukikõ N_22VÕROKÕNÕ "_#sõ, #ist__plukikõ|nõ_" ;
 poisʼkõnõ:ˋ#poisʼkõ N_22VÕROKÕNÕ "_#sõ, #ist__ˋpoisʼkõ|nõ_" ;
 poolakõnõ:poolakõ N_22VÕROKÕNÕ "_#sõ, #ist__poolakõ|nõ_" ;
@@ -6944,9 +6956,12 @@ täpregene:ˋ#täprege N_22VÄHÄKENE "_#se, #ist__ˋtäprege|ne_" ;
 uigukõnõ:uigukõ N_22VÕROKÕNÕ "_#sõ, #ist__uigukõ|nõ_" ;
 ullikõnõ:ullikõ N_22VÕROKÕNÕ "_#sõ, #ist__ullikõ|nõ_" ;
 vanakõnõ:vanakõ N_22VÕROKÕNÕ "_#sõ, #ist__vanakõ|nõ_" ;
-veidʼokõnõ:veidʼokõ ADV_22VÕROKÕNÕ "_#sõ, #ist__veidʼokõ|nõ_" ;
-veidükene:veidüke ADV_22VÄHÄKENE "_#se, #ist__veidüke|ne_" ;
-veitʼkene:ˋ#veitʼke ADV_22VÄHÄKENE "_#se, #ist__ˋveitʼke|ne_" ;
+veidʼokõnõ:veidʼokõnõ ADV_ "_#sõ, #ist__veidʼokõ|nõ_" ;
+veidʼokõnõ:veidʼokõ PRON_22VÕROKÕNÕ "_#sõ, #ist__veidʼokõ|nõ_" ;
+veidükene:veidükene ADV_ "_#se, #ist__veidüke|ne_" ;
+veidükene:veidüke PRON_22VÄHÄKENE "_#se, #ist__veidüke|ne_" ;
+veitʼkene:ˋ#veitʼkene ADV_ "_#se, #ist__ˋveitʼke|ne_" ;
+veitʼkene:ˋ#veitʼke PRON_22VÄHÄKENE "_#se, #ist__ˋveitʼke|ne_" ;
 veidʼokõnõ:veidʼokõ N_22VÕROKÕNÕ "_#sõ, #ist__veidʼokõ|nõ_" ;
 veidükene:veidüke N_22VÄHÄKENE "_#se, #ist__veidüke|ne_" ;
 veitʼkene:ˋ#veitʼke N_22VÄHÄKENE "_#se, #ist__ˋveitʼke|ne_" ;
@@ -6954,7 +6969,8 @@ virokõnõ:virokõ N_22VÕROKÕNÕ "_#sõ, #ist__virokõ|nõ_" ;
 voonakõnõ:voonakõ N_22VÕROKÕNÕ "_#sõ, #ist__voonakõ|nõ_" ;
 võrokõnõ:võrokõ N_22VÕROKÕNÕ "_#sõ, #ist__võrokõ|nõ_" ;
 vähäkene:vähäke N_22VÄHÄKENE "_#se, #ist__vähäke|ne_" ;
-vähäkene:vähäke ADV_22VÄHÄKENE "_#se, #ist__vähäke|ne_" ;
+vähäkene:vähäkene ADV_ "_#se, #ist__vähäke|ne_" ;
+vähäkene:vähäke PRON_22VÄHÄKENE "_#se, #ist__vähäke|ne_" ;
 väikene:ˋ#väike A_22VÄHÄKENE "_#se, #ist__ˋväike|ne_" ;
 väikogõnõ:ˋ#väikogõ A_22VÕROKÕNÕ "_#sõ, #ist__ˋväikogõ|nõ_" ;
 väikugõnõ:ˋ#väikugõ A_22VÕROKÕNÕ "_#sõ, #ist__ˋväikugõ|nõ_" ;
@@ -8106,6 +8122,8 @@ vori:vo%{rØ%}ri N_37ÕLI "_#i, #ri__vor|i_" ;
 !(VES 37) kuulʼ,
 !(VES 47) kubõl
 
+Paulʼ+Sem/Ant_Mal:Paul PROP_38PULLʼ ;
+Hippʼ+Sem/Ant_Fem:Hipp PROP_38PAPPʼ ;
 keefiirʼ:keefiir N_38PULLʼ "_#i, #i_" ;
 pelmeenʼ:pelmeen N_38PULLʼ "_#i, #i_" ;
 hotellʼ:hotell N_38PULLʼ "_#i, #i_" ;
