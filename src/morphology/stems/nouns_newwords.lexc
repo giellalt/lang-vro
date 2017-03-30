@@ -7105,7 +7105,8 @@ varõmõq:varõ N_25ASÕQ-PL "_#idõ, #it__varõm|õq_" ;
 murtusüä:ˋ#murtusüä N_25SÜÄ "_#ˋsüäme, #süänd__ˋmurtu|süä_" ;
 süä:süä N_25SÜÄ "_ˋsüäme, süänd__süä_" ;
 
-
+! In the Eesti-võro sõnar. also asõ has no q
+asõ:asõ N_25ASÕQ "_#mõ #ma, #nd__asõ|q_" ;
 
 
 
@@ -7130,10 +7131,10 @@ süä:süä N_25SÜÄ "_ˋsüäme, süänd__süä_" ;
 !võti:võt%{iʼ%} NMN_27 "_ˋvõtʼmõ, võtind__võti_" ;
 !taivavõtʼmõq:ˋ#taivaˋvõt%{iʼ%} NMN_27 "_#idõ, #it__ˋtaivaˋvõtʼm|õq_" ;
 !keeri:k%{ei%}%{ei%}ri NMN_27 "_ki̬i̬rdme, keerind__keeri_" ;
-!läülä:läülä NMN_27 "_ˋläülme, läülend__läülä_" ;
+!läülä:läülä A_27 "_ˋläülme, läülend__läülä_" ;
 !tuka:tuka NMN_27 "_ˋtukma, tukand__tuka_" ;
-!mitu:mitu NMN_27 "_ˋmitmõ, mitund__mitu_" ;
-!säidse:säi%{td%}se NMN_27 "_ˋsäitsme, säidsend__säidse_" ;
+!mitu:mitu PRON_27 "_ˋmitmõ, mitund__mitu_" ;
+!säidse:säi%{td%}se NUM_27 "_ˋsäitsme, säidsend__säidse_" ;
 
 astõq:astõ%{qmn%} N_27ASTÕQ "_ˋastmõ, astõnd__astõq_" ;
 eheq:eh%{tØ%}%{eʼ%}%{qmn%} N_27EHEQ "_ˋehtʼme, ehend__eheq_" ;
@@ -7170,10 +7171,10 @@ eheq:eh%{tØ%}%{eʼ%}%{qmn%} N_27EHEQ "_ˋehtʼme, ehend__eheq_" ;
 !tälgeq:täl%{kg%}%{eʼ%}%{qmn%} NMN_27 "_ˋtälkʼme, tälgend__tälgeq_" ;
 !ullʼjuheq:ullʼjuh%{tØ%}%{eʼ%}%{qmn%} NMN_27 "_#ˋjuhtʼmõ, #juhend__ullʼ|juheq_" ;
 
-hapu:hapu N_27HAPU "_ˋhapnõ, hapund__hapu_" ;
-marihapu:mari#hapu N_27HAPU "_#ˋhapnõ, #hapund__mari|hapu_" ;
+hapu:hapu A_27HAPU "_ˋhapnõ, hapund__hapu_" ;
+marihapu:mari#hapu A_27HAPU "_#ˋhapnõ, #hapund__mari|hapu_" ;
 !tapa:tapa NMN_27 "_ˋtapnõ, tapand__tapa_" ;
-!lämmi:lämmi NMN_27 "_ˋlämmä, lämmind__lämmi_" ;
+!lämmi:lämmi A_27 "_ˋlämmä, lämmind__lämmi_" ;
 !akõnʼ:akõnʼ NMN_27 "_ˋaknõ, akõnd__akõnʼ_" ;
 !köömeq:k%{öü%}%{öü%}meq NMN_27 "_kü̬ü̬mne, köömend__köömeq_" ;
 !piniköömeq:pinik%{öü%}%{öü%}meq NMN_27 "_#kü̬ü̬mne, #köömend__pini|köömeq_" ;
@@ -7183,29 +7184,29 @@ marihapu:mari#hapu N_27HAPU "_#ˋhapnõ, #hapund__mari|hapu_" ;
 !veimeq:veimeq NMN_27 "_ˋveimne, veimend__veimeq_" ;
 !väimeq:väimeq NMN_27 "_ˋväimne, väimend__väimeq_" ;
 
-!pehmeq:pehmeq NMN_27 "_ˋpehme, pehmend__pehmeq_" ;
+!pehmeq:pehmeq A_27 "_ˋpehme, pehmend__pehmeq_" ;
 !seemen:s%{ei%}%{ei%}men NMN_27 "_si̬i̬mne, seemend__seemen_" ;
 
 
-!kümme:kümme NMN_27 "_ˋkümne, kümmend__kümme_" ;
-!katsʼkümmend:katsʼkümmend NMN_27 "_katõˋkümne, kattõkümmend__katsʼkümmend_" ;
-!katsʼtõistkümmend:katsʼtõistkümmend NMN_27 "_katõtõist(ˋkümne), kattõtõist(kümmend)__katsʼtõistkümmend_" ;
-!katõssakümmend:katõssakümmend NMN_27 "_ˋkatsaˋkümne, ˋkatsatkümmend__katõssakümmend_" ;
-!katõssatõistkümmend:katõssatõistkümmend NMN_27 "_ˋkatsatõist(ˋkümne), ˋkatsattõist(kümmend)__katõssatõistkümmend_" ;
-!kolmkümmend:kolmkümmend NMN_27 "_kolmõˋkümne, ˋkolmõkümmend__kolmkümmend_" ;
-!kolmtõistkümmend:kolmtõistkümmend NMN_27 "_kolmõtõist(ˋkümne), ˋkolmõtõist(kümmend)__kolmtõistkümmend_" ;
+!kümme:kümme NUM_27 "_ˋkümne, kümmend__kümme_" ;
+!katsʼkümmend:katsʼkümmend NUM_27 "_katõˋkümne, kattõkümmend__katsʼkümmend_" ;
+!katsʼtõistkümmend:katsʼtõistkümmend NUM_27 "_katõtõist(ˋkümne), kattõtõist(kümmend)__katsʼtõistkümmend_" ;
+!katõssakümmend:katõssakümmend NUM_27 "_ˋkatsaˋkümne, ˋkatsatkümmend__katõssakümmend_" ;
+!katõssatõistkümmend:katõssatõistkümmend NUM_27 "_ˋkatsatõist(ˋkümne), ˋkatsattõist(kümmend)__katõssatõistkümmend_" ;
+!kolmkümmend:kolmkümmend NUM_27 "_kolmõˋkümne, ˋkolmõkümmend__kolmkümmend_" ;
+!kolmtõistkümmend:kolmtõistkümmend NUM_27 "_kolmõtõist(ˋkümne), ˋkolmõtõist(kümmend)__kolmtõistkümmend_" ;
 !kuusʼkümmend:kuusʼkümmend NMN_27 "_kuvvõˋkümne, kuutkümmend__kuusʼkümmend_" ;
-!kuusʼtõistkümmend:kuusʼtõistkümmend NMN_27 "_kuvvõtõist(ˋkümne), kuuttõist(kümmend)__kuusʼtõistkümmend_" ;
-!nellikümmend:nellikümmend NMN_27 "_ne(l)läˋkümne, ˋneljäkümmend ˋnelläkümmend__nellikümmend_" ;
-!nellitõistkümmend:nellitõistkümmend NMN_27 "_ne(l)lätõist(kümne), ˋneljätõist(kümmend) ˋnellätõist(kümmend)__nellitõistkümmend_" ;
-!paarʼkümmend:paarʼkümmend NMN_27 "_paariˋkümne, ˋpaarikümmend__paarʼkümmend_" ;
-!säidsekümmend:säidsekümmend NMN_27 "_ˋsäitsmeˋkümne, säidsendkümmend__säidsekümmend_" ;
-!säidsetõistkümmend:säidsetõistkümmend NMN_27 "_ˋsäitsmetõist(ˋkümne), säidsendtõist(kümmend)__säidsetõistkümmend_" ;
-!viisʼkümmend:viisʼkümmend NMN_27 "_viieˋkümne, viitkümmend__viisʼkümmend_" ;
-!viisʼtõistkümmend:viisʼtõistkümmend NMN_27 "_viietõist(ˋkümne), viittõist(kümmend)__viisʼtõistkümmend_" ;
-!ütessäkümmend:ütessäkümmend NMN_27 "_ˋütsäˋkümne, ˋütsätkümmend__ütessäkümmend_" ;
-!ütessätõistkümmend:ütessätõistkümmend NMN_27 "_ˋütsätõist(ˋkümne), ˋütsättõist(kümmend)__ütessätõistkümmend_" ;
-!ütsʼtõistkümmend:ütsʼtõistkümmend NMN_27 "_ütetõist(ˋkümne), üttetõist(kümmend)__ütsʼtõistkümmend_" ;
+!kuusʼtõistkümmend:kuusʼtõistkümmend NUM_27 "_kuvvõtõist(ˋkümne), kuuttõist(kümmend)__kuusʼtõistkümmend_" ;
+!nellikümmend:nellikümmend NUM_27 "_ne(l)läˋkümne, ˋneljäkümmend ˋnelläkümmend__nellikümmend_" ;
+!nellitõistkümmend:nellitõistkümmend NUM_27 "_ne(l)lätõist(kümne), ˋneljätõist(kümmend) ˋnellätõist(kümmend)__nellitõistkümmend_" ;
+!paarʼkümmend:paarʼkümmend NUM_27 "_paariˋkümne, ˋpaarikümmend__paarʼkümmend_" ;
+!säidsekümmend:säidsekümmend NUM_27 "_ˋsäitsmeˋkümne, säidsendkümmend__säidsekümmend_" ;
+!säidsetõistkümmend:säidsetõistkümmend NUM_27 "_ˋsäitsmetõist(ˋkümne), säidsendtõist(kümmend)__säidsetõistkümmend_" ;
+!viisʼkümmend:viisʼkümmend NUM_27 "_viieˋkümne, viitkümmend__viisʼkümmend_" ;
+!viisʼtõistkümmend:viisʼtõistkümmend NUM_27 "_viietõist(ˋkümne), viittõist(kümmend)__viisʼtõistkümmend_" ;
+!ütessäkümmend:ütessäkümmend NUM_27 "_ˋütsäˋkümne, ˋütsätkümmend__ütessäkümmend_" ;
+!ütessätõistkümmend:ütessätõistkümmend NUM_27 "_ˋütsätõist(ˋkümne), ˋütsättõist(kümmend)__ütessätõistkümmend_" ;
+!ütsʼtõistkümmend:ütsʼtõistkümmend NUM_27 "_ütetõist(ˋkümne), üttetõist(kümmend)__ütsʼtõistkümmend_" ;
 
 
 !28 
