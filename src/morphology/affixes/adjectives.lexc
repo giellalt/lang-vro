@@ -355,8 +355,8 @@ LEXICON A_2ELÄNÜQ !!= * @CODE@ elänüq:elänü
 LEXICON Harm-Neutr_COMP
 
 +Comp:%^Pen%^WGStem%>mb Harm-Neutr_COMP-01 ;
-+Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>mp # ;
-+Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>p # ;
++Err/Orth+Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>mp # ;
++Err/Orth+Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>p # ;
 
 LEXICON Harm-Neutr_COMP-01
 :%{aä%} SG-GEN_ZERO-STEM ;
@@ -370,7 +370,7 @@ LEXICON Harm-Neutr_COMP-01
 +Pl+Ill:ihe K ;
 +Pl+Par:iid K ;
 +Pl+Com:id%{eõ%}g%{aä%}q K ;
-+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ; !!= * @CODE@ no q
 
 
 
@@ -378,8 +378,8 @@ LEXICON Harm-Neutr_COMP-01
 LEXICON COMP
 
 +Comp:%>mb NMN_COMP ;
-+Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>mp # ;
-+Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>p # ;
++Err/Orth+Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>mp # ;
++Err/Orth+Use/NG+Comp+Sg+Nom:%^Pen%^WGStem%>p # ;
 LEXICON NMN_COMP
 :%{aä%} SG-GEN_ZERO-STEM ;
 +Sg+All:%{aä%}l%{eõ%} K ;
@@ -392,7 +392,7 @@ LEXICON NMN_COMP
 +Pl+Ill:ihe K ;
 +Pl+Par:iid K ;
 +Pl+Com:id%{eõ%}gaq K ;
-+Use/NG+Pl+Com:id%{eõ%}ga K ; !!= * @CODE@ no q
++Err/Orth+Use/NG+Pl+Com:id%{eõ%}ga K ; !!= * @CODE@ no q
 
 
 !!
