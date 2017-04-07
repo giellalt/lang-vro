@@ -273,14 +273,20 @@ LEXICON A_29HÄÄ
 !LEXICON A_32VERI
 !+A:%{front%}  NMN_32VERI ;
 
-!LEXICON A_33IGÄ
-!+A:%{front%}  NMN_33XX/IGÄ ;
+LEXICON A_33IGÄ
++A:%{front%}  NMN_33XX/IGÄ ;
 
 !LEXICON A_34TULI
 !+A:%{back%}  NMN_34TULI/SÜLI ;
 
 LEXICON A_35TARÕ
 +A:%{back%}  NMN_35TARÕ ;
+
+LEXICON A_35UMA
++A:%{back%}  NMN_35UMA/PESÄ ;
+
+LEXICON A_35PESÄ
++A:%{front%}  NMN_35UMA/PESÄ ;
 
 !LEXICON A_36SÄRGʼ
 !+A:%{front%}  NMN_36HANGʼ/SÄRGʼ ;
@@ -289,6 +295,9 @@ LEXICON A_35TARÕ
 
 LEXICON A_36SILM
 +A:%{front%}  NMN_36SILM ;
+
+LEXICON A_36LÄHK
++A:%{front%}  NMN_36LÄHK ;
 
 !LEXICON A_37PINI
 !+A:%{front%}  NMN_37ÕLI/PINI ;
@@ -314,8 +323,8 @@ LEXICON A_41KAND
 LEXICON A_43KANARIK
 +A:%{back%}  NMN_43KANARIK ;
 
-!LEXICON A_44SÕDA
-!+A:%{back%}  NMN_44SÕDA ;
+LEXICON A_44SÕDA
++A:%{back%}  NMN_44SÕDA ;
 
 LEXICON A_45KANA
 +A:%{back%}  NMN_45KANA/RIHÄ ;
