@@ -965,14 +965,14 @@ LEXICON PROP_40TALO-PL
 !+N+Prop:%{back%}     NMN_43KANARIK-PL ;
 
 
-!LEXICON PROP_44SÕDA !!= @CODE@ sõda:sõda
-!:%^Pen%^WGStem PROP-PLC-DOWNCASE-SG-GEN ;
-!@U.Cap.Obl@  PROP_44SÕDA-SG ;
-!@U.Cap.Obl@ PROP_44SÕDA-PL ;
-!LEXICON PROP_44SÕDA-SG
-!+N+Prop:%{back%}     NMN_44SÕDA-SG ;
-!LEXICON PROP_44SÕDA-PL
-!+N+Prop:%{back%}     NMN_44SÕDA-PL ;
+LEXICON PROP_44SÕDA !!= @CODE@ sõda:sõda
+:%^Pen%^WGStem PROP-PLC-DOWNCASE-SG-GEN ;
+@U.Cap.Obl@  PROP_44SÕDA-SG ;
+@U.Cap.Obl@ PROP_44SÕDA-PL ;
+LEXICON PROP_44SÕDA-SG
++N+Prop:%{back%}     NMN_44SÕDA-SG ;
+LEXICON PROP_44SÕDA-PL
++N+Prop:%{back%}     NMN_44SÕDA-PL ;
 
 
 !LEXICON PROP_45KANA !!= @CODE@ kana:kana
