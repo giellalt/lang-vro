@@ -4223,9 +4223,9 @@ LEXICON NMN_32VERI-PL
 +Err/Orth+Use/NG:%>i  PL-ALL_lE-STEM ;
 :%>i    PL-COM ;
 
-!LEXICON NMN_33XX/IGÄ
-!  NMN_33XX/IGÄ-SG ;
-!  NMN_33XX/IGÄ-PL ;
+LEXICON NMN_33XX/IGÄ
+  NMN_33XX/IGÄ-SG ;
+  NMN_33XX/IGÄ-PL ;
 
 LEXICON NMN_33XX/IGÄ-SG 
         Harm-Neutr_SG-NOM  ;
@@ -4306,10 +4306,10 @@ LEXICON NMN_35TARÕ-PL
 +Err/Orth+Use/NG:%^VowRM%>i    PL-ILL_dE ;
 +Err/Orth+Use/NG:%^Pen%^WGStem%^VowRM%>i  PL-ALL_lE-STEM ;
 
-!LEXICON NMN_35UMA/PESÄ !!= * @CODE@ pesä:pe%{sØ%}sä
+LEXICON NMN_35UMA/PESÄ !!= * @CODE@ pesä:pe%{sØ%}sä
 !külä
-!  NMN_35UMA/PESÄ-SG ;
-!  NMN_35UMA/PESÄ-PL ;
+  NMN_35UMA/PESÄ-SG ;
+  NMN_35UMA/PESÄ-PL ;
 LEXICON NMN_35UMA/PESÄ-SG 
 :%^Pen%^WGStem        Harm-Neutr_SG-NOM  ;
 :%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;
@@ -4369,9 +4369,9 @@ LEXICON NMN_36HANGʼ-PL
 :%^WGStemi  PL-ALL_lE-STEM ;
 :%^StrGStemi PL-COM ;
 
-!LEXICON NMN_36HANGʼ/SÄRGʼ  !!= * @CODE@ särgʼ:särg
-!  NMN_36HANGʼ/SÄRGʼ-SG ;
-!  NMN_36HANGʼ/SÄRGʼ-PL ;
+LEXICON NMN_36HANGʼ/SÄRGʼ  !!= * @CODE@ särgʼ:särg
+  NMN_36HANGʼ/SÄRGʼ-SG ;
+  NMN_36HANGʼ/SÄRGʼ-PL ;
 LEXICON NMN_36HANGʼ/SÄRGʼ-SG 
 :ʼ        Harm-Neutr_SG-NOM  ;
 :%^WGStem%>%{eõ%}       SG-GEN_ZERO-STEM        ;
@@ -5007,10 +5007,10 @@ LEXICON NMN_43AASTAK-PL
 
 
 
-!LEXICON NMN_44SÕDA !!= * @CODE@ sõda:sõda
-! gradation: yes
-!  NMN_44SÕDA-SG ;
-!  NMN_44SÕDA-PL ;
+LEXICON NMN_44SÕDA !!= * @CODE@ sõda:sõda
+!! gradation: yes
+  NMN_44SÕDA-SG ;
+  NMN_44SÕDA-PL ;
 LEXICON NMN_44SÕDA-SG 
 	Harm-Neutr_SG-NOM  ;
 :%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;
