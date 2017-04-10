@@ -18,8 +18,9 @@
 !!Vowel harmony with "(t)a/ä"
 {{{
   %{aä%}:0    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
-  %{aeõ%}:0   — Vowel harmony with "a/e/õ" passive
-  %{äe%}:0    — Vowel harmony with "ä/e/õ" passive
+  %{ae%}:a   — Vowel harmony with "a/e/õ" passive tahetu
+  %{aõ%}:a   — Vowel harmony with "a/e/õ" passive sõidõtu
+  %{äe%}:ä    — Vowel harmony with "ä/e/õ" passive
   %{eõ%}:0    — Vowel harmony with "e/õ"
   %{uü%}:0    — Vowel harmony with "u/ü"
   %{öü%}:ö    — Vowel raising
@@ -76,10 +77,33 @@
 {{{
     %^OO2Õ:0    — joo%^OO2Õ%>i:j0õ0%>i
     %^CC2C:0    — att%^CC2C%>m%{aä%} atma
-   %^ÄI2ÄÄ:0    — päiv%^ÄI2ÄÄ%>ä: päävä
+  %^PSS:0       vowel in passive tahetu, sõidõtu, eletü
+  %^ÄI2ÄÄ:0    — päiv%^ÄI2ÄÄ%>ä: päävä
  %{front%}:0    — front harmony
   %{back%}:0    — back harmony
  %^ErrorBack:0  — +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+}}}
+
+{{{
+
+  %{pb%}:p 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kg%}:k 	 HJK and KimmoK ideas kaigas:kai%{kg%}as
+
+  %{pbØ%}:b 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tdØ%}:d 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kgØ%}:g 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{jiʼ%}:i	 HJK and KimmoK ideas vari:var%{jiʼ%}o
+  %{qmn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{qn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{XV%}:0		 This is used for echoing the previous vowel
+  %{XC%}:0	 This is used for lengthening a consonant
+  %^I7:0          This appears in stem vaoma:va%^I7o for vaio
+  %^K7:0           This appears in stem väemä:vä%^K7e for väkeq
+  %^V7:0          This appears in stem häömä:hä%^V7ö for hävvü
+  %^T7:0          This appears in stem kaoma:ka%^T7o for katoq
+
+ __%^Y7:õ  __  This appears for syna = s%^Y7na and is rendered as õ in the norm
 }}}
 
 
@@ -111,6 +135,7 @@
  %^VowRM:0      — this will remove stem final vowel
  %^CnsRM:0      — this will remove stem final consonant tervüs:tervü
 }}}
+
 
 
 
@@ -171,11 +196,14 @@ __%{eõ%}:õ__
 
 __%{eõ%}:e__
 
-__%{aeõ%}:õ__
+__%{ae%}:e__
+* __tah%{tØ%}%{ae%}%^Pen%^WGStem%^PSS%>t%{uü%} __
+* __tah0e000%>tu __
 
-__%{aeõ%}:e__
-* __tah%{tØ%}%^WGStem%>%{aeõ%}%>t%{uü%} __
-* __tah00%>e%>tu __
+__%{aõ%}:õ__
+
+__%{äe%}:e__
+
 
 !VOWEL LOWERING
 
@@ -255,8 +283,8 @@ __e2i̬__
 * __keel%^VOWRaiseʼ __
 * __ki̬i̬l0ʼ __
 tegemä+V+Act+Ind+Prs+Sg1: __do__
-* __teg%^WGStem%>e __
-* __ti̬00%>i̬ __
+* __teg%{front%}%^WGStem%>e __
+* __ti̬000%>i̬ __
 
 tegemä+V+Act+Ind+Prs+Sg1: __do__
 * __teg%^WGStem%>%{eõ%} __
@@ -360,6 +388,8 @@ __Vx%{ou%}:0__
 * __joo%^VOWRaise%^VowRM%>vv%>aq __
 * __ju000%>vv%>aq __
 
+__Vx%{äe%}:0 Passive stem vowel__
+
 
 __ö:0__
 
@@ -393,6 +423,9 @@ __%{XV%}:u__
 
 __%{XV%}:ü__
 
+__%{XV%}:o__
+* __taso%{back%}%-%{XV%}iq __
+* __taso0%-oiq __
 
 __%{XV%}:a__
 
@@ -401,6 +434,9 @@ __%{XV%}:ä__
 __%{XV%}:õ__
 
 __%{XV%}:e__
+käskmä+V+Act+Ind+Prs+Neg __command/käskeä__
+* __käs%{kØ%}%{front%}%^WGStem%>%{eõ%}%-%{XV%}iq __
+* __käs000%>e%-eiq __
 
 __%{XV%}:i__
 

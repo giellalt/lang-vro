@@ -273,7 +273,8 @@ To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 {{{
   %{aä%}    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
-  %{aeõ%}   — Vowel harmony with "a/e/õ" passive
+  %{ae%}   — Vowel harmony with "a/e/õ" passive tahetu
+  %{aõ%}   — Vowel harmony with "a/e/õ" passive sõidõtu
   %{äe%}    — Vowel harmony with "ä/e/õ" passive
   %{eõ%}    — Vowel harmony with "e/õ"
   %{uü%}    — Vowel harmony with "u/ü"
@@ -294,6 +295,7 @@ symbols in the lexicon files:
   %{uv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{üv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
 }}}
+
 
 !!Gemination
 {{{
@@ -338,7 +340,8 @@ And following triggers to control variation
  %^ErrorBack	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
 
   %^CC2C 	 att%^CC2C%>m%{aä%} atma
-  %^OO2Õ	  joo%^OO2Õ%>i:j0õ0%>i
+  %^OO2Õ		  joo%^OO2Õ%>i:j0õ0%>i
+  %^PSS		 vowel in passive tahetu, sõidõtu, eletü
 
   %^ÄI2ÄÄ  päiv%^ÄI2ÄÄ%>ä: päävä
 
