@@ -2463,6 +2463,29 @@ LEXICON NMN_10HÕRAK-PL
 +Err/Orth+Use/NG:%>ii        PL-ALL_lE-STEM       ;
 +Err/Orth+Use/NG:%>iidõ        PL-COM       ;
 
+LEXICON NMN_10AMEERIGA !!= * @OCDE@ ameeriga:ameeri%{kg%}
+!! __N-hwrak10__
+  NMN_10AMEERIGA-SG ;
+  NMN_10AMEERIGA-PL ;
+LEXICON NMN_10AMEERIGA-SG 
+:%^WGStem%>%{aä%}        Harm-Neutr_SG-NOM  ;
+:%^WGStem%>%{aä%}    SG-GEN_ZERO ;
+:%>%{aä%}    Harm-Neutr_SG-ALL_lE-STEM        ;
+:%>%{aä%}    Harm-Neutr_SG-PAR_t        ;
+:%>%{aä%}    Harm-Neutr_SG-ILL_he       ;
+:%^WGStem%>%{aä%} Harm-Neutr_SG-COM ;
+
+
+LEXICON NMN_10AMEERIGA-PL 
+:%^WGStem%>%{aä%}    Harm-Neutr_PL-NOM ;
+:%>i    Harm-Neutr_PL-GEN_dE ;
+:%>i        PL-ILL_he       ;
+:%>i        PL-ALL_lE-STEM       ;
+:%>i      PL-PAR_t        ;
+:%>idõ        PL-COM       ;
+
+
+
 LEXICON NMN_10HAIDAK !!= * @OCDE@ haidak:haidak
 !! __N-hwrak10__
   NMN_10HAIDAK-SG ;
