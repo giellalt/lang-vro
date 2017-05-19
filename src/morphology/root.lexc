@@ -142,14 +142,14 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 !! Other verb forms are
  +Inf	        !!≈ * __@CODE@__ sõimadaq, elädäq
  +Inf/mA	!!≈ * __@CODE@__ sõimama, elämä
-+Ger		!!≈ * __@CODE@__
++Ger		!!≈ * __@CODE@__ ollõn
 +ConNegI	!!≈ * __@CODE@__ saa eiq 3 elements in 2 orthographic units
 +ConNegII	!!≈ * __@CODE@__ ei saaq 3 elements in 2 orthographic units
 +Neg		!!≈ * __@CODE@__ saa-aiq 3 elements in 1 orthographic unit
 +ImprtII	!!≈ * __@CODE@__
 +PrsPrc		!!≈ * __@CODE@__
 +PrfPrc		!!≈ * __@CODE@__
-+Sup		!!≈ * __@CODE@__
++Sup		!!≈ * __@CODE@__ olõman, olõmaldaq; oldama
 +VGen		!!≈ * __@CODE@__
 +VAbess		!!≈ * __@CODE@__
  +Act  !!≈ * __@CODE@__ active
@@ -481,12 +481,29 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{pbØ%}  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{tdØ%}  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{kgØ%}  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{jiʼ%}  !!= @CODE@ — HJK and KimmoK ideas vari:var%{jiʼ%}o
+ %{jiØ%}  !!= @CODE@ — HJK and KimmoK ideas vari:var%{jiØ%}o
  %{qmn%}  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{qn%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
 !! }}}
 
-
+!! !!Palatalization
+!! {{{
+ %{bb́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dd́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ff́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{gǵ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{hh́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kḱ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{lĺ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{mḿ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{nń%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pṕ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{rŕ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{sś%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{tt́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{vv́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{zź%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+!! }}}
 
  %^I7         !!= __@CODE@__  This appears in stem vaoma:va%^I7o for vaio
  %^K7         !!= __@CODE@__  This appears in stem väemä:vä%^K7e for väkeq
@@ -520,7 +537,9 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 %^PenWGStem !!= @CODE@ This weakens "kipõnʼ" to "kibõna"
 
  %^PenVowRM !!= __@CODE@__ syncope tapõld : taplõma
- %^D2S	  !!= __@CODE@__ käsi, susi
+ %^PAL	      !!= @CODE@ — Palatalization
+
+%^D2S	  !!= __@CODE@__ käsi, susi
 %^TS2S !!= @CODE@ The -ts- => -s-
 %^ʼ2Õ !!= @CODE@ The ʼ => õ change
 %^ʼ2E !!= @CODE@ The ʼ => e change
