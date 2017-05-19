@@ -1530,8 +1530,8 @@ LEXICON N_41LAUL-PL
 +N:%{back%}     NMN_41LAUL-PL ;
 
 
-LEXICON N_42VARI
-+N:	ATTESTED-NOUN-STEM-CONTINUED ;
+LEXICON N_42VARI ! vari:va%{rŕ%}%{ji%}o
++N:%^VowRM	ATTESTED-NOUN-STEM-CONTINUED ;
         N_42VARI-SG ;
         N_42VARI-PL ;
 LEXICON N_42VARI-SG
@@ -4934,12 +4934,12 @@ LEXICON NMN_41LAUL-PL
 +Err/Orth+Use/NG:a    PL-COM ;
 
 
-LEXICON NMN_42VARI !!= * @CODE@ vari:var%{jiʼ%}o
+LEXICON NMN_42VARI !!= * @CODE@ vari:va%{rŕ%}%{ji%}o <<< vari:var%{jiʼ%}o
   NMN_42VARI-SG ;
   NMN_42VARI-PL ;
 LEXICON NMN_42VARI-SG 
 :%^VowRM        Harm-Neutr_SG-NOM  ;
-:%^Pen%^WGStem       SG-GEN_ZERO-STEM        ; !!= * @CODE@ varʼo
+:%^Pen%^PAL%^Pen%^WGStem       SG-GEN_ZERO-STEM        ; !!= * @CODE@ varʼo
 :%^Pen%^XStrGStem       Harm-Neutr_SG-ILL_ZERO        ;
 :%^Pen%^XStrGStem       Harm-Neutr_SG-PAR_ZERO        ;
 
