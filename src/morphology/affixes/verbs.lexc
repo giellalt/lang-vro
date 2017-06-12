@@ -2374,13 +2374,13 @@ LEXICON Harm-Neutr_INF_ZEROq
 
 LEXICON V2N_minE
 +Der/minE+N:%>mis ATTESTED-NOUN-STEM-CONTINUED ;
-+Der/minE+N:%>mi NMN_16ABILINÕ/INEMINE ;
-+Der/JA+N:%>j NMN_9KIPÕNʼ/ELLÄI ; !!≈ * __@CODE@__ This should have a +Der/JA tag
++Der/minE+N:%>mi NMN_16ABILINW/INEMINE ;
++Der/JA+N:%>j NMN_9KIPWN1/ELLAEI ; !!≈ * __@CODE@__ This should have a +Der/JA tag
 
 
 LEXICON Harm-Neutr_ACT-PRSPRC_v
 +Act+PrsPrc:v K ;
-+Act+PrsPrc:v A_9KIPÕNʼ/ELLÄI ;
++Act+PrsPrc:v A_9KIPWN1/ELLAEI ;
 +Act+PrsPrc+Sg+Nom:v K ;
 +Act+PrsPrc+Sg+Gen:%>v%{aä%} K ;
 +Act+PrsPrc+Sg+Par:%>v%{aä%}t K ;
@@ -2396,7 +2396,7 @@ LEXICON Harm-Neutr_ACT-PRSPRC_v
 
 LEXICON ACT-PRSPRC_vA
 +Act+PrsPrc:%>v%{aä%} K ;		! juuva süüvä
-+Act+PrsPrc:%>v%{aä%} A_9KIPÕNʼ/ELLÄI ;	! MUST BE FIXED 2015-06-09
++Act+PrsPrc:%>v%{aä%} A_9KIPWN1/ELLAEI ;	! MUST BE FIXED 2015-06-09
 +Act+PrsPrc+Sg+Nom:%>v%{aä%} K ;
 +Act+PrsPrc+Sg+Gen:%>v%{aä%} K ;
 +Act+PrsPrc+Sg+Par:%>v%{aä%}t K ;
@@ -2434,7 +2434,7 @@ LEXICON ACT-PRFPRC-OBL_nU !!= * @CODE@ only oblique cases and Pl+Nom
 
 LEXICON Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq
 +Act+PrfPrc:%^WGStem%>n%{uü%}q K ;
-+Act+PrfPrc:%^WGStem%>n%{uü%} NMN_2KASUNUQ/ELÄNÜQ ;
++Act+PrfPrc:%^WGStem%>n%{uü%} NMN_2KASUNUQ/ELAENUEQ ;
 +Use/NG+Err/Orth+Act+PrfPrc:%^WGStem%>n%{uü%} K ; !!= * @CODE@ no q
 
 
@@ -2697,7 +2697,7 @@ LEXICON Harm-Neutr_ACT-IND-PRS-3_LUGÕMA !!= * @CODE@ (6) lugõma:lugõ
 
 LEXICON Harm-Neutr_ACT-PRFPRC_v_LUGÕMA
 +Act+PrfPrc:%>n%{uü%}q K ;
-+Act+PrfPrc:%>n%{uü%} NMN_2KASUNUQ/ELÄNÜQ ; !FIX ME
++Act+PrfPrc:%>n%{uü%} NMN_2KASUNUQ/ELAENUEQ ; !FIX ME
 +Use/NG+Err/Orth+Act+PrfPrc:%>n%{uü%} K ; !!= * @CODE@ no q
 
 
