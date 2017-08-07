@@ -316,6 +316,7 @@ symbols in the lexicon files:
   %{lØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{mØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{nØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pØ%}    — HJK and KimmoK ideas oppama:o%{pØ%}pama
   %{rØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{sØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{vØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -472,6 +473,7 @@ less complex word classes
  * __Õ̭__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
  * __ˋ__ U+02CB MODIFIER LETTER GRAVE ACCENT other parts of stem
  {{{%{ˋØ%}:0 — U+02CB MODIFIER LETTER GRAVE ACCENT used in rules}}}
+ __ˋ:0__ — U+02CB MODIFIER LETTER GRAVE ACCENT used outside of rules, this is temporary removal 2017-04-20
 
 !!Vowel harmony with "(t)a/ä"
 {{{
@@ -501,6 +503,7 @@ less complex word classes
   %{lØ%}:l    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{mØ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{nØ%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pØ%}:p    — HJK and KimmoK ideas oppama:o%{pØ%}pama
   %{rØ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{sØ%}:s    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
   %{vØ%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
