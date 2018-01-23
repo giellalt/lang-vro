@@ -302,7 +302,7 @@ REMOVE:AVS2 OBL IF (-2 CLB)(-1 Adv OR CC OR CS)(0 Nom)(1 V + THIRDSG)(NOT *2 Nom
 
 REMOVE Nom IF (-2 V)(-1C Pr)(0 N)(1 CLB); # Too specific, this.
 
-REMOVE Dat IF (*-1 V LINK NOT 0 DATV BARRIER NPNH)(0 Acc)(1 EOS OR CS);
+REMOVE Dat IF (*-1 V  BARRIER NPNH LINK NOT 0 DATV)(0 Acc)(1 EOS OR CS);
 	## at fáa høvi at...
 
 
@@ -317,7 +317,7 @@ REMOVE Dat IF (*-1 V LINK NOT 0 DATV BARRIER NPNH)(0 Acc)(1 EOS OR CS);
 REMOVE Pr IF (0 Adv)(NOT *1 OBL BARRIER NPNH);
 # This rule does not handle stranded prepositions, it must be relaxed.
 
-REMOVE:PrAdv Adv IF (*-1 N BARRIER V)(0 Pr + SOMEACCPREP)(*1 Acc BARRIER NPNH)
+REMOVE:PrAdv Adv IF (*-1 N BARRIER V)(0 Pr + SOMEACCPREP)(*1 Acc BARRIER NPNH);
 	## Altjóða samstarv innan gransking og útbúgving.	
 	##  Hon las síðan bókina.
 
@@ -1093,7 +1093,7 @@ MAP:r73b (@<SUBJ) TARGET ("eg" Pron Pers Sg Nom) IF (*-1 (V 1Sg) BARRIER VFIN);
 MAP:r75 (@<SUBJ) TARGET NOMINALHEAD + Sg + Nom IF (*-1 (V 3Sg) OR (V Sg) BARRIER NPNH LINK NOT -1 Nom);
 MAP:r75b (@<SUBJ) TARGET NOMINALHEAD + Sg + Nom IF (*-1 (V 3Sg) OR (V Sg) BARRIER NPNH) (0C Nom);
 
-MAP:r74 (@SUBJ>) TARGET NOMINALHEAD + Sg + Nom IF (*1 (V 3Sg) OR (V Sg))#;(NOT 0 Acc LINK 1 CC LINK 1C VFIN);
+MAP:r74 (@SUBJ>) TARGET NOMINALHEAD + Sg + Nom IF (*1 (V 3Sg) OR (V Sg)); #;(NOT 0 Acc LINK 1 CC LINK 1C VFIN);
 	## Tíkin hevur lyft beinið og pissar.
 
 
