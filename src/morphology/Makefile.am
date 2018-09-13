@@ -26,7 +26,6 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/abbreviations.lexc   \
 			 stems/acronyms.lexc        \
 			 stems/exceptions.lexc      \
-			 stems/punctuation.lexc     \
 			 stems/adpositions_newwords.lexc     \
 			 stems/adverbs_newwords.lexc     \
 			 stems/determiners_newwords.lexc     \
@@ -69,7 +68,8 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/conjunctors.lexc \
 			 $(srcdir)/stems/interjections.lexc \
 			 $(srcdir)/stems/pronouns.lexc \
-			 $(srcdir)/stems/quantifiers.lexc
+			 $(srcdir)/stems/quantifiers.lexc \
+			 generated_files/punctuation.lexc
 
 # 			 $(srcdir)/stems/verbs.lexc 
 
