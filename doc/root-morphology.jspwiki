@@ -122,14 +122,14 @@ Passive conjugation
 Other verb forms are
  * __+Inf	__ sõimadaq, elädäq
  * __+Inf/mA	__ sõimama, elämä
- * __+Ger		__
+ * __+Ger		__ ollõn
  * __+ConNegI	__ saa eiq 3 elements in 2 orthographic units
  * __+ConNegII	__ ei saaq 3 elements in 2 orthographic units
  * __+Neg		__ saa-aiq 3 elements in 1 orthographic unit
  * __+ImprtII	__
  * __+PrsPrc		__
  * __+PrfPrc		__
- * __+Sup		__
+ * __+Sup		__ olõman, olõmaldaq; oldama
  * __+VGen		__
  * __+VAbess		__
  * __+Act__ active
@@ -324,12 +324,29 @@ symbols in the lexicon files:
   %{pbØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{tdØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kgØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{jiʼ%}   — HJK and KimmoK ideas vari:var%{jiʼ%}o
+  %{jiØ%}   — HJK and KimmoK ideas vari:var%{jiØ%}o
   %{qmn%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{qn%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
 }}}
 
-
+!!Palatalization
+{{{
+  %{bb́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{ff́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gǵ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{hh́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kḱ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{lĺ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{mḿ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{nń%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pṕ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{rŕ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{sś%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tt́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{vv́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{zź%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+}}}
 
  __ %^I7         __  This appears in stem vaoma:va%^I7o for vaio
  __ %^K7         __  This appears in stem väemä:vä%^K7e for väkeq
@@ -359,7 +376,9 @@ And following triggers to control variation
  %^PenWGStem  This weakens "kipõnʼ" to "kibõna"
 
  __ %^PenVowRM __ syncope tapõld : taplõma
- __ %^D2S	  __ käsi, susi
+  %^PAL	       — Palatalization
+
+ __%^D2S	  __ käsi, susi
  %^TS2S  The -ts- => -s-
  %^ʼ2Õ  The ʼ => õ change
  %^ʼ2E  The ʼ => e change
