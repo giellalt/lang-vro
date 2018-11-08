@@ -302,7 +302,7 @@ Rules
 "%{eõ%}:e"
 !! __@RULENAME@__
 %{eõ%}:e <=>
- FHARM _ ;
+ FHARM _ \[#|.#.|%>|%-] ;
 
 "%{ae%}:e"
 !! __@RULENAME@__
@@ -461,7 +461,7 @@ Rules
 !!€ ti̬000%>i̬
 
 "%{eõ%}:i̬"
- %{eõ%}:i̬ <=> # Cns:* e: [CnsInZero:|ArchCnsInZero: ] %{front%) (%^WGStem:) %> _ [#|.#.|%>|%-] ;
+ %{eõ%}:i̬ <=> # Cns:* e: [CnsInZero:|ArchCnsInZero: ] %{front%} (%^WGStem:) %> _ [#|.#.|%>|%-] ;
 !! tegemä+V+Act+Ind+Prs+Sg1: __do__
 !!€ teg%^WGStem%>%{eõ%}
 !!€ ti̬00%>i̬

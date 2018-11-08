@@ -3,6 +3,8 @@
 
 
 
+
+
 !!Special letters
  * __u̬__ u plus U+032C COMBINING CARON BELOW
  * __U̬__ u plus U+032C COMBINING CARON BELOW
@@ -59,9 +61,28 @@
   %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{tdØ%}:d   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kgØ%}:g   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{jiʼ%}:i   — HJK and KimmoK ideas vari:var%{jiʼ%}o
+  %{jiØ%}:i   — HJK and KimmoK ideas vari:var%{jiØ%}o
   %{qmn%}:q   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{qn%}:q    — HJK and KimmoK ideas kana:ka%{nØ%}na
+}}}
+
+!!Palatalization of consonants
+{{{
+  %{bb́%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{ff́%}:f    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gǵ%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{hh́%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kḱ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{lĺ%}:l    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{mḿ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{nń%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pṕ%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{rŕ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{sś%}:s    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tt́%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{vv́%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{zź%}:z    — HJK and KimmoK ideas kana:ka%{nØ%}na
 }}}
 
 !!Miscellaneous other symbols
@@ -92,10 +113,6 @@
   %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kg%}:k 	 HJK and KimmoK ideas kaigas:kai%{kg%}as
 
-  %{pbØ%}:b 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{tdØ%}:d 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kgØ%}:g 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{jiʼ%}:i	 HJK and KimmoK ideas vari:var%{jiʼ%}o
   %{qmn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{qn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{XV%}:0		 This is used for echoing the previous vowel
@@ -119,6 +136,7 @@
  %^Pen:0        — This moves us to penultimate coda
  %^PenWGStem:0  — This weakens "kipõnʼ" to "kibõna"
  %^PenVowRM:0   — syncope tapõld : taplõma 
+ %^PAL:0	       — Palatalization
  %^D2S:0        — The ti => si
  %^TS2S:0       — The -ts- => -s-
  %^ʼ2Õ:0        — The ʼ => õ change
@@ -259,6 +277,9 @@ __Delabializing o and ö__
 __ö:ü__
 * __hä%^V70ö%^StrGStem%>i __
 * __hävvü0%>0 __
+
+!PALATALIZATION
+__n2ń palatalization all__
 
 !VOWEL CHANGE WITH PLURAL
 
@@ -451,9 +472,12 @@ __i2j__
 
 __i2ʼ__
 
-__%{jiʼ%}:j__
+__%{jiØ%}:j__
 
-__%{jiʼ%}:ʼ__
+__%{jiØ%}:0__
+vari+N+Sg+Gen: __shadow/varjo__
+* __va%{rŕ%}%{jiØ%}o%^Pen%^PAL%^Pen%^WGStem __
+* __vaŕ0o0000 __
 
 __u2v__
 * __juud%^WGStem%>a __

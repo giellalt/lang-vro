@@ -6,17 +6,17 @@ LEXICON ADV_
 +Adv: K ;
 
 !! Spatial adverbs
-LEXICON ADV-IS-ABL_
-+Adv+Abl: K ;
+!LEXICON ADV-IS-ABL_
+!+Adv+Abl: K ;
 
 LEXICON ADV-IS-ADE_
 +Adv+Ade: K ;
 
-LEXICON ADV-IS-ALL_BACK
-+Adv+All: BACK_K ;
+!LEXICON ADV-IS-ALL_BACK
+!+Adv+All: BACK_K ;
 
-LEXICON ADV-IS-ALL_FRONT
-+Adv+All: FRONT_K ;
+!LEXICON ADV-IS-ALL_FRONT
+!+Adv+All: FRONT_K ;
 
 LEXICON ADV-IS-ELA_
 +Adv+Ela: K ;
@@ -24,10 +24,8 @@ LEXICON ADV-IS-ELA_
 LEXICON ADV-IS-ILL_
 +Adv+Ill: K ;
 
-LEXICON ADV-IS-INE_
-+Adv+Ine: K ;
-+Adv+Ine: K ;
-+Adv+Ine: K ;
+!LEXICON ADV-IS-INE_
+!+Adv+Ine: K ;
 
 LEXICON ADV-FOR-INE_
 +Adv+Ine:%>h K ;
@@ -40,8 +38,8 @@ LEXICON ADV-ADA_
 +Adv+AdA: K ;
 
 !! What is this 2017-03-27
-LEXICON ADV_11LAETEQ 
-+Adv:%{front%}  NMN_11ANNWQ/LAETEQ ;
+!LEXICON ADV_11LAETEQ 
+!+Adv:%{front%}  NMN_11ANNWQ/LAETEQ ;
 
 
 
