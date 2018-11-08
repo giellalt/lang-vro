@@ -19,15 +19,19 @@ u q (->) u ʼ, #
 ʼ (->) ´, # ʼ = U+02BC (MODIFIER LETTER APOSTROPHE) not ' = U+00B4 ACUTE ACCENT
 ʼ (->) ', # ʼ = U+02BC (MODIFIER LETTER APOSTROPHE) not ' = U+0027 APOSTROPHE
 ʼ (->) ’, # ʼ = U+02BC (MODIFIER LETTER APOSTROPHE) not ’ = U+2019 RIGHT SINGLE QUOTATION MARK
-d ʼ (->) ď, # d + U+02BC not U+010F
-g ʼ (->) ǵ, # g + U+02BC not U+01F5
-k ʼ (->) ḱ, # k + U+02BC not U+1E31
-l ʼ (->) ĺ, # l + U+02BC not U+013A
-n ʼ (->) ń, # n + U+02BC not U+0144
-r ʼ (->) ŕ, # r + U+02BC not U+0155
-s ʼ (->) ś, # s + U+02BC not U+015B
-t ʼ (->) ť, # t + U+02BC not U+0165 
-z ʼ (->) ź, # z + U+02BC not U+0174
+
+d́ (->) ď, # d + U+0301 not U+010F
+ǵ (->) g ʼ, # U+01F5 not g + U+02BC
+ḱ (->) k ʼ, # U+1E31 not k + U+02BC
+ĺ (->) l ʼ, # U+013A not l + U+02BC
+ń (->) n ʼ, # n + U+02BC not U+0144
+ŕ (->) r ʼ, # r + U+02BC not U+0155
+ś (->) s ʼ, # s + U+02BC not U+015B
+t́ (->) ť, # t + U+0301 not U+0165 
+ź (->) z ʼ, # U+0174 not z + U+02BC
+
+d́ (->) d ʼ, #d + U+0301 not d + U+02BC 
+t́ (->) t ʼ, # t + U+0301 not t + U+02BC 
 ʼ (->) 0, # U+02BC not ZERO MARKING REALLY SLOPPY
 á (->) á
 ;
