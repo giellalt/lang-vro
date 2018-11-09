@@ -466,8 +466,8 @@ LEXICON V_59KAOTAMA/KERGÜTÄMÄ !!≈ * __@CODE@__ kaotama:kaota
 !! +Act+Ind+Prt+Sg2, +Err/Orth+Use/NG+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
 !! +Act+Ind+Prt+Pl2, +Err/Orth+Use/NG+Act+Ind+Prt+Pl3
 
-:%^VowRM ACT-IND-PRT-SG3_APOSTROPHE ; !!= * @CODE@ +Act+Ind+Prt+Sg3: kaotʼ
-!! +V+Act+Ind+Prt+Sg3: kaotʼ Harm-Neutr_K ;
+:%^VowRM ACT-IND-PRT-SG3_APOSTROPHE ; !!= * @CODE@ +Act+Ind+Prt+Sg3: kaot́
+!! +V+Act+Ind+Prt+Sg3: kaot́ Harm-Neutr_K ;
 
 :%^VowRM%>%{eõ%} Harm-Neutr_KAOTAMA-PSS-DISTRIBUTION ; != * @CODE@ kaotõ
 !! +Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
@@ -492,7 +492,7 @@ LEXICON V_60MANITSÕMA/EHITSEMÄ !!≈ * __@CODE@__ manitsõma:mani
 :ds ACT-IND-PRT-SG2_iq-USUALLY-WEAK ;
 :ts ACT-IND-PRT-SG2/PL1/PL2_i-USUALLY-STRONG ;
 :ds%{eõ%} ACT-IND-CONNEG ;
-:ts ACT-IND-PRT-SG3_APOSTROPHE ;
+:t%{sś%} ACT-IND-PRT-SG3_APOSTROPHE ;
 :tsi ACT-IND-PRT-PL3_vAq ;
 :dsi ACT-IND-PRT-PL3_q ;
 
@@ -530,7 +530,7 @@ LEXICON V_62ARGNÕMA/TÄRKNEMÄ
 
 :%>s ACT-IND-PRT-12_i ;
 :%>n%{eõ%} ACT-IND-CONNEG ;
-:%^WGStem%>%{eõ%} ACT-IND-PRT-SG3_sʼ ;
+:%^WGStem%>%{eõ%} ACT-IND-PRT-SG3_sJ ;
 :%>si ACT-IND-PRT-PL3_q/vAq ;
 
 !: Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
@@ -560,7 +560,7 @@ LEXICON V_63SÕIMAMA/XX !!≈ * __@CODE@__ sõimama:sõima
 :%>s ACT-IND-PRT-12_si ;
 
  ACT-IND-CONNEG ;
- ACT-IND-PRT-SC3_sʼ ;
+ ACT-IND-PRT-SC3_sJ ;
  Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
  Harm-Neutr_INF_mA ;
@@ -600,7 +600,7 @@ LEXICON V_63VISKAMA/HINGÄMÄ !!≈ * __@CODE@__ viskama:viska
 +Use/NG+Err/Orth+Act+Ind+Prs+Pl2:%>ti K ;	!!= * @CODE@ no	q
 +Use/NG+Err/Orth+Act+Ind+Prs+Pl3:%>s%{eõ%} K ;	!!= * @CODE@ no	q
 
-+Act+Ind+Prt+Sg3:%^Pen%^WGStem%>sʼ K ;
++Act+Ind+Prt+Sg3:%^Pen%^WGStem%>ś K ;
 +Act+Ind+Prt+Sg1:%^Pen%^WGStem%>ssi K ;
 +Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssit K ;
 +Act+Ind+Prt+Sg2:%^Pen%^WGStem%>ssiq K ;
@@ -666,7 +666,7 @@ LEXICON V_64PUHKSAMA/REHKSÄMÄ
 :%^Pen%^VowRM%>%{aä%} ACT-IND-PRS-3_s/sEq ;
 
 :%^Pen%^VowRM ACT-IND-PRT-12_i ;
-+Act+Ind+Prt+Sg3:%^Pen%^WGStem%>ʼ K ;
++Act+Ind+Prt+Sg3:%^Pen%^WGStem%^PAL K ;
 :%^Pen%^VowRM%>i ACT-IND-PRT-PL3_q/vAq ;
 
 :%^Pen%^VowRM%>%{aä%} ACT-IND-CONNEG ;
@@ -1372,7 +1372,7 @@ LEXICON V_79TULÕMA/XX !!≈ * __@CODE@__ tulõma:tul
 !! Act+Ind+PrtSg1/Sg2/Pl1-3
 
 !! Strengthen consonant and add ʼ
-:%{XC%}%>ʼ Harm-Neutr_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tullʼ
+:%{XC%}%^PAL Harm-Neutr_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tulĺ
 !! Act+Ind+Prt+Sg3
 
 LEXICON V_79OLÕMA !!≈ * __@CODE@__ olõma:o
@@ -1387,7 +1387,7 @@ LEXICON V_79OLÕMA/XX !!≈ * __@CODE@__ olõma:o
 
 :ll ACT-IND-PRT-12_i ;
 :l%{eõ%} ACT-IND-CONNEG ;
-+Act+Ind+Prt+Sg3:llʼ K ;
++Act+Ind+Prt+Sg3:lĺ K ;
 +Act+Ind+Prt+Sg3:lle K ;
 :lli ACT-IND-PRT-PL3_q/vAq ;
 :l Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
@@ -1474,7 +1474,7 @@ LEXICON V_80RAPAHUTMA/HÄMMÄHÜTMÄ !!= * @CODE@ rapahutma:rapahuta
 !! Act+Ind+PrtSg1/Sg2/Pl1-3
 
 !! Strengthen consonant and add ʼ
-:%^VowRM%>ʼ Harm-Neutr_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tullʼ
+:%^VowRM%^PAL Harm-Neutr_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) rapahut
 !! Act+Ind+Prt+Sg3
 
 
@@ -1492,7 +1492,7 @@ LEXICON V_81XX/TEGEMÄ !!≈ * __@CODE@__ tegemä:teg
 :%^StrGStem ACT-IND-PRT-12_sE ;
 :%^StrGStem Harm-Neutr_IND-PRT-SCSG1_sE ;
  ACT-IND-PRT-SG3_i ;
-:%^StrGStem%>k ACT-IND-PRT-SG3_APOSTROPHE ;
+:%^StrGStem%>%{kḱ%} ACT-IND-PRT-SG3_APOSTROPHE ;
 :%^StrGStem ACT-IND-PRT-SG3_sE ;
 :%^WGStem%>i ACT-IND-PRT-PL3_q/vAq ;
 :%^WGStem%>i%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
@@ -1868,13 +1868,13 @@ LEXICON V_86ISTMA/XX !!≈ * __@CODE@__ istma:istu
 :%^VowRM MUTUAL_JUS_kuq ;
 
 
-LEXICON V_86JAHTJMA !!≈ * __@CODE@__ jahtʼma:ˋjah%{tØ%}i
+LEXICON V_86JAHTJMA !!≈ * __@CODE@__ jaht́ma:ˋjah%{tØ%}i
 !! * Yaml: __jahtjma__
 +V:%{back%} V_86JAHTJMA/EHTJMÄ ;
-LEXICON V_86EHTJMÄ !!≈ * __@CODE@__ ehtʼmä:ehti
+LEXICON V_86EHTJMÄ !!≈ * __@CODE@__ eht́mä:ehti
 !! * Yaml: __V-ehtjmae__
 +V:%{front%} V_86JAHTJMA/EHTJMÄ ;
-LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * __@CODE@__ ehtʼmä:ehti
+LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * __@CODE@__ eht́mä:ehti
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
 +Act+Ind+Prs+Sg3:%^I2ʼ K ;
 :%^I2ʼ ACT-IND-PRS-PL3_vAq ;
@@ -1976,7 +1976,7 @@ LEXICON V_88SIBAHAMA/JÜVÄHÄMÄ !!= * @CODE@ sibama:siba
 !+V+Act+Ind+Prs+Sg1:ds%{eõ%} # ;
 !+V+Act+Ind+Prs+Sg3:ts%{eõ%}s # ;
 !+V+Act+Ind+Prt+Sg1:dsi # ;
-!+V+Act+Ind+Prt+Sg3:tsʼ # ;
+!+V+Act+Ind+Prt+Sg3:tś # ;
 !+V+Inf:daq # ;
 !+V+Inf:tsaq # ;
 !+V+Act+PrfPrc:nuq # ;
@@ -2237,7 +2237,7 @@ LEXICON ACT-IND-PRT-SG3_i
 +Act+Ind+Prt+Sg3:%>i K ;
 
 LEXICON ACT-IND-PRT-SG3_APOSTROPHE
-+Act+Ind+Prt+Sg3:%>ʼ K ;
++Act+Ind+Prt+Sg3:%^PAL K ;
 
 LEXICON ACT-IND-PRT-SG3_iE
 +Act+Ind+Prt+Sg3:%>i%{eõ%} K ;
@@ -2262,14 +2262,14 @@ LEXICON ACT-IND-PRT-PL3_vAq
 !+Act+Ind+Prt+Pl3:%>siq K ;
 !+Act+Ind+Prt+Pl3:%>siv%{aä%}q K ;
 
-LEXICON ACT-IND-PRT-SC3_sʼ
-+Act+Ind+Prt+Sg3:%^WGStem%>sʼ K ;
+LEXICON ACT-IND-PRT-SC3_sJ
++Act+Ind+Prt+Sg3:%^WGStem%>ś K ;
 +Act+Ind+Prt+Pl3:%^VowRM%>siq K ;
 +Act+Ind+Prt+Pl3:%^VowRM%>siv%{aä%}q K ;
-LEXICON ACT-IND-PRT-SG3_sʼ
-+Act+Ind+Prt+Sg3:%^WGStem%>sʼ K ;
+LEXICON ACT-IND-PRT-SG3_sJ
++Act+Ind+Prt+Sg3:%^WGStem%>ś K ;
 
-!LEXICON ACT-IND-PRT-SC3_sʼ-NO-s
+!LEXICON ACT-IND-PRT-SC3_sJ-NO-s
 !+Act+Ind+Prt+Sg3:%^WGStem%>ʼ K ;
 !+Act+Ind+Prt+Pl3:%^VowRM%>iq K ;
 !+Act+Ind+Prt+Pl3:%^VowRM%>iv%{aä%}q K ;
