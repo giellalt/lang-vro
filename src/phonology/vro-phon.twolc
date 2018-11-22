@@ -110,9 +110,10 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
    %^CC2C:0   !!= @CODE@ — att%^CC2C%>m%{aä%} atma
  %^PSS:0      !!= @CODE@ vowel in passive tahetu, sõidõtu, eletü
  %^ÄI2ÄÄ:0   !!= @CODE@ — päiv%^ÄI2ÄÄ%>ä: päävä
-%{front%}:0   !!= @CODE@ — front harmony
+ %{front%}:0   !!= @CODE@ — front harmony
  %{back%}:0   !!= @CODE@ — back harmony
 %^ErrorBack:0 !!= @CODE@ — +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+ %{PrsSg1%}:0 !!= @CODE@ — this helps with %{eõ%}:i̬
 !! }}}
 
 !! {{{
@@ -302,7 +303,8 @@ Rules
 "%{eõ%}:e"
 !! __@RULENAME@__
 %{eõ%}:e <=>
- FHARM _ \[#|.#.|%>|%-] ;
+ FHARM _ \[%{PrsSg1%}:] ;
+! FHARM _ \[#|.#.|%>|%-] ;
 
 "%{ae%}:e"
 !! __@RULENAME@__
@@ -461,7 +463,7 @@ Rules
 !!€ ti̬000%>i̬
 
 "%{eõ%}:i̬"
- %{eõ%}:i̬ <=> # Cns:* e: [CnsInZero:|ArchCnsInZero: ] %{front%} (%^WGStem:) %> _ [#|.#.|%>|%-] ;
+ %{eõ%}:i̬ <=> # Cns:* e: [CnsInZero:|ArchCnsInZero: ] %{front%}: (%^WGStem:) %> _ %{PrsSg1%}: ;
 !! tegemä+V+Act+Ind+Prs+Sg1: __do__
 !!€ teg%^WGStem%>%{eõ%}
 !!€ ti̬00%>i̬
