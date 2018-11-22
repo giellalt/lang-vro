@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - asõq: # Noun (25) asõq 'eng /est /fin' - full paradigm
+     asõq+N+Sg+Nom: [asõ, asõq]
+     asõq+N+Sg+Gen: [asõmõ, asõma]
+     asõq+N+Sg+Par: asõnd
+     asõq+N+Sg+Ill: [asõmõhe, asõmahe, asõmõdõ, asõmadõ]
+     asõq+N+Sg+Ine: [asõmõn, asõman, asõmõh, asõmah, asõmõhn, asõmahn]
+     asõq+N+Sg+Ela: [asõmõst, asõmast]
+     asõq+N+Sg+All: [asõmõlõ, asõmalõ]
+     asõq+N+Sg+Ade: [asõmõl, asõmal]
+     asõq+N+Sg+Abl: [asõmõlt, asõmalt]
+     asõq+N+Sg+Tra: [asõmõs, asõmas]
+     asõq+N+Sg+Ter: [asõmõniq, asõmaniq]
+     asõq+N+Sg+Abe: [asõmõldaq, asõmaldaq]
+     asõq+N+Sg+Com: [asõmõgaq, asõmagaq]
+     asõq+N+Pl+Nom: [asõmõq, asõmaq]
+     asõq+N+Pl+Gen: [asõmidõ, asõmiidõ]
+     asõq+N+Pl+Par: [asõmit, asõmiid]
+     asõq+N+Pl+Ill: [asõmihe, asõmiihe, asõndõhe, asõmidõ, asõmiidõ, asõndõdõ]
+     asõq+N+Pl+Ine: [asõmin, asõmih, asõmihn, asõmiin, asõmiih, asõmiihn, asõndõn, asõndõh, asõndõhn]
+     asõq+N+Pl+Ela: [asõmist, asõmiist, asõndõst]
+     asõq+N+Pl+All: [asõmilõ, asõmiilõ, asõndõlõ]
+     asõq+N+Pl+Ade: [asõmil, asõmiil, asõndõl]
+     asõq+N+Pl+Abl: [asõmilt, asõmiilt, asõndõlt]
+     asõq+N+Pl+Tra: [asõmis, asõmiis, asõndõs]
+     asõq+N+Pl+Ter: [asõminiq, asõmiiniq, asõndõniq]
+     asõq+N+Pl+Abe: [asõmildaq, asõmiildaq, asõndõldaq]
+     asõq+N+Pl+Com: [asõmidõgaq, asõmiidõgaq, asõndõgaq]
