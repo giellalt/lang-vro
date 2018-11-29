@@ -208,7 +208,7 @@ CnsVoiced = j l m n r v ;
 
 ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} ;
 
-ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pb%} %{td%} %{kg%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} ;
+ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pb%} %{td%} %{kg%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{lĺ%} ;
 
 ArchCnsInZero =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pbØ%} %{tdØ%} %{kgØ%} ;
 
@@ -418,7 +418,7 @@ Rules
 !! !PALATALIZATION
 "n2ń palatalization all"
 !! __@RULENAME@__
- Cx:Cy <=> _ [(HarmDummies:) (%^VOWRaise:) %^PAL:| Vow: Cns:* (HarmDummies:) %^Pen: %^PAL:] ;
+ Cx:Cy <=> _ [(HarmDummies:) (%^VOWRaise:) %^PAL:| (HarmDummies:) %^Pen: %^WGStem: %^PAL:| Vow: Cns:* (HarmDummies:) %^Pen: %^PAL:] ;
        	     where Cx in (%{bb́%} %{dd́%} %{ff́%} %{gǵ%} %{hh́%} %{kḱ%} %{lĺ%} %{mḿ%} %{nń%} %{pṕ%} %{rŕ%} %{sś%} %{tt́%} %{vv́%} %{zź%})
 	           Cy in (b́   d́   f́  ǵ  h́  ḱ  ĺ  ḿ  ń  ṕ  ŕ  ś  t́  v́  ź) matched ;
 
@@ -691,7 +691,7 @@ Rules
 
 "õ:0"
 !! __@RULENAME@__
- õ:0 <=>  [ Cns: | :Cns |ArchCns:] _ [ l | r ] (HarmDummies:) (%^Pen: %^StrGStem:|%^Pen: %^WGStem:) %^Pen: %^VowRM:  ;
+ õ:0 <=>  [ Cns: | :Cns |ArchCns:] _ [ l | r | %{lĺ%}: | %{rŕ%}: ] (HarmDummies:) (%^Pen: %^StrGStem:|%^Pen: %^WGStem:) %^Pen: %^VowRM:  ;
 !!€ tapõl%^Pen%^VowRMõ%>ma
 !!€ tap0l0õ%>ma
 !!€ kannõl%^StrGStem%^Pen%^VowRM%>õ
@@ -741,7 +741,10 @@ Rules
  %{XV%}:õ <=>
    [:õ (HarmDummies:) PenBetweenStemAndStemFinal| %{õy%}: (HarmDummies:) %^VOWRaise: ] ( %- ) _  ;
         [õ  (HarmDummies:) | õ:  (HarmDummies:) PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
-           õ: [r|l] (HarmDummies:) %^Pen: %^VowRM: %> _ ; 
+           õ: [r|l| %{lĺ%}: | %{rŕ%}: ] (HarmDummies:) %^Pen: %^VowRM: %> _ ; 
+!! kannõĺ+N+Sg+Gen: __kantele__
+!!€ kan%{dn%}õ%{lĺ%}%^Pen%^VowRM%>%{XV%}
+!!€ kand0l00%>õ
 
 "%{XV%}:e"
 !! __@RULENAME@__
@@ -1133,8 +1136,10 @@ k:0 <=>
 !! __@RULENAME@__
  %{dn%}:n <=> # Cns* Vow n (HarmDummies:) %> _ [a|ä] q ;
  n _ (HarmDummies:) %^WGStem: ;
- n _ [Vow:|ArchVow:] (Cns:+| %{hØ%}:| %{sØ%}:) (HarmDummies:) %^Pen: %^WGStem: ;
-
+ n _ [Vow:|ArchVow:] (Cns:+|ArchCns:+| %{hØ%}:| %{sØ%}:) (HarmDummies:) %^Pen: %^WGStem: ;
+!! kannõĺ+N+Sg+Nom: __kantele__
+!!€ kan%{dn%}õ%{lĺ%}%^Pen%^WGStem%^PAL
+!!€ kannõĺ000
 
 "dTol"
 !! __@RULENAME@__
