@@ -208,7 +208,7 @@ CnsVoiced = j l m n r v ;
 
 ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} ;
 
-ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pb%} %{td%} %{kg%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{lĺ%} ;
+ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pb%} %{td%} %{kg%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{lĺ%} %{rŕ%} ;
 
 ArchCnsInZero =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pbØ%} %{tdØ%} %{kgØ%} ;
 
@@ -945,7 +945,11 @@ Rules
 
 "%{XC%}:l"
 !! __@RULENAME@__
- %{XC%}:l <=> l: (HarmDummies:) _ ;
+ %{XC%}:l <=> l: (HarmDummies:) _ \[ %^PAL: ] ;
+
+"%{XC%}:ĺ"
+!! __@RULENAME@__
+ %{XC%}:ĺ <=> l: (HarmDummies:) _ %^PAL: ;
 
 "%{XC%}:k"
 !! __@RULENAME@__

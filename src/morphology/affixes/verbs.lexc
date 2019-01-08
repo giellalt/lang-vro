@@ -1375,6 +1375,49 @@ LEXICON V_79TULÕMA/XX !!≈ * __@CODE@__ tulõma:tul
 :%{XC%}%^PAL Harm-Neutr_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tulĺ
 !! Act+Ind+Prt+Sg3
 
+LEXICON V_79PURÕMA !!≈ * __@CODE@__ purõma:pur
+!! * Yaml: __purwma__
++V:%{back%} V_79PURÕMA/XX ;
+LEXICON V_79PURÕMA/XX !!≈ * __@CODE@__ purõma:pur
+!! Retain consonant and stem vowel
+:%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGÕMA ; !!= * @CODE@ (1) purõma
+!! +Act+PrsPrc+Sg OBL, Inf/mA, 
+ MUTUAL_JUS ;
+!! +Jus, 
+
+!! Strengthen consonant
+:%{XC%} Harm-Neutr_INF_Aq ; !!= * @CODE@ (2) purraq
+!! Inf 
+!! Strengthen consonant 
+:%{XC%}%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ; !!= * @CODE@ (2b) purrõv
+!! Act+PrsPrc+Sg+Nom
+
+!! Retain consonant and stem vowel
+ Harm-Neutr_ACT-PRFPRC_v_LUGÕMA ; !!= * @CODE@ (3) purnuq
+!! +Act+PrfPrc
+
+!! Retain consonant 
+ Harm-Neutr_LUGÕMA_PSS-PRC ; !!= * @CODE@ (4) pur
+!! Pss+PrfPrc, Pss+PrsPrc, 
+
+
+!! Retain consonant and add õ
+:%{eõ%} Harm-Neutr_LUGÕMA_IND-CONNEGII ; !!= * @CODE@ (5) purõ
+!! Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
+!! Pss+Ind
+
+!! Retain consonant and stem vowel
+:%{eõ%} Harm-Neutr_ACT-IND-PRS-3_LUGÕMA ; !!= * @CODE@ (6) purõma
+!! Ind+Prs+ 3
+
+!! Strengthen consonant and replace stem vowel with i
+:%>i TULÕMA_ACT-IND-PRT-SG1 ; !!= * @CODE@ (7) puri
+!! Act+Ind+PrtSg1/Sg2/Pl1-3
+
+!! consonant and add i
+:%>i Harm-Neutr_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) puri
+!! Act+Ind+Prt+Sg3
+
 LEXICON V_79OLÕMA !!≈ * __@CODE@__ olõma:o
 +V:%{back%} V_79OLÕMA/XX ;
 
