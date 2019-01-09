@@ -1516,7 +1516,9 @@ LEXICON N_41AIG-PL
 
 LEXICON N_41ASK !!= @CODE@ aig:aig
 !! * Yaml: __aig, aig__
-+N:%^VowRM	ATTESTED-NOUN-STEM-CONTINUED ;
+!! ask:as%{kØ%}o
+!! juusk:j%{ou%}%{ou%}s%{kØ%}u
++N:%^VOWRaise%^VowRM	ATTESTED-NOUN-STEM-CONTINUED ;
         N_41ASK-SG ;
 	N_41ASK-PL ;
 LEXICON N_41ASK-SG
@@ -4913,10 +4915,10 @@ LEXICON NMN_41AIG-PL
 !  NMN_41ASK/VIIT-PL ;
 
 LEXICON NMN_41ASK/VIIT-SG 
-:%^VowRM        Harm-Neutr_SG-NOM  ;
+:%^VOWRaise%^VowRM        Harm-Neutr_SG-NOM  ;
 :%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;
-       Harm-Neutr_SG-ILL_ZERO        ;
-       Harm-Neutr_SG-PAR_ZERO        ;
+:%^VOWRaise       Harm-Neutr_SG-ILL_ZERO        ;
+:%^VOWRaise       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_41ASK/VIIT-PL 
 :%^Pen%^WGStem       Harm-Neutr_PL-NOM ;
@@ -4936,6 +4938,8 @@ LEXICON NMN_41ASK/VIIT-PL
 +Err/Orth+Use/NG:%^VowRM%>%{aä%}    PL-ILL_he ;
 +Err/Orth+Use/NG:%^Pen%^WGStem%^VowRM%>%{aä%}    PL-ALL_lE-STEM ;
 :%^VowRM%>%{aä%}    PL-COM ;
+
+
 
 !LEXICON NMN_41LAUL !!= @CODE@ laul:laul
 !  NMN_41LAUL-SG ;
