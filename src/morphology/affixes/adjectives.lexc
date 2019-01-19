@@ -161,9 +161,11 @@ LEXICON A_11KELMEQ !!= @CODE@ kelmeq:kelme
 
 LEXICON A_13ALONW !!= @CODE@ alonõ:alo
 +A:%{back%}     NMN_13ALONW/TAEHINE ;
++A+Der+Der/lt+Adv:dsõlt K ;
 
 LEXICON A_13TAEHINE !!= @CODE@ tähine:tähi
 +A:%{front%}     NMN_13ALONW/TAEHINE ;
++A+Der+Der/lt+Adv:dselt K ;
 
 LEXICON A_13TAEHINE-PL !!= @CODE@ tähine:tähi
 +A:%{front%}     NMN_13ALONW/TAEHINE-PL ;

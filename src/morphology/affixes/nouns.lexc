@@ -192,7 +192,7 @@ LEXICON N_8KULDNW-PL
 +N:%{back%} NMN_8KULDNW/XX-PL ;
 
 LEXICON N_8DOLLAR1
-+N:%^I2ʼ	ATTESTED-NOUN-STEM-CONTINUED ;
++N:%^PAL%^VowRM	ATTESTED-NOUN-STEM-CONTINUED ;
  N_8DOLLAR1-SG ;
  N_8DOLLAR1-PL ;
 LEXICON N_8DOLLAR1-SG
@@ -201,7 +201,7 @@ LEXICON N_8DOLLAR1-PL
 +N:%{back%} NMN_8DOLLAR1/EEDER1-PL ;
 
 LEXICON N_8EEDER1
-+N:%^I2ʼ	ATTESTED-NOUN-STEM-CONTINUED ;
++N:%^PAL%^VowRM	ATTESTED-NOUN-STEM-CONTINUED ;
  N_8EEDER1-SG ;
  N_8EEDER1-PL ;
 LEXICON N_8EEDER1-SG
@@ -2115,7 +2115,7 @@ LEXICON NMN_8SADANG-PL
 !  NMN_8DOLLAR1/EEDER1-PL ;
 
 LEXICON NMN_8DOLLAR1/EEDER1-SG 
-:%^I2ʼ        Harm-Neutr_SG-NOM  ;
+:%^PAL%^VowRM        Harm-Neutr_SG-NOM  ;
         SG-GEN_ZERO-STEM       ;
         Harm-Neutr_SG-PAR_t        ;
         Harm-Neutr_SG-ILL_he       ;
@@ -4819,26 +4819,26 @@ LEXICON NMN_40SAVV/TUEKK-PL
 !LEXICON NMN_40UJA/XX
 !  NMN_40UJA/XX-SG ;
 !  NMN_40UJA/XX-PL ;
-LEXICON NMN_40UJA/XX-SG 
-        Harm-Neutr_SG-NOM  ;
-       SG-GEN_ZERO-STEM        ;
-:%^Pen%^StrGStem       Harm-Neutr_SG-ILL_ZERO        ;
-:%^Pen%^StrGStem       Harm-Neutr_SG-PAR_ZERO        ;
+LEXICON NMN_40UJA/XX-SG !uja:u%{jØ%}ja N_40UJA "_uja, ujja uia__uja_"
+:%^Pen%^WGStem        Harm-Neutr_SG-NOM  ;
+:%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;
+:       Harm-Neutr_SG-ILL_ZERO        ;
+:       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_40UJA/XX-PL 
-       Harm-Neutr_PL-NOM ;
-:%^Pen%^StrGStem%^VowRM%{aä%}    PL-GEN_ZERO ;
-:%^Pen%^StrGStem%^VowRM%{eõ%}    PL-GEN_ZERO ;
-:%^Pen%^StrGStem%^VowRM%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
-:%^Pen%^StrGStem%^VowRM%{aä%}    Harm-Neutr_PL-PAR_ZERO ;
-:%^Pen%^StrGStem%^VowRM%{eõ%}    Harm-Neutr_PL-ILL_ZERO ;
-:%^Pen%^StrGStem%^VowRM%{aä%}    Harm-Neutr_PL-ILL_ZERO ;
-:%^Pen%^StrGStem%^VowRM%{eõ%}    PL-ILL_hE ;
-:%^Pen%^StrGStem%^VowRM%{aä%}    PL-ILL_hE ;
+:%^Pen%^WGStem       Harm-Neutr_PL-NOM ;
+:%^VowRM%{aä%}    PL-GEN_ZERO ;
+:%^VowRM%{eõ%}    PL-GEN_ZERO ;
+:%^VowRM%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
+:%^VowRM%{aä%}    Harm-Neutr_PL-PAR_ZERO ;
+:%^VowRM%{eõ%}    Harm-Neutr_PL-ILL_ZERO ;
+:%^VowRM%{aä%}    Harm-Neutr_PL-ILL_ZERO ;
+:%^VowRM%{eõ%}    PL-ILL_hE ;
+:%^VowRM%{aä%}    PL-ILL_hE ;
 :%^Pen%^WGStem%^VowRM%{eõ%}    PL-ALL_lE-STEM ;
 :%^Pen%^WGStem%^VowRM%{aä%}    PL-ALL_lE-STEM ;
-:%^Pen%^StrGStem%^VowRM%{eõ%}    PL-ALL_lE-STEM ;
-:%^Pen%^StrGStem%^VowRM%{aä%}    PL-ALL_lE-STEM ;
+:%^VowRM%{eõ%}    PL-ALL_lE-STEM ;
+:%^VowRM%{aä%}    PL-ALL_lE-STEM ;
 
 LEXICON NMN_41KAND !!= @CODE@ kand:kand
   NMN_41KAND-SG ;
@@ -5155,15 +5155,15 @@ LEXICON NMN_47ASI !!= * @CODE@ asi:asi
   NMN_47ASI-PL ;
 LEXICON NMN_47ASI-SG 
         Harm-Neutr_SG-NOM  ;
-:%^I2ʼ%>%{aä%}    SG-GEN_ZERO-STEM        ;
+:%^PAL%^VowRM%>%{aä%}    SG-GEN_ZERO-STEM        ;
 :%^I2J%>%{aä%}    Harm-Neutr_SG-ILL_ZERO        ;
 :%^I2J%>%{aä%}    Harm-Neutr_SG-PAR_ZERO        ;
 LEXICON NMN_47ASI-PL 
-:%^I2ʼ%>%{aä%}    Harm-Neutr_PL-NOM ;
+:%^PAL%^VowRM%>%{aä%}    Harm-Neutr_PL-NOM ;
 :%^I2J%>o       PL-GEN_ZERO ;
 :%^I2J%>o       Harm-Neutr_PL-PAR_ZERO ;
 :%^I2J%>o       PL-ILL_he ;
-:%^I2ʼ%>o       PL-ALL_lE-STEM ;
+:%^PAL%^VowRM%>o       PL-ALL_lE-STEM ;
 :%^I2J%>o       PL-COM ;
 +Err/Orth+Use/NG:%^I2J%>o       Harm-Neutr_PL-ILL_ZERO ;
 +Err/Orth+Use/NG:%^I2J%>o       PL-ILL_dE ;
@@ -5177,17 +5177,17 @@ LEXICON NMN_47KIRI-SG
 :%^VowRM%>%{aä%}    SG-GEN_ZERO-STEM        ;
 :%^I2J%>%{aä%}    Harm-Neutr_SG-ILL_ZERO        ;
 :%^I2J%>%{aä%}    Harm-Neutr_SG-PAR_ZERO        ;
-:%^I2ʼ%>%{aä%}    SG-GEN_ZERO-STEM        ;
+:%^PAL%^VowRM%>%{aä%}    SG-GEN_ZERO-STEM        ;
 :%^I2J%>%{aä%}    Harm-Neutr_SG-ILL_ZERO        ;
 :%^I2J%>%{aä%}    Harm-Neutr_SG-PAR_ZERO        ;
 LEXICON NMN_47KIRI-PL 
 :%^VowRM%>%{aä%}    Harm-Neutr_PL-NOM ;
-:%^I2ʼ%>%{aä%}    Harm-Neutr_PL-NOM ;
+:%^PAL%^VowRM%>%{aä%}    Harm-Neutr_PL-NOM ;
 :%^I2J%>o       PL-GEN_ZERO ;
 :%^I2J%>o       Harm-Neutr_PL-PAR_ZERO ;
 :%^I2J%>o       PL-ILL_he ;
 :%^VowRM%>ö       PL-ALL_lE-STEM ; !!= * @CODE@ IS THIS A REAL FORM?
-:%^I2ʼ%>o       PL-ALL_lE-STEM ;
+:%^PAL%^VowRM%>o       PL-ALL_lE-STEM ;
 :%^I2J%>o       PL-COM ;
 +Err/Orth+Use/NG:%^I2J%>o       Harm-Neutr_PL-ILL_ZERO ;
 +Err/Orth+Use/NG:%^I2J%>o       PL-ILL_dE ;

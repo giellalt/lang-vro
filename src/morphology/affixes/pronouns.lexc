@@ -5,34 +5,34 @@
 
 !! !PERSONAL PRONOUN
 LEXICON PERS-SG1
-+Pron+Pers+Sg1: PERS-SG1-2-NOM-COM ;
-+Pron+Pers+Sg1:u PERS-SG1-2-ABE-TRA ;
-+Pron+Pers+Sg1:ino PERS-SG1-2-ABE-TRA ;
++Pers+Sg1: PERS-SG1-2-NOM-COM ;
++Pers+Sg1:u PERS-SG1-2-ABE-TRA ;
++Pers+Sg1:ino PERS-SG1-2-ABE-TRA ;
 
 LEXICON PERS-SG2
-+Pron+Pers+Sg2: PERS-SG1-2-NOM-COM ;
-+Pron+Pers+Sg2:u PERS-SG1-2-ABE-TRA ;
-+Pron+Pers+Sg2:ino PERS-SG1-2-ABE-TRA ;
++Pers+Sg2: PERS-SG1-2-NOM-COM ;
++Pers+Sg2:u PERS-SG1-2-ABE-TRA ;
++Pers+Sg2:ino PERS-SG1-2-ABE-TRA ;
 
 LEXICON PERS-SG3
-+Pron+Pers+Sg3+Nom: FOR-PERS-SG3-GEN/NOM ;
-+Pron+Pers+Sg3+Gen: FOR-PERS-SG3-GEN/NOM ;
-+Pron+Pers+Sg3+Abe:imäldäq FRONT_K ;
-+Pron+Pers+Sg3+Abe:imälda K ; !! CHECKME vowel harmony
-+Pron+Pers+Sg3+Com:imägaq K ;
-+Err/Orth+Pron+Pers+Sg3+Com:imäga K ;
-+Pron+Pers+Sg3+Ill:immä K ;
-+Pron+Pers+Sg3+Par:edä K ;
-+Pron+Pers+Sg3+Par:immä K ;
-+Pron+Pers+Sg3+Ade:äl K ;
-+Pron+Pers+Sg3+All:älle K ;
-+Pron+Pers+Sg3+All:ääle K ;
-+Pron+Pers+Sg3+All:imäle K ;
-+Pron+Pers+Sg3+Ter:imäiq K ;
++Pers+Sg3+Nom: FOR-PERS-SG3-GEN/NOM ;
++Pers+Sg3+Gen: FOR-PERS-SG3-GEN/NOM ;
++Pers+Sg3+Abe:imäldäq FRONT_K ;
++Pers+Sg3+Abe:imälda K ; !! CHECKME vowel harmony
++Pers+Sg3+Com:imägaq K ;
++Err/Orth+Pers+Sg3+Com:imäga K ;
++Pers+Sg3+Ill:immä K ;
++Pers+Sg3+Par:edä K ;
++Pers+Sg3+Par:immä K ;
++Pers+Sg3+Ade:äl K ;
++Pers+Sg3+All:älle K ;
++Pers+Sg3+All:ääle K ;
++Pers+Sg3+All:imäle K ;
++Pers+Sg3+Ter:imäiq K ;
 
-+Pron+Pers+Sg3:ä PERS-SG1-2-ABE-TRA ;
-+Pron+Pers+Sg3:ää PERS-SG1-2-ABE-TRA ;
-+Pron+Pers+Sg3:imä PERS-SG1-2-ABE-TRA ;
++Pers+Sg3:ä PERS-SG1-2-ABE-TRA ;
++Pers+Sg3:ää PERS-SG1-2-ABE-TRA ;
++Pers+Sg3:imä PERS-SG1-2-ABE-TRA ;
 
 LEXICON FOR-PERS-SG3-GEN/NOM
 :ä K ;
@@ -69,19 +69,19 @@ LEXICON PERS-SG1-2-ABE-TRA
 
 
 LEXICON PERS-PL1 !!= @CODE@ miiq:m
-+Pron+Pers+Pl1: PERS-PL1-2 ;
++Pers+Pl1: PERS-PL1-2 ;
 
 LEXICON PERS-PL2 !!= @CODE@ tiiq:t
-+Pron+Pers+Pl2: PERS-PL1-2 ;
++Pers+Pl2: PERS-PL1-2 ;
 
 LEXICON PERS-PL3 !!= @CODE@ nääq:n
-+Pron+Pers+Pl3+Nom:ääq K ;
-+Pron+Pers+Pl3+Nom:ä K ;
-+Pron+Pers+Pl3+Nom:imä K ;
-+Pron+Pers+Pl3+Nom:iä K ;
-+Pron+Pers+Pl3+Gen:äide K ;
-+Pron+Pers+Pl3+Ter:äideniq K ;
-+Pron+Pers+Pl3:ä FOR-PERS-PL1/2/3 ;
++Pers+Pl3+Nom:ääq K ;
++Pers+Pl3+Nom:ä K ;
++Pers+Pl3+Nom:imä K ;
++Pers+Pl3+Nom:iä K ;
++Pers+Pl3+Gen:äide K ;
++Pers+Pl3+Ter:äideniq K ;
++Pers+Pl3:ä FOR-PERS-PL1/2/3 ;
 
 
 LEXICON PERS-PL1-2
@@ -108,13 +108,13 @@ LEXICON FOR-PERS-PL1/2/3
 
 !! !DEMONSTRATIVE PRONOUNS
 LEXICON PRON-DEM
-+Pron+Sg+Nom: K ;
-+Pron+Sg+Nom:%>%{XV%} K ;
++Sg+Nom: K ;
++Sg+Nom:%>%{XV%} K ;
 
 LEXICON PRON-DEM_seo/taa
-+Pron+Dem: Harm-Neutr_SG-NOM ;
-+Pron+Dem: SG-GEN_ZERO-STEM ;
-+Pron+Dem:%{back%} Harm-Neutr_SG-PAR_d ;
++Dem: Harm-Neutr_SG-NOM ;
++Dem: SG-GEN_ZERO-STEM ;
++Dem:%{back%} Harm-Neutr_SG-PAR_d ;
 
 !! !INDEFINITE PRONOUNS
 !LEXICON PRON-INDEF_mis
@@ -123,32 +123,32 @@ LEXICON PRON-DEM_seo/taa
 
 !! !INTERROGATIVE PRONOUNS
 LEXICON PRON-INTERR-HUM
-+Sem/Hum+Pron+Interr+SP+Nom:iä # ;
-+Sem/Hum+Pron+Interr+SP+Gen:ink # ;
-+Sem/Hum+Pron+Interr+SP+Par:edä # ;
-+Sem/Hum+Pron+Interr+SP+Com:inkaq # ;
-+Sem/Hum+Pron+Interr+SP:inka BACK_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
-+Sem/Hum+Pron+Interr+SP:e FRONT_ABESUF ;
-+Sem/Hum+Pron+Interr+SP:e FRONT_ABLSUF ;
-+Sem/Hum+Pron+Interr+SP:e FRONT_ADESUF ;
-+Sem/Hum+Pron+Interr+SP:el  FRONT_ALLSUF_le ;
-+Sem/Hum+Pron+Interr+SP:e FRONT_ELASUF ;
-+Sem/Hum+Pron+Interr+SP:e FRONT_ILLSUF_he ;
-+Sem/Hum+Pron+Interr+SP:e FRONT_INESUF_N-H-HN ;
-+Sem/Hum+Pron+Interr+SP:e FRONT_TRASUF ;
++Sem/Hum+Interr+SP+Nom:iä # ;
++Sem/Hum+Interr+SP+Gen:ink # ;
++Sem/Hum+Interr+SP+Par:edä # ;
++Sem/Hum+Interr+SP+Com:inkaq # ;
++Sem/Hum+Interr+SP:inka BACK_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
++Sem/Hum+Interr+SP:e FRONT_ABESUF ;
++Sem/Hum+Interr+SP:e FRONT_ABLSUF ;
++Sem/Hum+Interr+SP:e FRONT_ADESUF ;
++Sem/Hum+Interr+SP:el  FRONT_ALLSUF_le ;
++Sem/Hum+Interr+SP:e FRONT_ELASUF ;
++Sem/Hum+Interr+SP:e FRONT_ILLSUF_he ;
++Sem/Hum+Interr+SP:e FRONT_INESUF_N-H-HN ;
++Sem/Hum+Interr+SP:e FRONT_TRASUF ;
 
-+Sem/Hum+Pron+Interr+SP:inka BACK_TERSUF ;
-+Sem/Hum+Pron+Interr+SP:eeniq TER_ZERO ;
++Sem/Hum+Interr+SP:inka BACK_TERSUF ;
++Sem/Hum+Interr+SP:eeniq TER_ZERO ;
 
 LEXICON PRON-INTERR_miae
-+Pron+Interr+SP:iä FRONT_NOMSUF ;
-+Pron+Interr+SP:ink GEN_ZERO ;
-+Pron+Interr+SP:i FRONT_PARSUF_dä ;
-+Pron+Interr+SP:inkaq COM_ZERO ;
-+Pron+Interr+SP:inka BACK_TERSUF ;
-+Pron+Interr+SP:ee FRONT_TERSUF ;
-+Pron+Interr+SP:inka BACK_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
-+Pron+Interr+SP:ii FRONT_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
++Interr+SP:iä FRONT_NOMSUF ;
++Interr+SP:ink GEN_ZERO ;
++Interr+SP:i FRONT_PARSUF_dä ;
++Interr+SP:inkaq COM_ZERO ;
++Interr+SP:inka BACK_TERSUF ;
++Interr+SP:ee FRONT_TERSUF ;
++Interr+SP:inka BACK_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
++Interr+SP:ii FRONT_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
 
 
 LEXICON BACK_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA
@@ -171,42 +171,42 @@ LEXICON FRONT_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA
  FRONT_TRASUF ;
 
 LEXICON PRON-REFL_HINDAE
-+Pron+Refl+Gen: K ;
-+Pron+Refl+Par:%^Pen%^WGStem%>st K ;
++Refl+Gen: K ;
++Refl+Par:%^Pen%^WGStem%>st K ;
 
 
 LEXICON PRON_11LAETEQ
-+Pron:%{front%} NMN_11ANNWQ/LAETEQ ;
+:%{front%} NMN_11ANNWQ/LAETEQ ;
 
 LEXICON PRON_13SAEAENE
-+Pron:%{front%} NMN_13XX/SAEAENE ;
+:%{front%} NMN_13XX/SAEAENE ;
 
 LEXICON PRON_13TAEHINE
-+Pron:%{front%} NMN_13ALONW/TAEHINE ;
+:%{front%} NMN_13ALONW/TAEHINE ;
 
 LEXICON PRON_19PEDAEJAENE
-+Pron:%{front%} NMN_19ALOMANW/PEDAEJAENE ;
+:%{front%} NMN_19ALOMANW/PEDAEJAENE ;
 
 LEXICON PRON_22NAANW
-+Pron:%{back%} NMN_22NAANW ;
+:%{back%} NMN_22NAANW ;
 
 LEXICON PRON_22VWROKWNW
-+Pron:%{back%} NMN_22VWROKWNW/VAEHAEKENE ;
+:%{back%} NMN_22VWROKWNW/VAEHAEKENE ;
 
 LEXICON PRON_22VAEHAEKENE
-+Pron:%{front%} NMN_22VWROKWNW/VAEHAEKENE ;
+:%{front%} NMN_22VWROKWNW/VAEHAEKENE ;
 
 LEXICON PRON_29KUU
-+Pron:%{back%} NMN_29KUU/HAEAE ;
+:%{back%} NMN_29KUU/HAEAE ;
 
 LEXICON PRON_30MAA
-+Pron:%{back%} NMN_30MAA/TUEUE ;
+:%{back%} NMN_30MAA/TUEUE ;
 
 !LEXICON PRON_35UMA
-!+Pron:%{back%} NMN_35UMA/PESAE ;
+!:%{back%} NMN_35UMA/PESAE ;
 
 LEXICON PRON_36HANG1
-+Pron:%{back%} NMN_36HANG1/SAERG1 ;
+:%{back%} NMN_36HANG1/SAERG1 ;
 
 
 ! vim: set ft=xfst-lexc:
