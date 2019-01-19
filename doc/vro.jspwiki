@@ -285,6 +285,7 @@ source and target part-of-speech.
  * __+Der/xxx__
  __ +Der/JA __	NomAg
  __ +Der/minE __ NomAct
+ __+Der/lt	   __ A→Adv
 
 !!!Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -345,6 +346,18 @@ symbols in the lexicon files:
   %{jiØ%}   — HJK and KimmoK ideas vari:var%{jiØ%}o
   %{qmn%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{qn%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́Ø%}   
+  %{dd́n%}   
+  %{dd́r%}   
+  %{dd́v%}   
+  %{dd́Ø%}   
+  %{gǵv%}   
+  %{gǵØ%}   
+  %{kḱg%}   
+  %{kḱØ%}   
+  %{pṕb%}   
+  %{pṕØ%}   
+
 }}}
 
 !!Palatalization
@@ -364,6 +377,7 @@ symbols in the lexicon files:
   %{tt́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{vv́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{zź%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́n%}  
 }}}
 
  __ %^I7         __  This appears in stem vaoma:va%^I7o for vaio
@@ -466,6 +480,7 @@ word classes, or optionally from prefixes:
 look at verb_newwords.lexc
 
  * __Exceptions ;		__
+ * __Abbreviation ;	__
 
 Incoming
  * __ADP_NEWWORDS ;__
@@ -518,9 +533,13 @@ less complex word classes
   %{õy%}:õ    — Vowel raising
   %{eʼ%}:e    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{õʼ%}:õ    — HJK and KimmoK ideas kana:ka%{nØ%}na
+
   %{dØ%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{tØ%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{dv%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dn%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dl%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+
+
   %{gv%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{gl%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{gØ%}:g    — HJK and KimmoK ideas argnõma:ar%{gØ%}
@@ -539,9 +558,8 @@ less complex word classes
   %{bv%}:b    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
   %{dr%}:d    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
   %{bm%}:b    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-  %{dn%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-  %{dl%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
   %{pb%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tØ%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
   %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -550,6 +568,19 @@ less complex word classes
   %{jiØ%}:i   — HJK and KimmoK ideas vari:var%{jiØ%}o
   %{qmn%}:q   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{qn%}:q    — HJK and KimmoK ideas kana:ka%{nØ%}na
+
+  %{dd́Ø%}:d   
+  %{dd́n%}:d   
+  %{dd́r%}:d   
+  %{dd́v%}:d   
+  %{dd́Ø%}:d   
+  %{gǵv%}:g   
+  %{gǵØ%}:g   
+  %{kḱg%}:k   
+  %{kḱØ%}:k   
+  %{pṕb%}:p   
+  %{pṕØ%}:p   
+
 }}}
 
 !!Palatalization of consonants
@@ -569,6 +600,7 @@ less complex word classes
   %{tt́%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{vv́%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{zź%}:z    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́n%}:d 
 }}}
 
 !!Miscellaneous other symbols
@@ -768,6 +800,29 @@ __ö:ü__
 !PALATALIZATION
 __n2ń palatalization all__
 
+
+__{dd́n}:d́ palatalization for 3-way__
+
+andma+V+Act+Ind+Prs+Sg3
+* __an%{dd́n%}%{back%}%^PAL __
+* __and́00 __
+
+
+püüdmä+V+Act+Ind+Prs+Sg3
+* __pü%{üv%}%{dd́v%}%{front%}%^PAL __
+* __püüd́00 __
+
+__{dd́n}:n weaken 3-way__
+
+andma+V+Act+Ind+Prs+Sg1
+* __an%{dd́n%}%{back%}%^WGStem%>%{aä%} __
+* __ann00m%a __
+
+
+püüdmä+V+Act+Ind+Prs+Sg1
+* __pü%{üv%}%{dd́v%}%{front%}%^WGStem%>%{aä%} __
+* __püvv00%>ä __
+
 !VOWEL CHANGE WITH PLURAL
 
 __ʼ2õ__
@@ -834,8 +889,8 @@ __i2e__
 * __keel0%>e __
 * __leib%^ÄI2ÄÄ%^WGStem%>ä __
 * __leev0%>ä __
-
-
+* __pi%{tdØ%}ä%{back%}%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>t%{aä%}s __
+* __pe0000000e%>täs __
 
 
 __i:ä__
@@ -916,6 +971,7 @@ hüdsi+N+Sg+Par:
 * __hü0s000%>t __
 * __aigo%^Pen%^WGStem __
 * __a00o00 __
+
 * __va%^I7o%^StrGStem%>i __
 * __vaio0%>0 __
 * __hä%^V70ö%^StrGStem%>i __
@@ -976,6 +1032,17 @@ vari+N+Sg+Gen: __shadow/varjo__
 * __va%{rŕ%}%{jiØ%}o%^Pen%^PAL%^Pen%^WGStem __
 * __vaŕ0o0000 __
 
+__%{jØ%}:0__
+vari+N+Sg+Gen: __shadow/varjo__
+* __va%{rŕ%}%{jiØ%}o%^Pen%^PAL%^Pen%^WGStem __
+* __vaŕ0o0000 __
+
+elläi+N+Sg+GenFIX
+* __e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä __
+* __e0läj00%>ä __
+
+
+
 __u2v__
 * __juud%^WGStem%>a __
 * __juvv0%>a __
@@ -983,9 +1050,12 @@ __u2v__
 __%{uv%}:v__
 * __ju%{uv%}%{dv%}%^WGStem%>a __
 * __juvv0%>a __
+joudma+V+Act+Ind+Prt+Sg1
+* __jõ%{uv%}%{dd́v%}back%^WGStem%>i __
+* __jõvv00%>i __
 
 __%{üv%}:v__
-* __pü%{üv%}%{dv%}%^WGStem%>et __
+* __pü%{üv%}%{dd́v%}%^WGStem%>et __
 * __püvv0%>et __
 * __sü%{üv%}%{dv%}%^WGStem%>ä __
 * __süvv0%>ä __

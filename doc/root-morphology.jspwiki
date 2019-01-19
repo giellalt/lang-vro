@@ -274,6 +274,7 @@ source and target part-of-speech.
  * __+Der/xxx__
  __ +Der/JA __	NomAg
  __ +Der/minE __ NomAct
+ __+Der/lt	   __ A→Adv
 
 !!!Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -334,6 +335,18 @@ symbols in the lexicon files:
   %{jiØ%}   — HJK and KimmoK ideas vari:var%{jiØ%}o
   %{qmn%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{qn%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́Ø%}   
+  %{dd́n%}   
+  %{dd́r%}   
+  %{dd́v%}   
+  %{dd́Ø%}   
+  %{gǵv%}   
+  %{gǵØ%}   
+  %{kḱg%}   
+  %{kḱØ%}   
+  %{pṕb%}   
+  %{pṕØ%}   
+
 }}}
 
 !!Palatalization
@@ -353,6 +366,7 @@ symbols in the lexicon files:
   %{tt́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{vv́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{zź%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́n%}  
 }}}
 
  __ %^I7         __  This appears in stem vaoma:va%^I7o for vaio
@@ -455,6 +469,7 @@ word classes, or optionally from prefixes:
 look at verb_newwords.lexc
 
  * __Exceptions ;		__
+ * __Abbreviation ;	__
 
 Incoming
  * __ADP_NEWWORDS ;__

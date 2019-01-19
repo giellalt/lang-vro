@@ -910,7 +910,7 @@ LEXICON V_71HALLÕTUMA/ERÄTÜMÄ !!≈ * __@CODE@__ hallõtuma:hallõtu
  PSS-PRFPRC_tU-SG-NOM ;
  MUTUAL_JUS ;
 
-LEXICON V_72VAOMA !!≈ * __@CODE@__ vaoma:vao
+LEXICON V_72VAOMA !!≈ * __@CODE@__ vaoma:%{ˋØ%}va%^I7o
 !! * Yaml: __vaoma__
 +V:%{back%} V_72VAOMA/TÄÜMÄ ;
 LEXICON V_72TÄÜMÄ !!≈ * __@CODE@__ täümä:täü
@@ -921,9 +921,9 @@ LEXICON V_72VAOMA/TÄÜMÄ !!≈ * __@CODE@__ vaoma:vao
  ACT-IND-PRS-12 ;
  ACT-IND-PRS-3_s/sEq ;
 
-:%^StrGStem ACT-IND-PRT-12_i ;
+:%^StrGStem ACT-IND-PRT-12_ZERO ;
  ACT-IND-CONNEG ;
-:%^StrGStem ACT-IND-PRT-SG3_i ;
+:%^StrGStem ACT-IND-PRT-SG3_ZERO ;
 :%^StrGStem ACT-IND-PRT-PL3_q/vAq ;
  Harm-Neutr_INF_mA ;
 :%^StrGStem Harm-Neutr_INF_ZEROq ;
@@ -1561,7 +1561,8 @@ LEXICON V_82PÜÜDMÄ !!≈ * __@CODE@__ püüdmä:püüd
 !! * Yaml: __pueuedmae__
 +V:%{front%} V_82ANDMA/PÜÜDMÄ ;
 
-LEXICON V_82ANDMA/PÜÜDMÄ !!≈ * __@CODE@__ andma:and
+LEXICON V_82ANDMA/PÜÜDMÄ !!≈ * __@CODE@__ andma:%{ˋØ%}an%{dd́n%}
+! jõõrdma:j%{õy%}%{õy%}r%{dd́Ø%}
 :%^WGStem%>%{aä%} ACT-IND-PRS-12 ;
  ACT-IND-PRS-SG3_ZERO ;
  ACT-IND-PRS-PL3_vAq ;
@@ -2192,11 +2193,7 @@ LEXICON Harm-Neutr_IND-PRT-SCSG1_sE
 +Act+Ind+Prt+Sg1:%>s%{eõ%} K ;
 
 LEXICON ACT-IND-PRT-1/2_ZERO
- ACT-IND-PRT-SG1_ZERO ;
- ACT-IND-PRT-SG2/PL1/PL2_ZERO ;
-LEXICON ACT-IND-PRT-SG1_ZERO
 +Act+Ind+Prt+Sg1: K ;
-LEXICON ACT-IND-PRT-SG2/PL1/PL2_ZERO
 +Act+Ind+Prt+Sg2:%>t K ;
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%>q K ;
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
@@ -2236,6 +2233,15 @@ LEXICON ACT-IND-PRT-SG2/PL1/PL2_i-USUALLY-STRONG
 !+Act+Ind+Prt+Pl1:%>i K ; These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>itiq K ;
 
+
+LEXICON ACT-IND-PRT-12_ZERO
++Act+Ind+Prt+Sg1: K ;
+
++Act+Ind+Prt+Sg2:%>q K ;
++Act+Ind+Prt+Sg2:%>t K ;
++Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
++Act+Ind+Prt+Pl1:%>miq K ;
++Act+Ind+Prt+Pl2:%>tiq K ;
 
 LEXICON ACT-IND-PRT-12_iE
 +Act+Ind+Prt+Sg1:%>i%{eõ%} K ;
@@ -2705,6 +2711,16 @@ LEXICON PSS-PRFPRC_tt
 +Pss+PrfPrc+Pl+Ill:%>tt%{uü%}isihe K ;
 +Pss+PrfPrc+Pl+Ill:%>tt%{uü%}ihe K ;
 +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ; !!= * @CODE@ no q
+!CHECKME below 2019-01-09
++Pss+Ind+Prt+Sg1:%>ti K ;
++Pss+Ind+Prt+Sg2:%>ttit K ;
++Err/Orth+Use/NG+Pss+Ind+Prt+Sg2:%>ttid%{eõ%}q K ;
++Pss+Ind+Prt+Sg3:%>tti K ;
++Pss+Ind+Prt+Pl1:%>ttimiq K ;
++Pss+Ind+Prt+Pl2:%>ttitiq K ;
++Pss+Ind+Prt+Pl3:%>tiq K ;
++Err/Orth+Use/NG+Pss+Ind+Prt+Pl3:%>ttiv%{aä%}q K ;
+
 
 LEXICON PSS-PRFPRC_ttU-SG-NOM
 +Pss+PrfPrc:%>tt%{uü%} K ;
