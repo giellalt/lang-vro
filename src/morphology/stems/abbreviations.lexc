@@ -67,12 +67,15 @@ LEXICON ab-dot-noun ! This is the lexicon for abbrs that must have a period.
 ! need the transitivity division.
 
 LEXICON noperiod
-км² ab-nodot-noun ;
-км ab-nodot-noun ;
-см ab-nodot-noun ;
-гг ab-nodot-noun ;
-м3/с ab-nodot-noun ;
-кв  ab-nodot-noun ;
+!км² ab-nodot-noun ;
+!км ab-nodot-noun ;
+!см ab-nodot-noun ;
+!гг ab-nodot-noun ;
+!м3/с ab-nodot-noun ;
+!кв  ab-nodot-noun ;
+km ab-nodot-noun ;
+m ab-nodot-noun ;
+nt ab-nodot-noun ;
 
 ! =============================================== !
 !            Intransitive abbreviations           !

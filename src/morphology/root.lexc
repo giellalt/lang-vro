@@ -430,6 +430,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  +Der/xxx  !!≈ * __@CODE@__
  +Der/JA !!= __@CODE@__	NomAg
  +Der/minE !!= __@CODE@__ NomAct
++Der/lt	   !!= __@CODE@__ A→Adv
 
 !! !!!Morphophonology
 ! ---------------
@@ -491,6 +492,18 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{jiØ%}  !!= @CODE@ — HJK and KimmoK ideas vari:var%{jiØ%}o
  %{qmn%}  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{qn%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dd́Ø%}   !!= @CODE@
+ %{dd́n%}   !!= @CODE@
+ %{dd́r%}   !!= @CODE@
+ %{dd́v%}   !!= @CODE@
+ %{dd́Ø%}   !!= @CODE@
+ %{gǵv%}   !!= @CODE@
+ %{gǵØ%}   !!= @CODE@
+ %{kḱg%}   !!= @CODE@
+ %{kḱØ%}   !!= @CODE@
+ %{pṕb%}   !!= @CODE@
+ %{pṕØ%}   !!= @CODE@
+
 !! }}}
 
 !! !!Palatalization
@@ -510,6 +523,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{tt́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{vv́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{zź%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dd́n%}  !!= @CODE@
 !! }}}
 
  %^I7         !!= __@CODE@__  This appears in stem vaoma:va%^I7o for vaio
@@ -622,6 +636,7 @@ LEXICON Root
 !! look at verb_newwords.lexc
 
    Exceptions ;		  !!≈ * __@CODE@__
+   Abbreviation ;	  !!≈ * __@CODE@__
 
 !! Incoming
   ADP_NEWWORDS ;           !!≈ * __@CODE@__
@@ -643,7 +658,7 @@ LEXICON ACRONDELIMITER
 +Acro: # ;
 
 LEXICON CC_
-+CC: K ;
+: K ;
 LEXICON CS_
 +CS: K ;
 LEXICON DET_
@@ -651,9 +666,9 @@ LEXICON DET_
 LEXICON INTERJ_
 +Interj: K ;
 LEXICON PO_
-+Po: K ;
+: K ;
 LEXICON PR_
-+Pr: K ;
+: K ;
 
 
 
