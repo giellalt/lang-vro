@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kipõń: # Noun (9) kipõń 'eng /est /fin' - full paradigm
+     kipõń+N+Sg+Nom: kipõń
+     kipõń+N+Sg+Gen: kibõna
+     kipõń+N+Sg+Par: kibõnat
+     kipõń+N+Sg+Ill: [kibõnahe, kibõnadõ]
+     kipõń+N+Sg+Ine: [kibõnan, kibõnah, kibõnahn]
+     kipõń+N+Sg+Ela: kibõnast
+     kipõń+N+Sg+All: kibõnalõ
+     kipõń+N+Sg+Ade: kibõnal
+     kipõń+N+Sg+Abl: kibõnalt
+     kipõń+N+Sg+Tra: kibõnas
+     kipõń+N+Sg+Ter: kibõnaniq
+     kipõń+N+Sg+Abe: kibõnaldaq
+     kipõń+N+Sg+Com: kibõnagaq
+     kipõń+N+Pl+Nom: kibõnaq
+     kipõń+N+Pl+Gen: [kibõnidõ, kibõniidõ]
+     kipõń+N+Pl+Par: [kibõnit, kibõniid]
+     kipõń+N+Pl+Ill: [kibõnihe, kibõniihe, kibõnidõ, kibõniidõ]
+     kipõń+N+Pl+Ine: [kibõnin, kibõnih, kibõnihn, kibõniin, kibõniih, kibõniihn]
+     kipõń+N+Pl+Ela: [kibõnist, kibõniist]
+     kipõń+N+Pl+All: [kibõnilõ, kibõniilõ]
+     kipõń+N+Pl+Ade: [kibõnil, kibõniil]
+     kipõń+N+Pl+Abl: [kibõnilt, kibõniilt]
+     kipõń+N+Pl+Tra: [kibõnis, kibõniis]
+     kipõń+N+Pl+Ter: [kibõniniq, kibõniiniq]
+     kipõń+N+Pl+Abe: [kibõnildaq, kibõniildaq]
+     kipõń+N+Pl+Com: [kibõnidõgaq, kibõniidõgaq]
