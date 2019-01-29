@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tikõ: # Noun (6) tikõ 'eng /est /fin' - full paradigm
+     tikõ+A+Sg+Nom: tikõ
+     tikõ+A+Sg+Gen: tikõ
+     tikõ+A+Sg+Par: tikõt
+     tikõ+A+Sg+Ill: tikkõhe
+     tikõ+A+Pl+Gen: tikkidõ
+     tikõ+A+Pl+Par: tikkit
+     tikõ+A+Pl+Ill: tikkihe
+     tikõ+A+Pl+All: tikkilõ
+

@@ -68,6 +68,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{pb%}:p   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{tØ%}:t   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{td%}:t   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{t́d́%}:t́   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{kg%}:k   !!= @CODE@ — HJK and KimmoK ideas kaigas:kai%{kg%}as
  %{pbØ%}:b  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{tdØ%}:d  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -225,7 +226,7 @@ CnsVoiced = j l m n r v ;
 
 ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} ;
 
-ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pb%} %{td%} %{kg%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{lĺ%} %{rŕ%} ;
+ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pb%} %{td%} %{kg%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{lĺ%} %{rŕ%} %{nń%} %{ij%} %{kḱ%} ;
 
 ArchCnsInZero =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pbØ%} %{tdØ%} %{kgØ%} ;
 
@@ -436,8 +437,8 @@ Rules
 "n2ń palatalization all"
 !! __@RULENAME@__
  Cx:Cy <=> _ [(HarmDummies:) (%^VOWRaise:) %^PAL:| (HarmDummies:) %^Pen: %^WGStem: %^PAL:| Vow: Cns:* (HarmDummies:) %^Pen: %^PAL:] ;
-       	     where Cx in (%{bb́%} %{dd́%} %{ff́%} %{gǵ%} %{hh́%} %{kḱ%} %{lĺ%} %{mḿ%} %{nń%} %{pṕ%} %{rŕ%} %{sś%} %{tt́%} %{vv́%} %{zź%})
-	           Cy in (b́   d́   f́  ǵ  h́  ḱ  ĺ  ḿ  ń  ṕ  ŕ  ś  t́  v́  ź) matched ;
+       	     where Cx in (%{bb́%} %{dd́%} %{ff́%} %{gǵ%} %{hh́%}  %{lĺ%} %{mḿ%} %{nń%} %{pṕ%} %{rŕ%} %{sś%} %{tt́%} %{vv́%} %{zź%})
+	           Cy in (b́   d́   f́  ǵ  h́   ĺ  ḿ  ń  ṕ  ŕ  ś  t́  v́  ź) matched ;
 
 
 "{dd́n}:d́ palatalization for 3-way"
@@ -1038,7 +1039,15 @@ Rules
 
 "%{XC%}:k"
 !! __@RULENAME@__
- %{XC%}:k <=> k: (HarmDummies:) _ ;
+ %{XC%}:k <=> [%{kg%}:k | k: ] (HarmDummies:) _ ;
+
+"%{kḱ%}:ḱ"
+!! __@RULENAME@__
+ %{kḱ%}:ḱ <=> %{kØ%}:k  (HarmDummies:) _ Vow:0 %^VowRM: %^PAL: ;
+ _ [(HarmDummies:) (%^VOWRaise:) %^PAL:| (HarmDummies:) %^Pen: %^WGStem: %^PAL:| Vow: Cns:* (HarmDummies:) %^Pen: %^PAL:] ;
+!! kakma
+!!€ ka%{kØ%}%{kḱ%}u%^VowRM%^PAL
+!!€ kakḱ000
 
 
 !! !Consonant weakening 
@@ -1068,10 +1077,14 @@ k:0 <=>
 
  s _ a (HarmDummies:) %^Pen: %^WGStem: ;
 
-   _ k [(HarmDummies:)|[Vow:|ArchVow:] (HarmDummies:) %^Pen:] [ %^CC2C:0 | %^WGStem: ] ;
+   _ [k | %{kḱ%}: ] [(HarmDummies:)|[Vow:|ArchVow:] (HarmDummies:) %^Pen:] [ %^CC2C:0 | %^WGStem: ] ;
   [h|s] _ [(HarmDummies:)|[Vow:|ArchVow:] (HarmDummies:) %^Pen:] %^WGStem:  ;
 !!€ i%{kØ%}kõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%}
 !!€ i0k00000%>ma
+
+!! kakma:
+!!€ ka%{kØ%}%{kḱ%}u%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%}
+!!€ ka0k00000%>ma
 
 "pToZero"
 !! __@RULENAME@__
@@ -1133,8 +1146,8 @@ k:0 <=>
 "StrongToWeak"
 !! __@RULENAME@__
  Cx:Cy <=> [Vow|Cns] _ (ʼ)[ [Vow:|ArchVow:] (Cns:* |:Cns+|ArchCns: |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
-      where Cx in (%{pb%}  %{kg%} )
-            Cy in (   b       g   )   matched ;
+      where Cx in (%{kg%} )
+            Cy in (   g   )   matched ;
 
 "%{td%}:d"
 !! __@RULENAME@__
@@ -1179,6 +1192,14 @@ k:0 <=>
 
 
 !! !CONSONANT QUALITY CHANGE
+
+"%{pb%}:b"
+!! __@RULENAME@__
+ %{pb%}:b <=> Vow _ Vow [Cns:* | ArchCns:*] (HarmDummies:) (ʼ:) %^Pen: %^WGStem: ;
+         [Vow|Cns] _ (ʼ)[ [Vow:|ArchVow:] (Cns:* |:Cns+|ArchCns: |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
+!!kipõń+N+Sg+Gen:
+!!€ ki%{pb%}õ%{nń%}%{back%}%^Pen%^WGStem%>%{aä%}
+!!€ kibõn000%>a
 
 "p2b"
 !! __@RULENAME@__

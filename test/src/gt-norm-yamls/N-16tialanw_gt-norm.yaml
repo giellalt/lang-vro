@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - `tialanõ: # Noun (19) `tialanõ 'eng /est /fin' - full paradigm
+     tialanõ+N+Sg+Nom: tialanõ
+     tialanõ+N+Sg+Gen: tialasõ
+     tialanõ+N+Sg+Par: tialast
+     tialanõ+N+Sg+Ill: tialastõ
+     tialanõ+N+Sg+Ine: tialasõn
+     tialanõ+N+Sg+Ela: tialasõst
+     tialanõ+N+Sg+All: tialasõlõ
+     tialanõ+N+Sg+Ade: tialasõl
+     tialanõ+N+Sg+Abl: tialasõlt
+     tialanõ+N+Sg+Tra: tialasõs
+     tialanõ+N+Sg+Ter: tialasõniq
+     tialanõ+N+Sg+Abe: tialasõldaq
+     tialanõ+N+Sg+Com: tialasõgaq
+     tialanõ+N+Pl+Nom: tialasõq
+     tialanõ+N+Pl+Gen: tialaisi
+     tialanõ+N+Pl+Par: tialaisi
+     tialanõ+N+Pl+Ill: [tialaisihe, tialaisi]
+     tialanõ+N+Pl+Ine: tialaisin
+     tialanõ+N+Pl+Ela: tialaisist
+     tialanõ+N+Pl+All: tialaisilõ
+     tialanõ+N+Pl+Ade: tialaisil
+     tialanõ+N+Pl+Abl: tialaisilt
+     tialanõ+N+Pl+Tra: tialaisis
+     tialanõ+N+Pl+Ter: tialaisiniq
+     tialanõ+N+Pl+Abe: tialaisildaq
+     tialanõ+N+Pl+Com: tialaisigaq

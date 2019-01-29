@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - lakõ2: # Noun (9) lakõ2 'eng /est /fin' - full paradigm
+     lakõ+A+Sg+Nom: lakõ
+     lakõ+A+Sg+Gen: [lakõ, lagõhõ]
+     lakõ+A+Sg+Par: [lakõt, lagõhõt]
+     lakõ+A+Sg+Ill: [lakkõhe, lagõhõhe, lakkõdõ, lagõhõdõ]
+     lakõ+A+Sg+Ine: [lakõn, lagõhõn]
+     lakõ+A+Sg+Ela: [lakõst, lagõhõst]
+     lakõ+A+Sg+All: [lakõlõ, lagõhõlõ]
+     lakõ+A+Sg+Ade: [lakõl, lagõhõl]
+     lakõ+A+Sg+Abl: [lakõlt, lagõhõlt]
+     lakõ+A+Sg+Tra: [lakõs, lagõhõs]
+     lakõ+A+Sg+Ter: [lakõniq, lagõhõniq]
+     lakõ+A+Sg+Abe: [lakõldaq, lagõhõldaq]
+     lakõ+A+Sg+Com: [lakõgaq, lagõhõgaq]
+     lakõ+A+Pl+Nom: [lakõq, lagõhõq]
+     lakõ+A+Pl+Gen: [lakkidõ, lagõhidõ, lakkiidõ, lagõhiidõ]
+     lakõ+A+Pl+Par: [lakkit, lagõhit, lakkiid,  lagõhiid]
+     lakõ+A+Pl+Ill: [lakkihe, lagõhihe, lakkiihe, lagõhiihe, lakkidõ, lakkiidõ, lagõhiidõ]
+     lakõ+A+Pl+Ine: [lakkin, lagõhin, lagõhiin]
+     lakõ+A+Pl+Ela: [lakkist, lagõhist, lakkiist, lagõhiist]
+     lakõ+A+Pl+All: [lakkilõ, lagõhilõ, lakkiilõ, lagõhiilõ]
+     lakõ+A+Pl+Ade: [lakkil, lagõhil, lakkiil, lagõhiil]
+     lakõ+A+Pl+Abl: [lakkilt, lagõhilt, lakkiilt, lagõhiilt]
+     lakõ+A+Pl+Tra: [lakkis, lagõhis, lakkiis, lagõhiis]
+     lakõ+A+Pl+Ter: [lakkiniq, lagõhiniq, lakkiiniq, lagõhiiniq]
+     lakõ+A+Pl+Abe: [lakkildaq, lagõhildaq, lakkiildaq, lagõhiildaq]
+     lakõ+A+Pl+Com: [lakkidõgaq, lagõhidõgaq, lakkiidõgaq, lagõhiidõgaq]
