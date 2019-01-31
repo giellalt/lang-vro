@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - lakõ2: # Noun (9) lakõ2 'eng /est /fin' - full paradigm
+     lakõ+A+Sg+Nom: lakõ
+     lakõ+A+Sg+Gen: lakõ
+     lakõ+A+Sg+Par: lakõt
+     lakõ+A+Sg+Ill: lakkõhe
+     lakõ+A+Sg+Ine: lakõn
+     lakõ+A+Sg+Ela: lakõst
+     lakõ+A+Sg+All: lakõlõ
+     lakõ+A+Sg+Ade: lakõl
+     lakõ+A+Sg+Abl: lakõlt
+     lakõ+A+Sg+Tra: lakõs
+     lakõ+A+Sg+Ter: lakõniq
+     lakõ+A+Sg+Abe: lakõldaq
+     lakõ+A+Sg+Com: lakõgaq
+     lakõ+A+Pl+Nom: lakõq
+     lakõ+A+Pl+Gen: lagõhidõ
+     lakõ+A+Pl+Par: lagõhit
+     lakõ+A+Pl+Ill: lagõhihe
+     lakõ+A+Pl+Ine: lagõhin
+     lakõ+A+Pl+Ela: lagõhist
+     lakõ+A+Pl+All: lagõhilõ
+     lakõ+A+Pl+Ade: lagõhil
+     lakõ+A+Pl+Abl: lagõhilt
+     lakõ+A+Pl+Tra: lagõhis
+     lakõ+A+Pl+Ter: lagõhiniq
+     lakõ+A+Pl+Abe: lagõhildaq
+     lakõ+A+Pl+Com: lagõhidõgaq

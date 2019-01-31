@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
   xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
     App: lookup
 
 Tests:
@@ -21,7 +21,7 @@ Tests:
      kuuĺ+Hom2+N+Sg+Gen: kooli
      kuuĺ+Hom2+N+Sg+Par: kuuli
      kuuĺ+Hom2+N+Sg+Ill: kuuli
-     kuuĺ+Hom2+N+Sg+Ine: koolin
+     kuuĺ+Hom2+N+Sg+Ine: [koolin, koolih, koolihn]
      kuuĺ+Hom2+N+Sg+Ela: koolist
      kuuĺ+Hom2+N+Sg+All: koolilõ
      kuuĺ+Hom2+N+Sg+Ade: koolil
@@ -34,7 +34,7 @@ Tests:
      kuuĺ+Hom2+N+Pl+Gen: kuulõ
      kuuĺ+Hom2+N+Pl+Par: kuulõ
      kuuĺ+Hom2+N+Pl+Ill: [kuulõhe, kuulõ, kuulõdõ]
-     kuuĺ+Hom2+N+Pl+Ine: koolõn
+     kuuĺ+Hom2+N+Pl+Ine: [koolõn, koolõh, koolõhn]
      kuuĺ+Hom2+N+Pl+Ela: koolõst
      kuuĺ+Hom2+N+Pl+All: koolõlõ
      kuuĺ+Hom2+N+Pl+Ade: koolõl
