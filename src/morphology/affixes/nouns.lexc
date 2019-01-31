@@ -1974,7 +1974,9 @@ LEXICON NMN_5OPPAJA/MAENGJAE-PL
 
 LEXICON NMN_6MAKW/HELLE !!= * @CODE@ makõ:makõ
   NMN_6MAKW/HELLE-SG ;
-  NMN_6MAKW/HELLE-PL ;
+   NMN_9VILLW/XX-PL ;
++Err/Orth: NMN_9VILLW/XX-SG ;
++Err/Orth:   NMN_6MAKW/HELLE-PL ;
 
 LEXICON NMN_6MAKW/HELLE-SG 
 :%^Pen%^WGStem        Harm-Neutr_SG-NOM  ;
@@ -2407,8 +2409,10 @@ LEXICON NMN_9TAHHE/HERRE-PL
 
 LEXICON NMN_9VILLW/XX !!= @CODE@ tahhe:tahhe
 !! * Yaml: __N-kipwnj__
-   NMN_9VILLW/XX-SG ;
+ NMN_6MAKW/HELLE-SG ;
    NMN_9VILLW/XX-PL ;
++Err/Orth:   NMN_9VILLW/XX-SG ;
++Err/Orth:   NMN_6MAKW/HELLE-PL ;
 
 LEXICON NMN_9VILLW/XX-SG
 :	Harm-Neutr_SG-NOM	;
@@ -4058,6 +4062,7 @@ LEXICON NMN_28PAPWR1-PL
 LEXICON NMN_28KANNWL1/KINNER1-SG 
 ! kannõĺ:kan%{dn%}õ%{lĺ%}
 :%^Pen%^WGStem%^PAL Harm-Neutr_SG-NOM ;
++Err/Orth:%^Pen%^WGStem Harm-Neutr_SG-NOM ;
 :%^Pen%^VowRM%>%{XV%} SG-GEN_ZERO ;
 :%^Pen%^WGStem Harm-Neutr_SG-PAR_d ;
 :%^Pen%^VowRM%>%{XV%} Harm-Neutr_SG-ILL_he ;
