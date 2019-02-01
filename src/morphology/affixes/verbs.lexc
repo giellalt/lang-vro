@@ -1918,30 +1918,31 @@ LEXICON V_86JAHTJMA !!≈ * __@CODE@__ jaht́ma:ˋjah%{tØ%}i
 LEXICON V_86EHTJMÄ !!≈ * __@CODE@__ eht́mä:ehti
 !! * Yaml: __V-ehtjmae__
 +V:%{front%} V_86JAHTJMA/EHTJMÄ ;
-LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * __@CODE@__ eht́mä:ehti
-:%^Pen%^WGStem ACT-IND-PRS-12 ;
-+Act+Ind+Prs+Sg3:%^I2ʼ K ;
-:%^I2ʼ ACT-IND-PRS-PL3_vAq ;
-:%^Pen%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
-!:%^VowRM ACT-IND-PRT-12_i ;
-:%^Pen%^WGStem%^VowRM%>e ACT-IND-PRT-1/2_ZERO ;
-:%^I2ʼ%>s%{eõ%} ACT-IND-PRT-1/2_ZERO ;
+LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * __@CODE@__ eht́mä:eh%{tt́%}
+:%^WGStem%>i ACT-IND-PRS-12 ;
++Act+Ind+Prs+Sg3:%^PAL K ;
+:%^PAL ACT-IND-PRS-PL3_vAq ;
+:%^WGStem%>i Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
-:%^VowRM ACT-IND-PRT-SG3_E ;
-+Act+Ind+Prt+Sg3:%^I2ʼ%>s%{eõ%} K ;
-:%^I2ʼ%>s%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
-:%^Pen%^WGStem%^VowRM%>e ACT-IND-PRT-PL3_q/vAq ;
-:%^Pen%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+!: ACT-IND-PRT-12_i ;
+:%^WGStem%>e ACT-IND-PRT-1/2_ZERO ;
+:%^PAL%>s%{eõ%} ACT-IND-PRT-1/2_ZERO ;
 
-:%^Pen%^CC2C%^I2ʼ Harm-Neutr_INF_mA ;
- Harm-Neutr_INF_ZEROq ;
-:%^I2ʼ ACT-PRSPRC_vA ;
-:%^I2ʼ ACT-PRFPRC-ALL_nUq ;
-:%^Pen%^WGStem Harm-Neutr_V0-PSS-PRSPRC_tAv ;
-:%^Pen%^WGStem Harm-Neutr_PSS-PRFPRC_t ;
-:%^Pen%^WGStem PSS-PRFPRC_tU-SG-NOM ;
-:%^I2ʼ MUTUAL_JUS_kuq ;
+: ACT-IND-PRT-SG3_E ;
++Act+Ind+Prt+Sg3:%^PAL%>s%{eõ%} K ;
+:%^PAL%>s%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
+:%^WGStem%>e ACT-IND-PRT-PL3_q/vAq ;
+:%^WGStem%>i Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+
+:%^CC2C%^PAL Harm-Neutr_INF_mA ;
+:%>i Harm-Neutr_INF_ZEROq ;
+:%^PAL ACT-PRSPRC_vA ;
+:%^PAL ACT-PRFPRC-ALL_nUq ;
+:%^WGStem%>i Harm-Neutr_V0-PSS-PRSPRC_tAv ;
+:%^WGStem%>i Harm-Neutr_PSS-PRFPRC_t ;
+:%^WGStem%>i PSS-PRFPRC_tU-SG-NOM ;
+:%^PAL MUTUAL_JUS_kuq ;
 
 LEXICON V_87KOSIMA !!≈ * __@CODE@__ kosima:ko%{sØ%}si
 !! * Yaml: __V-kosima__
@@ -2319,7 +2320,7 @@ LEXICON ACT-IND-PRT-SG3_sJ
 +Act+Ind+Prt+Sg3:%^WGStem%>ś K ;
 
 !LEXICON ACT-IND-PRT-SC3_sJ-NO-s
-!+Act+Ind+Prt+Sg3:%^WGStem%>ʼ K ;
+!+Act+Ind+Prt+Sg3:%^WGStem%>%^PAL K ;
 !+Act+Ind+Prt+Pl3:%^VowRM%>iq K ;
 !+Act+Ind+Prt+Pl3:%^VowRM%>iv%{aä%}q K ;
 
