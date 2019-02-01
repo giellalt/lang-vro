@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
   xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
     App: lookup
 
 Tests:
@@ -24,21 +24,21 @@ Tests:
      kergütämä+V+Act+Ind+Prs+Sg1: kergüdä
 ##
 #kaotama => kergütämä
-     kergütämä+V+Act+Ind+Prs+Sg2: kergütät
+     kergütämä+V+Act+Ind+Prs+Sg2: [kergütät, kergütädeq]
      kergütämä+V+Act+Ind+Prs+Sg3: kergütäs
      kergütämä+V+Act+Ind+Prs+Pl1: kergütämiq
      kergütämä+V+Act+Ind+Prs+Pl2: kergütätiq
      kergütämä+V+Act+Ind+Prs+Pl3: kergütäseq
-     kergütämä+V+Act+Ind+Prs+Neg: kergüdä-äiq
+     kergütämä+V+Act+Ind+Prs+Neg: [kergüdä-äiq, kergüdä-äi, kergüdä-iq, kergüdä-i]
      kergütämä+V+Act+Ind+ConNegI: kergüdäq
      kergütämä+V+Act+Ind+ConNegII: kergüdä
      kergütämä+V+Act+Ind+Prt+Sg1: kergüdi
-     kergütämä+V+Act+Ind+Prt+Sg2: kergütit
+     kergütämä+V+Act+Ind+Prt+Sg2: [kergütit, kergüdiq, kergütideq]
      kergütämä+V+Act+Ind+Prt+Sg3: kergüt́
      kergütämä+V+Act+Ind+Prt+Pl1: kergütimiq
      kergütämä+V+Act+Ind+Prt+Pl2: kergütitiq
-     kergütämä+V+Act+Ind+Prt+Pl3: kergüdiq
-     kergütämä+V+Act+Ind+Prt+Neg: kergüdä-äs
+     kergütämä+V+Act+Ind+Prt+Pl3: [kergüdiq, kergütiväq]
+     kergütämä+V+Act+Ind+Prt+Neg: [kergüdä-äs, kergüdä-s]
 
 
      kergütämä+V+Act+PrsPrc+Sg+Nom: kergütäv
@@ -46,56 +46,56 @@ Tests:
      kergütämä+V+Jus: kergütäguq
 
      kergütämä+V+Pss+Ind+Prs+Sg1: kergütedä
-     kergütämä+V+Pss+Ind+Prs+Sg2: kergütedät
+     kergütämä+V+Pss+Ind+Prs+Sg2: [kergütedät, kergütedädeq]
      kergütämä+V+Pss+Ind+Prs+Sg3: kergütedäs
      kergütämä+V+Pss+Ind+Prs+Pl1: kergütedämiq
      kergütämä+V+Pss+Ind+Prs+Pl2: kergütedätiq
      kergütämä+V+Pss+Ind+Prs+Pl3: kergütedäseq
-     kergütämä+V+Pss+Ind+Prs+Neg: kergütedä-äiq
+     kergütämä+V+Pss+Ind+Prs+Neg: [kergütedä-äiq, kergütedä-äi, kergütedä-iq, kergütedä-i]
      kergütämä+V+Pss+Ind+ConNegI: kergütedäq
      kergütämä+V+Pss+Ind+ConNegII: kergütedä
 
      kergütämä+V+Pss+Ind+Prt+Sg1: kergütedi
-     kergütämä+V+Pss+Ind+Prt+Sg2: kergütedit
+     kergütämä+V+Pss+Ind+Prt+Sg2: [kergütedit, kergütediq, kergütedideq]
      kergütämä+V+Pss+Ind+Prt+Sg3: kergütedi
      kergütämä+V+Pss+Ind+Prt+Pl1: kergütedimiq
      kergütämä+V+Pss+Ind+Prt+Pl2: kergüteditiq
-     kergütämä+V+Pss+Ind+Prt+Pl3: kergütediq
-     kergütämä+V+Pss+Ind+Prt+Neg: kergütedä-äs
+     kergütämä+V+Pss+Ind+Prt+Pl3: [kergütediq, kergütediväq]
+     kergütämä+V+Pss+Ind+Prt+Neg: [kergütedä-äs, kergütedä-s]
 
      kergütämä+V+Act+PrsPrc+Sg+Nom: kergütäv
      kergütämä+V+Act+PrsPrc+Sg+Gen: kergütävä
      kergütämä+V+Act+PrsPrc+Sg+Par: kergütävät
      kergütämä+V+Act+PrsPrc+Sg+Ill: kergütävähe
      kergütämä+V+Act+PrsPrc+Pl+Nom: kergütäväq
-     kergütämä+V+Act+PrsPrc+Pl+Gen: kergütävide
-     kergütämä+V+Act+PrsPrc+Pl+Par: kergütävit
-     kergütämä+V+Act+PrsPrc+Pl+Ill: kergütävihe
+     kergütämä+V+Act+PrsPrc+Pl+Gen: [kergütävide, kergütäviide]
+     kergütämä+V+Act+PrsPrc+Pl+Par: [kergütävit, kergütäviid]
+     kergütämä+V+Act+PrsPrc+Pl+Ill: [kergütävihe, kergütäviihe]
 
      kergütämä+V+Pss+PrsPrc+Sg+Nom: kergütedäv
      kergütämä+V+Pss+PrsPrc+Sg+Gen: kergütedävä
      kergütämä+V+Pss+PrsPrc+Sg+Par: kergütedävät
      kergütämä+V+Pss+PrsPrc+Sg+Ill: kergütedävähe
      kergütämä+V+Pss+PrsPrc+Pl+Nom: kergütedäväq
-     kergütämä+V+Pss+PrsPrc+Pl+Gen: kergütedävide
-     kergütämä+V+Pss+PrsPrc+Pl+Par: kergütedävit
-     kergütämä+V+Pss+PrsPrc+Pl+Ill: kergütedävihe
+     kergütämä+V+Pss+PrsPrc+Pl+Gen: [kergütedävide, kergütedäviide]
+     kergütämä+V+Pss+PrsPrc+Pl+Par: [kergütedävit, kergütedäviid]
+     kergütämä+V+Pss+PrsPrc+Pl+Ill: [kergütedävihe, kergütedäviihe]
 
      kergütämä+V+Act+PrfPrc+Sg+Nom: kergütänüq
      kergütämä+V+Act+PrfPrc+Sg+Gen: kergütänü
      kergütämä+V+Act+PrfPrc+Sg+Par: kergütänüt
      kergütämä+V+Act+PrfPrc+Sg+Ill: kergütänühe
      kergütämä+V+Act+PrfPrc+Pl+Nom: kergütänüq
-     kergütämä+V+Act+PrfPrc+Pl+Gen: kergütänüide
-     kergütämä+V+Act+PrfPrc+Pl+Par: kergütänüid
-     kergütämä+V+Act+PrfPrc+Pl+Ill: kergütänüihe
+     kergütämä+V+Act+PrfPrc+Pl+Gen: [kergütänüide, kergütänüisi]
+     kergütämä+V+Act+PrfPrc+Pl+Par: [kergütänüid, kergütänüisi]
+     kergütämä+V+Act+PrfPrc+Pl+Ill: [kergütänüihe, kergütänüisihe]
 
      kergütämä+V+Pss+PrfPrc+Sg+Nom: [kergütet, kergütedü]
      kergütämä+V+Pss+PrfPrc+Sg+Gen: kergütedü
      kergütämä+V+Pss+PrfPrc+Sg+Par: kergütedüt
      kergütämä+V+Pss+PrfPrc+Sg+Ill: kergütedühe
      kergütämä+V+Pss+PrfPrc+Pl+Nom: kergütedüq
-     kergütämä+V+Pss+PrfPrc+Pl+Gen: kergütedüide
-     kergütämä+V+Pss+PrfPrc+Pl+Par: kergütedüid
-     kergütämä+V+Pss+PrfPrc+Pl+Ill: kergütedüihe
+     kergütämä+V+Pss+PrfPrc+Pl+Gen: [kergütedüide, kergütedüisi]
+     kergütämä+V+Pss+PrfPrc+Pl+Par: [kergütedüid, kergütedüisi]
+     kergütämä+V+Pss+PrfPrc+Pl+Ill: [kergütedüihe, kergütedüisihe]
 
