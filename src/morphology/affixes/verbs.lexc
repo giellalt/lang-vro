@@ -433,13 +433,13 @@ LEXICON V_58HIRNAHTAMA/TÄHENDÄMÄ !!≈ * __@CODE@__ hirnahtama:hirnahta, täh
 
 LEXICON V_59KAOTAMA !!≈ * __@CODE@__ kaotama:kaota
 !!
-+V:%{back%} V_59KAOTAMA/KERGÜTÄMÄ ;
-LEXICON V_59KERGÜTÄMÄ
++V:%{back%} V_59KAOTAMA/KERGUETAEMAE ;
+LEXICON V_59KERGUETAEMAE
 !! Based on 59KAOTAMA
 !! * Yaml: __kerguetaemae__
-+V:%{front%} V_59KAOTAMA/KERGÜTÄMÄ ;
++V:%{front%} V_59KAOTAMA/KERGUETAEMAE ;
 
-LEXICON V_59KAOTAMA/KERGÜTÄMÄ !!≈ * __@CODE@__ kaotama:kaota
+LEXICON V_59KAOTAMA/KERGUETAEMAE !!≈ * __@CODE@__ kaotama:kaota
 :%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ; !!= * @CODE@ +Act+Ind+Prs+Sg1: kaoda
 !! +Act+Ind+Prs+Sg1, +Act+Ind+ConNegII, +Act+Imprt+Sg2
 
@@ -667,6 +667,7 @@ LEXICON V_64PUHKSAMA/REHKSÄMÄ
 
 :%^Pen%^VowRM ACT-IND-PRT-12_i ;
 +Act+Ind+Prt+Sg3:%^Pen%^WGStem%^PAL K ;
++Err/Orth-no-pal+Act+Ind+Prt+Sg3:%^Pen%^WGStem K ;
 :%^Pen%^VowRM%>i ACT-IND-PRT-PL3_q/vAq ;
 
 :%^Pen%^VowRM%>%{aä%} ACT-IND-CONNEG ;
@@ -1373,6 +1374,7 @@ LEXICON V_79TULÕMA/XX !!≈ * __@CODE@__ tulõma:tul
 
 !! Strengthen consonant and add ʼ
 :%{XC%}%^PAL Harm-Neutr_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tulĺ
++Err/Orth-no-pal:%{XC%} Harm-Neutr_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tulĺ
 !! Act+Ind+Prt+Sg3
 
 LEXICON V_79PURÕMA !!≈ * __@CODE@__ purõma:pur
@@ -1518,6 +1520,7 @@ LEXICON V_80RAPAHUTMA/HÄMMÄHÜTMÄ !!= * @CODE@ rapahutma:rapahuta
 
 !! Strengthen consonant and add ʼ
 :%^VowRM%^PAL Harm-Neutr_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) rapahut
++Err/Orth-no-pal:%^VowRM Harm-Neutr_LUGÕMA_IND-PRT-SG3 ; !!= * @CODE@ (8) rapahut
 !! Act+Ind+Prt+Sg3
 
 
@@ -1922,27 +1925,36 @@ LEXICON V_86EHTJMÄ !!≈ * __@CODE@__ eht́mä:ehti
 LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * __@CODE@__ eht́mä:eh%{tt́%}
 :%^WGStem%>i ACT-IND-PRS-12 ;
 +Act+Ind+Prs+Sg3:%^PAL K ;
++Err/Orth-no-pal+Act+Ind+Prs+Sg3: K ;
 :%^PAL ACT-IND-PRS-PL3_vAq ;
++Err/Orth-no-pal: ACT-IND-PRS-PL3_vAq ;
 :%^WGStem%>i Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
 !: ACT-IND-PRT-12_i ;
 :%^WGStem%>e ACT-IND-PRT-1/2_ZERO ;
 :%^PAL%>s%{eõ%} ACT-IND-PRT-1/2_ZERO ;
++Err/Orth-no-pal:%>s%{eõ%} ACT-IND-PRT-1/2_ZERO ;
 
 : ACT-IND-PRT-SG3_E ;
 +Act+Ind+Prt+Sg3:%^PAL%>s%{eõ%} K ;
++Err/Orth-no-pal+Act+Ind+Prt+Sg3:%>s%{eõ%} K ;
 :%^PAL%>s%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
++Err/Orth-no-pal:%>s%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
 :%^WGStem%>e ACT-IND-PRT-PL3_q/vAq ;
 :%^WGStem%>i Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 :%^CC2C%^PAL Harm-Neutr_INF_mA ;
++Err/Orth-no-pal:%^CC2C Harm-Neutr_INF_mA ;
 :%>i Harm-Neutr_INF_ZEROq ;
 :%^PAL ACT-PRSPRC_vA ;
++Err/Orth-no-pal: ACT-PRSPRC_vA ;
 :%^PAL ACT-PRFPRC-ALL_nUq ;
++Err/Orth-no-pal: ACT-PRFPRC-ALL_nUq ;
 :%^WGStem%>i Harm-Neutr_V0-PSS-PRSPRC_tAv ;
 :%^WGStem%>i Harm-Neutr_PSS-PRFPRC_t ;
 :%^WGStem%>i PSS-PRFPRC_tU-SG-NOM ;
 :%^PAL MUTUAL_JUS_kuq ;
++Err/Orth-no-pal: MUTUAL_JUS_kuq ;
 
 LEXICON V_87KOSIMA !!≈ * __@CODE@__ kosima:ko%{sØ%}si
 !! * Yaml: __V-kosima__
@@ -2288,6 +2300,7 @@ LEXICON ACT-IND-PRT-SG3_i
 
 LEXICON ACT-IND-PRT-SG3_APOSTROPHE
 +Act+Ind+Prt+Sg3:%^PAL K ;
++Err/Orth-no-pal+Act+Ind+Prt+Sg3: K ;
 
 LEXICON ACT-IND-PRT-SG3_iE
 +Act+Ind+Prt+Sg3:%>i%{eõ%} K ;
@@ -2618,8 +2631,8 @@ LEXICON Harm-Neutr_KAOTAMA-PSS-PRFPRC_t
 +Err/Orth+Use/NG+Pss+PrfPrc+Pl+Gen:%>d%{uü%}isi K ;
 +Pss+PrfPrc+Pl+Par:%>d%{uü%}id K ;
 +Err/Orth+Use/NG+Pss+PrfPrc+Pl+Par:%>d%{uü%}isi K ;
-+Pss+PrfPrc+Pl+Ill:%>d%{uü%}isihe K ;
-+Err/Orth+Use/NG+Pss+PrfPrc+Pl+Ill:%>d%{uü%}ihe K ;
++Pss+PrfPrc+Pl+Ill:%>d%{uü%}ihe K ;
++Err/Orth+Use/NG+Pss+PrfPrc+Pl+Ill:%>d%{uü%}isihe K ;
 +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ; !!= * @CODE@ no q
 
 LEXICON PSS-PRFPRC_d

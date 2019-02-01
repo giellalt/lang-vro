@@ -86,8 +86,9 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{gǵØ%}:g   !!= @CODE@
  %{kḱg%}:k   !!= @CODE@
  %{kḱØ%}:k   !!= @CODE@
- %{pṕb%}:p   !!= @CODE@
- %{pṕØ%}:p   !!= @CODE@
+ %{pṕb%}:p   !!= @CODE@
+ %{tt́d%}:t   !!= @CODE@
+ %{pṕØ%}:p   !!= @CODE@
 
 !! }}}
 
@@ -436,9 +437,9 @@ Rules
 !! !PALATALIZATION
 "n2ń palatalization all"
 !! __@RULENAME@__
- Cx:Cy <=> _ [(HarmDummies:) (%^VOWRaise:|%^CC2C:) %^PAL:| (HarmDummies:) %^Pen: %^WGStem: %^PAL:| Vow: Cns:* (HarmDummies:) %^Pen: %^PAL:] ;
-       	     where Cx in (%{bb́%} %{dd́%} %{ff́%} %{gǵ%} %{hh́%}  %{lĺ%} %{mḿ%} %{nń%} %{pṕ%} %{rŕ%} %{sś%} %{tt́%} %{vv́%} %{zź%})
-	           Cy in (b́   d́   f́  ǵ  h́   ĺ  ḿ  ń  ṕ  ŕ  ś  t́  v́  ź) matched ;
+ Cx:Cy <=> _ [(HarmDummies:) (%^VOWRaise:|%^CC2C:) %^PAL:| (HarmDummies:) %^Pen: %^WGStem: %^PAL:| Vow: Cns:* (HarmDummies:) %^Pen: %^PAL: | Vow: (HarmDummies:) %^VowRM: %^PAL: ] ;
+       	     where Cx in (%{bb́%} %{dd́%} %{ff́%} %{gǵ%} %{hh́%}  %{lĺ%} %{mḿ%} %{nń%} %{pṕ%} %{rŕ%} %{sś%} %{tt́%} %{tt́d%} %{vv́%} %{zź%})
+	           Cy in (b́   d́   f́  ǵ  h́   ĺ  ḿ  ń  ṕ  ŕ  ś  t́ t́  v́  ź) matched ;
 
 
 "{dd́n}:d́ palatalization for 3-way"
@@ -1159,6 +1160,17 @@ k:0 <=>
 !!€ kaoda0
    Vow _ (ʼ)[ [Vow|ArchVow:] (Cns:* |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
    Cns _ [Vow:|ArchVow:] Cns (HarmDummies:) %^Pen: %^WGStem: ;
+
+"%{tt́d%}:d"
+!! __@RULENAME@__
+ %{tt́d%}:d <=>
+         Vow _ [[Vow:|ArchVow:] (HarmDummies:) %^Pen: %^WGStem:|(HarmDummies:) %^WGStem: (%>) :Vow ] ;
+!! kergütämä+V+Act+Ind+Prs+Sg1:
+!!€ kergü%{tt́d%}ä%^Pen%^WGStem
+!!€ kergüdä00
+   Vow _ [ [Vow|ArchVow:] (Cns:* |i:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
+   Cns _ [Vow:|ArchVow:] Cns (HarmDummies:) %^Pen: %^WGStem: ;
+
 
 "rToZero"
 !! __@RULENAME@__
