@@ -416,9 +416,6 @@ And following triggers to control variation
 
  __%^D2S	  __ käsi, susi
  %^TS2S  The -ts- => -s-
- %^ʼ2Õ  The ʼ => õ change
- %^ʼ2E  The ʼ => e change
- %^ʼ2I  The ʼ => i change
  %^I2ʼ  The i => ʼ change
  %^I2J  The i => j change
 
@@ -534,6 +531,7 @@ less complex word classes
   %{ou%}:o    — Vowel raising
   %{ei%}:e    — Vowel raising
   %{õy%}:õ    — Vowel raising
+
   %{eʼ%}:e    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{õʼ%}:õ    — HJK and KimmoK ideas kana:ka%{nØ%}na
 
@@ -654,18 +652,15 @@ less complex word classes
  %^NoGrad:0     — This will be placed after a stem to break Gradation
  %^APOCH:0      — This causes apochope: puhksama vs puhastaq
  %^StrD2T:0     — This changes g,d,b => k,t,p
- %^WGStem:0     — This weakens "kipõnʼ" to "kibõna", "ompel" to "ommel"
+ %^WGStem:0     — This weakens "kipõń" to "kibõna", "ompel" to "ommel"
  %^StrGStem:0   — This strengthens "perädü" to "perätüt"
  %^XStrGStem:0  — This extra-strengthens "sõda" to "sõtta"
  %^Pen:0        — This moves us to penultimate coda
- %^PenWGStem:0  — This weakens "kipõnʼ" to "kibõna"
+ %^PenWGStem:0  — This weakens "kipõń" to "kibõna"
  %^PenVowRM:0   — syncope tapõld : taplõma 
  %^PAL:0	       — Palatalization
  %^D2S:0        — The ti => si
  %^TS2S:0       — The -ts- => -s-
- %^ʼ2Õ:0        — The ʼ => õ change
- %^ʼ2E:0        — The ʼ => e change
- %^ʼ2I:0        — The ʼ => i change
  %^I2ʼ:0        — The i => ʼ change
  %^I2J:0        — The i => j change
  %^PLPRT:0      — The a:o attested in Plural kana:kanno and prt
@@ -805,6 +800,10 @@ __ö:ü__
 !PALATALIZATION
 __n2ń palatalization all__
 
+asi+N+Sg+Gen:
+* __a%{sś%}%{jiØ%}%^PAL%^VowRM%>%{aä%} __
+* __aś000%>a __
+
 
 __{dd́n}:d́ palatalization for 3-way__
 
@@ -830,28 +829,11 @@ püüdmä+V+Act+Ind+Prs+Sg1
 
 !VOWEL CHANGE WITH PLURAL
 
-__ʼ2õ__
-{{{
-* __hangʼ%^WGStem%^ʼ2Õ# __
-* __hangõ00# __
-}}}
-
-__ʼ2e__
-{{{
-* __särgʼ%^WGStem# __
-* __sär0e0# __
-}}}
-
-__ʼ2i__
-{{{
-* __särgʼ%^WGStem%^ʼ2I __
-* __särgi00 __
-}}}
 
 
 __e2i̬__
-* __keel%^VOWRaiseʼ __
-* __ki̬i̬l0ʼ __
+* __keel%^VOWRaise%^PAL __
+* __ki̬i̬ĺ00 __
 tegemä+V+Act+Ind+Prs+Sg1: __do__
 * __teg%{front%}%^WGStem%>e __
 * __ti̬000%>i̬ __
