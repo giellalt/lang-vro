@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
   xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
     App: lookup
 
 Tests:
@@ -21,7 +21,7 @@ Tests:
      kubõl+N+Sg+Gen: kubla
      kubõl+N+Sg+Par: kupla
      kubõl+N+Sg+Ill: kupla
-     kubõl+N+Sg+Ine: kublan
+     kubõl+N+Sg+Ine: [kublan, kublah, kublahn]
      kubõl+N+Sg+Ela: kublast
      kubõl+N+Sg+All: kublalõ
      kubõl+N+Sg+Ade: kublal
@@ -34,7 +34,7 @@ Tests:
      kubõl+N+Pl+Gen: kuplõ
      kubõl+N+Pl+Par: kuplõ
      kubõl+N+Pl+Ill: [kuplõhe, kuplõ, kuplõdõ]
-     kubõl+N+Pl+Ine: kublõn
+     kubõl+N+Pl+Ine: [kublõn, kublõh, kublõhn]
      kubõl+N+Pl+Ela: kublõst
      kubõl+N+Pl+All: kublõlõ
      kubõl+N+Pl+Ade: kublõl
