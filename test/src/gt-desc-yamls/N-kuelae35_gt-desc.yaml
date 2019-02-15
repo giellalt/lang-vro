@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
   xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
     App: lookup
 
 Tests:
@@ -21,7 +21,7 @@ Tests:
      külä+N+Sg+Gen: külä
      külä+N+Sg+Par: küllä
      külä+N+Sg+Ill: küllä
-     külä+N+Sg+Ine: külän
+     külä+N+Sg+Ine: [külän, küläh, külähn]
      külä+N+Sg+Ela: küläst
      külä+N+Sg+All: küläle
      külä+N+Sg+Ade: küläl
@@ -34,7 +34,7 @@ Tests:
      külä+N+Pl+Gen: külli
      külä+N+Pl+Par: külli
      külä+N+Pl+Ill: [küllihe, külli]
-     külä+N+Pl+Ine: [külin, küllin]
+     külä+N+Pl+Ine: [külin, külih, külihn, küllin, küllih, küllihn]
      külä+N+Pl+Ela: [külist, küllist]
      külä+N+Pl+All: [külile, küllile]
      külä+N+Pl+Ade: [külil, küllil]

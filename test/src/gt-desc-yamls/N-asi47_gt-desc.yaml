@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
   xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
     App: lookup
 
 Tests:
@@ -21,7 +21,7 @@ Tests:
      asi+N+Sg+Gen: aśa
      asi+N+Sg+Par: asja
      asi+N+Sg+Ill: asja
-     asi+N+Sg+Ine: aśan
+     asi+N+Sg+Ine: [aśan, aśah, aśahn]
      asi+N+Sg+Ela: aśast
      asi+N+Sg+All: aśalõ
      asi+N+Sg+Ade: aśal
@@ -33,8 +33,8 @@ Tests:
      asi+N+Pl+Nom: aśaq
      asi+N+Pl+Gen: asjo
      asi+N+Pl+Par: asjo
-     asi+N+Pl+Ill: asjohe
-     asi+N+Pl+Ine: aśon
+     asi+N+Pl+Ill: [asjohe, asjo, asjodõ]
+     asi+N+Pl+Ine: [aśon, aśoh, aśohn]
      asi+N+Pl+Ela: aśost
      asi+N+Pl+All: aśolõ
      asi+N+Pl+Ade: aśol
