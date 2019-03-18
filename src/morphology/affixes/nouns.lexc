@@ -511,8 +511,8 @@ LEXICON N_12REPAEN1-PL
 +N:%{front%} NMN_12REPAEN1-PL ;
 
 LEXICON N_12HOPWN1
-+N:%^PAL	ATTESTED-NOUN-STEM-CONTINUED ;
-+Err/Orth-no-pal+N:	ATTESTED-NOUN-STEM-CONTINUED ;
++N:n%^PAL	ATTESTED-NOUN-STEM-CONTINUED ;
++Err/Orth-no-pal+N:n	ATTESTED-NOUN-STEM-CONTINUED ;
  N_12HOPWN1-SG ;
  N_12HOPWN1-PL ;
 LEXICON N_12HOPWN1-SG
@@ -2153,7 +2153,7 @@ LEXICON NMN_8SADANG-PL
 
 LEXICON NMN_8DOLLAR1/EEDER1-SG 
 :%^PAL%^VowRM        Harm-Neutr_SG-NOM  ;
-+Err/Orth-no-pal:%^PAL        Harm-Neutr_SG-NOM  ;
++Err/Orth-no-pal:        Harm-Neutr_SG-NOM  ;
         SG-GEN_ZERO-STEM       ;
         Harm-Neutr_SG-PAR_t        ;
         Harm-Neutr_SG-ILL_he       ;
@@ -2231,6 +2231,7 @@ LEXICON NMN_36LAEHK-PL
 
 LEXICON NMN_36KATS1/UETS1-SG
 :ś        Harm-Neutr_SG-NOM  ;
++Err/Orth-no-pal:s        Harm-Neutr_SG-NOM  ;
 :%>%{eõ%}        SG-GEN_ZERO-STEM       ;
 :t%>%{eõ%}        Harm-Neutr_SG-ILL_ZERO       ;
 :t%>%{eõ%}        Harm-Neutr_SG-PAR_ZERO        ;
@@ -2989,6 +2990,7 @@ LEXICON NMN_12REPAEN1-PL
 
 LEXICON NMN_12HOPWN1-SG 
 :ń        Harm-Neutr_SG-NOM  ;
++Err/Orth-no-pal:n        Harm-Neutr_SG-NOM  ;
 :%^Pen%^WGStem%>sõ       SG-GEN_ZERO-STEM        ;
 :%^Pen%^WGStem%>s       Harm-Neutr_SG-PAR_t        ;
 :%^Pen%^WGStem%>sõ       Harm-Neutr_SG-ILL_he       ;
