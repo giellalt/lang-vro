@@ -225,7 +225,7 @@ CnsVoiced = j l m n r v ;
 
 ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} ;
 
-ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pb%} %{td%} %{kg%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{sś%} %{lĺ%} %{rŕ%} %{nń%} %{ij%} %{kḱ%} ;
+ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pb%} %{td%} %{kg%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{sś%} %{lĺ%} %{rŕ%} %{nń%} %{ij%} %{kḱ%} %{hh́%} ;
 
 ArchCnsInZero =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pbØ%} %{tdØ%} %{kgØ%} ;
 
@@ -348,10 +348,10 @@ Rules
  u:o <=>
 !   u: _ (HarmDummies:) %^VOWLower: ;
 ! OnSetC   _ u: (HarmDummies:) %^VOWLower: ;
- OnSetC _ [CnsInZero:|%{pbØ%}:|%{tdØ%}:|%{kgØ%}:] VowInZero: (HarmDummies:) %^VOWLower: %^Pen: %^WGStem: %^VowRM:    ;
- OnSetC _ [CnsInZero: |%{pbØ%}:|%{tdØ%}:|%{kgØ%}:] Vow:e (HarmDummies:) %^VOWLower: %^Pen: %^WGStem:    ;
-!!€ lugõ%^VOWLower%^Pen%^WGStem%^VowRM%>i
-!!€ lo000000%>i
+ OnSetC _ [CnsInZero:|%{pbØ%}:|%{tdØ%}:|%{kgØ%}:] VowInZero: (HarmDummies:) %^Pen: %^VOWLower: %^Pen: %^WGStem: %^VowRM:    ;
+ OnSetC _ [CnsInZero: |%{pbØ%}:|%{tdØ%}:|%{kgØ%}:] Vow:e (HarmDummies:) %^Pen: %^VOWLower: %^Pen: %^WGStem:    ;
+!!€ lugõ%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i
+!!€ lo0000000%>i
  OnSetC _ (HarmDummies:) e %^VOWLower: ;
 
 "ü:ö"
@@ -585,9 +585,9 @@ Rules
      e _ Cns: (HarmDummies:) %^ÄI2ÄÄ: ;
 !!€ leib%^ÄI2ÄÄ%^WGStem%>ä
 !!€ leev0%>ä
-  Cns* _ %{tdØ%}: ä: (HarmDummies:) %^VOWLower: ;
+  Cns* _ %{tdØ%}: ä: (HarmDummies:) %^Pen: %^VOWLower: ;
 !!pidämä+V+Pss+Ind+Prs+Sg3: 
-!!€ pi%{tdØ%}ä%{back%}%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>t%{aä%}s
+!!€ pi%{tdØ%}ä%{front%}%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>t%{aä%}s
 !!€ pe0000000e%>täs
 
 
