@@ -1367,6 +1367,15 @@ LEXICON N_37WLI-SG
 LEXICON N_37WLI-PL
 +N:%{back%}     NMN_37WLI/PINI-PL ;
 
+LEXICON N_37MUNA !!= @CODE@ muna:mu%{nØ%}na
++N:	ATTESTED-NOUN-STEM-CONTINUED ;
+        N_37MUNA-SG ;
+        N_37MUNA-PL ;
+LEXICON N_37MUNA-SG
++N:%{back%}     NMN_37MUNA/PINI-SG ;
+LEXICON N_37MUNA-PL
++N:%{back%}     NMN_37MUNA/PINI-PL ;
+
 LEXICON N_38PUNG
 +N:	ATTESTED-NOUN-STEM-CONTINUED ;
  N_38PUNG-SG ;
@@ -4600,6 +4609,28 @@ LEXICON NMN_37WLI/PINI-SG
 :       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_37WLI/PINI-PL 
+:%^Pen%^WGStem       Harm-Neutr_PL-NOM ;
+:%^VowRM%>%{eõ%}    PL-GEN_ZERO ;
+:%^VowRM%>%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
+:%^VowRM%>%{eõ%}    Harm-Neutr_PL-ILL_ZERO ;
+:%^VowRM%>%{eõ%}    PL-ILL_he ;
+:%^VowRM%>%{eõ%}    PL-ILL_dE ;
+:%^VowRM%>%{eõ%}  PL-ALL_lE-STEM ;
+:%^Pen%^WGStem%^VowRM%>%{eõ%}  PL-ALL_lE-STEM ;
+:%^VowRM%>%{eõ%} PL-COM ;
+
+!LEXICON NMN_37WLI/PINI
+!! pini:pi%{nØ%}ni
+!  NMN_37WLI/PINI-SG ;
+!  NMN_37WLI/PINI-PL ;
+
+LEXICON NMN_37MUNA/PINI-SG 
+:%^Pen%^WGStem        Harm-Neutr_SG-NOM  ;
+:%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;
+:       Harm-Neutr_SG-ILL_ZERO        ;
+:       Harm-Neutr_SG-PAR_ZERO        ;
+
+LEXICON NMN_37MUNA/PINI-PL 
 :%^Pen%^WGStem       Harm-Neutr_PL-NOM ;
 :%^VowRM%>%{eõ%}    PL-GEN_ZERO ;
 :%^VowRM%>%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
