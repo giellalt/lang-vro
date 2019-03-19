@@ -626,7 +626,7 @@ Rules
 "ä:0"
 !! __@RULENAME@__
  ä:0 <=>  [ Cns: | :Cns | ArchCns:] _ (s:) (HarmDummies:) [ (0:) (%^Pen: %^CC2C:) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
-    _ (HarmDummies:) (%^VOWLower:) (%^Pen: (%^WGStem:|%^StrGStem:|%^XStrGStem:)) %^VowRM: ;
+    _ (HarmDummies:) ((%^Pen: ) %^VOWLower:) (%^Pen: (%^WGStem:|%^StrGStem:|%^XStrGStem:)) %^VowRM: ;
 !  [ Cns: | :Cns ] _ (HarmDummies:) [ (0:|:0+) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
                         ä _ (HarmDummies:) (%^VOWRaise:) %^VowRM:  ;
 !!€ jää%^VOWRaise%^VowRM%>i
@@ -1469,13 +1469,13 @@ k:0 <=>
          Vow _ s [ [Vow:|ArchVow:] (HarmDummies:) %^Pen:| (HarmDummies:)] %^WGStem:  ;
 !!€ hüdsi%^TS2S%^VowRM%>te
 !!€ hü0s000%>te
-          Vow: _ [[Vow:|ArchVow:] (HarmDummies:) PenBetweenStemAndPenGrade %^Pen:|(HarmDummies:) (%^VOWLower:) ] %^WGStem: ;
+          Vow: _ [[Vow:|ArchVow:] (HarmDummies:) ((%^Pen:) %^VOWLower:) %^Pen:|(HarmDummies:) (%^VOWLower:) ] %^WGStem: ;
 
 
 "%{kgØ%}:0"
 !! __@RULENAME@__
  %{kgØ%}:0 <=> 
-   Vow: _ [[Vow:|ArchVow:] (HarmDummies:) (%^VOWLower:) %^Pen:| (HarmDummies:) (%^VOWLower:) ] %^WGStem: ;
+   Vow: _ [[Vow:|ArchVow:] (HarmDummies:) ((%^Pen:) %^VOWLower:) %^Pen:| (HarmDummies:) (%^VOWLower:) ] %^WGStem: ;
 
 "j20"
 !! __@RULENAME@__
