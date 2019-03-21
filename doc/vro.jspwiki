@@ -37,7 +37,7 @@ The parts-of-speech are:
  * __+Adv__ Adverb
  * __+V	__ Verb
 
- * __+Pron__ Pronon
+ * __+Pron__ Pronoun
  * __+CS	__ subjunction
  * __+CC	__ Correlating conjunction
  * __+Det__ Determiners
@@ -177,6 +177,34 @@ Question and Focus particles:
 
  * __+Qst__
  * __+Foc__
+
+
+
+!Tags distinguishing different versions of the same lemma (before POS)
+ * +v1
+ * +v2
+ * +v3
+ * +v4
+ * +v5
+ * +v6
+ * +v7
+ * +v8
+ * +v9
+ * +v10
+ * +v11
+ * +v12
+ * +v13
+ * +v14
+ * +v15
+ * +v16
+ * +v17
+ * +v18
+ * +v19
+ * +v20
+ * +v21
+ * +v22
+ * +v23
+ * +v24
 
 
  * __+Sem/Act__ Activity
@@ -830,6 +858,13 @@ püüdmä+V+Act+Ind+Prs+Sg1
 * __pü%{üv%}%{dd́v%}%{front%}%^WGStem%>%{aä%} __
 * __püvv00%>ä __
 
+__%{kḱg%}:ḱ__
+
+kõiḱ+Pron+Sg+Nom
+* __kõi%{kØ%}%{kḱg%}%^CC2C%^PAL __
+* __kõi0ḱ00 __
+
+
 !VOWEL CHANGE WITH PLURAL
 
 
@@ -1163,6 +1198,10 @@ kakma:
 * __ka%{kØ%}%{kḱ%}u%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%} __
 * __ka0k00000%>ma __
 
+kõiḱ+Pron+Sg+Nom
+* __kõi%{kØ%}%{kḱg%}%^CC2C%^PAL __
+* __kõi0ḱ00 __
+
 __pToZero__
 * __tapp%{back%}%^CC2C%>m%{aä%} __
 * __tap000%>ma __
@@ -1324,6 +1363,12 @@ __nTod__
 
 
 __j2i__
+
+__{kḱg}:g __
+kõiḱ+Pron+Sg+Gen
+* __kõi%{kØ%}%{kḱg%}%{back%}%^WGStem%>%{eõ%} __
+* __kõi0g00%>õ __
+
 
 __k2g__
 * __hõrak%^WGStem%>a __

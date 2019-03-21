@@ -482,6 +482,15 @@ Rules
 !!€ pü%{üv%}%{dd́v%}%{front%}%^WGStem%>%{aä%}
 !!€ püvv00%>ä
 
+"%{kḱg%}:ḱ"
+!! __@RULENAME@__
+ %{kḱg%}:ḱ <=> _   (HarmDummies:)  %^CC2C: %^PAL:  ;
+
+!! kõiḱ+Pron+Sg+Nom
+!!€ kõi%{kØ%}%{kḱg%}%^CC2C%^PAL
+!!€ kõi0ḱ00
+
+
 !! !VOWEL CHANGE WITH PLURAL
 
 
@@ -1066,6 +1075,11 @@ k:0 <=>
 !! kakma:
 !!€ ka%{kØ%}%{kḱ%}u%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%}
 !!€ ka0k00000%>ma
+  _ %{kḱg%}: (HarmDummies:) [ %^CC2C: | %^WGStem: ] ;
+
+!! kõiḱ+Pron+Sg+Nom
+!!€ kõi%{kØ%}%{kḱg%}%^CC2C%^PAL
+!!€ kõi0ḱ00
 
 "pToZero"
 !! __@RULENAME@__
@@ -1337,6 +1351,14 @@ k:0 <=>
 "j2i"
 !! __@RULENAME@__
  j:i <=> :Vow (HarmDummies:) %> _ [ # | %- ];
+
+"{kḱg}:g "
+!! __@RULENAME@__
+ %{kḱg%}:g <=> _ (HarmDummies:) %^WGStem: ;
+!! kõiḱ+Pron+Sg+Gen
+!!€ kõi%{kØ%}%{kḱg%}%{back%}%^WGStem%>%{eõ%}
+!!€ kõi0g00%>õ
+
 
 "k2g"
 !! __@RULENAME@__
