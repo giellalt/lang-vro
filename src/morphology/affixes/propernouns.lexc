@@ -818,6 +818,17 @@ LEXICON PROP_35PESAE-SG
 LEXICON PROP_35PESAE-PL
 :%{front%} NMN_35UMA/PESAE-PL ;
 
+LEXICON PROP_36TUUM1-PLC !!= @CODE@ tuuḿ:t%{ou%}%{ou%}m
+:%^VOWLower%>õ PROP-PLC-DOWNCASE-SG-GEN ;
+@U.Cap.Obl@ PROP_36TUUM1-PLC-SG ;
+@U.Cap.Obl@ PROP_36TUUM1-PLC-PL ;
+LEXICON PROP_36TUUM1-PLC-SG
+:%{back%} NMN_36TUUM1/XX1-SG-OBL ; !!= @CODE@ This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
+:%{back%}%^VOWLower%^WGStem%>%{eõ%} Harm-Neutr_SG-NOM ;
+
+LEXICON PROP_36TUUM1-PLC-PL
+:%{back%}     NMN_36TUUM1/XX1-PL ; 
+
 !LEXICON PROP_36HANG1 !!= @CODE@ hanǵ:hangʼ
 !:%>õ PROP-PLC-DOWNCASE-SG-GEN ;
 !@U.Cap.Obl@ PROP_36HANG1-SG ;
