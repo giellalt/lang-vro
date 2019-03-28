@@ -1,0 +1,44 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `laskma: # Verb (84) `laskma 'eng /est /fin' - full paradigm
+     laskma+V+Inf/mA: laskma
+     laskma+V+Inf: laskõq
+     laskma+V+Act+PrfPrc: lasknuq
+     laskma+V+Pss+PrfPrc: [last, lastu]
+
+     laskma+V+Act+Ind+Prs+Sg1: lasõ
+     laskma+V+Act+Ind+Prs+Sg2: [lasõt, lasõdõq]
+     laskma+V+Act+Ind+Prs+Sg3: lask
+     laskma+V+Act+Ind+Prs+Pl1: lasõmiq
+     laskma+V+Act+Ind+Prs+Pl2: lasõtiq
+     laskma+V+Act+Ind+Prs+Pl3: laskvaq
+     laskma+V+Act+Ind+ConNegII: lasõ
+     laskma+V+Act+Ind+Prt+Sg1: [lasi, lasksõ]
+     laskma+V+Act+Ind+Prt+Sg2: [lasit, lasiq, lasidõq, lasksõt, lasksõq, lasksõdõq]
+     laskma+V+Act+Ind+Prt+Sg3: [lasḱ, lasksõ]
+     laskma+V+Act+Ind+Prt+Pl1: [lasimiq, lasksõmiq]
+     laskma+V+Act+Ind+Prt+Pl2: [lasitiq, lasksõtiq]
+     laskma+V+Act+Ind+Prt+Pl3: [lasiq, lasivaq, lasksõq, lasksõvaq]
+
+     laskma+V+Pss+Ind+Prs+Sg1: lasta
+     laskma+V+Pss+Ind+Prs+Sg3: lastas
+
+     laskma+V+Act+PrsPrc+Sg+Nom: laskva
+
+     laskma+V+Jus: laskuq
