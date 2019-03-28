@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - helisemä: # Verb (50) helisemä 'eng /est /fin' - full paradigm
+     helisemä+V+Inf/mA: helisemä
+     helisemä+V+Inf: helistäq
+     helisemä+V+Act+PrfPrc: helisnüq
+     helisemä+V+Pss+PrfPrc: [helist, helistü]
+
+     helisemä+V+Act+Ind+Prs+Sg1: helise
+     helisemä+V+Act+Ind+Prs+Sg2: [heliset, helisedeq]
+     helisemä+V+Act+Ind+Prs+Sg3: helises
+     helisemä+V+Act+Ind+Prs+Pl1: helisemiq
+     helisemä+V+Act+Ind+Prs+Pl2: helisetiq
+     helisemä+V+Act+Ind+Prs+Pl3: heliseseq
+     helisemä+V+Act+Ind+ConNegII: helise
+     helisemä+V+Act+Ind+Prt+Sg1: helisi
+     helisemä+V+Act+Ind+Prt+Sg2: [helisit, helisideq, helisiq]
+     helisemä+V+Act+Ind+Prt+Sg3: helisi
+     helisemä+V+Act+Ind+Prt+Pl1: helisimiq
+     helisemä+V+Act+Ind+Prt+Pl2: helisitiq
+     helisemä+V+Act+Ind+Prt+Pl3: [helisiq, helisiväq]
+
+     helisemä+V+Pss+Ind+Prs+Sg3: helisedäs
+
+     helisemä+V+Act+PrsPrc+Sg+Nom: helisev
+
+     helisemä+V+Jus: heliskuq

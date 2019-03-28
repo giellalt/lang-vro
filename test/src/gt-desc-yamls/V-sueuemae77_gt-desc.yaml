@@ -1,0 +1,85 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `süümä: # Verb (77) `süümä 'eng /est /fin' - full paradigm
+     süümä+V+Inf/mA: süümä
+     süümä+V+Inf: süvväq
+     süümä+V+Act+Ind+Prs+Sg1: süü
+     süümä+V+Act+Ind+Prs+Sg2: [süüt, süüdeq]
+     süümä+V+Act+Ind+Prs+Sg3: [süü, sööse]
+     süümä+V+Act+Ind+Prs+Pl1: söömiq
+     süümä+V+Act+Ind+Prs+Pl2: [süütiq, süüdeq]
+     süümä+V+Act+Ind+Prs+Pl3: sööväq
+     süümä+V+Act+Ind+ConNegII: süü
+     süümä+V+Pss+Ind+Prs+Sg1: süvvä
+     süümä+V+Pss+Ind+Prs+Sg2: [süvvät, süvvädeq]
+     süümä+V+Pss+Ind+Prs+Sg3: süvväs
+     süümä+V+Pss+Ind+Prs+Pl1: süvvämiq
+     süümä+V+Pss+Ind+Prs+Pl2: süvvätiq
+     süümä+V+Pss+Ind+Prs+Pl3: süvväseq
+     süümä+V+Pss+Ind+ConNegII: süvvä
+
+     süümä+V+Act+Ind+Prt+Sg1: [sei, seie]
+     süümä+V+Act+Ind+Prt+Sg2: [seit, seiet, seiq, seieq, seideq, seiedeq]
+     süümä+V+Act+Ind+Prt+Sg3: [sei, seie]
+     süümä+V+Act+Ind+Prt+Pl1: [seimiq, seiemiq]
+     süümä+V+Act+Ind+Prt+Pl2: [seitiq, seietiq]
+     süümä+V+Act+Ind+Prt+Pl3: [seiq, seieq, seiväq, seieväq]
+     süümä+V+Act+Ind+ConNegII: süü
+     süümä+V+Pss+Ind+Prt+Sg1: süvvi
+     süümä+V+Pss+Ind+Prt+Sg2: [süvvit, süvviq, süvvideq]
+     süümä+V+Pss+Ind+Prt+Sg3: süüdi
+     süümä+V+Pss+Ind+Prt+Pl1: süvvimiq
+     süümä+V+Pss+Ind+Prt+Pl2: süvvitiq
+     süümä+V+Pss+Ind+Prt+Pl3: [süüdiq, süüdiväq]
+
+     süümä+V+Act+PrsPrc+Sg+Nom: süüvä
+     süümä+V+Act+PrsPrc+Sg+Gen: süüvä
+     süümä+V+Act+PrsPrc+Sg+Par: süüvät
+     süümä+V+Act+PrsPrc+Sg+Ill: süüvähe
+     süümä+V+Act+PrsPrc+Pl+Nom: süüväq
+     süümä+V+Act+PrsPrc+Pl+Gen: [süüvide, süüviide]
+     süümä+V+Act+PrsPrc+Pl+Par: [süüvit, süüviid]
+     süümä+V+Act+PrsPrc+Pl+Ill: [süüvihe, süüviihe]
+
+     süümä+V+Pss+PrsPrc+Sg+Nom: süüdäv
+     süümä+V+Pss+PrsPrc+Sg+Gen: süüdävä
+     süümä+V+Pss+PrsPrc+Sg+Par: süüdävät
+     süümä+V+Pss+PrsPrc+Sg+Ill: süüdävähe
+     süümä+V+Pss+PrsPrc+Pl+Nom: süüdäväq
+     süümä+V+Pss+PrsPrc+Pl+Gen: [süüdävide, süüdäviide]
+     süümä+V+Pss+PrsPrc+Pl+Par: [süüdävit, süüdäviid]
+     süümä+V+Pss+PrsPrc+Pl+Ill: [süüdävihe, süüdäviihe]
+
+     süümä+V+Act+PrfPrc+Sg+Nom: söönüq
+     süümä+V+Act+PrfPrc+Sg+Gen: süünü
+     süümä+V+Act+PrfPrc+Sg+Par: süünüt
+     süümä+V+Act+PrfPrc+Sg+Ill: süünühe
+     süümä+V+Act+PrfPrc+Pl+Nom: süünüq
+     süümä+V+Act+PrfPrc+Pl+Gen: [süünüide, süünüisi]
+     süümä+V+Act+PrfPrc+Pl+Par: [süünüid, süünüisi]
+     süümä+V+Act+PrfPrc+Pl+Ill: [süünüihe, süünüisihe]
+
+     süümä+V+Pss+PrfPrc+Sg+Nom: [süüd, süüdü]
+     süümä+V+Pss+PrfPrc+Sg+Gen: süüdü
+     süümä+V+Pss+PrfPrc+Sg+Par: süüdüt
+     süümä+V+Pss+PrfPrc+Sg+Ill: süüdühe
+     süümä+V+Pss+PrfPrc+Pl+Nom: süüdüq
+     süümä+V+Pss+PrfPrc+Pl+Gen: [süüdüide, süüdüisi]
+     süümä+V+Pss+PrfPrc+Pl+Par: [süüdüid, süüdüisi]
+     süümä+V+Pss+PrfPrc+Pl+Ill: [süüdüihe, süüdüisihe]

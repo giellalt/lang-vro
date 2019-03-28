@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - nägemä: # Verb (81) nägemä 'eng to see/est nägema/fin nähdä' - full paradigm
+     nägemä+V+Inf/mA: nägemä
+     nägemä+V+Inf: nätäq
+     nägemä+V+Act+PrfPrc: nännüq
+     nägemä+V+Pss+PrfPrc: [nätt, nättü]
+
+# Differs from tegemä form in "tii"
+     nägemä+V+Act+Ind+Prs+Sg1: näe
+     nägemä+V+Act+Ind+Prs+Sg2: [näet, näedeq]
+     nägemä+V+Act+Ind+Prs+Sg3: näge
+     nägemä+V+Act+Ind+Prs+Pl1: näemiq
+     nägemä+V+Act+Ind+Prs+Pl2: näetiq
+     nägemä+V+Act+Ind+Prs+Pl3: nägeväq
+     nägemä+V+Act+Ind+ConNegII: näe
+     nägemä+V+Act+Ind+Prt+Sg1: [näi, näie, näkse]
+     nägemä+V+Act+Ind+Prt+Sg2: [näit, näiet, näiq, näieq, näideq, näiedeq, näkset, näkseq, näksedeq]
+     nägemä+V+Act+Ind+Prt+Sg3: [näkḱ, nägi, näkse]
+     nägemä+V+Act+Ind+Prt+Pl1: [näimiq, näiemiq, näksemiq]
+     nägemä+V+Act+Ind+Prt+Pl2: [näitiq, näietiq, näksetiq]
+     nägemä+V+Act+Ind+Prt+Pl3: [näiq, näieq, näkseq, näiväq, näieväq, näkseväq]
+
+     nägemä+V+Pss+Ind+Prs+Sg1: nätä
+     nägemä+V+Pss+Ind+Prs+Sg3: nätäs
+
+     nägemä+V+Act+PrsPrc+Sg+Nom: näkev
+
+     nägemä+V+Jus: [näkuq, näkkuq]

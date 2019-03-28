@@ -1,0 +1,92 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `nälgümä: # Verb (68) `nälgümä 'eng /est /fin' - full paradigm
+     nälgümä+V+Inf/mA: nälgümä
+     nälgümä+V+Inf: nälgüdäq
+     nälgümä+V+Act+Ind+Prs+Sg1: nälgü
+     nälgümä+V+Act+Ind+Prs+Sg2: [nälgüt, nälgüdeq]
+     nälgümä+V+Act+Ind+Prs+Sg3: nälgüs
+     nälgümä+V+Act+Ind+Prs+Pl1: nälgümiq
+     nälgümä+V+Act+Ind+Prs+Pl2: nälgütiq
+     nälgümä+V+Act+Ind+Prs+Pl3: nälgüseq
+     nälgümä+V+Act+Ind+Prs+Neg: [nälgü-üiq, nälgü-üi, nälgü-iq, nälgü-i]
+     nälgümä+V+Act+Ind+ConNegI: nälgüq
+     nälgümä+V+Act+Ind+ConNegII: nälgü
+#     nälgümä+V+Pss+Ind+Prs+Sg1:
+#     nälgümä+V+Pss+Ind+Prs+Sg2:
+     nälgümä+V+Pss+Ind+Prs+Sg3: nälgütäs
+#     nälgümä+V+Pss+Ind+Prs+Pl1:
+#     nälgümä+V+Pss+Ind+Prs+Pl2:
+#     nälgümä+V+Pss+Ind+Prs+Pl3:
+     nälgümä+V+Pss+Ind+Prs+Neg: [nälgütä-äiq, nälgütä-äi, nälgütä-iq, nälgütä-i]
+     nälgümä+V+Pss+Ind+ConNegI: nälgütäq
+     nälgümä+V+Pss+Ind+ConNegII: nälgütä
+
+     nälgümä+V+Act+Ind+Prt+Sg1: nälgü
+     nälgümä+V+Act+Ind+Prt+Sg2: [nälgüt, nälgüq, nälgüdeq]
+     nälgümä+V+Act+Ind+Prt+Sg3: nälgü
+     nälgümä+V+Act+Ind+Prt+Pl1: nälgümiq
+     nälgümä+V+Act+Ind+Prt+Pl2: nälgütiq
+     nälgümä+V+Act+Ind+Prt+Pl3: [nälgüq, nälgüväq]
+     nälgümä+V+Act+Ind+Prt+Neg: [nälgü-üs, nälgü-s]
+
+#     nälgümä+V+Pss+Ind+Prt+Sg1:
+#     nälgümä+V+Pss+Ind+Prt+Sg2:
+     nälgümä+V+Pss+Ind+Prt+Sg3: nälgüti
+#     nälgümä+V+Pss+Ind+Prt+Pl1:
+#     nälgümä+V+Pss+Ind+Prt+Pl2:
+#     nälgümä+V+Pss+Ind+Prt+Pl3:
+     nälgümä+V+Pss+Ind+Prt+Neg: [nälgütä-äs, nälgütä-s]
+
+
+     nälgümä+V+Act+PrsPrc+Sg+Nom: nälgüv
+     nälgümä+V+Act+PrsPrc+Sg+Gen: nälgüvä
+     nälgümä+V+Act+PrsPrc+Sg+Par: nälgüvät
+     nälgümä+V+Act+PrsPrc+Sg+Ill: nälgüvähe
+     nälgümä+V+Act+PrsPrc+Pl+Nom: nälgüväq
+     nälgümä+V+Act+PrsPrc+Pl+Gen: [nälgüvide, nälgüviide]
+     nälgümä+V+Act+PrsPrc+Pl+Par: [nälgüvit, nälgüviid]
+     nälgümä+V+Act+PrsPrc+Pl+Ill: [nälgüvihe, nälgüviihe]
+
+     nälgümä+V+Pss+PrsPrc+Sg+Nom: nälgütäv
+     nälgümä+V+Pss+PrsPrc+Sg+Gen: nälgütävä
+     nälgümä+V+Pss+PrsPrc+Sg+Par: nälgütävät
+     nälgümä+V+Pss+PrsPrc+Sg+Ill: nälgütävähe
+     nälgümä+V+Pss+PrsPrc+Pl+Nom: nälgütäväq
+     nälgümä+V+Pss+PrsPrc+Pl+Gen: [nälgütävide, nälgütäviide]
+     nälgümä+V+Pss+PrsPrc+Pl+Par: [nälgütävit, nälgütäviid]
+     nälgümä+V+Pss+PrsPrc+Pl+Ill: [nälgütävihe, nälgütäviihe]
+
+     nälgümä+V+Act+PrfPrc+Sg+Nom: nälgünüq
+     nälgümä+V+Act+PrfPrc+Sg+Gen: nälgünü
+     nälgümä+V+Act+PrfPrc+Sg+Par: nälgünüt
+     nälgümä+V+Act+PrfPrc+Sg+Ill: nälgünühe
+     nälgümä+V+Act+PrfPrc+Pl+Nom: nälgünüq
+     nälgümä+V+Act+PrfPrc+Pl+Gen: [nälgünüide, nälgünüisi]
+     nälgümä+V+Act+PrfPrc+Pl+Par: [nälgünüid, nälgünüisi]
+     nälgümä+V+Act+PrfPrc+Pl+Ill: [nälgünüihe, nälgünüisihe]
+
+     nälgümä+V+Pss+PrfPrc+Sg+Nom: [nälgüt, nälgütü]
+     nälgümä+V+Pss+PrfPrc+Sg+Gen: nälgüdü
+     nälgümä+V+Pss+PrfPrc+Sg+Par: nälgütüt
+     nälgümä+V+Pss+PrfPrc+Sg+Ill: nälgütühe
+     nälgümä+V+Pss+PrfPrc+Pl+Nom: nälgüdüq
+     nälgümä+V+Pss+PrfPrc+Pl+Gen: [nälgütüide, nälgütüisi]
+     nälgümä+V+Pss+PrfPrc+Pl+Par: [nälgütüid, nälgütüisi]
+     nälgümä+V+Pss+PrfPrc+Pl+Ill: [nälgütüihe, nälgütüisihe]

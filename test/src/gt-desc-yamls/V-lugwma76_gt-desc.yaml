@@ -1,0 +1,95 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - lugõma: # Verb (76) lugõma 'eng /est /fin' - full paradigm
+     lugõma+V+Inf/mA: lugõma
+     lugõma+V+Inf: lukõq
+     lugõma+V+Act+PrfPrc: lugõnuq
+     lugõma+V+Pss+PrfPrc: [loet, loetu]
+
+     lugõma+V+Act+Ind+Prs+Sg1: loe
+     lugõma+V+Act+Ind+Prs+Sg2: [loet, loedõq]
+     lugõma+V+Act+Ind+Prs+Sg3: lugõ
+     lugõma+V+Act+Ind+Prs+Pl1: loemiq
+     lugõma+V+Act+Ind+Prs+Pl2: loetiq
+     lugõma+V+Act+Ind+Prs+Pl3: lugõvaq
+     lugõma+V+Act+Ind+ConNegII: loe
+     lugõma+V+Act+Ind+Prt+Sg1: [loi, loie]
+     lugõma+V+Act+Ind+Prt+Sg2: [loit, loiq, loidõq, loiõq, loiõt, loiõdõq]
+     lugõma+V+Act+Ind+Prt+Sg3: lugi
+     lugõma+V+Act+Ind+Prt+Pl1: [loimiq, loiõmiq]
+     lugõma+V+Act+Ind+Prt+Pl2: [loitiq, loiõtiq]
+     lugõma+V+Act+Ind+Prt+Pl3: [loiq, loivaq, loiõq, loiõvaq]
+
+     lugõma+V+Pss+Ind+Prs+Sg1: loeda
+     lugõma+V+Pss+Ind+Prs+Sg3: loetas
+
+     lugõma+V+Act+PrsPrc+Sg+Nom: lukõv
+
+     lugõma+V+Jus: lugõguq
+
+     lugõma+V+Pss+Ind+Prs+Sg1: loeda
+     lugõma+V+Pss+Ind+Prs+Sg2: [loetat, loetadõq]
+     lugõma+V+Pss+Ind+Prs+Sg3: loetas
+     lugõma+V+Pss+Ind+Prs+Pl1: loetamiq
+     lugõma+V+Pss+Ind+Prs+Pl2: loetatiq
+     lugõma+V+Pss+Ind+Prs+Pl3: loetasõq
+     lugõma+V+Pss+Ind+ConNegII: loeda
+
+     lugõma+V+Pss+Ind+Prt+Sg1: loedi
+     lugõma+V+Pss+Ind+Prt+Sg2: [loetit, loetidõq]
+     lugõma+V+Pss+Ind+Prt+Sg3: loeti
+     lugõma+V+Pss+Ind+Prt+Pl1: loetimiq
+     lugõma+V+Pss+Ind+Prt+Pl2: loetitiq
+     lugõma+V+Pss+Ind+Prt+Pl3: [loediq, loetivaq]
+
+     lugõma+V+Act+PrsPrc+Sg+Nom: lukõv
+     lugõma+V+Act+PrsPrc+Sg+Gen: lugõva
+     lugõma+V+Act+PrsPrc+Sg+Par: lugõvat
+     lugõma+V+Act+PrsPrc+Sg+Ill: lugõvahe
+     lugõma+V+Act+PrsPrc+Pl+Nom: lugõvaq
+     lugõma+V+Act+PrsPrc+Pl+Gen: [lugõvidõ, lugõviidõ]
+     lugõma+V+Act+PrsPrc+Pl+Par: [lugõvit, lugõviid]
+     lugõma+V+Act+PrsPrc+Pl+Ill: [lugõvihe, lugõviihe]
+                    
+     lugõma+V+Pss+PrsPrc+Sg+Nom: loetav
+     lugõma+V+Pss+PrsPrc+Sg+Gen: loetava
+     lugõma+V+Pss+PrsPrc+Sg+Par: loetavat
+     lugõma+V+Pss+PrsPrc+Sg+Ill: loetavahe
+     lugõma+V+Pss+PrsPrc+Pl+Nom: loetavaq
+     lugõma+V+Pss+PrsPrc+Pl+Gen: [loetavidõ, loetaviidõ]
+     lugõma+V+Pss+PrsPrc+Pl+Par: [loetavit, loetaviid]
+     lugõma+V+Pss+PrsPrc+Pl+Ill: [loetavihe, loetaviihe]
+
+     lugõma+V+Act+PrfPrc+Sg+Nom: lugõnuq
+     lugõma+V+Act+PrfPrc+Sg+Gen: lugõnu
+     lugõma+V+Act+PrfPrc+Sg+Par: lugõnut
+     lugõma+V+Act+PrfPrc+Sg+Ill: lugõnuhe
+     lugõma+V+Act+PrfPrc+Pl+Nom: lugõnuq
+     lugõma+V+Act+PrfPrc+Pl+Gen: [lugõnuidõ, lugõnuisi]
+     lugõma+V+Act+PrfPrc+Pl+Par: [lugõnuid, lugõnuisi]
+     lugõma+V+Act+PrfPrc+Pl+Ill: [lugõnuihe, lugõnuisihe]
+
+     lugõma+V+Pss+PrfPrc+Sg+Nom: [loet, loetu]
+     lugõma+V+Pss+PrfPrc+Sg+Gen: loedu
+     lugõma+V+Pss+PrfPrc+Sg+Par: loetut
+     lugõma+V+Pss+PrfPrc+Sg+Ill: loetuhe
+     lugõma+V+Pss+PrfPrc+Pl+Nom: loeduq
+     lugõma+V+Pss+PrfPrc+Pl+Gen: [loetuidõ, loetuisi]
+     lugõma+V+Pss+PrfPrc+Pl+Par: [loetuid, loetuisi]
+     lugõma+V+Pss+PrfPrc+Pl+Ill: [loetuihe, loetuisihe]

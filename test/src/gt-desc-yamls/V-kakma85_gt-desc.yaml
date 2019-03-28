@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kakma: # Verb (85) '/(eng) to tear /(fin) repiä' - partial paradigm
+     kakma+V+Inf/mA: kakma
+     kakma+V+Inf: kakkuq
+     kakma+V+Act+PrfPrc: kaknuq
+     kakma+V+Pss+PrfPrc: [kakut, kakutu]
+
+     kakma+V+Act+Ind+Prs+Sg1: kaku
+     kakma+V+Act+Ind+Prs+Sg2: kakut
+     kakma+V+Act+Ind+Prs+Sg3: kakk
+     kakma+V+Act+Ind+Prs+Pl1: kakumiq
+     kakma+V+Act+Ind+Prs+Pl2: kakutiq
+     kakma+V+Act+Ind+Prs+Pl3: kakvaq
+     kakma+V+Act+Ind+ConNegII: kaku
+     kakma+V+Act+Ind+Prt+Sg1: [kaki, kaksõ]
+     kakma+V+Act+Ind+Prt+Sg2: [kakit, kakiq, kaksõt, kaksõq, kakidõq, kaksõdõq]
+     kakma+V+Act+Ind+Prt+Sg3: [kakḱ, kaksõ]
+     kakma+V+Act+Ind+Prt+Pl1: [kakimiq, kaksõmiq]
+     kakma+V+Act+Ind+Prt+Pl2: [kakitiq, kaksõtiq]
+     kakma+V+Act+Ind+Prt+Pl3: [kakiq, kakivaq, kaksõq, kaksõvaq]
+
+     kakma+V+Pss+Ind+Prs+Sg1: kakuda
+     kakma+V+Pss+Ind+Prs+Sg3: kakutas
+
+     kakma+V+Act+PrsPrc+Sg+Nom: kakva
+
+     kakma+V+Jus: kakkuq
