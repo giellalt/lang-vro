@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - abilinõ: # Noun (16) abilinõ 'eng /est /fin' - full paradigm
+     abilinõ+N+Sg+Nom: abilinõ
+     abilinõ+N+Sg+Gen: abilisõ
+     abilinõ+N+Sg+Par: abilist
+     abilinõ+N+Sg+Ill: abilistõ
+     abilinõ+N+Sg+Ine: [abilisõn, abilisõh, abilisõhn]
+     abilinõ+N+Sg+Ela: abilisõst
+     abilinõ+N+Sg+All: abilisõlõ
+     abilinõ+N+Sg+Ade: abilisõl
+     abilinõ+N+Sg+Abl: abilisõlt
+     abilinõ+N+Sg+Tra: abilisõs
+     abilinõ+N+Sg+Ter: abilisõniq
+     abilinõ+N+Sg+Abe: abilisõldaq
+     abilinõ+N+Sg+Com: abilisõgaq
+     abilinõ+N+Pl+Nom: abilisõq
+     abilinõ+N+Pl+Gen: [abiliisi, abilistõ]
+     abilinõ+N+Pl+Par: abiliisi
+     abilinõ+N+Pl+Ill: [abiliisihe, abiliisi, abiliisidõ]
+     abilinõ+N+Pl+Ine: [abiliisin, abiliisih, abiliisihn, abilistõn, abilistõh, abilistõhn]
+     abilinõ+N+Pl+Ela: [abiliisist, abilistõst]
+     abilinõ+N+Pl+All: [abiliisilõ, abilistõlõ]
+     abilinõ+N+Pl+Ade: [abiliisil, abilistõl]
+     abilinõ+N+Pl+Abl: [abiliisilt, abilistõlt]
+     abilinõ+N+Pl+Tra: [abiliisis, abilistõs]
+     abilinõ+N+Pl+Ter: [abiliisiniq, abilistõniq]
+     abilinõ+N+Pl+Abe: [abiliisildaq, abilistõldaq]
+     abilinõ+N+Pl+Com: [abiliisigaq, abilistõgaq]

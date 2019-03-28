@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - laiõh: # Noun (14) laiõh 'eng /est /fin' - full paradigm
+     laiõh+N+Sg+Nom: laiõh
+     laiõh+N+Sg+Gen: laidõ
+     laiõh+N+Sg+Par: laiõht
+     laiõh+N+Sg+Ill: [laidõhe, laidõdõ]
+     laiõh+N+Sg+Ine: [laidõn, laidõh, laidõhn]
+     laiõh+N+Sg+Ela: laidõst
+     laiõh+N+Sg+All: laidõlõ
+     laiõh+N+Sg+Ade: laidõl
+     laiõh+N+Sg+Abl: laidõlt
+     laiõh+N+Sg+Tra: laidõs
+     laiõh+N+Sg+Ter: laidõniq
+     laiõh+N+Sg+Abe: laidõldaq
+     laiõh+N+Sg+Com: laidõgaq
+     laiõh+N+Pl+Nom: laidõq
+     laiõh+N+Pl+Gen: [laididõ, laidiidõ, laiõhtõ]
+     laiõh+N+Pl+Par: [laidit, laidiid]
+     laiõh+N+Pl+Ill: [laidihe, laidiihe, laididõ, laidiidõ, laiõhtõhe, laiõhtõdõ]
+     laiõh+N+Pl+Ine: [laidin, laidiin, laidih, laidiih, laidihn, laidiihn, laiõhtõn, laiõhtõh, laiõhtõhn]
+     laiõh+N+Pl+Ela: [laidist, laidiist, laiõhtõst]
+     laiõh+N+Pl+All: [laidilõ, laidiilõ, laiõhtõlõ]
+     laiõh+N+Pl+Ade: [laidil, laidiil, laiõhtõl]
+     laiõh+N+Pl+Abl: [laidilt, laidiilt, laiõhtõlt]
+     laiõh+N+Pl+Tra: [laidis, laidiis, laiõhtõs]
+     laiõh+N+Pl+Ter: [laidiniq, laidiiniq, laiõhtõniq]
+     laiõh+N+Pl+Abe: [laidildaq, laidiildaq, laiõhtõldaq]
+     laiõh+N+Pl+Com: [laididõgaq, laidiidõgaq, laiõhtõgaq]

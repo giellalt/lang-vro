@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tüü: # Noun (30) tüü 'eng /est /fin' - full paradigm
+    tüü+N+Sg+Nom: tüü
+    tüü+N+Sg+Gen: tüü
+    tüü+N+Sg+Par: tüüd
+    tüü+N+Sg+Ill: [tüühü, tühüq]
+    tüü+N+Sg+Ine: [tüün, tüüh, tüühn]
+    tüü+N+Sg+Ela: tüüst
+    tüü+N+Sg+All: tüüle
+    tüü+N+Sg+Ade: tüül
+    tüü+N+Sg+Abl: tüült
+    tüü+N+Sg+Tra: tüüs
+    tüü+N+Sg+Ter: tüüniq
+    tüü+N+Sg+Abe: tüüldäq
+    tüü+N+Sg+Com: tüügaq
+    tüü+N+Pl+Nom: tüüq
+    tüü+N+Pl+Gen: töie
+    tüü+N+Pl+Par: töid
+    tüü+N+Pl+Ill: [töihte, töihe]
+    tüü+N+Pl+Ine: [töin, töih, töihn, töien, töieh, töiehn]
+    tüü+N+Pl+Ela: [töist, töiest]
+    tüü+N+Pl+All: [töile, töiele]
+    tüü+N+Pl+Ade: [töil, töiel]
+    tüü+N+Pl+Abl: [töilt, töielt]
+    tüü+N+Pl+Tra: [töis, töies]
+    tüü+N+Pl+Ter: töieniq
+    tüü+N+Pl+Abe: [töildäq, töieldäq]
+    tüü+N+Pl+Com: töiegaq

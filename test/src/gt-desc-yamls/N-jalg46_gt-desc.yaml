@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - jalg: # Noun (46) jalg 'eng /est /fin' - full paradigm
+     jalg+N+Sg+Nom: jalg
+     jalg+N+Sg+Gen: jala
+     jalg+N+Sg+Par: jalga
+     jalg+N+Sg+Ill: jalga
+     jalg+N+Sg+Ine: [jalan, jalah, jalahn]
+     jalg+N+Sg+Ela: jalast
+     jalg+N+Sg+All: jalalõ
+     jalg+N+Sg+Ade: jalal
+     jalg+N+Sg+Abl: jalalt
+     jalg+N+Sg+Tra: jalas
+     jalg+N+Sg+Ter: jalaniq
+     jalg+N+Sg+Abe: jalaldaq
+     jalg+N+Sg+Com: jalagaq
+     jalg+N+Pl+Nom: jalaq
+     jalg+N+Pl+Gen: jalgo
+     jalg+N+Pl+Par: jalgo
+     jalg+N+Pl+Ill: [jalgohe, jalgo, jalgodõ]
+     jalg+N+Pl+Ine: [jalon, jaloh, jalohn]
+     jalg+N+Pl+Ela: jalost
+     jalg+N+Pl+All: jalolõ
+     jalg+N+Pl+Ade: jalol
+     jalg+N+Pl+Abl: jalolt
+     jalg+N+Pl+Tra: jalos
+     jalg+N+Pl+Ter: jaloniq
+     jalg+N+Pl+Abe: jaloldaq
+     jalg+N+Pl+Com: jalgogaq
+

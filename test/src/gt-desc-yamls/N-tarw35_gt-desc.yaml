@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tarõ: # Noun (35) tarõ 'eng /est /fin' - full paradigm
+    tarõ+N+Sg+Nom: tarõ
+    tarõ+N+Sg+Gen: tarõ
+    tarõ+N+Sg+Par: tarrõ
+    tarõ+N+Sg+Ill: tarrõ
+    tarõ+N+Sg+Ine: [tarõn, tarõh, tarõhn]
+    tarõ+N+Sg+Ela: tarõst
+    tarõ+N+Sg+All: tarõlõ
+    tarõ+N+Sg+Ade: tarõl
+    tarõ+N+Sg+Abl: tarõlt
+    tarõ+N+Sg+Tra: tarõs
+    tarõ+N+Sg+Ter: tarõniq
+    tarõ+N+Sg+Abe: tarõldaq
+    tarõ+N+Sg+Com: tarõgaq
+    tarõ+N+Pl+Nom: tarõq
+    tarõ+N+Pl+Gen: tarri
+    tarõ+N+Pl+Par: tarri
+    tarõ+N+Pl+Ill: [tarrihe, tarri, tarridõ]
+    tarõ+N+Pl+Ine: [tarin, tarih, tarihn, tarrin, tarrih, tarrihn]
+    tarõ+N+Pl+Ela: [tarist, tarrist]
+    tarõ+N+Pl+All: [tarilõ, tarrilõ]
+    tarõ+N+Pl+Ade: [taril, tarril]
+    tarõ+N+Pl+Abl: [tarilt, tarrilt]
+    tarõ+N+Pl+Tra: [taris, tarris]
+    tarõ+N+Pl+Ter: [tariniq, tarriniq]
+    tarõ+N+Pl+Abe: [tarildaq, tarrildaq]
+    tarõ+N+Pl+Com: tarrigaq

@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tuli: # Noun (34) tuli 'eng /est /fin' - full paradigm
+     tuli+N+Sg+Nom: tuli
+     tuli+N+Sg+Gen: tulõ
+     tuli+N+Sg+Par: tuld
+     tuli+N+Sg+Ill: tullõ
+     tuli+N+Sg+Ine: [tulõn, tulõh, tulõhn]
+     tuli+N+Sg+Ela: tulõst
+     tuli+N+Sg+All: tulõlõ
+     tuli+N+Sg+Ade: tulõl
+     tuli+N+Sg+Abl: tulõlt
+     tuli+N+Sg+Tra: tulõs
+     tuli+N+Sg+Ter: tulõniq
+     tuli+N+Sg+Abe: tulõldaq
+     tuli+N+Sg+Com: tulõgaq
+     tuli+N+Pl+Nom: tulõq
+     tuli+N+Pl+Gen: tulli
+     tuli+N+Pl+Par: tulli
+     tuli+N+Pl+Ill: [tullihe, tulli, tullidõ]
+     tuli+N+Pl+Ine: [tulin, tulih, tulihn, tullin, tullih, tullihn]
+     tuli+N+Pl+Ela: [tulist, tullist]
+     tuli+N+Pl+All: [tulilõ, tullilõ]
+     tuli+N+Pl+Ade: [tulil, tullil]
+     tuli+N+Pl+Abl: [tulilt, tullilt]
+     tuli+N+Pl+Tra: [tulis, tullis]
+     tuli+N+Pl+Ter: [tuliniq, tulliniq]
+     tuli+N+Pl+Abe: [tulildaq, tullildaq]
+     tuli+N+Pl+Com: [tulligaq]

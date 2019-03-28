@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pundar: # Noun (28) pundar 'eng /est /fin' - full paradigm
+     pundar+N+Sg+Nom: pundar
+     pundar+N+Sg+Gen: puntra
+     pundar+N+Sg+Par: pundard
+     pundar+N+Sg+Ill: [puntrahe, puntradõ]
+     pundar+N+Sg+Ine: [puntran, puntrah, puntrahn]
+     pundar+N+Sg+Ela: puntrast
+     pundar+N+Sg+All: puntralõ
+     pundar+N+Sg+Ade: puntral
+     pundar+N+Sg+Abl: puntralt
+     pundar+N+Sg+Tra: puntras
+     pundar+N+Sg+Ter: puntraniq
+     pundar+N+Sg+Abe: puntraldaq
+     pundar+N+Sg+Com: puntragaq
+     pundar+N+Pl+Nom: puntraq
+     pundar+N+Pl+Gen: [puntridõ, puntriidõ, pundardõ]
+     pundar+N+Pl+Par: [puntrit, puntriid]
+     pundar+N+Pl+Ill: [puntrihe, puntriihe, puntridõ, puntriidõ, pundardõhe]
+     pundar+N+Pl+Ine: [puntrin, puntriin, puntrih, puntriih, puntrihn, puntriihn, pundardõn, pundardõh, pundardõhn]
+     pundar+N+Pl+Ela: [puntrist, puntriist, pundardõst]
+     pundar+N+Pl+All: [puntrilõ, puntriilõ, pundardõlõ]
+     pundar+N+Pl+Ade: [puntril, puntriil, pundardõl]
+     pundar+N+Pl+Abl: [puntrilt, puntriilt, pundardõlt]
+     pundar+N+Pl+Tra: [puntris, puntriis, pundardõs]
+     pundar+N+Pl+Ter: [puntriniq, puntriiniq, pundardõniq]
+     pundar+N+Pl+Abe: [puntrildaq, puntriildaq, pundardõldaq]
+     pundar+N+Pl+Com: [puntridõgaq, puntriidõgaq, pundardõgaq]

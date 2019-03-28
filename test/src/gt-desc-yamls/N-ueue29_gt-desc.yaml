@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - üü: # Noun (29) üü 'eng /est /fin' - full paradigm
+    üü+N+Sg+Nom: üü
+    üü+N+Sg+Gen: üü
+    üü+N+Sg+Par: üüd
+    üü+N+Sg+Ill: [üühte, üühe, üüde]
+    üü+N+Sg+Ine: [üün, üüh, üühn]
+    üü+N+Sg+Ela: üüst
+    üü+N+Sg+All: üüle
+    üü+N+Sg+Ade: üül
+    üü+N+Sg+Abl: üült
+    üü+N+Sg+Tra: üüs
+    üü+N+Sg+Ter: üüniq
+    üü+N+Sg+Abe: üüldäq
+    üü+N+Sg+Com: üügaq
+    üü+N+Pl+Nom: üüq
+    üü+N+Pl+Gen: öie
+    üü+N+Pl+Par: öid
+    üü+N+Pl+Ill: [öihte, öihe]
+    üü+N+Pl+Ine: [öin, öih, öihn, öien, öieh, öiehn]
+    üü+N+Pl+Ela: [öist, öiest]
+    üü+N+Pl+All: [öile, öiele]
+    üü+N+Pl+Ade: [öil, öiel]
+    üü+N+Pl+Abl: [öilt, öielt]
+    üü+N+Pl+Tra: [öis, öies]
+    üü+N+Pl+Ter: öieniq
+    üü+N+Pl+Abe: [öildäq, öieldäq]
+    üü+N+Pl+Com: öiegaq

@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - repäń: # Noun (12) repäń 'eng /est /fin' - full paradigm
+     repäń+N+Sg+Nom: repäń
+     repäń+N+Sg+Gen: rebäse
+     repäń+N+Sg+Par: rebäst
+     repäń+N+Sg+Ill: [rebäsehe, rebäsede]
+     repäń+N+Sg+Ine: [rebäsen, rebäseh, rebäsehn]
+     repäń+N+Sg+Ela: rebäsest
+     repäń+N+Sg+All: rebäsele
+     repäń+N+Sg+Ade: rebäsel
+     repäń+N+Sg+Abl: rebäselt
+     repäń+N+Sg+Tra: rebäses
+     repäń+N+Sg+Ter: rebäseniq
+     repäń+N+Sg+Abe: rebäseldäq
+     repäń+N+Sg+Com: rebäsegaq
+     repäń+N+Pl+Nom: rebäseq
+     repäń+N+Pl+Gen: [rebäside, rebäsiide, rebäste]
+     repäń+N+Pl+Par: [rebäsit, rebäsiid]
+     repäń+N+Pl+Ill: [rebäsihe, rebäsiihe, rebäside, rebäsiide, rebästehe, rebästede]
+     repäń+N+Pl+Ine: [rebäsin, rebäsiin, rebäsih, rebäsiih, rebäsihn, rebäsiihn, rebästen, rebästeh, rebästehn]
+     repäń+N+Pl+Ela: [rebäsist, rebäsiist, rebästest]
+     repäń+N+Pl+All: [rebäsile, rebäsiile, rebästele]
+     repäń+N+Pl+Ade: [rebäsil, rebäsiil, rebästel]
+     repäń+N+Pl+Abl: [rebäsilt, rebäsiilt, rebästelt]
+     repäń+N+Pl+Tra: [rebäsis, rebäsiis, rebästes]
+     repäń+N+Pl+Ter: [rebäsiniq, rebäsiiniq, rebästeniq]
+     repäń+N+Pl+Abe: [rebäsildäq, rebäsiildäq, rebästeldäq]
+     repäń+N+Pl+Com: [rebäsidegaq, rebäsiidegaq, rebästegaq]

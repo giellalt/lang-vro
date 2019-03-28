@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - nimi: # Noun nimi 'eng name /est /fin' - full paradigm
+     nimi+N+Sg+Nom: nimi
+     nimi+N+Sg+Gen: nime
+     nimi+N+Sg+Par: nimme
+     nimi+N+Sg+Ill: nimme
+     nimi+N+Sg+Ine: [nimen, nimeh, nimehn]
+     nimi+N+Sg+Ela: nimest
+     nimi+N+Sg+All: nimele
+     nimi+N+Sg+Ade: nimel
+     nimi+N+Sg+Abl: nimelt
+     nimi+N+Sg+Tra: nimes
+     nimi+N+Sg+Ter: nimeniq
+     nimi+N+Sg+Abe: nimeldäq
+     nimi+N+Sg+Com: nimegaq
+     nimi+N+Pl+Nom: nimeq
+     nimi+N+Pl+Gen: nimmi
+     nimi+N+Pl+Par: nimmi
+     nimi+N+Pl+Ill: [nimmihe, nimmi, nimmide]
+     nimi+N+Pl+Ine: [nimin, nimih, nimihn, nimmin, nimmih, nimmihn]
+     nimi+N+Pl+Ela: [nimist, nimmist]
+     nimi+N+Pl+All: [nimile, nimmile]
+     nimi+N+Pl+Ade: [nimil, nimmil]
+     nimi+N+Pl+Abl: [nimilt, nimmilt]
+     nimi+N+Pl+Tra: [nimis, nimmis]
+     nimi+N+Pl+Ter: [niminiq, nimminiq]
+     nimi+N+Pl+Abe: [nimildäq, nimmildäq]
+     nimi+N+Pl+Com: nimmigaq

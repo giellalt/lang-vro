@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - "kogõr, kokr": # Noun (36) "kogõr, kokr" 'eng /est /fin' - full paradigm
+     kogõr+N+Sg+Nom: [kogõr, kokr]
+     kogõr+N+Sg+Gen: kogrõ
+     kogõr+N+Sg+Par: kokrõ
+     kogõr+N+Sg+Ill: kokrõ
+     kogõr+N+Sg+Ine: [kogrõn, kogrõh, kogrõhn]
+     kogõr+N+Sg+Ela: kogrõst
+     kogõr+N+Sg+All: kogrõlõ
+     kogõr+N+Sg+Ade: kogrõl
+     kogõr+N+Sg+Abl: kogrõlt
+     kogõr+N+Sg+Tra: kogrõs
+     kogõr+N+Sg+Ter: kogrõniq
+     kogõr+N+Sg+Abe: kogrõldaq
+     kogõr+N+Sg+Com: kogrõgaq
+     kogõr+N+Pl+Nom: kogrõq
+     kogõr+N+Pl+Gen: kokri
+     kogõr+N+Pl+Par: kokri
+     kogõr+N+Pl+Ill: [kokrihe, kokri, kokridõ]
+     kogõr+N+Pl+Ine: [kogrin, kogrih, kogrihn]
+     kogõr+N+Pl+Ela: kogrist
+     kogõr+N+Pl+All: kogrilõ
+     kogõr+N+Pl+Ade: kogril
+     kogõr+N+Pl+Abl: kogrilt
+     kogõr+N+Pl+Tra: kogris
+     kogõr+N+Pl+Ter: kogriniq
+     kogõr+N+Pl+Abe: kogrildaq
+     kogõr+N+Pl+Com: kokrigaq

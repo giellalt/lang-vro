@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hõrak: # Noun (10) hõrak 'eng /est /fin' - full paradigm
+     hõrak+N+Sg+Nom: hõrak
+     hõrak+N+Sg+Gen: [hõraga, hõragu]
+     hõrak+N+Sg+Par: [hõrakat, hõrakut]
+     hõrak+N+Sg+Ill: [hõrakahe, hõrakuhe, hõrakadõ, hõrakudõ]
+     hõrak+N+Sg+Ine: [hõrakan, hõrakah, hõrakahn, hõrakun, hõrakuh, hõrakuhn]
+     hõrak+N+Sg+Ela: [hõrakast, hõrakust]
+     hõrak+N+Sg+All: [hõrakalõ, hõrakulõ]
+     hõrak+N+Sg+Ade: [hõrakal, hõrakul]
+     hõrak+N+Sg+Abl: [hõrakalt, hõrakult]
+     hõrak+N+Sg+Tra: [hõrakas, hõrakus]
+     hõrak+N+Sg+Ter: [hõrakaniq, hõrakuniq]
+     hõrak+N+Sg+Abe: [hõrakaldaq, hõrakuldaq]
+     hõrak+N+Sg+Com: [hõrakagaq, hõrakugaq, hõragagaq, hõragugaq]
+     hõrak+N+Pl+Nom: [hõragaq, hõraguq]
+     hõrak+N+Pl+Gen: [hõrakidõ, hõrakiidõ]
+     hõrak+N+Pl+Par: [hõrakit, hõrakiid]
+     hõrak+N+Pl+Ill: [hõrakihe, hõrakiihe, hõrakidõ, hõrakiidõ]
+     hõrak+N+Pl+Ine: [hõrakin, hõrakiin, hõrakih, hõrakiih, hõrakihn, hõrakiihn]
+     hõrak+N+Pl+Ela: [hõrakist, hõrakiist]
+     hõrak+N+Pl+All: [hõrakilõ, hõrakiilõ]
+     hõrak+N+Pl+Ade: [hõrakil, hõrakiil]
+     hõrak+N+Pl+Abl: [hõrakilt, hõrakiilt]
+     hõrak+N+Pl+Tra: [hõrakis, hõrakiis]
+     hõrak+N+Pl+Ter: [hõrakiniq, hõrakiiniq]
+     hõrak+N+Pl+Abe: [hõrakildaq, hõrakiildaq]
+     hõrak+N+Pl+Com: [hõrakidõgaq, hõrakiidõgaq]
