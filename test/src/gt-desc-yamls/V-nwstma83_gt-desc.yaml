@@ -1,0 +1,44 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `nõstma: # Verb (83) `nõstma 'eng /est /fin' - full paradigm
+     nõstma+V+Inf/mA: nõstma
+     nõstma+V+Inf: nõstaq
+     nõstma+V+Act+PrfPrc: nõstnuq
+     nõstma+V+Pss+PrfPrc: [nõstõt, nõstõtu]
+
+     nõstma+V+Act+Ind+Prs+Sg1: nõsta
+     nõstma+V+Act+Ind+Prs+Sg2: [nõstat, nõstadõq]
+     nõstma+V+Act+Ind+Prs+Sg3: nõst
+     nõstma+V+Act+Ind+Prs+Pl1: nõstamiq
+     nõstma+V+Act+Ind+Prs+Pl2: nõstatiq
+     nõstma+V+Act+Ind+Prs+Pl3: nõstvaq
+     nõstma+V+Act+Ind+Prt+Sg1: [nõsti, nõstsõ]
+     nõstma+V+Act+Ind+Prt+Sg2: [nõstit, nõstiq, nõstidõq, nõstsõt, nõstsõq, nõstsõdõq]
+     nõstma+V+Act+Ind+Prt+Sg3: [nõst́, nõstsõ]
+     nõstma+V+Act+Ind+Prt+Pl1: [nõstimiq, nõstsõmiq]
+     nõstma+V+Act+Ind+Prt+Pl2: [nõstitiq, nõstsõtiq]
+     nõstma+V+Act+Ind+Prt+Pl3: [nõstiq, nõstivaq, nõstsõq, nõstsõvaq]
+     nõstma+V+Act+Ind+ConNegII: nõsta
+
+     nõstma+V+Pss+Ind+Prs+Sg1: nõstõda
+     nõstma+V+Pss+Ind+Prs+Sg3: nõstõtas
+
+     nõstma+V+Act+PrsPrc+Sg+Nom: nõstva
+
+     nõstma+V+Jus: nõstkuq

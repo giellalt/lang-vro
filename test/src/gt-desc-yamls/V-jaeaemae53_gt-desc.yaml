@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - `jäämä: # Verb (53) `jäämä 'eng /est /fin' - full paradigm
+     jäämä+V+Inf/mA: jäämä
+     jäämä+V+Inf: jäiäq
+     jäämä+V+Act+PrfPrc: jäänüq
+     jäämä+V+Pss+PrfPrc: [jääd, jäädü]
+
+     jäämä+V+Act+Ind+Prs+Sg1: jää
+     jäämä+V+Act+Ind+Prs+Sg2: [jäät, jäädeq]
+     jäämä+V+Act+Ind+Prs+Sg3: [jääs, jääse]
+     jäämä+V+Act+Ind+Prs+Pl1: jäämiq
+     jäämä+V+Act+Ind+Prs+Pl2: jäätiq
+     jäämä+V+Act+Ind+Prs+Pl3: [jääseq, jääväq]
+     jäämä+V+Act+Ind+ConNegII: jää
+     jäämä+V+Act+Ind+Prt+Sg1: [jäi, jäie]
+     jäämä+V+Act+Ind+Prt+Sg2: [jäit, jäiet, jäideq, jäiedeq, jäiq, jäieq]
+     jäämä+V+Act+Ind+Prt+Sg3: [jäi, jäie]
+     jäämä+V+Act+Ind+Prt+Pl1: [jäimiq, jäiemiq]
+     jäämä+V+Act+Ind+Prt+Pl2: [jäitiq, jäietiq]
+     jäämä+V+Act+Ind+Prt+Pl3: [jäiq, jäieq, jäiväq, jäieväq]
+
+     jäämä+V+Pss+Ind+Prs+Sg3: jäiäs
+
+     jäämä+V+Act+PrsPrc+Sg+Nom: jäävä
+
+     jäämä+V+Jus: jääguq

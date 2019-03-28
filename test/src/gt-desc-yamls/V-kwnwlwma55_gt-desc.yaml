@@ -1,0 +1,44 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kõnõlõma: # Verb (55) kõnõlõma 'eng /est /fin' - full paradigm
+     kõnõlõma+V+Inf/mA: kõnõlõma
+     kõnõlõma+V+Inf: kõnõldaq
+     kõnõlõma+V+Act+PrfPrc: kõnõlnuq
+     kõnõlõma+V+Pss+PrfPrc: [kõnõld, kõnõldu]
+
+     kõnõlõma+V+Act+Ind+Prs+Sg1: [kõnõlõ, kõnõla]
+     kõnõlõma+V+Act+Ind+Prs+Sg2: [kõnõlõt, kõnõlõdõq, kõnõlat, kõnõladõq]
+     kõnõlõma+V+Act+Ind+Prs+Sg3: [kõnõlõs, kõnõlas]
+     kõnõlõma+V+Act+Ind+Prs+Pl1: [kõnõlõmiq, kõnõlamiq]
+     kõnõlõma+V+Act+Ind+Prs+Pl2: [kõnõlõtiq, kõnõlatiq]
+     kõnõlõma+V+Act+Ind+Prs+Pl3: [kõnõlõsõq, kõnõlasõq]
+     kõnõlõma+V+Act+Ind+ConNegII: [kõnõlõ, kõnõla]
+     kõnõlõma+V+Act+Ind+Prt+Sg1: kõnõli
+     kõnõlõma+V+Act+Ind+Prt+Sg2: [kõnõlit, kõnõliq, kõnõlidõq]
+     kõnõlõma+V+Act+Ind+Prt+Sg3: [kõnõĺ, kõnõli]
+     kõnõlõma+V+Act+Ind+Prt+Pl1: kõnõlimiq
+     kõnõlõma+V+Act+Ind+Prt+Pl2: kõnõlitiq
+     kõnõlõma+V+Act+Ind+Prt+Pl3: [kõnõliq, kõnõlivaq]
+
+     kõnõlõma+V+Pss+Ind+Prs+Sg1: kõnõlda
+     kõnõlõma+V+Pss+Ind+Prs+Sg3: kõnõldas
+
+     kõnõlõma+V+Act+PrsPrc+Sg+Nom: kõnõlõv
+
+     kõnõlõma+V+Jus: kõnõlguq

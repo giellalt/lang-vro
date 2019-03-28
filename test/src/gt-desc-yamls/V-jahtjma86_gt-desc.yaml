@@ -1,0 +1,44 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - jaht́ma: # Verb jaht́ma 'eng /est /fin' - full paradigm
+     jaht́ma+V+Inf/mA: jaht́ma
+     jaht́ma+V+Inf: jahtiq
+     jaht́ma+V+Act+PrfPrc: jaht́nuq
+     jaht́ma+V+Pss+PrfPrc: [jahit, jahitu]
+
+     jaht́ma+V+Act+Ind+Prs+Sg1: jahi
+     jaht́ma+V+Act+Ind+Prs+Sg2: [jahit, jahidõq]
+     jaht́ma+V+Act+Ind+Prs+Sg3: jaht́
+     jaht́ma+V+Act+Ind+Prs+Pl1: jahimiq
+     jaht́ma+V+Act+Ind+Prs+Pl2: jahitiq
+     jaht́ma+V+Act+Ind+Prs+Pl3: jaht́vaq
+     jaht́ma+V+Act+Ind+ConNegII: jahi
+     jaht́ma+V+Act+Ind+Prt+Sg1: [jahe, jaht́sõ]
+     jaht́ma+V+Act+Ind+Prt+Sg2: [jahet, jaht́sõt, jaheq, jaht́sõq, jahedõq, jaht́sõdõq]
+     jaht́ma+V+Act+Ind+Prt+Sg3: [jahtõ, jaht́sõ]
+     jaht́ma+V+Act+Ind+Prt+Pl1: [jahemiq, jaht́sõmiq]
+     jaht́ma+V+Act+Ind+Prt+Pl2: [jahetiq, jaht́sõtiq]
+     jaht́ma+V+Act+Ind+Prt+Pl3: [jaheq, jahevaq, jaht́sõq, jaht́sõvaq]
+
+     jaht́ma+V+Pss+Ind+Prs+Sg1: jahida
+     jaht́ma+V+Pss+Ind+Prs+Sg3: jahitas
+
+     jaht́ma+V+Act+PrsPrc+Sg+Nom: jaht́va
+
+     jaht́ma+V+Jus: jaht́kuq
