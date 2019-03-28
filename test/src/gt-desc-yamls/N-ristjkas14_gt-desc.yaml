@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ritśkas: # Noun (14) ritśkas 'eng /est /fin' - full paradigm
+     ritśkas+N+Sg+Nom: ritśkas
+     ritśkas+N+Sg+Gen: ritśka
+     ritśkas+N+Sg+Par: [ritśkast, ritśkat]
+     ritśkas+N+Sg+Ill: [ritśkahe, ritśkadõ]
+     ritśkas+N+Sg+Ine: [ritśkan, ritśkah, ritśkahn]
+     ritśkas+N+Sg+Ela: ritśkast
+     ritśkas+N+Sg+All: ritśkalõ
+     ritśkas+N+Sg+Ade: ritśkal
+     ritśkas+N+Sg+Abl: ritśkalt
+     ritśkas+N+Sg+Tra: ritśkas
+     ritśkas+N+Sg+Ter: ritśkaniq
+     ritśkas+N+Sg+Abe: ritśkaldaq
+     ritśkas+N+Sg+Com: ritśkagaq
+     ritśkas+N+Pl+Nom: ritśkaq
+     ritśkas+N+Pl+Gen: [ritśkidõ, ritśkiidõ, ritśkastõ]
+     ritśkas+N+Pl+Par: [ritśkit, ritśkiid]
+     ritśkas+N+Pl+Ill: [ritśkihe, ritśkiihe, ritśkidõ, ritśkiidõ, ritśkastõhe, ritśkastõdõ]
+     ritśkas+N+Pl+Ine: [ritśkin, ritśkiin, ritśkih, ritśkiih, ritśkihn, ritśkiihn, ritśkastõn, ritśkastõh, ritśkastõhn]
+     ritśkas+N+Pl+Ela: [ritśkist, ritśkiist, ritśkastõst]
+     ritśkas+N+Pl+All: [ritśkilõ, ritśkiilõ, ritśkastõlõ]
+     ritśkas+N+Pl+Ade: [ritśkil, ritśkiil, ritśkastõl]
+     ritśkas+N+Pl+Abl: [ritśkilt, ritśkiilt, ritśkastõlt]
+     ritśkas+N+Pl+Tra: [ritśkis, ritśkiis, ritśkastõs]
+     ritśkas+N+Pl+Ter: [ritśkiniq, ritśkiiniq, ritśkastõniq]
+     ritśkas+N+Pl+Abe: [ritśkildaq, ritśkiildaq, ritśkastõldaq]
+     ritśkas+N+Pl+Com: [ritśkidõgaq, ritśkiidõgaq, ritśkastõgaq]

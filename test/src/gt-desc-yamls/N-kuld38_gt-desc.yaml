@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kuld: # Noun (38) kuld 'eng /est /fin' - full paradigm
+     kuld+N+Sg+Nom: kuld
+     kuld+N+Sg+Gen: kulla
+     kuld+N+Sg+Par: kulda
+     kuld+N+Sg+Ill: kulda
+     kuld+N+Sg+Ine: [kullan, kullah, kullahn]
+     kuld+N+Sg+Ela: kullast
+     kuld+N+Sg+All: kullalõ
+     kuld+N+Sg+Ade: kullal
+     kuld+N+Sg+Abl: kullalt
+     kuld+N+Sg+Tra: kullas
+     kuld+N+Sg+Ter: kullaniq
+     kuld+N+Sg+Abe: kullaldaq
+     kuld+N+Sg+Com: kullagaq
+     kuld+N+Pl+Nom: kullaq
+     kuld+N+Pl+Gen: kuldõ
+     kuld+N+Pl+Par: kuldõ
+     kuld+N+Pl+Ill: [kuldõhe, kuldõ, kuldõdõ]
+     kuld+N+Pl+Ine: [kullõn, kullõh, kullõhn]
+     kuld+N+Pl+Ela: kullõst
+     kuld+N+Pl+All: kullõlõ
+     kuld+N+Pl+Ade: kullõl
+     kuld+N+Pl+Abl: kullõlt
+     kuld+N+Pl+Tra: kullõs
+     kuld+N+Pl+Ter: kullõniq
+     kuld+N+Pl+Abe: kullõldaq
+     kuld+N+Pl+Com: kuldõgaq

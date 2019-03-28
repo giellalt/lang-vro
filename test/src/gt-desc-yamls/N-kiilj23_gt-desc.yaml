@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kiiĺ: # Noun (23) kiiĺ 'eng /est /fin' - full paradigm
+     kiiĺ+N+Sg+Nom: kiiĺ
+     kiiĺ+N+Sg+Gen: keele
+     kiiĺ+N+Sg+Par: kiilt
+     kiiĺ+N+Sg+Ill: kiilde
+     kiiĺ+N+Sg+Ine: [keelen, keeleh, keelehn]
+     kiiĺ+N+Sg+Ela: keelest
+     kiiĺ+N+Sg+All: keelele
+     kiiĺ+N+Sg+Ade: keelel
+     kiiĺ+N+Sg+Abl: keelelt
+     kiiĺ+N+Sg+Tra: keeles
+     kiiĺ+N+Sg+Ter: keeleniq
+     kiiĺ+N+Sg+Abe: keeleldäq
+     kiiĺ+N+Sg+Com: keelegaq
+     kiiĺ+N+Pl+Nom: keeleq
+     kiiĺ+N+Pl+Gen: [kiili, keelte]
+     kiiĺ+N+Pl+Par: kiili
+     kiiĺ+N+Pl+Ill: [kiilihe, kiili, kiilide]
+     kiiĺ+N+Pl+Ine: [keelin, keelih, keelihn, keelten, keelteh, keeltehn]
+     kiiĺ+N+Pl+Ela: [keelist, keeltest]
+     kiiĺ+N+Pl+All: [keelile, keeltele]
+     kiiĺ+N+Pl+Ade: [keelil, keeltel]
+     kiiĺ+N+Pl+Abl: [keelilt, keeltelt]
+     kiiĺ+N+Pl+Tra: [keelis, keeltes]
+     kiiĺ+N+Pl+Ter: [keeliniq, keelteniq]
+     kiiĺ+N+Pl+Abe: [keelildäq, keelteldäq]
+     kiiĺ+N+Pl+Com: [kiiligaq, keeltegaq]

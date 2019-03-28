@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tütäŕ: # Noun (28) tütäŕ 'eng /est /fin' - full paradigm
+     tütäŕ+N+Sg+Nom: tütäŕ
+     tütäŕ+N+Sg+Gen: tütre
+     tütäŕ+N+Sg+Par: tütärd
+     tütäŕ+N+Sg+Ill: [tütrehe, tütrede]
+     tütäŕ+N+Sg+Ine: [tütren, tütreh, tütrehn]
+     tütäŕ+N+Sg+Ela: tütrest
+     tütäŕ+N+Sg+All: tütrele
+     tütäŕ+N+Sg+Ade: tütrel
+     tütäŕ+N+Sg+Abl: tütrelt
+     tütäŕ+N+Sg+Tra: tütres
+     tütäŕ+N+Sg+Ter: tütreniq
+     tütäŕ+N+Sg+Abe: tütreldäq
+     tütäŕ+N+Sg+Com: tütregaq
+     tütäŕ+N+Pl+Nom: tütreq
+     tütäŕ+N+Pl+Gen: [tütride, tütriide, tütärde]
+     tütäŕ+N+Pl+Par: [tütrit, tütriid]
+     tütäŕ+N+Pl+Ill: [tütrihe, tütriihe, tütride, tütriide, tütärdehe]
+     tütäŕ+N+Pl+Ine: [tütrin, tütriin, tütrih, tütriih, tütrihn, tütriihn, tütärden, tütärdeh, tütärdehn]
+     tütäŕ+N+Pl+Ela: [tütrist, tütriist, tütärdest]
+     tütäŕ+N+Pl+All: [tütrile, tütriile, tütärdele]
+     tütäŕ+N+Pl+Ade: [tütril, tütriil, tütärdel]
+     tütäŕ+N+Pl+Abl: [tütrilt, tütriilt, tütärdelt]
+     tütäŕ+N+Pl+Tra: [tütris, tütriis, tütärdes]
+     tütäŕ+N+Pl+Ter: [tütriniq, tütriiniq, tütärdeniq]
+     tütäŕ+N+Pl+Abe: [tütrildäq, tütriildäq, tütärdeldäq]
+     tütäŕ+N+Pl+Com: [tütridegaq, tütriidegaq, tütärdegaq]

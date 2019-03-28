@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - herrä: # Noun (1) herrä 'eng /est /fin' - full paradigm
+     herrä+N+Sg+Nom: herrä
+     herrä+N+Sg+Gen: herrä
+     herrä+N+Sg+Par: herrät
+     herrä+N+Sg+Ill: [herrähte, herräde]
+     herrä+N+Sg+Ine: [herrän, herräh, herrähn]
+     herrä+N+Sg+Ela: herräst
+     herrä+N+Sg+All: herräle
+     herrä+N+Sg+Ade: herräl
+     herrä+N+Sg+Abl: herrält
+     herrä+N+Sg+Tra: herräs
+     herrä+N+Sg+Ter: herräniq
+     herrä+N+Sg+Abe: herräldäq
+     herrä+N+Sg+Com: herrägaq
+     herrä+N+Pl+Nom: herräq
+     herrä+N+Pl+Gen: herräde
+     herrä+N+Pl+Par: [herräsit, herräsiid]
+     herrä+N+Pl+Ill: [herrädehe, herrädede]
+     herrä+N+Pl+Ine: [herräden, herrädeh, herrädehn]
+     herrä+N+Pl+Ela: herrädest
+     herrä+N+Pl+All: herrädele
+     herrä+N+Pl+Ade: herrädel
+     herrä+N+Pl+Abl: herrädelt
+     herrä+N+Pl+Tra: herrädes
+     herrä+N+Pl+Ter: herrädeniq
+     herrä+N+Pl+Abe: herrädeldäq
+     herrä+N+Pl+Com: herrädegaq

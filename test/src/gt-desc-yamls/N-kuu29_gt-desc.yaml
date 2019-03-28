@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kuu: # Noun (29) kuu 'eng /est /fin' - full paradigm
+     kuu+N+Sg+Nom: kuu
+     kuu+N+Sg+Gen: kuu
+     kuu+N+Sg+Par: kuud
+     kuu+N+Sg+Ill: [kuuhtõ, kuuhõ, kuudõ]
+     kuu+N+Sg+Ine: [kuun, kuuh, kuuhn]
+     kuu+N+Sg+Ela: kuust
+     kuu+N+Sg+All: kuulõ
+     kuu+N+Sg+Ade: kuul
+     kuu+N+Sg+Abl: kuult
+     kuu+N+Sg+Tra: kuus
+     kuu+N+Sg+Ter: kuuniq
+     kuu+N+Sg+Abe: kuuldaq
+     kuu+N+Sg+Com: kuugaq
+     kuu+N+Pl+Nom: kuuq
+     kuu+N+Pl+Gen: kuiõ
+     kuu+N+Pl+Par: kuid
+     kuu+N+Pl+Ill: [kuihtõ, kuihõ]
+     kuu+N+Pl+Ine: [kuin, kuih, kuihn, kuiõn, kuiõh, kuiõhn]
+     kuu+N+Pl+Ela: [kuist, kuiõst]
+     kuu+N+Pl+All: [kuilõ, kuiõlõ]
+     kuu+N+Pl+Ade: [kuil, kuiõl]
+     kuu+N+Pl+Abl: [kuilt, kuiõlt]
+     kuu+N+Pl+Tra: [kuis, kuiõs]
+     kuu+N+Pl+Ter: kuiõniq
+     kuu+N+Pl+Abe: [kuiõldaq, kuildaq]
+     kuu+N+Pl+Com: kuiõgaq

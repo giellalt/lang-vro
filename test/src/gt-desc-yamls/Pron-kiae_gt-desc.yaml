@@ -1,0 +1,34 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Pronoun - kiä: # Pronoun (37) kiä 'eng who /est /fin' - full paradigm
+     kiä+Pron+Interr+SP+Nom: kiä
+     kiä+Pron+Interr+SP+Gen: kink
+     kiä+Pron+Interr+SP+Par: kedä
+     kiä+Pron+Interr+SP+Ill: [kinkahe, kehe]
+     kiä+Pron+Interr+SP+Ine: [kinkan, kinkah, kinkahn, ken, keh, kehn]
+     kiä+Pron+Interr+SP+Ela: [kinkast, kest]
+     kiä+Pron+Interr+SP+All: [kinkalõ, kelle]
+     kiä+Pron+Interr+SP+Ade: [kinkal, kel]
+     kiä+Pron+Interr+SP+Abl: [kinkalt, kelt]
+     kiä+Pron+Interr+SP+Tra: [kinkas, kes]
+     kiä+Pron+Interr+SP+Ter: [kinkaniq, keeniq]
+     kiä+Pron+Interr+SP+Abe: [kinkaldaq, keldäq]
+     kiä+Pron+Interr+SP+Com: kinkaq
+
+
