@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - aladu: # Adjective (3) aladu 'eng /est /fin' - full paradigm
+     aladu+A+Sg+Nom: aladu
+     aladu+A+Sg+Gen: aladu
+     aladu+A+Sg+Par: alatut
+     aladu+A+Sg+Ill: alatuhe
+     aladu+A+Pl+Gen: alatuidõ
+     aladu+A+Pl+Par: alatuid
+     aladu+A+Pl+Ill: alatuihe
+     aladu+A+Pl+All: alatuilõ
+
+     aladu+A+Comp+Sg+Nom: [alatumb, alatump, alatup]

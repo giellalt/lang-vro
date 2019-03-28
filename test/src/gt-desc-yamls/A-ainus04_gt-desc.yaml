@@ -1,0 +1,47 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - `ainus3: # Adjective (17,8,4) `ainus1-3 'eng /est /fin' - full paradigm
+     ainus+A+Sg+Nom: ainus
+     ainus+A+Sg+Gen: [ainu, ainusõ]
+     ainus+A+Sg+Par: [ainut, ainust]
+     ainus+A+Sg+Ill: [ainuhe, ainustõ]
+     ainus+A+Sg+Ine: [ainun, ainuh, ainuhn, ainusõn, ainusõh, ainusõhn]
+     ainus+A+Sg+Ela: [ainust, ainusõst]
+     ainus+A+Sg+All: [ainulõ, ainusõlõ]
+     ainus+A+Sg+Ade: [ainul, ainusõl]
+     ainus+A+Sg+Abl: [ainult, ainusõlt]
+     ainus+A+Sg+Tra: [ainus, ainusõs]
+     ainus+A+Sg+Ter: [ainuniq, ainusõniq]
+     ainus+A+Sg+Abe: [ainuldaq, ainusõldaq]
+     ainus+A+Sg+Com: [ainugaq, ainusõgaq]
+     ainus+A+Pl+Nom: [ainuq, ainusõq]
+     ainus+A+Pl+Gen: [ainuidõ, ainuisi, ainustõ]
+     ainus+A+Pl+Par: [ainuid, ainuisi]
+     ainus+A+Pl+Ill: [ainuihe, ainuidõ, ainustõhe, ainustõdõ, ainuisihe, ainuisi, ainuisidõ]
+     ainus+A+Pl+Ine: [ainuin, ainuih, ainuihn, ainustõn, ainustõh, ainustõhn, ainuisih, ainuisihn, ainuisin]
+     ainus+A+Pl+Ela: [ainuist, ainustõst, ainuisist]
+     ainus+A+Pl+All: [ainuilõ, ainustõlõ, ainuisilõ]
+     ainus+A+Pl+Ade: [ainuil, ainustõl, ainuisil]
+     ainus+A+Pl+Abl: [ainuilt, ainustõlt, ainuisilt]
+     ainus+A+Pl+Tra: [ainuis, ainustõs, ainuisis]
+     ainus+A+Pl+Ter: [ainuiniq, ainustõniq, ainuisiniq]
+     ainus+A+Pl+Abe: [ainuildaq, ainustõldaq, ainuisildaq]
+     ainus+A+Pl+Com: [ainuidõgaq, ainustõgaq, ainuisigaq]
+
+     ainus+A+Comp+Sg+Nom: [ainumb, ainump, ainup]
