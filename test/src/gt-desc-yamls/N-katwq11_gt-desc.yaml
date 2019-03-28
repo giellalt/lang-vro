@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - katõq: # Noun (11) katõq 'eng /est /fin' - full paradigm
+     katõq+N+Sg+Nom: katõq
+     katõq+N+Sg+Gen: kattõ
+     katõq+N+Sg+Par: katõt
+     katõq+N+Sg+Ill: [kattõhe, kattõdõ]
+     katõq+N+Sg+Ine: [kattõn, kattõh, kattõhn]
+     katõq+N+Sg+Ela: kattõst
+     katõq+N+Sg+All: kattõlõ
+     katõq+N+Sg+Ade: kattõl
+     katõq+N+Sg+Abl: kattõlt
+     katõq+N+Sg+Tra: kattõs
+     katõq+N+Sg+Ter: kattõniq
+     katõq+N+Sg+Abe: kattõldaq
+     katõq+N+Sg+Com: kattõgaq
+     katõq+N+Pl+Nom: kattõq
+     katõq+N+Pl+Gen: [kattidõ, kattiidõ, katõtõ]
+     katõq+N+Pl+Par: [kattit, kattiid]
+     katõq+N+Pl+Ill: [kattihe, kattiihe, katõtõhe, kattidõ, kattiidõ, katõtõdõ]
+     katõq+N+Pl+Ine: [kattin, kattih, kattihn, kattiin, kattiih, kattiihn, katõtõn, katõtõh, katõtõhn]
+     katõq+N+Pl+Ela: [kattist, kattiist, katõtõst]
+     katõq+N+Pl+All: [kattilõ, kattiilõ, katõtõlõ]
+     katõq+N+Pl+Ade: [kattil, kattiil, katõtõl]
+     katõq+N+Pl+Abl: [kattilt, kattiilt, katõtõlt]
+     katõq+N+Pl+Tra: [kattis, kattiis, katõtõs]
+     katõq+N+Pl+Ter: [kattiniq, kattiiniq, katõtõniq]
+     katõq+N+Pl+Abe: [kattildaq, kattiildaq, katõtõldaq]
+     katõq+N+Pl+Com: [kattidõgaq, kattiidõgaq, katõtõgaq]

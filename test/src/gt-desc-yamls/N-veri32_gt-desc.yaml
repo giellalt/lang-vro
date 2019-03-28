@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - veri: # Noun (32) veri 'eng /est /fin' - full paradigm
+     veri+N+Sg+Nom: veri
+     veri+N+Sg+Gen: vere
+     veri+N+Sg+Par: verd
+     veri+N+Sg+Ill: verri
+     veri+N+Sg+Ine: [veren, vereh, verehn]
+     veri+N+Sg+Ela: verest
+     veri+N+Sg+All: verele
+     veri+N+Sg+Ade: verel
+     veri+N+Sg+Abl: verelt
+     veri+N+Sg+Tra: veres
+     veri+N+Sg+Ter: vereniq
+     veri+N+Sg+Abe: vereldäq
+     veri+N+Sg+Com: veregaq
+     veri+N+Pl+Nom: vereq
+     veri+N+Pl+Gen: verri
+     veri+N+Pl+Par: verri
+     veri+N+Pl+Ill: [verrihe, verri, verride]
+     veri+N+Pl+Ine: [verin, verih, verihn, verrin, verrih,  verrihn]
+     veri+N+Pl+Ela: [verist, verrist]
+     veri+N+Pl+All: [verile, verrile]
+     veri+N+Pl+Ade: [veril, verril]
+     veri+N+Pl+Abl: [verilt, verrilt]
+     veri+N+Pl+Tra: [veris, verris]
+     veri+N+Pl+Ter: [veriniq, verriniq]
+     veri+N+Pl+Abe: [verildäq, verrildäq]
+     veri+N+Pl+Com: verrigaq

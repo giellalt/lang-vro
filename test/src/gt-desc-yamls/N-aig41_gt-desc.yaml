@@ -1,0 +1,46 @@
+
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - aig: # Noun (41) aig 'eng /est /fin' - full paradigm
+     aig+N+Sg+Nom: aig
+     aig+N+Sg+Gen: ao
+     aig+N+Sg+Par: aigo
+     aig+N+Sg+Ill: aigo
+     aig+N+Sg+Ine: [aon, aoh, aohn]
+     aig+N+Sg+Ela: aost
+     aig+N+Sg+All: aolõ
+     aig+N+Sg+Ade: aol
+     aig+N+Sg+Abl: aolt
+     aig+N+Sg+Tra: aos
+     aig+N+Sg+Ter: aoniq
+     aig+N+Sg+Abe: aoldaq
+     aig+N+Sg+Com: aogaq
+     aig+N+Pl+Nom: aoq
+     aig+N+Pl+Gen: aigõ
+     aig+N+Pl+Par: aigõ
+     aig+N+Pl+Ill: [aigõhe, aigõ, aigõdõ]
+     aig+N+Pl+Ine: [aen, aeh, aehn]
+     aig+N+Pl+Ela: aest
+     aig+N+Pl+All: aelõ
+     aig+N+Pl+Ade: ael
+     aig+N+Pl+Abl: aelt
+     aig+N+Pl+Tra: aes
+     aig+N+Pl+Ter: aeniq
+     aig+N+Pl+Abe: aeldaq
+     aig+N+Pl+Com: aigõgaq

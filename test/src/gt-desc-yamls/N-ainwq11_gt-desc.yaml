@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ainõq: # Noun (11) ainõq 'eng /est /fin' - full paradigm
+     ainõq+N+Sg+Nom: ainõq
+     ainõq+N+Sg+Gen: ainõ
+     ainõq+N+Sg+Par: ainõt
+     ainõq+N+Sg+Ill: [ainõhe, ainõdõ]
+     ainõq+N+Sg+Ine: [ainõn, ainõh, ainõhn]
+     ainõq+N+Sg+Ela: ainõst
+     ainõq+N+Sg+All: ainõlõ
+     ainõq+N+Sg+Ade: ainõl
+     ainõq+N+Sg+Abl: ainõlt
+     ainõq+N+Sg+Tra: ainõs
+     ainõq+N+Sg+Ter: ainõniq
+     ainõq+N+Sg+Abe: ainõldaq
+     ainõq+N+Sg+Com: ainõgaq
+     ainõq+N+Pl+Nom: ainõq
+     ainõq+N+Pl+Gen: [ainidõ, ainiidõ]
+     ainõq+N+Pl+Par: [ainit, ainiid]
+     ainõq+N+Pl+Ill: [ainihe, ainiihe, ainõtõhe, ainidõ, ainiidõ, ainõtõdõ]
+     ainõq+N+Pl+Ine: [ainin, ainih, ainihn, ainiin, ainiih, ainiihn, ainõtõn, ainõtõh, ainõtõhn]
+     ainõq+N+Pl+Ela: [ainist, ainiist, ainõtõst]
+     ainõq+N+Pl+All: [ainilõ, ainiilõ, ainõtõlõ]
+     ainõq+N+Pl+Ade: [ainil, ainiil, ainõtõl]
+     ainõq+N+Pl+Abl: [ainilt, ainiilt, ainõtõlt]
+     ainõq+N+Pl+Tra: [ainis, ainiis, ainõtõs]
+     ainõq+N+Pl+Ter: [aininiq, ainiiniq, ainõtõniq]
+     ainõq+N+Pl+Abe: [ainildaq, ainiildaq, ainõtõldaq]
+     ainõq+N+Pl+Com: [ainidõgaq, ainiidõgaq, ainõtõgaq]

@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - igä: # Noun (33) igä 'eng /est /fin' - full paradigm
+     igä+N+Sg+Nom: igä
+     igä+N+Sg+Gen: iä
+     igä+N+Sg+Par: ikä
+     igä+N+Sg+Ill: ikkä
+     igä+N+Sg+Ine: [iän, iäh, iähn]
+     igä+N+Sg+Ela: iäst
+     igä+N+Sg+All: iäle
+     igä+N+Sg+Ade: iäl
+     igä+N+Sg+Abl: iält
+     igä+N+Sg+Tra: iäs
+     igä+N+Sg+Ter: iäniq
+     igä+N+Sg+Abe: iäldäq
+     igä+N+Sg+Com: iägaq
+     igä+N+Pl+Nom: iäq
+     igä+N+Pl+Gen: iki
+     igä+N+Pl+Par: iki
+     igä+N+Pl+Ill: [ikkihe, ikki, ikkide]
+     igä+N+Pl+Ine: [ikin, ikih, ikihn]
+     igä+N+Pl+Ela: ikist
+     igä+N+Pl+All: ikile
+     igä+N+Pl+Ade: ikil
+     igä+N+Pl+Abl: ikilt
+     igä+N+Pl+Tra: ikis
+     igä+N+Pl+Ter: ikiniq
+     igä+N+Pl+Abe: ikildäq
+     igä+N+Pl+Com: ikigaq

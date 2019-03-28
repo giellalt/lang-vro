@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - `tervüs3: # Noun (17,8,4) `tervüs1-3 'eng /est /fin' - full paradigm
+     tervüs+N+Sg+Nom: tervüs
+     tervüs+N+Sg+Gen: [tervüse, tervü]
+     tervüs+N+Sg+Par: [tervüst, tervüt]
+     tervüs+N+Sg+Ill: [tervüste, tervühe]
+     tervüs+N+Sg+Ine: [tervüsen, tervüseh, tervüsehn, tervün, tervüh, tervühn]
+     tervüs+N+Sg+Ela: [tervüsest, tervüst]
+     tervüs+N+Sg+All: [tervüsele, tervüle]
+     tervüs+N+Sg+Ade: [tervüsel, tervül]
+     tervüs+N+Sg+Abl: [tervüselt, tervült]
+     tervüs+N+Sg+Tra: [tervüses, tervüs]
+     tervüs+N+Sg+Ter: [tervüseniq, tervüniq]
+     tervüs+N+Sg+Abe: [tervüseldäq, tervüldäq]
+     tervüs+N+Sg+Com: [tervüsegaq, tervügaq]
+     tervüs+N+Pl+Nom: [tervüseq, tervüq]
+     tervüs+N+Pl+Gen: [tervüisi, tervüste, tervüide, tervide]
+     tervüs+N+Pl+Par: [tervüisi, tervüid, tervit]
+     tervüs+N+Pl+Ill: [tervüisihe, tervüisi, tervüiside, tervüstehe, tervüihe, tervihe, tervüstede, tervüide]
+     tervüs+N+Pl+Ine: [tervüisin, tervüisih, tervüisihn, tervüsten, tervüsteh, tervüstehn, tervüin, tervüih, tervüihn, tervin, tervih, tervihn]
+     tervüs+N+Pl+Ela: [tervüisist, tervüstest, tervüist, tervist]
+     tervüs+N+Pl+All: [tervüisile, tervüstele, tervüile, tervile]
+     tervüs+N+Pl+Ade: [tervüisil, tervüstel, tervüil, tervil]
+     tervüs+N+Pl+Abl: [tervüisilt, tervüstelt, tervüilt, tervilt]
+     tervüs+N+Pl+Tra: [tervüisis, tervüstes, tervüis, tervis]
+     tervüs+N+Pl+Ter: [tervüisiniq, tervüsteniq, tervüiniq, terviniq]
+     tervüs+N+Pl+Abe: [tervüisildäq, tervüsteldäq, tervüildäq, tervildäq]
+     tervüs+N+Pl+Com: [tervüisigaq, tervüstegaq, tervüidegaq, tervidegaq]

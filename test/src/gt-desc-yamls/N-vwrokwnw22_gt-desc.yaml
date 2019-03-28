@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - võrokõnõ: # Noun (22) võrokõnõ 'eng /est /fin' - full paradigm
+     võrokõnõ+N+Sg+Nom: võrokõnõ
+     võrokõnõ+N+Sg+Gen: võrokõsõ
+     võrokõnõ+N+Sg+Par: võrokõist
+     võrokõnõ+N+Sg+Ill: võrokõistõ
+     võrokõnõ+N+Sg+Ine: [võrokõsõn, võrokõsõh, võrokõsõhn]
+     võrokõnõ+N+Sg+Ela: võrokõsõst
+     võrokõnõ+N+Sg+All: võrokõsõlõ
+     võrokõnõ+N+Sg+Ade: võrokõsõl
+     võrokõnõ+N+Sg+Abl: võrokõsõlt
+     võrokõnõ+N+Sg+Tra: võrokõsõs
+     võrokõnõ+N+Sg+Ter: võrokõsõniq
+     võrokõnõ+N+Sg+Abe: võrokõsõldaq
+     võrokõnõ+N+Sg+Com: võrokõsõgaq
+     võrokõnõ+N+Pl+Nom: võrokõsõq
+     võrokõnõ+N+Pl+Gen: [võrokõisi, võrokõistõ]
+     võrokõnõ+N+Pl+Par: võrokõisi
+     võrokõnõ+N+Pl+Ill: [võrokõisihe, võrokõisi, võrokõisidõ]
+     võrokõnõ+N+Pl+Ine: [võrokõisin, võrokõisih, võrokõisihn, võrokõistõn, võrokõistõh, võrokõistõhn]
+     võrokõnõ+N+Pl+Ela: [võrokõisist, võrokõistõst]
+     võrokõnõ+N+Pl+All: [võrokõisilõ, võrokõistõlõ]
+     võrokõnõ+N+Pl+Ade: [võrokõisil, võrokõistõl]
+     võrokõnõ+N+Pl+Abl: [võrokõisilt, võrokõistõlt]
+     võrokõnõ+N+Pl+Tra: [võrokõisis, võrokõistõs]
+     võrokõnõ+N+Pl+Ter: [võrokõisiniq, võrokõistõniq]
+     võrokõnõ+N+Pl+Abe: [võrokõisildaq, võrokõistõldaq]
+     võrokõnõ+N+Pl+Com: [võrokõisigaq, võrokõistõgaq]
