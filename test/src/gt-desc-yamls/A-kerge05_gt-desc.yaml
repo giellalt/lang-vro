@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - `kerge: # Noun (5) `kerge 'eng /est /fin' - full paradigm
+     kerge+A+Sg+Nom: kerge
+     kerge+A+Sg+Gen: kerge
+     kerge+A+Sg+Par: kerget
+     kerge+A+Sg+Ill: [kergehe, kergede]
+     kerge+A+Sg+Ine: [kergen, kergeh, kergehn]
+     kerge+A+Sg+Ela: kergest
+     kerge+A+Sg+All: kergele
+     kerge+A+Sg+Ade: kergel
+     kerge+A+Sg+Abl: kergelt
+     kerge+A+Sg+Tra: kerges
+     kerge+A+Sg+Ter: kergeniq
+     kerge+A+Sg+Abe: kergeldäq
+     kerge+A+Sg+Com: kergegaq
+     kerge+A+Pl+Nom: kergeq
+     kerge+A+Pl+Gen: [kergide, kergiide]
+     kerge+A+Pl+Par: [kergit, kergiid]
+     kerge+A+Pl+Ill: [kergihe, kergiihe, kergide, kergiide]
+     kerge+A+Pl+Ine: [kergin, kergih, kergihn, kergiin, kergiih, kergiihn]
+     kerge+A+Pl+Ela: [kergist, kergiist]
+     kerge+A+Pl+All: [kergile, kergiile]
+     kerge+A+Pl+Ade: [kergil, kergiil]
+     kerge+A+Pl+Abl: [kergilt, kergiilt]
+     kerge+A+Pl+Tra: [kergis, kergiis]
+     kerge+A+Pl+Ter: [kerginiq, kergiiniq]
+     kerge+A+Pl+Abe: [kergildäq, kergiildäq]
+     kerge+A+Pl+Com: [kergidegaq, kergiidegaq]
