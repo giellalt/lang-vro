@@ -1,0 +1,47 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - tujokas: # Noun (19) tujokas 'eng /est /fin' - full paradigm
+     tujokas+N+Sg+Nom: tujokas
+     tujokas+N+Sg+Gen: tujokadsõ
+     tujokas+N+Sg+Par: tujokast
+     tujokas+N+Sg+Ill: tujokastõ
+     tujokas+N+Sg+Ine: tujokadsõn
+     tujokas+N+Sg+Ela: tujokadsõst
+     tujokas+N+Sg+All: tujokadsõlõ
+     tujokas+N+Sg+Ade: tujokadsõl
+     tujokas+N+Sg+Abl: tujokadsõlt
+     tujokas+N+Sg+Tra: tujokadsõs
+     tujokas+N+Sg+Ter: tujokadsõniq
+     tujokas+N+Sg+Abe: tujokadsõldaq
+     tujokas+N+Sg+Com: tujokadsõgaq
+     tujokas+N+Pl+Nom: tujokadsõq
+     tujokas+N+Pl+Gen: tujokaidsi
+     tujokas+N+Pl+Par: tujokaidsi
+     tujokas+N+Pl+Ill: tujokaidsihe
+     tujokas+N+Pl+Ine: tujokaidsin
+     tujokas+N+Pl+Ela: tujokaidsist
+     tujokas+N+Pl+All: tujokaidsilõ
+     tujokas+N+Pl+Ade: tujokaidsil
+     tujokas+N+Pl+Abl: tujokaidsilt
+     tujokas+N+Pl+Tra: tujokaidsis
+     tujokas+N+Pl+Ter: tujokaidsiniq
+     tujokas+N+Pl+Abe: tujokaidsildaq
+     tujokas+N+Pl+Com: tujokaidsigaq
+
+     tujokas+N+Comp+Sg+Nom: tujokadsõmb
