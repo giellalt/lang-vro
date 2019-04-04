@@ -338,6 +338,7 @@ symbols in the lexicon files:
   %{dØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{tØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{dv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{ij%}    ellä%{ij%}
   %{gv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{gl%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{gØ%}    — HJK and KimmoK ideas argnõma:ar%{gØ%}
@@ -571,7 +572,7 @@ less complex word classes
   %{dn%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
   %{dl%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
 
-
+  %{ij%}:i    ellä%{ij%}
   %{gv%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{gl%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{gØ%}:g    — HJK and KimmoK ideas argnõma:ar%{gØ%}
@@ -1049,6 +1050,9 @@ __i2j__
 
 Cns _ %^WGStem: %> :Vow ;
 
+__%{ij%}:j__
+
+
 __%{jiØ%}:j__
 
 __%{jiØ%}:0__
@@ -1061,9 +1065,7 @@ vari+N+Sg+Gen: __shadow/varjo__
 * __va%{rŕ%}%{jiØ%}o%^Pen%^PAL%^Pen%^WGStem __
 * __vaŕ0o0000 __
 
-elläi+N+Sg+GenFIX
-* __e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä __
-* __e0läj00%>ä __
+
 
 
 
@@ -1231,7 +1233,7 @@ __lToZero__
 
 __XØToZero__
 elläi+N+Sg+Gen
-* __e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä __
+* __e%{lØ%}lä%{ij%}%^Pen%^WGStem%^I2J%>ä __
 * __e0läj00%>ä __
 * __ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^WGStem __
 * __ha0mõh%{back%}%^Pen%^WGStem __

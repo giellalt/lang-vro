@@ -47,7 +47,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{dn%}:d   !!= @CODE@ — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
  %{dl%}:d   !!= @CODE@ — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
 
-
+ %{ij%}:i   !!= @CODE@ ellä%{ij%}
  %{gv%}:g   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{gl%}:g   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{gØ%}:g   !!= @CODE@ — HJK and KimmoK ideas argnõma:ar%{gØ%}
@@ -834,6 +834,11 @@ Rules
 !  [Cns:|ArchCns:] _ (HarmDummies:) (%^Pen: %^CC2C:) %^I2ʼ: ;
 !! Cns _ %^WGStem: %> :Vow ;
 
+"%{ij%}:j"
+!! __@RULENAME@__
+ %{ij%}:j  <=> Vow _ (HarmDummies:) (%^Pen: %^WGStem:) %^I2J: ;
+
+
 "%{jiØ%}:j"
 !! __@RULENAME@__
  %{jiØ%}:j  <=>
@@ -857,10 +862,6 @@ Rules
 !!€ vaŕ0o0000
  _ Cns  [[Vow:|ArchVow:] (Cns:* |i:) (%{hØ%}:|%{sØ%}:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
  [Vow:|ArchVow:] _ (HarmDummies:) (%^VowRM: ) %^CnsRM: ;
-
-!! elläi+N+Sg+GenFIX
-!!€ e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä
-!!€ e0läj00%>ä
 
 
 
@@ -1131,9 +1132,10 @@ k:0 <=>
  Cx:0 <=>
  _ Cns  [[Vow:|ArchVow:] (Cns:* |i:) (%{hØ%}:|%{sØ%}:) (HarmDummies:) %^Pen:|(HarmDummies:) ] %^WGStem: ;
  [Vow:|ArchVow:] _ (HarmDummies:) (%^VowRM: ) %^CnsRM: ;
+ [Vow:|ArchVow:] _ Cns Vow (:Cns |:Vow) (HarmDummies:) %^Pen: %^WGStem: ;
          where Cx in (%{hØ%} %{lØ%} %{mØ%} %{nØ%} %{rØ%} %{sØ%} %{vØ%}) ;
 !! elläi+N+Sg+Gen
-!!€ e%{lØ%}läi%^Pen%^WGStem%^I2J%>ä
+!!€ e%{lØ%}lä%{ij%}%^Pen%^WGStem%^I2J%>ä
 !!€ e0läj00%>ä
 !!€ ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^WGStem
 !!€ ha0mõh%{back%}%^Pen%^WGStem
