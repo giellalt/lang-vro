@@ -2157,6 +2157,28 @@ LEXICON NMN_8KULDNW/XX-PL
 +Err/Orth+Use/NG:%>sii      PL-PAR_d        ;
 +Err/Orth+Use/NG:%>siid%{eõ%}      PL-COM        ;
 
+LEXICON NMN_8KOLMAS/VIIES !!= * @CODE@ kolmas:kolma
+!! * Yaml: __N-kuldnw__
+  NMN_8KOLMAS/VIIES-SG ;
+  NMN_8KOLMAS/VIIES-PL ;
+
+LEXICON NMN_8KOLMAS/VIIES-SG 
+:s        Harm-Neutr_SG-NOM  ;
+:%>nd%{aä%}        SG-GEN_ZERO-STEM       ;
+:%>nd%{aä%}        Harm-Neutr_SG-PAR_t        ;
+:%>nd%{aä%}        Harm-Neutr_SG-ILL_he       ;
+
+:%>nd%{aä%}        SG-ILL_dE       ;
+
+LEXICON NMN_8KOLMAS/VIIES-PL 
+:%>nd%{aä%}        Harm-Neutr_PL-NOM ;
+:%>nsi     Harm-Neutr_PL-GEN_dE ;
+:%>nsi        PL-ILL_he       ;
+:%>nsi        PL-ALL_lE-STEM       ;
+:%>nsi      PL-PAR_t        ;
+:%>nsid%{eõ%}      PL-COM        ;
+
+
 !LEXICON NMN_8SADANG !!= * __@CODE@__ sadang:sadangu
 !!! * Yaml: __N-sadang__
 !  NMN_8SADANG-SG ;
