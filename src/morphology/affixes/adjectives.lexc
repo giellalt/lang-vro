@@ -68,6 +68,12 @@ LEXICON A_8HAEIELM
 LEXICON A_8KULDNW !!= * @CODE@ kuldnõ:kuld
 :%{back%}  NMN_8KULDNW/XX ;
 
+LEXICON A_8KOLMAS !!= * @CODE@ kolmas:kolma
+:%{back%}  NMN_8KOLMAS/VIIES ;
+
+LEXICON A_8VIIES !!= * @CODE@ viies:viie
+:%{front%}  NMN_8KOLMAS/VIIES ;
+
 LEXICON A_9ALLAS1 !!= * @CODE@
 :%{back%}  NMN_9ALLAS1/SINNEL1 ;
 
@@ -187,6 +193,9 @@ LEXICON A_14IKAES  !!= @CODE@ rikas:ri%{kØ%}ka%{sØ%}
 
 LEXICON A_15KOTUS
 :%{back%}  NMN_15KOTUS/ILVES ;
+
+LEXICON A_16ABILINW !!= @CODE@ inemine:inemi
+:%{back%}	NMN_16ABILINW/INEMINE ;
 
 LEXICON A_16INEMINE !!= @CODE@ inemine:inemi
 :%{front%}	NMN_16ABILINW/INEMINE ;
