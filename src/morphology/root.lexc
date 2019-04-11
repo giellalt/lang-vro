@@ -113,6 +113,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  +Ord  !!≈ * __@CODE@__
 !! Verb moods are:
  +Ind  !!≈ * __@CODE@__
+ +Jus  !!≈ * __@CODE@__
 +Prs   !!≈ * __@CODE@__
 +Prt   !!≈ * __@CODE@__
 +Pot   !!≈ * __@CODE@__
@@ -151,7 +152,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  +Inf	        !!≈ * __@CODE@__ sõimadaq, elädäq
  +Inf/mA	!!≈ * __@CODE@__ sõimama, elämä
 +Ger		!!≈ * __@CODE@__ ollõn
-+ConNegI	!!≈ * __@CODE@__ saa eiq 3 elements in 2 orthographic units
++ConNeg		!!≈ * __@CODE@__ saa eiq 3 elements in 2 orthographic units
 +ConNegII	!!≈ * __@CODE@__ ei saaq 3 elements in 2 orthographic units
 +Neg		!!≈ * __@CODE@__ saa-aiq 3 elements in 1 orthographic unit
 +ImprtII	!!≈ * __@CODE@__
@@ -187,6 +188,13 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 
 +Qst !!≈ * __@CODE@__
 +Foc !!≈ * __@CODE@__
++Clt	!!≈ * __@CODE@__
+
++Hom1	!!≈ * __@CODE@__
++Hom2	!!≈ * __@CODE@__
++Hom3	!!≈ * __@CODE@__
++Hom4	!!≈ * __@CODE@__
+
 
 !!! !Tags usually not visible outside the code:
 
@@ -216,6 +224,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 +v22  !!≈ * @CODE@
 +v23  !!≈ * @CODE@
 +v24  !!≈ * @CODE@
+
 
 
 ! Semantic tags to help disambiguation & synt. analysis: (before POS)
@@ -450,6 +459,9 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 ! +Sem/Rvr    !≈ * __@CODE@__  name of river or water way, media of transportation,
 ! +Sem/Inanim !≈ * __@CODE@__  Inanimate,
 ! +Sem/NonHum !≈ * __@CODE@__  Nonhuman,
++Sem/Ant_Fem	!!≈ * __@CODE@__
++Sem/Ant_Mal	!!≈ * __@CODE@__
++Temp	!!≈ * __@CODE@__
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
@@ -458,6 +470,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 +V→V	   !!≈ * __@CODE@__
 +V→A	   !!≈ * __@CODE@__
 +Prop→A	   !!≈ * __@CODE@__
+ +Der	   !!≈ * __@CODE@__
  +Der/xxx  !!≈ * __@CODE@__
  +Der/JA !!= __@CODE@__	NomAg
  +Der/minE !!= __@CODE@__ NomAct
@@ -676,8 +689,8 @@ LEXICON Root
   DET_NEWWORDS ;           !!≈ * __@CODE@__
   INTERJ_NEWWORDS ;           !!≈ * __@CODE@__
   N_NEWWORDS ;           !!≈ * __@CODE@__
-@U.Cap.Obl@  PROP_NEWWORDS ;           !!≈ * __@CODE@__
-@U.Cap.Opt@  PROP_NEWWORDS ;           !!≈ * __@CODE@__
+ @U.Cap.Obl@  PROP_NEWWORDS ;           !!≈ * __@CODE@__
+ @U.Cap.Opt@  PROP_NEWWORDS ;           !!≈ * __@CODE@__
   V_NEWWORDS ;           !!≈ * __@CODE@__
 
 

@@ -596,9 +596,9 @@ LEXICON V_63VISKAMA/HINGÄMÄ !!≈ * __@CODE@__ viskama:viska
 +Act+Ind+Prs+Pl3:%>s%{eõ%}q K ;
  ACT-IND-CONNEG ;
 +Use/NG+Err/Orth+Act+Ind+Prs+Sg2:%>d%{eõ%} K ; !!= * @CODE@ no q
-+Use/NG+Err/Orth+Act+Ind+Prs+Pl1:%>mi K ;	!!= * @CODE@ no	q
-+Use/NG+Err/Orth+Act+Ind+Prs+Pl2:%>ti K ;	!!= * @CODE@ no	q
-+Use/NG+Err/Orth+Act+Ind+Prs+Pl3:%>s%{eõ%} K ;	!!= * @CODE@ no	q
++Use/NG+Err/Orth+Act+Ind+Prs+Pl1:%>mi K ; !!= * @CODE@ no q
++Use/NG+Err/Orth+Act+Ind+Prs+Pl2:%>ti K ; !!= * @CODE@ no q
++Use/NG+Err/Orth+Act+Ind+Prs+Pl3:%>s%{eõ%} K ; !!= * @CODE@ no q
 
 +Act+Ind+Prt+Sg3:%^Pen%^WGStem%>ś K ;
 +Act+Ind+Prt+Sg1:%^Pen%^WGStem%>ssi K ;
@@ -2114,7 +2114,7 @@ LEXICON IND-CONNEG
 +Err/Orth+Use/NG+Ind+Prs+Neg:%-iq K ; !!= * @CODE@ This gives stress
 +Err/Orth+Use/NG+Ind+Prs+Neg:%-%{XV%}i K ; !!= * @CODE@ more neutral without q
 +Err/Orth+Use/NG+Ind+Prs+Neg:%-i K ; !!= * @CODE@ more neutral without q
-+Ind+ConNegI:%>q K ;
++Ind+ConNeg:%>q K ;
 +Ind+ConNegII: K ;
 +Ind+Prt+Neg:%-%{XV%}s K ;
 +Err/Orth+Use/NG+Ind+Prt+Neg:%-s K ;
@@ -2127,7 +2127,7 @@ LEXICON COND-CONNEG
 +Cond+Prs+Neg:%>si%-iq K ;
 +Cond+Prs+Neg:%>si%-i K ;
 +Cond+Prt+Neg:%>si%-is K ;
-+Cond+ConNegI:%>siq K ;
++Cond+ConNeg:%>siq K ;
 +Cond+ConNegII:%>si K ;
 
 
@@ -2466,8 +2466,8 @@ LEXICON Harm-Neutr_ACT-PRSPRC_v
 +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON ACT-PRSPRC_vA
-+Act+PrsPrc:%>v%{aä%} K ;		! juuva süüvä
-+Act+PrsPrc:%>v%{aä%} A_9KIPWN1/ELLAEI ;	! MUST BE FIXED 2015-06-09
++Act+PrsPrc:%>v%{aä%} K ;  ! juuva süüvä
++Act+PrsPrc:%>v%{aä%} A_9KIPWN1/ELLAEI ; ! MUST BE FIXED 2015-06-09
 +Act+PrsPrc+Sg+Nom:%>v%{aä%} K ;
 +Act+PrsPrc+Sg+Gen:%>v%{aä%} K ;
 +Act+PrsPrc+Sg+Par:%>v%{aä%}t K ;
