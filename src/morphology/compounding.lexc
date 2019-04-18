@@ -17,15 +17,15 @@ LEXICON ATTESTED-NOUN-STEM-CONTINUED
 !+Cmp#@P.NeedNoun.ON@:0#@P.NeedNoun.ON@ V_sms2x ;
 
 
-LEXICON Rreal ! This show a simple beginning for modeling sme
-!@P.CmpFrst.FALSE@@P.CmpPref.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@ RrealAfterCmpNFlags ; ! Flags to control compounding
-!Prefixes are directed here
-!+Use/Circ+Cmp#:# NounRoot ;
-+Cmp#:# NounRoot ;
+!LEXICON Rreal ! This show a simple beginning for modeling sme
+!!@P.CmpFrst.FALSE@@P.CmpPref.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@ RrealAfterCmpNFlags ; ! Flags to control compounding
+!!Prefixes are directed here
+!!+Use/Circ+Cmp#:# NounRoot ;
+!+Cmp#:# NounRoot ;
 
-LEXICON RNum
- +Cmp-#:-# NounRoot ; ! For Num Cmp Noun, vi vil ikke ha Num Cmp Num 
-!+Cmp-#:-# PREF/NUM_ ;
+!LEXICON RNum
+! +Cmp-#:-# NounRoot ; ! For Num Cmp Noun, vi vil ikke ha Num Cmp Num 
+!!+Cmp-#:-# PREF/NUM_ ;
 
 !LEXICON ARABICCOMPOUNDS
 !+Cmp-#:-# PREF/NUM_ ;
