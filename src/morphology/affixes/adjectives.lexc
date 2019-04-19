@@ -4,8 +4,8 @@
 
 
 
-LEXICON A_
-+A+WORK: # ;
+!LEXICON A_
+!+A+WORK: # ;
 
 LEXICON PROP-PLC-DOWNCASE-SG-GEN
 @U.Cap.Opt@+Sg+Gen+Prop→A:@U.Cap.Opt@ # ;
@@ -125,10 +125,10 @@ LEXICON A_9VERREV
 !:%{back%}     NMN_9SALLAI/ELLAEI ;
 !:%^Pen%^WGStem%^I2J%>a%{back%} COMP ;
 
-LEXICON A_9ELLAEI
-!! * Yaml: __ellaei__
-:%{front%}     NMN_9SALLAI/ELLAEI ;
-:%^Pen%^WGStem%^I2J%>ä%{front%} COMP ;
+!LEXICON A_9ELLAEI
+!!! * Yaml: __ellaei__
+!:%{front%}     NMN_9SALLAI/ELLAEI ;
+!:%^Pen%^WGStem%^I2J%>ä%{front%} COMP ;
 
 LEXICON A_10AABITS
 :%{back%}  NMN_10AABITS ;
@@ -153,8 +153,8 @@ LEXICON A_10ESAEK
 :%{back%}  NMN_10ESAEK-SG ;
 :%{front%}  NMN_10ESAEK-PL ;
 
-LEXICON A_11LAETEQ
-:%{front%}  NMN_11ANNWQ/LAETEQ ;
+!LEXICON A_11LAETEQ
+!:%{front%}  NMN_11ANNWQ/LAETEQ ;
 
 LEXICON A_11AINWQ !!= @CODE@ ainõq:ainõ
 :%{back%}  NMN_11AINWQ/KELMEQ ;
@@ -191,11 +191,11 @@ LEXICON A_14IKAES  !!= @CODE@ rikas:ri%{kØ%}ka%{sØ%}
 :%{front%} Harm-Neutr_COMP ;
 :%{front%}  NMN_14HAMMAS/IKAES ;
 
-LEXICON A_15KOTUS
-:%{back%}  NMN_15KOTUS/ILVES ;
+!LEXICON A_15KOTUS
+!:%{back%}  NMN_15KOTUS/ILVES ;
 
-!LEXICON A_16ABILINW !!= @CODE@ inemine:inemi
-!:%{back%} NMN_16ABILINW/INEMINE ;
+LEXICON A_16ABILINW !!= @CODE@ inemine:inemi
+:%{back%} NMN_16ABILINW/INEMINE ;
 
 LEXICON A_16INEMINE !!= @CODE@ inemine:inemi
 :%{front%} NMN_16ABILINW/INEMINE ;
@@ -266,8 +266,8 @@ LEXICON A_23SUUR1
 LEXICON A_27HAPU
 :%{back%}  NMN_27HAPU ;
 
-LEXICON A_28TUETAER1
-:%{front%}  NMN_28TUETAER1 ;
+!LEXICON A_28TUETAER1
+!:%{front%}  NMN_28TUETAER1 ;
 
 LEXICON A_29KUU
 :%{back%}  NMN_29KUU/HAEAE ;
@@ -290,8 +290,8 @@ LEXICON A_33IGAE
 !LEXICON A_34TULI
 !:%{back%}  NMN_34TULI/SÜLI ;
 
-LEXICON A_35TARW
-:%{back%}  NMN_35TARW ;
+!LEXICON A_35TARW
+!:%{back%}  NMN_35TARW ;
 
 LEXICON A_35UMA
 :%{back%}  NMN_35UMA/PESAE ;
@@ -327,8 +327,8 @@ LEXICON A_38PULL1
 LEXICON A_40TALO
 :%{back%}  NMN_40TALO/HELUE ;
 
-LEXICON A_41KAND
-:%{back%}  NMN_41KAND ;
+!LEXICON A_41KAND
+!:%{back%}  NMN_41KAND ;
 
 !LEXICON A_42VARI
 !:%{back%}  NMN_42VARI ;
