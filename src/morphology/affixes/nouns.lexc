@@ -3137,7 +3137,7 @@ LEXICON NMN_12SUEKUES-PL
 +Err/Orth+Use/NG:%^Pen%^WGStem%>iide      PL-COM        ;
 +Err/Orth+Use/NG:%^Pen%^WGStem%>te      PL-COM        ;
 
-!LEXICON NMN_12NWKWS1 !!= * @CODE@ nõkõś:nõ%{kg%}õs
+!LEXICON NMN_12NWKWS1 !!= * @CODE@ nõkõś:nõ%{kg%}õ%{sś%}
 !! __N-suekues12__
 !  NMN_12NWKWS1-SG ;
 !  NMN_12NWKWS1-PL ;
@@ -3147,7 +3147,7 @@ LEXICON NMN_12NWKWS1-SG
 +Err/Orth-no-pal:        Harm-Neutr_SG-NOM  ;
 :%^Pen%^WGStem%>õ       SG-GEN_ZERO        ;
 :%^Pen%^WGStem       Harm-Neutr_SG-PAR_t        ;
-:%^Pen%^WGStem%^StrGStem%>õ       Harm-Neutr_SG-ILL_he       ;
+:%^Pen%^WGStem%{XC%}%>õ       Harm-Neutr_SG-ILL_he       ;
 :%^Pen%^WGStem%>õ       Harm-Neutr_SG-COM ;
 +Err/Orth+Use/NG:%^Pen%^WGStem%^StrGStem%>õ       SG-GEN_ZERO-STEM        ; !!= * @CODE@ THIS NEEDS WORK
 +Err/Orth+Use/NG:%^Pen%^WGStem%^StrGStem%>õ       SG-ILL_dE       ;
@@ -3417,11 +3417,11 @@ LEXICON NMN_14NUMMWR1/XX-PL
 !+Err/Orth+Use/NG:%^VowRM%>ii PL-PAR_d ;
 !+Err/Orth+Use/NG:%^VowRM%>ii PL-ALL_lE-STEM ;
 
-LEXICON NMN_15KOTUS/ILVES
-!! kotus:kotus
-!! * Yaml: __N-kotus15__
-  NMN_15KOTUS/ILVES-SG ;
-  NMN_15KOTUS/ILVES-PL ;
+!LEXICON NMN_15KOTUS/ILVES
+!!! kotus:kotus
+!!! * Yaml: __N-kotus15__
+!  NMN_15KOTUS/ILVES-SG ;
+!  NMN_15KOTUS/ILVES-PL ;
 
 LEXICON NMN_15KOTUS/ILVES-SG 
         Harm-Neutr_SG-NOM  ;
@@ -3577,6 +3577,7 @@ LEXICON NMN_19ALOMANW/PEDAEJAENE  !!= @CODE@ alomanõ:aloma
         NMN_19ALOMANW/PEDAEJAENE-PL ;
 LEXICON NMN_19ALOMANW/PEDAEJAENE-SG
 :%>n%{eõ%} Harm-Neutr_SG-NOM ;
+:%>s Harm-Neutr_SG-NOM ;
 :%>ds%{eõ%}      SG-GEN_ZERO-STEM ;
 :s  Harm-Neutr_SG-PAR_t ;
 :s         Harm-Neutr_SG-ILL_tE ;
@@ -4091,10 +4092,10 @@ LEXICON NMN_27HAPU-PL
 +Err/Orth+Use/NG:%^VowRM%>niidõ PL-COM ;
 +Err/Orth+Use/NG:%>ndõ PL-COM ;
 
-LEXICON NMN_28TUETAER1 !!= * __@CODE@__ tütäŕ:tütär
-!! * Yaml: __N-tuetaerj28, N-kannwl28__
-  NMN_28TUETAER1-SG ;
-  NMN_28TUETAER1-PL ;
+!LEXICON NMN_28TUETAER1 !!= * __@CODE@__ tütäŕ:tütär
+!!! * Yaml: __N-tuetaerj28, N-kannwl28__
+!  NMN_28TUETAER1-SG ;
+!  NMN_28TUETAER1-PL ;
 
 LEXICON NMN_28TUETAER1-SG 
 :%^PAL Harm-Neutr_SG-NOM ;
@@ -4477,10 +4478,11 @@ LEXICON NMN_34TULI/SUELI-PL
 +Err/Orth+Use/NG:%>i  PL-ALL_lE-STEM ;
 :%>i    PL-COM ;
 
-LEXICON NMN_35TARW !!= * @CODE@ tarõ:tarõ
-!külä
-  NMN_35TARW-SG ;
-  NMN_35TARW-PL ;
+!LEXICON NMN_35TARW !!= * @CODE@ tarõ:tarõ
+!!külä
+!  NMN_35TARW-SG ;
+!  NMN_35TARW-PL ;
+
 LEXICON NMN_35TARW-SG 
 :%^Pen%^WGStem        Harm-Neutr_SG-NOM  ;
 :%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;
@@ -5054,34 +5056,35 @@ LEXICON NMN_40UJA/XX-PL
 :%^VowRM%{eõ%}    PL-ALL_lE-STEM ;
 :%^VowRM%{aä%}    PL-ALL_lE-STEM ;
 
-LEXICON NMN_41KAND !!= @CODE@ kand:kand
-  NMN_41KAND-SG ;
-  NMN_41KAND-PL ;
-LEXICON NMN_41KAND-SG 
-        Harm-Neutr_SG-NOM  ;
-:%^WGStem%>o       SG-GEN_ZERO-STEM        ;
-:%>o       Harm-Neutr_SG-ILL_ZERO        ;
-:%>o       Harm-Neutr_SG-PAR_ZERO        ;
+!LEXICON NMN_41KAND !!= @CODE@ kand:kand
+!  NMN_41KAND-SG ;
+!  NMN_41KAND-PL ;
 
-LEXICON NMN_41KAND-PL 
-:%^WGStem%>o       Harm-Neutr_PL-NOM ;
-:õ    PL-GEN_ZERO ;
-:õ    Harm-Neutr_PL-PAR_ZERO ;
-:õ    PL-ILL_he ;
-:%^WGStem%>õ    PL-ALL_lE-STEM ;
+!LEXICON NMN_41KAND-SG 
+!        Harm-Neutr_SG-NOM  ;
+!:%^WGStem%>o       SG-GEN_ZERO-STEM        ;
+!:%>o       Harm-Neutr_SG-ILL_ZERO        ;
+!:%>o       Harm-Neutr_SG-PAR_ZERO        ;
 
-:õ    PL-COM ;
+!LEXICON NMN_41KAND-PL 
+!:%^WGStem%>o       Harm-Neutr_PL-NOM ;
+!:õ    PL-GEN_ZERO ;
+!:õ    Harm-Neutr_PL-PAR_ZERO ;
+!:õ    PL-ILL_he ;
+!:%^WGStem%>õ    PL-ALL_lE-STEM ;
 
-!+Err/Orth+Use/NG:a    PL-GEN_ZERO ;
-!+Err/Orth+Use/NG:a    Harm-Neutr_PL-PAR_ZERO ;
-+Err/Orth+Use/NG:õ    Harm-Neutr_PL-ILL_ZERO ;
-+Err/Orth+Use/NG:a    Harm-Neutr_PL-ILL_ZERO ;
-+Err/Orth+Use/NG:a    PL-ILL_he ;
-+Err/Orth+Use/NG:õ    PL-ILL_dE ;
-!+Err/Orth+Use/NG:a    PL-ILL_dE ;
-+Err/Orth+Use/NG:%^WGStem%>e    PL-ALL_lE-STEM ;
-!+Err/Orth+Use/NG:%^WGStem%>%{aä%}    PL-ALL_lE-STEM ; Is this needed for KAND?
-+Err/Orth+Use/NG:a    PL-COM ;
+!:õ    PL-COM ;
+
+!!+Err/Orth+Use/NG:a    PL-GEN_ZERO ;
+!!+Err/Orth+Use/NG:a    Harm-Neutr_PL-PAR_ZERO ;
+!+Err/Orth+Use/NG:õ    Harm-Neutr_PL-ILL_ZERO ;
+!+Err/Orth+Use/NG:a    Harm-Neutr_PL-ILL_ZERO ;
+!+Err/Orth+Use/NG:a    PL-ILL_he ;
+!+Err/Orth+Use/NG:õ    PL-ILL_dE ;
+!!+Err/Orth+Use/NG:a    PL-ILL_dE ;
+!+Err/Orth+Use/NG:%^WGStem%>e    PL-ALL_lE-STEM ;
+!!+Err/Orth+Use/NG:%^WGStem%>%{aä%}    PL-ALL_lE-STEM ; Is this needed for KAND?
+!+Err/Orth+Use/NG:a    PL-COM ;
 
 !LEXICON NMN_41JUHT1 !!= * @CODE@ juht́:juht
 !  NMN_41JUHT1-SG ;
