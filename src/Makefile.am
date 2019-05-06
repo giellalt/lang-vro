@@ -63,6 +63,7 @@ endif # CAN_FOMA
 #################################################
 #### Add language-specific build rules here: ####
 
+# Hfst:
 analyser-%.hfst: analyser-%.tmp.hfst                        \
 					filters/remove-combining-caron-below.hfst   \
 					filters/remove-modifier-letter-grave-accent.hfst   \
@@ -73,7 +74,8 @@ analyser-%.hfst: analyser-%.tmp.hfst                        \
 			.o. @\"filters/remove-combining-caron-below.hfst\"   \
 			.o. @\"filters/remove-modifier-letter-grave-accent.hfst\"   \
 			;" \
-		| $(HFST_REGEXP2FST) $(HFST_FLAGS) -S --xerox-composition=ON \
+		| $(HFST_REGEXP2FST) $(HFST_FLAGS) $(HFST_FORMAT) \
+			-S --xerox-composition=ON \
 		| $(HFST_INVERT) \
 		> $@
 
@@ -88,26 +90,13 @@ generator-gt-%.hfst: generator-gt-%.tmp.hfst                \
 			.o. @\"filters/remove-combining-caron-below.hfst\"   \
 			.o. @\"filters/remove-modifier-letter-grave-accent.hfst\"   \
 			;" \
-		| $(HFST_REGEXP2FST) $(HFST_FLAGS) -S --xerox-composition=ON \
+		| $(HFST_REGEXP2FST) $(HFST_FLAGS) $(HFST_FORMAT) \
+			-S --xerox-composition=ON \
 		> $@
 
+# Xerox:
 # We need to specify -gt- to avoid applying the filters to the raw fst:
 analyser-gt-%.xfst: analyser-gt-%.tmp.xfst                  \
-					filters/remove-combining-caron-below.xfst   \
-					filters/remove-modifier-letter-grave-accent.xfst   \
-					filters/remove-combining-circumflex-accent-below.xfst            
-	$(AM_V_XFST)$(PRINTF) "read regex                        \
-				@\"$<\"                                      \
-			.o. @\"filters/remove-combining-circumflex-accent-below.xfst\" \
-			.o. @\"filters/remove-combining-caron-below.xfst\"   \
-			.o. @\"filters/remove-modifier-letter-grave-accent.xfst\"   \
-			;\n\
-		 save stack $@\n\
-		 quit\n" | $(XFST) $(VERBOSITY)
-
-# Special case for the disamb analyser, since it follows the same filename
-# pattern as the raw fst:
-analyser-disamb-gt-%.xfst: analyser-disamb-gt-%.tmp.xfst    \
 					filters/remove-combining-caron-below.xfst   \
 					filters/remove-modifier-letter-grave-accent.xfst   \
 					filters/remove-combining-circumflex-accent-below.xfst            
@@ -134,12 +123,71 @@ generator-%.xfst: generator-%.tmp.xfst                      \
 		 save stack $@\n\
 		 quit\n" | $(XFST) $(VERBOSITY)
 
+# Special case for the disamb analyser, since it follows the same filename
+# pattern as the raw fst:
+analyser-disamb-gt-%.xfst: analyser-disamb-gt-%.tmp.xfst    \
+					filters/remove-combining-caron-below.xfst   \
+					filters/remove-modifier-letter-grave-accent.xfst   \
+					filters/remove-combining-circumflex-accent-below.xfst            
+	$(AM_V_XFST)$(PRINTF) "read regex                        \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.xfst\" \
+			.o. @\"filters/remove-combining-caron-below.xfst\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.xfst\"   \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+# Foma, for completeness:
+# We need to specify -gt- to avoid applying the filters to the raw fst:
+analyser-gt-%.foma: analyser-gt-%.tmp.foma                  \
+					filters/remove-combining-caron-below.foma   \
+					filters/remove-modifier-letter-grave-accent.foma   \
+					filters/remove-combining-circumflex-accent-below.foma            
+	$(AM_V_XFST)$(PRINTF) "read regex                        \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.foma\" \
+			.o. @\"filters/remove-combining-caron-below.foma\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.foma\"   \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+generator-%.foma: generator-%.tmp.foma                      \
+					filters/remove-combining-caron-below.foma   \
+					filters/remove-modifier-letter-grave-accent.foma   \
+					filters/remove-combining-circumflex-accent-below.foma            
+	$(AM_V_XFST)$(PRINTF) "read regex                        \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.foma\" \
+			.o. @\"filters/remove-combining-caron-below.foma\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.foma\"   \
+			;\n\
+		 invert net\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+# Special case for the disamb analyser, since it follows the same filename
+# pattern as the raw fst:
+analyser-disamb-gt-%.foma: analyser-disamb-gt-%.tmp.foma    \
+					filters/remove-combining-caron-below.foma   \
+					filters/remove-modifier-letter-grave-accent.foma   \
+					filters/remove-combining-circumflex-accent-below.foma            
+	$(AM_V_XFST)$(PRINTF) "read regex                        \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.foma\" \
+			.o. @\"filters/remove-combining-caron-below.foma\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.foma\"   \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
 # Do NOT apply the accent removal filters to the normative
-# dictionary generator (both hfst and xfst):
+# dictionary generator (both hfst and xfst/foma):
 generator-dict-gt-norm.hfst: generator-dict-gt-norm.tmp.hfst
 	$(AM_V_CP)cp -f $< $@
 
-generator-dict-gt-norm.xfst: generator-dict-gt-norm.tmp.xfst
+generator-dict-gt-norm.%: generator-dict-gt-norm.tmp.%
 	$(AM_V_XFST)$(PRINTF) "\
 		 load stack $<\n\
 		 invert net\n\
