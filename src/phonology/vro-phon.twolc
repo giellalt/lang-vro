@@ -399,10 +399,11 @@ Rules
            where Vx in (%{ou%} %{öü%})
 	   	 Vy in (  õ      e   ) matched ;
 
+!FIX-ME 2019-05-8 
 !! !VOWEL RAISING
-"ö:ü"
+!"ö:ü"
 !! __@RULENAME@__
- ö:ü <=> Vow %^V7: 0:? _ (HarmDummies:) %^StrGStem: %> i: ; ! 0:
+! ö:ü <=> Vow %^V7: 0:? _ (HarmDummies:) %^StrGStem: %> i: ; ! 0:
 !!€ hä%^V70ö%^StrGStem%>i
 !!€ hävvü0%>0
 
@@ -539,7 +540,8 @@ Rules
 
 "i2e"
 !! __@RULENAME@__
- i:e <=> Cns 0:? _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
+ i:e <=> Cns _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
+! Cns 0:? _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: ) %^PLPRT: ;
 !!€ pin0i%^StrGStem%^PLPRT
 !!€ pinne00
 ! # Cns* _ i: l (HarmDummies:) %^VOWLower: ;
@@ -575,7 +577,8 @@ Rules
 !! !VOWEL LOSS
 "a:0"
 !! __@RULENAME@__
- a:0 <=> [ Cns:| ArchCns: ] _ (HarmDummies:) [ (%^StrGStem:|%^Pen: %^WGStem:|%^Pen: %^CC2C:) (0:) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM: %> ]  ; 
+ a:0 <=> [ Cns:| ArchCns: ] _ (HarmDummies:) [ (%^StrGStem:|%^Pen: %^WGStem:|%^Pen: %^CC2C:) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM: %> ]  ; 
+! [ Cns:| ArchCns: ] _ (HarmDummies:) [ (%^StrGStem:|%^Pen: %^WGStem:|%^Pen: %^CC2C:) (0:) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM: %> ]  ; 
       a _ (HarmDummies:) %>  i  ; !!= @CODE@ 
 !!€ saa%>i
 !!€ sa0%>i
@@ -589,7 +592,8 @@ Rules
 
 "ä:0"
 !! __@RULENAME@__
- ä:0 <=>  [ Cns: | :Cns | ArchCns:] _ (s:) (HarmDummies:) [ (0:) (%^Pen: %^CC2C:) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
+ ä:0 <=>  [ Cns: | :Cns | ArchCns:] _ (s:) (HarmDummies:) [ (%^Pen: %^CC2C:) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
+!  [ Cns: | :Cns | ArchCns:] _ (s:) (HarmDummies:) [ (0:) (%^Pen: %^CC2C:) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
     _ (HarmDummies:) ((%^Pen: ) %^VOWLower:) (%^Pen: (%^WGStem:|%^StrGStem:|%^XStrGStem:)) %^VowRM: ;
 !  [ Cns: | :Cns ] _ (HarmDummies:) [ (0:|:0+) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
                         ä _ (HarmDummies:) (%^VOWRaise:) %^VowRM:  ;
@@ -679,7 +683,8 @@ Rules
 !! hüdsi+N+Sg+Par:
 !!€ hüdsi%^TS2S%^VowRM%>t
 !!€ hü0s000%>t
-          Vow l 0:l %>: _ (HarmDummies:) [õ|e] ;
+          Vow %{lØ%}:l l %>: _ (HarmDummies:) [õ|e] ;
+!          Vow l 0:l %>: _ (HarmDummies:) [õ|e] ;
        a _ g: (HarmDummies:) %^WGStem: %> [o:|e:] ;
        a _ g: [o:|e:] (HarmDummies:) %^Pen: %^WGStem:  ;
 !!€ aigo%^Pen%^WGStem
@@ -843,10 +848,10 @@ Rules
 !!€ va%^I7o%^StrGStem%>i
 !!€ vaio0%>0
 
-
-"%^V7:v with 0:v"
+!FIXME 2019-05-8
+!"%^V7:v with 0:v"
 !! __@RULENAME@__
- %^V7:v <=> Vow _ 0: Vow (HarmDummies:) %^StrGStem:  ;
+! %^V7:v <=> Vow _ 0: Vow (HarmDummies:) %^StrGStem:  ;
 !!€ hä%^V70ö%^StrGStem
 !!€ hävvü0
 
@@ -1157,7 +1162,7 @@ k:0 <=>
 !!€ hüdsi%^StrD2T%>l
 !!€ hütsi0%>l
     Vow _ (s) (HarmDummies:|[Vow:|ArchVow:] (HarmDummies:) %^Pen:) %^StrGStem: ;
-    Vow _ 0: (HarmDummies:|[Vow:|ArchVow:] (HarmDummies:) %^Pen:) %^XStrGStem: ;
+!FIXME 2019-05-08    Vow _ 0: (HarmDummies:|[Vow:|ArchVow:] (HarmDummies:) %^Pen:) %^XStrGStem: ;
 
 
 "dTos"
@@ -1224,7 +1229,7 @@ k:0 <=>
     Vow _ (HarmDummies:) %^StrGStem:  ; 
     Vow _ [Vow:|ArchVow:] ( l | r ) (HarmDummies:) %^Pen: %^StrGStem: ;
     Vow _ Vow: (HarmDummies:) %^StrGStem: ;
-    Vow 0: _ (HarmDummies:|[Vow:|ArchVow:] (HarmDummies:) %^Pen:) %^XStrGStem: ;
+!FIX-ME 2019-05-8    Vow 0: _ (HarmDummies:|[Vow:|ArchVow:] (HarmDummies:) %^Pen:) %^XStrGStem: ;
 !!€ ig0ä%^XStrGStem
 !!€ ikkä0
    Vow _ [Vow:|ArchVow:] [ l | r ] (HarmDummies:) %^StrGStem: %^Pen: %^VowRM: ;
@@ -1236,7 +1241,7 @@ k:0 <=>
 !! __@RULENAME@__
  b:p <=> 
     Vow _ Vow: (HarmDummies:) %^StrGStem: ;
-    Vow _ 0: Vow: (HarmDummies:) %^XStrGStem: ;
+!FIX-ME 2019-05-8     Vow _ 0: Vow: (HarmDummies:) %^XStrGStem: ;
 
 "%{pbØ%}:p"
 !! __@RULENAME@__
