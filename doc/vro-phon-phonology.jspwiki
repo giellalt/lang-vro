@@ -31,6 +31,8 @@
   %{ei%}:e    — Vowel raising
   %{õy%}:õ    — Vowel raising
 
+  %{eØ%}:e    — ütlemä:üt%{eØ%}l  
+  %{õØ%}:õ    — ütlemä:üt%{eØ%}l  
 
   %{dØ%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{dv%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -133,7 +135,6 @@
 
 {{{
 
-  %{pb%}:p 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kg%}:k 	 HJK and KimmoK ideas kaigas:kai%{kg%}as
 
@@ -302,11 +303,15 @@ püüdmä+V+Act+Ind+Prs+Sg1
 * __pü%{üv%}%{dd́v%}%{front%}%^WGStem%>%{aä%} __
 * __püvv00%>ä __
 
+__%{pṕb%}:ṕ__
+
+
 __%{kḱg%}:ḱ__
 
 kõiḱ+Pron+Sg+Nom
 * __kõi%{kØ%}%{kḱg%}%^CC2C%^PAL __
 * __kõi0ḱ00 __
+
 
 
 !VOWEL CHANGE WITH PLURAL
@@ -453,6 +458,10 @@ __õ:0__
 * __kok0r00%>õ __
 * __hammõ%^WGStem%^VowRM%>ihe __
 * __ham0000%>ihe __
+
+__%{eØ%}: 0__
+
+__%{õØ%}: 0__
 
 
 VOWEL LENGTHENING
@@ -601,14 +610,12 @@ __%{pØ%}:0__
 * __ta%{pØ%}p%{back%}%^CC2C%>m%{aä%} __
 * __ta0p00%>ma __
 
-__mToZero__
-* __hammõ%^Pen%^WGStem%>h __
-* __ham0õ0%>h __
+* __ha%{mØ%}mõ%{hØ%}%^Pen%^WGStem __
+* __ha0mõ0%>h __
 
-__vToZero__
 kevväi+N+Sg+Gen: __spring__
-* __kevväi%^Pen%^WGStem%>ä __
-* __kev0äj00%>ä __
+* __ke%{vØ%}vä%{ij%}%^Pen%^WGStem%>ä __
+* __ke0väj00%>ä __
 
 
 __XØToZero__
@@ -623,6 +630,10 @@ __StrongToWeak__
 nõkõś+N+Sg+Ill
 * __nõ%{kg%}õ%{sś%}%^Pen%^WGStem%{XC%}%>õ%>he __
 * __nõgõs00s%>õ%>he __
+
+* __a%{kg%}ra%{sØ%}%^Pen%^WGStem __
+* __agras00 __
+
 
 __%{td%}:d__
 kaotama+V+Act+Ind+Prs+Sg1:
@@ -913,4 +924,8 @@ naŕma
 !Other marks
 * __ki%{pb%}õ%{nń%}%>a __
 * __kipõn%>a __
+
+__Disallow %^ErrorBack:0 in BHARM__
+
+__Disallow %^ErrorBack:0 in BHARM__
 

@@ -1632,7 +1632,7 @@ LEXICON N_42VARI-PL
 :%{back%}     NMN_42VARI-PL ;
 
 
-LEXICON N_43KANARIK !!= @CODE@
+LEXICON N_43KANARIK !!= @CODE@ usklik+A:%{ˋØ%}#uskli%{kg%}
 : ATTESTED-NOUN-STEM-CONTINUED ;
         N_43KANARIK-SG ;
         N_43KANARIK-PL ;
@@ -3284,10 +3284,10 @@ LEXICON NMN_14HAMMAS/IKAES !!= * __@CODE@__ hammas:ham%{bm%}a%{sØ%}
   NMN_14HAMMAS/IKAES-SG ;
   NMN_14HAMMAS/IKAES-PL ;
 
-LEXICON NMN_14HAMMAS/IKAES-SG 
-:%^Pen%^WGStem     Harm-Neutr_SG-NOM  ;
+LEXICON NMN_14HAMMAS/IKAES-SG !agras:a%{kg%}ra%{sØ%}
+:%^VOWLower%^Pen%^WGStem     Harm-Neutr_SG-NOM  ;
 :%^CnsRM   SG-GEN_ZERO-STEM        ;
-:%^Pen%^WGStem   Harm-Neutr_SG-PAR_t      ;
+:%^VOWLower%^Pen%^WGStem   Harm-Neutr_SG-PAR_t      ;
 :%^CnsRM   Harm-Neutr_SG-ILL_he     ;
 :%^CnsRM   SG-ILL_dE     ;
 
@@ -3299,17 +3299,17 @@ LEXICON NMN_14HAMMAS/IKAES-PL
 :%^VowRM%^CnsRM%>i PL-ALL_lE-STEM ;
 :%^VowRM%^CnsRM%>i%>d%{eõ%}   PL-COM ;
 +Err/Orth+Use/NG:%^VowRM%^CnsRM%>ii Harm-Neutr_PL-GEN_dE ;
-+Err/Orth+Use/NG:%^Pen%^WGStem%>t%{eõ%} PL-GEN_ZERO ;
++Err/Orth+Use/NG:%^VOWLower%^Pen%^WGStem%>t%{eõ%} PL-GEN_ZERO ;
 +Err/Orth+Use/NG:%^VowRM%^CnsRM%>ii PL-PAR_d ;
 +Err/Orth+Use/NG:%^VowRM%^CnsRM%>ii PL-ILL_he ;
 +Err/Orth+Use/NG:%^VowRM%^CnsRM%>i PL-ILL_dE ;
 +Err/Orth+Use/NG:%^VowRM%^CnsRM%>ii PL-ILL_dE ;
 +Err/Orth+Use/NG:%^VowRM%^CnsRM%>ii PL-ALL_lE-STEM ;
-+Err/Orth+Use/NG:%^Pen%^WGStem%>t%{eõ%} PL-ALL_lE-STEM ;
-+Err/Orth+Use/NG:%^Pen%^WGStem%>t%{eõ%} PL-ILL_he ;
-+Err/Orth+Use/NG:%^Pen%^WGStem%>t%{eõ%} PL-ILL_dE ;
++Err/Orth+Use/NG:%^VOWLower%^Pen%^WGStem%>t%{eõ%} PL-ALL_lE-STEM ;
++Err/Orth+Use/NG:%^VOWLower%^Pen%^WGStem%>t%{eõ%} PL-ILL_he ;
++Err/Orth+Use/NG:%^VOWLower%^Pen%^WGStem%>t%{eõ%} PL-ILL_dE ;
 +Err/Orth+Use/NG:%^VowRM%^CnsRM%>ii%>d%{eõ%}   PL-COM ;
-+Err/Orth+Use/NG:%^Pen%^WGStem%>t%{eõ%}   PL-COM ;
++Err/Orth+Use/NG:%^VOWLower%^Pen%^WGStem%>t%{eõ%}   PL-COM ;
 
 !LEXICON NMN_14NUMMWR1/XX !!= * __@CODE@__ nummõŕ:numbõr
 !! Distinguished from 14RITS1KAS due to gradation
@@ -5222,7 +5222,7 @@ LEXICON NMN_43KANARIK
   NMN_43KANARIK-SG ;
   NMN_43KANARIK-PL ;
 
-LEXICON NMN_43KANARIK-SG 
+LEXICON NMN_43KANARIK-SG  !usklik+A:%{ˋØ%}#uskli%{kg%}
         Harm-Neutr_SG-NOM  ;
 :%^WGStem%>u       SG-GEN_ZERO-STEM        ;
 :%{XC%}%>u       Harm-Neutr_SG-ILL_ZERO        ;
