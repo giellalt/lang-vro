@@ -10,7 +10,7 @@ LEXICON V_EI
 LEXICON V_48KASUMA !kasuma:ka%{sØ%}s
 !! There are other verbs here, cf. V_ELAEMAE
 !! * Yaml: __V-kasuma48__
-+V:%{back%} V_48KASUMA/XX ;
+:%{back%} V_48KASUMA/XX ;
 
 LEXICON V_48KASUMA/XX
 :%^WGStem%>%{uü%} ACT-IND-PRS-12 ;
@@ -35,7 +35,7 @@ LEXICON V_48KASUMA/XX
 LEXICON V_48KUIOMA
 !! There are other verbs here, cf. V_ELAEMAE
 !! * Yaml: __V-kuioma48__
-+V:%{back%} V_48KUIOMA/XX ;
+:%{back%} V_48KUIOMA/XX ;
 
 LEXICON V_48KUIOMA/XX
  ACT-IND-PRS-12 ;
@@ -57,7 +57,7 @@ LEXICON V_48KUIOMA/XX
 LEXICON V_48PALAMA
 !! There are other verbs here, cf. V_ELAEMAE
 !! * Yaml: __V-palama48__
-+V:%{back%} V_48PALAMA/ELAEMAE ;
+:%{back%} V_48PALAMA/ELAEMAE ;
 LEXICON V_48PALAMA/ELAEMAE
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
 :%^Pen%^WGStem ACT-IND-PRS-3_s/sEq ;
@@ -81,17 +81,17 @@ LEXICON V_48PALAMA/ELAEMAE
 LEXICON V_48ELAEMAE
 !! There are other verbs here, cf. V_ELAEMAE
 !! * Yaml: ____
-+V:%{front%} V_48PALAMA/ELAEMAE ;
+:%{front%} V_48PALAMA/ELAEMAE ;
 
 
 !LEXICON V_ELAEMAE !!≈ * __@CODE@__ elämä:elä
 !!! * Yaml: __elaemae48__
-!+V:%{front%} V_48PALAMA/ELAEMAE ;
+!:%{front%} V_48PALAMA/ELAEMAE ;
 
 !LEXICON V_48SADAMA
 !!! There are other verbs here, cf. V_ELAEMAE
 !!! * Yaml: __V-sadama48__
-!+V:%{back%} V_48SADAMA/XX ;
+!:%{back%} V_48SADAMA/XX ;
 
 !LEXICON V_48SADAMA/XX
 !:%^StrGStem ACT-IND-PRS-12 ;
@@ -113,7 +113,7 @@ LEXICON V_48ELAEMAE
 !!! Pss_PrfPrc: sadat
 
 LEXICON V_49LWPMA !!≈ * __@CODE@__ lõpma:lõpp
-+V:%{back%} V_49LWPMA/XX ;
+:%{back%} V_49LWPMA/XX ;
 LEXICON V_49LWPMA/XX !!≈ * __@CODE@__ lõpma:lõpp
 :%^WGStem Harm-Neutr_INF_mA ;
 :%^WGStem ACT-PRFPRC-ALL_nUq ;
@@ -151,7 +151,7 @@ LEXICON V_49LWPMA/XX !!≈ * __@CODE@__ lõpma:lõpp
 
 LEXICON V_50TONISWMA !!≈ * __@CODE@__ tonisõma:tonis
 !! * Yaml: __toniswma50__
-+V:%{back%} V_50TONISWMA/HELISEMAE ;
+:%{back%} V_50TONISWMA/HELISEMAE ;
 LEXICON V_50TONISWMA/HELISEMAE !!≈ * __@CODE@__ tonisõma:tonis
 :%{eõ%} ACT-IND-PRS-12 ;
 :%{eõ%} ACT-IND-PRS-3_s/sEq ;
@@ -175,17 +175,17 @@ LEXICON V_50TONISWMA/HELISEMAE !!≈ * __@CODE@__ tonisõma:tonis
 
 LEXICON V_50HELISEMAE !!≈ * __@CODE@__ helisemä:helis
 !! * Yaml: __helisemae50__
-+V:%{front%} V_50TONISWMA/HELISEMAE ;
+:%{front%} V_50TONISWMA/HELISEMAE ;
 
 
 LEXICON V_51NWSWMA !!≈ * __@CODE@__ nõsõma:nõs
 !! * Yaml: __nwswma51__
 !! cf. tulõma
-+V:%{back%} V_51NWSWMA/PAESEMAE ;
+:%{back%} V_51NWSWMA/PAESEMAE ;
 LEXICON V_51PAESEMAE !!≈ * __@CODE@__ päsemä:päs
 !! * Yaml: __paesemae51__
 !! cf. tulõma
-+V:%{front%} V_51NWSWMA/PAESEMAE ;
+:%{front%} V_51NWSWMA/PAESEMAE ;
 
 LEXICON V_51NWSWMA/PAESEMAE !!≈ * __@CODE@__ nõsõma:nõs
 :%{eõ%} ACT-IND-PRS-12 ;
@@ -207,11 +207,11 @@ LEXICON V_51NWSWMA/PAESEMAE !!≈ * __@CODE@__ nõsõma:nõs
 
 LEXICON V_52ALOSTWLWMA !!≈ * __@CODE@__ alostõlõma:alostõll
 !! * Yaml: __alostwllwma52__
-+V:%{back%} V_52ALOSTWLWMA/EHITELEMAE ;
+:%{back%} V_52ALOSTWLWMA/EHITELEMAE ;
 LEXICON V_52EHITELEMAE !!≈ * __@CODE@__ ehitelemä:ehitell
 !! ehitelemä:ehitell
 !! * Yaml: __ehitellemae52__
-+V:%{front%} V_52ALOSTWLWMA/EHITELEMAE ;
+:%{front%} V_52ALOSTWLWMA/EHITELEMAE ;
 
 LEXICON V_52ALOSTWLWMA/EHITELEMAE !!≈ * __@CODE@__ alostõllõma:alostõl
 :%{eõ%} ACT-IND-PRS-12 ;
@@ -244,9 +244,9 @@ LEXICON V_52ALOSTWLWMA/EHITELEMAE !!≈ * __@CODE@__ alostõllõma:alostõl
 
 
 LEXICON V_53KAEMA !!≈ * __@CODE@__ 
-+V:%{back%} V_53KAEMA/JAEAEMAE ;
+:%{back%} V_53KAEMA/JAEAEMAE ;
 LEXICON V_53JAEAEMAE !!≈ * __@CODE@__ 
-+V:%{front%} V_53KAEMA/JAEAEMAE ;
+:%{front%} V_53KAEMA/JAEAEMAE ;
 LEXICON V_53KAEMA/JAEAEMAE !!≈ * __@CODE@__ 
 :%^VOWRaise Harm-Neutr_V0-PSS-PRSPRC_dAv ;
 :%^VOWRaise PSS-PRFPRC_d ;
@@ -279,14 +279,14 @@ LEXICON V_53KAEMA/JAEAEMAE !!≈ * __@CODE@__
 : MUTUAL_JUS ;
 
 !LEXICON V_54ISTMA !!≈ * __@CODE@__ 
-!+V+WORK: # ;
+!+WORK: # ;
 
 LEXICON V_55KWNWLWMA !!≈ * __@CODE@__ kõnõlõma:kõ̭nõl
 !! * Yaml: __kwnwlwma55__
-+V:%{back%} V_55KWNWLWMA/HAERELEMAE ;
+:%{back%} V_55KWNWLWMA/HAERELEMAE ;
 LEXICON V_55HAERELEMAE !!≈ * __@CODE@__ härelemä:härel
 !! * Yaml: __haerelemae55__
-+V:%{front%} V_55KWNWLWMA/HAERELEMAE ;
+:%{front%} V_55KWNWLWMA/HAERELEMAE ;
 
 LEXICON V_55KWNWLWMA/HAERELEMAE
 :%{eõ%} ACT-IND-PRS-12 ;
@@ -315,10 +315,10 @@ LEXICON V_55KWNWLWMA/HAERELEMAE
 
 LEXICON V_56HIIBWLWMA !!≈ * __@CODE@__ hiibõlõma:hiibõl
 !! * Yaml: __hiibwlwma56__
-+V:%{back%} V_56HIIBWLWMA/HEIKELEMAE ;
+:%{back%} V_56HIIBWLWMA/HEIKELEMAE ;
 LEXICON V_56HEIKELEMAE !!≈ * __@CODE@__ heikelemä:heikel
 !! * Yaml: __heikelemae56__
-+V:%{front%} V_56HIIBWLWMA/HEIKELEMAE ;
+:%{front%} V_56HIIBWLWMA/HEIKELEMAE ;
 
 LEXICON V_56HIIBWLWMA/HEIKELEMAE !!≈ * __@CODE@__ hiibõlõma:hiibõl
 :%{eõ%} ACT-IND-PRS-12 ;
@@ -345,11 +345,11 @@ LEXICON V_56HIIBWLWMA/HEIKELEMAE !!≈ * __@CODE@__ hiibõlõma:hiibõl
 LEXICON V_57TAPLWMA
 !! taplõma:tapõl
 !! * Yaml: __taplwma57__
-+V:%{back%} V_57TAPLWMA/UETLEMAE ;
+:%{back%} V_57TAPLWMA/UETLEMAE ;
 LEXICON V_57UETLEMAE 
 !! ütlemä:ütel
 !! * Yaml: __kiirdlemae57__
-+V:%{front%} V_57TAPLWMA/UETLEMAE ;
+:%{front%} V_57TAPLWMA/UETLEMAE ;
 
 LEXICON V_57TAPLWMA/UETLEMAE
 :%^Pen%^VowRM%{eõ%} ACT-IND-PRS-12 ;
@@ -375,11 +375,11 @@ LEXICON V_57TAPLWMA/UETLEMAE
 LEXICON V_57VWITLWMA
 !! võitlõma:võitõl
 !! * Yaml: __taplwma57__
-+V:%{back%} V_57VWITLWMA/KIIRDLEMAE ;
+:%{back%} V_57VWITLWMA/KIIRDLEMAE ;
 LEXICON V_57KIIRDLEMAE 
 !! kiirdlemä:keerdel
 !! * Yaml: __kiirdlemae57__
-+V:%{front%} V_57VWITLWMA/KIIRDLEMAE ;
+:%{front%} V_57VWITLWMA/KIIRDLEMAE ;
 
 LEXICON V_57VWITLWMA/KIIRDLEMAE
 :%^Pen%^VowRM%{eõ%} ACT-IND-PRS-12 ;
@@ -405,12 +405,12 @@ LEXICON V_57VWITLWMA/KIIRDLEMAE
 
 LEXICON V_58HIRNAHTAMA !!≈ * __@CODE@__ hirnahtama:hirnahta
 !! * Yaml: __V-hirnahtama58__
-+V:%{back%} V_58HIRNAHTAMA/TAEHENDAEMAE ;
+:%{back%} V_58HIRNAHTAMA/TAEHENDAEMAE ;
 
 LEXICON V_58TAEHENDAEMAE !!≈ * __@CODE@__ tähendämä:tähendä
 !! * Yaml: __V-hirnahtama58, V-taehendaemae__
 !! front
-+V:%{front%} V_58HIRNAHTAMA/TAEHENDAEMAE ;
+:%{front%} V_58HIRNAHTAMA/TAEHENDAEMAE ;
 
 LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE !!≈ * __@CODE@__ hirnahtama:hirnahta, tähendämä:tähend
  ACT-IND-PRS-12 ;
@@ -433,11 +433,11 @@ LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE !!≈ * __@CODE@__ hirnahtama:hirnahta, täh
 
 LEXICON V_59KAOTAMA !!≈ * __@CODE@__ kaotama:kaota
 !!
-+V:%{back%} V_59KAOTAMA/KERGUETAEMAE ;
+:%{back%} V_59KAOTAMA/KERGUETAEMAE ;
 LEXICON V_59KERGUETAEMAE
 !! Based on 59KAOTAMA
 !! * Yaml: __kerguetaemae__
-+V:%{front%} V_59KAOTAMA/KERGUETAEMAE ;
+:%{front%} V_59KAOTAMA/KERGUETAEMAE ;
 
 LEXICON V_59KAOTAMA/KERGUETAEMAE !!≈ * __@CODE@__ kaotama:kaota
 :%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ; !!= * @CODE@ +Act+Ind+Prs+Sg1: kaoda
@@ -467,7 +467,7 @@ LEXICON V_59KAOTAMA/KERGUETAEMAE !!≈ * __@CODE@__ kaotama:kaota
 !! +Act+Ind+Prt+Pl2, +Err/Orth+Use/NG+Act+Ind+Prt+Pl3
 
 :%^VowRM ACT-IND-PRT-SG3_APOSTROPHE ; !!= * @CODE@ +Act+Ind+Prt+Sg3: kaot́
-!! +V+Act+Ind+Prt+Sg3: kaot́ Harm-Neutr_K ;
+!! +Act+Ind+Prt+Sg3: kaot́ Harm-Neutr_K ;
 
 :%^VowRM%>%{eõ%} Harm-Neutr_KAOTAMA-PSS-DISTRIBUTION ; != * @CODE@ kaotõ
 !! +Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
@@ -477,10 +477,10 @@ LEXICON V_59KAOTAMA/KERGUETAEMAE !!≈ * __@CODE@__ kaotama:kaota
 
 LEXICON V_60MANITSWMA !!≈ * __@CODE@__ manitsõma:mani
 !! * Yaml: __manitswma60,manitswma61>manitswma__
-+V:%{back%} V_60MANITSWMA/EHITSEMAE ;
+:%{back%} V_60MANITSWMA/EHITSEMAE ;
 LEXICON V_60EHITSEMAE !!≈ * __@CODE@__ ehitsemä:ehii
 !! * Yaml: __manitswma60,manitswma61>manitswma__
-+V:%{front%} V_60MANITSWMA/EHITSEMAE ;
+:%{front%} V_60MANITSWMA/EHITSEMAE ;
 
 LEXICON V_60MANITSWMA/EHITSEMAE !!≈ * __@CODE@__ manitsõma:mani
 
@@ -518,11 +518,11 @@ LEXICON V_60MANITSWMA/EHITSEMAE !!≈ * __@CODE@__ manitsõma:mani
 LEXICON V_62ARGNWMA
 !! argnõma:arg
 !! * Yaml: __argnwma62__
-+V:%{back%} V_62ARGNWMA/TAERKNEMAE ;
+:%{back%} V_62ARGNWMA/TAERKNEMAE ;
 LEXICON V_62TAERKNEMAE
 !! tärknemä:tärk
 !! * Yaml: __taerknemae62__
-+V:%{front%} V_62ARGNWMA/TAERKNEMAE ;
+:%{front%} V_62ARGNWMA/TAERKNEMAE ;
 
 LEXICON V_62ARGNWMA/TAERKNEMAE 
 :%>n%{eõ%} ACT-IND-PRS-12 ;
@@ -550,7 +550,7 @@ LEXICON V_63SWIMAMA !!≈ * __@CODE@__ sõimama:sõima
 ! Ind.Prs.ScSg3 in -s
 ! vowel_harmony: back
 !! * Yaml: __V-swimama63__
-+V:%{back%} V_63SWIMAMA/XX ; 
+:%{back%} V_63SWIMAMA/XX ; 
 LEXICON V_63SWIMAMA/XX !!≈ * __@CODE@__ sõimama:sõima
  ACT-IND-PRS-12 ;
  ACT-IND-PRS-3_s/sEq ;
@@ -580,13 +580,13 @@ LEXICON V_63VISKAMA !!≈ * __@CODE@__ viskama:viska
 ! vowel_harmony: back
 !! gradation: yes
 !! * Yaml: __V-viskama63__
-+V:%{back%} V_63VISKAMA/HINGAEMAE ;
+:%{back%} V_63VISKAMA/HINGAEMAE ;
 LEXICON V_63HINGAEMAE !!≈ * __@CODE@__ hingämä:hingä
 ! Ind.Prs.ScSg3 in -s
 ! vowel_harmony: front
 !! gradation: no
 !! * Yaml: __V-hingaemae63__
-+V:%{front%} V_63VISKAMA/HINGAEMAE ;
+:%{front%} V_63VISKAMA/HINGAEMAE ;
 
 LEXICON V_63VISKAMA/HINGAEMAE !!≈ * __@CODE@__ viskama:viska
  ACT-IND-PRS-SG1_ZERO ;
@@ -657,11 +657,11 @@ LEXICON V_63VISKAMA/HINGAEMAE !!≈ * __@CODE@__ viskama:viska
 LEXICON V_64PUHKSAMA
 ! puhksama:puhkas
 !! * Yaml: __V-puhksama64__
-+V:%{back%} V_64PUHKSAMA/REHKSAEMAE ;
+:%{back%} V_64PUHKSAMA/REHKSAEMAE ;
 LEXICON V_64REHKSAEMAE
 ! rehksämä:rehkäs
 !! * Yaml: __V-rehksaemae64__
-+V:%{front%} V_64PUHKSAMA/REHKSAEMAE ;
+:%{front%} V_64PUHKSAMA/REHKSAEMAE ;
 
 LEXICON V_64PUHKSAMA/REHKSAEMAE
 :%^Pen%^VowRM%>%{aä%} ACT-IND-PRS-12 ;
@@ -690,14 +690,14 @@ LEXICON V_64PUHKSAMA/REHKSAEMAE
 
 !LEXICON V_65SIBAHAMA !!≈ * __@CODE@__ >>88SIBAMA >>SIBAMA
 !
-!+V+WORK: # ;
+!+WORK: # ;
 
 LEXICON V_67HARINWMA !!≈ * __@CODE@__ harinõma:hari
 !! * Yaml: __harinwma66,harinwma67 =>harinwma__
-+V:%{back%} V_67HARINWMA/NAEGUENEMAE ;
+:%{back%} V_67HARINWMA/NAEGUENEMAE ;
 LEXICON V_67NAEGUENEMAE !!≈ * __@CODE@__ nägünemä:nägü
 !! * Yaml: __harinwma66,harinwma67 =>harinwma__
-+V:%{front%} V_67HARINWMA/NAEGUENEMAE ;
+:%{front%} V_67HARINWMA/NAEGUENEMAE ;
 
 LEXICON V_67HARINWMA/NAEGUENEMAE !!≈ * __@CODE@__ harinõma:hari
 :n%{eõ%} ACT-IND-PRS-12 ;
@@ -725,14 +725,14 @@ LEXICON V_67HARINWMA/NAEGUENEMAE !!≈ * __@CODE@__ harinõma:hari
 :n%{eõ%} MUTUAL_JUS ;
 
 !LEXICON V_HARINWMA
-!+V+WORK: # ;
+!+WORK: # ;
 
 LEXICON V_68HARKUMA
 !! * Yaml: __V-harkuma68__
-+V:%{back%} V_68HARKUMA/NAELGUEMAE ;
+:%{back%} V_68HARKUMA/NAELGUEMAE ;
 LEXICON V_68NAELGUEMAE
 !! * Yaml: __V-naelguemae68__
-+V:%{front%} V_68HARKUMA/NAELGUEMAE ;
+:%{front%} V_68HARKUMA/NAELGUEMAE ;
 
 LEXICON V_68HARKUMA/NAELGUEMAE
  ACT-IND-PRS-12 ;
@@ -756,9 +756,9 @@ LEXICON V_68HARKUMA/NAELGUEMAE
  PSS-PRFPRC_tU-SG-NOM ;
 
 LEXICON V_69HAARDUMA !!≈ * __@CODE@__ haarduma:haardu
-+V:%{back%} V_69HAARDUMA/SUENDUEMAE ;
+:%{back%} V_69HAARDUMA/SUENDUEMAE ;
 LEXICON V_69SUENDUEMAE !!≈ * __@CODE@__ sündümä:sündü
-+V:%{front%} V_69HAARDUMA/SUENDUEMAE ;
+:%{front%} V_69HAARDUMA/SUENDUEMAE ;
 LEXICON V_69HAARDUMA/SUENDUEMAE !!≈ * __@CODE@__ sündümä:sündü
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
 :%^Pen%^WGStem ACT-IND-PRS-3_s/sEq ;
@@ -780,9 +780,9 @@ LEXICON V_69HAARDUMA/SUENDUEMAE !!≈ * __@CODE@__ sündümä:sündü
 :%^Pen%^WGStem PSS-PRFPRC_tU-SG-NOM ;
 
 LEXICON V_69SUURDUMA !!≈ * __@CODE@__ suurduma:suurdu
-+V:%{back%} V_69SUURDUMA/HUEUERDUEMAE ;
+:%{back%} V_69SUURDUMA/HUEUERDUEMAE ;
 LEXICON V_69HUEUERDUEMAE !!≈ * __@CODE@__ hüürdümä:höördü
-+V:%{front%} V_69SUURDUMA/HUEUERDUEMAE ;
+:%{front%} V_69SUURDUMA/HUEUERDUEMAE ;
 LEXICON V_69SUURDUMA/HUEUERDUEMAE !!≈ * __@CODE@__ hüürdümä:höördü vowel raising Required 2016-09-15
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
 :%^Pen%^WGStem ACT-IND-PRS-3_s/sEq ;
@@ -805,10 +805,10 @@ LEXICON V_69SUURDUMA/HUEUERDUEMAE !!≈ * __@CODE@__ hüürdümä:höördü vowe
 
 LEXICON V_70UNWHUMA !!≈ * __@CODE@__ unõhuma:unõhtu
 !! * Yaml: __V-unwhuma__
-+V:%{back%} V_70UNWHUMA/ÄNGÄHÜMÄ ;
+:%{back%} V_70UNWHUMA/ÄNGÄHÜMÄ ;
 LEXICON V_70ÄNGÄHÜMÄ !!≈ * __@CODE@__ ängähümä:ängähtü
 !! * Yaml: __V-eraelduemae__
-+V:%{front%} V_70UNWHUMA/ÄNGÄHÜMÄ ;
+:%{front%} V_70UNWHUMA/ÄNGÄHÜMÄ ;
 
 LEXICON V_70UNWHUMA/ÄNGÄHÜMÄ !!≈ * __@CODE@__ unõhuma:unõhtu
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
@@ -850,10 +850,10 @@ LEXICON V_70UNWHUMA/ÄNGÄHÜMÄ !!≈ * __@CODE@__ unõhuma:unõhtu
 
 LEXICON V_70VIPWRDUMA !!≈ * __@CODE@__ unõhtuma:unõhtu
 !! * Yaml: __V-unwhtuma__
-+V:%{back%} V_70VIPWRDUMA/ERAELDUEMAE ;
+:%{back%} V_70VIPWRDUMA/ERAELDUEMAE ;
 LEXICON V_70ERAELDUEMAE !!≈ * __@CODE@__ eräldümä:eräldü
 !! * Yaml: __V-eraelduemae__
-+V:%{front%} V_70VIPWRDUMA/ERAELDUEMAE ;
+:%{front%} V_70VIPWRDUMA/ERAELDUEMAE ;
 
 LEXICON V_70VIPWRDUMA/ERAELDUEMAE !!≈ * __@CODE@__ unõhtuma:unõhtu
  ACT-IND-PRS-12 ;
@@ -887,10 +887,10 @@ LEXICON V_70VIPWRDUMA/ERAELDUEMAE !!≈ * __@CODE@__ unõhtuma:unõhtu
 
 LEXICON V_71HALLWTUMA !!≈ * __@CODE@__ hallõtuma:hallõtu
 !! * Yaml: __V-hallwtuma__
-+V:%{back%} V_71HALLWTUMA/ERAETUEMAE ;
+:%{back%} V_71HALLWTUMA/ERAETUEMAE ;
 LEXICON V_71ERAETUEMAE !!≈ * __@CODE@__ erätümä:erä%{td%}ü
 !! * Yaml: __V-eraetuemae__
-+V:%{front%} V_71HALLWTUMA/ERAETUEMAE ;
+:%{front%} V_71HALLWTUMA/ERAETUEMAE ;
 
 LEXICON V_71HALLWTUMA/ERAETUEMAE !!≈ * __@CODE@__ hallõtuma:hallõtu
 :%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ;
@@ -915,10 +915,10 @@ LEXICON V_71HALLWTUMA/ERAETUEMAE !!≈ * __@CODE@__ hallõtuma:hallõtu
 
 LEXICON V_72VAOMA !!≈ * __@CODE@__ vaoma:%{ˋØ%}va%^I7o
 !! * Yaml: __vaoma__
-+V:%{back%} V_72VAOMA/TAEUEMAE ;
+:%{back%} V_72VAOMA/TAEUEMAE ;
 LEXICON V_72TAEUEMAE !!≈ * __@CODE@__ täümä:täü
 !! * Yaml: __haeoemae__
-+V:%{front%} V_72VAOMA/TAEUEMAE ;
+:%{front%} V_72VAOMA/TAEUEMAE ;
 
 LEXICON V_72VAOMA/TAEUEMAE !!≈ * __@CODE@__ vaoma:vao
  ACT-IND-PRS-12 ;
@@ -941,7 +941,7 @@ LEXICON V_72VAOMA/TAEUEMAE !!≈ * __@CODE@__ vaoma:vao
  MUTUAL_JUS ;
 
 !LEXICON V_73VAOMA !!= * @CODE@ vaoma:vao
-!+V:%{back%} V_73VAOMA/XX ;
+!:%{back%} V_73VAOMA/XX ;
 
 !LEXICON V_73VAOMA/XX
 !+Work: K ;
@@ -973,10 +973,10 @@ LEXICON V_72VAOMA/TAEUEMAE !!≈ * __@CODE@__ vaoma:vao
 
 LEXICON V_74KULUMA !!≈ * __@CODE@__ kuluma:kullu
 !! * Yaml: __V-kuluma__
-+V:%{back%} V_74KULUMA/VAESUEMAE ;
+:%{back%} V_74KULUMA/VAESUEMAE ;
 LEXICON V_74VAESUEMAE !!≈ * __@CODE@__ väsümä:vässü
 !! * Yaml: __V-vaesuemae__
-+V:%{front%} V_74KULUMA/VAESUEMAE ;
+:%{front%} V_74KULUMA/VAESUEMAE ;
 
 LEXICON V_74KULUMA/VAESUEMAE !!≈ * __@CODE@__ kuluma:kullu
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
@@ -1002,10 +1002,10 @@ LEXICON V_75VALAMA !!≈ * __@CODE@__ valama:vala
 !! * Yaml: __V-valama75__
 !! vala, valla, vali, valõ
 !!test
-+V:%{back%} V_75VALAMA/JAERAEMAE ;
+:%{back%} V_75VALAMA/JAERAEMAE ;
 LEXICON V_75JAERAEMAE !!≈ * __@CODE@__ järämä:järä
 !! * Yaml: __V-jaeraemae75__
-+V:%{front%} V_75VALAMA/JAERAEMAE ;
+:%{front%} V_75VALAMA/JAERAEMAE ;
 
 LEXICON V_75VALAMA/JAERAEMAE !!≈ * __@CODE@__ valama:vala
 
@@ -1036,10 +1036,10 @@ LEXICON V_75VALAMA/JAERAEMAE !!≈ * __@CODE@__ valama:vala
 
 LEXICON V_76HIGOMA !!≈ * __@CODE@__ higoma:hi%{kg0%}o
 !! * Yaml: __V-higoma76__
-+V:%{back%} V_76HIGOMA/PUEGAEMAE ;
+:%{back%} V_76HIGOMA/PUEGAEMAE ;
 LEXICON V_76PUEGAEMAE !!≈ * __@CODE@__ pügämä:pü%{kg0%}ä
 !! * Yaml: __V-puegaemae76__
-+V:%{front%} V_76HIGOMA/PUEGAEMAE ;
+:%{front%} V_76HIGOMA/PUEGAEMAE ;
 
 LEXICON V_76HIGOMA/PUEGAEMAE !!≈ * __@CODE@__ higoma:hi%{kg0%}o
 
@@ -1090,7 +1090,7 @@ LEXICON V_76HIGOMA/PUEGAEMAE !!≈ * __@CODE@__ higoma:hi%{kg0%}o
 
 LEXICON V_76LUGWMA !!≈ * __@CODE@__ lugõma:lu%{kg0%}õ
 !! * Yaml: __V-higoma76__
-+V:%{back%} V_76LUGWMA/XX ;
+:%{back%} V_76LUGWMA/XX ;
 
 
 LEXICON V_76LUGWMA/XX !!≈ * __@CODE@__ lugõma:lu%{kg0%}õ
@@ -1142,10 +1142,10 @@ LEXICON V_76LUGWMA/XX !!≈ * __@CODE@__ lugõma:lu%{kg0%}õ
 
 LEXICON V_77JUUMA !!≈ * __@CODE@__ juuma:joo
 !! * Yaml: __juuma__
-+V:%{back%} V_77JUUMA/SUEUEMAE ;
+:%{back%} V_77JUUMA/SUEUEMAE ;
 LEXICON V_77SUEUEMAE !!≈ * __@CODE@__ süümä:süü
 !! * Yaml: __sueuemae__
-+V:%{front%} V_77JUUMA/SUEUEMAE ;
+:%{front%} V_77JUUMA/SUEUEMAE ;
 
 LEXICON V_77JUUMA/SUEUEMAE !!≈ * __@CODE@__ juuma:joo
 
@@ -1212,7 +1212,7 @@ LEXICON V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE !!= * @CODE@ jõi-
 
 LEXICON V_77KAEUEMAE !!≈ * __@CODE@__ käümä:käü
 !! * Yaml: __sueuemae__
-+V:%{front%} V_77XX/KAEUEMAE ;
+:%{front%} V_77XX/KAEUEMAE ;
 
 LEXICON V_77XX/KAEUEMAE !!≈ * __@CODE@__ käümä:käü
 
@@ -1237,7 +1237,7 @@ LEXICON V_77XX/KAEUEMAE !!≈ * __@CODE@__ käümä:käü
 
 LEXICON V_78VWIMA !!≈ * __@CODE@__ võima:või
 !! * Yaml: __V-vwima__
-+V:%{back%} V_VWIMA/XX ;
+:%{back%} V_VWIMA/XX ;
 LEXICON V_VWIMA/XX !!≈ * __@CODE@__ võima:või
  ACT-IND-PRS-12 ;
  ACT-IND-PRS-SG3_ZERO ;
@@ -1264,7 +1264,7 @@ LEXICON V_VWIMA/XX !!≈ * __@CODE@__ võima:või
 
 LEXICON V_78SAAMA
 !! * Yaml: __saama__
-+V:%{back%} V_78SAAMA/XX ;
+:%{back%} V_78SAAMA/XX ;
 LEXICON V_78SAAMA/XX
  ACT-IND-PRS-12 ;
  ACT-IND-PRS-SG3_ZERO ;
@@ -1294,7 +1294,7 @@ LEXICON V_78SAAMA/XX
 
 !LEXICON V_78VIIMÄ
 !!! * Yaml: __V-viimae__
-!+V:%{front%}  V_78XX/VIIMÄ ; 
+!:%{front%}  V_78XX/VIIMÄ ; 
 
 !LEXICON V_78XX/VIIMÄ
 ! ACT-IND-PRS-12 ;
@@ -1320,7 +1320,7 @@ LEXICON V_78SAAMA/XX
 
 LEXICON V_78MINEMAE !!≈ * __@CODE@__ minemä:min
 !! * Yaml: __V-minemae__
-+V:%{front%} V_XX/MINEMAE ;
+:%{front%} V_XX/MINEMAE ;
 LEXICON V_XX/MINEMAE !!≈ * __@CODE@__ minemä:min
 :%>%{eõ%} Harm-Neutr_INF_mA ;
 +Inf:%>n%{aä%}q K ;
@@ -1337,7 +1337,7 @@ LEXICON V_XX/MINEMAE !!≈ * __@CODE@__ minemä:min
 
 LEXICON V_79TULWMA !!≈ * __@CODE@__ tulõma:tul
 !! * Yaml: __tulwma__
-+V:%{back%} V_79TULWMA/XX ;
+:%{back%} V_79TULWMA/XX ;
 LEXICON V_79TULWMA/XX !!≈ * __@CODE@__ tulõma:tul
 !! Retain consonant and stem vowel
 :%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ; !!= * @CODE@ (1) tulõma
@@ -1381,7 +1381,7 @@ LEXICON V_79TULWMA/XX !!≈ * __@CODE@__ tulõma:tul
 
 LEXICON V_79PURWMA !!≈ * __@CODE@__ purõma:pur
 !! * Yaml: __purwma__
-+V:%{back%} V_79PURWMA/XX ;
+:%{back%} V_79PURWMA/XX ;
 LEXICON V_79PURWMA/XX !!≈ * __@CODE@__ purõma:pur
 !! Retain consonant and stem vowel
 :%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ; !!= * @CODE@ (1) purõma
@@ -1423,7 +1423,7 @@ LEXICON V_79PURWMA/XX !!≈ * __@CODE@__ purõma:pur
 !! Act+Ind+Prt+Sg3
 
 LEXICON V_79OLWMA !!≈ * __@CODE@__ olõma:o
-+V:%{back%} V_79OLWMA/XX ;
+:%{back%} V_79OLWMA/XX ;
 
 LEXICON V_79OLWMA/XX !!≈ * __@CODE@__ olõma:o
 :l%{eõ%} ACT-IND-PRS-12 ;
@@ -1450,32 +1450,32 @@ LEXICON V_79OLWMA/XX !!≈ * __@CODE@__ olõma:o
 :l PSS-PRFPRC_tU-SG-NOM ;
 
 LEXICON V_80RAPAHUTMA !!≈ * __@CODE@__ rapahutma:rapahuta
-+V:%{back%} V_80RAPAHUTMA/HAEMMAEHUETMAE ;
+:%{back%} V_80RAPAHUTMA/HAEMMAEHUETMAE ;
 LEXICON V_80HAEMMAEHUETMAE !!≈ * __@CODE@__ hämmähütmä:hämmähütä
-+V:%{front%} V_80RAPAHUTMA/HAEMMAEHUETMAE ;
-+V:%^WGStem%>%{aä%} ACT-IND-PRS-12 ;
-+V: ACT-IND-PRS-SG3_ZERO ;
+:%{front%} V_80RAPAHUTMA/HAEMMAEHUETMAE ;
+:%^WGStem%>%{aä%} ACT-IND-PRS-12 ;
+: ACT-IND-PRS-SG3_ZERO ;
 
-+V:%{aä%} ACT-IND-PRS-PL3_vAq ;
-+V: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+:%{aä%} ACT-IND-PRS-PL3_vAq ;
+: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
-+V:%^WGStem ACT-IND-PRT-12_i ;
-+V+Act+Ind+Prt+Sg2:%>s%{eõ%}q K ;
-+V+Act+Ind+Prt+Sg2:%>s%{eõ%}t K ;
-+V+Act+Ind+Prt+Sg2:%>s%{eõ%}d%{eõ%}q K ;
+:%^WGStem ACT-IND-PRT-12_i ;
++Act+Ind+Prt+Sg2:%>s%{eõ%}q K ;
++Act+Ind+Prt+Sg2:%>s%{eõ%}t K ;
++Act+Ind+Prt+Sg2:%>s%{eõ%}d%{eõ%}q K ;
 
-+V: ACT-IND-PRT-SG3_APOSTROPHE ;
-+V:%>i ACT-IND-PRT-PL3_q/vAq ;
-+V+Err/Orth+Use/NG:%>s%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
-+V: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
-+V: Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+: ACT-IND-PRT-SG3_APOSTROPHE ;
+:%>i ACT-IND-PRT-PL3_q/vAq ;
++Err/Orth+Use/NG:%>s%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
+: Harm-Neutr_VISKAMA_PSS-IND-PRS ;
+: Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
-+V: Harm-Neutr_INF_Aq ;
-+V:%{aä%} Harm-Neutr_ACT-PRSPRC_v ;
-+V: Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
-+V: Harm-Neutr_V0-PSS-PRSPRC_tAv ;
-+V:%^WGStem%{eõ%} Harm-Neutr_PSS-PRFPRC_t ;
-+V:%^WGStem%{eõ%} PSS-PRFPRC_tU-SG-NOM ;
+: Harm-Neutr_INF_Aq ;
+:%{aä%} Harm-Neutr_ACT-PRSPRC_v ;
+: Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
+: Harm-Neutr_V0-PSS-PRSPRC_tAv ;
+:%^WGStem%{eõ%} Harm-Neutr_PSS-PRFPRC_t ;
+:%^WGStem%{eõ%} PSS-PRFPRC_tU-SG-NOM ;
 
 
 LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE !!= * @CODE@ rapahutma:rapahuta
@@ -1529,7 +1529,7 @@ LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE !!= * @CODE@ rapahutma:rapahuta
 LEXICON V_81TEGEMAE !!≈ * __@CODE@__ tegemä:teg
 !! * Yaml: __tegemä__
 !! Work
-+V:%{front%} V_81XX/TEGEMAE ;
+:%{front%} V_81XX/TEGEMAE ;
 LEXICON V_81XX/TEGEMAE !!≈ * __@CODE@__ tegemä:teg
 :%^WGStem%>e ACT-IND-PRS-12 ; ! The e must be retained or the%{eõ%}:i rule fixed
 :%{eõ%} ACT-IND-PRS-SG3_ZERO ;
@@ -1561,10 +1561,10 @@ LEXICON V_81XX/TEGEMAE !!≈ * __@CODE@__ tegemä:teg
 
 LEXICON V_82ANDMA !!≈ * __@CODE@__ andma:and
 !! * Yaml: __andma__
-+V:%{back%} V_82ANDMA/PUEUEDMAE ;
+:%{back%} V_82ANDMA/PUEUEDMAE ;
 LEXICON V_82PUEUEDMAE !!≈ * __@CODE@__ püüdmä:püüd
 !! * Yaml: __pueuedmae__
-+V:%{front%} V_82ANDMA/PUEUEDMAE ;
+:%{front%} V_82ANDMA/PUEUEDMAE ;
 
 LEXICON V_82ANDMA/PUEUEDMAE !!≈ * __@CODE@__ andma:%{ˋØ%}an%{dd́n%}
 ! jõõrdma:j%{õy%}%{õy%}r%{dd́Ø%}
@@ -1597,11 +1597,11 @@ LEXICON V_82ANDMA/PUEUEDMAE !!≈ * __@CODE@__ andma:%{ˋØ%}an%{dd́n%}
 LEXICON V_83NÕSTMA  !!= * @CODE@ nõstma:nõst
 !! gradation: no
 !! * Yaml: __nwstma__
-+V:%{back%} V_83NÕSTMA/PÄSTMÄ  ;
+:%{back%} V_83NÕSTMA/PÄSTMÄ  ;
 LEXICON V_83PÄSTMÄ  !!= * @CODE@ nõstma:nõst
 !! gradation: no
 !! * Yaml: __nwstma__
-+V:%{front%} V_83NÕSTMA/PÄSTMÄ  ;
+:%{front%} V_83NÕSTMA/PÄSTMÄ  ;
 
 LEXICON V_83NÕSTMA/PÄSTMÄ  !!= * @CODE@ nõstma:nõst
  ACT-IND-PRS-12 ;
@@ -1631,11 +1631,11 @@ LEXICON V_83NÕSTMA/PÄSTMÄ  !!= * @CODE@ nõstma:nõst
 LEXICON V_83SÕITMA  !!= * @CODE@ sõitma:sõit
 !! gradation: yes
 !! * Yaml: __switma__
-+V:%{back%} V_83SÕITMA/HEITMAE ;
+:%{back%} V_83SÕITMA/HEITMAE ;
 LEXICON V_83HEITMAE  !!= * @CODE@ heitmä:heit
 !! gradation: yes
 !! * Yaml: __heitmae__
-+V:%{front%} V_83SÕITMA/HEITMAE ;
+:%{front%} V_83SÕITMA/HEITMAE ;
 
 LEXICON V_83SÕITMA/HEITMAE  !!= * @CODE@ sõitma:sõit
 +Act+Ind+Prs+Sg1:%^Pen%^WGStem K ; 
@@ -1683,7 +1683,7 @@ LEXICON V_83SÕITMA/HEITMAE  !!= * @CODE@ sõitma:sõit
 LEXICON V_83LAULMA  !!= * @CODE@ laulma:laul
 !! gradation: yes
 !! * Yaml: __switma__
-+V:%{back%} V_83LAULMA/XX ;
+:%{back%} V_83LAULMA/XX ;
 
 
 LEXICON V_83LAULMA/XX  !!= * @CODE@ laulma:laul
@@ -1733,11 +1733,11 @@ LEXICON V_83LAULMA/XX  !!= * @CODE@ laulma:laul
 LEXICON V_83ATMA  !!= * @CODE@ atma:atta
 !! gradation: yes
 !! * Yaml: __switma__
-+V:%{back%} V_83ATMA/PETMÄ ;
+:%{back%} V_83ATMA/PETMÄ ;
 LEXICON V_83PETMÄ  !!= * @CODE@ petmä:pettä
 !! gradation: yes
 !! * Yaml: __heitmae__
-+V:%{front%} V_83ATMA/PETMÄ ;
+:%{front%} V_83ATMA/PETMÄ ;
 
 LEXICON V_83ATMA/PETMÄ  !!= * @CODE@ atma:att%{ae%}
 +Act+Ind+Prs+Sg1:%^Pen%^WGStem K ; 
@@ -1788,10 +1788,10 @@ LEXICON V_83ATMA/PETMÄ  !!= * @CODE@ atma:att%{ae%}
 
 LEXICON V_84LASKMA !!= * @CODE@ laskma:lask
 !! * Yaml: __nwstma__
-+V:%{back%} V_84LASKMA/KÄSKMÄ ;
+:%{back%} V_84LASKMA/KÄSKMÄ ;
 LEXICON V_84KÄSKMÄ !!= * @CODE@ käskmä:käsk
 !! * Yaml: __nwstma__
-+V:%{front%} V_84LASKMA/KÄSKMÄ ;
+:%{front%} V_84LASKMA/KÄSKMÄ ;
 LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:lask
 !! * Yaml: __nwstma__
 :%^WGStem%>%{eõ%} ACT-IND-PRS-12 ;
@@ -1819,7 +1819,7 @@ LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:lask
 
 LEXICON V_85HIRNMA !!≈ * __@CODE@__ kakma:kaku hirnma:hirnu
 !! * Yaml: __kakma__
-+V:%{back%} V_85HIRNMA/XX ;
+:%{back%} V_85HIRNMA/XX ;
 LEXICON V_85HIRNMA/XX !!≈ * __@CODE@__ kakma:kaku hirnma:hirnu
  ACT-IND-PRS-12 ;
 :%^VowRM ACT-IND-PRS-SG3_ZERO ;
@@ -1853,10 +1853,10 @@ LEXICON V_85HIRNMA/XX !!≈ * __@CODE@__ kakma:kaku hirnma:hirnu
 !
 LEXICON V_85HAUDMA !!≈ * __@CODE@__  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u 
 !! * Yaml: __haudma__
-+V:%{back%} V_85HAUDMA/VAELKMAE ;
+:%{back%} V_85HAUDMA/VAELKMAE ;
 LEXICON V_85VAELKMAE !!≈ * __@CODE@__  haudma:haud
 !! * Yaml: __vaelkmae__
-+V:%{front%} V_85HAUDMA/VAELKMAE ;
+:%{front%} V_85HAUDMA/VAELKMAE ;
 LEXICON V_85HAUDMA/VAELKMAE !!≈ * __@CODE@__ kakma:kakk haudma:haud
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
 :%^VowRM ACT-IND-PRS-SG3_ZERO ;
@@ -1886,7 +1886,7 @@ LEXICON V_85HAUDMA/VAELKMAE !!≈ * __@CODE@__ kakma:kakk haudma:haud
 
 LEXICON V_86ISTMA !!≈ * __@CODE@__ istma:istu
 !! * Yaml: __istma__
-+V:%{back%} V_86ISTMA/XX ;
+:%{back%} V_86ISTMA/XX ;
 LEXICON V_86ISTMA/XX !!≈ * __@CODE@__ istma:istu
  ACT-IND-PRS-12 ;
  ACT-IND-PRS-3_s/sEq ;
@@ -1919,10 +1919,10 @@ LEXICON V_86ISTMA/XX !!≈ * __@CODE@__ istma:istu
 
 LEXICON V_86JAHTJMA !!≈ * __@CODE@__ jaht́ma:ˋjah%{tØ%}i
 !! * Yaml: __jahtjma__
-+V:%{back%} V_86JAHTJMA/EHTJMÄ ;
+:%{back%} V_86JAHTJMA/EHTJMÄ ;
 LEXICON V_86EHTJMÄ !!≈ * __@CODE@__ eht́mä:ehti
 !! * Yaml: __V-ehtjmae__
-+V:%{front%} V_86JAHTJMA/EHTJMÄ ;
+:%{front%} V_86JAHTJMA/EHTJMÄ ;
 
 LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * __@CODE@__ eht́mä:eh%{tt́%}
 :%^WGStem%>i ACT-IND-PRS-12 ;
@@ -1960,10 +1960,10 @@ LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * __@CODE@__ eht́mä:eh%{tt́%}
 
 LEXICON V_87KOSIMA !!≈ * __@CODE@__ kosima:ko%{sØ%}si
 !! * Yaml: __V-kosima__
-+V:%{back%} V_87KOSIMA/KERIMAE ;
+:%{back%} V_87KOSIMA/KERIMAE ;
 LEXICON V_87KERIMAE !!≈ * __@CODE@__ kerimä:keri
 !! * Yaml: __V-kerimae__
-+V:%{front%} V_87KOSIMA/KERIMAE ;
+:%{front%} V_87KOSIMA/KERIMAE ;
 
 LEXICON V_87KOSIMA/KERIMAE !!≈ * __@CODE@__ kosima:kosi
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
@@ -1994,10 +1994,10 @@ LEXICON V_87KOSIMA/KERIMAE !!≈ * __@CODE@__ kosima:kosi
 
 LEXICON V_88SIBAHAMA !!= * @CODE@ sibama:siba
 !! * Yaml: __V-sibama88,sibahama__
-+V:%{back%} V_88SIBAHAMA/JUEVAEHAEMAE ;
+:%{back%} V_88SIBAHAMA/JUEVAEHAEMAE ;
 LEXICON V_88JUEVAEHAEMAE
 !! * Yaml: __V-juevaemae88__
-+V:%{front%} V_88SIBAHAMA/JUEVAEHAEMAE ;
+:%{front%} V_88SIBAHAMA/JUEVAEHAEMAE ;
 LEXICON V_88SIBAHAMA/JUEVAEHAEMAE !!= * @CODE@ sibama:siba
 :%^StrGStem ACT-IND-PRS-12 ;
 :%^StrGStem ACT-IND-PRS-12 ;
@@ -2028,20 +2028,20 @@ LEXICON V_88SIBAHAMA/JUEVAEHAEMAE !!= * @CODE@ sibama:siba
  MUTUAL_JUS ;
 
 !LEXICON V-89
-!+V+WORK: # ;
+!+WORK: # ;
 !90
 !manitsõma:mani
 !LEXICON V-manitsõma
-!+V+Act+Ind+Prs+Sg1:ds%{eõ%} # ;
-!+V+Act+Ind+Prs+Sg3:ts%{eõ%}s # ;
-!+V+Act+Ind+Prt+Sg1:dsi # ;
-!+V+Act+Ind+Prt+Sg3:tś # ;
-!+V+Inf:daq # ;
-!+V+Inf:tsaq # ;
-!+V+Act+PrfPrc:nuq # ;
-!+V+Act+PrfPrc:tsnuq # ;
-!+V+Pss+PrfPrc:t # ;
-!+V+Pss+PrfPrc:ts%{eõ%}t # ;
+!+Act+Ind+Prs+Sg1:ds%{eõ%} # ;
+!+Act+Ind+Prs+Sg3:ts%{eõ%}s # ;
+!+Act+Ind+Prt+Sg1:dsi # ;
+!+Act+Ind+Prt+Sg3:tś # ;
+!+Inf:daq # ;
+!+Inf:tsaq # ;
+!+Act+PrfPrc:nuq # ;
+!+Act+PrfPrc:tsnuq # ;
+!+Pss+PrfPrc:t # ;
+!+Pss+PrfPrc:ts%{eõ%}t # ;
 
 !! !INDICATIVE PRESENT SUBJECT CONJUGATION
 LEXICON ACT-IND-PRS-12
