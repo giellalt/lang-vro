@@ -333,8 +333,6 @@ symbols in the lexicon files:
   %{ou%}    — Vowel raising
   %{ei%}    — Vowel raising
   %{õy%}    — Vowel raising
-  %{eʼ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{õʼ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{XV%}    — This is used for echoing the previous vowel
   %{XC%}    — This is used for lengthening a consonant
   %{dØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -445,14 +443,13 @@ And following triggers to control variation
  __ %^WGStem __ This weakens
   %^Pen	       This moves us to penultimate coda
 
- %^PenWGStem  This weakens "kipõnʼ" to "kibõna"
+ %^PenWGStem  This weakens "kipõń" to "kibõna"
 
  __ %^PenVowRM __ syncope tapõld : taplõma
   %^PAL	       — Palatalization
 
  __%^D2S	  __ käsi, susi
  %^TS2S  The -ts- => -s-
- %^I2ʼ  The i => ʼ change
  %^I2J  The i => j change
 
  __ %^PLPRT __ The a:o attested in Plural kana:kanno and prt
