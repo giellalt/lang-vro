@@ -69,6 +69,7 @@
   %{t́d́%}:t́    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
   %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pbv%}:b   — tõbi: tõvõ tõpõ tõppõ
   %{tdØ%}:d   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kgØ%}:g   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{jiØ%}:i   — HJK and KimmoK ideas vari:var%{jiØ%}o
@@ -86,6 +87,7 @@
   %{kḱØ%}:k   
   %{pṕb%}:p   
   %{tt́d%}:t   
+  %{tt́Ø%}:t    täh%{tt́Ø%}
   %{pṕØ%}:p   
 
 }}}
@@ -292,6 +294,8 @@ __{dd́n}:d́ palatalization for 3-way__
 andma+V+Act+Ind+Prs+Sg3
 * __an%{dd́n%}%{back%}%^PAL __
 * __and́00 __
+* __täh%{tt́Ø%} __
+* __täht́ __
 
 __{dd́n}:n weaken 3-way__
 
@@ -547,6 +551,8 @@ __%{Øp%}:p__
 {{{
 * __hä%{Øp%}%{pbØ%}ü%^Pen%^XStrGStem __
 * __häppü00 __
+* __tõ%{Øp%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%} __
+* __tõpp00%>õ __
 }}}
 
 __%{Øt%}:t__
@@ -561,6 +567,8 @@ __%{Øk%}:k__
 * __ikkä0 __
 * __mak0õ%^StrGStem%^VowRM%>i%>dõ __
 * __makkõ00%>i%>dõ __
+* __mä%{Øk%}%{kgØ%}%{front%}%^XStrGStem%>%{eõ%} __
+* __mäkk00%>e __
 
 
 __%{XC%}:s__
@@ -670,6 +678,10 @@ __p2b__
 __b20__
 
 __%{pbØ%}:0__
+
+__%{pbv%}:v__
+* __tõ%{Øp%}%{pbv%}%{back%}%^WGStem%>%{eõ%} __
+* __tõ0v00%>õ __
 
 __b2v__
 * __leib%^ÄI2ÄÄ%^WGStem%>ä __
@@ -785,7 +797,14 @@ __bTop__
 __%{pbØ%}:p__
 
 
+__%{pbv%}:p__
+* __tõ%{Øp%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%} __
+* __tõpp00%>e __
+
+
 __%{kgØ%}:k__
+* __mä%{Øk%}%{kgØ%}%{front%}%^XStrGStem%>%{eõ%} __
+* __mäkk00%>e __
 
 
 __%{tdØ%}:t__
@@ -845,6 +864,9 @@ __%{tdØ%}:0__
 
 
 __%{kgØ%}:0__
+* __jõ%{Øk%}%{kgØ%}%{back%}%^WGStem%>%{eõ%} __
+* __jõ0000%>õ __
+
 
 * __u%{jØ%}jo%{back%}%^Pen%^WGStem%>m%{aä%} __
 * __u0jo000%>ma __
@@ -854,24 +876,6 @@ __%{kgØ%}:0__
 
 
 
-
-
-__Disallow %^ErrorBack:0 in BHARM__
-{{{
-* __hä%^V70ö%^StrGStem%>i __
-* __hävvü0%>0 __
-}}}
-
-
-__Disallow %^ErrorBack:0 in BHARM__
-
-
-__Disallow %^ErrorBack:0 in BHARM__
-
-
-__Disallow %^ErrorBack:0 in BHARM__
-
-__Disallow %^ErrorBack:0 in BHARM__
 
 
 __Disallow %^ErrorBack:0 in BHARM__
@@ -899,8 +903,6 @@ püüdmä+V+Act+Ind+Prs+Sg3
 * __pü%{üv%}%{dd́v%}%{front%}%^PAL __
 * __püüd́00 __
 
-
-__Disallow %^ErrorBack:0 in BHARM__
 
 * __e%{lØ%}lä%{ij%}%^Pen%^WGStem%^I2J%>ä __
 * __e0läj00%>ä __

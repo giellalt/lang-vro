@@ -119,7 +119,26 @@ LEXICON PRON-DEM_seo/taa
 !! !INDEFINITE PRONOUNS
 !LEXICON PRON-INDEF_mis
 
+LEXICON PRON_21MONI
+:i Harm-Neutr_SG-NOM ;
+:%{back%}%>%{eõ%} Harm-Neutr_SG-GEN ;
+:%{back%}%>%{eõ%} Harm-Neutr_SG-ALL_lE-STEM ;
++Sg+Par:%{back%}%>d%{aä%} K ;
+:%{back%} Harm-Neutr_SG-PAR_d ;
 
+:%{back%}%>%{eõ%} Harm-Neutr_PL-NOM ;
+:%{back%}%>i PL-ALL_lE-STEM ;
+
+LEXICON PRON_27MITU
+:u%{back%} Harm-Neutr_SG-NOM ;
+:m%{back%}%>%{eõ%} Harm-Neutr_SG-GEN ;
+:m%{back%}%>%{eõ%} Harm-Neutr_SG-ALL_lE-STEM ;
++Sg+Par:und%{back%} K ;
+:m%{back%}%>%{eõ%} Harm-Neutr_SG-ILL_he ;
+:m%{back%}%>%{eõ%}  SG-ILL_hE ;
+
+:m%{back%}%>%{eõ%} Harm-Neutr_PL-NOM ;
+:m%{back%}%>i PL-ALL_lE-STEM ;
 
 !! !INTERROGATIVE PRONOUNS
 LEXICON PRON-INTERR-HUM

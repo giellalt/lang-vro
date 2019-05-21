@@ -192,8 +192,8 @@ LEXICON N_8KULDNW-PL
 :%{back%} NMN_8KULDNW/XX-PL ;
 
 LEXICON N_8DOLLAR1
-:%^PAL%^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
-+Err/Orth-no-pal:%^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
+:%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
++Err/Orth-no-pal: ATTESTED-NOUN-STEM-CONTINUED ;
  N_8DOLLAR1-SG ;
  N_8DOLLAR1-PL ;
 LEXICON N_8DOLLAR1-SG
@@ -202,8 +202,8 @@ LEXICON N_8DOLLAR1-PL
 :%{back%} NMN_8DOLLAR1/EEDER1-PL ;
 
 LEXICON N_8EEDER1
-:%^PAL%^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
-+Err/Orth-no-pal:%^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
+:%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
++Err/Orth-no-pal: ATTESTED-NOUN-STEM-CONTINUED ;
  N_8EEDER1-SG ;
  N_8EEDER1-PL ;
 LEXICON N_8EEDER1-SG
@@ -823,7 +823,7 @@ LEXICON N_20KUEUEDS1-PL
 :%{front%}     NMN_20KUEUEDS1-PL ;
 
 LEXICON N_20MIIS1 !!= @CODE@ miiś:m%{ei%}%{ei%}
-:ś%^VOWRaise ATTESTED-NOUN-STEM-CONTINUED ;
+:i̬i̬ś ATTESTED-NOUN-STEM-CONTINUED ;
  N_20MIIS1-SG ;
         N_20MIIS1-PL ;
 LEXICON N_20MIIS1-SG
@@ -1243,7 +1243,7 @@ LEXICON N_35LUMI-PL
 :%{back%} NMN_35LUMI/NIMI-PL ;
 
 LEXICON N_36TUUM1 !!= @CODE@ tuuḿ:t%{ou%}%{ou%}m
-:%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
+:%^VOWRaise%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
 +Err/Orth-no-pal: ATTESTED-NOUN-STEM-CONTINUED ;
         N_36TUUM1-SG ;
  N_36TUUM1-PL ;
@@ -1578,9 +1578,9 @@ LEXICON N_41JUHT1-SG
 LEXICON N_41JUHT1-PL
 :%{back%}     NMN_41JUHT1-PL ;
 
-LEXICON N_41AIG !!= @CODE@ aig:aig
+LEXICON N_41AIG !!= @CODE@ aig:a
 !! * Yaml: __aig, aig__
-:%^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
+:ig ATTESTED-NOUN-STEM-CONTINUED ;
         N_41AIG-SG ;
  N_41AIG-PL ;
 LEXICON N_41AIG-SG
@@ -2214,29 +2214,29 @@ LEXICON NMN_8SADANG-PL
 !  NMN_8DOLLAR1/EEDER1-PL ;
 
 LEXICON NMN_8DOLLAR1/EEDER1-SG 
-:%^PAL%^VowRM        Harm-Neutr_SG-NOM  ;
+:%^PAL        Harm-Neutr_SG-NOM  ;
 +Err/Orth-no-pal:        Harm-Neutr_SG-NOM  ;
-        SG-GEN_ZERO-STEM       ;
-        Harm-Neutr_SG-PAR_t        ;
-        Harm-Neutr_SG-ILL_he       ;
+:i        SG-GEN_ZERO-STEM       ;
+:i        Harm-Neutr_SG-PAR_t        ;
+:i        Harm-Neutr_SG-ILL_he       ;
 
-        SG-ILL_dE       ;
+:i        SG-ILL_dE       ;
 
 LEXICON NMN_8DOLLAR1/EEDER1-PL 
-        Harm-Neutr_PL-NOM ;
-     Harm-Neutr_PL-GEN_dE ;
-        PL-ILL_he       ;
-        PL-ALL_lE-STEM       ;
-      PL-PAR_t        ;
-:%>d%{eõ%}      PL-COM        ;
+:i        Harm-Neutr_PL-NOM ;
+:i     Harm-Neutr_PL-GEN_dE ;
+:i        PL-ILL_he       ;
+:i        PL-ALL_lE-STEM       ;
+:i      PL-PAR_t        ;
+:i%>d%{eõ%}      PL-COM        ;
 !! Secondary
-+Err/Orth+Use/NG:%>i        PL-ALL_lE-STEM       ;
-+Err/Orth+Use/NG:%>i     Harm-Neutr_PL-GEN_dE ;
-+Err/Orth+Use/NG:        PL-ILL_dE       ;
-+Err/Orth+Use/NG:%>i        PL-ILL_dE       ;
-+Err/Orth+Use/NG:%>i        PL-ILL_he       ;
-+Err/Orth+Use/NG:%>i      PL-PAR_d        ;
-+Err/Orth+Use/NG:%>id%{eõ%}      PL-COM        ;
++Err/Orth+Use/NG:%>ii        PL-ALL_lE-STEM       ;
++Err/Orth+Use/NG:%>ii     Harm-Neutr_PL-GEN_dE ;
++Err/Orth+Use/NG:i        PL-ILL_dE       ;
++Err/Orth+Use/NG:%>ii        PL-ILL_dE       ;
++Err/Orth+Use/NG:%>ii        PL-ILL_he       ;
++Err/Orth+Use/NG:%>ii      PL-PAR_d        ;
++Err/Orth+Use/NG:%>iid%{eõ%}      PL-COM        ;
 
 
 LEXICON NMN_36RAMM/SILM !!= * __@CODE@__ silm:silm
@@ -3699,30 +3699,31 @@ LEXICON NMN_20KUEUEDS1-PL
 +Err/Orth+Use/NG:%^TS2S%>te             PL-ALL_lE-STEM ;
 +Err/Orth+Use/NG:%^TS2S%>te PL-COM ;
 
-!LEXICON NMN_20MIIS1 !!= * @CODE@ miiś:miisʼ
+!LEXICON NMN_20MIIS1 !!= * @CODE@ miiś:m
 !!! * Yaml: __N-vaeitsj20__
 !  NMN_20MIIS1-SG ;
 !  NMN_20MIIS1-PL ;
 
 LEXICON NMN_20MIIS1-SG 
-:ś%^VOWRaise      Harm-Neutr_SG-NOM ;
-:%^VOWLower%^VowRM%>he      SG-GEN_ZERO-STEM ;
-:s%^VOWRaise             Harm-Neutr_SG-PAR_t ;
-:s%^VOWRaise            Harm-Neutr_SG-ILL_tE ;
+:i̬i̬ś      Harm-Neutr_SG-NOM ;
++Err/Orth-no-pal:i̬i̬s      Harm-Neutr_SG-NOM ;
+:e%>he      SG-GEN_ZERO-STEM ;
+:i̬i̬s             Harm-Neutr_SG-PAR_t ;
+:i̬i̬s            Harm-Neutr_SG-ILL_tE ;
 
 LEXICON NMN_20MIIS1-PL 
-:%^VOWLower%^VowRM%>he      Harm-Neutr_PL-NOM ;
-:%^VOWLower%^VowRM%>hi             PL-GEN_ZERO ;
-:%^VOWLower%^VowRM%>hi            Harm-Neutr_PL-PAR_ZERO ;
-:%^VOWLower%^VowRM%>hi            PL-ILL_he ;
-:%^VOWLower%^VowRM%>hi             PL-ALL_lE-STEM ;
-:%^VOWLower%^VowRM%>hi   PL-COM ;
+:e%>he      Harm-Neutr_PL-NOM ;
+:e%>hi             PL-GEN_ZERO ;
+:e%>hi            Harm-Neutr_PL-PAR_ZERO ;
+:e%>hi            PL-ILL_he ;
+:e%>hi             PL-ALL_lE-STEM ;
+:e%>hi   PL-COM ;
 
-+Err/Orth+Use/NG:s%^VOWRaise%>te            PL-GEN_ZERO ;
-+Err/Orth+Use/NG:%^VOWLower%^VowRM%>hi            Harm-Neutr_PL-ILL_ZERO ;
-+Err/Orth+Use/NG:%^VOWLower%^VowRM%>hi            PL-ILL_dE ;
-+Err/Orth+Use/NG:s%^VOWRaise%>te             PL-ALL_lE-STEM ;
-+Err/Orth+Use/NG:s%^VOWRaise%>te PL-COM ;
++Err/Orth+Use/NG:i̬i̬s%>te            PL-GEN_ZERO ;
++Err/Orth+Use/NG:e%>hi            Harm-Neutr_PL-ILL_ZERO ;
++Err/Orth+Use/NG:e%>hi            PL-ILL_dE ;
++Err/Orth+Use/NG:i̬i̬s%>te             PL-ALL_lE-STEM ;
++Err/Orth+Use/NG:i̬i̬s%>te PL-COM ;
 
 !LEXICON NMN_21HUEDSI !!= * @CODE@ hüdsi:hü%{tdØ%}s
 !!! * Yaml: __N-huedsi21__
@@ -5111,20 +5112,20 @@ LEXICON NMN_41JUHT1-PL
 !  NMN_41AIG-PL ;
 
 LEXICON NMN_41AIG-SG 
-:g        Harm-Neutr_SG-NOM  ;
-:%^VowRM%>o       SG-GEN_ZERO-STEM        ;
-:go       Harm-Neutr_SG-ILL_ZERO        ;
-:go       Harm-Neutr_SG-PAR_ZERO        ;
+:ig        Harm-Neutr_SG-NOM  ;
+:%>o       SG-GEN_ZERO-STEM        ;
+:igo       Harm-Neutr_SG-ILL_ZERO        ;
+:igo       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_41AIG-PL 
-:%^VowRM%>o       Harm-Neutr_PL-NOM ;
-:gõ    PL-GEN_ZERO ;
-:gõ    Harm-Neutr_PL-PAR_ZERO ;
-:gõ    PL-ILL_he ;
-:gõ    Harm-Neutr_PL-ILL_ZERO ;
-:gõ    PL-ILL_dE ;
-:%^VowRM%>e    PL-ALL_lE-STEM ;
-:gõ    PL-COM ;
+:%>o       Harm-Neutr_PL-NOM ;
+:igõ    PL-GEN_ZERO ;
+:igõ    Harm-Neutr_PL-PAR_ZERO ;
+:igõ    PL-ILL_he ;
+:igõ    Harm-Neutr_PL-ILL_ZERO ;
+:igõ    PL-ILL_dE ;
+:%>e    PL-ALL_lE-STEM ;
+:igõ    PL-COM ;
 
 
 !LEXICON NMN_41ASK/VIIT !!= @CODE@ ask:asko, laul:laulu
@@ -5600,6 +5601,11 @@ LEXICON  SG-ELA_st
 LEXICON  SG-GEN_ZERO
 :%> ATTESTED-NOUN-STEM-CONTINUED ;
 +Sg+Gen:%> K ;
+
+LEXICON  Harm-Neutr_SG-GEN
+: ATTESTED-NOUN-STEM-CONTINUED ;
++Sg+Gen: K ;
+
 
 LEXICON Harm-Neutr_SG-ILL_ZERO
 +Sg+Ill: K ;
