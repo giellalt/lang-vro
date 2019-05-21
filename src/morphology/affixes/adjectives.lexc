@@ -67,6 +67,7 @@ LEXICON A_8HAEIELM
 
 LEXICON A_8KULDNW !!= * @CODE@ kuldnõ:kuld
 :%{back%}  NMN_8KULDNW/XX ;
++A:%{back%}%>s%{eõ%} Harm-Neutr_COMP ;
 
 LEXICON A_8KOLMAS !!= * @CODE@ kolmas:kolma
 :%{back%}  NMN_8KOLMAS/VIIES ;
@@ -103,22 +104,22 @@ LEXICON A_9KIPWN1
 LEXICON A_9VETEL1
 !! * Yaml: __ellaei, suhvli__
 :%{front%}     NMN_9KIPWN1/VETEL1 ;
-:%{front%}%^Pen%^WGStem%>a COMP ;
++A:%{front%}%^Pen%^WGStem%>a COMP ;
 
 LEXICON A_9VILLW
 !! * Yaml: __villw__
 :%{back%} NMN_9VILLW/XX ;
-:%{back%}%^Pen%^WGStem COMP ;
++A:%{back%}%^Pen%^WGStem COMP ;
 
 LEXICON A_9TUKWV
 !! * Yaml: __tukwv__
 :%{back%} NMN_9TUKWV/VERREV ;
-:%{back%}%^Pen%^WGStem%>a COMP ;
++A:%{back%}%^Pen%^WGStem%>a COMP ;
 
 LEXICON A_9VERREV
 !! * Yaml: __verrev__
 :%{front%} NMN_9TUKWV/VERREV ;
-:%^Pen%^WGStem%>ä%{front%} COMP ;
++A:%^Pen%^WGStem%>ä%{front%} COMP ;
 
 !LEXICON A_9SALLAI
 !! * Yaml: __sallai__
@@ -168,10 +169,12 @@ LEXICON A_11KELMEQ !!= @CODE@ kelmeq:kelme
 LEXICON A_13ALONW !!= @CODE@ alonõ:alo
 :%{back%}     NMN_13ALONW/TAEHINE ;
 +A+Der+Der/lt+Adv:dsõlt K ;
++A:%{back%}%>ts%{eõ%} Harm-Neutr_COMP ;
 
 LEXICON A_13TAEHINE !!= @CODE@ tähine:tähi
 :%{front%}     NMN_13ALONW/TAEHINE ;
 +A+Der+Der/lt+Adv:dselt K ;
++A:%{back%}%>ts%{eõ%} Harm-Neutr_COMP ;
 
 LEXICON A_13TAEHINE-PL !!= @CODE@ tähine:tähi
 :%{front%}     NMN_13ALONW/TAEHINE-PL ;
@@ -244,7 +247,7 @@ LEXICON A_23NUUL1
 
 LEXICON A_23SUUR1
 :%{back%}  NMN_23SUUR1 ;
-:%{back%}õ COMP ;
++A:%{back%}õ COMP ;
 
 !LEXICON A_23KIIL1
 !:%{front%}  NMN_23NUUL1/KIIL1 ;
@@ -335,13 +338,14 @@ LEXICON A_40TALO
 
 LEXICON A_43KANARIK
 :%{back%}  NMN_43KANARIK ;
++A:%>u%{back%} COMP ;
 
 LEXICON A_44SWDA
 :%{back%}  NMN_44SWDA ;
 
 LEXICON A_45KANA
 :%{back%}  NMN_45KANA/RIHAE ;
-:%^VowRM%>õ%{back%} COMP ;
++A:%^VowRM%>õ%{back%} COMP ;
 
 LEXICON A_46HAIN
 !! gradation: no
@@ -408,6 +412,7 @@ LEXICON NMN_COMP
 +Sg+Ill:%{aä%}he K ;
 +Sg+Nom: K ;
 
++Pl+Nom:%{aä%}q K ;
 :i PL-ALL_lE-STEM ;
 
 +Pl+Gen:id%{eõ%} K ;
