@@ -528,8 +528,8 @@ Rules
 "%{ou%}2u̬"
 !! __@RULENAME@__
  %{ou%}:u̬ <=> 
-  [ # Cns* | Cns ] _ %{ou%}: ( s ( %{kØ%}: ) | t | k | l | r | l (%{dd́Ø%}:|%{tt́Ø%}:) | %{lĺ%}: | n (%{dd́Ø%}:|%{tt́Ø%}:) | r (%{dd́Ø%}:|%{tt́Ø%}:) | m | t: s | r t: | v) ( Vow: ) (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] %{ou%}: _ [ s ( %{kØ%}: ) | t | k | l | r | l (%{dd́Ø%}:|%{tt́Ø%}:) | %{lĺ%}: | n (%{dd́Ø%}:|%{tt́Ø%}:) | r (%{dd́Ø%}:|%{tt́Ø%}:) | m | t: s | r t: | v ] ( Vow: ) (HarmDummies:) %^VOWRaise: ;
+  [ # Cns* | Cns ] _ %{ou%}: ( s ( %{kØ%}: ) | t | k | l | r | l (%{dd́Ø%}:|%{tt́Ø%}:) | %{lĺ%}: | n (%{dd́Ø%}:|%{tt́Ø%}:) | r (%{dd́Ø%}:|%{tt́Ø%}:) | m | %{mḿ%}: | t: s | r t: | v) ( Vow: ) (HarmDummies:) %^VOWRaise: ;
+ [ # Cns* | Cns ] %{ou%}: _ [ s ( %{kØ%}: ) | t | k | l | r | l (%{dd́Ø%}:|%{tt́Ø%}:) | %{lĺ%}: | n (%{dd́Ø%}:|%{tt́Ø%}:) | r (%{dd́Ø%}:|%{tt́Ø%}:) | m | %{mḿ%}: | t: s | r t: | v ] ( Vow: ) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] %{ou%}: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
 !! nuuĺ+N+Sg+Nom: __arrow__
 !!€ n%{ou%}%{ou%}l%^VOWRaise%^PAL
