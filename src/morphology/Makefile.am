@@ -31,6 +31,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/adpositions_newwords.lexc     \
 			 stems/adverbs_newwords.lexc     \
 			 stems/determiners_newwords.lexc     \
+			 stems/genitive_attributes.lexc     \
 			 stems/interjections_newwords.lexc     \
 			 stems/nouns_newwords.lexc     \
 			 stems/propernouns_newwords.lexc     \
