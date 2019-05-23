@@ -344,6 +344,7 @@ symbols in the lexicon files:
   %{ou%}    — Vowel raising
   %{ei%}    — Vowel raising
   %{õy%}    — Vowel raising
+  %{ao%}    — Vowel raising
   %{eØ%}    — ütlemä:üt%{eØ%}l  
   %{õØ%}    — ütlemä:üt%{eØ%}l  
   %{XV%}    — This is used for echoing the previous vowel
@@ -583,6 +584,7 @@ less complex word classes
   %{ou%}:o    — Vowel raising
   %{ei%}:e    — Vowel raising
   %{õy%}:õ    — Vowel raising
+  %{ao%}:a    — Vowel raising
 
   %{eØ%}:e    — ütlemä:üt%{eØ%}l  
   %{õØ%}:õ    — ütlemä:üt%{eØ%}l  
@@ -706,6 +708,7 @@ less complex word classes
 }}}
 
 
+
 {{{
  %^NoGrad:0     — This will be placed after a stem to break Gradation
  %^APOCH:0      — This causes apochope: puhksama vs puhastaq
@@ -731,6 +734,12 @@ less complex word classes
  %^VowRM:0      — this will remove stem final vowel
  %^CnsRM:0      — this will remove stem final consonant tervüs:tervü
 }}}
+
+
+
+
+
+
 
 
 
@@ -931,6 +940,12 @@ __i:ä__
 __a2o__
 {{{
 * __kan0a%^StrGStem%^PLPRT __
+* __kanno00 __
+}}}
+
+__{ao}o__
+{{{
+* __ka%{nØ%}n%{ao%}%^StrGStem%^PLPRT __
 * __kanno00 __
 }}}
 

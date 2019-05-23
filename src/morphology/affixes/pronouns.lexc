@@ -119,6 +119,15 @@ LEXICON PRON-DEM_seo/taa
 !! !INDEFINITE PRONOUNS
 !LEXICON PRON-INDEF_mis
 
+LEXICON PRON_PALL1O
+: Harm-Neutr_SG-NOM ;
+:%{back%} Harm-Neutr_SG-GEN ;
+:%{back%} Harm-Neutr_SG-ALL_lE-STEM ;
+:%{back%} Harm-Neutr_SG-PAR_d ;
+
+:%{back%} Harm-Neutr_PL-NOM ;
+!:%{back%} PL-ALL_lE-STEM ;
+
 LEXICON PRON_21MONI
 :i Harm-Neutr_SG-NOM ;
 :%{back%}%>%{eõ%} Harm-Neutr_SG-GEN ;
