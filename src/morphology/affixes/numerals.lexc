@@ -859,16 +859,16 @@ LEXICON NUM_36UETS1-PL
 :%{front%} NMN_36KATS1/UETS1-PL ;
 
 
-!LEXICON NUM_KOGWR
-!! kogõr:kogõr
-!! * Yaml: __N-kogwr36__
-!! derived from 36särǵ
-!        NUM_KOGWR-SG ;
-!        NUM_KOGWR-PL ;
-!LEXICON NUM_KOGWR-SG
-!:%{back%}     NMN_KOGWR-SG ;
-!LEXICON NUM_KOGWR-PL
-!:%{back%}     NMN_KOGWR-PL ;
+LEXICON NUM_36KOKR
+!! kokr:ko%{kg%}r
+!! * Yaml: __N-kokr36__
+        NUM_36KOKR-SG ;
+        NUM_36KOKR-PL ;
+LEXICON NUM_36KOKR-SG
+:%{back%}     NMN_36KOKR-SG ;
+LEXICON NUM_36KOKR-PL
+:%{back%}     NMN_36KOKR-PL ;
+
 
 !LEXICON NUM_46SWBWR
 !! sõbõr:sõbõr
