@@ -38,6 +38,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{ou%}:o   !!= @CODE@ — Vowel raising
  %{ei%}:e   !!= @CODE@ — Vowel raising
  %{õy%}:õ   !!= @CODE@ — Vowel raising
+ %{ao%}:a   !!= @CODE@ — Vowel raising
 
  %{eØ%}:e   !!= @CODE@ — ütlemä:üt%{eØ%}l  
  %{õØ%}:õ   !!= @CODE@ — ütlemä:üt%{eØ%}l  
@@ -163,6 +164,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 !! }}}
 
 
+
 ! this k is not effected by gradation
 K1:k
 !! {{{
@@ -191,6 +193,25 @@ K1:k
 %^VowRM:0     !!= @CODE@ — this will remove stem final vowel
 %^CnsRM:0     !!= @CODE@ — this will remove stem final consonant tervüs:tervü
 !! }}}
+
+!Outlining 2 grades (3,4) (audibly, orthographically)  ku%{Øp%}p : kupu kuppu
+!Outlining 2 grades (audibly, orthographically)  tä%{tØ%}%{tdØ%}i : tädi täti tätti
+!Outlining 2 grades (audibly, orthographically)  tü%{kØ%}k : tükü tükkü
+
+!Outlining 2 grades (audibly, NOT orthographically)  kasv : kasvo kasvo
+
+!Outlining 3 grades (2,3,4) (audibly, orthographically)  tö%{pØ%}%{pbØ%}i : töbi töpi töppi
+!Outlining 3 grades (audibly, orthographically)  tä%{tØ%}%{tdØ%}i : tädi täti tätti
+!Outlining 3 grades (audibly, orthographically)  pi%{kØ%}%{kgØ%}i : pigi piki pikki
+
+!Outlining 3 grades (audibly, NOT orthographically)  pi%{nØ%}ni : pini pinni pinni
+
+!Outlining 4 grades (1,2,3,4) (audibly, orthographically)  u%{pØ%}%{pbØ%}a : ua uba upa uppa
+!Outlining 4 grades (audibly, orthographically)  la%{tØ%}%{tdØ%}o : lao lado lato latto
+!Outlining 4 grades (audibly, orthographically)  la%{kØ%}%{kgØ%}o : lao lago lako lakko
+
+!Outlining 4 grades (audibly, NOT orthographically)  u%{pØ%}%{pbØ%}a : ua uba upa uppa
+
 
 %: !used with Proper nouns
 %- !Hyphen in  constructions 
@@ -231,15 +252,13 @@ CnsInZero = b d g j k l m p r s t v ;
 
 CnsVoiced = j l m n r v ;
 
-ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} ;
+ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} %{ao%};
 
 ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{bv%} %{bm%} %{pb%} %{td%} %{gv%} %{gl%} %{gØ%} %{kg%} %{dØ%} %{dv%} %{dl%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{sś%} %{lĺ%} %{rŕ%} %{nń%} %{ij%} %{kḱ%} %{hh́%} %{t́d́%} %{gǵ%} %{dd́Ø%} %{dd́n%} %{dd́r%} %{dd́v%} %{gǵv%} ; 
 
 ArchCnsInZero =  %{gØ%} %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pbØ%} %{tdØ%} %{kgØ%} ;
 
 Letters = Vow Cns ;
-
-VowDummies = %^WGStem %> %^PenVowRM ;
 
 HarmDummies = %{back%} %{front%} ;
 
@@ -458,7 +477,7 @@ Rules
 
 "%{kḱg%}:ḱ"
 !! __@RULENAME@__
- %{kḱg%}:ḱ <=> _   (HarmDummies:)  %^CC2C: %^PAL:  ;
+ %{kḱg%}:ḱ <=> _  (HarmDummies:)  %^CC2C: %^PAL:  ;
 
 !! kõiḱ+Pron+Sg+Nom
 !!€ kõi%{kØ%}%{kḱg%}%^CC2C%^PAL
@@ -576,11 +595,19 @@ Rules
 !!€ pääv0%>ä
 
 
-"a2o"
+"a2o"!prepare for deprication to {ao}:o
 !! __@RULENAME@__
 !! {{{
  a:o <=> OnSetC  _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: | %^Pen: %^WGStem: ) %^PLPRT: ;
 !!€ kan0a%^StrGStem%^PLPRT
+!!€ kanno00
+!! }}}
+
+"{ao}o"
+!! __@RULENAME@__
+!! {{{
+ %{ao%}:o <=> OnSetC  _ (HarmDummies:) ( %^XStrGStem: | %^StrGStem: | %^Pen: %^WGStem: ) %^PLPRT: ;
+!!€ ka%{nØ%}n%{ao%}%^StrGStem%^PLPRT
 !!€ kanno00
 !! }}}
 
