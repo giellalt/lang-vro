@@ -759,6 +759,11 @@ less complex word classes
 
 
 
+
+
+
+
+
 Onset consonant or word boundary
 
 
@@ -896,7 +901,6 @@ tegemä+V+Act+Ind+Prs+Sg1: __do__
 * __ti̬00%>i̬ __
 
 
-__%{ei%}2i̬__
 * __k%{ei%}%{ei%}l%^VOWRaise%^PAL __
 * __ki̬i̬ĺ00 __
 
@@ -905,20 +909,15 @@ __õ2õ̭__
 * __sõda%^WGStem __
 * __sõ̭0a0 __
 
-__%{õy%}2õ̭__
-
 
 __o2u̬__
 
 __Vx%{ou%}:Vyo__
 
-__%{ou%}2u̬__
+__Vx%{ou%}2Vyu̬__
 nuuĺ+N+Sg+Nom: __arrow__
 * __n%{ou%}%{ou%}l%^VOWRaise%^PAL __
 * __nu̬u̬ĺ __
-
-
-__%{öü%}2ü̬__
 
 
 __i2e__
@@ -1261,8 +1260,12 @@ hammas
 * __hammas00 __
 
 __%{bm%}:m__
-* __ham%{bm%}a%{sØ%}%^Pen%^WGStem __
-* __hammas00 __
+* __ham%{bm%}a%{sØ%}%^Pen%^VOWLower%^Pen%^WGStem __
+* __hammas0000 __
+
+__%{bv%}:v__
+* __när%{bv%}ä%{sØ<%}%^Pen%^VOWLower%^Pen%^WGStem __
+* __närväs0000 __
 
 
 __d2n__
