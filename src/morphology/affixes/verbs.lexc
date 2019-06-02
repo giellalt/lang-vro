@@ -192,10 +192,10 @@ LEXICON V_51NWSWMA/PAESEMAE !!≈ * __@CODE@__ nõsõma:nõs
 :%{eõ%} ACT-IND-PRS-3_s/sEq ;
  Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
-:%{XC%} ACT-IND-PRT-12_i ;
+:%^StrGSt ACT-IND-PRT-12_i ;
 :%{eõ%} ACT-IND-CONNEG ;
-:%{XC%} ACT-IND-PRT-SG3_i ;
-!:%{XC%} Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
+:%^StrGSt ACT-IND-PRT-SG3_i ;
+!:%^StrGSt Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
  Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
 :%{eõ%} Harm-Neutr_INF_mA ;
@@ -1350,10 +1350,10 @@ LEXICON V_79TULWMA/XX !!≈ * __@CODE@__ tulõma:tul
 !! +Jus, 
 
 !! Strengthen consonant
-:%{XC%} Harm-Neutr_INF_Aq ; !!= * @CODE@ (2) tullaq
+:%^StrGSt Harm-Neutr_INF_Aq ; !!= * @CODE@ (2) tullaq
 !! Inf 
 !! Strengthen consonant 
-:%{XC%}%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ; !!= * @CODE@ (2b) tullõv
+:%^StrGSt%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ; !!= * @CODE@ (2b) tullõv
 !! Act+PrsPrc+Sg+Nom
 
 !! Retain consonant and stem vowel
@@ -1375,12 +1375,12 @@ LEXICON V_79TULWMA/XX !!≈ * __@CODE@__ tulõma:tul
 !! Ind+Prs+ 3
 
 !! Strengthen consonant and replace stem vowel with i
-:%{XC%}%>i TULWMA_ACT-IND-PRT-SG1 ; !!= * @CODE@ (7) loi
+:%^StrGSt%>i TULWMA_ACT-IND-PRT-SG1 ; !!= * @CODE@ (7) loi
 !! Act+Ind+PrtSg1/Sg2/Pl1-3
 
 !! Strengthen consonant and add ʼ
-:%{XC%}%^PAL Harm-Neutr_LUGWMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tulĺ
-+Err/Orth-no-pal:%{XC%} Harm-Neutr_LUGWMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tulĺ
+:%^StrGSt%^PAL Harm-Neutr_LUGWMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tulĺ
++Err/Orth-no-pal:%^StrGSt Harm-Neutr_LUGWMA_IND-PRT-SG3 ; !!= * @CODE@ (8) tulĺ
 !! Act+Ind+Prt+Sg3
 
 LEXICON V_79PURWMA !!≈ * __@CODE@__ purõma:pur
@@ -1394,10 +1394,10 @@ LEXICON V_79PURWMA/XX !!≈ * __@CODE@__ purõma:pur
 !! +Jus, 
 
 !! Strengthen consonant
-:%{XC%} Harm-Neutr_INF_Aq ; !!= * @CODE@ (2) purraq
+:%^StrGSt Harm-Neutr_INF_Aq ; !!= * @CODE@ (2) purraq
 !! Inf 
 !! Strengthen consonant 
-:%{XC%}%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ; !!= * @CODE@ (2b) purrõv
+:%^StrGSt%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ; !!= * @CODE@ (2b) purrõv
 !! Act+PrsPrc+Sg+Nom
 
 !! Retain consonant and stem vowel
