@@ -4570,12 +4570,12 @@ LEXICON NMN_35LUMI/NIMI-PL
 :%^WGStem%>%{eõ%}        Harm-Neutr_PL-NOM ;
 :%>i     PL-GEN_ZERO ;
 :%>i        PL-ILL_he       ;
-+Err/Orth+Use/NG:%>i        Harm-Neutr_PL-ILL_ZERO       ;
-+Err/Orth+Use/NG:%>i        PL-ILL_dE       ;
-:%>i        PL-ALL_lE-STEM       ;
-+Err/Orth+Use/NG:%^WGStem%>i        PL-ALL_lE-STEM       ;
+:%^WGStem%>i        PL-ALL_lE-STEM       ;
 :%>i      Harm-Neutr_PL-PAR_ZERO        ;
 :%>i     PL-COM ;
++Err/Orth+Use/NG:%>i        Harm-Neutr_PL-ILL_ZERO       ;
++Err/Orth+Use/NG:%>i        PL-ILL_dE       ;
++Err/Orth+Use/NG:%>i        PL-ALL_lE-STEM       ;
 
 !LEXICON NMN_36HANG1 !!= * @CODE@ hanǵ:hang
 !  NMN_36HANG1-SG ;

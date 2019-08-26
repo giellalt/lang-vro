@@ -71,7 +71,7 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/conjunctors.lexc \
 			 $(srcdir)/stems/interjections.lexc \
 			 $(srcdir)/stems/pronouns.lexc \
-			 $(srcdir)/stems/quantifiers.lexc \
+			 $(srcdir)/stems/numerals.lexc \
 			 generated_files/punctuation.lexc \
 			 generated_files/symbols.lexc
 
@@ -85,7 +85,7 @@ GT_XML_SRCS=\
 			 stems/conjunctors.xml \
 			 stems/interjections.xml \
 			 stems/pronouns.xml \
-			 stems/quantifiers.xml 
+			 stems/numerals.xml 
 
 #			 stems/adjectives.xml 
 #			 stems/verbs.xml 
