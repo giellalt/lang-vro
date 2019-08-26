@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - likõ: # Adjective (9) likõ 'eng /est /fin' - full paradigm
+     likõ+A+Sg+Nom: likõ
+     likõ+A+Sg+Gen: kibõna
+     likõ+A+Sg+Par: kibõnat
+     likõ+A+Sg+Ill: kibõnahe
+     likõ+A+Sg+Ine: kibõnan
+     likõ+A+Sg+Ela: kibõnast
+     likõ+A+Sg+All: kibõnalõ
+     likõ+A+Sg+Ade: kibõnal
+     likõ+A+Sg+Abl: kibõnalt
+     likõ+A+Sg+Tra: kibõnas
+     likõ+A+Sg+Ter: kibõnaniq
+     likõ+A+Sg+Abe: kibõnaldaq
+     likõ+A+Sg+Com: kibõnagaq
+     likõ+A+Pl+Nom: kibõnaq
+     likõ+A+Pl+Gen: kibõnidõ
+     likõ+A+Pl+Par: kibõnit
+     likõ+A+Pl+Ill: kibõnihe
+     likõ+A+Pl+Ine: kibõnin
+     likõ+A+Pl+Ela: kibõnist
+     likõ+A+Pl+All: kibõnilõ
+     likõ+A+Pl+Ade: kibõnil
+     likõ+A+Pl+Abl: kibõnilt
+     likõ+A+Pl+Tra: kibõnis
+     likõ+A+Pl+Ter: kibõniniq
+     likõ+A+Pl+Abe: kibõnildaq
+     likõ+A+Pl+Com: kibõnidõgaq
