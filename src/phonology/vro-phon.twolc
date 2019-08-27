@@ -547,25 +547,25 @@ Rules
 "Vx%{ou%}:Vyo"
 !! __@RULENAME@__
  Vx:Vy <=> 
- [ # Cns* | Cns ] _ Vx: [ ArchCns: | Cns | Cns ArchCns:] [ (HarmDummies:) %^VOWLower: | Vow: ArchCns: (HarmDummies:) %^Pen: %^VOWLower: ] ;
- [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns | Cns ArchCns:] [ (HarmDummies:) %^VOWLower: | Vow: ArchCns: (HarmDummies:) %^Pen: %^VOWLower: ];
+ [ # Cns* | Cns ] _ Vx: [ ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns:] [ (HarmDummies:) %^VOWLower: | Vow: ArchCns: (HarmDummies:) %^Pen: %^VOWLower: ] ;
+ [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns:] [ (HarmDummies:) %^VOWLower: | Vow: ArchCns: (HarmDummies:) %^Pen: %^VOWLower: ];
  [ # Cns* | Cns ] Vx: _ (HarmDummies:) %^VOWLower: (%^WGStem:) [#|.#.|%>|%-] ;
-!  [ # Cns* | Cns ] _ Vx: ( ArchCns: | Cns | Cns ArchCns:) Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^VOWLower: ;
-! [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns | Cns ArchCns:] Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^VOWLower: ;
+!  [ # Cns* | Cns ] _ Vx: ( ArchCns: | Cns | ArchCns: ArchCns: | Cns ArchCns:) Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^VOWLower: ;
+! [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns | ArchCns: ArchCns: | Cns ArchCns:] Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^VOWLower: ;
          where Vx in (%{ou%} %{öü%} %{õy%} %{ei%} )
                Vy in (  o      ö      õ      e ) matched ;
 
 "Vx%{ou%}2Vyu̬"
 !! __@RULENAME@__
  Vx:Vy <=>
-  [ # Cns* | Cns ] _ Vx: ( ArchCns: | Cns | Cns ArchCns:) ( Vow: ) (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns | Cns ArchCns: ] ( Vow: ) (HarmDummies:) %^VOWRaise: ;
+  [ # Cns* | Cns ] _ Vx: ( ArchCns: | ArchCns:  ArchCns: | Cns (Cns) | Cns ArchCns:) ( Vow: ) (HarmDummies:) %^VOWRaise: ;
+ [ # Cns* | Cns ] Vx: _ [ ArchCns: | ArchCns:  ArchCns: | Cns (Cns) | Cns ArchCns: ] ( Vow: ) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] Vx: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
 !! nuuĺ+N+Sg+Nom: __arrow__
 !!€ n%{ou%}%{ou%}l%^VOWRaise%^PAL
 !!€ nu̬u̬ĺ
-  [ # Cns* | Cns ] _ Vx: ( ArchCns: | Cns | Cns ArchCns:) Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^Pen: %^VOWRaise: ;
- [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns | Cns ArchCns: ] Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^Pen: %^VOWRaise: ;
+  [ # Cns* | Cns ] _ Vx: ( ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns:) Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^Pen: %^VOWRaise: ;
+ [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns: ] Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^Pen: %^VOWRaise: ;
      	  where Vx in (%{ou%} %{öü%} %{õy%} %{ei%} )
 	  	Vy in ( u̬ ü̬ õ̭ i̬ ) matched ;
 
