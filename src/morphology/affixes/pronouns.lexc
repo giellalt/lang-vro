@@ -3,36 +3,48 @@
 !! The Võro language pronouns inflect in the same cases as regular
 !! nouns, but with a colon (':') as separator.
 
+LEXICON PronounTypes
+!Personal ;
+Interrogative ;
+!Relative ;
+!Demonstrative ;
+!Reflexive ;
+!Reciprocal ;
+!Indefinite ;
+
 !! !PERSONAL PRONOUN
 LEXICON PERS-SG1
+PERS-PL1 ;
 +Pers+Sg1: PERS-SG1-2-NOM-COM ;
 +Pers+Sg1:u PERS-SG1-2-ABE-TRA ;
 +Pers+Sg1:ino PERS-SG1-2-ABE-TRA ;
 
 LEXICON PERS-SG2
-+Pers+Sg2: PERS-SG1-2-NOM-COM ;
-+Pers+Sg2:u PERS-SG1-2-ABE-TRA ;
-+Pers+Sg2:ino PERS-SG1-2-ABE-TRA ;
+PERS-PL2 ;
++Pers+Sg2:s PERS-SG1-2-NOM-COM ;
++Pers+Sg2:su PERS-SG1-2-ABE-TRA ;
++Pers+Sg2:sino PERS-SG1-2-ABE-TRA ;
 
 LEXICON PERS-SG3
-+Pers+Sg3+Nom: FOR-PERS-SG3-GEN/NOM ;
-+Pers+Sg3+Gen: FOR-PERS-SG3-GEN/NOM ;
-+Pers+Sg3+Abe:imäldäq FRONT_K ;
-+Pers+Sg3+Abe:imälda K ; !! CHECKME vowel harmony
+PERS-PL3 ;
++Pers+Sg3+Nom:t FOR-PERS-SG3-GEN/NOM ;
++Pers+Sg3+Gen:t FOR-PERS-SG3-GEN/NOM ;
++Pers+Sg3+Abe:timäldäq FRONT_K ;
++Pers+Sg3+Abe:timälda K ; !! CHECKME vowel harmony
 +Pers+Sg3+Com:imägaq K ;
-+Err/Orth+Pers+Sg3+Com:imäga K ;
-+Pers+Sg3+Ill:immä K ;
-+Pers+Sg3+Par:edä K ;
-+Pers+Sg3+Par:immä K ;
-+Pers+Sg3+Ade:äl K ;
-+Pers+Sg3+All:älle K ;
-+Pers+Sg3+All:ääle K ;
-+Pers+Sg3+All:imäle K ;
-+Pers+Sg3+Ter:imäiq K ;
++Err/Orth+Pers+Sg3+Com:timäga K ;
++Pers+Sg3+Ill:timmä K ;
++Pers+Sg3+Par:tedä K ;
++Pers+Sg3+Par:timmä K ;
++Pers+Sg3+Ade:täl K ;
++Pers+Sg3+All:tälle K ;
++Pers+Sg3+All:tääle K ;
++Pers+Sg3+All:timäle K ;
++Pers+Sg3+Ter:timäiq K ;
 
-+Pers+Sg3:ä PERS-SG1-2-ABE-TRA ;
-+Pers+Sg3:ää PERS-SG1-2-ABE-TRA ;
-+Pers+Sg3:imä PERS-SG1-2-ABE-TRA ;
++Pers+Sg3:tä PERS-SG1-2-ABE-TRA ;
++Pers+Sg3:tää PERS-SG1-2-ABE-TRA ;
++Pers+Sg3:timä PERS-SG1-2-ABE-TRA ;
 
 LEXICON FOR-PERS-SG3-GEN/NOM
 :ä K ;
@@ -68,20 +80,20 @@ LEXICON PERS-SG1-2-ABE-TRA
 +Ine:hn K ;
 
 
-LEXICON PERS-PL1 !!= @CODE@ miiq:m
+LEXICON PERS-PL1 !!= @CODE@ maq:m
 +Pers+Pl1: PERS-PL1-2 ;
 
-LEXICON PERS-PL2 !!= @CODE@ tiiq:t
-+Pers+Pl2: PERS-PL1-2 ;
+LEXICON PERS-PL2 !!= @CODE@ saq:
++Pers+Pl2:t PERS-PL1-2 ;
 
-LEXICON PERS-PL3 !!= @CODE@ nääq:n
-+Pers+Pl3+Nom:ääq K ;
-+Pers+Pl3+Nom:ä K ;
-+Pers+Pl3+Nom:imä K ;
-+Pers+Pl3+Nom:iä K ;
-+Pers+Pl3+Gen:äide K ;
-+Pers+Pl3+Ter:äideniq K ;
-+Pers+Pl3:ä FOR-PERS-PL1/2/3 ;
+LEXICON PERS-PL3 !!= @CODE@ timä:
++Pers+Pl3+Nom:nääq K ;
++Pers+Pl3+Nom:nä K ;
++Pers+Pl3+Nom:nimä K ;
++Pers+Pl3+Nom:niä K ;
++Pers+Pl3+Gen:näide K ;
++Pers+Pl3+Ter:näideniq K ;
++Pers+Pl3:nä FOR-PERS-PL1/2/3 ;
 
 
 LEXICON PERS-PL1-2
@@ -137,6 +149,38 @@ LEXICON PRON_21MONI
 
 :%{back%}%>%{eõ%} Harm-Neutr_PL-NOM ;
 :%{back%}%>i PL-ALL_lE-STEM ;
+
+LEXICON Interrogative
+!veid́oq+Pron:veid́oq PRON_11 "_ˋveit́o, veid́ot, %{ˋØ%}veit́(o)idõ, %{ˋØ%}veit́oid, %{ˋØ%}veitit__veid́oq_" ;
+veidüq+Pron:vei%{td%}ü PRON_11LAETEQ "_ˋveitü, veidüt, %{ˋØ%}veit(ü)ide, %{ˋØ%}veitüid, %{ˋØ%}veitit __veidüq_" ;
+!sääre+Pron:sääre PRON_13 "_ˋsäärtse, säärest__sääre_" ;
+määndene+Pron:%{ˋØ%}#mäände PRON_13TAEHINE "_#dse, #st__ˋmäände|ne_" ;
+määräne+Pron:määrä PRON_13TAEHINE "_#dse, #st__määrä|ne_" ;
+määne+Pron:%{ˋØ%}#mää PRON_13SAEAENE"_#dse, #st__ˋmää|ne_" ;
+niisääne+Pron:niisää PRON_13SAEAENE"_#%{ˋØ%}sääntse #%{ˋØ%}säändse #%{ˋØ%}sändse, #säänest__nii|sääne_" ;
+sääne+Pron:sää PRON_13SAEAENE"_ˋsääntse %{ˋØ%}säändse %{ˋØ%}sändse, säänest__sääne_" ;
+!määne+Pron:määne PRON_14 "_ˋmääntse %{ˋØ%}mändse, määnest__määne_" ;
+!määres+Pron:määre%{sØ%} PRON_14 "_ˋmäärtse %{ˋØ%}märdse, määrest__määres_" ;
+säändene+Pron:%{ˋØ%}#säände PRON_19PEDAEJAENE "_#dse, #st__ˋsäände|ne_" ;
+säänedäne+Pron:säänedä PRON_19PEDAEJAENE "_#dse, #st__säänedä|ne_" ;
+säärdene+Pron:%{ˋØ%}#säärde PRON_19PEDAEJAENE "_#dse, #st__ˋsäärde|ne_" ;
+mõni+Pron:mõ̭n PRON_21MONI "_mõ̭nõ, %{ˋØ%}mõ̭nda mõ̭nt__mõ̭ni_" ;
+palĺokõnõ+Pron:palĺokõ PRON_22VWROKWNW "_#sõ, #ist__palĺokõ|nõ_" ;
+palĺo+Pron:palĺo PRON_PALL1O ; ! CHECKME
+pisokõnõ+Pron:pisokõ PRON_22VWROKWNW "_#sõ, #ist __pisokõ|nõ_" ;
+tuukõnõ+Pron:tu̬u̬kõ PRON_22VWROKWNW "_#sõ, #ist__tu̬u̬kõ|nõ_" ;
+tõnõ+Pron:tõ̭ PRON_22VWROKWNW "_#sõ, #ist__tõ̭|nõ_" ;
+veid́okõnõ+Pron:veid́okõ PRON_22VWROKWNW "_#sõ, #ist__veid́okõ|nõ_" ;
+veidükene+Pron:veidüke PRON_22VAEHAEKENE "_#se, #ist__veidüke|ne_" ;
+veit́kene+Pron:%{ˋØ%}#veit́ke PRON_22VAEHAEKENE "_#se, #ist__ˋveit́ke|ne_" ;
+vähäkene+Pron:vähäke PRON_22VAEHAEKENE "_#se, #ist__vähäke|ne_" ;
+tõõnõ+Pron:tõõ PRON_22NAANW "_#õsõ, #ist__tõ|õnõ_" ;
+!!tõnõtõsõ+Pron:tõ̭nõtõsõ PRON_22 "_õ tõ̭nõtõist__tõ̭nõtõs_" ;
+!!tõõnõtõõsõ+Pron:tõõnõtõõsõ PRON_22 "_tõõnõtõist__tõõnõtõõsõ_" ;
+mitu+Pron:mit PRON_27MITU "_ˋmitmõ, mitund__mitu_" ;
+muu+Pron:muu PRON_29KUU "_#, #d__muu_" ;
+muu+Pron:m%{ou%}%{ou%} PRON_30MAA "_#, #d__mu̬u̬_" ;
+kõiḱ+Pron:kõ̭i%{kØ%}%{kḱg%} PRON_36KWIK1 "_#gõ, #kkõ__kõ̭|iḱ_" ;
 
 LEXICON PRON_27MITU
 :u%{back%} Harm-Neutr_SG-NOM ;

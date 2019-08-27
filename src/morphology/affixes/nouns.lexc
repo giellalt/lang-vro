@@ -595,7 +595,7 @@ LEXICON N_14RITS1KAS-PL
 LEXICON N_14HAMMAS !!= @CODE@ hammas:hamba, saabas:saapa
 ! gradation: yes
 !! distinguished from 14RITS1KAS due to gradation
-:%^Pen%^WGStem ATTESTED-NOUN-STEM-CONTINUED ;
+:%^Pen%^VOWLower%^Pen%^WGStem ATTESTED-NOUN-STEM-CONTINUED ;
         N_14HAMMAS-SG ;
         N_14HAMMAS-PL ;
 LEXICON N_14HAMMAS-SG
@@ -3283,9 +3283,9 @@ LEXICON NMN_14RITS1KAS/HERNEH !!= * __@CODE@__ ritśkas:ritśka
   NMN_14RITS1KAS/HERNEH-PL ;
 
 LEXICON NMN_14RITS1KAS/HERNEH-SG 
-        Harm-Neutr_SG-NOM  ;
+:%^Pen%^VOWLower        Harm-Neutr_SG-NOM  ;
 :%^CnsRM   SG-GEN_ZERO-STEM        ;
-:   Harm-Neutr_SG-PAR_t      ;
+:%^Pen%^VOWLower   Harm-Neutr_SG-PAR_t      ;
 :%^CnsRM   Harm-Neutr_SG-ILL_he     ;
 +Err/Orth+Use/NG:%^CnsRM   SG-ILL_dE     ;
 +Err/Orth+Use/NG:%^CnsRM   Harm-Neutr_SG-PAR_t      ;
@@ -5311,17 +5311,17 @@ LEXICON NMN_43KANARIK-PL
 LEXICON NMN_43SASLWK1/SEKRETAER1-SG 
 :%^CC2C%^PAL        Harm-Neutr_SG-NOM  ;
 +Err/Orth-no-pal:%^CC2C        Harm-Neutr_SG-NOM  ;
-:%^WGStem%>i       SG-GEN_ZERO-STEM        ;
-:%^StrGSt%>i       Harm-Neutr_SG-ILL_ZERO        ;
-:%^StrGSt%>i       Harm-Neutr_SG-PAR_ZERO        ;
+:%^VOWLower%^WGStem%>i       SG-GEN_ZERO-STEM        ;
+:%^VOWRaise%^StrGSt%>i       Harm-Neutr_SG-ILL_ZERO        ;
+:%^VOWRaise%^StrGSt%>i       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_43SASLWK1/SEKRETAER1-PL 
-:%^WGStem%>i       Harm-Neutr_PL-NOM ;
-:%^StrGSt%>%{eõ%}    PL-GEN_ZERO ;
-:%^StrGSt%>%{eõ%}    PL-ILL_he ;
-:%^StrGSt%>%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
-:%^WGStem%>%{eõ%}    PL-ALL_lE-STEM ;
-:%^WGStem%>%{eõ%}       PL-COM ;
+:%^VOWLower%^WGStem%>i       Harm-Neutr_PL-NOM ;
+:%^VOWRaise%^StrGSt%>%{eõ%}    PL-GEN_ZERO ;
+:%^VOWRaise%^StrGSt%>%{eõ%}    PL-ILL_he ;
+:%^VOWRaise%^StrGSt%>%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
+:%^VOWLower%^WGStem%>%{eõ%}    PL-ALL_lE-STEM ;
+:%^VOWLower%^WGStem%>%{eõ%}       PL-COM ;
 
 !LEXICON NMN_43AASTAK
 !  NMN_43AASTAK-SG ;
