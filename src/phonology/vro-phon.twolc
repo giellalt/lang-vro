@@ -264,6 +264,9 @@ ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ
 %{vv́%}
 %{ff́%}
 %{tt́%}
+%{tt́d%}
+%{kḱg%}
+%{kḱØ%}
 %{mḿ%}
 ; 
 
@@ -548,8 +551,8 @@ Rules
 "Vx%{ou%}:Vyo"
 !! __@RULENAME@__
  Vx:Vy <=> 
- [ # Cns* | Cns ] _ Vx: [ ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns:] [ (HarmDummies:) %^VOWLower: | Vow: ArchCns: (HarmDummies:) %^Pen: %^VOWLower: ] ;
- [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns:] [ (HarmDummies:) %^VOWLower: | Vow: ArchCns: (HarmDummies:) %^Pen: %^VOWLower: ];
+ [ # Cns* | Cns ] _ Vx: [ Cns (Cns) | ArchCns: ( ArchCns: | Cns: ) | Cns ArchCns: ] [ (HarmDummies:) %^VOWLower: | [Vow: | ArchVow: ] ( ArchCns: ) (HarmDummies:) %^Pen: %^VOWLower: ] ;
+ [ # Cns* | Cns ] Vx: _ [ Cns (Cns) | ArchCns: ( ArchCns: | Cns: ) | Cns ArchCns: ] [ (HarmDummies:) %^VOWLower: | [ Vow: | ArchVow: ] ( ArchCns: ) (HarmDummies:) %^Pen: %^VOWLower: ];
  [ # Cns* | Cns ] Vx: _ (HarmDummies:) %^VOWLower: (%^WGStem:) [#|.#.|%>|%-] ;
 !  [ # Cns* | Cns ] _ Vx: ( ArchCns: | Cns | ArchCns: ArchCns: | Cns ArchCns:) Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^VOWLower: ;
 ! [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns | ArchCns: ArchCns: | Cns ArchCns:] Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^VOWLower: ;
@@ -559,17 +562,20 @@ Rules
 "Vx%{ou%}2Vyu̬"
 !! __@RULENAME@__
  Vx:Vy <=>
-  [ # Cns* | Cns ] _ Vx: ( ArchCns: | ArchCns:  ArchCns: | Cns (Cns) | Cns ArchCns:) ( Vow: ) (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] Vx: _ [ ArchCns: | ArchCns:  ArchCns: | Cns (Cns) | Cns ArchCns: ] ( Vow: ) (HarmDummies:) %^VOWRaise: ;
+  [ # Cns* | Cns ] _ Vx: ( ArchCns: | ArchCns:  ArchCns: | Cns (Cns) | Cns ArchCns:) ( Vow: | ArchVow: ) (HarmDummies:) %^VOWRaise: ;
+ [ # Cns* | Cns ] Vx: _ [ ArchCns: | ArchCns:  ArchCns: | Cns (Cns) | Cns ArchCns: ] ( Vow: | ArchVow: ) (HarmDummies:) %^VOWRaise: ;
  [ # Cns* | Cns ] Vx: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
 !! nuuĺ+N+Sg+Nom: __arrow__
 !!€ n%{ou%}%{ou%}l%^VOWRaise%^PAL
 !!€ nu̬u̬ĺ
-  [ # Cns* | Cns ] _ Vx: ( ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns:) Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^Pen: %^VOWRaise: ;
- [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns: ] Vow: ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^Pen: %^VOWRaise: ;
+  [ # Cns* | Cns ] _ Vx: ( ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns: ) [ Vow: | ArchVow: | ArchVow: ArchCns: ] ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^Pen: %^VOWRaise: ;
+ [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns: ] [ Vow: | ArchVow: | ArchVow: ArchCns: ] ( Cns:+ | %{sØ%}: | %{hØ%}: ) (HarmDummies:) %^Pen: %^VOWRaise: ;
      	  where Vx in (%{ou%} %{öü%} %{õy%} %{ei%} )
 	  	Vy in ( u̬ ü̬ õ̭ i̬ ) matched ;
-
+!!kiirdlemä+V:
+!!€ k%{ei%}%{ei%}r%{dØ%}%{eØ%}%{lĺ%}%{front%}%^Pen%^VOWRaise%^Pen%^VowRM%>%{eõ%}%>m%{aä%}
+!!€ ki̬i̬rd0l00000%>e%>mä
+!echo 'k {ei}:i {ei}:i r {dØ}:d {eØ}:0 {lĺ}:l {front}:0 ^Pen:0 ^VOWRaise:0 ^Pen:0 ^VowRM:0 > {eõ}:e > m {aä}:ä' | hfst-pair-test src/phonology/vro-phon.compose.hfst
 
 "i2e"
 !! __@RULENAME@__
@@ -708,7 +714,7 @@ Rules
 "Vx%{äe%}:0 Passive stem vowel"
 !! __@RULENAME@__
  Vx:0 <=>
-     _ (HarmDummies:) [(%^VOWRaise:|%^VOWLower:|(%^Pen: %^VOWLower:) %^Pen: %^WGStem:) %^VowRM:] ;
+     _ (HarmDummies:) [(%^VOWRaise:|%^Pen: %^VOWRaise: |%^Pen: %^VOWLower: |%^VOWLower:|(%^Pen: %^VOWLower:) %^Pen: %^WGStem:) %^VowRM:] ;
           where Vx in (%{aõ%} %{ae%} %{äe%} ) ;
 
 
@@ -756,11 +762,11 @@ Rules
 
 "%{eØ%}: 0"
 !! __@RULENAME@__
- %{eØ%}:0 <=> _ %{lĺ%}: (HarmDummies:) %^Pen: %^VowRM: ;
+ %{eØ%}:0 <=> _ %{lĺ%}: (HarmDummies:) ( %^Pen: %^VOWLower: | %^Pen: %^VOWRaise: ) %^Pen: %^VowRM: ;
 
 "%{õØ%}: 0"
 !! __@RULENAME@__
- %{õØ%}:0 <=> _ %{lĺ%}: (HarmDummies:) %^Pen: %^VowRM: ;
+ %{õØ%}:0 <=> _ %{lĺ%}: (HarmDummies:) ( %^Pen: %^VOWLower: | %^Pen: %^VOWRaise: ) %^Pen: %^VowRM: ;
 
 
 !! VOWEL LENGTHENING
