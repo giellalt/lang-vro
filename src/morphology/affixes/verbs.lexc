@@ -214,33 +214,33 @@ LEXICON V_52EHITELEMAE !!≈ * __@CODE@__ ehitelemä:ehitell
 :%{front%} V_52ALOSTWLWMA/EHITELEMAE ;
 
 LEXICON V_52ALOSTWLWMA/EHITELEMAE !!≈ * __@CODE@__ alostõllõma:alostõl
-:%{eõ%} ACT-IND-PRS-12 ;
-:%^WGStem%{eõ%} ACT-IND-PRS-12 ;
-:%{eõ%} ACT-IND-PRS-3_s/sEq ;
-:%^WGStem%{eõ%} ACT-IND-PRS-3_s/sEq ;
-:%^WGStem PSS-IND-PRS-ALL_dA ;
-+Act+Ind+Prt+Pl3:%^WGStem%>iq K ;
-+Act+Ind+Prt+Pl3:%^WGStem%>iv%{aä%}q K ;
+:%^Pen%^VOWRaise%{eõ%} ACT-IND-PRS-12 ;
+:%^Pen%^VOWLower%^WGStem%{eõ%} ACT-IND-PRS-12 ;
+:%^Pen%^VOWRaise%{eõ%} ACT-IND-PRS-3_s/sEq ;
+:%^Pen%^VOWLower%^WGStem%{eõ%} ACT-IND-PRS-3_s/sEq ;
+:%^Pen%^VOWLower%^WGStem PSS-IND-PRS-ALL_dA ;
++Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^WGStem%>iq K ;
++Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^WGStem%>iv%{aä%}q K ;
 
-:%^WGStem ACT-IND-PRT-12_i ;
- ACT-IND-PRT-12_i ;
-:%^WGStem%{eõ%} ACT-IND-CONNEG ;
-:%^WGStem ACT-IND-PRT-SG3_i ;
- ACT-IND-PRT-SG3_i ;
-:%>i ACT-IND-PRT-PL3_q/vAq ;
-:%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+:%^Pen%^VOWLower%^WGStem ACT-IND-PRT-12_i ;
+:%^Pen%^VOWRaise ACT-IND-PRT-12_i ;
+:%^Pen%^VOWLower%^WGStem%{eõ%} ACT-IND-CONNEG ;
+:%^Pen%^VOWLower%^WGStem ACT-IND-PRT-SG3_i ;
+:%^Pen%^VOWRaise ACT-IND-PRT-SG3_i ;
+:%^Pen%^VOWRaise%>i ACT-IND-PRT-PL3_q/vAq ;
+:%^Pen%^VOWLower%^WGStem Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 
-:%^WGStem%{eõ%} Harm-Neutr_INF_mA ;
-+Err/Orth+Use/NG:%{eõ%} Harm-Neutr_INF_mA ;
- Harm-Neutr_INF_Aq ;
-:%^WGStem%>%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
-:%>%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
-:%^WGStem Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
-:%^WGStem Harm-Neutr_V0-PSS-PRSPRC_tAv ;
+:%^Pen%^VOWLower%^WGStem%{eõ%} Harm-Neutr_INF_mA ;
++Err/Orth+Use/NG:%^Pen%^VOWRaise%{eõ%} Harm-Neutr_INF_mA ;
+:%^Pen%^VOWRaise Harm-Neutr_INF_Aq ;
+:%^Pen%^VOWLower%^WGStem%>%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
+:%^Pen%^VOWRaise%>%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
+:%^Pen%^VOWLower%^WGStem Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
+:%^Pen%^VOWLower%^WGStem Harm-Neutr_V0-PSS-PRSPRC_tAv ;
 
-:%^WGStem Harm-Neutr_JUUMA-PSS-PRFPRC_d ;
-:%^WGStem PSS-PRFPRC_dU-SG-NOM ;
-:%^WGStem MUTUAL_JUS ;
+:%^Pen%^VOWLower%^WGStem Harm-Neutr_JUUMA-PSS-PRFPRC_d ;
+:%^Pen%^VOWLower%^WGStem PSS-PRFPRC_dU-SG-NOM ;
+:%^Pen%^VOWLower%^WGStem MUTUAL_JUS ;
 
 
 LEXICON V_53KAEMA !!≈ * __@CODE@__ 
