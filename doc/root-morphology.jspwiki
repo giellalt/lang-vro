@@ -447,6 +447,10 @@ And following triggers to control variation
  __ %^XStrGStem __ This extra-strengthens "sõda" to "sõtta"
   __%^NoGrad__
  __ %^WGStem __ This weakens
+  %^G1	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
+  %^G2	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
+  %^G3	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
+  %^G4	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k
   %^Pen	       This moves us to penultimate coda
 
  %^PenWGStem  This weakens "kipõń" to "kibõna"

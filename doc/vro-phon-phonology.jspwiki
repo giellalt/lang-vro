@@ -70,10 +70,17 @@
   %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{t́d́%}:t́    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
+  %{pbØ%}:p   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pbØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
+
   %{pbv%}:b   — tõbi: tõvõ tõpõ tõppõ
   %{tdØ%}:d   — HJK and KimmoK ideas kana:ka%{nØ%}na
+
+  %{kgØ%}:k   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kgØ%}:g   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kgØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
+
   %{jiØ%}:i   — HJK and KimmoK ideas vari:var%{jiØ%}o
   %{qmn%}:q   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{qn%}:q    — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -160,6 +167,10 @@
  %^NoGrad:0     — This will be placed after a stem to break Gradation
  %^APOCH:0      — This causes apochope: puhksama vs puhastaq
  %^StrD2T:0     — This changes g,d,b => k,t,p
+ %^G1:0	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
+ %^G2:0	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
+ %^G3:0	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
+ %^G4:0	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k
  %^WGStem:0     — This weakens "kipõń" to "kibõna", "ompel" to "ommel"
  %^StrGStem:0   — This strengthens "perädü" to "perätüt"
  %^XStrGStem:0  — This extra-strengthens "sõda" to "sõtta"
@@ -640,6 +651,7 @@ __%{pØ%}:0__
 * __ta%{pØ%}p%{back%}%^CC2C%>m%{aä%} __
 * __ta0p00%>ma __
 
+
 * __ha%{mØ%}mõ%{hØ%}%^Pen%^WGStem __
 * __ha0mõ0%>h __
 
@@ -699,7 +711,13 @@ __p2b__
 
 __b20__
 
-__%{pbØ%}:0__
+__%{pbØ%}:b__
+
+
+__%{tdØ%}:d__
+
+
+__%{kgØ%}:g__
 
 __%{pbv%}:v__
 * __tõ%{Øp%}%{pbv%}%{back%}%^WGStem%>%{eõ%} __
@@ -820,20 +838,18 @@ __gTok__
 
 __bTop__
 
-__%{pbØ%}:p__
-
-
 __%{pbv%}:p__
 * __tõ%{Øp%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%} __
 * __tõpp00%>e __
 
 
+__%{pbØ%}:p__
+
+__%{tdØ%}:t__
+
 __%{kgØ%}:k__
 * __mä%{Øk%}%{kgØ%}%{front%}%^XStrGStem%>%{eõ%} __
 * __mäkk00%>e __
-
-
-__%{tdØ%}:t__
 
 !STEM-FINAL CONSONANT LOSS
 __s20__
@@ -883,6 +899,9 @@ argnõma+V+Inf
 
 * __palgõ%^WGStem%>h __
 * __pal0õ0%>h __
+
+__%{pbØ%}:0__
+
 
 __%{tdØ%}:0__
 * __hüdsi%^TS2S%^VowRM%>te __
