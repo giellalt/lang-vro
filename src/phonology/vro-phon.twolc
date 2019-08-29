@@ -78,10 +78,17 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
  %{td%}:t   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{t́d́%}:t́   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{kg%}:k   !!= @CODE@ — HJK and KimmoK ideas kaigas:kai%{kg%}as
+ %{pbØ%}:p  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{pbØ%}:b  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pbØ%}:0  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+
  %{pbv%}:b  !!= @CODE@ — tõbi: tõvõ tõpõ tõppõ
  %{tdØ%}:d  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+
+ %{kgØ%}:k  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{kgØ%}:g  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kgØ%}:0  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+
  %{jiØ%}:i  !!= @CODE@ — HJK and KimmoK ideas vari:var%{jiØ%}o
  %{qmn%}:q  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{qn%}:q   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -170,6 +177,10 @@ K1:k
 %^NoGrad:0    !!= @CODE@ — This will be placed after a stem to break Gradation
 %^APOCH:0     !!= @CODE@ — This causes apochope: puhksama vs puhastaq
 %^StrD2T:0    !!= @CODE@ — This changes g,d,b => k,t,p
+%^G1:0	      !!= @CODE@ — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
+%^G2:0	      !!= @CODE@ — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
+%^G3:0	      !!= @CODE@ — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
+%^G4:0	      !!= @CODE@ — This is used with %{pØ%} %{pbØ%} for p p, also t, k
 %^WGStem:0    !!= @CODE@ — This weakens "kipõń" to "kibõna", "ompel" to "ommel"
 %^StrGStem:0  !!= @CODE@ — This strengthens "perädü" to "perätüt"
 %^XStrGStem:0 !!= @CODE@ — This extra-strengthens "sõda" to "sõtta"
@@ -682,6 +693,7 @@ Rules
 !!€ terv0000%>i%>t
    OnSetC ü: _ (HarmDummies:) (%^VOWLower:) %> i ;
     _ (HarmDummies:) (%^Pen: %^VOWLower:) (%^Pen: %^WGStem:) %^VowRM: ;
+    _ (HarmDummies:) (%^Pen: %^VOWLower:) (%^Pen: %^G3:|%^Pen: %^G4:) %^VowRM: ;
 !! }}}
 
 "e:0"
@@ -1025,6 +1037,8 @@ k:0 <=>
 !! kõiḱ+Pron+Sg+Nom
 !!€ kõi%{kØ%}%{kḱg%}%^CC2C%^PAL
 !!€ kõi0ḱ00
+  _ %{kgØ%}: [Vow:|ArchVow:] (HarmDummies:) %^Pen: [ %^G1: | %^G2: | %^G3: ] ;
+  _ %{kg%}: (HarmDummies:) [ %^G2: | %^G3: ] ;
 
 "pToZero"
 !! __@RULENAME@__
@@ -1041,6 +1055,9 @@ k:0 <=>
   _ p [Vow:|ArchVow:] (HarmDummies:) %^Pen: [%^CC2C:0|%^WGStem:] ;
 !!€ ta%{pØ%}p%{back%}%^CC2C%>m%{aä%}
 !!€ ta0p00%>ma
+ _ %{pbØ%}: Vow: (HarmDummies:) %^Pen: [ %^G1: |%^G2: | %^G3: ] ;
+ _  %{pb%}: (HarmDummies:) [ %^G2: | %^G3: ] ;
+
 
 !!hamõh+N+Sg+Nom
 !!€ ha%{mØ%}mõ%{hØ%}%^Pen%^WGStem
@@ -1122,6 +1139,8 @@ k:0 <=>
 !! __@RULENAME@__
  %{tØ%}:0 <=> h _ [ [Vow:|ArchVow:] (Cns:* | ArchCns:* ) (HarmDummies:) (%^Pen: %^VOWLower:) %^Pen:| (HarmDummies:) (%^VOWLower:)] %^WGStem: ;
   _ t [(HarmDummies:)| [Vow:|ArchVow:] (ArchCns:*) (HarmDummies:) %^Pen:] %^WGStem: ;
+  _ %{tdØ%}: [Vow:|ArchVow:] (HarmDummies:) %^Pen: [ %^G1: | %^G2: | %^G3: ] ;
+  _ %{td%}: (HarmDummies:) [ %^G2: | %^G3: ] ;
 
 
 !! !CONSONANT QUALITY CHANGE
@@ -1143,10 +1162,23 @@ k:0 <=>
 !! __@RULENAME@__
  b:0 <=> Vow _ Vow  (HarmDummies:) [(%^Pen: %^VOWLower:) %^Pen: %^WGStem:|%^WGStem:] ;
 
-"%{pbØ%}:0"
+"%{pbØ%}:b"
 !! __@RULENAME@__
- %{pbØ%}:0 <=> Vow ( %{Øp%}: ) _ Vow  (HarmDummies:) [(%^Pen: %^VOWLower:) %^Pen: %^WGStem:|%^WGStem:] ;
-
+ %{pbØ%}:b <=>
+     %{pØ%}: _ Vow  (HarmDummies:) (%^Pen: %^VOWLower:) %^Pen: %^G2: ;
+ 
+ 
+"%{tdØ%}:d"
+!! __@RULENAME@__
+ %{tdØ%}:d <=>
+     %{tØ%}: _ Vow  (HarmDummies:) (%^Pen: %^VOWLower:) %^Pen: %^G2: ;
+ 
+ 
+"%{kgØ%}:g"
+!! __@RULENAME@__
+ %{kgØ%}:g <=>
+     %{kØ%}: _ Vow  (HarmDummies:) (%^Pen: %^VOWLower:) %^Pen: %^G2: ;
+ 
 "%{pbv%}:v"
 !! __@RULENAME@__
  %{pbv%}:v <=> 
@@ -1337,13 +1369,6 @@ k:0 <=>
     Vow _ Vow: (HarmDummies:) %^StrGStem: ;
 !FIX-ME 2019-05-8     Vow _ 0: Vow: (HarmDummies:) %^XStrGStem: ;
 
-"%{pbØ%}:p"
-!! __@RULENAME@__
- %{pbØ%}:p <=> 
-    Vow ( %{Øp%}: ) _ [Vow:|ArchVow:] (HarmDummies:) %^Pen: %^StrGStem: ;
-    Vow %{Øp%}: _ [Vow:|ArchVow:] (HarmDummies:) %^Pen: %^XStrGStem: ;
-
-
 "%{pbv%}:p"
 !! __@RULENAME@__
  %{pbv%}:p <=>
@@ -1352,6 +1377,20 @@ k:0 <=>
 !!€ tõ%{Øp%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%}
 !!€ tõpp00%>e
 
+
+"%{pbØ%}:p"
+!! __@RULENAME@__
+ %{pbØ%}:p <=> 
+    Vow ( %{Øp%}: ) _ [Vow:|ArchVow:] (HarmDummies:) %^Pen: %^StrGStem: ;
+    Vow %{Øp%}: _ [Vow:|ArchVow:] (HarmDummies:) %^Pen: %^XStrGStem: ;
+    %{pØ%}: _ [Vow:|ArchVow:] (HarmDummies:) %^Pen: [ %^G3: | %^G4: ] ; 
+
+"%{tdØ%}:t"
+!! __@RULENAME@__
+ %{tdØ%}:t <=>
+  Vow ( %{Øt%}: ) _ (s) [[Vow:|ArchVow:] (HarmDummies:) (%^VOWLower:) %^Pen:|(HarmDummies:) (%^VOWLower:)] %^StrGStem: ;
+    Vow %{Øt%}: _ [Vow:|ArchVow:] (HarmDummies:) %^Pen: %^XStrGStem: ;
+    %{tØ%}: _ [Vow:|ArchVow:] (HarmDummies:)  %^Pen: [%^G3: | %^G4: ];
 
 "%{kgØ%}:k"
 !! __@RULENAME@__
@@ -1362,13 +1401,7 @@ k:0 <=>
 !!mägi+N+Sg+Ill:
 !!€ mä%{Øk%}%{kgØ%}%{front%}%^XStrGStem%>%{eõ%}
 !!€ mäkk00%>e
-
-
-"%{tdØ%}:t"
-!! __@RULENAME@__
- %{tdØ%}:t <=>
-  Vow ( %{Øt%}: ) _ (s) [[Vow:|ArchVow:] (HarmDummies:) (%^VOWLower:) %^Pen:|(HarmDummies:) (%^VOWLower:)] %^StrGStem: ;
-    Vow %{Øt%}: _ [Vow:|ArchVow:] (HarmDummies:) %^Pen: %^XStrGStem: ;
+    %{kØ%}: _ [Vow:|ArchVow:] (HarmDummies:)  %^Pen: [%^G3: | %^G4: ];
 
 !! !STEM-FINAL CONSONANT LOSS
 "s20"
@@ -1439,6 +1472,12 @@ k:0 <=>
 !!€ palgõ%^WGStem%>h
 !!€ pal0õ0%>h
 
+"%{pbØ%}:0"
+!! __@RULENAME@__
+ %{pbØ%}:0 <=> Vow ( %{Øp%}: ) _ Vow  (HarmDummies:) [(%^Pen: %^VOWLower:) %^Pen: %^WGStem:|%^WGStem:] ;
+     %{pØ%}: _ Vow  (HarmDummies:) (%^Pen: %^VOWLower:) %^Pen: %^G1: ;
+ 
+
 "%{tdØ%}:0"
 !! __@RULENAME@__
  %{tdØ%}:0 <=>
@@ -1457,6 +1496,7 @@ k:0 <=>
 !!€ jõ%{Øk%}%{kgØ%}%{back%}%^WGStem%>%{eõ%}
 !!€ jõ0000%>õ
 
+   %{kØ%}: _ [Vow:|ArchVow:] (HarmDummies:) ((%^Pen:) %^VOWLower:) %^Pen: %^G1: ;
 
 !!€ u%{jØ%}jo%{back%}%^Pen%^WGStem%>m%{aä%}
 !!€ u0jo000%>ma
