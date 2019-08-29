@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hepeḿ: # Noun (25) hepeḿ 'eng /est /fin' - full paradigm
+     hepeḿ+N+Sg+Nom: hepeḿ
+     hepeḿ+N+Sg+Gen: hebeme
+     hepeḿ+N+Sg+Par: hebend
+     hepeḿ+N+Sg+Ill: hepemehe
+     hepeḿ+N+Sg+Ine: süämen
+     hepeḿ+N+Sg+Ela: süämest
+     hepeḿ+N+Sg+All: süämele
+     hepeḿ+N+Sg+Ade: süämel
+     hepeḿ+N+Sg+Abl: süämelt
+     hepeḿ+N+Sg+Tra: süämes
+     hepeḿ+N+Sg+Ter: süämeniq
+     hepeḿ+N+Sg+Abe: süämeldäq
+     hepeḿ+N+Sg+Com: süämegaq
+     hepeḿ+N+Pl+Nom: süämeq
+     hepeḿ+N+Pl+Gen: [süämide, süämiide]
+     hepeḿ+N+Pl+Par: [süämit, süämiid]
+     hepeḿ+N+Pl+Ill: [süämihe, süämiihe, süändehe, süämide, süämiide, süändede]
+     hepeḿ+N+Pl+Ine: süämin
+     hepeḿ+N+Pl+Ela: [süämist, süämiist, süändest]
+     hepeḿ+N+Pl+All: [süämile, süämiile, süändele]
+     hepeḿ+N+Pl+Ade: [süämil, süämiil, süändel]
+     hepeḿ+N+Pl+Abl: [süämilt, süämiilt, süändelt]
+     hepeḿ+N+Pl+Tra: [süämis, süämiis, süändes]
+     hepeḿ+N+Pl+Ter: [süäminiq, süämiiniq, süändeniq]
+     hepeḿ+N+Pl+Abe: [süämildäq, süämiildäq, süändeldäq]
+     hepeḿ+N+Pl+Com: [süämidegaq, süämiidegaq, süändegaq]
