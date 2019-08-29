@@ -3608,14 +3608,14 @@ LEXICON NMN_19ALOMANW/PEDAEJAENE  !!= @CODE@ alomanõ:aloma
         NMN_19ALOMANW/PEDAEJAENE-SG ;
         NMN_19ALOMANW/PEDAEJAENE-PL ;
 LEXICON NMN_19ALOMANW/PEDAEJAENE-SG
-:%>n%{eõ%} Harm-Neutr_SG-NOM ;
-+Use/NG:%>s Harm-Neutr_SG-NOM ;
-:%>ds%{eõ%}      SG-GEN_ZERO-STEM ;
+:n%{eõ%} Harm-Neutr_SG-NOM ;
++Use/NG:s Harm-Neutr_SG-NOM ;
+:ds%{eõ%}      SG-GEN_ZERO-STEM ;
 :s  Harm-Neutr_SG-PAR_t ;
 :s         Harm-Neutr_SG-ILL_tE ;
 
 LEXICON NMN_19ALOMANW/PEDAEJAENE-PL
-:%>ds%{eõ%}      Harm-Neutr_PL-NOM ;
+:ds%{eõ%}      Harm-Neutr_PL-NOM ;
 :idsi  PL-GEN_ZERO ;
 :idsi  Harm-Neutr_PL-PAR_ZERO ;
 :idsi  PL-ILL_he ;
@@ -5143,7 +5143,7 @@ LEXICON NMN_40UJA/XX-PL
 !!+Err/Orth+Use/NG:%^WGStem%>%{aä%}    PL-ALL_lE-STEM ; Is this needed for KAND?
 !+Err/Orth+Use/NG:a    PL-COM ;
 
-!LEXICON NMN_41JUHT1 !!= * @CODE@ juht́:juht
+!LEXICON NMN_41JUHT1 !!= * @CODE@ juht́:juh%{tt́Ø%}i
 !  NMN_41JUHT1-SG ;
 !  NMN_41JUHT1-PL ;
 
