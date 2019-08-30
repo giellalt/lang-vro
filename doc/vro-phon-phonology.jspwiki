@@ -70,11 +70,15 @@
   %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{t́d́%}:t́    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
+
   %{pbØ%}:p   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{pbØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
 
+  %{pbv%}:p   — tõbi: tõvõ tõpõ tõppõ
   %{pbv%}:b   — tõbi: tõvõ tõpõ tõppõ
+  %{pbv%}:v   — tõbi: tõvõ tõpõ tõppõ
+
   %{tdØ%}:d   — HJK and KimmoK ideas kana:ka%{nØ%}na
 
   %{kgØ%}:k   — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -719,9 +723,9 @@ __%{tdØ%}:d__
 
 __%{kgØ%}:g__
 
-__%{pbv%}:v__
-* __tõ%{Øp%}%{pbv%}%{back%}%^WGStem%>%{eõ%} __
-* __tõ0v00%>õ __
+__%{pbv%}:b__
+* __tõ%{pØ%}%{pbv%}%{back%}%^G2i __
+* __tõ0b00i __
 
 __b2v__
 * __leib%^ÄI2ÄÄ%^WGStem%>ä __
@@ -899,6 +903,11 @@ argnõma+V+Inf
 
 * __palgõ%^WGStem%>h __
 * __pal0õ0%>h __
+
+__%{pbv%}:v__
+* __tõ%{pØ%}%{pbv%}%{back%}%^G1%>%{eõ%} __
+* __tõ0v00%>õ __
+
 
 __%{pbØ%}:0__
 
