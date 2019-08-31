@@ -66,6 +66,8 @@
   %{dr%}:d    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
   %{bm%}:b    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
   %{pb%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pb%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
+
   %{tØ%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{t́d́%}:t́    — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -635,7 +637,6 @@ __%{kØ%}:0__
 * __puhkas%^WGStem%>taq __
 * __puh0as0%>taq __
 
-
 * __i%{kØ%}kõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%} __
 * __i0k00000%>ma __
 
@@ -646,6 +647,8 @@ kakma:
 kõiḱ+Pron+Sg+Nom
 * __kõi%{kØ%}%{kḱg%}%^CC2C%^PAL __
 * __kõi0ḱ00 __
+* __ri%{kØ%}ka%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^G1 __
+* __ri0kas00000 __
 
 __pToZero__
 * __tapp%{back%}%^CC2C%>m%{aä%} __
@@ -671,7 +674,21 @@ elläi+N+Sg+Gen
 * __ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^WGStem __
 * __ha0mõh%{back%}%^Pen%^WGStem __
 
-__StrongToWeak__
+__%{pb%}:p__
+* __li%{pb%}õ%^Pen%^G3 __
+* __lipõ __
+
+__%{td%}:t__
+
+__%{kg%}:k__
+* __rän%{kg%}%{back%}%^G3 __
+* __ränk00 __
+* __avali%{kg%}%{back%}%^G3 __
+* __avalik00 __
+
+__%{kg%}:g__
+* __hõl%{kg%}a%{sØ%}%{back%}%^Pen%^G2 __
+* __hõlgas000 __
 
 nõkõś+N+Sg+Ill
 * __nõ%{kg%}õ%{sś%}%^Pen%^WGStem%{XC%}%>õ%>he __
@@ -703,6 +720,8 @@ hüdsi+N+Sg+Par:
 
 
 __%{tØ%}:0__
+* __puh%{tØ%}a%{sØ%}%^Pen%^G1 __
+* __puh0as __
 
 
 !CONSONANT QUALITY CHANGE
@@ -741,7 +760,7 @@ __%{bm%}:m__
 * __hammas0000 __
 
 __%{bv%}:v__
-* __när%{bv%}ä%{sØ<%}%^Pen%^VOWLower%^Pen%^WGStem __
+* __när%{bv%}ä%{sØ%}%^Pen%^VOWLower%^Pen%^G1 __
 * __närväs0000 __
 
 
