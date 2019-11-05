@@ -644,9 +644,7 @@ less complex word classes
   %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{pbØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{pbv%}:p   — tõbi: tõvõ tõpõ tõppõ
-  %{pbv%}:b   — tõbi: tõvõ tõpõ tõppõ
-  %{pbv%}:v   — tõbi: tõvõ tõpõ tõppõ
+  %{pbv%}:p   %{pbv%}:b   %{pbv%}:v   — tõbi: tõvõ tõpõ tõppõ
 
   %{tdØ%}:d   — HJK and KimmoK ideas kana:ka%{nØ%}na
 
@@ -665,10 +663,10 @@ less complex word classes
   %{dd́Ø%}:d   
   %{gǵv%}:g   
   %{gǵØ%}:g   
-  %{kḱg%}:k   
+  %{kḱg%}:k    %{kḱg%}:ḱ    %{kḱg%}:g   
   %{kḱØ%}:k   
-  %{pṕb%}:p   
-  %{tt́d%}:t   
+  %{pṕb%}:p   %{pṕb%}:ṕ    %{pṕb%}:b   
+  %{tt́d%}:t    %{tt́d%}:t́    %{tt́d%}:d   
   %{tt́Ø%}:t    täh%{tt́Ø%}
   %{pṕØ%}:p   
 
@@ -882,6 +880,10 @@ __Delabializing o and ö__
 !PALATALIZATION
 __n2ń palatalization all__
 
+akaŕ+A+Sg+Nom
+* __a%{kg%}a%{rŕ%}%{back%}%^Pen%^G2%^PAL __
+* __akaŕ0000 __
+
 asi+N+Sg+Gen:
 * __a%{sś%}%{jiØ%}%^PAL%^VowRM%>%{aä%} __
 * __aś000%>a __
@@ -892,8 +894,6 @@ __{dd́n}:d́ palatalization for 3-way__
 andma+V+Act+Ind+Prs+Sg3
 * __an%{dd́n%}%{back%}%^PAL __
 * __and́00 __
-* __täh%{tt́Ø%} __
-* __täht́ __
 
 __{dd́n}:n weaken 3-way__
 
@@ -905,10 +905,29 @@ püüdmä+V+Act+Ind+Prs+Sg1
 * __pü%{üv%}%{dd́v%}%{front%}%^WGStem%>%{aä%} __
 * __püvv00%>ä __
 
-__{dd́n}:n weaken 3-way__
 
 
-__{dd́n}:n weaken 3-way__
+__%{pṕb%}:p__
+* __loro%{pṕb%}%{back%}%^G2%> __
+* __loroṕ00%> __
+
+__%{tt́d%}:t__
+
+__%{kḱg%}:k__
+* __pisla%{kḱg%}%{back%}%^G2%> __
+* __pislaḱ00%> __
+
+
+
+__%{pṕb%}:ṕ__
+* __loro%{pṕb%}%{back%}%^G2%^PAL __
+* __loroṕ000 __
+
+__%{tt́d%}:t́__
+
+__%{kḱg%}:ḱ__
+* __pisla%{kḱg%}%{back%}%^G2%^PAL __
+* __pislaḱ000 __
 
 kõiḱ+Pron+Sg+Nom
 * __kõi%{kØ%}%{kḱg%}%^CC2C%^PAL __
@@ -944,6 +963,9 @@ __õ2õ̭__
 __o2u̬__
 
 __Vx%{ou%}:Vyo__
+hoolas+A+Sg+Nom:
+* __h%{ou%}%{ou%}la%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^G1 __
+* __hoolas00000 __
 
 __Vx%{ou%}2Vyu̬__
 nuuĺ+N+Sg+Nom: __arrow__
@@ -1117,7 +1139,6 @@ vari+N+Sg+Gen: __shadow/varjo__
 * __vaŕ0o0000 __
 
 
-
 __u2v__
 * __juud%^WGStem%>a __
 * __juvv0%>a __
@@ -1143,8 +1164,21 @@ __%^I7:i__
 * __hä%^V70ö%^StrGStem __
 * __hävvü0 __
 
+CONSONANT
+__%{pṕØ%}:ṕ__
+* __pap%{pṕØ%}%{back%}%^G2%^PAL __
+* __papṕ000 __
+
+__%{tt́Ø%}:t́ __
+* __täh%{tt́Ø%} __
+* __täht́ __
+
+__%{kḱØ%}:ḱ__
+
 
 SECONDARY CONSONANT LENGTHENING
+
+
 
 __%{Øp%}:p__
 {{{
@@ -1193,6 +1227,10 @@ __kToZero__
 * __ikkõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%} __
 * __ik000000%>ma __
 
+__%{pṕØ%}:0__  
+
+__%{tt́Ø%}:0__  
+
 __%{kḱØ%}:0__  
 
 * __j{ou}{ou}s{kḱØ}{back}^VOWLower^WGStem>{eõ} __
@@ -1203,6 +1241,10 @@ __%{kḱØ%}:0__
 __%{kØ%}:0__  
 * __puhkas%^WGStem%>taq __
 * __puh0as0%>taq __
+nätsk+A+Sg+Gen
+* __nä%{td%}s%{kØ%}%{front%}%^G1%>%{aä%} __
+* __näds000%>ä __
+
 
 * __i%{kØ%}kõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%} __
 * __i0k00000%>ma __
@@ -1222,8 +1264,8 @@ __pToZero__
 * __tap000%>ma __
 
 __%{pØ%}:0__
-* __ta%{pØ%}p%{back%}%^CC2C%>m%{aä%} __
-* __ta0p00%>ma __
+* __tap%{pØ%}%{back%}%^CC2C%>m%{aä%} __
+* __tap000%>ma __
 
 
 * __ha%{mØ%}mõ%{hØ%}%^Pen%^WGStem __
@@ -1235,39 +1277,67 @@ kevväi+N+Sg+Gen: __spring__
 
 
 __XØToZero__
+agras+A+Sg+Gen
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^G2%^CnsRM __
+* __akra0000000 __
+* __ver%{rØ%}ev%{front%}%^Pen%^G1%>%{aä%} __
+* __ver0ev000%>ä __
+
 elläi+N+Sg+Gen
 * __e%{lØ%}lä%{ij%}%^Pen%^WGStem%^I2J%>ä __
 * __e0läj00%>ä __
 * __ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^WGStem __
 * __ha0mõh%{back%}%^Pen%^WGStem __
 
+__XØToSelf__
+villui+A+Sg+Nom
+* __vil%{lØ%}ui%{back%}%^Pen%^G2 __
+* __villui000 __
+
+__%{sØ%}:s__
+agras+A+Sg+Nom
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^G1 __
+* __agras00000 __
+
+
 __%{pb%}:p__
-* __li%{pb%}õ%^Pen%^G3 __
+* __li%{pb%}õ%^Pen%^G2 __
 * __lipõ __
 
 __%{td%}:t__
+nätsk+A+Sg+Nom
+* __nä%{td%}s%{kØ%}%{front%}%^G2 __
+* __nätsk00 __
 
 __%{kg%}:k__
+akaŕ+A+Sg+Nom
+* __a%{kg%}a%{rŕ%}%{back%}%^Pen%^G2%^PAL __
+* __akaŕ0000 __
 * __rän%{kg%}%{back%}%^G3 __
 * __ränk00 __
-* __avali%{kg%}%{back%}%^G3 __
-* __avalik00 __
+* __avali%{kØ%}%{kg%}%{back%}%^G2 __
+* __avali0k00 __
 
 __%{kg%}:g__
+agras+A+Sg+Nom:
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^G1 __
+* __agras00000 __
 * __hõl%{kg%}a%{sØ%}%{back%}%^Pen%^G2 __
 * __hõlgas000 __
+* __rän%{kg%}%{front%}%^G2%{aä%} __
+* __räng00ä __
 
 nõkõś+N+Sg+Ill
 * __nõ%{kg%}õ%{sś%}%^Pen%^WGStem%{XC%}%>õ%>he __
 * __nõgõs00s%>õ%>he __
 
-* __a%{kg%}ra%{sØ%}%^Pen%^WGStem __
-* __agras00 __
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^G1 __
+* __agras000 __
 
 
 __%{td%}:d__
 kaotama+V+Act+Ind+Prs+Sg1:
-* __kao%{td%}a%^Pen%^WGStem __
+* __kao%{td%}a%^Pen%^G1 __
 * __kaoda0 __
 
 __%{tt́d%}:d__
@@ -1293,7 +1363,17 @@ __%{tØ%}:0__
 
 !CONSONANT QUALITY CHANGE
 
+
+
+__%{pṕb%}:b__
+* __loro%{pṕb%}%^G2%>i __
+* __lorob0%>i __
+
 __%{pb%}:b__
+habras+A+Sg+Nom
+* __ha%{pb%}ra%{sØ%}%{back%}%^Pen%^G1 __
+* __habras000 __
+
 * __ki%{pb%}õ%{nń%}%{back%}%^Pen%^WGStem%>%{aä%} __
 * __kibõn000%>a __
 
@@ -1313,62 +1393,44 @@ __%{pbv%}:b__
 * __tõ%{pØ%}%{pbv%}%{back%}%^G2i __
 * __tõ0b00i __
 
-__b2v__
-* __leib%^ÄI2ÄÄ%^WGStem%>ä __
-* __leev0%>ä __
-
 
 hammas
-* __ham%{bm%}a%{sØ%}%^Pen%^WGStem __
+* __ham%{bm%}a%{sØ%}%^Pen%^G1 __
 * __hammas00 __
 
 __%{bm%}:m__
-* __ham%{bm%}a%{sØ%}%^Pen%^VOWLower%^Pen%^WGStem __
+* __ham%{bm%}a%{sØ%}%^Pen%^VOWLower%^Pen%^G2 __
 * __hammas0000 __
 
 __%{bv%}:v__
 * __när%{bv%}ä%{sØ%}%^Pen%^VOWLower%^Pen%^G1 __
 * __närväs0000 __
+* __lei%{bv%}%^ÄI2ÄÄ%^G1%>ä __
+* __leev0%>ä __
 
 
-__d2n__
 
 __%{dn%}:n__
 kannõĺ+N+Sg+Nom: __kantele__
-* __kan%{dn%}õ%{lĺ%}%^Pen%^WGStem%^PAL __
+* __kan%{dn%}õ%{lĺ%}%^Pen%^G1%^PAL __
 * __kannõĺ000 __
 
-__dTol__
-* __tul%>daq __
-* __tul%>laq __
-* __kõnõl%>daq __
-* __kõnõl%>daq __
-* __vald%{back%}%^WGStem%>n __
-* __vall00%>n __
 
 __%{dl%}:l__
-* __tul%>%{dl%}aq%^Pen%^WGStem __
+* __tul%>%{dl%}aq%^Pen%^G1 __
 * __tul%>laq00 __
-* __kõnõl%>%{dl%}aq%^Pen%^WGStem __
+* __kõnõl%>%{dl%}aq%^Pen%^G1 __
 * __kõnõl%>laq00 __
-* __val%{dl%}%{back%}%^WGStem%>n __
+* __val%{dl%}%{back%}%^G1%>n __
 * __vall00%>n __
 
 
-__d2v__
-* __püüd%^WGStem%>et __
-* __püvv0%>et __
-* __juud%^WGStem%>a __
-* __juvv0%>a __
-* __süüd%^WGStem%>ä __
-* __süvv0%>ä __
-
 __%{dv%}:v__
-* __pü%{üv%}%{dv%}%^WGStem%>et __
+* __pü%{üv%}%{dv%}%^G1%>et __
 * __püvv0%>et __
-* __ju%{uv%}%{dv%}%^WGStem%>a __
+* __ju%{uv%}%{dv%}%^G1%>a __
 * __juvv0%>a __
-* __sü%{üv%}%{dv%}%^WGStem%>ä __
+* __sü%{üv%}%{dv%}%^G1%>ä __
 * __süvv0%>ä __
 
 
@@ -1393,26 +1455,28 @@ kaotama+V+Act+Ind+Prs+Sg1:
 There should always be a trigger
 
 
-__nTod__
 
-* __kannõl%^Pen%^VowRM%>õ __
-* __kand0l0%>õ __
+__ %{dn%}:d__
+
+* __kan%{dn%}õl%{back%}%^Pen%^G2%^Pen%^VowRM%>õ __
+* __kand0l0000%>õ __
 
 
 __j2i__
 
 __{kḱg}:g __
+
 kõiḱ+Pron+Sg+Gen
-* __kõi%{kØ%}%{kḱg%}%{back%}%^WGStem%>%{eõ%} __
+* __kõi%{kØ%}%{kḱg%}%{back%}%^G1%>%{eõ%} __
 * __kõi0g00%>õ __
 
 
 __k2g__
-* __hõrak%^WGStem%>a __
+* __hõrak%^G1%>a __
 * __hõrag0%>a __
-* __*hõrak%^WGStem%>a __ (is not standard language)
-* __*hõraK0%>a __ (is not standard language)
-* __kisk%^WGStem%>%{uü%}%>t%{aä%}v __
+* __*hõrak%^G1%>a __ (is not standard language)
+* __*hõrak0%>a __ (is not standard language)
+* __kisk%^G1%>%{uü%}%>t%{aä%}v __
 * __kis0%>u%>tav __
 
 * __süküs%^Pen%^WGStem%>e __
@@ -1450,6 +1514,10 @@ usś+N+Sg+Par __door__
 * __vassi%{back%}%^CC2C%^I2%^PAL%>m%{aä%} __
 * __vaś00000%>ma __
 
+__%{bv%}:b__
+närväs+A+Sg+Gen:
+* __när%{bv%}ä%{sØ%}%^Pen%^VOWLower%^Pen%^G2%^CnsRM __
+* __närbä000000 __
 
 __d20__
 * __hüdsi%^TS2S%^VowRM%>te __
