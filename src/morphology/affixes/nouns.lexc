@@ -1730,7 +1730,7 @@ LEXICON N_43AASTAK-PL
 
 
 
-LEXICON N_44SWDA !!= @CODE@ sõda:sõda
+LEXICON N_44SWDA !!= @CODE@ sõda:sõ%{tØ%}%{tdØ%}a
 : ATTESTED-NOUN-STEM-CONTINUED ;
         N_44SWDA-SG ;
  N_44SWDA-PL ;
@@ -4669,27 +4669,56 @@ LEXICON NMN_35LUMI/NIMI-PL
 !:%^WGStemi  PL-ALL_lE-STEM ;
 !:%^StrGStemi PL-COM ;
 
-!LEXICON NMN_36HANG1/SAERG1  !!= * @CODE@ särǵ:särg
+!LEXICON NMN_36HANG1/SAERG1  !!= * @CODE@ särǵ:sär%{gǵØ%}
 !  NMN_36HANG1/SAERG1-SG ;
 !  NMN_36HANG1/SAERG1-PL ;
 LEXICON NMN_36HANG1/SAERG1-SG 
-:%^PAL        Harm-Neutr_SG-NOM  ;
-+Err/Orth-no-pal:   Harm-Neutr_SG-NOM  ;
+:%^G2%^PAL        Harm-Neutr_SG-NOM  ;
++Err/Orth-no-pal:%^G2   Harm-Neutr_SG-NOM  ;
  NMN_36HANG1/SAERG1-SG-OBL ;
 LEXICON NMN_36HANG1/SAERG1-SG-OBL
-:%^WGStem%>%{eõ%}       SG-GEN_ZERO-STEM        ;
-:%>%{eõ%}       Harm-Neutr_SG-ILL_ZERO        ;
-:%>%{eõ%}       Harm-Neutr_SG-PAR_ZERO        ;
+:%^G1%>%{eõ%}       SG-GEN_ZERO-STEM        ;
+:%^G2%>%{eõ%}       Harm-Neutr_SG-ILL_ZERO        ;
+:%^G2%>%{eõ%}       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_36HANG1/SAERG1-PL 
-:%^WGStem%>%{eõ%}       Harm-Neutr_PL-NOM ;
-:%^StrGStem%>i    PL-GEN_ZERO ;
-:%^StrGStem%>i    Harm-Neutr_PL-PAR_ZERO ;
-:%^StrGStem%>i    PL-ILL_he ;
-+Err/Orth+Use/NG:%^StrGStem%>i    Harm-Neutr_PL-ILL_ZERO ;
-+Err/Orth+Use/NG:%^StrGStem%>i    PL-ILL_dE ;
-:%^WGStem%>i  PL-ALL_lE-STEM ;
-:%^StrGStem%>i PL-COM ;
+:%^G1%>%{eõ%}       Harm-Neutr_PL-NOM ;
+:%^G2%>i    PL-GEN_ZERO ;
+:%^G2%>i    Harm-Neutr_PL-PAR_ZERO ;
+:%^G2%>i    PL-ILL_he ;
++Err/Orth+Use/NG:%^G2%>i    Harm-Neutr_PL-ILL_ZERO ;
++Err/Orth+Use/NG:%^G2%>i    PL-ILL_dE ;
+:%^G1%>i  PL-ALL_lE-STEM ;
+:%^G2%>i PL-COM ;
+
+! Test data:
+!!€gt-norm: särǵ
+!!€ särǵ: särǵ+N+Sg+Nom
+!!€ säre: särǵ+N+Sg+Gen
+!!€ särge: särǵ+N+Sg+Par
+!!€ särge: särǵ+N+Sg+Ill
+!!€ sären: särǵ+N+Sg+Ine
+!!€ särest: särǵ+N+Sg+Ela
+!!€ särele: särǵ+N+Sg+All
+!!€ särel: särǵ+N+Sg+Ade
+!!€ särelt: särǵ+N+Sg+Abl
+!!€ säres: särǵ+N+Sg+Tra
+!!€ säreniq: särǵ+N+Sg+Ter
+!!€ säreldäq: särǵ+N+Sg+Abe
+!!€ säregaq: särǵ+N+Sg+Com
+!!€ säreq: särǵ+N+Pl+Nom
+!!€ särgi: särǵ+N+Pl+Gen
+!!€ särgi: särǵ+N+Pl+Par
+!!€ särgihe: särǵ+N+Pl+Ill
+!!€ särin: särǵ+N+Pl+Ine
+!!€ särist: särǵ+N+Pl+Ela
+!!€ särile: särǵ+N+Pl+All
+!!€ säril: särǵ+N+Pl+Ade
+!!€ särilt: särǵ+N+Pl+Abl
+!!€ säris: särǵ+N+Pl+Tra
+!!€ säriniq: särǵ+N+Pl+Ter
+!!€ särildäq: särǵ+N+Pl+Abe
+!!€ särgigaq: särǵ+N+Pl+Com
 
 !LEXICON NMN_36TUUM1/XX1  !!= * @CODE@ särǵ:särg
 !  NMN_36TUUM1/XX1-SG ;
@@ -5220,19 +5249,49 @@ LEXICON NMN_40UJA/XX-PL
 !  NMN_41JUHT1-PL ;
 
 LEXICON NMN_41JUHT1-SG 
-:%^PAL        Harm-Neutr_SG-NOM  ;
-+Err/Orth-no-pal:        Harm-Neutr_SG-NOM  ; !!= * @CODE@ no final palatal
-:%^WGStem%>i       SG-GEN_ZERO-STEM        ;
-:i       Harm-Neutr_SG-ILL_ZERO        ;
-:i       Harm-Neutr_SG-PAR_ZERO        ;
+:%^G2%^PAL        Harm-Neutr_SG-NOM  ;
++Err/Orth-no-pal:%^G2        Harm-Neutr_SG-NOM  ; !!= * @CODE@ no final palatal
+:%^G1%>i       SG-GEN_ZERO-STEM        ;
+:%^G2%>i       Harm-Neutr_SG-ILL_ZERO        ;
+:%^G2%>i       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_41JUHT1-PL 
-:%^WGStem%>i       Harm-Neutr_PL-NOM ;
-:%^WGStem%>õ    PL-GEN_ZERO ;
-:õ    Harm-Neutr_PL-PAR_ZERO ;
-:õ    Harm-Neutr_PL-ILL_ZERO ;
-:õ    PL-ILL_hE ;
-:%^WGStem%>õ    PL-ALL_lE-STEM ;
+:%^G1%>i       Harm-Neutr_PL-NOM ;
+:%^G1%>õ    PL-GEN_ZERO ;
+:%^G2%>õ    Harm-Neutr_PL-PAR_ZERO ;
+:%^G2%>õ    Harm-Neutr_PL-ILL_ZERO ;
+:%^G2%>õ    PL-ILL_hE ;
+:%^G1%>õ    PL-ALL_lE-STEM ;
+
+! Test data:
+!!€gt-norm: juht́
+!!€ juht́: juht́+N+Sg+Nom
+!!€ juhi: juht́+N+Sg+Gen
+!!€ juhtõ: juht́+N+Sg+Par
+!!€ juhtõ: juht́+N+Sg+Ill
+!!€ juhin: juht́+N+Sg+Ine
+!!€ juhist: juht́+N+Sg+Ela
+!!€ juhilõ: juht́+N+Sg+All
+!!€ juhil: juht́+N+Sg+Ade
+!!€ juhilt: juht́+N+Sg+Abl
+!!€ juhis: juht́+N+Sg+Tra
+!!€ juhiniq: juht́+N+Sg+Ter
+!!€ juhildaq: juht́+N+Sg+Abe
+!!€ juhigaq: juht́+N+Sg+Com
+!!€ juhiq: juht́+N+Pl+Nom
+!!€ juhõ: juht́+N+Pl+Gen
+!!€ juhtõ: juht́+N+Pl+Par
+!!€ juhtõhõ: juht́+N+Pl+Ill
+!!€ juhõn: juht́+N+Pl+Ine
+!!€ juhõst: juht́+N+Pl+Ela
+!!€ juhõlõ: juht́+N+Pl+All
+!!€ juhõl: juht́+N+Pl+Ade
+!!€ juhõlt: juht́+N+Pl+Abl
+!!€ juhõs: juht́+N+Pl+Tra
+!!€ juhõniq: juht́+N+Pl+Ter
+!!€ juhõldaq: juht́+N+Pl+Abe
+!!€ juhõgaq: juht́+N+Pl+Com
+
 
 
 !LEXICON NMN_41AIG !!= @CODE@ aig:aigo, laul:laulu
@@ -5417,26 +5476,56 @@ LEXICON NMN_43AASTAK-PL
 
 
 
-LEXICON NMN_44SWDA !!= * @CODE@ sõda:sõda
+LEXICON NMN_44SWDA !!= * @CODE@ sõda:sõ%{tØ%}%{tdØ%}a
 !! gradation: yes
   NMN_44SWDA-SG ;
   NMN_44SWDA-PL ;
 LEXICON NMN_44SWDA-SG 
- Harm-Neutr_SG-NOM  ;
-:%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;
-:%^Pen%^StrGStem       Harm-Neutr_SG-ILL_ZERO        ;
-:%^Pen%^StrGStem       Harm-Neutr_SG-PAR_ZERO        ;
+:%^Pen%^G2 Harm-Neutr_SG-NOM  ;
+:%^Pen%^G1       SG-GEN_ZERO-STEM        ;
+:%^Pen%^G3       Harm-Neutr_SG-ILL_ZERO        ;
+:%^Pen%^G3       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_44SWDA-PL 
-:%^Pen%^WGStem       Harm-Neutr_PL-NOM ;
-:%^Pen%^StrGStem%^VowRM%>o    PL-GEN_ZERO ;
-:%^Pen%^StrGStem%^VowRM%>o    Harm-Neutr_PL-PAR_ZERO ;
-:%^Pen%^XStrGStem%^VowRM%>o    Harm-Neutr_PL-ILL_ZERO ;
-:%^Pen%^XStrGStem%^VowRM%>o    PL-ILL_he ;
-:%^Pen%^XStrGStem%^VowRM%>o    PL-ILL_dE ;
-:%^Pen%^StrGStem%^VowRM%>o  PL-ALL_lE-STEM ;
-:%^Pen%^WGStem%^VowRM%>o  PL-ALL_lE-STEM ;
-:%^Pen%^StrGStem%^VowRM%>o  PL-COM ;
+:%^Pen%^G1       Harm-Neutr_PL-NOM ;
+:%^Pen%^G3%^VowRM%>o    PL-GEN_ZERO ;
+:%^Pen%^G3%^VowRM%>o    Harm-Neutr_PL-PAR_ZERO ;
+:%^Pen%^G4%^VowRM%>o    Harm-Neutr_PL-ILL_ZERO ;
+:%^Pen%^G4%^VowRM%>o    PL-ILL_he ;
+:%^Pen%^G4%^VowRM%>o    PL-ILL_dE ;
+:%^Pen%^G3%^VowRM%>o  PL-ALL_lE-STEM ;
+:%^Pen%^G1%^VowRM%>o  PL-ALL_lE-STEM ;
+:%^Pen%^G3%^VowRM%>o  PL-COM ;
+
+! Test data:
+!!€gt-norm: sõda
+!!€ sõda: sõda+N+Sg+Nom
+!!€ sõa: sõda+N+Sg+Gen
+!!€ sõta: sõda+N+Sg+Par
+!!€ sõta: sõda+N+Sg+Ill
+!!€ sõan: sõda+N+Sg+Ine
+!!€ sõast: sõda+N+Sg+Ela
+!!€ sõalõ: sõda+N+Sg+All
+!!€ sõal: sõda+N+Sg+Ade
+!!€ sõalt: sõda+N+Sg+Abl
+!!€ sõas: sõda+N+Sg+Tra
+!!€ sõaniq: sõda+N+Sg+Ter
+!!€ sõaldaq: sõda+N+Sg+Abe
+!!€ sõagaq: sõda+N+Sg+Com
+!!€ sõaq: sõda+N+Pl+Nom
+!!€ sõto: sõda+N+Pl+Gen
+!!€ sõto: sõda+N+Pl+Par
+!!€ sõttohe: sõda+N+Pl+Ill
+!!€ sõton: sõda+N+Pl+Ine
+!!€ sõtost: sõda+N+Pl+Ela
+!!€ sõtolõ: sõda+N+Pl+All
+!!€ sõtol: sõda+N+Pl+Ade
+!!€ sõtolt: sõda+N+Pl+Abl
+!!€ sõtos: sõda+N+Pl+Tra
+!!€ sõtoniq: sõda+N+Pl+Ter
+!!€ sõtoldaq: sõda+N+Pl+Abe
+!!€ sõtogaq: sõda+N+Pl+Com
+
 
 LEXICON NMN_45KANA/RIHAE !!= * @CODE@ kana:ka%{nØ%}n%{ao%}
 !! * Yaml: __N-kana45__
