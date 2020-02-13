@@ -171,13 +171,16 @@
  %^NoGrad:0     — This will be placed after a stem to break Gradation
  %^APOCH:0      — This causes apochope: puhksama vs puhastaq
  %^StrD2T:0     — This changes g,d,b => k,t,p
+
  %^G1:0	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
  %^G2:0	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
  %^G3:0	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
  %^G4:0	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k
+
  %^WGStem:0     — This weakens "kipõń" to "kibõna", "ompel" to "ommel"
  %^StrGStem:0   — This strengthens "perädü" to "perätüt"
  %^XStrGStem:0  — This extra-strengthens "sõda" to "sõtta"
+
  %^Pen:0        — This moves us to penultimate coda
  %^PenWGStem:0  — This weakens "kipõń" to "kibõna"
  %^PenVowRM:0   — syncope tapõld : taplõma 
@@ -618,7 +621,6 @@ __%{kḱØ%}:ḱ__
 SECONDARY CONSONANT LENGTHENING
 
 
-
 __%{Øp%}:p__
 {{{
 * __hä%{Øp%}%{pbØ%}ü%^Pen%^XStrGStem __
@@ -680,13 +682,13 @@ __%{kḱØ%}:0__
 __%{sØ%}:0__  
 * __su%{sØ%}śo%^Pen%^G1 __
 * __su0śo00 __
-* __ham%{bm%}a%{sØ%}%^Pen%^VOWRaise%^Pen%^G2%^CnsRM __
+* __ham%{bm%}a%{sØ%}%^Pen%^VOWRaise%^Pen%^WGStem%^CnsRM __
 * __hamba000000 __
 
 
 __%{rØ%}:0__  
-* __su%{sØ%}śo%^Pen%^G1 __
-* __su0śo00 __
+* __a%{rØ%}ro%^Pen%^G2 __
+* __a0ro00 __
 
 
 
@@ -698,6 +700,12 @@ __%{nØ%}:0__
 
 
 __%{lØ%}:0__  
+* __ta%{lØ%}lo%^Pen%^G2 __
+* __ta0lo00 __
+
+
+
+__%{mØ%}:0__  
 * __su%{sØ%}śo%^Pen%^G1 __
 * __su0śo00 __
 
@@ -749,7 +757,7 @@ elläi+N+Sg+Gen
 
 __XØToSelf__
 villui+A+Sg+Nom
-* __vil%{lØ%}ui%{back%}%^Pen%^G2 __
+* __vi%{lØ%}lui%{back%}%^Pen%^G3 __
 * __villui000 __
 
 * __ha%{mØ%}mõ%{hØ%}%^Pen%^WGStem __
@@ -762,7 +770,7 @@ kevväi+N+Sg+Gen: __spring__
 
 __%{sØ%}:s__
 agras+A+Sg+Nom
-* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^G1 __
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem __
 * __agras00000 __
 
 
@@ -791,6 +799,9 @@ akaŕ+A+Sg+Nom
 * __avali0k00 __
 
 __%{kg%}:g__
+apteḱ+N+Sg+Gen:
+* __apte%{kØ%}%{kḱg%}%^VOWLower%^G1 __
+* __apte0g00%>i __
 agras+A+Sg+Nom:
 * __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^G1 __
 * __agras00000 __
@@ -809,7 +820,7 @@ nõkõś+N+Sg+Ill
 
 __%{td%}:d__
 kaotama+V+Act+Ind+Prs+Sg1:
-* __kao%{td%}a%^Pen%^G1 __
+* __kao%{td%}a%^Pen%^G2 __
 * __kaoda0 __
 
 __%{tt́d%}:d__
@@ -845,6 +856,7 @@ __%{pb%}:b__
 habras+A+Sg+Nom
 * __ha%{pb%}ra%{sØ%}%{back%}%^Pen%^G1 __
 * __habras000 __
+
 
 * __ki%{pb%}õ%{nń%}%{back%}%^Pen%^WGStem%>%{aä%} __
 * __kibõn000%>a __
