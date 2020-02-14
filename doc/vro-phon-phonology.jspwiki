@@ -760,8 +760,6 @@ villui+A+Sg+Nom
 * __vi%{lØ%}lui%{back%}%^Pen%^G3 __
 * __villui000 __
 
-* __ha%{mØ%}mõ%{hØ%}%^Pen%^WGStem __
-* __ha0mõ0%>h __
 
 kevväi+N+Sg+Gen: __spring__
 * __ke%{vØ%}vä%{ij%}%^Pen%^WGStem%>ä __
@@ -772,6 +770,10 @@ __%{sØ%}:s__
 agras+A+Sg+Nom
 * __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem __
 * __agras00000 __
+
+__%{hØ%}:h__
+* __ha%{mØ%}mõ%{hØ%}%^Pen%^WGStem __
+* __ha0mõ0%>h __
 
 
 __%{kØ%}:k__
@@ -1007,6 +1009,11 @@ närväs+A+Sg+Gen:
 * __när%{bv%}ä%{sØ%}%^Pen%^VOWLower%^Pen%^G2%^CnsRM __
 * __närbä000000 __
 
+__%{gØ%}:g__
+liig+A+Sg+Nom:
+* __lii%{gØ%}%{back%}%^StrGStem __
+* __liig00 __
+
 __d20__
 * __hüdsi%^TS2S%^VowRM%>te __
 * __hü0s000%>te __
@@ -1074,25 +1081,6 @@ __%{kgØ%}:0__
 
 
 
-__Disallow %^ErrorBack:0 in BHARM__
-{{{
-* __häbü%^StrGStem%^PLPRT __
-* __häpe00 __
-}}}
-
-__Disallow %^ErrorBack:0 in BHARM__
-{{{
-* __häbü%^StrGStem%^PLPRT __
-* __häpä00 __
-}}}
-
-__Disallow %^ErrorBack:0 in BHARM__
-* __laulu%^U2A __
-* __laulõ0 __
-
-__Disallow %^ErrorBack:0 in BHARM__
-* __aigo%^U2A __
-* __aiga0 __
 
 
 püüdmä+V+Act+Ind+Prs+Sg3
@@ -1100,23 +1088,13 @@ püüdmä+V+Act+Ind+Prs+Sg3
 * __püüd́00 __
 
 
-* __e%{lØ%}lä%{ij%}%^Pen%^WGStem%^I2J%>ä __
-* __e0läj00%>ä __
-
-* __võ%{lØ%}%{lĺ%}%{back%}%^CC2C%^I2%^PAL%>m%{aä%} __
-* __võ0ĺ0000%>ma __
-kullõma+V+Inf
-* __ku%{lØ%}l%{õØ%}%{lĺ%}%{back%}^Pen%^VowRM%>%{eõ%}%>ma __
-* __ku0l0l000%>õ%>ma __
-
-
 pereq
 * __pe%{rØ%}re%^WGStem%>h __
 * __pe0re0%>h __
+
 naŕma
 * __na%{rØ%}%{rŕ%}%{back%}%^CC2C%^PAL%>m%{aä%} __
 * __na0r000%>ma __
-
 
 
 !Other marks
