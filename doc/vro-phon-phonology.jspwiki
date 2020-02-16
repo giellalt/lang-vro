@@ -181,10 +181,14 @@
  %^StrGStem:0   — This strengthens "perädü" to "perätüt"
  %^XStrGStem:0  — This extra-strengthens "sõda" to "sõtta"
 
+
  %^Pen:0        — This moves us to penultimate coda
+ %^PAL:0	       — Palatalization
+ %^NoPAL:0	       — NoPalatalization
+
+
  %^PenWGStem:0  — This weakens "kipõń" to "kibõna"
  %^PenVowRM:0   — syncope tapõld : taplõma 
- %^PAL:0	       — Palatalization
  %^D2S:0        — The ti => si
  %^TS2S:0       — The -ts- => -s-
  %^I2J:0        — The i => j change
@@ -481,7 +485,7 @@ __ü:0__
 {{{
 * __tüü%^VowRM%>hüq __
 * __tü00%>hüq __
-* __tervüs%^VowRM%^CnsRM%>i%>t __
+* __tervüs%^VowRM%^WGStem%>i%>t __
 * __terv0000%>i%>t __
 }}}
 
@@ -547,8 +551,8 @@ __%{XV%}:ä__
 
 __%{XV%}:õ__
 kannõĺ+N+Sg+Gen: __kantele__
-* __kan%{dn%}õ%{lĺ%}%^Pen%^VowRM%>%{XV%} __
-* __kand0l00%>õ __
+* __kan%{dn%}õ%{lĺ%}%^Pen%^VowRM%^NoPAL%>%{XV%} __
+* __kand0l000%>õ __
 
 __%{XV%}:e__
 käskmä+V+Act+Ind+Prs+Neg __command/käskeä__
@@ -576,7 +580,7 @@ vari+N+Sg+Gen: __shadow/varjo__
 
 __%{jØ%}:0__
 vari+N+Sg+Gen: __shadow/varjo__
-* __va%{rŕ%}%{jiØ%}o%^Pen%^PAL%^Pen%^G1 __
+* __va%{rŕ%}%{jiØ%}o%^Pen%^PAL%^Pen%^WGStem __
 * __vaŕ0o0000 __
 
 
@@ -680,9 +684,9 @@ __%{kḱØ%}:0__
 * __*joosk000>õ __ (is not standard language)
 
 __%{sØ%}:0__  
-* __su%{sØ%}śo%^Pen%^G1 __
+* __su%{sØ%}śo%^Pen%^WGStem __
 * __su0śo00 __
-* __ham%{bm%}a%{sØ%}%^Pen%^VOWRaise%^Pen%^WGStem%^CnsRM __
+* __ham%{bm%}a%{sØ%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem __
 * __hamba000000 __
 
 
@@ -693,7 +697,7 @@ __%{rØ%}:0__
 
 
 __%{nØ%}:0__  
-* __su%{nØ%}ńo%^Pen%^G1 __
+* __su%{nØ%}ńo%^Pen%^WGStem __
 * __su0ńo00 __
 
 
@@ -706,7 +710,7 @@ __%{lØ%}:0__
 
 
 __%{mØ%}:0__  
-* __su%{sØ%}śo%^Pen%^G1 __
+* __su%{sØ%}śo%^Pen%^WGStem __
 * __su0śo00 __
 
 
@@ -730,8 +734,9 @@ kakma:
 kõiḱ+Pron+Sg+Nom
 * __kõi%{kØ%}%{kḱg%}%^CC2C%^PAL __
 * __kõi0ḱ00 __
-* __ri%{kØ%}ka%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^G1 __
+* __ri%{kØ%}ka%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem __
 * __ri0kas00000 __
+
 
 __pToZero__
 * __tapp%{back%}%^CC2C%>m%{aä%} __
@@ -745,9 +750,9 @@ __%{pØ%}:0__
 
 __XØToZero__
 agras+A+Sg+Gen
-* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^G2%^CnsRM __
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^G2%^WGStem __
 * __akra0000000 __
-* __ve%{rØ%}rev%{front%}%^Pen%^G1%>%{aä%} __
+* __ve%{rØ%}rev%{front%}%^Pen%^WGStem%>%{aä%} __
 * __ve0rev000%>ä __
 elläi+N+Sg+Gen
 * __e%{lØ%}lä%{ij%}%^Pen%^WGStem%^I2J%>ä __
@@ -767,9 +772,13 @@ kevväi+N+Sg+Gen: __spring__
 
 
 __%{sØ%}:s__
+ratas+N+Sg+Nom
+* __ra%{tØ%}ta%{sØ%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem __
+* __ra0tas00000 __
+
 agras+A+Sg+Nom
-* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem __
-* __agras00000 __
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem __
+* __agras000000 __
 
 __%{hØ%}:h__
 * __ha%{mØ%}mõ%{hØ%}%^Pen%^WGStem __
@@ -784,11 +793,20 @@ __%{pb%}:p__
 * __li%{pb%}õ%^Pen%^G2 __
 * __lipõ __
 
+__%{hØ%}:0__
+
+__%{t́d́%}:d́__
+
+__%{t́d́%}:t́__
+
 
 __%{td%}:t__
 nätsk+A+Sg+Nom
 * __nä%{td%}s%{kØ%}%{front%}%^G2 __
 * __nätsk00 __
+hõrts+N+Sg+Nom
+* __hõr%{td%}so%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM __
+* __hõrts000000 __
 
 __%{kg%}:k__
 akaŕ+A+Sg+Nom
@@ -805,7 +823,7 @@ apteḱ+N+Sg+Gen:
 * __apte%{kØ%}%{kḱg%}%^VOWLower%^G1 __
 * __apte0g00%>i __
 agras+A+Sg+Nom:
-* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^G1 __
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem __
 * __agras00000 __
 * __hõl%{kg%}a%{sØ%}%{back%}%^Pen%^G2 __
 * __hõlgas000 __
@@ -816,7 +834,7 @@ nõkõś+N+Sg+Ill
 * __nõ%{kg%}õ%{sś%}%^Pen%^WGStem%{XC%}%>õ%>he __
 * __nõgõs00s%>õ%>he __
 
-* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^G1 __
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^WGStem __
 * __agras000 __
 
 
@@ -842,8 +860,12 @@ hüdsi+N+Sg+Par:
 
 
 __%{tØ%}:0__
-* __puh%{tØ%}a%{sØ%}%^Pen%^G1 __
+* __puh%{tØ%}a%{sØ%}%^Pen%^WGStem __
 * __puh0as __
+ratas+N+Sg+Nom
+* __ra%{tØ%}ta%{sØ%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem __
+* __ra0tas0000 __
+
 
 
 !CONSONANT QUALITY CHANGE
@@ -856,7 +878,7 @@ __%{pṕb%}:b__
 
 __%{pb%}:b__
 habras+A+Sg+Nom
-* __ha%{pb%}ra%{sØ%}%{back%}%^Pen%^G1 __
+* __ha%{pb%}ra%{sØ%}%{back%}%^Pen%^WGStem __
 * __habras000 __
 
 
@@ -870,10 +892,24 @@ __b20__
 __%{pbØ%}:b__
 
 
+__%{dr%}:r__
+murrõq+N+Sg+Nom
+* __mur%{dr%}õ%{back%}%^Pen%^VOWLower%^Pen%^WGStem%>q __
+* __murrõ00000%>q __
+
+__%{dr%}:d__
+murrõq+N+Sg+Gen
+* __mur%{dr%}õ%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem __
+* __murdõ00000 __
+
+
 __%{tdØ%}:d__
 
 
 __%{kgØ%}:g__
+jõgi+N+Sg+Nom
+* __jõ%{kØ%}%{kgØ%}%{back%}%^G2%>i __
+* __jõ0g00%>i __
 
 __%{pbv%}:b__
 * __tõ%{pØ%}%{pbv%}%{back%}%^G2i __
@@ -881,19 +917,19 @@ __%{pbv%}:b__
 
 
 hammas
-* __ham%{bm%}a%{sØ%}%^Pen%^G1 __
+* __ham%{bm%}a%{sØ%}%^Pen%^WGStem __
 * __hammas00 __
 
 __%{bm%}:m__
-* __ham%{bm%}a%{sØ%}%^Pen%^VOWLower%^Pen%^G1 __
+* __ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem __
 * __hammas0000 __
 
 __%{bm%}:b__
-* __ham%{bm%}a%{sØ%}%^Pen%^VOWRaise%^Pen%^G2%^CnsRM __
+* __ham%{bm%}a%{sØ%}%^Pen%^VOWRaise%^Pen%^G2%^WGStem __
 * __hamba000000 __
 
 __%{bv%}:v__
-* __när%{bv%}ä%{sØ%}%^Pen%^VOWLower%^Pen%^G1 __
+* __när%{bv%}ä%{sØ%}%^Pen%^VOWLower%^Pen%^WGStem __
 * __närväs0000 __
 * __lei%{bv%}%^ÄI2ÄÄ%^G1%>ä __
 * __leev0%>ä __
@@ -902,14 +938,14 @@ __%{bv%}:v__
 
 __%{dn%}:n__
 kannõĺ+N+Sg+Nom: __kantele__
-* __kan%{dn%}õ%{lĺ%}%^Pen%^G1%^PAL __
+* __kan%{dn%}õ%{lĺ%}%^Pen%^WGStem%^PAL __
 * __kannõĺ000 __
 
 
 __%{dl%}:l__
-* __tul%>%{dl%}aq%^Pen%^G1 __
+* __tul%>%{dl%}aq%^Pen%^WGStem __
 * __tul%>laq00 __
-* __kõnõl%>%{dl%}aq%^Pen%^G1 __
+* __kõnõl%>%{dl%}aq%^Pen%^WGStem __
 * __kõnõl%>laq00 __
 * __val%{dl%}%{back%}%^G1%>n __
 * __vall00%>n __
@@ -1006,13 +1042,15 @@ usś+N+Sg+Par __door__
 
 __%{bv%}:b__
 närväs+A+Sg+Gen:
-* __när%{bv%}ä%{sØ%}%^Pen%^VOWLower%^Pen%^G2%^CnsRM __
+* __när%{bv%}ä%{sØ%}%^Pen%^VOWLower%^Pen%^G2%^WGStem __
 * __närbä000000 __
 
 __%{gØ%}:g__
 liig+A+Sg+Nom:
 * __lii%{gØ%}%{back%}%^StrGStem __
 * __liig00 __
+huug
+
 
 __d20__
 * __hüdsi%^TS2S%^VowRM%>te __
