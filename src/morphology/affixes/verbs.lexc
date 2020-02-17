@@ -6,7 +6,7 @@ LEXICON V_EI
 +V+Neg+Prs:i # ;
 +V+Neg+Prt:s # ;
 +V+Neg+Prt:siq # ;
-+Err/Orth-no-q+V+Neg+Prt:si # ;
++Use/NG+Err/Orth-no-q+V+Neg+Prt:si # ;
 
 LEXICON V_48KASUMA !kasuma:ka%{sØ%}s
 !! There are other verbs here, cf. V_ELAEMAE
@@ -2218,7 +2218,7 @@ LEXICON ACT-IND-PRS-SG2_t
 
 LEXICON ACT-IND-PRS-SG2_dEq
 +Act+Ind+Prs+Sg2:%>d%{eõ%}q K ;
-+Err/Orth-no-q+Act+Ind+Prs+Sg2:%>d%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prs+Sg2:%>d%{eõ%} K ;
 
 LEXICON ACT-IND-PRS-SG3_ZERO
 +Act+Ind+Prs+Sg3: K ;
@@ -2226,18 +2226,18 @@ LEXICON ACT-IND-PRS-SG3_ZERO
 
 LEXICON ACT-IND-PRS-PL1_miq
 +Act+Ind+Prs+Pl1:%>miq K ;
-+Err/Orth-no-q+Act+Ind+Prs+Pl1:%>mi K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl1:%>mi K ;
 
 LEXICON ACT-IND-PRS-PL2_tiq
 +Act+Ind+Prs+Pl2:%>tiq K ;
-+Err/Orth-no-q+Act+Ind+Prs+Pl2:%>ti K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl2:%>ti K ;
 
 !LEXICON ACT-IND-PRS-PL2_t
 !+Act+Ind+Prs+Pl2:%>t K ;
 
 LEXICON ACT-IND-PRS-PL2_dEq
 +Act+Ind+Prs+Pl2:%>d%{eõ%}q K ;
-+Err/Orth-no-q+Act+Ind+Prs+Pl2:%>d%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl2:%>d%{eõ%} K ;
 
 LEXICON ACT-IND-PRS-SG3_sE
 +Act+Ind+Prs+Sg3:%>s%{eõ%} K ;
@@ -2247,13 +2247,13 @@ LEXICON ACT-IND-PRS-SG3_sE
 
 LEXICON ACT-IND-PRS-PL3_vAq
 +Act+Ind+Prs+Pl3:%>v%{aä%}q K ;
-+Err/Orth-no-q+Act+Ind+Prs+Pl3:%>v%{aä%} K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl3:%>v%{aä%} K ;
 
 
 LEXICON ACT-IND-PRS-3_s/sEq
 +Act+Ind+Prs+Sg3:%>s K ;
 +Act+Ind+Prs+Pl3:%>s%{eõ%}q K ;
-+Err/Orth-no-q+Act+Ind+Prs+Pl3:%>s%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl3:%>s%{eõ%} K ;
 
 LEXICON ACT-IND-CONNEG
 +Act: IND-CONNEG ;
@@ -2286,13 +2286,13 @@ LEXICON COND-CONNEG
 LEXICON MUTUAL_JUS !!= * @CODE@ regardless of harmony this is back
 +Jus:%>guq%{back%} K ;
 +Jus+ConNeg:%>guq-ui%{back%} K ;
-+Err/Orth-no-q+Jus:%>gu%{back%} K ;
-+Err/Orth-no-q+Jus+ConNeg:%>gu-ui%{back%} K ;
++Use/NG+Err/Orth-no-q+Jus:%>gu%{back%} K ;
++Use/NG+Err/Orth-no-q+Jus+ConNeg:%>gu-ui%{back%} K ;
 LEXICON MUTUAL_JUS_kuq 
 +Jus:%>kuq%{back%} K ;
 +Jus+ConNeg:%>kuq-ui%{back%} K ;
-+Err/Orth-no-q+Jus:%>ku%{back%} K ;
-+Err/Orth-no-q+Jus+ConNeg:%>ku-ui%{back%} K ;
++Use/NG+Err/Orth-no-q+Jus:%>ku%{back%} K ;
++Use/NG+Err/Orth-no-q+Jus+ConNeg:%>ku-ui%{back%} K ;
 
 !! CHECK THIS
 !! !PASSIVE INDICATIVE PRESENT CONJUGATION
@@ -2301,32 +2301,32 @@ LEXICON PSS-IND-PRS-ALL_tA
 +Pss+Ind+Prs+Sg1:%>t%{aä%} K ;
 +Pss+Ind+Prs+Sg2:%>t%{aä%}t K ;
 +Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%}q K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;
 +Pss+Ind+Prs+Sg3:%>t%{aä%}s K ;
 +Pss+Ind+Prs+Pl1:%>t%{aä%}miq K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;
 +Pss+Ind+Prs+Pl2:%>t%{aä%}tiq K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;
 +Pss+Ind+Prs+Pl2:%>t%{aä%}d%{eõ%}q K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>t%{aä%}d%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>t%{aä%}d%{eõ%} K ;
 +Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%}q K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;
 :%>t%{aä%} PSS-IND-CONNEG ;
 
 LEXICON PSS-IND-PRS-ALL_dA
 +Pss+Ind+Prs+Sg1:%>d%{aä%} K ;
 +Pss+Ind+Prs+Sg2:%>d%{aä%}t K ;
 +Pss+Ind+Prs+Sg2:%>d%{aä%}d%{eõ%}q K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>d%{aä%}d%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>d%{aä%}d%{eõ%} K ;
 +Pss+Ind+Prs+Sg3:%>d%{aä%}s K ;
 +Pss+Ind+Prs+Pl1:%>d%{aä%}miq K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>d%{aä%}mi K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>d%{aä%}mi K ;
 +Pss+Ind+Prs+Pl2:%>d%{aä%}tiq K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>d%{aä%}ti K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>d%{aä%}ti K ;
 +Pss+Ind+Prs+Pl2:%>d%{aä%}d%{eõ%}q K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>d%{aä%}d%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>d%{aä%}d%{eõ%} K ;
 +Pss+Ind+Prs+Pl3:%>d%{aä%}s%{eõ%}q K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>d%{aä%}s%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>d%{aä%}s%{eõ%} K ;
 :%>d%{aä%} PSS-IND-CONNEG ;
 
 
@@ -2334,14 +2334,14 @@ LEXICON Harm-Neutr_VISKAMA_PSS-IND-PRS
 +Pss+Ind+Prs+Sg1:%>d%{aä%} K ;
 +Pss+Ind+Prs+Sg2:%>t%{aä%}t K ;
 +Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%}q K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;
 +Pss+Ind+Prs+Sg3:%>t%{aä%}s K ;
 +Pss+Ind+Prs+Pl1:%>t%{aä%}miq K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;
 +Pss+Ind+Prs+Pl2:%>t%{aä%}tiq K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;
 +Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%}q K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;
 :%>d%{aä%} PSS-IND-CONNEG ;
 
 
@@ -2351,11 +2351,11 @@ LEXICON Harm-Neutr_JUVVA_PSS-IND-PRS !!= * @CODE@ juvva süvvä
 +Err/Orth+Use/NG+Pss+Ind+Prs+Sg2:%>d%{eõ%}q K ;
 +Pss+Ind+Prs+Sg3:%>s K ;
 +Pss+Ind+Prs+Pl1:%>miq K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>mi K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>mi K ;
 +Pss+Ind+Prs+Pl2:%>tiq K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>ti K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>ti K ;
 +Pss+Ind+Prs+Pl3:%>s%{eõ%}q K ;
-+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>s%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>s%{eõ%} K ;
  PSS-IND-CONNEG ;
 
 
@@ -2365,9 +2365,9 @@ LEXICON Harm-Neutr_JUVVA_PSS-IND-PRT-1/2 !!= * @CODE@ juvvi süvvi
 +Err/Orth+Use/NG+Pss+Ind+Prt+Sg2:%>d%{eõ%}q K ;
 +Err/Orth+Use/NG+Pss+Ind+Prt+Sg2:%>q K ;
 +Pss+Ind+Prt+Pl1:%>miq K ;
-+Err/Orth-no-q+Pss+Ind+Prt+Pl1:%>mi K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl1:%>mi K ;
 +Pss+Ind+Prt+Pl2:%>tiq K ;
-+Err/Orth-no-q+Pss+Ind+Prt+Pl2:%>ti K ;
++Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl2:%>ti K ;
 !+Err/Orth+Use/NG+Pss+Ind+Prt+Pl2:%>d%{eõ%}q K ; These will be dealt with in cg
 
 
@@ -2386,25 +2386,25 @@ LEXICON ACT-IND-PRT-1/2_ZERO
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%>q K ;
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>miq K ;
-+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
 !+Err/Orth+Use/NG+Act+Ind+Prt+Pl1: K ; ! These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>tiq K ;
-+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
 
 LEXICON ACT-IND-PRT-SG1_ZERO/SG2_q/PL3_q
 +Act+Ind+Prt+Sg1: K ;
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%>q K ;
 +Act+Ind+Prt+Pl3:%>q K ; 
-+Err/Orth-no-q+Act+Ind+Prt+Pl3: K ; 
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl3: K ; 
 
 
 LEXICON Harm-Neutr_ACT-IND-PRT-SG2_USUALLY-STRONG
 +Act+Ind+Prt+Sg2:%>t K ;
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>miq K ;
-+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
 +Act+Ind+Prt+Pl2:%>tiq K ;
-+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
 +Err/Orth+Use/NG+Act+Ind+Prt+Pl3:%>v%{aä%}q K ;
 
 
@@ -2419,26 +2419,26 @@ LEXICON ACT-IND-PRT-SG2/PL1/PL2_i
 
 LEXICON ACT-IND-PRT-SG2_iq-USUALLY-WEAK
 +Act+Ind+Prt+Sg2:%>iq K ;
-+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>i K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>i K ;
 LEXICON ACT-IND-PRT-SG2/PL1/PL2_i-USUALLY-STRONG
 +Act+Ind+Prt+Sg2:%>it K ;
 +Act+Ind+Prt+Sg2:%>id%{eõ%}q K ;
-+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>id%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>id%{eõ%} K ;
 +Act+Ind+Prt+Pl1:%>imiq K ;
-+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>imi K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>imi K ;
 !+Act+Ind+Prt+Pl1:%>i K ; These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>itiq K ;
-+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>iti K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>iti K ;
 
 
 LEXICON ACT-IND-PRT-12_ZERO
 +Act+Ind+Prt+Sg1: K ;
 
 +Act+Ind+Prt+Sg2:%>q K ;
-+Err/Orth-no-q+Act+Ind+Prt+Sg2: K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2: K ;
 +Act+Ind+Prt+Sg2:%>t K ;
 +Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
-+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>d%{eõ%} K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>d%{eõ%} K ;
 +Act+Ind+Prt+Pl1:%>miq K ;
 +Act+Ind+Prt+Pl2:%>tiq K ;
 
