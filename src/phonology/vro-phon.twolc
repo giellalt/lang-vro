@@ -1011,7 +1011,7 @@ Rules
 "%{kḱØ%}:ḱ"
 !! __@RULENAME@__
 %{kḱØ%}:ḱ <=>
- [s|k] _ (HarmDummies:)  [%^G2:|%^StrGStem:] %^PAL: ;
+ [s|h|k] _ (HarmDummies:)  [%^G2:|%^StrGStem:] %^PAL: ;
 
 
 
@@ -1330,6 +1330,7 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
 !! __@RULENAME@__
  %{pb%}:p <=>
  Cns _ (HarmDummies:) VOWHite [ %^G3:|%^StrGStem:] ;
+  _ r (HarmDummies:) VOWHite [ %^G3:|%^StrGStem:] ;
  [Vow|Cns|ArchVow:] _ Vow: (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^G3:|%^StrGStem:] ;
 !!€ li%{pb%}õ%^Pen%^G2
 !!€ lipõ
@@ -1372,7 +1373,7 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
 "%{kg%}:k"
 !! __@RULENAME@__
  %{kg%}:k <=>
- Vow _ (HarmDummies:) VOWHite [ %^StrGStem:] ;
+ Vow _ (r) (HarmDummies:) VOWHite [ %^StrGStem:] ;
  Cns _ (HarmDummies:) VOWHite [ %^StrGStem:] ;
  Cns _ Vow: (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^G3:|%^StrGStem:] ;
  Vow _ (HarmDummies:) VOWHite [ %^StrGStem:] ;
