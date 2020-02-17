@@ -71,6 +71,7 @@ The parts of speech are further split up into:
 The Usage extents are marked using following tags:
  * __+Err/Orth__
  * __+Err/Orth-no-pal__ palatalization is missing
+ * __+Err/Orth-no-q	__ Q is missing
  * __+Use/-Spell__
  * __+Use/NG__ No generation
 
@@ -819,6 +820,8 @@ Onset consonant or word boundary
 
 
 
+
+
 Right context for gradation
 
 
@@ -1183,8 +1186,8 @@ __%{pṕØ%}:ṕ__
 * __papṕ000 __
 
 __%{tt́Ø%}:t́ __
-* __täh%{tt́Ø%} __
-* __täht́ __
+* __täh%{tt́Ø%}%{front%}%^StrGStem%^PAL __
+* __täht́000 __
 
 __%{kḱØ%}:ḱ__
 
@@ -1445,8 +1448,8 @@ __%{pṕb%}:b__
 
 __%{pb%}:b__
 habras+A+Sg+Nom
-* __ha%{pb%}ra%{sØ%}%{back%}%^Pen%^WGStem __
-* __habras000 __
+* __ha%{pb%}ra%{sØ%}%{back%}%^Pen%^WGStem%^StrGStem __
+* __habras0000 __
 
 
 * __ki%{pb%}õ%{nń%}%{back%}%^Pen%^WGStem%>%{aä%} __
