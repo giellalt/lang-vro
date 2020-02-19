@@ -5615,19 +5615,19 @@ LEXICON NMN_43SASLWK1/XX-PL
 
 LEXICON NMN_43APRIL1/SEKRETAER1-SG 
 
-:%^WGStem%^PAL        Harm-Neutr_SG-NOM  ;
-+Err/Orth-no-pal:%^WGStem%>        Harm-Neutr_SG-NOM  ;
-:%^VOWLower%^WGStem%>i       SG-GEN_ZERO-STEM        ;
-:%^VOWRaise%^StrGStem%>i       Harm-Neutr_SG-ILL_ZERO        ;
-:%^VOWRaise%^StrGStem%>i       Harm-Neutr_SG-PAR_ZERO        ;
+:%^VOWRaise%^WGStem%^PAL        Harm-Neutr_SG-NOM  ;
++Err/Orth-no-pal:%^WGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;
+:%^VOWLower%^WGStem%^NoPAL%>i       SG-GEN_ZERO-STEM        ;
+:%^VOWRaise%^StrGStem%^NoPAL%>i       Harm-Neutr_SG-ILL_ZERO        ;
+:%^VOWRaise%^StrGStem%^NoPAL%>i       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_43APRIL1/SEKRETAER1-PL 
-:%^VOWLower%^WGStem%>i       Harm-Neutr_PL-NOM ;
-:%^VOWRaise%^WGStem%>%{eõ%}    PL-GEN_ZERO ;
-:%^VOWRaise%^StrGStem%>%{eõ%}    PL-ILL_he ;
-:%^VOWRaise%^StrGStem%>%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
-:%^VOWLower%^WGStem%>%{eõ%}    PL-ALL_lE-STEM ;
-:%^VOWLower%^WGStem%>%{eõ%}       PL-COM ;
+:%^VOWLower%^WGStem%^NoPAL%>i       Harm-Neutr_PL-NOM ;
+:%^VOWRaise%^WGStem%^NoPAL%>%{eõ%}    PL-GEN_ZERO ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%}    PL-ILL_he ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
+:%^VOWLower%^WGStem%^NoPAL%>%{eõ%}    PL-ALL_lE-STEM ;
+:%^VOWLower%^WGStem%^NoPAL%>%{eõ%}       PL-COM ;
 
 ! for k,t,p 3,2,4
 ! for l,n,r 2,1,4
