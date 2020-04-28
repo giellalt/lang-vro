@@ -27,7 +27,7 @@ morf_codes="+N+Sg+Nom \
             +N+Pl+All"
 
 # Lexicon source file for lexicons and lemmas:
-source_file=src/morphology/stems/nouns_newwords.lexc
+source_file=src/fst/stems/nouns_newwords.lexc
 
 # Lexicons that should NOT be used to extract lemmas (egrep expression):
 exception_lexicons="(flagK)"
