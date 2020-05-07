@@ -2,9 +2,6 @@
 ## Copyright: Sámediggi/Divvun/UiT
 ## Licence: GPL v3+
 
-# The current dir must be built first.
-SUBDIRS = filters . fstbased
-
 #########################################
 # BEGIN: Local processing
 #
@@ -96,5 +93,3 @@ analyser-speller-gt-norm.foma: analyser-speller-gt-norm.tmp.foma \
 
 # END: Local processing
 #########################################
-
-include $(top_srcdir)/am-shared/tools-spellcheckers-dir-include.am
