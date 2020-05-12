@@ -587,6 +587,7 @@ less complex word classes
  {{{%{ˋØ%}:0 — U+02CB MODIFIER LETTER GRAVE ACCENT used in rules}}}
  __ˋ:0__ — U+02CB MODIFIER LETTER GRAVE ACCENT used outside of rules, this is temporary removal 2017-04-20
 
+
 !!Vowel harmony with "(t)a/ä"
 {{{
   %{aä%}:0    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
@@ -1440,6 +1441,9 @@ ratas+N+Sg+Nom
 * __ra%{tØ%}ta%{sØ%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem __
 * __ra0tas0000 __
 
+sõda+N+Sg+Gen:
+* __sõ%{tØ%}%{tdØ%}a%^Pen%^G1 __
+* __sõ00a00 __
 
 
 !CONSONANT QUALITY CHANGE
@@ -1607,6 +1611,10 @@ __%{kgØ%}:k__
 
 !STEM-FINAL CONSONANT LOSS
 __s20__
+kirotus+N+Pl+Gen:
+* __kirotus%^CnsRM%>isi __
+* __kirotu00%>isi __
+
 usś+N+Sg+Par __door__
 * __uss%^TS2S%>t __
 * __us00%>t __
