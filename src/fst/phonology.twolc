@@ -1489,8 +1489,11 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
 
 !  _ t [(HarmDummies:)| [Vow:|ArchVow:] (ArchCns:*) (HarmDummies:) %^Pen:] [%^WGStem: | %^G1: | %^G2: | %^G3:  ];
   _ %{tdØ%}: [Vow:|ArchVow:] (HarmDummies:) %^Pen: [ %^G1: | %^G2: | %^G3: ] ;
-  _ [%{td%}: | %{tt́d%}: ] (HarmDummies:) [ %^G2: | %^G3:| %^G4: ] ;
+!! sõda+N+Sg+Gen:
+!!€ sõ%{tØ%}%{tdØ%}a%^Pen%^G1
+!!€ sõ00a00
 
+_ [%{td%}: | %{tt́d%}: ] (HarmDummies:) [ %^G2: | %^G3:| %^G4: ] ;
 
 !! !CONSONANT QUALITY CHANGE
 
@@ -1778,7 +1781,12 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
 !! !STEM-FINAL CONSONANT LOSS
 "s20"
 !! __@RULENAME@__
- s:0 <=> [ u: | ü: | a: | ä: ] _ (HarmDummies:) (%^VowRM:)  %^WGStem:  ;
+ s:0 <=> [ u: | ü: | a: | ä: ] _ (HarmDummies:) (%^VowRM:)  %^CnsRM:  ;
+ ![ u: | ü: | a: | ä: ] _ (HarmDummies:) (%^VowRM:)  %^WGStem:  ;
+!! kirotus+N+Pl+Gen:
+!!€ kirotus%^CnsRM%>isi
+!!€ kirotu00%>isi
+
          s _ %^TS2S: ;
 !! usś+N+Sg+Par __door__
 !!€ uss%^TS2S%>t
@@ -1887,7 +1895,8 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
          Vow _ s [ [Vow:|ArchVow:] (HarmDummies:) PenVOWHite %^Pen:| (HarmDummies:) VOWHite] %^G1:  ;
 !!€ hüdsi%^TS2S%^VowRM%>te
 !!€ hü0s000%>te
-          Vow: _ [[Vow:|ArchVow:] (HarmDummies:) (PenVOWHite|VOWHite) %^Pen:|(HarmDummies:) VOWHite ] %^G1: ;
+          Vow:  _ [[Vow:|ArchVow:] (HarmDummies:) (PenVOWHite|VOWHite) %^Pen:|(HarmDummies:) VOWHite ] %^G1: ;
+          Vow: %{tØ%}:  _ [[Vow:|ArchVow:] (HarmDummies:) (PenVOWHite|VOWHite) %^Pen:|(HarmDummies:) VOWHite ] %^G1: ;
 
 
 "%{kgØ%}:0"
