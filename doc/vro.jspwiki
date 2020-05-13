@@ -567,6 +567,7 @@ less complex word classes
 
 
 
+
 !!!The Võro morphophonological/twolc rules file 
 
 
@@ -628,7 +629,7 @@ less complex word classes
   %{sØ%}:s    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
   %{vØ%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{Øp%}:0    — häbü:häbü+N:hä%{Øp%}%{pbØ%}ü
+  %{pØ%}:0    — häbü:häbü+N:hä%{pØ%}%{pbØ%}ü
   %{Øt%}:0    — koda:ko%{Øt%}%{tdØ%}a
   %{Øk%}:0    — nägo:nä%{Øk%}%{kgØ%}o
 
@@ -1031,6 +1032,9 @@ __a:0__
 * __sõim0s0%>si __
 * __puhkas%^Pen%^VowRM%>a%>ma __
 * __puhk0s00%>a%>ma __
+sõda+N+Pl+Par:
+* __sõ%{tØ%}%{tdØ%}a%^Pen%^G3%^VowRM%>o __
+* __sõ0t0000%>o __
 
 __ä:0__
 * __jää%^VOWRaise%^VowRM%>i __
@@ -1198,11 +1202,11 @@ __%{kḱØ%}:ḱ__
 SECONDARY CONSONANT LENGTHENING
 
 
-__%{Øp%}:p__
+__%{pØ%}:p__
 {{{
-* __hä%{Øp%}%{pbØ%}ü%^Pen%^XStrGStem __
+* __hä%{pØ%}%{pbØ%}ü%^Pen%^XStrGStem __
 * __häppü00 __
-* __tõ%{Øp%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%} __
+* __tõ%{pØ%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%} __
 * __tõpp00%>õ __
 }}}
 
@@ -1311,6 +1315,9 @@ kõiḱ+Pron+Sg+Nom
 * __kõi0ḱ00 __
 * __ri%{kØ%}ka%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem __
 * __ri0kas00000 __
+jõgi+N+Sg+Gen: __river/joki__
+* __jõ%{kØ%}%{kgØ%}%{back%}%^G1%>%{eõ%} __
+* __jõ0000%>õ __
 
 
 __pToZero__
@@ -1359,6 +1366,10 @@ __%{hØ%}:h__
 * __ha%{mØ%}mõ%{hØ%}%^Pen%^WGStem __
 * __ha0mõ0%>h __
 
+__%{tØ%}:t__
+sõda+N+Sg+Ill:
+* __sõ%{tØ%}%{tdØ%}a%^Pen%^G3 __
+* __sõtta00 __
 
 __%{kØ%}:k__
 * __as%{kØ%}o%^Pen%^G2 __
@@ -1597,7 +1608,7 @@ __gTok__
 __bTop__
 
 __%{pbv%}:p__
-* __tõ%{Øp%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%} __
+* __tõ%{pØ%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%} __
 * __tõpp00%>e __
 
 
@@ -1606,7 +1617,7 @@ __%{pbØ%}:p__
 __%{tdØ%}:t__
 
 __%{kgØ%}:k__
-* __mä%{Øk%}%{kgØ%}%{front%}%^XStrGStem%>%{eõ%} __
+* __mä%{kØ%}%{kgØ%}%{front%}%^G4%>%{eõ%} __
 * __mäkk00%>e __
 
 !STEM-FINAL CONSONANT LOSS
@@ -1687,8 +1698,8 @@ __%{tdØ%}:0__
 
 
 __%{kgØ%}:0__
-* __jõ%{Øk%}%{kgØ%}%{back%}%^WGStem%>%{eõ%} __
-* __jõ0000%>õ __
+* __mä%{kØ%}%{kgØ%}%{front%}%^G1%>%{eõ%} __
+* __mä0000%>e __
 
 
 * __u%{jØ%}jo%{back%}%^Pen%^WGStem%>m%{aä%} __

@@ -309,6 +309,16 @@ võtsi+N:võ̭tsi N_1HANS1A "_#, #t__võ̭tsi_" ;
 äidi+N:äidi N_1HERRAE "_#, #t__äidi_" ;
 äio+N:äio N_1HANS1A "_#, #t__äio_" ;
 ääde+N:ääde N_1HERRAE "_#, #t__ääde_" ;
+ansambli+N:ansambli N_1HANS1A ;
+folkansambli+N:folk#ansambli N_1HANS1A ;
+rokkansambli+N:rokk#ansambli N_1HANS1A ;
+rahvamuusigaansambli+N:rahva#muusiga#ansambli N_1HANS1A ;
+poppansambli+N:popp#ansambli N_1HANS1A ;
+metalansambli+N:metal#ansambli N_1HANS1A ;
+perreansambli+N:perre#ansambli N_1HANS1A ;
+lemmikansambli+N:lemmik#ansambli N_1HANS1A ;
+lauluansambli+N:laulu#ansambli N_1HANS1A ;
+jats-ansambli+N:jats-#ansambli N_1HANS1A ;
 
 !2
 !(VES 1) ˋsuhvli1
@@ -1640,7 +1650,6 @@ kemmerg+N:kemmergu N_8SADANG "_#u, #ut_" ;
 kisseĺ+N:kisse%{lĺ%} N_8EEDER1 "_#i, #it_" ;
 kontoŕ+N:konto%{rŕ%} N_8DOLLAR1 "_#i, #it_" ;
 aadoḿ+N:aado%{mḿ%} N_8DOLLAR1 "_#i, #it__aadoḿ_" ;
-!aastak+N:aastak NMN_8 "_#ga, #kka #gat__ˋaasta|k_" ;
 !aastagatuhat+N:aastagatuhat NMN_8 "_#ndõ, #ndõt__ˋaastagatuha|t_" ;
 ahnus+N:ahnus N_17ALGUS "_#, #t__ˋahnu|s_" ;
 ahopaistus+N:aho%{ˋØ%}paistus N_17ALGUS "_#, #t__aho%{ˋØ%}paistu|s_" ;
@@ -2582,6 +2591,9 @@ värräi+N:vä%{rØ%}rä%{ij%} N_9ELLAEI "_#äjä, #äjät__vär|räi_" ;
 !! N_10HWRAK in -ga ~ -gu
 !! N_10HEERITS in -dsä
 
+elänik+N:eläni%{kg%} N_10ESAEK ;
+pässik+N:pässi%{kg%} N_10ESAEK ;
+alõvik+N:alõvi%{kg%} N_10HAIDAK ;
 sitik+N:siti%{kg%} N_10AABITS ;
 kohvik+N:kohvi%{kg%} N_10HAIDAK "_#gu, #kut__ahni|k_" ;
 linnuḱ+N:linnu%{kḱg%} N_10AMMAT1 "_#gi, #kit_" ;
@@ -4068,6 +4080,57 @@ võius+N:võius N_15KOTUS "_#(s)õ, #t__võius_" ;
 
 !16 
 !(VES 5) 
+rahvalugõminõ+N:rahvalugõmi N_16ABILINW ;
+iistvõtminõ+N:iistvõtmi N_16ABILINW ;
+kaitsminõ+N:kaitsmi N_16ABILINW ;
+sadaminõ+N:sadami N_16ABILINW ;
+maitsminõ+N:maitsmi N_16ABILINW ;
+kokkolugõminõ+N:kokkolugõmi N_16ABILINW ;
+oppaminõ+N:oppami N_16ABILINW ;
+kuulminõ+N:kuulmi N_16ABILINW ;
+kauplõminõ+N:kauplõmi N_16ABILINW ;
+jagaminõ+N:jagami N_16ABILINW ;
+tuutminõ+N:tuutmi N_16ABILINW ;
+muutminõ+N:muutmi N_16ABILINW ;
+ettetulõminõ+N:ettetulõmi N_16ABILINW ;
+sõitminõ+N:sõitmi N_16ABILINW ;
+lugõminõ+N:lugõmi N_16ABILINW ;
+laskminõ+N:laskmi N_16ABILINW ;
+ülesvõtminõ+N:ülesvõtmi N_16ABILINW ;
+ärqviskaminõ+N:ärqviskami N_16ABILINW ;
+võtminõ+N:võtmi N_16ABILINW ;
+vallutaminõ+N:vallutami N_16ABILINW ;
+saatminõ+N:saatmi N_16ABILINW ;
+tapminõ+N:tapmi N_16ABILINW ;
+piiraminõ+N:piirami N_16ABILINW ;
+mõõtminõ+N:mõõtmi N_16ABILINW ;
+mõskminõ+N:mõskmi N_16ABILINW ;
+muusigakirotaminõ+N:muusigakirotami N_16ABILINW ;
+
+vidämine+N:vidämi N_16INEMINE ;
+siginemine+N:siginemi N_16INEMINE ;
+pidämine+N:pidämi N_16INEMINE ;
+näärmine+N:näärmi N_16INEMINE ;
+tagasitegemine+N:tagasitegemi N_16INEMINE ;
+sõapidämine+N:sõapidämi N_16INEMINE ;
+siidmine+N:siidmi N_16INEMINE ;
+liikmine+N:liikmi N_16INEMINE ;
+kolonisiirmine+N:kolonisiirmi N_16INEMINE ;
+ülespidämine+N:ülespidämi N_16INEMINE ;
+üleminemine+N:üleminemi N_16INEMINE ;
+viimine+N:viimi N_16INEMINE ;
+sülenäärmine+N:sülenäärmi N_16INEMINE ;
+püürdlemine+N:püürdlemi N_16INEMINE ;
+modernisiirmine+N:modernisiirmi N_16INEMINE ;
+läbitegemine+N:läbitegemi N_16INEMINE ;
+levimine+N:levimi N_16INEMINE ;
+kiskmine+N:kiskmi N_16INEMINE ;
+häömine+N:häömi N_16INEMINE ;
+vehklemine+N:vehklemi N_16INEMINE ;
+vaktsiniirmine+N:vaktsiniirmi N_16INEMINE ;
+ütessaamine+N:ütessaami N_16INEMINE ;
+üttepandminõ+N:üttepandmi N_16ABILINW ;
+ümbrekõrraldaminõ+N:ümbrekõrraldami N_16ABILINW ;
 
 abilinõ+N:abili N_16ABILINW ;
 alalhoitminõ+N:alal#hoitmi N_16ABILINW ;
@@ -7188,6 +7251,7 @@ kunds+N:kunds N_38PUNG "_kundsa, %{ˋØ%}kundsa__kunds_" ;
 kuningkund+N:kuningkun%{dn%} N_38KULD "_#kunna, #%{ˋØ%}kunda __kuning|kund_" ;
 kuningapoig+N:kuninga#p N_38POIG "_#puja #poja, #%{ˋØ%}poiga, pujõlõ %{ˋØ%}poelõ__kuninga|poig_" ;
 kuningariiḱ+N:kuningarii%{kḱg%} N_38REHK1 "_#riigi, #%{ˋØ%}riiki__kuninga|riiḱ_" ;
+keskriiḱ+N:kesk#rii%{kḱg%} N_38REHK1 ;
 khaaniriiḱ+N:khaani#rii%{kḱg%} N_38REHK1 ;
 liikmõsriiḱ+N:liikmõs#rii%{kḱg%} N_38REHK1 ;
 islamivabariiḱ+N:islamivaba#rii%{kḱg%} N_38REHK1 ;
@@ -9040,6 +9104,7 @@ kihlkunnakohtunik+N:kihlkunnakohtuni%{kØ%}%{kg%} N_43KANARIK ;
 saslõḱ+N:saslõ%{kØ%}%{kḱg%} N_43SASLWK1 "_#gi, #kki_" ;
 skorpioń+N:skorpio%{nØ%}%{nń%} N_43APRIL1 "_#gi, #kki_" ;
 sampinjoń+N:sampinjo%{nØ%}%{nń%} N_43APRIL1 "_#i, #ni_"	   ;
+aastak+N:aasta%{kg%} N_8AASTAK "_#ga, #kka #gat__ˋaasta|k_" ;
 aastak+N:aastak N_43AASTAK "_#ga, #kka__ˋaasta|k_" ;
 aestak+N:aestak N_43AASTAK "_#ga, #kka__ˋaesta|k_" ;
 ahinik+N:ahini%{kØ%}%{kg%} N_43KANARIK "_#gu, #kku__ahini|k_" ;
@@ -9309,7 +9374,8 @@ võrõstik+N:võrõsti%{kØ%}%{kg%} N_43KANARIK "_#gu, #kku__võrõsti|k_" ;
 !44 
 !(VES 29) sõda
 
-aastagasada+N:aastagasa%{tØ%}%{tdØ%}a N_44SWDA "_#saa, #sata __ˋaastaga|sada_" ;
+aastagasada+v1+N:aastaga#sa%{tØ%}%{tdØ%}a N_44SWDA "_#saa, #sata __ˋaastaga|sada_" ;
+aastagasada+v2+N:aasta#sa%{tØ%}%{tdØ%}a N_44SWDA "_#saa, #sata __ˋaasta|sada_" ;
 ilmasõda+N:ilmasõ%{tØ%}%{tdØ%}a N_44SWDA "_#sõ̭a, #sõta__ilma|sõda_" ;
 jalgrada+N:jalgra%{tØ%}%{tdØ%}a N_44SWDA "_#a, #ta__jalgra|da_" ;
 mõtsatsiga+N:mõtsatsi%{kØ%}%{kgØ%}a N_44SWDA "_#a, #ka__mõtsatsi|ga_" ;
