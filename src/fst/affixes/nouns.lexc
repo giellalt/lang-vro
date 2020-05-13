@@ -173,6 +173,14 @@ LEXICON N_8KASK-SG
 LEXICON N_8KASK-PL
 :%{back%} NMN_8KASK/HAEIELM-PL ;
 
+LEXICON N_8AASTAK
+ N_8AASTAK-SG ;
+ N_8AASTAK-PL ;
+LEXICON N_8AASTAK-SG
+:%{back%} NMN_8AASTAK-SG ;
+LEXICON N_8AASTAK-PL
+:%{back%} NMN_8AASTAK-PL ;
+
 LEXICON N_8SADANG
 :%^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
  N_8SADANG-SG ;
@@ -2337,6 +2345,53 @@ LEXICON NMN_8DOLLAR1/EEDER1-PL
 +Err/Orth+Use/NG:%>ii        PL-ILL_he       ;
 +Err/Orth+Use/NG:%>ii      PL-PAR_d        ;
 +Err/Orth+Use/NG:%>iid%{eõ%}      PL-COM        ;
+
+!LEXICON NMN_8AASTAK !!= * @OCDE@ aastak:aasta%{kg%}
+!!€gt-norm:  Noun 10 aastak 
+!!€  aastak: aastak+N+Sg+Nom
+!!€  aastaga: aastak+N+Sg+Gen
+!!€  aastakat: aastak+N+Sg+Par
+!!€  aastakahe: aastak+N+Sg+Ill
+!!€  aastakan: aastak+N+Sg+Ine
+!!€  aastakast: aastak+N+Sg+Ela
+!!€  aastakalõ: aastak+N+Sg+All
+!!€  aastakal: aastak+N+Sg+Ade
+!!€  aastakalt: aastak+N+Sg+Abl
+!!€  aastakas: aastak+N+Sg+Tra
+!!€  aastakaniq: aastak+N+Sg+Ter
+!!€  aastakaldaq: aastak+N+Sg+Abe
+!!€  aastagagaq: aastak+N+Sg+Com
+!!€  aastagaq: aastak+N+Pl+Nom
+!!€  aastakidõ: aastak+N+Pl+Gen
+!!€  aastakit: aastak+N+Pl+Par
+!!€  aastakihe: aastak+N+Pl+Ill
+!!€  aastakin: aastak+N+Pl+Ine
+!!€  aastakist: aastak+N+Pl+Ela
+!!€  aastakilõ: aastak+N+Pl+All
+!!€  aastakil: aastak+N+Pl+Ade
+!!€  aastakilt: aastak+N+Pl+Abl
+!!€  aastakis: aastak+N+Pl+Tra
+!!€  aastakiniq: aastak+N+Pl+Ter
+!!€  aastakildaq: aastak+N+Pl+Abe
+!!€  aastakidõgaq: aastak+N+Pl+Com
+!! __N-hwrak10__
+!  NMN_8AASTAK-SG ;
+!  NMN_8AASTAK-PL ;
+LEXICON NMN_8AASTAK-SG 
+:%^G3        Harm-Neutr_SG-NOM  ;
+:%^G2%>%{aä%}    SG-GEN_ZERO ;
+:%^G3%>%{aä%}    Harm-Neutr_SG-ALL_lE-STEM        ;
+:%^G3%>%{aä%}    Harm-Neutr_SG-PAR_t        ;
+:%^G3%>%{aä%}    Harm-Neutr_SG-ILL_he       ;
+:%^G2%>%{aä%} Harm-Neutr_SG-COM ;
+
+LEXICON NMN_8AASTAK-PL 
+:%^G2%>%{aä%}    Harm-Neutr_PL-NOM ;
+:%^G3%>i    Harm-Neutr_PL-GEN_dE ;
+:%^G3%>i        PL-ILL_he       ;
+:%^G3%>i        PL-ALL_lE-STEM       ;
+:%^G3%>i      PL-PAR_t        ;
+:%^G3%>idõ        PL-COM       ;
 
 
 LEXICON NMN_36RAMM/SILM !!= * __@CODE@__ silm:silm
@@ -5689,7 +5744,7 @@ LEXICON NMN_44SWDA !!= * @CODE@ sõda:sõ%{tØ%}%{tdØ%}a
 LEXICON NMN_44SWDA-SG 
 :%^Pen%^G2 Harm-Neutr_SG-NOM  ;
 :%^Pen%^G1       SG-GEN_ZERO-STEM        ;
-:%^Pen%^G3       Harm-Neutr_SG-ILL_ZERO        ;
+:%^Pen%^G4       Harm-Neutr_SG-ILL_ZERO        ;
 :%^Pen%^G3       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_44SWDA-PL 
@@ -5708,7 +5763,7 @@ LEXICON NMN_44SWDA-PL
 !!€ sõda: sõda+N+Sg+Nom
 !!€ sõa: sõda+N+Sg+Gen
 !!€ sõta: sõda+N+Sg+Par
-!!€ sõta: sõda+N+Sg+Ill
+!!€ sõtta: sõda+N+Sg+Ill
 !!€ sõan: sõda+N+Sg+Ine
 !!€ sõast: sõda+N+Sg+Ela
 !!€ sõalõ: sõda+N+Sg+All

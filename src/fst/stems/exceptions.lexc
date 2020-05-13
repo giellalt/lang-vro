@@ -15,6 +15,35 @@ et:et CS_ ;
 ku:ku CS_ ;
 sis:sis CS_ ;
 
+!! !GENITIVE ATTRIBUTES
+Austria-Ungari+N+Prop+Sg+Gen:Austria-Ungari K ;
+Inglüse-Iiri+N+Prop+Sg+Gen:Inglüse-Iiri K ;
+Poola-Leedu+N+Prop+Sg+Gen:Poola-Leedu K ;
+Võro-Tarto+N+Prop+Sg+Gen:Võro-Tarto K ;
+Väiko-Viirksu+N+Prop+Sg+Gen:Väiko-Viirksu K ;
+Eesti-Läti+N+Prop+Sg+Gen:Eesti-Läti K ;
+Väiku-Keema+N+Prop+Sg+Gen:Väiku-Keema K ;
+Viru-Jaagupi+N+Prop+Sg+Gen:Viru-Jaagupi K ;
+Talliin-Tartu+N+Prop+Sg+Gen:Talliin-Tartu K ;
+Riia-Pihkva+N+Prop+Sg+Gen:Riia-Pihkva K ;
+Pärnu-Jaagupi+N+Prop+Sg+Gen:Pärnu-Jaagupi K ;
+Prantsusõ-Preisi+N+Prop+Sg+Gen:Prantsusõ-Preisi K ;
+Kolga-Jaani+N+Prop+Sg+Gen:Kolga-Jaani K ;
+Zoppa-Korroli+N+Prop+Sg+Gen:Zoppa-Korroli K ;
+Väiku-Ruuga+N+Prop+Sg+Gen:Väiku-Ruuga K ;
+Väiku-Paltna+N+Prop+Sg+Gen:Väiku-Paltna K ;
+Viru-Nigula+N+Prop+Sg+Gen:Viru-Nigula K ;
+Tsopa-Koroli+N+Prop+Sg+Gen:Tsopa-Koroli K ;
+Tarto-Võro+N+Prop+Sg+Gen:Tarto-Võro K ;
+Tarto-Maarja+N+Prop+Sg+Gen:Tarto-Maarja K ;
+Peipsi-Pihkva+N+Prop+Sg+Gen:Peipsi-Pihkva K ;
+Narva-Jõõsuu+N+Prop+Sg+Gen:Narva-Jõõsuu K ;
+Harju-Jaani+N+Prop+Sg+Gen:Harju-Jaani K ;
+Eesti-Vinne+N+Prop+Sg+Gen:Eesti-Vinne K ;
+
+Võro-Põlva+N+Prop+Sg+Gen:Võro-Põlva K ;
+Võro-Seto+N+Prop+Sg+Gen:Võro-Seto K ;
+
 !! !NOUNS
 vaih+N+Sg+Nom:vahe K ;
 
@@ -22,18 +51,16 @@ vaih+N+Sg+Nom:vahe K ;
 
 
 !! !POSTPOSITIONA
-pääle:pääle PO-IS-ALL ;
+pääleq+v1+Po:pääleq PO-IS-ALL ;
+pääleq+v2+Po:pääle PO-IS-ALL ;
 
 !! !PRONOUNS
 hindä+Pron+Refl+All:hindäle K ;
 hindä+Pron+Refl+Gen:hindä K ;
+hindä+Pron+Refl+Ela:hinnäst K ;
 tuu:tu PRON-DEM ;
-tuu+Pron+Dem+Sg+Par:tuud K ;
 tää:tä PRON-DEM ;
-seo:seo PRON-DEM_seo/taa ;
-taa:taa PRON-DEM_seo/taa ;
-seo+Pron+Dem+Sg+Ill:seo%>ho BACK_K ;
-taa+Pron+Dem+Sg+Ill:taa%>ha BACK_K ;
+
 
 !! !VERBS
 ei:e V_EI ;

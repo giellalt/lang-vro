@@ -7,10 +7,47 @@ LEXICON PronounTypes
 !Personal ;
 Interrogative ;
 !Relative ;
-!Demonstrative ;
+Demonstrative ;
 !Reflexive ;
 !Reciprocal ;
 !Indefinite ;
+määne+Pron+Interr:mään PRON-MAANE_ ;
+sääne+Pron:sään PRON-MAANE_ ;
+
+LEXICON PRON-MAANE_
++Sg+Nom:e K ;
++Sg+Gen:tse K ;
++Sg+Par:est K ;
++Sg+Ill:tsehe K ;
++Sg+Ine:tsen K ;
++Use/NG+Sg+Ine:tseh K ;
++Use/NG+Sg+Ine:tsehn K ;
++Sg+Ela:tsest K ;
++Sg+All:tsele K ;
++Sg+Ade:tsel K ;
++Sg+Abl:tselt K ;
++Sg+All:tsele K ;
++Sg+Tra:tses K ;
++Sg+Ter:tseniq K ;
++Sg+Abe:tseldäq K ;
++Sg+Com:tsegaq K ;
+
++Pl+Nom:eq K ;
++Pl+Gen:tside K ;
++Pl+Par:tsit K ;
++Pl+Ill:tsihe K ;
++Pl+Ine:tsin K ;
++Use/NG+Pl+Ine:tsih K ;
++Use/NG+Pl+Ine:tsihn K ;
++Pl+Ela:tsist K ;
++Pl+All:tsile K ;
++Pl+Ade:tsil K ;
++Pl+Abl:tsilt K ;
++Pl+All:tsile K ;
++Pl+Tra:tsis K ;
++Pl+Ter:tsiniq K ;
++Pl+Abe:tsildäq K ;
++Pl+Com:tsidegaq K ;
 
 !! !PERSONAL PRONOUN
 LEXICON PERS-SG1
@@ -119,14 +156,115 @@ LEXICON FOR-PERS-PL1/2/3
 
 
 !! !DEMONSTRATIVE PRONOUNS
+LEXICON Demonstrative
+seo+Pron+Dem: DEM-SEO ;
+taa+Pron+Dem: DEM-TAA ;
+tuu+Pron+Dem: DEM-TUU ;
+
+LEXICON DEM-SEO
++Sg+Nom:seo K ;
++Sg+Gen:seo K ;
++Sg+Par:seod K ;
++Sg+Ill:seoho K ;
++Sg+Ine:seon K ;
++Use/NG+Sg+Ine:seoh K ;
++Use/NG+Sg+Ine:seohn K ;
++Sg+Ela:seost K ;
++Sg+All:seolõ K ;
++Sg+Ade:seol K ;
++Sg+Abl:seolt K ;
++Sg+Tra:seos K ;
++Sg+Ter:seoniq K ;
++Sg+Abe:seoldaq K ;
++Sg+Com:seogaq K ;
+
++Pl+Nom:neoq K ;
++Pl+Gen:neide K ;
++Pl+Par:neid K ;
++Pl+Ill:neihte K ;
++Pl+Ine:nein K ;
++Use/NG+Pl+Ine:neih K ;
++Use/NG+Pl+Ine:neihn K ;
++Pl+Ela:neist K ;
++Pl+All:neile K ;
++Pl+Ade:neil K ;
++Pl+Abl:neilt K ;
++Pl+Tra:neis K ;
++Pl+Ter:neideniq K ;
++Pl+Abe:neildaq K ;
++Pl+Com:neigaq K ;
+
+
+LEXICON DEM-TAA
++Sg+Nom:taa K ;
++Sg+Gen:taa K ;
++Sg+Par:taad K ;
++Sg+Ill:taaha K ;
++Sg+Ine:taan K ;
++Use/NG+Sg+Ine:taah K ;
++Use/NG+Sg+Ine:taahn K ;
++Sg+Ela:taast K ;
++Sg+All:taalõ K ;
++Sg+Ade:taal K ;
++Sg+Abl:taalt K ;
++Sg+Tra:taas K ;
++Sg+Ter:taaniq K ;
++Sg+Abe:taaldaq K ;
++Sg+Com:taagaq K ;
+
++Pl+Nom:naaq K ;
++Pl+Gen:naidõ K ;
++Pl+Par:naid K ;
++Pl+Ill:naihtõ K ;
++Pl+Ine:nain K ;
++Use/NG+Pl+Ine:naih K ;
++Use/NG+Pl+Ine:naihn K ;
++Pl+Ela:naist K ;
++Pl+All:nailõ K ;
++Pl+Ade:nail K ;
++Pl+Abl:nailt K ;
++Pl+Tra:nais K ;
++Pl+Ter:naidõniq K ;
++Pl+Abe:naildaq K ;
++Pl+Com:naidõgaq K ;
+
+LEXICON DEM-TUU
++Sg+Nom:tuu K ;
++Sg+Gen:tuu K ;
++Sg+Par:tuud K ;
++Sg+Ill:tuuhu K ;
++Sg+Ine:tuun K ;
++Use/NG+Sg+Ine:tuuh K ;
++Use/NG+Sg+Ine:tuuhn K ;
++Sg+Ela:tuust K ;
++Sg+All:toolõ K ;
++Sg+Ade:tuul K ;
++Sg+Abl:tuult K ;
++Sg+Tra:tuus K ;
++Sg+Ter:tooniq K ;
++Sg+Abe:tooldaq K ;
++Sg+Com:tuugaq K ;
+
++Pl+Nom:nuuq K ;
++Pl+Gen:noidõ K ;
++Pl+Par:noid K ;
++Pl+Ill:noihtõ K ;
++Pl+Ine:noin K ;
++Use/NG+Pl+Ine:noih K ;
++Use/NG+Pl+Ine:noihn K ;
++Pl+Ela:noist K ;
++Pl+All:noilõ K ;
++Pl+Ade:noil K ;
++Pl+Abl:noilt K ;
++Pl+Tra:nois K ;
++Pl+Ter:noidõniq K ;
++Pl+Abe:noildaq K ;
++Pl+Com:noidõgaq K ;
+
 LEXICON PRON-DEM
 +Sg+Nom: K ;
 +Sg+Nom:%>%{XV%} K ;
 
-LEXICON PRON-DEM_seo/taa
-+Dem: Harm-Neutr_SG-NOM ;
-+Dem: SG-GEN_ZERO-STEM ;
-+Dem:%{back%} Harm-Neutr_SG-PAR_d ;
 
 !! !INDEFINITE PRONOUNS
 !LEXICON PRON-INDEF_mis
