@@ -1,0 +1,35 @@
+[package]
+name = "vro"
+human_name = "Võro"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.vro]
+filename = "vro-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-vro"
+platform = "windows"
+uuid = "3F977B67-7BAE-4772-A64B-5B16BFDAEBA8"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.vro"
+package = "speller-vro"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-vro-mso"
+platform = "windows"
+uuid = "44D38263-914F-4410-B3D2-1D5EDDEDA5EC"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-vro"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
