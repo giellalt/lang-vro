@@ -353,6 +353,27 @@ LEXICON V_57UETLEMAE
 :%{front%} V_57TAPLWMA/UETLEMAE ;
 
 LEXICON V_57TAPLWMA/UETLEMAE
+!!€ taplõma: taplõma+V+Inf/mA
+!!€ tapõldaq: taplõma+V+Inf
+!!€ tapõlnuq: taplõma+V+Act+PrfPrc
+!!€ tapõld: taplõma+V+Pss+PrfPrc
+!!€ taplõ: taplõma+V+Act+Ind+Prs+Sg1
+!!€ taplõt: taplõma+V+Act+Ind+Prs+Sg2
+!!€ taplõs: taplõma+V+Act+Ind+Prs+Sg3
+!!€ taplõmiq: taplõma+V+Act+Ind+Prs+Pl1
+!!€ taplõtiq: taplõma+V+Act+Ind+Prs+Pl2
+!!€ taplõsõq: taplõma+V+Act+Ind+Prs+Pl3
+!!€ taplõ: taplõma+V+Act+Ind+ConNegII
+!!€ tapli: taplõma+V+Act+Ind+Prt+Sg1
+!!€ taplit: taplõma+V+Act+Ind+Prt+Sg2
+!!€ tapõĺ: taplõma+V+Act+Ind+Prt+Sg3
+!!€ taplimiq: taplõma+V+Act+Ind+Prt+Pl1
+!!€ taplitiq: taplõma+V+Act+Ind+Prt+Pl2
+!!€ tapliq: taplõma+V+Act+Ind+Prt+Pl3
+!!€ tapõlda: taplõma+V+Pss+Ind+Prs+Sg1
+!!€ tapõldas: taplõma+V+Pss+Ind+Prs+Sg3
+!!€ taplõv: taplõma+V+Act+PrsPrc+Sg+Nom
+!!€ tapõlguq: taplõma+V+Jus
 :%^Pen%^VowRM%{eõ%} ACT-IND-PRS-12 ;
 :%^Pen%^VowRM%{eõ%} ACT-IND-PRS-3_s/sEq ;
  PSS-IND-PRS-ALL_dA ;
@@ -383,22 +404,23 @@ LEXICON V_57KIIRDLEMAE
 :%{front%} V_57VWITLWMA/KIIRDLEMAE ;
 
 LEXICON V_57VWITLWMA/KIIRDLEMAE
-:%^Pen%^VOWRaise%^Pen%^VowRM%{eõ%} ACT-IND-PRS-12 ;
-:%^Pen%^VOWRaise%^Pen%^VowRM%{eõ%} ACT-IND-PRS-3_s/sEq ;
-:%^Pen%^VOWRaise Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
-:%^Pen%^VOWRaise%^Pen%^VowRM ACT-IND-PRT-12_i ;
-:%^Pen%^VOWRaise%{eõ%} ACT-IND-CONNEG ;
-:%^Pen%^VOWRaise ACT-IND-PRT-SG3_APOSTROPHE ;
-:%^Pen%^VOWRaise%>i ACT-IND-PRT-PL3_q/vAq ;
-:%^Pen%^VOWRaise Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%{eõ%} ACT-IND-PRS-12 ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%{eõ%} ACT-IND-PRS-3_s/sEq ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_VISKAMA_PSS-IND-PRS ;
 
-:%^Pen%^VOWRaise Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
-:%^Pen%^VOWRaise Harm-Neutr_V0-PSS-PRSPRC_tAv ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM ACT-IND-PRT-12_i ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%{eõ%} ACT-IND-CONNEG ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRT-SG3_APOSTROPHE ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%>i ACT-IND-PRT-PL3_q/vAq ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
+
+:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_V0-PSS-PRSPRC_tAv ;
 :%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_JUUMA-PSS-PRFPRC_d ;
 
-:%^Pen%^VOWRaise%^Pen%^VowRM%>%{eõ%} Harm-Neutr_INF_mA ;
-:%^Pen%^VOWRaise%^Pen%^VowRM%>%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%>%{eõ%} Harm-Neutr_INF_mA ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%>%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
 
 :%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_INF_dAq ;
 :%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_PSS-PRFPRC_dU ;
@@ -1566,6 +1588,31 @@ LEXICON V_81TEGEMAE !!≈ * __@CODE@__ tegemä:teg
 !! Work
 :%{front%} V_81XX/TEGEMAE ;
 LEXICON V_81XX/TEGEMAE !!≈ * __@CODE@__ tegemä:teg
+! Test data:
+!!€gt-norm: tegemä
+!!€ tegemä: tegemä+V+Inf/mA
+!!€ tetäq: tegemä+V+Inf
+!!€ tennüq: tegemä+V+Act+PrfPrc
+!!€ tett: tegemä+V+Pss+PrfPrc
+!!€ tii: tegemä+V+Act+Ind+Prs+Sg1
+!!€ tiit: tegemä+V+Act+Ind+Prs+Sg2
+!!€ tege: tegemä+V+Act+Ind+Prs+Sg3
+!!€ teemiq: tegemä+V+Act+Ind+Prs+Pl1
+!!€ tiitiq: tegemä+V+Act+Ind+Prs+Pl2
+!!€ tegeväq: tegemä+V+Act+Ind+Prs+Pl3
+!!€ tiiq: tegemä+V+Act+Ind+ConNegI
+!!€ tii: tegemä+V+Act+Ind+ConNegII
+!!€ tei: tegemä+V+Act+Ind+Prt+Sg1
+!!€ teit: tegemä+V+Act+Ind+Prt+Sg2
+!!€ tekḱ: tegemä+V+Act+Ind+Prt+Sg3
+!!€ teimiq: tegemä+V+Act+Ind+Prt+Pl1
+!!€ teitiq: tegemä+V+Act+Ind+Prt+Pl2
+!!€ teiq: tegemä+V+Act+Ind+Prt+Pl3
+!!€ tetä: tegemä+V+Pss+Ind+Prs+Sg1
+!!€ tetäs: tegemä+V+Pss+Ind+Prs+Sg3
+!!€ tettäv: tegemä+V+Pss+PrsPrc+Sg+Nom
+!!€ tekuq: tegemä+V+Jus
+
 :%^WGStem%>e ACT-IND-PRS-12 ; ! The e must be retained or the%{eõ%}:i rule fixed
 :%{eõ%} ACT-IND-PRS-SG3_ZERO ;
 :%{eõ%} ACT-IND-PRS-PL3_vAq ;

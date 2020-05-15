@@ -60,8 +60,8 @@
   %{vØ%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
 
   %{pØ%}:0    — häbü:häbü+N:hä%{pØ%}%{pbØ%}ü
-  %{Øt%}:0    — koda:ko%{Øt%}%{tdØ%}a
-  %{Øk%}:0    — nägo:nä%{Øk%}%{kgØ%}o
+  %{tØ%}:0    — koda:ko%{tØ%}%{tdØ%}a
+  %{kØ%}:0    — nägo:nä%{kØ%}%{kgØ%}o
 
   %{bv%}:b    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
   %{dr%}:d    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
@@ -115,6 +115,7 @@
   %{hh́%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kḱ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{lĺ%}:l     — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{lĺ%}:ĺ     — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{mḿ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{nń%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{pṕ%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -638,13 +639,24 @@ __%{pØ%}:p__
 * __häppü00 __
 * __tõ%{pØ%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%} __
 * __tõpp00%>õ __
+* __se%{pØ%}p%^StrGStem __
+* __sepp0 __
+* __nu%{pØ%}pu%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM __
+* __nupp0000000 __
 }}}
 
-__%{Øt%}:t__
-* __sõ%{Øt%}da%^XStrGStem%^PLPRT __
+__%{tØ%}:t__
+* __sõ%{tØ%}da%^XStrGStem%^PLPRT __
 * __sõtto00 __
-* __ü%{Øt%}te%^Pen%^StrGStem __
+* __si%{tØ%}t%{front%}%^StrGStem __
+* __sitt00 __
+* __ü%{tØ%}te%^Pen%^StrGStem __
 * __ütte00 __
+* __mü%{tØ%}tü%{front%}%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM __
+* __mütt0000000 __
+sõda+N+Sg+Ill:
+* __sõ%{tØ%}%{tdØ%}a%^Pen%^G3 __
+* __sõtta00 __
 
 
 __%{Øk%}:k__
@@ -755,9 +767,11 @@ __pToZero__
 * __tap000%>ma __
 
 __%{pØ%}:0__
+* __se%{pØ%}p%^WGStem __
+* __se0p0 __
+
 * __tap%{pØ%}%{back%}%^CC2C%>m%{aä%} __
 * __tap000%>ma __
-
 
 
 __XØToZero__
@@ -796,18 +810,17 @@ __%{hØ%}:h__
 * __ha%{mØ%}mõ%{hØ%}%^Pen%^WGStem __
 * __ha0mõ0%>h __
 
-__%{tØ%}:t__
-sõda+N+Sg+Ill:
-* __sõ%{tØ%}%{tdØ%}a%^Pen%^G3 __
-* __sõtta00 __
 
 __%{kØ%}:k__
 * __as%{kØ%}o%^Pen%^G2 __
 * __asko __
 
 __%{pb%}:p__
+* __kau%{pb%}%{õØ%}%{lĺ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%>%{eõ%}%>m%{aä%} __
+* __kaup0l0000000%>õ%>ma __
+
 * __li%{pb%}õ%^Pen%^G2 __
-* __lipõ __
+* __lipõ00 __
 
 
 __%{t́d́%}:d́__
