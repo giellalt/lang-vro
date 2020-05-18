@@ -77,8 +77,6 @@ GENERATED_LEXC_SRCS=\
 			 generated_files/punctuation.lexc \
 			 generated_files/symbols.lexc
 
-#			 $(srcdir)/stems/adjectives.lexc 
-# 			 $(srcdir)/stems/verbs.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
@@ -89,8 +87,6 @@ GT_XML_SRCS=\
 			 stems/pronouns.xml \
 			 stems/numerals.xml 
 
-#			 stems/adjectives.xml 
-#			 stems/verbs.xml 
 
 # Define any additional lexc sources here (compiled on their own):
 GT_LOCAL_SRCS=
