@@ -1,0 +1,28 @@
+[
+ [ %<clb%> -> %<cm%> || %, _ ] .o.
+ [ %<punct%> -> %<guio%> || %- _ ] .o.
+ [ %<clb%> -> %<sent%> || %. _ ] .o.
+ [ %<clb%> -> %<sent%> || %? _ ] .o.
+ [ %<clb%> -> %<sent%> || %: _ ] .o.
+ [ %<clb%> -> %<sent%> || %; _ ] .o.
+ [ %^ e x c l %<clb%> -> %! %<sent%> ] .o.
+ [ %<interj%> -> %<ij%> ] .o.
+ [ %<v%> -> %<vblex%> ] .o.
+ [ %<clt%_hai%> -> %+hai%<adv%> ] .o.
+ [ %<sg1%> -> %<p1%> %<sg%> ] .o.
+ [ %<sg2%> -> %<p2%> %<sg%> ] .o.
+ [ %<sg3%> -> %<p3%> %<sg%> ] .o.
+ [ %<pl1%> -> %<p1%> %<pl%> ] .o.
+ [ %<pl2%> -> %<p2%> %<pl%> ] .o.
+ [ %<pl3%> -> %<p3%> %<pl%> ] .o.
+ [ %<scsg1%> -> %<p1%> %<sg%> ] .o.
+ [ %<scsg2%> -> %<p2%> %<sg%> ] .o.
+ [ %<scsg3%> -> %<p3%> %<sg%> ] .o.
+ [ %<scpl1%> -> %<p1%> %<pl%> ] .o.
+ [ %<scpl2%> -> %<p2%> %<pl%> ] .o.
+ [ %<scpl3%> -> %<p3%> %<pl%> ] .o.
+ [ %<actv%> %<ind%> %<prs%> %<conneg%> -> %<ind%> %<prs%> %<conneg%> ] .o.
+ [ %<actv%> %<ind%> %<prt%> %<conneg%> -> %<ind%> %<prt%> %<conneg%> ] .o.
+ [ %<n%> %<prop%> -> %<np%> ] 
+];
+
