@@ -2280,7 +2280,7 @@ LEXICON V_83ATMA  !!= * @CODE@ atma:atta
 !!! * Yaml: __heitmae__
 !:%{front%} V_83ATMA/PETMÄ ;
 
-LEXICON V_83ATMA/XX  !!= * @CODE@ atma:att%{ae%}
+LEXICON V_83ATMA/XX  !!= * @CODE@ atma:a%{tØ%}t%{ae%}
 ! (1) I tegonimi: 
 ! (2) II tegonimi: 
 ! (3) tekev tm aktiiv: 
@@ -2291,27 +2291,27 @@ LEXICON V_83ATMA/XX  !!= * @CODE@ atma:att%{ae%}
 ! (8) min 3. k tä: 
 ! (9) jus: 
 
-+Act+Ind+Prs+Sg1:%^G3%>a K ; 
++Act+Ind+Prs+Sg1:%^G3%>a K ; !ata
 +Act+Ind+Prs+Sg2:%^G3%>a%>t K ; 
 +Err/Orth+Use/NG+Act+Ind+Prs+Sg2:%^G3%>a%>d%{eõ%}q K ; 
 +Act+Ind+Prs+Pl1:%^G3%>a%>miq K ; 
 +Act+Ind+Prs+Pl2:%^G3%>a%>tiq K ; 
 
-+Act+Ind+Prs+Sg3:%^Pen%^G4 K ; 
++Act+Ind+Prs+Sg3:%^Pen%^G4 K ; !att
 +Act+Ind+Prs+Pl3:%^Pen%^G4%>v%{aä%}q K ; 
 
-:%^G3%>a ACT-IND-CONNEG ; !! sõida
+:%^G3%>a ACT-IND-CONNEG ; !! sõida ata
 
-+Act+Ind+Prt+Sg1:%^Pen%^G3%^VowRM%>i K ; 
++Act+Ind+Prt+Sg1:%^Pen%^G3%^VowRM%>i K ; !ati 
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg1:%^Pen%^G3%^VowRM%>s%{eõ%} K ; 
 
-+Act+Ind+Prt+Sg2:%^Pen%^G3%^VowRM%>it K ;
++Act+Ind+Prt+Sg2:%^Pen%^G3%^VowRM%>it K ; !ati
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%^Pen%^G3%^VowRM%>iq K ;
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%^Pen%^G3%^VowRM%>id%{eõ%}q K ;
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%^Pen%^G3%^VowRM%>s%{eõ%}t K ;
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%^Pen%^G3%^VowRM%>s%{eõ%}q K ;
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg2:%^Pen%^G3%^VowRM%>s%{eõ%}d%{eõ%}q K ;
-:%^Pen%^G4%^VowRM ACT-IND-PRT-SG3_APOSTROPHE ;
+:%^Pen%^G4%^VowRM ACT-IND-PRT-SG3_APOSTROPHE ; !att́
 :%^Pen%^G4 ACT-IND-CONNEG ;
 +Err/Orth+Use/NG+Act+Ind+Prt+Sg3:%^Pen%^G3%^VowRM%>s%{eõ%} K ;
 +Act+Ind+Prt+Pl1:%^Pen%^G3%^VowRM%>imiq K ;
@@ -2336,7 +2336,7 @@ LEXICON V_83ATMA/XX  !!= * @CODE@ atma:att%{ae%}
 :%^G3%>e Harm-Neutr_V0-PSS-PRSPRC_tAv ;
 :%^G3%>e Harm-Neutr_VISKAMA-PSS-PRFPRC_t ;
 
-LEXICON V_83SUTMA  !!= * @CODE@ atma:atta
+LEXICON V_83SUTMA  !!= * @CODE@ atma:a%{tØ%}ta
 !! gradation: yes
 !! * Yaml: __switma__
 :%{back%} V_83SUTMA/PETMÄ ;
@@ -2345,7 +2345,7 @@ LEXICON V_83PETMÄ  !!= * @CODE@ petmä:pettä
 !! * Yaml: __heitmae__
 :%{front%} V_83SUTMA/PETMÄ ;
 
-LEXICON V_83SUTMA/PETMÄ  !!= * @CODE@ atma:att%{ae%}
+LEXICON V_83SUTMA/PETMÄ  !!= * @CODE@ atma:a%{tØ%}t%{ae%}
 ! (1) I tegonimi: 
 :%^Pen%^G3 Harm-Neutr_INF_mA ;
 :%^Pen%^G3%>%{aä%} ACT-IND-CONNEG ; !! sõida
