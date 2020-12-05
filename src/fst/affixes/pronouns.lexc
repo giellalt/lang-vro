@@ -63,25 +63,25 @@ PERS-PL2 ;
 +Pers+Sg2:sino PERS-SG1-2-ABE-TRA ;
 
 LEXICON PERS-SG3
-PERS-PL3 ;
-+Pers+Sg3+Nom:t FOR-PERS-SG3-GEN/NOM ;
-+Pers+Sg3+Gen:t FOR-PERS-SG3-GEN/NOM ;
-+Pers+Sg3+Abe:timäldäq FRONT_K ;
-+Pers+Sg3+Abe:timälda K ; !! CHECKME vowel harmony
+!PERS-PL3 ;
++Pers+Sg3+Nom: FOR-PERS-SG3-GEN/NOM ;
++Pers+Sg3+Gen: FOR-PERS-SG3-GEN/NOM ;
++Pers+Sg3+Abe:imäldäq FRONT_K ;
++Pers+Sg3+Abe:imälda K ; !! CHECKME vowel harmony
 +Pers+Sg3+Com:imägaq K ;
-+Err/Orth+Pers+Sg3+Com:timäga K ;
-+Pers+Sg3+Ill:timmä K ;
-+Pers+Sg3+Par:tedä K ;
-+Pers+Sg3+Par:timmä K ;
-+Pers+Sg3+Ade:täl K ;
-+Pers+Sg3+All:tälle K ;
-+Pers+Sg3+All:tääle K ;
-+Pers+Sg3+All:timäle K ;
-+Pers+Sg3+Ter:timäiq K ;
++Err/Orth+Pers+Sg3+Com:imäga K ;
++Pers+Sg3+Ill:immä K ;
++Pers+Sg3+Par:edä K ;
++Pers+Sg3+Par:immä K ;
++Pers+Sg3+Ade:äl K ;
++Pers+Sg3+All:älle K ;
++Pers+Sg3+All:ääle K ;
++Pers+Sg3+All:imäle K ;
++Pers+Sg3+Ter:imäiq K ;
 
-+Pers+Sg3:tä PERS-SG1-2-ABE-TRA ;
-+Pers+Sg3:tää PERS-SG1-2-ABE-TRA ;
-+Pers+Sg3:timä PERS-SG1-2-ABE-TRA ;
++Pers+Sg3:ä PERS-SG1-2-ABE-TRA ;
++Pers+Sg3:ää PERS-SG1-2-ABE-TRA ;
++Pers+Sg3:imä PERS-SG1-2-ABE-TRA ;
 
 LEXICON FOR-PERS-SG3-GEN/NOM
 :ä K ;
@@ -124,13 +124,13 @@ LEXICON PERS-PL2 !!= @CODE@ saq:
 +Pers+Pl2:t PERS-PL1-2 ;
 
 LEXICON PERS-PL3 !!= @CODE@ timä:
-+Pers+Pl3+Nom:nääq K ;
-+Pers+Pl3+Nom:nä K ;
-+Pers+Pl3+Nom:nimä K ;
-+Pers+Pl3+Nom:niä K ;
-+Pers+Pl3+Gen:näide K ;
-+Pers+Pl3+Ter:näideniq K ;
-+Pers+Pl3:nä FOR-PERS-PL1/2/3 ;
++Pers+Pl3+Nom:ääq K ;
++Pers+Pl3+Nom:ä K ;
++Pers+Pl3+Nom:imäq K ;
++Pers+Pl3+Nom:iäq K ;
++Pers+Pl3+Gen:äide K ;
++Pers+Pl3+Ter:äideniq K ;
++Pers+Pl3:ä FOR-PERS-PL1/2/3 ;
 
 
 LEXICON PERS-PL1-2
