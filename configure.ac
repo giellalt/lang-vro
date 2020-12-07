@@ -185,8 +185,6 @@ gt_CONFIG_FILES
 ##########################################################
 ##### BEGIN: Add language-specific list of files to ######
 ########## be processed by autoconf below here: ##########
-AC_CONFIG_FILES([test/src/morphology/test-verb-generation.sh], \
-      [chmod a+x test/src/morphology/test-verb-generation.sh])
 
 ############ END: Language-specific scripts. #############
 
