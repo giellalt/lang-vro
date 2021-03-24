@@ -178,6 +178,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 +ABBR !!≈ * __@CODE@__
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 +ACR  !!≈ * __@CODE@__
++Acro  !!≈ * __@CODE@__
 
 !! Special symbols are classified with:
 +CLB   !!≈ * __@CODE@__
@@ -738,8 +739,8 @@ N_NEWWORDS ;
 !nouns ;
 
 !! less complex word classes
-LEXICON ACRONDELIMITER
-+Acro: # ;
+LEXICON ACRONDELIMITER ! todo: contlexces as for other gls.
+ # ;
 
 LEXICON CC_
 : K ;
