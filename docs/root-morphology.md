@@ -9,7 +9,7 @@ language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
  * **+WORK** (eng) work needed 
-special letters
+special letters, cf. https://github.com/hfst/hfst/issues/497 Trond.
 
  * **u̬** u plus U+032C COMBINING CARON BELOW
  * **U̬** u plus U+032C COMBINING CARON BELOW
@@ -151,6 +151,7 @@ Other verb forms are
  * **+ABBR**
  * +Symbol = independent symbols in the text stream, like £, €, ©
  * **+ACR**
+ * **+Acro**
 
 Special symbols are classified with:
  * **+CLB**
