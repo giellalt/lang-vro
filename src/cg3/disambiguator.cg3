@@ -1,9 +1,12 @@
-# cat fkvtext_analysed.txt | lookup2cg | vislcg3 -g disambiguation.cg3 -t
-# echo 'sentence' | preprocess | lookup -flags mbTT 1.fst | lookup2cg|vislcg3 -g ../../syntax/1_disambiguation.cg3
+# Usage:
+# cat text.txt|hfst-tokenize -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3
 
-#   ============================ #
-#!! !!!Start making a syntactic disambiguator
-#   ============================ #
+
+#   ================================= #
+#!! !!! Disambiguator for Olonets
+#   ================================= #
+
+# Copied from fit 22.3.21.
 
 #!! !!Sets
 
@@ -29,30 +32,62 @@ DELIMITERS = "<.>" "<...>" "<!>" "<?>" "<¶>" ;
 
 LIST BOS = (>>>) (<s>) (sent);
 LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
+LIST <<< = <<< ;
+LIST >>> = >>> ;
 
 #!! !Part-of-Speech
 LIST N = N ;  #!! * N = noun
 LIST A = A ;  #!! * A = adjective
+LIST APrc = A PrsPrc PrfPrc "tämä" "millainen" "sellainen" ; 
 LIST Num = Num ;  #!! * Num = numeral
 LIST V = V ;  #!! * V = verb
-LIST CC = CC ; #!! * CC = conjunction
-LIST CS = CS ; #!! * CS = subjunction
+LIST REAL-V = V ; # XXX fix.
 LIST Adv = Adv ; #!! * Adv = adverb
+LIST Pcle = Pcle ; #!! * Pcle = particle
 LIST Pr = Pr ;  #!! * Pr = preposition
 LIST Po = Po ;  #!! * Po = postposition
 LIST Pron = Pron ; #!! * Pron = pronoun
 LIST Interj = Interj ; #!! * Interj = interjection
+
+LIST POS = N A Num V CC CS Adv Pr Po Pron Interj ;
+
 LIST CLB = CLB ;
 LIST CLBfinal = CLBfinal ; # because common num
 LIST PUNCT = PUNCT ;
 LIST Prs = Prs ;
 LIST Prt = Prt ;
+LIST Ind = Ind ;
 LIST Act = Act ;
-LIST Pass = Pass ;
+LIST Pass = Pass Pss ;
+LIST ActPass = Act Pass Pss ;
+LIST ABBR = ABBR ;
+LIST Abbr = Abbr ABBR ;
+LIST Refl = Refl ;
+LIST PrsPrc = PrsPrc ;
+
+LIST NUMS = "yksi" Num;
+LIST Ord = Ord ;
+
+LIST CC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" ; 
+LIST CCC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" "," ; 
+LIST CS = CS ; 
+LIST Conj = CS CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" ;
+
 
 LIST Attr = Attr ; # ?
+LIST Rel = Rel ;
+LIST Interr = Interr ;
+LIST Card = Card ;
+LIST Cmp = Cmp ;
+LIST Cmp/Hyph = Cmp/Hyph ;
+LIST Cmp/SgGen = Cmp/SgGen ;
+LIST Cmp/Attr = Cmp/Attr ;
+LIST Cmp/SgNom = Cmp/SgNom ;
+
 
 #!! !Numerus
+LIST Pers = Pers ;
+
 LIST Sg = Sg ;   #!! * Sg = Singular
 LIST Pl = Pl ;   #!! * Pl = Plural
 LIST Sg1 = Sg1 ;   #!! * Sg1 = Singular 1.p.
@@ -61,6 +96,25 @@ LIST Sg3 = Sg3 ;   #!! * Sg3 = Singular 3.p.
 LIST Pl1 = Pl1 ;   #!! * Pl1 = Plural 1.p.
 LIST Pl2 = Pl2 ;   #!! * Pl2 = Plural 2.p.
 LIST Pl3 = Pl3 ;   #!! * Pl3 = Plural 3.p.
+
+LIST Pers1 = Sg1 Pl1 ;
+LIST Pers2 = Sg2 Pl2 ;
+LIST SGa = Sg Sg1 Sg2 Sg3 ;
+LIST PLa = Pl Pl1 Pl2 Pl3 ;
+
+LIST NUMBER = Sg Pl ;
+
+SET SGPRON = Pron + SGa;
+SET PLPRON = Pron + PLa;
+
+
+
+SET ME = PLPRON + ("me") ;
+SET TE = PLPRON + ("te") ;
+SET HE = PLPRON + ("he") ; 
+
+
+
 #!! !Cases
 LIST Nom = Nom ; #!! * Nom
 LIST Gen = Gen ;   #!! * Gen
@@ -79,14 +133,156 @@ LIST Ins = Ins ;   #!! * Ins
 LIST Com = Com ;   #!! * Com
 LIST SUBJ-CASE = Nom Par ;   #!! * SUBJ-CASE = Nom Par
 
+LIST ADVLCASE = Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com ;
+LIST ADVLCASEAdv = Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com Adv ;
+LIST LOCCASE = Ine Ill Ela Ade All Abl ;
+
 LIST CASE = Nom Gen Acc Par Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com ;	
 LIST Pos = Pos ;	
 LIST Comp = Comp ;
 LIST Superl = Superl ;	
 LIST Ord = Ord ;
 
+
+
+SET NPSgNom = N + (Sg Nom) OR (Pron Nom) + SGa ; 
+SET NPPlNom = N + (Pl Nom) OR (Pron Nom) + PLa ; 
+SET NPSg3Nom = N + (Sg Nom) OR (Pron Sg Nom) OR (Pron Sg3 Nom) ; 
+SET NPPl3Nom = N + (Pl Nom) OR (Pron Pl Nom) OR (Pron Pl3 Nom) ; 
+
+
+SET PPRON-NOT-GEN = Pron + Pers - Gen ;
+
+
+SET NSgNom = N + (Sg Nom) ; 
+SET NSgAde = N + (Sg Ade) ; 
+SET NSgGen = N + (Sg Gen) ; 
+SET NSgEla = N + (Sg Ela) ; 
+SET NSgEss = N + (Sg Ess) ; 
+SET NSgIll = N + (Sg Ill) ; 
+SET NSgAll = N + (Sg All) ; 
+SET NSgAbl = N + (Sg Abl) ; 
+SET NSgIne = N + (Sg Ine) ; 
+SET NSgTra = N + (Sg Tra) ; 
+SET NSgIns = N + (Sg Ins) ; 
+SET NSgPar = N + (Sg Par) ;
+SET NSgAcc = N + (Sg Acc) ; 
+SET NSgAbe = N + (Sg Abe) ;
+SET NSgCmt = N + (Sg Cmt) ;
+
+SET NPlNom = N + (Pl Nom) ; 
+SET NPlAde = N + (Pl Ade) ; 
+SET NPlGen = N + (Pl Gen) ; 
+SET NPlEla = N + (Pl Ela) ; 
+SET NPlEss = N + (Pl Ess) ; 
+SET NPlIll = N + (Pl Ill) ; 
+SET NPlAll = N + (Pl All) ; 
+SET NPlAbl = N + (Pl Abl) ; 
+SET NPlIne = N + (Pl Ine) ; 
+SET NPlTra = N + (Pl Tra) ; 
+SET NPlIns = N + (Pl Ins) ; 
+SET NPlPar = N + (Pl Par) ;
+SET NPlAcc = N + (Pl Acc) ; 
+SET NPlAbe = N + (Pl Abe) ;
+SET NPlCmt = N + (Pl Cmt) ;
+
+SET ASgNom = APrc + (Sg Nom) ; 
+SET ASgAde = APrc + (Sg Ade) ; 
+SET ASgGen = APrc + (Sg Gen) ; 
+SET ASgEla = APrc + (Sg Ela) ; 
+SET ASgEss = APrc + (Sg Ess) ; 
+SET ASgIll = APrc + (Sg Ill) ; 
+SET ASgAll = APrc + (Sg All) ; 
+SET ASgAbl = APrc + (Sg Abl) ; 
+SET ASgIne = APrc + (Sg Ine) ; 
+SET ASgTra = APrc + (Sg Tra) ; 
+SET ASgIns = APrc + (Sg Ins) ; 
+SET ASgPar = APrc + (Sg Par) ;
+SET ASgAcc = APrc + (Sg Acc) ; 
+SET ASgAbe = APrc + (Sg Abe) ;
+SET ASgCmt = APrc + (Sg Cmt) ;
+
+SET APlNom = APrc + (Pl Nom) ; 
+SET APlAde = APrc + (Pl Ade) ; 
+SET APlGen = APrc + (Pl Gen) ; 
+SET APlEla = APrc + (Pl Ela) ; 
+SET APlEss = APrc + (Pl Ess) ; 
+SET APlIll = APrc + (Pl Ill) ; 
+SET APlAll = APrc + (Pl All) ; 
+SET APlAbl = APrc + (Pl Abl) ; 
+SET APlIne = APrc + (Pl Ine) ; 
+SET APlTra = APrc + (Pl Tra) ; 
+SET APlIns = APrc + (Pl Ins) ; 
+SET APlPar = APrc + (Pl Par) ;
+SET APlAcc = APrc + (Pl Acc) ; 
+SET APlAbe = APrc + (Pl Abe) ;
+SET APlCmt = APrc + (Pl Cmt) ;
+
+LIST NomSg = (Nom Sg) ; 
+LIST NomPl = (Nom Pl) ; 
+LIST GenSg = (Gen Sg) ; 
+LIST GenPl = (Gen Pl) ; 
+LIST ParSg = (Par Sg) ; 
+LIST ParPl = (Par Pl) ; 
+
+
+LIST Gen_Par = Gen Par ; 
+LIST Gen_Par_Acc = Gen Par Acc ; 
+LIST Gen_Punct = Gen Punct ; 
+LIST Ela_Abl = Ela Abl ; 
+LIST Ela_Tra_Ill_All = Ela Tra Ill All ; 
+LIST LOC-CASE = Ine Ela Ill Ade Abl All ; 
+
+
+LIST Ill_All = Ill All ; 
+LIST Ill_Tra = Ill Tra ; 
+LIST Ill_Tra_All = Ill Tra All ; 
+
+LIST Nom_Gen_Par = Nom Gen Par ; 
+LIST Nom_Par = Nom Par ; 
+
+LIST SUBJECT-CASE = Nom Gen Par ; 
+LIST NONSUBJECT-CASE = Ess Tra Ine Ela Ill Ade Abl All Abe Com Ins ; 
+LIST NOT-Gen-CASE = Nom Par Ine Ela Ill Ade Abl All Ess Tra Abe Com Ins ; 
+LIST ALLCASES = Nom Gen Acc Par Abl Ade All Ela Ill Ine Ess Tra Abe Com Ins Loc ;
+
+LIST Par_Gen = Par Gen ; 
+LIST Par_Punct = Par Punct ; 
+LIST INT-LOC = Ine Ela Ill ; 
+LIST EXT-LOC = Ade Abl All ; 
+
+
+SET OBJ-CASEs = NomPl OR Par OR GenSg ;
+
+
+LIST PCP = AgPrc PrfPrc PrsPrc ; 
+LIST PPPCPs = PrfPrc PrsPrc ;
+LIST PCPs = AgPrc PrfPrc PrsPrc ;
+
+
+
+LIST NES = "pittäät" "täytyä" "täytyy" "tulla" "pakko" ; 
+
+
+LIST NNom = (N Sg Nom) (N Pl Nom) ; 
+LIST NGen = (N Sg Gen) (N Pl Gen) ; 
+LIST NPar = (N Sg Par) (N Pl Par) ; 
+
+LIST UNDECL_ADJ = "eka" "ensi" "viime" "koko" "ainut" "ehta" "haka" ;
+
+LIST LOC-CASE = Ine Ela Ill Ade Abl All ; 
+LIST ALLCASES = Nom Gen Acc Par Abl Ade All Ela Ill Ine Ess Tra Abe Com Ins Loc ;
+SET NAttrs = PCP OR A OR Pron OR Ord OR NGen OR Card OR UNDECL_ADJ ; 
+
+
+SET N_Pron_Nom = NNom OR Pron + Nom ;
+
+LIST Acro = Acro ACR ; 
+
 LIST Err/Orth = Err/Orth ;
-	
+LIST Err/Orth-no-pal = Err/Orth-no-pal ;
+LIST Err/Orth-no-q = Err/Orth-no-q ;
+
 #!! !Types
 LIST Prop = Prop ;   #!! * Prop = Proper noun
 LIST Interr = Interr ;   #!! * Interr = Interrogative
@@ -105,6 +301,18 @@ LIST PrfPrc = PrfPrc ;  #!! * PrfPrc = Perfectum Particip
 LIST Imprt = Imprt ; #!! * Imprt = Imperative
 LIST Act = Act ; #!! * Act = Active
 LIST Neg = Neg ; #!! * Neg = Negation verb
+LIST NEGV = "ei" ;
+
+# TODO: Check infinitives.
+LIST InfA = InfA IInf; 
+LIST InfE = IIInf InfE ;
+LIST InfMa = InfMa Inf3 ; 
+
+LIST InfA23 = InfA InfE InfMa ; 
+LIST InfA_3 = InfA InfMa ; 
+
+LIST InfV = InfA InfE InfMa ; # Not sure I should count PrfPrc PrsPrc as  
+LIST InfV-PCPs = InfA InfE InfMa PrfPrc PrsPrc ; 
 
 
 LIST PxSg1 = PxSg1 ;
@@ -117,17 +325,86 @@ LIST PxPl3 = PxPl3 ;
 LIST PX = PxSg1  PxSg2  PxSg3  PxPl1  PxPl2  PxPl3 ;	
 	
 LIST COMMA = "," ; #!! * COMMA = comma
+LIST COLON = ":" ;
+LIST Punct = Punct ;
+
 LIST Foc/han = Foc/han ;
 LIST Foc/kaan = Foc/kaan ; #!! * Foc/kaan = focus clitic -kaan
-LIST Sem/Fem = Sem/Fem ; #!! * Sem/Fem = feminin propernoun
+LIST Foc/kin = Foc/kin ;
+LIST Foc/ka = Foc/ka ;
+LIST Foc/pa = Foc/pa ;
+LIST Foc/han = Foc/han ;
+LIST Foc/kaan = Foc/kaan ; #!! * Foc/kaan = focus clitic -kaan
+LIST Foc/s = Foc/s ;
+LIST Foc/pas = Foc/pas ;
+
 LIST @CVP = @CVP ; # !! * @CVP = Conjunction or subjunction that conjoins finite verb phrases.
 LIST @CNP = @CNP ; # !! * @CNP = Local conjunction or subjunction.
 
+LIST LEFT = LEFT ;
+LIST RIGHT = RIGHT ;
+
+LIST QUOTE = Quote ; 
+LIST QUO = "<">" ; # " (add for syntax colouring)
+
+LIST OM = >>> """ "“" ;
+LIST OMS = >>> """ ":" ";" "“" ;
+
+LIST Sem/Adr = Sem/Adr ;
 LIST Sem/ID = Sem/ID ;
+LIST Sem/Time = Sem/Time ;
+LIST Sem/Fem = Sem/Fem ;
+LIST Sem/Mal = Sem/Mal ;
+LIST Sem/Plc = Sem/Plc ;
+LIST Sem/Sign = Sem/Sign ;
+LIST Sem = Sem/ID Sem/Mal Sem/Fem Sem/Plc Sem/Sign ;
+
+
 LIST Arab = Arab ;
 
+
 LIST CURRENCY = "dinaari" "dollari" "euro" "kruunu" "kr" "rupla" "rubel" "¢" "€" "$";
-	
+
+LIST QUANTADV = "paljon" ;
+
+
+SET NUMNOT1 = Num - ("yksi") - ("1") - Sem/ID ;
+SET QNUM = NUMNOT1 OR QUANTADV ;
+
+SET NEG = V + Neg ;
+LIST VFIN = Prs Prt Cond NEG Imprt ; 
+LIST VFIN-C = Prs Prt Cond NEG Imprt CS CC ; 
+LIST VFIN-C-MYOS = Prs Prt Cond NEG Imprt CS CC "myös" ; 
+LIST VFIN-PCP = Prs Prt Cond NEG Imprt PrfPrc PrsPrc ; 
+#LIST VFIN_PrsPrc = Prt Prs Cond PrsPrc ; not used
+LIST VFIN_PrsPrc_Inf = Prt Prs Cond PrsPrc (PrfPrc Gen) (PrfPrc Par) InfA InfE InfMa ;
+
+# Derivation
+# ----------
+
+LIST DA-US = DA-US ; # vaikeus, no spec tag
+LIST DV-US = DV-US ;  # muodostus, no spec tag
+#LIST DV-TTA = DV-TTA ; # johdattaa, no spec tag, DV-NTA toimintaa
+
+LIST Der/s = Der/s ;
+
+#LIST DER = DA-UUS DA-US DN-IneN DN-LAIneN DN-LLIneN DN-UUS DN-MINEN Der/minen Der/u Der_minen ; # Added with _
+LIST DER = Der/inen Der/ja Der/lainen Der/llinen Der/minen Der/u Der_inen Der_ja Der_lainen Der_llinen Der_minen Der_u Der/s ; # Added with _
+
+#LIST DV = DV-MINEN DV-US DV-NTA DV-TTA ; 
+LIST DV = Der/minen Der_minen ; 
+
+# All derivation tags in omorfi: 
+#   +Der/inen +Der/ja +Der/lainen +Der/llinen 
+#   +Der/minen +Der/oi +Der/sti +Der/tar +Der/ton 
+#   +Der/tse +Der/ttain +Der/u +Der/vs
+
+LIST N-DER = Der/minen Der/u Der/ja Der/tar Der_minen Der_u Der_ja Der_tar; 
+
+LIST Der_minen = Der/minen Der_minen ; 
+LIST Der_inen = Der/inen Der_inen ; 
+LIST Der_sti = Der/sti Der_sti ;
+
 
 #!! !!Sets with more members
 # ====
@@ -145,22 +422,330 @@ SET NOT-NPMODADV = WORD - NPMODADV ; #!! * NOT-NPMODADV = these cannot modify a 
 LIST QVANT-ADV = "paljon" "vähän" "enämen" "vähemän" ;  #!! * QVANT-ADV = e.g. paljon, vähän
 LIST KUNKA = "kunka" "missä" ;  #!! * KUNKA = e.g. kunka missä (adverbs that start a sentence)
 
+LIST ETTA = "että" "<etten>" "<ettet>" "<ettei>" ; # vaillettä?
+LIST VAIKKA_KUIN_JOS = "vaikka" "kuin" "jos" "ties" ; 
+LIST JOS_VAIKKA = "jos" "vaikka" ; 
+LIST JOS_KUN_KOSKA_VAIKKA = "jos" "kun" "koska" "vaikka" ; 
 
-SET S-BOUNDARY = CS OR ("mutta") OR (":") OR Rel OR @CVP OR KUNKA ;  #!! * S-BOUNDARY = words that start a sentence
+LIST Compl = CS CC "<,>" Punct "joten" "jotta" "että" "jos" "kun" "koska" "vaikka" "kuin" ; 
 
-LIST VFIN = Ind Cond Pot Imprt   ;  #!! * VFIN = finite verb
 
-LIST COPULAS = "olla" ;  #!! * COPULAS = olla
+LIST MIKA = "mikä" ;
+LIST MIKA-KUKA = "mikä" "kuka" ;
+LIST KUINKA-MITEN-MIllOIN = "kuinka" "miten" "milloin" ; 
+SET QWords = MIKA-KUKA OR KUINKA-MITEN-MIllOIN ;
+
+
+#!! Boundaries
+
+SET CP = Interr OR Rel OR QWords OR JOS_KUN_KOSKA_VAIKKA;
+
+SET NP-BOUNDARY = BOS OR EOS OR CLB OR VFIN OR InfA23 OR Act + Ess OR ConNeg OR PCP OR PPRON-NOT-GEN OR Po OR Pr OR Pcle OR CS OR CP ; # Removed VGen, Recipr, "jed", Interj
+
+SET S-BOUNDARY  = Interr OR Rel OR ("miksi") OR ("mutta") OR ("sitten") + CC OR QWords OR (";") OR (":") OR ("-") OR ("–") OR CS OR ("eikä") OR KUNKA OR @CVP ; #!! * S-BOUNDARY = words that start a sentence
+
+SET S-BOUNDARY1  = Interr OR Rel OR ("miksi") OR ("mutta") OR ("sitten") + CC OR QWords OR (";") OR (":") OR ("-") OR ("–") ;
+SET S-BOUNDARY2 = Interr OR Rel OR ("miksi") OR ("mutta") OR ("sitten") + CC OR QWords OR (";") OR (":") OR ("-") OR ("–") OR (@CVP) ;
+
+
+
+# NP boundary xxx*
+# ----------- 
+SET CNOUN = N - Prop;
+SET HNOUN = N - Cmp ;
+
+
+
+SET NP = N OR A ;                      # anything that can take except numerals
+SET NP-HEAD        = Pron OR HNOUN - ("hyvä") ;
+SET NP-HEAD-SG     = SGPRON OR N + Sg OR A + Sg - Cmp  - Dem - ("hyvä");
+SET NP-HEAD-PL     = PLPRON OR N + Pl OR A + Pl - Cmp  - Dem - ("hyvä");
+SET NP-HEAD-SG-NOM = SGPRON + Nom OR NSgNom OR ASgNom - ("hyvä") - Cmp ;
+SET NP-HEAD-PL-NOM = PLPRON + Nom OR NPlNom OR APlNom - Cmp  - ("hyvä");
+SET NP-HEAD-NOM    = NP-HEAD-SG-NOM OR NP-HEAD-PL-NOM ;
+SET NP-HEAD-ACC    = Pron + Acc OR N + Acc OR A + Acc - Cmp - Dem - ("hyvä");
+SET NP-HEAD-GEN    = Pron + Gen OR NGen OR A + Gen - Cmp - Dem - ("hyvä");
+
+# why gen?
+#SET PRE-NP-HEAD = (Prop Attr) OR Prop + (@>N) OR (A Attr) OR (Abbr Attr) OR ("hyvä") OR Pron + Pers + Gen OR NGen OR 
+SET PRE-NP-HEAD = Prop + Gen OR Prop + (@>N) OR A OR Abbr + Gen OR ("hyvä") OR Pron + Pers + Gen OR NGen OR 
+         Num OR Cmp OR CC OR Pron + Dem OR Pron + Refl + Gen OR Pron + Indef OR 
+         PrfPrc + (@>N) OR PrsPrc OR Ord OR PCP ;
+         # The strict version of items that can only be premodifiers, not parts of the predicate
+ 
+SET NOT-A = WORD - A ;
+
+SET NPNH     = WORD - PRE-NP-HEAD OR Abbr ; 
+
+# (A Pos) changed to A - 19.01.2015 -FMT+KM
+SET NAttrs = PCP OR A OR Pron OR Ord OR NGen OR Card OR UNDECL_ADJ ; 
+
+SET N_Pron_Nom = NNom OR Pron + Nom ;
+
+SET NECESSITIVE_SUBJS = NGen OR Pron + Gen ; 
+
+SET JaPcleCC = ("ja") + Pcle + CC ;
+
+
+
+#!! Verbs
+
+LIST OLLA = "olla" ;
+
+# verbs that can potentially not have a subject. Can add to these, but this is a start now.
+
+LIST Impersonal = "kannattaa" "pitää" ;
+
+
+LIST Non-Nom-Subj = "kiinnostaa" "tuntua" ; # partitive too
+
+# Sataa lunta. Paistaa aurinkoa.
+LIST Weather-Verbs = "sataa" "tuulla" "paistaa" ;
+
+SET AUXs = ("olla") + V  OR  ("ei") + V ;
+
+LIST VOI = "voida" ; 
+LIST VOIMA = "voima" ; 
+LIST YLLATTAA = "yllättää" ; 
+
+
+LIST REALCOPULAS = "olla" "voida" "saattaa" ;
+LIST COPULAS = "olla" "taitaa" "saattaa"  ; 
+LIST COP = "olla" ; 
 
 LIST MOD-ASP =  "saađa" "häyttyyt"   ; #add lemmas  #!! * MOD-ASP = auxilaries
 
-LIST AUX-OR-MAIN = "tulla" "osata" "haluta"  ; #add lemmas  #!! * AUX-OR-MAIN = verbs which can be both auxilary and mainverb
 
-SET AUX = COPULAS OR MOD-ASP OR AUX-OR-MAIN ;  #!! * AUX = verbs which can be auxilary
+
+SET VERB = V - DER - NEGV;
+  # V is all readings with a V tag in them, VERB should
+            # be the ones without an N tag following the V (compound) ;
+
+
+LIST InfA-VERB = "alkaa" "haluta" "tahtoa" "yrittää" "päättää" "saada" "voida"  "täytyä" "sallia" "luvata" "aikoa" "meinata" "pitää" "sietää" "tulla" "tarvita" "viitsiä" "antaa" "muistaa" "unohtaa" "saattaa" "uskaltaa"  "pelätä" "kannattaa" "mahtaa" "osata" ; 
+
+LIST InfMa-VERB = "päästä" "alkaa" "ruveta" "ohjeistaa" ; 
+
+LIST Ref-VERB = "ajatella" "arvella" "arvioida" "epäillä" "haluta" "havaita" "huomata" "huomauttaa" "huutaa" "ilmoittaa" "katsoa" "kerskailla" "kertoa" "kirjoittaa" "kokea" "korostaa" "kuolla" "kuulla" "kuvitella" "laskea" "luulla" "lähettää" "mainita" "muistuttaa" "myöntää" "nähdä" "näkyä" "näyttää" "odottaa" "olettaa" "osoittaa" "osoittautua" "paljastaa" "pelätä" "sallia" "sanoa" "tahtoa" "tajuta" "tarjota" "tiedostaa" "tietää" "todeta" "toivoa" "tulkita" "tuntea" "tuntua" "uskoa" "vaikuttaa" "valittaa" "vannoa" "vuotaa" "väittää" ; 
+# Ref-VERB - <REF> verbs from text_cg1.txt, there may be more of them
+
+
+LIST InfMa-Ela = "estää" "kieltää" "kieltäytyä" "lakata" "luopua" "lähteä" "pidätellä" "poistua" "päästä" "varoitella" "varoittaa" "välttyä" "yllättää" ; 
+# <Inf3-Ela> verbs from text_cg1.txt, there may be more of them
+
+LIST InfMa-Ill = "alistua" "ankara" "arka" "asettua" "astua" "auttaa" "ehtiä" "etevä" "hakea" "haluta" "harjoitella" "heittää" "herkkä" 
+"herättää" "herätä" "hidas" "hyvä" "ilmestyä" "innoittaa" "innostaa" "innostua" "johtaa" "joutua" "jättää" "jäädä" "kannustaa" "kehottaa" 
+"keskittyä" "kiinnostua" "kiire" "kokoontua" "kova" "kutsua" "kääntyä" "käydä" "kyetä" "kykenemätön" "kysyä" "luoda" "luonteva" "lähteä" "mahtua" 
+"matkustaa" "mennä" "mukautua" "määrätä" "neuvoa" "nimetä" "nimittää" "nojautua" "nopea" "nousta" "ohjata" "onnistua" "opetella" "opettaa" 
+"oppia" "osua" "pakottaa" "palkata" "paneutua" "panna" "pelastaa" "perustaa" "pistää" "pätevä" "päästä" "päästää" "päättyä" "päätyä" "pyrkiä" 
+"pystyä" "pysähtyä" "pyytää" "rajoittaa" "rientää" "riittää" "rikas" "rohkaista" "ryhtyä" "saada" "saapua" "sattua" "siirtää" "siirtyä" 
+"siittää" "sitoutua" "sokea" "sopeutua" "suostua" "suunnitella" "suuntautua" "syntyä" "syvällinen" "taata" "taipuvainen" "tarkka" "tarvita" 
+"tehdä" "tottua" "tulla" "tuoda" "täydellinen" "täysi" "uhrata" "utelias" "uudistaa" "vaatia" "vahvistaa" "valita" "valmis" "valmistautua" 
+"valmistua" "valtuuttaa" "vapaa" "vapautua" "varautua" "varma" "varoittaa" "välittää" "äänestää" ; 
+# <Inf3-Ill> verbs from text_cg1.txt, there may be more of them
+
+
+LIST Ins-Advl = "johtua" "toimia" ;
+
+LIST Ill-Advl = "keskittyä" "kiirehtiä" "luottaa" "mennä" "tulla" "vedota" ; # + all InfMa-Ill ??
+
+LIST Ela-Advl = "elää" "huolehtia" "huolia" "ilmestyä" "jutella" "kommentoida" "käydä" "nauttia" "osoittaa" "paeta" "pitkällä" "pitää" "poistua" "puhua" "päästä" "rakentaa" "siirtyä" "tehdä" "tulla" "tuottaa" "vaalia" "vilkaista" "virkkaa" "vähentää" "välittää" ; # <Ela-Advl> verbs from text_cg1.txt, there may be more of them
+ # + all InfMa-Ela ??
+
+LIST Par-OBJ = "ahdistaa" "aiheutua" "aineellistaa" "ajaa" "ajatella" 
+"aktivoida" "alentaa" "aloittaa" "analysoida" "antaa" "arpoa" "arvioida" 
+"arvostaa" "arvostella" "asettaa" "asua" "aukaista" "auttaa" "avata" 
+"avustaa" "edeltää" "edetä" "edistää" "edustaa" "ehdottaa" "elää" 
+"ennakoida" "entistää" "epäillä" "eristää" "erottaa" "esitellä" "esittää" 
+"estää" "haavoittaa" "hahmottaa" "haitata" "hakea" "hallita" "haluta" 
+"hankkia" "hapuilla" "harjoitella" "harjoittaa" "harrastaa" "haudata" "havainnollistaa" 
+"havaita" "hedelmöittää" "heijastaa" "heitellä" "heittää" "helpottaa" 
+"hengittää" "henkiä" "herättää" "hidastaa" "hoitaa" "huolia" "huomata" 
+"huutaa" "huvittaa" "häiritä" "hämmentää" "hämmästyttää" "hävetä" 
+"hävittää" "hymyillä" "hyväksyä" "hyödyttää" "ihailla" "ihmetellä" 
+"ilmaista" "ilmentää" "ilmoittaa" "inhimillistää" "innostaa" "iskeä" 
+"istua" "istuttaa" "itkeä" "jakaa" "jarruttaa" "jatkaa" "johdattaa" 
+"johtaa" "juhlia" "julkaista" "julkistaa" "juuria" "jäljitellä" "jännittää" 
+"järjestää" "järkeillä" "järkyttää" "jättää" "jynssätä" "kadottaa" 
+"kahlita" "kaihtaa" "kaivaa" "kaivata" "kaivella" "kammota" "kammottaa" 
+"kannattaa" "kantaa" "kartoittaa" "kasvattaa" "katsella" "katsoa" 
+"kauhistua" "kaunistaa" "kehittää" "kehottaa" "keittää" "keksiä" "kerrata" 
+"kertoa" "kertyä" "kerätä" "keskittää" "kestää" "kieltää" "kiinnittää" 
+"kiinnostaa" "kiittää" "kirjoittaa" "koetella" "kohdata" "kohdella" 
+"kohottaa" "kokea" "kokeilla" "kommentoida" "koota" "koristaa" "korjata" 
+"korostaa" "korottaa" "korvata" "koskettaa" "kouluttaa" "kuivaa" "kuivata" 
+"kukkia" "kuljettaa" "kulkea" "kuluttaa" "kumarrella" "kumartaa" "kumota" 
+"kunnioittaa" "kutsua" "kuulla" "kuunnella" "kuvailla" "kuvata" "kuvitella" 
+"kärsiä" "käsitellä" "käsittää" "kätkeä" "kääntää" "käynnistää" "käyttää" 
+"kylvää" "kysellä" "kysyä" "laatia" "laittaa" "laskea" "lausua" "leikata" 
+"leikkiä" "leimata" "levittää" "liata" "liikauttaa" "liikuttaa" 
+"liioitella" "liittää" "lisätä" "lopettaa" "loukata" "luetella" "lukea" 
+"luoda" "lähestyä" "lähettää" "lähetä" "löytää" "löytyä" "lykätä" "lyödä" 
+"maalata" "mainita" "mainostaa" "mairitella" "masentaa" "merkitä" 
+"miellyttää" "miettiä" "mitata" "moittia" "muistaa" "muistella" 
+"muistuttaa" "mullata" "muokata" "muotoilla" "muovata" "museoida" "muuttaa" 
+"määritellä" "myöntää" "myydä" "nauraa" "nauttia" "neuvoa" "niellä" 
+"niistää" "niittää" "nimittää" "normaalistaa" "nostaa" "nostattaa" 
+"noudattaa" "nousta" "nähdä" "näyttää" "odottaa" "ohjata" "omaksua" "omata" 
+"omia" "omistaa" "opetella" "opettaa" "opiskella" "oppia" "osata" 
+"osoittaa" "ostaa" "ottaa" "ounastella" "paeta" "paheksua" "painaa" 
+"paljastaa" "palkata" "palvella" "parantaa" "parjata" "peittää" "pelata" 
+"pelästyä" "pelätä" "periä" "perustella" "perätä" "pestä" "pettää" 
+"pidättää" "piilotella" "piirtää" "pilkata" "pirstoa" "pistää" "pitää" 
+"pohtia" "poistaa" "polkea" "potkia" "puhaltaa" "puhdistaa" "puhua" 
+"puhuttaa" "puida" "puolustaa" "purkaa" "purra" "puuttua" "pyyhkiä" 
+"pyytää" "raahata" "rajoittaa" "rakastaa" "rakentaa" "rangaista" 
+"rauhoittaa" "ravistella" "rikkoa" "saattaa" "saavuttaa" "salata" 
+"samanlaistaa" "sammuttaa" "sataa" "sattua" "selittää" "selvittää" 
+"seurata" "sietää" "siirtää" "siivota" "sijata" "sisäistää" "sisältää" 
+"sitoa" "siunata" "soittaa" "solmia" "sosiaalistaa" "soveltaa" "suitsuttaa" 
+"sukia" "sulkea" "suomia" "suoria" "suorittaa" "suosia" "suositella" 
+"surra" "suunnata" "säikähtää" "säädellä" "sääliä" "säästää" "syödä" 
+"syyttää" "tahtoa" "takoa" "tallata" "taltioida" "taluttaa" "tarjota" 
+"tarkastella" "tarkistaa" "tarkkailla" "tarkoittaa" "tarvita" "tavata" 
+"tavoitella" "tehdä" "teorioida" "tervehtiä" "tietää" "tilata" "tiukata" 
+"todeta" "toimittaa" "toistaa" "toivoa" "totella" "tuhlata" "tuhota" 
+"tukea" "tulkita" "tulvia" "tuoda" "tuottaa" "tutkia" "täydellistää" 
+"täyttää" "töniä" "tyrkyttää" "työntää" "työstää" "uhata" "uskoa" 
+"uudistaa" "vaalia" "vaarantaa" "vaatia" "vahvistaa" "vaihdella" "vaihtaa" 
+"vaimentaa" "vaivata" "valaista" "valita" "valmistaa" "valua" "varista" 
+"varjella" "varoitella" "varoittaa" "vaurioittaa" "vetää" "viestiä" 
+"viettää" "vihata" "viljellä" "vilkaista" "virallistaa" "virkistää" 
+"virrata" "virvoittaa" "voidella" "väheksyä" "vähentää" "vähätellä" 
+"väistää" "välittää" "välttää" "vääntää" "ärsyttää" "yksilöllistää" 
+"yleistää" "yliarvioida" "ylläpitää" "ymmärtää" "yrittää" ; 
+# <Ptv-OBJ> verbs from text_cg1.txt, there may be more of them
+
+LIST LOC-V = "sopia" "tulla" "mennä" "muuttaa" ;
+
+LIST Tässä-verb = "asettaa" "istua" "joutua"  "keskittyä" "kiirehtiä" "mennä" "pysyä" "rientää" "saapua" "sattua" "seistä" "siirtää" "siirtyä" "sijoittaa" "tulla" "tuoda" "vedota" "viedä" ; 
+
+LIST Tästä-verb = "liikua" "mennä" "siirtää" "siirtyä" "tulla" "tuoda" "vedota" "viedä" ;
+
+
+
+
+    # Funky Case
+    # ----------
+
+    # Partitive
+    # ---------
+
+# Sataa lunta. Paistaa aurinkoa.
+LIST Weather-Verbs = "sataa" "tuulla" "paistaa" ;
+
+
+
+
+
+    # Personal Pronouns
+    # -----------------
+
+SET ImprtActSg2 = Imprt + Act + Sg2 ;
+
+SET V-Pl = VERB + PLa ; 
+SET V-Sg = VERB + SGa ; 
+
+SET SGPRON = Pron + SGa;
+SET PLPRON = Pron + PLa;
+
+SET OBJ-CASEs = NomPl OR Par OR GenSg ;
+
+SET MINÄ = SGPRON + ("minä") ;
+SET SINÄ = SGPRON + ("sinä") ;
+SET HÄN = SGPRON + ("hän") ;
+
+# Changed from PLPRON + ("hän") etc. - 20.01.2015 - FMT+KM
+SET ME = PLPRON + ("me") ;
+SET TE = PLPRON + ("te") ;
+SET HE = PLPRON + ("he") ; 
+    # Pron Pers instead?
+
+SET FIRST_PersON_SG = MINÄ OR Sg1  OR PxSg1 ;
+SET SECOND_PersON_SG = SINÄ OR Sg2 OR PxSg2 ;
+SET THIRD_PersON_SG = HÄN OR Sg3   OR PxSg3 ;
+
+SET FIRST_PersON_PL = ME OR Pl1  OR PxPl1 ;
+SET SECOND_PersON_PL = TE OR Pl2 OR PxPl2 ;
+SET THIRD_PersON_PL = HÄN OR Pl3 OR PxPl3 ;
+
+SET THIRD_PersON_SG_Noun = HÄN OR Sg3 OR NSgNom OR PxSg3 ;
+SET THIRD_PersON_PL_Noun = HE OR Pl3 OR NPlNom OR PxPl3 ;
+
+SET ALL_PersON = FIRST_PersON_SG OR
+                 FIRST_PersON_PL OR
+                 SECOND_PersON_SG OR
+                 SECOND_PersON_PL OR
+                 THIRD_PersON_SG OR
+                 THIRD_PersON_PL OR 
+                 NSgNom ;
+
+
+SET CAP_NOCAP = N - Prop ; #CAP NOCAP ; 
+
+SET REALVFIN = VFIN - ConNeg ;
+SET PART-SUBJ = Weather-Verbs ;
+
+SET REAL_AUX = AUXs OR NEG ; # to get ettei, ellei
+SET AUX-OR-MAIN = InfA-VERB OR InfMa-VERB ; 
+SET AUX = COPULAS OR NEG OR MOD-ASP OR AUX-OR-MAIN ;
+
+
 
 SET SV-BOUNDARY = S-BOUNDARY OR VFIN   ;  #!! * SV-BOUNDARY = words that start a sentence and finite verb
 
 LIST ELA-VERB = "herättäät" "pittäät" ;
+
+
+SET VFIN-NOT-AUX = Ind - AUX ; 
+
+SET V-NOT-COPULAS = V - REALCOPULAS;
+
+SET REF = V + ActPass + PPPCPs + GenSg; 
+
+SET QWords = MIKA-KUKA OR KUINKA-MITEN-MIllOIN ;
+SET PPRON-NOT-GEN = Pron + Pers - Gen ;
+
+SET POSS_SUFF = PxPl1 | PxPl2 | PxPl3 | PxSg1 | PxSg2 | PxSg3 ;
+
+SET ALL_SGPRON = Sg1 OR Sg2 OR Sg3 OR Sg ;
+
+#SET LEX-N = N - N-DER; not used
+
+SET CNOUN = N - Prop;
+
+SET HNOUN = N - Cmp ;
+
+#SET HNOUN-NOM = NNom - Cmp ; not used
+
+#SET N-NOT-GEN = N - Gen ; not used
+
+SET VSg1 = V + Sg1 ;
+SET VSg2 = V + Sg2 ;
+SET VSg3 = V + Sg3 ;
+SET VPl1 = V + Pl1 ;
+SET VPl2 = V + Pl2 ;
+SET VPl3 = V + Pl3 ;
+                
+SET SGAGR = VSg1 OR VSg2 OR VSg3 ;
+SET PLAGR = VPl1 OR VPl2 OR VPl3 ;
+SET ALL_PLPRON = PLPRON OR SGAGR OR N + Pl ;
+
+
+# Coordinators
+# ------------
+SET Foc = Foc/han  OR Foc/kaan  OR Foc/kin  OR Foc/pa  OR Foc/s OR Foc/pas ;
+
+LIST NEGFOC = (Neg Foc/kaan) ;
+
+LIST XGO = "niinko" ;
+  # Compounds
+
+
+SET CRD = @CNP OR COMMA OR NEGFOC OR XGO OR ("/") OR ("-")  ;
+    # AFTER LCRD vs. GCRD disambiguation
+
+
 
 
 # Here come the rules
@@ -168,6 +753,9 @@ LIST ELA-VERB = "herättäät" "pittäät" ;
 BEFORE-SECTIONS
 
 REMOVE CLBfinal ;
+
+REMOVE:alphabet (".*alphabet"r) (NEGATE 0 (abbr)) ; #apertium
+REMOVE:initial ("[a-zäöå]"r) IF (0 ("[A-ZÄÖÅ]"r) + Abbr) ; # P. O. Gyllenhammer
 
 SELECT:Sem/ID Sem/ID IF (-1 ("§")) ; 
 REMOVE:Sem/ID Sem/ID IF (1 CURRENCY) ; 
@@ -177,15 +765,28 @@ SELECT:Arab Arab IF (NOT 0 Ord OR Prop OR Arab + Err/Orth) ; # In Apertium we ge
 
 REMOVE:dyn  Arab (0 Prop) ; # foreløpig løsning, til vi har ny løsning for numerals.lexc
 	
+REMOVE:Maria ("Mar") IF (0 ("Mari") OR ("Maria"));
 
 SECTION
 #!! !!Disambiguation rules
 
+#!! !Dialects
+
+REMOVE:NotVar (Dial/Var);
+REMOVE:NotJok (Dial/Jok);
+
 #!! !Early rules
 # SELECT:Dummyrule WORD IF (0 WORD) ;
 
+#!! 
+REMOVE:on ("o") IF (0 ("olla"));
+
 #!! * __person_test__ selects finite verb if there is a Pron Pers to the left
-SELECT:person_test VFIN IF (-1 Pers) ; # exempel
+#SELECT:person_test VFIN IF (-1 Pers) ; # exempel
+
+SELECT:Sg3IfSubj V + Sg3 IF (-1 Pron + Sg3 + Nom OR N + Sg + Nom); 
+SELECT:Sg2IfSubj V + Sg2 IF (-1 Pron + Sg2 + Nom);
+SELECT:Sg1IfSubj V + Sg1 IF (-1 Pron + Sg1 + Nom);
 
 #!! * __adv_after_V__ selects adverb if there is a verb to the right
 SELECT:adv_after_V Adv IF (-1 V)
@@ -260,16 +861,25 @@ MAP:CNPifInf @CNP TARGET CC IF (-1 Inf)(1 Inf) ;
 #!! !!Case rules
 
 #!! !Partitive
+
+REMOVE:SgPar Pl + Par IF (-1 Num + Sg)(0 Sg + Par);
+REMOVE:SgParSub Pl + Par IF (-1 Num + Sg LINK 0/1 Sg + Par)(0 Sg + Par);
+REMOVE:PlPar Sg + Par IF (-1C Pl + Par)(0 Pl + Par);
+
+
 REMOVE:vasthaan Nom IF (0 Par)(1 ("vasthaan"));
 #$ Eesau juoksi häntä vastaan.
 
 SELECT:häntä Par IF (-1 V)(0 ("häntä"));
 
-REMOVE:ParNotImprt Imprt IF (0 Par)(*1 Neg);
+REMOVE:ParNotImprt Imprt IF (0 Par)(*1 NEG);
 #€ Viimi aikhoin heitä ei ole näkyny ollenkhaan.
+
+SELECT:ParNP Sg + Par IF (-1C Sg + Par)(-2 QNUM);
 
 SELECT Pron IF (-1 V)(0 ("tet") + Pl + Par)(1 V);
 
+SELECT:QPar Sg + Par IF (-1C QNUM)(NOT 0 Prop);
 
 #!! Genitive
 
@@ -292,49 +902,94 @@ REMOVE:Sg3 Pl3 IF (0 Sg3)(NOT *0 Pl + Nom BARRIER Pl3);
 
 #!! !Elative
 
+#!! !!Propernouns
+
+SELECT:Bulle Nom IF (0 ("Bulle"));
+# not Bu +N+Prop+All
 
 #!! !!Verbs
 
 	
 #!! !Specific verbs	
+
+
+#!! ei negation verb
+
+SELECT:en NEG + Sg1 ; # en is not Gen of e.
+
+#!! eli
+
 SELECT:eliV V IF (-1 Pron + Rel)(0 ("eli")) ;
 	## mies joka eli ...
 
-SELECT:eliCC CC IF (-2 $$CASE)(0 ("eli"))(1 $$CASE);
+SELECT:eliCC CC IF (-1 $$CASE)(0 ("eli"))(1 $$CASE);
 	## mies eli jätkä
 SELECT:eliCC CC IF (-2 $$CASE)(-1 COMMA)(0 ("eli"))(1 $$CASE);
 	## mies eli jätkä
 SELECT:eliCC CC IF (-1 $$CASE)(0 ("eli"))(1 $$CASE);
 	## mies eli jätkä
 
+SELECT:eliCCb CC IF (-1 N + Sg + Nom)(0 ("eli"))(1 N + Sg + Nom);
+	     ## kunta eli kommuuni
+
+SELECT:eliCCc CC IF (0 ("eli"))(*0 Prs); # Idea: Prt "eli" with tense agreement in sentence
+
 SELECT:eliCCforInf CC IF (*-1 Inf BARRIER VFIN)(1 Inf) ;
 	## saattaat realiserata strategian eli auttaat kveenin kielen kehittymistä
 	
-#SELECT:eliCCdef CC IF (-1 COMMA)(1 ("\""));
-SELECT:eliCCdef CC IF (-1 COMMA)(1 PUNCT);	
+
+SELECT:CCdef CC IF (-1 COMMA)(1 PUNCT);	
 	
 #!! !!Adverbs
 
+REMOVE:AdvNotPcle Pcle IF (0 Adv)(NOT 1 CLB OR EOS);
+
+#!! !paljon
 SELECT:paljon Adv IF (0 ("paljon"))(NOT 1 Po);
+
+#!! !kerran
 SELECT:kerran Adv IF (0 ("kerran"))(1 VFIN);
 
+#!! !jälkhiin
 SELECT:jälkhiin Adv IF (-1 Par)(0 ("jälkhiin"));
 
 
 SELECT:miksi Adv IF (0 ("miksi"))(NOT 1  Tra);	
 
+
+#!! !!Adjectives
+
+REMOVE:AdjNotN N + $$NUMBER + $$CASE IF (0 A + $$NUMBER + $$CASE) (1 N + $$NUMBER + $$CASE);
+
+SELECT:eriNom A + Nom IF (0 ("eri") + Sg + Nom)(1 N + Sg + Nom);
+SELECT:eriPar A + Par IF (0 ("eri") + Sg + Par)(1 N + Sg + Par);
+
+REMOVE:ANotAdv Adv IF (0 A + $$CASE)(1 N + $$CASE) ;
+
+
 #!! !! Conjunctions
 
+REMOVE:CSnotCC CC IF (NOT -1 $$POS LINK 2 $$POS);
+
 REMOVE Prop IF (0 ("mutta"));
+
 
 #!! !!Subjunctions
 REMOVE:CS CC IF (-1 BOS OR CC)(0 CS);
 #$ Jos mie nyt olen...
 
+
+#!! että
+
+SELECT:ettaPl2 NEG + Pl2 IF (-1 Pl2 OR CS)(1 ConNeg);
+SELECT:ettaCS CS IF (0 ("että"));
+
 #!! jos
 REMOVE:josNotCC CC IF (0 ("jos" CS));
-# Awaiting exaples with CC.
-	
+# Awaiting examples with CC.
+
+REMOVE:josNotProp Prop IF (0 ("jos" CS));	
+# Awaiting examples with Jos.
 #!! ko	
 REMOVE:koNotCC CC IF (0 ("ko" CS));
 # Awaiting exaples with CC.
@@ -361,6 +1016,9 @@ SELECT:koko Pron IF (0 ("koko"))(1 N);
 
 REMOVE Attr IF (NOT 1 N);
 
+REMOVE:RelNotInterr Interr IF (0 Rel)(NOT *1 ("?" CLB));
+
+
 #!! !!Verb rules, Verbs
 
 #!! !Infinitive
@@ -368,7 +1026,12 @@ REMOVE Attr IF (NOT 1 N);
 SELECT Inf IF (-1 AUX);
 #$ Hän sai kuula ette Jeesus oli tulemassa.
 
+SELECT:InfAfterInd Inf IF (-1C Ind);
+
+
 #!! !!Present Sg3
+
+REMOVE:InfNotSg3 Inf IF (-1C N + Sg + Nom OR Pron + Sg + Nom)(0 Prs + Sg3);
 
 REMOVE:Sg3NotInf Inf IF (0 Sg3)(1 Inf);
 
@@ -378,7 +1041,14 @@ REMOVE Imprt IF (-1 Sg + Nom)(0 Prs + Sg3) ;
 
 REMOVE N IF (-1 Sg + Nom)(0 ("vastata") + Sg3) ;
 
+
+#!! !!Present Pl3 or PrsPrc
+
+REMOVE:PrsPrcNotPl3 Pl3 IF (0 PrsPrc + Sg + Nom)(1 Sg + Nom);
+
+
 #!! !!Present Pl3 or Passive
+
 
 REMOVE:Pl3NotPass Pass IF (0  Pl3)(*0 Pl3 + Nom OR Pl + Nom);
 
@@ -387,6 +1057,35 @@ REMOVE:Pl3 Sg3 IF (-1C Pl + Nom) ;
 REMOVE:Pl3 Sg3 IF (-1C Pl3 + Nom) ;
 
 REMOVE:PassNotPl3 Pl3 IF (NOT *0 Pl + Nom OR CC)(-1 Pl1 OR Pl2 OR Gen OR Par);
+
+REMOVE:CoordPl3a Pass IF (-1 Sg + Nom LINK -1 CC LINK -1 Sg + Nom)(0 Prs + Pl3);
+REMOVE:CoordPl3b Pass IF (-1 CC LINK *-1 Sg + Nom LINK -1 CC LINK -1 Sg + Nom)(0 Prs + Pl3);
+
+REMOVE:PassNotPl3Rel Pl3 IF (-1 Rel + Gen);
+#$ 		    
+
+
+#!! Imperative
+
+REMOVE:NotImprtIfLeft Imprt IF (-1 Rel OR Interr OR A OR N OR Ind);
+
+
+#!! !!Past tense
+
+#!! !Prt Pl3 or Prt Sg2
+
+REMOVE:PrtPl3NotSg2 Sg2 IF (-1 (Pl Nom))(0 (Act Ind Prt Pl3));
+		    ## Net tulit.
+
+REMOVE:PrtSg2NotPl3 Pl3 IF (-1 ("sie"))(0 (Act Ind Prt Sg2));
+		    ## Sie tulit.
+
+#!! !!Negative verb
+REMOVE:eiNeg Interj IF (0 ("ei"))(*1 ConNeg OR PrfPrc OR Inf BARRIER NEGV);
+
+#!! !!! Relative pronouns
+
+
 	
 #!! * __Pl3ollaifplrelpronandplinterrpron__ selects Pl3 if olla
 SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE)) ;
@@ -518,6 +1217,27 @@ REMOVE:ImperativeafterNeg Imprt IF (0 Pron)(*-1 Neg BARRIER WORD - Foc/kaan - Ad
 	#$ Ei yksikhään niistä jokka mie olin kuttunu.
 
 
+# Conjunctions
+
+REMOVE:CCnotAdv Adv IF (-1 N)(0 CC)(*1 N BARRIER NPNH);
+
+# QP structure
+
+REMOVE:NumNomPar Ins IF (0 Num + Sg + Nom)(1 Par) ;
+
+# NP structure
+
+# Gen
+REMOVE:GenNotIns Ins IF (0 Sg + Gen)(1 N);
+
+REMOVE:SuperlNotIne Ins IF (0 A + Superl + Nom)(1 N) ;
+
+# Attr
+SELECT:AttrAttr Attr IF (1 Attr) ;
+       ## P. A. Munch. ja E. N. Setälä
+
+SELECT:AttrN Attr IF (0 ABBR)(1 N) ;
+
 #SELECT:congruencebetweennounandverb  IF (-1 N OR 1 N LINK V) (NEGATE -1 Dem) ;
 #$ Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa ...
 #% ... niin ota vasthaan tämän lahjan minun käðestä, sillä tarkoitus oli nähðä sinun silmät ...
@@ -526,11 +1246,877 @@ REMOVE:ImperativeafterNeg Imprt IF (0 Pron)(*-1 Neg BARRIER WORD - Foc/kaan - Ad
 
 #SELECT:ConNeg ConNeg IF (-1 Neg);
 
+REMOVE:NoErrOrth Err/Orth ;
+REMOVE:NoErrOrth Err/Orth-no-q ;
+REMOVE:NoErrOrth Err/Orth-no-pal ;
+
 #!! * __interrel__ selects Interr of Rel if CS to the right
 SELECT:interrel Interr OR Rel (1 CS) ; # Ei anna mithään?
 
 #MAP (@GRAM-ERR) TARGET V (0 V + 3S LINK -1 N + S) ;
 
+
+
+# Syntax (from Finnish)
+
+
+
+# ==================== #
+# Syntax tags and sets #
+# ==================== #
+
+
+# SYNTACTIC FUNCTION DECLARATIONS
+
+# The original function declarations
+# @+FM @-FMN @-FMP @-FMI @+FAUX @-FAUX @-FMQ @H @SUBJ @NEC-S @NF-S @OBJ @PC @ADVL @N> @NN> @AD-A> @<P @P> @<PN @C @OA @A> @AUX-S @AUX-O  
+
+# These are used in nonrevised heuristic rules and therefore kept for the moment:
+LIST @SUBJ = @SUBJ @<SUBJ @SUBJ> ;
+LIST @NEC-S = @NEC-S ;
+LIST @NF-S = @NF-S ;
+LIST @OBJ = @OBJ ;
+LIST @PC = @PC ;
+LIST @<P = @<P ;
+LIST @P> = @P> ;
+
+LIST @NUM< = @NUM< ;
+LIST @>NUM = @>NUM ;
+
+# Syntactic tags from sme
+# These should be used, for tag harmonisation.
+
+LIST @+FAUXV = @+FAUXV ;
+LIST @+FMAINV = @+FMAINV ;
+LIST @-FAUXV = @-FAUXV ;
+ 
+LIST @-FMAINV = @-FMAINV ;
+LIST @-FSUBJ> = @-FSUBJ> ;
+LIST @-F<OBJ = @-F<OBJ ;
+LIST @-FOBJ> = @-FOBJ> ;
+LIST @SPRED<OBJ = @SPRED<OBJ ;
+LIST @-FADVL = @-FADVL ;
+
+SET FOBJ = @-F<OBJ OR @-FOBJ> ; 
+SET FMAINV = @-FMAINV OR @+FMAINV ;
+SET FAUXV = @-FAUXV OR @+FAUXV ;
+
+LIST @ADVL = @ADVL @ADVL> @ADVL< @<ADVL @>ADVL @-FADVL ;
+LIST @>ADVL = @>ADVL ;
+LIST @ADVL< = @ADVL< ;
+LIST @<ADVL = @<ADVL ;
+LIST @ADVL> = @ADVL> ;
+
+LIST @HAB = @HAB ;
+ 
+LIST @>N = @>N ;
+
+LIST @N< = @N< ;
+ 
+
+LIST @>A = @>A ;
+
+LIST @P< = @P< ;
+
+LIST @>P = @>P ;
+
+LIST @HNOUN = @HNOUN ;
+LIST @INTERJ = @INTERJ ;
+ 
+LIST @>Num = @>Num;
+
+LIST @Pron< = @Pron< ;
+LIST @>Pron = @>Pron ;
+
+LIST @Num< = @Num< ;
+
+LIST @<OBJ = @<OBJ ;
+LIST @OBJ> = @OBJ> ;
+LIST @OPRED = @OPRED ;
+LIST @<OPRED = @<OPRED ;
+LIST @OPRED> = @OPRED> ;
+LIST @PCLE = @PCLE ;
+LIST @COMP-CS< = @COMP-CS< ;
+ 
+LIST @SPRED = @SPRED ;
+LIST @<SPRED = @<SPRED ;
+LIST @SPRED> = @SPRED> ;
+#LIST @SUBJ = @SUBJ ;
+LIST @<SUBJ = @<SUBJ ;
+LIST @SUBJ> = @SUBJ> ;
+SET SUBJ = @<SUBJ OR @SUBJ> OR @SUBJ ;
+SET SPRED = @<SPRED OR @SPRED> OR @SPRED ;
+SET OPRED = @<OPRED OR @OPRED> OR @OPRED ;
+
+LIST @PPRED = @PPRED ;
+ 
+LIST @APP = @APP ;
+LIST @APP-N< = @APP-N< ;
+LIST @APP-Pron< = @APP-Pron< ;
+LIST @APP>Pron = @APP>Pron ;
+LIST @APP-Num< = @APP-Num< ;
+LIST @APP-ADVL< = @APP-ADVL< ;
+LIST @VOC = @VOC ;
+
+LIST @CVP = @CVP ;
+LIST @CNP = @CNP ;
+
+SET OBJ = (@<OBJ) OR (@OBJ>) OR (@OBJ) OR (@-F<OBJ) OR (@-FOBJ>) ;
+LIST <OBJ = @-F<OBJ @<OBJ ;
+LIST OBJ> = @OBJ> @-FOBJ> ;
+
+SET <OBJ-OTHERS = <OBJ OR Gen OR Nom OR Ess OR LOC-CASE OR Adv ;
+SET OBJ>-OTHERS = OBJ> OR Gen OR Nom OR Ess OR LOC-CASE OR Adv ;
+
+LIST @X = @X ;
+ 
+
+LIST ALLSYNTAG = (@+FAUXV) (@+FMAINV) (@-FAUXV) (@-FMAINV) (@-FSUBJ>)(@-FOBJ)(@-FADVL)(@>A) (@>ADVL) (@ADVL<) (@<ADVL) (@ADVL>) (@ADVL) (@HAB) (@>N) (@APP) (@APP-N<) (@APP-Pron<) (@APP>Pron) (@APP-Num<) (@APP-ADVL<) (@VOC) (@CNP) (@CVP) (@P<) (@>P) (@HNOUN) (@INTERJ) (@Pron<) (@OBJ) (@OBJ>) (@<OBJ) (@OPRED) (@<OPRED) (@OPRED>) (@SPRED<OBJ) (@PCLE) (@COMP-CS<) (@N<) (@SPRED) (@<SPRED) (@SPRED>) (@PPRED) (@Num<) (@SUBJ) (@<SUBJ) (@SUBJ>) (@X);
+
+LIST SYNT = @+FMAINV @+FAUXV @-FMAINV @-FAUXV @<SPRED @SPRED> @SUBJ @<SUBJ @SUBJ> @OBJ @<OBJ @OBJ> @NEC-S @NF-S @OBJ @PC @<P @P> @>P @N> @>N @N<  @<N @<NUM @NUM< @ADVL @<ADVL @LOC @PCLE @HAB @CVP @CNP @CNB @NES @X ;
+
+# Called SYNFYNC in cg1
+
+
+
+# ========================================================================
+
+# PRINCIPAL FUNCTION DECLARATIONS
+
+LIST PRINCIPAL-FUNCTION-DECLARATIONS = @SUBJ @OBJ @SPRED ;
+# original set was @SUBJ @OBJ @PC ;
+
+### TODO: 
+### BARRIERS in var AUP-BORDERS
+### BOS EOS "<:>" "<#>" "<(>" "<)>" "<'>" "<">" "<,>" Rel
+### "<$->" "kuinka" "miten" "milloin" "-" CS CC KO Punct) ;
+### Do not understand these… Trond.
+
+#Pl1 OR 
+#                Pl2 OR  
+#                Pl3  OR 
+#                Sg1  OR 
+#                Sg2  OR 
+#                Sg3  OR 
+
+# ========================================================================
+
+
+
+# Complementizers 
+# ---------------
+
+# Simple for now.
+
+MAP (@CVP) TARGET ("kun") ;
+MAP (@CNP) TARGET ("ja") + CC ;
+
+# NP-internal things @>N, @N<
+# ------------------
+
+
+
+
+MAP (@>N) TARGET Pron + Indef + ("kaikki") IF (2 N) (2 $$ALLCASES) (1 Pron + Pers + Gen) ;
+    # Kaikki sinun ystävät ovat täällä.
+    # Täällä on kaikki sinun ystävät.
+
+
+
+MAP (@>N) TARGET Pron + Indef + ("kaikki") IF (3 N) (3 $$ALLCASES) (2 $$ALLCASES) (2 A) (1 Pron + Pers + Gen) ;
+    # Kaikki sinun vanhat ystävät ovat täällä.
+
+    # This also checks that cases agree... Can add this to other N attrs 
+MAP (@>N) TARGET Pron + Dem IF (1 N) (1 $$ALLCASES) (0 $$ALLCASES) ;
+    # Hän rakentaa siihen alttarin.
+    # Hän heitti sen siihen taloon.
+
+MAP (@>N) TARGET Pron + Gen IF (1 N) ;
+MAP (@>N) TARGET Pron + Gen IF (2 N) (2 $$ALLCASES) (1 $$ALLCASES);
+
+MAP (@>N) TARGET NAttrs IF (*1 N BARRIER NP-BOUNDARY) (NEGATE 0 V + PrfPrc LINK -1 ("olla")) (0 $$ALLCASES LINK *1 $$ALLCASES BARRIER CLB) ; # (*1 N BARRIER CLB) ;
+
+    # TODO: Need to include conjunctions
+    # Saapuneet ja käsitellyt asiat vuonna 2009.
+
+    # Iso punainen talo on siellä 
+    # Se sama ongelma häiritsi häntä.
+    # Se sama iso punainen talo ... 
+
+    # Fail: Minä@>N tulen kello kolme
+    # Do not mark on Hän ei ole lähettänyt kirjettä.
+
+MAP (@>N) TARGET PCPs IF (*1 N BARRIER NP-BOUNDARY) ;
+
+MAP (@>N) TARGET NNom IF (1 N) ;
+    # Fail: Ja Herra Talonmies tulee myös.
+
+MAP (@>N) TARGET Acro IF (0 Acro LINK *1 Prop BARRIER Prop); 
+    # Fail: Ja Mr. J. Tiainen tulee ... 
+    
+
+MAP (@N<) TARGET Num IF (-1 N) ;
+MAP (@N<) TARGET ("itse") IF (-1 Pron) (0 $$ALLCASES) (-1 $$ALLCASES) ;
+
+MAP (@>N) TARGET N + Gen IF (-1C CS)(1 N);
+MAP (@>N) TARGET Sem/Sign IF (1 (N));
+
+# Mapping subjects and objects
+# ----------------------------
+
+#Subj to the right of verb, in e-sentences
+
+MAP (@<SUBJ) TARGET Par (*-1 COPULAS BARRIER S-BOUNDARY2) (NEGATE 0 WORD LINK *-1 Pr BARRIER Pr) (NEGATE 0 WORD LINK 1 Par) ;
+	# Minulla on rahaa. Kadulla on rahaa.
+	
+
+	
+# Subj to the left of verb
+MAP (@SUBJ>) Target Sg + Nom IF (*1 V + Act + Sg3 ) ;
+MAP (@SUBJ>) Target Pl + Nom IF (*1 V + Act + Pl3 ) ;
+
+# Jukan isä ja äiti menivät kotiin koska heidän oli pakko ostaa auto.
+# Removed @NEC-SUBJ; two tags = bad
+MAP (@SUBJ>) TARGET Gen IF (*1 (@NES) BARRIER CLB) ;
+MAP (@<OBJ) TARGET NNom IF (*-1 Gen) (*-1 NES) ;
+
+# Me ostettiin kirja.
+MAP (@SUBJ>) TARGET ME (0 Pron LINK *1 Pass BARRIER CLB) ;
+MAP (@<OBJ) TARGET NNom IF (*-1 Pass) (*-1 Nom) ;
+    # Needs barriers
+
+MAP (@N>) TARGET NSgNom IF (1 Prop) ;
+MAP:GenN (@N>) TARGET Gen IF (1 N) ;
+
+# LIST Cases = Ill Ine ; 
+# MAP (@N>) Pron + Dem IF (1 N) (1 $$Cases) (0 $$Cases) ;
+
+# MAP (@N>) TARGET Pron + Dem IF (1 N) ;
+MAP (@N>) TARGET Pron + Dem IF (1 A) (2 N);
+
+# Jukka osti kirjan.
+
+
+MAP (@SUBJ>) TARGET Nom (*1 Act BARRIER CLB) ;
+# MAP (@SUBJ>) TARGET Ade IF (*1 AUXs BARRIER CLB) ;
+    # Kaikki sinun ystävillä@SUBJ-> on kissoja.
+
+MAP (@SUBJ>) TARGET N_Pron_Nom IF (NEGATE *-1 VFIN BARRIER CLB) (*1 VFIN BARRIER S-BOUNDARY2 OR @SUBJ>) (NEGATE 0 ("kaikki") LINK *1 NNom BARRIER V) (NEGATE 0 ("kaikki") LINK *1 NNom BARRIER V) ;
+
+
+    # Kaikki sinun ystävät@SUBJ> ovat täällä.
+    # Kaikki@SUBJ> on täällä.
+
+
+MAP (@SUBJ>) TARGET N_Pron_Nom IF (*-1 CC BARRIER NPNH LINK -1 Nom) ;
+MAP (@SUBJ>) TARGET (Rel Nom) IF (*1 VFIN BARRIER S-BOUNDARY2) ;
+
+# Subject partitive mapping 
+MAP (@SUBJ>) TARGET NPar IF (NEGATE *-1 Nom BARRIER CLB) (NEGATE *1 Nom BARRIER CLB) (*1 REALCOPULAS BARRIER CLB);
+    
+    # Mutta tällaisia tietosanakirjoja ei suomeksi ole.
+    # Asukkaita Tromssassa on 60 000.
+
+
+MAP (@SUBJ>) TARGET NPar IF (NEGATE *-1 Nom BARRIER CLB) (NEGATE *1 Nom BARRIER CLB) (*-1 REALCOPULAS BARRIER CLB) ;
+
+MAP (@SUBJ>) TARGET NPlPar IF (NEGATE -1 WORD) (*1 REALCOPULAS BARRIER V) (*1 Num)  ;
+
+# MAP (@SUBJ>) TARGET NPar IF (NEGATE *-1 Nom BARRIER CLB) (NEGATE *1 Nom BARRIER CLB) (*-1 REALCOPULAS BARRIER CLB) (NEGATE -1 WORD) (1 REALCOPULAS) (*1 (Num Nom)) ;
+
+# Necessitive subjects
+# --------------------
+
+MAP (@SUBJ>) TARGET NECESSITIVE_SUBJS IF (1 V + Act + Sg3) (1 REAL_AUX) (2 V + Pass + PrsPrc);
+    # Minun on mentävä.
+
+MAP (@SUBJ>) TARGET NECESSITIVE_SUBJS IF (1 V + Act + Sg3) (2 NES) ;
+    # Minun on pakko mennä.
+    
+MAP (@SUBJ>) TARGET NECESSITIVE_SUBJS IF (1 NES) (2 InfA) ;
+    # Minun pitää mennä.
+
+
+# MAP (@SUBJ>) TARGET (Pron Gen) IF (1 V + Act + Sg3) (1 REAL_AUX) (2 InfA) ;
+
+
+# Siellä sataa lunta.
+MAP (@<SUBJ) TARGET Par (*-1 V-NOT-COPULAS BARRIER S-BOUNDARY2) (NEGATE 0 WORD LINK *-1 Pr BARRIER Pr) (NEGATE 0 WORD LINK 1 Par) (*-1 PART-SUBJ) ;
+
+# Ihmisiä tungeksi torilla. 
+
+MAP (@<OBJ) TARGET Gen IF (-1 Act); #BARRIER CLB);# (NEGATE 0 WORD LINK 1 Gen) (NEGATE 0 WORD LINK *1 @<OBJ BARRIER CLB) (NEGATE 0 WORD LINK *1 Par BARRIER CLB) (NEGATE 0 WORD LINK *-1 REALCOPULAS BARRIER CLB OR VFIN) (NEGATE 0 WORD LINK 1 Po) (NEGATE 0 WORD LINK *-1 Neg BARRIER V);
+
+MAP (@<OBJ) TARGET Gen IF (*-1 Act BARRIER CLB) (NEGATE 0 WORD LINK 1 Gen) (NEGATE 0 WORD LINK *1 @<OBJ BARRIER CLB) (NEGATE 0 WORD LINK *1 Par BARRIER CLB) (NEGATE 0 WORD LINK *-1 REALCOPULAS BARRIER CLB) (NEGATE 0 WORD LINK 1 Po) (NEGATE 0 WORD LINK *-1 Neg BARRIER V);
+
+    # Hän käski minun tehdä sen.
+
+MAP (@<OBJ) TARGET Gen IF (-1 Act) (NEGATE 0 WORD LINK *1 Po BARRIER Po) (NEGATE 0 WORD LINK *-1 Neg BARRIER V) ;
+
+    # Luin sen ennen uutisia.
+    # Istuin pöydän alla. -- Do not mark @OBJ in this instance.
+    # No Gen if negative precedes.
+    # Ettei minun äidin ystävä ole tullut.
+
+# Lounas syötiin
+MAP (@OBJ>) TARGET Nom (*1 Pass) (NEGATE 0 NES) ; 
+    # Needs barriers
+    # Removed NES.
+
+MAP (@<SPRED) TARGET ("pakko") IF (-1 REAL_AUX) ;
+    # pakko - @SPRED
+
+
+# Syötiin lounas
+MAP (@<OBJ) TARGET Nom IF (*-1 Pass) ;
+MAP (@<OBJ) TARGET Par IF (*-1 Neg) ; #) (NEGATE 0 WORD LINK *-1 Punct *-2 Neg) ;
+    # Needs barriers 
+    
+
+# Hän katsoi sitä ja otti sen pois. 
+
+# MAP (@<OBJ) TARGET Par IF (NEGATE 0 WORD LINK *-1 Pr BARRIER Pr) (NEGATE 0 WORD LINK 1 Par) (*-1 V-NOT-COPULAS BARRIER S-BOUNDARY2) ;
+
+MAP (@<OBJ) TARGET OBJ-CASEs IF (NEGATE 0 WORD LINK *-1 Pr BARRIER Pr) (NEGATE 0 WORD LINK 1 Par) (*-1 V-NOT-COPULAS BARRIER S-BOUNDARY2) (NEGATE 0 Pron + Nom);
+
+# Need to not map obj in this case, rather subject or @<SPRED.
+
+MAP (@<OBJ) TARGET Par IF (*-1 V-NOT-COPULAS BARRIER S-BOUNDARY2) (NEGATE 0 WORD LINK *-1 Pr BARRIER Pr) (NEGATE 0 WORD LINK 1 Par) (NEGATE 0 WORD LINK *-1 PART-SUBJ) ;
+
+
+    # Minä aion lukea kirjaa ennen näitä erikoisen tyhmiä uutisia.
+    
+
+# ??? Löytyi aika paljon materiaaleja ihan kaduilta.
+# OBJ marking
+
+# Hän huomasi minut.
+MAP (@<OBJ) TARGET Acc IF (*-1 V BARRIER S-BOUNDARY2) ;
+
+# Minut huomattiin.
+MAP (@OBJ>) TARGET Acc IF (*1 V BARRIER S-BOUNDARY2) ;
+
+# Possible object issues fixed by:
+#1. checking if there is anything that the Gen modifies to the right
+#2. possibly time expressions that are in Genitive that presupposes that they are TIME-words you can make a set TIME = year, month, august, tuesday etc.
+#I don't know in which other ways Gen is used in fin
+
+# IV and TV tags?
+
+
+    # Numeral and numeral complement mappings
+    # ---------------------------------------
+
+# Simple for now... 
+MAP (@NUM<) TARGET N IF (-1 NUMS) ;
+MAP (@NUM<) TARGET N IF (-1 NUMS) ;
+
+
+# ensimmäinen
+LIST Ensimmainen = "ensimmäinen" ;
+REMOVE (N $$ALLCASES) IF (0 Ensimmainen + Num)(1 N + $$ALLCASES);
+#REMOVE N IF (0 Ensimmainen + Nom)(1 NNom);
+
+REMOVE ("ensimmäinen") + N IF (0 Num + $$ALLCASES)(1 $$ALLCASES);
+REMOVE N IF (0 Ensimmainen + $$ALLCASES)(1 A + $$ALLCASES);
+
+# Verb mappings
+# ------------- 
+
+# Mostly same as sme rule, but removed (0 ("orrut")); is it worth including copulas here? Finnish doesn't quite have quite the same here
+MAP (@+FMAINV) TARGET VFIN IF (NEGATE *0 VERB BARRIER S-BOUNDARY2 OR CC) ;
+
+#!! * __+FMAINV__  to the remaining finite verbs which are not AUX    
+MAP:+FMAINV (@+FMAINV) TARGET VFIN-NOT-AUX (NOT 0 V + OBJ OR V + SUBJ OR V + @ADVL OR (V @>N) OR (V @N<))(NEGATE *0 VFIN-NOT-AUX OR @+FMAINV BARRIER S-BOUNDARY OR COMMA OR LEFT OR RIGHT) (NEGATE *-1 (V @>N) BARRIER NOT-A OR LEFT)
+	(NEGATE *-1 V - @>N BARRIER S-BOUNDARY OR COMMA OR LEFT)
+	(NEGATE *1 VFIN OR PrfPrc - @>N BARRIER S-BOUNDARY OR COMMA OR RIGHT)(NEGATE 0 InfA LINK -1 CC LINK *-1 InfA BARRIER REAL-V LINK -1 AUX) ;
+	#$ Boađe boahtte vahku.
+	#$ Son lea oappáin náitalan.
+
+
+MAP (@+FAUXV) TARGET InfA-VERB IF (*1 InfA BARRIER V) ; 
+MAP (@+FAUXV) TARGET InfMa-VERB IF (*1 InfMa BARRIER V) ; 
+    # Äidin vanha ystävä voisi kyllä yrittää.
+    # Äidin vanha ystävä voisi yrittää.
+    # Äidin vanha ystävä voisi kyllä tulla käymään ensi vuonna.
+    #                  @+FAUXV      @-FMAINV @-FMAINV
+MAP (@+FAUXV) TARGET V IF (0 ("olla") + Ind) (*1 PrfPrc BARRIER V) ;
+MAP (@+FAUXV) TARGET V IF (0 COP) (1 PrfPrc) ; 	
+    # Minä olen tullut.
+
+MAP (@+FMAINV) TARGET VFIN IF (0 AUX-OR-MAIN) (NEGATE *1 InfV BARRIER S-BOUNDARY2) ;
+
+MAP (@+FMAINV) TARGET PCP IF (*-1 REAL_AUX BARRIER CLB) ;
+
+
+MAP (@-FMAINV) TARGET InfV IF (0 InfV) ;
+MAP (@-FMAINV) TARGET VFIN IF (0 InfV) (NEGATE *1 PrfPrc OR InfMa BARRIER SV-BOUNDARY) ;
+
+
+MAP (@-FAUXV) TARGET ConNeg (-1 Neg) ;
+MAP (@-FAUXV) TARGET ConNeg (-1 Neg LINK -1 Nom) ;  # (*1 NNom BARRIER NPNH LINK *-1 Neg LINK -1 Nom) ; 
+
+
+MAP (@+FAUXV) TARGET REAL_AUX IF (NEGATE 0 ConNeg) ;
+MAP (@+FAUXV) TARGET REAL_AUX ;
+
+
+
+# Minä en ole (koskaan) soittanut Jukalle.
+MAP (@-FAUXV) TARGET PrfPrc IF (*-1 REALCOPULAS BARRIER CLB) ;
+MAP (@-FAUXV) TARGET InfV IF (*-1 REALCOPULAS BARRIER CLB) ;
+
+# minun pitää ostaa kirja
+MAP (@NES) TARGET NES IF (*-1 Gen BARRIER CLB) ;
+
+# Predicates
+# ----------
+
+MAP (@<SPRED) TARGET A IF (*-1 REALCOPULAS BARRIER CLB) ;
+
+MAP (@SPRED) TARGET ("pakko") IF (*-1 REALCOPULAS BARRIER CLB) ;
+    # pakko - @SPRED
+
+MAP (@<SPRED) TARGET NNom IF (*-1 REALCOPULAS BARRIER CLB) ;
+
+    # TODO: Spred on wrong thing, obj assigment in weird places:
+    # Onko mikään kansa kuullut Jumalan äänen puhuvan tulen keskeltä.
+    
+
+# Adverbials
+# ----------
+
+# @ADVL - to do
+
+SET Adp+Poss = Po + ALL_PersON OR 
+               Pr + ALL_PersON OR 
+               Adv + ALL_PersON;
+
+MAP (@ADVL) TARGET Adv ;
+MAP (@ADVL) TARGET Adp+Poss ;
+MAP (@ADVL) TARGET (Po) ; 
+
+
+
+
+MAP (@PCLE) TARGET Pcle ;
+
+MAP (@Num<) TARGET NSgPar (-1 Num) ; # kaksi kirjaa
+
+MAP (@Num<) TARGET NSgNom (-1 Num) ; # yksi kirja
+
+SELECT Num (1 (@Num<)) ; # make sure number is selected
+
+LIST NPron = N Pron ;
+
+LIST PrCase = Par Gen ;
+LIST PoCaseNonLoc = Par Gen ;
+
+
+# Habitive mappings 
+# -----------------
+
+# I do not yet have the sanity to implement an animacy hierarchy ;) ;
+# hän ei saa tietää, että minulla on kaksi kissaa.
+MAP (@HAB) TARGET Ade IF (0 Pron + Pers) (1 REALCOPULAS) ;
+
+
+# Prepositions and Postpositions
+# ------------------------------
+
+# So far I'm only tagging the heads of NPs, apparently. E.g., lähellä tätä vanhaa metsää(@P).
+
+
+
+LIST PoCase =   Ela Abl Par Gen ;
+
+SET PRON_PO_CASE = NPron + PoCase ; 
+SET PRON_PR_CASE = NPron + PrCase ;
+
+
+   # Postposition Complements
+   # ------------------------
+   
+MAP (@>P) TARGET PRON_PO_CASE IF (1 Po) ;
+
+
+    # Preposition Complements
+    # -----------------------
+
+MAP (@<P) TARGET PRON_PR_CASE IF (*-1 Pr BARRIER Pr) ; 
+MAP (@<P) TARGET PRON_PR_CASE IF (*-1 Pr BARRIER Pr) ; 
+
+# Ennen näitä erikoisen tyhmiä uutisia.
+# ^----------------------------^
+
+# Lähellä tätä vanhaa metsää nukkuu suuri hämähäkki.
+# Tämän vanhan metsän lähellä nukkuu suuri hämähäkki.
+# Suuri hämähäkki nukkuu tämän vanhan metsän lähellä.
+# Etc.
+
+
+
+# Existential Sentences
+# ---------------------
+# ***
+# REMOVE InfA IF (*-1 (@SUBJ>)) ;
+
+# Ihmisiä tungeksi kadulla.
+# This is not solved yet.
+MAP (@<ADVL @LOC) TARGET LOC-CASE (-1 VSg3 + Act + Ind + Prt) ;
+MAP (@SUBJ>) TARGET Par (1 VSg3) (*1 @<ADVL) ;
+
+MAP:AllAdvl (@<ADVL) TARGET LOC-CASE IF (*-1 VFIN);
+MAP:AllAdvl (@ADVL>) TARGET LOC-CASE IF (*1 VFIN);
+
+
+
+# Stray NP HNOUN mapping
+
+#!! !!HNOUN MAPPING
+
+MAP:hnounNom (@HNOUN) TARGET NP-HEAD-NOM - A OR (Num Nom) 
+(NEGATE *0 V BARRIER (":"))(NEGATE *-1 PUNCT BARRIER (":") LINK -1 WORD) 
+;
+
+MAP:hnounNom (@HNOUN) TARGET A OR (Num Nom) (*-1 BOS BARRIER WORD)(*1 EOS BARRIER WORD) ;
+
+
+MAP:HNOUN<advl (@<SPRED) TARGET Sem/Adr (-1 (":") LINK -1 Nom) ;
+	#$ Fiskes, rukses, alit, ruoná ja muđui buotlágaš ivnnit.
+	#$ Bargolávdegotti bargu: Álgobargu lei čielggadit min mandáhta.
+
+MAP:hnounAdvl (@HNOUN) TARGET ADVLCASE OR Acc (NEGATE *0 REAL-V OR @HNOUN) ;
+	#$ Juoba ge dán áigodagas.
+MAP:hnounInterj (@HNOUN) TARGET Acc (*-1 Interj BARRIER NOT-NPMOD) ;
+
+#!!	* __ADVLheadliner__	
+MAP:ADVLheadliner (@ADVL>) TARGET ADVLCASE OR Sem/Time (*1 @HNOUN) ;	
+	#$ Vuosttaš geasi nissonolmmoš bajimusas.
+
+
+MAP:HNOUNn< (@N<) TARGET ADVLCASEAdv (*-1 @HNOUN BARRIER CRD OR (":") OR LEFT LINK NOT 0 Num OR Pron)(NEGATE 0 Sem/Plc + LOCCASE LINK -1 Superl) ;
+MAP:HNOUNn< (@N<) TARGET ADVLCASEAdv (-1 CRD LINK -1 @N<)(1 EOS) ;
+MAP:HNOUN<advl (@<ADVL) TARGET ADVLCASEAdv (*-1 @HNOUN BARRIER CRD OR (":")) ;
+MAP:advl>HNOUN (@ADVL>) TARGET ADVLCASEAdv (*1 @HNOUN BARRIER CRD OR (":")) ;
+MAP:HNOUN<obj (@<OBJ) TARGET Acc (*-1 @HNOUN) ;
+	#% Birasgáhttenlihkadus ja álgoálbmogat - ovttasbargit vai vuostálágaid?
+MAP:obj>HNOUN (@OBJ>) TARGET Acc (*1 @HNOUN) ;
+MAP:HNOUN<spred1 (@<SPRED) TARGET (A Nom) (*-1 @HNOUN) ;
+	#$ Dii guoktilaččat!
+MAP:spred>HNOUN (@SPRED>) TARGET (A Nom) (*1 @HNOUN) ;
+MAP:HNOUN<spred2 (@<SPRED) TARGET (A Nom) OR (N Nom) (*-1 PUNCT BARRIER REAL-V LINK *-1 @HNOUN) ;
+	#$ Birasgáhttenlihkadus ja álgoálbmogat – ovttasbargit vai vuostálagaid?
+MAP:HNOUN<spred3 (@<SPRED) TARGET (N Ess) (*-1 Nom BARRIER V) ;
+	#$ Mu dárkileamos muittut internáhttaskuvllas leat dán áigodagas; 10 vuosttaš jagi álbmot- ja joatkkaskuvlla (framhaldskuvlla) oahpaheaddjin, ja muhtin áigodagaid internáhttahoavdan, 12 maŋimus jagi nuoraidskuvlla jođiheaddjin ja eanaš oahppit orro internáhtas.
+MAP:HNOUNcoor (@HNOUN) TARGET N (-1 @CNP LINK -1 @HNOUN) ;
+	#$ Oslos ja Londonis.
+
+MAP (@ADVL) TARGET Adv (-1 BOS) ;
+#!! * __@<ADVLcoor__ (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
+MAP:@<ADVLcoor (@<ADVL) TARGET ADVLCASEAdv (-1 @CNP LINK -1 ADVLCASEAdv) ;
+	#$ Odne vai ihttin?
+
+	#$ Báhpaeamit, Margrethe Wiig, gii lei gasku giellamoivvi, ráhkadii iežas sárgumiiguin sámegiela Áppesa, mii lei stuorra ávkin sámegiela oahpahusas.
+
+
+
+
+
+
+
+
+# Currently this is tied to a subject and adverbial
+# Ideally it should be more about nonagreeing subjects
+# Also @EXIST(ENTIAL) is arguably more semantic than anything.
+# MAP (@EXIST) TARGET VSg3 (*1 @<ADVL) (*-1 @SUBJ>) ;
+
+# It seems like it would be a good idea to mark whether the subject
+# is not agreeing with the verb for person or number to better target existentials
+
+# MAP (@NONAGR) TARGET VSg3 (*-1 N + Pl + @SUBJ>) ;
+# SYNTACTIC-CONSTRAINTS
+
+
+SECTION
+
+#HEURISTIC-SYNTACTIC-CONSTRAINTS
+#not available at present!!!
+# (IF INVOKE-H-RULES? (INVOKE-HEUR-SYNT-RULES))  eliminated July 9, 2000
+
+#MORPHOLOGICAL-HEURISTICS
+#numerals like ("<16\:ta>") ; # "<16\:ta>"%n%t(<Digit> Num Sg Par) ; #         2 0 0 0 5 1
+#are dealt with in ftwpost.bta, 23.1.2001, and in cgp, cf "dummy" for base
+
+#$# Lines commented out with #$# due to regex compilation problems. Have a look.
+
+#$# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET (Abbr Sg Gen) (1 ("<(.*):in>"r)) (2 ("<(.*):in>"r)) ;
+#$# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET (Abbr Sg Gen) (1 ("<(.*)'in>"r)) (2 ("<(.*)'in>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):tta>"r)) (2 ("<(.*):tta>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):ta>"r)) (2 ("<(.*):ta>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):ttä>"r)) (2 ("<(.*):ttä>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):tä>"r)) (2 ("<(.*):tä>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):aa>"r)) (2 ("<(.*):aa>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):a>"r)) (2 ("<(.*):a>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):ää>"r)) (2 ("<(.*):ää>"r)) ;
+#$# MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET (Abbr Sg Par) (1 ("<(.*):ä>"r)) (2 ("<(.*):ä>"r)) ;
+#$# MAP (@ADVL) TARGET (Abbr Sg Ine) (1 ("<(.*):ssa>"r)) (2 ("<(.*):ssa>"r)) ;
+#$# MAP (@ADVL) TARGET (Abbr Sg Ine) (1 ("<(.*):ssä>"r)) (2 ("<(.*):ssä>"r)) ;
+#$# MAP (@ADVL) TARGET (Abbr Sg Ela) (1 ("<(.*):sta>"r)) (2 ("<(.*):sta>"r)) ;
+#$# MAP (@ADVL) TARGET (Abbr Sg Ela) (1 ("<(.*):stä>"r)) (2 ("<(.*):stä>"r)) ;
+#$# MAP (@ADVL) TARGET (Abbr Sg Ill) (1 ("<(.*):aan>"r)) (2 ("<(.*):aan>"r)) ;
+#$# MAP (@ADVL) TARGET (Abbr Sg Ill) (1 ("<(.*):ään>"r)) (2 ("<(.*):ään>"r)) ;
+#$# MAP (@ADVL) TARGET (Abbr Sg Ade) (1 ("<(.*):lla>"r)) (2 ("<(.*):lla>"r)) ;
+#$# MAP (@ADVL) TARGET (Abbr Sg Ade) (1 ("<(.*):llä>"r)) (2 ("<(.*):llä>"r)) ;
+#$# MAP (@ADVL) TARGET (Abbr Sg Abl) (1 ("<(.*):lta>"r)) (2 ("<(.*):lta>"r)) ;
+#$# MAP (@ADVL) TARGET (Abbr Sg Abl) (1 ("<(.*):ltä>"r)) (2 ("<(.*):ltä>"r)) ;
+#$# MAP (@ADVL) TARGET (Abbr Sg All) (1 ("<(.*):lle>"r)) (2 ("<(.*):lle>"r)) ;
+#$# ##MAP ((DASH) (@1 (^ ("->"r)) ($ ("->"r)) (@2 NIL) ; # XXXX
+#$# ##MAP ((Abbr Sg Nom (@SUBJ @OBJ @PC)) (@1 (NEGATE * ("i>"r)) (NEGATE * ("e>"r)) (NEGATE * ("ä>"r)) (NEGATE * ("y>"r)) (NEGATE * ("ö>"r)) (NEGATE * ("u>"r)) (NEGATE * ("o>"r)) (NEGATE * ("a>"r)) (NEGATE * ("I>"r)) (NEGATE * ("E>"r)) (NEGATE * ("[>"r)) (NEGATE * ("Y>"r)) (NEGATE * ("_>"r)) (NEGATE * ("U>"r)) (NEGATE * ("O>"r)) (NEGATE * ("A>"r)) (NEGATE * (":>"r)) (@2 NIL) ;
+#$# MAP (@SUBJ @OBJ @PC) TARGET (Abbr Sg Nom) (@1 (* (":kin>"r)) (2 ("<(.*)x:kin>"r)) ;
+#$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)uksessa>"r)) (2 ("<(.*)uksessa" ("us>"r)) ;
+#$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)yksessä>"r)) (2 ("<(.*)yksessä" ("ys>"r)) ;
+#$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)ssa>"r)) (2 ("<(.*)ssa>"r)) ;
+#$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)ssä>"r)) (2 ("<(.*)ssä>"r)) ;
+#$# MAP (@ADVL) TARGET NSgEla (1 ("<(.*)sta>"r)) (2 ("<(.*)sta>"r)) ;
+#$# MAP (@ADVL) TARGET NSgEla (1 ("<(.*)stä>"r)) (2 ("<(.*)stä>"r)) ;
+#$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)uksella>"r)) (2 ("<(.*)uksella" ("us>"r)) ;
+#$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)yksellä>"r)) (2 ("<(.*)yksellä" ("ys>"r)) ;
+#$# MAP (@ADVL) TARGET NSgAde (1 ("<(.*)lla>"r)) (2 ("<(.*)lla>"r)) ;
+#$# MAP (@ADVL) TARGET NSgAde (1 ("<(.*)llä>"r)) (2 ("<(.*)llä>"r)) ;
+#$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)ukselta>"r)) (2 ("<(.*)ukselta" ("us>"r)) ;
+#$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)ykseltä>"r)) (2 ("<(.*)ykseltä" ("ys>"r)) ;
+#$# MAP (@ADVL) TARGET NSgAbl (1 ("<(.*)lta>"r)) (2 ("<(.*)lta>"r)) ;
+#$# MAP (@ADVL) TARGET NSgAbl (1 ("<(.*)ltä>"r)) (2 ("<(.*)ltä>"r)) ;
+#$# MAP (@ADVL) TARGET NSgIne (1 ("<(.*)ukselle>"r)) (2 ("<(.*)ukselle" ("us>"r)) ;
+#$# MAP (@ADVL) TARGET NSgAll (1 ("<(.*)lle>"r)) (2 ("<(.*)lle>"r)) ;
+### MAP (@SUBJ @OBJ @PC) TARGET NSgNom (1 ("<(.*)man>"r)) (@2 NIL) ;
+### MAP (@SUBJ @OBJ @PC) TARGET NSgNom (1 ("<(.*)nen>"r)) (@2 NIL) ;
+### MAP (@SUBJ @OBJ @PC) TARGET NSgNom (1 ("<(.*)sson>"r)) (@2 NIL) ;
+### MAP (@SUBJ @OBJ @PC) TARGET NSgNom (1 ("<(.*)stein>"r)) (@2 NIL) ;
+MAP (@ADVL) TARGET APlIll (1 ("<(.*)isiin>"r)) (2 ("<(.*)isiin"r) + ("<(.*)inen>"r)) ;
+MAP (@ADVL) TARGET NPlIll (1 ("<(.*)uksiin>"r)) (2 ("<(.*)uksiin"r) + ("<(.*)us>"r)) ;
+MAP (@ADVL) TARGET NPlIll (1 ("<(.*)yksiin>"r)) (2 ("<(.*)yksiin"r) + ("<(.*)ys>"r)) ;
+MAP (@ADVL) TARGET NPlIll (1 ("<(.*)eihin>"r)) (2 ("<(.*)eihin"r) + ("<(.*)i>"r)) ;
+MAP (@ADVL) TARGET NPlIll (1 ("<(.*)aihin>"r)) (2 ("<(.*)aihin"r) + ("<(.*)as>"r)) ;
+MAP (@ADVL) TARGET NPlIll (1 ("<(.*)äihin>"r)) (2 ("<(.*)äihin"r) + ("<(.*)äs>"r)) ;
+MAP (@ADVL) TARGET NPlIll (1 ("<(.*)oihin>"r)) (2 ("<(.*)oihin>"r)) ;
+MAP (@ADVL) TARGET NPlIll (1 ("<(.*)uihin>"r)) (2 ("<(.*)uihin>"r)) ;
+MAP (@ADVL) TARGET NPlIll (1 ("<(.*)yihin>"r)) (2 ("<(.*)yihin>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)ukseen>"r)) (2 ("<(.*)ukseen"r) + ("<(.*)us>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)ykseen>"r)) (2 ("<(.*)ykseen"r) + ("<(.*)ys>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)ihin>"r)) (2 ("<(.*)hin>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)ismiin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)ointiin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)iittiin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)eettiin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)aattiin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)äättiin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)uuttiin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)oottiin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)iinkin>"r)) (2 ("<(.*)inkin>"r)) ;
+MAP (@ADVL) TARGET NSgIll (1 ("<(.*)iin>"r)) (2 ("<(.*)iin>"r)) ;
+MAP (@ADVL) TARGET NSgEss (1 ("<(.*)uksena>"r)) (2 ("<(.*)uksena"r) + ("<(.*)us>"r)) ;
+MAP (@ADVL) TARGET NSgEss (1 ("<(.*)yksenä>"r)) (2 ("<(.*)yksenä"r) + ("<(.*)ys>"r)) ;
+MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET NSgPar (1 ("<(.*)usta>"r)) (2 ("<(.*)usta"r) + ("<(.*)us>"r)) ;
+MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET NSgPar (1 ("<(.*)ystä>"r)) (2 ("<(.*)ystä"r) + ("<(.*)ys>"r)) ;
+MAP (@SUBJ @OBJ @PC) TARGET NPlNom (1 ("<(.*)kset>"r)) (2 ("<(.*)kset"r) + ("<(.*)s>"r)) ;
+# GenITIVES
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)ksen>"r)) (2 ("<(.*)ksen"r) + ("<(.*)s>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)sen>"r)) (2 ("<(.*)sen"r) + ("<(.*)nen>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)sonin>"r)) (2 ("<(.*)sonin"r) + ("<(.*)son>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)anin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)enin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)inin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)nkin>"r)) (2 ("<(.*)nkin>"r)) ; # SUDBURYNKIN
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)onin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)oinnin>"r)) (2 ("<(.*)oinnin"r) + ("<(.*)ointi>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)öinnin>"r)) (2 ("<(.*)öinnin"r) + ("<(.*)öinti>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)unin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)ynin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)otin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)elin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)antin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)dtin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)ftin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)esin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)asin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)chtin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)bin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)cin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)din>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)fin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)gin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)min>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)manin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)mannin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)rin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)ttin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)ngin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)vin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)win>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)zin>"r)) (2 ("<(.*)in>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)aatin>"r)) (2 ("<(.*)aatin"r) + ("<(.*)aatti>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)eetin>"r)) (2 ("<(.*)eetin"r) + ("<(.*)eetti>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)iitin>"r)) (2 ("<(.*)iitin"r) + ("<(.*)iitti>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)ootin>"r)) (2 ("<(.*)ootin"r) + ("<(.*)ootti>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)uutin>"r)) (2 ("<(.*)uutin"r) + ("<(.*)uutti>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)yytin>"r)) (2 ("<(.*)yytin"r) + ("<(.*)yytti>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)uuden>"r)) (2 ("<(.*)uuden"r) + ("<(.*)uus>"r)) ;
+MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)yyden>"r)) (2 ("<(.*)yyden"r) + ("<(.*)yys>"r)) ;
+# Isn't this too general?
+# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)in>"r)) (2 ("<(.*)in>"r)) ;
+# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)en>"r)) (2 ("<(.*)n>"r)) ;
+# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)än>"r)) (2 ("<(.*)n>"r)) ;
+# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)yn>"r)) (2 ("<(.*)n>"r)) ;
+# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)ön>"r)) (2 ("<(.*)n>"r)) ;
+# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)un>"r)) (2 ("<(.*)n>"r)) ;
+# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)on>"r)) (2 ("<(.*)n>"r)) ;
+# MAP (@SUBJ @NEC-S @NF-S @OBJ @PC @<P @P> @N>) TARGET NSgGen (1 ("<(.*)an>"r)) (2 ("<(.*)n>"r)) ;
+MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET NSgPar (1 ("<(.*)aa>"r)) (2 ("<(.*)a>"r)) ;
+MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET NSgPar (1 ("<(.*)ea>"r)) (2 ("<(.*)a>"r)) ;
+MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET NSgPar (1 ("<(.*)oa>"r)) (2 ("<(.*)a>"r)) ;
+MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET NSgPar (1 ("<(.*)ua>"r)) (2 ("<(.*)a>"r)) ;
+MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET NSgPar (1 ("<(.*)ia>"r)) (2 ("<(.*)a>"r)) ;
+MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET NSgPar (1 ("<(.*)ää>"r)) (2 ("<(.*)ä>"r)) ;
+MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET NSgPar (1 ("<(.*)eä>"r)) (2 ("<(.*)ä>"r)) ;
+MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET NSgPar (1 ("<(.*)yä>"r)) (2 ("<(.*)ä>"r)) ;
+MAP (@SUBJ @OBJ @PC @<P @P> @<PN @N>) TARGET NSgPar (1 ("<(.*)iä>"r)) (2 ("<(.*)ä>"r)) ;
+
+MAP (@ADVL @N>) TARGET (ORD Num Sg Ade) (1 ("<(.*):nnella>"r)) (2 ("<(.*):nnella>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Abl) (1 ("<(.*):nnelta>"r)) (2 ("<(.*):nnelta>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg All) (1 ("<(.*):nnelle>"r)) (2 ("<(.*):nnelle>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Ine) (1 ("<(.*):nnessa>"r)) (2 ("<(.*):nnessa>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Ela) (1 ("<(.*):nnesta>"r)) (2 ("<(.*):nnesta>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Ill) (1 ("<(.*):nteen>"r)) (2 ("<(.*):nteen>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Ess) (1 ("<(.*):ntena>"r)) (2 ("<(.*):ntena>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Tra) (1 ("<(.*):nneksi>"r)) (2 ("<(.*):nneksi>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Tra) (1 ("<(.*)nneksi>"r)) (2 ("<(.*)nneksi>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Ade) (1 ("<(.*):nnellä>"r)) (2 ("<(.*):nnellä>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Abl) (1 ("<(.*):nneltä>"r)) (2 ("<(.*):nneltä>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Ine) (1 ("<(.*):nnessä>"r)) (2 ("<(.*):nnessä>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Ela) (1 ("<(.*):nnestä>"r)) (2 ("<(.*):nnestä>"r)) ;
+MAP (@ADVL @N>) TARGET (ORD Num Sg Ess) (1 ("<(.*):ntenä>"r)) (2 ("<(.*):ntenä>"r)) ;
+
+
+# Post-tagging disambiguation
+SECTION
+
+# Commented out, may be useful at a later stage, but at the moment may hide ambiguities - 20.01.2015 -FMT+KM
+#SELECT @<SPRED ;
+
+
+
+#!! * __X__ maps X everywhere
+MAP (@X) TARGET WORD ;
+MAP:missingX (@X) TARGET (?) ;
+
+#SUBSTITUTE (@X) (*) TARGET WORD ;
+
+#!! * __REMOVE X__ removes X whenever there is any other tag.
+# Commented out, may be useful at a later stage, but at the moment may hide ambiguities - 19.01.2015 -FMT+KM
+#REMOVE (@X) ;
+
+ #GENERIC Sg Nom FOR All OTHER InsTANCES
+ 
+#h# =h ((N Sg Nom (@SUBJ @OBJ @PC @N>)) (@1 NIL) (@2 NI
+
+
+
+# some first additions from Story (TP++)
+
+REMOVE A (0 PrfPrc)(1 Gen_Par)(*-1 OLLA BARRIER S-BOUNDARY) ;
+REMOVE Ind + Sg3 (0 InfA) (-1 ("miksi"))(NEGATE *-2 NPSg3Nom)(NEGATE *1 NPSg3Nom BARRIER S-BOUNDARY) ;
+SELECT Ela-Advl + Ind (*1 Ela BARRIER S-BOUNDARY) ; # ("pitää")
+
+SELECT ("sääli") + N (-1 >>>) ;
+SELECT ("<lisää>") + Adv (*-1 V BARRIER S-BOUNDARY) ;
+SELECT ("<lisää>i") + Adv (*1 V BARRIER S-BOUNDARY) ;
+
+REMOVE A + Der_sti (0 Adv) ;
+
+SELECT PrfPrc + Sg (*-1 OLLA + Sg3 BARRIER PrfPrc OR S-BOUNDARY) ;
+SELECT PrfPrc + Pl (*-1 OLLA + Pl3 BARRIER PrfPrc OR S-BOUNDARY) ;
+SELECT PrfPrc + Sg (-1 CCC LINK *-1 PrfPrc + Sg  BARRIER S-BOUNDARY LINK *-1 OLLA + Sg3 BARRIER S-BOUNDARY) ;
+SELECT PrfPrc + Pl (-1 CCC LINK *-1 PrfPrc + Sg  BARRIER S-BOUNDARY LINK *-1 OLLA + Pl3 BARRIER S-BOUNDARY) ;
+
+REMOVE V + Ind (0 Imprt + Sg2)(-1 COLON)(NEGATE *1 V BARRIER S-BOUNDARY) ;
+SELECT V + Ind (NEGATE *1 V BARRIER S-BOUNDARY)(NEGATE *-1 V BARRIER S-BOUNDARY)(NEGATE -1 OMS) ;
+SELECT V + Ind (NEGATE *1 V BARRIER S-BOUNDARY)(NEGATE *-1 V BARRIER S-BOUNDARY)(NEGATE 1 ("kuin") LINK 1 V) ;
+REMOVE InfA (0 Act + Sg3) (NEGATE *1 V BARRIER S-BOUNDARY)(NEGATE *-1 V BARRIER S-BOUNDARY) ;
+SELECT Ind + Pl3 (*0 NPPl3Nom BARRIER S-BOUNDARY)(NEGATE *1 V BARRIER S-BOUNDARY)(NEGATE *-1 V BARRIER S-BOUNDARY) ;
+SELECT Ind + Sg3 (*0 NPSg3Nom BARRIER S-BOUNDARY)(NEGATE *1 V BARRIER S-BOUNDARY)(NEGATE *-1 V BARRIER S-BOUNDARY) ;
+
+SELECT Ill (0C Ill OR Par)(*0 Ill-Advl BARRIER S-BOUNDARY OR CCC) ;
+SELECT Ela (0C Ela OR Par)(*0 Ela-Advl BARRIER S-BOUNDARY OR CCC) ;
+SELECT LOC-CASE (0C LOC-CASE OR Par)(*0 LOC-V BARRIER S-BOUNDARY OR CCC) ;
+SELECT Par (0C LOC-CASE OR Par)(*0 Par-OBJ BARRIER S-BOUNDARY OR CCC) ;
+
+SELECT NNom (NEGATE 0 V)(NEGATE *1 Nom BARRIER S-BOUNDARY OR V OR CCC OR NNom)(*-1 ("kuten") BARRIER S-BOUNDARY OR V OR CCC OR NNom) ;
+SELECT Gen_Par (0 (@<OBJ))(NEGATE 0 V) ;
+
+SELECT NNom (NEGATE 0 V)(-1 >>>)(NEGATE *1 NNom) ;
+SELECT NNom + @SUBJ (NEGATE 0 V)(NEGATE *-1 @SUBJ BARRIER S-BOUNDARY)(NEGATE *1 @SUBJ OR NPSg3Nom BARRIER S-BOUNDARY) ;
+SELECT NPar + @SUBJ (NEGATE 0 V)(NEGATE *-1 @SUBJ BARRIER S-BOUNDARY)(NEGATE *1 @SUBJ OR NPSg3Nom BARRIER S-BOUNDARY) ;
+SELECT NNom (0C N)(*0 VSg3 OR VPl3 BARRIER S-BOUNDARY OR QUO)(NEGATE *-1 NNom OR NPar BARRIER S-BOUNDARY)(NEGATE *1 NNom OR NPar BARRIER S-BOUNDARY) ;
+SELECT NPar (0C N)(*0 VSg3 OR VPl3 BARRIER S-BOUNDARY OR QUO)(NEGATE *-1 NNom OR NPar BARRIER S-BOUNDARY)(NEGATE *1 NNom OR NPar BARRIER S-BOUNDARY) ;
+SELECT NSgNom (*0 VSg3 + Act + Ind BARRIER S-BOUNDARY OR Punct)(NEGATE *-1 NSgNom BARRIER S-BOUNDARY)(NEGATE *1 NSgNom BARRIER S-BOUNDARY) ;
+SELECT NPlNom (*0 VPl3 + Act + Ind BARRIER S-BOUNDARY OR Punct)(NEGATE *-1 NSgNom OR NPlNom BARRIER S-BOUNDARY)(NEGATE *1 NSgNom OR NPlNom BARRIER S-BOUNDARY) ;
+REMOVE NPlNom (0 NSgNom)(-1C Sg + Gen)(1C Sg + Nom) ; 
+REMOVE Pron + Rel (NEGATE -1 COMMA) ; 
+
+SELECT PxSg3 (1 HÄN OR ("jokainen")) ;
+SELECT PxSg3 (-1 HÄN OR ("jokainen")) ;
+SELECT PxPl3 (1 HE) ;
+SELECT PxPl3 (-1 HE) ;
+SELECT PxSg3 + $$ALLCASES (0C $$ALLCASES)(*1 HÄN OR ("jokainen") BARRIER S-BOUNDARY) ;
+SELECT PxSg3 + $$ALLCASES (0C $$ALLCASES)(*-1 HÄN OR ("jokainen") BARRIER S-BOUNDARY) ;
+SELECT PxPl3 + $$ALLCASES (0C $$ALLCASES)(*1 HE BARRIER S-BOUNDARY) ;
+SELECT PxPl3 + $$ALLCASES (0C $$ALLCASES)(*-1 HE BARRIER S-BOUNDARY) ;
+
+#SELECT PxSg3 + $$ALLCASES (0C $$ALLCASES)(*0 N + Sg)(NEGATE *-1 N + Pl OR Num + Pl)(NEGATE *1 N + Pl OR Num + Pl) ;
+REMOVE PxPl3 + $$ALLCASES (0 PxSg3 + $$ALLCASES)(*0 N + Sg)(NEGATE *-1 THIRD_PersON_PL OR Num + Pl)(NEGATE *1 THIRD_PersON_PL OR Num + Pl) ;
+REMOVE PxPl2 + $$ALLCASES (0 PxSg2 + $$ALLCASES)(*0 N + Sg)(NEGATE *-1 SECOND_PersON_PL OR Num + Pl)(NEGATE *1 SECOND_PersON_PL OR Num + Pl) ;
+REMOVE PxPl1 + $$ALLCASES (0 PxSg1 + $$ALLCASES)(*0 N + Sg)(NEGATE *-1 FIRST_PersON_PL OR Num + Pl)(NEGATE *1 FIRST_PersON_PL OR Num + Pl) ;
+
+
+SELECT ("anteeksi") (-1 COMMA OR >>>) (1 COMMA OR ("!")) ;
+SELECT Prop (1 COLON) ; # + sanoo-like verbs
+SELECT ("Matti") + Prop (*1 ("mies") BARRIER Prop) ;
+SELECT ("Matti") + Prop (>*1 HÄN BARRIER Prop) ;
+SELECT ("Matti") + Prop (>*1 HE) ;
+SELECT ("Matti") + Prop (>*1C ("Matti") + Prop) ; # generalize to any prop!
+SELECT ("Matti") + Prop (<*-1C ("Matti") + Prop) ;
+SELECT ("kello") + CNOUN ;
+SELECT Num (*-1 ("kello")) ;
+
+SELECT ("sinä") ;
+
+REMOVE Prop + Sem (0 Prop - Sem) ;
+
+#REMOVE Prop (0 N - Prop + $$ALLCASES)(0 Prop + $$ALLCASES) ;
+
+REMOVE Pl + POSS_SUFF (0 Sg)(*0 Pron + Pers + SGa BARRIER S-BOUNDARY);
+
+
+
+
+
+REMOVE SUB:1 Cmp/SgGen (0/* Cmp/SgNom) ;	#This for HFST
+REMOVE SUB:1 A - Cmp/Attr (0/* Cmp/Attr) ;	#This for HFST
+REMOVE SUB:1 Prop + Attr (0/* Cmp/Hyph) ; # This for HFST
+
+REMOVE:RemoveAllCmp SUB:1 Cmp (0/* Cmp);
+
+REMOVE:X @X ;
+
+
+
+
+
+
+
+# ================= ============ =============
 LIST WORDLEMMA = (".*"r) ; #!! * WORDLEMMA = regex giving the lemma in question
 
 #!! * __errorth__ removes Err/Orth if there is an analysis without Err/Orth with the same lemma
@@ -539,17 +2125,17 @@ REMOVE:errorth $$WORDLEMMA + (Err/Orth) (0 $$WORDLEMMA - (Err/Orth) ) ; #Removes
 AFTER-SECTIONS              #
 
 
-SUBSTITUTE (A) (A <fkv>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (N) (N <fkv>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (Adv) (Adv <fkv>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (V) (V <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Num) (Num <fkv>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (Interj) (Interj <fkv>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (Po) (Po <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Pr) (Pr <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Pron) (Pron <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (CC) (CC <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (CS) (CS <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Pcle) (Pcle <fkv>) WORD ; #RemoveFromApertium
+SUBSTITUTE (A) (A <olo>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (N) (N <olo>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Adv) (Adv <olo>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (V) (V <olo>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Num) (Num <olo>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Interj) (Interj <olo>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Po) (Po <olo>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pr) (Pr <olo>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pron) (Pron <olo>) WORD ; #RemoveFromApertium
+SUBSTITUTE (CC) (CC <olo>) WORD ; #RemoveFromApertium
+SUBSTITUTE (CS) (CS <olo>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pcle) (Pcle <olo>) WORD ; #RemoveFromApertium
 
 
