@@ -691,6 +691,7 @@ less complex word classes
   %{pṕ%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{rŕ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{sś%}:s    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{sś%}:ś    — HJK and KimmoK ideas vaśma:va%{sØ%}%{sś%}
   %{tt́%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{vv́%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{zź%}:z    — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -1002,8 +1003,8 @@ kiiĺ+N+Sg+Gen: **tongue/kieli**
 * *k%{ei%}%{ei%}{lĺ}%{front%}%^VOWLower%^NoPAL%>%{eõ%}*
 * *keel000%>e*
 leib+N+Sg+Gen: **bread/leipä**
-* *leib%{front%}%^ÄI2ÄÄ%^WGStem%>%{aä%}*
-* *leev000%>ä*
+* *lei{bv}{front}^ÄI2ÄÄ^WGStem>{aä}*
+* *leev000>ä*
 * *pi%{tdØ%}ä%{front%}%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>t%{aä%}s*
 * *pe00000000e%>täs*
 
@@ -1082,12 +1083,14 @@ juusk+N+Sg+Nom: ____
 * *hern00000%>ide*
 
 **o:0**
-* *joo%{back%}%^VOWRaise%^VowRM%>vv%>aq*
-* *ju0000%>vv%>aq*
+juuma+V+Inf
+* *j{ou}{ou}{back}^VOWRaise^VowRM>vv>{aä}q*
+* *ju̬0000>vv>aq*
 
 **Vx%{ou%}:0**
-* *joo%{back%}%^VOWRaise%^VowRM%>vv%>aq*
-* *ju0000%>vv%>aq*
+juuma+V+Inf
+* *j{ou}{ou}{back}^VOWRaise^VowRM>vv>{aä}q*
+* *ju̬0000>vv>aq*
 
 **Vx%{äe%}:0 Passive stem vowel**
 
@@ -1108,10 +1111,12 @@ hüdsi+N+Sg+Par:
 * *tap0l000õ>ma*
 * *kan%{dn%}õ%{lĺ%}{back}^StrGStem^Pen^VowRM>õ*
 * *kand0l0000>õ*
+kogõr+N
 * *ko%{kg%}õr{back}^StrGStem^Pen^VowRM>õ*
 * *kok0r0000>õ*
-* *hammõ%{back%}%^WGStem%^VowRM%>ihe*
-* *ham00000%>ihe*
+hamõq+N+Pl+Ill
+* *ha%{mØ%}mõ%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>ihe*
+* *ha0m0000000%>ihe*
 
 **%{eØ%}: 0**
 
@@ -1149,8 +1154,9 @@ käskmä+V+Act+Ind+Prs+Neg **command/käskeä**
 **i2j**
 * *asi%{back%}%^I2J%>a*
 * *asj00%>a*
-* *elläi%{front%}%^Pen%^WGStem%^I2J%>ä*
-* *el0äj000%>ä*
+elläi+N+Sg+Gen
+* *e{lØ}lä{ij}{front}^Pen^WGStem^I2J>{aä}*
+* *e0läj0000>ä*
 
 **%{ij%}:j**
 
@@ -1168,13 +1174,11 @@ vari+N+Sg+Gen: **shadow/varjo**
 * *vaŕ0o00000*
 
 
-**u2v**
-* *juud%{back%}%^WGStem%>a*
-* *juvv00%>a*
+**u2v** depricate to "%{uv%}:v"
 
 **%{uv%}:v**
-* *ju%{uv%}%{dv%}%{back%}%^WGStem%>a*
-* *juvv00%>a*
+* *lu{uv}{dv}{back}^WGStem>{aä}*
+* *luvv00>a*
 joudma+V+Act+Ind+Prt+Sg1
 * *jõ%{uv%}%{dd́v%}%{back%}%^WGStem%>i*
 * *jõvv00%>i*
@@ -1276,6 +1280,9 @@ kakma
 * ★*joosk000>õ* (is not standard language)
 
 **%{sØ%}:0**  
+vaśma+V+Inf/mA: **answer/vastata**
+* *va{sØ}{sś}{back}^VOWRaise^WGStem^PAL>m{aä}*
+* *va0ś0000>ma*
 * *su%{sØ%}śo%{back%}%^Pen%^WGStem*
 * *su0śo000*
 * *ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem*
@@ -1357,10 +1364,11 @@ agras+A+Sg+Gen
 * *ve%{rØ%}rev%{front%}%^Pen%^WGStem%>%{aä%}*
 * *ve0rev000%>ä*
 elläi+N+Sg+Gen
-* *e%{lØ%}lä%{ij%}%{front%}%^Pen%^WGStem%^I2J%>ä*
-* *e0läj000%>ä*
-* *ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^WGStem*
-* *ha0mõh%{back%}%^Pen%^WGStem*
+* *e{lØ}lä{ij}{front}^Pen^WGStem^I2J>{aä}*
+* *e0läj0000>ä*
+hamõh+N+Sg+Nom
+* *ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem*
+* *ha0mõh000000*
 
 **XØToSelf**
 villui+A+Sg+Nom
@@ -1383,8 +1391,9 @@ agras+A+Sg+Nom
 * *agras000000*
 
 **%{hØ%}:h**
-* *ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^WGStem*
-* *ha0mõ00%>h*
+hamõh+N+Sg+Nom
+* *ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem*
+* *ha0mõh000000*
 
 
 **%{kØ%}:k**
@@ -1427,7 +1436,7 @@ akaŕ+A+Sg+Nom
 
 **%{kg%}:g**
 apteḱ+N+Sg+Gen:
-* *apte%{kØ%}%{kḱg%}%{back%}%^VOWLower%^G1*
+* *apte{kØ}{kḱg}{back}^VOWLower^G2>i*
 * *apte0g000%>i*
 agras+A+Sg+Nom:
 * *a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem*
@@ -1532,8 +1541,8 @@ hammas
 * *hammas000*
 
 **%{bm%}:m**
-* *ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem*
-* *hammas0000*
+* *ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem*
+* *hammas00000*
 
 **%{bm%}:b**
 * *ham%{bm%}a%{sØ%}%^Pen%^VOWRaise%^Pen%^G2%^WGStem*
@@ -1542,8 +1551,9 @@ hammas
 **%{bv%}:v**
 * *när%{bv%}ä%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem*
 * *närväs00000*
-* *lei%{bv%}%{front%}%^ÄI2ÄÄ%^G1%>ä*
-* *leev00%>ä*
+leib+N+Sg+Gen: **bread/leipä**
+* *lei{bv}{front}^ÄI2ÄÄ^WGStem>{aä}*
+* *leev000>ä*
 
 
 
@@ -1565,8 +1575,8 @@ kannõĺ+N+Sg+Nom: **kantele**
 **%{dv%}:v**
 * *pü%{üv%}%{dv%}%{front%}%^G1%>et*
 * *püvv00%>et*
-* *ju%{uv%}%{dv%}%{back%}%^G1%>a*
-* *juvv00%>a*
+* *lu{uv}{dv}{back}^WGStem>{aä}*
+* *luvv00>a*
 * *sü%{üv%}%{dv%}%{front%}%^G1%>ä*
 * *süvv00%>ä*
 
@@ -1587,7 +1597,7 @@ kannõĺ+N+Sg+Nom: **kantele**
 **tTod**
 kaotama+V+Act+Ind+Prs+Sg1: 
 * *kaota%{back%}%^Pen%^WGStem*
-* *kaoda00*
+* *kaoda000*
 
 There should always be a trigger
 
@@ -1596,7 +1606,7 @@ There should always be a trigger
 **%{dn%}:d**
 
 * *kan%{dn%}õl%{back%}%^Pen%^G2%^Pen%^VowRM%>õ*
-* *kand0l0000%>õ*
+* *kand0l00000%>õ*
 
 
 **j2i**
@@ -1617,7 +1627,7 @@ kõiḱ+Pron+Sg+Gen
 * *kis000%>u%>tav*
 
 * *süküs%{front%}%^Pen%^WGStem%>e*
-* *sügüs00%>e*
+* *sügüs000%>e*
 
 
 
@@ -1625,8 +1635,8 @@ kõiḱ+Pron+Sg+Gen
 igä+N+Sg+Ill
 * *i{kØ}{kgØ}ä{front}^Pen^G4*
 * *ikkä00*
-* *kogõr%{back%}%^StrGStem%^Pen%^VowRM%>õ*
-* *kok0r000%>õ*
+* *ko%{kg%}õr%{back%}%^StrGStem%^Pen%^VowRM%>õ*
+* *kok0r0000%>õ*
 
 **bTop**
 
@@ -1653,8 +1663,9 @@ usś+N+Sg+Par **door**
 * *uss%{back%}%^TS2S%>t*
 * *us000%>t*
 
-* *vassi%{back%}%^CC2C%^I2%^PAL%>m%{aä%}*
-* *vaś00000%>ma*
+vaśma+V+Inf/mA
+* *va{sØ}{sś}{back}^VOWRaise^WGStem^PAL>m{aä}*
+* *va0ś0000>ma*
 
 **%{bv%}:b**
 närväs+A+Sg+Gen:
