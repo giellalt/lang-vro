@@ -107,6 +107,11 @@ GT_DISTRO_SRCS=
 
 GIELLA_LOCAL_TARGETS=
 
+# Copy shared stems files to local dir before building - digits are in smi for now:
+generated_files/%.lexc: $(GIELLA_SHARED)/smi/src/fst/stems/%.lexc
+	$(AM_V_at)$(MKDIR_P) $(dir $@)
+	$(AM_V_CP)cp -f $< $@
+
 ### END: Local processing: ###
 
 ####### Other targets: ###########

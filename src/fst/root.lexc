@@ -23,13 +23,13 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 +WORK  !!≈ * __@CODE@__ (eng) work needed 
-!! special letters
-b́ !!≈ * __@CODE@__ b plus U+0301 COMBINING ACUTE
-d́ !!≈ * __@CODE@__ d plus U+0301 COMBINING ACUTE
-f́ !!≈ * __@CODE@__ f plus U+0301 COMBINING ACUTE
-h́ !!≈ * __@CODE@__ h plus U+0301 COMBINING ACUTE
-t́ !!≈ * __@CODE@__ t plus U+0301 COMBINING ACUTE
-v́ !!≈ * __@CODE@__ v plus U+0301 COMBINING ACUTE
+!! special letters, cf. https://github.com/hfst/hfst/issues/497 Trond.
+!b́ !!≈ * __@CODE@__ b plus U+0301 COMBINING ACUTE
+!d́ !!≈ * __@CODE@__ d plus U+0301 COMBINING ACUTE
+!f́ !!≈ * __@CODE@__ f plus U+0301 COMBINING ACUTE
+!h́ !!≈ * __@CODE@__ h plus U+0301 COMBINING ACUTE
+!t́ !!≈ * __@CODE@__ t plus U+0301 COMBINING ACUTE
+!v́ !!≈ * __@CODE@__ v plus U+0301 COMBINING ACUTE
 
 u̬  !!≈ * __@CODE@__ u plus U+032C COMBINING CARON BELOW
 U̬  !!≈ * __@CODE@__ u plus U+032C COMBINING CARON BELOW
@@ -178,6 +178,7 @@ I̬  !!≈ * __@CODE@__ i plus U+032C COMBINING CARON BELOW
 +ABBR !!≈ * __@CODE@__
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 +ACR  !!≈ * __@CODE@__
++Acro  !!≈ * __@CODE@__
 
 !! Special symbols are classified with:
 +CLB   !!≈ * __@CODE@__
@@ -738,8 +739,8 @@ N_NEWWORDS ;
 !nouns ;
 
 !! less complex word classes
-LEXICON ACRONDELIMITER
-+Acro: # ;
+LEXICON ACRONDELIMITER ! todo: contlexces as for other gls.
+ # ;
 
 LEXICON CC_
 : K ;
