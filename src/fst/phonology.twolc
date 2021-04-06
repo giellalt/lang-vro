@@ -1368,9 +1368,11 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
  _ Vow: (Cns: | ArchCns: |%{ij%}:) (HarmDummies:) PenVOWHite (%^Pen: %^StrGStem:|%^Pen: %^WGStem:) %^StrGStem:  ;
  _ (HarmDummies:) PenVOWHite (%^Pen: %^StrGStem:|%^Pen: %^WGStem:) %^StrGStem:  ;
 !! ratas+N+Sg+Nom
-!!€ ra%{tØ%}ta%{sØ%}%{front%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem
+!!€ ra%{tØ%}ta%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem
 !!€ ra0tas000000
-
+!! kaardas+N+Sg+Nom
+!!€ kaar%{dØ%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem
+!!€ kaardas000000
 ! _ (HarmDummies:) %^Pen: %^G2:  ;
 !! agras+A+Sg+Nom
 !!€ a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem
@@ -1402,6 +1404,15 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
 !! makḱ+N+Pl+All
 !!€ ma{kØ}{kḱ}{back}^StrGStem^NoPAL>{eõ}>l{eõ}
 !!€ makk000>õ>lõ
+
+"%{bv%}:b"
+!! __@RULENAME@__
+ %{bv%}:b <=>
+ Vow _ (s (ArchCns: )) (HarmDummies:) VOWHite [ %^StrGStem:] ;
+ Cns _ (HarmDummies:) VOWHite [ %^StrGStem:] ;
+ Cns _ Vow: (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^StrGStem: ] ;
+ [Vow|Cns|ArchVow:] _ (Cns|s (ArchCns: )) [Vow:|ArchVow:] (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^StrGStem: ] ;
+  _  Vow: (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^StrGStem: ] ;
 
 "%{pb%}:p"
 !! __@RULENAME@__
@@ -1442,6 +1453,8 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
  [Vow|Cns|ArchVow:] _ (Cns|s (ArchCns: )) [Vow:|ArchVow:] (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^StrGStem: ] ;
 !hõtsk
 !kitsin
+!!€ lu̬u̬dusõkai{td}sõ^Pen^VOWLower^Pen^WGStem>q
+!!€ lu̬u̬dusõkaitsõ0000>q
   _ (s ) Vow: (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^StrGStem: ] ;
   _ (:Cns+|(Cns) ArchCns: ) (HarmDummies:) VOWHite   [%^StrGStem: ] ;
 !! nätsk+A+Sg+Nom
@@ -1635,7 +1648,17 @@ _ [%{td%}: | %{tt́d%}: ] (HarmDummies:) [ %^G2: | %^G3:| %^G4: ] ;
      %{tØ%}: _ Vow  (HarmDummies:) PenVOWHite %^Pen:  %^G2: ;
      Vow _ [s|ś]  (HarmDummies:) VOWHite  %^G2: ;
  
- 
+"%{dØ%}:d"
+!! __@RULENAME@__
+ %{dØ%}:d <=>
+     Cns _ Vow %{sØ%}:  (HarmDummies:) PenVOWHite %^Pen:  %^WGStem: ;
+
+!! kaardas+N+Sg+Nom
+!!€ kaar%{dØ%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem
+!!€ kaardas000000
+     Vow _ (HarmDummies:) VOWHite %^StrGStem: ;
+
+
 "%{kgØ%}:g"
 !! __@RULENAME@__
  %{kgØ%}:g <=>

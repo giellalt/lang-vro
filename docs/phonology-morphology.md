@@ -814,9 +814,11 @@ kevväi+N+Sg+Gen: **spring**
 
 **%{sØ%}:s**
 ratas+N+Sg+Nom
-* *ra%{tØ%}ta%{sØ%}%{front%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem*
+* *ra%{tØ%}ta%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem*
 * *ra0tas000000*
-
+kaardas+N+Sg+Nom
+* *kaar%{dØ%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem*
+* *kaardas000000*
 agras+A+Sg+Nom
 * *a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem*
 * *agras000000*
@@ -834,6 +836,8 @@ makḱ+N+Pl+All
 * *ma{kØ}{kḱ}{back}^StrGStem^NoPAL>{eõ}>l{eõ}*
 * *makk000>õ>lõ*
 
+**%{bv%}:b**
+
 **%{pb%}:p**
 * *kau%{pb%}%{õØ%}%{lĺ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%>%{eõ%}%>m%{aä%}*
 * *kaup0l0000000%>õ%>ma*
@@ -848,6 +852,8 @@ makḱ+N+Pl+All
 
 
 **%{td%}:t**
+* *lu̬u̬dusõkai{td}sõ^Pen^VOWLower^Pen^WGStem>q*
+* *lu̬u̬dusõkaitsõ0000>q*
 nätsk+A+Sg+Nom
 * *nä%{td%}s%{kØ%}%{front%}%^G2*
 * *nätsk00*
@@ -956,6 +962,12 @@ murrõq+N+Sg+Gen
 
 
 **%{tdØ%}:d**
+
+**%{dØ%}:d**
+
+kaardas+N+Sg+Nom
+* *kaar%{dØ%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem*
+* *kaardas000000*
 
 
 **%{kgØ%}:g**
