@@ -533,7 +533,6 @@ given the proper use of these flags.
 
 The word forms in the Võro language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
- * **adjectives ;	**
  * **adpositions ;	**
  * **adverbs ;		**
  * **conjunctors ;	**
@@ -550,6 +549,7 @@ look at verb_newwords.lexc
  * **Acronym ;**
 
 Incoming
+ * __A_NEWWORDS ;__
  * __ADP_NEWWORDS ;__
  * __ADV_NEWWORDS ;__ 
  * __DET_NEWWORDS ;__
