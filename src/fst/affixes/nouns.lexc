@@ -6153,96 +6153,72 @@ LEXICON Harm-Neutr_SG-TER
 @U.Number.Sg@@U.Case.Ter@+Use/NG+Err/Orth-no-q+Sg+Ter:@U.Number.Sg@@U.Case.Ter@%>ni # ;
 
 LEXICON Harm-Neutr_SG-TRA
-+Sg+Tra:%>s # ;
+@U.Number.Sg@@U.Case.Tra@+Sg+Tra:@U.Number.Sg@@U.Case.Tra@%>s # ;
 
 
 !! !TAGS THAT CANNOT BE FOLLOWED BY CLITICS
-LEXICON BACK_INESUF_N-H-HN
- BACK_INESUF_n ;
- BACK_INESUF_h ;
- BACK_INESUF_hn ;
-LEXICON FRONT_INESUF_N-H-HN
- FRONT_INESUF_n ;
- FRONT_INESUF_h ;
- FRONT_INESUF_hn ;
 
 !! !CASES ONLY
-LEXICON BACK_ABESUF
-+Abe:%>ldaq # ;
-+Use/NG+Err/Orth-no-q+Abe:%>lda # ;
-LEXICON FRONT_ABESUF
-+Abe:%>ldäq # ;
-+Use/NG+Err/Orth-no-q+Abe:%>ldä # ;
-
-
-LEXICON BACK_ABLSUF
-+Abl:%>lt # ;
-LEXICON FRONT_ABLSUF
-+Abl:%>lt # ;
-
-LEXICON BACK_ADESUF
-+Ade:%>l # ;
-LEXICON FRONT_ADESUF
-+Ade:%>l # ;
-
-LEXICON BACK_ALLSUF_lõ
-+All:%>lõ # ;
-LEXICON FRONT_ALLSUF_le
-+All:%>le # ;
-
-!LEXICON BACK_ALLSUF_llõ
-!+All:%>llõ # ;
-!LEXICON FRONT_ALLSUF_lle
-!+All:%>lle # ;
-
-!LEXICON COMSUF_kaq
-!+Com:%>kaq # ;
-
-LEXICON BACK_ELASUF
-+Ela:%>st # ;
-LEXICON FRONT_ELASUF
-+Ela:%>st # ;
-
-LEXICON BACK_ILLSUF_he
-+Ill:%>he # ;
-LEXICON FRONT_ILLSUF_he
-+Ill:%>he # ;
 
 LEXICON BACK_INESUF_n
-+Ine:%>n # ;
+@U.Case.Ine@+Ine:@U.Case.Ine@%>n # ;
 LEXICON BACK_INESUF_h
-+Ine:%>h # ;
+@U.Case.Ine@+Ine:@U.Case.Ine@%>h # ;
 LEXICON BACK_INESUF_hn
-+Ine:%>hn # ;
+@U.Case.Ine@+Ine:@U.Case.Ine@%>hn # ;
 !LEXICON BACK_NOMSUF
 ! # ;
 
 LEXICON FRONT_INESUF_n
-+Ine:%>n # ;
+@U.Case.Ine@+Ine:@U.Case.Ine@%>n # ;
 LEXICON FRONT_INESUF_h
-+Ine:%>h # ;
+@U.Case.Ine@+Ine:@U.Case.Ine@%>h # ;
 LEXICON FRONT_INESUF_hn
-+Ine:%>hn # ;
-LEXICON FRONT_NOMSUF
-+Nom: # ;
+@U.Case.Ine@+Ine:@U.Case.Ine@%>hn # ;
 
-!LEXICON BACK_PARSUF_da
-!+Par:%>da # ;
-LEXICON FRONT_PARSUF_dä
-+Par:%>dä # ;
 
-LEXICON BACK_TERSUF
+LEXICON NEUTR_ABESUF
+@U.Case.Abe@+Abe:@U.Case.Abe@%>ld%{aä%}q # ;
+@U.Case.Abe@+Use/NG+Err/Orth-no-q+Abe:@U.Case.Abe@%>ld%{aä%} # ;
+
+LEXICON NEUTR_ABLSUF
+@U.Case.Abl@+Abl:@U.Case.Abl@%>lt # ;
+
+LEXICON NEUTR_ADESUF
+@U.Case.Ade@+Ade:@U.Case.Ade@%>l # ;
+
+LEXICON NEUTR_ALLSUF_lE
+@U.Case.All@+All:@U.Case.All@%>l%{eõ%} # ;
+
+LEXICON NEUTR_ELASUF
+@U.Case.Ela@+Ela:@U.Case.Ela@%>st # ;
+
+LEXICON NEUTR_ILLSUF_he
+@U.Case.Ill@+Ill:@U.Case.Ill@%>he # ;
+
+LEXICON NEUTR_INESUF_N-H-HN
+ NEUTR_INESUF_n ;
+ NEUTR_INESUF_h ;
+ NEUTR_INESUF_hn ;
+LEXICON NEUTR_INESUF_n
+@U.Case.Ine@+Ine:@U.Case.Ine@%>n # ;
+LEXICON NEUTR_INESUF_h
+@U.Case.Ine@+Ine:@U.Case.Ine@%>h # ;
+LEXICON NEUTR_INESUF_hn
+@U.Case.Ine@+Ine:@U.Case.Ine@%>hn # ;
+
+LEXICON NEUTR_NOMSUF
+@U.Case.Nom@+Nom:@U.Case.Nom@ # ;
+
+LEXICON NEUTR_PARSUF_dA
+@U.Case.Par@+Par:@U.Case.Par@%>d%{aä%} # ;
+
+LEXICON NEUTR_TERSUF
 +Ter:%>niq # ;
 +Use/NG+Err/Orth-no-q+Ter:%>ni # ;
-LEXICON FRONT_TERSUF
-+Ter:%>niq # ;
-+Use/NG+Err/Orth-no-q+Ter:%>ni # ;
-LEXICON BACK_TRASUF
-+Tra:%>s # ;
-LEXICON FRONT_TRASUF
-+Tra:%>s # ;
 
-
+LEXICON NEUTR_TRASUF
++Tra:%>s # ;
 
 !! !TAGS WITH NO ADDED MORPHOLOGY THAT CANNOT BE FOLLOWED BY CLITICS
 LEXICON COM_ZERO

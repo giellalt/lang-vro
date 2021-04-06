@@ -337,48 +337,39 @@ LEXICON PRON-INTERR-HUM
 +Sem/Hum+Interr+SP+Gen:ink # ;
 +Sem/Hum+Interr+SP+Par:edä # ;
 +Sem/Hum+Interr+SP+Com:inkaq # ;
-+Sem/Hum+Interr+SP:inka BACK_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
-+Sem/Hum+Interr+SP:e FRONT_ABESUF ;
-+Sem/Hum+Interr+SP:e FRONT_ABLSUF ;
-+Sem/Hum+Interr+SP:e FRONT_ADESUF ;
-+Sem/Hum+Interr+SP:el  FRONT_ALLSUF_le ;
-+Sem/Hum+Interr+SP:e FRONT_ELASUF ;
-+Sem/Hum+Interr+SP:e FRONT_ILLSUF_he ;
-+Sem/Hum+Interr+SP:e FRONT_INESUF_N-H-HN ;
-+Sem/Hum+Interr+SP:e FRONT_TRASUF ;
++Sem/Hum+Interr+SP:inka%{back%} PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
++Sem/Hum+Interr+SP:e%{front%} NEUTR_ABESUF ;
++Sem/Hum+Interr+SP:e%{front%} NEUTR_ABLSUF ;
++Sem/Hum+Interr+SP:e%{front%} NEUTR_ADESUF ;
++Sem/Hum+Interr+SP:el%{front%} NEUTR_ALLSUF_lE ;
++Sem/Hum+Interr+SP:e%{front%} NEUTR_ELASUF ;
++Sem/Hum+Interr+SP:e%{front%} NEUTR_ILLSUF_he ;
++Sem/Hum+Interr+SP:e%{front%} NEUTR_INESUF_N-H-HN ;
++Sem/Hum+Interr+SP:e%{front%} NEUTR_TRASUF ;
 
-+Sem/Hum+Interr+SP:inka BACK_TERSUF ;
++Sem/Hum+Interr+SP:inka%{back%} NEUTR_TERSUF ;
 +Sem/Hum+Interr+SP:eeniq TER_ZERO ;
 
 LEXICON PRON-INTERR_miae
-+Interr+SP:iä FRONT_NOMSUF ;
++Interr+SP:iä%{front%} NEUTR_NOMSUF ;
 +Interr+SP:ink GEN_ZERO ;
-+Interr+SP:i FRONT_PARSUF_dä ;
++Interr+SP:i%{front%} NEUTR_PARSUF_dA ;
 +Interr+SP:inkaq COM_ZERO ;
-+Interr+SP:inka BACK_TERSUF ;
-+Interr+SP:ee FRONT_TERSUF ;
-+Interr+SP:inka BACK_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
-+Interr+SP:ii FRONT_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
++Interr+SP:inka%{back%} NEUTR_TERSUF ;
++Interr+SP:ee%{front%} NEUTR_TERSUF ;
++Interr+SP:inka%{back%} PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
++Interr+SP:ii%{front%} PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
 
 
-LEXICON BACK_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA
- BACK_ABESUF ;
- BACK_ABLSUF ;
- BACK_ADESUF ;
- BACK_ALLSUF_lõ ;
- BACK_ELASUF ;
- BACK_ILLSUF_he ;
- BACK_INESUF_N-H-HN ;
- BACK_TRASUF ;
-LEXICON FRONT_PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA
- FRONT_ABESUF ;
- FRONT_ABLSUF ;
- FRONT_ADESUF ;
- FRONT_ALLSUF_le ;
- FRONT_ELASUF ;
- FRONT_ILLSUF_he ;
- FRONT_INESUF_N-H-HN ;
- FRONT_TRASUF ;
+LEXICON PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA
+ NEUTR_ABESUF ;
+ NEUTR_ABLSUF ;
+ NEUTR_ADESUF ;
+ NEUTR_ALLSUF_lE ;
+ NEUTR_ELASUF ;
+ NEUTR_ILLSUF_he ;
+ NEUTR_INESUF_N-H-HN ;
+ NEUTR_TRASUF ;
 
 LEXICON PRON-REFL_HINDAE
 +Refl+Gen: K ;
