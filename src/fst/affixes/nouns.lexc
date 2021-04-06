@@ -4224,10 +4224,10 @@ LEXICON NMN_27HAPU-PL
 +Err/Orth+Use/NG:%^VowRM%>niidõ PL-COM ;
 +Err/Orth+Use/NG:%>ndõ PL-COM ;
 
-!LEXICON NMN_28TUETAER1 !!= * __@CODE@__ tütäŕ:tütär
-!!! * Yaml: __N-tuetaerj28, N-kannwl28__
-!  NMN_28TUETAER1-SG ;
-!  NMN_28TUETAER1-PL ;
+LEXICON NMN_28TUETAER1 !!= * __@CODE@__ tütäŕ:tütär
+!! * Yaml: __N-tuetaerj28, N-kannwl28__
+  NMN_28TUETAER1-SG ;
+  NMN_28TUETAER1-PL ;
 
 LEXICON NMN_28TUETAER1-SG 
 :%^PAL Harm-Neutr_SG-NOM ;
@@ -6159,22 +6159,6 @@ LEXICON Harm-Neutr_SG-TRA
 !! !TAGS THAT CANNOT BE FOLLOWED BY CLITICS
 
 !! !CASES ONLY
-
-LEXICON BACK_INESUF_n
-@U.Case.Ine@+Ine:@U.Case.Ine@%>n # ;
-LEXICON BACK_INESUF_h
-@U.Case.Ine@+Ine:@U.Case.Ine@%>h # ;
-LEXICON BACK_INESUF_hn
-@U.Case.Ine@+Ine:@U.Case.Ine@%>hn # ;
-!LEXICON BACK_NOMSUF
-! # ;
-
-LEXICON FRONT_INESUF_n
-@U.Case.Ine@+Ine:@U.Case.Ine@%>n # ;
-LEXICON FRONT_INESUF_h
-@U.Case.Ine@+Ine:@U.Case.Ine@%>h # ;
-LEXICON FRONT_INESUF_hn
-@U.Case.Ine@+Ine:@U.Case.Ine@%>hn # ;
 
 
 LEXICON NEUTR_ABESUF
