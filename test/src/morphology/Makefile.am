@@ -12,8 +12,7 @@ TESTS=tag_test.sh
 GENERATION_TESTS_IN=generate-adjective-lemmas.sh.in  \
                     generate-noun-lemmas.sh.in       \
                     generate-propernoun-lemmas.sh.in \
-                    generate-verb-lemmas.sh.in       \
-					test-verb-generation.sh.in
+                    generate-verb-lemmas.sh.in       
 
 GENERATION_TESTS=$(basename $(GENERATION_TESTS_IN))
 
@@ -27,7 +26,6 @@ XFAIL_TESTS=generate-adjective-lemmas.sh  \
             generate-noun-lemmas.sh       \
             generate-propernoun-lemmas.sh \
             generate-verb-lemmas.sh       
-#            test-verb-generation.sh
 
 # Make sure all tests scripts are included in the distributed tarballs:
 EXTRA_DIST=$(TESTS) $(GENERATION_TESTS_IN)
