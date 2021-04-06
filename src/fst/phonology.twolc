@@ -291,6 +291,7 @@ ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ
 %{vv́%}
 %{ff́%}
 %{tt́%}
+%{tt́Ø%}
 %{tt́d%}
 %{kḱg%}
 %{kḱØ%}
@@ -402,9 +403,11 @@ Rules
 "%{ae%}:e"
 !! __@RULENAME@__
 %{ae%}:e <=>
-  _ (HarmDummies:) (%^Pen: %^WGStem:) %^PSS: ;
-!!€ tah%{tt́Ø%}%{ae%}%{back%}%^Pen%^WGStem%^PSS%>t%{uü%}
-!!€ tah0e0000%>tu
+  _ (HarmDummies:) PenVOWHite (%^Pen: %^WGStem:) %^PSS: ;
+  a [Cns:+ ArchCns:* ] _ %{back%} %^Pen %^VOWLower %^Pen %^WGStem %> %{eõ%} %> t ;
+!! tahtma+V+Pss+PrfPrc+Sg+Nom: __want/haluta__
+!!€ tah{tt́Ø}{ae}{back}^Pen^VOWLower^Pen^WGStem>{eõ}>t{uü}
+!!€ tah0e00000>0>tu
 
 "%{aõ%}:õ"
 !! __@RULENAME@__
@@ -1145,16 +1148,19 @@ k:0 <=>
 !! __@RULENAME@__  
  %{pṕØ%}:0 <=>
  p _ (HarmDummies:) VOWHite  [%^WGStem: | %^G1: ] ;
+ p _ (HarmDummies:) PenVOWHite %^Pen:  [%^WGStem: | %^G1: ] ;
 
 "%{tt́Ø%}:0"
 !! __@RULENAME@__  
  %{tt́Ø%}:0 <=>
   [t|h] _ (HarmDummies:) VOWHite [%^WGStem: | %^G1: ] ;
+  [t|h] _ (HarmDummies:) PenVOWHite %^Pen: [%^WGStem: | %^G1: ] ;
 
 "%{kḱØ%}:0"
 !! __@RULENAME@__  
  %{kḱØ%}:0 <=>
  [k|h|s] _ (HarmDummies:) VOWHite [%^WGStem: | %^G1: ] ;
+ [k|h|s] _ (HarmDummies:) PenVOWHite %^Pen: [%^WGStem: | %^G1: ] ;
 
 !!juuskma+V+Act+Ind+Prs+Sg1:
 !!€ j{ou}{ou}s{kḱØ}{back}^VOWLower^WGStem>{eõ}
@@ -1477,6 +1483,7 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
 !!€ a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem
 !!€ agras00000
  [Vow|ArchVow:] ( l | r | n ) _ Vow: (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^WGStem: | %^G1: ] ;
+!! 
 !!€ hõl%{kg%}a%{sØ%}%{back%}%^Pen%^G2
 !!€ hõlgas000
  [Vow|ArchVow:] ( l | r | n ) _ (HarmDummies:) ( %^VOWLower: )  [ %^WGStem: ] ;

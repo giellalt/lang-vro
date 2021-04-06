@@ -279,8 +279,9 @@ Right context for gradation
 **%{eõ%}:e**
 
 **%{ae%}:e**
-* *tah%{tt́Ø%}%{ae%}%{back%}%^Pen%^WGStem%^PSS%>t%{uü%}*
-* *tah0e0000%>tu*
+tahtma+V+Pss+PrfPrc+Sg+Nom: **want/haluta**
+* *tah{tt́Ø}{ae}{back}^Pen^VOWLower^Pen^WGStem>{eõ}>t{uü}*
+* *tah0e00000>0>tu*
 
 **%{aõ%}:õ**
 
@@ -871,6 +872,7 @@ apteḱ+N+Sg+Gen:
 agras+A+Sg+Nom:
 * *a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem*
 * *agras00000*
+
 * *hõl%{kg%}a%{sØ%}%{back%}%^Pen%^G2*
 * *hõlgas000*
 * *rän%{kg%}%{front%}%^G2%{aä%}*
