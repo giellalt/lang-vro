@@ -528,6 +528,23 @@ given the proper use of these flags.
 |  **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj.
 |  **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
 
+|  **@U.Case.Abe@	** | Abessive
+|  **@U.Case.Abl@	** | Ablative
+|  **@U.Case.Ade@	** | Adessive
+|  **@U.Case.All@	** | Allative
+|  **@U.Case.Com@	** | Comitative
+|  **@U.Case.Ela@	** | Elative
+|  **@U.Case.Gen@	** | Genitive
+|  **@U.Case.Ill@	** | Illative
+|  **@U.Case.Ine@	** | Inessive
+|  **@U.Case.Nom@	** | Nominative
+|  **@U.Case.Par@	** | Partitive
+|  **@U.Case.Ter@	** | Terminative
+|  **@U.Case.Tra@	** | Translative
+
+|  **@U.Number.Pl@	** | Plural
+|  **@U.Number.Sg@	** | Singular
+
 # The Root lexicon
 
 
