@@ -533,7 +533,6 @@ given the proper use of these flags.
 
 The word forms in the Võro language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
- * **adjectives ;	**
  * **adpositions ;	**
  * **adverbs ;		**
  * **conjunctors ;	**
@@ -550,6 +549,7 @@ look at verb_newwords.lexc
  * **Acronym ;**
 
 Incoming
+ * __A_NEWWORDS ;__
  * __ADP_NEWWORDS ;__
  * __ADV_NEWWORDS ;__ 
  * __DET_NEWWORDS ;__
@@ -849,8 +849,9 @@ Right context for gradation
 **%{eõ%}:e**
 
 **%{ae%}:e**
-* *tah%{tt́Ø%}%{ae%}%{back%}%^Pen%^WGStem%^PSS%>t%{uü%}*
-* *tah0e0000%>tu*
+tahtma+V+Pss+PrfPrc+Sg+Nom: **want/haluta**
+* *tah{tt́Ø}{ae}{back}^Pen^VOWLower^Pen^WGStem>{eõ}>t{uü}*
+* *tah0e00000>0>tu*
 
 **%{aõ%}:õ**
 
@@ -1441,6 +1442,7 @@ apteḱ+N+Sg+Gen:
 agras+A+Sg+Nom:
 * *a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem*
 * *agras00000*
+
 * *hõl%{kg%}a%{sØ%}%{back%}%^Pen%^G2*
 * *hõlgas000*
 * *rän%{kg%}%{front%}%^G2%{aä%}*

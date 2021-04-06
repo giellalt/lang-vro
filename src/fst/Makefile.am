@@ -29,7 +29,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/abbreviations.lexc   \
 			 stems/acronyms.lexc        \
 			 stems/exceptions.lexc      \
-			 stems/adjectives.lexc    \
+			 stems/adjectives_newwords.lexc    \
 			 stems/adpositions_newwords.lexc     \
 			 stems/adverbs_newwords.lexc     \
 			 stems/determiners_newwords.lexc     \
