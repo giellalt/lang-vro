@@ -1667,13 +1667,17 @@ _ [%{td%}: | %{tt́d%}: ] (HarmDummies:) [ %^G2: | %^G3:| %^G4: ] ;
 "%{dØ%}:d"
 !! __@RULENAME@__
  %{dØ%}:d <=>
-     Cns _ Vow %{sØ%}:  (HarmDummies:) PenVOWHite %^Pen:  %^WGStem: ;
+     Cns _ Vow %{sØ%}:  (HarmDummies:) PenVOWHite %^Pen:  %^StrGStem: ;
 
 !! kaardas+N+Sg+Nom
-!!€ kaar%{dØ%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem
+!!€ kaar%{dØ%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^StrGStem%^StrGStem
 !!€ kaardas000000
      Vow _ (HarmDummies:) VOWHite %^StrGStem: ;
 
+  Cns _ [Vow:|ArchVow:] [%{sØ%}:|%{lĺ%}:] (HarmDummies:) PenVOWHite %^Pen:  %^StrGStem: ;
+!! väärdlemä+V+Inf
+!!€ väär{dØ}{eØ}{lĺ}{front}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}m{aä}
+!!€ väärd0l00000000>emä
 
 "%{kgØ%}:g"
 !! __@RULENAME@__
