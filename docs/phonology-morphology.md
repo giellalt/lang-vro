@@ -973,9 +973,12 @@ murrõq+N+Sg+Gen
 **%{dØ%}:d**
 
 kaardas+N+Sg+Nom
-* *kaar%{dØ%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem*
+* *kaar%{dØ%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^StrGStem%^StrGStem*
 * *kaardas000000*
 
+väärdlemä+V+Inf
+* *väär{dØ}{eØ}{lĺ}{front}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}m{aä}*
+* *väärd0l00000000>emä*
 
 **%{kgØ%}:g**
 jõgi+N+Sg+Nom

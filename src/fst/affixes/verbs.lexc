@@ -242,7 +242,7 @@ LEXICON V_52EHITELEMAE !!≈ * __@CODE@__ ehitelemä:ehitell
 !! * Yaml: __ehitellemae52__
 :%{front%} V_52ALOSTWLWMA/EHITELEMAE ;
 
-LEXICON V_52ALOSTWLWMA/EHITELEMAE !!≈ * __@CODE@__ alostõllõma:alostõl
+LEXICON V_52ALOSTWLWMA/EHITELEMAE !!≈ * __@CODE@__ alostõllõma:alostõ%{lØ%}l
 ! (1) I tegonimi: 
 :%^Pen%^VOWLower%^WGStem%{eõ%} Harm-Neutr_INF_mA ;
 +Err/Orth+Use/NG:%^Pen%^VOWRaise%{eõ%} Harm-Neutr_INF_mA ;
@@ -491,7 +491,7 @@ LEXICON V_57KIIRDLEMAE
 !! * Yaml: __kiirdlemae57__
 :%{front%} V_57VWITLWMA/KIIRDLEMAE ;
 
-LEXICON V_57VWITLWMA/KIIRDLEMAE
+LEXICON V_57VWITLWMA/KIIRDLEMAE ! väärdlemä+V:väär%{dØ%}%{eØ%}%{lĺ%}
 ! (1) I tegonimi: 
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{eõ%} Harm-Neutr_INF_mA ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
@@ -879,7 +879,7 @@ LEXICON V_64REHKSAEMAE
 !! * Yaml: __V-rehksaemae64__
 :%{front%} V_64PUHKSAMA/REHKSAEMAE ;
 
-LEXICON V_64PUHKSAMA/REHKSAEMAE
+LEXICON V_64PUHKSAMA/REHKSAEMAE !puhksama+V:puh%{kØ%}a%{sś%}
 ! (1) I tegonimi: 
 ! (2) II tegonimi: 
 ! (3) tekev tm aktiiv: 
@@ -1003,9 +1003,9 @@ LEXICON V_68HARKUMA/NAELGUEMAE
 :%^VOWRaise Harm-Neutr_PSS-PRFPRC_t ;
 :%^VOWRaise PSS-PRFPRC_tU-SG-NOM ;
 
-LEXICON V_69HAARDUMA !!≈ * __@CODE@__ haarduma:haardu
+LEXICON V_69HAARDUMA !!≈ * __@CODE@__ haarduma:haar%{dØ%}u
 :%{back%} V_69HAARDUMA/SUENDUEMAE ;
-LEXICON V_69SUENDUEMAE !!≈ * __@CODE@__ sündümä:sündü
+LEXICON V_69SUENDUEMAE !!≈ * __@CODE@__ sündümä:sün%{dn%}ü
 :%{front%} V_69HAARDUMA/SUENDUEMAE ;
 LEXICON V_69HAARDUMA/SUENDUEMAE !!≈ * __@CODE@__ sündümä:sündü
 ! (1) I tegonimi: 
