@@ -331,6 +331,13 @@ asi+N+Sg+Gen:
 * *a%{sś%}%{jiØ%}%{back%}%^PAL%^VowRM%>%{aä%}*
 * *aś0000%>a*
 
+alostama+V+Act+Ind+Prt+Sg3:
+* *alos{tt́}a^Pen^VOWRaise^Pen^PAL^VowRM*
+* *alost́000000*
+
+**n2n no palatalization all**
+
+
 
 **{dd́n}:d́ palatalization for 3-way**
 

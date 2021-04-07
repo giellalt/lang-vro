@@ -487,8 +487,8 @@ Rules
  Cx:Cy <=>
  _ (HarmDummies:) VOWHite (%^CC2C:|%^G3:|%^G2:|%^StrGStem:|%^WGStem:) %^PAL: ;
  _ (HarmDummies:) PenVOWHite %^Pen: [%^G1:|%^G2:|%^G3:|%^StrGStem:|%^WGStem:] %^PAL: ;
- _ Vow: Cns:* (HarmDummies:) %^Pen: %^PAL: ;
- _ Vow: (HarmDummies:) %^VowRM: %^PAL: ;
+ _ Vow: Cns:* (HarmDummies:) PenVOWHite %^Pen: %^PAL: ;
+ _ Vow: (HarmDummies:) PenVOWHite %^VowRM: %^PAL: ;
  _ (%{jiØ%}:) (HarmDummies:) %^PAL:  ;
 
       where Cx in (%{bb́%} %{dd́%} %{ff́%} %{gǵ%} %{hh́%}  %{lĺ%} %{mḿ%} %{nń%} %{pṕ%} %{rŕ%} %{sś%} %{tt́%}  %{vv́%} %{zź%})
@@ -501,6 +501,22 @@ Rules
 !! asi+N+Sg+Gen:
 !!€ a%{sś%}%{jiØ%}%{back%}%^PAL%^VowRM%>%{aä%}
 !!€ aś0000%>a
+
+!! alostama+V+Act+Ind+Prt+Sg3:
+!!€ alos{tt́}a^Pen^VOWRaise^Pen^PAL^VowRM
+!!€ alost́000000
+
+"n2n no palatalization all"
+!! __@RULENAME@__
+ Cx:Cy <=>
+ _ (HarmDummies:) VOWHite (%^CC2C:|%^G3:|%^G2:|%^StrGStem:|%^WGStem:) (%>) %^NoPAL: ;
+ _ (HarmDummies:) PenVOWHite (%^Pen: [%^G1:|%^G2:|%^G3:|%^StrGStem:|%^WGStem:]) (%^Pen: %^VowRM: ) (%>) %^NoPAL: ;
+ _ Vow: Cns:* (HarmDummies:) PenVOWHite %^Pen: %^NoPAL: ;
+ _ Vow: (HarmDummies:) PenVOWHite %^VowRM: %^NoPAL: ;
+ _ (%{jiØ%}:) (HarmDummies:) %^NoPAL:  ;
+
+      where Cx in (%{bb́%} %{dd́%} %{ff́%} %{gǵ%} %{hh́%}  %{lĺ%} %{mḿ%} %{nń%} %{pṕ%} %{rŕ%} %{sś%} %{tt́%}  %{vv́%} %{zź%})
+            Cy in (b   d   f   g   h  l  m   n   p  r  s  t  v  z) matched ;
 
 
 "{dd́n}:d́ palatalization for 3-way"
@@ -714,7 +730,7 @@ Rules
 !! !VOWEL LOSS
 "a:0"
 !! __@RULENAME@__
- a:0 <=> [ Cns:| ArchCns: ] _ (HarmDummies:) [ (%^StrGStem:|PenVOWHite %^Pen: %^WGStem:|%^Pen: %^CC2C:|%^Pen: %^G2:) %^VowRM: | CnsInZero: %^VowRM: %^WGStem: %> ]  ; 
+ a:0 <=> [ Cns:| ArchCns: ] _ (HarmDummies:) [ (%^StrGStem:|PenVOWHite [%^Pen: %^WGStem:| %^Pen: %^PAL: ] |%^Pen: %^CC2C:|%^Pen: %^G2:) %^VowRM: | CnsInZero: %^VowRM: %^WGStem: %> ]  ; 
 ! [ Cns:| ArchCns: ] _ (HarmDummies:) [ (%^StrGStem:|PenVOWHite %^Pen: %^WGStem:|%^Pen: %^CC2C:) (0:) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM: %> ]  ; 
       a _ (HarmDummies:) %>  i  ; !!= @CODE@ 
 !!€ saa%{back%}%>i
