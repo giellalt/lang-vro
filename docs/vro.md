@@ -1397,7 +1397,7 @@ hamõh+N+Sg+Nom
 
 **XØToSelf**
 villui+A+Sg+Nom
-* *vi%{lØ%}lui%{back%}%^Pen%^G3*
+* *vi{lØ}lui{back}^Pen^G3*
 * *villui000*
 
 
@@ -1429,8 +1429,6 @@ hamõh+N+Sg+Nom
 makḱ+N+Pl+All
 * *ma{kØ}{kḱ}{back}^StrGStem^NoPAL>{eõ}>l{eõ}*
 * *makk000>õ>lõ*
-
-**%{bv%}:b**
 
 **%{pb%}:p**
 * *kau%{pb%}%{õØ%}%{lĺ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%>%{eõ%}%>m%{aä%}*
@@ -1623,11 +1621,6 @@ kannõĺ+N+Sg+Nom: **kantele**
 
 
 
-**dTot**
-* *käd%{front%}%^StrD2T%>t*
-* *kät00%>t*
-* *hüdsi%{front%}%^StrD2T%>l*
-* *hütsi00%>l*
 
 
 **dTos**
@@ -1712,6 +1705,9 @@ vaśma+V+Inf/mA
 närväs+A+Sg+Gen:
 * *när%{bv%}ä%{sØ%}%{front%}%^Pen%^VOWLower%^Pen%^StrGStem%^WGStem*
 * *närbä0000000*
+
+
+
 
 **%{gØ%}:g**
 liig+A+Sg+Nom:
