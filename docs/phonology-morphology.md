@@ -183,6 +183,8 @@
  %^WGStem:0     — This weakens "kipõń" to "kibõna", "ompel" to "ommel"
  %^StrGStem:0   — This strengthens "perädü" to "perätüt"
  %^XStrGStem:0  — This extra-strengthens "sõda" to "sõtta"
+ %^ShortGStem:0   — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
+ %^LongGStem:0     — This lengthens "pu%{tØ%}tu" to "puttuq"
 
 
  %^Pen:0        — This moves us to penultimate coda
@@ -494,8 +496,9 @@ tütär+N+Sg+Gen
 * *tütä%{rŕ%}%{front%}%^Pen%^VowRM%>e*
 * *tüt0r000%>e*
 
-**u:0**
+**U:0 Vx**
 ```
+
 * *hirnu{back}^Pen^CC2C^VowRM>m{aä}*
 * *hirn00000>ma*
 * *tervüs{front}^VowRM^CnsRM>i>t*
@@ -504,17 +507,16 @@ juusk+N+Sg+Nom: ____
 * *j{ou}{ou}s{kØ}u{back}^VOWRaise^VowRM*
 * *ju̬u̬sk0000*
 
+
 * *kuu{back}^VowRM>i>d*
 * *ku000>i>d*
 ```
 
-**ü:0**
-```
+ [ Cns: |ArchCns:| Vow: ] _ (s:) (HarmDummies:) [(%^Pen: %^CC2C:|%^Pen: %^G3:|%^Pen: %^G4:|PenVOWHite %^Pen: %^G1:) %^VowRM: ]( CnsInZero: (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: )  ; 
 * *tüü%{front%}%^VowRM%>hüq*
 * *tü000%>hüq*
 * *tervüs%{front%}%^VowRM%^WGStem%>i%>t*
 * *terv00000%>i%>t*
-```
 
 **e:0**
 * *herne%{hØ%}%{front%}%^VowRM%^WGStem%>id%{eõ%}*

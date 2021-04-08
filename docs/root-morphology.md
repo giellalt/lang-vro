@@ -454,6 +454,8 @@ And following triggers to control variation
   %^G2	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
   %^G3	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
   %^G4	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k
+ %^ShortGStem   — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
+ %^LongGStem     — This lengthens "pu%{tØ%}tu" to "puttuq"
   %^Pen	       This moves us to penultimate coda
   %^PAL	       — Palatalization
   %^NoPAL       — NoPalatalization
