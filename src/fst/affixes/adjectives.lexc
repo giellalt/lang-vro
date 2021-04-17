@@ -16,19 +16,19 @@ LEXICON A_1HERRAE !!= @CODE@ 1 herrä:herrä
 :%{front%} NMN_1HERRAE ;
 
 LEXICON A_2ARTIKLI !!= @CODE@ suhvli:suhvli
-!! * Yaml: __suhvli__
+!! * Yaml: **suhvli**
 :%{back%}   NMN_2ARTIKLI ;
 
 LEXICON A_2KERGE !!= @CODE@ 1 kerge:
 :%{front%} NMN_2KERGE ;
 
 LEXICON A_3ALADU !!= @CODE@ aladu:aladu
-!! * Yaml: __A-aladu__
+!! * Yaml: **A-aladu**
 :%{back%}   NMN_3ALADU ;
 :%{back%}%^Pen%^StrGStem COMP ;
 
 LEXICON A_3PERAEDUE !!= @CODE@ perädü:perädü
-!! * Yaml: __A-peraedue__
+!! * Yaml: **A-peraedue**
 :%{front%}   NMN_3PERAEDUE ;
 :%{front%}%^Pen%^StrGStem COMP ;
 
@@ -87,41 +87,41 @@ LEXICON A_9HERRE !!= * @CODE@
 :%{front%}  NMN_9TAHHE/HERRE ;
 
 LEXICON A_9KIPWN1/ELLAEI !!= * @CODE@ what is this
-!! * Yaml: __ellaei, suhvli__
+!! * Yaml: **ellaei, suhvli**
 :     NMN_9KIPWN1/ELLAEI ;
 :%^Pen%^WGStem%>%{aä%} Harm-Neutr_COMP ;
 
 LEXICON A_9SALLAI !!= * @CODE@ what is this
-!! * Yaml: __ellaei, suhvli__
+!! * Yaml: **ellaei, suhvli**
 :%{back%}     NMN_9SALLAI/ELLAEI ;
 :%^Pen%^WGStem%>%{aä%} Harm-Neutr_COMP ;
 LEXICON A_9KIPWN1
-!! * Yaml: __ellaei, suhvli__
+!! * Yaml: **ellaei, suhvli**
 :%{back%}     NMN_9KIPWN1/VETEL1 ;
 :%{back%}%^Pen%^WGStem%>a COMP ;
 
 LEXICON A_9VETEL1
-!! * Yaml: __ellaei, suhvli__
+!! * Yaml: **ellaei, suhvli**
 :%{front%}     NMN_9KIPWN1/VETEL1 ;
 :%{front%}%^Pen%^WGStem%>a COMP ;
 
 LEXICON A_9VILLW
-!! * Yaml: __villw__
+!! * Yaml: **villw**
 :%{back%} NMN_9VILLW/XX ;
 :%{back%}%^Pen%^WGStem COMP ;
 
 LEXICON A_9TUKWV
-!! * Yaml: __tukwv__
+!! * Yaml: **tukwv**
 :%{back%} NMN_9TUKWV/VERREV ;
 :%{back%}%^Pen%^WGStem%>a COMP ;
 
 LEXICON A_9VERREV
-!! * Yaml: __verrev__
+!! * Yaml: **verrev**
 :%{front%} NMN_9TUKWV/VERREV ;
 :%^Pen%^WGStem%>ä%{front%} COMP ;
 
 !LEXICON A_9SALLAI
-!! * Yaml: __sallai__
+!! * Yaml: **sallai**
 !:%{back%}     NMN_9SALLAI/ELLAEI ;
 !:%^Pen%^WGStem%^I2J%>a%{back%} COMP ;
 

@@ -3,12 +3,12 @@
 
 
 #   ================================= #
-#!! !!! Disambiguator for Olonets
+#!! Disambiguator for Olonets
 #   ================================= #
 
 # Copied from fit 22.3.21.
 
-#!! !!Sets
+#!! ## Sets
 
 # ========== #
 # Delimiters #
@@ -35,7 +35,7 @@ LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
 LIST <<< = <<< ;
 LIST >>> = >>> ;
 
-#!! !Part-of-Speech
+#!! ### Part-of-Speech
 LIST N = N ;  #!! * N = noun
 LIST A = A ;  #!! * A = adjective
 LIST APrc = A PrsPrc PrfPrc "tämä" "millainen" "sellainen" ; 
@@ -85,7 +85,7 @@ LIST Cmp/Attr = Cmp/Attr ;
 LIST Cmp/SgNom = Cmp/SgNom ;
 
 
-#!! !Numerus
+#!! ### Numerus
 LIST Pers = Pers ;
 
 LIST Sg = Sg ;   #!! * Sg = Singular
@@ -115,7 +115,7 @@ SET HE = PLPRON + ("he") ;
 
 
 
-#!! !Cases
+#!! ### Cases
 LIST Nom = Nom ; #!! * Nom
 LIST Gen = Gen ;   #!! * Gen
 LIST Acc = Acc ;   #!! * Acc
@@ -283,7 +283,7 @@ LIST Err/Orth = Err/Orth ;
 LIST Err/Orth-no-pal = Err/Orth-no-pal ;
 LIST Err/Orth-no-q = Err/Orth-no-q ;
 
-#!! !Types
+#!! ### Types
 LIST Prop = Prop ;   #!! * Prop = Proper noun
 LIST Interr = Interr ;   #!! * Interr = Interrogative
 LIST Dem = Dem ; #!! * Dem = demonstrative pron
@@ -406,7 +406,7 @@ LIST Der_inen = Der/inen Der_inen ;
 LIST Der_sti = Der/sti Der_sti ;
 
 
-#!! !!Sets with more members
+#!! ## Sets with more members
 # ====
 
 LIST WORD = N V A Adv Pr Interj Po Num CC CS Pron  ; #!! * WORD = all PoS
@@ -768,14 +768,14 @@ REMOVE:dyn  Arab (0 Prop) ; # foreløpig løsning, til vi har ny løsning for nu
 REMOVE:Maria ("Mar") IF (0 ("Mari") OR ("Maria"));
 
 SECTION
-#!! !!Disambiguation rules
+#!! ## Disambiguation rules
 
-#!! !Dialects
+#!! ### Dialects
 
 REMOVE:NotVar (Dial/Var);
 REMOVE:NotJok (Dial/Jok);
 
-#!! !Early rules
+#!! ### Early rules
 # SELECT:Dummyrule WORD IF (0 WORD) ;
 
 #!! 
@@ -801,11 +801,11 @@ SELECT:adv_after_V Adv IF (-1 V)
 REMOVE:prop_infrontof_kieli Prop (0 Gen OR Pron OR A LINK 1 ("kieli")) ;
 	#$ Kainun kieli oon osa Ruijan kulttuuriperinnöstä.
 
-#!! * __PropInit__ removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
+#!! * **PropInit** removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
 REMOVE:PropInit Prop (*-1 BOS BARRIER WORD)  ((0 CC) OR (0 Pr LINK 1 N)) ;
 	#$ Mutta kaikila kirjailiijoila
 
-#!! * __PropNotInit__ selects  propernoun if it is not in the beginning of a sentence
+#!! * **PropNotInit** selects  propernoun if it is not in the beginning of a sentence
 SELECT:PropNotInit Prop (NOT *-1 BOS BARRIER WORD) ;
 
 
@@ -823,7 +823,7 @@ REMOVE:NomParNum Gen IF (0 Num + Nom)(1 Par);
 	## kaksi sannaa
 	
 
-#!! !Preposition/postposition/adverb rules
+#!! ### Preposition/postposition/adverb rules
 
 REMOVE Po IF (NOT -1 Gen);
 
@@ -832,35 +832,35 @@ REMOVE Po IF (NOT -1 Gen);
 REMOVE Pr IF (NOT -1 Gen);
 #% Met panema  oven ja klasireijät kiini.
 
-#!! * __Prifgenpar__ selects  preposition to the left of Gen or Par
+#!! * **Prifgenpar** selects  preposition to the left of Gen or Par
 SELECT:Prifgenpar Pr IF (1 Gen OR Par);
 
-#!! * __Poifgenpar__ selects  postposition to the right of Gen or Par
+#!! * **Poifgenpar** selects  postposition to the right of Gen or Par
 SELECT:Poifgenpar Po IF (-1 Gen OR Par)(NEGATE 0 ("aikkaa") LINK NOT -1 Pron + Gen) ;
   #$  Ja hän itte meni heiđän etheen, kumarsi seittemen kerttaa maahan siksi ko hän tuli veljen etheen(en setning hvor den skal fungere)
   #% Mutta heilä ei ole juurta, het uskothaan vain vähäsen aikkaa, ja ko heitä freistathaan niin het jääđhään pois (setning hvor den ikke skal fun).
   #$ eksempel med aikkaa (het uskothaan vain vähäsen aikkaa)
 
-#!! * __vasthaan__
+#!! * **vasthaan**
 REMOVE ("vasta") IF (-1 Par)(0 ("vasthaan"));
 
 
-#!! !!Rules for mapping @CVP and @CNP on the CC and CS
+#!! ## Rules for mapping @CVP and @CNP on the CC and CS
 
-#!! * __CVP__ maps @CVP to CS and mutta
+#!! * **CVP** maps @CVP to CS and mutta
 MAP:CVP @CVP TARGET CS OR ("mutta") ;
 
-#!! * __CNPifN__ maps @CNP to CC between two N
+#!! * **CNPifN** maps @CNP to CC between two N
 MAP:CNPifN @CNP TARGET CC IF (-1 N)(*1 N BARRIER NOT-NPMOD) ;
 	#$ mitä Kväänin kieliraati ja Kväänin kielitinka oon tehneet ...
 
-#!! * __CNPifInf__ maps @CNP to CC between two Inf
+#!! * **CNPifInf** maps @CNP to CC between two Inf
 MAP:CNPifInf @CNP TARGET CC IF (-1 Inf)(1 Inf) ;
 
 
-#!! !!Case rules
+#!! ## Case rules
 
-#!! !Partitive
+#!! ### Partitive
 
 REMOVE:SgPar Pl + Par IF (-1 Num + Sg)(0 Sg + Par);
 REMOVE:SgParSub Pl + Par IF (-1 Num + Sg LINK 0/1 Sg + Par)(0 Sg + Par);
@@ -885,32 +885,32 @@ SELECT:QPar Sg + Par IF (-1C QNUM)(NOT 0 Prop);
 
 REMOVE:GenNotSg1 Sg1 IF (-1 V)(0 Gen);
 
-#!! !Illative
+#!! ### Illative
 
 REMOVE:han Foc/han IF (0 ("ma"))(*-1 V);
 
-#!! !!Number rules
+#!! ## Number rules
 
 REMOVE:PropSg Pl IF (0 Prop + Sg);
 
 REMOVE Pl + Par IF (-1 Sg)(0 Sg + Par);
 
-#!! !!More disambiguation rules
-#!! * __SgNotPl__
+#!! ## More disambiguation rules
+#!! * **SgNotPl**
 REMOVE:Sg3 Pl3 IF (0 Sg3)(NOT *0 Pl + Nom BARRIER Pl3);
 
 
-#!! !Elative
+#!! ### Elative
 
-#!! !!Propernouns
+#!! ## Propernouns
 
 SELECT:Bulle Nom IF (0 ("Bulle"));
 # not Bu +N+Prop+All
 
-#!! !!Verbs
+#!! ## Verbs
 
 	
-#!! !Specific verbs	
+#!! ### Specific verbs	
 
 
 #!! ei negation verb
@@ -940,24 +940,24 @@ SELECT:eliCCforInf CC IF (*-1 Inf BARRIER VFIN)(1 Inf) ;
 
 SELECT:CCdef CC IF (-1 COMMA)(1 PUNCT);	
 	
-#!! !!Adverbs
+#!! ## Adverbs
 
 REMOVE:AdvNotPcle Pcle IF (0 Adv)(NOT 1 CLB OR EOS);
 
-#!! !paljon
+#!! ### paljon
 SELECT:paljon Adv IF (0 ("paljon"))(NOT 1 Po);
 
-#!! !kerran
+#!! ### kerran
 SELECT:kerran Adv IF (0 ("kerran"))(1 VFIN);
 
-#!! !jälkhiin
+#!! ### jälkhiin
 SELECT:jälkhiin Adv IF (-1 Par)(0 ("jälkhiin"));
 
 
 SELECT:miksi Adv IF (0 ("miksi"))(NOT 1  Tra);	
 
 
-#!! !!Adjectives
+#!! ## Adjectives
 
 REMOVE:AdjNotN N + $$NUMBER + $$CASE IF (0 A + $$NUMBER + $$CASE) (1 N + $$NUMBER + $$CASE);
 
@@ -967,14 +967,14 @@ SELECT:eriPar A + Par IF (0 ("eri") + Sg + Par)(1 N + Sg + Par);
 REMOVE:ANotAdv Adv IF (0 A + $$CASE)(1 N + $$CASE) ;
 
 
-#!! !! Conjunctions
+#!! Conjunctions
 
 REMOVE:CSnotCC CC IF (NOT -1 $$POS LINK 2 $$POS);
 
 REMOVE Prop IF (0 ("mutta"));
 
 
-#!! !!Subjunctions
+#!! ## Subjunctions
 REMOVE:CS CC IF (-1 BOS OR CC)(0 CS);
 #$ Jos mie nyt olen...
 
@@ -1002,7 +1002,7 @@ REMOVE CC IF (-1 BOS OR CLB OR Adv OR CS)(0 CS)(NOT 1 Adv);
 
 REMOVE CC IF (-1 V)(0 CS)(1 N OR A OR Pron);
 
-#!! !!Pronouns
+#!! ## Pronouns
 
 SELECT:sie Pron IF (0 ("sie"))(*0 Sg2);
 
@@ -1019,9 +1019,9 @@ REMOVE Attr IF (NOT 1 N);
 REMOVE:RelNotInterr Interr IF (0 Rel)(NOT *1 ("?" CLB));
 
 
-#!! !!Verb rules, Verbs
+#!! ## Verb rules, Verbs
 
-#!! !Infinitive
+#!! ### Infinitive
 
 SELECT Inf IF (-1 AUX);
 #$ Hän sai kuula ette Jeesus oli tulemassa.
@@ -1029,7 +1029,7 @@ SELECT Inf IF (-1 AUX);
 SELECT:InfAfterInd Inf IF (-1C Ind);
 
 
-#!! !!Present Sg3
+#!! ## Present Sg3
 
 REMOVE:InfNotSg3 Inf IF (-1C N + Sg + Nom OR Pron + Sg + Nom)(0 Prs + Sg3);
 
@@ -1042,12 +1042,12 @@ REMOVE Imprt IF (-1 Sg + Nom)(0 Prs + Sg3) ;
 REMOVE N IF (-1 Sg + Nom)(0 ("vastata") + Sg3) ;
 
 
-#!! !!Present Pl3 or PrsPrc
+#!! ## Present Pl3 or PrsPrc
 
 REMOVE:PrsPrcNotPl3 Pl3 IF (0 PrsPrc + Sg + Nom)(1 Sg + Nom);
 
 
-#!! !!Present Pl3 or Passive
+#!! ## Present Pl3 or Passive
 
 
 REMOVE:Pl3NotPass Pass IF (0  Pl3)(*0 Pl3 + Nom OR Pl + Nom);
@@ -1070,9 +1070,9 @@ REMOVE:PassNotPl3Rel Pl3 IF (-1 Rel + Gen);
 REMOVE:NotImprtIfLeft Imprt IF (-1 Rel OR Interr OR A OR N OR Ind);
 
 
-#!! !!Past tense
+#!! ## Past tense
 
-#!! !Prt Pl3 or Prt Sg2
+#!! ### Prt Pl3 or Prt Sg2
 
 REMOVE:PrtPl3NotSg2 Sg2 IF (-1 (Pl Nom))(0 (Act Ind Prt Pl3));
 		    ## Net tulit.
@@ -1080,14 +1080,14 @@ REMOVE:PrtPl3NotSg2 Sg2 IF (-1 (Pl Nom))(0 (Act Ind Prt Pl3));
 REMOVE:PrtSg2NotPl3 Pl3 IF (-1 ("sie"))(0 (Act Ind Prt Sg2));
 		    ## Sie tulit.
 
-#!! !!Negative verb
+#!! ## Negative verb
 REMOVE:eiNeg Interj IF (0 ("ei"))(*1 ConNeg OR PrfPrc OR Inf BARRIER NEGV);
 
-#!! !!! Relative pronouns
+#!! Relative pronouns
 
 
 	
-#!! * __Pl3ollaifplrelpronandplinterrpron__ selects Pl3 if olla
+#!! * **Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
 SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE)) ;
   #$ Nämät käskyt mikkä mie tääpänä annan sinule
   #$ Kekkä oon nämät jokka oon sinun myötä?
@@ -1099,19 +1099,19 @@ SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR 
   #%  ... sillä Herra oon se joka tuomittee minun.
   #% Kansa sillon ko olen tehny jotaki mistä toiset ei tykätäl.
 
-#!! * __Sg3ollaifplrelpronandplinterrpron__ selects Sg3 if olla
+#!! * **Sg3ollaifplrelpronandplinterrpron** selects Sg3 if olla
 SELECT:Sg3ollaifplrelpronandplinterrpron Sg3 IF (0 ("olla")) (*-1 (N Sg Nom) OR  Relpronsg + Nom BARRIER WORD - Adv) ;
   #$ ... Jumala hänen armossa oon suonut sinun palvelijale.
   #$ Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa ...
   #$  ... sillä Herra oon se joka tuomittee minun.
   #$ Kansa sillon ko olen tehny jotaki mistä toiset ei tykätäl.
 
-#!! * __Sg3ollainpretandperf__ selects Sg3 if COPULAS
+#!! * **Sg3ollainpretandperf** selects Sg3 if COPULAS
 SELECT:Sg3ollainpretandperf Sg3 IF (0 COPULAS LINK 1 PrfPrc)(*-1 BOS BARRIER WORD)  ;
 #$ Oon kirjoitettu profeeta Esekielin tykönä luvussa 34, värsyt 23 - 31: 23.
 # ... jokka Jumala hänen armossa oon suonut sinun palvelijale.
 
-#!! * __Sg3ollainpretandperf__ selects Sg3 if COPULAS
+#!! * **Sg3ollainpretandperf** selects Sg3 if COPULAS
 SELECT:Sg3ollainpretandperf Sg3 IF (0 COPULAS LINK 1 Ade LINK *1 Nom OR Par BARRIER NOT-NPMODADV)(*-1 BOS OR S-BOUNDARY BARRIER WORD)  ;
 
 # Oonhan meilä vielä kieli.
@@ -1129,7 +1129,7 @@ SELECT:Sg3ollainpretandperf Sg3 IF (0 COPULAS LINK 1 Ade LINK *1 Nom OR Par BARR
 # Meilä oon vielä vaapa sija.
 
 
-#!! * __Relpronandnotintterpron__ selects Rel Sg if Interr
+#!! * **Relpronandnotintterpron** selects Rel Sg if Interr
 SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 N + Sg OR Pron + Sg OR Pron + Sg3 BARRIER WORD - CC) (NEGATE *1 ("?") BARRIER S-BOUNDARY) ;
 # Kekkä oon nämät jokka oon sinun myötä?
 # Anna se mikä oon sinun, olla sinun.
@@ -1138,15 +1138,15 @@ SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 N + Sg OR Pron + Sg O
 # Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa, ja jokka mie olen nyt kohðanu?"
 # ... ota vasthaan tämän lahjan mikä tuopi minun siunauksen, ja minkä tuothiin sinule, sillä Jumala oon näyttäny minule.
 
-#!! * __Relpronandnotintterpron__ selects Rel Sg if Interr
+#!! * **Relpronandnotintterpron** selects Rel Sg if Interr
 SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 (PUNCT RIGHT) BARRIER WORD - CC LINK *-1 (PUNCT LEFT) BARRIER WORD - CC LINK -1 N + Sg OR Pron + Sg OR Pron + Sg3) (NEGATE *1 ("?") BARRIER S-BOUNDARY) ;
 # Raatimies Odd Keskitalo informeerasi sekretariaatin funkšuunista (toiminta vailuu kokonhans), minkä jälkhiin raatimiehet selvästi ilmasthiin, ette tarvithaan ainaski kohta 100% stillinki, jotta kyethään ottamhaan vaarhiin ja selviämhään kaikista tarpheista ja haastheista.
 
-#!! * __interrpron__ selects Interr if ? in the end
+#!! * **interrpron** selects Interr if ? in the end
 SELECT:interrpron Interr IF  (*1 ("?") ) ;
 # Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa, ja jokka mie olen nyt kohðanu?"
 
-#!! * __DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj__ selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
+#!! * **DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj** selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
 SELECT:DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj (Pron Dem Pl) OR (Pron Pers Pl3) IF (0 Par OR Nom)((1 VFIN + Pl3) OR (-1 VFIN + Pl3)) ;
 # ... vaikka niitä oonki paljon, oon yksi ruumis, niin oon Kristuski.
 # Net huuðethiin ...
@@ -1165,10 +1165,10 @@ SELECT:DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj (Pron Dem Pl) OR (P
 # Mutta hyvhään maahaan puðonnut siemen merkittee niitä ...
 # Pron Dem Pl Par
 
-#!! * __paljonadvandnotpaljonoun__ selects Adv if paljon
+#!! * **paljonadvandnotpaljonoun** selects Adv if paljon
 SELECT:paljonadvandnotpaljonoun Adv IF (0 ("paljon") LINK *1 N + Par + Pl BARRIER WORD -  (A Par)) ;
 
-#!! * __Relpronifitsanounoracommabeforeit__ selects Rel Pl if N to the left
+#!! * **Relpronifitsanounoracommabeforeit** selects Rel Pl if N to the left
 SELECT:Relpronifitsanounoracommabeforeit Relpronpl IF ((-1 N + Pl OR Pron + Pl OR Pron + Pl3) OR (-1 COMMA LINK -1 N))(NEGATE *1 ("?")) ;
    #$ Kaikki muut jokka oon tulheet ennen minuu
     #%Kekkä oon nämät jokka oon sinun myötä?
@@ -1177,13 +1177,13 @@ SELECT:Relpronifitsanounoracommabeforeit Relpronpl IF ((-1 N + Pl OR Pron + Pl O
 #$ Ja Eesau juoksi häntä vasthaan, ja hän alkoi hyvväilemähään häntä, otti hänen kaulan ympäri ja summasteli häntä, ja het itkethiin.
 #$  ... hän kävelee heiðän eðessä, ja lamphaat kyytäthään häntä ...
 
-#!! * __annaimperativeandnotannaname__ removes Prop if Anna se
+#!! * **annaimperativeandnotannaname** removes Prop if Anna se
 REMOVE:annaimperativeandnotannaname ("Anna") IF (0 Imprt) (1 Pron LINK 1 Relpronsg)  ;
 # Anna se mikä oon sinun, olla sinun.
 # N Prop Sem/Fem Sg Nom
 # V Act Imprt Sg2
 
-#!! * __tulinounfromtuliprtsg3__ selects V Sg
+#!! * **tulinounfromtuliprtsg3** selects V Sg
 SELECT:tulinounfromtuliprtsg3 V + Sg3 IF  (-1 N + Par LINK *-1 QVANT-ADV BARRIER WORD - A) ;
 # ... kumarsi seittemen kerttaa maahaan siksi ko hän tuli veljen etheen.
 # Paljon ihmissii tuli nyt kaikista kaupungiista siltä alalta.
@@ -1191,13 +1191,13 @@ SELECT:tulinounfromtuliprtsg3 V + Sg3 IF  (-1 N + Par LINK *-1 QVANT-ADV BARRIER
 
 
 
-#!! * __dempronandnotpronpers__ selects Den if A of N to the right
+#!! * **dempronandnotpronpers** selects Den if A of N to the right
 SELECT:dempronandnotpronpers Dem IF (1 A OR N) (NEGATE -1 Dem LINK -1 V) (NEGATE 0 Ade LINK NOT 1 Ade + N) ;
 #$ Päivää jälkhiin se iso ihmisjoukko mikä oli tullu juhlhiin, sai kuula ette Jeesus oli tulemassa Jerusaleemhiin.
 #% Ja se tapattui niinä päivinä ko keisari Aukustus oli päättäny ette koko mailma piti maksaat verroo.
 #% ... niin ota vasthaan tämän lahjan minun käðestä, sillä tarkoitus oli nähðä sinun silmät ...
 
-#!! * __Imperativefromconneg__ selects and removes ConNeg
+#!! * **Imperativefromconneg** selects and removes ConNeg
 IFF:Imperativefromconneg ConNeg IF (0 Imprt)(*-1 Neg BARRIER WORD - Foc/kaan - Adv)(NEGATE -1 Foc/kaan LINK 2 S-BOUNDARY) ;
 #% Anna se mikä oon sinun, olla sinun.
 #% Ei yksikhään niistä jokka mie olin kuttunu.
@@ -1212,7 +1212,7 @@ IFF:Imperativefromconneg ConNeg IF (0 Imprt)(*-1 Neg BARRIER WORD - Foc/kaan - A
 # Mutta en mie sen tähđen ole viaton ...
 # ... ja villielläimet ei tule syömhään heitä.
 
-#!! * __ImperativeafterNeg__ removes Imprt if pronoun
+#!! * **ImperativeafterNeg** removes Imprt if pronoun
 REMOVE:ImperativeafterNeg Imprt IF (0 Pron)(*-1 Neg BARRIER WORD - Foc/kaan - Adv) ;
 	#$ Ei yksikhään niistä jokka mie olin kuttunu.
 
@@ -1250,7 +1250,7 @@ REMOVE:NoErrOrth Err/Orth ;
 REMOVE:NoErrOrth Err/Orth-no-q ;
 REMOVE:NoErrOrth Err/Orth-no-pal ;
 
-#!! * __interrel__ selects Interr of Rel if CS to the right
+#!! * **interrel** selects Interr of Rel if CS to the right
 SELECT:interrel Interr OR Rel (1 CS) ; # Ei anna mithään?
 
 #MAP (@GRAM-ERR) TARGET V (0 V + 3S LINK -1 N + S) ;
@@ -1626,7 +1626,7 @@ REMOVE N IF (0 Ensimmainen + $$ALLCASES)(1 A + $$ALLCASES);
 # Mostly same as sme rule, but removed (0 ("orrut")); is it worth including copulas here? Finnish doesn't quite have quite the same here
 MAP (@+FMAINV) TARGET VFIN IF (NEGATE *0 VERB BARRIER S-BOUNDARY2 OR CC) ;
 
-#!! * __+FMAINV__  to the remaining finite verbs which are not AUX    
+#!! * **+FMAINV**  to the remaining finite verbs which are not AUX    
 MAP:+FMAINV (@+FMAINV) TARGET VFIN-NOT-AUX (NOT 0 V + OBJ OR V + SUBJ OR V + @ADVL OR (V @>N) OR (V @N<))(NEGATE *0 VFIN-NOT-AUX OR @+FMAINV BARRIER S-BOUNDARY OR COMMA OR LEFT OR RIGHT) (NEGATE *-1 (V @>N) BARRIER NOT-A OR LEFT)
 	(NEGATE *-1 V - @>N BARRIER S-BOUNDARY OR COMMA OR LEFT)
 	(NEGATE *1 VFIN OR PrfPrc - @>N BARRIER S-BOUNDARY OR COMMA OR RIGHT)(NEGATE 0 InfA LINK -1 CC LINK *-1 InfA BARRIER REAL-V LINK -1 AUX) ;
@@ -1773,7 +1773,7 @@ MAP:AllAdvl (@ADVL>) TARGET LOC-CASE IF (*1 VFIN);
 
 # Stray NP HNOUN mapping
 
-#!! !!HNOUN MAPPING
+#!! ## HNOUN MAPPING
 
 MAP:hnounNom (@HNOUN) TARGET NP-HEAD-NOM - A OR (Num Nom) 
 (NEGATE *0 V BARRIER (":"))(NEGATE *-1 PUNCT BARRIER (":") LINK -1 WORD) 
@@ -1790,7 +1790,7 @@ MAP:hnounAdvl (@HNOUN) TARGET ADVLCASE OR Acc (NEGATE *0 REAL-V OR @HNOUN) ;
 	#$ Juoba ge dán áigodagas.
 MAP:hnounInterj (@HNOUN) TARGET Acc (*-1 Interj BARRIER NOT-NPMOD) ;
 
-#!!	* __ADVLheadliner__	
+#!!	* **ADVLheadliner**	
 MAP:ADVLheadliner (@ADVL>) TARGET ADVLCASE OR Sem/Time (*1 @HNOUN) ;	
 	#$ Vuosttaš geasi nissonolmmoš bajimusas.
 
@@ -1813,7 +1813,7 @@ MAP:HNOUNcoor (@HNOUN) TARGET N (-1 @CNP LINK -1 @HNOUN) ;
 	#$ Oslos ja Londonis.
 
 MAP (@ADVL) TARGET Adv (-1 BOS) ;
-#!! * __@<ADVLcoor__ (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
+#!! * **@<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
 MAP:@<ADVLcoor (@<ADVL) TARGET ADVLCASEAdv (-1 @CNP LINK -1 ADVLCASEAdv) ;
 	#$ Odne vai ihttin?
 
@@ -2007,13 +2007,13 @@ SECTION
 
 
 
-#!! * __X__ maps X everywhere
+#!! * **X** maps X everywhere
 MAP (@X) TARGET WORD ;
 MAP:missingX (@X) TARGET (?) ;
 
 #SUBSTITUTE (@X) (*) TARGET WORD ;
 
-#!! * __REMOVE X__ removes X whenever there is any other tag.
+#!! * **REMOVE X** removes X whenever there is any other tag.
 # Commented out, may be useful at a later stage, but at the moment may hide ambiguities - 19.01.2015 -FMT+KM
 #REMOVE (@X) ;
 
@@ -2119,7 +2119,7 @@ REMOVE:X @X ;
 # ================= ============ =============
 LIST WORDLEMMA = (".*"r) ; #!! * WORDLEMMA = regex giving the lemma in question
 
-#!! * __errorth__ removes Err/Orth if there is an analysis without Err/Orth with the same lemma
+#!! * **errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 REMOVE:errorth $$WORDLEMMA + (Err/Orth) (0 $$WORDLEMMA - (Err/Orth) ) ; #Removes Err/Orth analysis when there is an analysis with same lemma without Err/Orth
 
 AFTER-SECTIONS              #

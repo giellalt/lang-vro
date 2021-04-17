@@ -13,21 +13,21 @@
 # giellatekno@hum.uit.no or feedback@divvun.no
 
 # ==================================================================== #
-#!! !!!C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
+#!! # C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
 # ==================================================================== #
 # ==================================================================== #
 
 #!! This dep file is for sma, sme, smj, sje.
 
 # ========== #
-#!! !!!DELIMITERS
+#!! # DELIMITERS
 # ========== #
 
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
 #!! Sentence delimiters are the following: <.> <!> <?> <...> <¶>
 
 
-#!! !!!TAGS AND SETS
+#!! # TAGS AND SETS
 
 SETS
 
@@ -89,7 +89,7 @@ LIST Ess = Ess ;		 #!! Ess
 
 LIST IM = IM ; #!! IM For fao
 
-#!! !!POS sub-categories
+#!! ## POS sub-categories
 # ------------------
 
 LIST Pers = Pers ;
@@ -352,10 +352,10 @@ SET NOT-COMMA = CLB - COMMA ;
 
 LIST HALF-INTERJ = "vuoi" "gea" ;
 
-#!! !!Syntactic tags and sets
+#!! ## Syntactic tags and sets
 # =======================
 
-#!! !Syntactic tags in input to this file
+#!! ### Syntactic tags in input to this file
 
 LIST @+FAUXV = @+FAUXV ; 	         # finite auxiliary
 LIST @+FMAINV = @+FMAINV ; 	         # finite main verb
@@ -419,13 +419,13 @@ LIST @INTERJ = @INTERJ ;
 LIST @>CS = @>CS ;
 LIST @APP = @APP ;
 
-#!! !Syntactic tags added in this file
+#!! ### Syntactic tags added in this file
 
 LIST @FMV = @FMV ;		#!! * @FMV : finite main verb
-						#!! ** oaidná: Son oaidná ollislaš gova. - She sees the whole picture
+						#!!     - oaidná: Son oaidná ollislaš gova. - She sees the whole picture
 LIST @IMV = @IMV ;     	#!! * infinite main verb
 LIST @FAUX = @FAUX ;	#!! * @FAUX : finite auxiliary verb
-						#!! ** ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture. 
+						#!!     - ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture. 
 LIST @FMVdic = @FMVdic ;	#!! * @FMVdic : finite main verb introducing direct speech
 LIST @IMVdic = @IMVdic ;	#!! * @IMVdic : infinite main verb introducing direct speech
 LIST @FS-IMV = @FS-IMV ;	#!! * @FS-IMV : infinite main verb of subclause 
@@ -448,7 +448,7 @@ LIST @-FS-ADVL> = @-FS-ADVL>  ;	#!! * @-FS-ADVL> : infinite subclause - eus
 LIST @FS-N< = @FS-N< ;         	#!! * @FS-N< : relative clause to N
 LIST @FS->N = @FS->N ;         	#!! * @FS->N : relative clause to N to the left side of it - eus
 LIST @FS-VFIN< = @FS-VFIN< ; 	#!! * @FS-VFIN< : finite verb in sentence, statement
-								#!! ** eai: Idja ii leat šat, eai ge sii dárbbaš lámppá dahje beaivváža čuovgga, dasgo Hearrá Ipmil lea sin čuovga. - The night is not anymore, they do not need the lamp- or day- light either, because God the Lord is their light.
+								#!!     - eai: Idja ii leat šat, eai ge sii dárbbaš lámppá dahje beaivváža čuovgga, dasgo Hearrá Ipmil lea sin čuovga. - The night is not anymore, they do not need the lamp- or day- light either, because God the Lord is their light.
 LIST @FS-<APP = @FS-<APP ;    	#!! * @FS-<APP : finite subclause functioning as an apposition
 LIST @ICL-ADVL = @ICL-ADVL ;  	#!! * @ICL-ADVL : non-finite subclause ...
 LIST @ICL-AUX< = @ICL-AUX< ;  	#!! * @ICL-AUX< : "right" argument of auxiliary (?)
@@ -460,7 +460,7 @@ LIST <mv> = <mv> ;				#!! * <mv> : main verb. A temporarily tag omitted in the e
 LIST <aux> = <aux> ;			#!! * <aux> : auxilary verb. A temporarily tag omitted in the end of the file.
 
 
-#!! !fao syntags
+#!! ### fao syntags
 
 LIST @IM = @IM ; # For fao!
 LIST @<IOBJ = @<IOBJ ; # For fao!
@@ -472,7 +472,7 @@ LIST @FS-P< = @FS-P< ; 	    # the finite verb of a subsentence functioning as a 
 LIST @FS-P<IMV = @FS-P<IMV ; 	    # the infinite verb of a subsentence functioning as a @P<
 LIST @>V = @>V ;				#!! * @>V
 
-#!! !kal syntags
+#!! ### kal syntags
 
 LIST @<SUBJ_COMP = @<SUBJ_COMP ;
 LIST @AGENS> = @AGENS> ;		# agens ved PASSIV
@@ -512,11 +512,11 @@ LIST @INS = @INS ;				#!! * @INS :
 LIST @<INS = @<INS ;			#!! * @<INS :
 LIST @INS> = @INS> ;			#!! * @INS> :
 
-#!! !eus syntags
+#!! ### eus syntags
 
 LIST @FS-SPRED = @FS-SPRED ;   	#!! * @FS-SPRED : finite verb in subclause functioning as a subject predicate - eus, but not sure if in use
 
-#!! !Syntactic set definitions
+#!! ### Syntactic set definitions
 # =========================
 
 LIST SPRED = @SPRED> @<SPRED @SPRED ;
@@ -569,7 +569,7 @@ SET S-BOUNDARY = (Pron Interr) OR Rel OR MCL-CONJ OR ADVL-COMP OR ADVL-COMPfao O
 #   §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 #   §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
-#!! !!!Dep grammar
+#!! # Dep grammar
 
 BEFORE-SECTIONS
 
@@ -583,20 +583,20 @@ LIST MUITALIT = "árvalit" "bivdit" "boagustit" "cealkit" "cuoigut" "čilget" "�
 	## Njáv, váidalii Busi ja gávastalai.
 	## Njáv, njávggádii Busi fas ja fanahalai.
 
-#!! * __muitalit__
+#!! * **muitalit**
 SUBSTITUTE:muitalit (V) (<vdic> V) TARGET MUITALIT (0 @FMAINV) ;
 
 # eus-rules
 
-#!! * __XX__
+#!! * **XX**
 SUBSTITUTE (@SUBJ> @<SUBJ) (@SUBJ>) TARGET (@SUBJ> @<SUBJ) (*1 @FMV OR @FAUX);
 #SUBSTITUTE (@SUBJ> @<SUBJ) (@<SUBJ) TARGET
 
-#!! * __XX__
+#!! * **XX**
 SUBSTITUTE (@OBJ> @<OBJ) (@OBJ>) TARGET (@OBJ>) (*1 @FMV)(NEGATE *1 @<SUBJ);
 #SUBSTITUTE (@OBJ> @<OBJ) (@<OBJ) TARGET
 
-#!! * __XX__
+#!! * **XX**
 SUBSTITUTE (@SPRED> @<SPRED) (@SPRED>) TARGET (@SPRED>) (*-1 @SUBJ>)(NEGATE *1 @<SUBJ) ;
 #SUBSTITUTE (@SPRED> @<SPRED) (@<SPRED) TARGET
 #
@@ -612,7 +612,7 @@ SUBSTITUTE (@SPRED> @<SPRED) (@SPRED>) TARGET (@SPRED>) (*-1 @SUBJ>)(NEGATE *1 @
 
 # fao-rules
 
-#!! * __faoSumId=Rel__
+#!! * **faoSumId=Rel**
 SUBSTITUTE:faoSumId=Rel (CS) (<cs> Rel) TARGET ("sum" CS) OR ("ið" CS) (0 <fao>);
 
 
@@ -666,7 +666,7 @@ SUBSTITUTE:SubV=aux (V) (<aux> V) TARGET @AUX ;
 #SUBSTITUTE:SubV=mvICL (V) (<mv> V) TARGET NONVFIN (0 @<OBJ LINK NEGATE *1 @IMV BARRIER S-BOUNDARY OR V) ;
 #SUBSTITUTE:SubV=auxICL (V) (<aux> V) TARGET NONVFIN (0 AUX LINK 0 @<OBJ LINK *1 @IMV BARRIER S-BOUNDARY OR V) ;
 
-#!! !!The finite verb
+#!! ## The finite verb
 # ===============
 
 # fao: the finite verb of pr-complement-subclauses gets @FS-P<:
@@ -829,7 +829,7 @@ SUBSTITUTE:V=ehead (V) (<ehead> V) TARGET VFIN (*-1 Rel BARRIER VFIN OR COMMA LI
 SUBSTITUTE:faoSubV=iclp< (@P<) (@ICL-P<) TARGET Inf ; #faospecsynrules
 
 
-#!! !!!Mapping rules
+#!! # Mapping rules
 # =============
 
 
@@ -1420,7 +1420,7 @@ SUBSTITUTE (TV*) (*) TARGET (TV*) ;
 SUBSTITUTE (IV*) (*) TARGET (IV*) ;
 
 
-#!! !! __lgRemove__ removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
+#!! **lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
 
 SUBSTITUTE:sjeRemove (<sje>) (*) TARGET (<sje>) ;
 SUBSTITUTE:smaRemove (<sma>) (*) TARGET (<sma>) ;
