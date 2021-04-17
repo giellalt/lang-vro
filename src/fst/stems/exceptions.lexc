@@ -1,13 +1,13 @@
 
 LEXICON Exceptions
-!! !ADVERBS
+!! ### ADVERBS
 kah:kah ADV_ ;
 kaq:kaq ADV_ ;
 viil:viil ADV_ ;
 õnnõs:õnnõs ADV_ ;
 är:är ADV_ ;
 
-!! !CONJUNTIONS
+!! ### CONJUNTIONS
 ja:ja CC_ ;
 aq:aq CC_ ;
 
@@ -15,7 +15,7 @@ et:et CS_ ;
 ku:ku CS_ ;
 sis:sis CS_ ;
 
-!! !GENITIVE ATTRIBUTES
+!! ### GENITIVE ATTRIBUTES
 Austria-Ungari+N+Prop+Sg+Gen:Austria-Ungari K ;
 Inglüse-Iiri+N+Prop+Sg+Gen:Inglüse-Iiri K ;
 Poola-Leedu+N+Prop+Sg+Gen:Poola-Leedu K ;
@@ -44,17 +44,17 @@ Eesti-Vinne+N+Prop+Sg+Gen:Eesti-Vinne K ;
 Võro-Põlva+N+Prop+Sg+Gen:Võro-Põlva K ;
 Võro-Seto+N+Prop+Sg+Gen:Võro-Seto K ;
 
-!! !NOUNS
+!! ### NOUNS
 vaih+N+Sg+Nom:vahe K ;
 
-!! !PLURAL NOUNS
+!! ### PLURAL NOUNS
 
 
-!! !POSTPOSITIONA
+!! ### POSTPOSITIONA
 pääleq+v1+Po:pääleq PO-IS-ALL ;
 pääleq+v2+Po:pääle PO-IS-ALL ;
 
-!! !PRONOUNS
+!! ### PRONOUNS
 hindä+Pron+Refl+All:hindäle K ;
 hindä+Pron+Refl+Gen:hindä K ;
 hindä+Pron+Refl+Ela:hinnäst K ;
@@ -62,10 +62,10 @@ tuu:tu PRON-DEM ;
 tää:tä PRON-DEM ;
 
 
-!! !VERBS
+!! ### VERBS
 ei:e V_EI ;
 
-!! minemä __to go/ mennä__
+!! minemä **to go/ mennä**
 minemä+V:%{front%}län ACT-PRFPRC-ALL_nUq ;
 minemä+V+Act+Ind+Prs+Sg1:%{front%}lää K ;
 minemä+V+Act+Ind+Prs+Sg2:%{front%}läät K ;
@@ -93,7 +93,7 @@ minemä+V+Act+Ind+Prt+Pl3:%{front%}lätsiq K ;
 minemä+Use/NG+V+Act+Ind+Prt+Pl3:%{front%}lätsiväq K ;
 
 
-!! olõma __to be/ olla__
+!! olõma **to be/ olla**
 olõma+V+Act+Ind+Prs+Sg3:um%{back%} K ;
 olõma+V+Act+Ind+Prs+Pl3:ummaq%{back%} K ;
 olõma+V+Act+Ind+Prs+Pl3:ummavaq%{back%} K ;
@@ -101,14 +101,14 @@ olõma+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-õi K ;
 olõma+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-iq K ;
 olõma+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-i K ;
 
-!! nakkama __to start/ alkaa__
+!! nakkama **to start/ alkaa**
 nakkama+V+Act+Ind+Prt+Sg3:naaś%{back%} K ;
 
-!! tegemä __to do/ tehdä__
+!! tegemä **to do/ tehdä**
 
 tegemä+V+Act+Ind+Prs+Pl1:teemiq%{front%} K ;
 
-!! võtma __to take (pass)/ ottaa__
+!! võtma **to take (pass)/ ottaa**
 võtma+V:võe Harm-Neutr_NÕSTMA-PSS-DISTRIBUTION ; !!These are irregular but primary
 võtma+V:võe Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
 võtma+V:võe Harm-Neutr_V0-PSS-PRSPRC_tAv ;
