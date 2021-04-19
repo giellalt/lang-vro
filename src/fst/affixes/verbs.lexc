@@ -875,7 +875,7 @@ LEXICON V_64PUHKSAMA
 !! * Yaml: **V-puhksama64**
 :%{back%} V_64PUHKSAMA/REHKSAEMAE ;
 LEXICON V_64REHKSAEMAE
-! rehksämä:rehkäs
+! rehksämä:reh%{kØ%}ä%{sś%}
 !! * Yaml: **V-rehksaemae64**
 :%{front%} V_64PUHKSAMA/REHKSAEMAE ;
 
@@ -905,6 +905,7 @@ LEXICON V_64PUHKSAMA/REHKSAEMAE !puhksama+V:puh%{kØ%}a%{sś%}
 
 :%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} V2N_minE ;
 :%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} Harm-Neutr_INF_mA ;
+!reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}
 :%^Pen%^WGStem%^NoPAL Harm-Neutr_INF_tAq ;
 :%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} Harm-Neutr_ACT-PRSPRC_v ;
 :%^Pen%^WGStem%^NoPAL Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;

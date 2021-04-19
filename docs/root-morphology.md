@@ -1,7 +1,7 @@
 
 # Võru tags and basic lexica
 
-# Definitions for Multichar_Symbols
+ # Definitions for Multichar_Symbols
 
 ## Analysis symbols
 The morphological analyses of wordforms for the Võro
@@ -305,8 +305,8 @@ Question and Focus particles:
 
 
 
- * __+Sem/Ant_Fem	__
- * __+Sem/Ant_Mal	__
+ * **+Sem/Ant_Fem	**
+ * **+Sem/Ant_Mal	**
  * **+Temp	**
 
 
@@ -318,9 +318,9 @@ source and target part-of-speech.
  * **+Prop→A	**
  * **+Der	**
  * **+Der/xxx**
- **+Der/JA**	NomAg
- **+Der/minE** NomAct
- **+Der/lt	** A→Adv
+ ** +Der/JA **	NomAg
+ ** +Der/minE ** NomAct
+ **+Der/lt	   ** A→Adv
 
 # Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -426,11 +426,11 @@ symbols in the lexicon files:
   %{dd́n%}  
 ```
 
- **%^I7**  This appears in stem vaoma:va%^I7o for vaio
- **%^K7**  This appears in stem väemä:vä%^K7e for väkeq
- **%^V7**  This appears in stem häömä:hä%^V7ö for hävvü
- **%^T7**  This appears in stem kaoma:ka%^T7o for katoq
- **%^Y7**  This appears for syna = s%^Y7na and is rendered as õ in the norm
+ ** %^I7         **  This appears in stem vaoma:va%^I7o for vaio
+ ** %^K7         **  This appears in stem väemä:vä%^K7e for väkeq
+ ** %^V7         **  This appears in stem häömä:hä%^V7ö for hävvü
+ ** %^T7         **  This appears in stem kaoma:ka%^T7o for katoq
+ ** %^Y7         **  This appears for syna = s%^Y7na and is rendered as õ in the norm
 
 And following triggers to control variation
  %^ErrorBack	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
@@ -444,12 +444,12 @@ And following triggers to control variation
 
  %^StrD2T  This changes g,d,b, => k,t,p
 
- **%^VowRM** this will remove stem final vowel
- **%^CnsRM** this will remove stem final consonant tervüs:tervü
- **%^StrGStem** This strengthens "perädü" to "perätüt"
- **%^XStrGStem** This extra-strengthens "sõda" to "sõtta"
+ ** %^VowRM  ** this will remove stem final vowel
+ ** %^CnsRM  ** this will remove stem final consonant tervüs:tervü
+ ** %^StrGStem ** This strengthens "perädü" to "perätüt"
+ ** %^XStrGStem ** This extra-strengthens "sõda" to "sõtta"
   **%^NoGrad**
- **%^WGStem** This weakens
+ ** %^WGStem ** This weakens
   %^G1	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
   %^G2	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
   %^G3	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
@@ -462,90 +462,90 @@ And following triggers to control variation
 
  %^PenWGStem  This weakens "kipõń" to "kibõna"
 
- **%^PenVowRM** syncope tapõld : taplõma
+ ** %^PenVowRM ** syncope tapõld : taplõma
 
- **%^D2S	** käsi, susi
+ **%^D2S	  ** käsi, susi
  %^TS2S  The -ts- => -s-
  %^I2J  The i => j change
 
- **%^PLPRT** The a:o attested in Plural kana:kanno and prt
- **%^VOWRaise** Raises vowel
- **%^VOWLower** Lowers vowel
- **%^XLowerVow** Lowers vowel two levels
- **%^VOWLowerDelab** Lowers vowel and delabializes it
- **%^XLowerVowDelab** Lowers vowel two levels and delabializes it
+ ** %^PLPRT ** The a:o attested in Plural kana:kanno and prt
+ **%^VOWRaise      ** Raises vowel
+ **%^VOWLower  ** Lowers vowel
+ **%^XLowerVow ** Lowers vowel two levels
+ **%^VOWLowerDelab ** Lowers vowel and delabializes it
+ **%^XLowerVowDelab ** Lowers vowel two levels and delabializes it
  %^U2E  lowers u:õ and ü:e delabializes and lowers
  %^U2A  lowers u:a and ü:ä delabializes and lowers
 
-* **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
-* **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous
+ * **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
+ * **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous
    with more frequent words. They should only be considered
    abbreviations in the middle of a sentence.
-* **+Gram/TNumAbbr**:  Transitive abbreviation if the following
+ * **+Gram/TNumAbbr**:  Transitive abbreviation if the following
             constituent is numeric
-* **+Gram/NumNoAbbr**:  Transitive abbreviations for which numerals
+ * **+Gram/NumNoAbbr**:  Transitive abbreviations for which numerals
 are complements and normal words. The abbreviation usage
 is less common and thus only the occurences in the middle of
 the sentence can be considered as true cases.
-* **+Gram/TIAbbr**:  Both transitive and intransitive abbreviation
-* **+Gram/IAbbr**:  Intransitive abbreviation (it takes no argument)
-* **+Gram/3syll**: trisyllabic verbs
+ * **+Gram/TIAbbr**:  Both transitive and intransitive abbreviation
+ * **+Gram/IAbbr**:  Intransitive abbreviation (it takes no argument)
+ * **+Gram/3syll**: trisyllabic verbs
  ; +Gram/Superl 
  ; +Gram/Comp 
 
 
 
 # Oahpa Place names and case used 
-* **+%<plc_ine%>**:  Ine, Ill, Ela
-* **+%<plc_ade%>**:  Ade, All, Abl
-* **+%<pcl_pääl%>**:  pääl, pääle, päält
+ * **+%<plc_ine%>  **:  Ine, Ill, Ela
+ * **+%<plc_ade%>  **:  Ade, All, Abl
+ * **+%<pcl_pääl%> **:  pääl, pääle, päält
 
 
 # Flag diacritics
 We have manually optimised the structure of our lexicon using the following
 flag diacritics to restrict morhpological combinatorics - only allow
 compounds with verbs if the verb is further derived into a noun again:
-|  **@P.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
-|  **@D.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
-|  **@C.NeedNoun@** | (Dis)allow compounds with verbs unless nominalised
+ |  **@P.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+ |  **@D.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+ |  **@C.NeedNoun@** | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
-|  **@P.CmpFrst.FALSE@** | Require that words tagged as such only appear first
-|  **@D.CmpPref.TRUE@** | Block such words from entering ENDLEX
-|  **@P.CmpPref.FALSE@** | Block these words from making further compounds
-|  **@D.CmpLast.TRUE@** | Block such words from entering R
-|  **@D.CmpNone.TRUE@** | Combines with the next tag to prohibit compounding
-|  **@U.CmpNone.FALSE@** | Combines with the prev tag to prohibit compounding
-|  **@P.CmpOnly.TRUE@** | Sets a flag to indicate that the word has passed R
-|  **@D.CmpOnly.FALSE@** | Disallow words coming directly from root.
+ |  **@P.CmpFrst.FALSE@** | Require that words tagged as such only appear first
+ |  **@D.CmpPref.TRUE@** | Block such words from entering ENDLEX
+ |  **@P.CmpPref.FALSE@** | Block these words from making further compounds
+ |  **@D.CmpLast.TRUE@** | Block such words from entering R
+ |  **@D.CmpNone.TRUE@** | Combines with the next tag to prohibit compounding
+ |  **@U.CmpNone.FALSE@** | Combines with the prev tag to prohibit compounding
+ |  **@P.CmpOnly.TRUE@** | Sets a flag to indicate that the word has passed R
+ |  **@D.CmpOnly.FALSE@** | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
 
-|  **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj.
-|  **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
+ |  **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj.
+ |  **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
 
-|  **@U.Case.Abe@	** | Abessive
-|  **@U.Case.Abl@	** | Ablative
-|  **@U.Case.Ade@	** | Adessive
-|  **@U.Case.All@	** | Allative
-|  **@U.Case.Com@	** | Comitative
-|  **@U.Case.Ela@	** | Elative
-|  **@U.Case.Gen@	** | Genitive
-|  **@U.Case.Ill@	** | Illative
-|  **@U.Case.Ine@	** | Inessive
-|  **@U.Case.Nom@	** | Nominative
-|  **@U.Case.Par@	** | Partitive
-|  **@U.Case.Ter@	** | Terminative
-|  **@U.Case.Tra@	** | Translative
+ |  **@U.Case.Abe@	** | Abessive
+ |  **@U.Case.Abl@	** | Ablative
+ |  **@U.Case.Ade@	** | Adessive
+ |  **@U.Case.All@	** | Allative
+ |  **@U.Case.Com@	** | Comitative
+ |  **@U.Case.Ela@	** | Elative
+ |  **@U.Case.Gen@	** | Genitive
+ |  **@U.Case.Ill@	** | Illative
+ |  **@U.Case.Ine@	** | Inessive
+ |  **@U.Case.Nom@	** | Nominative
+ |  **@U.Case.Par@	** | Partitive
+ |  **@U.Case.Ter@	** | Terminative
+ |  **@U.Case.Tra@	** | Translative
 
-|  **@U.Number.Pl@	** | Plural
-|  **@U.Number.Sg@	** | Singular
+ |  **@U.Number.Pl@	** | Plural
+ |  **@U.Number.Sg@	** | Singular
 
 # The Root lexicon
 
@@ -568,15 +568,15 @@ look at verb_newwords.lexc
  * **Acronym ;**
 
 Incoming
- * __A_NEWWORDS ;__
- * __ADP_NEWWORDS ;__
- * __ADV_NEWWORDS ;__ 
- * __DET_NEWWORDS ;__
- * __INTERJ_NEWWORDS ;__
- * __N_NEWWORDS ;__
- * __@U.Cap.Obl@ PROP_NEWWORDS ;__
- * __@U.Cap.Opt@ PROP_NEWWORDS ;__
- * __V_NEWWORDS ;__
+ * **A_NEWWORDS ;**
+ * **ADP_NEWWORDS ;**
+ * **ADV_NEWWORDS ;** 
+ * **DET_NEWWORDS ;**
+ * **INTERJ_NEWWORDS ;**
+ * **N_NEWWORDS ;**
+ * **@U.Cap.Obl@ PROP_NEWWORDS ;**
+ * **@U.Cap.Opt@ PROP_NEWWORDS ;**
+ * **V_NEWWORDS ;**
  * **GenitiveAttributes ;** Borrowed from experimental_languages est
 
 

@@ -165,7 +165,7 @@
   %^V7:0          This appears in stem häömä:hä%^V7ö for hävvü
   %^T7:0          This appears in stem kaoma:ka%^T7o for katoq
 
- **%^Y7:õ**  This appears for syna = s%^Y7na and is rendered as õ in the norm
+ **%^Y7:õ  **  This appears for syna = s%^Y7na and is rendered as õ in the norm
 ```
 
 
@@ -340,6 +340,10 @@ alostama+V+Act+Ind+Prt+Sg3:
 **n2n no palatalization all**
 
 
+rehksämä+V+Inf/mA:
+* *reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}*
+* *rehkäs000000>ä>mä*
+
 
 **{dd́n}:d́ palatalization for 3-way**
 
@@ -487,6 +491,9 @@ sõda+N+Pl+Par:
 pügämä+V+Pss+PrfPrc:
 * *pü%{kgØ%}ä%{front%}%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>t*
 * *pö00000000e%>t*
+rehksämä+V+Inf/mA:
+* *reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}*
+* *rehkäs000000>ä>mä*
 
 * *jää%{front%}%^VOWRaise%^VowRM%>i*
 * *jä0000%>i*
@@ -640,7 +647,7 @@ CONSONANT
 * *pap%{pṕØ%}%{back%}%^G2%^PAL*
 * *papṕ000*
 
-**%{tt́Ø%}:t́**
+**%{tt́Ø%}:t́ **
 * *täh%{tt́Ø%}%{front%}%^StrGStem%^PAL*
 * *täht́000*
 
@@ -839,6 +846,9 @@ hamõh+N+Sg+Nom
 
 
 **%{kØ%}:k**
+rehksämä+V+Inf/mA:
+* *reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}*
+* *rehk0s000000>ä>mä*
 * *as%{kØ%}o%{back%}%^Pen%^G2*
 * *asko000*
 makḱ+N+Pl+All
@@ -1052,7 +1062,7 @@ There should always be a trigger
 
 
 
-**%{dn%}:d**
+** %{dn%}:d**
 
 * *kan%{dn%}õl%{back%}%^Pen%^G2%^Pen%^VowRM%>õ*
 * *kand0l00000%>õ*
@@ -1060,7 +1070,7 @@ There should always be a trigger
 
 **j2i**
 
-**{kḱg}:g**
+**{kḱg}:g **
 
 kõiḱ+Pron+Sg+Gen
 * *kõi%{kØ%}%{kḱg%}%{back%}%^G1%>%{eõ%}*
