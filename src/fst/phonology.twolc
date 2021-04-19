@@ -520,6 +520,10 @@ Rules
       where Cx in (%{bb́%} %{dd́%} %{ff́%} %{gǵ%} %{hh́%}  %{lĺ%} %{mḿ%} %{nń%} %{pṕ%} %{rŕ%} %{sś%} %{tt́%}  %{vv́%} %{zź%})
             Cy in (b   d   f   g   h  l  m   n   p  r  s  t  v  z) matched ;
 
+!! rehksämä+V+Inf/mA:
+!!€ reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}
+!!€ rehkäs000000>ä>mä
+
 
 "{dd́n}:d́ palatalization for 3-way"
 !! **@RULENAME@**
@@ -751,10 +755,13 @@ Rules
 
 "ä:0"
 !! **@RULENAME@**
- ä:0 <=>  [ Cns: | :Cns | ArchCns:] _ (s:) (HarmDummies:) (PenVOWHite) [ (%^Pen: %^CC2C:|%^Pen: %^G2:| %^Pen: %^WGStem:) %^VowRM: | CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
+ ä:0 <=>  [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:) (HarmDummies:) (PenVOWHite) [ (%^Pen: %^CC2C:|%^Pen: %^StrGStem:|%^Pen: %^G2:| %^Pen: %^WGStem:) [ %^VowRM: | %^Pen: %^VowRM:]| CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
 !! pügämä+V+Pss+PrfPrc:
 !!€ pü%{kgØ%}ä%{front%}%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>t
 !!€ pö00000000e%>t
+!! rehksämä+V+Inf/mA:
+!!€ reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}
+!!€ rehkäs000000>ä>mä
 
 !  [ Cns: | :Cns | ArchCns:] _ (s:) (HarmDummies:) [ (0:) (%^Pen: %^CC2C:) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM:  %> | [%^StrGStem: | %^XStrGStem: ] %> i  ] ; 
     _ (HarmDummies:) ((%^Pen: ) %^VOWLower:) (%^Pen: (%^WGStem:|%^StrGStem:|%^XStrGStem:)) %^VowRM: ;
@@ -1121,7 +1128,7 @@ Vow: _ [ t ] Vow: (HarmDummies:) PenVOWHite %^Pen:  %^StrGStem: ;
 
 "%{XC%}:s"
 !! **@RULENAME@**
- %{XC%}:s <=> [ s: | %{sś%}:s ] (HarmDummies:) (PenVOWHite %^Pen: %^WGStem: ) _ ;
+ %{XC%}:s <=> [ s: | %{sś%}:s ] (HarmDummies:) PenVOWHite (%^Pen: %^WGStem: |%^Pen: %^StrGStem:) _ ;
 
 "%{XC%}:l"
 !! **@RULENAME@**
@@ -1413,6 +1420,9 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
    [s|h] _ (HarmDummies:) VOWHite [ %^StrGStem:] ;
   Vow _ k (HarmDummies:) VOWHite [ %^StrGStem:] ;
  [Vow|Cns] _ Vow: (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^StrGStem:] ;
+!! rehksämä+V+Inf/mA:
+!!€ reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}
+!!€ rehk0s000000>ä>mä
   Vow _ k Vow: (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^StrGStem:] ;
 !!€ as%{kØ%}o%{back%}%^Pen%^G2
 !!€ asko000
