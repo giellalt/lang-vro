@@ -1,5 +1,3 @@
-.. -*- mode: rst -*-
-================================================================
  The Võro morphology and tools / Võro keeleoppus ja -tüüriistaq
 ================================================================
 
@@ -87,5 +85,3 @@ above.
 
 For further installation instruction refer to file ``INSTALL``, which contains
 the standard installation instructions for GNU autoconf based software.
-
-.. vim: set ft=rst:
