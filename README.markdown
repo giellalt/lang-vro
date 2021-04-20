@@ -1,14 +1,14 @@
  The Võro morphology and tools / Võro keeleoppus ja -tüüriistaq
 ================================================================
 
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-vro)](https://github.com/giellalt/lang-vro/issues)
+[![Build Status](https://github.com/giellalt/lang-vro/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-vro/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-vro)](https://raw.githubusercontent.com/giellalt/lang-vro/develop/LICENSE)
+
 This directory contains source files for the Võro language morphology
 and dictionary. The data and implementation are licenced under __LICENCE__
 licence also detailed in the LICENCE file of this directory. The authors named
 in the AUTHORS file are available to grant other licencing choices.
-
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-vro)](https://github.com/giellalt/lang-vro/issues)
-[![Build Status](https://github.com/giellalt/lang-vro/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-vro/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-vro)](https://raw.githubusercontent.com/giellalt/lang-vro/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-vro)
 for the Võro language by using the [Divvun Installer](http://divvun.no)
