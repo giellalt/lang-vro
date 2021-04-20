@@ -248,8 +248,8 @@ Onset consonant or word boundary
 
 
 
-* *füüsiga%{back%}%^StrGStem%^VowRM%>i%>dõ*
-* *füüsik0000%>i%>dõ*
+* *füüsi{kg}a{back}^Pen^StrGStem^VowRM>i>dõ*
+* *füüsik00000>i>dõ*
 
 
 
@@ -297,7 +297,7 @@ tahtma+V+Pss+PrfPrc+Sg+Nom: **want/haluta**
 * *lo00000000%>i*
 
 **ü:ö**
-* *pügä%{front%}%^VOWLower%^WGStem%^VowRM%>e%>t*
+* *pü%{kgØ%}ä%{front%}%^VOWLower%^WGStem%^VowRM%>e%>t*
 * *pö000000%>e%>t*
 * *süü%{front%}%^VOWLower%^WGStem%>nüq*
 * *söö000%>nüq*
@@ -342,7 +342,7 @@ alostama+V+Act+Ind+Prt+Sg3:
 
 rehksämä+V+Inf/mA:
 * *reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}*
-* *rehkäs000000>ä>mä*
+* *rehk0s000000>ä>mä*
 
 
 **{dd́n}:d́ palatalization for 3-way**
@@ -367,8 +367,9 @@ püüdmä+V+Act+Ind+Prs+Sg1
 
 
 **%{pṕb%}:p**
-* *loro%{pṕb%}%{back%}%^G2%^NoPAL*
-* *lorop000*
+loroṕ+N+Sg+Par:
+* *loro{pṕb}{back}^StrGStem^NoPAL>i*
+* *lorop000>i*
 
 **%{tt́d%}:t**
 
@@ -384,18 +385,19 @@ hainatama+V+Inf/mA
 
 
 **%{pṕb%}:ṕ**
-* *loro%{pṕb%}%{back%}%^G2%^PAL*
+loroṕ
+* *loro{pṕb}{back}^StrGStem^PAL*
 * *loroṕ000*
 
 **%{tt́d%}:t́**
 
 **%{kḱg%}:ḱ**
-* *pisla%{kḱg%}%{back%}%^G2%^PAL*
+* *pisla%{kḱg%}%{back%}%^StrGStem%^PAL*
 * *pislaḱ000*
 
 kõiḱ+Pron+Sg+Nom
-* *kõi%{kØ%}%{kḱg%}%{back%}%^CC2C%^PAL*
-* *kõi0ḱ000*
+* *kõ̭i%{kØ%}%{kḱg%}%{back%}%^CC2C%^PAL*
+* *kõ̭i0ḱ000*
 
 
 
@@ -981,14 +983,14 @@ murrõq+N+Sg+Gen
 **%{tdØ%}:d**
 
 **%{dØ%}:d**
+väärdlemä+V+Inf/mA
+* *väär{dØ}{eØ}{lĺ}{front}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}>m{aä}*
+* *väärd0l00000000>e>mä*
 
 kaardas+N+Sg+Nom
 * *kaar%{dØ%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^StrGStem%^StrGStem*
 * *kaardas000000*
 
-väärdlemä+V+Inf
-* *väär{dØ}{eØ}{lĺ}{front}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}m{aä}*
-* *väärd0l00000000>emä*
 
 **%{kgØ%}:g**
 jõgi+N+Sg+Nom
@@ -1090,12 +1092,12 @@ kõiḱ+Pron+Sg+Gen
 
 
 
-**gTok**
 igä+N+Sg+Ill
 * *i{kØ}{kgØ}ä{front}^Pen^G4*
 * *ikkä00*
 * *ko%{kg%}õr%{back%}%^StrGStem%^Pen%^VowRM%>õ*
 * *kok0r0000%>õ*
+
 
 **bTop**
 
