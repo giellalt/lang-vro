@@ -54,7 +54,7 @@ in its uninstallation.
 If you would rather install in e.g. your home directory
 (or aren't the system administrator), you can tell ./configure::
 
-        ./configure --prefix=$HOME
+    ./configure --prefix=$HOME
 
 If you are checking out the development versions from SVN you must first create
 and install the necessary autotools files from the host system, and check that
