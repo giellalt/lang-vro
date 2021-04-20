@@ -6,8 +6,13 @@ and dictionary. The data and implementation are licenced under __LICENCE__
 licence also detailed in the LICENCE file of this directory. The authors named
 in the AUTHORS file are available to grant other licencing choices.
 
-Installation and compilation, and a short note on usage, is documented in the
-file INSTALL.
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-vro)](https://github.com/giellalt/lang-vro/issues)
+[![Build Status](https://github.com/giellalt/lang-vro/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-vro/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-vro)](https://raw.githubusercontent.com/giellalt/lang-vro/develop/LICENSE)
+
+Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-vro)
+for the Võro language by using the [Divvun Installer](http://divvun.no)
+(some languages are only available via the nightly channel).
 
 Documentation can be found here:
 
