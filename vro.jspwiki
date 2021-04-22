@@ -1,0 +1,1751 @@
+!!!Free and Open source Võro analyser giella-vro
+
+;Authors: Divvun and Giellatekno teams, community members
+;Software version: 2012
+;Documentation license: GNU GFDL
+;SVN Revision: $Revision: 68217 $
+;SVN Date: $Date: 2013-01-16 11:31:33 +0200 (Wed, 16 Jan 2013) $
+
+!!!giella-vro
+
+This is free and open source Võro morphology.
+
+!!!Võru tags and basic lexica
+
+ !!!Definitions for Multichar_Symbols
+
+!!Analysis symbols
+The morphological analyses of wordforms for the Võro
+language are presented in this system in terms of the following symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+
+ * __+WORK__ (eng) work needed 
+special letters
+ * __b́__ b plus U+0301 COMBINING ACUTE
+ * __d́__ d plus U+0301 COMBINING ACUTE
+ * __f́__ f plus U+0301 COMBINING ACUTE
+ * __h́__ h plus U+0301 COMBINING ACUTE
+ * __t́__ t plus U+0301 COMBINING ACUTE
+ * __v́__ v plus U+0301 COMBINING ACUTE
+
+ * __u̬__ u plus U+032C COMBINING CARON BELOW
+ * __U̬__ u plus U+032C COMBINING CARON BELOW
+ * __ü̬__ ü plus U+032C COMBINING CARON BELOW
+ * __Ü̬__ ü plus U+032C COMBINING CARON BELOW
+ * __i̬__ i plus U+032C COMBINING CARON BELOW
+ * __I̬__ i plus U+032C COMBINING CARON BELOW
+ * __õ̭__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+ * __Õ̭__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+ {{{%{ˋØ%} - U+02CB MODIFIER LETTER GRAVE ACCENT used in rules}}}
+
+The parts-of-speech are:
+ * __+N	__ Noun
+ * __+A	__ Adjective
+ * __+Adv__ Adverb
+ * __+V	__ Verb
+
+ * __+Pron__ Pronoun
+ * __+CS	__ subjunction
+ * __+CC	__ Correlating conjunction
+ * __+Det__ Determiners
+ * __+Adp__ Adpositions
+ * __+Po	__ Postposition
+ * __+Pr	__ Preposition
+ * __+Interj__ Interjections
+ * __+Pcle__
+ * __+Num__ Numerals
+ * __+Qnt__
+
+The parts of speech are further split up into:
+
+ * __+Prop__
+ * __+Pers__
+ * __+Dem__
+ * __+Interr__
+ * __+Refl__
+ * __+Recipr__
+ * __+Rel__
+ * __+Indef__
+ * __+AdA__ adjective or adverb modifier
+
+The Usage extents are marked using following tags:
+ * __+Err/Orth__
+ * __+Err/Orth-no-pal__ palatalization is missing
+ * __+Err/Orth-no-q	__ Q is missing
+ * __+Use/-Spell__
+ * __+Use/NG__ No generation
+
+The nominals are inflected in the following Case and Number
+ * __+Sg__ Singular
+ * __+Pl__ Plural
+ * __+SP__ Singular and Plural, used for CG and Apertium
+
+ * __+Abe__ abessive
+ * __+Abl__ ablative
+ * __+Acc__ accusative
+ * __+Ade__ adessive
+ * __+All__ allative
+ * __+Com__ comitative
+ * __+Com/Sh__
+ * __+Ela__ elative
+ * __+Ess__ essive
+ * __+Ill__ illative
+ * __+Ine__ inessive
+ * __+Gen__ genitive
+ * __+Loc__ locative
+ * __+Nom__ nominative
+ * __+Par__ partitive
+ * __+Ter__ terminative
+ * __+Tra__ translative
+
+
+
+The possession is marked as such:
+There are no possessive markers
+
+The comparative forms are:
+ * __+Comp__
+ * __+Superl__
+Numerals are classified under:
+ * __+Attr__
+ * __+Card__
+ * __+Ord__
+Verb moods are:
+ * __+Ind__
+ * __+Jus__
+ * __+Prs__
+ * __+Prt__
+ * __+Pot__
+ * __+Cond__
+ * __+Imprt__
+
+Verb personal forms are:
+
+Subject conjugation
+
+ * __+Sg1__
+ * __+Sg2__
+ * __+Sg3__
+ * __+Pl1__
+ * __+Pl2__
+ * __+Pl3__
+
+ * __+ScSg1__
+ * __+ScSg2__
+ * __+ScSg3__
+ * __+ScPl1__
+ * __+ScPl2__
+ * __+ScPl3__
+ * __+Sc	__
+
+Passive conjugation
+
+ * __+PcSg1__
+ * __+PcSg2__
+ * __+PcSg3__
+ * __+PcPl1__
+ * __+PcPl2__
+ * __+PcPl3__
+ * __+Pc	__
+Other verb forms are
+ * __+Inf	__ sõimadaq, elädäq
+ * __+Inf/mA	__ sõimama, elämä
+ * __+Ger		__ ollõn
+ * __+ConNeg		__ saa eiq 3 elements in 2 orthographic units
+ * __+ConNegII	__ ei saaq 3 elements in 2 orthographic units
+ * __+Neg		__ saa-aiq 3 elements in 1 orthographic unit
+ * __+ImprtII	__
+ * __+PrsPrc		__
+ * __+PrfPrc		__
+ * __+Sup		__ olõman, olõmaldaq; oldama
+ * __+VGen		__
+ * __+VAbess		__
+ * __+Act__ active
+ * __+Pss__ passive
+ * __+PrsPrc	__
+ * __+PrfPrc__ elet
+
+ * __+ABBR__
+ * +Symbol = independent symbols in the text stream, like £, €, ©
+ * __+ACR__
+
+Special symbols are classified with:
+ * __+CLB__
+ * __+PUNCT__
+ * __+LEFT__
+ * __+RIGHT__
+The verbs are syntactically split according to transitivity:
+ * __+TV__
+ * __+IV__
+Special multiword units are analysed with:
+ * __+Multi__
+Non-dictionary words can be recognised with:
+ * __+Guess__
+
+Question and Focus particles:
+
+ * __+Qst__
+ * __+Foc__
+ * __+Clt	__
+
+ * __+Hom1	__
+ * __+Hom2	__
+ * __+Hom3	__
+ * __+Hom4	__
+
+
+
+
+!Tags distinguishing different versions of the same lemma (before POS)
+ * +v1
+ * +v2
+ * +v3
+ * +v4
+ * +v5
+ * +v6
+ * +v7
+ * +v8
+ * +v9
+ * +v10
+ * +v11
+ * +v12
+ * +v13
+ * +v14
+ * +v15
+ * +v16
+ * +v17
+ * +v18
+ * +v19
+ * +v20
+ * +v21
+ * +v22
+ * +v23
+ * +v24
+
+
+
+ * __+Sem/Act__ Activity
+ * __+Sem/Amount__ Amount
+ * __+Sem/Ani__ Animate
+ * __+Sem/Aniprod__ Animal Product
+ * __+Sem/Body__ Bodypart
+ * __+Sem/Body-abstr__ siellu, vuoig?a, jierbmi
+ * __+Sem/Build__ Building
+ * __+Sem/Build-part__ Part of Bulding, like the closet
+ * __+Sem/Cat__ Category
+ * __+Sem/Clth__ Clothes
+ * __+Sem/Clth-jewl__ Jewelery
+ * __+Sem/Clth-part__ part of clothes, boallu, sávdnji...
+ * __+Sem/Ctain__ Container
+ * __+Sem/Ctain-abstr__ Abstract container like bank account
+ * __+Sem/Ctain-clth__
+ * __+Sem/Curr__ Currency like dollár, Not Money
+ * __+Sem/Dance__ Dance
+ * __+Sem/Dir__ Direction like GPS-kursa
+ * __+Sem/Domain__ Domain like politics, reindeerherding (a system of actions)
+ * __+Sem/Drink__ Drink
+ * __+Sem/Dummytag__ Dummytag
+ * __+Sem/Edu__ Educational event
+ * __+Sem/Event__ Event
+ * __+Sem/Feat__ Feature, like Árvu
+ * __+Sem/Feat-phys__ Physiological feature, ivdni, fárda
+ * __+Sem/Feat-psych__ Psychological feauture
+ * __+Sem/Feat-measr__ Psychological feauture
+ * __+Sem/Fem__ Female name
+ * __+Sem/Food__ Food
+ * __+Sem/Food-med__ Medicine
+ * __+Sem/Furn__ Furniture
+ * __+Sem/Game__ Game
+ * __+Sem/Geom__ Geometrical object
+ * __+Sem/Group__ Animal or Human Group
+ * __+Sem/Hum__ Human
+ * __+Sem/Hum-abstr__ Human abstract
+ * __+Sem/Ideol__ Ideology
+ * __+Sem/Lang__ Language
+ * __+Sem/Mal__ Male name
+ * __+Sem/Mat__ Material for producing things
+ * __+Sem/Measr__ Measure
+ * __+Sem/Money__ Has to do with money, like wages, not Curr(ency)
+ * __+Sem/Obj__ Object
+ * __+Sem/Obj-clo__ Cloth
+ * __+Sem/Obj-cogn__ Cloth
+ * __+Sem/Obj-el__ (Electrical) machine or apparatus
+ * __+Sem/Obj-ling__ Object with something written on it
+ * __+Sem/Obj-rope__ flexible ropelike object
+ * __+Sem/Obj-surfc__ Surface object
+ * __+Sem/Org__ Organisation
+ * __+Sem/Part__ Feature, oassi, bealli
+ * __+Sem/Perc-cogn__ Cognative perception
+ * __+Sem/Perc-emo__ Emotional perception
+ * __+Sem/Perc-phys__ Physical perception
+ * __+Sem/Perc-psych__ Physical perception
+ * __+Sem/Plant__ Plant
+ * __+Sem/Plant-part__ Plant part
+ * __+Sem/Plc__ Place
+ * __+Sem/Plc-abstr__ Abstract place
+ * __+Sem/Plc-elevate__ Place
+ * __+Sem/Plc-line__ Place
+ * __+Sem/Plc-water__ Place
+ * __+Sem/Pos__ Position (as in social position job)
+ * __+Sem/Process__ Process
+ * __+Sem/Prod__ Product
+ * __+Sem/Prod-audio__ Audio product
+ * __+Sem/Prod-cogn__ Cognition product
+ * __+Sem/Prod-ling__ Linguistic product
+ * __+Sem/Prod-vis__ Visual product
+ * __+Sem/Rel__ Relation
+ * __+Sem/Route__ Name of a Route
+ * __+Sem/Rule__ Rule or convention
+ * __+Sem/Semcon__ Semantic concept
+ * __+Sem/Sign__ Sign (e.g. numbers, punctuation) 
+ * __+Sem/Sport__ Sport
+ * __+Sem/State__ 
+ * __+Sem/State-sick__ Illness
+ * __+Sem/Substnc__ Substance, like Air and Water
+ * __+Sem/Sur__ Surname
+ * __+Sem/Symbol__ Symbol
+ * __+Sem/Time__ Time
+ * __+Sem/Tool__ Prototypical tool for repairing things
+ * __+Sem/Tool-catch__ Tool used for catching (e.g. fish)
+ * __+Sem/Tool-clean__ Tool used for cleaning
+ * __+Sem/Tool-it__ Tool used in IT
+ * __+Sem/Tool-measr__ Tool used for measuring
+ * __+Sem/Tool-music__ Music instrument
+ * __+Sem/Tool-write__ Writing tool
+ * __+Sem/Txt__ Text (girji, lávlla...)
+ * __+Sem/Veh__ Vehicle
+ * __+Sem/Wpn__ Weapon
+ * __+Sem/Wthr__ The Weather or the state of ground
+
+
+
+
+
+ * __+Sem/Ant_Fem	__
+ * __+Sem/Ant_Mal	__
+ * __+Temp	__
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+ * __+V→N	__
+ * __+V→V	__
+ * __+V→A	__
+ * __+Prop→A	__
+ * __+Der	__
+ * __+Der/xxx__
+ __ +Der/JA __	NomAg
+ __ +Der/minE __ NomAct
+ __+Der/lt	   __ A→Adv
+
+!!!Morphophonology
+To represent phonologic variations in word forms we use the following
+symbols in the lexicon files:
+{{{
+  %{aä%}    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+  %{ae%}   — Vowel harmony with "a/e/õ" passive tahetu
+  %{aõ%}   — Vowel harmony with "a/e/õ" passive sõidõtu
+  %{äe%}    — Vowel harmony with "ä/e/õ" passive
+  %{eõ%}    — Vowel harmony with "e/õ"
+  %{uü%}    — Vowel harmony with "u/ü"
+  %{öü%}    — Vowel raising
+  %{ou%}    — Vowel raising
+  %{ei%}    — Vowel raising
+  %{õy%}    — Vowel raising
+  %{ao%}    — Vowel raising
+  %{eØ%}    — ütlemä:üt%{eØ%}l  
+  %{õØ%}    — ütlemä:üt%{eØ%}l  
+  %{Øõ%}    — juurdlõma:juur%{dØ%}%{0õ%}l
+  %{XV%}    — This is used for echoing the previous vowel
+  %{XC%}    — This is used for lengthening a consonant
+  %{dØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{ij%}    ellä%{ij%}
+  %{gv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gl%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gØ%}    — HJK and KimmoK ideas argnõma:ar%{gØ%}
+  %{uv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{üv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+}}}
+
+
+!!Gemination
+{{{
+  %{hØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{jØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{lØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{mØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{nØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pØ%}    — HJK and KimmoK ideas oppama:o%{pØ%}pama
+  %{rØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{sØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{vØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{Øp%}    — häbü:hä%{Øp%}%{pbØ%}ü
+  %{Øt%}    — koda:ko%{Øt%}%{tdØ%}a
+  %{Øk%}    — nägo:nä%{Øk%}%{kgØ%}o
+
+}}}
+
+!!Strong and weak
+{{{
+  %{pb%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{td%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{t́d́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kg%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{bv%}    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+  %{dr%}    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
+  %{bm%}    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dn%}    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dl%}    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{pbØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pbv%}   — tõbi: tõvõ tõpõ tõppõ
+  %{tdØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kgØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{jiØ%}   — HJK and KimmoK ideas vari:var%{jiØ%}o
+  %{qmn%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{qn%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́Ø%}   
+  %{dd́n%}   
+  %{dd́r%}   
+  %{dd́v%}   
+  %{dd́Ø%}   
+  %{gǵv%}   
+  %{gǵØ%}   
+  %{tt́d%}   
+  %{tt́Ø%}    täh%{tt́Ø%}
+  %{kḱg%}   
+  %{kḱØ%}   
+  %{pṕb%}   
+  %{pṕØ%}   
+
+}}}
+
+!!Palatalization
+{{{
+  %{bb́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{ff́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gǵ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{hh́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kḱ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{lĺ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{mḿ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{nń%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pṕ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{rŕ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{sś%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tt́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{vv́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{zź%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́n%}  
+}}}
+
+ __ %^I7         __  This appears in stem vaoma:va%^I7o for vaio
+ __ %^K7         __  This appears in stem väemä:vä%^K7e for väkeq
+ __ %^V7         __  This appears in stem häömä:hä%^V7ö for hävvü
+ __ %^T7         __  This appears in stem kaoma:ka%^T7o for katoq
+ __ %^Y7         __  This appears for syna = s%^Y7na and is rendered as õ in the norm
+
+And following triggers to control variation
+ %^ErrorBack	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+
+  %^CC2C 	 att%^CC2C%>m%{aä%} atma
+  %^OO2Õ		  joo%^OO2Õ%>i:j0õ0%>i
+  %^PSS		 vowel in passive tahetu, sõidõtu, eletü
+
+  %^ÄI2ÄÄ  päiv%^ÄI2ÄÄ%>ä: päävä
+  %{PrsSg1%}  — this helps with %{eõ%}:i̬
+
+ %^StrD2T  This changes g,d,b, => k,t,p
+
+ __ %^VowRM  __ this will remove stem final vowel
+ __ %^CnsRM  __ this will remove stem final consonant tervüs:tervü
+ __ %^StrGStem __ This strengthens "perädü" to "perätüt"
+ __ %^XStrGStem __ This extra-strengthens "sõda" to "sõtta"
+  __%^NoGrad__
+ __ %^WGStem __ This weakens
+  %^G1	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
+  %^G2	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
+  %^G3	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
+  %^G4	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k
+  %^Pen	       This moves us to penultimate coda
+  %^PAL	       — Palatalization
+  %^NoPAL       — NoPalatalization
+
+ %^PenWGStem  This weakens "kipõń" to "kibõna"
+
+ __ %^PenVowRM __ syncope tapõld : taplõma
+
+ __%^D2S	  __ käsi, susi
+ %^TS2S  The -ts- => -s-
+ %^I2J  The i => j change
+
+ __ %^PLPRT __ The a:o attested in Plural kana:kanno and prt
+ __%^VOWRaise      __ Raises vowel
+ __%^VOWLower  __ Lowers vowel
+ __%^XLowerVow __ Lowers vowel two levels
+ __%^VOWLowerDelab __ Lowers vowel and delabializes it
+ __%^XLowerVowDelab __ Lowers vowel two levels and delabializes it
+ %^U2E  lowers u:õ and ü:e delabializes and lowers
+ %^U2A  lowers u:a and ü:ä delabializes and lowers
+
+
+
+!!!Oahpa Place names and case used 
+ ; +%<plc_ine%>  : Ine, Ill, Ela
+ ; +%<plc_ade%>  : Ade, All, Abl
+ ; +%<pcl_pääl%> : pääl, pääle, päält
+
+
+!!!Flag diacritics
+We have manually optimised the structure of our lexicon using the following
+flag diacritics to restrict morhpological combinatorics - only allow
+compounds with verbs if the verb is further derived into a noun again:
+ | __@P.NeedNoun.ON@__ | (Dis)allow compounds with verbs unless nominalised
+ | __@D.NeedNoun.ON@__ | (Dis)allow compounds with verbs unless nominalised
+ | __@C.NeedNoun@__ | (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+ | __@P.CmpFrst.FALSE@__ | Require that words tagged as such only appear first
+ | __@D.CmpPref.TRUE@__ | Block such words from entering ENDLEX
+ | __@P.CmpPref.FALSE@__ | Block these words from making further compounds
+ | __@D.CmpLast.TRUE@__ | Block such words from entering R
+ | __@D.CmpNone.TRUE@__ | Combines with the next tag to prohibit compounding
+ | __@U.CmpNone.FALSE@__ | Combines with the prev tag to prohibit compounding
+ | __@P.CmpOnly.TRUE@__ | Sets a flag to indicate that the word has passed R
+ | __@D.CmpOnly.FALSE@__ | Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+
+ | __@U.Cap.Obl@__ | Allowing downcasing of derived names: deatnulasj.
+ | __@U.Cap.Opt@__ | Allowing downcasing of derived names: deatnulasj.
+
+!!!The Root lexicon
+
+
+The word forms in the Võro language start from the lexeme roots of basic
+word classes, or optionally from prefixes:
+ * __adjectives ;	__
+ * __adpositions ;	__
+ * __adverbs ;		__
+ * __conjunctors ;	__
+ * __interjections ;__
+ * __pronouns	;		__
+ * __PronounTypes	;		__
+ * __Punctuation ;	__
+ * __Symbols ;	__
+ * __numerals	;	__
+look at verb_newwords.lexc
+
+ * __Exceptions ;		__
+ * __Abbreviation ;	__
+ * __Acronym ;__
+
+Incoming
+ * __ADP_NEWWORDS ;__
+ * __ADV_NEWWORDS ;__ 
+ * __DET_NEWWORDS ;__
+ * __INTERJ_NEWWORDS ;__
+ * __N_NEWWORDS ;__
+ * __@U.Cap.Obl@ PROP_NEWWORDS ;__
+ * __@U.Cap.Opt@ PROP_NEWWORDS ;__
+ * __V_NEWWORDS ;__
+ * __GenitiveAttributes ;__ Borrowed from experimental_languages est
+
+
+
+less complex word classes
+
+
+
+
+
+!!!The Võro morphophonological/twolc rules file 
+
+
+
+
+
+
+!!Special letters
+ * __u̬__ u plus U+032C COMBINING CARON BELOW
+ * __U̬__ u plus U+032C COMBINING CARON BELOW
+ * __ü̬__ ü plus U+032C COMBINING CARON BELOW
+ * __Ü̬__ ü plus U+032C COMBINING CARON BELOW
+ * __i̬__ i plus U+032C COMBINING CARON BELOW
+ * __I̬__ i plus U+032C COMBINING CARON BELOW
+ * __õ̭__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+ * __Õ̭__ õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+ * __ˋ__ U+02CB MODIFIER LETTER GRAVE ACCENT other parts of stem
+ {{{%{ˋØ%}:0 — U+02CB MODIFIER LETTER GRAVE ACCENT used in rules}}}
+ __ˋ:0__ — U+02CB MODIFIER LETTER GRAVE ACCENT used outside of rules, this is temporary removal 2017-04-20
+
+
+!!Vowel harmony with "(t)a/ä"
+{{{
+  %{aä%}:0    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+  %{ae%}:a   — Vowel harmony with "a/e/õ" passive tahetu
+  %{aõ%}:a   — Vowel harmony with "a/e/õ" passive sõidõtu
+  %{äe%}:ä    — Vowel harmony with "ä/e/õ" passive
+  %{eõ%}:0    — Vowel harmony with "e/õ"
+  %{uü%}:0    — Vowel harmony with "u/ü"
+  %{öü%}:ö    — Vowel raising
+  %{ou%}:o    — Vowel raising
+  %{ei%}:e    — Vowel raising
+  %{õy%}:õ    — Vowel raising
+  %{ao%}:a    — Vowel raising
+
+  %{eØ%}:e    — ütlemä:üt%{eØ%}l  
+  %{õØ%}:õ    — ütlemä:üt%{eØ%}l  
+  %{Øõ%}:0    — juurdlõma:juur%{dØ%}%{0õ%}l
+
+  %{dØ%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dv%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dn%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{dl%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+
+  %{ij%}:i    ellä%{ij%}
+  %{gv%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gl%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gØ%}:g    — HJK and KimmoK ideas argnõma:ar%{gØ%}
+  %{uv%}:u    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{üv%}:ü    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{hØ%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{jØ%}:j    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kØ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{lØ%}:l    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{mØ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{nØ%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pØ%}:p    — HJK and KimmoK ideas oppama:o%{pØ%}pama
+  %{rØ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{sØ%}:s    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+  %{vØ%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
+
+  %{pØ%}:0    — häbü:häbü+N:hä%{pØ%}%{pbØ%}ü
+  %{tØ%}:0    — koda:ko%{tØ%}%{tdØ%}a
+  %{kØ%}:0    — nägo:nä%{kØ%}%{kgØ%}o
+
+  %{bv%}:b    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+  %{dr%}:d    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
+  %{bm%}:b    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+  %{pb%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pb%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
+
+  %{tØ%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{t́d́%}:t́    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
+
+  %{pbØ%}:p   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pbØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
+
+  %{pbv%}:p   %{pbv%}:b   %{pbv%}:v   — tõbi: tõvõ tõpõ tõppõ
+
+  %{tdØ%}:d   — HJK and KimmoK ideas kana:ka%{nØ%}na
+
+  %{kgØ%}:k   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kgØ%}:g   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kgØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
+
+  %{jiØ%}:i   — HJK and KimmoK ideas vari:var%{jiØ%}o
+  %{qmn%}:q   — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{qn%}:q    — HJK and KimmoK ideas kana:ka%{nØ%}na
+
+  %{dd́Ø%}:d   
+  %{dd́n%}:d   
+  %{dd́r%}:d   
+  %{dd́v%}:d   
+  %{dd́Ø%}:d   
+  %{gǵv%}:g   
+  %{gǵØ%}:g   
+  %{kḱg%}:k    %{kḱg%}:ḱ    %{kḱg%}:g   
+  %{kḱØ%}:k   
+  %{pṕb%}:p   %{pṕb%}:ṕ    %{pṕb%}:b   
+  %{tt́d%}:t    %{tt́d%}:t́    %{tt́d%}:d   
+  %{tt́Ø%}:t    täh%{tt́Ø%}
+  %{pṕØ%}:p   
+
+}}}
+
+!!Palatalization of consonants
+{{{
+  %{bb́%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{ff́%}:f    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{gǵ%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{hh́%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kḱ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{lĺ%}:l     — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{lĺ%}:ĺ     — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{mḿ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{nń%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{pṕ%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{rŕ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{sś%}:s    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{tt́%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{vv́%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{zź%}:z    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{dd́n%}:d 
+}}}
+
+!!Miscellaneous other symbols
+{{{
+  %{XV%}:0    — This is used for echoing the previous vowel
+  %{XC%}:0    — This is used for lengthening a consonant
+  %^I7:0      — This appears in stem vaoma:va%^I7o for vaio
+  %^K7:0      — This appears in stem väemä:vä%^K7e for väkeq
+  %^V7:0      — This appears in stem häömä:hä%^V7ö for hävvü
+  %^T7:0      — This appears in stem kaoma:ka%^T7o for katoq
+  %^Y7:õ      — This appears for syna = s%^Y7na and is rendered as õ in the norm
+}}}
+
+!!Triggers
+{{{
+    %^OO2Õ:0    — joo%^OO2Õ%>i:j0õ0%>i
+    %^CC2C:0    — att%^CC2C%>m%{aä%} atma
+  %^PSS:0       vowel in passive tahetu, sõidõtu, eletü
+  %^ÄI2ÄÄ:0    — päiv%^ÄI2ÄÄ%>ä: päävä
+  %{front%}:0    — front harmony
+  %{back%}:0    — back harmony
+ %^ErrorBack:0  — +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+  %{PrsSg1%}:0  — this helps with %{eõ%}:i̬
+}}}
+
+{{{
+
+  %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{kg%}:k 	 HJK and KimmoK ideas kaigas:kai%{kg%}as
+
+  %{qmn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{qn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{XV%}:0		 This is used for echoing the previous vowel
+  %{XC%}:0	 This is used for lengthening a consonant
+  %^I7:0          This appears in stem vaoma:va%^I7o for vaio
+  %^K7:0           This appears in stem väemä:vä%^K7e for väkeq
+  %^V7:0          This appears in stem häömä:hä%^V7ö for hävvü
+  %^T7:0          This appears in stem kaoma:ka%^T7o for katoq
+
+ __%^Y7:õ  __  This appears for syna = s%^Y7na and is rendered as õ in the norm
+}}}
+
+
+
+{{{
+ %^NoGrad:0     — This will be placed after a stem to break Gradation
+ %^APOCH:0      — This causes apochope: puhksama vs puhastaq
+ %^StrD2T:0     — This changes g,d,b => k,t,p
+
+ %^G1:0	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
+ %^G2:0	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
+ %^G3:0	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
+ %^G4:0	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k
+
+ %^WGStem:0     — This weakens "kipõń" to "kibõna", "ompel" to "ommel"
+ %^StrGStem:0   — This strengthens "perädü" to "perätüt"
+ %^XStrGStem:0  — This extra-strengthens "sõda" to "sõtta"
+
+
+ %^Pen:0        — This moves us to penultimate coda
+ %^PAL:0	       — Palatalization
+ %^NoPAL:0	       — NoPalatalization
+
+
+ %^PenWGStem:0  — This weakens "kipõń" to "kibõna"
+ %^PenVowRM:0   — syncope tapõld : taplõma 
+ %^D2S:0        — The ti => si
+ %^TS2S:0       — The -ts- => -s-
+ %^I2J:0        — The i => j change
+ %^PLPRT:0      — The a:o attested in Plural kana:kanno and prt
+ %^VOWRaise:0   — Raises vowel
+ %^VOWLower:0   — Lowers vowel
+ %^XLowerVow:0  — Lowers vowel two levels
+ %^VOWLowerDelab:0   — Lowers vowel and delabializes it
+ %^XLowerVowDelab:0  — Lowers vowel two levels and delabializes it
+ %^U2E:0        — lowers u:õ and ü:e delabializes and lowers
+ %^U2A:0        — lowers u:a and ü:ä delabializes and lowers
+ %^VowRM:0      — this will remove stem final vowel
+ %^CnsRM:0      — this will remove stem final consonant tervüs:tervü
+}}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Onset consonant or word boundary
+
+
+
+
+
+
+
+
+
+* __viska%^WGStem%>aq __
+* __vis0a0%>aq __
+* __füüsiga%^StrGStem%^VowRM%>i%>dõ __
+* __füüsik000%>i%>dõ __
+
+
+
+
+
+
+Right context for gradation
+
+
+
+
+
+
+!!!Rules
+
+
+!!VOWEL HARMONY 
+!Vowel harmony suffixes Front
+__%{aä%}:a__
+
+__%{aä%}:ä__
+
+__%{uü%}:u__
+
+__%{uü%}:ü__
+
+__%{eõ%}:õ__
+
+__%{eõ%}:e__
+
+__%{ae%}:e__
+* __tah%{tØ%}%{ae%}%^Pen%^WGStem%^PSS%>t%{uü%} __
+* __tah0e000%>tu __
+
+__%{aõ%}:õ__
+
+__%{äe%}:e__
+
+
+!VOWEL LOWERING
+
+__u:o__
+* __lugõ%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i __
+* __lo0000000%>i __
+
+__ü:ö__
+* __pügä%^VOWLower%^WGStem%^VowRM%>e%>t __
+* __pö00000%>e%>t __
+* __süü%^VOWLower%^WGStem%>nüq __
+* __söö00%>nüq __
+
+__o2õ__
+* __joo%^OO2Õ%>i __
+* __jõ00%>i __
+* __aigo%^OO2Õ __
+* __aigõ0 __
+
+__u2õ__
+* __laulu%^OO2Õ __
+* __laulõ0 __
+
+__ö2e__
+* __söö%^OO2Õ%>i __
+* __se00%>i __
+
+__Delabializing o and ö__
+
+!VOWEL RAISING
+__Delabializing o and ö__
+* __hä%^V70ö%^StrGStem%>i __
+* __hävvü0%>0 __
+
+!PALATALIZATION
+__n2ń palatalization all__
+
+
+akaŕ+A+Sg+Nom
+* __a%{kg%}a%{rŕ%}%{back%}%^Pen%^G2%^PAL __
+* __akaŕ0000 __
+
+asi+N+Sg+Gen:
+* __a%{sś%}%{jiØ%}%^PAL%^VowRM%>%{aä%} __
+* __aś000%>a __
+
+
+__{dd́n}:d́ palatalization for 3-way__
+
+andma+V+Act+Ind+Prs+Sg3
+* __an%{dd́n%}%{back%}%^PAL __
+* __and́00 __
+
+__{dd́n}:n weaken 3-way__
+
+andma+V+Act+Ind+Prs+Sg1
+* __an%{dd́n%}%{back%}%^WGStem%>%{aä%} __
+* __ann00m%a __
+
+püüdmä+V+Act+Ind+Prs+Sg1
+* __pü%{üv%}%{dd́v%}%{front%}%^WGStem%>%{aä%} __
+* __püvv00%>ä __
+
+
+
+__%{pṕb%}:p__
+* __loro%{pṕb%}%{back%}%^G2%> __
+* __loroṕ00%> __
+
+__%{tt́d%}:t__
+
+
+hainatama+V+Inf/mA
+* __haina%{tt́d%}a%{back%}%^Pen%^VOWRaise%>m%{aä%} __
+* __hainata000%>ma __
+
+__%{kḱg%}:k__
+* __pisla%{kḱg%}%{back%}%^G2%> __
+* __pislaḱ00%> __
+
+
+
+__%{pṕb%}:ṕ__
+* __loro%{pṕb%}%{back%}%^G2%^PAL __
+* __loroṕ000 __
+
+__%{tt́d%}:t́__
+
+__%{kḱg%}:ḱ__
+* __pisla%{kḱg%}%{back%}%^G2%^PAL __
+* __pislaḱ000 __
+
+kõiḱ+Pron+Sg+Nom
+* __kõi%{kØ%}%{kḱg%}%^CC2C%^PAL __
+* __kõi0ḱ00 __
+
+
+
+!VOWEL CHANGE WITH PLURAL
+
+
+
+__e2i̬__
+* __keel%^VOWRaise%^PAL __
+* __ki̬i̬ĺ00 __
+tegemä+V+Act+Ind+Prs+Sg1: __do__
+* __teg%{front%}%^WGStem%>e __
+* __ti̬000%>i̬ __
+
+tegemä+V+Act+Ind+Prs+Sg1: __do__
+* __teg%^WGStem%>%{eõ%} __
+* __ti̬00%>i̬ __
+
+
+* __k%{ei%}%{ei%}l%^VOWRaise%^PAL __
+* __ki̬i̬ĺ00 __
+
+
+__õ2õ̭__
+* __sõda%^WGStem __
+* __sõ̭0a0 __
+
+
+__o2u̬__
+
+__Vx%{ou%}:Vyo__
+hoolas+A+Sg+Nom:
+* __h%{ou%}%{ou%}la%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^G1 __
+* __hoolas00000 __
+
+__Vx%{ou%}2Vyu̬__
+nuuĺ+N+Sg+Nom: __arrow__
+* __n%{ou%}%{ou%}l%^VOWRaise%^PAL __
+* __nu̬u̬ĺ __
+* __k%{ei%}%{ei%}r%{dØ%}%{eØ%}%{lĺ%}%{front%}%^Pen%^VOWRaise%^Pen%^VowRM%>%{eõ%}%>m%{aä%} __
+* __ki̬i̬rd0l00000%>e%>mä __
+
+__i2e__
+* __pin0i%^StrGStem%^PLPRT __
+* __pinne00 __
+* __kiil%^VOWLower%>e __
+* __keel0%>e __
+* __leib%^ÄI2ÄÄ%^WGStem%>ä __
+* __leev0%>ä __
+* __pi%{tdØ%}ä%{front%}%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>t%{aä%}s __
+* __pe0000000e%>täs __
+
+
+__i:ä__
+* __päiv%^ÄI2ÄÄ%>ä __
+* __pääv0%>ä __
+
+
+__a2o__
+{{{
+* __kan0a%^StrGStem%^PLPRT __
+* __kanno00 __
+}}}
+
+__{ao}o__
+{{{
+* __ka%{nØ%}n%{ao%}%^G3%^PLPRT __
+* __kanno00 __
+}}}
+
+
+
+!VOWEL LOSS
+__a:0__
+       a _ (HarmDummies:) %>  i  ;  
+* __saa%>i __
+* __sa0%>i __
+* __sõima0%^VowRM%>si __
+* __sõim0s0%>si __
+* __puhkas%^Pen%^VowRM%>a%>ma __
+* __puhk0s00%>a%>ma __
+sõda+N+Pl+Par:
+* __sõ%{tØ%}%{tdØ%}a%^Pen%^G3%^VowRM%>o __
+* __sõ0t0000%>o __
+
+__ä:0__
+* __jää%^VOWRaise%^VowRM%>i __
+* __jä000%>i __
+* __elä%>et __
+* __el0%>et __
+* __tütär%^Pen%^VowRM%>e __
+* __tüt0r0%>e __
+
+__u:0__
+{{{
+* __hirnu%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%} __
+* __hirn00000%>ma __
+* __tervüs%^VowRM%^CnsRM%>i%>t __
+* __terv0000%>i%>t __
+juusk+N+Sg+Nom: ____
+* __j%{ou%}%{ou%}s%{kØ%}u%^VOWRaise%^VowRM __
+* __juusk000 __
+
+* __kuu%^VowRM%>i%>d __
+* __ku00%>i%>d __
+}}}
+
+__ü:0__
+{{{
+* __tüü%^VowRM%>hüq __
+* __tü00%>hüq __
+* __tervüs%^VowRM%^WGStem%>i%>t __
+* __terv0000%>i%>t __
+}}}
+
+__e:0__
+* __herne%{hØ%}%{front%}%^VowRM%^WGStem%>id%{eõ%} __
+* __hern00000%>ide __
+
+__o:0__
+* __joo%^VOWRaise%^VowRM%>vv%>aq __
+* __ju000%>vv%>aq __
+
+__Vx%{ou%}:0__
+* __joo%^VOWRaise%^VowRM%>vv%>aq __
+* __ju000%>vv%>aq __
+
+__Vx%{äe%}:0 Passive stem vowel__
+
+
+__ö:0__
+
+__i:0__
+hüdsi+N+Sg+Par:
+* __hüdsi%^TS2S%^VowRM%>t __
+* __hü0s000%>t __
+* __aigo%^Pen%^WGStem __
+* __a00o00 __
+
+* __va%^I7o%^StrGStem%>i __
+* __vaio0%>0 __
+* __hä%^V70ö%^StrGStem%>i __
+* __hävvü0%>0 __
+
+
+__õ:0__
+* __tapõl%^Pen%^VowRMõ%>ma __
+* __tap0l0õ%>ma __
+* __kannõl%^StrGStem%^Pen%^VowRM%>õ __
+* __kand0l00%>õ __
+* __kogõr%^StrGStem%^Pen%^VowRM%>õ __
+* __kok0r00%>õ __
+* __hammõ%^WGStem%^VowRM%>ihe __
+* __ham0000%>ihe __
+
+__%{eØ%}: 0__
+
+__%{õØ%}: 0__
+
+
+VOWEL LENGTHENING
+
+__%{XV%}:u__
+
+
+__%{XV%}:ü__
+
+__%{XV%}:o__
+* __taso%{back%}%-%{XV%}iq __
+* __taso0%-oiq __
+
+__%{XV%}:a__
+
+__%{XV%}:ä__
+
+__%{XV%}:õ__
+kannõĺ+N+Sg+Gen: __kantele__
+* __kan%{dn%}õ%{lĺ%}%^Pen%^VowRM%^NoPAL%>%{XV%} __
+* __kand0l000%>õ __
+
+__%{XV%}:e__
+käskmä+V+Act+Ind+Prs+Neg __command/käskeä__
+* __käs%{kØ%}%{front%}%^WGStem%>%{eõ%}%-%{XV%}iq __
+* __käs000%>e%-eiq __
+
+__%{XV%}:i__
+
+
+__i2j__
+* __asi%^I2J%>a __
+* __asj0%>a __
+* __elläi%^Pen%^WGStem%^I2J%>ä __
+* __el0äj00%>ä __
+
+__%{ij%}:j__
+
+
+__%{jiØ%}:j__
+
+__%{jiØ%}:0__
+vari+N+Sg+Gen: __shadow/varjo__
+* __va%{rŕ%}%{jiØ%}o%^Pen%^PAL%^Pen%^WGStem __
+* __vaŕ0o0000 __
+
+__%{jØ%}:0__
+vari+N+Sg+Gen: __shadow/varjo__
+* __va%{rŕ%}%{jiØ%}o%^Pen%^PAL%^Pen%^WGStem __
+* __vaŕ0o0000 __
+
+
+__u2v__
+* __juud%^WGStem%>a __
+* __juvv0%>a __
+
+__%{uv%}:v__
+* __ju%{uv%}%{dv%}%^WGStem%>a __
+* __juvv0%>a __
+joudma+V+Act+Ind+Prt+Sg1
+* __jõ%{uv%}%{dd́v%}back%^WGStem%>i __
+* __jõvv00%>i __
+
+__%{üv%}:v__
+* __pü%{üv%}%{dd́v%}%^WGStem%>et __
+* __püvv0%>et __
+* __sü%{üv%}%{dv%}%^WGStem%>ä __
+* __süvv0%>ä __
+
+__%^I7:i__
+* __va%^I7o%^StrGStem%>i __
+* __vaio0%>0 __
+
+__%^I7:i__
+* __hä%^V70ö%^StrGStem __
+* __hävvü0 __
+
+CONSONANT
+__%{pṕØ%}:ṕ__
+* __pap%{pṕØ%}%{back%}%^G2%^PAL __
+* __papṕ000 __
+
+__%{tt́Ø%}:t́ __
+* __täh%{tt́Ø%}%{front%}%^StrGStem%^PAL __
+* __täht́000 __
+
+__%{kḱØ%}:ḱ__
+
+
+
+SECONDARY CONSONANT LENGTHENING
+
+
+__%{pØ%}:p__
+{{{
+* __hä%{pØ%}%{pbØ%}ü%^Pen%^XStrGStem __
+* __häppü00 __
+* __tõ%{pØ%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%} __
+* __tõpp00%>õ __
+* __se%{pØ%}p%^StrGStem __
+* __sepp0 __
+* __nu%{pØ%}pu%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM __
+* __nupp0000000 __
+}}}
+
+__%{tØ%}:t__
+* __sõ%{tØ%}da%^XStrGStem%^PLPRT __
+* __sõtto00 __
+* __si%{tØ%}t%{front%}%^StrGStem __
+* __sitt00 __
+* __ü%{tØ%}te%^Pen%^StrGStem __
+* __ütte00 __
+* __mü%{tØ%}tü%{front%}%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM __
+* __mütt0000000 __
+sõda+N+Sg+Ill:
+* __sõ%{tØ%}%{tdØ%}a%^Pen%^G3 __
+* __sõtta00 __
+
+
+__%{Øk%}:k__
+* __ig0ä __ {{%^Pen%^XStrGStem }}
+* __ikkä0 __
+* __mak0õ%^StrGStem%^VowRM%>i%>dõ __
+* __makkõ00%>i%>dõ __
+* __mä%{Øk%}%{kgØ%}%{front%}%^XStrGStem%>%{eõ%} __
+* __mäkk00%>e __
+
+
+__%{XC%}:s__
+
+__%{XC%}:l__
+
+__%{XC%}:ĺ__
+
+__%{XC%}:k__
+
+__%{kḱ%}:ḱ__
+kakma
+* __ka%{kØ%}%{kḱ%}u%^VowRM%^PAL __
+* __kakḱ000 __
+
+
+!Consonant weakening 
+
+__kToZero__  
+* __puhkas%^WGStem%>taq __
+* __puh0as0%>taq __
+
+* __ikkõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%} __
+* __ik000000%>ma __
+
+__%{pṕØ%}:0__  
+
+__%{tt́Ø%}:0__  
+
+__%{kḱØ%}:0__  
+
+* __j{ou}{ou}s{kḱØ}{back}^VOWLower^WGStem>{eõ} __
+* __joos0000>õ __
+* __*j{ou}{ou}s{kḱØ}{back}^VOWLower^WGStem>{eõ} __ (is not standard language)
+* __*joosk000>õ __ (is not standard language)
+
+__%{sØ%}:0__  
+* __su%{sØ%}śo%^Pen%^WGStem __
+* __su0śo00 __
+* __ham%{bm%}a%{sØ%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem __
+* __hamba000000 __
+
+
+__%{rØ%}:0__  
+* __a%{rØ%}ro%^Pen%^G2 __
+* __a0ro00 __
+
+
+
+
+
+__%{nØ%}:0__  
+* __su%{nØ%}ńo%^Pen%^WGStem __
+* __su0ńo00 __
+
+
+
+
+__%{lØ%}:0__  
+* __ta%{lØ%}lo%^Pen%^G2 __
+* __ta0lo00 __
+
+
+
+__%{mØ%}:0__  
+* __su%{sØ%}śo%^Pen%^WGStem __
+* __su0śo00 __
+
+
+
+__%{kØ%}:0__  
+* __puhkas%^WGStem%>taq __
+* __puh0as0%>taq __
+nätsk+A+Sg+Gen
+* __nä%{td%}s%{kØ%}%{front%}%^G1%>%{aä%} __
+* __näds000%>ä __
+
+
+
+* __i%{kØ%}kõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%} __
+* __i0k00000%>ma __
+
+kakma:
+* __ka%{kØ%}%{kḱ%}u%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%} __
+* __ka0k00000%>ma __
+
+kõiḱ+Pron+Sg+Nom
+* __kõi%{kØ%}%{kḱg%}%^CC2C%^PAL __
+* __kõi0ḱ00 __
+* __ri%{kØ%}ka%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem __
+* __ri0kas00000 __
+jõgi+N+Sg+Gen: __river/joki__
+* __jõ%{kØ%}%{kgØ%}%{back%}%^G1%>%{eõ%} __
+* __jõ0000%>õ __
+
+
+__pToZero__
+* __tapp%{back%}%^CC2C%>m%{aä%} __
+* __tap000%>ma __
+
+__%{pØ%}:0__
+* __se%{pØ%}p%^WGStem __
+* __se0p0 __
+
+* __tap%{pØ%}%{back%}%^CC2C%>m%{aä%} __
+* __tap000%>ma __
+
+
+__XØToZero__
+agras+A+Sg+Gen
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^G2%^WGStem __
+* __akra0000000 __
+* __ve%{rØ%}rev%{front%}%^Pen%^WGStem%>%{aä%} __
+* __ve0rev000%>ä __
+elläi+N+Sg+Gen
+* __e%{lØ%}lä%{ij%}%^Pen%^WGStem%^I2J%>ä __
+* __e0läj00%>ä __
+* __ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^WGStem __
+* __ha0mõh%{back%}%^Pen%^WGStem __
+
+__XØToSelf__
+villui+A+Sg+Nom
+* __vi%{lØ%}lui%{back%}%^Pen%^G3 __
+* __villui000 __
+
+
+kevväi+N+Sg+Gen: __spring__
+* __ke%{vØ%}vä%{ij%}%^Pen%^WGStem%>ä __
+* __ke0väj00%>ä __
+
+
+__%{sØ%}:s__
+ratas+N+Sg+Nom
+* __ra%{tØ%}ta%{sØ%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem __
+* __ra0tas00000 __
+
+agras+A+Sg+Nom
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem __
+* __agras000000 __
+
+__%{hØ%}:h__
+* __ha%{mØ%}mõ%{hØ%}%^Pen%^WGStem __
+* __ha0mõ0%>h __
+
+
+__%{kØ%}:k__
+* __as%{kØ%}o%^Pen%^G2 __
+* __asko __
+
+__%{pb%}:p__
+* __kau%{pb%}%{õØ%}%{lĺ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%>%{eõ%}%>m%{aä%} __
+* __kaup0l0000000%>õ%>ma __
+
+* __li%{pb%}õ%^Pen%^G2 __
+* __lipõ00 __
+
+
+__%{t́d́%}:d́__
+
+__%{t́d́%}:t́__
+
+
+__%{td%}:t__
+nätsk+A+Sg+Nom
+* __nä%{td%}s%{kØ%}%{front%}%^G2 __
+* __nätsk00 __
+hõrts+N+Sg+Nom
+* __hõr%{td%}so%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM __
+* __hõrts000000 __
+
+__%{kg%}:k__
+akaŕ+A+Sg+Nom
+* __a%{kg%}a%{rŕ%}%{back%}%^Pen%^G2%^PAL __
+* __akaŕ0000 __
+* __rän%{kg%}%{back%}%^G3 __
+* __ränk00 __
+
+* __avali%{kØ%}%{kg%}%{back%}%^G2 __
+* __avali0k00 __
+
+__%{kg%}:g__
+apteḱ+N+Sg+Gen:
+* __apte%{kØ%}%{kḱg%}%^VOWLower%^G1 __
+* __apte0g00%>i __
+agras+A+Sg+Nom:
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem __
+* __agras00000 __
+* __hõl%{kg%}a%{sØ%}%{back%}%^Pen%^G2 __
+* __hõlgas000 __
+* __rän%{kg%}%{front%}%^G2%{aä%} __
+* __räng00ä __
+
+nõkõś+N+Sg+Ill
+* __nõ%{kg%}õ%{sś%}%^Pen%^WGStem%{XC%}%>õ%>he __
+* __nõgõs00s%>õ%>he __
+
+* __a%{kg%}ra%{sØ%}%{back%}%^Pen%^WGStem __
+* __agras000 __
+
+
+__%{td%}:d__
+
+kaotama+V+Act+Ind+Prs+Sg1:
+* __kao%{td%}a%^Pen%^G2 __
+* __kaoda0 __
+
+__%{tt́d%}:d__
+kergütämä+V+Act+Ind+Prs+Sg1:
+* __kergü%{tt́d%}ä%^Pen%^WGStem __
+* __kergüdä00 __
+
+
+
+__tToZero__
+hüdsi+N+Sg+Par:
+* __hüdsi%^TS2S%^VowRM%>t __
+* __hü0s000%>t __
+
+* __att%{back%}%^CC2C%>m%{aä%} __
+* __at000%>ma __
+
+
+__%{tØ%}:0__
+* __puh%{tØ%}a%{sØ%}%^Pen%^WGStem __
+* __puh0as __
+ratas+N+Sg+Nom
+* __ra%{tØ%}ta%{sØ%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem __
+* __ra0tas0000 __
+
+sõda+N+Sg+Gen:
+* __sõ%{tØ%}%{tdØ%}a%^Pen%^G1 __
+* __sõ00a00 __
+
+
+!CONSONANT QUALITY CHANGE
+
+
+
+__%{pṕb%}:b__
+* __loro%{pṕb%}%^G2%>i __
+* __lorob0%>i __
+
+__%{pb%}:b__
+habras+A+Sg+Nom
+* __ha%{pb%}ra%{sØ%}%{back%}%^Pen%^WGStem%^StrGStem __
+* __habras0000 __
+
+
+* __ki%{pb%}õ%{nń%}%{back%}%^Pen%^WGStem%>%{aä%} __
+* __kibõn000%>a __
+
+__p2b__
+
+__b20__
+
+__%{pbØ%}:b__
+
+
+__%{dr%}:r__
+murrõq+N+Sg+Nom
+* __mur%{dr%}õ%{back%}%^Pen%^VOWLower%^Pen%^WGStem%>q __
+* __murrõ00000%>q __
+
+__%{dr%}:d__
+murrõq+N+Sg+Gen
+* __mur%{dr%}õ%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem __
+* __murdõ00000 __
+
+
+__%{tdØ%}:d__
+
+
+__%{kgØ%}:g__
+jõgi+N+Sg+Nom
+* __jõ%{kØ%}%{kgØ%}%{back%}%^G2%>i __
+* __jõ0g00%>i __
+
+__%{pbv%}:b__
+* __tõ%{pØ%}%{pbv%}%{back%}%^G2i __
+* __tõ0b00i __
+
+
+hammas
+* __ham%{bm%}a%{sØ%}%^Pen%^WGStem __
+* __hammas00 __
+
+__%{bm%}:m__
+* __ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem __
+* __hammas0000 __
+
+__%{bm%}:b__
+* __ham%{bm%}a%{sØ%}%^Pen%^VOWRaise%^Pen%^G2%^WGStem __
+* __hamba000000 __
+
+__%{bv%}:v__
+* __när%{bv%}ä%{sØ%}%^Pen%^VOWLower%^Pen%^WGStem __
+* __närväs0000 __
+* __lei%{bv%}%^ÄI2ÄÄ%^G1%>ä __
+* __leev0%>ä __
+
+
+
+__%{dn%}:n__
+kannõĺ+N+Sg+Nom: __kantele__
+* __kan%{dn%}õ%{lĺ%}%^Pen%^WGStem%^PAL __
+* __kannõĺ000 __
+
+
+__%{dl%}:l__
+* __tul%>%{dl%}aq%^Pen%^WGStem __
+* __tul%>laq00 __
+* __kõnõl%>%{dl%}aq%^Pen%^WGStem __
+* __kõnõl%>laq00 __
+* __val%{dl%}%{back%}%^G1%>n __
+* __vall00%>n __
+
+
+__%{dv%}:v__
+* __pü%{üv%}%{dv%}%^G1%>et __
+* __püvv0%>et __
+* __ju%{uv%}%{dv%}%^G1%>a __
+* __juvv0%>a __
+* __sü%{üv%}%{dv%}%^G1%>ä __
+* __süvv0%>ä __
+
+
+
+__dTot__
+* __käd%^StrD2T%>t __
+* __kät0%>t __
+* __hüdsi%^StrD2T%>l __
+* __hütsi0%>l __
+
+
+__dTos__
+
+
+__tTos__
+
+__tTod__
+kaotama+V+Act+Ind+Prs+Sg1: 
+* __kaota%^Pen%^WGStem __
+* __kaoda0 __
+
+There should always be a trigger
+
+
+
+__ %{dn%}:d__
+
+* __kan%{dn%}õl%{back%}%^Pen%^G2%^Pen%^VowRM%>õ __
+* __kand0l0000%>õ __
+
+
+__j2i__
+
+__{kḱg}:g __
+
+kõiḱ+Pron+Sg+Gen
+* __kõi%{kØ%}%{kḱg%}%{back%}%^G1%>%{eõ%} __
+* __kõi0g00%>õ __
+
+
+__k2g__
+* __hõrak%^G1%>a __
+* __hõrag0%>a __
+* __*hõrak%^G1%>a __ (is not standard language)
+* __*hõrak0%>a __ (is not standard language)
+* __kisk%^G1%>%{uü%}%>t%{aä%}v __
+* __kis0%>u%>tav __
+
+* __süküs%^Pen%^WGStem%>e __
+* __sügüs0%>e __
+
+
+
+__gTok__
+* __ig0ä%^XStrGStem __
+* __ikkä0 __
+* __kogõr%^StrGStem%^Pen%^VowRM%>õ __
+* __kok0r00%>õ __
+
+__bTop__
+
+__%{pbv%}:p__
+* __tõ%{pØ%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%} __
+* __tõpp00%>e __
+
+
+__%{pbØ%}:p__
+
+__%{tdØ%}:t__
+
+__%{kgØ%}:k__
+* __mä%{kØ%}%{kgØ%}%{front%}%^G4%>%{eõ%} __
+* __mäkk00%>e __
+
+!STEM-FINAL CONSONANT LOSS
+__s20__
+kirotus+N+Pl+Gen:
+* __kirotus%^CnsRM%>isi __
+* __kirotu00%>isi __
+
+usś+N+Sg+Par __door__
+* __uss%^TS2S%>t __
+* __us00%>t __
+
+* __vassi%{back%}%^CC2C%^I2%^PAL%>m%{aä%} __
+* __vaś00000%>ma __
+
+__%{bv%}:b__
+närväs+A+Sg+Gen:
+* __när%{bv%}ä%{sØ%}%^Pen%^VOWLower%^Pen%^StrGStem%^WGStem __
+* __närbä000000 __
+
+__%{gØ%}:g__
+liig+A+Sg+Nom:
+* __lii%{gØ%}%{back%}%^StrGStem __
+* __liig00 __
+huug
+
+
+__d20__
+* __hüdsi%^TS2S%^VowRM%>te __
+* __hü0s000%>te __
+
+__%{dØ%}:0__
+
+
+__g20__
+* __särg%^WGStem%># __
+* __sär0e0%>0 __
+* __aig%^WGStem%>o __
+* __a000%>o __
+* __igä%^Pen%^WGStem __
+* __i0ä00 __
+lugõma+V+Pss+PrfPrc __read/lukea__
+* __lugõ%^Pen%^WGStem%^Õ2E%>t __
+* __lo0e000%>t __
+argnõma+V+Inf
+* __arg%{back%}%{eõ%}%^Pen%^WGStemd%{aä%}q __
+* __ar00õ00daq __
+
+__%{gØ%}:0__
+* __sär%{gØ%}%^WGStem%>e __
+* __sär00%>e __
+* __aig%^WGStem%>o __
+* __a000%>o __
+* __i%{kgØ%}ä%^Pen%^WGStem __
+* __i0ä00 __
+lugõma+V+Pss+PrfPrc __read/lukea__
+* __lu%{kgØ%}õ%^Pen%^WGStem%^Õ2E%>t __
+* __lo0e000%>t __
+argnõma+V+Inf
+* __arg%{back%}%{eõ%}%^Pen%^WGStemd%{aä%}q __
+* __ar00õ00daq __
+
+
+* __palgõ%^WGStem%>h __
+* __pal0õ0%>h __
+
+__%{pbv%}:v__
+* __tõ%{pØ%}%{pbv%}%{back%}%^G1%>%{eõ%} __
+* __tõ0v00%>õ __
+
+
+__%{pbØ%}:0__
+
+
+__%{tdØ%}:0__
+* __hüdsi%^TS2S%^VowRM%>te __
+* __hü0s000%>te __
+
+
+__%{kgØ%}:0__
+* __mä%{kØ%}%{kgØ%}%{front%}%^G1%>%{eõ%} __
+* __mä0000%>e __
+
+
+* __u%{jØ%}jo%{back%}%^Pen%^WGStem%>m%{aä%} __
+* __u0jo000%>ma __
+
+
+
+
+
+
+
+
+
+
+püüdmä+V+Act+Ind+Prs+Sg3
+* __pü%{üv%}%{dd́v%}%{front%}%^PAL __
+* __püüd́00 __
+
+
+pereq
+* __pe%{rØ%}re%^WGStem%>h __
+* __pe0re0%>h __
+
+naŕma
+* __na%{rØ%}%{rŕ%}%{back%}%^CC2C%^PAL%>m%{aä%} __
+* __na0r000%>ma __
+
+
+!Other marks
+* __ki%{pb%}õ%{nń%}%>a __
+* __kipõn%>a __
+
+__Disallow %^ErrorBack:0 in BHARM__
+
+__Disallow %^ErrorBack:0 in BHARM__
+
