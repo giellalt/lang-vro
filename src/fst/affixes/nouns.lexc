@@ -195,9 +195,9 @@ LEXICON N_8KULDNW
  N_8KULDNW-SG ;
  N_8KULDNW-PL ;
 LEXICON N_8KULDNW-SG
-:%{back%} NMN_8KULDNW/XX-SG ;
+:%{back%} NMN_8KULDNW/KIIL1NE-SG ;
 LEXICON N_8KULDNW-PL
-:%{back%} NMN_8KULDNW/XX-PL ;
+:%{back%} NMN_8KULDNW/KIIL1NE-PL ;
 
 LEXICON N_8DOLLAR1
 :%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
@@ -1043,6 +1043,9 @@ LEXICON N_27EHEQ-PL
 !:%{back%} NMN_27HAPU-SG ;
 !LEXICON N_27HAPU-PL
 !:%{back%} NMN_27HAPU-PL ;
+
+LEXICON N_27KUEMMEND !!= * **@CODE@** kümmend:küm
+:%{front%} NMN_27KUEMMEND ;
 
 LEXICON N_28TUETAER1 !!= * **@CODE@** tütäŕ:tütär
 :%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
@@ -2232,12 +2235,12 @@ LEXICON NMN_8KASK/HAEIELM-PL
 +Err/Orth+Use/NG:%^VowRM%>ii      PL-PAR_d        ;
 +Err/Orth+Use/NG:%^VowRM%>iid%{eõ%}      PL-COM        ;
 
-LEXICON NMN_8KULDNW/XX
+LEXICON NMN_8KULDNW/KIIL1NE
 !! * Yaml: **N-kuldnw**
-  NMN_8KULDNW/XX-SG ;
-  NMN_8KULDNW/XX-PL ;
+  NMN_8KULDNW/KIIL1NE-SG ;
+  NMN_8KULDNW/KIIL1NE-PL ;
 
-LEXICON NMN_8KULDNW/XX-SG 
+LEXICON NMN_8KULDNW/KIIL1NE-SG 
 :n%{eõ%}        Harm-Neutr_SG-NOM  ;
 :s%{eõ%}        SG-GEN_ZERO-STEM       ;
 :%>s%{eõ%}        Harm-Neutr_SG-PAR_t        ;
@@ -2245,7 +2248,7 @@ LEXICON NMN_8KULDNW/XX-SG
 
 :%>s%{eõ%}        SG-ILL_dE       ;
 
-LEXICON NMN_8KULDNW/XX-PL 
+LEXICON NMN_8KULDNW/KIIL1NE-PL 
 :s%{eõ%}        Harm-Neutr_PL-NOM ;
 :%>si     Harm-Neutr_PL-GEN_dE ;
 :%>si        PL-ILL_he       ;
@@ -4223,6 +4226,37 @@ LEXICON NMN_27HAPU-PL
 +Err/Orth+Use/NG:%>ndõ PL-ALL_lE-STEM ;
 +Err/Orth+Use/NG:%^VowRM%>niidõ PL-COM ;
 +Err/Orth+Use/NG:%>ndõ PL-COM ;
+
+LEXICON NMN_27KUEMMEND !!= * **@CODE@** kümmend:küm
+ NMN_27KUEMMEND-SG ;
+ NMN_27KUEMMEND-PL ;
+
+LEXICON NMN_27KUEMMEND-SG
+:mend Harm-Neutr_SG-NOM ;
+:%>n%{eõ%} SG-GEN_ZERO ;
+:men Harm-Neutr_SG-PAR_d ;
+:%>n%{eõ%} Harm-Neutr_SG-ILL_he ;
+:%>n%{eõ%} Harm-Neutr_SG-ALL_lE-STEM ;
++Err/Orth+Use/NG:%>n%{eõ%} SG-ILL_dE ;
+
+LEXICON NMN_27KUEMMEND-PL 
+:%>n%{eõ%} Harm-Neutr_PL-NOM ;
+:%>ni Harm-Neutr_PL-GEN_dE ;
+:%>ni PL-PAR_t ;
+:%>ni PL-ILL_he ;
+:%>ni PL-ALL_lE-STEM ;
+:%>nid%{eõ%} PL-COM ;
++Err/Orth+Use/NG:%>nii Harm-Neutr_PL-GEN_dE ;
++Err/Orth+Use/NG:%>n Harm-Neutr_PL-GEN_dE ;
++Err/Orth+Use/NG:%>nii PL-PAR_d ;
++Err/Orth+Use/NG:%>ni PL-ILL_dE ;
++Err/Orth+Use/NG:%>nii PL-ILL_dE ;
++Err/Orth+Use/NG:%>nii PL-ILL_he ;
++Err/Orth+Use/NG:%>mend%{eõ%} PL-ILL_he ;
++Err/Orth+Use/NG:%>nii PL-ALL_lE-STEM ;
++Err/Orth+Use/NG:%>mend%{eõ%} PL-ALL_lE-STEM ;
++Err/Orth+Use/NG:%>niid%{eõ%} PL-COM ;
++Err/Orth+Use/NG:%>mend%{eõ%} PL-COM ;
 
 LEXICON NMN_28TUETAER1 !!= * **@CODE@** tütäŕ:tütär
 !! * Yaml: **N-tuetaerj28, N-kannwl28**
