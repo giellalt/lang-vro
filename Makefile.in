@@ -409,10 +409,10 @@ MD_PAGES = root-morphology.md \
 
 
 # Variables:
-ALLINONE_MD_PAGE = $(GTLANG).md
-LINKS = Links.md
-HEADER = index-header.md
-INDEX = index.md
+ALLINONE_MD_PAGE = $(srcdir)/$(GTLANG).md
+LINKS = $(srcdir)/Links.md
+HEADER = $(srcdir)/index-header.md
+INDEX = $(srcdir)/index.md
 
 # no regenerations while debugging
 doc_DATA = $(INDEX) $(LINKS) $(ALLINONE_MD_PAGE)
@@ -835,28 +835,31 @@ regenerate-markdown: generate-markdown
 @WANT_SPELLERS_FALSE@	@echo need to configure --enable-spellers to generate statistics
 @WANT_SPELLERS_FALSE@	touch $@
 
-%-syntax.md: $(top_srcdir)/src/cg3/%.cg3
+$(srcdir)/%-syntax.md: $(top_srcdir)/src/cg3/%.cg3
 	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
 
-%-morphology.md: $(top_srcdir)/src/fst/%.lexc
+$(srcdir)/%-morphology.md: $(top_srcdir)/src/fst/%.lexc
 	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
 
-%-morphology.md: $(top_srcdir)/src/fst/%.twolc
+$(srcdir)/%.md: $(top_srcdir)/src/fst/oahpa-filer/%.lexc
 	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
 
-%-generated.md: $(top_srcdir)/src/fst/generated_files/%.lexc
+$(srcdir)/%-morphology.md: $(top_srcdir)/src/fst/%.twolc
 	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
 
-%-stems.md: $(top_srcdir)/src/fst/stems/%.lexc
+$(srcdir)/%-generated.md: $(top_srcdir)/src/fst/generated_files/%.lexc
 	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
 
-%-affixes.md: $(top_srcdir)/src/fst/affixes/%.lexc
+$(srcdir)/%-stems.md: $(top_srcdir)/src/fst/stems/%.lexc
 	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
 
-%.md: $(top_srcdir)/src/transcriptions/%.lexc
+$(srcdir)/%-affixes.md: $(top_srcdir)/src/fst/affixes/%.lexc
 	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
 
-%.md: $(top_srcdir)/tools/grammarcheckers/%.cg3
+$(srcdir)/%.md: $(top_srcdir)/src/transcriptions/%.lexc
+	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
+
+$(srcdir)/%.md: $(top_srcdir)/tools/grammarcheckers/%.cg3
 	$(AM_V_AWK)"$(GAWK)" -f $(DOCC2MDWIKI) < $< > $@
 
 generated-markdowns.sources:
@@ -867,7 +870,7 @@ generated-markdowns.sources:
 
 generated-markdowns.targets: generated-markdowns.sources
 	$(AM_V_GEN)for f in `cat $<` ; do \
-		x=`basename $$f | sed -e 's/\.\(lexc\|twolc\|cg3\)$$//'` ; \
+		x=`basename $$f | sed -E -e 's/\.(lexc|twolc|cg3)$$//'` ; \
 		case $$f in \
 		*fst/stems*) echo $$x-stems.md;;\
 		*fst/affixes*) echo $$x-affixes.md;;\
@@ -882,11 +885,11 @@ generated-markdowns.targets: generated-markdowns.sources
 
 generate-markdown: generated-markdowns.targets
 	$(AM_V_at)for f in `cat $<` ; do \
-		$(MAKE) $$f;\
+		$(MAKE) $(srcdir)/$$f;\
 	done
 
-$(ALL_IN_ONE): generate-markdown generated-markdowns.targets
-	$(AM_V_GEN)cat `cat generated-markdowns.targets` > $@
+$(ALLINONE_MD_PAGE): generate-markdown generated-markdowns.targets
+	$(AM_V_GEN)cat `cat generated-markdowns.targets | sed -e 's@^@$(srcdir)/@'` > $@
 
 $(LINKS): generate-markdown generated-markdowns.targets
 	$(AM_V_GEN)cat generated-markdowns.targets |\

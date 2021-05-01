@@ -1,0 +1,32 @@
+
+### ADVERBS
+
+### CONJUNTIONS
+
+
+### GENITIVE ATTRIBUTES
+
+
+### NOUNS
+
+### PLURAL NOUNS
+
+
+### POSTPOSITIONA
+
+### PRONOUNS
+
+
+### VERBS
+
+minemä **to go/ mennä**
+
+
+olõma **to be/ olla**
+
+nakkama **to start/ alkaa**
+
+tegemä **to do/ tehdä**
+
+
+võtma **to take (pass)/ ottaa**

@@ -22,18 +22,18 @@ special letters, cf. https://github.com/hfst/hfst/issues/497 Trond.
  ```%{ˋØ%} - U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
 
 The parts-of-speech are:
- * **+N	** Noun
- * **+A	** Adjective
+ * **+N** Noun
+ * **+A** Adjective
  * **+Adv** Adverb
- * **+V	** Verb
+ * **+V** Verb
 
  * **+Pron** Pronoun
- * **+CS	** subjunction
- * **+CC	** Correlating conjunction
+ * **+CS** subjunction
+ * **+CC** Correlating conjunction
  * **+Det** Determiners
  * **+Adp** Adpositions
- * **+Po	** Postposition
- * **+Pr	** Preposition
+ * **+Po** Postposition
+ * **+Pr** Preposition
  * **+Interj** Interjections
  * **+Pcle**
  * **+Num** Numerals
@@ -54,7 +54,7 @@ The parts of speech are further split up into:
 The Usage extents are marked using following tags:
  * **+Err/Orth**
  * **+Err/Orth-no-pal** palatalization is missing
- * **+Err/Orth-no-q	** Q is missing
+ * **+Err/Orth-no-q** Q is missing
  * **+Use/-Spell**
  * **+Use/NG** No generation
 
@@ -119,7 +119,7 @@ Subject conjugation
  * **+ScPl1**
  * **+ScPl2**
  * **+ScPl3**
- * **+Sc	**
+ * **+Sc**
 
 Passive conjugation
 
@@ -129,23 +129,23 @@ Passive conjugation
  * **+PcPl1**
  * **+PcPl2**
  * **+PcPl3**
- * **+Pc	**
+ * **+Pc**
 Other verb forms are
- * **+Inf	** sõimadaq, elädäq
- * **+Inf/mA	** sõimama, elämä
- * **+Ger		** ollõn
- * **+ConNeg		** saa eiq 3 elements in 2 orthographic units
- * **+ConNegII	** ei saaq 3 elements in 2 orthographic units
- * **+Neg		** saa-aiq 3 elements in 1 orthographic unit
- * **+ImprtII	**
- * **+PrsPrc		**
- * **+PrfPrc		**
- * **+Sup		** olõman, olõmaldaq; oldama
- * **+VGen		**
- * **+VAbess		**
+ * **+Inf** sõimadaq, elädäq
+ * **+Inf/mA** sõimama, elämä
+ * **+Ger** ollõn
+ * **+ConNeg** saa eiq 3 elements in 2 orthographic units
+ * **+ConNegII** ei saaq 3 elements in 2 orthographic units
+ * **+Neg** saa-aiq 3 elements in 1 orthographic unit
+ * **+ImprtII**
+ * **+PrsPrc**
+ * **+PrfPrc**
+ * **+Sup** olõman, olõmaldaq; oldama
+ * **+VGen**
+ * **+VAbess**
  * **+Act** active
  * **+Pss** passive
- * **+PrsPrc	**
+ * **+PrsPrc**
  * **+PrfPrc** elet
 
  * **+ABBR**
@@ -170,12 +170,12 @@ Question and Focus particles:
 
  * **+Qst**
  * **+Foc**
- * **+Clt	**
+ * **+Clt**
 
- * **+Hom1	**
- * **+Hom2	**
- * **+Hom3	**
- * **+Hom4	**
+ * **+Hom1**
+ * **+Hom2**
+ * **+Hom3**
+ * **+Hom4**
 
 
 
@@ -305,18 +305,18 @@ Question and Focus particles:
 
 
 
- * **+Sem/Ant_Fem	**
- * **+Sem/Ant_Mal	**
- * **+Temp	**
+ * **+Sem/Ant_Fem**
+ * **+Sem/Ant_Mal**
+ * **+Temp**
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
- * **+V→N	**
- * **+V→V	**
- * **+V→A	**
- * **+Prop→A	**
- * **+Der	**
+ * **+V→N**
+ * **+V→V**
+ * **+V→A**
+ * **+Prop→A**
+ * **+Der**
  * **+Der/xxx**
  ** +Der/JA **	NomAg
  ** +Der/minE ** NomAct
@@ -530,41 +530,41 @@ given the proper use of these flags.
  |  **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj.
  |  **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
 
- |  **@U.Case.Abe@	** | Abessive
- |  **@U.Case.Abl@	** | Ablative
- |  **@U.Case.Ade@	** | Adessive
- |  **@U.Case.All@	** | Allative
- |  **@U.Case.Com@	** | Comitative
- |  **@U.Case.Ela@	** | Elative
- |  **@U.Case.Gen@	** | Genitive
- |  **@U.Case.Ill@	** | Illative
- |  **@U.Case.Ine@	** | Inessive
- |  **@U.Case.Nom@	** | Nominative
- |  **@U.Case.Par@	** | Partitive
- |  **@U.Case.Ter@	** | Terminative
- |  **@U.Case.Tra@	** | Translative
+ |  **@U.Case.Abe@** | Abessive
+ |  **@U.Case.Abl@** | Ablative
+ |  **@U.Case.Ade@** | Adessive
+ |  **@U.Case.All@** | Allative
+ |  **@U.Case.Com@** | Comitative
+ |  **@U.Case.Ela@** | Elative
+ |  **@U.Case.Gen@** | Genitive
+ |  **@U.Case.Ill@** | Illative
+ |  **@U.Case.Ine@** | Inessive
+ |  **@U.Case.Nom@** | Nominative
+ |  **@U.Case.Par@** | Partitive
+ |  **@U.Case.Ter@** | Terminative
+ |  **@U.Case.Tra@** | Translative
 
- |  **@U.Number.Pl@	** | Plural
- |  **@U.Number.Sg@	** | Singular
+ |  **@U.Number.Pl@** | Plural
+ |  **@U.Number.Sg@** | Singular
 
 # The Root lexicon
 
 
 The word forms in the Võro language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
- * **adpositions ;	**
- * **adverbs ;		**
- * **conjunctors ;	**
+ * **adpositions ;**
+ * **adverbs ;**
+ * **conjunctors ;**
  * **interjections ;**
- * **pronouns	;		**
- * **PronounTypes	;		**
- * **Punctuation ;	**
- * **Symbols ;	**
- * **numerals	;	**
+ * **pronouns ;**
+ * **PronounTypes ;**
+ * **Punctuation ;**
+ * **Symbols ;**
+ * **numerals ;**
 look at verb_newwords.lexc
 
- * **Exceptions ;		**
- * **Abbreviation ;	**
+ * **Exceptions ;**
+ * **Abbreviation ;**
  * **Acronym ;**
 
 Incoming
