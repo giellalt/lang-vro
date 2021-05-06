@@ -1,7 +1,7 @@
 # Võro documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-![License](https://img.shields.io/github/license/giellalt/lang-vro)](https://raw.githubusercontent.com/giellalt/lang-vro/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-vro)](https://raw.githubusercontent.com/giellalt/lang-vro/develop/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-vro)](https://github.com/giellalt/lang-vro/issues)
 [![Build status](https://github.com/giellalt/lang-vro/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-vro/actions)
 

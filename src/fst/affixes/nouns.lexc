@@ -2384,17 +2384,18 @@ LEXICON NMN_8AASTAK-SG
 :%^G3        Harm-Neutr_SG-NOM  ;
 :%^G2%>%{aä%}    SG-GEN_ZERO ;
 :%^G3%>%{aä%}    Harm-Neutr_SG-ALL_lE-STEM        ;
++Err/Orth+Use/NG:%^G2%>%{aä%}    Harm-Neutr_SG-ALL_lE-STEM        ;
 :%^G3%>%{aä%}    Harm-Neutr_SG-PAR_t        ;
 :%^G3%>%{aä%}    Harm-Neutr_SG-ILL_he       ;
 :%^G2%>%{aä%} Harm-Neutr_SG-COM ;
 
 LEXICON NMN_8AASTAK-PL 
 :%^G2%>%{aä%}    Harm-Neutr_PL-NOM ;
-:%^G3%>i    Harm-Neutr_PL-GEN_dE ;
+:%^G2%>i    Harm-Neutr_PL-GEN_dE ;
 :%^G3%>i        PL-ILL_he       ;
-:%^G3%>i        PL-ALL_lE-STEM       ;
+:%^G2%>i        PL-ALL_lE-STEM       ;
 :%^G3%>i      PL-PAR_t        ;
-:%^G3%>idõ        PL-COM       ;
+:%^G2%>idõ        PL-COM       ;
 
 
 LEXICON NMN_36RAMM/SILM !!= * **@CODE@** silm:silm
