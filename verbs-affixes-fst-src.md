@@ -863,7 +863,7 @@ IS THIS RIGHT? 2015-09-02
 gradation: yes
 * Yaml: **switma**
 
- * LEXICON V_83ATMA/XX   atma:a%{tØ%}t%{ae%}
+ * LEXICON V_83ATMA/XX   atma:a%{tØ%}%{tt́%}
 
 
 
