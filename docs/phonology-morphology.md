@@ -256,6 +256,9 @@ Onset consonant or word boundary
 
 
 
+
+
+
 Right context for gradation
 
 
@@ -485,6 +488,13 @@ sõimama+V+Act+Ind+Prt+Sg1
 * *sõim0000000%>ssi*
 * *puhkas%{back%}%^Pen%^VowRM%>a%>ma*
 * *puhk0s000%>a%>ma*
+võtma+V+Inf/mA: **to take/ottaa**
+* *võ{tØ}{tt́}a{back}^Pen^WGStem^Pen^NoPAL^VowRM>m{aä}*
+* *võ0t0000000>ma*
+võtma+V+Ind+Prt+Sg3: **to take/ottaa**
+* *võ{tØ}{tt́}a{back}^Pen^StrGStem^Pen^PAL^VowRM*
+* *võtt́0000000*
+
 sõda+N+Pl+Par:
 * *sõ%{tØ%}%{tdØ%}a%{back%}%^Pen%^G3%^VowRM%>o*
 * *sõ0t00000%>o*
@@ -729,11 +739,11 @@ kakma
 * ★*joosk000>õ* (is not standard language)
 
 **%{sØ%}:0**  
+* *su%{sØ%}śo%{back%}%^Pen%^WGStem*
+* *su0śo000*
 vaśma+V+Inf/mA: **answer/vastata**
 * *va{sØ}{sś}{back}^VOWRaise^WGStem^PAL>m{aä}*
 * *va0ś0000>ma*
-* *su%{sØ%}śo%{back%}%^Pen%^WGStem*
-* *su0śo000*
 * *ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem*
 * *hamba0000000*
 
