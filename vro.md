@@ -6135,6 +6135,8 @@ Verb inflection
 Võro language verbs inflect for person and number.
 
 
+
+
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: **V-kasuma48**
 
@@ -7017,11 +7019,15 @@ gradation: yes
 * Yaml: **heitmae**
 
  * LEXICON V_83SUTMA/PETMÄ   atma:a%{tØ%}t
-sõida
 
 
 
 IS THIS RIGHT? 2015-09-02
+
+sõida
+
+
+
 
 
 
@@ -7046,9 +7052,12 @@ IS THIS RIGHT? 2015-09-02
 
 
 
+
+
  * **LEXICON V_85HIRNMA** kakma:kaku hirnma:hirnu
 * Yaml: **kakma**
  * **LEXICON V_85HIRNMA/XX** kakma:kaku hirnma:hirnu
+
 
 
 
@@ -7184,6 +7193,12 @@ IS THIS RIGHT? 2015-09-02
 
 
 
+
+
+
+
+
+
  * +Ind+Prs+Neg:%-%{XV%}iq K ;  This gives stress
  * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-iq K ;  This gives stress
  * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-%{XV%}i K ;  more neutral without q
@@ -7212,6 +7227,24 @@ CHECK THIS
 
 
 ### INDICATIVE PRETERIT SUBJECT CONJUGATION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
