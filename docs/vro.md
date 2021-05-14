@@ -1,4 +1,2773 @@
 
+# C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
+
+This dep file is for sma, sme, smj, sje.
+
+# DELIMITERS
+
+Sentence delimiters are the following: <.> <!> <?> <...> <¶>
+
+
+# TAGS AND SETS
+
+
+N
+V
+A
+Adv
+CC
+CS
+Inf
+Sup
+Neg
+Num
+Po
+Pr
+
+Pcle
+Prop
+
+Pron
+IV
+TV
+COMMA
+DASH
+CITATION to keep colouring we add a "
+HYPHEN
+QMARK
+PUNCT
+LEFT
+RIGHT
+CLB
+Ind
+Pot
+Impr
+ImprtII
+Cond
+ConNeg
+Caus causative eus
+VGen
+Interj
+ABBR
+ACR
+Prs
+Prt
+Cmpnd
+RCmpnd
+PrfPrc
+PrsPrc
+Actor
+Actio
+Ger
+Indef
+Nom
+Acc
+Ill
+Com
+Gen
+Ess
+
+IM For fao
+
+## POS sub-categories
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Syntactic tags and sets
+
+### Syntactic tags in input to this file
+
+
+### Syntactic tags added in this file
+
+* @FMV : finite main verb
+    - oaidná: Son oaidná ollislaš gova. - She sees the whole picture
+* infinite main verb
+* @FAUX : finite auxiliary verb
+    - ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture. 
+* @FMVdic : finite main verb introducing direct speech
+* @IMVdic : infinite main verb introducing direct speech
+* @FS-IMV : infinite main verb of subclause 
+* @FS-IAUX : infinite auxiliary verb in subclause
+* @FS-N<IAUX : infinite auxiliary verb of a relative subclause
+* @FS-N<IMV : infinite main verb of a relative subclause
+* @FS-OBJ : finite verb in subclause functioning as object
+* @FS-OBJ> : finite verb in subclause functioning as object
+* @FS-<OBJ : finite verb in subclause functioning as object
+* @FS-SUBJ : finite verb in subclause functioning as subject
+* @FS-SUBJ> : finite verb in subclause functioning as subject
+* @FS-<SUBJ : finite verb in subclause functioning as subject
+* @FS-ADVL> : finite verb in subclause functioning as adverbial to the left of the main clause
+* @FS-<ADVL : finite verb in subclause functioning as adverbial to the right of the main clause
+* @FS-ACC>> : finite verb in subclause, object of speechact verb
+* @S< : a clause modifying a sentence to the right of it
+* @FS-ADVL : finite verb in subclause ...
+* @-FS-<ADVL : infinite subclause - eus
+* @-FS-ADVL> : infinite subclause - eus
+* @FS-N< : relative clause to N
+* @FS->N : relative clause to N to the left side of it - eus
+* @FS-VFIN< : finite verb in sentence, statement
+    - eai: Idja ii leat šat, eai ge sii dárbbaš lámppá dahje beaivváža čuovgga, dasgo Hearrá Ipmil lea sin čuovga. - The night is not anymore, they do not need the lamp- or day- light either, because God the Lord is their light.
+* @FS-<APP : finite subclause functioning as an apposition
+* @ICL-ADVL : non-finite subclause ...
+* @ICL-AUX< : "right" argument of auxiliary (?)
+* @ICL-OBJ : infinitival clause object
+* @ICL-SUBJ : infinitival clause subject
+* @ICL-P< : infinitival clause complement of preprosition
+* @IAUX : non-finite auxiliary
+* <mv> : main verb. A temporarily tag omitted in the end of the file.
+* <aux> : auxilary verb. A temporarily tag omitted in the end of the file.
+
+
+### fao syntags
+
+* @>V
+
+### kal syntags
+
+* @INS :
+* @<INS :
+* @INS> :
+
+### eus syntags
+
+* @FS-SPRED : finite verb in subclause functioning as a subject predicate - eus, but not sure if in use
+
+### Syntactic set definitions
+
+
+
+
+
+
+
+
+
+
+
+
+# Dep grammar
+
+
+
+Correction rules
+
+
+
+* **muitalit**
+
+
+* **XX**
+
+* **XX**
+
+* **XX**
+
+
+
+* **faoSumId=Rel**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## The finite verb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Mapping rules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
+
+
+
+
+
+
+
+   S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
+
+ Sámi language technology project 2003-2018, University of Tromsø #
+
+This file adds syntactic functions. It is common for all the Saami
+
+
+
+
+
+
+
+
+
+
+
+
+
+LEFT RIGHT because of apertium
+
+
+
+* Sets for POS sub-categories
+
+
+
+
+
+* Sets for Semantic tags
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Sets for Morphosyntactic properties
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Syntactic tags
+
+* @+FAUXV : finite auxiliary verb 
+    - ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture.
+* @+FMAINV : finite main verb
+    - oaidná: Son oaidná ollislaš gova. - She sees the whole picture	
+* @-FAUXV : infinite auxiliary verb
+    - sáhte: In sáhte gáhku borrat. - I cannot eat cake.	
+* @-FMAINV : infinite main verb
+    - oaidnit: Son ferte oaidnit ollislaš gova. - She must see the whole picture.
+* @-FSUBJ> : Subject of infinite verb outside the verbal.
+    - mu: Diet dáhpáhuvai mu dieđikeahttá. - It happened without me knowing about it.
+* @-F<OBJ : Subject of infinite verb outside the verbal.
+    - nuppi: Ulbmil lea oažžut nuppi boagustit. - The goal is to get the other one to laugh.
+* @-FOBJ> : Object of infinite verb outside the verbal.
+    - váldovuoittuid: Sii vurde váldovuoittuid fasket. - They waited to grab the main prizes.
+* @SPRED<OBJ : Object of an subsject predicative. (some adjectives are transitive)
+    - guliid: Mánát leat oažžulat guliid.
+* @-FADVL : Adverbial complement of infinite verb outside the verbal.
+    - várrogasat: Dihkkadeaddji rávve skohtervuddjiid várrogasat mátkkoštit. - The roadman warns snowscooter drivers to drive carefully.
+* @-F<PRED : Predicative complement of infinite verb outside the verbal.
+    - ággan: Jáhkken kulturmáhtu leat oktan ággan.
+* @>ADVL : Modifier of an adverbial to the right.
+    - vaikko: doppe leat vaikko man ollu studeanttat.
+* @ADVL< : Komplement for adverbial.
+    - vahkus: Son málesta guktii vahkus.
+* @<ADVL : Adverbial after the main verb.
+    - dás: Eanet dieđuid gávnnat dás.
+* @ADVL> : Adverbial to the left of the main verb
+    - viimmat: Dál de viimmat asttan lohkat reivve.
+* @ADVL>CS : Adverbial modifying subjunction.
+    - 'beare' pointing at 'danin go': Muhto dus ii leat riekti dearpat su beare danin go sáhtát.
+* <hab> : Habitive, specifying an adverbial, e.g. @ADVL> <hab>
+    - Máhtes: Máhtes lea beana.
+* <ext> : Extencial, specifying an subject, e.g. @<SUBJ <ext>
+    - beana: Máhtes lea beana.
+* <logo> : logoforic pronouns, e.g. @>N <logo> (for MT)
+* <cs> : 
+* @>N : Modifier of a noun to the right.
+    - geavatlaš: Ráđđehussii lea geavatlaš politihkka deaŧalaš. - For the government, practical politics is important.
+* @N< : Complement of noun to the left.
+    - vihtta: Mun boađán diibmu vihtta.
+* @>A : Modifier of an adjective to the right.
+    - juohke: Seminára lágiduvvo juohke nuppi jagi.
+* @P< : Complement of preposition.
+    - soađi: Dat dáhpáhuvai maŋŋel soađi.
+* @>P : Complement of postposition.
+    - riegádeami: Seta riegádeami maŋŋel Áttán elii vel 800 jagi.
+* @HNOUN : Stray noun in sentence fragment.
+    - muittut: Fidnokurssa muittut.
+* @INTERJ : Interjection.
+    - Hei: Hei, boađe!
+* @>Num : Attribute of numeral to the right.
+    - dušše: Mun ledjen dušše guokte mánu doppe.
+* @Pron< : Complement of pronoun to the left.
+    - Birehiin: Moai Birehiin leimme doppe.
+* @>Pron : Modifyer of pronoun to the right.
+    - vaikko: Olmmoš sáhttá bargat vaikko maid.
+* @Num< : Complement of numeral to the left.
+    - girjjiin: Dat lea okta min buoremus girjjiin.
+* @OBJ : Object, the verb is not in the sentence (ellipse)
+* @<OBJ : Object, the verb is to the left.
+    - gávtti: Son goarru gávtti.
+* @OBJ> : Object, the verb is to the right.
+    - filmma: Dán filmma leat Kárášjoga nuorat oaidnán.
+* @OPRED : Object predicative, the verb is not in the sentence (ellipse).
+* @<OPRED : Object predicative, the verb is to the left.
+    - buriid: Son ráhkada gáhkuid hui buriid.
+* @OPRED> : Object predicative, the verb is to the right.
+    - dohkkemeahttumin: Son oinnii dohkkemeahttumin bargat ášši nu.
+* @PCLE : Particle.
+    - Amma: Amma mii eat leat máksán? - We have not paid, have we?
+* @COMP-CS< : Complement of subjunction.
+    - vejolaš: Dat šaddá nu buorre go vejolaš.
+* @SPRED : Subject predicative, the verb is not in the sentence (ellipse).
+* @<SPRED : Subject predicative, the verb is to the left.
+    - árgabivttas: Ovdal lei gákti árgabivttas.
+* @SPRED> : Subject predicative, the verb is to the left.
+    - álbmogin: Sápmelaččaid historjá álbmogin lea duháhiid jagiid boaris.
+* @SUBJ : Subject, the finite verb is not in the sentence (ellipse).
+* @<SUBJ : Subject, the finite verb is to the left.
+    - gákti: Ovdal lei gákti árgabivttas.
+* @SUBJ> : Subject, the finite verb is to the right.
+    - Son: Son lea mu oabbá. - Sheis my sister.
+* @PPRED : Predicative for predicative.
+* @APP : Apposition
+* @APP-N< : Apposition to noun to the left.
+    - oahpaheaddji: Oidnen Ánne, min oahpaheaddji.
+* @APP-Pron< : Apposition to pronoun to the left.
+    - boazodoalloáirasat: Ja moai boazodoalloáirasat áigguime vaikko guovttá joatkit barggu.
+* @APP>Pron : Apposition to noun to the right.
+* @APP-Num< : Apposition to numeral to the left.
+* @APP-ADVL< : Apposition to adverbial to the left.
+    - bearjadaga: Mun vuolggán ihttin, bearjadaga.
+* @VOC : Vocative
+    - Miss Turner : Bures boahtin deike, Miss Turner! - Welcome her, Miss Turner!
+* @CVP : Conjunction or subjunction that conjoins finite verb phrases.
+    - go : Leago guhkes áigi dassá go Máreha oidnet? - Is it a long time since you saw Máret?
+* @CNP : Local conjunction or subjunction.
+    - vai : Leago nieida vai bárdni? - Is it a girl or a boy?
+* @CMPND
+* @X : The function is unknown, e.g. because of that the word is unknown
+
+
+
+
+
+
+
+
+
+
+
+## Tag sets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Sets for verbs
+
+
+    - V is all readings with a V tag in them, REAL-V should
+be the ones without an N tag following the V.
+The REAL-V set thus awaits a fix to the preprocess V ... N bug.
+
+
+
+* The set COPULAS is for predicative constructions
+
+
+
+
+
+
+
+* NP sets defined according to their morphosyntactic features
+
+
+
+
+
+
+
+* The PRE-NP-HEAD family of sets
+
+These sets model noun phrases (NPs). The idea is to first define whatever can
+occur in front of the head of the NP, and thereafter negate that with the
+expression **WORD - premodifiers**.
+
+
+
+
+
+
+
+
+
+
+
+
+The set **NOT-NPMOD** is used to find barriers between NPs.
+Typical usage: ... (*1 N BARRIER NPT-NPMOD) ...
+meaning: Scan to the first noun, ignoring anything that can be
+part of the noun phrase of that noun (i.e., "scan to the next NP head")
+
+
+
+
+
+
+* Miscellaneous sets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Border sets and their complements
+
+
+
+
+
+
+
+
+
+
+
+ADLVCASE
+
+
+
+
+* Syntactic sets
+
+
+
+
+
+These were the set types.
+
+
+
+
+
+## Numeral outside the sentence
+
+
+
+
+## HABITIVE MAPPING
+
+
+
+
+
+
+* **hab1** hab aux leat
+
+* __hab_numo1__ hab copula comma comma N+Nom
+
+* __hab_numo2__ copula nu mo/go hab
+
+
+* **leahab** copula nu mo/go hab
+
+* **hab2** hab auxv adv leat
+
+* **hab3** (<hab> @ADVL>) for asdf hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+* **hab3** (<hab> @ADVL>) for asdf hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+* **hab3** (<hab> @ADVL>) for asdf hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+* **hab3** (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+
+
+
+
+* __hab_main__ (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+
+* **habInf** hab lea inf
+
+* **habNomLeft** Nom or Num + gen hab lea
+
+* **habAdvl** Ii han ovttasge du sogas leat dat namma.
+
+* **hab4** hab cc hab leat
+
+
+
+* **hab6** lea go hab -- leago hab
+
+* **hab7** lea go hab
+
+* **hab8** This is not HAB Ellii šattai hoahppu.
+* **hab5**  This is not HAB Mánás gollot gieđat.
+
+* **hab9** prop ord-hab leat
+
+* **hab10** prop ord-hab leat
+
+* **habDain** (<hab> @ADVL>) for (Pron Dem Pl Loc) if leat followed by Nom to the right
+* **habDain2** 
+
+
+* **habRel** # before relative clause
+
+* **habEllipse** Buot gánddain lea dreassa, nieiddain fas gákti.
+
+* **habGen** (<hab> @<ADVL) hab for Gen; if Gen is located in the end of the sentence and Nom is sentence initial
+
+* **habGenQst** (<hab> @<ADVL) hab for Gen; in a question sentence. Gen is located sentence initially and SUBJ is found to the right. To the right of SUBJ is copulas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **n<titel1** (@N<) for ("jr") or ("sr"); if first one to the left is Prop
+
+
+
+* **n<titel2** (@N<) for INITIAL; if first one to the left is a noun, or if to the left of you is a single letter which is part of a noun conjunction *bustávas e ja f gáibiduvvo*
+
+
+* **n<:com** (@N<) for (Sg Com); if first one to the left is Coll
+
+
+
+
+
+
+
+
+
+
+* **>nAttr** (@>N) for Attr; if there is a noun to your right
+
+* **n>Indef** (Pron Indef Attr); if eará is to the right
+
+* **n>Indef** (Pron Indef Com); if eará is to the right
+
+
+* **>nNum** (@>N) for numerals if; there is a noun to your right. You are not allowed to be (Sg Nom), (Sg Acc) or (Sem/Date)
+
+
+
+
+* **noun>n** (@>N) for Gen; if there is a noun to your right. Restrictions: Not if you are: a time related word. Not if you are OKTA with Pl Loc to your right. Not if CC is to your right followed by another Gen and then Po. Not if you are HUMAN and to your right is Actio Nom folloed by a noun.
+
+
+
+
+
+
+
+
+
+
+* **>nTime** (@>N) for Gen TIME-N; if timenoun to your right. Restrictions: Not if you are a OKTA Nom with Pl Loc to your right. Not if CC followed by Gen, followed by Po to your right. Not if COMMA to your right
+
+
+
+
+* **>ntittel** (@>N) for (Sg Nom TIME-N) or (Nom Der/NomAg); if to your right is Sem/Mal, Sem/Fem, Sem/Sur
+
+* **>nplc** (@>N) for (Sg Nom Prop Sem/Plc), if to your right is Sem/Plc
+
+
+* **>nALU** (@>N) for Sg Acc numerals; when a measure-noun to the right
+
+
+
+* **>NTime** (@>N) for Gen; if you are TIME-N with BOC to your left, and PREGEN to your right
+
+
+
+* **n<:Refl** (@N<) for (Refl Nom); if to the left is (N Nom), or if first one to the left is a finite mainverb with a (N Nom) to the left
+
+
+* **>pron1** (@>Pron) for GRADE-ADV, DUSSE, BUOT if; first one to the right is Pron
+
+* **>pron2** (@>Pron) for (Refl Nom) if; first one to the right is Refl
+
+* **>pron3** (@>Pron) for (Pron Recipr) if; first one to the right is (Pron Recipr)
+
+* **vaikko** (@>Pron) for vaikko if; first one to the right is Indef
+
+* **vaikkoman** (@>ADVL) for vaikko if; first one to the right is man
+
+* **dasmaŋŋel** (@>ADVL) for vaikko if; first one to the right is man
+
+* **adv>advl** (@>ADVL) 
+
+* **adv>advl** (@>ADVL) 
+
+
+
+
+
+
+* **BOSvoc** (@VOC) for HUMAN Nom; if sentence initial. To the right is comma. No nom-cased HUMAN followed by comma or CC is allowed to the right. There should not be a relative clause to the right, because then you are likely to be SUBJ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **voc** (@VOC) for Nom HUMAN; if comma to the left and an second person verb or pronoun to the left. To the right is the end of the sentence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **Particle<subj** (@PCLE)
+
+
+* **spred<obj** (@SPRED<OBJ) for Acc; the object of an SPRPED. Not to be mistaken with OPRED. If SPRED is to the left, and copulas is to the left of it. Nom or Hab are found sentence initially.
+
+
+
+* **Hab<subj** (<ext> @<SUBJ) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
+
+
+
+* **Hab<subj** (<ext> @<SUBJ) with relative clause in between
+
+
+* **Hab>Advlcase<subj** (<ext> @<SUBJ) for Nom; it allows adverbials with Ill/Loc/Com/Ess to be found inbetween HAB and <ext>.
+
+* **Nom>Advlcase<subj** (<ext> @<SUBJ) for Nom; it allows adverbials with Ill/Loc/Com/Ess to be found inbetween Nom and <ext> @<SUBJ.
+
+* **<extSubj** (<ext> @<SUBJ) for Nom; if copulas to the left, and some kind of adverb, N Loc, time related word or Po to the left of it. OR: if Ill or @Pron< to the left, followed by copulas and the before mentioned to the left of copulas.
+
+* **<extSubj** (<ext> @<SUBJ) for sma Nom; if some kind of adverb to the left, N Loc, time related word or Po to the left of it. 
+
+
+* **<extSubjA** (<ext> @<SUBJ) for A - TEST WITHOUT THIS ONE
+
+* **<extSubj** (<ext> @<SUBJ) for Nom; if leat to the left and sentenceboundary
+
+
+
+* **<extSubj** (<ext> @<SUBJ) for Nom, but not for Pers. To the left boahtit or heaŋgát as MAINV, and futher to the left is some kind of place related word, or time related word
+
+* **loc<extSubj** (<ext> @<SUBJ) for Nom
+
+* **<spred** (@<SPRED) for Nom; if Nom to the left, copulas to the left of Nom, and a time related word to the left of it.
+
+
+* **<extQst1** (<ext> @<SUBJ) for Nom; in an existential sentence. To your left is hab, some kind of place or time-word or Po. This is a Qst-sentence so the qst-pcle is attached to leat or following leat
+
+* **<extQst2** (<ext> @<SUBJ) for Nom; in an existential sentence. To your left is leat and it is sentence initial. No attributes or other words are allowed inbetween (because then you are SPRED), except the attribute muhtun, muhtin
+
+* **extQst3>** (<ext> @SUBJ>) for Nom; if habitive first one to the left, followed by copulas.
+
+* **extQst3>** (<ext> @SUBJ>) for Nom; if habitive first one to the left, followed by copulas.
+
+
+* **<extsubjcoor** (<ext> @<SUBJ) for Nom. Coordination
+
+* Sem/Year
+
+
+
+
+
+
+
+
+* **<spredQst** (@<SPRED) for Nom; in a typically question sentence; You are not allowed to be Pers or human. The special part is that Nom is not allowed to your right
+
+* **<spredQst2** (@<SPRED) for (A Nom); in a typically question sentence; You are SPRED if (N Nom) is to your left and leat + qst is to the left
+
+* **<spredQst3** (@<SPRED) for (A Nom); you are SPRED when you are (A Nom) and to your right is (N Nom). This is a Qst-sentence, so copulas is found to your left
+
+* **<spredQst4** (@<SPRED) for Nom; but only in a qst-sentence where there is no chance of you beeing the subj
+
+* **<NomBeforeSpred** (@<SPRED) for (A Nom) if; Nom to the left, and copulas is to the left of Nom. There is no Nom allowed to the right of copulas! To avoid messing with coordination: ja, dahje and comma are not allowed to your left. Comma is not allowed to your right; if so then you are likely to be coordinated
+
+* **<spred** (@<SPRED) for A Nom or N Nom if; the subject Nom is on the same side of copulas as you: on the right side of copulas
+
+* **<spredVeara** (@<SPRED) for veara + Nom; if genitive immediately to the right, and intransitive mainverb to the right of genitive
+
+* **leftCop<spred** (@<SPRED) for Nom; if copulas is the main verb to the left, and there is no Ess found to the left of cop (note that Loc is allowed between target and cop). OR: if you are Coll or Sem/Group with copulas to your left.
+
+* **<spredLocEXPERIMENT** (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
+
+* **NumTime** (@<SPRED) for A Nom
+
+* **<spredSg** (@<SPRED) for Sg Nom
+
+* **<spredPg** (@<SPRED) for Pl Nom
+
+* **<spred** (@<SPRED) for Nom; if copulas to the left, and Nom or sentence boundary to the left of copulas. First one to the right is EOS.
+
+* **COP<spredEss** (@<SPRED) for N Ess
+
+* **spredEss>** (@SPRED>) for N Ess; if copulas to the right of you, and if an NP with nom-case first one to your left.
+
+* **GalleSpred>** (@SPRED>) for Num Nom; if sentence initial
+
+* **spredSgMII>** (@SPRED>)
+
+* **spredšaddat>** (@SPRED>)
+
+
+* **r492>** (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
+
+
+
+* **AdjSpredSg>** (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
+
+
+
+
+
+* **Spred>SubjInf** (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
+
+* **spredCoord** (@<SPRED) coordination for Nom; only if there already is a SPRED to the left of CNP. Not if there is some kind of comparison involved.
+
+
+
+
+
+
+
+
+
+* **subj>Sgnr1** (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left)
+
+
+
+* **subj>Du** (@SUBJ>) for dual nominatives, including Coll Nom. VFIN + Du3 to the right.
+* **subj>Pl** (@SUBJ>) for plural nominatives, including Coll and Sem/Group. VFIN + Pl3 to the right.
+
+* **subj>Pl** (@SUBJ>) for plural nominatives
+
+
+* **subj>Sg** (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
+
+* **Sg<subj** (@<SUBJ) for Nom Sg; if VFIN Sg3 or Du2 to the left (no HAB allowed to the left).
+
+* **Du<subj** (@<SUBJ) for Nom Coll if; a dual third person verb is found to the left
+
+* **PlDu<subj** (@<SUBJ) for (N Nom Pl), (Sem/Group Nom), (Coll Nom), (Pron Nom Pl) if; a verb is Pl3 or Du3 to your left. The verb is not allowed to be copulas with a place, Loc or time noun to its left
+
+* **copPl3<subj** (@<SUBJ) for Nom Pl; you don't to be a noun, only Nom Pl. To the left is copulas and first one to the right is @<SPRED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **-fsubj>** (@-FSUBJ>) for HUMAN Gen; in a NP-clause. To your right is Actio Nom followed by a noun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **f<advl** (@-F<ADVL) for infinite adverbials
+
+
+
+
+
+* **f<advl** (@-F<ADVL) for infinite adverbials
+
+
+
+
+
+
+
+
+
+* **s-boundary=advl>** (@ADVL>) for ADVL that resemble s-boundaries. Mainverb to the right.
+
+
+
+
+
+* **diibmuadvl>** (@ADVL>) for (diibmu Nom) if first one to the right is Num
+
+
+* **-fsubj** (@-FSUBJ>) for HUMAN Acc after DADJAT verbs
+
+
+
+* **-fobj>** (@-FOBJ>) for Acc if front of abessive, gerundium, actio locative, perfectum participle or infinitive. First one to the right not allowed to be Acc though
+
+* **-fobj>** (@-FOBJ>) for Acc if human with ADVL-case to the left and transitive infinitive OBJ to the right. First one to the right not allowed to be Acc though
+
+
+
+
+
+
+
+
+
+
+
+
+* **advl>mainV** (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **V<advl** (@<ADVL) if; finite mainverb found to the left. Not if a comma is found immediately to the left and a finite mainverb is located somewhere to the right of this comma.
+
+
+
+
+
+* **advl>v** (@ADVL>) if; you are ADVL, time-noun or Sem/Route and there is a finite verb to the right in the clause, or if to your right is: de followed by a finite verb. OR: if you are a time-nound and to your right is: go or sentenceboundary followed by a finite verb
+
+
+
+* **<advlPoPr** (@<ADVL) for Po or Pr; if mainverb to the left.
+* **advlPoPr>** (@<ADVL) for Po or Pr; if mainverb to the right.
+
+* **BOSPo>** (@ADVL>) for Po; if trapped between BOS to the right and S-BOUNDARY OR COMMA to the left, because the main verb will then automatically be on your right side.
+
+* **<advlComIll** (@<ADVL) only if; you are Com OR Ill. To your left is a mainverb, and to your right a sentenceboundary, because we don't want there to be another mainverb you potentially could belong to
+
+* **<advlEOS** (@<ADVL) for Po or Pr or Loc; if you are found at the very end of a sentence. A mainverb is needed to the left though.
+
+
+* **<advlGen** (@<ADVL) for (N Gen) if mainverb to the left and no noun to the right
+
+
+* **<opredgohcodit** (@<OPRED) for Ess
+
+
+* **advlEss>** (@<ADVL) for weather and time Ess, if FMAINV to the left.
+
+
+
+
+* **comma<advlEOS** (@<ADVL) for Adv if; mainverb is to the left. Comma to the left and mainverb to the right in the same clause is not allowed
+
+
+* **advl>inbetween** (@ADVL>) for Adv; if inbetween two sentenceboundaries where no mainverb is present.
+
+* **comma<advlEOS** (@<ADVL) for Adv if; comma found to the left and the finite mainverb to the left of comma. To the right is the end of the sentence.
+
+
+
+* **BOSadvl>** (@ADVL>) if; you are N Loc or N Ill and found sentence initially and there is a main verb somewhere to the right. No barrier for the mainverb; based on the thought that first one to your right is probably a sentenceboundary.
+
+* **cleanupILL<advl** (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
+
+
+
+* **cleanupPo** (@ADVL) for Po: This rule tags all Po:s as ADVL if they haven't gotten a tag somewhere along the way.
+
+* **cleanupPr** (@ADVL) for Po: This rule tags all Pr:s as ADVL if they haven't gotten a tag somewhere along the way.
+
+
+
+
+* **-fsubj>asAcc** (@-FSUBJ>) for HUMAN Acc; if there is a verb @-F<OBJ to your left
+
+* **-f<obj** (@-F<OBJ) for Acc if there is a transitive verb + SYN-V to your left
+
+* **-fsubj>IV** (@-FSUBJ>) for Acc; if there is an IV-verb acting as a @-F<OBJ to your right
+
+* **-fsubj>IV** (@-FSUBJ>) for Acc; if there is an TV-verb acting as a @-F<OBJ to your right followed by an Acc
+
+* **-fsubj>asGen** (@-FSUBJ>) for Gen;
+
+* **f<subj** (@-F<SUBJ) for Nom if; (V @-F<OBJ) to the left.
+
+
+
+
+
+
+
+* **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
+
+* **TV<obj** (@<OBJ) for Acc; if there is a transitive mainverb to the left in the clause. Not for Rel. Not if you are a numeral followed by a measure-noun
+
+
+
+### sma object
+
+
+* **<advlMeasr** (@<ADVL) for (Num Acc); if finite IV-mainverb to the left, measure-noun to the right
+
+* **<objMeasr** (@<OBJ) for Num Acc; if finite TV-mainverb to the left, measure-noun to the right
+
+* **<advlMeasr2** (@<ADVL) for MEASR-N + Acc; if (Num Pl) to the left and mainverb to the left of it
+
+* **advlMeasr>** (@ADVL>) for Num Acc;
+
+
+* **Obj>** (@OBJ>) for Acc; if there is a finite mainverb to the right in the clause. A really simple rule with no other restrictions..
+
+* **s-boun<obj** (@<OBJ) for Acc; if sentenceboundary to your left and a transitive mainverb to the left futher to the left
+
+* **<objIV** (@<OBJ) for Acc; if there is an intransitive mainverb in the clause. Not for Rel or Num. Not if you are a numeral followed by a measure-noun
+
+
+
+
+
+
+
+* **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
+
+* **IV<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
+
+* **<opredEss** (@<OPRED) for (N Ess), (A Ess) if; transitive mainverb to the left in the clause. If accusative to the left or to the right, or if Inf or ahte to the right, or if there is a noun to the right followed by an Inf
+
+* **Acc<opredEss** (@<OPRED) for (N Ess), (A Ess) if; transitive mainverb to the left in the clause, and an accusative cased Rel left to the verb
+
+* **onlyV<opred** (@<OPRED) for (N Ess) if; there is a transitive mainverb to the left. Usually there needs to be an Acc to the left, but here it is not needed
+
+* **onlyV<opred2** (@<OPRED) for (N Ess) if;
+
+
+
+
+
+
+
+
+
+
+
+## SUBJ MAPPING - leftovers
+
+* **subj>ifV** (@SUBJ>) for NP-HEAD-NOM, DUPRON or (Num Nom) if; a finite mainverb is found to the right. This is a cleanup rule for subjects
+
+* **hnoun>ifV** (@SUBJ>) for NP-HEAD-NOM, DUPRON if. The counterpart of subj>ifV. You are HNOUN if there is a finite verb to your right, but NOT if there is a finite verb after a relative clause
+
+
+## OBJ MAPPING - leftovers
+
+## <logo> MAPPING for MT - experimental
+
+
+## HNOUN MAPPING
+
+
+
+
+
+
+
+
+
+* **@<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
+
+
+
+
+###  **missingX** adds @X to all missings
+
+
+
+
+
+###  **therestX** adds @X to all what is left, often errouneus disambiguated forms
+
+
+
+
+
+
+## For Apertium:
+The analysis give double analysis because of optional semtags. We go for the one with semtag.
+
+
+
+
+
+
+
+
+
+Disambiguator for Olonets
+
+
+## Sets
+
+
+
+Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
+
+
+
+
+
+
+
+
+### Part-of-Speech
+* N = noun
+* A = adjective
+* Num = numeral
+* V = verb
+* Adv = adverb
+* Pcle = particle
+* Pr = preposition
+* Po = postposition
+* Pron = pronoun
+* Interj = interjection
+
+
+
+
+
+
+
+
+### Numerus
+
+* Sg = Singular
+* Pl = Plural
+* Sg1 = Singular 1.p.
+* Sg2 = Singular 2.p.
+* Sg3 = Singular 3.p.
+* Pl1 = Plural 1.p.
+* Pl2 = Plural 2.p.
+* Pl3 = Plural 3.p.
+
+
+
+
+
+
+
+
+
+### Cases
+* Nom
+* Gen
+* Acc
+* Par
+* Ine
+* Ill
+* Ela
+* Ade
+* Abe
+* All
+* Abl
+* Ess
+* Tra
+* Ins
+* Com
+* SUBJ-CASE = Nom Par
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Types
+* Prop = Proper noun
+* Interr = Interrogative
+* Dem = demonstrative pron
+* Rel = Relative pron
+Relpronpl "mikkä ja "jokka"
+Relpronsg "mikä" ja "joka"
+Interrpronpl "kuka" ja "mikä"
+* Pers = Personal pron
+* Indef = Indef pron
+
+* Inf = Infinitive
+* ConNeg = Conjugated as Negative form
+* PrfPrc = Perfectum Particip
+* Imprt = Imperative
+* Act = Active
+* Neg = Negation verb
+
+
+
+
+
+
+
+* COMMA = comma
+
+* Foc/kaan = focus clitic -kaan
+* Foc/kaan = focus clitic -kaan
+
+* @CVP = Conjunction or subjunction that conjoins finite verb phrases.
+* @CNP = Local conjunction or subjunction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Sets with more members
+
+* WORD = all PoS
+
+* NPMOD = these can modify a noun
+* NPMODADV = NPMOD plus adverb
+
+* NOT-NPMOD = these cannot modify a noun
+
+* NOT-NPMODADV = these cannot modify a noun, and is not adverb
+
+* QVANT-ADV = e.g. paljon, vähän
+* KUNKA = e.g. kunka missä (adverbs that start a sentence)
+
+
+
+
+
+
+Boundaries
+
+
+
+* S-BOUNDARY = words that start a sentence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verbs
+
+
+
+
+
+
+
+
+
+
+
+* MOD-ASP = auxilaries
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* SV-BOUNDARY = words that start a sentence and finite verb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Disambiguation rules
+
+### Dialects
+
+
+### Early rules
+
+
+
+* __person_test__ selects finite verb if there is a Pron Pers to the left
+
+
+* __adv_after_V__ selects adverb if there is a verb to the right
+
+
+* __prop_infrontof_kieli__ removes propernoun in fron of kieli, if it kan be something else, e.g. Kainun kieli
+
+* **PropInit** removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
+
+* **PropNotInit** selects  propernoun if it is not in the beginning of a sentence
+
+
+Possessive suffixes
+
+
+
+
+Numeral phrases
+
+
+
+### Preposition/postposition/adverb rules
+
+
+
+
+* **Prifgenpar** selects  preposition to the left of Gen or Par
+
+* **Poifgenpar** selects  postposition to the right of Gen or Par
+
+* **vasthaan**
+
+
+## Rules for mapping @CVP and @CNP on the CC and CS
+
+* **CVP** maps @CVP to CS and mutta
+
+* **CNPifN** maps @CNP to CC between two N
+
+* **CNPifInf** maps @CNP to CC between two Inf
+
+
+## Case rules
+
+### Partitive
+
+
+
+
+
+
+
+
+
+Genitive
+
+
+### Illative
+
+
+## Number rules
+
+
+
+## More disambiguation rules
+* **SgNotPl**
+
+
+### Elative
+
+## Propernouns
+
+
+## Verbs
+
+
+### Specific verbs	
+
+
+ei negation verb
+
+
+eli
+
+
+
+
+
+
+
+
+## Adverbs
+
+
+### paljon
+
+### kerran
+
+### jälkhiin
+
+
+
+
+## Adjectives
+
+
+
+
+
+Conjunctions
+
+
+
+
+## Subjunctions
+
+
+että
+
+
+jos
+
+ko	
+
+sillä	
+
+
+
+## Pronouns
+
+
+
+
+
+
+
+
+## Verb rules, Verbs
+
+### Infinitive
+
+
+
+
+## Present Sg3
+
+
+
+
+
+
+
+## Present Pl3 or PrsPrc
+
+
+
+## Present Pl3 or Passive
+
+
+
+
+
+
+
+
+Imperative
+
+
+
+## Past tense
+
+### Prt Pl3 or Prt Sg2
+
+
+
+## Negative verb
+
+Relative pronouns
+
+
+
+* **Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
+
+* **Sg3ollaifplrelpronandplinterrpron** selects Sg3 if olla
+
+* **Sg3ollainpretandperf** selects Sg3 if COPULAS
+
+* **Sg3ollainpretandperf** selects Sg3 if COPULAS
+
+
+
+* **Relpronandnotintterpron** selects Rel Sg if Interr
+
+* **Relpronandnotintterpron** selects Rel Sg if Interr
+
+* **interrpron** selects Interr if ? in the end
+
+* **DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj** selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
+
+
+* **paljonadvandnotpaljonoun** selects Adv if paljon
+
+* **Relpronifitsanounoracommabeforeit** selects Rel Pl if N to the left
+
+
+* **annaimperativeandnotannaname** removes Prop if Anna se
+
+* **tulinounfromtuliprtsg3** selects V Sg
+
+
+
+* **dempronandnotpronpers** selects Den if A of N to the right
+
+* **Imperativefromconneg** selects and removes ConNeg
+
+* **ImperativeafterNeg** removes Imprt if pronoun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **interrel** selects Interr of Rel if CS to the right
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **+FMAINV**  to the remaining finite verbs which are not AUX    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## HNOUN MAPPING
+
+
+
+
+
+
+
+
+
+* **@<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **X** maps X everywhere
+
+
+* **REMOVE X** removes X whenever there is any other tag.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* WORDLEMMA = regex giving the lemma in question
+
+* **errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
+
+
+
+
+
+This is where new words are added as lexc entries before they are
+added to the xml source files.
+
+
+ADD VERBS BELOW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+verb type split
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+atma+V:atta, ikma+V:ikkõ
+petmä+V:pettä
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hanśa+N:hanśa N_1HANS1A "" ;
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+hanśa+N:hanśa N_1HANS1A "" ;
+
+
+ADD NOUNS BELOW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N_HAIDAK, N_10ESAEK in -gu
+N_10AABITS in -dsa, -ga
+N_10HWRAK in -ga ~ -gu
+N_10HEERITS in -dsä
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+two-syllable
+
+
+
+Three-syllable words
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+atma+V:atta, ikma+V:ikkõ
+petmä+V:pettä
+This is where new words are added as lexc entries before they are
+added to the xml source files.
+perrä:perrä PO_ "(eng) /(est) /(fin) " ;
+
+
+ADD NOUNS BELOW
+
+Acronyms
+Veps acronyms ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+
+
+
+ADD INTERJECTIONS BELOW
+
+
+### ADVERBS
+
+### CONJUNTIONS
+
+
+### GENITIVE ATTRIBUTES
+
+
+### NOUNS
+
+### PLURAL NOUNS
+
+
+### POSTPOSITIONA
+
+### PRONOUNS
+
+
+### VERBS
+
+minemä **to go/ mennä**
+
+
+olõma **to be/ olla**
+
+nakkama **to start/ alkaa**
+
+tegemä **to do/ tehdä**
+
+
+võtma **to take (pass)/ ottaa**
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+kõhna+A:kõhna A_1HANS1A "" ;
+
+
+ADD NOUNS BELOW
+
+
+
+| --- 
+
+
+
+
+
+
+
+
+
+
+
+CHECKME
+This is where new words are added as lexc entries before they are
+added to the xml source files.
+perrä:perrä PO_ "(eng) /(est) /(fin) " ;
+
+
+ADD DETERMINERS BELOW
+
+
 # Võru tags and basic lexica
 
  # Definitions for Multichar_Symbols
@@ -22,18 +2791,18 @@ special letters, cf. https://github.com/hfst/hfst/issues/497 Trond.
  ```%{ˋØ%} - U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
 
 The parts-of-speech are:
- * **+N	** Noun
- * **+A	** Adjective
+ * **+N** Noun
+ * **+A** Adjective
  * **+Adv** Adverb
- * **+V	** Verb
+ * **+V** Verb
 
  * **+Pron** Pronoun
- * **+CS	** subjunction
- * **+CC	** Correlating conjunction
+ * **+CS** subjunction
+ * **+CC** Correlating conjunction
  * **+Det** Determiners
  * **+Adp** Adpositions
- * **+Po	** Postposition
- * **+Pr	** Preposition
+ * **+Po** Postposition
+ * **+Pr** Preposition
  * **+Interj** Interjections
  * **+Pcle**
  * **+Num** Numerals
@@ -54,7 +2823,7 @@ The parts of speech are further split up into:
 The Usage extents are marked using following tags:
  * **+Err/Orth**
  * **+Err/Orth-no-pal** palatalization is missing
- * **+Err/Orth-no-q	** Q is missing
+ * **+Err/Orth-no-q** Q is missing
  * **+Use/-Spell**
  * **+Use/NG** No generation
 
@@ -119,7 +2888,7 @@ Subject conjugation
  * **+ScPl1**
  * **+ScPl2**
  * **+ScPl3**
- * **+Sc	**
+ * **+Sc**
 
 Passive conjugation
 
@@ -129,23 +2898,23 @@ Passive conjugation
  * **+PcPl1**
  * **+PcPl2**
  * **+PcPl3**
- * **+Pc	**
+ * **+Pc**
 Other verb forms are
- * **+Inf	** sõimadaq, elädäq
- * **+Inf/mA	** sõimama, elämä
- * **+Ger		** ollõn
- * **+ConNeg		** saa eiq 3 elements in 2 orthographic units
- * **+ConNegII	** ei saaq 3 elements in 2 orthographic units
- * **+Neg		** saa-aiq 3 elements in 1 orthographic unit
- * **+ImprtII	**
- * **+PrsPrc		**
- * **+PrfPrc		**
- * **+Sup		** olõman, olõmaldaq; oldama
- * **+VGen		**
- * **+VAbess		**
+ * **+Inf** sõimadaq, elädäq
+ * **+Inf/mA** sõimama, elämä
+ * **+Ger** ollõn
+ * **+ConNeg** saa eiq 3 elements in 2 orthographic units
+ * **+ConNegII** ei saaq 3 elements in 2 orthographic units
+ * **+Neg** saa-aiq 3 elements in 1 orthographic unit
+ * **+ImprtII**
+ * **+PrsPrc**
+ * **+PrfPrc**
+ * **+Sup** olõman, olõmaldaq; oldama
+ * **+VGen**
+ * **+VAbess**
  * **+Act** active
  * **+Pss** passive
- * **+PrsPrc	**
+ * **+PrsPrc**
  * **+PrfPrc** elet
 
  * **+ABBR**
@@ -170,12 +2939,12 @@ Question and Focus particles:
 
  * **+Qst**
  * **+Foc**
- * **+Clt	**
+ * **+Clt**
 
- * **+Hom1	**
- * **+Hom2	**
- * **+Hom3	**
- * **+Hom4	**
+ * **+Hom1**
+ * **+Hom2**
+ * **+Hom3**
+ * **+Hom4**
 
 
 
@@ -305,18 +3074,18 @@ Question and Focus particles:
 
 
 
- * **+Sem/Ant_Fem	**
- * **+Sem/Ant_Mal	**
- * **+Temp	**
+ * **+Sem/Ant_Fem**
+ * **+Sem/Ant_Mal**
+ * **+Temp**
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
- * **+V→N	**
- * **+V→V	**
- * **+V→A	**
- * **+Prop→A	**
- * **+Der	**
+ * **+V→N**
+ * **+V→V**
+ * **+V→A**
+ * **+Prop→A**
+ * **+Der**
  * **+Der/xxx**
  ** +Der/JA **	NomAg
  ** +Der/minE ** NomAct
@@ -459,6 +3228,9 @@ And following triggers to control variation
   %^Pen	       This moves us to penultimate coda
   %^PAL	       — Palatalization
   %^NoPAL       — NoPalatalization
+ %^JI20	       — in vari: vaŕo
+ %^JI2I	       — in vari vari
+ %^JI2J	       — in vari: varjo
 
  %^PenWGStem  This weakens "kipõń" to "kibõna"
 
@@ -530,41 +3302,41 @@ given the proper use of these flags.
  |  **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj.
  |  **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
 
- |  **@U.Case.Abe@	** | Abessive
- |  **@U.Case.Abl@	** | Ablative
- |  **@U.Case.Ade@	** | Adessive
- |  **@U.Case.All@	** | Allative
- |  **@U.Case.Com@	** | Comitative
- |  **@U.Case.Ela@	** | Elative
- |  **@U.Case.Gen@	** | Genitive
- |  **@U.Case.Ill@	** | Illative
- |  **@U.Case.Ine@	** | Inessive
- |  **@U.Case.Nom@	** | Nominative
- |  **@U.Case.Par@	** | Partitive
- |  **@U.Case.Ter@	** | Terminative
- |  **@U.Case.Tra@	** | Translative
+ |  **@U.Case.Abe@** | Abessive
+ |  **@U.Case.Abl@** | Ablative
+ |  **@U.Case.Ade@** | Adessive
+ |  **@U.Case.All@** | Allative
+ |  **@U.Case.Com@** | Comitative
+ |  **@U.Case.Ela@** | Elative
+ |  **@U.Case.Gen@** | Genitive
+ |  **@U.Case.Ill@** | Illative
+ |  **@U.Case.Ine@** | Inessive
+ |  **@U.Case.Nom@** | Nominative
+ |  **@U.Case.Par@** | Partitive
+ |  **@U.Case.Ter@** | Terminative
+ |  **@U.Case.Tra@** | Translative
 
- |  **@U.Number.Pl@	** | Plural
- |  **@U.Number.Sg@	** | Singular
+ |  **@U.Number.Pl@** | Plural
+ |  **@U.Number.Sg@** | Singular
 
 # The Root lexicon
 
 
 The word forms in the Võro language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
- * **adpositions ;	**
- * **adverbs ;		**
- * **conjunctors ;	**
+ * **adpositions ;**
+ * **adverbs ;**
+ * **conjunctors ;**
  * **interjections ;**
- * **pronouns	;		**
- * **PronounTypes	;		**
- * **Punctuation ;	**
- * **Symbols ;	**
- * **numerals	;	**
+ * **pronouns ;**
+ * **PronounTypes ;**
+ * **Punctuation ;**
+ * **Symbols ;**
+ * **numerals ;**
 look at verb_newwords.lexc
 
- * **Exceptions ;		**
- * **Abbreviation ;	**
+ * **Exceptions ;**
+ * **Abbreviation ;**
  * **Acronym ;**
 
 Incoming
@@ -582,6 +3354,3634 @@ Incoming
 
 
 less complex word classes
+
+
+
+
+
+Adverbs 
+The VÕRO language adverbs...
+
+
+Spatial adverbs
+
+
+
+
+
+
+
+
+
+
+adjective modifiers
+
+What is this 2017-03-27
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Quantifier inflection
+The Võro language quantifiers inflect in cases.
+
+
+
+
+Noun inflection for Võro
+
+ LEXICON N_1HANS1A  1 hanśa:hanśa
+
+
+ LEXICON N_1VIU  1 viu:viu
+
+
+
+ LEXICON N_1HERRAE  1 herrä:herrä
+
+
+ LEXICON N_1PREI  1 prei:prei
+
+
+* Yaml: **suhvli**
+
+
+
+* Yaml: **kerge**
+
+
+
+ LEXICON N_3PERAEDUE  perädü:perädü
+* Yaml: **peraedue**
+
+
+ LEXICON N_3ALADU  aladu:aladu
+* Yaml: **peraedue**
+
+
+
+* Yaml: **tervues**
+
+* Yaml: **A-ainus**
+
+
+* Yaml: **N-oppaja5**
+
+
+* Yaml: **N-mängjä5**
+
+
+
+
+
+* Yaml: **fueuesiga**
+
+
+
+
+
+
+
+
+
+kipõń:kipõn
+* Yaml:**N-kipwnj9**
+
+allaś:allas
+* Yaml:**N-kipwnj9**
+
+sinneĺ:sinnel
+* Yaml:**N-kipwnj9**
+
+veteĺ:vetel
+* Yaml:**N-kipwnj9**
+
+
+tukõv:tukõv
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+verrev:verrev
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+sallai:sallai
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+elläi:elläi
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+
+
+herre:herre
+* Yaml:**N-kipwnj9**
+
+villõ:villõ
+* Yaml:**N-kipwnj9**
+
+
+ LEXICON N_10HWRAK  hõrak:hõrak
+
+*Noun 10 hõrak  examples:*
+* *hõrak:* `hõrak+N+Sg+Nom`
+* *hõraga:* `hõrak+N+Sg+Gen`
+* *hõrakat:* `hõrak+N+Sg+Par`
+* *hõrakahe:* `hõrak+N+Sg+Ill`
+* *hõrakan:* `hõrak+N+Sg+Ine`
+* *hõrakast:* `hõrak+N+Sg+Ela`
+* *hõrakalõ:* `hõrak+N+Sg+All`
+* *hõrakal:* `hõrak+N+Sg+Ade`
+* *hõrakalt:* `hõrak+N+Sg+Abl`
+* *hõrakas:* `hõrak+N+Sg+Tra`
+* *hõrakaniq:* `hõrak+N+Sg+Ter`
+* *hõrakaldaq:* `hõrak+N+Sg+Abe`
+* *hõragagaq:* `hõrak+N+Sg+Com`
+* *hõragaq:* `hõrak+N+Pl+Nom`
+* *hõrakidõ:* `hõrak+N+Pl+Gen`
+* *hõrakit:* `hõrak+N+Pl+Par`
+* *hõrakihe:* `hõrak+N+Pl+Ill`
+* *hõrakin:* `hõrak+N+Pl+Ine`
+* *hõrakist:* `hõrak+N+Pl+Ela`
+* *hõrakilõ:* `hõrak+N+Pl+All`
+* *hõrakil:* `hõrak+N+Pl+Ade`
+* *hõrakilt:* `hõrak+N+Pl+Abl`
+* *hõrakis:* `hõrak+N+Pl+Tra`
+* *hõrakiniq:* `hõrak+N+Pl+Ter`
+* *hõrakildaq:* `hõrak+N+Pl+Abe`
+* *hõrakidõgaq:* `hõrak+N+Pl+Com`
+
+ LEXICON N_10HAIDAK  haidak:haidak
+
+ LEXICON N_10ESAEK  esäk:esäk
+
+
+
+ LEXICON N_10AABITS  aabits:aabits
+
+ LEXICON N_10HEERITS  heerits:heerits
+
+ LEXICON N_10AADRWS1  aadrõś:aadrõs
+
+ LEXICON N_10AMMAT1  ammat́:ammat
+
+ LEXICON N_10HUEPAETS1  hüpätś:hüpä%{td%}s
+
+
+
+
+
+
+
+ LEXICON N_11LAETEQ  läteq:lä%{tØ%}te
+
+ LEXICON N_11ANNWQ  annõq:andõ
+
+ LEXICON N_11AINWQ  ainõq:ainõ
+ LEXICON N_11KELMEQ  kelmeq:ainõ
+
+ LEXICON N_11VAIH  vaih:vaih
+
+
+
+
+ LEXICON N_12NWKWS1   nõkõś:nõ%{kg%}õ%{sś%}
+
+ LEXICON N_13ALONW  alonõ:alo
+
+ LEXICON N_13TAEHINE  tähine:tähi
+
+Gradation: No
+
+
+ LEXICON N_14RITS1KAS  ritśkas:ritśka%{sØ%}
+
+Gradation: No
+
+
+
+ LEXICON N_14HAMMAS  hammas:ham%{bm%}a%{sØ%}, saabas:saapa
+distinguished from 14RITS1KAS due to gradation
+
+ LEXICON N_14IKAES  ikäs:ikkä
+distinguished from 14RITS1KAS due to gradation
+
+ LEXICON N_14NUMMWR1  nummõŕ:numbõr
+distinguished from 14RITS1KAS due to gradation
+
+
+vowel_harmony: front
+gradation: yes
+
+
+vowel_harmony: back
+gradation: yes
+
+
+
+kotus:kotus
+* Yaml: **N-kotus15**
+
+kotus:kotus
+* Yaml: **N-ilves15**
+
+
+ LEXICON N_16INEMINE 
+inemine:inemi
+* Yaml: **N-inemine16**
+
+ LEXICON N_16ABILINW 
+abilinõ:abili
+* Yaml: **N-abilinw16**
+
+ LEXICON N_16TERAEKENE 
+inemine:inemi
+* Yaml: **N-inemine16**
+
+ LEXICON N_16TSIRGUKWNW 
+tsirgukõnõ:abili
+* Yaml: **N-abilinw16**
+
+
+
+
+
+
+
+ LEXICON N_19ALOMANW  alomanõ:aloma
+
+ LEXICON N_19PEDAEJAENE  pedäjäne:pedäjä
+
+ LEXICON N_20LATS1  latś:lat%{sś%}
+
+ LEXICON N_20TAEUES1  täüś:täü
+
+ LEXICON N_20VAEITS1  väitś:väits
+
+ LEXICON N_20KUEUEDS1  küüdś:küüds
+
+ LEXICON N_20MIIS1  miiś:m%{ei%}%{ei%}
+
+
+ LEXICON N_21HUEDSI  hüdsi:hüdsi
+
+ LEXICON N_22VWROKWNW  võrokõnõ:võrokõ
+
+ LEXICON N_22NAANW  naanõ:naa
+
+ LEXICON N_22VAEHAEKENE  vähäkene:vähäke
+
+ * LEXICON N_23NUUL1  nuuĺ:n%{ou%}%{ou%}l
+
+ * LEXICON N_23SUUR1  suuŕ:suur
+
+
+ * LEXICON N_23KIIL1   kiiĺ:keel
+
+ * LEXICON N_23HIIR1   hiiŕ:hiir
+
+ * LEXICON N_24KAESI  käsi:kä
+
+ * LEXICON N_24SUSI  susi:su
+
+
+
+
+
+
+
+
+gradation: yes
+
+
+ * **LEXICON N_27KUEMMEND ** kümmend:küm
+
+ * **LEXICON N_28TUETAER1 ** tütäŕ:tütär
+
+ * **LEXICON N_28PINNAER1 ** pinnäŕ:pin%{dn%}är
+
+ * **LEXICON N_28PAPWR1 ** papõŕ:papõr
+
+ * **LEXICON N_28KANNWL1 ** kannõĺ:kan%{dn%}õl
+
+ * **LEXICON N_28KINNER1 ** kinneŕ:kin%{dn%}er
+
+ * **LEXICON N_28SWSAR1 ** sõsaŕ:sõsar
+
+ * **LEXICON N_28PUNDAR ** pundar:pun%{td%}ar
+
+ * **LEXICON N_28KAEMMAEL ** kämmäl:käm%{bm%}äl
+
+ * LEXICON N_29KUU  kuu:kuu
+
+ * LEXICON N_29HAEAE  pää:pää
+
+
+
+
+
+
+
+
+*Noun 33 examples:*
+
+
+
+
+tarõ:tar
+
+uma:uma
+
+pesä:pesä
+
+
+nimi:ni%{mØ%}m
+
+lumi:lum
+
+ LEXICON N_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
+
+ LEXICON N_36HANG1  hanǵ:hang
+
+
+ LEXICON N_36SAERG1  särǵ:särg
+
+ LEXICON N_36PAEIV  päiv:päiv
+
+ * LEXICON N_36SILM  silm:silm
+harmony: front
+
+ * LEXICON N_36RAMM  ramm:ramm
+harmony: back
+
+ * LEXICON N_36TIIM  tiim:t%{ei%}%{ei%}m
+harmony: front
+
+ * LEXICON N_36NJUKR  ńukr:ńu%{kg%}r
+harmony: back
+
+ * LEXICON N_36LAEHK  lähk:läh%{kØ%}
+harmony: front
+
+kogõr:kogõr
+* Yaml: **N-kogwr36**
+derived from 36särǵ
+
+kokr:ko%{kg%}r
+* Yaml: **N-kogwr36**
+derived from 36särǵ
+
+
+
+
+
+
+sõbõr:sõbõr
+oblique plural in o
+* Yaml: **N-swbwr36**
+derived from 36särǵ
+
+kubõl:ku%{pb%}õl
+oblique plural in õ
+* Yaml: **N-swbwr36**
+derived from 36särǵ
+
+
+ LEXICON N_37PINI  pini:pini
+
+ LEXICON N_37WLI  õli:õli
+
+ LEXICON N_37MUNA  muna:mu%{nØ%}na
+
+
+
+
+
+
+
+ * LEXICON N_38HUETT  hütt:hütt
+
+
+
+
+ * LEXICON N_39VIDO  vido:vido
+
+ * LEXICON N_39HAEBUE  häbü:hä%{pbØ%}ü
+
+ LEXICON N_40TALO  talo:talo
+
+ LEXICON N_40HELUE  helü:helü
+
+ LEXICON N_40UJA  uja:uja
+
+ LEXICON N_40SAVV  savv:savvu
+
+ LEXICON N_40TUEKK  tükk:tü%{kØ%}kü
+
+
+
+ LEXICON N_41JUHT1  juht́:juht
+* Yaml: **juht́**
+
+ LEXICON N_41AIG  aig:a
+* Yaml: **aig, aig**
+
+ LEXICON N_41ASK  aig:aig
+* Yaml: **aig, aig**
+ask:as%{kØ%}o
+juusk:j%{ou%}%{ou%}s%{kØ%}u
+
+ LEXICON N_41VIIT  aig:aig
+* Yaml: **aig, aig**
+
+
+
+
+
+
+ LEXICON N_43KANARIK  usklik+A:%{ˋØ%}#uskli%{kg%}
+
+ LEXICON N_43SASLWK1 
+
+ LEXICON N_43APRIL1 
+
+ LEXICON N_43SEKRETAER1 
+
+ LEXICON N_43AASTAK 
+
+
+
+ LEXICON N_44SWDA  sõda:sõ%{tØ%}%{tdØ%}a
+
+
+ LEXICON N_45KANA  kana:ka%{nØ%}na
+
+ LEXICON N_45RIHAE  rihä:ri%{hØ%}hä
+
+ LEXICON N_46HAIN  hain:hain
+* Yaml: **N-jalg, N-hain**
+
+ LEXICON N_46TARK  tark:tark
+* Yaml: **N-jalg, N-tark**
+
+
+ LEXICON N_47ASI  asi:asi
+
+ LEXICON N_47KIRI  kiri:kiri
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### NOMINAL DECLENSIONS
+
+ LEXICON NMN_1HANS1A  1 hanśa:hanśa
+
+
+in d
+
+
+ LEXICON NMN_1HERRAE  1 herrä:herrä
+
+
+in d
+
+
+* Yaml: **suhvli**
+
+
+
+* Yaml: **kerge**
+
+
+
+ LEXICON NMN_3PERAEDUE  perädü:perädü
+* Yaml: **A-peraedue3**
+
+
+ LEXICON NMN_3ALADU  aladu:aladu
+* Yaml: **A-aladu3**
+
+
+
+
+
+
+ * +Err/Orth+Use/NG:%^VowRM%^CnsRM%>i Harm-Neutr_PL-GEN_dE ;  tervide
+ * +Err/Orth+Use/NG:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
+
+ * **LEXICON NMN_4AINUS ** Types 4, 8, 17
+ainus:ainus
+* Yaml: **A-ainus4**
+
+
+
+
+
+ * LEXICON NMN_5OPPAJA/MAENGJAE  oppaja:oppaja
+* Yaml: **N-oppaja5, kerge5**
+
+
+ * LEXICON NMN_6MAKW/HELLE  makõ:ma%{kØ%}kõ
+
+*Noun (6) tikõ 'eng /est /fin' - full paradigm: Noun - tikõ examples:*
+* *tikõ:* `tikõ+A+Sg+Nom`
+* *tikõ:* `tikõ+A+Sg+Gen`
+* *tikõt:* `tikõ+A+Sg+Par`
+* *tikkõhe:* `tikõ+A+Sg+Ill`
+* *tikkidõ:* `tikõ+A+Pl+Gen`
+* *tikkit:* `tikõ+A+Pl+Par`
+* *tikkihe:* `tikõ+A+Pl+Ill`
+* *tikkilõ:* `tikõ+A+Pl+All`
+
+
+
+
+
+
+
+* Yaml: **N-kask**
+
+
+
+Secondary
+
+* Yaml: **N-kuldnw**
+
+
+
+Secondary
+
+ * LEXICON NMN_8KOLMAS/VIIES  kolmas:kolma
+* Yaml: **N-kuldnw**
+
+
+
+
+
+
+
+
+Secondary
+
+
+
+
+Secondary
+
+
+*Noun 10 aastak  examples:*
+* *aastak:* `aastak+N+Sg+Nom`
+* *aastaga:* `aastak+N+Sg+Gen`
+* *aastakat:* `aastak+N+Sg+Par`
+* *aastakahe:* `aastak+N+Sg+Ill`
+* *aastakan:* `aastak+N+Sg+Ine`
+* *aastakast:* `aastak+N+Sg+Ela`
+* *aastakalõ:* `aastak+N+Sg+All`
+* *aastakal:* `aastak+N+Sg+Ade`
+* *aastakalt:* `aastak+N+Sg+Abl`
+* *aastakas:* `aastak+N+Sg+Tra`
+* *aastakaniq:* `aastak+N+Sg+Ter`
+* *aastakaldaq:* `aastak+N+Sg+Abe`
+* *aastagagaq:* `aastak+N+Sg+Com`
+* *aastagaq:* `aastak+N+Pl+Nom`
+* *aastakidõ:* `aastak+N+Pl+Gen`
+* *aastakit:* `aastak+N+Pl+Par`
+* *aastakihe:* `aastak+N+Pl+Ill`
+* *aastakin:* `aastak+N+Pl+Ine`
+* *aastakist:* `aastak+N+Pl+Ela`
+* *aastakilõ:* `aastak+N+Pl+All`
+* *aastakil:* `aastak+N+Pl+Ade`
+* *aastakilt:* `aastak+N+Pl+Abl`
+* *aastakis:* `aastak+N+Pl+Tra`
+* *aastakiniq:* `aastak+N+Pl+Ter`
+* *aastakildaq:* `aastak+N+Pl+Abe`
+* *aastakidõgaq:* `aastak+N+Pl+Com`
+**N-hwrak10**
+
+
+
+ * **LEXICON NMN_36RAMM/SILM ** silm:silm
+* Yaml: **N-silm36**
+gradation No, vowelHarmony Front
+
+
+
+Secondary
+
+
+
+
+Secondary
+
+ * **LEXICON NMN_36NJUKR/LAEHK ** lähk:läh%{kØ%}
+* Yaml: **N-lähk36**
+gradation Yes, vowelHarmony Front
+
+
+
+Secondary
+
+
+Secondary
+
+ LEXICON NMN_9KIPWN1/ELLAEI  kipõń:kipõń fixme 2016-08-27
+* Yaml: **N-kipwnj**
+ LEXICON NMN_9KIPWN1/VETEL1  kipõń:kipõń
+* Yaml: **N-kipwnj**
+
+
+
+ LEXICON NMN_9ALLAS1/SINNEL1  allaś:allas
+* Yaml: **N-kipwnj**
+
+
+
+ LEXICON NMN_9TUKWV/VERREV  tukõv:tukõv
+* Yaml: **N-tukwv**
+
+
+
+ LEXICON NMN_9SALLAI/ELLAEI  elläi:e%{lØ%}lä%{ij%}
+* Yaml: **N-ellaei9**
+
+
+SHOULD THIS BE HERE, c.f. yaml
+
+
+ LEXICON NMN_9TAHHE/HERRE  tahhe:tahhe
+* Yaml: **N-kipwnj**
+
+
+
+ LEXICON NMN_9VILLW/XX  tahhe:tahhe
+* Yaml: **N-kipwnj**
+
+
+
+LEXICON NMN_10HWRAK   * @OCDE@ hõrak:hõrak
+
+*Noun 10 hõrak  examples:*
+* *hõrak:* `hõrak+N+Sg+Nom`
+* *hõraga:* `hõrak+N+Sg+Gen`
+* *hõrakat:* `hõrak+N+Sg+Par`
+* *hõrakahe:* `hõrak+N+Sg+Ill`
+* *hõrakan:* `hõrak+N+Sg+Ine`
+* *hõrakast:* `hõrak+N+Sg+Ela`
+* *hõrakalõ:* `hõrak+N+Sg+All`
+* *hõrakal:* `hõrak+N+Sg+Ade`
+* *hõrakalt:* `hõrak+N+Sg+Abl`
+* *hõrakas:* `hõrak+N+Sg+Tra`
+* *hõrakaniq:* `hõrak+N+Sg+Ter`
+* *hõrakaldaq:* `hõrak+N+Sg+Abe`
+* *hõragagaq:* `hõrak+N+Sg+Com`
+* *hõragaq:* `hõrak+N+Pl+Nom`
+* *hõrakidõ:* `hõrak+N+Pl+Gen`
+* *hõrakit:* `hõrak+N+Pl+Par`
+* *hõrakihe:* `hõrak+N+Pl+Ill`
+* *hõrakin:* `hõrak+N+Pl+Ine`
+* *hõrakist:* `hõrak+N+Pl+Ela`
+* *hõrakilõ:* `hõrak+N+Pl+All`
+* *hõrakil:* `hõrak+N+Pl+Ade`
+* *hõrakilt:* `hõrak+N+Pl+Abl`
+* *hõrakis:* `hõrak+N+Pl+Tra`
+* *hõrakiniq:* `hõrak+N+Pl+Ter`
+* *hõrakildaq:* `hõrak+N+Pl+Abe`
+* *hõrakidõgaq:* `hõrak+N+Pl+Com`
+**N-hwrak10**
+
+
+
+
+
+
+
+
+LEXICON NMN_10HAIDAK/ESAEK   * @OCDE@ haidak:haida%{kg%}
+Noun (10) esäk
+* *esäk:* `esäk+N+Sg+Nom`
+* *esägu:* `esäk+N+Sg+Gen`
+* *esäkut:* `esäk+N+Sg+Par`
+* *esäkuhe:* `esäk+N+Sg+Ill`
+* *esäkun:* `esäk+N+Sg+Ine`
+* *esäkust:* `esäk+N+Sg+Ela`
+* *esäkulõ:* `esäk+N+Sg+All`
+* *esäkul:* `esäk+N+Sg+Ade`
+* *esäkult:* `esäk+N+Sg+Abl`
+* *esäkus:* `esäk+N+Sg+Tra`
+* *esäkuniq:* `esäk+N+Sg+Ter`
+* *esäkuldaq:* `esäk+N+Sg+Abe`
+* *esäkugaq:* `esäk+N+Sg+Com`
+* *esäguq:* `esäk+N+Pl+Nom`
+* *esäkide:* `esäk+N+Pl+Gen`
+* *esäkit:* `esäk+N+Pl+Par`
+* *esäkihe:* `esäk+N+Pl+Ill`
+* *esäkin:* `esäk+N+Pl+Ine`
+* *esäkist:* `esäk+N+Pl+Ela`
+* *esäkile:* `esäk+N+Pl+All`
+* *esäkil:* `esäk+N+Pl+Ade`
+* *esäkilt:* `esäk+N+Pl+Abl`
+* *esäkis:* `esäk+N+Pl+Tra`
+* *esäkiniq:* `esäk+N+Pl+Ter`
+* *esäkildäq:* `esäk+N+Pl+Abe`
+* *esäkidegaq:* `esäk+N+Pl+Com`
+**N-hwrak10**
+
+
+*esäk examples:*
+* *esäk:* `esäk+N+Sg+Nom`
+* *esägu:* `esäk+N+Sg+Gen`
+* *esäkut:* `esäk+N+Sg+Par`
+* *esäkuhe:* `esäk+N+Sg+Ill`
+* *esäkun:* `esäk+N+Sg+Ine`
+* *esäkust:* `esäk+N+Sg+Ela`
+* *esäkulõ:* `esäk+N+Sg+All`
+* *esäkul:* `esäk+N+Sg+Ade`
+* *esäkult:* `esäk+N+Sg+Abl`
+* *esäkus:* `esäk+N+Sg+Tra`
+* *esäkuniq:* `esäk+N+Sg+Ter`
+* *esäkuldaq:* `esäk+N+Sg+Abe`
+* *esäkugaq:* `esäk+N+Sg+Com`
+* *esäguq:* `esäk+N+Pl+Nom`
+* *esäkide:* `esäk+N+Pl+Gen`
+* *esäkit:* `esäk+N+Pl+Par`
+* *esäkihe:* `esäk+N+Pl+Ill`
+* *esäkin:* `esäk+N+Pl+Ine`
+* *esäkist:* `esäk+N+Pl+Ela`
+* *esäkile:* `esäk+N+Pl+All`
+* *esäkil:* `esäk+N+Pl+Ade`
+* *esäkilt:* `esäk+N+Pl+Abl`
+* *esäkis:* `esäk+N+Pl+Tra`
+* *esäkiniq:* `esäk+N+Pl+Ter`
+* *esäkildäq:* `esäk+N+Pl+Abe`
+* *esäkidegaq:* `esäk+N+Pl+Com`
+
+vowel_harmony: BACK and FRONT
+gradation: no
+ **N-vidrik10**
+
+
+LEXICON NMN_10AABITS   * @OCDE@ aabits:aabits
+**N-hwrak10**
+
+
+LEXICON NMN_10HEERITS   * @OCDE@ heerits:heerits
+vowel_harmony: ONLY FRONT
+ **N-esaek10**
+
+
+**N-hwrak10**
+
+
+LEXICON NMN_10AMMAT1   * @OCDE@ ammat́:ammat
+**N-hwrak10**
+
+
+LEXICON NMN_10HUEPAETS1   * @OCDE@ hüpätś:hüpäts
+vowel_harmony: ONLY FRONT
+Gradation: YES
+ **N-esaek10**
+
+
+
+ LEXICON NMN_11AINWQ/KELMEQ  ainõq:ainõ
+**A-ainwq11**
+
+
+
+
+**A-vaih11**
+
+
+
+
+ LEXICON NMN_11ANNWQ/LAETEQ  ainõq:ainõ
+**A-ainwq11**
+
+
+
+
+
+
+*nimi examples:*
+* *läteq:* `läteq+N+Sg+Nom`
+* *lätte:* `läteq+N+Sg+Gen`
+* *lätet:* `läteq+N+Sg+Par`
+* *lättehe:* `läteq+N+Sg+Ill`
+* *lätten:* `läteq+N+Sg+Ine`
+* *lättest:* `läteq+N+Sg+Ela`
+* *lättele:* `läteq+N+Sg+All`
+* *lättel:* `läteq+N+Sg+Ade`
+* *lättelt:* `läteq+N+Sg+Abl`
+* *lättes:* `läteq+N+Sg+Tra`
+* *lätteniq:* `läteq+N+Sg+Ter`
+* *lätteldäq:* `läteq+N+Sg+Abe`
+* *lättegaq:* `läteq+N+Sg+Com`
+* *lätteq:* `läteq+N+Pl+Nom`
+* *lättide:* `läteq+N+Pl+Gen`
+* *lättit:* `läteq+N+Pl+Par`
+* *lättihe:* `läteq+N+Pl+Ill`
+* *lättin:* `läteq+N+Pl+Ine`
+* *lättist:* `läteq+N+Pl+Ela`
+* *lättile:* `läteq+N+Pl+All`
+* *lättil:* `läteq+N+Pl+Ade`
+* *lättilt:* `läteq+N+Pl+Abl`
+* *lättis:* `läteq+N+Pl+Tra`
+* *lättiniq:* `läteq+N+Pl+Ter`
+* *lättildäq:* `läteq+N+Pl+Abe`
+* *lättidegaq:* `läteq+N+Pl+Com`
+
+
+**N-repaenj12**
+
+
+
+**N-repaenj12**
+
+
+
+
+**N-suekues12**
+
+
+
+**N-suekues12**
+
+ * +Err/Orth+Use/NG:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
+
+
+
+
+ LEXICON NMN_13ALONW/TAEHINE  alonõ:alo
+**A-alonw**
+
+
+
+ LEXICON NMN_13XX/SAEAENE  sääne:sää
+**A-alonw**
+
+
+
+
+
+ * **LEXICON NMN_14RITS1KAS/HERNEH ** ritśkas:ritśka
+
+
+
+ * **LEXICON NMN_14HAMMAS/IKAES ** hammas:ham%{bm%}a%{sØ%}
+Distinguished from 14RITS1KAS due to gradation
+Yaml: __N-hammas_gt-norm.yaml__
+
+
+
+
+Distinguished from 14RITS1KAS due to gradation
+Yaml: __N-nummõŕ_gt-norm.yaml__
+
+
+
+
+Distinguished from 14RITS1KAS due  to word final h
+vowel_harmony_variant: hamõh
+Yaml: __N-pereh_gt-norm.yaml__
+
+
+
+
+Distinguished from 14RITS1KAS due  to word final h
+vowel_harmony_variant: pereh
+Yaml: __N-hamwh_gt-norm.yaml__
+
+
+
+
+
+
+
+
+ LEXICON NMN_16ABILINW/INEMINE  inemine:inemi abilinõ:abili
+* Yaml: **N-inemine16**
+
+
+ LEXICON NMN_16TSIRGUKWNW/TERAEKENE  inemine:inemi tsirgukõnõ:abili
+* Yaml: **N-inemine16**
+
+
+
+
+ * LEXICON NMN_17ALGUS/UETSUES  aivastus:aivastus
+* Yaml: **N-aivastus18**
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON NMN_19ALOMANW/PEDAEJAENE   alomanõ:aloma
+* Yaml: **A-alomanw19**
+
+
+
+* Yaml: **N-latsj20**
+
+
+
+
+
+
+
+
+* Yaml: **N-vaeitsj20**
+
+
+
+
+* Yaml: **N-vaeitsj20**
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON NMN_22NAANW  naanõ:naa
+* Yaml: **N-vwrokwnw22**
+
+
+ LEXICON NMN_22VWROKWNW/VAEHAEKENE  vähäkene:vähäke
+* Yaml: **N-vaehaekene22**
+
+
+ * **LEXICON NMN_23NUUL1/KIIL1 ** nuuĺ:nool
+* Yaml: **N-nuulj**
+
+
+
+ * **LEXICON NMN_23SUUR1 ** suuŕ:suur
+* Yaml: **N-suurj**
+
+
+
+* Yaml: **N-kiilj23**
+
+
+
+
+* Yaml: **N-hiirj23**
+
+
+
+
+
+* Yaml: **N-susi24**
+
+
+
+* Yaml: **N-susi24**
+
+
+
+* Yaml: **N-sueaeq25**
+
+
+
+
+
+
+
+
+
+
+
+* Yaml: **N-hepemj26**
+
+
+
+
+
+
+
+ * **LEXICON NMN_27HAPU ** hapu:hapu
+Yaml: **N-hapu27**
+
+
+
+ * **LEXICON NMN_27KUEMMEND ** kümmend:küm
+
+
+
+ * **LEXICON NMN_28TUETAER1 ** tütäŕ:tütär
+* Yaml: **N-tuetaerj28, N-kannwl28**
+
+
+
+* Yaml: **N-pindaer28**
+
+
+
+* Yaml: **N-tuetaerj28, N-kannwl28**
+
+
+
+* Yaml: **N-kannwl28**
+gradation= yes
+
+
+
+* Yaml: **N-kannwl28**
+gradation= no
+
+
+
+* Yaml: **N-pundar28**
+
+
+
+
+* Yaml: **N-pää29**
+
+
+
+
+
+ * LEXICON NMN_30MAA/TUEUE  tüü:tüü
+* Yaml: **N-tueue30**
+
+
+
+
+
+
+
+
+
+
+*Noun 33 igä examples:*
+* *igä:* `igä+N+Sg+Nom`
+* *iä:* `igä+N+Sg+Gen`
+* *ikä:* `igä+N+Sg+Par`
+* *ikkä:* `igä+N+Sg+Ill`
+* *iän:* `igä+N+Sg+Ine`
+* *iäst:* `igä+N+Sg+Ela`
+* *iäle:* `igä+N+Sg+All`
+* *iäl:* `igä+N+Sg+Ade`
+* *iält:* `igä+N+Sg+Abl`
+* *iäs:* `igä+N+Sg+Tra`
+* *iäniq:* `igä+N+Sg+Ter`
+* *iäldäq:* `igä+N+Sg+Abe`
+* *iägaq:* `igä+N+Sg+Com`
+* *iäq:* `igä+N+Pl+Nom`
+* *iki:* `igä+N+Pl+Gen`
+* *iki:* `igä+N+Pl+Par`
+* *ikkihe:* `igä+N+Pl+Ill`
+* *ikin:* `igä+N+Pl+Ine`
+* *ikist:* `igä+N+Pl+Ela`
+* *ikile:* `igä+N+Pl+All`
+* *ikil:* `igä+N+Pl+Ade`
+* *ikilt:* `igä+N+Pl+Abl`
+* *ikis:* `igä+N+Pl+Tra`
+* *ikiniq:* `igä+N+Pl+Ter`
+* *ikildäq:* `igä+N+Pl+Abe`
+* *ikigaq:* `igä+N+Pl+Com`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * LEXICON NMN_35UMA/PESAE  pesä:pe%{sØ%}sä
+
+
+
+nimi:nim
+* Yaml: **N-nimi**
+
+
+
+*nimi examples:*
+* *nimi:* `nimi+N+Sg+Nom`
+* *nime:* `nimi+N+Sg+Gen`
+* *nimme:* `nimi+N+Sg+Par`
+* *nimme:* `nimi+N+Sg+Ill`
+* *nimen:* `nimi+N+Sg+Ine`
+* *nimest:* `nimi+N+Sg+Ela`
+* *nimele:* `nimi+N+Sg+All`
+* *nimel:* `nimi+N+Sg+Ade`
+* *nimelt:* `nimi+N+Sg+Abl`
+* *nimes:* `nimi+N+Sg+Tra`
+* *nimeniq:* `nimi+N+Sg+Ter`
+* *nimeldäq:* `nimi+N+Sg+Abe`
+* *nimegaq:* `nimi+N+Sg+Com`
+* *nimeq:* `nimi+N+Pl+Nom`
+* *nimmi:* `nimi+N+Pl+Gen`
+* *nimmi:* `nimi+N+Pl+Par`
+* *nimmihe:* `nimi+N+Pl+Ill`
+* *nimin:* `nimi+N+Pl+Ine`
+* *nimist:* `nimi+N+Pl+Ela`
+* *nimile:* `nimi+N+Pl+All`
+* *nimil:* `nimi+N+Pl+Ade`
+* *nimilt:* `nimi+N+Pl+Abl`
+* *nimis:* `nimi+N+Pl+Tra`
+* *niminiq:* `nimi+N+Pl+Ter`
+* *nimildäq:* `nimi+N+Pl+Abe`
+* *nimmigaq:* `nimi+N+Pl+Com`
+
+
+
+
+
+
+
+*särǵ examples:*
+* *särǵ:* `särǵ+N+Sg+Nom`
+* *säre:* `särǵ+N+Sg+Gen`
+* *särge:* `särǵ+N+Sg+Par`
+* *särge:* `särǵ+N+Sg+Ill`
+* *sären:* `särǵ+N+Sg+Ine`
+* *särest:* `särǵ+N+Sg+Ela`
+* *särele:* `särǵ+N+Sg+All`
+* *särel:* `särǵ+N+Sg+Ade`
+* *särelt:* `särǵ+N+Sg+Abl`
+* *säres:* `särǵ+N+Sg+Tra`
+* *säreniq:* `särǵ+N+Sg+Ter`
+* *säreldäq:* `särǵ+N+Sg+Abe`
+* *säregaq:* `särǵ+N+Sg+Com`
+* *säreq:* `särǵ+N+Pl+Nom`
+* *särgi:* `särǵ+N+Pl+Gen`
+* *särgi:* `särǵ+N+Pl+Par`
+* *särgihe:* `särǵ+N+Pl+Ill`
+* *särin:* `särǵ+N+Pl+Ine`
+* *särist:* `särǵ+N+Pl+Ela`
+* *särile:* `särǵ+N+Pl+All`
+* *säril:* `särǵ+N+Pl+Ade`
+* *särilt:* `särǵ+N+Pl+Abl`
+* *säris:* `särǵ+N+Pl+Tra`
+* *säriniq:* `särǵ+N+Pl+Ter`
+* *särildäq:* `särǵ+N+Pl+Abe`
+* *särgigaq:* `särǵ+N+Pl+Com`
+
+
+
+ * LEXICON NMN_36KWIK1/XX1   kõiḱ:kõi%{kØ%}%{kḱg%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ **LEXICON NMN_46SWBWR **
+sõbõr:sõbõr
+Oblique plural in o
+* Yaml: **N-swbwr36**
+derived from 36SAERG1
+
+
+
+kubõl:ku%{pb%}õl
+Oblique plural in õ
+* Yaml: **N-swbwr36**
+derived from 36SAERG1
+
+
+
+pini:pi%{nØ%}ni
+
+
+
+pini:pi%{nØ%}ni
+
+
+*nimi examples:*
+* *pini:* `pini+N+Sg+Nom`
+* *pini:* `pini+N+Sg+Gen`
+* *pinni:* `pini+N+Sg+Par`
+* *pinni:* `pini+N+Sg+Ill`
+* *pinin:* `pini+N+Sg+Ine`
+* *pinist:* `pini+N+Sg+Ela`
+* *pinile:* `pini+N+Sg+All`
+* *pinil:* `pini+N+Sg+Ade`
+* *pinilt:* `pini+N+Sg+Abl`
+* *pinis:* `pini+N+Sg+Tra`
+* *pininiq:* `pini+N+Sg+Ter`
+* *pinildäq:* `pini+N+Sg+Abe`
+* *pinigaq:* `pini+N+Sg+Com`
+* *piniq:* `pini+N+Pl+Nom`
+* *pinne:* `pini+N+Pl+Gen`
+* *pinne:* `pini+N+Pl+Par`
+* *pinnehe:* `pini+N+Pl+Ill`
+* *pinen:* `pini+N+Pl+Ine`
+* *pinest:* `pini+N+Pl+Ela`
+* *pinele:* `pini+N+Pl+All`
+* *pinel:* `pini+N+Pl+Ade`
+* *pinelt:* `pini+N+Pl+Abl`
+* *pines:* `pini+N+Pl+Tra`
+* *pineniq:* `pini+N+Pl+Ter`
+* *pineldäq:* `pini+N+Pl+Abe`
+* *pinnegaq:* `pini+N+Pl+Com`
+
+
+
+
+
+
+ * LEXICON NMN_38PULL1  pulĺ:pull
+ * +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
+
+
+
+ * +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
+
+
+
+*papṕ examples:*
+* *papṕ:* `papṕ+N+Sg+Nom`
+* *papi:* `papṕ+N+Sg+Gen`
+* *pappi:* `papṕ+N+Sg+Par`
+* *pappi:* `papṕ+N+Sg+Ill`
+* *papin:* `papṕ+N+Sg+Ine`
+* *papist:* `papṕ+N+Sg+Ela`
+* *papilõ:* `papṕ+N+Sg+All`
+* *papil:* `papṕ+N+Sg+Ade`
+* *papilt:* `papṕ+N+Sg+Abl`
+* *papis:* `papṕ+N+Sg+Tra`
+* *papiniq:* `papṕ+N+Sg+Ter`
+* *papildaq:* `papṕ+N+Sg+Abe`
+* *papigaq:* `papṕ+N+Sg+Com`
+* *papiq:* `papṕ+N+Pl+Nom`
+* *pappõ:* `papṕ+N+Pl+Gen`
+* *pappõ:* `papṕ+N+Pl+Par`
+* *pappõhe:* `papṕ+N+Pl+Ill`
+* *papõn:* `papṕ+N+Pl+Ine`
+* *papõst:* `papṕ+N+Pl+Ela`
+* *papõlõ:* `papṕ+N+Pl+All`
+* *papõl:* `papṕ+N+Pl+Ade`
+* *papõlt:* `papṕ+N+Pl+Abl`
+* *papõs:* `papṕ+N+Pl+Tra`
+* *papõniq:* `papṕ+N+Pl+Ter`
+* *papõldaq:* `papṕ+N+Pl+Abe`
+* *pappegaq:* `papṕ+N+Pl+Com`
+
+
+
+    * :%^VOWRaise%^StrGStem%^PAL        Harm-Neutr_SG-NOM  ;  pu̬u̬ḿ
+ * +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
+    * :%^VOWLower%^WGStem%^NoPAL%>i       SG-GEN_ZERO-STEM        ;  poomi
+
+
+
+
+
+
+
+
+
+
+
+
+Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
+stem_vowel="o"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
+
+
+
+*juht́ examples:*
+* *juht́:* `juht́+N+Sg+Nom`
+* *juhi:* `juht́+N+Sg+Gen`
+* *juhtõ:* `juht́+N+Sg+Par`
+* *juhtõ:* `juht́+N+Sg+Ill`
+* *juhin:* `juht́+N+Sg+Ine`
+* *juhist:* `juht́+N+Sg+Ela`
+* *juhilõ:* `juht́+N+Sg+All`
+* *juhil:* `juht́+N+Sg+Ade`
+* *juhilt:* `juht́+N+Sg+Abl`
+* *juhis:* `juht́+N+Sg+Tra`
+* *juhiniq:* `juht́+N+Sg+Ter`
+* *juhildaq:* `juht́+N+Sg+Abe`
+* *juhigaq:* `juht́+N+Sg+Com`
+* *juhiq:* `juht́+N+Pl+Nom`
+* *juhõ:* `juht́+N+Pl+Gen`
+* *juhtõ:* `juht́+N+Pl+Par`
+* *juhtõhõ:* `juht́+N+Pl+Ill`
+* *juhõn:* `juht́+N+Pl+Ine`
+* *juhõst:* `juht́+N+Pl+Ela`
+* *juhõlõ:* `juht́+N+Pl+All`
+* *juhõl:* `juht́+N+Pl+Ade`
+* *juhõlt:* `juht́+N+Pl+Abl`
+* *juhõs:* `juht́+N+Pl+Tra`
+* *juhõniq:* `juht́+N+Pl+Ter`
+* *juhõldaq:* `juht́+N+Pl+Abe`
+* *juhõgaq:* `juht́+N+Pl+Com`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * :%^Pen%^PAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
+ * +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
+
+ * :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
+
+
+
+
+
+
+
+
+
+*kanarik # examples:*
+* *kanarik:* `kanarik+N+Sg+Nom`
+* *kanarigu:* `kanarik+N+Sg+Gen`
+* *kanarikku:* `kanarik+N+Sg+Par`
+* *kanarikku:* `kanarik+N+Sg+Ill`
+* *kanarigun:* `kanarik+N+Sg+Ine`
+* *kanarigust:* `kanarik+N+Sg+Ela`
+* *kanarigulõ:* `kanarik+N+Sg+All`
+* *kanarigul:* `kanarik+N+Sg+Ade`
+* *kanarigult:* `kanarik+N+Sg+Abl`
+* *kanarigus:* `kanarik+N+Sg+Tra`
+* *kanariguniq:* `kanarik+N+Sg+Ter`
+* *kanariguldaq:* `kanarik+N+Sg+Abe`
+* *kanarigugaq:* `kanarik+N+Sg+Com`
+* *kanariguq:* `kanarik+N+Pl+Nom`
+* *kanarikkõ:* `kanarik+N+Pl+Gen`
+* *kanarikkõ:* `kanarik+N+Pl+Par`
+* *kanarikkõhe:* `kanarik+N+Pl+Ill`
+* *kanarigõn:* `kanarik+N+Pl+Ine`
+* *kanarigõst:* `kanarik+N+Pl+Ela`
+* *kanarigõlõ:* `kanarik+N+Pl+All`
+* *kanarigõl:* `kanarik+N+Pl+Ade`
+* *kanarigõlt:* `kanarik+N+Pl+Abl`
+* *kanarigõs:* `kanarik+N+Pl+Tra`
+* *kanarigõniq:* `kanarik+N+Pl+Ter`
+* *kanarigõldaq:* `kanarik+N+Pl+Abe`
+* *kanarigõgaq:* `kanarik+N+Pl+Com`
+
+
+
+
+
+
+*saslõḱ # examples:*
+* *saslõḱ:* `saslõḱ+N+Sg+Nom`
+* *saslõgi:* `saslõḱ+N+Sg+Gen`
+* *saslõkki:* `saslõḱ+N+Sg+Par`
+* *saslõkki:* `saslõḱ+N+Sg+Ill`
+* *saslõgin:* `saslõḱ+N+Sg+Ine`
+* *saslõgist:* `saslõḱ+N+Sg+Ela`
+* *saslõgilõ:* `saslõḱ+N+Sg+All`
+* *saslõgil:* `saslõḱ+N+Sg+Ade`
+* *saslõgilt:* `saslõḱ+N+Sg+Abl`
+* *saslõgis:* `saslõḱ+N+Sg+Tra`
+* *saslõginiq:* `saslõḱ+N+Sg+Ter`
+* *saslõgildaq:* `saslõḱ+N+Sg+Abe`
+* *saslõgigaq:* `saslõḱ+N+Sg+Com`
+* *saslõgiq:* `saslõḱ+N+Pl+Nom`
+* *saslõkke:* `saslõḱ+N+Pl+Gen`
+* *saslõkke:* `saslõḱ+N+Pl+Par`
+* *saslõkkehe:* `saslõḱ+N+Pl+Ill`
+* *saslõgen:* `saslõḱ+N+Pl+Ine`
+* *saslõgest:* `saslõḱ+N+Pl+Ela`
+* *saslõgelõ:* `saslõḱ+N+Pl+All`
+* *saslõgel:* `saslõḱ+N+Pl+Ade`
+* *saslõgelt:* `saslõḱ+N+Pl+Abl`
+* *saslõges:* `saslõḱ+N+Pl+Tra`
+* *saslõgeniq:* `saslõḱ+N+Pl+Ter`
+* *saslõgeldaq:* `saslõḱ+N+Pl+Abe`
+* *saslõgegaq:* `saslõḱ+N+Pl+Com`
+
+
+
+
+
+
+*apriĺ # examples:*
+* *apriĺ:* `apriĺ+N+Sg+Nom`
+* *aprili:* `apriĺ+N+Sg+Gen`
+* *aprilli:* `apriĺ+N+Sg+Par`
+* *aprilli:* `apriĺ+N+Sg+Ill`
+* *aprilin:* `apriĺ+N+Sg+Ine`
+* *aprilist:* `apriĺ+N+Sg+Ela`
+* *aprililõ:* `apriĺ+N+Sg+All`
+* *aprilil:* `apriĺ+N+Sg+Ade`
+* *aprililt:* `apriĺ+N+Sg+Abl`
+* *aprilis:* `apriĺ+N+Sg+Tra`
+* *apriliniq:* `apriĺ+N+Sg+Ter`
+* *aprilildaq:* `apriĺ+N+Sg+Abe`
+* *apriligaq:* `apriĺ+N+Sg+Com`
+* *apriliq:* `apriĺ+N+Pl+Nom`
+* *aprille:* `apriĺ+N+Pl+Gen`
+* *aprille:* `apriĺ+N+Pl+Par`
+* *aprillehe:* `apriĺ+N+Pl+Ill`
+* *aprilen:* `apriĺ+N+Pl+Ine`
+* *aprilest:* `apriĺ+N+Pl+Ela`
+* *aprilelõ:* `apriĺ+N+Pl+All`
+* *aprilel:* `apriĺ+N+Pl+Ade`
+* *aprilelt:* `apriĺ+N+Pl+Abl`
+* *apriles:* `apriĺ+N+Pl+Tra`
+* *aprileniq:* `apriĺ+N+Pl+Ter`
+* *aprileldaq:* `apriĺ+N+Pl+Abe`
+* *aprilegaq:* `apriĺ+N+Pl+Com`
+
+
+
+
+
+
+
+ * LEXICON NMN_44SWDA  sõda:sõ%{tØ%}%{tdØ%}a
+gradation: yes
+
+
+
+*sõda examples:*
+* *sõda:* `sõda+N+Sg+Nom`
+* *sõa:* `sõda+N+Sg+Gen`
+* *sõta:* `sõda+N+Sg+Par`
+* *sõtta:* `sõda+N+Sg+Ill`
+* *sõan:* `sõda+N+Sg+Ine`
+* *sõast:* `sõda+N+Sg+Ela`
+* *sõalõ:* `sõda+N+Sg+All`
+* *sõal:* `sõda+N+Sg+Ade`
+* *sõalt:* `sõda+N+Sg+Abl`
+* *sõas:* `sõda+N+Sg+Tra`
+* *sõaniq:* `sõda+N+Sg+Ter`
+* *sõaldaq:* `sõda+N+Sg+Abe`
+* *sõagaq:* `sõda+N+Sg+Com`
+* *sõaq:* `sõda+N+Pl+Nom`
+* *sõto:* `sõda+N+Pl+Gen`
+* *sõto:* `sõda+N+Pl+Par`
+* *sõttohe:* `sõda+N+Pl+Ill`
+* *sõton:* `sõda+N+Pl+Ine`
+* *sõtost:* `sõda+N+Pl+Ela`
+* *sõtolõ:* `sõda+N+Pl+All`
+* *sõtol:* `sõda+N+Pl+Ade`
+* *sõtolt:* `sõda+N+Pl+Abl`
+* *sõtos:* `sõda+N+Pl+Tra`
+* *sõtoniq:* `sõda+N+Pl+Ter`
+* *sõtoldaq:* `sõda+N+Pl+Abe`
+* *sõtogaq:* `sõda+N+Pl+Com`
+
+
+ * LEXICON NMN_45KANA/RIHAE  kana:ka%{nØ%}n%{ao%}
+* Yaml: **N-kana45**
+
+
+ LEXICON NMN_46HAIN   jalg:jalg
+gradation: no
+
+
+ LEXICON NMN_46TARK   jalg:jal%{gØ%}
+gradation: yes
+
+
+ * LEXICON NMN_47ASI  asi:a%{sś%}%{jiØ%}
+
+
+ * :%^NoPAL%^VowRM%>ö       PL-ALL_lE-STEM ;  IS THIS A REAL FORM?
+
+
+ * LEXICON NMN_2KASUNUQ/ELAENUEQ  elänüq:elänü
+
+
+
+### SINGULAR GENITIVE STEMS
+
+
+
+
+### PLURAL ALLATIVE STEMS
+
+
+
+### TAGS THAT CAN BE FOLLOWED BY CLITICS "K"
+### PLURAL TAGS
+ * +Use/NG+Err/Orth-no-q+Pl+Abe:%>ld%{aä%} K ;  no q
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### SINGULAR TAGS
+
+
+
+
+ * +Use/NG+Err/Orth-no-q+Sg+Com:%>ga K ;  no q
+ * +Use/NG+Err/Orth-no-q+Sg+Com:%>ga BACK_K ;  no q
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON Harm-Neutr_SG-INE_hn  RARE
+
+
+
+
+
+
+
+
+### TAGS THAT CANNOT BE FOLLOWED BY CLITICS
+
+### CASES ONLY
+
+
+
+
+
+
+
+
+
+
+
+
+
+### TAGS WITH NO ADDED MORPHOLOGY THAT CANNOT BE FOLLOWED BY CLITICS
+
+
+
+
+Adjective inflection
+The VÕRO language adjectives compare.
+
+
+
+
+ LEXICON A_1HANS1A  1 hanśa:hanśa
+
+ LEXICON A_1HERRAE  1 herrä:herrä
+
+ LEXICON A_2ARTIKLI  suhvli:suhvli
+* Yaml: **suhvli**
+
+ LEXICON A_2KERGE  1 kerge:
+
+ LEXICON A_3ALADU  aladu:aladu
+* Yaml: **A-aladu**
+
+ LEXICON A_3PERAEDUE  perädü:perädü
+* Yaml: **A-peraedue**
+
+
+
+ LEXICON A_4AINUS   ainus:ainus
+
+
+
+
+
+
+
+
+
+ * LEXICON A_8KULDNW  kuldnõ:kuld
+ * LEXICON A_8KIIL1NE  kiiĺne:ki̬i̬ĺ
+
+ * LEXICON A_8KOLMAS  kolmas:kolma
+
+ * LEXICON A_8VIIES  viies:viie
+
+ * LEXICON A_9ALLAS1 
+
+ * LEXICON A_9SINNEL1 
+
+ * LEXICON A_9TAHHE 
+
+ * LEXICON A_9HERRE 
+
+ * LEXICON A_9KIPWN1/ELLAEI  what is this
+* Yaml: **ellaei, suhvli**
+
+ * LEXICON A_9SALLAI  what is this
+* Yaml: **ellaei, suhvli**
+* Yaml: **ellaei, suhvli**
+
+* Yaml: **ellaei, suhvli**
+
+* Yaml: **villw**
+
+* Yaml: **tukwv**
+
+* Yaml: **verrev**
+
+* Yaml: **sallai**
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON A_11AINWQ  ainõq:ainõ
+
+ LEXICON A_11KELMEQ  kelmeq:kelme
+
+
+ LEXICON A_13ALONW  alonõ:alo
+
+ LEXICON A_13TAEHINE  tähine:tähi
+
+ LEXICON A_13TAEHINE-PL  tähine:tähi
+
+
+ LEXICON A_14RITS1KAS   ritśkas:ritśka%{sØ%}
+
+ LEXICON A_14HAMMAS   rikas:ri%{kØ%}ka%{sØ%}
+
+ LEXICON A_14IKAES   rikas:ri%{kØ%}ka%{sØ%}
+
+
+ LEXICON A_16ABILINW  inemine:inemi
+
+ LEXICON A_16INEMINE  inemine:inemi
+
+
+
+
+
+
+ LEXICON A_19ALOMANW  alomanõ:aloma
+
+ LEXICON A_19PEDAEJAENE  pedäjäne:pedäjä
+
+ LEXICON A_19PEDAEJAENE-PL  pedäjäne:pedäjä
+
+
+
+ LEXICON A_22VWROKWNW  võrokõnõ:võrokõ
+
+ LEXICON A_22VAEHAEKENE  võrokõnõ:võrokõ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gradation: no
+
+gradation: yes
+
+gradation: no
+
+
+
+
+
+ * LEXICON A_2KASUNUQ  kasunuq:kasunu
+ * LEXICON A_2ELAENUEQ  elänüq:elänü
+
+
+
+
+
+
+ * +Err/Orth+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ;  no q
+
+
+
+
+
+
+
+ * +Err/Orth+Use/NG+Pl+Com:id%{eõ%}ga K ;  no q
+
+
+
+
+Verb inflection
+Võro language verbs inflect for person and number.
+
+
+
+
+There are other verbs here, cf. V_ELAEMAE
+* Yaml: **V-kasuma48**
+
+
+
+
+There are other verbs here, cf. V_ELAEMAE
+* Yaml: **V-kuioma48**
+
+
+
+
+There are other verbs here, cf. V_ELAEMAE
+* Yaml: **V-palama48**
+
+
+
+
+
+
+
+
+
+There are other verbs here, cf. V_ELAEMAE
+* Yaml: ____
+
+
+
+
+
+
+
+ * **LEXICON V_49LWPMA** lõpma:lõpp
+ * **LEXICON V_49LWPMA/XX** lõpma:lõpp
+
+
+
+
+
+
+
+ * **LEXICON V_50TONISWMA** tonisõma:tonis
+* Yaml: **toniswma50**
+ * **LEXICON V_50TONISWMA/HELISEMAE** tonisõma:tonis
+
+
+
+
+ * **LEXICON V_50HELISEMAE** helisemä:helis
+* Yaml: **helisemae50**
+
+
+ * **LEXICON V_51NWSWMA** nõsõma:nõs
+* Yaml: **nwswma51**
+cf. tulõma
+ * **LEXICON V_51PAESEMAE** päsemä:päs
+* Yaml: **paesemae51**
+cf. tulõma
+
+ * **LEXICON V_51NWSWMA/PAESEMAE** nõsõma:nõs
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_52ALOSTWLWMA** alostõlõma:alostõll
+* Yaml: **alostwllwma52**
+ * **LEXICON V_52EHITELEMAE** ehitelemä:ehitell
+ehitelemä:ehitell
+* Yaml: **ehitellemae52**
+
+ * **LEXICON V_52ALOSTWLWMA/EHITELEMAE** alostõllõma:alostõ%{lØ%}l
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_53KAEMA** 
+ * **LEXICON V_53JAEAEMAE** 
+ * **LEXICON V_53KAEMA/JAEAEMAE** 
+
+ * :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+
+ *  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+
+ * :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
+ * :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
+ * :%^VOWRaise ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
+
+ *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+
+
+ * **LEXICON V_55KWNWLWMA** kõnõlõma:kõ̭nõl
+* Yaml: **kwnwlwma55**
+ * **LEXICON V_55HAERELEMAE** härelemä:härel
+* Yaml: **haerelemae55**
+
+
+
+
+
+
+ * **LEXICON V_56HIIBWLWMA** hiibõlõma:hiibõl
+* Yaml: **hiibwlwma56**
+ * **LEXICON V_56HEIKELEMAE** heikelemä:heikel
+* Yaml: **heikelemae56**
+
+ * **LEXICON V_56HIIBWLWMA/HEIKELEMAE** hiibõlõma:hiibõl
+
+
+
+
+
+taplõma:tapõl
+* Yaml: **taplwma57**
+ütlemä:ütel
+* Yaml: **kiirdlemae57**
+
+* *taplõma:* `taplõma+V+Inf/mA` (Eng. # (1))
+* *tapõldaq:* `taplõma+V+Inf` (Eng. # (2))
+* *tapõlnuq:* `taplõma+V+Act+PrfPrc` (Eng. # (3))
+* *tapõld:* `taplõma+V+Pss+PrfPrc` (Eng. # (4))
+* *taplõ:* `taplõma+V+Act+Ind+Prs+Sg1` (Eng. # (5))
+* *taplõt:* `taplõma+V+Act+Ind+Prs+Sg2` (Eng. # (5))
+* *taplõs:* `taplõma+V+Act+Ind+Prs+Sg3` (Eng. # (6))
+* *taplõmiq:* `taplõma+V+Act+Ind+Prs+Pl1` (Eng. # (5))
+* *taplõtiq:* `taplõma+V+Act+Ind+Prs+Pl2` (Eng. # (5))
+* *taplõsõq:* `taplõma+V+Act+Ind+Prs+Pl3` (Eng. # (5))
+* *taplõ:* `taplõma+V+Act+Ind+ConNegII` (Eng. # (1))
+* *tapli:* `taplõma+V+Act+Ind+Prt+Sg1` (Eng. # (7))
+* *taplit:* `taplõma+V+Act+Ind+Prt+Sg2` (Eng. # (7))
+* *tapõĺ:* `taplõma+V+Act+Ind+Prt+Sg3` (Eng. # (8))
+* *taplimiq:* `taplõma+V+Act+Ind+Prt+Pl1` (Eng. # (7))
+* *taplitiq:* `taplõma+V+Act+Ind+Prt+Pl2` (Eng. # (7))
+* *tapliq:* `taplõma+V+Act+Ind+Prt+Pl3` (Eng. # (7))
+* *tapõlda:* `taplõma+V+Pss+Ind+Prs+Sg1` (Eng. # (4))
+* *tapõldas:* `taplõma+V+Pss+Ind+Prs+Sg3` (Eng. # (4))
+* *taplõv:* `taplõma+V+Act+PrsPrc+Sg+Nom` (Eng. # (1))
+* *tapõlguq:* `taplõma+V+Jus` (Eng. # (2,3,4, ?9))
+
+
+
+
+
+
+
+
+
+
+võitlõma:võitõl
+* Yaml: **taplwma57**
+kiirdlemä:keerdel
+* Yaml: **kiirdlemae57**
+
+* *väär{dØ}{eØ}{lĺ}{front}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}>m{aä}*
+* *väärd0l00000000>e>mä*
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_58HIRNAHTAMA** hirnahtama:hirnahta
+* Yaml: **V-hirnahtama58**
+
+ * **LEXICON V_58TAEHENDAEMAE** tähendämä:tähendä
+* Yaml: **V-hirnahtama58, V-taehendaemae**
+front
+
+ * **LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE** hirnahtama:hirnahta, tähendämä:tähend
+
+
+
+ * **LEXICON V_59KAOTAMA** kaotama:kaota
+Based on 59KAOTAMA
+* Yaml: **kerguetaemae**
+
+ * **LEXICON V_59KAOTAMA/KERGUETAEMAE** kaotama:kao, kergütämä:kergü
+
+ * :d%^VOWRaise%>%{aä%} Harm-Neutr_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ;  +Act+Ind+Prs+Sg1:%^Pen%^VOWRaise kaoda
++Act+Ind+Prs+Sg1, +Act+Ind+ConNegII, +Act+Imprt+Sg2
+
+ * :d%^VOWRaise%>i   ACT-IND-PRT-SG1_ZERO/SG2_q/PL3_q ;  kaodi
++Act+Ind+Prt+Sg1, +Err/Orth+Use/NG+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
+
++Act+Ind+Prs+Sg2, +Err/Orth+Use/NG+Act+Ind+Prs+Sg2, 
++Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
+
++Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
+
+
+
+ * :t%^VOWRaise%>i Harm-Neutr_ACT-IND-PRT-SG2_USUALLY-STRONG ;  kaoti
++Act+Ind+Prt+Sg2, +Err/Orth+Use/NG+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
++Act+Ind+Prt+Pl2, +Err/Orth+Use/NG+Act+Ind+Prt+Pl3
+
+ * : ACT-IND-PRT-SG3_t-PAL ;  +Act+Ind+Prt+Sg3:%^Pen%^VOWRaise kaot́
++Act+Ind+Prt+Sg3:%^Pen%^VOWRaise kaot́ Harm-Neutr_K ;
+
++Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
++Pss+PrsPrc, +Pss+PrfPrc
+
+
+
+*kaotama examples:*
+* *kaoda-aiq:* `kaotama+V+Act+Ind+Prs+Neg`
+* *kaoda-as:* `kaotama+V+Act+Ind+Prt+Neg`
+* *kaoda:* `kaotama+V+Act+Ind+ConNegII`
+* *kaoda:* `kaotama+V+Act+Ind+Prs+Sg1`
+* *kaodaq:* `kaotama+V+Act+Ind+ConNegI`
+* *kaodi:* `kaotama+V+Act+Ind+Prt+Sg1`
+* *kaodiq:* `kaotama+V+Act+Ind+Prt+Pl3`
+* *kaotaguq:* `kaotama+V+Jus`
+* *kaotama:* `kaotama+V+Inf/mA`
+* *kaotamiq:* `kaotama+V+Act+Ind+Prs+Pl1`
+* *kaotanu:* `kaotama+V+Act+PrfPrc+Sg+Gen`
+* *kaotanuhe:* `kaotama+V+Act+PrfPrc+Sg+Ill`
+* *kaotanuid:* `kaotama+V+Act+PrfPrc+Pl+Par`
+* *kaotanuidõ:* `kaotama+V+Act+PrfPrc+Pl+Gen`
+* *kaotanuihe:* `kaotama+V+Act+PrfPrc+Pl+Ill`
+* *kaotanuq:* `kaotama+V+Act+PrfPrc`
+
+ * **LEXICON V_60MANITSWMA** manitsõma:mani
+* Yaml: **manitswma60,manitswma61>manitswma**
+ * **LEXICON V_60EHITSEMAE** ehitsemä:ehii
+* Yaml: **manitswma60,manitswma61>manitswma**
+
+ * **LEXICON V_60MANITSWMA/EHITSEMAE** manitsõma:mani
+
+
+
+
+
+
+
+
+argnõma:arg
+* Yaml: **argnwma62**
+tärknemä:tärk
+* Yaml: **taerknemae62**
+
+
+
+
+
+
+ * **LEXICON V_63SWIMAMA** sõimama:sõima
+* Yaml: **V-swimama63**
+ * **LEXICON V_63SWIMAMA/XX** sõimama:sõima
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_63VISKAMA** viskama:vis%{kØ%}a
+gradation: yes
+* Yaml: **V-viskama63**
+ * **LEXICON V_63HINGAEMAE** hingämä:hingä
+gradation: no
+* Yaml: **V-hingaemae63**
+
+ * **LEXICON V_63VISKAMA/HINGAEMAE** viskama:viska
+
+ * +Use/NG+Err/Orth+Act+Ind+Prs+Sg2:%^Pen%^VOWRaise%^Pen%^StrGStem%>d%{eõ%} K ;  no q
+ * +Use/NG+Err/Orth+Act+Ind+Prs+Pl1:%^Pen%^VOWRaise%^Pen%^StrGStem%>mi K ;  no q
+ * +Use/NG+Err/Orth+Act+Ind+Prs+Pl2:%^Pen%^VOWRaise%^Pen%^StrGStem%>ti K ;  no q
+ * +Use/NG+Err/Orth+Act+Ind+Prs+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%>s%{eõ%} K ;  no q
+
+
+
+
+
+(6) Ind_Prs_Sg2, Ind_Prs_Sg3, Ind_Prs_Pl2, Ind_Prs_Pl3,
+Ind_Prt_OcPl3
+ActPrsPrc, PssPrsPrc
+
+
+
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>tid%{eõ%} K ;  no    q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl1:%^Pen%^VOWLower%^Pen%^WGStem%>timi K ;  no    q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%^Pen%^VOWLower%^Pen%^WGStem%>titi K ;  no    q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>tiv%{aä%} K ;  no    q
+
+
++Pss+Ind+Prt +Sg1-+Pl3, ConNeg
+
+
+
+
+
+
+
+
+THIS FAR 2016-08-27
+* Yaml: **V-puhksama64**
+* Yaml: **V-rehksaemae64**
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_67HARINWMA** harinõma:hari
+* Yaml: **harinwma66,harinwma67 =>harinwma**
+ * **LEXICON V_67NAEGUENEMAE** nägünemä:nägü
+* Yaml: **harinwma66,harinwma67 =>harinwma**
+
+ * **LEXICON V_67HARINWMA/NAEGUENEMAE** harinõma:hari
+
+
+
+
+
+
+* Yaml: **V-harkuma68**
+* Yaml: **V-naelguemae68**
+
+
+
+
+
+
+ * **LEXICON V_69HAARDUMA** haarduma:haar%{dØ%}u
+ * **LEXICON V_69SUENDUEMAE** sündümä:sün%{dn%}ü
+ * **LEXICON V_69HAARDUMA/SUENDUEMAE** sündümä:sündü
+
+Act_Ind_Prs_Pl3: essüseq
+
+
+
+ * **LEXICON V_69SUURDUMA** suurduma:suurdu
+ * **LEXICON V_69HUEUERDUEMAE** hüürdümä:h%{öü%}%{öü%}r%{dØ%}ü
+ * **LEXICON V_69SUURDUMA/HUEUERDUEMAE** hüürdümä:h%{öü%}%{öü%}r%{dØ%}ü vowel raising Required 2016-09-15
+
+
+
+
+V_Inf/mA: miildümä 
+
+
+ * **LEXICON V_70UNWHUMA** unõhuma:unõhtu
+* Yaml: **V-unwhuma**
+ * **LEXICON V_70ÄNGÄHÜMÄ** ängähümä:ängähtü
+* Yaml: **V-eraelduemae**
+
+ * **LEXICON V_70UNWHUMA/ÄNGÄHÜMÄ** unõhuma:unõhtu
+
+
+
+
+
+ * **LEXICON V_70VIPWRDUMA** unõhtuma:unõhtu
+* Yaml: **V-unwhtuma**
+ * **LEXICON V_70ERAELDUEMAE** eräldümä:eräldü
+* Yaml: **V-eraelduemae**
+
+ * **LEXICON V_70VIPWRDUMA/ERAELDUEMAE** unõhtuma:unõhtu
+
+
+
+
+
+
+ * **LEXICON V_71HALLWTUMA** hallõtuma:hallõtu
+* Yaml: **V-hallwtuma**
+ * **LEXICON V_71ERAETUEMAE** erätümä:erä%{td%}ü
+* Yaml: **V-eraetuemae**
+
+ * **LEXICON V_71HALLWTUMA/ERAETUEMAE** hallõtuma:hallõtu
+
+
+
+
+ * **LEXICON V_72VAOMA** vaoma:%{ˋØ%}va%^I7o
+* Yaml: **vaoma**
+ * **LEXICON V_72TAEUEMAE** täümä:täü
+* Yaml: **haeoemae**
+
+ * **LEXICON V_72VAOMA/TAEUEMAE** vaoma:vao
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_74KULUMA** kuluma:kullu
+* Yaml: **V-kuluma**
+ * **LEXICON V_74VAESUEMAE** väsümä:vässü
+* Yaml: **V-vaesuemae**
+
+ * **LEXICON V_74KULUMA/VAESUEMAE** kuluma:kullu
+
+
+
+
+ * **LEXICON V_75VALAMA** valama:vala
+* Yaml: **V-valama75**
+vala, valla, vali, valõ
+ * **LEXICON V_75JAERAEMAE** järämä:järä
+* Yaml: **V-jaeraemae75**
+
+ * **LEXICON V_75VALAMA/JAERAEMAE** valama:vala
+
+
+
+
+
+
+
+ * **LEXICON V_76HIGOMA** higoma:hi%{kg0%}o
+* Yaml: **V-higoma76**
+ * **LEXICON V_76PUEGAEMAE** pügämä:pü%{kg0%}ä
+* Yaml: **V-puegaemae76**
+
+ * **LEXICON V_76HIGOMA/PUEGAEMAE** higoma:hi%{kg0%}o
+
+Retain consonant and stem vowel
+ *  Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) lugõma
++Act+PrsPrc+Sg OBL, Inf/mA, 
++Jus
+
+
+Strengthen consonant retain stem vowel
+ * :%^Pen%^StrGStem Harm-Neutr_INF_ZEROq ;  (2) lukõq
+ * :%^Pen%^StrGStem Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
+Inf, Act+PrsPrc+Sg+Nom
+
+Retain consonant and stem vowel
+ *  Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) lugõnuq
++Act+PrfPrc
+
+Weaken consonant and semi-retension of stem vowel
+ * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%} Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
+Pss+PrfPrc, Pss+PrsPrc
+
+
+Weaken consonant and semi-retension of stem vowel
+
+Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
+Pss+Ind
+
+Retain consonant and stem vowel
+ *  Harm-Neutr_ACT-IND-PRS-3_LUGWMA ;  (6) lugõma
+Ind+Prs+ 3
+
+Weaken consonant and replace stem vowel with i
+ * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+Act+Ind+PrtSg1/Sg2/Pl1-3
+
+Retain consonant remove stem vowel and add i
+ * :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+Act+Ind+Prt+Sg3
+
+ * **LEXICON V_76LUGWMA** lugõma:lu%{kg0%}õ
+* Yaml: **V-higoma76**
+
+
+ * **LEXICON V_76LUGWMA/XX** lugõma:lu%{kg0%}õ
+
+Retain consonant and stem vowel
+ *  Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) lugõma
++Act+PrsPrc+Sg OBL, Inf/mA, 
++Jus
+
+
+Strengthen consonant retain stem vowel
+ * :%^Pen%^StrGStem Harm-Neutr_INF_ZEROq ;  (2) lukõq
+ * :%^Pen%^StrGStem Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
+Inf, Act+PrsPrc+Sg+Nom
+
+Retain consonant and stem vowel
+ *  Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) lugõnuq
++Act+PrfPrc
+
+Weaken consonant and semi-retension of stem vowel
+ * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
+Pss+PrfPrc, Pss+PrsPrc
+
+Weaken consonant and semi-retension of stem vowel
+
+Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
+Pss+Ind
+
+Retain consonant and stem vowel
+ *  Harm-Neutr_ACT-IND-PRS-3_LUGWMA ;  (6) lugõma
+Ind+Prs+ 3
+
+Weaken consonant and replace stem vowel with i
+ * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+Act+Ind+PrtSg1/Sg2/Pl1-3
+
+Retain consonant remove stem vowel and add i
+ * :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+Act+Ind+Prt+Sg3
+
+
+
+ * **LEXICON V_77JUUMA** juuma:joo
+* Yaml: **juuma**
+ * **LEXICON V_77SUEUEMAE** süümä:süü
+* Yaml: **sueuemae**
+
+ * **LEXICON V_77JUUMA/SUEUEMAE** juuma:joo
+
+ * :%^VOWRaise V_77JUUMA/SUEUEMAE_RAISED-VOWEL ;  (1) juu, süü
+
+ * :%^VOWLower V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL ;  (2) joo- söö-
+
+ * :%^VOWRaise%^VowRM%>vv V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  (3) juvv
+
+ * :%^OO2Õ%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  (4) jõi- poi- sei- möi-
+
+ * :%^VOWRaise ACT-IND-PRS-SG3_ZERO ;  (5) RAISED juu süü
+ *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+
+
+
+
+
+ *  Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+
+ * LEXICON V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL  joo- söö-
+ *  ACT-PRFPRC_nUq-SG-NOM ;  joonuq
+
+ * LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE  juvv
+ *  Harm-Neutr_INF_Aq ;  juvvaq süvväq
+ * :%>%{aä%} Harm-Neutr_JUVVA_PSS-IND-PRS ;  juvva süvvä
+ * :%>i Harm-Neutr_JUVVA_PSS-IND-PRT-1/2 ;  juvvi süvvi
+
+ * LEXICON V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE  jõi-
+
+ * **LEXICON V_77KAEUEMAE** käümä:käü
+* Yaml: **sueuemae**
+
+ * **LEXICON V_77XX/KAEUEMAE** käümä:käü
+
+ * :%^VOWRaise V_77JUUMA/SUEUEMAE_RAISED-VOWEL ;  (1) käü
+
+ *  V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL ;  (2) käü-
+
+ * :%^VowRM%>vv V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  (3) kävv
+
+ * :%^VowRM%>ve V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  (4) käve
+
+ *  ACT-IND-PRS-SG3_ZERO ;  (5) RAISED käü
+
+ *  ACT-IND-PRS-PL3_vAq ;  (6) käüväq
+
+
+
+ * **LEXICON V_78VWIMA** võima:või
+* Yaml: **V-vwima**
+ * **LEXICON V_VWIMA/XX** võima:või
+
+
+
+
+
+* Yaml: **saama**
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_78MINEMAE** minemä:min
+* Yaml: **V-minemae**
+ * **LEXICON V_XX/MINEMAE** minemä:min
+
+
+
+Remainder is in exceptions.lexc
+
+
+
+ * **LEXICON V_79TULWMA** tulõma:tul
+* Yaml: **tulwma**
+ * **LEXICON V_79TULWMA/XX** tulõma:tul
+
+Retain consonant and stem vowel
+ * :%^NoPAL%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) tulõma
++Act+PrsPrc+Sg OBL, Inf/mA, 
++Jus, 
+
+Strengthen consonant
+ * :%^StrGSt%^NoPAL Harm-Neutr_INF_Aq ;  (2) tullaq
+Inf 
+Strengthen consonant 
+ * :%^StrGSt%^NoPAL%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) tullõv
+Act+PrsPrc+Sg+Nom
+
+Retain consonant and stem vowel
+ * :%^NoPAL Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) tulnuq
++Act+PrfPrc
+
+Retain consonant 
+ * :%^NoPAL Harm-Neutr_LUGWMA_PSS-PRC ;  (4) tul
+Pss+PrfPrc, Pss+PrsPrc, 
+
+
+Retain consonant and add õ
+ * :%^NoPAL%{eõ%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) tulõ
+Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
+Pss+Ind
+
+Retain consonant and stem vowel
+ * :%^NoPAL%{eõ%} Harm-Neutr_ACT-IND-PRS-3_LUGWMA ;  (6) tulõma
+Ind+Prs+ 3
+
+Strengthen consonant and replace stem vowel with i
+ * :%^StrGSt%^NoPAL%>i TULWMA_ACT-IND-PRT-SG1 ;  (7) loi
+Act+Ind+PrtSg1/Sg2/Pl1-3
+
+Strengthen consonant and add ʼ
+ * :%^StrGSt%^PAL Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) tulĺ
+ * +Err/Orth-no-pal:%^StrGSt%^NoPAL Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) tulĺ
+Act+Ind+Prt+Sg3
+
+ * **LEXICON V_79PURWMA** purõma:pur
+* Yaml: **purwma**
+ * **LEXICON V_79PURWMA/XX** purõma:pur
+
+Retain consonant and stem vowel
+ * :%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) purõma
++Act+PrsPrc+Sg OBL, Inf/mA, 
++Jus, 
+
+Strengthen consonant
+ * :%^StrGSt Harm-Neutr_INF_Aq ;  (2) purraq
+Inf 
+Strengthen consonant 
+ * :%^StrGSt%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) purrõv
+Act+PrsPrc+Sg+Nom
+
+Retain consonant and stem vowel
+ *  Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) purnuq
++Act+PrfPrc
+
+Retain consonant 
+ *  Harm-Neutr_LUGWMA_PSS-PRC ;  (4) pur
+Pss+PrfPrc, Pss+PrsPrc, 
+
+
+Retain consonant and add õ
+ * :%{eõ%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) purõ
+Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
+Pss+Ind
+
+Retain consonant and stem vowel
+ * :%{eõ%} Harm-Neutr_ACT-IND-PRS-3_LUGWMA ;  (6) purõma
+Ind+Prs+ 3
+
+Strengthen consonant and replace stem vowel with i
+ * :%>i TULWMA_ACT-IND-PRT-SG1 ;  (7) puri
+Act+Ind+PrtSg1/Sg2/Pl1-3
+
+consonant and add i
+ * :%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) puri
+Act+Ind+Prt+Sg3
+
+ * **LEXICON V_79OLWMA** olõma:o
+
+ * **LEXICON V_79OLWMA/XX** olõma:o
+
+
+
+
+ * **LEXICON V_80RAPAHUTMA** rapahutma:rapahuta
+ * **LEXICON V_80HAEMMAEHUETMAE** hämmähütmä:hämmähütä
+
+
+
+
+
+
+ * LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE  rapahutma:rapahuta
+
+Retain consonant and stem vowel
+ * :t Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) rapahutma
++Act+PrsPrc+Sg OBL, Inf/mA, 
++Jus, 
+
+Strengthen consonant
+ * :t%>%{aä%} Harm-Neutr_INF_ZEROq ;  (2) rapahutaq
+Inf 
+Strengthen consonant 
+ * :t Harm-Neutr_ACT-PRSPRC-SG-NOM_vA ;  (2b) rapahutva
+Act+PrsPrc+Sg+Nom
+
+Retain consonant and stem vowel
+ * :t Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) rapahutnuq
++Act+PrfPrc
+
+Retain consonant 
+ * :d%>%{eõ%} Harm-Neutr_LUGWMA_PSS-PRC ;  (4) rapahudõ
+Pss+PrfPrc, Pss+PrsPrc, 
+
+Retain consonant and add õ
+ * :d%>%{aä%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) rapahuda
+
+Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
+Pss+Ind
+
+Retain consonant and stem vowel
+ * :t Harm-Neutr_ACT-IND-PRS-3_LUGWMA ;  (6) rapahut
+Ind+Prs+ 3
+
+Strengthen consonant and replace stem vowel with i
+ * :d%^VowRM%>i TULWMA_ACT-IND-PRT-SG1 ;  (7) rapahudi
+Act+Ind+PrtSg1/Sg2/Pl1-3
+
+Strengthen consonant and add ʼ
+ * : ACT-IND-PRT-SG3_t-PAL ;  (8) rapahut́ and error rapahut
+Act+Ind+Prt+Sg3
+
+
+ * **LEXICON V_81TEGEMAE** tegemä:teg
+* Yaml: **tegemä**
+Work
+ * **LEXICON V_81XX/TEGEMAE** tegemä:teg
+
+*tegemä examples:*
+* *tegemä:* `tegemä+V+Inf/mA` (Eng. # (1))
+* *tetäq:* `tegemä+V+Inf` (Eng. # (2))
+* *tennüq:* `tegemä+V+Act+PrfPrc` (Eng. # (3))
+* *tett:* `tegemä+V+Pss+PrfPrc` (Eng. # (4))
+* *tii:* `tegemä+V+Act+Ind+Prs+Sg1` (Eng. # (5))
+* *tiit:* `tegemä+V+Act+Ind+Prs+Sg2` (Eng. # (5))
+* *tege:* `tegemä+V+Act+Ind+Prs+Sg3` (Eng. # (6))
+* *teemiq:* `tegemä+V+Act+Ind+Prs+Pl1` (Eng. # (?5)!!)
+* *tiitiq:* `tegemä+V+Act+Ind+Prs+Pl2` (Eng. # (5))
+* *tegeväq:* `tegemä+V+Act+Ind+Prs+Pl3` (Eng. # (?6)!!)
+* *tiiq:* `tegemä+V+Act+Ind+ConNegI` (Eng. # ()!!)
+* *tii:* `tegemä+V+Act+Ind+ConNegII` (Eng. # ()!!)
+* *tei:* `tegemä+V+Act+Ind+Prt+Sg1` (Eng. # (7))
+* *teit:* `tegemä+V+Act+Ind+Prt+Sg2` (Eng. # (7))
+* *tekḱ:* `tegemä+V+Act+Ind+Prt+Sg3` (Eng. # (8))
+* *teimiq:* `tegemä+V+Act+Ind+Prt+Pl1` (Eng. # (7))
+* *teitiq:* `tegemä+V+Act+Ind+Prt+Pl2` (Eng. # (7))
+* *teiq:* `tegemä+V+Act+Ind+Prt+Pl3` (Eng. # (7))
+* *tetä:* `tegemä+V+Pss+Ind+Prs+Sg1` (Eng. # (?4)!!)
+* *tetäs:* `tegemä+V+Pss+Ind+Prs+Sg3` (Eng. # (?4)!!)
+* *tettäv:* `tegemä+V+Pss+PrsPrc+Sg+Nom` (Eng. # (4))
+* *tekuq:* `tegemä+V+Jus` (Eng. # (9))
+
+
+
+
+
+ * **LEXICON V_82ANDMA** andma:and
+* Yaml: **andma**
+ * **LEXICON V_82PUEUEDMAE** püüdmä:püüd
+* Yaml: **pueuedmae**
+
+ * **LEXICON V_82ANDMA/PUEUEDMAE** andma:%{ˋØ%}an%{dd́n%}
+
+
+
+
+
+
+
+
+
+
+
+
+ * LEXICON V_83NÕSTMA   nõstma:nõst
+gradation: no
+* Yaml: **nwstma**
+ * LEXICON V_83PÄSTMÄ   nõstma:nõst
+gradation: no
+* Yaml: **nwstma**
+
+ * LEXICON V_83NÕSTMA/PÄSTMÄ   nõstma:nõst
+
+
+
+
+
+
+
+
+
+ * LEXICON V_83SÕITMA   sõitma:sõit
+gradation: yes
+* Yaml: **switma**
+ * LEXICON V_83HEITMAE   heitmä:heit
+gradation: yes
+* Yaml: **heitmae**
+
+ * LEXICON V_83SÕITMA/HEITMAE   sõitma:sõi%{tt́d%}
+sõida
+
+
+
+IS THIS RIGHT? 2015-09-02
+
+
+
+
+
+
+ * LEXICON V_83LAULMA   laulma:laul
+gradation: yes
+* Yaml: **switma**
+
+
+ * LEXICON V_83LAULMA/XX   laulma:laul
+sõida
+
+HERE is the distinction 2016-10-04
+
+
+IS THIS RIGHT? 2015-09-02
+
+
+
+
+
+ * LEXICON V_83ATMA   atma:atta
+gradation: yes
+* Yaml: **switma**
+
+ * LEXICON V_83ATMA/XX   atma:a%{tØ%}%{tt́%}
+
+
+
+sõida ata
+
+
+
+
+
+
+IS THIS RIGHT? 2015-09-02
+
+ * LEXICON V_83SUTMA   atma:a%{tØ%}ta
+gradation: yes
+* Yaml: **switma**
+ * LEXICON V_83PETMÄ   petmä:pe%{tØ%}t
+gradation: yes
+* Yaml: **heitmae**
+
+ * LEXICON V_83SUTMA/PETMÄ   atma:a%{tØ%}t
+
+
+
+IS THIS RIGHT? 2015-09-02
+
+sõida
+
+
+
+
+
+
+
+
+
+
+ * LEXICON V_84LASKMA  laskma:lask
+* Yaml: **nwstma**
+ * LEXICON V_84KÄSKMÄ  käskmä:käsk
+* Yaml: **nwstma**
+ * LEXICON V_84LASKMA/KÄSKMÄ  laskma:lask
+* Yaml: **nwstma**
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_85HIRNMA** kakma:kaku hirnma:hirnu
+* Yaml: **kakma**
+ * **LEXICON V_85HIRNMA/XX** kakma:kaku hirnma:hirnu
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_85HAUDMA**  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u 
+* Yaml: **haudma**
+ * **LEXICON V_85VAELKMAE**  haudma:haud
+* Yaml: **vaelkmae**
+ * **LEXICON V_85HAUDMA/VAELKMAE** kakma:kakk haudma:haud
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_85KAKMA**  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u 
+* Yaml: **haudma**
+ * **LEXICON V_85TRUEKMAE**  trükmä:trü%{kØ%}%{kḱ%}ü
+* Yaml: **vaelkmae**
+ * **LEXICON V_85KAKMA/TRUEKMAE** kakma:kakk
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_86ISTMA** istma:istu
+* Yaml: **istma**
+ * **LEXICON V_86ISTMA/XX** istma:istu
+
+
+
+
+
+
+ * **LEXICON V_86JAHTJMA** jaht́ma:ˋjah%{tØ%}i
+* Yaml: **jahtjma**
+ * **LEXICON V_86EHTJMÄ** eht́mä:ehti
+* Yaml: **V-ehtjmae**
+
+ * **LEXICON V_86JAHTJMA/EHTJMÄ** eht́mä:eh%{tt́%}
+
+
+
+
+
+
+ * **LEXICON V_86TOL1MA** jaht́ma:ˋjah%{tØ%}i
+* Yaml: **jahtjma**
+ * **LEXICON V_86TIK1MÄ** eht́mä:ehti
+* Yaml: **V-ehtjmae**
+
+ * **LEXICON V_86TOL1MA/TIK1MÄ** eht́mä:eh%{tt́%}
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_87KOSIMA** kosima:ko%{sØ%}si
+* Yaml: **V-kosima**
+ * **LEXICON V_87KERIMAE** kerimä:keri
+* Yaml: **V-kerimae**
+
+ * **LEXICON V_87KOSIMA/KERIMAE** kosima:kosi
+
+
+
+
+
+
+ * LEXICON V_88SIBAHAMA  sibama:siba
+* Yaml: **V-sibama88,sibahama**
+* Yaml: **V-juevaemae88**
+ * LEXICON V_88SIBAHAMA/JUEVAEHAEMAE  sibama:siba
+
+
+
+
+
+
+
+
+### SETS BY CONSONANT QUALITY
+
+ * : Harm-Neutr_ACT-IND-PRS-SG2_USUALLY-STRONG ;  kaota
++Act+Ind+Prs+Sg2, +Err/Orth+Use/NG+Act+Ind+Prs+Sg2, 
++Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
+
+ * : ACT-IND-PRS-3_s/sEq ;  
++Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
+
+
+
+
+### INDICATIVE PRESENT SUBJECT CONJUGATION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * +Ind+Prs+Neg:%-%{XV%}iq K ;  This gives stress
+ * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-iq K ;  This gives stress
+ * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-%{XV%}i K ;  more neutral without q
+ * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-i K ;  more neutral without q
+
+
+
+
+### JUS
+ * LEXICON MUTUAL_JUS  regardless of harmony this is back
+
+CHECK THIS
+### PASSIVE INDICATIVE PRESENT CONJUGATION
+
+
+
+
+
+
+ * LEXICON Harm-Neutr_JUVVA_PSS-IND-PRS  juvva süvvä
+
+
+ * LEXICON Harm-Neutr_JUVVA_PSS-IND-PRT-1/2  juvvi süvvi
+
+
+
+
+### INDICATIVE PRETERIT SUBJECT CONJUGATION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### PASSIVE INDICATIVE PRETERIT CONJUGATION
+
+
+
+
+
+
+
+
+### NON-FINITES
+
+
+
+ * +Use/NG+Err/Orth+Inf:%>d%{aä%} K ;  no q
+
+ * +Use/NG+Err/Orth+Inf:%>i%{aä%} K ;  no q
+
+
+ * +Use/NG+Err/Orth+Inf:%>%{aä%} K ;  no q
+
+ * +Use/NG+Err/Orth+Inf:%>t%{aä%} K ;  no q
+
+ * +Use/NG+Err/Orth+Inf: K ;  no q
+
+ * **+Der/JA+N:%>j NMN_9KIPWN1/ELLAEI ;** This should have a +Der/JA tag
+
+
+ * +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
+
+ * +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
+
+
+
+
+ * LEXICON ACT-PRFPRC-OBL_nU  only oblique cases and Pl+Nom
+ * +Use/NG+Err/Orth+Act+PrfPrc+Pl+Nom:%>n%{uü%} K ;  no q
+
+ * +Use/NG+Err/Orth+Act+PrfPrc:%^WGStem%>n%{uü%} K ;  no q
+
+
+PASSIVE DISTRIBUTION
+ * Harm-Neutr_NÕSTMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
+ * Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
+
+ * Harm-Neutr_KAOTAMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: kaotõda
+ * Harm-Neutr_KAOTAMA-PSS-IND-PRT_di ;  +Pss+Ind+Prt+Sg1: kaotõdi
+ * Harm-Neutr_V0-PSS-PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
+ * Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
+
+
+ * +Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;  no q
+
+
+ * +Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>d%{aä%}d%{eõ%} K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl1:%>d%{aä%}mi K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl2:%>d%{aä%}ti K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl3:%>d%{aä%}s%{eõ%} K ;  no q
+
+
+
+ * LEXICON Harm-Neutr_KAOTAMA-PSS-IND-PRT_di  +Pss+Ind+Prt+Sg3: kaotõdi
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>di K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>did%{eõ%} K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl1:%>dimi K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%>diti K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>di K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>div%{aä%} K ;  no q
+
+
+ * +Use/NG+Err/Orth+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
+
+ * +Use/NG+Err/Orth+Pss+PrsPrc+Pl+Nom:%>tt%{aä%}%>v%{aä%} K ;  no q
+
+
+ * +Use/NG+Err/Orth+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
+
+ * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+ * +Err/Orth+Use/NG+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
+ * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+
+
+ * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+ * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+ * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+ * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
+
+
+
+
+
+
+ * LEXICON Harm-Neutr_ACT-PRSPRC_v_LUGWMA  lugõma:lugõ
+Retain consonant and stem vowel
+
+ * +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
+
+
+ * LEXICON Harm-Neutr_ACT-IND-PRS-3_LUGWMA  (6) lugõma:lugõ
+
+ * +Use/NG+Err/Orth+Act+PrfPrc:%>n%{uü%} K ;  no q
+
+
+
+
+
+ * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+ * +Use/NG+Err/Orth+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
+
+
+
+
+
+
+
+Postpositions 
+The Võro language postpositions ...
+
+
+### POSTPOSITIONS WITH READY CASE ENDINGS
+
+
+
+
+
+
+
+Pronoun inflection
+The Võro language pronouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+### PERSONAL PRONOUN
+
+
+CHECKME vowel harmony
+
+
+
+
+
+
+
+ LEXICON PERS-PL1  maq:m
+
+ LEXICON PERS-PL2  saq:
+
+ LEXICON PERS-PL3  timä:
+
+
+
+
+
+### DEMONSTRATIVE PRONOUNS
+
+
+
+
+
+
+
+
+
+
+### INDEFINITE PRONOUNS
+
+
+
+
+
+
+
+
+### INTERROGATIVE PRONOUNS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Noun inflection for Võro
+
+
+
+
+
+
+
+
+
+
+
+* Yaml: **suhvli**
+
+
+
+* Yaml: **kerge**
+
+
+
+* Yaml: **peraedue**
+
+
+* Yaml: **peraedue**
+
+
+
+* Yaml: **tervues**
+
+* Yaml: **A-ainus**
+
+
+* Yaml: **N-oppaja5**
+
+
+* Yaml: **N-mängjä5**
+
+
+
+* Yaml: **fueuesiga**
+
+
+
+
+
+
+
+kipõnʼ:kipõn
+* Yaml:**N-kipwnj9**
+
+allaś:allas
+* Yaml:**N-kipwnj9**
+
+veteĺ:vetel
+* Yaml:**N-kipwnj9**
+
+tukõv:tukõv
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+elläi:elläi
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+verrev:verrev
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+
+
+
+gradation: no
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gradation: yes
+distinguished from 14RITS1KAS due to gradation
+
+
+distinguished from 14RITS1KAS due to word final h
+
+distinguished from 14RITS1KAS due to word final h
+
+
+kotus:kotus
+* Yaml: **N-kotus15**
+
+
+inemine:inemi
+* Yaml: **N-inemine16**
+
+abilinõ:abili
+* Yaml: **N-abilinw16**
+
+
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON NUM_22VWROKWNW  võrokõnõ:võrokõ
+
+ LEXICON NUM_22NAANW  naanõ:naa
+
+Gradation: No
+
+
+
+
+
+
+
+vowel_harmony: front
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gradation: No
+
+
+
+
+
+
+
+
+
+tarõ:tar
+
+pesä:tar
+
+
+nimi:nim
+
+ * LEXICON NUM_36KATS1  katś:kat
+
+ * LEXICON NUM_36UETS1  ütś:üt
+
+
+kokr:ko%{kg%}r
+* Yaml: **N-kokr36**
+
+
+sõbõr:sõbõr
+* Yaml: **N-swbwr36**
+derived from 36särǵ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Yaml: **aig, kand**
+
+* Yaml: **juht́**
+
+* Yaml: **aig, aig**
+
+
+
+
+ LEXICON NUM_43KANARIK 
+
+
+
+
+
+ LEXICON NUM_44SWDA  sõda:sõda
+
+
+
+
+* Yaml: **N-jalg, N-hain**
+
+* Yaml: **N-jalg, N-tark**
+
+
+
+
+
+
+
+Proper noun inflection
+The Võro language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+ LEXICON PROP_1HANS1A  1 hanśa:hanśa
+
+
+
+
+
+ LEXICON PROP_1HERRAE  1 herrä:herrä
+
+
+
+
+* Yaml: **suhvli**
+
+
+
+* Yaml: **kerge**
+
+
+
+
+
+* Yaml: **peraedue**
+
+
+
+* Yaml: **tervues**
+
+* Yaml: **A-ainus**
+
+
+* Yaml: **N-oppaja5**
+
+
+
+* Yaml: **N-oppaja5**
+
+
+
+* Yaml: **fueuesiga**
+
+
+
+
+
+
+harmony: front
+
+kipõń:kipõń
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+sallai:sallai
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+elläi:elläi
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+tukõv:tukõv
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+
+ LEXICON PROP_10AMEERIGA  Ameeriga:Ameerik
+cf. _10HWRAK
+
+
+
+ LEXICON PROP_10VIDRIK  vidrik:vidrik
+gradation: no
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gradation: No
+
+Gradation: No
+
+Gradation: No
+
+
+gradation: yes
+
+
+distinguished from 14RITS1KAS due to word final h
+
+distinguished from 14RITS1KAS due to word final h
+
+
+kotus:kotus
+* Yaml: **N-kotus15**
+
+
+Gradation: No
+
+abilinõ:abili
+* Yaml: **N-abilinw16**
+
+
+
+
+
+
+
+
+
+
+Gradation: No
+
+
+Gradation: No
+
+
+Gradation: No
+
+gradation: yes
+vowel_harmony: front
+
+gradation: yes
+vowel_harmony: front
+
+
+
+
+
+gradation: yes
+
+
+
+
+Gradation: No
+
+ * LEXICON PROP_29HAEAE  kuu:kuu
+Gradation: No
+
+
+
+
+Gradation: No
+
+
+
+gradation: yes
+
+
+tarõ:tar
+
+
+nimi:nim
+
+pesä:pesä
+
+ LEXICON PROP_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
+ :%{back%} NMN_36TUUM1/XX1-SG-OBL ;  This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
+
+
+
+ LEXICON PROP_36SAERG1  särǵ:särgʼ
+
+ LEXICON PROP_36PAEIV  päiv:päiv
+
+kogõr:kogõr
+* Yaml: **N-kogwr36**
+derived from 36särǵ
+
+
+
+
+
+ * LEXICON PROP_38PULL1  pulĺ:pull
+
+ * LEXICON PROP_38PAPP1  papṕ:papp
+
+
+
+
+
+ LEXICON PROP_40TALO  talo:talo
+
+
+
+
+
+
+
+
+
+ LEXICON PROP_44SWDA  sõda:sõda
+
+
+
+
+
+ LEXICON PROP_46HAIN  hain:hain
+* Yaml: **N-jalg, N-hain**
+
+
+
+
+
+
 
 
 
@@ -780,6 +7180,9 @@ less complex word classes
  %^PAL:0	       — Palatalization
  %^NoPAL:0	       — NoPalatalization
 
+ %^JI20:0	       — in vari: vaŕo
+ %^JI2I:0	       — in vari vari
+ %^JI2J:0	       — in vari: varjo
 
  %^PenWGStem:0  — This weakens "kipõń" to "kibõna"
  %^PenVowRM:0   — syncope tapõld : taplõma 
@@ -1210,6 +7613,8 @@ elläi+N+Sg+Gen
 
 
 **%{jiØ%}:j**
+
+**%{jiØ%}:i**
 
 **%{jiØ%}:0**
 vari+N+Sg+Gen: **shadow/varjo**
@@ -1838,4 +8243,1646 @@ naŕma
 **Disallow %^ErrorBack:0 in BHARM**
 
 **Disallow %^ErrorBack:0 in BHARM**
+
+
+!!!Punctuation symbols
+
+ * __LEXICON Punctuation   __ contains the list
+of punctuation symbols:
+* Symbols like .,: are tagged with __+CLB__
+* other symbols like +.& are tagged with __+PUNCT__, and
+* paired symbols like ()«» are tagged with __+PUNCT+LEFT__
+  and __+PUNCT+RIGHT__, respectively.
+
+* Clause boundary symbols:
+
+* Single punctuation marks
+
+
+* Paired punctuation marks
+
+
+
+
+
+ * __LEXICON PunctEnd   __ leads to # only.
+
+!!!Symbols
+Symbols are single character special signs typically denoting whole nouns. They are different from
+abbreviations and acronyms by not consisting of regular, alphabetic letters.
+
+Symbols are syntactic constituents, and thus part of the sentence analysis. That is, they are
+different from punctuation: punctuation express syntactic boundaries of various kinds, symbols
+are syntactic constituents.
+
+ __LEXICON Symbols__ contains symbols of two types: those that inflect, and those that don't.
+
+Miscellaneous symbols
+
+
+Symbols from Mari OCR reading
+
+
+
+
+
+Smileys
+
+Emojies
+Clitics in Võro
+
+
+
+
+
+
+
+
+
+
+
+
+We describe here how abbreviations are in Võro are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ordinal numerals begin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      [ L A N G U A G E ]  G R A M M A R   C H E C K E R
+
+
+
+
+
+
+
+
+
+# DELIMITERS
+
+
+# TAGS AND SETS
+
+
+
+## Tags
+
+
+This section lists all the tags inherited from the fst, and used as tags
+in the syntactic analysis. The next section, **Sets**, contains sets defined
+on the basis of the tags listed here, those set names are not visible in the output.
+
+
+
+
+### Beginning and end of sentence
+BOS
+EOS
+
+
+
+### Parts of speech tags
+
+N
+A
+Adv
+V
+Pron
+CS
+CC
+CC-CS
+Po
+Pr
+Pcle
+Num
+Interj
+ABBR
+ACR
+CLB
+LEFT
+RIGHT
+WEB
+QMARK
+PPUNCT
+PUNCT
+
+COMMA
+¶
+
+
+
+### Tags for POS sub-categories
+
+Pers
+Dem
+Interr
+Indef
+Recipr
+Refl
+Rel
+Coll
+NomAg
+Prop
+Allegro
+Arab
+Romertall
+
+
+### Tags for morphosyntactic properties
+
+Nom
+Acc
+Gen
+Ill
+Loc
+Com
+Ess
+Ess
+Sg
+Du
+Pl
+Cmp/SplitR
+Cmp/SgNom Cmp/SgGen
+Cmp/SgGen
+PxSg1
+PxSg2
+PxSg3
+PxDu1
+PxDu2
+PxDu3
+PxPl1
+PxPl2
+PxPl3
+Px
+
+Comp
+Superl
+Attr
+Ord
+Qst
+IV
+TV
+Prt
+Prs
+Ind
+Pot
+Cond
+Imprt
+ImprtII
+Sg1
+Sg2
+Sg3
+Du1
+Du2
+Du3
+Pl1
+Pl2
+Pl3
+Inf
+ConNeg
+Neg
+PrfPrc
+VGen
+PrsPrc
+Ger
+Sup
+Actio
+VAbess
+
+
+
+Err/Orth
+
+
+
+### Semantic tags
+
+Sem/Act
+Sem/Ani
+Sem/Atr
+Sem/Body
+Sem/Clth
+Sem/Domain
+Sem/Feat-phys
+Sem/Fem
+Sem/Group
+Sem/Lang
+Sem/Mal
+Sem/Measr
+Sem/Money
+Sem/Obj
+Sem/Obj-el
+Sem/Org
+Sem/Perc-emo
+Sem/Plc
+Sem/Sign
+Sem/State-sick
+Sem/Sur
+Sem/Time
+Sem/Txt
+
+HUMAN
+
+HAB-ACTOR
+HAB-ACTOR-NOT-HUMAN
+
+
+PROP-ATTR
+PROP-SUR
+
+
+
+TIME-N-SET
+
+
+###  Syntactic tags
+
+@+FAUXV
+@+FMAINV
+@-FAUXV
+@-FMAINV
+@-FSUBJ>
+@-F<OBJ
+@-FOBJ>
+@-FSPRED<OBJ
+@-F<ADVL
+@-FADVL>
+@-F<SPRED
+@-F<OPRED
+@-FSPRED>
+@-FOPRED>
+@>ADVL
+@ADVL<
+@<ADVL
+@ADVL>
+@ADVL
+@HAB>
+@<HAB
+@>N
+@Interj
+@N<
+@>A
+@P<
+@>P
+@HNOUN
+@INTERJ
+@>Num
+@Pron<
+@>Pron
+@Num<
+@OBJ
+@<OBJ
+@OBJ>
+@OPRED
+@<OPRED
+@OPRED>
+@PCLE
+@COMP-CS<
+@SPRED
+@<SPRED
+@SPRED>
+@SUBJ
+@<SUBJ
+@SUBJ>
+SUBJ
+SPRED
+OPRED
+@PPRED
+@APP
+@APP-N<
+@APP-Pron<
+@APP>Pron
+@APP-Num<
+@APP-ADVL<
+@VOC
+@CVP
+@CNP
+OBJ
+<OBJ
+OBJ>
+<OBJ-OTHERS
+OBJ>-OTHERS
+SYN-V
+@X
+
+
+
+
+
+## Sets containing sets of lists and tags
+
+This part of the file lists a large number of sets based partly upon the tags defined above, and
+partly upon lexemes drawn from the lexicon.
+See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
+
+
+
+### Sets for Single-word sets
+
+INITIAL
+
+
+### Sets for word or not
+
+WORD
+REAL-WORD
+REAL-WORD-NOT-ABBR
+NOT-COMMA
+
+
+### Case sets
+
+ADLVCASE
+
+CASE-AGREEMENT
+CASE
+
+NOT-NOM
+NOT-GEN
+NOT-ACC
+
+### Verb sets
+
+
+NOT-V
+
+### Sets for finiteness and mood
+
+REAL-NEG
+
+MOOD-V
+
+NOT-PRFPRC
+
+
+### Sets for person
+
+SG1-V
+SG2-V
+SG3-V
+DU1-V
+DU2-V
+DU3-V
+PL1-V
+PL2-V
+PL3-V
+
+
+
+
+
+### Pronoun sets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Adjectival sets and their complements
+
+
+
+
+### Adverbial sets and their complements
+
+
+
+
+### Sets of elements with common syntactic behaviour
+
+
+### NP sets defined according to their morphosyntactic features
+
+
+
+
+
+
+
+
+### The PRE-NP-HEAD family of sets
+
+These sets model noun phrases (NPs). The idea is to first define whatever can
+occur in front of the head of the NP, and thereafter negate that with the
+expression **WORD - premodifiers**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Border sets and their complements
+
+
+
+
+
+
+
+
+
+
+
+### Grammarchecker sets
+
+
+
+
+
+
+
+
+
+   S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
+
+ Sámi language technology project 2003-2018, University of Tromsø #
+
+This file adds syntactic functions. It is common for all the Saami
+
+
+
+
+
+
+
+
+
+
+
+
+
+LEFT RIGHT because of apertium
+
+
+
+* Sets for POS sub-categories
+
+
+
+
+
+* Sets for Semantic tags
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Sets for Morphosyntactic properties
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!Syntactic tags
+
+* @+FAUXV : finite auxiliary verb 
+** ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture.
+* @+FMAINV : finite main verb
+** oaidná: Son oaidná ollislaš gova. - She sees the whole picture	
+* @-FAUXV : infinite auxiliary verb
+** sáhte: In sáhte gáhku borrat. - I cannot eat cake.	
+* @-FMAINV : infinite main verb
+** oaidnit: Son ferte oaidnit ollislaš gova. - She must see the whole picture.
+* @-FSUBJ> : Subject of infinite verb outside the verbal.
+** mu: Diet dáhpáhuvai mu dieđikeahttá. - It happened without me knowing about it.
+* @-F<OBJ : Subject of infinite verb outside the verbal.
+** nuppi: Ulbmil lea oažžut nuppi boagustit. - The goal is to get the other one to laugh.
+* @-FOBJ> : Object of infinite verb outside the verbal.
+** váldovuoittuid: Sii vurde váldovuoittuid fasket. - They waited to grab the main prizes.
+* @SPRED<OBJ : Object of an subsject predicative. (some adjectives are transitive)
+** guliid: Mánát leat oažžulat guliid.
+* @-FADVL : Adverbial complement of infinite verb outside the verbal.
+** várrogasat: Dihkkadeaddji rávve skohtervuddjiid várrogasat mátkkoštit. - The roadman warns snowscooter drivers to drive carefully.
+* @-F<PRED : Predicative complement of infinite verb outside the verbal.
+** ággan: Jáhkken kulturmáhtu leat oktan ággan.
+* @>ADVL : Modifier of an adverbial to the right.
+** vaikko: doppe leat vaikko man ollu studeanttat.
+* @ADVL< : Komplement for adverbial.
+** vahkus: Son málesta guktii vahkus.
+* @<ADVL : Adverbial after the main verb.
+** dás: Eanet dieđuid gávnnat dás.
+* @ADVL> : Adverbial to the left of the main verb
+** viimmat: Dál de viimmat asttan lohkat reivve.
+* @ADVL>CS : Adverbial modifying subjunction.
+** 'beare' pointing at 'danin go': Muhto dus ii leat riekti dearpat su beare danin go sáhtát.
+* <hab> : Habitive, specifying an adverbial, e.g. @ADVL> <hab>
+** Máhtes: Máhtes lea beana.
+* <ext> : Extencial, specifying an subject, e.g. @<SUBJ <ext>
+** beana: Máhtes lea beana.
+* <logo> : logoforic pronouns, e.g. @>N <logo> (for MT)
+* <cs> : 
+* @>N : Modifier of a noun to the right.
+** geavatlaš: Ráđđehussii lea geavatlaš politihkka deaŧalaš. - For the government, practical politics is important.
+* @N< : Complement of noun to the left.
+** vihtta: Mun boađán diibmu vihtta.
+* @>A : Modifier of an adjective to the right.
+** juohke: Seminára lágiduvvo juohke nuppi jagi.
+* @P< : Complement of preposition.
+** soađi: Dat dáhpáhuvai maŋŋel soađi.
+* @>P : Complement of postposition.
+** riegádeami: Seta riegádeami maŋŋel Áttán elii vel 800 jagi.
+* @HNOUN : Stray noun in sentence fragment.
+** muittut: Fidnokurssa muittut.
+* @INTERJ : Interjection.
+** Hei: Hei, boađe!
+* @>Num : Attribute of numeral to the right.
+** dušše: Mun ledjen dušše guokte mánu doppe.
+* @Pron< : Complement of pronoun to the left.
+** Birehiin: Moai Birehiin leimme doppe.
+* @>Pron : Modifyer of pronoun to the right.
+** vaikko: Olmmoš sáhttá bargat vaikko maid.
+* @Num< : Complement of numeral to the left.
+** girjjiin: Dat lea okta min buoremus girjjiin.
+* @OBJ : Object, the verb is not in the sentence (ellipse)
+* @<OBJ : Object, the verb is to the left.
+** gávtti: Son goarru gávtti.
+* @OBJ> : Object, the verb is to the right.
+** filmma: Dán filmma leat Kárášjoga nuorat oaidnán.
+* @OPRED : Object predicative, the verb is not in the sentence (ellipse).
+* @<OPRED : Object predicative, the verb is to the left.
+** buriid: Son ráhkada gáhkuid hui buriid.
+* @OPRED> : Object predicative, the verb is to the right.
+** dohkkemeahttumin: Son oinnii dohkkemeahttumin bargat ášši nu.
+* @PCLE : Particle.
+** Amma: Amma mii eat leat máksán? - We have not paid, have we?
+* @COMP-CS< : Complement of subjunction.
+** vejolaš: Dat šaddá nu buorre go vejolaš.
+* @SPRED : Subject predicative, the verb is not in the sentence (ellipse).
+* @<SPRED : Subject predicative, the verb is to the left.
+** árgabivttas: Ovdal lei gákti árgabivttas.
+* @SPRED> : Subject predicative, the verb is to the left.
+** álbmogin: Sápmelaččaid historjá álbmogin lea duháhiid jagiid boaris.
+* @SUBJ : Subject, the finite verb is not in the sentence (ellipse).
+* @<SUBJ : Subject, the finite verb is to the left.
+** gákti: Ovdal lei gákti árgabivttas.
+* @SUBJ> : Subject, the finite verb is to the right.
+** Son: Son lea mu oabbá. - Sheis my sister.
+* @PPRED : Predicative for predicative.
+* @APP : Apposition
+* @APP-N< : Apposition to noun to the left.
+** oahpaheaddji: Oidnen Ánne, min oahpaheaddji.
+* @APP-Pron< : Apposition to pronoun to the left.
+** boazodoalloáirasat: Ja moai boazodoalloáirasat áigguime vaikko guovttá joatkit barggu.
+* @APP>Pron : Apposition to noun to the right.
+* @APP-Num< : Apposition to numeral to the left.
+* @APP-ADVL< : Apposition to adverbial to the left.
+** bearjadaga: Mun vuolggán ihttin, bearjadaga.
+* @VOC : Vocative
+** Miss Turner : Bures boahtin deike, Miss Turner! - Welcome her, Miss Turner!
+* @CVP : Conjunction or subjunction that conjoins finite verb phrases.
+** go : Leago guhkes áigi dassá go Máreha oidnet? - Is it a long time since you saw Máret?
+* @CNP : Local conjunction or subjunction.
+** vai : Leago nieida vai bárdni? - Is it a girl or a boy?
+* @CMPND
+* @X : The function is unknown, e.g. because of that the word is unknown
+
+
+
+
+
+
+
+
+
+
+
+!!Tag sets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Sets for verbs
+
+
+** V is all readings with a V tag in them, REAL-V should
+be the ones without an N tag following the V.
+The REAL-V set thus awaits a fix to the preprocess V ... N bug.
+
+
+
+* The set COPULAS is for predicative constructions
+
+
+
+
+
+
+
+* NP sets defined according to their morphosyntactic features
+
+
+
+
+
+
+
+* The PRE-NP-HEAD family of sets
+
+These sets model noun phrases (NPs). The idea is to first define whatever can
+occur in front of the head of the NP, and thereafter negate that with the
+expression __WORD - premodifiers__.
+
+
+
+
+
+
+
+
+
+
+
+
+The set __NOT-NPMOD__ is used to find barriers between NPs.
+Typical usage: ... (*1 N BARRIER NPT-NPMOD) ...
+meaning: Scan to the first noun, ignoring anything that can be
+part of the noun phrase of that noun (i.e., "scan to the next NP head")
+
+
+
+
+
+
+* Miscellaneous sets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Border sets and their complements
+
+
+
+
+
+
+
+
+
+
+
+ADLVCASE
+
+
+
+
+* Syntactic sets
+
+
+
+
+
+These were the set types.
+
+
+
+
+
+!!Numeral outside the sentence
+
+
+
+
+!!HABITIVE MAPPING
+
+
+
+
+
+
+* __hab1__ hab aux leat
+
+* __hab_numo1__ hab copula comma comma N+Nom
+
+* __hab_numo2__ copula nu mo/go hab
+
+
+* __leahab__ copula nu mo/go hab
+
+* __hab2__ hab auxv adv leat
+
+* __hab3__ (<hab> @ADVL>) for asdf hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+* __hab3__ (<hab> @ADVL>) for asdf hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+* __hab3__ (<hab> @ADVL>) for asdf hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+* __hab3__ (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+
+
+
+
+* __hab_main__ (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+
+
+* __habInf__ hab lea inf
+
+* __habNomLeft__ Nom or Num + gen hab lea
+
+* __habAdvl__ Ii han ovttasge du sogas leat dat namma.
+
+* __hab4__ hab cc hab leat
+
+
+
+* __hab6__ lea go hab -- leago hab
+
+* __hab7__ lea go hab
+
+* __hab8__ This is not HAB Ellii šattai hoahppu.
+* __hab5__  This is not HAB Mánás gollot gieđat.
+
+* __hab9__ prop ord-hab leat
+
+* __hab10__ prop ord-hab leat
+
+* __habDain__ (<hab> @ADVL>) for (Pron Dem Pl Loc) if leat followed by Nom to the right
+* __habDain2__ 
+
+
+* __habRel__ # before relative clause
+
+* __habEllipse__ Buot gánddain lea dreassa, nieiddain fas gákti.
+
+* __habGen__ (<hab> @<ADVL) hab for Gen; if Gen is located in the end of the sentence and Nom is sentence initial
+
+* __habGenQst__ (<hab> @<ADVL) hab for Gen; in a question sentence. Gen is located sentence initially and SUBJ is found to the right. To the right of SUBJ is copulas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* __n<titel1__ (@N<) for ("jr") or ("sr"); if first one to the left is Prop
+
+
+
+* __n<titel2__ (@N<) for INITIAL; if first one to the left is a noun, or if to the left of you is a single letter which is part of a noun conjunction ''bustávas e ja f gáibiduvvo''
+
+
+* __n<:com__ (@N<) for (Sg Com); if first one to the left is Coll
+
+
+
+
+
+
+
+
+
+
+* __>nAttr__ (@>N) for Attr; if there is a noun to your right
+
+* __n>Indef__ (Pron Indef Attr); if eará is to the right
+
+* __n>Indef__ (Pron Indef Com); if eará is to the right
+
+
+* __>nNum__ (@>N) for numerals if; there is a noun to your right. You are not allowed to be (Sg Nom), (Sg Acc) or (Sem/Date)
+
+
+
+
+* __noun>n__ (@>N) for Gen; if there is a noun to your right. Restrictions: Not if you are: a time related word. Not if you are OKTA with Pl Loc to your right. Not if CC is to your right followed by another Gen and then Po. Not if you are HUMAN and to your right is Actio Nom folloed by a noun.
+
+
+
+
+
+
+
+
+
+
+* __>nTime__ (@>N) for Gen TIME-N; if timenoun to your right. Restrictions: Not if you are a OKTA Nom with Pl Loc to your right. Not if CC followed by Gen, followed by Po to your right. Not if COMMA to your right
+
+
+
+
+* __>ntittel__ (@>N) for (Sg Nom TIME-N) or (Nom Der/NomAg); if to your right is Sem/Mal, Sem/Fem, Sem/Sur
+
+* __>nplc__ (@>N) for (Sg Nom Prop Sem/Plc), if to your right is Sem/Plc
+
+
+* __>nALU__ (@>N) for Sg Acc numerals; when a measure-noun to the right
+
+
+
+* __>NTime__ (@>N) for Gen; if you are TIME-N with BOC to your left, and PREGEN to your right
+
+
+
+* __n<:Refl__ (@N<) for (Refl Nom); if to the left is (N Nom), or if first one to the left is a finite mainverb with a (N Nom) to the left
+
+
+* __>pron1__ (@>Pron) for GRADE-ADV, DUSSE, BUOT if; first one to the right is Pron
+
+* __>pron2__ (@>Pron) for (Refl Nom) if; first one to the right is Refl
+
+* __>pron3__ (@>Pron) for (Pron Recipr) if; first one to the right is (Pron Recipr)
+
+* __vaikko__ (@>Pron) for vaikko if; first one to the right is Indef
+
+* __vaikkoman__ (@>ADVL) for vaikko if; first one to the right is man
+
+* __dasmaŋŋel__ (@>ADVL) for vaikko if; first one to the right is man
+
+* __adv>advl__ (@>ADVL) 
+
+* __adv>advl__ (@>ADVL) 
+
+
+
+
+
+
+* __BOSvoc__ (@VOC) for HUMAN Nom; if sentence initial. To the right is comma. No nom-cased HUMAN followed by comma or CC is allowed to the right. There should not be a relative clause to the right, because then you are likely to be SUBJ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* __voc__ (@VOC) for Nom HUMAN; if comma to the left and an second person verb or pronoun to the left. To the right is the end of the sentence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* __Particle<subj __ (@PCLE)
+
+
+* __spred<obj__ (@SPRED<OBJ) for Acc; the object of an SPRPED. Not to be mistaken with OPRED. If SPRED is to the left, and copulas is to the left of it. Nom or Hab are found sentence initially.
+
+
+
+* __Hab<subj__ (<ext> @<SUBJ) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
+
+
+
+* __Hab<subj__ (<ext> @<SUBJ) with relative clause in between
+
+
+* __Hab>Advlcase<subj__ (<ext> @<SUBJ) for Nom; it allows adverbials with Ill/Loc/Com/Ess to be found inbetween HAB and <ext>.
+
+* __Nom>Advlcase<subj__ (<ext> @<SUBJ) for Nom; it allows adverbials with Ill/Loc/Com/Ess to be found inbetween Nom and <ext> @<SUBJ.
+
+* __<extSubj__ (<ext> @<SUBJ) for Nom; if copulas to the left, and some kind of adverb, N Loc, time related word or Po to the left of it. OR: if Ill or @Pron< to the left, followed by copulas and the before mentioned to the left of copulas.
+
+* __<extSubj__ (<ext> @<SUBJ) for sma Nom; if some kind of adverb to the left, N Loc, time related word or Po to the left of it. 
+
+
+* __<extSubjA__ (<ext> @<SUBJ) for A - TEST WITHOUT THIS ONE
+
+* __<extSubj__ (<ext> @<SUBJ) for Nom; if leat to the left and sentenceboundary
+
+
+
+* __<extSubj__ (<ext> @<SUBJ) for Nom, but not for Pers. To the left boahtit or heaŋgát as MAINV, and futher to the left is some kind of place related word, or time related word
+
+* __loc<extSubj__ (<ext> @<SUBJ) for Nom
+
+* __<spred__ (@<SPRED) for Nom; if Nom to the left, copulas to the left of Nom, and a time related word to the left of it.
+
+
+* __<extQst1__ (<ext> @<SUBJ) for Nom; in an existential sentence. To your left is hab, some kind of place or time-word or Po. This is a Qst-sentence so the qst-pcle is attached to leat or following leat
+
+* __<extQst2__ (<ext> @<SUBJ) for Nom; in an existential sentence. To your left is leat and it is sentence initial. No attributes or other words are allowed inbetween (because then you are SPRED), except the attribute muhtun, muhtin
+
+* __extQst3>__ (<ext> @SUBJ>) for Nom; if habitive first one to the left, followed by copulas.
+
+* __extQst3>__ (<ext> @SUBJ>) for Nom; if habitive first one to the left, followed by copulas.
+
+
+* __<extsubjcoor__ (<ext> @<SUBJ) for Nom. Coordination
+
+* Sem/Year
+
+
+
+
+
+
+
+
+* __<spredQst__ (@<SPRED) for Nom; in a typically question sentence; You are not allowed to be Pers or human. The special part is that Nom is not allowed to your right
+
+* __<spredQst2__ (@<SPRED) for (A Nom); in a typically question sentence; You are SPRED if (N Nom) is to your left and leat + qst is to the left
+
+* __<spredQst3__ (@<SPRED) for (A Nom); you are SPRED when you are (A Nom) and to your right is (N Nom). This is a Qst-sentence, so copulas is found to your left
+
+* __<spredQst4__ (@<SPRED) for Nom; but only in a qst-sentence where there is no chance of you beeing the subj
+
+* __<NomBeforeSpred__ (@<SPRED) for (A Nom) if; Nom to the left, and copulas is to the left of Nom. There is no Nom allowed to the right of copulas! To avoid messing with coordination: ja, dahje and comma are not allowed to your left. Comma is not allowed to your right; if so then you are likely to be coordinated
+
+* __<spred__ (@<SPRED) for A Nom or N Nom if; the subject Nom is on the same side of copulas as you: on the right side of copulas
+
+* __<spredVeara__ (@<SPRED) for veara + Nom; if genitive immediately to the right, and intransitive mainverb to the right of genitive
+
+* __leftCop<spred__ (@<SPRED) for Nom; if copulas is the main verb to the left, and there is no Ess found to the left of cop (note that Loc is allowed between target and cop). OR: if you are Coll or Sem/Group with copulas to your left.
+
+* __<spredLocEXPERIMENT__ (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
+
+* __NumTime__ (@<SPRED) for A Nom
+
+* __<spredSg__ (@<SPRED) for Sg Nom
+
+* __<spredPg__ (@<SPRED) for Pl Nom
+
+* __<spred__ (@<SPRED) for Nom; if copulas to the left, and Nom or sentence boundary to the left of copulas. First one to the right is EOS.
+
+* __COP<spredEss__ (@<SPRED) for N Ess
+
+* __spredEss>__ (@SPRED>) for N Ess; if copulas to the right of you, and if an NP with nom-case first one to your left.
+
+* __GalleSpred>__ (@SPRED>) for Num Nom; if sentence initial
+
+* __spredSgMII>__ (@SPRED>)
+
+* __spredšaddat>__ (@SPRED>)
+
+
+* __r492>__ (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
+
+
+
+* __AdjSpredSg>__ (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
+
+
+
+
+
+* __Spred>SubjInf__ (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
+
+* __spredCoord__ (@<SPRED) coordination for Nom; only if there already is a SPRED to the left of CNP. Not if there is some kind of comparison involved.
+
+
+
+
+
+
+
+
+
+* __subj>Sgnr1__ (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left)
+
+
+
+* __subj>Du__ (@SUBJ>) for dual nominatives, including Coll Nom. VFIN + Du3 to the right.
+* __subj>Pl__ (@SUBJ>) for plural nominatives, including Coll and Sem/Group. VFIN + Pl3 to the right.
+
+* __subj>Pl__ (@SUBJ>) for plural nominatives
+
+
+* __subj>Sg__ (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
+
+* __Sg<subj__ (@<SUBJ) for Nom Sg; if VFIN Sg3 or Du2 to the left (no HAB allowed to the left).
+
+* __Du<subj__ (@<SUBJ) for Nom Coll if; a dual third person verb is found to the left
+
+* __PlDu<subj__ (@<SUBJ) for (N Nom Pl), (Sem/Group Nom), (Coll Nom), (Pron Nom Pl) if; a verb is Pl3 or Du3 to your left. The verb is not allowed to be copulas with a place, Loc or time noun to its left
+
+* __copPl3<subj__ (@<SUBJ) for Nom Pl; you don't to be a noun, only Nom Pl. To the left is copulas and first one to the right is @<SPRED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* __-fsubj>__ (@-FSUBJ>) for HUMAN Gen; in a NP-clause. To your right is Actio Nom followed by a noun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* __f<advl__ (@-F<ADVL) for infinite adverbials
+
+
+
+
+
+* __f<advl__ (@-F<ADVL) for infinite adverbials
+
+
+
+
+
+
+
+
+
+* __s-boundary=advl>__ (@ADVL>) for ADVL that resemble s-boundaries. Mainverb to the right.
+
+
+
+
+
+* __diibmuadvl>__ (@ADVL>) for (diibmu Nom) if first one to the right is Num
+
+
+* __-fsubj__ (@-FSUBJ>) for HUMAN Acc after DADJAT verbs
+
+
+
+* __-fobj>__ (@-FOBJ>) for Acc if front of abessive, gerundium, actio locative, perfectum participle or infinitive. First one to the right not allowed to be Acc though
+
+* __-fobj>__ (@-FOBJ>) for Acc if human with ADVL-case to the left and transitive infinitive OBJ to the right. First one to the right not allowed to be Acc though
+
+
+
+
+
+
+
+
+
+
+
+
+* __advl>mainV__ (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* __V<advl__ (@<ADVL) if; finite mainverb found to the left. Not if a comma is found immediately to the left and a finite mainverb is located somewhere to the right of this comma.
+
+
+
+
+
+* __advl>v__ (@ADVL>) if; you are ADVL, time-noun or Sem/Route and there is a finite verb to the right in the clause, or if to your right is: de followed by a finite verb. OR: if you are a time-nound and to your right is: go or sentenceboundary followed by a finite verb
+
+
+
+* __<advlPoPr__ (@<ADVL) for Po or Pr; if mainverb to the left.
+* __advlPoPr>__ (@<ADVL) for Po or Pr; if mainverb to the right.
+
+* __BOSPo>__ (@ADVL>) for Po; if trapped between BOS to the right and S-BOUNDARY OR COMMA to the left, because the main verb will then automatically be on your right side.
+
+* __<advlComIll__ (@<ADVL) only if; you are Com OR Ill. To your left is a mainverb, and to your right a sentenceboundary, because we don't want there to be another mainverb you potentially could belong to
+
+* __<advlEOS__ (@<ADVL) for Po or Pr or Loc; if you are found at the very end of a sentence. A mainverb is needed to the left though.
+
+
+* __<advlGen__ (@<ADVL) for (N Gen) if mainverb to the left and no noun to the right
+
+
+* __<opredgohcodit__ (@<OPRED) for Ess
+
+
+* __advlEss>__ (@<ADVL) for weather and time Ess, if FMAINV to the left.
+
+
+
+
+* __comma<advlEOS__ (@<ADVL) for Adv if; mainverb is to the left. Comma to the left and mainverb to the right in the same clause is not allowed
+
+
+* __advl>inbetween__ (@ADVL>) for Adv; if inbetween two sentenceboundaries where no mainverb is present.
+
+* __comma<advlEOS__ (@<ADVL) for Adv if; comma found to the left and the finite mainverb to the left of comma. To the right is the end of the sentence.
+
+
+
+* __BOSadvl>__ (@ADVL>) if; you are N Loc or N Ill and found sentence initially and there is a main verb somewhere to the right. No barrier for the mainverb; based on the thought that first one to your right is probably a sentenceboundary.
+
+* __cleanupILL<advl__ (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
+
+
+
+* __cleanupPo__ (@ADVL) for Po: This rule tags all Po:s as ADVL if they haven't gotten a tag somewhere along the way.
+
+* __cleanupPr__ (@ADVL) for Po: This rule tags all Pr:s as ADVL if they haven't gotten a tag somewhere along the way.
+
+
+
+
+* __-fsubj>asAcc__ (@-FSUBJ>) for HUMAN Acc; if there is a verb @-F<OBJ to your left
+
+* __-f<obj__ (@-F<OBJ) for Acc if there is a transitive verb + SYN-V to your left
+
+* __-fsubj>IV__ (@-FSUBJ>) for Acc; if there is an IV-verb acting as a @-F<OBJ to your right
+
+* __-fsubj>IV__ (@-FSUBJ>) for Acc; if there is an TV-verb acting as a @-F<OBJ to your right followed by an Acc
+
+* __-fsubj>asGen__ (@-FSUBJ>) for Gen;
+
+* __f<subj__ (@-F<SUBJ) for Nom if; (V @-F<OBJ) to the left.
+
+
+
+
+
+
+
+* __<opredAAcc__ (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
+
+* __TV<obj__ (@<OBJ) for Acc; if there is a transitive mainverb to the left in the clause. Not for Rel. Not if you are a numeral followed by a measure-noun
+
+
+
+!sma object
+
+
+* __<advlMeasr__ (@<ADVL) for (Num Acc); if finite IV-mainverb to the left, measure-noun to the right
+
+* __<objMeasr__ (@<OBJ) for Num Acc; if finite TV-mainverb to the left, measure-noun to the right
+
+* __<advlMeasr2__ (@<ADVL) for MEASR-N + Acc; if (Num Pl) to the left and mainverb to the left of it
+
+* __advlMeasr>__ (@ADVL>) for Num Acc;
+
+
+* __Obj>__ (@OBJ>) for Acc; if there is a finite mainverb to the right in the clause. A really simple rule with no other restrictions..
+
+* __s-boun<obj__ (@<OBJ) for Acc; if sentenceboundary to your left and a transitive mainverb to the left futher to the left
+
+* __<objIV__ (@<OBJ) for Acc; if there is an intransitive mainverb in the clause. Not for Rel or Num. Not if you are a numeral followed by a measure-noun
+
+
+
+
+
+
+
+* __<advlEss__ (@<ADVL) for ESS-ADVL if; FMAINV to the left
+
+* __IV<spredEss__ (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
+
+* __<opredEss__ (@<OPRED) for (N Ess), (A Ess) if; transitive mainverb to the left in the clause. If accusative to the left or to the right, or if Inf or ahte to the right, or if there is a noun to the right followed by an Inf
+
+* __Acc<opredEss__ (@<OPRED) for (N Ess), (A Ess) if; transitive mainverb to the left in the clause, and an accusative cased Rel left to the verb
+
+* __onlyV<opred__ (@<OPRED) for (N Ess) if; there is a transitive mainverb to the left. Usually there needs to be an Acc to the left, but here it is not needed
+
+* __onlyV<opred2__ (@<OPRED) for (N Ess) if;
+
+
+
+
+
+
+
+
+
+
+
+!!SUBJ MAPPING - leftovers
+
+* __subj>ifV__ (@SUBJ>) for NP-HEAD-NOM, DUPRON or (Num Nom) if; a finite mainverb is found to the right. This is a cleanup rule for subjects
+
+* __hnoun>ifV__ (@SUBJ>) for NP-HEAD-NOM, DUPRON if. The counterpart of subj>ifV. You are HNOUN if there is a finite verb to your right, but NOT if there is a finite verb after a relative clause
+
+
+!!OBJ MAPPING - leftovers
+
+!!<logo> MAPPING for MT - experimental
+
+
+!!HNOUN MAPPING
+
+
+
+
+
+
+
+
+
+* __@<ADVLcoor__ (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
+
+
+
+
+! __missingX__ adds @X to all missings
+
+
+
+
+
+! __therestX__ adds @X to all what is left, often errouneus disambiguated forms
+
+
+
+
+
+
+!!For Apertium:
+The analysis give double analysis because of optional semtags. We go for the one with semtag.
+
+
+
+
+
+
 
