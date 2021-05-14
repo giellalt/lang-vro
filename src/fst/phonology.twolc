@@ -203,6 +203,9 @@ K1:k
 %^PAL:0	      !!= @CODE@ — Palatalization
 %^NoPAL:0	      !!= @CODE@ — NoPalatalization
 
+%^JI20:0	      !!= @CODE@ — in vari: vaŕo
+%^JI2I:0	      !!= @CODE@ — in vari vari
+%^JI2J:0	      !!= @CODE@ — in vari: varjo
 
 %^PenWGStem:0 !!= @CODE@ — This weakens "kipõń" to "kibõna"
 %^PenVowRM:0  !!= @CODE@ — syncope tapõld : taplõma 
@@ -288,6 +291,7 @@ CnsVoiced = j l m n r v ;
 ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} %{ao%}%{eØ%} ;
 
 ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{bv%} %{bm%} %{pb%} %{td%} %{gv%} %{gl%} %{gØ%} %{kg%} %{dØ%} %{dv%} %{dl%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{sś%} %{lĺ%} %{rŕ%} %{nń%} %{ij%} %{kḱ%} %{hh́%} %{t́d́%} %{gǵ%} %{dd́Ø%} %{dd́n%} %{dd́r%} %{dd́v%} %{gǵv%} 
+%{jiØ%} 
 %{pṕb%} 
 %{dd́%}
 %{vv́%}
@@ -503,7 +507,7 @@ Rules
  _ Vow: Cns:* (HarmDummies:) PenVOWHite PenGRAD %^Pen: %^PAL: ;
 ! _ Vow: Cns:* (HarmDummies:) PenVOWHite %^Pen: %^PAL: ;
  _ Vow: (HarmDummies:) PenVOWHite PenGRAD (%^VowRM:|%^Pen:) %^PAL: ;
- _ (%{jiØ%}:) (HarmDummies:) %^PAL:  ;
+ _ (%{jiØ%}:) [(HarmDummies:) %^PAL:| Vow: (HarmDummies:) %^Pen: %^PAL:]  ;
 
       where Cx in (%{bb́%} %{dd́%} %{ff́%} %{gǵ%} %{hh́%}  %{lĺ%} %{mḿ%} %{nń%} %{pṕ%} %{rŕ%} %{sś%} %{tt́%}  %{vv́%} %{zź%})
             Cy in (b́   d́   f́  ǵ  h́   ĺ  ḿ  ń  ṕ  ŕ  ś  t́  v́  ź) matched ;
@@ -529,7 +533,7 @@ Rules
 ! _ (HarmDummies:) PenVOWHite (%^Pen: [%^G1:|%^G2:|%^G3:|%^StrGStem:|%^WGStem:|%^CC2C:]) (%^Pen: %^VowRM: ) (%>) %^NoPAL: ;
  _ Vow: Cns:* (HarmDummies:) PenVOWHite PenGRAD %^Pen: %^NoPAL: ;
  _ Vow: (HarmDummies:) PenVOWHite PenGRAD (%^VowRM:) %^NoPAL: ;
- _ (%{jiØ%}:) (HarmDummies:) %^NoPAL:  ;
+ _ (%{jiØ%}:) [(HarmDummies:) %^NoPAL:| Vow: (HarmDummies:) PenVOWHite (%^Pen: [%^JI2J:|%^JI2I:] ) %^Pen: %^NoPAL:]  ;
 
       where Cx in (%{bb́%} %{dd́%} %{ff́%} %{gǵ%} %{hh́%}  %{lĺ%} %{mḿ%} %{nń%} %{pṕ%} %{rŕ%} %{sś%} %{tt́%}  %{vv́%} %{zź%})
             Cy in (b   d   f   g   h  l  m   n   p  r  s  t  v  z) matched ;
@@ -853,7 +857,7 @@ Rules
 
 "o:0"
 !! **@RULENAME@**
- o:0 <=>  [ Cns: | :Cns |ArchCns:] _ (s:) (HarmDummies:) [ (PenVOWHite %^Pen: [%^G1:|%^G2:|%^G3:|%^G4:|%^StrGStem:]|%^Pen: %^CC2C:) %^VowRM: (õ) ]   ; 
+ o:0 <=>  [ Cns: | :Cns |ArchCns:] _ (s:) (HarmDummies:) [ (PenVOWHite (%^Pen: %^NoPAL:) %^Pen: [%^G1:|%^G2:|%^G3:|%^G4:|%^StrGStem:|%^JI2I:]|%^Pen: %^CC2C:) %^VowRM: (õ) ]   ; 
            o: _ (HarmDummies:) [VOWHite %^VowRM:|%^OO2Õ:] ;
 !! juuma+V+Inf
 !!€ j{ou}{ou}{back}^VOWRaise^VowRM>vv>{aä}q
@@ -1008,13 +1012,18 @@ Rules
 "%{jiØ%}:j"
 !! **@RULENAME@**
  %{jiØ%}:j  <=>
-    [Cns:|ArchCns:] _ [(HarmDummies:) %^I2J: | Vow: (HarmDummies:) %^Pen: %^XStrGStem: ] ;
+    [Cns:|ArchCns:] _ [(HarmDummies:) %^I2J: | Vow: (HarmDummies:) %^Pen:  %^NoPAL: %^Pen: %^JI2J: ] ;
+
+"%{jiØ%}:i"
+!! **@RULENAME@**
+ %{jiØ%}:i  <=>
+    [Cns:|ArchCns:] _  Vow: (HarmDummies:)  %^Pen:  %^NoPAL:  %^Pen: %^JI2I:  ;
 
 "%{jiØ%}:0"
 !! **@RULENAME@**
  %{jiØ%}:0  <=>
     [Cns:|ArchCns:] _ (HarmDummies:) (%^PAL:) %^VowRM: ;
-    [Cns:|ArchCns:] _ Vow: (HarmDummies:) %^Pen: %^PAL: PenVOWHite %^Pen: %^WGStem: ;
+    [Cns:|ArchCns:] _ Vow: (HarmDummies:) PenVOWHite (%^Pen: %^PAL:) %^Pen: %^JI20: ;
 !! vari+N+Sg+Gen: **shadow/varjo**
 !!€ va%{rŕ%}%{jiØ%}o%{back%}%^Pen%^PAL%^Pen%^WGStem
 !!€ vaŕ0o00000
