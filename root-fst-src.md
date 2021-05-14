@@ -459,6 +459,9 @@ And following triggers to control variation
   %^Pen	       This moves us to penultimate coda
   %^PAL	       — Palatalization
   %^NoPAL       — NoPalatalization
+ %^JI20	       — in vari: vaŕo
+ %^JI2I	       — in vari vari
+ %^JI2J	       — in vari: varjo
 
  %^PenWGStem  This weakens "kipõń" to "kibõna"
 

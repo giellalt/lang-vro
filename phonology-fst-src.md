@@ -191,6 +191,9 @@
  %^PAL:0	       — Palatalization
  %^NoPAL:0	       — NoPalatalization
 
+ %^JI20:0	       — in vari: vaŕo
+ %^JI2I:0	       — in vari vari
+ %^JI2J:0	       — in vari: varjo
 
  %^PenWGStem:0  — This weakens "kipõń" to "kibõna"
  %^PenVowRM:0   — syncope tapõld : taplõma 
@@ -621,6 +624,8 @@ elläi+N+Sg+Gen
 
 
 **%{jiØ%}:j**
+
+**%{jiØ%}:i**
 
 **%{jiØ%}:0**
 vari+N+Sg+Gen: **shadow/varjo**

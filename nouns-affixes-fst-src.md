@@ -1359,10 +1359,10 @@ stem_vowel="o"
 
 
 
- * :%^Pen%^PAL%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;  vaŕo
- * +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;  vaŕo
+ * :%^Pen%^PAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
+ * +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
 
- * :%^Pen%^NoPAL%^Pen%^XStrGStem%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
+ * :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
 
 
 

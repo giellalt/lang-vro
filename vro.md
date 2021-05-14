@@ -2960,6 +2960,9 @@ ADD NOUNS BELOW
  %^PAL:0	       — Palatalization
  %^NoPAL:0	       — NoPalatalization
 
+ %^JI20:0	       — in vari: vaŕo
+ %^JI2I:0	       — in vari vari
+ %^JI2J:0	       — in vari: varjo
 
  %^PenWGStem:0  — This weakens "kipõń" to "kibõna"
  %^PenVowRM:0   — syncope tapõld : taplõma 
@@ -3390,6 +3393,8 @@ elläi+N+Sg+Gen
 
 
 **%{jiØ%}:j**
+
+**%{jiØ%}:i**
 
 **%{jiØ%}:0**
 vari+N+Sg+Gen: **shadow/varjo**
@@ -5399,10 +5404,10 @@ stem_vowel="o"
 
 
 
- * :%^Pen%^PAL%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;  vaŕo
- * +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^WGStem       SG-GEN_ZERO-STEM        ;  vaŕo
+ * :%^Pen%^PAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
+ * +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
 
- * :%^Pen%^NoPAL%^Pen%^XStrGStem%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
+ * :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
 
 
 
@@ -8108,6 +8113,9 @@ And following triggers to control variation
   %^Pen	       This moves us to penultimate coda
   %^PAL	       — Palatalization
   %^NoPAL       — NoPalatalization
+ %^JI20	       — in vari: vaŕo
+ %^JI2I	       — in vari vari
+ %^JI2J	       — in vari: varjo
 
  %^PenWGStem  This weakens "kipõń" to "kibõna"
 
