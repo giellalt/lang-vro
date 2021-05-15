@@ -41,6 +41,7 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
 Õ̭  !!≈ * **@CODE@** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
 %{ˋØ%} !!≈ ```@CODE@ - U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
 
+
 !! The parts-of-speech are:
  +N	    !!≈ * **@CODE@** Noun
 +A	    !!≈ * **@CODE@** Adjective
@@ -73,10 +74,12 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
 
 !! The Usage extents are marked using following tags:
  +Err/Orth    !!≈ * **@CODE@**
+ +Err/Orth-dAq-should-be-q-inf    !!≈ * **@CODE@** hirnahtadaq should be hirnahtaq
  +Err/Orth-no-pal    !!≈ * **@CODE@** palatalization is missing
  +Err/Orth-no-q	     !!≈ * **@CODE@** Q is missing
  +Use/-Spell !!≈ * **@CODE@**
  +Use/NG     !!≈ * **@CODE@** No generation
+ +Cmp/Hyph   !!≈ * **@CODE@** 
 
 !! The nominals are inflected in the following Case and Number
  +Sg   !!≈ * **@CODE@** Singular
@@ -648,6 +651,21 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
 %^U2E !!= @CODE@ lowers u:õ and ü:e delabializes and lowers
 %^U2A !!= @CODE@ lowers u:a and ü:ä delabializes and lowers
 
+ ∑   !!≈ **@CODE@** = a symbol used in front of `#` to block backtracking and
+     !!           mwe reanalysis in hfst-tokenise (e.g. in dynanic compounds).
+     !!           Makes it possible to distinguish lexical and dynamic compounds
+     !!           in rules. It is converted to zero together with `#`.
+
+
+!! | Flag | Explanation
+!! | ---- | ----------- 
+ @D.ErrOrth.ON@      !!≈ |  @CODE@ 
+ @C.ErrOrth@         !!≈ |  @CODE@ 
+ @P.ErrOrth.ON@      !!≈ |  @CODE@ 
+ @R.ErrOrth.ON@      !!≈ |  @CODE@ 
+
+
+
   +Gram/TAbbr    !!≈ * **@CODE@**:  Transitive abbreviation (it needs an argument)
   +Gram/NoAbbr   !!≈ * **@CODE@**:  Intransitive abbreviations that are homonymous
                  !!    with more frequent words. They should only be considered
@@ -754,8 +772,10 @@ LEXICON Root
  @U.Cap.Opt@  PROP_NEWWORDS ;           !!≈ * **@CODE@**
   V_NEWWORDS ;           !!≈ * **@CODE@**
  GenitiveAttributes ; !!≈ * **@CODE@** Borrowed from experimental_languages est
-
-
+ NUM-PREFIXES ; !!≈ * **@CODE@** copied from giella-shared/smi
+ ARABICS ;
+ ROMAN ;
+ 
 LEXICON NounRoot
 N_NEWWORDS ;
 !nouns ;

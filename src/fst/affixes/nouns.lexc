@@ -228,6 +228,15 @@ LEXICON N_8HAEIELM-SG
 LEXICON N_8HAEIELM-PL
 :%{front%} NMN_8KASK/HAEIELM-PL ;
 
+LEXICON N_8TUHAT ! tuhat+N:tuha
+:%^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
+ N_8TUHAT-SG ;
+ N_8TUHAT-PL ;
+LEXICON N_8TUHAT-SG
+:%{back%} NMN_8TUHAT-SG ;
+LEXICON N_8TUHAT-PL
+:%{back%} NMN_8TUHAT-PL ;
+
 LEXICON N_9KIPWN1
 !! kipõń:kipõn
 !! * Yaml:**N-kipwnj9**
@@ -2318,6 +2327,22 @@ LEXICON NMN_8SADANG-PL
 +Err/Orth+Use/NG:%^VowRM%>ii        PL-ILL_he       ;
 +Err/Orth+Use/NG:%^VowRM%>ii      PL-PAR_d        ;
 +Err/Orth+Use/NG:%^VowRM%>iid%{eõ%}      PL-COM        ;
+
+LEXICON NMN_8TUHAT-SG 
+:t        Harm-Neutr_SG-NOM  ;
+:ndõ        SG-GEN_ZERO-STEM       ;
+:ndõ        Harm-Neutr_SG-PAR_t        ;
+:ndõ        Harm-Neutr_SG-ILL_he       ;
+
+:ndõ        SG-ILL_dE       ;
+
+LEXICON NMN_8TUHAT-PL 
+:ndõ        Harm-Neutr_PL-NOM ;
+:nd%>i     Harm-Neutr_PL-GEN_dE ;
+:nd%>i        PL-ILL_he       ;
+:nd%>i        PL-ALL_lE-STEM       ;
+:nd%>i      PL-PAR_t        ;
+:nd%>id%{eõ%}      PL-COM        ;
 
 !LEXICON NMN_8DOLLAR1/EEDER1
 !!! * Yaml: __N-dollaŕ__
@@ -4638,6 +4663,8 @@ LEXICON NMN_33XX/IGAE-PL
 LEXICON NMN_33JWGI/MAEGI-SG 
 !tõ%{pØ%}%{pbv%}
 :%^G2%>i        Harm-Neutr_SG-NOM  ;
+	NMN_33JWGI/MAEGI-SG-OBL ;
+LEXICON NMN_33JWGI/MAEGI-SG-OBL
 :%^G1%>%{eõ%}       SG-GEN_ZERO-STEM        ;
 :%^G4%>%{eõ%}       Harm-Neutr_SG-ILL_ZERO        ;
 :%^G3%>%{eõ%}       Harm-Neutr_SG-PAR_ZERO        ;
@@ -6252,6 +6279,28 @@ LEXICON K_COMP_OR_SG-NOM-END
 +Sg+Nom: # ;
  ATTESTED-NOUN-STEM-CONTINUED ;
  K ;
+
+!! digits
+!LEXICON NAMATCont !!= * **@CODE@** second-part compounds
+!beallji+N+Sem/Ani_Hum:bealj DER-AGAdj "eared A" ; !
+
+LEXICON SASCont !!= * **@CODE@** FROM NUMERALS, gives -aastanõ etc.
+aastanõ+A:aasta A_13ALONW ;
+kroonilinõ+A:kroonili A_13ALONW ;
+kõrralinõ+A:kõrrali A_13ALONW ;
+kraadinõ+A:kraadi A_13ALONW ;
+milĺonalinõ+A:milĺonali A_13ALONW ;!
+pääväne+A:päävä A_13TAEHINE ;
+tunninõ+A:tunni A_13ALONW ;
+
+kotussõlinõ+A:kotussõli A_19ALOMANW ;
+liikmõlinõ+A:liikmõli A_19ALOMANW ;
+aastaganõ+A:aastaga A_19ALOMANW ;
+klassilinõ+A:klassili A_19ALOMANW ;
+meheline+A:meheli A_19PEDAEJAENE ;
+nädäline+A:nädäli A_19PEDAEJAENE ;
+leheküleline+A:lehe#küleli A_19PEDAEJAENE ;
+ruublilinõ+A:ruublili A_19ALOMANW "_#dsõ, #st__ˋruublili|nõ_" ;
 
 ! vim: set ft=xfst-lexc:
 

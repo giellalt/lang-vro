@@ -95,8 +95,9 @@ minemä+Use/NG+V+Act+Ind+Prt+Pl3:%{front%}lätsiväq K ;
 
 !! olõma **to be/ olla**
 olõma+V+Act+Ind+Prs+Sg3:um%{back%} K ;
-olõma+V+Act+Ind+Prs+Pl3:ummaq%{back%} K ;
-olõma+V+Act+Ind+Prs+Pl3:ummavaq%{back%} K ;
+olõma+v1+V+Act+Ind+Prs+Pl3:ummaq%{back%} K ;
+olõma+v2+V+Act+Ind+Prs+Pl3:ommaq%{back%} K ;
+olõma+v3+V+Act+Ind+Prs+Pl3:ummavaq%{back%} K ;
 olõma+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-õi K ;
 olõma+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-iq K ;
 olõma+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-i K ;
@@ -104,12 +105,14 @@ olõma+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-i K ;
 !! nakkama **to start/ alkaa**
 nakkama+V+Act+Ind+Prt+Sg3:naaś%{back%} K ;
 
+!! pidämä **to keep/ pitää**
+pidämä+V:pee%{front%} PSS-IND-PRS-SG1_dA/SG3_tAs ;
+
 !! tegemä **to do/ tehdä**
 
 tegemä+V+Act+Ind+Prs+Pl1:teemiq%{front%} K ;
 
 !! võtma **to take (pass)/ ottaa**
 võtma+V:võe Harm-Neutr_NÕSTMA-PSS-DISTRIBUTION ; !!These are irregular but primary
-võtma+V:võe Harm-Neutr_VISKAMA_PSS-IND-PRT_ti ;
-võtma+V:võe Harm-Neutr_V0-PSS-PRSPRC_tAv ;
-võtma+V:võe Harm-Neutr_VISKAMA-PSS-PRFPRC_t ;
+
+võtma+V:võe%{back%} PSS-IND-PRT-SG1_di/SG3_ti/PRS-SG1_dA/SG3_tAs/PSS-PRFPRC_t/SG-GEN_dU  ;

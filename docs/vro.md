@@ -2674,6 +2674,7 @@ Three-syllable words
 
 
 
+
 atma+V:atta, ikma+V:ikkõ
 petmä+V:pettä
 This is where new words are added as lexc entries before they are
@@ -2734,10 +2735,13 @@ olõma **to be/ olla**
 
 nakkama **to start/ alkaa**
 
+pidämä **to keep/ pitää**
+
 tegemä **to do/ tehdä**
 
 
 võtma **to take (pass)/ ottaa**
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 kõhna+A:kõhna A_1HANS1A "" ;
@@ -2790,6 +2794,7 @@ special letters, cf. https://github.com/hfst/hfst/issues/497 Trond.
  * **Õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
  ```%{ˋØ%} - U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
 
+
 The parts-of-speech are:
  * **+N** Noun
  * **+A** Adjective
@@ -2822,10 +2827,12 @@ The parts of speech are further split up into:
 
 The Usage extents are marked using following tags:
  * **+Err/Orth**
+ * **+Err/Orth-dAq-should-be-q-inf** hirnahtadaq should be hirnahtaq
  * **+Err/Orth-no-pal** palatalization is missing
  * **+Err/Orth-no-q** Q is missing
  * **+Use/-Spell**
  * **+Use/NG** No generation
+ * **+Cmp/Hyph** 
 
 The nominals are inflected in the following Case and Number
  * **+Sg** Singular
@@ -3249,6 +3256,21 @@ And following triggers to control variation
  %^U2E  lowers u:õ and ü:e delabializes and lowers
  %^U2A  lowers u:a and ü:ä delabializes and lowers
 
+ **∑** = a symbol used in front of `#` to block backtracking and
+          mwe reanalysis in hfst-tokenise (e.g. in dynanic compounds).
+          Makes it possible to distinguish lexical and dynamic compounds
+          in rules. It is converted to zero together with `#`.
+
+
+| Flag | Explanation
+| ---- | ----------- 
+ |  @D.ErrOrth.ON@ 
+ |  @C.ErrOrth@ 
+ |  @P.ErrOrth.ON@ 
+ |  @R.ErrOrth.ON@ 
+
+
+
  * **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
  * **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous
    with more frequent words. They should only be considered
@@ -3350,7 +3372,7 @@ Incoming
  * **@U.Cap.Opt@ PROP_NEWWORDS ;**
  * **V_NEWWORDS ;**
  * **GenitiveAttributes ;** Borrowed from experimental_languages est
-
+ * **NUM-PREFIXES ;** copied from giella-shared/smi
 
 
 less complex word classes
@@ -3441,6 +3463,7 @@ Noun inflection for Võro
 
 
 * Yaml: **fueuesiga**
+
 
 
 
@@ -3939,6 +3962,9 @@ Secondary
 
 
 Secondary
+
+
+
 
 
 
@@ -5018,6 +5044,11 @@ gradation: yes
 
 
 
+digits
+
+ * **LEXICON SASCont ** FROM NUMERALS, gives -aastanõ etc.
+
+
 
 Adjective inflection
 The VÕRO language adjectives compare.
@@ -5219,16 +5250,20 @@ There are other verbs here, cf. V_ELAEMAE
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: **V-palama48**
 
-
-
-
-
-
-
-
-
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: ____
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5389,6 +5424,9 @@ kiirdlemä:keerdel
 front
 
  * **LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE** hirnahtama:hirnahta, tähendämä:tähend
+
+
+
 
 
 
@@ -5695,19 +5733,16 @@ Act+Ind+Prt+Sg3
  * **LEXICON V_76LUGWMA/XX** lugõma:lu%{kg0%}õ
 
 Retain consonant and stem vowel
- *  Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) lugõma
-+Act+PrsPrc+Sg OBL, Inf/mA, 
-+Jus
+ * :%^Pen%^G2 Harm-Neutr_INF_mA ;  (1) lugõma:lu%{kgØ%}õ
 
 
-Strengthen consonant retain stem vowel
- * :%^Pen%^StrGStem Harm-Neutr_INF_ZEROq ;  (2) lukõq
- * :%^Pen%^StrGStem Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
-Inf, Act+PrsPrc+Sg+Nom
 
-Retain consonant and stem vowel
- *  Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) lugõnuq
-+Act+PrfPrc
+
+
+
+
+
+
 
 Weaken consonant and semi-retension of stem vowel
  * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
@@ -5821,43 +5856,19 @@ Remainder is in exceptions.lexc
  * **LEXICON V_79TULWMA/XX** tulõma:tul
 
 Retain consonant and stem vowel
- * :%^NoPAL%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) tulõma
-+Act+PrsPrc+Sg OBL, Inf/mA, 
-+Jus, 
 
-Strengthen consonant
- * :%^StrGSt%^NoPAL Harm-Neutr_INF_Aq ;  (2) tullaq
-Inf 
-Strengthen consonant 
- * :%^StrGSt%^NoPAL%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) tullõv
+ * :l Harm-Neutr_INF_Aq ;  (2) tullaq
+ * :l%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) tullõv
 Act+PrsPrc+Sg+Nom
 
-Retain consonant and stem vowel
- * :%^NoPAL Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) tulnuq
-+Act+PrfPrc
-
-Retain consonant 
- * :%^NoPAL Harm-Neutr_LUGWMA_PSS-PRC ;  (4) tul
-Pss+PrfPrc, Pss+PrsPrc, 
 
 
-Retain consonant and add õ
- * :%^NoPAL%{eõ%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) tulõ
-Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
-Pss+Ind
 
-Retain consonant and stem vowel
- * :%^NoPAL%{eõ%} Harm-Neutr_ACT-IND-PRS-3_LUGWMA ;  (6) tulõma
-Ind+Prs+ 3
 
-Strengthen consonant and replace stem vowel with i
- * :%^StrGSt%^NoPAL%>i TULWMA_ACT-IND-PRT-SG1 ;  (7) loi
-Act+Ind+PrtSg1/Sg2/Pl1-3
 
-Strengthen consonant and add ʼ
- * :%^StrGSt%^PAL Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) tulĺ
- * +Err/Orth-no-pal:%^StrGSt%^NoPAL Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) tulĺ
-Act+Ind+Prt+Sg3
+
+
+
 
  * **LEXICON V_79PURWMA** purõma:pur
 * Yaml: **purwma**
@@ -6285,6 +6296,7 @@ CHECK THIS
 
 
 
+
  * LEXICON Harm-Neutr_JUVVA_PSS-IND-PRS  juvva süvvä
 
 
@@ -6344,7 +6356,10 @@ CHECK THIS
 
 
 
+
+
 ### PASSIVE INDICATIVE PRETERIT CONJUGATION
+
 
 
 
@@ -6357,18 +6372,19 @@ CHECK THIS
 
 
 
- * +Use/NG+Err/Orth+Inf:%>d%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Inf:%>d%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth+Inf:%>i%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Inf:%>i%{aä%} K ;  no q
 
 
- * +Use/NG+Err/Orth+Inf:%>%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Inf:%>%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth+Inf:%>t%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Inf:%>t%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth+Inf: K ;  no q
+ * +Use/NG+Err/Orth-no-q+Inf: K ;  no q
 
  * **+Der/JA+N:%>j NMN_9KIPWN1/ELLAEI ;** This should have a +Der/JA tag
+
 
 
  * +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
@@ -6427,7 +6443,6 @@ PASSIVE DISTRIBUTION
 
  * +Err/Orth+Use/NG+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
  * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
-
 
 
  * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
@@ -6767,6 +6782,42 @@ derived from 36särǵ
 
 
 
+vro-digits
+
+
+
+
+
+
+
+
+
+ * **LEXICON ARABICCASES**  adds +Arab
+
+ * **LEXICON ARABICCASE**  adds +Arab
+
+ * **LEXICON ARABICCASE0**  adds +Arab
+
+
+ * **LEXICON DIGITCASES**  to distinguish between 0 and oblique
+
+ * **LEXICON DIGITCASE0**
+
+
+ * **LEXICON DIGITCASE**
+
+
+ * **LEXICON ARABICCASEORD** ordinals
+
+
+
+ * **LEXICON ARABICCASECOLL** collectives
+
+
+ * **LEXICON ROMNUMTAGOBL**
+
+ * **LEXICON ARABICCOMPOUNDS**  ! arabic as first part,
+
 
 
 
@@ -6922,6 +6973,8 @@ Gradation: No
 Gradation: No
 
 
+
+gradation: yes
 
 gradation: yes
 
@@ -7997,9 +8050,12 @@ kaardas+N+Sg+Nom
 
 
 **%{kgØ%}:g**
-jõgi+N+Sg+Nom
-* *jõ%{kØ%}%{kgØ%}%{back%}%^G2%>i*
-* *jõ0g00%>i*
+jõgi+N+Sg+Nom: **river / joki**
+* *jõ{kØ}{kgØ}{back}^G2>i*
+* *jõ0g00>i*
+lugõma+V+Act+Ind+Prs+Sg3
+* *lu{kgØ}õ{back}^Pen^G2*
+* *lugõ000*
 
 **%{pbv%}:b**
 * *tõ%{pØ%}%{pbv%}%{back%}%^G2i*
