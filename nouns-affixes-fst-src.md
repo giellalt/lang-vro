@@ -54,6 +54,7 @@ Noun inflection for Võro
 
 
 
+
 kipõń:kipõn
 * Yaml:**N-kipwnj9**
 
@@ -543,6 +544,9 @@ Secondary
 
 
 Secondary
+
+
+
 
 
 
@@ -1620,6 +1624,11 @@ gradation: yes
 
 ### TAGS WITH NO ADDED MORPHOLOGY THAT CANNOT BE FOLLOWED BY CLITICS
 
+
+
+digits
+
+ * **LEXICON SASCont ** FROM NUMERALS, gives -aastanõ etc.
 
 
 

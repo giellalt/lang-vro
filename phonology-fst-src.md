@@ -1008,9 +1008,12 @@ kaardas+N+Sg+Nom
 
 
 **%{kgØ%}:g**
-jõgi+N+Sg+Nom
-* *jõ%{kØ%}%{kgØ%}%{back%}%^G2%>i*
-* *jõ0g00%>i*
+jõgi+N+Sg+Nom: **river / joki**
+* *jõ{kØ}{kgØ}{back}^G2>i*
+* *jõ0g00>i*
+lugõma+V+Act+Ind+Prs+Sg3
+* *lu{kgØ}õ{back}^Pen^G2*
+* *lugõ000*
 
 **%{pbv%}:b**
 * *tõ%{pØ%}%{pbv%}%{back%}%^G2i*

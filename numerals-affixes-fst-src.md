@@ -218,6 +218,42 @@ derived from 36särǵ
 
 
 
+vro-digits
+
+
+
+
+
+
+
+
+
+ * **LEXICON ARABICCASES**  adds +Arab
+
+ * **LEXICON ARABICCASE**  adds +Arab
+
+ * **LEXICON ARABICCASE0**  adds +Arab
+
+
+ * **LEXICON DIGITCASES**  to distinguish between 0 and oblique
+
+ * **LEXICON DIGITCASE0**
+
+
+ * **LEXICON DIGITCASE**
+
+
+ * **LEXICON ARABICCASEORD** ordinals
+
+
+
+ * **LEXICON ARABICCASECOLL** collectives
+
+
+ * **LEXICON ROMNUMTAGOBL**
+
+ * **LEXICON ARABICCOMPOUNDS**  ! arabic as first part,
+
 
 
 

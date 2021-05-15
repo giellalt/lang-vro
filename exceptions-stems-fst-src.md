@@ -26,7 +26,10 @@ olõma **to be/ olla**
 
 nakkama **to start/ alkaa**
 
+pidämä **to keep/ pitää**
+
 tegemä **to do/ tehdä**
 
 
 võtma **to take (pass)/ ottaa**
+

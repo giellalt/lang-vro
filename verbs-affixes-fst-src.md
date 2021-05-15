@@ -19,16 +19,20 @@ There are other verbs here, cf. V_ELAEMAE
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: **V-palama48**
 
-
-
-
-
-
-
-
-
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: ____
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -189,6 +193,9 @@ kiirdlemä:keerdel
 front
 
  * **LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE** hirnahtama:hirnahta, tähendämä:tähend
+
+
+
 
 
 
@@ -495,19 +502,16 @@ Act+Ind+Prt+Sg3
  * **LEXICON V_76LUGWMA/XX** lugõma:lu%{kg0%}õ
 
 Retain consonant and stem vowel
- *  Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) lugõma
-+Act+PrsPrc+Sg OBL, Inf/mA, 
-+Jus
+ * :%^Pen%^G2 Harm-Neutr_INF_mA ;  (1) lugõma:lu%{kgØ%}õ
 
 
-Strengthen consonant retain stem vowel
- * :%^Pen%^StrGStem Harm-Neutr_INF_ZEROq ;  (2) lukõq
- * :%^Pen%^StrGStem Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
-Inf, Act+PrsPrc+Sg+Nom
 
-Retain consonant and stem vowel
- *  Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) lugõnuq
-+Act+PrfPrc
+
+
+
+
+
+
 
 Weaken consonant and semi-retension of stem vowel
  * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
@@ -621,43 +625,19 @@ Remainder is in exceptions.lexc
  * **LEXICON V_79TULWMA/XX** tulõma:tul
 
 Retain consonant and stem vowel
- * :%^NoPAL%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) tulõma
-+Act+PrsPrc+Sg OBL, Inf/mA, 
-+Jus, 
 
-Strengthen consonant
- * :%^StrGSt%^NoPAL Harm-Neutr_INF_Aq ;  (2) tullaq
-Inf 
-Strengthen consonant 
- * :%^StrGSt%^NoPAL%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) tullõv
+ * :l Harm-Neutr_INF_Aq ;  (2) tullaq
+ * :l%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) tullõv
 Act+PrsPrc+Sg+Nom
 
-Retain consonant and stem vowel
- * :%^NoPAL Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) tulnuq
-+Act+PrfPrc
-
-Retain consonant 
- * :%^NoPAL Harm-Neutr_LUGWMA_PSS-PRC ;  (4) tul
-Pss+PrfPrc, Pss+PrsPrc, 
 
 
-Retain consonant and add õ
- * :%^NoPAL%{eõ%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) tulõ
-Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
-Pss+Ind
 
-Retain consonant and stem vowel
- * :%^NoPAL%{eõ%} Harm-Neutr_ACT-IND-PRS-3_LUGWMA ;  (6) tulõma
-Ind+Prs+ 3
 
-Strengthen consonant and replace stem vowel with i
- * :%^StrGSt%^NoPAL%>i TULWMA_ACT-IND-PRT-SG1 ;  (7) loi
-Act+Ind+PrtSg1/Sg2/Pl1-3
 
-Strengthen consonant and add ʼ
- * :%^StrGSt%^PAL Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) tulĺ
- * +Err/Orth-no-pal:%^StrGSt%^NoPAL Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) tulĺ
-Act+Ind+Prt+Sg3
+
+
+
 
  * **LEXICON V_79PURWMA** purõma:pur
 * Yaml: **purwma**
@@ -1085,6 +1065,7 @@ CHECK THIS
 
 
 
+
  * LEXICON Harm-Neutr_JUVVA_PSS-IND-PRS  juvva süvvä
 
 
@@ -1144,7 +1125,10 @@ CHECK THIS
 
 
 
+
+
 ### PASSIVE INDICATIVE PRETERIT CONJUGATION
+
 
 
 
@@ -1157,18 +1141,19 @@ CHECK THIS
 
 
 
- * +Use/NG+Err/Orth+Inf:%>d%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Inf:%>d%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth+Inf:%>i%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Inf:%>i%{aä%} K ;  no q
 
 
- * +Use/NG+Err/Orth+Inf:%>%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Inf:%>%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth+Inf:%>t%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Inf:%>t%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth+Inf: K ;  no q
+ * +Use/NG+Err/Orth-no-q+Inf: K ;  no q
 
  * **+Der/JA+N:%>j NMN_9KIPWN1/ELLAEI ;** This should have a +Der/JA tag
+
 
 
  * +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
@@ -1227,7 +1212,6 @@ PASSIVE DISTRIBUTION
 
  * +Err/Orth+Use/NG+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
  * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
-
 
 
  * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q

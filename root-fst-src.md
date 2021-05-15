@@ -21,6 +21,7 @@ special letters, cf. https://github.com/hfst/hfst/issues/497 Trond.
  * **Õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
  ```%{ˋØ%} - U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
 
+
 The parts-of-speech are:
  * **+N** Noun
  * **+A** Adjective
@@ -53,10 +54,12 @@ The parts of speech are further split up into:
 
 The Usage extents are marked using following tags:
  * **+Err/Orth**
+ * **+Err/Orth-dAq-should-be-q-inf** hirnahtadaq should be hirnahtaq
  * **+Err/Orth-no-pal** palatalization is missing
  * **+Err/Orth-no-q** Q is missing
  * **+Use/-Spell**
  * **+Use/NG** No generation
+ * **+Cmp/Hyph** 
 
 The nominals are inflected in the following Case and Number
  * **+Sg** Singular
@@ -480,6 +483,21 @@ And following triggers to control variation
  %^U2E  lowers u:õ and ü:e delabializes and lowers
  %^U2A  lowers u:a and ü:ä delabializes and lowers
 
+ **∑** = a symbol used in front of `#` to block backtracking and
+          mwe reanalysis in hfst-tokenise (e.g. in dynanic compounds).
+          Makes it possible to distinguish lexical and dynamic compounds
+          in rules. It is converted to zero together with `#`.
+
+
+| Flag | Explanation
+| ---- | ----------- 
+ |  @D.ErrOrth.ON@ 
+ |  @C.ErrOrth@ 
+ |  @P.ErrOrth.ON@ 
+ |  @R.ErrOrth.ON@ 
+
+
+
  * **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
  * **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous
    with more frequent words. They should only be considered
@@ -581,7 +599,7 @@ Incoming
  * **@U.Cap.Opt@ PROP_NEWWORDS ;**
  * **V_NEWWORDS ;**
  * **GenitiveAttributes ;** Borrowed from experimental_languages est
-
+ * **NUM-PREFIXES ;** copied from giella-shared/smi
 
 
 less complex word classes
