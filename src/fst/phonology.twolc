@@ -288,7 +288,7 @@ CnsInZero = b d g j k l m p r s t v ;
 
 CnsVoiced = j l m n r v ;
 
-ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} %{ao%}%{eØ%} ;
+ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} %{ao%} %{eØ%} ;
 
 ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{bv%} %{bm%} %{pb%} %{td%} %{gv%} %{gl%} %{gØ%} %{kg%} %{dØ%} %{dv%} %{dl%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{sś%} %{lĺ%} %{rŕ%} %{nń%} %{ij%} %{kḱ%} %{hh́%} %{t́d́%} %{gǵ%} %{dd́Ø%} %{dd́n%} %{dd́r%} %{dd́v%} %{gǵv%} 
 %{jiØ%} 
@@ -746,7 +746,7 @@ Rules
 "{ao}o"
 !! **@RULENAME@**
 !! ```
- %{ao%}:o <=> OnSetC  _ (HarmDummies:) ( %^G4: | %^G3: | PenVOWHite %^Pen: %^G1: ) %^PLPRT: ;
+ %{ao%}:o <=> OnSetC  _ (HarmDummies:) ( %^G4: | %^G3: | PenVOWHite %^Pen: %^G1: |PenVOWHite PenGRAD) %^PLPRT: ;
 !!€ ka%{nØ%}n%{ao%}%{back%}%^G3%^PLPRT
 !!€ kanno000
 !! ```
@@ -1724,11 +1724,14 @@ _ [%{td%}: | %{tt́d%}: ] (HarmDummies:) [ %^G2: | %^G3:| %^G4: ] ;
 "%{kgØ%}:g"
 !! **@RULENAME@**
  %{kgØ%}:g <=>
-     %{kØ%}: _ Vow  (HarmDummies:) PenVOWHite %^Pen: %^G2: ;
-     %{kØ%}: _  (HarmDummies:) ( %^VOWLower:) %^G2: ;
-!! jõgi+N+Sg+Nom
-!!€ jõ%{kØ%}%{kgØ%}%{back%}%^G2%>i
-!!€ jõ0g00%>i
+     (%{kØ%}:) _ Vow  (HarmDummies:) PenVOWHite %^Pen: %^G2: ;
+     (%{kØ%}:) _  (HarmDummies:) ( %^VOWLower:) %^G2: ;
+!! jõgi+N+Sg+Nom: **river / joki**
+!!€ jõ{kØ}{kgØ}{back}^G2>i
+!!€ jõ0g00>i
+!! lugõma+V+Act+Ind+Prs+Sg3
+!!€ lu{kgØ}õ{back}^Pen^G2
+!!€ lugõ000
  
 "%{pbv%}:b"
 !! **@RULENAME@**

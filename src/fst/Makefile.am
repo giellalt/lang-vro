@@ -28,6 +28,8 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 GT_LEXC_SRCS_L1_L2=\
 			 stems/abbreviations.lexc   \
 			 stems/acronyms.lexc        \
+			 stems/arabic_roman_digits.lexc        \
+			 stems/vro-digits.lexc        \
 			 stems/exceptions.lexc      \
 			 stems/adjectives_newwords.lexc    \
 			 stems/adpositions_newwords.lexc     \

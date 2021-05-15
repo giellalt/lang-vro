@@ -768,6 +768,17 @@ LEXICON PROP_30TUEUE-PL
 !LEXICON PROP_32VERI-PL
 !:%{front%} NMN_32VERI-PL ;
 
+LEXICON PROP_PLC_33MAEGI/GEN !mägi+N:mä%{kØ%}%{kgØ%} N_33MAEGI "_#e, #ke__mä|gi_" ;
+!! gradation: yes
+:%^Pen%^WGStem PROP-PLC-DOWNCASE-SG-GEN ;
+ PROP_PLC_33MAEGI-SG ;
+! PROP_PLC_33MAEGI-PL ;
+LEXICON PROP_PLC_33MAEGI-SG
++Sem/Plc:%{front%}%^G1%>%{eõ%} Harm-Neutr_SG-NOM  ;
++Sem/Plc:%{front%} NMN_33JWGI/MAEGI-SG-OBL ;
+!LEXICON PROP_PLC_33MAEGI-PL
+!+Sem/Plc:%{front%} NMN_33JWGI/MAEGI-PL ;
+
 !LEXICON PROP_33IGAE !!igä:igä
 !! gradation: yes
 !:%^Pen%^WGStem PROP-PLC-DOWNCASE-SG-GEN ;

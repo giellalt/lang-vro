@@ -2,27 +2,27 @@
 ! ---------------
 
 LEXICON K
- FINAL1 ;
-+Clt:%>kin%{aä%}q FINAL1 ;
-+Clt:%>kiq FINAL1 ;
-+Err/Orth+Clt:%^ErrorBack%>kinaq FINAL1 ;
+ ENDLEX ;
++Clt:%>kin%{aä%}q ENDLEX ;
++Clt:%>kiq ENDLEX ;
++Err/Orth+Clt:%^ErrorBack%>kinaq ENDLEX ;
 
 LEXICON BACK_K
- FINAL1 ;
-+Clt:%>kinaq FINAL1 ;
-+Clt:%>kiq FINAL1 ;
+ ENDLEX ;
++Clt:%>kinaq ENDLEX ;
++Clt:%>kiq ENDLEX ;
 
 LEXICON FRONT_K
- FINAL1 ;
-+Clt:%>kinäq FINAL1 ;
-+Err/Orth+Clt:%>kinaq FINAL1 ; ! THIS WILL NEED WORK 2016-08-27
-+Clt:%>kiq FINAL1 ;
+ ENDLEX ;
++Clt:%>kinäq ENDLEX ;
++Err/Orth+Clt:%>kinaq ENDLEX ; ! THIS WILL NEED WORK 2016-08-27
++Clt:%>kiq ENDLEX ;
 
 ! Final lexicon
 ! =============
 
 
-LEXICON FINAL1
+LEXICON ENDLEX
                         #       ;
 
 
