@@ -744,6 +744,7 @@ kakma
 * ★*joosk000>õ* (is not standard language)
 
 **%{sØ%}:0**  
+
 * *su%{sØ%}śo%{back%}%^Pen%^WGStem*
 * *su0śo000*
 vaśma+V+Inf/mA: **answer/vastata**
@@ -751,6 +752,12 @@ vaśma+V+Inf/mA: **answer/vastata**
 * *va0ś0000>ma*
 * *ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem*
 * *hamba0000000*
+
+
+**%{vØ%}:0**  
+kruv́ma+V+Inf/mA
+* *kru{vØ}{vv́}{back}^VOWRaise^WGStem^PAL>m{aä}*
+* *kru0v́0000>ma*
 
 
 **%{rØ%}:0**  
@@ -888,12 +895,16 @@ makḱ+N+Pl+All
 **%{td%}:t**
 * *lu̬u̬dusõkai{td}sõ^Pen^VOWLower^Pen^WGStem>q*
 * *lu̬u̬dusõkaitsõ0000>q*
+võitlõma+V+Inf/mA
+* *või{td}{õØ}{lĺ}{back}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}>m{aä}*
+* *võit0l00000000>õ>ma*
 nätsk+A+Sg+Nom
 * *nä%{td%}s%{kØ%}%{front%}%^G2*
 * *nätsk00*
 hõrts+N+Sg+Nom
 * *hõr%{td%}so%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM*
 * *hõrts0000000*
+
 
 **%{kg%}:k**
 akaŕ+A+Sg+Nom

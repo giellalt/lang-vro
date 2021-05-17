@@ -60,6 +60,7 @@ The Usage extents are marked using following tags:
  * **+Use/-Spell**
  * **+Use/NG** No generation
  * **+Cmp/Hyph** 
+ * **+Use/PMatch**
 
 The nominals are inflected in the following Case and Number
  * **+Sg** Singular
@@ -496,7 +497,7 @@ And following triggers to control variation
  |  @P.ErrOrth.ON@ 
  |  @R.ErrOrth.ON@ 
 
-
+ * **@P.Pmatch.Backtrack@**:
 
  * **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
  * **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous
