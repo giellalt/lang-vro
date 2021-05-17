@@ -2472,6 +2472,7 @@ petmä+V:pettä
 
 
 
+
 hanśa+N:hanśa N_1HANS1A "" ;
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -5363,6 +5364,13 @@ ehitelemä:ehitell
 
 
 
+
+
+
+
+
+
+
 taplõma:tapõl
 * Yaml: **taplwma57**
 ütlemä:ütel
@@ -5406,6 +5414,8 @@ kiirdlemä:keerdel
 
 * *väär{dØ}{eØ}{lĺ}{front}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}>m{aä}*
 * *väärd0l00000000>e>mä*
+
+
 
 
 
@@ -5664,6 +5674,14 @@ V_Inf/mA: miildümä
 * Yaml: **V-vaesuemae**
 
  * **LEXICON V_74KULUMA/VAESUEMAE** kuluma:kullu
+
+
+
+
+
+
+
+
 
 
 
@@ -6036,6 +6054,7 @@ gradation: no
 
 
 
+
  * LEXICON V_83SÕITMA   sõitma:sõit
 gradation: yes
 * Yaml: **switma**
@@ -6044,11 +6063,19 @@ gradation: yes
 * Yaml: **heitmae**
 
  * LEXICON V_83SÕITMA/HEITMAE   sõitma:sõi%{tt́d%}
-sõida
 
 
 
 IS THIS RIGHT? 2015-09-02
+
+sõida
+
+
+
+
+
+
+
 
 
 
@@ -6134,7 +6161,9 @@ sõida
 
  * **LEXICON V_85HIRNMA** kakma:kaku hirnma:hirnu
 * Yaml: **kakma**
- * **LEXICON V_85HIRNMA/XX** kakma:kaku hirnma:hirnu
+ * **LEXICON V_85TUEMPSMAE** kakma:kaku hirnma:hirnu
+* Yaml: **kakma**
+ * **LEXICON V_85HIRNMA/TUEMPSMAE** kakma:kaku hirnma:hirnu
 
 
 
@@ -6161,11 +6190,14 @@ sõida
 
 
 
+
  * **LEXICON V_85KAKMA**  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u 
 * Yaml: **haudma**
  * **LEXICON V_85TRUEKMAE**  trükmä:trü%{kØ%}%{kḱ%}ü
 * Yaml: **vaelkmae**
  * **LEXICON V_85KAKMA/TRUEKMAE** kakma:kakk
+
+
 
 
 
@@ -6185,6 +6217,27 @@ sõida
 
 
 
+
+
+
+
+
+
+ * **LEXICON V_86PUTMA** istma:istu
+* Yaml: **istma**
+ * **LEXICON V_86PUTMA/XX** istma:istu
+
+
+
+
+
+
+
+
+
+
+
+
  * **LEXICON V_86JAHTJMA** jaht́ma:ˋjah%{tØ%}i
 * Yaml: **jahtjma**
  * **LEXICON V_86EHTJMÄ** eht́mä:ehti
@@ -6197,12 +6250,22 @@ sõida
 
 
 
+
+
+
+
+
  * **LEXICON V_86TOL1MA** jaht́ma:ˋjah%{tØ%}i
 * Yaml: **jahtjma**
  * **LEXICON V_86TIK1MÄ** eht́mä:ehti
 * Yaml: **V-ehtjmae**
 
  * **LEXICON V_86TOL1MA/TIK1MÄ** eht́mä:eh%{tt́%}
+
+
+
+
+
 
 
 
@@ -6306,6 +6369,13 @@ CHECK THIS
 
 
 ### INDICATIVE PRETERIT SUBJECT CONJUGATION
+
+
+
+
+
+
+
 
 
 
@@ -7786,6 +7856,7 @@ kakma
 * ★*joosk000>õ* (is not standard language)
 
 **%{sØ%}:0**  
+
 * *su%{sØ%}śo%{back%}%^Pen%^WGStem*
 * *su0śo000*
 vaśma+V+Inf/mA: **answer/vastata**
@@ -7793,6 +7864,12 @@ vaśma+V+Inf/mA: **answer/vastata**
 * *va0ś0000>ma*
 * *ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem*
 * *hamba0000000*
+
+
+**%{vØ%}:0**  
+kruv́ma+V+Inf/mA
+* *kru{vØ}{vv́}{back}^VOWRaise^WGStem^PAL>m{aä}*
+* *kru0v́0000>ma*
 
 
 **%{rØ%}:0**  
@@ -7930,12 +8007,16 @@ makḱ+N+Pl+All
 **%{td%}:t**
 * *lu̬u̬dusõkai{td}sõ^Pen^VOWLower^Pen^WGStem>q*
 * *lu̬u̬dusõkaitsõ0000>q*
+võitlõma+V+Inf/mA
+* *või{td}{õØ}{lĺ}{back}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}>m{aä}*
+* *võit0l00000000>õ>ma*
 nätsk+A+Sg+Nom
 * *nä%{td%}s%{kØ%}%{front%}%^G2*
 * *nätsk00*
 hõrts+N+Sg+Nom
 * *hõr%{td%}so%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM*
 * *hõrts0000000*
+
 
 **%{kg%}:k**
 akaŕ+A+Sg+Nom

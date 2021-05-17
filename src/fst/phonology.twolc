@@ -288,7 +288,7 @@ CnsInZero = b d g j k l m p r s t v ;
 
 CnsVoiced = j l m n r v ;
 
-ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} %{ao%} %{eØ%} ;
+ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} %{ao%} %{eØ%} %{õØ%} ;
 
 ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{bv%} %{bm%} %{pb%} %{td%} %{gv%} %{gl%} %{gØ%} %{kg%} %{dØ%} %{dv%} %{dl%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{sś%} %{lĺ%} %{rŕ%} %{nń%} %{ij%} %{kḱ%} %{hh́%} %{t́d́%} %{gǵ%} %{dd́Ø%} %{dd́n%} %{dd́r%} %{dd́v%} %{gǵv%} 
 %{jiØ%} 
@@ -576,7 +576,7 @@ Rules
 
 "%{pṕb%}:p"
 !! **@RULENAME@**
- %{pṕb%}:p <=> Vow _  (HarmDummies:) [%^StrGStem:] %^NoPAL:  ;
+ %{pṕb%}:p <=> Vow _  (HarmDummies:) VOWHite [%^StrGStem:] %^NoPAL:  ;
 !! loroṕ+N+Sg+Par:
 !!€ loro{pṕb}{back}^StrGStem^NoPAL>i
 !!€ lorop000>i
@@ -594,7 +594,7 @@ Rules
 
 "%{kḱg%}:k"
 !! **@RULENAME@**
- %{kḱg%}:k <=> _  (HarmDummies:) [%^G2:|%^StrGStem:] %^NoPAL:  ;
+ %{kḱg%}:k <=> _  (HarmDummies:) VOWHite [%^G2:|%^StrGStem:] %^NoPAL:  ;
 !!€ pisla%{kḱg%}%{back%}%^G2%>
 !!€ pislaḱ00%>
 
@@ -812,7 +812,7 @@ Rules
 !! **@RULENAME@**
 !! ```
  Vx:0 <=> 
-  [ Cns: | :Cns |ArchCns:] _ (s:) (HarmDummies:)  PenVOWHite (%^Pen: [%^G1:|%^G2:|%^G3:|%^G4:| %^CC2C:|%^StrGStem:|%^ShortGStem:]) (%^NoPAL:) %^VowRM: (õ|e)    ; 
+  [ Cns: | :Cns |ArchCns:] _ (s:) (HarmDummies:)  PenVOWHite (%^Pen: [%^G1:|%^G2:|%^G3:|%^G4:| %^CC2C:|%^StrGStem:|%^ShortGStem:]) (%^Pen: %^NoPAL:) %^VowRM: (õ|e)    ; 
 
 !!€ hirnu{back}^Pen^CC2C^VowRM>m{aä}
 !!€ hirn00000>ma
@@ -877,7 +877,7 @@ Rules
 "Vx%{äe%}:0 Passive stem vowel"
 !! **@RULENAME@**
  Vx:0 <=>
-     _ (HarmDummies:) [(%^VOWRaise:|%^Pen: %^VOWRaise: |%^Pen: %^VOWLower: |%^VOWLower:|PenVOWHite %^Pen: %^WGStem:) %^VowRM:] ;
+     _ (HarmDummies:) [(VOWHite (%^NoPAL:)| PenVOWHite (%^Pen: %^NoPAL:) |PenVOWHite %^Pen: %^WGStem:) %^VowRM:] ;
           where Vx in (%{aõ%} %{ae%} %{äe%} ) ;
 
 
@@ -1233,12 +1233,11 @@ k:0 <=>
 "%{sØ%}:0"
 !! **@RULENAME@**  
  %{sØ%}:0 <=>
- _ [s|ś|ArchCns:] [Vow:|ArchVow:] (Cns:|ArchCns:) (HarmDummies:) PenVOWHite %^Pen:  [%^G1:|%^G2:|%^CC2C:] ;
-! _ [s|ś|ArchCns:] [Vow:|ArchVow:] (Cns:|ArchCns:) (HarmDummies:) PenVOWHite %^Pen:  [%^G1:|%^G2:|%^WGStem:] ;
+ _ [s|ś|ArchCns:] [Vow:|ArchVow:] (Cns:|ArchCns:) (HarmDummies:) PenVOWHite %^Pen:  [%^G1:|%^G2:|%^CC2C:|%^WGStem:] ;
+
 !!€ su%{sØ%}śo%{back%}%^Pen%^WGStem
 !!€ su0śo000
-    _  [s|ś|ArchCns:] (HarmDummies:) VOWHite  %^CC2C: ;
-!    _  [s|ś|ArchCns:] (HarmDummies:) VOWHite  %^WGStem: ;
+    _  [s|ś|ArchCns:] (HarmDummies:) VOWHite  [ %^CC2C:|%^WGStem:] ;
 !! vaśma+V+Inf/mA: **answer/vastata**
 !!€ va{sØ}{sś}{back}^VOWRaise^WGStem^PAL>m{aä}
 !!€ va0ś0000>ma
@@ -1247,6 +1246,16 @@ k:0 <=>
 !!hammas+N+Sg+Gen: __tooth/hammas__
 !!€ ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem
 !!€ hamba0000000
+
+
+"%{vØ%}:0"
+!! **@RULENAME@**  
+ %{vØ%}:0 <=>
+ _ [v|v́|ArchCns:] [Vow:|ArchVow:] (Cns:|ArchCns:) (HarmDummies:) PenVOWHite %^Pen:  [%^WGStem:|%^CC2C:] ;
+    _  [v|v́|ArchCns:] (HarmDummies:) VOWHite  [ %^CC2C:|%^WGStem:] ;
+!! kruv́ma+V+Inf/mA
+!!€ kru{vØ}{vv́}{back}^VOWRaise^WGStem^PAL>m{aä}
+!!€ kru0v́0000>ma
 
 
 "%{rØ%}:0"
@@ -1397,8 +1406,8 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
   _ Cy Vow: (Cns | ArchCns: ) (HarmDummies:) %^Pen: [%^G1:|%^WGStem:]  ;
 !!€ ve%{rØ%}rev%{front%}%^Pen%^WGStem%>%{aä%}
 !!€ ve0rev000%>ä
-         where Cx in (%{hØ%} %{vØ%}) 
-               Cy in (h        v) matched ;
+         where Cx in (%{hØ%}) 
+               Cy in (h     ) matched ;
 !! elläi+N+Sg+Gen
 !!€ e{lØ}lä{ij}{front}^Pen^WGStem^I2J>{aä}
 !!€ e0läj0000>ä
@@ -1458,7 +1467,7 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
  %{kØ%}:k <=>
    [s|h] _ (HarmDummies:) VOWHite [ %^StrGStem:] ;
   Vow _ k (HarmDummies:) VOWHite [ %^StrGStem:] ;
- [Vow|Cns] _ Vow: (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^StrGStem:] ;
+ [Vow|Cns] _ [Vow:|ArchVow:] (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^StrGStem:] ;
 !! rehksämä+V+Inf/mA:
 !!€ reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}
 !!€ rehk0s000000>ä>mä
@@ -1514,7 +1523,10 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
 !kitsin
 !!€ lu̬u̬dusõkai{td}sõ^Pen^VOWLower^Pen^WGStem>q
 !!€ lu̬u̬dusõkaitsõ0000>q
-  _ (s ) Vow: (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^StrGStem: ] ;
+  _ (s ) [Vow:|ArchVow:] (:Cns+|ArchCns: ) (HarmDummies:) PenVOWHite  %^Pen: [ %^StrGStem: ] ;
+!! võitlõma+V+Inf/mA
+!!€ või{td}{õØ}{lĺ}{back}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}>m{aä}
+!!€ võit0l00000000>õ>ma
   _ (:Cns+|(Cns) ArchCns: ) (HarmDummies:) VOWHite   [%^StrGStem: ] ;
 !! nätsk+A+Sg+Nom
 !!€ nä%{td%}s%{kØ%}%{front%}%^G2
@@ -1522,6 +1534,7 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
 !! hõrts+N+Sg+Nom
 !!€ hõr%{td%}so%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM
 !!€ hõrts0000000
+
 
 "%{kg%}:k"
 !! **@RULENAME@**
@@ -1710,7 +1723,7 @@ _ [%{td%}: | %{tt́d%}: ] (HarmDummies:) [ %^G2: | %^G3:| %^G4: ] ;
 "%{dØ%}:d"
 !! **@RULENAME@**
  %{dØ%}:d <=>
-     [Cns|Vow] _ [Vow:|ArchVow:] (%{sØ%}:|ArchCns:|r) (HarmDummies:) PenVOWHite %^Pen:  %^StrGStem: ;
+     [Cns|Vow] _ [Vow:|ArchVow:] (%{sØ%}:|ArchCns:|r|l) (HarmDummies:) PenVOWHite %^Pen:  %^StrGStem: ;
 !! väärdlemä+V+Inf/mA
 !!€ väär{dØ}{eØ}{lĺ}{front}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}>m{aä}
 !!€ väärd0l00000000>e>mä
