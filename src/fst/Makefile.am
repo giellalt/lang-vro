@@ -76,7 +76,8 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/interjections.lexc \
 			 $(srcdir)/stems/pronouns.lexc \
 			 $(srcdir)/stems/numerals.lexc \
-			 generated_files/punctuation.lexc \
+ 			 generated_files/arabic_roman_digits.lexc \
+	 	 	 generated_files/punctuation.lexc \
 			 generated_files/symbols.lexc
 
 
