@@ -28,7 +28,6 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 GT_LEXC_SRCS_L1_L2=\
 			 stems/abbreviations.lexc   \
 			 stems/acronyms.lexc        \
-			 stems/arabic_roman_digits.lexc        \
 			 stems/vro-digits.lexc        \
 			 stems/exceptions.lexc      \
 			 stems/adjectives_newwords.lexc    \
@@ -76,7 +75,7 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/interjections.lexc \
 			 $(srcdir)/stems/pronouns.lexc \
 			 $(srcdir)/stems/numerals.lexc \
- 			 generated_files/arabic_roman_digits.lexc \
+			 generated_files/arabic_roman_digits.lexc \
 	 	 	 generated_files/punctuation.lexc \
 			 generated_files/symbols.lexc
 
