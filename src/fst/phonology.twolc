@@ -628,19 +628,14 @@ Rules
 
 
  
-"e2i̬"
-!! **@RULENAME@**
- e:i̬ <=>  [ # Cns* | Cns ] _ e: ( s | %{sś%}: | t | %{tt́%}: | k | %{kḱ%}: | l | %{lĺ%}: | n | %{nń%}: | r | %{rŕ%}: | m | %{mḿ%}: | %{td%}: s | %{td%}: %{sś%}: | r t: | r %{tt́%}: | v | %{vv́%}:) (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] e: _ [ s | %{sś%}: | t | %{tt́%}: | k | %{kḱ%}: | l | %{lĺ%}: | n | %{nń%}: | r | %{rŕ%}: | m | %{mḿ%}: | %{td%}: s | %{td%}: %{sś%}: | r t: | r %{tt́%}: | v | %{vv́%}:] (HarmDummies:) %^VOWRaise: ;
- [ # Cns* | Cns ] e: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
-!! kiiĺ+N+Sg+Gen: **tongue/kieli**
-!!€ k%{ei%}%{ei%}{lĺ}%{front%}%^VOWRaise%^PAL
-!!€ ki̬i̬ĺ000
-      # Cns:* _ [CnsInZero:|ArchCnsInZero:] (HarmDummies:) (%^WGStem:) %> [e:|%{eõ%}:] ;
-      # Cns:* e: [CnsInZero:|ArchCnsInZero:] (HarmDummies:) (%^WGStem:) %> _ [#|.#.|%>|%-] ;
-!! tegemä+V+Act+Ind+Prs+Sg1: **do**
-!!€ teg%{front%}%^WGStem%>e
-!!€ ti̬000%>i̬
+!"e2i̬"
+!!! **@RULENAME@**
+! e:i̬ <=>  [ # Cns* | Cns ] _ e: ( s | %{sś%}: | t | %{tt́%}: | k | %{kḱ%}: | l | %{lĺ%}: | n | %{nń%}: | r | %{rŕ%}: | m | %{mḿ%}: | %{td%}: s | %{td%}: %{sś%}: | r t: | r %{tt́%}: | v | %{vv́%}:) (HarmDummies:) %^VOWRaise: ;
+! [ # Cns* | Cns ] e: _ [ s | %{sś%}: | t | %{tt́%}: | k | %{kḱ%}: | l | %{lĺ%}: | n | %{nń%}: | r | %{rŕ%}: | m | %{mḿ%}: | %{td%}: s | %{td%}: %{sś%}: | r t: | r %{tt́%}: | v | %{vv́%}:] (HarmDummies:) %^VOWRaise: ;
+! [ # Cns* | Cns ] e: _ (HarmDummies:) %^VOWRaise: [#|.#.|%>|%-] ;
+
+!      # Cns:* _ [CnsInZero:|ArchCnsInZero:] (HarmDummies:) (%^WGStem:) %> [e:|%{eõ%}:] ;
+!      # Cns:* e: [CnsInZero:|ArchCnsInZero:] (HarmDummies:) (%^WGStem:) %> _ [#|.#.|%>|%-] ;
 
 "%{eõ%}:i̬"
  %{eõ%}:i̬ <=> # Cns:* e: [CnsInZero:|ArchCnsInZero: ] %{front%}: (%^WGStem:) %> _ %{PrsSg1%}: ;
@@ -700,6 +695,9 @@ Rules
 !juuḱ
      	  where Vx in (%{ou%} %{öü%} %{õy%} %{ei%} )
 	  	Vy in ( u̬ ü̬ õ̭ i̬ ) matched ;
+!! kiiĺ+N+Sg+Gen: **tongue/kieli**
+!!€ k%{ei%}%{ei%}{lĺ}%{front%}%^VOWRaise%^PAL
+!!€ ki̬i̬ĺ000
 !!kiirdlemä+V:
 !!€ k%{ei%}%{ei%}r%{dØ%}%{eØ%}%{lĺ%}%{front%}%^Pen%^VOWRaise%^Pen%^VowRM%>%{eõ%}%>m%{aä%}
 !!€ ki̬i̬rd0l00000%>e%>mä
@@ -1018,6 +1016,9 @@ Rules
 !! **@RULENAME@**
  %{jiØ%}:i  <=>
     [Cns:|ArchCns:] _  Vow: (HarmDummies:)  %^Pen:  %^NoPAL:  %^Pen: %^JI2I:  ;
+    [Cns:|ArchCns:] _  (HarmDummies:)  %^NoPAL:  %^JI2I:  ;
+!!€ ki{rŕ}{jiØ}{front}^NoPAL^JI2I
+!!€ kiri000
 
 "%{jiØ%}:0"
 !! **@RULENAME@**
