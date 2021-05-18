@@ -3912,8 +3912,8 @@ in d
 
 
 
- * +Err/Orth+Use/NG:%^VowRM%^CnsRM%>i Harm-Neutr_PL-GEN_dE ;  tervide
- * +Err/Orth+Use/NG:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
+ * +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i Harm-Neutr_PL-GEN_dE ;  tervide
+ * +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
 
  * **LEXICON NMN_4AINUS ** Types 4, 8, 17
 ainus:ainus
@@ -4255,7 +4255,7 @@ Gradation: YES
 
 **N-suekues12**
 
- * +Err/Orth+Use/NG:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
+ * +Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
 
 
 
@@ -5495,15 +5495,15 @@ Based on 59KAOTAMA
 
 
  * :d%^VOWRaise%>i   ACT-IND-PRT-SG1_ZERO/SG2_q/PL3_q ;  kaodi
-+Act+Ind+Prt+Sg1, +Err/Orth+Use/NG+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
++Act+Ind+Prt+Sg1, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
 
-+Act+Ind+Prs+Sg2, +Err/Orth+Use/NG+Act+Ind+Prs+Sg2, 
++Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
 
  * :t%^VOWRaise%>i Harm-Neutr_ACT-IND-PRT-SG2_USUALLY-STRONG ;  kaoti
-+Act+Ind+Prt+Sg2, +Err/Orth+Use/NG+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
-+Act+Ind+Prt+Pl2, +Err/Orth+Use/NG+Act+Ind+Prt+Pl3
++Act+Ind+Prt+Sg2, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
++Act+Ind+Prt+Pl2, +Use/NG+Err/Orth+Act+Ind+Prt+Pl3
 
 
 +Act+Ind+Prt+Sg3
@@ -5751,26 +5751,23 @@ vala, valla, vali, valõ
 * Yaml: **V-puegaemae76**
 
  * **LEXICON V_76HIGOMA/PUEGAEMAE** higoma:hi%{kg0%}o
-
-Retain consonant and stem vowel
- *  Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) lugõma
 +Act+PrsPrc+Sg OBL, Inf/mA, 
-+Jus
 
-
-Strengthen consonant retain stem vowel
- * :%^Pen%^StrGStem Harm-Neutr_INF_ZEROq ;  (2) lukõq
- * :%^Pen%^StrGStem Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
+ * :%^Pen%^G3 Harm-Neutr_INF_ZEROq ;  (2) lukõq
+ * :%^Pen%^G3 Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
 Inf, Act+PrsPrc+Sg+Nom
 
-Retain consonant and stem vowel
- *  Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) lugõnuq
-+Act+PrfPrc
 
-Weaken consonant and semi-retension of stem vowel
  * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%} Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
 Pss+PrfPrc, Pss+PrsPrc
 
+
+ *  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
+Ind+Prs+ 3
+
+
+
+Retain consonant and stem vowel
 
 Weaken consonant and semi-retension of stem vowel
 
@@ -5778,8 +5775,6 @@ Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
 Retain consonant and stem vowel
- *  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
-Ind+Prs+ 3
 
 Weaken consonant and replace stem vowel with i
  * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
@@ -5788,6 +5783,8 @@ Act+Ind+PrtSg1/Sg2/Pl1-3
 Retain consonant remove stem vowel and add i
  * :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
 Act+Ind+Prt+Sg3
+
++Jus
 
  * **LEXICON V_76LUGWMA** lugõma:lu%{kg0%}õ
 * Yaml: **V-higoma76**
@@ -6157,14 +6154,20 @@ gradation: yes
 
 
 
-sõida ata
-
-
-
-
 
 
 IS THIS RIGHT? 2015-09-02
+
+
+
+
+
+
+
+
+
+
+
 
  * LEXICON V_83SUTMA   atma:a%{tØ%}ta
 gradation: yes
@@ -6353,7 +6356,7 @@ sõida
 ### SETS BY CONSONANT QUALITY
 
  * : Harm-Neutr_ACT-IND-PRS-SG2_USUALLY-STRONG ;  kaota
-+Act+Ind+Prs+Sg2, +Err/Orth+Use/NG+Act+Ind+Prs+Sg2, 
++Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
  * : ACT-IND-PRS-3_s/sEq ;  
@@ -6595,7 +6598,7 @@ PASSIVE DISTRIBUTION
 
  * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
- * +Err/Orth+Use/NG+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
+ * +Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
  * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
 
@@ -7497,8 +7500,8 @@ tahtma+V+Pss+PrfPrc+Sg+Nom: **want/haluta**
 * *lo00000000%>i*
 
 **ü:ö**
-* *pü%{kgØ%}ä%{front%}%^VOWLower%^WGStem%^VowRM%>e%>t*
-* *pö000000%>e%>t*
+* *pü{kgØ}ä{front}^Pen^VOWLower^Pen^WGStem^VowRM>e>t*
+* *pö00000000>e>t*
 * *süü%{front%}%^VOWLower%^WGStem%>nüq*
 * *söö000%>nüq*
 
