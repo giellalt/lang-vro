@@ -242,8 +242,20 @@ Based on 59KAOTAMA
 
  * **LEXICON V_59KAOTAMA/KERGUETAEMAE** kaotama:kao, kergütämä:kergü
 
- * :d%^VOWRaise%>%{aä%} Harm-Neutr_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ;  +Act+Ind+Prs+Sg1:%^Pen%^VOWRaise kaoda
+
+
+
+
++Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
++Pss+PrsPrc, +Pss+PrfPrc
+
 +Act+Ind+Prs+Sg1, +Act+Ind+ConNegII, +Act+Imprt+Sg2
++Act+Ind+Prs+Neg, +Act+Ind+Prt+Neg, +Act+Ind+ConNegI
+
+
+
++Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
+
 
  * :d%^VOWRaise%>i   ACT-IND-PRT-SG1_ZERO/SG2_q/PL3_q ;  kaodi
 +Act+Ind+Prt+Sg1, +Err/Orth+Use/NG+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
@@ -251,19 +263,13 @@ Based on 59KAOTAMA
 +Act+Ind+Prs+Sg2, +Err/Orth+Use/NG+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
-+Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
-
-
 
  * :t%^VOWRaise%>i Harm-Neutr_ACT-IND-PRT-SG2_USUALLY-STRONG ;  kaoti
 +Act+Ind+Prt+Sg2, +Err/Orth+Use/NG+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
 +Act+Ind+Prt+Pl2, +Err/Orth+Use/NG+Act+Ind+Prt+Pl3
 
- * : ACT-IND-PRT-SG3_t-PAL ;  +Act+Ind+Prt+Sg3:%^Pen%^VOWRaise kaot́
-+Act+Ind+Prt+Sg3:%^Pen%^VOWRaise kaot́ Harm-Neutr_K ;
 
-+Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
-+Pss+PrsPrc, +Pss+PrfPrc
++Act+Ind+Prt+Sg3
 
 
 
@@ -843,6 +849,7 @@ Work
 
 
 
+
  * LEXICON V_83NÕSTMA   nõstma:nõst
 gradation: no
 * Yaml: **nwstma**
@@ -1191,7 +1198,6 @@ CHECK THIS
 
 
 ### INDICATIVE PRETERIT SUBJECT CONJUGATION
-
 
 
 

@@ -57,6 +57,8 @@ The Usage extents are marked using following tags:
  * **+Err/Orth-dAq-should-be-q-inf** hirnahtadaq should be hirnahtaq
  * **+Err/Orth-no-pal** palatalization is missing
  * **+Err/Orth-no-q** Q is missing
+ * **+Err/Orth-raised-vow** 
+ * **+Err/Orth-lowered-vow** 
  * **+Use/-Spell**
  * **+Use/NG** No generation
  * **+Cmp/Hyph** 

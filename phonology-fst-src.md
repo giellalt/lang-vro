@@ -552,7 +552,9 @@ juuma+V+Inf
 * *ju̬0000>vv>aq*
 
 **Vx%{äe%}:0 Passive stem vowel**
-
+nõstma+V+Inf/mA
+* *nõs{tt́}{aõ}{back}^Pen^NoPAL^VowRM>m{aä}*
+* *nõst00000>ma*
 
 **ö:0**
 
