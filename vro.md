@@ -2326,6 +2326,7 @@ Veps acronyms ...
 
 minemä **to go/ mennä**
 
+nägemä **to see/nähdä**
 
 olõma **to be/ olla**
 
@@ -3186,13 +3187,7 @@ kõiḱ+Pron+Sg+Nom
 
 
 
-**e2i̬**
-kiiĺ+N+Sg+Gen: **tongue/kieli**
-* *k%{ei%}%{ei%}{lĺ}%{front%}%^VOWRaise%^PAL*
-* *ki̬i̬ĺ000*
-tegemä+V+Act+Ind+Prs+Sg1: **do**
-* *teg%{front%}%^WGStem%>e*
-* *ti̬000%>i̬*
+
 
 tegemä+V+Act+Ind+Prs+Sg1: **do**
 * *teg%{front%}%^WGStem%>%{eõ%}*
@@ -3219,6 +3214,9 @@ hoolas+A+Sg+Nom:
 nuuĺ+N+Sg+Nom: **arrow**
 * *n%{ou%}%{ou%}%{lĺ%}%{back%}%^VOWRaise%^PAL*
 * *nu̬u̬ĺ000*
+kiiĺ+N+Sg+Gen: **tongue/kieli**
+* *k%{ei%}%{ei%}{lĺ}%{front%}%^VOWRaise%^PAL*
+* *ki̬i̬ĺ000*
 * *k%{ei%}%{ei%}r%{dØ%}%{eØ%}%{lĺ%}%{front%}%^Pen%^VOWRaise%^Pen%^VowRM%>%{eõ%}%>m%{aä%}*
 * *ki̬i̬rd0l00000%>e%>mä*
 
@@ -3401,6 +3399,8 @@ elläi+N+Sg+Gen
 **%{jiØ%}:j**
 
 **%{jiØ%}:i**
+* *ki{rŕ}{jiØ}{front}^NoPAL^JI2I*
+* *kiri000*
 
 **%{jiØ%}:0**
 vari+N+Sg+Gen: **shadow/varjo**
@@ -6215,6 +6215,15 @@ There are other verbs here, cf. V_ELAEMAE
 
 
 
+
+
+
+
+
+
+
+
+
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: **V-kuioma48**
 
@@ -6246,7 +6255,20 @@ There are other verbs here, cf. V_ELAEMAE
 
 
  * **LEXICON V_49LWPMA** lõpma:lõpp
- * **LEXICON V_49LWPMA/XX** lõpma:lõpp
+ * **LEXICON V_49LWPMA/XX** lõpma:lõ%{pØ%}p
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6320,6 +6342,12 @@ ehitelemä:ehitell
 * Yaml: **kwnwlwma55**
  * **LEXICON V_55HAERELEMAE** härelemä:härel
 * Yaml: **haerelemae55**
+
+
+
+
+
+
 
 
 
@@ -6602,6 +6630,12 @@ V_Inf/mA: miildümä
 
 
 
+
+
+
+
+
+
  * **LEXICON V_70VIPWRDUMA** unõhtuma:unõhtu
 * Yaml: **V-unwhtuma**
  * **LEXICON V_70ERAELDUEMAE** eräldümä:eräldü
@@ -6706,7 +6740,7 @@ Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
 Retain consonant and stem vowel
- *  Harm-Neutr_ACT-IND-PRS-3_LUGWMA ;  (6) lugõma
+ *  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
 
 Weaken consonant and replace stem vowel with i
@@ -6745,7 +6779,7 @@ Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
 Retain consonant and stem vowel
- *  Harm-Neutr_ACT-IND-PRS-3_LUGWMA ;  (6) lugõma
+ *  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
 
 Weaken consonant and replace stem vowel with i
@@ -6892,7 +6926,7 @@ Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
 Retain consonant and stem vowel
- * :%{eõ%} Harm-Neutr_ACT-IND-PRS-3_LUGWMA ;  (6) purõma
+ * :%{eõ%} ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) purõma
 Ind+Prs+ 3
 
 Strengthen consonant and replace stem vowel with i
@@ -6947,7 +6981,7 @@ Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
 Retain consonant and stem vowel
- * :t Harm-Neutr_ACT-IND-PRS-3_LUGWMA ;  (6) rapahut
+ * :t ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) rapahut
 Ind+Prs+ 3
 
 Strengthen consonant and replace stem vowel with i
@@ -6962,7 +6996,7 @@ Act+Ind+Prt+Sg3
  * **LEXICON V_81TEGEMAE** tegemä:teg
 * Yaml: **tegemä**
 Work
- * **LEXICON V_81XX/TEGEMAE** tegemä:teg
+ * **LEXICON V_81XX/TEGEMAE** tegemä:te%{kØ%}%{ḱgØ%}
 
 *tegemä examples:*
 * *tegemä:* `tegemä+V+Inf/mA` (Eng. # (1))
@@ -6987,6 +7021,10 @@ Work
 * *tetäs:* `tegemä+V+Pss+Ind+Prs+Sg3` (Eng. # (?4)!!)
 * *tettäv:* `tegemä+V+Pss+PrsPrc+Sg+Nom` (Eng. # (4))
 * *tekuq:* `tegemä+V+Jus` (Eng. # (9))
+
+
+
+
 
 
 
@@ -7313,6 +7351,7 @@ sõida
 
 
 
+
  * +Ind+Prs+Neg:%-%{XV%}iq K ;  This gives stress
  * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-iq K ;  This gives stress
  * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-%{XV%}i K ;  more neutral without q
@@ -7322,10 +7361,25 @@ sõida
 
 
 ### JUS
- * LEXICON MUTUAL_JUS  regardless of harmony this is back
+ * LEXICON MUTUAL_JUS_guq  regardless of harmony this is back 
 
 CHECK THIS
+
 ### PASSIVE INDICATIVE PRESENT CONJUGATION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7416,6 +7470,18 @@ CHECK THIS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ### NON-FINITES
 
 
@@ -7480,26 +7546,28 @@ PASSIVE DISTRIBUTION
  * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>div%{aä%} K ;  no q
 
 
- * +Use/NG+Err/Orth+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth+Pss+PrsPrc+Pl+Nom:%>tt%{aä%}%>v%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
+
+ * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>tt%{aä%}%>v%{aä%} K ;  no q
 
 
- * +Use/NG+Err/Orth+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
  * +Err/Orth+Use/NG+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
- * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
 
- * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
- * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
- * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
- * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
 
 
 
@@ -7509,19 +7577,17 @@ PASSIVE DISTRIBUTION
  * LEXICON Harm-Neutr_ACT-PRSPRC_v_LUGWMA  lugõma:lugõ
 Retain consonant and stem vowel
 
- * +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
 
 
- * LEXICON Harm-Neutr_ACT-IND-PRS-3_LUGWMA  (6) lugõma:lugõ
-
- * +Use/NG+Err/Orth+Act+PrfPrc:%>n%{uü%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Act+PrfPrc:%>n%{uü%} K ;  no q
 
 
 
 
 
- * +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
- * +Use/NG+Err/Orth+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+ * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
 
 
 

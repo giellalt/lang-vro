@@ -411,13 +411,7 @@ kõiḱ+Pron+Sg+Nom
 
 
 
-**e2i̬**
-kiiĺ+N+Sg+Gen: **tongue/kieli**
-* *k%{ei%}%{ei%}{lĺ}%{front%}%^VOWRaise%^PAL*
-* *ki̬i̬ĺ000*
-tegemä+V+Act+Ind+Prs+Sg1: **do**
-* *teg%{front%}%^WGStem%>e*
-* *ti̬000%>i̬*
+
 
 tegemä+V+Act+Ind+Prs+Sg1: **do**
 * *teg%{front%}%^WGStem%>%{eõ%}*
@@ -444,6 +438,9 @@ hoolas+A+Sg+Nom:
 nuuĺ+N+Sg+Nom: **arrow**
 * *n%{ou%}%{ou%}%{lĺ%}%{back%}%^VOWRaise%^PAL*
 * *nu̬u̬ĺ000*
+kiiĺ+N+Sg+Gen: **tongue/kieli**
+* *k%{ei%}%{ei%}{lĺ}%{front%}%^VOWRaise%^PAL*
+* *ki̬i̬ĺ000*
 * *k%{ei%}%{ei%}r%{dØ%}%{eØ%}%{lĺ%}%{front%}%^Pen%^VOWRaise%^Pen%^VowRM%>%{eõ%}%>m%{aä%}*
 * *ki̬i̬rd0l00000%>e%>mä*
 
@@ -626,6 +623,8 @@ elläi+N+Sg+Gen
 **%{jiØ%}:j**
 
 **%{jiØ%}:i**
+* *ki{rŕ}{jiØ}{front}^NoPAL^JI2I*
+* *kiri000*
 
 **%{jiØ%}:0**
 vari+N+Sg+Gen: **shadow/varjo**

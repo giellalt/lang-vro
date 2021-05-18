@@ -21,6 +21,7 @@
 
 minemä **to go/ mennä**
 
+nägemä **to see/nähdä**
 
 olõma **to be/ olla**
 
