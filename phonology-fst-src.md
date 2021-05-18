@@ -303,8 +303,8 @@ tahtma+V+Pss+PrfPrc+Sg+Nom: **want/haluta**
 * *lo00000000%>i*
 
 **ü:ö**
-* *pü%{kgØ%}ä%{front%}%^VOWLower%^WGStem%^VowRM%>e%>t*
-* *pö000000%>e%>t*
+* *pü{kgØ}ä{front}^Pen^VOWLower^Pen^WGStem^VowRM>e>t*
+* *pö00000000>e>t*
 * *süü%{front%}%^VOWLower%^WGStem%>nüq*
 * *söö000%>nüq*
 

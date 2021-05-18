@@ -488,8 +488,8 @@ in d
 
 
 
- * +Err/Orth+Use/NG:%^VowRM%^CnsRM%>i Harm-Neutr_PL-GEN_dE ;  tervide
- * +Err/Orth+Use/NG:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
+ * +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i Harm-Neutr_PL-GEN_dE ;  tervide
+ * +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
 
  * **LEXICON NMN_4AINUS ** Types 4, 8, 17
 ainus:ainus
@@ -831,7 +831,7 @@ Gradation: YES
 
 **N-suekues12**
 
- * +Err/Orth+Use/NG:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
+ * +Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
 
 
 
