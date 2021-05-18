@@ -5915,49 +5915,49 @@ LEXICON NMN_47ASI !!= * @CODE@ asi:a%{sś%}%{jiØ%}
   NMN_47ASI-SG ;
   NMN_47ASI-PL ;
 LEXICON NMN_47ASI-SG 
-:%^NoPAL       Harm-Neutr_SG-NOM  ;
+:%^NoPAL%^JI2I       Harm-Neutr_SG-NOM  ;
 :%^PAL%^VowRM%>%{aä%}    SG-GEN_ZERO-STEM        ;
 +Err/Orth-no-pal:%^NoPAL%^VowRM%>%{aä%}    SG-GEN_ZERO-STEM        ;
-:%^I2J%>%{aä%}    Harm-Neutr_SG-ILL_ZERO        ;
-:%^I2J%>%{aä%}    Harm-Neutr_SG-PAR_ZERO        ;
+:%^NoPAL%^I2J%>%{aä%}    Harm-Neutr_SG-ILL_ZERO        ;
+:%^NoPAL%^I2J%>%{aä%}    Harm-Neutr_SG-PAR_ZERO        ;
 LEXICON NMN_47ASI-PL 
 :%^PAL%^VowRM%>%{aä%}    Harm-Neutr_PL-NOM ;
 +Err/Orth-no-pal:%^NoPAL%^VowRM%>%{aä%}    Harm-Neutr_PL-NOM ;
-:%^I2J%>o       PL-GEN_ZERO ;
-:%^I2J%>o       Harm-Neutr_PL-PAR_ZERO ;
-:%^I2J%>o       PL-ILL_he ;
+:%^NoPAL%^I2J%>o       PL-GEN_ZERO ;
+:%^NoPAL%^I2J%>o       Harm-Neutr_PL-PAR_ZERO ;
+:%^NoPAL%^I2J%>o       PL-ILL_he ;
 :%^PAL%^VowRM%>o       PL-ALL_lE-STEM ;
 +Err/Orth-no-pal:%^NoPAL%^VowRM%>o       PL-ALL_lE-STEM ;
-:%^I2J%>o       PL-COM ;
-+Err/Orth+Use/NG:%^I2J%>o       Harm-Neutr_PL-ILL_ZERO ;
-+Err/Orth+Use/NG:%^I2J%>o       PL-ILL_dE ;
+:%^NoPAL%^I2J%>o       PL-COM ;
++Err/Orth+Use/NG:%^NoPAL%^I2J%>o       Harm-Neutr_PL-ILL_ZERO ;
++Err/Orth+Use/NG:%^NoPAL%^I2J%>o       PL-ILL_dE ;
 
-!LEXICON NMN_47KIRI !!= * @CODE@ kiri:kiri
+!LEXICON NMN_47KIRI !!= * @CODE@ kiri:ki%{rŕ%}%{jiØ%}
 !  NMN_47KIRI-SG ;
 !  NMN_47KIRI-PL ;
 
 LEXICON NMN_47KIRI-SG 
-        Harm-Neutr_SG-NOM  ;
-:%^VowRM%>%{aä%}    SG-GEN_ZERO-STEM        ;
-:%^I2J%>%{aä%}    Harm-Neutr_SG-ILL_ZERO        ;
-:%^I2J%>%{aä%}    Harm-Neutr_SG-PAR_ZERO        ;
+:%^NoPAL%^JI2I        Harm-Neutr_SG-NOM  ;
+:%^PAL%^VowRM%>%{aä%}    SG-GEN_ZERO-STEM        ;
+:%^NoPAL%^I2J%>%{aä%}    Harm-Neutr_SG-ILL_ZERO        ;
+:%^NoPAL%^I2J%>%{aä%}    Harm-Neutr_SG-PAR_ZERO        ;
 :%^PAL%^VowRM%>%{aä%}    SG-GEN_ZERO-STEM        ;
 +Err/Orth-no-pal:%^NoPAL%^VowRM%>%{aä%}    SG-GEN_ZERO-STEM        ;
-:%^I2J%>%{aä%}    Harm-Neutr_SG-ILL_ZERO        ;
-:%^I2J%>%{aä%}    Harm-Neutr_SG-PAR_ZERO        ;
+:%^NoPAL%^I2J%>%{aä%}    Harm-Neutr_SG-ILL_ZERO        ;
+:%^NoPAL%^I2J%>%{aä%}    Harm-Neutr_SG-PAR_ZERO        ;
 LEXICON NMN_47KIRI-PL 
-:%^VowRM%>%{aä%}    Harm-Neutr_PL-NOM ;
+!:%^PAL%^VowRM%>%{aä%}    Harm-Neutr_PL-NOM ;
 :%^PAL%^VowRM%>%{aä%}    Harm-Neutr_PL-NOM ;
 +Err/Orth-no-pal:%^NoPAL%^VowRM%>%{aä%}    Harm-Neutr_PL-NOM ;
-:%^I2J%>o       PL-GEN_ZERO ;
-:%^I2J%>o       Harm-Neutr_PL-PAR_ZERO ;
-:%^I2J%>o       PL-ILL_he ;
+:%^NoPAL%^I2J%>o       PL-GEN_ZERO ;
+:%^NoPAL%^I2J%>o       Harm-Neutr_PL-PAR_ZERO ;
+:%^NoPAL%^I2J%>o       PL-ILL_he ;
 :%^NoPAL%^VowRM%>ö       PL-ALL_lE-STEM ; !!= * @CODE@ IS THIS A REAL FORM?
 :%^PAL%^VowRM%>o       PL-ALL_lE-STEM ;
 +Err/Orth-no-pal:%^NoPAL%^VowRM%>o       PL-ALL_lE-STEM ;
-:%^I2J%>o       PL-COM ;
-+Err/Orth+Use/NG:%^I2J%>o       Harm-Neutr_PL-ILL_ZERO ;
-+Err/Orth+Use/NG:%^I2J%>o       PL-ILL_dE ;
+:%^NoPAL%^I2J%>o       PL-COM ;
++Err/Orth+Use/NG:%^NoPAL%^I2J%>o       Harm-Neutr_PL-ILL_ZERO ;
++Err/Orth+Use/NG:%^NoPAL%^I2J%>o       PL-ILL_dE ;
 
 
 LEXICON NMN_2KASUNUQ/ELAENUEQ !!= * @CODE@ elänüq:elänü
