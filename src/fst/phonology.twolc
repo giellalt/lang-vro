@@ -531,8 +531,8 @@ Rules
 ! _ (HarmDummies:) VOWHite (%^CC2C:|%^G3:|%^G2:|%^StrGStem:|%^WGStem:) (%>) %^NoPAL: ;
  _ (HarmDummies:) PenVOWHite PenGRAD (%^Pen: %^VowRM: ) (%>) %^NoPAL: ;
 ! _ (HarmDummies:) PenVOWHite (%^Pen: [%^G1:|%^G2:|%^G3:|%^StrGStem:|%^WGStem:|%^CC2C:]) (%^Pen: %^VowRM: ) (%>) %^NoPAL: ;
- _ Vow: Cns:* (HarmDummies:) PenVOWHite PenGRAD %^Pen: %^NoPAL: ;
- _ Vow: (HarmDummies:) PenVOWHite PenGRAD (%^VowRM:) %^NoPAL: ;
+ _ [Vow:|ArchVow:] Cns:* (HarmDummies:) PenVOWHite PenGRAD %^Pen: %^NoPAL: ;
+ _ [Vow:|ArchVow:] (HarmDummies:) PenVOWHite PenGRAD (%^VowRM:) %^NoPAL: ;
  _ (%{jiØ%}:) [(HarmDummies:) %^NoPAL:| Vow: (HarmDummies:) PenVOWHite (%^Pen: [%^JI2J:|%^JI2I:] ) %^Pen: %^NoPAL:]  ;
 
       where Cx in (%{bb́%} %{dd́%} %{ff́%} %{gǵ%} %{hh́%}  %{lĺ%} %{mḿ%} %{nń%} %{pṕ%} %{rŕ%} %{sś%} %{tt́%}  %{vv́%} %{zź%})
@@ -877,7 +877,10 @@ Rules
  Vx:0 <=>
      _ (HarmDummies:) [(VOWHite (%^NoPAL:)| PenVOWHite (%^Pen: %^NoPAL:) |PenVOWHite %^Pen: %^WGStem:) %^VowRM:] ;
           where Vx in (%{aõ%} %{ae%} %{äe%} ) ;
-
+!%^Pen%^NoPAL%^VowRM
+!! nõstma+V+Inf/mA
+!!€ nõs{tt́}{aõ}{back}^Pen^NoPAL^VowRM>m{aä}
+!!€ nõst00000>ma
 
 "ö:0"
 !! **@RULENAME@**
