@@ -7,6 +7,15 @@
 
 This page documents the work on the **Võro language model**. 
 
+It contains appr 33000 stems, and an analyser in use for
+spell checking e-learning and e-dictionaries.
+
+The work was done by a Kone-founded project, and later by
+a project SAMEST, financed by the Norwegian research Council.
+
+Central persons behind the work have been
+Jack Rueter, Sulev Iva and Heli Uibo.
+
 # Project documentation
 
 * Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
