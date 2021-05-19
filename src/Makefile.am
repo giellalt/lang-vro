@@ -80,13 +80,53 @@ endif # CAN_FOMA
 #### Add language-specific build rules here: ####
 
 
+### Split multichar letters early, to avoid repetitive code. Multichar ###
+### letters must be split on both sides, and then the alphabet pruned, ###
+### for hfst-tokenise to work without issues.                          ###
+
 # Hfst - add weights to compounds if using tropical-semiring fst format:
 if WITH_OFST_TROPICAL
-generator-raw-gt-desc.hfst: generator-raw-gt-desc.tmp.hfst
-	$(AM_V_REWEIGHT)$(HFST_REWEIGHT) $(MORE_VERBOSITY) $(HFST_FLAGS) \
-			-S '+Cmp' -a 10 --arcs-only -i $< \
+generator-raw-gt-desc.hfst: generator-raw-gt-desc.tmp.hfst \
+					orthography/split-composed-chars.compose.hfst
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex            \
+				@\"orthography/split-composed-chars.compose.hfst\".i \
+			.o. @\"$<\"                               \
+			.o. @\"orthography/split-composed-chars.compose.hfst\" \
+			;\n\
+		 save stack $@.tmp\n\
+		 quit\n" | $(XFST_TOOL)
+	$(AM_V_REWEIGHT)$(HFST_PRUNE_ALPHABET) -i $@.tmp \
+		$(HFST_REWEIGHT) $(MORE_VERBOSITY) $(HFST_FLAGS) \
+			-S '+Cmp' -a 10 --arcs-only \
 		> $@
+	 $(AM_V_at)rm -f $@.tmp
+
+else
+
+generator-raw-gt-desc.hfst: generator-raw-gt-desc.tmp.hfst \
+					orthography/split-composed-chars.compose.hfst
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex            \
+				@\"orthography/split-composed-chars.compose.hfst\".i \
+			.o. @\"$<\"                               \
+			.o. @\"orthography/split-composed-chars.compose.hfst\" \
+			;\n\
+		 save stack $@.tmp\n\
+		 quit\n" | $(XFST_TOOL)
+	 $(AM_V_HPRUNE)$(HFST_PRUNE_ALPHABET) -i $@.tmp -o $@
+	 $(AM_V_at)rm -f $@.tmp
+
 endif
+
+analyser-raw-gt-desc.%: analyser-raw-gt-desc.tmp.% \
+					orthography/split-composed-chars.compose.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex            \
+				@\"orthography/split-composed-chars.compose.$*\".i \
+			.o. @\"$<\"                               \
+			.o. @\"orthography/split-composed-chars.compose.$*\" \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
 
 # Hfst:
 analyser-%.hfst: analyser-%.tmp.hfst                        \
