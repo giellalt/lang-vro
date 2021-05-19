@@ -19,7 +19,7 @@ Jack Rueter, Sulev Iva and Heli Uibo.
 # Project documentation
 
 * Generation of: [paradigms](http://giellatekno.uit.no/cgi/p-vro.fin.html)
- 
+
 ## Grammatical issues
 
 * [The tags that are in use](https://github.com/giellalt/lang-vro/blob/main/src/fst/root.lexc)
