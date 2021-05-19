@@ -18,17 +18,17 @@ Jack Rueter, Sulev Iva and Heli Uibo.
 
 # Project documentation
 
-* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-vro.fin.html]
+* Generation of: [paradigms](http://giellatekno.uit.no/cgi/p-vro.fin.html)
  
 ## Grammatical issues
 
-* [The tags that are in use|https://gtsvn.uit.no/langtech/trunk/langs/vro/src/fst/root.lexc]   
-* [A list of morphological tags|/lang/common/MorphologicalTags.html]
+* [The tags that are in use](https://github.com/giellalt/lang-vro/blob/main/src/fst/root.lexc)
+* [A list of morphological tags](/lang/common/MorphologicalTags.html)
 
 ## Using the analysers
 
-* In the terminal: analyse words by writing ''uvro'', generate with ''dvro''
-* For more info, see [How to use the morphological parsers|/tools/docu-sme-manual.html]
+* In the terminal: analyse words by writing `uvro`, generate with `dvro`
+* For more info, see [How to use the morphological parsers](/tools/docu-sme-manual.html)
 
 # In-source documentation
 
