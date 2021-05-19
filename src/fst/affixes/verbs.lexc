@@ -689,68 +689,68 @@ LEXICON V_59KAOTAMA/KERGUETAEMAE !!≈ * **@CODE@** kaotama:kao, kergütämä:ke
 ! (9) jus: 
 
 ! (1) I tegonimi:
-:t%^VOWRaise%>%{aä%} Harm-Neutr_INF_mA ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{aä%} Harm-Neutr_INF_mA ;
 
 ! (2) II tegonimi:
-:t%^VOWRaise%>%{aä%} Harm-Neutr_INF_ZEROq ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{aä%} Harm-Neutr_INF_ZEROq ;
 
-:t%^VOWRaise%>%{aä%} Harm-Neutr_ACT-PRSPRC_v ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{aä%} Harm-Neutr_ACT-PRSPRC_v ;
 
 ! (3) tekev tm aktiiv: 
-:t%^VOWRaise%>%{aä%} ACT-PRFPRC-ALL_nUq ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{aä%} ACT-PRFPRC-ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: 
-:t%^VOWRaise%>%{eõ%} Harm-Neutr_KAOTAMA-PSS-DISTRIBUTION ; != * @CODE@ kaotõ
+:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} Harm-Neutr_KAOTAMA-PSS-DISTRIBUTION ; != * @CODE@ kaotõ
 !! +Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
 !! +Pss+PrsPrc, +Pss+PrfPrc
-:t%^VOWRaise%>%{eõ%} PSS-PRFPRC_dU-SG-NOM ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS-PRFPRC_dU-SG-NOM ;
 
 ! (5) Olõvao 1. k maq:
-:d%^VOWRaise%>%{aä%} ACT-IND-CONNEG/PRS-SG1 ;
+:%^VOWRaise%^WGStem%^NoPAL%>%{aä%} ACT-IND-CONNEG/PRS-SG1 ;
 !! +Act+Ind+Prs+Sg1, +Act+Ind+ConNegII, +Act+Imprt+Sg2
 !! +Act+Ind+Prs+Neg, +Act+Ind+Prt+Neg, +Act+Ind+ConNegI
 
 ! 2nd person indicative present
-:t%^VOWRaise%>%{aä%} ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{aä%} ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
 
 ! 1st person plural present
-:t%^VOWRaise%>%{aä%} ACT-IND-PRS-PL1_miq ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{aä%} ACT-IND-PRS-PL1_miq ;
 
 ! (6) Olõvao 3. k tä: 
-:t%^VOWRaise%>%{aä%} ACT-IND-PRS-3_s/sEq ; 
+:%^VOWRaise%^StrGStem%^NoPAL%>%{aä%} ACT-IND-PRS-3_s/sEq ; 
 !! +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
 
 ! (7) min 1. k maq: Sg1 and Pl3
-:d%^VOWRaise ACT-IND-PRT-SG1_i/PL3_iq ;
-+Use/NG+Err/Orth:d%^VOWRaise ACT-IND-PRT-SG2_iq ;
+:%^VOWRaise%^WGStem%^NoPAL ACT-IND-PRT-SG1_i/PL3_iq ;
++Use/NG+Err/Orth:%^VOWRaise%^WGStem%^NoPAL ACT-IND-PRT-SG2_iq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
-:t%^VOWRaise%>%{aä%} ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{aä%} ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
 !2
-:d%^VOWRaise%>i   ACT-IND-PRT-SG1_ZERO/SG2_q/PL3_q ; !!= * @CODE@ kaodi
+:%^VOWRaise%^WGStem%^NoPAL%>i   ACT-IND-PRT-SG1_ZERO/SG2_q/PL3_q ; !!= * @CODE@ kaodi
 !! +Act+Ind+Prt+Sg1, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
 !CHECKED
 
 !3
-:t%^VOWRaise%>%{aä%} INF-TYPE-EVEN-SYLL-STRONG-GRADE-IN-VOWEL-A ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{aä%} INF-TYPE-EVEN-SYLL-STRONG-GRADE-IN-VOWEL-A ;
 !:t%^VOWRaise%>%{aä%} Harm-Neutr_ACT-IND-PRS-SG2_USUALLY-STRONG ; !!= * @CODE@ kaota
 !! +Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
 !! +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
 
 !4
-:t%^VOWRaise%>i Harm-Neutr_ACT-IND-PRT-SG2_USUALLY-STRONG ; !!= * @CODE@ kaoti
+:%^VOWRaise%^StrGStem%^NoPAL%>i Harm-Neutr_ACT-IND-PRT-SG2_USUALLY-STRONG ; !!= * @CODE@ kaoti
 !! +Act+Ind+Prt+Sg2, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
 !! +Act+Ind+Prt+Pl2, +Use/NG+Err/Orth+Act+Ind+Prt+Pl3
 
 !5
 ! (8) min 3. k tä: 
-:%{tt́%}%^VOWRaise%^PAL ACT-IND-PRT-SG3_ZERO ;
+:%^VOWRaise%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
 
 !! +Act+Ind+Prt+Sg3
 
 ! (9) jus:
-:t%^VOWRaise%{aä%} MUTUAL_JUS_guq ;
+:%^VOWRaise%^StrGStem%^NoPAL%{aä%} MUTUAL_JUS_guq ;
 
 ! Test data:
 !!€gt-norm: kaotama
