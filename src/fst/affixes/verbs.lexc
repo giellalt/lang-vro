@@ -2448,18 +2448,17 @@ LEXICON V_83LAULMA  !!= * @CODE@ laulma:laul
 :%{back%} V_83LAULMA/XX ;
 
 
-LEXICON V_83LAULMA/XX  !!= * @CODE@ laulma:laul
+LEXICON V_83LAULMA/XX  !!= * @CODE@ laulma:lau%{lĺ%}
 ! (1) I tegonimi: 
-:%^VowRM Harm-Neutr_INF_mA ;
- ACT-IND-CONNEG ;
-:%^Pen%^WGStem ACT-IND-CONNEG ; !! sõida
-:%^VowRM ACT-PRSPRC_vA ;
+:%^NoPAL Harm-Neutr_INF_mA ;
+
+:%^NoPAL Harm-Neutr_ACT-PRSPRC_v ;
 
 ! (2) II tegonimi: 
-:%^VowRM%>d Harm-Neutr_INF_Aq ;  !! HERE is the distinction 2016-10-04
+:%^NoPAL Harm-Neutr_INF_dAq ;  !! HERE is the distinction 2016-10-04
 
 ! (3) tekev tm aktiiv: 
-:%^VowRM ACT-PRFPRC-ALL_nUq ;
+:%^NoPAL ACT-PRFPRC-ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: 
 :%^VowRM PSS-PRSPRC_tAv ;
@@ -2468,37 +2467,39 @@ LEXICON V_83LAULMA/XX  !!= * @CODE@ laulma:laul
 :%^PSS PSS-IND-PRT-SG1_di/SG3_ti ; !! IS THIS RIGHT? 2015-09-02
 
 ! (5) Olõvao 1. k maq: 
-+Act+Ind+Prs+Sg1:%^Pen%^WGStem%> K ; 
-+Act+Ind+Prs+Sg2:%^Pen%^WGStem%>t K ; 
-+Use/NG+Err/Orth+Act+Ind+Prs+Sg2:%^Pen%^WGStem%>d%{eõ%}q K ; 
-+Act+Ind+Prs+Pl1:%^Pen%^WGStem%>miq K ; 
-+Act+Ind+Prs+Pl2:%^Pen%^WGStem%>tiq K ; 
+:%^NoPAL%{aä%} ACT-IND-CONNEG/PRS-SG1 ;
+
+! 2nd person indicative present
+:%^NoPAL%{aä%} ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
+! 1st person plural present
+:%^NoPAL%{aä%}  ACT-IND-PRS-PL1_miq ;
+
 +Act+Ind+Prs+Sg3:%^VowRM K ; 
 +Act+Ind+Prs+Pl3:%^VowRM%>v%{aä%}q K ; 
 
 ! (6) Olõvao 3. k tä: 
+:%^NoPAL  ACT-IND-PRT-PL3_q/vAq ;
+
 ! (7) min 1. k maq: 
-:%^Pen%^WGStem%^VowRM ACT-IND-PRT-SG1_i/PL3_iq ; 
-+Use/NG+Err/Orth:%^VowRM ACT-IND-PRT-SG1_sE/PL3_sEq ; 
-+Act+Ind+Prt+Sg2:%^Pen%^WGStem%^VowRM%>it K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^Pen%^WGStem%^VowRM%>iq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^Pen%^WGStem%^VowRM%>id%{eõ%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^VowRM%>s%{eõ%}t K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^VowRM%>s%{eõ%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^VowRM%>s%{eõ%}d%{eõ%}q K ;
-+Act+Ind+Prt+Pl1:%^Pen%^WGStem%^VowRM%>imiq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl1:%^VowRM%>s%{eõ%}miq K ;
-+Act+Ind+Prt+Pl2:%^Pen%^WGStem%^VowRM%>itiq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl2:%^VowRM%>s%{eõ%}tiq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^WGStem%^VowRM%>iv%{aä%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^VowRM%>s%{eõ%}v%{aä%}q K ;
+:%^NoPAL ACT-IND-PRT-SG1_i/PL3_iq ;
+:%^NoPAL ACT-IND-PRT-SG1_sE/PL3_sEq ;
+
+! (7.2) Sg2, Pl1 and Pl2
+:%^NoPAL ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
++Use/NG+Err/Orth:%^NoPAL  ACT-IND-PRT-SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^NoPAL%>iq K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^NoPAL%>s%{eõ%}q K ;
+
++Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^NoPAL%>iv%{aä%}q K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^NoPALM%>s%{eõ%}v%{aä%}q K ;
 
 ! (8) min 3. k tä: 
-:%^VowRM ACT-IND-PRT-SG3_APOSTROPHE ;
+:%^PAL ACT-IND-PRT-SG3_ZERO ;
++Use/NG+Err/Orth:%^NoPAL ACT-IND-PRT-SG3_sE ;
 +Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^VowRM%>s%{eõ%} K ;
 
 ! (9) jus: 
-:%^VowRM MUTUAL_JUS_kuq ;
+:%^NoPAL MUTUAL_JUS_guq ;
 
 LEXICON V_83ATMA  !!= * @CODE@ atma:atta
 !! gradation: yes
@@ -2645,23 +2646,23 @@ LEXICON V_84LASKMA !!= * @CODE@ laskma:lask
 LEXICON V_84KÄSKMÄ !!= * @CODE@ käskmä:käsk
 !! * Yaml: **nwstma**
 :%{front%} V_84LASKMA/KÄSKMÄ ;
-LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:lask
+LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:las%{kḱØ%}
 !! * Yaml: **nwstma**
 ! (1) I tegonimi: 
-:%^VOWRAise%^NoPAL Harm-Neutr_INF_mA ;
-:%^VOWRAise%^NoPAL ACT-PRSPRC_vA ;
+:%^VOWRAise%^StrGStem%^NoPAL Harm-Neutr_INF_mA ;
+:%^VOWRAise%^StrGStem%^NoPAL ACT-PRSPRC_vA ;
 
 
 ! (2) II tegonimi: 
-:%^VOWRAise%^NoPAL%>%{eõ%} Harm-Neutr_INF_ZEROq ;
+:%^VOWRAise%^StrGStem%^NoPAL%>%{eõ%} Harm-Neutr_INF_ZEROq ;
 
 ! (3) tekev tm aktiiv: 
-:%^VOWRAise%^NoPAL ACT-PRFPRC-ALL_nUq ;
+:%^VOWRAise%^StrGStem%^NoPAL ACT-PRFPRC-ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: 
 :%^VOWLower%^WGStem%^NoPAL PSS-IND-PRS-ALL_tA ;
-:%^VOWRAise%^NoPAL PSS-IND-PRT-SG1_di/SG3_ti ;
-:%^VOWRAise%^NoPAL PSS-PRSPRC_tAv ;
+:%^VOWRAise%^StrGStem%^NoPAL PSS-IND-PRT-SG1_di/SG3_ti ;
+:%^VOWRAise%^StrGStem%^NoPAL PSS-PRSPRC_tAv ;
 :%^VOWLower%^WGStem%^NoPAL PSS-PRFPRC_t-ONLY ;
 :%^VOWLower%^WGStem%^NoPAL PSS-PRFPRC_tU-SG-NOM ;
 
@@ -2673,7 +2674,7 @@ LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:lask
 
 
 ! (6) Olõvao 3. k tä: 
-:%^VOWRAise%^NoPAL ACT-IND-PRS-SG3_ZERO/PL3_vAq ;
+:%^VOWRAise%^StrGStem%^NoPAL ACT-IND-PRS-SG3_ZERO/PL3_vAq ;
 
 ! (7) min 1. k maq: 
 :%^VOWLower%^WGStem%^NoPAL ACT-IND-PRT-SG1_i/PL3_iq ;
@@ -2683,14 +2684,14 @@ LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:lask
 
 :%^VOWLower%^WGStem%^NoPAL ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
 
-+Use/NG+Err/Orth:%^VOWRAise%^NoPAL ACT-IND-PRT-SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Use/NG+Err/Orth:%^VOWRAise%^StrGStem%^NoPAL ACT-IND-PRT-SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
 ! (8) min 3. k tä: 
-:%^VOWRAise%^PAL ACT-IND-PRT-SG3_ZERO ;
-:%^VOWRAise%^NoPAL ACT-IND-PRT-SG3_sE ;
+:%^VOWRAise%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
+:%^VOWRAise%^StrGStem%^NoPAL ACT-IND-PRT-SG3_sE ;
 
 ! (9) jus: 
-:%^VOWLower%^WGStem%^NoPAL MUTUAL_JUS_kuq ;
+:%^VOWLower%^WGStem%^NoPAL MUTUAL_JUS_kuq ;!CHECKME2021-05-19
 
 LEXICON V_85HIRNMA !!≈ * **@CODE@** kakma:kaku hirnma:hirnu
 !! * Yaml: **kakma**

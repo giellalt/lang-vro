@@ -88,6 +88,7 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
  %{pb%}:b   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
 
  %{tØ%}:t   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{t́Ø%}:t   !!= @CODE@ — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
  %{td%}:t   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{t́d́%}:t́   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{kg%}:k   !!= @CODE@ — HJK and KimmoK ideas kaigas:kai%{kg%}as
@@ -298,7 +299,7 @@ CnsVoiced = j l m n r v ;
 
 ArchVow = %{ae%} %{aõ%} %{äe%} %{eõ%} %{uü%} %{öü%} %{ou%} %{ei%} %{õy%} %{ao%} %{eØ%} %{õØ%} ;
 
-ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{bv%} %{bm%} %{pb%} %{td%} %{gv%} %{gl%} %{gØ%} %{kg%} %{dØ%} %{dv%} %{dl%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{sś%} %{lĺ%} %{rŕ%} %{nń%} %{ij%} %{kḱ%} %{hh́%} %{t́d́%} %{gǵ%} %{dd́Ø%} %{dd́n%} %{dd́r%} %{dd́v%} %{gǵv%} 
+ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ%} %{tØ%} %{t́Ø%} %{vØ%} %{bv%} %{bm%} %{pb%} %{td%} %{gv%} %{gl%} %{gØ%} %{kg%} %{dØ%} %{dv%} %{dl%} %{dr%} %{dn%} %{pbØ%} %{tdØ%} %{kgØ%} %{sś%} %{lĺ%} %{rŕ%} %{nń%} %{ij%} %{kḱ%} %{hh́%} %{t́d́%} %{gǵ%} %{dd́Ø%} %{dd́n%} %{dd́r%} %{dd́v%} %{gǵv%} 
 %{jiØ%} 
 %{pṕb%} 
 %{dd́%}
@@ -317,7 +318,7 @@ ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ
 
 
 
-ArchCnsInZero =  %{gØ%} %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ%} %{tØ%} %{vØ%} %{pbØ%} %{tdØ%} %{kgØ%} ;
+ArchCnsInZero =  %{gØ%} %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ%} %{tØ%} %{t́Ø%} %{vØ%} %{pbØ%} %{tdØ%} %{kgØ%} ;
 
 Letters = Vow Cns ;
 
@@ -1140,7 +1141,8 @@ Vow: _ [ p ] Vow: (HarmDummies:) PenVOWHite %^Pen:  %^StrGStem: ;
 
 "%{tØ%}:t"
 !! **@RULENAME@**
- %{tØ%}:t <=> Vow _ [%{tdØ%}:|%{td%}:] [Vow:|ArchVow:] (HarmDummies:) PenVOWHite  %^Pen: %^XStrGStem: ;
+ %{tØ%}:t <=>
+ Vow _ [%{tdØ%}:|%{td%}:] [Vow:|ArchVow:] (HarmDummies:) PenVOWHite  %^Pen: %^XStrGStem: ;
 !!€ sõ%{tØ%}da%{back%}%^XStrGStem%^PLPRT
 !!€ sõtto000
  Vow _ [t|%{tt́%}:] (HarmDummies:) %^StrGStem: ;
@@ -1160,6 +1162,9 @@ Vow: _ [ t |%{tt́%}: ] Vow: (HarmDummies:) PenVOWHite %^Pen: %^StrGStem: ;
 !!€ sõtta000
   Vow _ %{tdØ%}: (HarmDummies:) [%^G4:] ;
 
+"%{t́Ø%}:t́"
+!! **@RULENAME@**
+ %{t́Ø%}:t́ <=> _ [Vow:| ArchVow:] [Cns:| ArchCns:] (HarmDummies:) PenVOWHite %^Pen: %^StrGStem: ;
 
 "%{Øk%}:k"
 !! **@RULENAME@**
@@ -1663,6 +1668,11 @@ Vow: _  %{pbv%}: (HarmDummies:) [ %^G1: |%^G2: | %^G3: ] ;
 !!€ sõ00a000
 
 _ [%{td%}: | %{tt́d%}: ] (HarmDummies:) [ %^G2: | %^G3:| %^G4: ] ;
+
+
+"%{t́Ø%}:0"
+!! **@RULENAME@**
+ %{t́Ø%}:0 <=> _ [Vow:| ArchVow:] [Cns:| ArchCns:] (HarmDummies:) PenVOWHite %^Pen: %^WGStem: ;
 
 !! ### CONSONANT QUALITY CHANGE
 
