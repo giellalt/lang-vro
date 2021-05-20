@@ -2852,6 +2852,7 @@ ADD NOUNS BELOW
   %{pb%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
 
   %{tØ%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{t́Ø%}:t    — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
   %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{t́d́%}:t́    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
@@ -3483,6 +3484,7 @@ sõda+N+Sg+Ill:
 * *sõ%{tØ%}%{tdØ%}a%{back%}%^Pen%^G3*
 * *sõtta000*
 
+**%{t́Ø%}:t́**
 
 **%{Øk%}:k**
 igä+N+Sg+Ill
@@ -3753,6 +3755,9 @@ sõda+N+Sg+Gen:
 * *sõ%{tØ%}%{tdØ%}a%{back%}%^Pen%^G1*
 * *sõ00a000*
 
+
+
+**%{t́Ø%}:0**
 
 ### CONSONANT QUALITY CHANGE
 
@@ -7110,13 +7115,18 @@ gradation: yes
 * Yaml: **switma**
 
 
- * LEXICON V_83LAULMA/XX   laulma:laul
-sõida
+ * LEXICON V_83LAULMA/XX   laulma:lau%{lĺ%}
+
 
 HERE is the distinction 2016-10-04
 
 
 IS THIS RIGHT? 2015-09-02
+
+
+
+
+
 
 
 
@@ -7173,7 +7183,7 @@ sõida
 * Yaml: **nwstma**
  * LEXICON V_84KÄSKMÄ  käskmä:käsk
 * Yaml: **nwstma**
- * LEXICON V_84LASKMA/KÄSKMÄ  laskma:lask
+ * LEXICON V_84LASKMA/KÄSKMÄ  laskma:las%{kḱØ%}
 * Yaml: **nwstma**
 
 
@@ -8212,6 +8222,7 @@ symbols in the lexicon files:
   %{XC%}    — This is used for lengthening a consonant
   %{dØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{tØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{t́Ø%}    — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
   %{dv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{ij%}    ellä%{ij%}
   %{gv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na

@@ -350,6 +350,7 @@ symbols in the lexicon files:
   %{XC%}    — This is used for lengthening a consonant
   %{dØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{tØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{t́Ø%}    — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
   %{dv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{ij%}    ellä%{ij%}
   %{gv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na

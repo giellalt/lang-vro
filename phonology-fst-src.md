@@ -76,6 +76,7 @@
   %{pb%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
 
   %{tØ%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+  %{t́Ø%}:t    — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
   %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{t́d́%}:t́    — HJK and KimmoK ideas kana:ka%{nØ%}na
   %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
@@ -707,6 +708,7 @@ sõda+N+Sg+Ill:
 * *sõ%{tØ%}%{tdØ%}a%{back%}%^Pen%^G3*
 * *sõtta000*
 
+**%{t́Ø%}:t́**
 
 **%{Øk%}:k**
 igä+N+Sg+Ill
@@ -977,6 +979,9 @@ sõda+N+Sg+Gen:
 * *sõ%{tØ%}%{tdØ%}a%{back%}%^Pen%^G1*
 * *sõ00a000*
 
+
+
+**%{t́Ø%}:0**
 
 ### CONSONANT QUALITY CHANGE
 

@@ -897,13 +897,18 @@ gradation: yes
 * Yaml: **switma**
 
 
- * LEXICON V_83LAULMA/XX   laulma:laul
-sõida
+ * LEXICON V_83LAULMA/XX   laulma:lau%{lĺ%}
+
 
 HERE is the distinction 2016-10-04
 
 
 IS THIS RIGHT? 2015-09-02
+
+
+
+
+
 
 
 
@@ -960,7 +965,7 @@ sõida
 * Yaml: **nwstma**
  * LEXICON V_84KÄSKMÄ  käskmä:käsk
 * Yaml: **nwstma**
- * LEXICON V_84LASKMA/KÄSKMÄ  laskma:lask
+ * LEXICON V_84LASKMA/KÄSKMÄ  laskma:las%{kḱØ%}
 * Yaml: **nwstma**
 
 
