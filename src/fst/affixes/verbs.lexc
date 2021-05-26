@@ -66,6 +66,18 @@ LEXICON V_48KUIOMA
 :%{back%} V_48KUIOMA/XX ;
 
 LEXICON V_48KUIOMA/XX
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
  ACT-IND-PRS-12 ;
  ACT-IND-PRS-3_s/sEq ;
  PSS-IND-PRS-SG1_dA/SG3_tAs ;
@@ -94,7 +106,7 @@ LEXICON V_48ELAEMAE
 
 
 LEXICON V_48PALAMA/ELAEMAE
-! (1) I tegonimi: elämä
+! (1) I tegonimi: elämä sõgluma+V:sõ%{kg%}lu
 :%^Pen%^WGStem Harm-Neutr_INF_mA ;
 
 ! (2) II tegonimi: elläq 
@@ -138,29 +150,43 @@ LEXICON V_48PALAMA/ELAEMAE
 !!! * Yaml: __elaemae48__
 !:%{front%} V_48PALAMA/ELAEMAE ;
 
-!LEXICON V_48SADAMA
-!!! There are other verbs here, cf. V_ELAEMAE
-!!! * Yaml: __V-sadama48__
-!:%{back%} V_48SADAMA/XX ;
+LEXICON V_48SADAMA
+!! There are other verbs here, cf. V_ELAEMAE
+!! * Yaml: __V-sadama48__
+:%{back%} V_48SADAMA/XX ;
 
-!LEXICON V_48SADAMA/XX
-!:%^StrGStem ACT-IND-PRS-12 ;
-! ACT-IND-PRS-3_s/sEq ;
-! PSS-IND-PRS-SG1_dA/SG3_tAs ;
+LEXICON V_48SADAMA/XX
+! (1) I tegonimi: sadama+V:sa%{tØ%}%{td%}a
+:%^Pen%^G2 Harm-Neutr_INF_mA ;
 
-!:%^XStrGStem%>%{eõ%} ACT-IND-PRT-1/2_ZERO ;
-!!! Act_Prt_Sg1: sattõ
-! ACT-IND-CONNEG ;
-!:%^XStrGStem%>%{eõ%} ACT-IND-PRT-SG3_ZERO ;
-! PSS-IND-PRT-SG1_di/SG3_ti ;
+! (2) II tegonimi:
+:%^Pen%^G4 Harm-Neutr_INF_ZEROq ;
+ Harm-Neutr_ACT-PRSPRC_v ;
+! (3) tekev tm aktiiv:
+:%^Pen%^G2 Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
+! (4) Tettäv tm passiiv:
+ PSS-PRSPRC_tAv ;
+:%^VowRM%>%{aä%} PSS-PRFPRC_t/SG-GEN_dU ;
+!! Pss_PrfPrc: sadat
+! (5) Olõvao 1. k maq:
+:%^Pen%^G2 ACT-IND-CONNEG/PRS-SG1 ;
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+:%^Pen%^G4%>%{eõ%} ACT-IND-PRT-SG3_ZERO ;
+! (9) jus:
 
-! Harm-Neutr_INF_mA ;
-!:%^StrGStem Harm-Neutr_INF_ZEROq ;
-! Harm-Neutr_ACT-PRSPRC_v ;
-! Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
-! PSS-PRSPRC_tAv ;
-!:%^VowRM%>%{aä%} PSS-PRFPRC_t/SG-GEN_dU ;
-!!! Pss_PrfPrc: sadat
+:%^StrGStem ACT-IND-PRS-12 ;
+:%^Pen%^G2 ACT-IND-PRS-3_s/sEq ;
+ PSS-IND-PRS-SG1_dA/SG3_tAs ;
+
+:%^XStrGStem%>%{eõ%} ACT-IND-PRT-1/2_ZERO ;
+!! Act_Prt_Sg1: sattõ
+ PSS-IND-PRT-SG1_di/SG3_ti ;
+
 
 LEXICON V_49LWPMA !!≈ * **@CODE@** lõpma:lõpp
 :%{back%} V_49LWPMA/XX ;
@@ -222,6 +248,18 @@ LEXICON V_50TONISWMA !!≈ * **@CODE@** tonisõma:tonis
 !! * Yaml: **toniswma50**
 :%{back%} V_50TONISWMA/HELISEMAE ;
 LEXICON V_50TONISWMA/HELISEMAE !!≈ * **@CODE@** tonisõma:tonis
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 :%{eõ%} ACT-IND-PRS-12 ;
 :%{eõ%} ACT-IND-PRS-3_s/sEq ;
 
@@ -281,11 +319,11 @@ LEXICON V_51NWSWMA/PAESEMAE !!≈ * **@CODE@** nõsõma:nõs
 :%{eõ%} ACT-IND-PRS-3_s/sEq ;
 
 ! (7) min 1. k maq: nõssi
-:%^StrGSt ACT-IND-PRT-12_i ;
-!:%^StrGSt Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
+:%^StrGStem ACT-IND-PRT-12_i ;
+!:%^StrGStem ACT-IND-PRT-PL3_vAq ;
 
 ! (8) min 3. k tä: nõssi
-:%^StrGSt ACT-IND-PRT-SG3_i ;
+:%^StrGStem ACT-IND-PRT-SG3_i ;
 
 
 LEXICON V_52ALOSTWLWMA !!≈ * **@CODE@** alostõlõma:alostõll
@@ -346,15 +384,18 @@ LEXICON V_53KAEMA !!≈ * **@CODE@**
 LEXICON V_53JAEAEMAE !!≈ * **@CODE@** 
 :%{front%} V_53KAEMA/JAEAEMAE ;
 LEXICON V_53KAEMA/JAEAEMAE !!≈ * **@CODE@** 
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^VOWRaise Harm-Neutr_V0-PSS-PRSPRC_dAv ;
 :%^VOWRaise PSS-PRFPRC_d ;
@@ -397,15 +438,6 @@ LEXICON V_55HAERELEMAE !!≈ * **@CODE@** härelemä:härel
 :%{front%} V_55KWNWLWMA/HAERELEMAE ;
 
 LEXICON V_55KWNWLWMA/HAERELEMAE
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 ! (1) I tegonimi:
 :%^NoPAL%{eõ%} Harm-Neutr_INF_mA ;
 
@@ -443,6 +475,7 @@ LEXICON V_55KWNWLWMA/HAERELEMAE
 
 ! (8) min 3. k tä:
 :%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^NoPAL ACT-IND-PRT-SG3_ZERO ;
 +Use/NG+Err/Orth:%^NoPAL ACT-IND-PRT-SG3_i ;
 
 ! (9) jus: 
@@ -457,15 +490,6 @@ LEXICON V_56HEIKELEMAE !!≈ * **@CODE@** heikelemä:heikel
 :%{front%} V_56HIIBWLWMA/HEIKELEMAE ;
 
 LEXICON V_56HIIBWLWMA/HEIKELEMAE !!≈ * **@CODE@** hiibõlõma:hiibõl
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 ! (1) I tegonimi: hirnma
 :%^Pen%^VOWRaise%^Pen%^StrGStem%>%{eõ%} Harm-Neutr_INF_mA ;
 
@@ -570,6 +594,7 @@ LEXICON V_57TAPLWMA/UETLEMAE
 
 ! (8) min 3. k tä: 
 :%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^NoPAL ACT-IND-PRT-SG3_ZERO ;
 
 ! (9) jus: tapölguq
 :%^NoPAL MUTUAL_JUS_guq ;
@@ -584,7 +609,7 @@ LEXICON V_57KIIRDLEMAE
 :%{front%} V_57VWITLWMA/KIIRDLEMAE ;
 
 LEXICON V_57VWITLWMA/KIIRDLEMAE ! väärdlemä+V:väär%{dØ%}%{eØ%}%{lĺ%}
-! (1) I tegonimi:
+! (1) I tegonimi: ku%{lØ%}l%{õØ%}%{lĺ%}
 !!€ väär{dØ}{eØ}{lĺ}{front}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}>m{aä}
 !!€ väärd0l00000000>e>mä
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{eõ%} Harm-Neutr_INF_mA ;
@@ -624,6 +649,57 @@ LEXICON V_57VWITLWMA/KIIRDLEMAE ! väärdlemä+V:väär%{dØ%}%{eØ%}%{lĺ%}
 
 ! (8) min 3. k tä: 
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL ACT-IND-PRT-SG3_ZERO ;
+
+! (9) jus: 
+
+LEXICON V_57KULLWMA
+!! kullõma+V:ku%{lØ%}l%{õØ%}%{lĺ%}
+!! * Yaml: **kiirdlemae57**
+:%{back%} V_57KULLWMA/XX ;
+
+LEXICON V_57KULLWMA/XX ! kullõma+V:ku%{lØ%}l%{õØ%}%{lĺ%}
+! (1) I tegonimi: ku%{lØ%}l%{õØ%}%{lĺ%}
+!!€ ku%{lØ%}l%{õØ%}%{lĺ%}{back}^Pen^VOWRaise^Pen^CC2C^Pen^VowRM^NoPAL>{eõ}>m{aä}
+!!€ ku0l0l00000000>õ>ma
+:%^Pen%^VOWRaise%^Pen%^CC2C%^Pen%^VowRM%^NoPAL%>%{eõ%} Harm-Neutr_INF_mA ;
+:%^Pen%^VOWRaise%^Pen%^CC2C%^Pen%^VowRM%^NoPAL%>%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
+
+! (2) II tegonimi: 
+:%^Pen%^VOWLower%^Pen%^WGStem%^NoPAL Harm-Neutr_INF_dAq ;
+
+! (3) tekev tm aktiiv: 
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
+
+! (4) Tettäv tm passiiv: 
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL PSS-IND-PRS-SG1_dA/SG3_tAs ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL PSS-IND-PRT-SG1_di/SG3_ti ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL PSS-PRSPRC_tAv ;
+
+:%^Pen%^VOWLower%^Pen%^WGStem%^NoPAL Harm-Neutr_JUUMA-PSS-PRFPRC_d ;
+:%^Pen%^VOWLower%^Pen%^WGStem%^NoPAL Harm-Neutr_PSS-PRFPRC_dU ;
+
+! (5) Olõvao 1. k maq: 
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL%{eõ%} ACT-IND-CONNEG/PRS-SG1 ;
+
+! 2nd person indicative present
+:%^Pen%^VOWRaise%^Pen%^CC2C%^Pen%^VowRM%^NoPAL%{eõ%} ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
+! 1st person plural present
+:%^Pen%^VOWRaise%^Pen%^CC2C%^Pen%^VowRM%^NoPAL%{eõ%} ACT-IND-PRS-PL1_miq ;
+
+! (6) Olõvao 3. k tä: 
+:%^Pen%^VOWRaise%^Pen%^CC2C%^Pen%^VowRM%^NoPAL%{eõ%} ACT-IND-PRS-3_s/sEq ;
+
+! (7) min 1. k maq: 
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL ACT-IND-PRT-SG1_i/PL3_iq ;
++Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL ACT-IND-PRT-PL3_ivAq ;
+! (7.2) Sg2, Pl1 and Pl2
+:%^Pen%^VOWRaise%^Pen%^CC2C%^Pen%^VowRM%^NoPAL ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
+
+
+! (8) min 3. k tä: 
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL ACT-IND-PRT-SG3_ZERO ;
 
 ! (9) jus: 
 
@@ -637,15 +713,18 @@ LEXICON V_58TAEHENDAEMAE !!≈ * **@CODE@** tähendämä:tähendä
 :%{front%} V_58HIRNAHTAMA/TAEHENDAEMAE ;
 
 LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE !!≈ * **@CODE@** hirnahtama:hirnahta, tähendämä:tähend
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^Pen%^VOWRaise%^Pen%^NoPAL Harm-Neutr_INF_mA ;
 
@@ -659,6 +738,7 @@ LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE !!≈ * **@CODE@** hirnahtama:hirnahta, täh
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM ACT-IND-PRT-12_i ;
 :%^Pen%^VOWRaise%^Pen%^NoPAL ACT-IND-CONNEG ;
 :%^Pen%^VOWRaise%^Pen%^PAL%^VowRM ACT-IND-PRT-SG3_ZERO ; ! no additional marking
++Err/Orth-no-pal:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_ZERO ; ! no additional marking
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>i ACT-IND-PRT-PL3_q/vAq ;
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS-IND-PRS-ALL_dA ;
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS-IND-PRT-ALL_di ;
@@ -678,15 +758,6 @@ LEXICON V_59KERGUETAEMAE
 :%{front%} V_59KAOTAMA/KERGUETAEMAE ;
 
 LEXICON V_59KAOTAMA/KERGUETAEMAE !!≈ * **@CODE@** kaotama:kao, kergütämä:kergü
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 
 ! (1) I tegonimi:
 :%^VOWRaise%^StrGStem%^NoPAL%>%{aä%} Harm-Neutr_INF_mA ;
@@ -746,6 +817,7 @@ LEXICON V_59KAOTAMA/KERGUETAEMAE !!≈ * **@CODE@** kaotama:kao, kergütämä:ke
 !5
 ! (8) min 3. k tä: 
 :%^VOWRaise%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG3_ZERO ;
 
 !! +Act+Ind+Prt+Sg3
 
@@ -779,15 +851,18 @@ LEXICON V_60EHITSEMAE !!≈ * **@CODE@** ehitsemä:ehii
 :%{front%} V_60MANITSWMA/EHITSEMAE ;
 
 LEXICON V_60MANITSWMA/EHITSEMAE !!≈ * **@CODE@** manitsõma:mani
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 
 :ds%{eõ%} ACT-IND-PRS-SG1_ZERO ;
@@ -831,15 +906,18 @@ LEXICON V_62TAERKNEMAE
 :%{front%} V_62ARGNWMA/TAERKNEMAE ;
 
 LEXICON V_62ARGNWMA/TAERKNEMAE 
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^StrGStem%>n%{eõ%} ACT-IND-PRS-12 ;
 :%^StrGStem%>n%{eõ%} ACT-IND-PRS-3_s/sEq ;
@@ -849,7 +927,7 @@ LEXICON V_62ARGNWMA/TAERKNEMAE
 :%^WGStem%>%{eõ%} ACT-IND-PRT-SG3_sJ ;
 :%^StrGStem%>si ACT-IND-PRT-PL3_q/vAq ;
 
-!: Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
+!: ACT-IND-PRT-PL3_vAq ;
 :%^WGStem%>%{eõ%} PSS-IND-PRS-ALL_tA ;
 :%^WGStem%>%{eõ%} PSS-IND-PRT-ALL_ti ;
 
@@ -868,41 +946,43 @@ LEXICON V_63SWIMAMA !!≈ * **@CODE@** sõimama:sõima
 !! * Yaml: **V-swimama63**
 :%{back%} V_63SWIMAMA/XX ; 
 LEXICON V_63SWIMAMA/XX !!≈ * **@CODE@** sõimama:sõima
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_INF_mA ;
 
-:%^Pen%^VOWRaise ACT-IND-PRS-12 ;
-:%^Pen%^VOWRaise ACT-IND-PRS-3_s/sEq ;
+! (2) II tegonimi:
+:%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_INF_dAq ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_ACT-PRSPRC_v ;
 
-:%^Pen%^VOWLower PSS-IND-PRS-SG1_dA/SG3_tAs ;
+! (3) tekev tm aktiiv:
+:%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
 
-:%^Pen%^VOWRaise%^VowRM%>s ACT-IND-PRT-12_si ;
-!sõimssi
-%^Pen%^VOWLower%>s ACT-IND-PRT-12_si ;
-!sõimassi
+! (4) Tettäv tm passiiv:
+:%^Pen%^VOWLower%^Pen%^WGStem PSS-PRSPRC_tAv ;
+:%^Pen%^VOWLower%^Pen%^WGStem PSS-PRFPRC_t/SG-GEN_dU ;
+:%^Pen%^VOWLower%^Pen%^WGStem PSS-PRFPRC_tU-SG-NOM ;
+:%^Pen%^VOWLower%^Pen%^WGStem PSS-IND-PRT-SG1_di/SG3_ti ;
+:%^Pen%^VOWLower%^Pen%^WGStem PSS-IND-PRS-SG1_dA/SG3_tAs ;
 
-:%^Pen%^VOWRaise ACT-IND-CONNEG ;
+! (5) Olõvao 1. k maq:
+:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-CONNEG/PRS-SG1 ;
+! 2nd person indicative present
+:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
+! 1st person plural present
+:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-PL1_miq ;
+! (6) Olõvao 3. k tä:
+:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-3_s/sEq ;
 
-:%^Pen%^VOWLower ACT-IND-PRT-SC3_sJ ;
-:%^Pen%^VOWLower PSS-IND-PRT-SG1_di/SG3_ti ;
+! (7) min 1. k maq: Sg1 and Pl3
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>ss ACT-IND-PRT-SG1_i/PL3_iq ;
++Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%>ss ACT-IND-PRT-SG1_i/PL3_iq ;
+! (7.2) Sg2, Pl1 and Pl2
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>ss ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
+! (8) min 3. k tä:
+:%^Pen%^VOWLower%^Pen%^WGStem%>ś ACT-IND-PRT-SG3_ZERO ;
 
-:%^Pen%^VOWRaise Harm-Neutr_INF_mA ;
+! (9) jus:
 
-:%^Pen%^VOWLower%^WGStem Harm-Neutr_INF_dAq ;
-:%^Pen%^VOWRaise Harm-Neutr_ACT-PRSPRC_v ;
-
-:%^Pen%^VOWLower Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
-:%^Pen%^VOWLower PSS-PRSPRC_tAv ;
-:%^Pen%^VOWLower%^WGStem PSS-PRFPRC_t/SG-GEN_dU ;
-:%^Pen%^VOWLower%^WGStem PSS-PRFPRC_tU-SG-NOM ;
-:%^Pen%^VOWLower MUTUAL_JUS_kuq ;
+:%^Pen%^VOWLower%^Pen%^WGStem MUTUAL_JUS_kuq ;
 
 LEXICON V_63VISKAMA !!≈ * **@CODE@** viskama:vis%{kØ%}a
 ! from V_63SWIMAMA 
@@ -919,54 +999,20 @@ LEXICON V_63HINGAEMAE !!≈ * **@CODE@** hingämä:hingä
 :%{front%} V_63VISKAMA/HINGAEMAE ;
 
 LEXICON V_63VISKAMA/HINGAEMAE !!≈ * **@CODE@** viskama:viska
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi: naklama+V:na%{kg%}la
+:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_INF_mA ;
+! (2) II tegonimi:
+:%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_INF_dAq ;
 
-:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-SG1_ZERO ;
-:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-SG2_t ;
-:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-SG2_dEq ;
-+Act+Ind+Prs+Sg3:%^Pen%^VOWRaise%^Pen%^StrGStem%>s K ;
-:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-PL1_miq ;
-:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-PL2_tiq ;
-+Act+Ind+Prs+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%>s%{eõ%}q K ;
-:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-CONNEG ;
-+Use/NG+Err/Orth+Act+Ind+Prs+Sg2:%^Pen%^VOWRaise%^Pen%^StrGStem%>d%{eõ%} K ; !!= * @CODE@ no q
-+Use/NG+Err/Orth+Act+Ind+Prs+Pl1:%^Pen%^VOWRaise%^Pen%^StrGStem%>mi K ; !!= * @CODE@ no q
-+Use/NG+Err/Orth+Act+Ind+Prs+Pl2:%^Pen%^VOWRaise%^Pen%^StrGStem%>ti K ; !!= * @CODE@ no q
-+Use/NG+Err/Orth+Act+Ind+Prs+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%>s%{eõ%} K ; !!= * @CODE@ no q
+:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_ACT-PRSPRC_v ;
 
-+Act+Ind+Prt+Sg3:%^Pen%^VOWLower%^Pen%^WGStem%>ś K ;
-:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss ACT-IND-PRT-SG1_i/PL3_iq ;
-+Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ssit K ;
-+Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ssiq K ;
-+Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ssid%{eõ%}q K ;
-+Act+Ind+Prt+Pl1:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ssimiq K ;
-+Act+Ind+Prt+Pl2:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ssitiq K ;
-+Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ssiv%{aä%}q K ;
-
-
-+Act+Ind+Prt+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>siq K ;
-+Act+Ind+Prt+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>siv%{aä%}q K ;
-
-:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM ACT-IND-PRT-12_si ; 
-
-:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-12 ;
-:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-3_s/sEq ;
-!! (6) Ind_Prs_Sg2, Ind_Prs_Sg3, Ind_Prs_Pl2, Ind_Prs_Pl3,
-!! Ind_Prt_OcPl3
-!! ActPrsPrc, PssPrsPrc
-
-:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-CONNEG ;
-
+! (3) tekev tm aktiiv:
+:%^Pen%^VOWLower%^Pen%^WGStem ACT-PRFPRC-ALL_nUq ;
+! (4) Tettäv tm passiiv:
+:%^Pen%^VOWLower%^Pen%^WGStem PSS-PRSPRC_tAv ;
+:%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_VISKAMA-PSS-PRFPRC_t ;
+:%^Pen%^VOWLower%^Pen%^WGStem PSS-PRFPRC_tU-SG-NOM ;
 :%^Pen%^VOWLower%^Pen%^WGStem PSS-IND-PRS-SG1_dA/SG3_tAs ;
-
 +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ; !!= * @CODE@ no    q
 +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>di K ; !!= * @CODE@ no    q
 +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>tid%{eõ%} K ; !!= * @CODE@ no    q
@@ -978,19 +1024,28 @@ LEXICON V_63VISKAMA/HINGAEMAE !!≈ * **@CODE@** viskama:viska
 :%^Pen%^VOWLower%^Pen%^WGStem PSS-IND-PRT-SG1_di/SG3_ti ;
 !! +Pss+Ind+Prt +Sg1-+Pl3, ConNeg
 
-:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_INF_mA ;
-:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_ACT-PRSPRC_v ;
+! (5) Olõvao 1. k maq:
+:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-CONNEG/PRS-SG1 ;
+! 2nd person indicative present
+:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
+! 1st person plural present
+:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-PL1_miq ;
+! (6) Olõvao 3. k tä:
+:%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-3_s/sEq ;
 
-:%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_INF_dAq ;
-:%^Pen%^VOWLower%^Pen%^WGStem ACT-PRFPRC-ALL_nUq ;
-:%^Pen%^VOWLower%^Pen%^WGStem PSS-PRSPRC_tAv ;
-:%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_VISKAMA-PSS-PRFPRC_t ;
-:%^Pen%^VOWLower%^Pen%^WGStem PSS-PRFPRC_tU-SG-NOM ;
+! (7) min 1. k maq: Sg1 and Pl3
+:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss ACT-IND-PRT-SG1_i/PL3_iq ;
++Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss ACT-IND-PRT-PL3_ivAq ;
 
+! (7.2) Sg2, Pl1 and Pl2
+:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
++Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss ACT-IND-PRT-SG2_iq ;
 
+! (8) min 3. k tä:
+:%^Pen%^VOWLower%^Pen%^WGStem%>ś ACT-IND-PRT-SG3_ZERO ;
+! (9) jus:
 
-
-
+:%^Pen%^VOWLower%^Pen%^WGStem MUTUAL_JUS_kuq ;
 
 !! THIS FAR 2016-08-27
 LEXICON V_64PUHKSAMA
@@ -1003,38 +1058,40 @@ LEXICON V_64REHKSAEMAE
 :%{front%} V_64PUHKSAMA/REHKSAEMAE ;
 
 LEXICON V_64PUHKSAMA/REHKSAEMAE !puhksama+V:puh%{kØ%}a%{sś%}
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
-
-:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} ACT-IND-PRS-12 ;
-:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} ACT-IND-PRS-3_s/sEq ;
-
-:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL ACT-IND-PRT-12_i ;
-+Act+Ind+Prt+Sg3:%^Pen%^WGStem%^PAL K ;
-+Err/Orth-no-pal+Act+Ind+Prt+Sg3:%^Pen%^WGStem%^NoPAL K ;
-:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>i ACT-IND-PRT-PL3_q/vAq ;
-
-:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} ACT-IND-CONNEG ;
-
-:%^Pen%^WGStem%^NoPAL PSS-IND-PRS-ALL_tA ;
-:%^Pen%^WGStem%^NoPAL PSS-IND-PRT-ALL_ti ;
-
-:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} V2N_minE ;
+! (1) I tegonimi: uhtsama+V:uh%{tØ%}a%{sś%}
 :%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} Harm-Neutr_INF_mA ;
+
 !reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}
+! (2) II tegonimi:
 :%^Pen%^WGStem%^NoPAL Harm-Neutr_INF_tAq ;
 :%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} Harm-Neutr_ACT-PRSPRC_v ;
+! (3) tekev tm aktiiv: 
 :%^Pen%^WGStem%^NoPAL Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
+! (4) Tettäv tm passiiv: 
 :%^Pen%^WGStem%^NoPAL PSS-PRSPRC_tAv ;
 :%^Pen%^WGStem%^NoPAL PSS-PRFPRC_t/SG-GEN_dU ;
 :%^Pen%^WGStem%^NoPAL PSS-PRFPRC_tU-SG-NOM ;
+:%^Pen%^WGStem%^NoPAL PSS-IND-PRS-ALL_tA ;
+:%^Pen%^WGStem%^NoPAL PSS-IND-PRT-ALL_ti ;
+
+! (5) Olõvao 1. k maq: 
+:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} ACT-IND-CONNEG/PRS-SG1 ;
+! 2nd person indicative present
+:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
+! 1st person plural present
+:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} ACT-IND-PRS-PL1_miq ;
+! (6) Olõvao 3. k tä:
+:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{aä%} ACT-IND-PRS-3_s/sEq ;
+
+! (7) min 1. k maq: Sg1 and Pl3
+:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL ACT-IND-PRT-SG1_i/PL3_iq ;
++Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL ACT-IND-PRT-PL3_ivAq ;
+! (7.2) Sg2, Pl1 and Pl2
+:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
+! (8) min 3. k tä: 
+:%^Pen%^WGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^Pen%^WGStem%^NoPAL ACT-IND-PRT-SG3_ZERO ;
+! (9) jus: 
 
 :%^Pen%^WGStem%^NoPAL MUTUAL_JUS_kuq ;
 
@@ -1052,15 +1109,18 @@ LEXICON V_67NAEGUENEMAE !!≈ * **@CODE@** nägünemä:nägü
 :%{front%} V_67HARINWMA/NAEGUENEMAE ;
 
 LEXICON V_67HARINWMA/NAEGUENEMAE !!≈ * **@CODE@** harinõma:hari
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^Pen%^StrGStem%>n%{eõ%} ACT-IND-PRS-12 ;
 :%^Pen%^StrGStem%>n%{eõ%} ACT-IND-PRS-3_s/sEq ;
@@ -1097,50 +1157,62 @@ LEXICON V_68NAELGUEMAE
 :%{front%} V_68HARKUMA/NAELGUEMAE ;
 
 LEXICON V_68HARKUMA/NAELGUEMAE
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi: hirnma
+:%^Pen%^VOWRaise Harm-Neutr_INF_mA ;
 
-:%^VOWRaise ACT-IND-PRS-12 ;
-:%^VOWRaise ACT-IND-PRS-3_s/sEq ;
+! (2) II tegonimi: hirnuq
+:%^Pen%^VOWRaise Harm-Neutr_INF_dAq ;
+:%^Pen%^VOWRaise Harm-Neutr_ACT-PRSPRC_v ;
 
-:%^VOWRaise PSS-IND-PRS-ALL_tA ;
+! (3) tekev tm aktiiv: hirnnuq
+:%^Pen%^VOWRaise ACT-PRFPRC-ALL_nUq ;
 
-:%^VOWRaise ACT-IND-PRT-1/2_ZERO ;
-:%^VOWRaise ACT-IND-CONNEG ;
-:%^VOWRaise ACT-IND-PRT-SG3_ZERO ;
-:%^VOWRaise PSS-IND-PRT-SG1_di/SG3_ti ;
+! (4) Tettäv tm passiiv: hirnut
+:%^Pen%^VOWRaise PSS-PRSPRC_tAv ;
+:%^Pen%^VOWRaise PSS-PRFPRC_t/SG-GEN_dU ;
+:%^Pen%^VOWRaise PSS-PRFPRC_tU-SG-NOM ;
+:%^Pen%^VOWRaise PSS-IND-PRS-ALL_tA ;
+:%^Pen%^VOWRaise PSS-IND-PRT-SG1_di/SG3_ti ;
 
-+Act+Ind+Prt+Pl3:%^VOWRaise%>v%{aä%}q K ;
-+Act+Ind+Prt+Pl3:%^VOWRaise%>q K ;
-:%^VOWRaise Harm-Neutr_INF_mA ;
-:%^VOWRaise Harm-Neutr_INF_dAq ;
-:%^VOWRaise Harm-Neutr_ACT-PRSPRC_v ;
-:%^VOWRaise ACT-PRFPRC-ALL_nUq ;
-:%^VOWRaise PSS-PRSPRC_tAv ;
-:%^VOWRaise PSS-PRFPRC_t/SG-GEN_dU ;
-:%^VOWRaise PSS-PRFPRC_tU-SG-NOM ;
+! (5) Olõvao 1. k maq: hirnu
+:%^Pen%^VOWRaise ACT-IND-CONNEG/PRS-SG1 ;
+! 2nd person indicative present
+:%^Pen%^VOWRaise ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
+! 1st PL person indicative present
+:%^Pen%^VOWRaise ACT-IND-PRS-PL1_miq ;
+
+! (6) Olõvao 3. k tä: hirn
+:%^Pen%^VOWRaise ACT-IND-PRS-3_s/sEq ;
+
+! (7) min 1. k maq: hirnõ
+:%^Pen%^VOWRaise ACT-IND-PRT-SG1_ZERO/PL3_q ;
+:%^Pen%^VOWRaise ACT-IND-PRT-PL3_vAq ;
+
+! (7.2) Sg2, Pl1 and Pl2
+:%^Pen%^VOWRaise ACT-IND-PRT-SG2_t/dEq/PL1_miq/PL2_tiq ;
+! (8) min 3. k tä:
+:%^Pen%^VOWRaise ACT-IND-PRT-SG3_ZERO ;
+
+! (9) jus:
+:%^Pen%^VOWRaise MUTUAL_JUS_kuq ;
 
 LEXICON V_69HAARDUMA !!≈ * **@CODE@** haarduma:haar%{dØ%}u
 :%{back%} V_69HAARDUMA/SUENDUEMAE ;
 LEXICON V_69SUENDUEMAE !!≈ * **@CODE@** sündümä:sün%{dn%}ü
 :%{front%} V_69HAARDUMA/SUENDUEMAE ;
 LEXICON V_69HAARDUMA/SUENDUEMAE !!≈ * **@CODE@** sündümä:sündü
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
 :%^Pen%^WGStem ACT-IND-PRS-3_s/sEq ;
@@ -1166,15 +1238,19 @@ LEXICON V_69SUURDUMA !!≈ * **@CODE@** suurduma:suurdu
 LEXICON V_69HUEUERDUEMAE !!≈ * **@CODE@** hüürdümä:h%{öü%}%{öü%}r%{dØ%}ü
 :%{front%} V_69SUURDUMA/HUEUERDUEMAE ;
 LEXICON V_69SUURDUMA/HUEUERDUEMAE !!≈ * **@CODE@** hüürdümä:h%{öü%}%{öü%}r%{dØ%}ü vowel raising Required 2016-09-15
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_INF_mA ;
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^Pen%^VOWLower%^Pen%^WGStem ACT-IND-PRS-12 ;
 :%^Pen%^VOWLower%^Pen%^WGStem ACT-IND-PRS-3_s/sEq ;
@@ -1186,7 +1262,6 @@ LEXICON V_69SUURDUMA/HUEUERDUEMAE !!≈ * **@CODE@** hüürdümä:h%{öü%}%{ö�
 :%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRT-SG3_ZERO ;
 :%^Pen%^VOWLower%^Pen%^WGStem PSS-IND-PRT-SG1_di/SG3_ti ;
 
-:%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_INF_mA ;
 !! V_Inf/mA: miildümä 
 :%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_INF_dAq ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_ACT-PRSPRC_v ;
@@ -1203,15 +1278,6 @@ LEXICON V_70ÄNGÄHÜMÄ !!≈ * **@CODE@** ängähümä:ängähtü
 :%{front%} V_70UNWHUMA/ÄNGÄHÜMÄ ;
 
 LEXICON V_70UNWHUMA/ÄNGÄHÜMÄ !!≈ * **@CODE@** unõhuma:unõhtu
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 ! (1) I tegonimi:
 :%^Pen%^WGStem Harm-Neutr_INF_mA ;
 +Use/NG+Err/Orth:%^Pen%^StrGStem Harm-Neutr_INF_mA ;
@@ -1278,15 +1344,18 @@ LEXICON V_70ERAELDUEMAE !!≈ * **@CODE@** eräldümä:eräldü
 :%{front%} V_70VIPWRDUMA/ERAELDUEMAE ;
 
 LEXICON V_70VIPWRDUMA/ERAELDUEMAE !!≈ * **@CODE@** unõhtuma:unõhtu
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^Pen%^StrGStem ACT-IND-PRS-12 ;
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
@@ -1325,15 +1394,18 @@ LEXICON V_71ERAETUEMAE !!≈ * **@CODE@** erätümä:erä%{td%}ü
 :%{front%} V_71HALLWTUMA/ERAETUEMAE ;
 
 LEXICON V_71HALLWTUMA/ERAETUEMAE !!≈ * **@CODE@** hallõtuma:hallõtu
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem Harm-Neutr_ACT-IND-PRS-SG2_USUALLY-STRONG ;
@@ -1363,15 +1435,18 @@ LEXICON V_72TAEUEMAE !!≈ * **@CODE@** täümä:täü
 :%{front%} V_72VAOMA/TAEUEMAE ;
 
 LEXICON V_72VAOMA/TAEUEMAE !!≈ * **@CODE@** vaoma:vao
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
  ACT-IND-PRS-12 ;
  ACT-IND-PRS-3_s/sEq ;
@@ -1396,15 +1471,6 @@ LEXICON V_72VAOMA/TAEUEMAE !!≈ * **@CODE@** vaoma:vao
 !:%{back%} V_73VAOMA/XX ;
 
 !LEXICON V_73VAOMA/XX
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 
 !+Work: K ;
 !!+Inf/mA: vaoma
@@ -1441,15 +1507,6 @@ LEXICON V_74VAESUEMAE !!≈ * **@CODE@** väsümä:vässü
 :%{front%} V_74KULUMA/VAESUEMAE ;
 
 LEXICON V_74KULUMA/VAESUEMAE !!≈ * **@CODE@** kuluma:kullu
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 ! (1) I tegonimi: püsümä+V:pü%{sØ%}sü
 :%^Pen%^WGStem Harm-Neutr_INF_mA ;
 
@@ -1506,15 +1563,18 @@ LEXICON V_75JAERAEMAE !!≈ * **@CODE@** järämä:järä
 :%{front%} V_75VALAMA/JAERAEMAE ;
 
 LEXICON V_75VALAMA/JAERAEMAE !!≈ * **@CODE@** valama:vala
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 !!
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
@@ -1549,15 +1609,6 @@ LEXICON V_76PUEGAEMAE !!≈ * **@CODE@** pügämä:pü%{kg0%}ä
 :%{front%} V_76HIGOMA/PUEGAEMAE ;
 
 LEXICON V_76HIGOMA/PUEGAEMAE !!≈ * **@CODE@** higoma:hi%{kg0%}o
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 !pügämä+V:pü%{kgØ%}ä
 ! (1) I tegonimi:
 :%^Pen%^G2 Harm-Neutr_INF_mA ;
@@ -1590,7 +1641,7 @@ LEXICON V_76HIGOMA/PUEGAEMAE !!≈ * **@CODE@** higoma:hi%{kg0%}o
 
 ! (7) min 1. k maq:
 :%^Pen%^VOWLower%^Pen%^G1%^VowRM  ACT-IND-PRT-SG1_i/PL3_iq ;
-+Use/NG+Err/Orth:%^Pen%^G2 Harm-Neutr_ACT-IND-PRT-SCPL3_vAq ;
++Use/NG+Err/Orth:%^Pen%^G2 ACT-IND-PRT-PL3_vAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^VOWLower%^Pen%^G1%^VowRM ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
@@ -1629,15 +1680,6 @@ LEXICON V_76LUGWMA !!≈ * **@CODE@** lugõma:lu%{kg0%}õ
 
 
 LEXICON V_76LUGWMA/XX !!≈ * **@CODE@** lugõma:lu%{kg0%}õ
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 
 !! Retain consonant and stem vowel
 ! (1) I tegonimi:
@@ -1714,15 +1756,18 @@ LEXICON V_77SUEUEMAE !!≈ * **@CODE@** süümä:süü
 :%{front%} V_77JUUMA/SUEUEMAE ;
 
 LEXICON V_77JUUMA/SUEUEMAE !!≈ * **@CODE@** juuma:joo
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^VOWRaise V_77JUUMA/SUEUEMAE_RAISED-VOWEL ; !!= * @CODE@ (1) juu, süü
 ! PSS-PRSPRC, PSS-PRFPRC, ACT-PRSPRC, INF_mA
@@ -1748,6 +1793,18 @@ LEXICON V_77JUUMA/SUEUEMAE !!≈ * **@CODE@** juuma:joo
 
 
 LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 ! PSS-PRSPRC, PSS-PRFPRC, ACT-PRSPRC, INF_mA, ACT-PRFPRC-OBL,
 ! ACT-PRSPRC
  Harm-Neutr_V0-PSS-PRSPRC_dAv ;
@@ -1790,15 +1847,18 @@ LEXICON V_77KAEUEMAE !!≈ * **@CODE@** käümä:käü
 :%{front%} V_77XX/KAEUEMAE ;
 
 LEXICON V_77XX/KAEUEMAE !!≈ * **@CODE@** käümä:käü
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^VOWRaise V_77JUUMA/SUEUEMAE_RAISED-VOWEL ; !!= * @CODE@ (1) käü
 ! PSS-PRSPRC, PSS-PRFPRC, ACT-PRSPRC, INF_mA
@@ -1823,15 +1883,18 @@ LEXICON V_78VWIMA !!≈ * **@CODE@** võima:või
 !! * Yaml: **V-vwima**
 :%{back%} V_VWIMA/XX ;
 LEXICON V_VWIMA/XX !!≈ * **@CODE@** võima:või
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
  ACT-IND-PRS-12 ;
  ACT-IND-PRS-SG3_ZERO ;
@@ -1860,15 +1923,18 @@ LEXICON V_78SAAMA
 !! * Yaml: **saama**
 :%{back%} V_78SAAMA/XX ;
 LEXICON V_78SAAMA/XX
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
  ACT-IND-PRS-12 ;
  ACT-IND-PRS-SG3_ZERO ;
@@ -1901,15 +1967,6 @@ LEXICON V_78SAAMA/XX
 !:%{front%}  V_78XX/VIIMÄ ; 
 
 !LEXICON V_78XX/VIIMÄ
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 
 ! ACT-IND-PRS-12 ;
 ! ACT-IND-PRS-SG3_ZERO ;
@@ -1936,15 +1993,18 @@ LEXICON V_78MINEMAE !!≈ * **@CODE@** minemä:min
 !! * Yaml: **V-minemae**
 :%{front%} V_XX/MINEMAE ;
 LEXICON V_XX/MINEMAE !!≈ * **@CODE@** minemä:min
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%>%{eõ%} Harm-Neutr_INF_mA ;
 +Inf:%>n%{aä%}q K ;
@@ -1963,15 +2023,6 @@ LEXICON V_79TULWMA !!≈ * **@CODE@** tulõma:tul
 !! * Yaml: **tulwma**
 :%{back%} V_79TULWMA/XX ;
 LEXICON V_79TULWMA/XX !!≈ * **@CODE@** tulõma:tul
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 
 !! Retain consonant and stem vowel
 ! (1) I tegonimi:
@@ -2012,6 +2063,7 @@ PSS-PRFPRC_t/SG-GEN_dU ; ! tult, tuldu
 
 ! (8) min 3. k tä:
 :%{lĺ%}%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%{lĺ%}%^NoPAL ACT-IND-PRT-SG3_ZERO ;
 ! (9) jus:
  MUTUAL_JUS_guq ;
 
@@ -2019,15 +2071,18 @@ LEXICON V_79PURWMA !!≈ * **@CODE@** purõma:pur
 !! * Yaml: **purwma**
 :%{back%} V_79PURWMA/XX ;
 LEXICON V_79PURWMA/XX !!≈ * **@CODE@** purõma:pur
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 !! Retain consonant and stem vowel
 :%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ; !!= * @CODE@ (1) purõma
@@ -2036,10 +2091,10 @@ LEXICON V_79PURWMA/XX !!≈ * **@CODE@** purõma:pur
 !! +Jus, 
 
 !! Strengthen consonant
-:%^StrGSt Harm-Neutr_INF_Aq ; !!= * @CODE@ (2) purraq
+:%^StrGStem Harm-Neutr_INF_Aq ; !!= * @CODE@ (2) purraq
 !! Inf 
 !! Strengthen consonant 
-:%^StrGSt%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ; !!= * @CODE@ (2b) purrõv
+:%^StrGStem%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ; !!= * @CODE@ (2b) purrõv
 !! Act+PrsPrc+Sg+Nom
 
 !! Retain consonant and stem vowel
@@ -2072,15 +2127,18 @@ LEXICON V_79OLWMA !!≈ * **@CODE@** olõma:o
 :%{back%} V_79OLWMA/XX ;
 
 LEXICON V_79OLWMA/XX !!≈ * **@CODE@** olõma:o
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :l%{eõ%} ACT-IND-PRS-12 ;
 +Act+Ind+Prs+Sg3:m K ;
@@ -2109,6 +2167,7 @@ LEXICON V_80RAPAHUTMA !!≈ * **@CODE@** rapahutma:rapahuta
 :%{back%} V_80RAPAHUTMA/HAEMMAEHUETMAE ;
 LEXICON V_80HAEMMAEHUETMAE !!≈ * **@CODE@** hämmähütmä:hämmähütä
 :%{front%} V_80RAPAHUTMA/HAEMMAEHUETMAE ;
+!WHATISTHIS
 :%^WGStem%>%{aä%} ACT-IND-PRS-12 ;
 : ACT-IND-PRS-SG3_ZERO ;
 
@@ -2135,15 +2194,18 @@ LEXICON V_80HAEMMAEHUETMAE !!≈ * **@CODE@** hämmähütmä:hämmähütä
 
 
 LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE !!= * @CODE@ rapahutma:rapahuta
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 !! Retain consonant and stem vowel
 :t Harm-Neutr_ACT-PRSPRC_v_LUGWMA ; !!= * @CODE@ (1) rapahutma
@@ -2220,15 +2282,6 @@ LEXICON V_81XX/TEGEMAE !!≈ * **@CODE@** tegemä:te%{kØ%}%{ḱgØ%}
 !!€ tetäs: tegemä+V+Pss+Ind+Prs+Sg3 # (?4)!!
 !!€ tettäv: tegemä+V+Pss+PrsPrc+Sg+Nom # (4)
 !!€ tekuq: tegemä+V+Jus # (9)
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 ! (1) I tegonimi:
 :%^G2%{eõ%} Harm-Neutr_INF_mA ;
 
@@ -2249,6 +2302,7 @@ LEXICON V_81XX/TEGEMAE !!≈ * **@CODE@** tegemä:te%{kØ%}%{ḱgØ%}
 :%^G1 ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
 ! (8) min 3. k tä:
 :%^G4%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^G4%^NoPAL ACT-IND-PRT-SG3_ZERO ;
 
 ! (9) jus: 
 :%^WGStem%>e ACT-IND-PRS-12 ; ! The e must be retained or the%{eõ%}:i rule fixed
@@ -2285,48 +2339,49 @@ LEXICON V_82PUEUEDMAE !!≈ * **@CODE@** püüdmä:püüd
 LEXICON V_82ANDMA/PUEUEDMAE !!≈ * **@CODE@** andma:%{ˋØ%}an%{dd́n%}
 ! (1) I tegonimi:
 
-:%^VOWRaise Harm-Neutr_INF_mA ;
-:%^VOWRaise ACT-PRSPRC_vA ;
-:%^VOWLower%^WGStem%>%{aä%} ACT-IND-CONNEG ;
+:%^VOWRaise%^StrGStem%^NoPAL Harm-Neutr_INF_mA ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-PRSPRC_vA ;
+:%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT-IND-CONNEG ;
 
 ! (2) II tegonimi: 
-+Use/NG+Err/Orth-raised-vow:%^VOWRaise Harm-Neutr_INF_Aq ;
-:%^VOWLower Harm-Neutr_INF_Aq ;
++Use/NG+Err/Orth-raised-vow:%^VOWRaise%^StrGStem%^NoPAL Harm-Neutr_INF_Aq ;
+:%^VOWLower%^WGStem%^NoPAL Harm-Neutr_INF_Aq ;
 ! (3) tekev tm aktiiv: 
-:%^VOWRaise ACT-PRFPRC-ALL_nUq ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-PRFPRC-ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: 
-:%^VOWRaise PSS-IND-PRT-SG1_di/SG3_ti ;
-:%^VOWRaise PSS-PRSPRC_tAv ;
+:%^VOWRaise%^StrGStem%^NoPAL PSS-IND-PRT-SG1_di/SG3_ti ;
+:%^VOWRaise%^StrGStem%^NoPAL PSS-PRSPRC_tAv ;
 
-:%^VOWLower%^WGStem%>%{eõ%} PSS-PRFPRC_t/SG-GEN_dU ;
-:%^VOWLower%^WGStem%>%{eõ%} PSS-PRFPRC_tU-SG-NOM ;
-:%^VOWLower%^WGStem%>%{eõ%} PSS-IND-PRS-SG1_dA/SG3_tAs ;
+:%^VOWLower%^WGStem%^NoPAL%>%{eõ%} PSS-PRFPRC_t/SG-GEN_dU ;
+:%^VOWLower%^WGStem%^NoPAL%>%{eõ%} PSS-PRFPRC_tU-SG-NOM ;
+:%^VOWLower%^WGStem%^NoPAL%>%{eõ%} PSS-IND-PRS-SG1_dA/SG3_tAs ;
 
 ! (5) Olõvao 1. k maq: 
-:%^VOWLower%^WGStem%>%{aä%} ACT-IND-PRS-12 ;
-:%^VOWRaise ACT-IND-PRS-PL3_vAq ;
+:%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT-IND-PRS-12 ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRS-PL3_vAq ;
 
 ! (6) Olõvao 3. k tä: 
-:%^VOWRaise ACT-IND-PRS-SG3_ZERO ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRS-SG3_ZERO ;
 
 ! (7) min 1. k maq: 
-:%^VOWRaise%>s%{eõ%} ACT-IND-PRT-1/2_ZERO ;
-:%^VOWRaise%>s%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
-:%^VOWRaise ACT-IND-PRT-SG1_sE ;
-:%^VOWRaise ACT-IND-PRT-SG1_sE/PL3_sEq ;
+:%^VOWRaise%^StrGStem%^NoPAL%>s%{eõ%} ACT-IND-PRT-1/2_ZERO ;
+:%^VOWRaise%^StrGStem%^NoPAL%>s%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG1_sE ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG1_sE/PL3_sEq ;
 
-:%^VOWLower%^WGStem%>i ACT-IND-PRT-1/2_ZERO ;
-!:%^VOWLower%^WGStem ACT-IND-PRT-12_i ;
-:%^VOWLower%^WGStem%>i ACT-IND-PRT-PL3_q/vAq ;
+:%^VOWLower%^WGStem%^NoPAL%>i ACT-IND-PRT-1/2_ZERO ;
+!:%^VOWLower%^WGStem%^NoPAL ACT-IND-PRT-12_i ;
+:%^VOWLower%^WGStem%^NoPAL%>i ACT-IND-PRT-PL3_q/vAq ;
 
 
 ! (8) min 3. k tä: 
-:%^VOWRaise ACT-IND-PRT-SG3_APOSTROPHE ;
-:%^VOWRaise ACT-IND-PRT-SG3_sE ;
+:%^VOWRaise%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG3_ZERO ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG3_sE ;
 
 ! (9) jus: 
-:%^VOWRaise MUTUAL_JUS_kuq ;
+:%^VOWRaise%^StrGStem%^NoPAL MUTUAL_JUS_kuq ;
 
 ! jõõrdma:j%{õy%}%{õy%}r%{dd́Ø%}
 
@@ -2376,6 +2431,7 @@ LEXICON V_83NÕSTMA/PÄSTMÄ  !!= * @CODE@ nõstma:nõst
 
 ! (8) min 3. k tä: nõst́, nõstsõ
 :%^Pen%^PAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
 +Use/NG+Err/Orth:%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_sE ;
 
 ! (9) jus: nõstkuq
@@ -2390,57 +2446,58 @@ LEXICON V_83HEITMAE  !!= * @CODE@ heitmä:heit
 !! * Yaml: **heitmae**
 :%{front%} V_83SÕITMA/HEITMAE ;
 
-LEXICON V_83SÕITMA/HEITMAE  !!= * @CODE@ sõitma:sõi%{tt́d%}
+LEXICON V_83SÕITMA/HEITMAE  !!= * @CODE@ sõitma:sõi%{tt́d%}a
 ! (1) I tegonimi: 
-:%^VOWRaise%^StrGStem%^NoPAL Harm-Neutr_INF_mA ;
-:%^VOWRaise%^StrGStem%^NoPAL ACT-PRSPRC_vA ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM Harm-Neutr_INF_mA ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-PRSPRC_vA ;
 
 ! (2) II tegonimi: 
-:%^VOWRaise%^StrGStem%^NoPAL Harm-Neutr_INF_Aq ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL Harm-Neutr_INF_ZEROq ;
 
 ! (3) tekev tm aktiiv: 
-:%^VOWRaise%^StrGStem%^NoPAL ACT-PRFPRC-ALL_nUq ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-PRFPRC-ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: 
-:%^VOWRaise%^StrGStem%^NoPAL PSS-PRSPRC_tAv ;
-:%^VOWLower%^WGStem%^NoPAL%>%{eõ%} Harm-Neutr_NÕSTMA-PSS-DISTRIBUTION ;
-:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS-IND-PRT-SG1_di/SG3_ti ; !! IS THIS RIGHT? 2015-09-02
-:%^VOWLower%^WGStem%^NoPAL%>%{eõ%} Harm-Neutr_VISKAMA-PSS-PRFPRC_t ;
-:%^VOWLower%^WGStem%^NoPAL%>%{eõ%} PSS-PRFPRC_tU-SG-NOM ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL PSS-PRSPRC_tAv ;
+:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>%{eõ%} Harm-Neutr_NÕSTMA-PSS-DISTRIBUTION ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS-IND-PRT-SG1_di/SG3_ti ; !! IS THIS RIGHT? 2015-09-02
+:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>%{eõ%} Harm-Neutr_VISKAMA-PSS-PRFPRC_t ;
+:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS-PRFPRC_tU-SG-NOM ;
 
 ! (5) Olõvao 1. k maq: 
-:%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT-IND-CONNEG/PRS-SG1 ; !! sõida
+:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL ACT-IND-CONNEG/PRS-SG1 ; !! sõida
 
-:%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
+:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
 
-:%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT-IND-PRS-PL1_miq ;
+:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL ACT-IND-PRS-PL1_miq ;
 
 
 ! (6) Olõvao 3. k tä: 
-:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRS-SG3_ZERO/PL3_vAq ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRS-SG3_ZERO/PL3_vAq ;
 
 ! (7) min 1. k maq: 
-:%^VOWLower%^WGStem%^NoPAL ACT-IND-PRT-SG1_i/PL3_iq ;
+:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL ACT-IND-PRT-SG1_i/PL3_iq ;
 
-+Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG1_sE/PL3_sEq ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^VOWLower%^WGStem%^NoPAL ACT-IND-PRT-PL3_ivAq ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-PL3_sEvAq ;
++Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG1_sE/PL3_sEq ;
++Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL ACT-IND-PRT-PL3_ivAq ;
++Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-PL3_sEvAq ;
 ! (7.2) Sg2, Pl1 and Pl2
-:%^VOWLower%^WGStem%^NoPAL ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
-+Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
+:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
++Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^VOWLower%^WGStem%>iq K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>iq K ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^VOWRaise%^StrGStem%^NoPAL%>s%{eõ%}q K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s%{eõ%}q K ;
 
 
 
 ! (8) min 3. k tä: 
-:%^VOWRaise%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^VOWRaise%^StrGStem%^NoPAL%>s%{eõ%} K ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL ACT-IND-PRT-SG3_ZERO ;
++Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s%{eõ%} K ;
 
 ! (9) jus: 
-:%^VOWRaise%^StrGStem%^NoPAL MUTUAL_JUS_kuq ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM MUTUAL_JUS_kuq ;
 
 LEXICON V_83LAULMA  !!= * @CODE@ laulma:laul
 !! gradation: yes
@@ -2495,6 +2552,7 @@ LEXICON V_83LAULMA/XX  !!= * @CODE@ laulma:lau%{lĺ%}
 
 ! (8) min 3. k tä: 
 :%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^NoPAL ACT-IND-PRT-SG3_ZERO ;
 +Use/NG+Err/Orth:%^NoPAL ACT-IND-PRT-SG3_sE ;
 +Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^VowRM%>s%{eõ%} K ;
 
@@ -2511,15 +2569,6 @@ LEXICON V_83ATMA  !!= * @CODE@ atma:atta
 !:%{front%} V_83ATMA/PETMÄ ;
 
 LEXICON V_83ATMA/XX  !!= * @CODE@ atma:a%{tØ%}%{tt́%}
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 !atma+V:a%{tØ%}%{tt́%}
 ! (1) I tegonimi:
 :%^CC2C%^NoPAL Harm-Neutr_INF_mA ;
@@ -2563,6 +2612,7 @@ LEXICON V_83ATMA/XX  !!= * @CODE@ atma:a%{tØ%}%{tt́%}
 
 ! (8) min 3. k tä:
 :%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^StrGStem%^NoPAL ACT-IND-PRT-SG3_ZERO ;
 
 
 +Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM%>s%{eõ%} K ;
@@ -2634,6 +2684,7 @@ LEXICON V_83SUTMA/PETMÄ  !!= * @CODE@ atma:a%{tØ%}t
 
 ! (8) min 3. k tä: 
 :%^Pen%^StrGStem%^Pen%^PAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
 +Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_sE ;
 
 ! (9) jus: 
@@ -2649,20 +2700,20 @@ LEXICON V_84KÄSKMÄ !!= * @CODE@ käskmä:käsk
 LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:las%{kḱØ%}
 !! * Yaml: **nwstma**
 ! (1) I tegonimi: 
-:%^VOWRAise%^StrGStem%^NoPAL Harm-Neutr_INF_mA ;
-:%^VOWRAise%^StrGStem%^NoPAL ACT-PRSPRC_vA ;
+:%^VOWRaise%^StrGStem%^NoPAL Harm-Neutr_INF_mA ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-PRSPRC_vA ;
 
 
 ! (2) II tegonimi: 
-:%^VOWRAise%^StrGStem%^NoPAL%>%{eõ%} Harm-Neutr_INF_ZEROq ;
+:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} Harm-Neutr_INF_ZEROq ;
 
 ! (3) tekev tm aktiiv: 
-:%^VOWRAise%^StrGStem%^NoPAL ACT-PRFPRC-ALL_nUq ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-PRFPRC-ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: 
 :%^VOWLower%^WGStem%^NoPAL PSS-IND-PRS-ALL_tA ;
-:%^VOWRAise%^StrGStem%^NoPAL PSS-IND-PRT-SG1_di/SG3_ti ;
-:%^VOWRAise%^StrGStem%^NoPAL PSS-PRSPRC_tAv ;
+:%^VOWRaise%^StrGStem%^NoPAL PSS-IND-PRT-SG1_di/SG3_ti ;
+:%^VOWRaise%^StrGStem%^NoPAL PSS-PRSPRC_tAv ;
 :%^VOWLower%^WGStem%^NoPAL PSS-PRFPRC_t-ONLY ;
 :%^VOWLower%^WGStem%^NoPAL PSS-PRFPRC_tU-SG-NOM ;
 
@@ -2674,7 +2725,7 @@ LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:las%{kḱØ%}
 
 
 ! (6) Olõvao 3. k tä: 
-:%^VOWRAise%^StrGStem%^NoPAL ACT-IND-PRS-SG3_ZERO/PL3_vAq ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRS-SG3_ZERO/PL3_vAq ;
 
 ! (7) min 1. k maq: 
 :%^VOWLower%^WGStem%^NoPAL ACT-IND-PRT-SG1_i/PL3_iq ;
@@ -2684,11 +2735,12 @@ LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:las%{kḱØ%}
 
 :%^VOWLower%^WGStem%^NoPAL ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
 
-+Use/NG+Err/Orth:%^VOWRAise%^StrGStem%^NoPAL ACT-IND-PRT-SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
 ! (8) min 3. k tä: 
-:%^VOWRAise%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
-:%^VOWRAise%^StrGStem%^NoPAL ACT-IND-PRT-SG3_sE ;
+:%^VOWRaise%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG3_ZERO ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG3_sE ;
 
 ! (9) jus: 
 :%^VOWLower%^WGStem%^NoPAL MUTUAL_JUS_kuq ;!CHECKME2021-05-19
@@ -2700,7 +2752,7 @@ LEXICON V_85TUEMPSMAE !!≈ * **@CODE@** kakma:kaku hirnma:hirnu
 !! * Yaml: **kakma**
 :%{front%} V_85HIRNMA/TUEMPSMAE ;
 LEXICON V_85HIRNMA/TUEMPSMAE !!≈ * **@CODE@** kakma:kaku hirnma:hirnu
-! (1) I tegonimi: hirnma
+! (1) I tegonimi: hirnma vanma+V:va%{nØ%}%{nń%}u
 :%^Pen%^VOWRaise%^Pen%^CC2C%^Pen%^NoPAL%^VowRM Harm-Neutr_INF_mA ;
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
 
@@ -2755,14 +2807,12 @@ LEXICON V_85VAELKMAE !!≈ * **@CODE@**  haudma:haud
 !! * Yaml: **vaelkmae**
 :%{front%} V_85HAUDMA/VAELKMAE ;
 LEXICON V_85HAUDMA/VAELKMAE !!≈ * **@CODE@** kakma:kakk haudma:haud
-! (1) I tegonimi: 
+! (1) I tegonimi: välkmä+V:väl%{kḱg%}  
 :%^VOWRaise%^StrGStem%^NoPAL Harm-Neutr_INF_mA ;
 
 ! (2) II tegonimi: 
 :%^VOWRaise%^StrGStem%^NoPAL%>%{uü%} Harm-Neutr_INF_ZEROq ;
 :%^VOWRaise%^StrGStem%^NoPAL ACT-PRSPRC_vA ;
-
-
 
 ! (3) tekev tm aktiiv: 
 :%^VOWRaise%^StrGStem%^NoPAL ACT-PRFPRC-ALL_nUq ;
@@ -2783,19 +2833,21 @@ LEXICON V_85HAUDMA/VAELKMAE !!≈ * **@CODE@** kakma:kakk haudma:haud
 :%^VOWLower%^WGStem%^NoPAL%>%{uü%} ACT-IND-PRS-PL1_miq ;
 
 ! (6) Olõvao 3. k tä: 
-:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRS-SG3_ZERO/PL3_vAq ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRS-SG3_ZERO ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRS-PL3_vAq ;
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^VOWLower%^WGStem%^NoPAL ACT-IND-PRT-SG1_i/PL3_iq ;
-+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG1_sE/PL3_sEq ;
++Err/Orth:%^VOWRaise%^CC2C%^NoPAL ACT-IND-PRT-SG1_sE/PL3_sEq ;
 +Err/Orth:%^VOWLower%^WGStem%^NoPAL ACT-IND-PRT-PL3_ivAq ;
 ! (7.2) Sg2, Pl1 and Pl2
 :%^VOWLower%^WGStem%^NoPAL ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
-+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Orth:%^VOWRaise%^CC2C%^NoPAL ACT-IND-PRT-SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
 ! (8) min 3. k tä: 
 :%^VOWRaise%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
-+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG3_sE ;
++Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRT-SG3_ZERO ;
++Err/Orth:%^VOWRaise%^CC2C%^NoPAL ACT-IND-PRT-SG3_sE ;
 
 ! (9) jus: 
 :%^VOWRaise%^StrGStem%^NoPAL MUTUAL_JUS_kuq ;
@@ -2847,6 +2899,7 @@ LEXICON V_85KAKMA/TRUEKMAE !!≈ * **@CODE@** kakma:kakk
 
 ! (8) min 3. k tä: 
 :%^Pen%^VOWRaise%^Pen%^G4%^Pen%^PAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^Pen%^VOWRaise%^Pen%^G4%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
 +Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_sE ;
 
 ! (9) jus: 
@@ -2857,15 +2910,6 @@ LEXICON V_86ISTMA !!≈ * **@CODE@** istma:istu
 !! * Yaml: **istma**
 :%{back%} V_86ISTMA/XX ;
 LEXICON V_86ISTMA/XX !!≈ * **@CODE@** istma:istu
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 ! (1) I tegonimi:
 :%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM Harm-Neutr_INF_mA ;
 
@@ -2905,6 +2949,7 @@ LEXICON V_86ISTMA/XX !!≈ * **@CODE@** istma:istu
 
 ! (8) min 3. k tä:
 :%^Pen%^StrGStem%^Pen%^PAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
 +Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_E ;
 
 :%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s ACT-IND-PRT-SG3_E ;
@@ -2919,15 +2964,6 @@ LEXICON V_86PUTMA !!≈ * **@CODE@** istma:istu
 !! * Yaml: **istma**
 :%{back%} V_86PUTMA/XX ;
 LEXICON V_86PUTMA/XX !!≈ * **@CODE@** istma:istu
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 ! (1) I tegonimi:
 :%^Pen%^CC2C%^Pen%^NoPAL%^VowRM Harm-Neutr_INF_mA ;
 
@@ -2967,6 +3003,7 @@ LEXICON V_86PUTMA/XX !!≈ * **@CODE@** istma:istu
 
 ! (8) min 3. k tä:
 :%^Pen%^StrGStem%^Pen%^PAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
 +Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_E ;
 
 :%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s ACT-IND-PRT-SG3_E ;
@@ -2985,16 +3022,7 @@ LEXICON V_86EHTJMÄ !!≈ * **@CODE@** eht́mä:ehti
 :%{front%} V_86JAHTJMA/EHTJMÄ ;
 
 LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * **@CODE@** eht́mä:eh%{tt́%}
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
-! (1) I tegonimi: 
+! (1) I tegonimi: hülṕmä+V:hül%{pṕb%} 
 :%^VOWRaise%^StrGStem%^PAL Harm-Neutr_INF_mA ;
 +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL Harm-Neutr_INF_mA ;
 
@@ -3053,15 +3081,6 @@ LEXICON V_86TIK1MÄ !!≈ * **@CODE@** eht́mä:ehti
 :%{front%} V_86TOL1MA/TIK1MÄ ;
 
 LEXICON V_86TOL1MA/TIK1MÄ !!≈ * **@CODE@** eht́mä:eh%{tt́%}
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
 ! (1) I teonimi:
 :%^VOWRaise%^WGStem%^PAL Harm-Neutr_INF_mA ;
 +Err/Orth-no-pal:%^VOWRaise%^WGStem%^NoPAL Harm-Neutr_INF_mA ;
@@ -3128,15 +3147,18 @@ LEXICON V_87KERIMAE !!≈ * **@CODE@** kerimä:keri
 :%{front%} V_87KOSIMA/KERIMAE ;
 
 LEXICON V_87KOSIMA/KERIMAE !!≈ * **@CODE@** kosima:kosi
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
 :%^Pen%^WGStem ACT-IND-PRS-SG3_ZERO ;
@@ -3171,15 +3193,18 @@ LEXICON V_88JUEVAEHAEMAE
 !! * Yaml: **V-juevaemae88**
 :%{front%} V_88SIBAHAMA/JUEVAEHAEMAE ;
 LEXICON V_88SIBAHAMA/JUEVAEHAEMAE !!= * @CODE@ sibama:siba
-! (1) I tegonimi: 
-! (2) II tegonimi: 
-! (3) tekev tm aktiiv: 
-! (4) Tettäv tm passiiv: 
-! (5) Olõvao 1. k maq: 
-! (6) Olõvao 3. k tä: 
-! (7) min 1. k maq: 
-! (8) min 3. k tä: 
-! (9) jus: 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
 
 :%^Pen%^StrGStem ACT-IND-PRS-12 ;
 :%^Pen%^StrGStem ACT-IND-PRS-12 ;
@@ -3439,14 +3464,14 @@ PSS-IND-PRS-SG3_tAs ;
 PSS-IND-PRS-PL1_tAmiq ;
 PSS-IND-PRS-PL2_tAtiq ;
 
-LEXICON PSS-IND-PRS-SG1_dA/SG3_dAs
-PSS-IND-CONNEG_dA ;
-PSS-IND-PRS-SG1_dA ;
-PSS-IND-PRS-SG2_dAt ;
-PSS-IND-PRS-SG2_dAdEq ;
-PSS-IND-PRS-SG3_dAs ;
-PSS-IND-PRS-PL1_dAmiq ;
-PSS-IND-PRS-PL2_dAtiq ;
+!LEXICON PSS-IND-PRS-SG1_dA/SG3_dAs
+!PSS-IND-CONNEG_dA ;
+!PSS-IND-PRS-SG1_dA ;
+!PSS-IND-PRS-SG2_dAt ;
+!PSS-IND-PRS-SG2_dAdEq ;
+!PSS-IND-PRS-SG3_dAs ;
+!PSS-IND-PRS-PL1_dAmiq ;
+!PSS-IND-PRS-PL2_dAtiq ;
 
 LEXICON PSS-IND-CONNEG_tA
 :%>t%{aä%} PSS-IND-CONNEG ;
@@ -3792,10 +3817,11 @@ LEXICON ACT-IND-PRT-PL3_sEvAq
 !+Act+Ind+Prt+Pl3:%>siq K ;
 !+Act+Ind+Prt+Pl3:%>siv%{aä%}q K ;
 
-LEXICON ACT-IND-PRT-SC3_sJ
-+Act+Ind+Prt+Sg3:%^WGStem%>ś K ;
-+Act+Ind+Prt+Pl3:%^VowRM%>siq K ;
-+Act+Ind+Prt+Pl3:%^VowRM%>siv%{aä%}q K ;
+!LEXICON ACT-IND-PRT-SC3_sJ
+!+Act+Ind+Prt+Sg3:%^WGStem%>ś K ;
+!+Act+Ind+Prt+Pl3:%^VowRM%>siq K ;
+!+Act+Ind+Prt+Pl3:%^VowRM%>siv%{aä%}q K ;
+
 LEXICON ACT-IND-PRT-SG3_sJ
 +Act+Ind+Prt+Sg3:%^WGStem%>ś K ;
 
