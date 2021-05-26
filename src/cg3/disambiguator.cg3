@@ -3,7 +3,7 @@
 
 
 #   ================================= #
-#!! Disambiguator for Olonets
+#!! Disambiguator for Võro
 #   ================================= #
 
 # Copied from fit 22.3.21.
@@ -2108,8 +2108,8 @@ REMOVE SUB:1 Prop + Attr (0/* Cmp/Hyph) ; # This for HFST
 
 REMOVE:RemoveAllCmp SUB:1 Cmp (0/* Cmp);
 
-REMOVE:X @X ;
-
+#REMOVE:X @X ;
+# Too strong 2021-05-26
 
 
 
@@ -2125,17 +2125,18 @@ REMOVE:errorth $$WORDLEMMA + (Err/Orth) (0 $$WORDLEMMA - (Err/Orth) ) ; #Removes
 AFTER-SECTIONS              #
 
 
-SUBSTITUTE (A) (A <olo>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (N) (N <olo>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (Adv) (Adv <olo>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (V) (V <olo>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Num) (Num <olo>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (Interj) (Interj <olo>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (Po) (Po <olo>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Pr) (Pr <olo>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Pron) (Pron <olo>) WORD ; #RemoveFromApertium
-SUBSTITUTE (CC) (CC <olo>) WORD ; #RemoveFromApertium
-SUBSTITUTE (CS) (CS <olo>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Pcle) (Pcle <olo>) WORD ; #RemoveFromApertium
+
+SUBSTITUTE (A) (A <vro>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (N) (N <vro>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Adv) (Adv <vro>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (V) (V <vro>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Num) (Num <vro>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Interj) (Interj <vro>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Po) (Po <vro>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pr) (Pr <vro>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pron) (Pron <vro>) WORD ; #RemoveFromApertium
+SUBSTITUTE (CC) (CC <vro>) WORD ; #RemoveFromApertium
+SUBSTITUTE (CS) (CS <vro>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pcle) (Pcle <vro>) WORD ; #RemoveFromApertium
 
 

@@ -4202,22 +4202,22 @@ LEXICON NMN_25ASWQ-PL
 !  NMN_27ASTWQ/EHEQ-SG ;
 !  NMN_27ASTWQ/EHEQ-PL ;
 
-LEXICON NMN_27ASTWQ/EHEQ-SG 
+LEXICON NMN_27ASTWQ/EHEQ-SG !astõq+N:ast
  ATTESTED-NOUN-STEM-CONTINUED ;
-+Sg+Nom: K ;
-+Sg+Gen:q K ; !FIXME 2017-02-10
-+Use/NG+Err/Orth-no-q+Sg+Gen: K ; !FIXME 2017-02-10
-+Sg+Par:t K ;
-+Sg+Ill:he K ;
++Sg+Nom:%^VOWLower%^WGStem%>%{eõ%}q K ;
++Sg+Nom+Use/NG+Err/Orth-no-q:%^VOWLower%^WGStem%>%{eõ%} K ;
+:%^VOWRaise%^StrGStem%>m%{eõ%} SG-GEN_ZERO-STEM ; !FIXME 2017-02-10
++Sg+Par:%^VOWLower%^WGStem%>nd K ;
++Sg+Ill:%^VOWRaise%^StrGStem%>m%{eõ%}he K ;
 
 LEXICON NMN_27ASTWQ/EHEQ-PL 
-: Harm-Neutr_PL-NOM ;
-+Pl+Gen:id%{eõ%} K ;
-+Pl+Gen:isi K ;
-+Pl+Par:id K ;
-+Pl+Par:isi K ;
-+Pl+Ill:isihe K ;
-+Pl+Ill:ihe K ;
+:%^VOWRaise%^StrGStem%>m%{eõ%} Harm-Neutr_PL-NOM ;
++Pl+Gen:%^VOWRaise%^StrGStem%>mid%{eõ%} K ;
++Pl+Gen:%^VOWRaise%^StrGStem%>misi K ;
++Pl+Par:%^VOWRaise%^StrGStem%>mid K ;
++Pl+Par:%^VOWRaise%^StrGStem%>misi K ;
++Pl+Ill:%^VOWRaise%^StrGStem%>misihe K ;
++Pl+Ill:%^VOWRaise%^StrGStem%>mihe K ;
 
 
 
