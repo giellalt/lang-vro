@@ -356,6 +356,9 @@ alostama+V+Act+Ind+Prt+Sg3:
 rehksämä+V+Inf/mA:
 * *reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}*
 * *rehk0s000000>ä>mä*
+hanǵ+N+Sg+Gen: **snow pack/hanki**
+* *han{gǵ}{back}^NoPAL>%{eõ%}*
+* *hang000>e*
 
 
 **{dd́n}:d́ palatalization for 3-way**
@@ -388,8 +391,8 @@ loroṕ+N+Sg+Par:
 
 
 hainatama+V+Inf/mA
-* *haina%{tt́d%}a%{back%}%^Pen%^VOWRaise%>m%{aä%}*
-* *hainata000%>ma*
+* *haina{tt́d}a{back}^Pen^VOWRaise^Pen^StrGStem>m{aä}*
+* *hainata00000>ma*
 
 **%{kḱg%}:k**
 * *pisla%{kḱg%}%{back%}%^G2%>*
@@ -707,6 +710,8 @@ SECONDARY CONSONANT LENGTHENING
 sõda+N+Sg+Ill:
 * *sõ%{tØ%}%{tdØ%}a%{back%}%^Pen%^G3*
 * *sõtta000*
+* *uh{tØ}a{sś}{back}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}*
+* *uht0s000000>a>ma*
 
 **%{t́Ø%}:t́**
 
@@ -780,12 +785,13 @@ kruv́ma+V+Inf/mA
 **%{nØ%}:0**  
 * *su%{nØ%}ńo%{back%}%^Pen%^WGStem*
 * *su0ńo000*
-
+* *va{nØ}{nń}u{back}^Pen^VOWRaise^Pen^CC2C^Pen^NoPAL^VowRM>m{aä}*
+* *va0n000000000>m{aä}*
 
 
 
 **%{lØ%}:0**  
-* *ta%{lØ%}lo%{back%}%^Pen%^G2*
+* *ta%{lØ%}lo%{back%}%^Pen%^WGStem*
 * *ta0lo000*
 
 
@@ -951,6 +957,7 @@ nõkõś+N+Sg+Ill
 kaotama+V+Act+Ind+Prs+Sg1:
 * *kao%{td%}a%{back%}%^Pen%^G2*
 * *kaoda000*
+
 
 **%{tt́d%}:d**
 kergütämä+V+Act+Ind+Prs+Sg1:
@@ -1221,9 +1228,6 @@ särǵ+N+Sg+Gen: **roach/särki**
 * *sär0000>e*
 
 **{gǵØ}:g**
-hanǵ+N+Sg+Gen: **snow pack/hanki**
-* *han{gǵØ}{back}^WGStem^NoPAL>%{eõ%}*
-* *hang000>e*
 särǵ+N+Sg+Ill: **roach/särki**
 * *sär{gǵØ}{front}^StrGStem^NoPAL>%{eõ%}*
 * *särg000>e*

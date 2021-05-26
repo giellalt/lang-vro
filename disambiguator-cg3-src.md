@@ -1,6 +1,6 @@
 
 
-Disambiguator for Olonets
+Disambiguator for Võro
 
 
 ## Sets
@@ -810,10 +810,10 @@ Relative pronouns
 
 
 
-
 * WORDLEMMA = regex giving the lemma in question
 
 * **errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
+
 
 
 

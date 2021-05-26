@@ -45,8 +45,14 @@ There are other verbs here, cf. V_ELAEMAE
 
 
 
+There are other verbs here, cf. V_ELAEMAE
+* Yaml: __V-sadama48__
 
 
+Pss_PrfPrc: sadat
+
+
+Act_Prt_Sg1: sattõ
 
 
  * **LEXICON V_49LWPMA** lõpma:lõpp
@@ -222,6 +228,23 @@ kiirdlemä:keerdel
 
 
 
+kullõma+V:ku%{lØ%}l%{õØ%}%{lĺ%}
+* Yaml: **kiirdlemae57**
+
+* *ku%{lØ%}l%{õØ%}%{lĺ%}{back}^Pen^VOWRaise^Pen^CC2C^Pen^VowRM^NoPAL>{eõ}>m{aä}*
+* *ku0l0l00000000>õ>ma*
+
+
+
+
+
+
+
+
+
+
+
+
  * **LEXICON V_58HIRNAHTAMA** hirnahtama:hirnahta
 * Yaml: **V-hirnahtama58**
 
@@ -326,7 +349,6 @@ tärknemä:tärk
 
 
 
-
  * **LEXICON V_63VISKAMA** viskama:vis%{kØ%}a
 gradation: yes
 * Yaml: **V-viskama63**
@@ -335,20 +357,6 @@ gradation: no
 * Yaml: **V-hingaemae63**
 
  * **LEXICON V_63VISKAMA/HINGAEMAE** viskama:viska
-
- * +Use/NG+Err/Orth+Act+Ind+Prs+Sg2:%^Pen%^VOWRaise%^Pen%^StrGStem%>d%{eõ%} K ;  no q
- * +Use/NG+Err/Orth+Act+Ind+Prs+Pl1:%^Pen%^VOWRaise%^Pen%^StrGStem%>mi K ;  no q
- * +Use/NG+Err/Orth+Act+Ind+Prs+Pl2:%^Pen%^VOWRaise%^Pen%^StrGStem%>ti K ;  no q
- * +Use/NG+Err/Orth+Act+Ind+Prs+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%>s%{eõ%} K ;  no q
-
-
-
-
-
-(6) Ind_Prs_Sg2, Ind_Prs_Sg3, Ind_Prs_Pl2, Ind_Prs_Pl3,
-Ind_Prt_OcPl3
-ActPrsPrc, PssPrsPrc
-
 
 
  * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
@@ -366,13 +374,9 @@ ActPrsPrc, PssPrsPrc
 
 
 
-
-
 THIS FAR 2016-08-27
 * Yaml: **V-puhksama64**
 * Yaml: **V-rehksaemae64**
-
-
 
 
 
@@ -396,6 +400,10 @@ THIS FAR 2016-08-27
 
 * Yaml: **V-harkuma68**
 * Yaml: **V-naelguemae68**
+
+
+
+
 
 
 
@@ -703,10 +711,10 @@ Retain consonant and stem vowel
 +Jus, 
 
 Strengthen consonant
- * :%^StrGSt Harm-Neutr_INF_Aq ;  (2) purraq
+ * :%^StrGStem Harm-Neutr_INF_Aq ;  (2) purraq
 Inf 
 Strengthen consonant 
- * :%^StrGSt%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) purrõv
+ * :%^StrGStem%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) purrõv
 Act+PrsPrc+Sg+Nom
 
 Retain consonant and stem vowel
@@ -872,7 +880,7 @@ gradation: yes
 gradation: yes
 * Yaml: **heitmae**
 
- * LEXICON V_83SÕITMA/HEITMAE   sõitma:sõi%{tt́d%}
+ * LEXICON V_83SÕITMA/HEITMAE   sõitma:sõi%{tt́d%}a
 
 
 
@@ -1000,8 +1008,6 @@ sõida
  * **LEXICON V_85VAELKMAE**  haudma:haud
 * Yaml: **vaelkmae**
  * **LEXICON V_85HAUDMA/VAELKMAE** kakma:kakk haudma:haud
-
-
 
 
 
@@ -1206,6 +1212,7 @@ CHECK THIS
 
 
 ### INDICATIVE PRETERIT SUBJECT CONJUGATION
+
 
 
 
