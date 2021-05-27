@@ -941,11 +941,11 @@ Rules
 
 "%{eØ%}: 0"
 !! **@RULENAME@**
- %{eØ%}:0 <=> _ [%{lĺ%}:|r] (HarmDummies:) PenVOWHite (%^Pen: %^StrGStem:) %^Pen: %^VowRM: ;
+ %{eØ%}:0 <=> _ [%{lĺ%}:|r] (HarmDummies:) PenVOWHite PenGRAD %^Pen: %^VowRM: ;
 
 "%{õØ%}: 0"
 !! **@RULENAME@**
- %{õØ%}:0 <=> _ [%{lĺ%}:|r] (HarmDummies:) PenVOWHite (%^Pen: %^StrGStem:) %^Pen: %^VowRM: ;
+ %{õØ%}:0 <=> _ [%{lĺ%}:|r] (HarmDummies:) PenVOWHite PenGRAD %^Pen: %^VowRM: ;
 
 
 !! VOWEL LENGTHENING
@@ -1319,7 +1319,7 @@ k:0 <=>
 
 "%{lØ%}:0"
 !! **@RULENAME@**  
- %{lØ%}:0 <=>  _ [l|ĺ | %{lĺ%}: ] [Vow:|ArchVow:] (HarmDummies:) PenVOWHite %^Pen: [ %^G1: | %^G2: |%^WGStem:|%^CC2C:] ;
+ %{lØ%}:0 <=>  _ [l|ĺ | %{lĺ%}: ] [Vow:|ArchVow:] (Cns:|ArchCns:) (HarmDummies:) PenVOWHite %^Pen: [ %^G1: | %^G2: |%^WGStem:|%^CC2C:] ;
 !!€ ta%{lØ%}lo%{back%}%^Pen%^WGStem
 !!€ ta0lo000
  [Vow:|ArchVow:]  _ [l|ĺ | %{lĺ%}: ]  [[Vow:|ArchVow:] (Cns:* |i:) (%{hØ%}:|%{sØ%}: ) (HarmDummies:) PenVOWHite %^Pen:|(HarmDummies:) (PenVOWHite|VOWHite) ]  [%^G1:|%^WGStem:|%^CC2C:]  ;
