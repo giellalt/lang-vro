@@ -7,6 +7,8 @@
 ### GENITIVE ATTRIBUTES
 
 
+
+
 ### NOUNS
 
 ### PLURAL NOUNS
@@ -20,6 +22,8 @@
 ### VERBS
 
 minemä **to go/ mennä**
+
+nakkama **to begin/ alkaa**
 
 nägemä **to see/nähdä**
 

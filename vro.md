@@ -3896,6 +3896,7 @@ derived from 36särǵ
 
 
 
+ LEXICON PROP_37PINI  pini:pini
 
 
  * LEXICON PROP_38PULL1  pulĺ:pull
@@ -4268,6 +4269,7 @@ The Võro language postpositions ...
 
 
 ### POSTPOSITIONS WITH READY CASE ENDINGS
+
 
 
 
@@ -7671,6 +7673,8 @@ Three-syllable words
 
 
 
+
+
 Acronyms
 Veps acronyms ...
 
@@ -7897,6 +7901,8 @@ hanśa+N:hanśa N_1HANS1A "" ;
 ### GENITIVE ATTRIBUTES
 
 
+
+
 ### NOUNS
 
 ### PLURAL NOUNS
@@ -7910,6 +7916,8 @@ hanśa+N:hanśa N_1HANS1A "" ;
 ### VERBS
 
 minemä **to go/ mennä**
+
+nakkama **to begin/ alkaa**
 
 nägemä **to see/nähdä**
 

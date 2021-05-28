@@ -178,6 +178,7 @@ derived from 36särǵ
 
 
 
+ LEXICON PROP_37PINI  pini:pini
 
 
  * LEXICON PROP_38PULL1  pulĺ:pull
