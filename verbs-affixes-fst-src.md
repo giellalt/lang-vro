@@ -173,6 +173,22 @@ ehitelemä:ehitell
 
 
 
+ * **LEXICON V_56KAIBLWMA** kaiblõma+V:kai%{bv%}%{õØ%}l
+* Yaml: **hiibwlwma56**
+
+ * **LEXICON V_56KAIBLWMA/XX** kaiblõma+V:kai%{bv%}%{õØ%}l
+
+
+
+
+
+
+
+
+
+
+
+
 taplõma:tapõl
 * Yaml: **taplwma57**
 ütlemä:ütel
@@ -948,11 +964,11 @@ IS THIS RIGHT? 2015-09-02
  * LEXICON V_83SUTMA   atma:a%{tØ%}ta
 gradation: yes
 * Yaml: **switma**
- * LEXICON V_83PETMÄ   petmä:pe%{tØ%}t
+ * LEXICON V_83PETMÄ   petmä:pe%{tØ%}tä
 gradation: yes
 * Yaml: **heitmae**
 
- * LEXICON V_83SUTMA/PETMÄ   atma:a%{tØ%}t
+ * LEXICON V_83SUTMA/PETMÄ   sutma:su%{tØ%}ta
 
 
 

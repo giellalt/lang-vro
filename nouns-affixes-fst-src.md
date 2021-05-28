@@ -231,7 +231,10 @@ tsirgukõnõ:abili
  LEXICON N_20MIIS1  miiś:m%{ei%}%{ei%}
 
 
- LEXICON N_21HUEDSI  hüdsi:hüdsi
+ LEXICON N_21HUEDSI  hüdsi:hü
+
+
+ LEXICON N_21KUSI  kusi:kus
 
  LEXICON N_22VWROKWNW  võrokõnõ:võrokõ
 
@@ -928,6 +931,9 @@ Yaml: __N-hamwh_gt-norm.yaml__
 
 
 * Yaml: **N-vaeitsj20**
+
+
+
 
 
 

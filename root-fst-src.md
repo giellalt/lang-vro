@@ -9,7 +9,18 @@ language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
  * **+WORK** (eng) work needed 
-special letters, cf. https://github.com/hfst/hfst/issues/497 Trond.
+ * __b́__ b plus U+0301 COMBINING ACUTE
+ * __d́__ d plus U+0301 COMBINING ACUTE
+ * __f́__ f plus U+0301 COMBINING ACUTE
+ * __h́__ h plus U+0301 COMBINING ACUTE
+ * __t́__ t plus U+0301 COMBINING ACUTE
+ * __v́__ v plus U+0301 COMBINING ACUTE
+ * __B́__ B plus U+0301 COMBINING ACUTE
+ * __D́__ D plus U+0301 COMBINING ACUTE
+ * __F́__ F plus U+0301 COMBINING ACUTE
+ * __H́__ H plus U+0301 COMBINING ACUTE
+ * __T́__ T plus U+0301 COMBINING ACUTE
+ * __V́__ V plus U+0301 COMBINING ACUTE
 
  * **u̬** u plus U+032C COMBINING CARON BELOW
  * **U̬** u plus U+032C COMBINING CARON BELOW
@@ -454,13 +465,12 @@ And following triggers to control variation
  ** %^VowRM  ** this will remove stem final vowel
  ** %^CnsRM  ** this will remove stem final consonant tervüs:tervü
  ** %^StrGStem ** This strengthens "perädü" to "perätüt"
- ** %^XStrGStem ** This extra-strengthens "sõda" to "sõtta"
   **%^NoGrad**
  ** %^WGStem ** This weakens
   %^G1	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
   %^G2	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
   %^G3	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
-  %^G4	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k
+  %^G4	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k "sõda" to "sõtta"
  %^ShortGStem   — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
  %^LongGStem     — This lengthens "pu%{tØ%}tu" to "puttuq"
   %^Pen	       This moves us to penultimate coda

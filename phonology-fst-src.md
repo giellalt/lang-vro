@@ -189,7 +189,6 @@
 
  %^WGStem:0     — This weakens "kipõń" to "kibõna", "ompel" to "ommel"
  %^StrGStem:0   — This strengthens "perädü" to "perätüt"
- %^XStrGStem:0  — This extra-strengthens "sõda" to "sõtta"
  %^ShortGStem:0   — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
  %^LongGStem:0     — This lengthens "pu%{tØ%}tu" to "puttuq"
 
@@ -688,9 +687,9 @@ SECONDARY CONSONANT LENGTHENING
 
 **%{pØ%}:p**
 ```
-* *hä%{pØ%}%{pbØ%}ü%{front%}%^Pen%^XStrGStem*
+* *hä%{pØ%}%{pbØ%}ü%{front%}%^Pen%^G4*
 * *häppü000*
-* *tõ%{pØ%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%}*
+* *tõ%{pØ%}%{pbv%}%{back%}%^G4%>%{eõ%}*
 * *tõpp00%>õ*
 * *se%{pØ%}p%{front%}%^StrGStem*
 * *sepp00*
@@ -699,7 +698,7 @@ SECONDARY CONSONANT LENGTHENING
 ```
 
 **%{tØ%}:t**
-* *sõ%{tØ%}da%{back%}%^XStrGStem%^PLPRT*
+* *sõ%{tØ%}da%{back%}%^G4%^PLPRT*
 * *sõtto000*
 * *si%{tØ%}t%{front%}%^StrGStem*
 * *sitt00*
@@ -719,7 +718,7 @@ sõda+N+Sg+Ill:
 igä+N+Sg+Ill
 * *i{kØ}{kgØ}ä{front}^Pen^G4*
 * *ikkä00*
-* *mä%{Øk%}%{kgØ%}%{front%}%^XStrGStem%>%{eõ%}*
+* *mä%{Øk%}%{kgØ%}%{front%}%^G4%>%{eõ%}*
 * *mäkk00%>e*
 
 
@@ -1140,6 +1139,7 @@ kõiḱ+Pron+Sg+Gen
 
 
 
+
 igä+N+Sg+Ill
 * *i{kØ}{kgØ}ä{front}^Pen^G4*
 * *ikkä00*
@@ -1150,7 +1150,7 @@ igä+N+Sg+Ill
 **bTop**
 
 **%{pbv%}:p**
-* *tõ%{pØ%}%{pbv%}%{back%}%^XStrGStem%>%{eõ%}*
+* *tõ%{pØ%}%{pbv%}%{back%}%^G4%>%{eõ%}*
 * *tõpp00%>e*
 
 
