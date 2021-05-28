@@ -183,7 +183,7 @@ LEXICON V_48SADAMA/XX
 :%^Pen%^G2 ACT-IND-PRS-3_s/sEq ;
  PSS-IND-PRS-SG1_dA/SG3_tAs ;
 
-:%^XStrGStem%>%{eõ%} ACT-IND-PRT-1/2_ZERO ;
+:%^G4%>%{eõ%} ACT-IND-PRT-1/2_ZERO ;
 !! Act_Prt_Sg1: sattõ
  PSS-IND-PRT-SG1_di/SG3_ti ;
 
@@ -531,6 +531,56 @@ LEXICON V_56HIIBWLWMA/HEIKELEMAE !!≈ * **@CODE@** hiibõlõma:hiibõl
 
 ! (9) jus:
 :%^Pen%^VOWRaise%^Pen%^StrGStem MUTUAL_JUS_guq ;
+
+LEXICON V_56KAIBLWMA !!≈ * **@CODE@** kaiblõma+V:kai%{bv%}%{õØ%}l
+!! * Yaml: **hiibwlwma56**
+:%{back%} V_56KAIBLWMA/XX ;
+!LEXICON V_56HEIKELEMAEXX !!≈ * **@CODE@** 
+!!! * Yaml: **heikelemae56**
+!:%{front%} V_56KAIBLWMA/XX ;
+
+LEXICON V_56KAIBLWMA/XX !!≈ * **@CODE@** kaiblõma+V:kai%{bv%}%{õØ%}l
+! (1) I tegonimi: hirnma
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>%{eõ%} Harm-Neutr_INF_mA ;
+
+! (2) II tegonimi: hirnuq
+:%^Pen%^VOWRaise%^Pen%^WGStem Harm-Neutr_INF_dAq ;
+:%^Pen%^VOWRaise%^Pen%^WGStem%>%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
+
+! (3) tekev tm aktiiv: hirnnuq
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
+
+! (4) Tettäv tm passiiv: hirnut
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM PSS-PRSPRC_tAv ;
+:%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_JUUMA-PSS-PRFPRC_d ;
+:%^Pen%^VOWLower%^Pen%^WGStem PSS-PRFPRC_dU-SG-NOM ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM PSS-IND-PRS-ALL_dA ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM PSS-IND-PRT-ALL_di ;
+
+! (5) Olõvao 1. k maq: hirnu
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>%{eõ%} ACT-IND-CONNEG/PRS-SG1 ;
+
+! 2nd person indicative present
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%{eõ%} ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
+
+! 1st PL person indicative present
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%{eõ%} ACT-IND-PRS-PL1_miq ;
+
+! (6) Olõvao 3. k tä: hirn
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%{eõ%} ACT-IND-PRS-3_s/sEq ;
+
+! (7) min 1. k maq: hirnõ
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM ACT-IND-PRT-SG1_i/PL3_iq ;
++Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM  ACT-IND-PRT-PL3_ivAq ;
+
+! (7.2) Sg2, Pl1 and Pl2
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
+
+! (8) min 3. k tä:
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM ACT-IND-PRT-SG3_i ;
+
+! (9) jus:
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM MUTUAL_JUS_guq ;
 
 LEXICON V_57TAPLWMA
 !! taplõma:tapõl
@@ -2633,12 +2683,12 @@ LEXICON V_83SUTMA  !!= * @CODE@ atma:a%{tØ%}ta
 !! gradation: yes
 !! * Yaml: **switma**
 :%{back%} V_83SUTMA/PETMÄ ;
-LEXICON V_83PETMÄ  !!= * @CODE@ petmä:pe%{tØ%}t
+LEXICON V_83PETMÄ  !!= * @CODE@ petmä:pe%{tØ%}tä
 !! gradation: yes
 !! * Yaml: **heitmae**
 :%{front%} V_83SUTMA/PETMÄ ;
 
-LEXICON V_83SUTMA/PETMÄ  !!= * @CODE@ atma:a%{tØ%}t
+LEXICON V_83SUTMA/PETMÄ  !!= * @CODE@ sutma:su%{tØ%}ta
 ! (1) I tegonimi: 
 :%^Pen%^CC2C%^Pen%^NoPAL%^VowRM Harm-Neutr_INF_mA ;
 

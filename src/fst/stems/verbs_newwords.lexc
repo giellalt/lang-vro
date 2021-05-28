@@ -636,9 +636,9 @@ irvelemä+V:irvel V_56HEIKELEMAE "_irveldäq, %{ˋØ%}irvele__ˋirvelemä_" ;
 iukõlõma+V:iu%{kg%}õl V_56HIIBWLWMA "_iugõldaq, %{ˋØ%}iukõlõ__ˋiukõlõma_" ;
 jankõlõma+V:jan%{kg%}õl V_56HIIBWLWMA "_jangõldaq, %{ˋØ%}jankõlõ__ˋjankõlõma_" ;
 
-jutlõma+V:jutl V_56HIIBWLWMA "_jutõldaq, %{ˋØ%}jutlõ__ˋjutlõma_" ;
-juurdlõma+V:juur%{dØ%}%{0õ%}l V_56HIIBWLWMA "_juurõldaq, %{ˋØ%}juurdlõ__ˋjuurdlõma_" ;
-kaiblõma+V:kaibl V_56HIIBWLWMA "_kaivõldaq, %{ˋØ%}kaiblõ__ˋkaiblõma_" ;
+jutlõma+V:jut%{õØ%}l V_56KAIBLWMA "_jutõldaq, %{ˋØ%}jutlõ__ˋjutlõma_" ;
+juurdlõma+V:juur%{dØ%}%{õØ%}l V_56KAIBLWMA "_juurõldaq, %{ˋØ%}juurdlõ__ˋjuurdlõma_" ;
+kaiblõma+V:kai%{bv%}%{õØ%}l V_56KAIBLWMA "_kaivõldaq, %{ˋØ%}kaiblõ__ˋkaiblõma_" ;
 
 kaapõlõma+V:kaa%{pb%}õl V_56HIIBWLWMA "_kaabõldaq, %{ˋØ%}kaapõlõ__ˋkaapõlõma_" ;
 kaihkõlõma+V:kaih%{kØ%}õl V_56HIIBWLWMA "_kaihõldaq, %{ˋØ%}kaihkõlõ__ˋkaihkõlõma_" ;
@@ -1604,6 +1604,7 @@ väristämä+V:väris%{tt́%}ä V_58TAEHENDAEMAE "_#q, #__väristä|mä_" ;
 õgvõndama+V:õgvõn%{dd́%}a V_58HIRNAHTAMA "_#q, #__õgvõnda|ma_" ;
 õiõndama+V:õiõn%{dd́%}a V_58HIRNAHTAMA "_#q, #__õiõnda|ma_" ;
 õngõrdama+V:õ̭ngõr%{dd́%}a V_58HIRNAHTAMA "_#q, #__õ̭ngõrda|ma_" ;
+mustõrdama+V:mustõr%{dd́%}a V_58HIRNAHTAMA "?59kaotama_-q, -__mustõrda|ma_" ;
 õnnistama+V:õ̭nnis%{tt́%}a V_58HIRNAHTAMA "_#q, #__õ̭nnista|ma_" ;
 äestämä+V:äes%{tt́%}ä V_58TAEHENDAEMAE "_#q, #__ˋäestä|mä_" ;
 ähvärdämä+V:ähvär%{dd́%}ä V_58TAEHENDAEMAE "_#q, #__ähvärdä|mä_" ;
@@ -2033,7 +2034,6 @@ murśatama+V:murśa%{tt́d%} V_59KAOTAMA "_#taq, #da__murśa|tama_" ;
 murõtama+V:murõ%{tt́d%} V_59KAOTAMA "_#taq, #da__murõ|tama_" ;
 muśotama+V:muśo%{tt́d%} V_59KAOTAMA "_#taq, #da__muśo|tama_" ;
 mustatama+V:musta%{tt́d%} V_59KAOTAMA "_#taq, #da__musta|tama_" ;
-mustõrdama+V:mustõrda V_59KAOTAMA "_-q, -__mustõrda|ma_" ;
 mustõtama+V:mustõ%{tt́d%} V_59KAOTAMA "_#taq, #da__mustõ|tama_" ;
 mutitama+V:muti%{tt́d%} V_59KAOTAMA "_#taq, #da __muti|tama_" ;
 mut́utama+V:mut́u%{tt́d%} V_59KAOTAMA "_#taq, #da __mut́u|tama_" ;
@@ -4174,7 +4174,7 @@ tapma+V:ta%{pØ%}%{pṕ%} V_83ATMA "_tappaq, tapa__ˋtapma_" ;
 
 masma+V:ma%{sØ%}%{sś%} V_83ATMA "_ˋmassaq, massa__ˋmasma_" ;
 
-ikma+V:i%{kØ%}%{kḱ%}õ V_83ATMA "_ikkõq, ikõ__ˋikma_" ;
+ikma+V:i%{kØ%}%{kḱ%}õ V_83SUTMA "_ikkõq, ikõ__ˋikma_" ;
 
 jätmä+V:jä%{tØ%}%{tt́%}ä V_83PETMÄ "_jättäq, jätä__ˋjätmä_" ;
 kitmä+V:ki%{tØ%}%{tt́%}ä V_83PETMÄ "_kittäq, kitä__ˋkitmä_" ;
