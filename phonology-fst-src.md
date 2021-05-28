@@ -1,5 +1,7 @@
 # The Võro morphophonological/twolc rules file 
 
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-vro/blob/main/src/fst/phonology.twolc) 
+
 
 
 
