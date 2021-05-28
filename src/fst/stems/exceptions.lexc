@@ -1,19 +1,19 @@
 
 LEXICON Exceptions
 !! ### ADVERBS
-kah:kah ADV_ ;
-kaq:kaq ADV_ ;
-viil:viil ADV_ ;
-õnnõs:õnnõs ADV_ ;
-är:är ADV_ ;
+kah+Adv:kah ADV_ ;
+kaq+Adv:ka ADV_IN_q ;
+viil+Adv:viil ADV_ ;
+õnnõs+Adv:õnnõs ADV_ ;
+ärq+Adv:är ADV_IN_q ;
 
 !! ### CONJUNTIONS
-ja:ja CC_ ;
-aq:aq CC_ ;
+jaq+CC:ja CC_IN_q ;
+aq+CC:a CC_IN_q ;
 
-et:et CS_ ;
-ku:ku CS_ ;
-sis:sis CS_ ;
+et+CS:et CS_ ;
+kuq+CS:ku CS_IN_q ;
+sis+CS:sis CS_ ;
 
 !! ### GENITIVE ATTRIBUTES
 Austria-Ungari+N+Prop+Sg+Gen:Austria-Ungari K ;
@@ -43,6 +43,35 @@ Eesti-Vinne+N+Prop+Sg+Gen:Eesti-Vinne K ;
 
 Võro-Põlva+N+Prop+Sg+Gen:Võro-Põlva K ;
 Võro-Seto+N+Prop+Sg+Gen:Võro-Seto K ;
+Briti+N+Prop+Sg+Gen:Briti K ;
+
+Lõunõ-Eesti+N+Prop+Sg+Gen:Lõunõ-Eesti K ;
+Vahtsõ-Roosa+N+Prop+Sg+Gen:Vahtsõ-Roosa K ;
+Väike-Maarja+N+Prop+Sg+Gen:Väike-Maarja K ;
+Vana-Hiina+N+Prop+Sg+Gen:Vana-Hiina K ;
+Tammõ-Lauri+N+Prop+Sg+Gen:Tammõ-Lauri K ;
+Mäe-Puspuri+N+Prop+Sg+Gen:Mäe-Puspuri K ;
+Lõuna-Ameeriga+N+Prop+Sg+Gen:Lõuna-Ameeriga K ;
+Hummogu-Śaksamaa+N+Prop+Sg+Gen:Hummogu-Śaksamaa K ;
+Ginea-Bissau+N+Prop+Sg+Gen:Ginea-Bissau K ;
+Õdagu-Harjo+N+Prop+Sg+Gen:Õdagu-Harjo K ;
+Vana-Uppsala+N+Prop+Sg+Gen:Vana-Uppsala K ;
+Vana-Egüptüse+N+Prop+Sg+Gen:Vana-Egüptüse K ;
+Taga-Karpaadi+N+Prop+Sg+Gen:Taga-Karpaadi K ;
+Nuur-Eesti+N+Prop+Sg+Gen:Nuur-Eesti K ;
+Lõunõ-Soomõ+N+Prop+Sg+Gen:Lõunõ-Soomõ K ;
+Kohtla-Järve+N+Prop+Sg+Gen:Kohtla-Järve K ;
+Hummogu-Ukraina+N+Prop+Sg+Gen:Hummogu-Ukraina K ;
+Hummogu-Timori+N+Prop+Sg+Gen:Hummogu-Timori K ;
+Galõtši-Volõni+N+Prop+Sg+Gen:Galõtši-Volõni K ;
+Õdagu-Õuruupa+N+Prop+Sg+Gen:Õdagu-Õuruupa K ;
+Õdagu-Tsiberi+N+Prop+Sg+Gen:Õdagu-Tsiberi K ;
+Võro-Vahtsõliina+N+Prop+Sg+Gen:Võro-Vahtsõliina K ;
+Võro-Räpinä+N+Prop+Sg+Gen:Võro-Räpinä K ;
+Võro-Harglõ+N+Prop+Sg+Gen:Võro-Harglõ K ;
+Väiku-Palkna+N+Prop+Sg+Gen:Väiku-Palkna K ;
+Vana-Vigala+N+Prop+Sg+Gen:Vana-Vigala K ;
+
 
 !! ### NOUNS
 vaih+N+Sg+Nom:vahe K ;
@@ -51,8 +80,7 @@ vaih+N+Sg+Nom:vahe K ;
 
 
 !! ### POSTPOSITIONA
-pääleq+v1+Po:pääleq PO-IS-ALL ;
-pääleq+v2+Po:pääle PO-IS-ALL ;
+pääleq+Po:pääle PO-IS-ALL_IN_q ;
 
 !! ### PRONOUNS
 hindä+Pron+Refl+All:hindäle K ;
@@ -91,6 +119,11 @@ minemä+V+Act+Ind+Prt+Pl2:%{front%}lätsitiq K ;
 minemä+Use/NG+V+Act+Ind+Prt+Pl2:%{front%}lätsideq K ;
 minemä+V+Act+Ind+Prt+Pl3:%{front%}lätsiq K ;
 minemä+Use/NG+V+Act+Ind+Prt+Pl3:%{front%}lätsiväq K ;
+
+!! nakkama **to begin/ alkaa**
+nakkama+V:naa%{back%} PSS-PRSPRC_tAv ;
+nakkama+V:naa%{back%} Harm-Neutr_VISKAMA-PSS-PRFPRC_t ;
+nakkama+V:naa%{back%} PSS-IND-PRT-SG1_di/SG3_ti/PRS-SG1_dA/SG3_tAs/PSS-PRFPRC_t/SG-GEN_dU ;
 
 !! nägemä **to see/nähdä**
 nägemä+V:näge%{front%} Harm-Neutr_INF_mA ;

@@ -795,8 +795,14 @@ LEXICON ACRONDELIMITER ! todo: contlexces as for other gls.
 
 LEXICON CC_
 : K ;
+LEXICON CC_IN_q
+:q K ;
++Use/NG+Err/Orth-no-q: K ;
 LEXICON CS_
-+CS: K ;
+: K ;
+LEXICON CS_IN_q
+:q K ;
++Use/NG+Err/Orth-no-q: K ;
 LEXICON DET_
 +Det: K ;
 LEXICON INTERJ_
