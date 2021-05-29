@@ -2314,6 +2314,7 @@ There are other verbs here, cf. V_ELAEMAE
 
 
 
+
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: **V-palama48**
 
@@ -2340,8 +2341,6 @@ There are other verbs here, cf. V_ELAEMAE
 
 Pss_PrfPrc: sadat
 
-
-Act_Prt_Sg1: sattõ
 
 
  * **LEXICON V_49LWPMA** lõpma:lõpp
@@ -2574,6 +2573,7 @@ Based on 59KAOTAMA
 
 
 
+
 +Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
 +Pss+PrsPrc, +Pss+PrfPrc
 
@@ -2730,6 +2730,7 @@ Act_Ind_Prs_Pl3: essüseq
 
 
 
+
 V_Inf/mA: miildümä 
 
 
@@ -2756,6 +2757,7 @@ V_Inf/mA: miildümä
 * Yaml: **V-eraelduemae**
 
  * **LEXICON V_70VIPWRDUMA/ERAELDUEMAE** unõhtuma:unõhtu
+
 
 
 
@@ -2821,6 +2823,7 @@ vala, valla, vali, valõ
 
 
 
+
  * **LEXICON V_76HIGOMA** higoma:hi%{kg0%}o
 * Yaml: **V-higoma76**
  * **LEXICON V_76PUEGAEMAE** pügämä:pü%{kg0%}ä
@@ -2834,8 +2837,9 @@ vala, valla, vali, valõ
 Inf, Act+PrsPrc+Sg+Nom
 
 
- * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%} Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
 Pss+PrfPrc, Pss+PrsPrc
+
+ * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%} Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
 
 
  *  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
@@ -2861,6 +2865,47 @@ Retain consonant remove stem vowel and add i
 Act+Ind+Prt+Sg3
 
 +Jus
+
+ * **LEXICON V_76JAGAMA** jagama:ja%{kg0%}a
+* Yaml: **V-higoma76**
+
+ * **LEXICON V_76JAGAMA/XX** jagama:ja%{kg0%}a
++Act+PrsPrc+Sg OBL, Inf/mA, 
+
+ * :%^Pen%^G3 Harm-Neutr_INF_ZEROq ;  (2) lukõq
+ * :%^Pen%^G3 Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
+Inf, Act+PrsPrc+Sg+Nom
+
+
+Pss+PrfPrc, Pss+PrsPrc
+
+ * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRMe Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
+
+
+ *  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
+Ind+Prs+ 3
+
+
+
+Retain consonant and stem vowel
+
+Weaken consonant and semi-retension of stem vowel
+
+Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
+Pss+Ind
+
+Retain consonant and stem vowel
+
+Weaken consonant and replace stem vowel with i
+ * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+Act+Ind+PrtSg1/Sg2/Pl1-3
+
+Retain consonant remove stem vowel and add i
+ * :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+Act+Ind+Prt+Sg3
+
++Jus
+
 
  * **LEXICON V_76LUGWMA** lugõma:lu%{kg0%}õ
 * Yaml: **V-higoma76**
@@ -2909,6 +2954,8 @@ Act+Ind+Prt+Sg3
 * Yaml: **sueuemae**
 
  * **LEXICON V_77JUUMA/SUEUEMAE** juuma:joo
+
+
 
  * :%^VOWRaise V_77JUUMA/SUEUEMAE_RAISED-VOWEL ;  (1) juu, süü
 
@@ -2959,6 +3006,8 @@ Act+Ind+Prt+Sg3
  * **LEXICON V_78VWIMA** võima:või
 * Yaml: **V-vwima**
  * **LEXICON V_VWIMA/XX** võima:või
+
+
 
 
 
@@ -3059,11 +3108,13 @@ Act+Ind+Prt+Sg3
  * **LEXICON V_80HAEMMAEHUETMAE** hämmähütmä:hämmähütä
 
 
-
-
-
-
  * LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE  rapahutma:rapahuta
+
+
+
+
+
+
 
 Retain consonant and stem vowel
  * :t Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) rapahutma
@@ -3147,8 +3198,6 @@ Work
 * Yaml: **pueuedmae**
 
  * **LEXICON V_82ANDMA/PUEUEDMAE** andma:%{ˋØ%}an%{dd́n%}
-
-
 
 
 
@@ -3508,6 +3557,9 @@ CHECK THIS
 
 
 
+
+
+
  * LEXICON Harm-Neutr_JUVVA_PSS-IND-PRS  juvva süvvä
 
 
@@ -3639,8 +3691,14 @@ PASSIVE DISTRIBUTION
  * Harm-Neutr_NÕSTMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
  * Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
- * Harm-Neutr_KAOTAMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: kaotõda
- * Harm-Neutr_KAOTAMA-PSS-IND-PRT_di ;  +Pss+Ind+Prt+Sg1: kaotõdi
+
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>di K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>did%{eõ%} K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl1:%>dimi K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%>diti K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>di K ;  no q
+ * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>div%{aä%} K ;  no q
+
  * Harm-Neutr_V0-PSS-PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
  * Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
@@ -3651,20 +3709,6 @@ PASSIVE DISTRIBUTION
  * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;  no q
 
 
- * +Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>d%{aä%}d%{eõ%} K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl1:%>d%{aä%}mi K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl2:%>d%{aä%}ti K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl3:%>d%{aä%}s%{eõ%} K ;  no q
-
-
-
- * LEXICON Harm-Neutr_KAOTAMA-PSS-IND-PRT_di  +Pss+Ind+Prt+Sg3: kaotõdi
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>di K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>did%{eõ%} K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl1:%>dimi K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%>diti K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>di K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>div%{aä%} K ;  no q
 
 
  * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
@@ -4774,6 +4818,7 @@ gradation: yes
 
 
 
+
 *Noun 33 examples:*
 
 
@@ -5520,6 +5565,7 @@ gradation= no
 
 
 * Yaml: **N-pää29**
+
 
 
 
@@ -6666,7 +6712,7 @@ rehksämä+V+Inf/mA:
 * *elä%{front%}%>et*
 * *el00%>et*
 tütär+N+Sg+Gen
-* *tütä%{rŕ%}%{front%}%^Pen%^VowRM%>e*
+* *tütä%{rŕ%}%{front%}%^VowRM%>e*
 * *tüt0r000%>e*
 
 **U:0 Vx**
@@ -7675,6 +7721,7 @@ Three-syllable words
 
 
 
+
 Acronyms
 Veps acronyms ...
 
@@ -7696,6 +7743,7 @@ added to the xml source files.
 
 
 ADD VERBS BELOW
+
 
 
 
@@ -7825,6 +7873,7 @@ verb type split
 
 
 
+
 atma+V:atta, ikma+V:ikkõ
 petmä+V:pettä
 
@@ -7915,6 +7964,10 @@ hanśa+N:hanśa N_1HANS1A "" ;
 
 ### VERBS
 
+andma **to give/antaa**
+
+kündma **to plow/kyntää**
+
 minemä **to go/ mennä**
 
 nakkama **to begin/ alkaa**
@@ -7925,10 +7978,14 @@ olõma **to be/ olla**
 
 nakkama **to start/ alkaa**
 
+pandma **to put/panna**
+
 pidämä **to keep/ pitää**
 
 tegemä **to do/ tehdä**
 
+
+tundma **to feel/tuntea**
 
 võtma **to take (pass)/ ottaa**
 

@@ -523,7 +523,7 @@ rehksämä+V+Inf/mA:
 * *elä%{front%}%>et*
 * *el00%>et*
 tütär+N+Sg+Gen
-* *tütä%{rŕ%}%{front%}%^Pen%^VowRM%>e*
+* *tütä%{rŕ%}%{front%}%^VowRM%>e*
 * *tüt0r000%>e*
 
 **U:0 Vx**
