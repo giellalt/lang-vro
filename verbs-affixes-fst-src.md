@@ -19,6 +19,7 @@ There are other verbs here, cf. V_ELAEMAE
 
 
 
+
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: **V-kuioma48**
 
@@ -50,12 +51,14 @@ There are other verbs here, cf. V_ELAEMAE
 * Yaml: __V-sadama48__
 
 
+
 Pss_PrfPrc: sadat
 
 
 
  * **LEXICON V_49LWPMA** lõpma:lõpp
  * **LEXICON V_49LWPMA/XX** lõpma:lõ%{pØ%}p
+
 
 
 
@@ -111,6 +114,7 @@ ehitelemä:ehitell
 * Yaml: **ehitellemae52**
 
  * **LEXICON V_52ALOSTWLWMA/EHITELEMAE** alostõllõma:alostõ%{lØ%}l
+
 
 
 
@@ -224,6 +228,7 @@ taplõma:tapõl
 
 
 
+
 võitlõma:võitõl
 * Yaml: **taplwma57**
 kiirdlemä:keerdel
@@ -260,6 +265,7 @@ kullõma+V:ku%{lØ%}l%{õØ%}%{lĺ%}
 
 
 
+
  * **LEXICON V_58HIRNAHTAMA** hirnahtama:hirnahta
 * Yaml: **V-hirnahtama58**
 
@@ -268,6 +274,8 @@ kullõma+V:ku%{lØ%}l%{õØ%}%{lĺ%}
 front
 
  * **LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE** hirnahtama:hirnahta, tähendämä:tähend
+
+
 
 
 
@@ -344,11 +352,12 @@ Based on 59KAOTAMA
 
 
 
+
+
 argnõma:arg
 * Yaml: **argnwma62**
 tärknemä:tärk
 * Yaml: **taerknemae62**
-
 
 
 
@@ -365,6 +374,7 @@ tärknemä:tärk
 
 
 
+
  * **LEXICON V_63VISKAMA** viskama:vis%{kØ%}a
 gradation: yes
 * Yaml: **V-viskama63**
@@ -373,6 +383,7 @@ gradation: no
 * Yaml: **V-hingaemae63**
 
  * **LEXICON V_63VISKAMA/HINGAEMAE** viskama:viska
+
 
 
  * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
@@ -426,12 +437,12 @@ THIS FAR 2016-08-27
 
 
 
+
  * **LEXICON V_69HAARDUMA** haarduma:haar%{dØ%}u
  * **LEXICON V_69SUENDUEMAE** sündümä:sün%{dn%}ü
  * **LEXICON V_69HAARDUMA/SUENDUEMAE** sündümä:sündü
 
 Act_Ind_Prs_Pl3: essüseq
-
 
 
  * **LEXICON V_69SUURDUMA** suurduma:suurdu
@@ -451,7 +462,6 @@ V_Inf/mA: miildümä
 * Yaml: **V-eraelduemae**
 
  * **LEXICON V_70UNWHUMA/ÄNGÄHÜMÄ** unõhuma:unõhtu
-
 
 
 
@@ -502,12 +512,14 @@ V_Inf/mA: miildümä
 
 
 
+
  * **LEXICON V_74KULUMA** kuluma:kullu
 * Yaml: **V-kuluma**
  * **LEXICON V_74VAESUEMAE** väsümä:vässü
 * Yaml: **V-vaesuemae**
 
  * **LEXICON V_74KULUMA/VAESUEMAE** kuluma:kullu
+
 
 
 
@@ -550,7 +562,6 @@ Inf, Act+PrsPrc+Sg+Nom
 
 Pss+PrfPrc, Pss+PrsPrc
 
- * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%} Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
 
 
  *  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
@@ -667,6 +678,7 @@ Act+Ind+Prt+Sg3
  * **LEXICON V_77JUUMA/SUEUEMAE** juuma:joo
 
 
+ * :%^OO2Õ%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  (4) jõi- poi- sei- möi-
 
  * :%^VOWRaise V_77JUUMA/SUEUEMAE_RAISED-VOWEL ;  (1) juu, süü
 
@@ -674,7 +686,6 @@ Act+Ind+Prt+Sg3
 
  * :%^VOWRaise%^VowRM%>vv V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  (3) juvv
 
- * :%^OO2Õ%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  (4) jõi- poi- sei- möi-
 
  * :%^VOWRaise ACT-IND-PRS-SG3_ZERO ;  (5) RAISED juu süü
  *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
@@ -769,6 +780,10 @@ Act+PrsPrc+Sg+Nom
  * **LEXICON V_79PURWMA** purõma:pur
 * Yaml: **purwma**
  * **LEXICON V_79PURWMA/XX** purõma:pur
+Retain consonant 
+ *  Harm-Neutr_LUGWMA_PSS-PRC ;  (4) pur
+Pss+PrfPrc, Pss+PrsPrc, 
+
 
 Retain consonant and stem vowel
  * :%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) purõma
@@ -785,10 +800,6 @@ Act+PrsPrc+Sg+Nom
 Retain consonant and stem vowel
  *  Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) purnuq
 +Act+PrfPrc
-
-Retain consonant 
- *  Harm-Neutr_LUGWMA_PSS-PRC ;  (4) pur
-Pss+PrfPrc, Pss+PrsPrc, 
 
 
 Retain consonant and add õ
@@ -903,6 +914,7 @@ Work
 
 
 
+
  * **LEXICON V_82ANDMA** andma:and
 * Yaml: **andma**
  * **LEXICON V_82PUEUEDMAE** püüdmä:püüd
@@ -928,6 +940,7 @@ gradation: no
 * Yaml: **nwstma**
 
  * LEXICON V_83NÕSTMA/PÄSTMÄ   nõstma:nõst
+
 
 
 
@@ -1010,6 +1023,7 @@ IS THIS RIGHT? 2015-09-02
 
 
 
+
  * LEXICON V_83SUTMA   atma:a%{tØ%}ta
 gradation: yes
 * Yaml: **switma**
@@ -1022,6 +1036,7 @@ gradation: yes
 
 
 IS THIS RIGHT? 2015-09-02
+
 
 sõida
 
@@ -1053,11 +1068,13 @@ sõida
 
 
 
+
  * **LEXICON V_85HIRNMA** kakma:kaku hirnma:hirnu
 * Yaml: **kakma**
  * **LEXICON V_85TUEMPSMAE** kakma:kaku hirnma:hirnu
 * Yaml: **kakma**
  * **LEXICON V_85HIRNMA/TUEMPSMAE** kakma:kaku hirnma:hirnu
+
 
 
 
@@ -1083,11 +1100,13 @@ sõida
 
 
 
+
  * **LEXICON V_85KAKMA**  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u 
 * Yaml: **haudma**
  * **LEXICON V_85TRUEKMAE**  trükmä:trü%{kØ%}%{kḱ%}ü
 * Yaml: **vaelkmae**
  * **LEXICON V_85KAKMA/TRUEKMAE** kakma:kakk
+
 
 
 
@@ -1180,10 +1199,13 @@ sõida
 
 
 
+
+
  * LEXICON V_88SIBAHAMA  sibama:siba
 * Yaml: **V-sibama88,sibahama**
 * Yaml: **V-juevaemae88**
  * LEXICON V_88SIBAHAMA/JUEVAEHAEMAE  sibama:siba
+
 
 
 
@@ -1436,6 +1458,8 @@ PASSIVE DISTRIBUTION
  * +Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
  * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
+
+ * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
  * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
