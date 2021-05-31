@@ -535,6 +535,11 @@ the sentence can be considered as true cases.
  * **+%<plc_ade%>  **:  Ade, All, Abl
  * **+%<pcl_pääl%> **:  pääl, pääle, päält
 
+The tagged part of the compound should make a compound using:
+
+ * **+CmpN/SgN** Singular Nominative
+ * **+CmpN/SgG** Singular Genitive
+
 
 # Flag diacritics
 We have manually optimised the structure of our lexicon using the following

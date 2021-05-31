@@ -2664,6 +2664,8 @@ tärknemä:tärk
 
 
 
+
+
  * **LEXICON V_63VISKAMA** viskama:vis%{kØ%}a
 gradation: yes
 * Yaml: **V-viskama63**
@@ -2684,6 +2686,8 @@ gradation: no
 
 
 +Pss+Ind+Prt +Sg1-+Pl3, ConNeg
+
+
 
 
 
@@ -7616,11 +7620,13 @@ N_10HEERITS in -dsä
 
 
 
+
 two-syllable
 
 
 
 Three-syllable words
+
 
 
 
@@ -8550,6 +8556,11 @@ the sentence can be considered as true cases.
  * **+%<plc_ine%>  **:  Ine, Ill, Ela
  * **+%<plc_ade%>  **:  Ade, All, Abl
  * **+%<pcl_pääl%> **:  pääl, pääle, päält
+
+The tagged part of the compound should make a compound using:
+
+ * **+CmpN/SgN** Singular Nominative
+ * **+CmpN/SgG** Singular Genitive
 
 
 # Flag diacritics

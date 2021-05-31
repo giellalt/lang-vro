@@ -375,6 +375,8 @@ tärknemä:tärk
 
 
 
+
+
  * **LEXICON V_63VISKAMA** viskama:vis%{kØ%}a
 gradation: yes
 * Yaml: **V-viskama63**
@@ -395,6 +397,8 @@ gradation: no
 
 
 +Pss+Ind+Prt +Sg1-+Pl3, ConNeg
+
+
 
 
 
