@@ -189,11 +189,11 @@ LEXICON A_14RITS1KAS  !!= @CODE@ ritśkas:ritśka%{sØ%}
 :%{back%}  NMN_14RITS1KAS/HERNEH ;
 
 LEXICON A_14HAMMAS  !!= @CODE@ rikas:ri%{kØ%}ka%{sØ%}
-:%{back%} Harm-Neutr_COMP ;
+:%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem COMP ;
 :%{back%}  NMN_14HAMMAS/IKAES ;
 
 LEXICON A_14IKAES  !!= @CODE@ rikas:ri%{kØ%}ka%{sØ%}
-:%{front%} Harm-Neutr_COMP ;
+:%{front%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem COMP ;
 :%{front%}  NMN_14HAMMAS/IKAES ;
 
 !LEXICON A_15KOTUS
@@ -316,6 +316,7 @@ LEXICON A_36RAMM
 
 LEXICON A_36LAEHK
 :%{front%}  NMN_36NJUKR/LAEHK ;
+:%{front%}%^WGStem%>%{eõ%} COMP ;
 
 !LEXICON A_37PINI
 !:%{front%}  NMN_37WLI/PINI ;
