@@ -1011,10 +1011,15 @@ LEXICON V_63SWIMAMA/XX !!≈ * **@CODE@** sõimama:sõima
 ! (6) Olõvao 3. k tä:
 :%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-3_s/sEq ;
 
-! (7) min 1. k maq: Sg1 and Pl3
+! (7) min 1. k maq: Sg1 and Pl3 double S?
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>s ACT-IND-PRT-SG1_i/PL3_iq ;
++Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%>s ACT-IND-PRT-SG1_i/PL3_iq ;
+
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>ss ACT-IND-PRT-SG1_i/PL3_iq ;
 +Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%>ss ACT-IND-PRT-SG1_i/PL3_iq ;
-! (7.2) Sg2, Pl1 and Pl2
+! (7.2) Sg2, Pl1 and Pl2 double S?
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>s ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
+
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>ss ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
 ! (8) min 3. k tä:
 :%^Pen%^VOWLower%^Pen%^WGStem%>ś ACT-IND-PRT-SG3_ZERO ;
@@ -1070,11 +1075,17 @@ LEXICON V_63VISKAMA/HINGAEMAE !!≈ * **@CODE@** viskama:viska
 ! (6) Olõvao 3. k tä:
 :%^Pen%^VOWRaise%^Pen%^StrGStem ACT-IND-PRS-3_s/sEq ;
 
-! (7) min 1. k maq: Sg1 and Pl3
+! (7) min 1. k maq: Sg1 and Pl3 double S?
+:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>s ACT-IND-PRT-SG1_i/PL3_iq ;
++Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>s ACT-IND-PRT-PL3_ivAq ;
+
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss ACT-IND-PRT-SG1_i/PL3_iq ;
 +Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss ACT-IND-PRT-PL3_ivAq ;
 
-! (7.2) Sg2, Pl1 and Pl2
+! (7.2) Sg2, Pl1 and Pl2 double S?
+:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>s ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
++Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>s ACT-IND-PRT-SG2_iq ;
+
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
 +Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss ACT-IND-PRT-SG2_iq ;
 

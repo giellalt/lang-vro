@@ -3075,8 +3075,8 @@ LEXICON NMN_11AINWQ/KELMEQ !!= @CODE@ ainõq:ainõ
 LEXICON NMN_11AINWQ/KELMEQ-SG 
 :%^Pen%^VOWLower%^Pen%^WGStem%>q ATTESTED-NOUN-STEM-CONTINUED ;
 +Use/NG+Err/Orth-no-q:%^Pen%^VOWLower%^Pen%^WGStem ATTESTED-NOUN-STEM-CONTINUED ;
-+Sg+Nom:%^Pen%^VOWLower%^Pen%^WGStem%>q K ;
-+Use/NG+Err/Orth-no-q+Sg+Nom:%^Pen%^VOWLower%^Pen%^WGStem K ;
+:%^Pen%^VOWLower%^Pen%^WGStem%>q Harm-Neutr_SG-NOM ;
++Use/NG+Err/Orth-no-q:%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_SG-NOM ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem SG-GEN_ZERO-STEM ;
 +Sg+Par:%^Pen%^VOWLower%^Pen%^StrGStem%>t K ;
 +Sg+Ill:%^Pen%^VOWRaise%^Pen%^StrGStem%>he K ;
@@ -3108,8 +3108,7 @@ LEXICON NMN_11AINWQ/KELMEQ-PL
 !  NMN_11VAIH/XX-PL ;
 
 LEXICON NMN_11VAIH/XX-SG 
- ATTESTED-NOUN-STEM-CONTINUED ;
-+Sg+Nom: K ;
+: Harm-Neutr_SG-NOM ;
 :%{eõ%} SG-GEN_ZERO-STEM ;
 +Use/NG+Err/Orth:h%{eõ%} SG-GEN_ZERO-STEM ;
 +Sg+Par:%>t K ;
@@ -3142,10 +3141,8 @@ LEXICON NMN_11ANNWQ/LAETEQ !!= @CODE@ ainõq:ainõ
   NMN_11ANNWQ/LAETEQ-PL ;
 
 LEXICON NMN_11ANNWQ/LAETEQ-SG 
-:%^Pen%^VOWLower%^Pen%^WGStem%>q ATTESTED-NOUN-STEM-CONTINUED ;
-+Use/NG+Err/Orth-no-q:%^Pen%^VOWLower%^Pen%^WGStem ATTESTED-NOUN-STEM-CONTINUED ;
-+Sg+Nom:%^Pen%^VOWLower%^Pen%^WGStem%>q K ;
-+Use/NG+Err/Orth-no-q+Sg+Nom:%^Pen%^VOWLower%^Pen%^WGStem K ;
+:%^Pen%^VOWLower%^Pen%^WGStem%>q Harm-Neutr_SG-NOM ;
++Use/NG+Err/Orth-no-q:%^Pen%^VOWLower%^Pen%^WGStem Harm-Neutr_SG-NOM ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem SG-GEN_ZERO-STEM ;
 +Sg+Par:%^Pen%^VOWLower%^Pen%^WGStem%>t K ;
 +Sg+Ill:%^Pen%^VOWRaise%^Pen%^StrGStem%>he K ;
@@ -4238,9 +4235,8 @@ LEXICON NMN_25ASWQ-PL
 !  NMN_27ASTWQ/EHEQ-PL ;
 
 LEXICON NMN_27ASTWQ/EHEQ-SG !astõq+N:ast
- ATTESTED-NOUN-STEM-CONTINUED ;
-+Sg+Nom:%^VOWLower%^WGStem%>%{eõ%}q K ;
-+Sg+Nom+Use/NG+Err/Orth-no-q:%^VOWLower%^WGStem%>%{eõ%} K ;
+:%^VOWLower%^WGStem%>%{eõ%}q Harm-Neutr_SG-NOM ;
++Use/NG+Err/Orth-no-q+CmpN/SgN:%^VOWLower%^WGStem%>%{eõ%}  ;
 :%^VOWRaise%^StrGStem%>m%{eõ%} SG-GEN_ZERO-STEM ; !FIXME 2017-02-10
 +Sg+Par:%^VOWLower%^WGStem%>nd K ;
 +Sg+Ill:%^VOWRaise%^StrGStem%>m%{eõ%}he K ;
@@ -6000,11 +5996,9 @@ LEXICON NMN_2KASUNUQ/ELAENUEQ !!= * @CODE@ elänüq:elänü
  NMN_2KASUNUQ/ELAENUEQ-SG  ;
  NMN_2KASUNUQ/ELAENUEQ-PL  ;
 LEXICON NMN_2KASUNUQ/ELAENUEQ-SG
-:q ATTESTED-NOUN-STEM-CONTINUED ;
-+Use/NG+Err/Orth-no-q: ATTESTED-NOUN-STEM-CONTINUED ;
-+Sg+Nom:q K ;
-+Use/NG+Err/Orth-no-q+Sg+Nom: K ;
-+Sg+Gen: K ;
++Use/NG+Err/Orth-no-q+CmpN/SgN: ATTESTED-NOUN-STEM-CONTINUED ;
+:q Harm-Neutr_SG-NOM ;
+Harm-Neutr_SG-GEN ;
 !+Sg+Gen:q K ;
 +Sg+Par:t K ;
 +Sg+Ill:he K ;
@@ -6181,11 +6175,10 @@ LEXICON  SG-ELA_st
 +Sg+Ela:%>st K ;
 
 LEXICON  SG-GEN_ZERO
-:%> ATTESTED-NOUN-STEM-CONTINUED ;
-+Sg+Gen:%> K ;
+Harm-Neutr_SG-GEN ;
 
 LEXICON  Harm-Neutr_SG-GEN
-: ATTESTED-NOUN-STEM-CONTINUED ;
++CmpN/SgG: ATTESTED-NOUN-STEM-CONTINUED ;
 +Sg+Gen: K ;
 
 
@@ -6234,7 +6227,7 @@ LEXICON Harm-Neutr_SG-INE_hn !!= @CODE@ RARE
 +Use/NG+Err/Orth+Sg+Ine:%>hn K ;
 
 LEXICON Harm-Neutr_SG-NOM
- ATTESTED-NOUN-STEM-CONTINUED ;
++CmpN/SgN: ATTESTED-NOUN-STEM-CONTINUED ;
 +Sg+Nom: K ;
 
 LEXICON  Harm-Neutr_SG-PAR_ZERO
@@ -6312,8 +6305,7 @@ LEXICON TER_ZERO
 
 
 LEXICON K_COMP_OR_SG-NOM-END
-+Sg+Nom: # ;
- ATTESTED-NOUN-STEM-CONTINUED ;
+ Harm-Neutr_SG-NOM ;
  K ;
 
 !! digits
