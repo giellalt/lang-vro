@@ -111,13 +111,14 @@ Numerals are classified under:
  * **+Card**
  * **+Ord**
 Verb moods are:
+ * **+Cond**
+ * **+Imprt**
  * **+Ind**
  * **+Jus**
  * **+Prs**
  * **+Prt**
  * **+Pot**
- * **+Cond**
- * **+Imprt**
+ * **+Quo** = quotative, quoted speech
 
 Verb personal forms are:
 
