@@ -2676,13 +2676,13 @@ LEXICON V_83ATMA/XX  !!= * @CODE@ atma:a%{tØ%}%{tt́%}
 :%^CC2C%^NoPAL ACT-PRSPRC_vA ;
 
 ! (3) tekev tm aktiiv: 
-:%^Pen%^CC2C%^Pen%^NoPAL ACT-PRFPRC-ALL_nUq ;
+:%^CC2C%^NoPAL ACT-PRFPRC-ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: 
 
-:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS-IND-SG1_tX/SG3_tX ;
+:%^WGStem%^NoPAL%^VowRM%>%{eõ%} PSS-IND-SG1_tX/SG3_tX ;
 
-:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>e PSS-IND-SG1_dX/SG3_tX ; !! IS THIS RIGHT? 2015-09-02
+:%^WGStem%^NoPAL%^VowRM%>e PSS-IND-SG1_dX/SG3_tX ; !! IS THIS RIGHT? 2015-09-02
 
 
 ! (5) Olõvao 1. k maq:
@@ -2704,27 +2704,27 @@ LEXICON V_83ATMA/XX  !!= * @CODE@ atma:a%{tØ%}%{tt́%}
 ! (7.2) Sg2, Pl1 and Pl2
 :%^WGStem%^NoPAL ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
 :%^CC2C%^NoPAL ACT-IND-PRT-SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>iq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM%>s%{eõ%}q K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^WGStem%^NoPAL%^VowRM%>iq K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}q K ;
 
 ! (8) min 3. k tä:
 :%^StrGStem%^PAL ACT-IND-PRT-SG3_ZERO ;
 +Err/Orth-no-pal:%^StrGStem%^NoPAL ACT-IND-PRT-SG3_ZERO ;
 
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM%>s%{eõ%} K ;
-+Act+Ind+Prt+Pl1:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>imiq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl1:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM%>s%{eõ%}miq K ;
-+Act+Ind+Prt+Pl2:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>itiq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl2:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM%>s%{eõ%}tiq K ;
-+Act+Ind+Prt+Pl3:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>iq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>iv%{aä%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM%>s%{eõ%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM%>s%{eõ%}v%{aä%}q K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^CC2C%^NoPAL%^VowRM%>s%{eõ%} K ;
++Act+Ind+Prt+Pl1:%^WGStem%^NoPAL%^VowRM%>imiq K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Pl1:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}miq K ;
++Act+Ind+Prt+Pl2:%^WGStem%^NoPAL%^VowRM%>itiq K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Pl2:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}tiq K ;
++Act+Ind+Prt+Pl3:%^WGStem%^NoPAL%^VowRM%>iq K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^WGStem%^NoPAL%^VowRM%>iv%{aä%}q K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}q K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}v%{aä%}q K ;
 
 
 ! (9) jus:
-:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM MUTUAL_JUS_kuq ;
+:%^CC2C%^NoPAL%^VowRM MUTUAL_JUS_kuq ;
 
 LEXICON V_83SUTMA  !!= * @CODE@ atma:a%{tØ%}ta
 !! gradation: yes
@@ -4146,10 +4146,14 @@ LEXICON ACT-PRSPRC_vA
 LEXICON ACT-PRFPRC-ALL_nUq
  ACT-PRFPRC_nUq-SG-NOM ;
  ACT-PRFPRC-OBL_nU ;
++Quo+Prt:%>n%{uü%}v%{aä%}q K ;
++Use/NG+Err/Orth-no-q+Quo+Prt:%>n%{uü%}v%{aä%} K ;
 
 LEXICON ACT-PRFPRC_nUq-SG-NOM
 +Act+PrfPrc:%>n%{uü%}q K ;
 +Act+PrfPrc+Sg+Nom:%>n%{uü%}q K ;
++Use/NG+Err/Orth-no-q+Act+PrfPrc:%>n%{uü%} K ;
++Use/NG+Err/Orth-no-q+Act+PrfPrc+Sg+Nom:%>n%{uü%} K ;
 
 
 LEXICON ACT-PRFPRC-OBL_nU !!= * @CODE@ only oblique cases and Pl+Nom
