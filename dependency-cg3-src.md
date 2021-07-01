@@ -160,10 +160,10 @@ IM For fao
 ### Syntactic tags added in this file
 
 * @FMV : finite main verb
-    - oaidná: Son oaidná ollislaš gova. - She sees the whole picture
+- oaidná: Son oaidná ollislaš gova. - She sees the whole picture
 * infinite main verb
 * @FAUX : finite auxiliary verb
-    - ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture. 
+- ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture. 
 * @FMVdic : finite main verb introducing direct speech
 * @IMVdic : infinite main verb introducing direct speech
 * @FS-IMV : infinite main verb of subclause 
@@ -186,7 +186,7 @@ IM For fao
 * @FS-N< : relative clause to N
 * @FS->N : relative clause to N to the left side of it - eus
 * @FS-VFIN< : finite verb in sentence, statement
-    - eai: Idja ii leat šat, eai ge sii dárbbaš lámppá dahje beaivváža čuovgga, dasgo Hearrá Ipmil lea sin čuovga. - The night is not anymore, they do not need the lamp- or day- light either, because God the Lord is their light.
+- eai: Idja ii leat šat, eai ge sii dárbbaš lámppá dahje beaivváža čuovgga, dasgo Hearrá Ipmil lea sin čuovga. - The night is not anymore, they do not need the lamp- or day- light either, because God the Lord is their light.
 * @FS-<APP : finite subclause functioning as an apposition
 * @ICL-ADVL : non-finite subclause ...
 * @ICL-AUX< : "right" argument of auxiliary (?)
@@ -438,3 +438,5 @@ Correction rules
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-vro/blob/main/../src/cg3/dependency.cg3)</small>

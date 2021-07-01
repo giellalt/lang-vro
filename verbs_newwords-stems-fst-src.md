@@ -189,3 +189,5 @@ petmä+V:pettä
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>

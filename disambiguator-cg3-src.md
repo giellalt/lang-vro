@@ -819,3 +819,5 @@ Relative pronouns
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-vro/blob/main/../src/cg3/disambiguator.cg3)</small>

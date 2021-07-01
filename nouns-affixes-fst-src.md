@@ -746,7 +746,7 @@ Noun (10) esäk
 
 vowel_harmony: BACK and FRONT
 gradation: no
- **N-vidrik10**
+**N-vidrik10**
 
 
 LEXICON NMN_10AABITS   * @OCDE@ aabits:aabits
@@ -755,7 +755,7 @@ LEXICON NMN_10AABITS   * @OCDE@ aabits:aabits
 
 LEXICON NMN_10HEERITS   * @OCDE@ heerits:heerits
 vowel_harmony: ONLY FRONT
- **N-esaek10**
+**N-esaek10**
 
 
 **N-hwrak10**
@@ -768,7 +768,7 @@ LEXICON NMN_10AMMAT1   * @OCDE@ ammat́:ammat
 LEXICON NMN_10HUEPAETS1   * @OCDE@ hüpätś:hüpäts
 vowel_harmony: ONLY FRONT
 Gradation: YES
- **N-esaek10**
+**N-esaek10**
 
 
 
@@ -1640,3 +1640,5 @@ digits
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/nouns.lexc)</small>

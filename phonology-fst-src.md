@@ -542,7 +542,7 @@ juusk+N+Sg+Nom: ____
 * *ku000>i>d*
 ```
 
- [ Cns: |ArchCns:| Vow: ] _ (s:) (HarmDummies:) [(%^Pen: %^CC2C:|%^Pen: %^G3:|%^Pen: %^G4:|PenVOWHite %^Pen: %^G1:) %^VowRM: ]( CnsInZero: (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: )  ; 
+[ Cns: |ArchCns:| Vow: ] _ (s:) (HarmDummies:) [(%^Pen: %^CC2C:|%^Pen: %^G3:|%^Pen: %^G4:|PenVOWHite %^Pen: %^G1:) %^VowRM: ]( CnsInZero: (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: )  ; 
 * *tüü%{front%}%^VowRM%>hüq*
 * *tü000%>hüq*
 * *tervüs%{front%}%^VowRM%^WGStem%>i%>t*
@@ -1287,3 +1287,5 @@ naŕma
 
 **Disallow %^ErrorBack:0 in BHARM**
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/phonology.twolc)</small>
