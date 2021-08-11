@@ -3,7 +3,7 @@
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-vro)](https://github.com/giellalt/lang-vro/issues)
 [![Build Status](https://github.com/giellalt/lang-vro/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-vro/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-vro)](https://raw.githubusercontent.com/giellalt/lang-vro/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-vro)](https://github.com/giellalt/lang-vro/blob/main/LICENSE)
 
 This directory contains source files for the Võro language morphology
 and dictionary. The data and implementation are licenced under __LICENSE__
