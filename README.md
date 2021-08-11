@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-vro)](https://raw.githubusercontent.com/giellalt/lang-vro/main/LICENSE)
 
 This directory contains source files for the Võro language morphology
-and dictionary. The data and implementation are licenced under __LICENCE__
+and dictionary. The data and implementation are licenced under __LICENSE__
 licence, also detailed in the
 [LICENSE](https://github.com/giellalt/lang-vro/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing choices.
