@@ -1,1267 +1,4 @@
 
-# C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
-
-This dep file is for sma, sme, smj, sje.
-
-# DELIMITERS
-
-Sentence delimiters are the following: <.> <!> <?> <...> <¶>
-
-
-# TAGS AND SETS
-
-
-N
-V
-A
-Adv
-CC
-CS
-Inf
-Sup
-Neg
-Num
-Po
-Pr
-
-Pcle
-Prop
-
-Pron
-IV
-TV
-COMMA
-DASH
-CITATION to keep colouring we add a "
-HYPHEN
-QMARK
-PUNCT
-LEFT
-RIGHT
-CLB
-Ind
-Pot
-Impr
-ImprtII
-Cond
-ConNeg
-Caus causative eus
-VGen
-Interj
-ABBR
-ACR
-Prs
-Prt
-Cmpnd
-RCmpnd
-PrfPrc
-PrsPrc
-Actor
-Actio
-Ger
-Indef
-Nom
-Acc
-Ill
-Com
-Gen
-Ess
-
-IM For fao
-
-## POS sub-categories
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Syntactic tags and sets
-
-### Syntactic tags in input to this file
-
-
-### Syntactic tags added in this file
-
-* @FMV : finite main verb
-- oaidná: Son oaidná ollislaš gova. - She sees the whole picture
-* infinite main verb
-* @FAUX : finite auxiliary verb
-- ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture. 
-* @FMVdic : finite main verb introducing direct speech
-* @IMVdic : infinite main verb introducing direct speech
-* @FS-IMV : infinite main verb of subclause 
-* @FS-IAUX : infinite auxiliary verb in subclause
-* @FS-N<IAUX : infinite auxiliary verb of a relative subclause
-* @FS-N<IMV : infinite main verb of a relative subclause
-* @FS-OBJ : finite verb in subclause functioning as object
-* @FS-OBJ> : finite verb in subclause functioning as object
-* @FS-<OBJ : finite verb in subclause functioning as object
-* @FS-SUBJ : finite verb in subclause functioning as subject
-* @FS-SUBJ> : finite verb in subclause functioning as subject
-* @FS-<SUBJ : finite verb in subclause functioning as subject
-* @FS-ADVL> : finite verb in subclause functioning as adverbial to the left of the main clause
-* @FS-<ADVL : finite verb in subclause functioning as adverbial to the right of the main clause
-* @FS-ACC>> : finite verb in subclause, object of speechact verb
-* @S< : a clause modifying a sentence to the right of it
-* @FS-ADVL : finite verb in subclause ...
-* @-FS-<ADVL : infinite subclause - eus
-* @-FS-ADVL> : infinite subclause - eus
-* @FS-N< : relative clause to N
-* @FS->N : relative clause to N to the left side of it - eus
-* @FS-VFIN< : finite verb in sentence, statement
-- eai: Idja ii leat šat, eai ge sii dárbbaš lámppá dahje beaivváža čuovgga, dasgo Hearrá Ipmil lea sin čuovga. - The night is not anymore, they do not need the lamp- or day- light either, because God the Lord is their light.
-* @FS-<APP : finite subclause functioning as an apposition
-* @ICL-ADVL : non-finite subclause ...
-* @ICL-AUX< : "right" argument of auxiliary (?)
-* @ICL-OBJ : infinitival clause object
-* @ICL-SUBJ : infinitival clause subject
-* @ICL-P< : infinitival clause complement of preprosition
-* @IAUX : non-finite auxiliary
-* <mv> : main verb. A temporarily tag omitted in the end of the file.
-* <aux> : auxilary verb. A temporarily tag omitted in the end of the file.
-
-
-### fao syntags
-
-* @>V
-
-### kal syntags
-
-* @INS :
-* @<INS :
-* @INS> :
-
-### eus syntags
-
-* @FS-SPRED : finite verb in subclause functioning as a subject predicate - eus, but not sure if in use
-
-### Syntactic set definitions
-
-
-
-
-
-
-
-
-
-
-
-
-# Dep grammar
-
-
-
-Correction rules
-
-
-
-* **muitalit**
-
-
-* **XX**
-
-* **XX**
-
-* **XX**
-
-
-
-* **faoSumId=Rel**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## The finite verb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Mapping rules
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-vro/blob/main/../src/cg3/dependency.cg3)</small>
-
-Disambiguator for Võro
-
-
-## Sets
-
-
-
-Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
-
-
-
-
-
-
-
-
-### Part-of-Speech
-* N = noun
-* A = adjective
-* Num = numeral
-* V = verb
-* Adv = adverb
-* Pcle = particle
-* Pr = preposition
-* Po = postposition
-* Pron = pronoun
-* Interj = interjection
-
-
-
-
-
-
-
-
-### Numerus
-
-* Sg = Singular
-* Pl = Plural
-* Sg1 = Singular 1.p.
-* Sg2 = Singular 2.p.
-* Sg3 = Singular 3.p.
-* Pl1 = Plural 1.p.
-* Pl2 = Plural 2.p.
-* Pl3 = Plural 3.p.
-
-
-
-
-
-
-
-
-
-### Cases
-* Nom
-* Gen
-* Acc
-* Par
-* Ine
-* Ill
-* Ela
-* Ade
-* Abe
-* All
-* Abl
-* Ess
-* Tra
-* Ins
-* Com
-* SUBJ-CASE = Nom Par
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Types
-* Prop = Proper noun
-* Interr = Interrogative
-* Dem = demonstrative pron
-* Rel = Relative pron
-Relpronpl "mikkä ja "jokka"
-Relpronsg "mikä" ja "joka"
-Interrpronpl "kuka" ja "mikä"
-* Pers = Personal pron
-* Indef = Indef pron
-
-* Inf = Infinitive
-* ConNeg = Conjugated as Negative form
-* PrfPrc = Perfectum Particip
-* Imprt = Imperative
-* Act = Active
-* Neg = Negation verb
-
-
-
-
-
-
-
-* COMMA = comma
-
-* Foc/kaan = focus clitic -kaan
-* Foc/kaan = focus clitic -kaan
-
-* @CVP = Conjunction or subjunction that conjoins finite verb phrases.
-* @CNP = Local conjunction or subjunction.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Sets with more members
-
-* WORD = all PoS
-
-* NPMOD = these can modify a noun
-* NPMODADV = NPMOD plus adverb
-
-* NOT-NPMOD = these cannot modify a noun
-
-* NOT-NPMODADV = these cannot modify a noun, and is not adverb
-
-* QVANT-ADV = e.g. paljon, vähän
-* KUNKA = e.g. kunka missä (adverbs that start a sentence)
-
-
-
-
-
-
-Boundaries
-
-
-
-* S-BOUNDARY = words that start a sentence
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Verbs
-
-
-
-
-
-
-
-
-
-
-
-* MOD-ASP = auxilaries
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* SV-BOUNDARY = words that start a sentence and finite verb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Disambiguation rules
-
-### Dialects
-
-
-### Early rules
-
-
-
-* __person_test__ selects finite verb if there is a Pron Pers to the left
-
-
-* __adv_after_V__ selects adverb if there is a verb to the right
-
-
-* __prop_infrontof_kieli__ removes propernoun in fron of kieli, if it kan be something else, e.g. Kainun kieli
-
-* **PropInit** removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
-
-* **PropNotInit** selects  propernoun if it is not in the beginning of a sentence
-
-
-Possessive suffixes
-
-
-
-
-Numeral phrases
-
-
-
-### Preposition/postposition/adverb rules
-
-
-
-
-* **Prifgenpar** selects  preposition to the left of Gen or Par
-
-* **Poifgenpar** selects  postposition to the right of Gen or Par
-
-* **vasthaan**
-
-
-## Rules for mapping @CVP and @CNP on the CC and CS
-
-* **CVP** maps @CVP to CS and mutta
-
-* **CNPifN** maps @CNP to CC between two N
-
-* **CNPifInf** maps @CNP to CC between two Inf
-
-
-## Case rules
-
-### Partitive
-
-
-
-
-
-
-
-
-
-Genitive
-
-
-### Illative
-
-
-## Number rules
-
-
-
-## More disambiguation rules
-* **SgNotPl**
-
-
-### Elative
-
-## Propernouns
-
-
-## Verbs
-
-
-### Specific verbs	
-
-
-ei negation verb
-
-
-eli
-
-
-
-
-
-
-
-
-## Adverbs
-
-
-### paljon
-
-### kerran
-
-### jälkhiin
-
-
-
-
-## Adjectives
-
-
-
-
-
-Conjunctions
-
-
-
-
-## Subjunctions
-
-
-että
-
-
-jos
-
-ko	
-
-sillä	
-
-
-
-## Pronouns
-
-
-
-
-
-
-
-
-## Verb rules, Verbs
-
-### Infinitive
-
-
-
-
-## Present Sg3
-
-
-
-
-
-
-
-## Present Pl3 or PrsPrc
-
-
-
-## Present Pl3 or Passive
-
-
-
-
-
-
-
-
-Imperative
-
-
-
-## Past tense
-
-### Prt Pl3 or Prt Sg2
-
-
-
-## Negative verb
-
-Relative pronouns
-
-
-
-* **Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
-
-* **Sg3ollaifplrelpronandplinterrpron** selects Sg3 if olla
-
-* **Sg3ollainpretandperf** selects Sg3 if COPULAS
-
-* **Sg3ollainpretandperf** selects Sg3 if COPULAS
-
-
-
-* **Relpronandnotintterpron** selects Rel Sg if Interr
-
-* **Relpronandnotintterpron** selects Rel Sg if Interr
-
-* **interrpron** selects Interr if ? in the end
-
-* **DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj** selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
-
-
-* **paljonadvandnotpaljonoun** selects Adv if paljon
-
-* **Relpronifitsanounoracommabeforeit** selects Rel Pl if N to the left
-
-
-* **annaimperativeandnotannaname** removes Prop if Anna se
-
-* **tulinounfromtuliprtsg3** selects V Sg
-
-
-
-* **dempronandnotpronpers** selects Den if A of N to the right
-
-* **Imperativefromconneg** selects and removes ConNeg
-
-* **ImperativeafterNeg** removes Imprt if pronoun
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **interrel** selects Interr of Rel if CS to the right
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **+FMAINV**  to the remaining finite verbs which are not AUX    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## HNOUN MAPPING
-
-
-
-
-
-
-
-
-
-* **@<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **X** maps X everywhere
-
-
-* **REMOVE X** removes X whenever there is any other tag.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* WORDLEMMA = regex giving the lemma in question
-
-* **errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-vro/blob/main/../src/cg3/disambiguator.cg3)</small>
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
 Sámi language technology project 2003-2018, University of Tromsø #
@@ -2290,7 +1027,1809 @@ The analysis give double analysis because of optional semtags. We go for the one
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-vro/blob/main/../src/cg3/functions.cg3)</small># The Võro morphophonological/twolc rules file 
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-vro/blob/main/../src/cg3/functions.cg3)</small>
+
+Disambiguator for Võro
+
+
+## Sets
+
+
+
+Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
+
+
+
+
+
+
+
+
+### Part-of-Speech
+* N = noun
+* A = adjective
+* Num = numeral
+* V = verb
+* Adv = adverb
+* Pcle = particle
+* Pr = preposition
+* Po = postposition
+* Pron = pronoun
+* Interj = interjection
+
+
+
+
+
+
+
+
+### Numerus
+
+* Sg = Singular
+* Pl = Plural
+* Sg1 = Singular 1.p.
+* Sg2 = Singular 2.p.
+* Sg3 = Singular 3.p.
+* Pl1 = Plural 1.p.
+* Pl2 = Plural 2.p.
+* Pl3 = Plural 3.p.
+
+
+
+
+
+
+
+
+
+### Cases
+* Nom
+* Gen
+* Acc
+* Par
+* Ine
+* Ill
+* Ela
+* Ade
+* Abe
+* All
+* Abl
+* Ess
+* Tra
+* Ins
+* Com
+* SUBJ-CASE = Nom Par
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Types
+* Prop = Proper noun
+* Interr = Interrogative
+* Dem = demonstrative pron
+* Rel = Relative pron
+Relpronpl "mikkä ja "jokka"
+Relpronsg "mikä" ja "joka"
+Interrpronpl "kuka" ja "mikä"
+* Pers = Personal pron
+* Indef = Indef pron
+
+* Inf = Infinitive
+* ConNeg = Conjugated as Negative form
+* PrfPrc = Perfectum Particip
+* Imprt = Imperative
+* Act = Active
+* Neg = Negation verb
+
+
+
+
+
+
+
+* COMMA = comma
+
+* Foc/kaan = focus clitic -kaan
+* Foc/kaan = focus clitic -kaan
+
+* @CVP = Conjunction or subjunction that conjoins finite verb phrases.
+* @CNP = Local conjunction or subjunction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Sets with more members
+
+* WORD = all PoS
+
+* NPMOD = these can modify a noun
+* NPMODADV = NPMOD plus adverb
+
+* NOT-NPMOD = these cannot modify a noun
+
+* NOT-NPMODADV = these cannot modify a noun, and is not adverb
+
+* QVANT-ADV = e.g. paljon, vähän
+* KUNKA = e.g. kunka missä (adverbs that start a sentence)
+
+
+
+
+
+
+Boundaries
+
+
+
+* S-BOUNDARY = words that start a sentence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verbs
+
+
+
+
+
+
+
+
+
+
+
+* MOD-ASP = auxilaries
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* SV-BOUNDARY = words that start a sentence and finite verb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Disambiguation rules
+
+### Dialects
+
+
+### Early rules
+
+
+
+* __person_test__ selects finite verb if there is a Pron Pers to the left
+
+
+* __adv_after_V__ selects adverb if there is a verb to the right
+
+
+* __prop_infrontof_kieli__ removes propernoun in fron of kieli, if it kan be something else, e.g. Kainun kieli
+
+* **PropInit** removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
+
+* **PropNotInit** selects  propernoun if it is not in the beginning of a sentence
+
+
+Possessive suffixes
+
+
+
+
+Numeral phrases
+
+
+
+### Preposition/postposition/adverb rules
+
+
+
+
+* **Prifgenpar** selects  preposition to the left of Gen or Par
+
+* **Poifgenpar** selects  postposition to the right of Gen or Par
+
+* **vasthaan**
+
+
+## Rules for mapping @CVP and @CNP on the CC and CS
+
+* **CVP** maps @CVP to CS and mutta
+
+* **CNPifN** maps @CNP to CC between two N
+
+* **CNPifInf** maps @CNP to CC between two Inf
+
+
+## Case rules
+
+### Partitive
+
+
+
+
+
+
+
+
+
+Genitive
+
+
+### Illative
+
+
+## Number rules
+
+
+
+## More disambiguation rules
+* **SgNotPl**
+
+
+### Elative
+
+## Propernouns
+
+
+## Verbs
+
+
+### Specific verbs	
+
+
+ei negation verb
+
+
+eli
+
+
+
+
+
+
+
+
+## Adverbs
+
+
+### paljon
+
+### kerran
+
+### jälkhiin
+
+
+
+
+## Adjectives
+
+
+
+
+
+Conjunctions
+
+
+
+
+## Subjunctions
+
+
+että
+
+
+jos
+
+ko	
+
+sillä	
+
+
+
+## Pronouns
+
+
+
+
+
+
+
+
+## Verb rules, Verbs
+
+### Infinitive
+
+
+
+
+## Present Sg3
+
+
+
+
+
+
+
+## Present Pl3 or PrsPrc
+
+
+
+## Present Pl3 or Passive
+
+
+
+
+
+
+
+
+Imperative
+
+
+
+## Past tense
+
+### Prt Pl3 or Prt Sg2
+
+
+
+## Negative verb
+
+Relative pronouns
+
+
+
+* **Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
+
+* **Sg3ollaifplrelpronandplinterrpron** selects Sg3 if olla
+
+* **Sg3ollainpretandperf** selects Sg3 if COPULAS
+
+* **Sg3ollainpretandperf** selects Sg3 if COPULAS
+
+
+
+* **Relpronandnotintterpron** selects Rel Sg if Interr
+
+* **Relpronandnotintterpron** selects Rel Sg if Interr
+
+* **interrpron** selects Interr if ? in the end
+
+* **DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj** selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
+
+
+* **paljonadvandnotpaljonoun** selects Adv if paljon
+
+* **Relpronifitsanounoracommabeforeit** selects Rel Pl if N to the left
+
+
+* **annaimperativeandnotannaname** removes Prop if Anna se
+
+* **tulinounfromtuliprtsg3** selects V Sg
+
+
+
+* **dempronandnotpronpers** selects Den if A of N to the right
+
+* **Imperativefromconneg** selects and removes ConNeg
+
+* **ImperativeafterNeg** removes Imprt if pronoun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **interrel** selects Interr of Rel if CS to the right
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **+FMAINV**  to the remaining finite verbs which are not AUX    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## HNOUN MAPPING
+
+
+
+
+
+
+
+
+
+* **@<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **X** maps X everywhere
+
+
+* **REMOVE X** removes X whenever there is any other tag.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* WORDLEMMA = regex giving the lemma in question
+
+* **errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-vro/blob/main/../src/cg3/disambiguator.cg3)</small>
+# C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
+
+This dep file is for sma, sme, smj, sje.
+
+# DELIMITERS
+
+Sentence delimiters are the following: <.> <!> <?> <...> <¶>
+
+
+# TAGS AND SETS
+
+
+N
+V
+A
+Adv
+CC
+CS
+Inf
+Sup
+Neg
+Num
+Po
+Pr
+
+Pcle
+Prop
+
+Pron
+IV
+TV
+COMMA
+DASH
+CITATION to keep colouring we add a "
+HYPHEN
+QMARK
+PUNCT
+LEFT
+RIGHT
+CLB
+Ind
+Pot
+Impr
+ImprtII
+Cond
+ConNeg
+Caus causative eus
+VGen
+Interj
+ABBR
+ACR
+Prs
+Prt
+Cmpnd
+RCmpnd
+PrfPrc
+PrsPrc
+Actor
+Actio
+Ger
+Indef
+Nom
+Acc
+Ill
+Com
+Gen
+Ess
+
+IM For fao
+
+## POS sub-categories
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Syntactic tags and sets
+
+### Syntactic tags in input to this file
+
+
+### Syntactic tags added in this file
+
+* @FMV : finite main verb
+- oaidná: Son oaidná ollislaš gova. - She sees the whole picture
+* infinite main verb
+* @FAUX : finite auxiliary verb
+- ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture. 
+* @FMVdic : finite main verb introducing direct speech
+* @IMVdic : infinite main verb introducing direct speech
+* @FS-IMV : infinite main verb of subclause 
+* @FS-IAUX : infinite auxiliary verb in subclause
+* @FS-N<IAUX : infinite auxiliary verb of a relative subclause
+* @FS-N<IMV : infinite main verb of a relative subclause
+* @FS-OBJ : finite verb in subclause functioning as object
+* @FS-OBJ> : finite verb in subclause functioning as object
+* @FS-<OBJ : finite verb in subclause functioning as object
+* @FS-SUBJ : finite verb in subclause functioning as subject
+* @FS-SUBJ> : finite verb in subclause functioning as subject
+* @FS-<SUBJ : finite verb in subclause functioning as subject
+* @FS-ADVL> : finite verb in subclause functioning as adverbial to the left of the main clause
+* @FS-<ADVL : finite verb in subclause functioning as adverbial to the right of the main clause
+* @FS-ACC>> : finite verb in subclause, object of speechact verb
+* @S< : a clause modifying a sentence to the right of it
+* @FS-ADVL : finite verb in subclause ...
+* @-FS-<ADVL : infinite subclause - eus
+* @-FS-ADVL> : infinite subclause - eus
+* @FS-N< : relative clause to N
+* @FS->N : relative clause to N to the left side of it - eus
+* @FS-VFIN< : finite verb in sentence, statement
+- eai: Idja ii leat šat, eai ge sii dárbbaš lámppá dahje beaivváža čuovgga, dasgo Hearrá Ipmil lea sin čuovga. - The night is not anymore, they do not need the lamp- or day- light either, because God the Lord is their light.
+* @FS-<APP : finite subclause functioning as an apposition
+* @ICL-ADVL : non-finite subclause ...
+* @ICL-AUX< : "right" argument of auxiliary (?)
+* @ICL-OBJ : infinitival clause object
+* @ICL-SUBJ : infinitival clause subject
+* @ICL-P< : infinitival clause complement of preprosition
+* @IAUX : non-finite auxiliary
+* <mv> : main verb. A temporarily tag omitted in the end of the file.
+* <aux> : auxilary verb. A temporarily tag omitted in the end of the file.
+
+
+### fao syntags
+
+* @>V
+
+### kal syntags
+
+* @INS :
+* @<INS :
+* @INS> :
+
+### eus syntags
+
+* @FS-SPRED : finite verb in subclause functioning as a subject predicate - eus, but not sure if in use
+
+### Syntactic set definitions
+
+
+
+
+
+
+
+
+
+
+
+
+# Dep grammar
+
+
+
+Correction rules
+
+
+
+* **muitalit**
+
+
+* **XX**
+
+* **XX**
+
+* **XX**
+
+
+
+* **faoSumId=Rel**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## The finite verb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Mapping rules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-vro/blob/main/../src/cg3/dependency.cg3)</small>
+hanśa+N:hanśa N_1HANS1A "" ;
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/nouns.lexc)</small>
+### ADVERBS
+
+### CONJUNTIONS
+
+
+### GENITIVE ATTRIBUTES
+
+
+
+
+### NOUNS
+
+### PLURAL NOUNS
+
+
+### POSTPOSITIONA
+
+### PRONOUNS
+
+
+### VERBS
+
+andma **to give/antaa**
+
+kündma **to plow/kyntää**
+
+minemä **to go/ mennä**
+
+nakkama **to begin/ alkaa**
+
+nägemä **to see/nähdä**
+
+olõma **to be/ olla**
+
+nakkama **to start/ alkaa**
+
+pandma **to put/panna**
+
+pidämä **to keep/ pitää**
+
+tegemä **to do/ tehdä**
+
+
+tundma **to feel/tuntea**
+
+võtma **to take (pass)/ ottaa**
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/exceptions.lexc)</small>This is where new words are added as lexc entries before they are
+added to the xml source files.
+perrä:perrä PO_ "(eng) /(est) /(fin) " ;
+
+
+ADD NOUNS BELOW
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adpositions_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/adpositions_newwords.lexc)</small>Acronyms
+Veps acronyms ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/acronyms.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+kõhna+A:kõhna A_1HANS1A "" ;
+
+
+ADD NOUNS BELOW
+
+
+
+| --- 
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+
+
+
+ADD INTERJECTIONS BELOW
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/interjections_newwords.lexc)</small>
+atma+V:atta, ikma+V:ikkõ
+petmä+V:pettä
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/verbs.lexc)</small>
+
+
+CHECKME
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+hanśa+N:hanśa N_1HANS1A "" ;
+
+
+ADD NOUNS BELOW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N_HAIDAK, N_10ESAEK in -gu
+N_10AABITS in -dsa, -ga
+N_10HWRAK in -ga ~ -gu
+N_10HEERITS in -dsä
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+two-syllable
+
+
+
+Three-syllable words
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>This is where new words are added as lexc entries before they are
+added to the xml source files.
+perrä:perrä PO_ "(eng) /(est) /(fin) " ;
+
+
+ADD DETERMINERS BELOW
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/determiners_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/determiners_newwords.lexc)</small>This is where new words are added as lexc entries before they are
+added to the xml source files.
+
+
+ADD VERBS BELOW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+verb type split
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+atma+V:atta, ikma+V:ikkõ
+petmä+V:pettä
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>Clitics in Võro
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/clitics.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/clitics.lexc)</small># The Võro morphophonological/twolc rules file 
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-vro/blob/main/src/fst/phonology.twolc) 
 
@@ -3580,30 +4119,7 @@ naŕma
 **Disallow %^ErrorBack:0 in BHARM**
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/phonology.twolc)</small>Adverbs 
-The VÕRO language adverbs...
-
-
-Spatial adverbs
-
-
-
-
-
-
-
-
-
-
-adjective modifiers
-
-What is this 2017-03-27
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/adverbs.lexc)</small>Noun inflection for Võro
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/phonology.twolc)</small>Noun inflection for Võro
 
  LEXICON N_1HANS1A  1 hanśa:hanśa
 
@@ -5246,218 +5762,11 @@ digits
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/nouns.lexc)</small>Proper noun inflection
-The Võro language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/nouns.lexc)</small>Postpositions 
+The Võro language postpositions ...
 
 
- LEXICON PROP_1HANS1A  1 hanśa:hanśa
-
-
-
-
-
- LEXICON PROP_1HERRAE  1 herrä:herrä
-
-
-
-
-* Yaml: **suhvli**
-
-
-
-* Yaml: **kerge**
-
-
-
-
-
-* Yaml: **peraedue**
-
-
-
-* Yaml: **tervues**
-
-* Yaml: **A-ainus**
-
-
-* Yaml: **N-oppaja5**
-
-
-
-* Yaml: **N-oppaja5**
-
-
-
-* Yaml: **fueuesiga**
-
-
-
-
-
-
-harmony: front
-
-kipõń:kipõń
-* Yaml: **N-ellaei4, N-kipwnj9**
-
-sallai:sallai
-* Yaml: **N-ellaei4, N-kipwnj9**
-
-elläi:elläi
-* Yaml: **N-ellaei4, N-kipwnj9**
-
-tukõv:tukõv
-* Yaml: **N-ellaei4, N-kipwnj9**
-
-
- LEXICON PROP_10AMEERIGA  Ameeriga:Ameerik
-cf. _10HWRAK
-
-
-
- LEXICON PROP_10VIDRIK  vidrik:vidrik
-gradation: no
-
-
-
-
-
-
-
-
-
-
-
-
-
-Gradation: No
-
-Gradation: No
-
-Gradation: No
-
-
-gradation: yes
-
-
-distinguished from 14RITS1KAS due to word final h
-
-distinguished from 14RITS1KAS due to word final h
-
-
-kotus:kotus
-* Yaml: **N-kotus15**
-
-
-Gradation: No
-
-abilinõ:abili
-* Yaml: **N-abilinw16**
-
-
-
-
-
-
-
-
-
-
-Gradation: No
-
-
-Gradation: No
-
-
-Gradation: No
-
-gradation: yes
-vowel_harmony: front
-
-gradation: yes
-vowel_harmony: front
-
-
-
-
-
-gradation: yes
-
-
-
-
-Gradation: No
-
- * LEXICON PROP_29HAEAE  kuu:kuu
-Gradation: No
-
-
-
-
-Gradation: No
-
-
-
-gradation: yes
-
-gradation: yes
-
-
-tarõ:tar
-
-
-nimi:nim
-
-pesä:pesä
-
- LEXICON PROP_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
- :%{back%} NMN_36TUUM1/XX1-SG-OBL ;  This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
-
-
-
- LEXICON PROP_36SAERG1  särǵ:särgʼ
-
- LEXICON PROP_36PAEIV  päiv:päiv
-
-kogõr:kogõr
-* Yaml: **N-kogwr36**
-derived from 36särǵ
-
-
-
- LEXICON PROP_37PINI  pini:pini
-
-
- * LEXICON PROP_38PULL1  pulĺ:pull
-
- * LEXICON PROP_38PAPP1  papṕ:papp
-
-
-
-
-
- LEXICON PROP_40TALO  talo:talo
-
-
-
-
-
-
-
-
-
- LEXICON PROP_44SWDA  sõda:sõda
-
-
-
-
-
- LEXICON PROP_46HAIN  hain:hain
-* Yaml: **N-jalg, N-hain**
-
-
-
+### POSTPOSITIONS WITH READY CASE ENDINGS
 
 
 
@@ -5467,14 +5776,225 @@ derived from 36särǵ
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/propernouns.lexc)</small>Quantifier inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/postpositions.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/postpositions.lexc)</small>Quantifier inflection
 The Võro language quantifiers inflect in cases.
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/quantifiers.lexc)</small>Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/quantifiers.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/symbols.lexc)</small>Adverbs 
+The VÕRO language adverbs...
+
+
+Spatial adverbs
+
+
+
+
+
+
+
+
+
+
+adjective modifiers
+
+What is this 2017-03-27
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/adverbs.lexc)</small>Adjective inflection
+The VÕRO language adjectives compare.
+
+
+
+
+ LEXICON A_1HANS1A  1 hanśa:hanśa
+
+ LEXICON A_1HERRAE  1 herrä:herrä
+
+ LEXICON A_2ARTIKLI  suhvli:suhvli
+* Yaml: **suhvli**
+
+ LEXICON A_2KERGE  1 kerge:
+
+ LEXICON A_3ALADU  aladu:aladu
+* Yaml: **A-aladu**
+
+ LEXICON A_3PERAEDUE  perädü:perädü
+* Yaml: **A-peraedue**
+
+
+
+ LEXICON A_4AINUS   ainus:ainus
+
+
+
+
+
+
+
+
+
+ * LEXICON A_8KULDNW  kuldnõ:kuld
+ * LEXICON A_8KIIL1NE  kiiĺne:ki̬i̬ĺ
+
+ * LEXICON A_8KOLMAS  kolmas:kolma
+
+ * LEXICON A_8VIIES  viies:viie
+
+ * LEXICON A_9ALLAS1 
+
+ * LEXICON A_9SINNEL1 
+
+ * LEXICON A_9TAHHE 
+
+ * LEXICON A_9HERRE 
+
+ * LEXICON A_9KIPWN1/ELLAEI  what is this
+* Yaml: **ellaei, suhvli**
+
+ * LEXICON A_9SALLAI  what is this
+* Yaml: **ellaei, suhvli**
+* Yaml: **ellaei, suhvli**
+
+* Yaml: **ellaei, suhvli**
+
+* Yaml: **villw**
+
+* Yaml: **tukwv**
+
+* Yaml: **verrev**
+
+* Yaml: **sallai**
+
+
+
+
+
+
+
+
+
+
+
+ LEXICON A_11AINWQ  ainõq:ainõ
+
+ LEXICON A_11KELMEQ  kelmeq:kelme
+
+
+ LEXICON A_13ALONW  alonõ:alo
+
+ LEXICON A_13TAEHINE  tähine:tähi
+
+ LEXICON A_13TAEHINE-PL  tähine:tähi
+
+
+ LEXICON A_14RITS1KAS   ritśkas:ritśka%{sØ%}
+
+ LEXICON A_14HAMMAS   rikas:ri%{kØ%}ka%{sØ%}
+
+ LEXICON A_14IKAES   rikas:ri%{kØ%}ka%{sØ%}
+
+
+ LEXICON A_16ABILINW  inemine:inemi
+
+ LEXICON A_16INEMINE  inemine:inemi
+
+
+
+
+
+
+ LEXICON A_19ALOMANW  alomanõ:aloma
+
+ LEXICON A_19PEDAEJAENE  pedäjäne:pedäjä
+
+ LEXICON A_19PEDAEJAENE-PL  pedäjäne:pedäjä
+
+
+
+ LEXICON A_22VWROKWNW  võrokõnõ:võrokõ
+
+ LEXICON A_22VAEHAEKENE  võrokõnõ:võrokõ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gradation: no
+
+gradation: yes
+
+gradation: no
+
+
+
+
+
+ * LEXICON A_2KASUNUQ  kasunuq:kasunu
+ * LEXICON A_2ELAENUEQ  elänüq:elänü
+
+
+
+
+
+
+ * +Err/Orth+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ;  no q
+
+
+
+
+
+
+
+ * +Err/Orth+Use/NG+Pl+Com:id%{eõ%}ga K ;  no q
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
 Võro language verbs inflect for person and number.
 
 
@@ -6976,187 +7496,7 @@ Retain consonant and stem vowel
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjective inflection
-The VÕRO language adjectives compare.
-
-
-
-
- LEXICON A_1HANS1A  1 hanśa:hanśa
-
- LEXICON A_1HERRAE  1 herrä:herrä
-
- LEXICON A_2ARTIKLI  suhvli:suhvli
-* Yaml: **suhvli**
-
- LEXICON A_2KERGE  1 kerge:
-
- LEXICON A_3ALADU  aladu:aladu
-* Yaml: **A-aladu**
-
- LEXICON A_3PERAEDUE  perädü:perädü
-* Yaml: **A-peraedue**
-
-
-
- LEXICON A_4AINUS   ainus:ainus
-
-
-
-
-
-
-
-
-
- * LEXICON A_8KULDNW  kuldnõ:kuld
- * LEXICON A_8KIIL1NE  kiiĺne:ki̬i̬ĺ
-
- * LEXICON A_8KOLMAS  kolmas:kolma
-
- * LEXICON A_8VIIES  viies:viie
-
- * LEXICON A_9ALLAS1 
-
- * LEXICON A_9SINNEL1 
-
- * LEXICON A_9TAHHE 
-
- * LEXICON A_9HERRE 
-
- * LEXICON A_9KIPWN1/ELLAEI  what is this
-* Yaml: **ellaei, suhvli**
-
- * LEXICON A_9SALLAI  what is this
-* Yaml: **ellaei, suhvli**
-* Yaml: **ellaei, suhvli**
-
-* Yaml: **ellaei, suhvli**
-
-* Yaml: **villw**
-
-* Yaml: **tukwv**
-
-* Yaml: **verrev**
-
-* Yaml: **sallai**
-
-
-
-
-
-
-
-
-
-
-
- LEXICON A_11AINWQ  ainõq:ainõ
-
- LEXICON A_11KELMEQ  kelmeq:kelme
-
-
- LEXICON A_13ALONW  alonõ:alo
-
- LEXICON A_13TAEHINE  tähine:tähi
-
- LEXICON A_13TAEHINE-PL  tähine:tähi
-
-
- LEXICON A_14RITS1KAS   ritśkas:ritśka%{sØ%}
-
- LEXICON A_14HAMMAS   rikas:ri%{kØ%}ka%{sØ%}
-
- LEXICON A_14IKAES   rikas:ri%{kØ%}ka%{sØ%}
-
-
- LEXICON A_16ABILINW  inemine:inemi
-
- LEXICON A_16INEMINE  inemine:inemi
-
-
-
-
-
-
- LEXICON A_19ALOMANW  alomanõ:aloma
-
- LEXICON A_19PEDAEJAENE  pedäjäne:pedäjä
-
- LEXICON A_19PEDAEJAENE-PL  pedäjäne:pedäjä
-
-
-
- LEXICON A_22VWROKWNW  võrokõnõ:võrokõ
-
- LEXICON A_22VAEHAEKENE  võrokõnõ:võrokõ
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-gradation: no
-
-gradation: yes
-
-gradation: no
-
-
-
-
-
- * LEXICON A_2KASUNUQ  kasunuq:kasunu
- * LEXICON A_2ELAENUEQ  elänüq:elänü
-
-
-
-
-
-
- * +Err/Orth+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ;  no q
-
-
-
-
-
-
-
- * +Err/Orth+Use/NG+Pl+Com:id%{eõ%}ga K ;  no q
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/adjectives.lexc)</small>Noun inflection for Võro
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/verbs.lexc)</small>Noun inflection for Võro
 
 
 
@@ -7416,11 +7756,218 @@ vro-digits
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/numerals.lexc)</small>Postpositions 
-The Võro language postpositions ...
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/numerals.lexc)</small>Proper noun inflection
+The Võro language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
 
 
-### POSTPOSITIONS WITH READY CASE ENDINGS
+ LEXICON PROP_1HANS1A  1 hanśa:hanśa
+
+
+
+
+
+ LEXICON PROP_1HERRAE  1 herrä:herrä
+
+
+
+
+* Yaml: **suhvli**
+
+
+
+* Yaml: **kerge**
+
+
+
+
+
+* Yaml: **peraedue**
+
+
+
+* Yaml: **tervues**
+
+* Yaml: **A-ainus**
+
+
+* Yaml: **N-oppaja5**
+
+
+
+* Yaml: **N-oppaja5**
+
+
+
+* Yaml: **fueuesiga**
+
+
+
+
+
+
+harmony: front
+
+kipõń:kipõń
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+sallai:sallai
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+elläi:elläi
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+tukõv:tukõv
+* Yaml: **N-ellaei4, N-kipwnj9**
+
+
+ LEXICON PROP_10AMEERIGA  Ameeriga:Ameerik
+cf. _10HWRAK
+
+
+
+ LEXICON PROP_10VIDRIK  vidrik:vidrik
+gradation: no
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gradation: No
+
+Gradation: No
+
+Gradation: No
+
+
+gradation: yes
+
+
+distinguished from 14RITS1KAS due to word final h
+
+distinguished from 14RITS1KAS due to word final h
+
+
+kotus:kotus
+* Yaml: **N-kotus15**
+
+
+Gradation: No
+
+abilinõ:abili
+* Yaml: **N-abilinw16**
+
+
+
+
+
+
+
+
+
+
+Gradation: No
+
+
+Gradation: No
+
+
+Gradation: No
+
+gradation: yes
+vowel_harmony: front
+
+gradation: yes
+vowel_harmony: front
+
+
+
+
+
+gradation: yes
+
+
+
+
+Gradation: No
+
+ * LEXICON PROP_29HAEAE  kuu:kuu
+Gradation: No
+
+
+
+
+Gradation: No
+
+
+
+gradation: yes
+
+gradation: yes
+
+
+tarõ:tar
+
+
+nimi:nim
+
+pesä:pesä
+
+ LEXICON PROP_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
+ :%{back%} NMN_36TUUM1/XX1-SG-OBL ;  This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
+
+
+
+ LEXICON PROP_36SAERG1  särǵ:särgʼ
+
+ LEXICON PROP_36PAEIV  päiv:päiv
+
+kogõr:kogõr
+* Yaml: **N-kogwr36**
+derived from 36särǵ
+
+
+
+ LEXICON PROP_37PINI  pini:pini
+
+
+ * LEXICON PROP_38PULL1  pulĺ:pull
+
+ * LEXICON PROP_38PAPP1  papṕ:papp
+
+
+
+
+
+ LEXICON PROP_40TALO  talo:talo
+
+
+
+
+
+
+
+
+
+ LEXICON PROP_44SWDA  sõda:sõda
+
+
+
+
+
+ LEXICON PROP_46HAIN  hain:hain
+* Yaml: **N-jalg, N-hain**
+
+
+
 
 
 
@@ -7430,15 +7977,7 @@ The Võro language postpositions ...
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/postpositions.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/postpositions.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/symbols.lexc)</small>Pronoun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/propernouns.lexc)</small>Pronoun inflection
 The Võro language pronouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
@@ -8139,546 +8678,24 @@ less complex word classes
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/root.lexc)</small>This is where new words are added as lexc entries before they are
-added to the xml source files.
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/root.lexc)</small>
 
 
-ADD VERBS BELOW
+We describe here how abbreviations are in Võro are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-verb type split
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-atma+V:atta, ikma+V:ikkõ
-petmä+V:pettä
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>
-hanśa+N:hanśa N_1HANS1A "" ;
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/nouns.lexc)</small>Acronyms
-Veps acronyms ...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/acronyms.lexc)</small>
-
-
-CHECKME
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>This is where new words are added as lexc entries before they are
-added to the xml source files.
-perrä:perrä PO_ "(eng) /(est) /(fin) " ;
-
-
-ADD DETERMINERS BELOW
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/determiners_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/determiners_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-
-
-
-ADD INTERJECTIONS BELOW
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/interjections_newwords.lexc)</small>
-atma+V:atta, ikma+V:ikkõ
-petmä+V:pettä
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/verbs.lexc)</small>
-### ADVERBS
-
-### CONJUNTIONS
-
-
-### GENITIVE ATTRIBUTES
-
-
-
-
-### NOUNS
-
-### PLURAL NOUNS
-
-
-### POSTPOSITIONA
-
-### PRONOUNS
-
-
-### VERBS
-
-andma **to give/antaa**
-
-kündma **to plow/kyntää**
-
-minemä **to go/ mennä**
-
-nakkama **to begin/ alkaa**
-
-nägemä **to see/nähdä**
-
-olõma **to be/ olla**
-
-nakkama **to start/ alkaa**
-
-pandma **to put/panna**
-
-pidämä **to keep/ pitää**
-
-tegemä **to do/ tehdä**
-
-
-tundma **to feel/tuntea**
-
-võtma **to take (pass)/ ottaa**
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/exceptions.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-kõhna+A:kõhna A_1HANS1A "" ;
-
-
-ADD NOUNS BELOW
-
-
-
-| --- 
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-hanśa+N:hanśa N_1HANS1A "" ;
-
-
-ADD NOUNS BELOW
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-N_HAIDAK, N_10ESAEK in -gu
-N_10AABITS in -dsa, -ga
-N_10HWRAK in -ga ~ -gu
-N_10HEERITS in -dsä
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-two-syllable
-
-
-
-Three-syllable words
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>This is where new words are added as lexc entries before they are
-added to the xml source files.
-perrä:perrä PO_ "(eng) /(est) /(fin) " ;
-
-
-ADD NOUNS BELOW
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adpositions_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/adpositions_newwords.lexc)</small>Clitics in Võro
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/clitics.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/clitics.lexc)</small>
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 
 
@@ -8812,23 +8829,6 @@ Ordinal numerals begin
 
 * * *
 <small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
-
-We describe here how abbreviations are in Võro are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
