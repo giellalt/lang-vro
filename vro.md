@@ -5222,11 +5222,61 @@ juusk:j%{ou%}%{ou%}s%{kØ%}u
 
  LEXICON NMN_1HANS1A  1 hanśa:hanśa
 
+*Noun 01 hanśa examples:*
+* *hanśa* `hanśa+N+Sg+Nom:`
+* *hanśat* `hanśa+N+Sg+Par:`
+* *hanśahtõ* `hanśa+N+Sg+Ill:`
+* *hanśast* `hanśa+N+Sg+Ela:`
+* *hanśalõ* `hanśa+N+Sg+All:`
+* *hanśal* `hanśa+N+Sg+Ade:`
+* *hanśalt* `hanśa+N+Sg+Abl:`
+* *hanśas* `hanśa+N+Sg+Tra:`
+* *hanśaniq* `hanśa+N+Sg+Ter:`
+* *hanśaldaq* `hanśa+N+Sg+Abe:`
+* *hanśagaq* `hanśa+N+Sg+Com:`
+* *hanśaq* `hanśa+N+Pl+Nom:`
+* *hanśasit* `hanśa+N+Pl+Par:`
+* *hanśadõhe* `hanśa+N+Pl+Ill:`
+* *hanśadõst* `hanśa+N+Pl+Ela:`
+* *hanśadõlõ* `hanśa+N+Pl+All:`
+* *hanśadõl* `hanśa+N+Pl+Ade:`
+* *hanśadõlt* `hanśa+N+Pl+Abl:`
+* *hanśadõs* `hanśa+N+Pl+Tra:`
+* *hanśadõniq* `hanśa+N+Pl+Ter:`
+* *hanśadõldaq* `hanśa+N+Pl+Abe:`
+* *hanśadõgaq* `hanśa+N+Pl+Com:`
+
+
 
 in d
 
 
  LEXICON NMN_1HERRAE  1 herrä:herrä
+
+*Noun 01 herrä examples:*
+* *herrä* `herrä+N+Sg+Nom:`
+* *herrät* `herrä+N+Sg+Par:`
+* *herrähte* `herrä+N+Sg+Ill:`
+* *herräst* `herrä+N+Sg+Ela:`
+* *herräle* `herrä+N+Sg+All:`
+* *herräl* `herrä+N+Sg+Ade:`
+* *herrält* `herrä+N+Sg+Abl:`
+* *herräs* `herrä+N+Sg+Tra:`
+* *herräniq* `herrä+N+Sg+Ter:`
+* *herräldäq* `herrä+N+Sg+Abe:`
+* *herrägaq* `herrä+N+Sg+Com:`
+* *herräq* `herrä+N+Pl+Nom:`
+* *herräsit* `herrä+N+Pl+Par:`
+* *herrädehe* `herrä+N+Pl+Ill:`
+* *herrädest* `herrä+N+Pl+Ela:`
+* *herrädele* `herrä+N+Pl+All:`
+* *herrädel* `herrä+N+Pl+Ade:`
+* *herrädelt* `herrä+N+Pl+Abl:`
+* *herrädes* `herrä+N+Pl+Tra:`
+* *herrädeniq* `herrä+N+Pl+Ter:`
+* *herrädeldäq* `herrä+N+Pl+Abe:`
+* *herrädegaq* `herrä+N+Pl+Com:`
+
 
 
 in d
@@ -5241,13 +5291,47 @@ in d
 
 
  LEXICON NMN_3PERAEDUE  perädü:perädü
-* Yaml: **A-peraedue3**
+* Yaml: **A-peraedue3** same as aladu
 
 
  LEXICON NMN_3ALADU  aladu:aladu
+
+*Noun 03 aladu examples:*
+* *aladu* `aladu+A+Sg+Nom:`
+* *alatut* `aladu+A+Sg+Par:`
+* *alatuhe* `aladu+A+Sg+Ill:`
+* *alatuid* `aladu+A+Pl+Par:`
+* *alatuihe* `aladu+A+Pl+Ill:`
+* *alatuilõ* `aladu+A+Pl+All:`
+* *alatumb* `aladu+A+Comp+Sg+Nom:`
+
 * Yaml: **A-aladu3**
 
 
+
+*Noun 04 tervüs examples:*
+* *tervüs* `tervüs+N+Sg+Nom:`
+* *tervüst* `tervüs+N+Sg+Par:`
+* *tervüste* `tervüs+N+Sg+Ill:`
+* *tervüsest* `tervüs+N+Sg+Ela:`
+* *tervüsele* `tervüs+N+Sg+All:`
+* *tervüsel* `tervüs+N+Sg+Ade:`
+* *tervüselt* `tervüs+N+Sg+Abl:`
+* *tervüses* `tervüs+N+Sg+Tra:`
+* *tervüseniq* `tervüs+N+Sg+Ter:`
+* *tervüseldäq* `tervüs+N+Sg+Abe:`
+* *tervüsegaq* `tervüs+N+Sg+Com:`
+* *tervüseq* `tervüs+N+Pl+Nom:`
+* *tervüisi* `tervüs+N+Pl+Par:`
+* *tervüisihe* `tervüs+N+Pl+Ill:`
+* *tervüisist* `tervüs+N+Pl+Ela:`
+* *tervüisile* `tervüs+N+Pl+All:`
+* *tervüisil* `tervüs+N+Pl+Ade:`
+* *tervüisilt* `tervüs+N+Pl+Abl:`
+* *tervüisis* `tervüs+N+Pl+Tra:`
+* *tervüisiniq* `tervüs+N+Pl+Ter:`
+* *tervüisildäq* `tervüs+N+Pl+Abe:`
+* *tervüisigaq* `tervüs+N+Pl+Com:`
 
 
 
@@ -5256,6 +5340,32 @@ in d
  * +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
 
  * **LEXICON NMN_4AINUS ** Types 4, 8, 17
+
+*Noun 04 examples:*
+* *ainus* `ainus+A+Sg+Nom:`
+* *ainut* `ainus+A+Sg+Par:`
+* *ainuhe* `ainus+A+Sg+Ill:`
+* *ainust* `ainus+A+Sg+Ela:`
+* *ainulõ* `ainus+A+Sg+All:`
+* *ainul* `ainus+A+Sg+Ade:`
+* *ainult* `ainus+A+Sg+Abl:`
+* *ainus* `ainus+A+Sg+Tra:`
+* *ainuniq* `ainus+A+Sg+Ter:`
+* *ainuldaq* `ainus+A+Sg+Abe:`
+* *ainugaq* `ainus+A+Sg+Com:`
+* *ainuq* `ainus+A+Pl+Nom:`
+* *ainuid* `ainus+A+Pl+Par:`
+* *ainuihe* `ainus+A+Pl+Ill:`
+* *ainuist* `ainus+A+Pl+Ela:`
+* *ainuilõ* `ainus+A+Pl+All:`
+* *ainuil* `ainus+A+Pl+Ade:`
+* *ainuilt* `ainus+A+Pl+Abl:`
+* *ainuis* `ainus+A+Pl+Tra:`
+* *ainuiniq* `ainus+A+Pl+Ter:`
+* *ainuildaq* `ainus+A+Pl+Abe:`
+* *ainuidõgaq* `ainus+A+Pl+Com:`
+* *ainumb* `ainus+A+Comp+Sg+Nom:`
+
 ainus:ainus
 * Yaml: **A-ainus4**
 
@@ -5264,12 +5374,37 @@ ainus:ainus
 
 
  * LEXICON NMN_5OPPAJA/MAENGJAE  oppaja:oppaja
+
+*Adjective 05 kerge examples:*
+* *kerge* `kerge+A+Sg+Nom:`
+* *kerget* `kerge+A+Sg+Par:`
+* *kergehe* `kerge+A+Sg+Ill:`
+* *kergest* `kerge+A+Sg+Ela:`
+* *kergele* `kerge+A+Sg+All:`
+* *kergel* `kerge+A+Sg+Ade:`
+* *kergelt* `kerge+A+Sg+Abl:`
+* *kerges* `kerge+A+Sg+Tra:`
+* *kergeniq* `kerge+A+Sg+Ter:`
+* *kergeldäq* `kerge+A+Sg+Abe:`
+* *kergegaq* `kerge+A+Sg+Com:`
+* *kergeq* `kerge+A+Pl+Nom:`
+* *kergit* `kerge+A+Pl+Par:`
+* *kergihe* `kerge+A+Pl+Ill:`
+* *kergist* `kerge+A+Pl+Ela:`
+* *kergile* `kerge+A+Pl+All:`
+* *kergil* `kerge+A+Pl+Ade:`
+* *kergilt* `kerge+A+Pl+Abl:`
+* *kergis* `kerge+A+Pl+Tra:`
+* *kerginiq* `kerge+A+Pl+Ter:`
+* *kergildäq* `kerge+A+Pl+Abe:`
+* *kergidegaq* `kerge+A+Pl+Com:`
+
 * Yaml: **N-oppaja5, kerge5**
 
 
  * LEXICON NMN_6MAKW/HELLE  makõ:ma%{kØ%}kõ
 
-*Noun (6) tikõ 'eng /est /fin' - full paradigm: Noun - tikõ examples:*
+*Adjective (6) tikõ 'eng /est /fin' - full paradigm: Noun - tikõ examples:*
 * *tikõ:* `tikõ+A+Sg+Nom`
 * *tikõ:* `tikõ+A+Sg+Gen`
 * *tikõt:* `tikõ+A+Sg+Par`
@@ -5282,14 +5417,87 @@ ainus:ainus
 
 
 
+*Noun 07 füüsiga examples:*
+* *füüsiga* `füüsiga+N+Sg+Nom:`
+* *füüsikat* `füüsiga+N+Sg+Par:`
+* *füüsikahe* `füüsiga+N+Sg+Ill:`
+* *füüsikast* `füüsiga+N+Sg+Ela:`
+* *füüsikalõ* `füüsiga+N+Sg+All:`
+* *füüsikal* `füüsiga+N+Sg+Ade:`
+* *füüsikalt* `füüsiga+N+Sg+Abl:`
+* *füüsikas* `füüsiga+N+Sg+Tra:`
+* *füüsikaniq* `füüsiga+N+Sg+Ter:`
+* *füüsikaldaq* `füüsiga+N+Sg+Abe:`
+* *füüsigagaq* `füüsiga+N+Sg+Com:`
+* *füüsigaq* `füüsiga+N+Pl+Nom:`
+* *füüsikit* `füüsiga+N+Pl+Par:`
+* *füüsikihe* `füüsiga+N+Pl+Ill:`
+* *füüsikist* `füüsiga+N+Pl+Ela:`
+* *füüsikilõ* `füüsiga+N+Pl+All:`
+* *füüsikil* `füüsiga+N+Pl+Ade:`
+* *füüsikilt* `füüsiga+N+Pl+Abl:`
+* *füüsikis* `füüsiga+N+Pl+Tra:`
+* *füüsikiniq* `füüsiga+N+Pl+Ter:`
+* *füüsikildaq* `füüsiga+N+Pl+Abe:`
+* *füüsikidõgaq* `füüsiga+N+Pl+Com:`
 
 
+
+
+
+*Noun 08 kask examples:*
+* *kask* `kask+N+Sg+Nom:`
+* *kaskat* `kask+N+Sg+Par:`
+* *kaskahe* `kask+N+Sg+Ill:`
+* *kaskast* `kask+N+Sg+Ela:`
+* *kaskalõ* `kask+N+Sg+All:`
+* *kaskal* `kask+N+Sg+Ade:`
+* *kaskalt* `kask+N+Sg+Abl:`
+* *kaskas* `kask+N+Sg+Tra:`
+* *kaskaniq* `kask+N+Sg+Ter:`
+* *kaskaldaq* `kask+N+Sg+Abe:`
+* *kaskagaq* `kask+N+Sg+Com:`
+* *kaskaq* `kask+N+Pl+Nom:`
+* *kaskit* `kask+N+Pl+Par:`
+* *kaskihe* `kask+N+Pl+Ill:`
+* *kaskist* `kask+N+Pl+Ela:`
+* *kaskilõ* `kask+N+Pl+All:`
+* *kaskil* `kask+N+Pl+Ade:`
+* *kaskilt* `kask+N+Pl+Abl:`
+* *kaskis* `kask+N+Pl+Tra:`
+* *kaskiniq* `kask+N+Pl+Ter:`
+* *kaskildaq* `kask+N+Pl+Abe:`
+* *kaskidõgaq* `kask+N+Pl+Com:`
 
 * Yaml: **N-kask**
 
 
 
 Secondary
+
+kuldnõ:kuld
+
+*Adjective 08 kuldnõ examples:*
+* *kuldnõ* `kuldnõ+A+Sg+Nom:`
+* *kuldsõt* `kuldnõ+A+Sg+Par:`
+* *kuldsõhe* `kuldnõ+A+Sg+Ill:`
+* *kuldsõl* `kuldnõ+A+Sg+Ade:`
+* *kuldsõlt* `kuldnõ+A+Sg+Abl:`
+* *kuldsõs* `kuldnõ+A+Sg+Tra:`
+* *kuldsõniq* `kuldnõ+A+Sg+Ter:`
+* *kuldsõldaq* `kuldnõ+A+Sg+Abe:`
+* *kuldsõgaq* `kuldnõ+A+Sg+Com:`
+* *kuldsõq* `kuldnõ+A+Pl+Nom:`
+* *kuldsit* `kuldnõ+A+Pl+Par:`
+* *kuldsihe* `kuldnõ+A+Pl+Ill:`
+* *kuldsist* `kuldnõ+A+Pl+Ela:`
+* *kuldsilõ* `kuldnõ+A+Pl+All:`
+* *kuldsil* `kuldnõ+A+Pl+Ade:`
+* *kuldsilt* `kuldnõ+A+Pl+Abl:`
+* *kuldsis* `kuldnõ+A+Pl+Tra:`
+* *kuldsiniq* `kuldnõ+A+Pl+Ter:`
+* *kuldsildaq* `kuldnõ+A+Pl+Abe:`
+* *kuldsidõgaq* `kuldnõ+A+Pl+Com:`
 
 * Yaml: **N-kuldnw**
 
@@ -5298,6 +5506,32 @@ Secondary
 Secondary
 
  * LEXICON NMN_8KOLMAS/VIIES  kolmas:kolma
+
+*Noun 08 kolmas examples:*
+* *kolmas* `kolmas+N+Sg+Nom:`
+* *kolmandat* `kolmas+N+Sg+Par:`
+* *kolmandahe* `kolmas+N+Sg+Ill:`
+* *kolmandast* `kolmas+N+Sg+Ela:`
+* *kolmandalõ* `kolmas+N+Sg+All:`
+* *kolmandal* `kolmas+N+Sg+Ade:`
+* *kolmandalt* `kolmas+N+Sg+Abl:`
+* *kolmandas* `kolmas+N+Sg+Tra:`
+* *kolmandaniq* `kolmas+N+Sg+Ter:`
+* *kolmandaldaq* `kolmas+N+Sg+Abe:`
+* *kolmandagaq* `kolmas+N+Sg+Com:`
+* *kolmandaq* `kolmas+N+Pl+Nom:`
+* *kolmansidõ* `kolmas+N+Pl+Gen:`
+* *kolmansit* `kolmas+N+Pl+Par:`
+* *kolmansihe* `kolmas+N+Pl+Ill:`
+* *kolmansist* `kolmas+N+Pl+Ela:`
+* *kolmansilõ* `kolmas+N+Pl+All:`
+* *kolmansil* `kolmas+N+Pl+Ade:`
+* *kolmansilt* `kolmas+N+Pl+Abl:`
+* *kolmansis* `kolmas+N+Pl+Tra:`
+* *kolmansiniq* `kolmas+N+Pl+Ter:`
+* *kolmansildaq* `kolmas+N+Pl+Abe:`
+* *kolmansidõgaq* `kolmas+N+Pl+Com:`
+
 * Yaml: **N-kuldnw**
 
 
@@ -5305,12 +5539,87 @@ Secondary
 
 
 
+*Noun 08 sadang examples:*
+* *sadang* `sadang+N+Sg+Nom:`
+* *sadangut* `sadang+N+Sg+Par:`
+* *sadanguhe* `sadang+N+Sg+Ill:`
+* *sadangust* `sadang+N+Sg+Ela:`
+* *sadangulõ* `sadang+N+Sg+All:`
+* *sadangul* `sadang+N+Sg+Ade:`
+* *sadangult* `sadang+N+Sg+Abl:`
+* *sadangus* `sadang+N+Sg+Tra:`
+* *sadanguniq* `sadang+N+Sg+Ter:`
+* *sadanguldaq* `sadang+N+Sg+Abe:`
+* *sadangugaq* `sadang+N+Sg+Com:`
+* *sadanguq* `sadang+N+Pl+Nom:`
+* *sadangit* `sadang+N+Pl+Par:`
+* *sadangihe* `sadang+N+Pl+Ill:`
+* *sadangist* `sadang+N+Pl+Ela:`
+* *sadangilõ* `sadang+N+Pl+All:`
+* *sadangil* `sadang+N+Pl+Ade:`
+* *sadangilt* `sadang+N+Pl+Abl:`
+* *sadangis* `sadang+N+Pl+Tra:`
+* *sadanginiq* `sadang+N+Pl+Ter:`
+* *sadangildaq* `sadang+N+Pl+Abe:`
+* *sadangidõgaq* `sadang+N+Pl+Com:`
+
 
 
 Secondary
 
 
+*Noun 08 tuhat examples:*
+* *tuhat* `tuhat+N+Sg+Nom:`
+* *tuhandõt* `tuhat+N+Sg+Par:`
+* *tuhandõhe* `tuhat+N+Sg+Ill:`
+* *tuhandõst* `tuhat+N+Sg+Ela:`
+* *tuhandõlõ* `tuhat+N+Sg+All:`
+* *tuhandõl* `tuhat+N+Sg+Ade:`
+* *tuhandõlt* `tuhat+N+Sg+Abl:`
+* *tuhandõs* `tuhat+N+Sg+Tra:`
+* *tuhandõniq* `tuhat+N+Sg+Ter:`
+* *tuhandõldaq* `tuhat+N+Sg+Abe:`
+* *tuhandõgaq* `tuhat+N+Sg+Com:`
+* *tuhandõq* `tuhat+N+Pl+Nom:`
+* *tuhandidõ* `tuhat+N+Pl+Gen:`
+* *tuhandit* `tuhat+N+Pl+Par:`
+* *tuhandihe* `tuhat+N+Pl+Ill:`
+* *tuhandist* `tuhat+N+Pl+Ela:`
+* *tuhandilõ* `tuhat+N+Pl+All:`
+* *tuhandil* `tuhat+N+Pl+Ade:`
+* *tuhandilt* `tuhat+N+Pl+Abl:`
+* *tuhandis* `tuhat+N+Pl+Tra:`
+* *tuhandiniq* `tuhat+N+Pl+Ter:`
+* *tuhandildaq* `tuhat+N+Pl+Abe:`
+* *tuhandidõgaq* `tuhat+N+Pl+Com:`
 
+
+
+
+*Noun 08 dollaŕ examples:*
+* *dollaŕ* `dollaŕ+N+Sg+Nom:`
+* *dollarit* `dollaŕ+N+Sg+Par:`
+* *dollarihe* `dollaŕ+N+Sg+Ill:`
+* *dollarist* `dollaŕ+N+Sg+Ela:`
+* *dollarilõ* `dollaŕ+N+Sg+All:`
+* *dollaril* `dollaŕ+N+Sg+Ade:`
+* *dollarilt* `dollaŕ+N+Sg+Abl:`
+* *dollaris* `dollaŕ+N+Sg+Tra:`
+* *dollariniq* `dollaŕ+N+Sg+Ter:`
+* *dollarildaq* `dollaŕ+N+Sg+Abe:`
+* *dollarigaq* `dollaŕ+N+Sg+Com:`
+* *dollariq* `dollaŕ+N+Pl+Nom:`
+* *dollaridõ* `dollaŕ+N+Pl+Gen:`
+* *dollarit* `dollaŕ+N+Pl+Par:`
+* *dollarihe* `dollaŕ+N+Pl+Ill:`
+* *dollarist* `dollaŕ+N+Pl+Ela:`
+* *dollarilõ* `dollaŕ+N+Pl+All:`
+* *dollaril* `dollaŕ+N+Pl+Ade:`
+* *dollarilt* `dollaŕ+N+Pl+Abl:`
+* *dollaris* `dollaŕ+N+Pl+Tra:`
+* *dollariniq* `dollaŕ+N+Pl+Ter:`
+* *dollarildaq* `dollaŕ+N+Pl+Abe:`
+* *dollaridõgaq* `dollaŕ+N+Pl+Com:`
 
 
 
@@ -5350,6 +5659,31 @@ Secondary
 
 
  * **LEXICON NMN_36RAMM/SILM ** silm:silm
+
+*Noun 36 silmä ämm examples:*
+* *ämm* `ämm+N+Sg+Nom:`
+* *ämmä* `ämm+N+Sg+Par:`
+* *ämmä* `ämm+N+Sg+Ill:`
+* *ämmäst* `ämm+N+Sg+Ela:`
+* *ämmäle* `ämm+N+Sg+All:`
+* *ämmäl* `ämm+N+Sg+Ade:`
+* *ämmält* `ämm+N+Sg+Abl:`
+* *ämmäs* `ämm+N+Sg+Tra:`
+* *ämmäniq* `ämm+N+Sg+Ter:`
+* *ämmäldäq* `ämm+N+Sg+Abe:`
+* *ämmägaq* `ämm+N+Sg+Com:`
+* *ämmäq* `ämm+N+Pl+Nom:`
+* *ämmi* `ämm+N+Pl+Par:`
+* *ämmihe* `ämm+N+Pl+Ill:`
+* *ämmist* `ämm+N+Pl+Ela:`
+* *ämmile* `ämm+N+Pl+All:`
+* *ämmil* `ämm+N+Pl+Ade:`
+* *ämmilt* `ämm+N+Pl+Abl:`
+* *ämmis* `ämm+N+Pl+Tra:`
+* *ämminiq* `ämm+N+Pl+Ter:`
+* *ämmildäq* `ämm+N+Pl+Abe:`
+* *ämmigaq* `ämm+N+Pl+Com:`
+
 * Yaml: **N-silm36**
 gradation No, vowelHarmony Front
 
@@ -5363,6 +5697,31 @@ Secondary
 Secondary
 
  * **LEXICON NMN_36NJUKR/LAEHK ** lähk:läh%{kØ%}
+
+*Noun 36 lähk examples:*
+* *lähk* `lähk+N+Sg+Nom:`
+* *lähkä* `lähk+N+Sg+Par:`
+* *lähkä* `lähk+N+Sg+Ill:`
+* *lähäst* `lähk+N+Sg+Ela:`
+* *lähäle* `lähk+N+Sg+All:`
+* *lähäl* `lähk+N+Sg+Ade:`
+* *lähält* `lähk+N+Sg+Abl:`
+* *lähäs* `lähk+N+Sg+Tra:`
+* *lähäniq* `lähk+N+Sg+Ter:`
+* *lähäldäq* `lähk+N+Sg+Abe:`
+* *lähägaq* `lähk+N+Sg+Com:`
+* *lähäq* `lähk+N+Pl+Nom:`
+* *lähki* `lähk+N+Pl+Par:`
+* *lähkihe* `lähk+N+Pl+Ill:`
+* *lähist* `lähk+N+Pl+Ela:`
+* *lähile* `lähk+N+Pl+All:`
+* *lähil* `lähk+N+Pl+Ade:`
+* *lähilt* `lähk+N+Pl+Abl:`
+* *lähis* `lähk+N+Pl+Tra:`
+* *lähiniq* `lähk+N+Pl+Ter:`
+* *lähildäq* `lähk+N+Pl+Abe:`
+* *lähkigaq* `lähk+N+Pl+Com:`
+
 * Yaml: **N-lähk36**
 gradation Yes, vowelHarmony Front
 
@@ -5375,7 +5734,32 @@ Secondary
 
  LEXICON NMN_9KIPWN1/ELLAEI  kipõń:kipõń fixme 2016-08-27
 * Yaml: **N-kipwnj**
- LEXICON NMN_9KIPWN1/VETEL1  kipõń:kipõń
+ LEXICON NMN_9KIPWN1/VETEL1  kipõń:ki%{pb%}õ%{nń%}
+
+*Noun 09 kipõń examples:*
+* *kipõń* `kipõń+N+Sg+Nom:`
+* *kibõnat* `kipõń+N+Sg+Par:`
+* *kibõnahe* `kipõń+N+Sg+Ill:`
+* *kibõnast* `kipõń+N+Sg+Ela:`
+* *kibõnalõ* `kipõń+N+Sg+All:`
+* *kibõnal* `kipõń+N+Sg+Ade:`
+* *kibõnalt* `kipõń+N+Sg+Abl:`
+* *kibõnas* `kipõń+N+Sg+Tra:`
+* *kibõnaniq* `kipõń+N+Sg+Ter:`
+* *kibõnaldaq* `kipõń+N+Sg+Abe:`
+* *kibõnagaq* `kipõń+N+Sg+Com:`
+* *kibõnaq* `kipõń+N+Pl+Nom:`
+* *kibõnit* `kipõń+N+Pl+Par:`
+* *kibõnihe* `kipõń+N+Pl+Ill:`
+* *kibõnist* `kipõń+N+Pl+Ela:`
+* *kibõnilõ* `kipõń+N+Pl+All:`
+* *kibõnil* `kipõń+N+Pl+Ade:`
+* *kibõnilt* `kipõń+N+Pl+Abl:`
+* *kibõnis* `kipõń+N+Pl+Tra:`
+* *kibõniniq* `kipõń+N+Pl+Ter:`
+* *kibõnildaq* `kipõń+N+Pl+Abe:`
+* *kibõnidõgaq* `kipõń+N+Pl+Com:`
+
 * Yaml: **N-kipwnj**
 
 
@@ -5385,24 +5769,124 @@ Secondary
 
 
 
- LEXICON NMN_9TUKWV/VERREV  tukõv:tukõv
+ LEXICON NMN_9TUKWV/VERREV  tukõv:tu%{kg%}õv
+
+*Adjective 09 tukõv examples:*
+* *tukõv* `tukõv+A+Sg+Nom:`
+* *tugõvat* `tukõv+A+Sg+Par:`
+* *tugõvahe* `tukõv+A+Sg+Ill:`
+* *tugõvast* `tukõv+A+Sg+Ela:`
+* *tugõvale* `tukõv+A+Sg+All:`
+* *tugõval* `tukõv+A+Sg+Ade:`
+* *tugõvalt* `tukõv+A+Sg+Abl:`
+* *tugõvas* `tukõv+A+Sg+Tra:`
+* *tugõvaniq* `tukõv+A+Sg+Ter:`
+* *tugõvaldaq* `tukõv+A+Sg+Abe:`
+* *tugõvagaq* `tukõv+A+Sg+Com:`
+* *tugõjaq* `tukõv+A+Pl+Nom:`
+* *tugõjit* `tukõv+A+Pl+Par:`
+* *tugõjihõ* `tukõv+A+Pl+Ill:`
+* *tugõjist* `tukõv+A+Pl+Ela:`
+* *tugõjilõ* `tukõv+A+Pl+All:`
+* *tugõjil* `tukõv+A+Pl+Ade:`
+* *tugõjilt* `tukõv+A+Pl+Abl:`
+* *tugõjis* `tukõv+A+Pl+Tra:`
+* *tugõjiniq* `tukõv+A+Pl+Ter:`
+* *tugõjildaq* `tukõv+A+Pl+Abe:`
+* *tugõjidegaq* `tukõv+A+Pl+Com:`
+
 * Yaml: **N-tukwv**
 
 
 
  LEXICON NMN_9SALLAI/ELLAEI  elläi:e%{lØ%}lä%{ij%}
+
+*Noun 09 elläi examples:*
+* *elläi* `elläi+N+Sg+Nom:`
+* *eläjät* `elläi+N+Sg+Par:`
+* *eläjähe* `elläi+N+Sg+Ill:`
+* *eläjäst* `elläi+N+Sg+Ela:`
+* *eläjäle* `elläi+N+Sg+All:`
+* *eläjäl* `elläi+N+Sg+Ade:`
+* *eläjält* `elläi+N+Sg+Abl:`
+* *eläjäs* `elläi+N+Sg+Tra:`
+* *eläjäniq* `elläi+N+Sg+Ter:`
+* *eläjäldäq* `elläi+N+Sg+Abe:`
+* *eläjägaq* `elläi+N+Sg+Com:`
+* *eläjäq* `elläi+N+Pl+Nom:`
+* *eläjit* `elläi+N+Pl+Par:`
+* *eläjihe* `elläi+N+Pl+Ill:`
+* *eläjist* `elläi+N+Pl+Ela:`
+* *eläjile* `elläi+N+Pl+All:`
+* *eläjil* `elläi+N+Pl+Ade:`
+* *eläjilt* `elläi+N+Pl+Abl:`
+* *eläjis* `elläi+N+Pl+Tra:`
+* *eläjiniq* `elläi+N+Pl+Ter:`
+* *eläjildäq* `elläi+N+Pl+Abe:`
+* *eläjidegaq* `elläi+N+Pl+Com:`
+
 * Yaml: **N-ellaei9**
 
 
 SHOULD THIS BE HERE, c.f. yaml
 
 
- LEXICON NMN_9TAHHE/HERRE  tahhe:tahhe
+ LEXICON NMN_9TAHHE/HERRE  tahhe:ta%{hØ%}he
+
+*Noun 09 tahhe examples:*
+* *tahhe* `tahhe+N+Sg+Nom:`
+* *tahehet* `tahhe+N+Sg+Par:`
+* *tahehehe* `tahhe+N+Sg+Ill:`
+* *tahehest* `tahhe+N+Sg+Ela:`
+* *tahehelõ* `tahhe+N+Sg+All:`
+* *tahehel* `tahhe+N+Sg+Ade:`
+* *tahehelt* `tahhe+N+Sg+Abl:`
+* *tahehes* `tahhe+N+Sg+Tra:`
+* *taheheniq* `tahhe+N+Sg+Ter:`
+* *taheheldaq* `tahhe+N+Sg+Abe:`
+* *tahehegaq* `tahhe+N+Sg+Com:`
+* *taheheq* `tahhe+N+Pl+Nom:`
+* *tahehidõ* `tahhe+N+Pl+Gen:`
+* *tahehit* `tahhe+N+Pl+Par:`
+* *tahehihe* `tahhe+N+Pl+Ill:`
+* *tahehist* `tahhe+N+Pl+Ela:`
+* *tahehilõ* `tahhe+N+Pl+All:`
+* *tahehil* `tahhe+N+Pl+Ade:`
+* *tahehilt* `tahhe+N+Pl+Abl:`
+* *tahehis* `tahhe+N+Pl+Tra:`
+* *tahehiniq* `tahhe+N+Pl+Ter:`
+* *tahehildaq* `tahhe+N+Pl+Abe:`
+* *tahehidõgaq* `tahhe+N+Pl+Com:`
 * Yaml: **N-kipwnj**
 
 
 
- LEXICON NMN_9VILLW/XX  tahhe:tahhe
+ LEXICON NMN_9VILLW/XX  villõ:vi%{lØ%}lõ
+
+*Noun 09 villõ examples:*
+* *villõ* `villõ+N+Sg+Nom:`
+* *vilõhõt* `villõ+N+Sg+Par:`
+* *vilõhõhe* `villõ+N+Sg+Ill:`
+* *vilõhõst* `villõ+N+Sg+Ela:`
+* *vilõhõlõ* `villõ+N+Sg+All:`
+* *vilõhõl* `villõ+N+Sg+Ade:`
+* *vilõhõlt* `villõ+N+Sg+Abl:`
+* *vilõhõs* `villõ+N+Sg+Tra:`
+* *vilõhõniq* `villõ+N+Sg+Ter:`
+* *vilõhõldaq* `villõ+N+Sg+Abe:`
+* *vilõhõgaq* `villõ+N+Sg+Com:`
+* *vilõhõq* `villõ+N+Pl+Nom:`
+* *vilõhidõ* `villõ+N+Pl+Gen:`
+* *vilõhit* `villõ+N+Pl+Par:`
+* *vilõhihe* `villõ+N+Pl+Ill:`
+* *vilõhist* `villõ+N+Pl+Ela:`
+* *vilõhilõ* `villõ+N+Pl+All:`
+* *vilõhil* `villõ+N+Pl+Ade:`
+* *vilõhilt* `villõ+N+Pl+Abl:`
+* *vilõhis* `villõ+N+Pl+Tra:`
+* *vilõhiniq* `villõ+N+Pl+Ter:`
+* *vilõhildaq* `villõ+N+Pl+Abe:`
+* *vilõhidõgaq* `villõ+N+Pl+Com:`
 * Yaml: **N-kipwnj**
 
 
@@ -5439,6 +5923,35 @@ LEXICON NMN_10HWRAK   * @OCDE@ hõrak:hõrak
 **N-hwrak10**
 
 
+
+
+*Noun 10 ameeriga  examples:*
+* *ameeriga:* `ameeriga+N+Sg+Nom`
+* *ameeriga:* `ameeriga+N+Sg+Gen`
+* *ameerikat:* `ameeriga+N+Sg+Par`
+* *ameerikahe:* `ameeriga+N+Sg+Ill`
+* *ameerikan:* `ameeriga+N+Sg+Ine`
+* *ameerikast:* `ameeriga+N+Sg+Ela`
+* *ameerikalõ:* `ameeriga+N+Sg+All`
+* *ameerikal:* `ameeriga+N+Sg+Ade`
+* *ameerikalt:* `ameeriga+N+Sg+Abl`
+* *ameerikas:* `ameeriga+N+Sg+Tra`
+* *ameerikaniq:* `ameeriga+N+Sg+Ter`
+* *ameerikaldaq:* `ameeriga+N+Sg+Abe`
+* *ameerigagaq:* `ameeriga+N+Sg+Com`
+* *ameerigaq:* `ameeriga+N+Pl+Nom`
+* *ameerikidõ:* `ameeriga+N+Pl+Gen`
+* *ameerikit:* `ameeriga+N+Pl+Par`
+* *ameerikihe:* `ameeriga+N+Pl+Ill`
+* *ameerikin:* `ameeriga+N+Pl+Ine`
+* *ameerikist:* `ameeriga+N+Pl+Ela`
+* *ameerikilõ:* `ameeriga+N+Pl+All`
+* *ameerikil:* `ameeriga+N+Pl+Ade`
+* *ameerikilt:* `ameeriga+N+Pl+Abl`
+* *ameerikis:* `ameeriga+N+Pl+Tra`
+* *ameerikiniq:* `ameeriga+N+Pl+Ter`
+* *ameerikildaq:* `ameeriga+N+Pl+Abe`
+* *ameerikidõgaq:* `ameeriga+N+Pl+Com`
 
 
 
@@ -5504,24 +6017,135 @@ Noun (10) esäk
 * *esäkildäq:* `esäk+N+Pl+Abe`
 * *esäkidegaq:* `esäk+N+Pl+Com`
 
+
+*Noun 10 vidrik  examples:*
+* *vidriku:* `vidrik+N+Sg+Nom`
+* *hõraku:* `vidrik+N+Sg+Gen`
+* *vidrikut:* `vidrik+N+Sg+Par`
+* *vidrikuhe:* `vidrik+N+Sg+Ill`
+* *vidrikun:* `vidrik+N+Sg+Ine`
+* *vidrikust:* `vidrik+N+Sg+Ela`
+* *vidrikulõ:* `vidrik+N+Sg+All`
+* *vidrikul:* `vidrik+N+Sg+Ade`
+* *vidrikult:* `vidrik+N+Sg+Abl`
+* *vidrikus:* `vidrik+N+Sg+Tra`
+* *vidrikuniq:* `vidrik+N+Sg+Ter`
+* *vidrikuldaq:* `vidrik+N+Sg+Abe`
+* *hõrakugaq:* `vidrik+N+Sg+Com`
+* *vidrikuq:* `vidrik+N+Pl+Nom`
+* *vidrikidõ:* `vidrik+N+Pl+Gen`
+* *vidrikit:* `vidrik+N+Pl+Par`
+* *vidrikihe:* `vidrik+N+Pl+Ill`
+* *vidrikin:* `vidrik+N+Pl+Ine`
+* *vidrikist:* `vidrik+N+Pl+Ela`
+* *vidrikilõ:* `vidrik+N+Pl+All`
+* *vidrikil:* `vidrik+N+Pl+Ade`
+* *vidrikilt:* `vidrik+N+Pl+Abl`
+* *vidrikis:* `vidrik+N+Pl+Tra`
+* *vidrikiniq:* `vidrik+N+Pl+Ter`
+* *vidrikildaq:* `vidrik+N+Pl+Abe`
+* *vidrikidõgaq:* `vidrik+N+Pl+Com`
 vowel_harmony: BACK and FRONT
 gradation: no
 **N-vidrik10**
 
 
-LEXICON NMN_10AABITS   * @OCDE@ aabits:aabits
+LEXICON NMN_10AABITS/HEERITS   * @OCDE@ aabits:aabi%{td%}s
+
+*Noun 10 aabits  examples:*
+* *aabits:* `aabits+N+Sg+Nom`
+* *aabidsa:* `aabits+N+Sg+Gen`
+* *aabitsat:* `aabits+N+Sg+Par`
+* *aabitsahe:* `aabits+N+Sg+Ill`
+* *aabitsan:* `aabits+N+Sg+Ine`
+* *aabitsast:* `aabits+N+Sg+Ela`
+* *aabitsalõ:* `aabits+N+Sg+All`
+* *aabitsal:* `aabits+N+Sg+Ade`
+* *aabitsalt:* `aabits+N+Sg+Abl`
+* *aabitsas:* `aabits+N+Sg+Tra`
+* *aabitsaniq:* `aabits+N+Sg+Ter`
+* *aabitsaldaq:* `aabits+N+Sg+Abe`
+* *aabidsagaq:* `aabits+N+Sg+Com`
+* *aabidsaq:* `aabits+N+Pl+Nom`
+* *aabitsidõ:* `aabits+N+Pl+Gen`
+* *aabitsit:* `aabits+N+Pl+Par`
+* *aabitsihe:* `aabits+N+Pl+Ill`
+* *aabitsin:* `aabits+N+Pl+Ine`
+* *aabitsist:* `aabits+N+Pl+Ela`
+* *aabitsilõ:* `aabits+N+Pl+All`
+* *aabitsil:* `aabits+N+Pl+Ade`
+* *aabitsilt:* `aabits+N+Pl+Abl`
+* *aabitsis:* `aabits+N+Pl+Tra`
+* *aabitsiniq:* `aabits+N+Pl+Ter`
+* *aabitsildaq:* `aabits+N+Pl+Abe`
+* *aabitsidõgaq:* `aabits+N+Pl+Com`
 **N-hwrak10**
 
 
-LEXICON NMN_10HEERITS   * @OCDE@ heerits:heerits
 vowel_harmony: ONLY FRONT
 **N-esaek10**
 
 
 **N-hwrak10**
 
+*Noun 10 aadrõś  examples:*
+* *aadrõś:* `aadrõś+N+Sg+Nom`
+* *aadrõsi:* `aadrõś+N+Sg+Gen`
+* *aadrõssit:* `aadrõś+N+Sg+Par`
+* *aadrõssihe:* `aadrõś+N+Sg+Ill`
+* *aadrõsin:* `aadrõś+N+Sg+Ine`
+* *aadrõsist:* `aadrõś+N+Sg+Ela`
+* *aadrõsilõ:* `aadrõś+N+Sg+All`
+* *aadrõsil:* `aadrõś+N+Sg+Ade`
+* *aadrõsilt:* `aadrõś+N+Sg+Abl`
+* *aadrõsis:* `aadrõś+N+Sg+Tra`
+* *aadrõsiniq:* `aadrõś+N+Sg+Ter`
+* *aadrõsildaq:* `aadrõś+N+Sg+Abe`
+* *aadrõsigaq:* `aadrõś+N+Sg+Com`
+* *aadrõsiq:* `aadrõś+N+Pl+Nom`
+* *aadrõssidõ:* `aadrõś+N+Pl+Gen`
+* *aadrõssit:* `aadrõś+N+Pl+Par`
+* *aadrõssihe:* `aadrõś+N+Pl+Ill`
+* *aadrõssin:* `aadrõś+N+Pl+Ine`
+* *aadrõssist:* `aadrõś+N+Pl+Ela`
+* *aadrõssilõ:* `aadrõś+N+Pl+All`
+* *aadrõssil:* `aadrõś+N+Pl+Ade`
+* *aadrõssilt:* `aadrõś+N+Pl+Abl`
+* *aadrõssis:* `aadrõś+N+Pl+Tra`
+* *aadrõssiniq:* `aadrõś+N+Pl+Ter`
+* *aadrõssildaq:* `aadrõś+N+Pl+Abe`
+* *aadrõssidõgaq:* `aadrõś+N+Pl+Com`
 
-LEXICON NMN_10AMMAT1   * @OCDE@ ammat́:ammat
+
+LEXICON NMN_10AMMAT1   * @OCDE@ ammat́:amma%{tt́d%}
+
+*Noun 10 ammat́ examples:*
+* *ammat́:* `ammat́+N+Sg+Nom`
+* *ammadi:* `ammat́+N+Sg+Gen`
+* *ammatit:* `ammat́+N+Sg+Par`
+* *ammatihe:* `ammat́+N+Sg+Ill`
+* *ammadin:* `ammat́+N+Sg+Ine`
+* *ammadist:* `ammat́+N+Sg+Ela`
+* *ammadilõ:* `ammat́+N+Sg+All`
+* *ammadil:* `ammat́+N+Sg+Ade`
+* *ammadilt:* `ammat́+N+Sg+Abl`
+* *ammadis:* `ammat́+N+Sg+Tra`
+* *ammadiniq:* `ammat́+N+Sg+Ter`
+* *ammadildaq:* `ammat́+N+Sg+Abe`
+* *ammadigaq:* `ammat́+N+Sg+Com`
+* *ammadiq:* `ammat́+N+Pl+Nom`
+* *ammatidõ:* `ammat́+N+Pl+Gen`
+* *ammatit:* `ammat́+N+Pl+Par`
+* *ammatihe:* `ammat́+N+Pl+Ill`
+* *ammatin:* `ammat́+N+Pl+Ine`
+* *ammatist:* `ammat́+N+Pl+Ela`
+* *ammatilõ:* `ammat́+N+Pl+All`
+* *ammatil:* `ammat́+N+Pl+Ade`
+* *ammatilt:* `ammat́+N+Pl+Abl`
+* *ammatis:* `ammat́+N+Pl+Tra`
+* *ammatiniq:* `ammat́+N+Pl+Ter`
+* *ammatildaq:* `ammat́+N+Pl+Abe`
+* *ammatidõgaq:* `ammat́+N+Pl+Com`
 **N-hwrak10**
 
 
@@ -5551,7 +6175,7 @@ Gradation: YES
 
 
 
-*nimi examples:*
+*läteq examples:*
 * *läteq:* `läteq+N+Sg+Nom`
 * *lätte:* `läteq+N+Sg+Gen`
 * *lätet:* `läteq+N+Sg+Par`
