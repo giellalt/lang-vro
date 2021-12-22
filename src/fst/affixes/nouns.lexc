@@ -4370,17 +4370,17 @@ LEXICON NMN_14NUMMWR1/XX-PL
 !  NMN_15KOTUS/ILVES-PL ;
 
 LEXICON NMN_15KOTUS/ILVES-SG 
-        Harm-Neutr_SG-NOM  ;
-:%{eõ%}   SG-GEN_ZERO  ;
-   Harm-Neutr_SG-PAR_t      ;
-:%{eõ%} Harm-Neutr_SG-COM ;
+:%^WGStem%>        Harm-Neutr_SG-NOM  ;
+:%^WGStem%>%{eõ%}   SG-GEN_ZERO  ;
+:%^WGStem   Harm-Neutr_SG-PAR_t      ;
+:%^WGStem%>%{eõ%} Harm-Neutr_SG-COM ;
 +Use/NG+Err/Orth:%^StrGSt%{eõ%}   SG-GEN_ZERO-STEM        ;
 +Use/NG+Err/Orth:%^StrGSt%{eõ%}   SG-ILL_dE     ;
 +Use/NG+Err/Orth:%^StrGSt%{eõ%}   Harm-Neutr_SG-ILL_he     ;
 +Use/NG+Err/Orth:%^StrGSt%{eõ%} Harm-Neutr_SG-COM ;
 
 LEXICON NMN_15KOTUS/ILVES-PL 
-:%{eõ%}   Harm-Neutr_PL-NOM  ;
+:%^WGStem%>%{eõ%}   Harm-Neutr_PL-NOM  ;
 :%^StrGSti Harm-Neutr_PL-GEN_dE ;
 :%^StrGSti PL-ILL_he ;
 :%^StrGSti PL-PAR_t ;
