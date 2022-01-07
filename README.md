@@ -25,7 +25,7 @@ Documentation can be found here:
 Core dependencies
 -----------------
 
-In order to compile and use __UNDEFINED__ language morphology and
+In order to compile and use Võro language morphology and
 dictionaries, you need:
 
 - an FST compiler: [HFST](https://github.com/hfst/hfst), [Foma](https://github.com/mhulden/foma) or [Xerox Xfst](https://web.stanford.edu/~laurik/fsmbook/home.html)
