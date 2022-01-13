@@ -1739,9 +1739,18 @@ LEXICON N_43KANARIK !!= @CODE@ usklik+A:%{ˋØ%}#uskli%{kg%}
         N_43KANARIK-SG ;
         N_43KANARIK-PL ;
 LEXICON N_43KANARIK-SG
-:%{back%}     NMN_43KANARIK-SG ;
+:%{back%}     NMN_43KANARIK/ELAENIK-SG ;
 LEXICON N_43KANARIK-PL
-:%{back%}     NMN_43KANARIK-PL ;
+:%{back%}     NMN_43KANARIK/ELAENIK-PL ;
+
+LEXICON N_43ELAENIK !!= @CODE@ elänik+N:eläni%{kØ%}%{kg%}
+: ATTESTED-NOUN-STEM-CONTINUED ;
+        N_43ELAENIK-SG ;
+        N_43ELAENIK-PL ;
+LEXICON N_43ELAENIK-SG
+:%{front%}     NMN_43KANARIK/ELAENIK-SG ;
+LEXICON N_43ELAENIK-PL
+:%{front%}     NMN_43KANARIK/ELAENIK-PL ;
 
 LEXICON N_43SASLWK1 !!= @CODE@
 :%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
@@ -6453,30 +6462,30 @@ LEXICON NMN_42VARI-PL
 +Use/NG+Err/Orth:%^Pen%^NoPAL%^Pen%^JI20%^VowRM%>%{aä%}    PL-ALL_lE-STEM ;
 
 
-LEXICON NMN_43KANARIK
-  NMN_43KANARIK-SG ;
-  NMN_43KANARIK-PL ;
+LEXICON NMN_43KANARIK/ELAENIK
+  NMN_43KANARIK/ELAENIK-SG ;
+  NMN_43KANARIK/ELAENIK-PL ;
 
-LEXICON NMN_43KANARIK-SG  !usklik+A:%{ˋØ%}#uskli%{kØ%}%{kg%}
+LEXICON NMN_43KANARIK/ELAENIK-SG  !usklik+A:%{ˋØ%}#uskli%{kØ%}%{kg%}
 :%^G3        Harm-Neutr_SG-NOM  ;
 :%^G2%>u       SG-GEN_ZERO-STEM        ;
 :%^G4%>u       Harm-Neutr_SG-ILL_ZERO        ;
 :%^G4%>u       Harm-Neutr_SG-PAR_ZERO        ;
 
-LEXICON NMN_43KANARIK-PL 
+LEXICON NMN_43KANARIK/ELAENIK-PL 
 :%^G2%>u       Harm-Neutr_PL-NOM ;
-:%^G4%>õ    PL-GEN_ZERO ;
-:%^G4%>õ    PL-ILL_he ;
-:%^G4%>õ    Harm-Neutr_PL-PAR_ZERO ;
-:%^G2%>õ    PL-ALL_lE-STEM ;
-:%^G2%>õ       PL-COM ;
+:%^G4%>%{eõ%}    PL-GEN_ZERO ;
+:%^G4%>%{eõ%}    PL-ILL_hE ;
+:%^G4%>%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
+:%^G2%>%{eõ%}    PL-ALL_lE-STEM ;
+:%^G2%>%{eõ%}       PL-COM ;
 
 
 +Use/NG+Err/Orth:%^G2%>%{aä%}    PL-ALL_lE-STEM ;
 +Use/NG+Err/Orth:%^G4%>%{aä%}    PL-GEN_ZERO ;
-+Use/NG+Err/Orth:%^G4%>õ    Harm-Neutr_PL-ILL_ZERO ;
++Use/NG+Err/Orth:%^G4%>%{eõ%}    Harm-Neutr_PL-ILL_ZERO ;
 +Use/NG+Err/Orth:%^G4%>%{aä%}    Harm-Neutr_PL-ILL_ZERO ;
-+Use/NG+Err/Orth:%^G4%>õ    PL-ILL_dE ;
++Use/NG+Err/Orth:%^G4%>%{eõ%}    PL-ILL_dE ;
 +Use/NG+Err/Orth:%^G4%>%{aä%}    PL-ILL_he ;
 +Use/NG+Err/Orth:%^G4%>%{aä%}    PL-ILL_dE ;
 +Use/NG+Err/Orth:%^G4%>%{aä%}    Harm-Neutr_PL-PAR_ZERO ;
@@ -6991,15 +7000,15 @@ LEXICON Harm-Neutr_SG-ILL_ZERO
 +Sg+Ill: K ;
 
 
-LEXICON Harm-Neutr_SG-ILL_hU
-+Sg+Ill:%>h%{uü%} K ;
+!LEXICON Harm-Neutr_SG-ILL_hU
+!+Sg+Ill:%>h%{uü%} K ;
 
 LEXICON Harm-Neutr_SG-ILL_hV
 +Sg+Ill:%>h%{XV%} K ;
 
-LEXICON Harm-Neutr_SG-ILL_hUq
-+Sg+Ill:%>h%{uü%}q K ;
-+Use/NG+Err/Orth-no-q+Sg+Ill:%>h%{uü%} K ;
+!LEXICON Harm-Neutr_SG-ILL_hUq
+!+Sg+Ill:%>h%{uü%}q K ;
+!+Use/NG+Err/Orth-no-q+Sg+Ill:%>h%{uü%} K ;
 LEXICON Harm-Neutr_SG-ILL_hVq
 +Sg+Ill:%>h%{XV%}q K ;
 
