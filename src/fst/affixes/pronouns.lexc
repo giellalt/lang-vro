@@ -102,19 +102,20 @@ LEXICON PERS-SG1-2-NOM-COM
 +Ade:ul K ;
 +Ade:inol K ;
 +Ter:oniq K ;
++Use/NG+Err/Orth-no-q+Ter:oni K ;
 +Com:uqkaq K ;
++Use/NG+Err/Orth-no-q+Com:uqka K ;
 +Com:inogaq K ;
++Use/NG+Err/Orth-no-q+Com:inoga K ;
 
 LEXICON PERS-SG1-2-ABE-TRA
-+Abe:ldaq K ;
-+Abl:lt K ;
-+Ade:l K ;
-+Ela:st K ;
-+Tra:s K ;
+NEUTR_FOLLOW-CLITIC-OR-NOT_ABESUF ;
+NEUTR_FOLLOW-CLITIC-OR-NOT_ABLSUF ;
+NEUTR_FOLLOW-CLITIC-OR-NOT_ADESUF ;
+NEUTR_FOLLOW-CLITIC-OR-NOT_ELASUF ;
+NEUTR_FOLLOW-CLITIC-OR-NOT_TRASUF ;
 +Ill:htõ K ;
-+Ine:n K ;
-+Ine:h K ;
-+Ine:hn K ;
+NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_N-H-HN ;
 
 
 LEXICON PERS-PL1 !!= @CODE@ maq:m
@@ -129,7 +130,7 @@ LEXICON PERS-PL3 !!= @CODE@ timä:
 +Pers+Pl3+Nom:imäq K ;
 +Pers+Pl3+Nom:iäq K ;
 +Pers+Pl3+Gen:äide K ;
-+Pers+Pl3+Ter:äideniq K ;
++Pers+Pl3:äide%{front%} NEUTR_FOLLOW-CLITIC-OR-NOT_TERSUF ;
 +Pers+Pl3:ä FOR-PERS-PL1/2/3 ;
 
 
@@ -163,36 +164,46 @@ tuu+Pron+Dem: DEM-TUU ;
 
 LEXICON DEM-SEO
 +Sg+Nom:seo K ;
++Sg+Nom:śoo K ;!FIXME need tag for preference
 +Sg+Gen:seo K ;
++Sg+Gen:śoo K ;!
 +Sg+Par:seod K ;
++Sg+Par:śood K ;
 +Sg+Ill:seoho K ;
-+Sg+Ine:seon K ;
-+Use/NG+Sg+Ine:seoh K ;
-+Use/NG+Sg+Ine:seohn K ;
-+Sg+Ela:seost K ;
-+Sg+All:seolõ K ;
-+Sg+Ade:seol K ;
-+Sg+Abl:seolt K ;
++Sg+Ill:śooho K ;
++Sg:seo%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_N-H-HN ;
++Sg:śoo%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_N-H-HN ;
++Sg:seo%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ELASUF ;
++Sg:śoo%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ELASUF ;
++Sg:seo%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ALLSUF_lE ;
++Sg:śoo%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ALLSUF_lE ;
++Sg:seo NEUTR_FOLLOW-CLITIC-OR-NOT_ADESUF ;
++Sg:śoo NEUTR_FOLLOW-CLITIC-OR-NOT_ADESUF ;
++Sg:seo NEUTR_FOLLOW-CLITIC-OR-NOT_ABLSUF ;
++Sg:śoo NEUTR_FOLLOW-CLITIC-OR-NOT_ABLSUF ;
 +Sg+Tra:seos K ;
-+Sg+Ter:seoniq K ;
-+Sg+Abe:seoldaq K ;
-+Sg+Com:seogaq K ;
++Sg+Tra:śoos K ;
++Sg:seo%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_TERSUF ;
++Sg:śoo%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_TERSUF ;
++Sg:seo NEUTR_FOLLOW-CLITIC-OR-NOT_ABESUF ;
++Sg:śoo NEUTR_FOLLOW-CLITIC-OR-NOT_ABESUF ;
++Sg:seo NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_gaq ;
++Sg:śoo NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_gaq ;
 
 +Pl+Nom:neoq K ;
++Pl+Nom:ńooq K ;
 +Pl+Gen:neide K ;
 +Pl+Par:neid K ;
 +Pl+Ill:neihte K ;
-+Pl+Ine:nein K ;
-+Use/NG+Pl+Ine:neih K ;
-+Use/NG+Pl+Ine:neihn K ;
-+Pl+Ela:neist K ;
-+Pl+All:neile K ;
-+Pl+Ade:neil K ;
-+Pl+Abl:neilt K ;
++Pl:nei%{front%} NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_N-H-HN ;
++Pl:nei%{front%} NEUTR_FOLLOW-CLITIC-OR-NOT_ELASUF ;
++Pl:nei%{front%} NEUTR_FOLLOW-CLITIC-OR-NOT_ALLSUF_lE ;
++Pl:nei NEUTR_FOLLOW-CLITIC-OR-NOT_ADESUF ;
++Pl:nei NEUTR_FOLLOW-CLITIC-OR-NOT_ABLSUF ;
 +Pl+Tra:neis K ;
-+Pl+Ter:neideniq K ;
-+Pl+Abe:neildaq K ;
-+Pl+Com:neigaq K ;
++Pl:neide%{front%} NEUTR_FOLLOW-CLITIC-OR-NOT_TERSUF ;
++Pl:nei NEUTR_FOLLOW-CLITIC-OR-NOT_ABESUF ;
++Pl:nei NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_gaq ;
 
 
 LEXICON DEM-TAA
@@ -200,66 +211,59 @@ LEXICON DEM-TAA
 +Sg+Gen:taa K ;
 +Sg+Par:taad K ;
 +Sg+Ill:taaha K ;
-+Sg+Ine:taan K ;
-+Use/NG+Sg+Ine:taah K ;
-+Use/NG+Sg+Ine:taahn K ;
-+Sg+Ela:taast K ;
-+Sg+All:taalõ K ;
-+Sg+Ade:taal K ;
-+Sg+Abl:taalt K ;
++Sg:taa%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_N-H-HN ;
++Sg:taa%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ELASUF ;
++Sg:taa%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ALLSUF_lE ;
++Sg:taa NEUTR_FOLLOW-CLITIC-OR-NOT_ADESUF ;
++Sg:taa NEUTR_FOLLOW-CLITIC-OR-NOT_ABLSUF ;
 +Sg+Tra:taas K ;
-+Sg+Ter:taaniq K ;
-+Sg+Abe:taaldaq K ;
-+Sg+Com:taagaq K ;
++Sg:taa%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_TERSUF ;
++Sg:taa NEUTR_FOLLOW-CLITIC-OR-NOT_ABESUF ;
++Sg:taa NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_gaq ;
 
 +Pl+Nom:naaq K ;
 +Pl+Gen:naidõ K ;
 +Pl+Par:naid K ;
 +Pl+Ill:naihtõ K ;
-+Pl+Ine:nain K ;
-+Use/NG+Pl+Ine:naih K ;
-+Use/NG+Pl+Ine:naihn K ;
-+Pl+Ela:naist K ;
-+Pl+All:nailõ K ;
-+Pl+Ade:nail K ;
-+Pl+Abl:nailt K ;
++Pl:nai%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_N-H-HN ;
++Pl:nai%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ELASUF ;
++Pl:nai%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ALLSUF_lE ;
++Pl:nai NEUTR_FOLLOW-CLITIC-OR-NOT_ADESUF ;
++Pl:nai NEUTR_FOLLOW-CLITIC-OR-NOT_ABLSUF ;
 +Pl+Tra:nais K ;
-+Pl+Ter:naidõniq K ;
-+Pl+Abe:naildaq K ;
-+Pl+Com:naidõgaq K ;
++Pl:naidõ%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_TERSUF ;
++Pl:nai NEUTR_FOLLOW-CLITIC-OR-NOT_ABESUF ;
++Pl:naidõ NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_gaq ;
 
 LEXICON DEM-TUU
 +Sg+Nom:tuu K ;
 +Sg+Gen:tuu K ;
 +Sg+Par:tuud K ;
 +Sg+Ill:tuuhu K ;
-+Sg+Ine:tuun K ;
-+Use/NG+Sg+Ine:tuuh K ;
-+Use/NG+Sg+Ine:tuuhn K ;
-+Sg+Ela:tuust K ;
-+Sg+All:toolõ K ;
-+Sg+Ade:tuul K ;
-+Sg+Abl:tuult K ;
++Sg:tuu%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_N-H-HN ;
++Sg:tuu%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ELASUF ;
++Sg:too%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ALLSUF_lE ;
++Sg:tuu%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ADESUF ;
++Sg:tuu%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ABLSUF ;
 +Sg+Tra:tuus K ;
-+Sg+Ter:tooniq K ;
-+Sg+Abe:tooldaq K ;
-+Sg+Com:tuugaq K ;
++Sg:too%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_TERSUF ;
++Sg:too%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ABESUF ;
++Sg:tuu NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_gaq ;
 
 +Pl+Nom:nuuq K ;
++Pl+Use/NG+Err/Orth-no-q+Nom:nuu K ;
 +Pl+Gen:noidõ K ;
 +Pl+Par:noid K ;
 +Pl+Ill:noihtõ K ;
-+Pl+Ine:noin K ;
-+Use/NG+Pl+Ine:noih K ;
-+Use/NG+Pl+Ine:noihn K ;
-+Pl+Ela:noist K ;
-+Pl+All:noilõ K ;
-+Pl+Ade:noil K ;
-+Pl+Abl:noilt K ;
++Pl:noi%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_N-H-HN ;
++Pl:noi%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ELASUF ;
++Pl:noi%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_ALLSUF_lE ;
++Pl:noi NEUTR_FOLLOW-CLITIC-OR-NOT_ADESUF ;
++Pl:noi NEUTR_FOLLOW-CLITIC-OR-NOT_ABLSUF ;
 +Pl+Tra:nois K ;
-+Pl+Ter:noidõniq K ;
-+Pl+Abe:noildaq K ;
-+Pl+Com:noidõgaq K ;
++Pl:noidõ%{back%} NEUTR_FOLLOW-CLITIC-OR-NOT_TERSUF ;
++Pl:noi NEUTR_FOLLOW-CLITIC-OR-NOT_ABESUF ;
++Pl:noidõ NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_gaq ;
 
 LEXICON PRON-DEM
 +Sg+Nom: K ;
@@ -322,13 +326,15 @@ kõiḱ+Pron:kõ̭i%{kØ%}%{kḱg%} PRON_36KWIK1 "_#gõ, #kkõ__kõ̭|iḱ_" ;
 
 LEXICON PRON_27MITU
 :u%{back%} Harm-Neutr_SG-NOM ;
+:o%{back%} Harm-Neutr_SG-NOM ;
 :m%{back%}%>%{eõ%} Harm-Neutr_SG-GEN ;
 :m%{back%}%>%{eõ%} Harm-Neutr_SG-ALL_lE-STEM ;
 +Sg+Par:und%{back%} K ;
 :m%{back%}%>%{eõ%} Harm-Neutr_SG-ILL_he ;
 :m%{back%}%>%{eõ%}  SG-ILL_hE ;
-
++Pl+Par:mit # ;
 :m%{back%}%>%{eõ%} Harm-Neutr_PL-NOM ;
+:m%{back%}%>i Harm-Neutr_PL-GEN_dE ;
 :m%{back%}%>i PL-ALL_lE-STEM ;
 
 !! ### INTERROGATIVE PRONOUNS
@@ -354,7 +360,7 @@ LEXICON PRON-INTERR_miae
 +Interr+SP:iä%{front%} NEUTR_NOMSUF ;
 +Interr+SP:ink GEN_ZERO ;
 +Interr+SP:i%{front%} NEUTR_PARSUF_dA ;
-+Interr+SP:inkaq COM_ZERO ;
++Interr+SP:in NEUTR_COMSUF_kaq ;
 +Interr+SP:inka%{back%} NEUTR_TERSUF ;
 +Interr+SP:ee%{front%} NEUTR_TERSUF ;
 +Interr+SP:inka%{back%} PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
