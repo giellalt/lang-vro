@@ -3590,9 +3590,9 @@ LEXICON PSS-IND-PRS-SG2_dAdEq
 LEXICON PSS-IND-PRS-SG3_dAs
 +Pss+Ind+Prs+Sg3:%>d%{aä%}s K ;
 
-LEXICON PSS-IND-SG3_tX
-PSS-IND-PRS-SG3_tAs ;
-PSS-IND-PRT-SG3_ti ;
+!LEXICON PSS-IND-SG3_tX
+!PSS-IND-PRS-SG3_tAs ;
+!PSS-IND-PRT-SG3_ti ;
 LEXICON PSS-IND-SG3_dX
 PSS-IND-PRS-SG3_dAs ;
 PSS-IND-PRT-SG3_di ;
@@ -4329,20 +4329,20 @@ LEXICON PSS-PRFPRC_d
 +Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; !!= * @CODE@
 +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ; !!= * @CODE@ no q
 
-LEXICON PSS-PRFPRC_t-ONLY
-+Pss+PrfPrc:%>t K ;
-+Pss+PrfPrc+Sg+Nom:%>t K ;
-+Pss+PrfPrc+Sg+Gen:%>t%{uü%} K ;
-+Pss+PrfPrc:%>t%{uü%} Harm-Neutr_COMP ;
-+Pss+PrfPrc+Sg+Par:%>t%{uü%}t K ;
-+Pss+PrfPrc+Sg+Ill:%>t%{uü%}he K ;
-+Pss+PrfPrc+Pl+Nom:%>t%{uü%}q K ;
-+Pss+PrfPrc+Pl+Gen:%>t%{uü%}id%{eõ%} K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Gen:%>t%{uü%}isi K ;
-+Pss+PrfPrc+Pl+Par:%>t%{uü%}id K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Par:%>t%{uü%}isi K ;
-+Pss+PrfPrc+Pl+Ill:%>t%{uü%}ihe K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Ill:%>t%{uü%}isihe K ;
+!LEXICON PSS-PRFPRC_t-ONLY
+!+Pss+PrfPrc:%>t K ;
+!+Pss+PrfPrc+Sg+Nom:%>t K ;
+!+Pss+PrfPrc+Sg+Gen:%>t%{uü%} K ;
+!+Pss+PrfPrc:%>t%{uü%} Harm-Neutr_COMP ;
+!+Pss+PrfPrc+Sg+Par:%>t%{uü%}t K ;
+!+Pss+PrfPrc+Sg+Ill:%>t%{uü%}he K ;
+!+Pss+PrfPrc+Pl+Nom:%>t%{uü%}q K ;
+!+Pss+PrfPrc+Pl+Gen:%>t%{uü%}id%{eõ%} K ;
+!+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Gen:%>t%{uü%}isi K ;
+!+Pss+PrfPrc+Pl+Par:%>t%{uü%}id K ;
+!+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Par:%>t%{uü%}isi K ;
+!+Pss+PrfPrc+Pl+Ill:%>t%{uü%}ihe K ;
+!+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Ill:%>t%{uü%}isihe K ;
 
 LEXICON PSS-PRFPRC_t/SG-GEN_dU
 +Pss+PrfPrc:%>t K ;
