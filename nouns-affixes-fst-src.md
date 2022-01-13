@@ -1200,6 +1200,7 @@ LEXICON NMN_10HWRAK   * @OCDE@ hõrak:hõrak
 
 
 
+
 LEXICON NMN_10HAIDAK/ESAEK   * @OCDE@ haidak:haida%{kg%}
 Noun (10) esäk
 * *esäk:* `esäk+N+Sg+Nom`
@@ -2460,6 +2461,22 @@ gradation: yes
 ### TAGS THAT CANNOT BE FOLLOWED BY CLITICS
 
 ### CASES ONLY
+
+
+
+
+
+
+
+
+
+
+
+
+
+### TAGS THAT CAN BE FOLLOWED BY CLITICS
+
+
 
 
 

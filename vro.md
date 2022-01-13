@@ -4154,6 +4154,7 @@ LEXICON NMN_10HWRAK   * @OCDE@ hõrak:hõrak
 
 
 
+
 LEXICON NMN_10HAIDAK/ESAEK   * @OCDE@ haidak:haida%{kg%}
 Noun (10) esäk
 * *esäk:* `esäk+N+Sg+Nom`
@@ -5427,6 +5428,22 @@ gradation: yes
 
 
 
+### TAGS THAT CAN BE FOLLOWED BY CLITICS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### TAGS WITH NO ADDED MORPHOLOGY THAT CANNOT BE FOLLOWED BY CLITICS
 
 
@@ -5659,7 +5676,6 @@ CHECKME vowel harmony
 
 
 ### INDEFINITE PRONOUNS
-
 
 
 
@@ -8525,6 +8541,8 @@ nätsk+A+Sg+Gen
 
 
 
+* *eläni{kØ}{kg}{front}^G3*
+* *eläni0k00*
 * *i%{kØ%}kõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%}*
 * *i0k00000%>ma*
 
@@ -8601,6 +8619,8 @@ rehksämä+V+Inf/mA:
 * *rehk0s000000>ä>mä*
 * *as%{kØ%}o%{back%}%^Pen%^G2*
 * *asko000*
+* *eläni{kØ}{kg}{back}^G4>{eõ}*
+* *elänikk00>e*
 makḱ+N+Pl+All
 * *ma{kØ}{kḱ}{back}^StrGStem^NoPAL>{eõ}>l{eõ}*
 * *makk000>õ>lõ*
@@ -8639,7 +8659,7 @@ akaŕ+A+Sg+Nom
 * *rän%{kg%}%{front%}%^G3*
 * *ränk00*
 
-* *avali%{kØ%}%{kg%}%{back%}%^G2*
+* *avali{kØ}{kg}{back}^G3*
 * *avali0k00*
 
 **%{kg%}:g**
@@ -9229,6 +9249,7 @@ ADD NOUNS BELOW
 
 
 
+
 N_HAIDAK, N_10ESAEK in -gu
 N_10AABITS in -dsa, -ga
 N_10HWRAK in -ga ~ -gu
@@ -9270,11 +9291,14 @@ N_10HEERITS in -dsä
 
 
 
+
 two-syllable
 
 
 
+
 Three-syllable words
+
 
 
 
@@ -9474,6 +9498,8 @@ ADD NOUNS BELOW
 
 
 
+
+
 | --- 
 
 
@@ -9488,6 +9514,7 @@ ADD NOUNS BELOW
 
 
 CHECKME
+
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
 added to the xml source files.

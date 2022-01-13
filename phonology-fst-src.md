@@ -815,6 +815,8 @@ nätsk+A+Sg+Gen
 
 
 
+* *eläni{kØ}{kg}{front}^G3*
+* *eläni0k00*
 * *i%{kØ%}kõ%{back%}%^Pen%^CC2C%^VowRM%>m%{aä%}*
 * *i0k00000%>ma*
 
@@ -891,6 +893,8 @@ rehksämä+V+Inf/mA:
 * *rehk0s000000>ä>mä*
 * *as%{kØ%}o%{back%}%^Pen%^G2*
 * *asko000*
+* *eläni{kØ}{kg}{back}^G4>{eõ}*
+* *elänikk00>e*
 makḱ+N+Pl+All
 * *ma{kØ}{kḱ}{back}^StrGStem^NoPAL>{eõ}>l{eõ}*
 * *makk000>õ>lõ*
@@ -929,7 +933,7 @@ akaŕ+A+Sg+Nom
 * *rän%{kg%}%{front%}%^G3*
 * *ränk00*
 
-* *avali%{kØ%}%{kg%}%{back%}%^G2*
+* *avali{kØ}{kg}{back}^G3*
 * *avali0k00*
 
 **%{kg%}:g**

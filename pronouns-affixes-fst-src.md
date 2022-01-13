@@ -45,7 +45,6 @@ CHECKME vowel harmony
 
 
 
-
 ### INTERROGATIVE PRONOUNS
 
 
