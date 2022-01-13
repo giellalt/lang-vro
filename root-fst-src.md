@@ -70,6 +70,8 @@ The Usage extents are marked using following tags:
  * **+Err/Orth-no-q** Q is missing
  * **+Err/Orth-raised-vow** 
  * **+Err/Orth-lowered-vow** 
+ * **+Err/Orth-est** 
+ * **+Err/Orth-weak-grade** 
  * **+Use/-Spell**
  * **+Use/NG** No generation
  * **+Cmp/Hyph** 
