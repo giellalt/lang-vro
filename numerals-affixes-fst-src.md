@@ -202,6 +202,8 @@ derived from 36särǵ
 
  LEXICON NUM_43KANARIK 
 
+ LEXICON NUM_43ELAENIK 
+
 
 
 

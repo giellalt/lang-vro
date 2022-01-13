@@ -61,7 +61,7 @@ The parts of speech are further split up into:
  * **+Recipr**
  * **+Rel**
  * **+Indef**
- * **+AdA** adjective or adverb modifier
+ * **+Deg** adjective or adverb modifier. This is degree, depricate + AdA
 
 The Usage extents are marked using following tags:
  * **+Err/Orth**

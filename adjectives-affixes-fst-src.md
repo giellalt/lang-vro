@@ -146,6 +146,7 @@ The VÕRO language adjectives compare.
 
 
 
+
 gradation: no
 
 gradation: yes

@@ -413,6 +413,8 @@ juusk:j%{ou%}%{ou%}s%{kØ%}u
 
  LEXICON N_43KANARIK  usklik+A:%{ˋØ%}#uskli%{kg%}
 
+ LEXICON N_43ELAENIK  elänik+N:eläni%{kØ%}%{kg%}
+
  LEXICON N_43SASLWK1 
 
  LEXICON N_43APRIL1 
