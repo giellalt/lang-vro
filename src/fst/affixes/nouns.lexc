@@ -3294,6 +3294,8 @@ LEXICON NMN_10AMEERIGA-SG
 :%^StrGStem%>%{aä%}    Harm-Neutr_SG-ILL_he       ;
 :%^WGStem%>%{aä%} Harm-Neutr_SG-COM ;
 
++Err/Orth-weak-grade:%^WGStem%>%{aä%}    Harm-Neutr_SG-ALL_lE-STEM        ;
+
 
 LEXICON NMN_10AMEERIGA-PL 
 :%^WGStem%>%{aä%}    Harm-Neutr_PL-NOM ;
@@ -7079,6 +7081,10 @@ LEXICON NEUTR_ADESUF
 LEXICON NEUTR_ALLSUF_lE
 @U.Case.All@+All:@U.Case.All@%>l%{eõ%} # ;
 
+LEXICON NEUTR_COMSUF_kaq
+@U.Case.Com@+Com:@U.Case.Com@%>kaq # ;
+@U.Case.Com@+Use/NG+Err/Orth-no-q+Com:@U.Case.Com@%>ka # ;
+
 LEXICON NEUTR_ELASUF
 @U.Case.Ela@+Ela:@U.Case.Ela@%>st # ;
 
@@ -7108,10 +7114,63 @@ LEXICON NEUTR_TERSUF
 
 LEXICON NEUTR_TRASUF
 +Tra:%>s # ;
+!! ### TAGS THAT CAN BE FOLLOWED BY CLITICS
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_ABESUF
+@U.Case.Abe@+Abe:@U.Case.Abe@%>ld%{aä%}q K ;
+@U.Case.Abe@+Use/NG+Err/Orth-no-q+Abe:@U.Case.Abe@%>ld%{aä%} K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_ABLSUF
+@U.Case.Abl@+Abl:@U.Case.Abl@%>lt K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_ADESUF
+@U.Case.Ade@+Ade:@U.Case.Ade@%>l K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_ALLSUF_lE
+@U.Case.All@+All:@U.Case.All@%>l%{eõ%} K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_gaq
+@U.Case.Com@+Com:@U.Case.Com@%>gaq K ;
+@U.Case.Com@+Use/NG+Err/Orth-no-q+Com:@U.Case.Com@%>ga K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_kaq
+@U.Case.Com@+Com:@U.Case.Com@%>kaq K ;
+@U.Case.Com@+Use/NG+Err/Orth-no-q+Com:@U.Case.Com@%>ka K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_ELASUF
+@U.Case.Ela@+Ela:@U.Case.Ela@%>st K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_ILLSUF_he
+@U.Case.Ill@+Ill:@U.Case.Ill@%>he K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_N-H-HN
+ NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_n ;
+ NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_h ;
+ NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_hn ;
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_n
+@U.Case.Ine@+Ine:@U.Case.Ine@%>n K ;
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_h
+@U.Case.Ine@+Ine:@U.Case.Ine@%>h K ;
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_hn
+@U.Case.Ine@+Ine:@U.Case.Ine@%>hn K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_NOMSUF
+@U.Case.Nom@+Nom:@U.Case.Nom@ K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_PARSUF_dA
+@U.Case.Par@+Par:@U.Case.Par@%>d%{aä%} K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_TERSUF
++Ter:%>niq K ;
++Use/NG+Err/Orth-no-q+Ter:%>ni K ;
+
+LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_TRASUF
++Tra:%>s K ;
+
 
 !! ### TAGS WITH NO ADDED MORPHOLOGY THAT CANNOT BE FOLLOWED BY CLITICS
-LEXICON COM_ZERO
-+Com: # ;
+!LEXICON COM_ZERO
+!+Com: # ;
 LEXICON GEN_ZERO
 +Gen: # ;
 LEXICON TER_ZERO
