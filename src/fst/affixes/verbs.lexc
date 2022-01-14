@@ -371,10 +371,54 @@ LEXICON V_52ALOSTWLWMA/EHITELEMAE !!≈ * **@CODE@** alostõllõma:alostõ%{lØ%
 
 
 LEXICON V_53KAEMA !!≈ * **@CODE@** 
-:%{back%} V_53KAEMA/JAEAEMAE ;
+:%{back%} V_53KAEMA/XX ;
 LEXICON V_53JAEAEMAE !!≈ * **@CODE@** 
-:%{front%} V_53KAEMA/JAEAEMAE ;
-LEXICON V_53KAEMA/JAEAEMAE !!≈ * **@CODE@** 
+:%{front%} V_53XX/JAEAEMAE ;
+LEXICON V_53XX/JAEAEMAE !!≈ * **@CODE@** 
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) Tettäv tm passiiv:
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
+
+:%^VOWRaise Harm-Neutr_V0-PSS-PRSPRC_dAv ;
+:%^VOWRaise PSS-PRFPRC_d ;
+:%^VOWRaise PSS-PRFPRC_dU-SG-NOM ;
+:%^VOWRaise ACT-PRSPRC_vA ;
+:%^VOWRaise Harm-Neutr_INF_mA ;
+:%^VOWRaise ACT-PRFPRC-OBL_nU ;
+:%^VOWRaise ACT-IND-PRS-SG1_ZERO ;
+:%^VOWRaise ACT-IND-PRS-SG2_t ;
++Use/NG+Err/Orth:%^VOWRaise ACT-IND-PRS-SG2_dEq ;
+!+Use/NG+Err/Orth:%^VOWRaise ACT-IND-PRS-PL2_dEq ;
+:%^VOWRaise ACT-IND-PRS-PL2_tiq ;
+:%^VOWRaise ACT-IND-CONNEG ;
+!:%^VOWRaise ACT-IND-PRS-SG3_ZERO ;
+:%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ; !!= * @CODE@ only 3rd person
+
+ ACT-PRFPRC_nUq-SG-NOM ; !!= * @CODE@ jäänüq keenüq
++Use/NG+Err/Orth: ACT-IND-PRS-SG3_sE ;
+ ACT-IND-PRS-PL1_miq ;
+ ACT-COND ;
+ ACT-IND-PRS-PL3_vAq ;
+
+:%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ; !!= * @CODE@ jäi kii
+:%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ; !!= * @CODE@ jäi kei
+! CHECKME 2016-08-28
+:%^VOWRaise ACT-IND-PRS-3_s/sEq ; !!= * @CODE@ (5) RAISED jääs jääseq 
+! Act+Ind+Prs+Sg3
+
+ ACT-IND-PRS-PL3_vAq ; !!= * @CODE@ (6) joovaq sööväq
+: MUTUAL_JUS_guq ;
+
+LEXICON V_53KAEMA/XX !!≈ * **@CODE@** 
 ! (1) I tegonimi:
 ! (2) II tegonimi:
 ! (3) tekev tm aktiiv:
@@ -2726,16 +2770,16 @@ LEXICON V_83ATMA/XX  !!= * @CODE@ atma:a%{tØ%}%{tt́%}
 ! (9) jus:
 :%^CC2C%^NoPAL%^VowRM MUTUAL_JUS_kuq ;
 
-LEXICON V_83SUTMA  !!= * @CODE@ atma:a%{tØ%}ta
+LEXICON V_83SUTMA  !!= * @CODE@ atma:a%{tØ%}%{tt́%}a
 !! gradation: yes
 !! * Yaml: **switma**
 :%{back%} V_83SUTMA/PETMÄ ;
-LEXICON V_83PETMÄ  !!= * @CODE@ petmä:pe%{tØ%}tä
-!! gradation: yes
+LEXICON V_83PETMÄ  !!= * @CODE@ petmä:pe%{tØ%}%{tt́%}ä
+!! gradation: G3, G4
 !! * Yaml: **heitmae**
 :%{front%} V_83SUTMA/PETMÄ ;
 
-LEXICON V_83SUTMA/PETMÄ  !!= * @CODE@ sutma:su%{tØ%}ta
+LEXICON V_83SUTMA/PETMÄ  !!= * @CODE@ sutma:su%{tØ%}%{tt́%}a
 ! (1) I tegonimi: 
 :%^Pen%^CC2C%^Pen%^NoPAL%^VowRM Harm-Neutr_INF_mA ;
 
@@ -2782,6 +2826,64 @@ LEXICON V_83SUTMA/PETMÄ  !!= * @CODE@ sutma:su%{tØ%}ta
 ! (8) min 3. k tä: 
 :%^Pen%^StrGStem%^Pen%^PAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
 +Err/Orth-no-pal:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
++Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_sE ;
+
+! (9) jus: 
+:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM MUTUAL_JUS_kuq ;
+
+!!!
+LEXICON V_83VWTMA  !!= * @CODE@ võtma:võ%{tØ%}%{tt́Ø%}a
+!! gradation: G3, G4, G1
+!! * Yaml: **vwtma**
+:%{back%} V_83VWTMA/XX ;
+
+LEXICON V_83VWTMA/XX  !!= * @CODE@ võtma:võ%{tØ%}%{tt́Ø%}a
+! (1) I tegonimi: 
+:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM Harm-Neutr_INF_mA ;
+
+! (2) II tegonimi: 
+:%^Pen%^StrGStem%^Pen%^NoPAL Harm-Neutr_INF_ZEROq ;
+:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT-PRSPRC_vA ;
+
+! (3) tekev tm aktiiv: 
+:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT-PRFPRC-ALL_nUq ;
+
+! (4) Tettäv tm passiiv: 
+:%^Pen%^G1%^Pen%^NoPAL%^VowRM%>e Harm-Neutr_NÕSTMA-PSS-DISTRIBUTION ;
+:%^Pen%^G1%^Pen%^NoPAL%^VowRM%>e PSS-IND-SG1_dX/SG3_tX ; !! IS THIS RIGHT? 2015-09-02
+
+:%^Pen%^G1%^Pen%^NoPAL%^VowRM%>e Harm-Neutr_LUGWMA_PSS-PRC ;
+
+! (5) Olõvao 1. k maq: (1. and Neg, ConNegs.)
+! Different from 2.
+:%^Pen%^WGStem%^Pen%^NoPAL ACT-IND-CONNEG/PRS-SG1 ; !! sõida
++Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^NoPAL ACT-IND-CONNEG ;
+! 2nd person indicative present
+:%^Pen%^WGStem%^Pen%^NoPAL ACT-IND-PRS-SG2_t/dEq/PL2_tiq ;
+
+! 1st person plural present
+:%^Pen%^WGStem%^Pen%^NoPAL ACT-IND-PRS-PL1_miq ; 
+
+! (6) Olõvao 3. k tä: 
+:%^Pen%^StrGStem%^Pen%^NoPAL ACT-IND-PRS-SG3_ZERO/PL3_vAq ;
+
+! (7) min 1. k maq: Sg1 and Pl3
+:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG1_i/PL3_iq ; 
++Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG1_sE/PL3_sEq ; 
+
+! (7.2) Sg2, Pl1 and Pl2
+:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG2_it/idEq/PL1_imiq/PL2_itiq ;
++Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
+
++Use/NG+Err/Orth:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG2_iq ;
++Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG2_sEq ;
+
++Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM ACT-IND-PRT-PL3_ivAq ;
++Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT-IND-PRT-PL3_sEvAq ;
+
+! (8) min 3. k tä: 
+:%^Pen%^G4%^Pen%^PAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
++Err/Orth-no-pal:%^Pen%^G4%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_ZERO ;
 +Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT-IND-PRT-SG3_sE ;
 
 ! (9) jus: 

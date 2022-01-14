@@ -1324,8 +1324,8 @@ LEXICON N_36TUUM1-PL
 :%{back%} NMN_36TUUM1/XX1-PL ;
 
 LEXICON N_36HANG1 !!= @CODE@ hanǵ:hang
-:%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
-+Err/Orth-no-pal:%^NoPAL ATTESTED-NOUN-STEM-CONTINUED ;
+:%^StrGStem%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
++Err/Orth-no-pal:%^StrGStem%^NoPAL ATTESTED-NOUN-STEM-CONTINUED ;
         N_36HANG1-SG ;
  N_36HANG1-PL ;
 LEXICON N_36HANG1-SG
@@ -1334,9 +1334,9 @@ LEXICON N_36HANG1-PL
 :%{back%}     NMN_36HANG1/SAERG1-PL ;
 
 
-LEXICON N_36SAERG1 !!= @CODE@ särǵ:särg
-:%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
-+Err/Orth-no-pal:%^NoPAL ATTESTED-NOUN-STEM-CONTINUED ;
+LEXICON N_36SAERG1 !!= @CODE@ särǵ:sär%{gǵØ%}
+:%^StrGStem%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
++Err/Orth-no-pal:%^StrGStem%^NoPAL ATTESTED-NOUN-STEM-CONTINUED ;
         N_36SAERG1-SG ;
         N_36SAERG1-PL ;
 LEXICON N_36SAERG1-SG
@@ -1631,7 +1631,7 @@ LEXICON N_40HELUE-SG
 LEXICON N_40HELUE-PL
 :%{front%}     NMN_40TALO/HELUE-PL ;
 
-LEXICON N_40UJA !!= @CODE@ uja:uja
+LEXICON N_40UJA !!= @CODE@ uja:u%{jØ%}ja
 : ATTESTED-NOUN-STEM-CONTINUED ;
         N_40UJA-SG ;
         N_40UJA-PL ;
@@ -3966,32 +3966,32 @@ LEXICON NMN_12NWKWS1-SG
 +Err/Orth-no-pal:%^Pen%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;
 :%^Pen%^WGStem%^NoPAL%>õ       SG-GEN_ZERO        ;
 :%^Pen%^WGStem%^NoPAL       Harm-Neutr_SG-PAR_t        ;
-:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       Harm-Neutr_SG-ILL_he       ;!2020-02-13 WHAT
+:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       Harm-Neutr_SG-ILL_he       ;!2020-02-13 WHAT
 :%^Pen%^WGStem%^NoPAL%>õ       Harm-Neutr_SG-COM ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       SG-GEN_ZERO-STEM        ; !!= * @CODE@ THIS NEEDS WORK
-+Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       SG-ILL_dE       ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       Harm-Neutr_SG-COM ;
++Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       SG-GEN_ZERO-STEM        ; !!= * @CODE@ THIS NEEDS WORK
++Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       SG-ILL_dE       ;
++Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       Harm-Neutr_SG-COM ;
 
 LEXICON NMN_12NWKWS1-PL 
 :%^Pen%^WGStem%^NoPAL%>õ       Harm-Neutr_PL-NOM ;
-:%^Pen%^WGStem%^StrGSt%^NoPAL%>i    Harm-Neutr_PL-GEN_dE ;
-:%^Pen%^WGStem%^StrGSt%^NoPAL%>i        PL-ILL_he       ;
-:%^Pen%^WGStem%^StrGSt%^NoPAL%>i        PL-ALL_lE-STEM       ;
-:%^Pen%^WGStem%^StrGSt%^NoPAL%>i      PL-PAR_t        ;
-:%^Pen%^WGStem%^StrGSt%^NoPAL%>idõ      PL-COM        ;
+:%^Pen%^WGStem%^StrGStem%^NoPAL%>i    Harm-Neutr_PL-GEN_dE ;
+:%^Pen%^WGStem%^StrGStem%^NoPAL%>i        PL-ILL_he       ;
+:%^Pen%^WGStem%^StrGStem%^NoPAL%>i        PL-ALL_lE-STEM       ;
+:%^Pen%^WGStem%^StrGStem%^NoPAL%>i      PL-PAR_t        ;
+:%^Pen%^WGStem%^StrGStem%^NoPAL%>idõ      PL-COM        ;
 
-+Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       Harm-Neutr_PL-NOM ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>ii    Harm-Neutr_PL-GEN_dE ;
++Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       Harm-Neutr_PL-NOM ;
++Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>ii    Harm-Neutr_PL-GEN_dE ;
 +Use/NG+Err/Orth:%^Pen%^WGStem%^NoPAL%>tõ    PL-GEN_ZERO ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>ii      PL-PAR_d        ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>ii        PL-ILL_he       ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>i        PL-ILL_dE       ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>ii        PL-ILL_dE       ;
++Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>ii      PL-PAR_d        ;
++Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>ii        PL-ILL_he       ;
++Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>i        PL-ILL_dE       ;
++Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>ii        PL-ILL_dE       ;
 +Use/NG+Err/Orth:%^Pen%^WGStem%^NoPAL%>tõ        PL-ILL_he       ;
 +Use/NG+Err/Orth:%^Pen%^WGStem%^NoPAL%>tõ        PL-ILL_dE       ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>ii        PL-ALL_lE-STEM       ;
++Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>ii        PL-ALL_lE-STEM       ;
 +Use/NG+Err/Orth:%^Pen%^WGStem%^NoPAL%>tõ        PL-ALL_lE-STEM       ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>iidõ      PL-COM        ;
++Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>iidõ      PL-COM        ;
 +Use/NG+Err/Orth:%^Pen%^WGStem%^NoPAL%>tõ      PL-COM        ;
 
 
@@ -4386,10 +4386,10 @@ LEXICON NMN_15KOTUS/ILVES-SG
 :%^WGStem%>%{eõ%}   SG-GEN_ZERO  ;
 :%^WGStem   Harm-Neutr_SG-PAR_t      ;
 :%^WGStem%>%{eõ%} Harm-Neutr_SG-COM ;
-+Use/NG+Err/Orth:%^StrGSt%{eõ%}   SG-GEN_ZERO-STEM        ;
-+Use/NG+Err/Orth:%^StrGSt%{eõ%}   SG-ILL_dE     ;
-+Use/NG+Err/Orth:%^StrGSt%{eõ%}   Harm-Neutr_SG-ILL_he     ;
-+Use/NG+Err/Orth:%^StrGSt%{eõ%} Harm-Neutr_SG-COM ;
++Use/NG+Err/Orth:%^StrGStem%{eõ%}   SG-GEN_ZERO-STEM        ;
++Use/NG+Err/Orth:%^StrGStem%{eõ%}   SG-ILL_dE     ;
++Use/NG+Err/Orth:%^StrGStem%{eõ%}   Harm-Neutr_SG-ILL_he     ;
++Use/NG+Err/Orth:%^StrGStem%{eõ%} Harm-Neutr_SG-COM ;
 
 LEXICON NMN_15KOTUS/ILVES-PL 
 :%^WGStem%>%{eõ%}   Harm-Neutr_PL-NOM  ;
@@ -4399,7 +4399,7 @@ LEXICON NMN_15KOTUS/ILVES-PL
 :%^StrGSti PL-ALL_lE-STEM ;
 :%^StrGStid%{eõ%} PL-COM ;
 
-+Use/NG+Err/Orth:%^StrGSt%{eõ%}   Harm-Neutr_PL-NOM  ;
++Use/NG+Err/Orth:%^StrGStem%{eõ%}   Harm-Neutr_PL-NOM  ;
 +Use/NG+Err/Orth:t%{eõ%} PL-GEN_ZERO ;
 +Use/NG+Err/Orth:%^StrGStii Harm-Neutr_PL-GEN_dE ;
 +Use/NG+Err/Orth:%^StrGStii PL-PAR_d ;
@@ -6194,6 +6194,7 @@ LEXICON NMN_39HAEBUE-PL
 
 
 LEXICON NMN_40TALO/HELUE
+! G2, G3
   NMN_40TALO/HELUE-SG ;
   NMN_40TALO/HELUE-PL ;
 LEXICON NMN_40TALO/HELUE-SG 
@@ -6250,6 +6251,7 @@ LEXICON NMN_40SAVV/TUEKK-PL
 
 
 !LEXICON NMN_40UJA/XX
+! G2, G3
 !  NMN_40UJA/XX-SG ;
 !  NMN_40UJA/XX-PL ;
 LEXICON NMN_40UJA/XX-SG !uja:u%{jØ%}ja N_40UJA "_uja, ujja uia__uja_"
@@ -7133,15 +7135,15 @@ LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_gaq
 @U.Case.Com@+Com:@U.Case.Com@%>gaq K ;
 @U.Case.Com@+Use/NG+Err/Orth-no-q+Com:@U.Case.Com@%>ga K ;
 
-LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_kaq
-@U.Case.Com@+Com:@U.Case.Com@%>kaq K ;
-@U.Case.Com@+Use/NG+Err/Orth-no-q+Com:@U.Case.Com@%>ka K ;
+!LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_kaq
+!@U.Case.Com@+Com:@U.Case.Com@%>kaq K ;
+!@U.Case.Com@+Use/NG+Err/Orth-no-q+Com:@U.Case.Com@%>ka K ;
 
 LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_ELASUF
 @U.Case.Ela@+Ela:@U.Case.Ela@%>st K ;
 
-LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_ILLSUF_he
-@U.Case.Ill@+Ill:@U.Case.Ill@%>he K ;
+!LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_ILLSUF_he
+!@U.Case.Ill@+Ill:@U.Case.Ill@%>he K ;
 
 LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_N-H-HN
  NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_n ;
@@ -7154,11 +7156,11 @@ LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_h
 LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_hn
 @U.Case.Ine@+Ine:@U.Case.Ine@%>hn K ;
 
-LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_NOMSUF
-@U.Case.Nom@+Nom:@U.Case.Nom@ K ;
+!LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_NOMSUF
+!@U.Case.Nom@+Nom:@U.Case.Nom@ K ;
 
-LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_PARSUF_dA
-@U.Case.Par@+Par:@U.Case.Par@%>d%{aä%} K ;
+!LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_PARSUF_dA
+!@U.Case.Par@+Par:@U.Case.Par@%>d%{aä%} K ;
 
 LEXICON NEUTR_FOLLOW-CLITIC-OR-NOT_TERSUF
 +Ter:%>niq K ;
