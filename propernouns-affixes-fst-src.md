@@ -191,8 +191,13 @@ derived from 36särǵ
 
  LEXICON PROP_40TALO  talo:talo
 
+ LEXICON PROP_40UJA  uja:uja
 
 
+
+
+ LEXICON PROP_41ASK  ask:asko
+* Yaml: __aig, aig__
 
 
 

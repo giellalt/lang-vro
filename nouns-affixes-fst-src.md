@@ -316,7 +316,7 @@ lumi:lum
  LEXICON N_36HANG1  hanǵ:hang
 
 
- LEXICON N_36SAERG1  särǵ:särg
+ LEXICON N_36SAERG1  särǵ:sär%{gǵØ%}
 
  LEXICON N_36PAEIV  päiv:päiv
 
@@ -384,7 +384,7 @@ derived from 36särǵ
 
  LEXICON N_40HELUE  helü:helü
 
- LEXICON N_40UJA  uja:uja
+ LEXICON N_40UJA  uja:u%{jØ%}ja
 
  LEXICON N_40SAVV  savv:savvu
 
@@ -1507,7 +1507,7 @@ Gradation: YES
 
 **N-suekues12**
 
- * +Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
+ * +Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
 
 
 

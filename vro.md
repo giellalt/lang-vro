@@ -3270,7 +3270,7 @@ lumi:lum
  LEXICON N_36HANG1  hanǵ:hang
 
 
- LEXICON N_36SAERG1  särǵ:särg
+ LEXICON N_36SAERG1  särǵ:sär%{gǵØ%}
 
  LEXICON N_36PAEIV  päiv:päiv
 
@@ -3338,7 +3338,7 @@ derived from 36särǵ
 
  LEXICON N_40HELUE  helü:helü
 
- LEXICON N_40UJA  uja:uja
+ LEXICON N_40UJA  uja:u%{jØ%}ja
 
  LEXICON N_40SAVV  savv:savvu
 
@@ -4461,7 +4461,7 @@ Gradation: YES
 
 **N-suekues12**
 
- * +Use/NG+Err/Orth:%^Pen%^WGStem%^StrGSt%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
+ * +Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
 
 
 
@@ -5836,7 +5836,19 @@ ehitelemä:ehitell
 
  * **LEXICON V_53KAEMA** 
  * **LEXICON V_53JAEAEMAE** 
- * **LEXICON V_53KAEMA/JAEAEMAE** 
+ * **LEXICON V_53XX/JAEAEMAE** 
+
+ * :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+
+ *  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+
+ * :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
+ * :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
+ * :%^VOWRaise ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
+
+ *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+
+ * **LEXICON V_53KAEMA/XX** 
 
  * :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
@@ -6735,14 +6747,35 @@ IS THIS RIGHT? 2015-09-02
 
 
 
- * LEXICON V_83SUTMA   atma:a%{tØ%}ta
+ * LEXICON V_83SUTMA   atma:a%{tØ%}%{tt́%}a
 gradation: yes
 * Yaml: **switma**
- * LEXICON V_83PETMÄ   petmä:pe%{tØ%}tä
-gradation: yes
+ * LEXICON V_83PETMÄ   petmä:pe%{tØ%}%{tt́%}ä
+gradation: G3, G4
 * Yaml: **heitmae**
 
- * LEXICON V_83SUTMA/PETMÄ   sutma:su%{tØ%}ta
+ * LEXICON V_83SUTMA/PETMÄ   sutma:su%{tØ%}%{tt́%}a
+
+
+
+IS THIS RIGHT? 2015-09-02
+
+
+sõida
+
+
+
+
+
+
+
+
+
+ * LEXICON V_83VWTMA   võtma:võ%{tØ%}%{tt́Ø%}a
+gradation: G3, G4, G1
+* Yaml: **vwtma**
+
+ * LEXICON V_83VWTMA/XX   võtma:võ%{tØ%}%{tt́Ø%}a
 
 
 
@@ -7685,8 +7718,13 @@ derived from 36särǵ
 
  LEXICON PROP_40TALO  talo:talo
 
+ LEXICON PROP_40UJA  uja:uja
 
 
+
+
+ LEXICON PROP_41ASK  ask:asko
+* Yaml: __aig, aig__
 
 
 
@@ -8405,6 +8443,14 @@ CONSONANT
 **%{tt́Ø%}:t́ **
 * *täh%{tt́Ø%}%{front%}%^StrGStem%^PAL*
 * *täht́000*
+* *võ{tØ}{tt́Ø}a{back}^Pen^StrGStem^Pen^PAL^VowRM*
+* *võtt́0000000*
+
+**%{tt́Ø%}:t **
+
+täht́+N+Err/Orth-no-pal+Sg+Nom: __star/tähti__
+* *täh{tt́Ø}{front}^StrGStem^NoPAL*
+* *täht000*
 
 **%{kḱØ%}:ḱ**
 
@@ -8476,6 +8522,8 @@ kakma
 **%{pṕØ%}:0**  
 
 **%{tt́Ø%}:0**  
+* *võ{tØ}{tt́Ø}a^Pen^G1^Pen^NoPAL^VowRM>eti*
+* *võ00000000>eti*
 
 **%{kḱØ%}:0**  
 
@@ -9442,6 +9490,7 @@ hanśa+N:hanśa N_1HANS1A "" ;
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/nouns.lexc)</small>
 ### ADVERBS
+
 
 ### CONJUNTIONS
 

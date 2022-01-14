@@ -129,7 +129,19 @@ ehitelemä:ehitell
 
  * **LEXICON V_53KAEMA** 
  * **LEXICON V_53JAEAEMAE** 
- * **LEXICON V_53KAEMA/JAEAEMAE** 
+ * **LEXICON V_53XX/JAEAEMAE** 
+
+ * :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+
+ *  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+
+ * :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
+ * :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
+ * :%^VOWRaise ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
+
+ *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+
+ * **LEXICON V_53KAEMA/XX** 
 
  * :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
@@ -1028,14 +1040,35 @@ IS THIS RIGHT? 2015-09-02
 
 
 
- * LEXICON V_83SUTMA   atma:a%{tØ%}ta
+ * LEXICON V_83SUTMA   atma:a%{tØ%}%{tt́%}a
 gradation: yes
 * Yaml: **switma**
- * LEXICON V_83PETMÄ   petmä:pe%{tØ%}tä
-gradation: yes
+ * LEXICON V_83PETMÄ   petmä:pe%{tØ%}%{tt́%}ä
+gradation: G3, G4
 * Yaml: **heitmae**
 
- * LEXICON V_83SUTMA/PETMÄ   sutma:su%{tØ%}ta
+ * LEXICON V_83SUTMA/PETMÄ   sutma:su%{tØ%}%{tt́%}a
+
+
+
+IS THIS RIGHT? 2015-09-02
+
+
+sõida
+
+
+
+
+
+
+
+
+
+ * LEXICON V_83VWTMA   võtma:võ%{tØ%}%{tt́Ø%}a
+gradation: G3, G4, G1
+* Yaml: **vwtma**
+
+ * LEXICON V_83VWTMA/XX   võtma:võ%{tØ%}%{tt́Ø%}a
 
 
 

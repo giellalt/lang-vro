@@ -679,6 +679,14 @@ CONSONANT
 **%{tt́Ø%}:t́ **
 * *täh%{tt́Ø%}%{front%}%^StrGStem%^PAL*
 * *täht́000*
+* *võ{tØ}{tt́Ø}a{back}^Pen^StrGStem^Pen^PAL^VowRM*
+* *võtt́0000000*
+
+**%{tt́Ø%}:t **
+
+täht́+N+Err/Orth-no-pal+Sg+Nom: __star/tähti__
+* *täh{tt́Ø}{front}^StrGStem^NoPAL*
+* *täht000*
 
 **%{kḱØ%}:ḱ**
 
@@ -750,6 +758,8 @@ kakma
 **%{pṕØ%}:0**  
 
 **%{tt́Ø%}:0**  
+* *võ{tØ}{tt́Ø}a^Pen^G1^Pen^NoPAL^VowRM>eti*
+* *võ00000000>eti*
 
 **%{kḱØ%}:0**  
 
