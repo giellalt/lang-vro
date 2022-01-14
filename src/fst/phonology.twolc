@@ -718,7 +718,7 @@ Rules
 !!kiirdlemä+V:
 !!€ k%{ei%}%{ei%}r%{dØ%}%{eØ%}%{lĺ%}%{front%}%^Pen%^VOWRaise%^Pen%^VowRM%>%{eõ%}%>m%{aä%}
 !!€ ki̬i̬rd0l00000%>e%>mä
-!echo 'k {ei}:i {ei}:i r {dØ}:d {eØ}:0 {lĺ}:l {front}:0 ^Pen:0 ^VOWRaise:0 ^Pen:0 ^VowRM:0 > {eõ}:e > m {aä}:ä' | hfst-pair-test src/phonology/vro-phon.compose.hfst
+!echo 'k {ei}:i {ei}:i r {dØ}:d {eØ}:0 {lĺ}:l {front}:0 ^Pen:0 ^VOWRaise:0 ^Pen:0 ^VowRM:0 > {eõ}:e > m {aä}:ä' | hfst-pair-test src/fst/phonology.compose.hfst
 
 "i2e"
 !! **@RULENAME@**
@@ -1118,6 +1118,19 @@ Rules
 !!täht́+N+Sg+Nom:
 !!€ täh%{tt́Ø%}%{front%}%^StrGStem%^PAL
 !!€ täht́000
+  %{tØ%}: _ Vow: (HarmDummies:) PenVOWHite %^Pen: %^G4: %^Pen: %^PAL: %^VowRM: ;
+!!€ võ{tØ}{tt́Ø}a{back}^Pen^StrGStem^Pen^PAL^VowRM
+!!€ võtt́0000000
+
+"%{tt́Ø%}:t "
+!! **@RULENAME@**
+%{tt́Ø%}:t <=>
+
+  [%{tØ%}:|h] _ (HarmDummies:) VOWHite [%^CC2C: |%^G4: | %^StrGStem:] %^NoPAL: ;
+  [%{tØ%}:|h] _ Vow: (HarmDummies:) PenVOWHite %^Pen: [%^CC2C: |%^G4: | %^StrGStem:] %^Pen: %^NoPAL: ;
+!! täht́+N+Err/Orth-no-pal+Sg+Nom: __star/tähti__
+!!€ täh{tt́Ø}{front}^StrGStem^NoPAL
+!!€ täht000
 
 "%{kḱØ%}:ḱ"
 !! **@RULENAME@**
@@ -1153,7 +1166,7 @@ Vow: _ [ p ] Vow: (HarmDummies:) PenVOWHite %^Pen:  %^StrGStem: ;
 "%{tØ%}:t"
 !! **@RULENAME@**
  %{tØ%}:t <=>
- Vow _ [%{tdØ%}:|%{td%}:|t́] [Vow:|ArchVow:] (HarmDummies:) PenVOWHite  %^Pen: [ %^G4:|%^StrGStem:] ;
+ Vow _ [%{tdØ%}:|%{td%}:|%{tt́Ø%}:|t́] [Vow:|ArchVow:] (HarmDummies:) PenVOWHite  %^Pen: [ %^G4:|%^StrGStem:] ;
 !!€ sõ%{tØ%}da%{back%}%^G4%^PLPRT
 !!€ sõtto000
    Vow: _ [t|%{tt́%}:] (HarmDummies:) VOWHite %^StrGStem: ;
@@ -1249,6 +1262,9 @@ k:0 <=>
  %{tt́Ø%}:0 <=>
   [t|h] _ (HarmDummies:) VOWHite [%^WGStem: | %^G1: ] ;
   [t|h] _ (HarmDummies:) PenVOWHite %^Pen: [%^WGStem: | %^G1: ] ;
+  %{tØ%}: _ Vow: (HarmDummies:) PenVOWHite %^Pen: %^G1: ;
+!!€ võ{tØ}{tt́Ø}a^Pen^G1^Pen^NoPAL^VowRM>eti
+!!€ võ00000000>eti
 
 "%{kḱØ%}:0"
 !! **@RULENAME@**  
