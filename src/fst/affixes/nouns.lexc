@@ -1748,9 +1748,9 @@ LEXICON N_43ELAENIK !!= @CODE@ elänik+N:eläni%{kØ%}%{kg%}
         N_43ELAENIK-SG ;
         N_43ELAENIK-PL ;
 LEXICON N_43ELAENIK-SG
-:%{front%}     NMN_43KANARIK/ELAENIK-SG ;
+@U.VowHarm.F@:@U.VowHarm.F@%{front%}     NMN_43KANARIK/ELAENIK-SG ;
 LEXICON N_43ELAENIK-PL
-:%{front%}     NMN_43KANARIK/ELAENIK-PL ;
+@U.VowHarm.F@:@U.VowHarm.F@%{front%}     NMN_43KANARIK/ELAENIK-PL ;
 
 LEXICON N_43SASLWK1 !!= @CODE@
 :%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
@@ -4393,23 +4393,23 @@ LEXICON NMN_15KOTUS/ILVES-SG
 
 LEXICON NMN_15KOTUS/ILVES-PL 
 :%^WGStem%>%{eõ%}   Harm-Neutr_PL-NOM  ;
-:%^StrGSti Harm-Neutr_PL-GEN_dE ;
-:%^StrGSti PL-ILL_he ;
-:%^StrGSti PL-PAR_t ;
-:%^StrGSti PL-ALL_lE-STEM ;
-:%^StrGStid%{eõ%} PL-COM ;
+:%^StrGStem%>i Harm-Neutr_PL-GEN_dE ;
+:%^StrGStem%>i PL-ILL_he ;
+:%^StrGStem%>i PL-PAR_t ;
+:%^StrGStem%>i PL-ALL_lE-STEM ;
+:%^StrGStem%>id%{eõ%} PL-COM ;
 
 +Use/NG+Err/Orth:%^StrGStem%{eõ%}   Harm-Neutr_PL-NOM  ;
 +Use/NG+Err/Orth:t%{eõ%} PL-GEN_ZERO ;
-+Use/NG+Err/Orth:%^StrGStii Harm-Neutr_PL-GEN_dE ;
-+Use/NG+Err/Orth:%^StrGStii PL-PAR_d ;
-+Use/NG+Err/Orth:%^StrGStii PL-ILL_he ;
-+Use/NG+Err/Orth:%^StrGSti PL-ILL_dE ;
-+Use/NG+Err/Orth:%^StrGStii PL-ILL_dE ;
++Use/NG+Err/Orth:%^StrGStem%>ii Harm-Neutr_PL-GEN_dE ;
++Use/NG+Err/Orth:%^StrGStem%>ii PL-PAR_d ;
++Use/NG+Err/Orth:%^StrGStem%>ii PL-ILL_he ;
++Use/NG+Err/Orth:%^StrGStem%>i PL-ILL_dE ;
++Use/NG+Err/Orth:%^StrGStem%>ii PL-ILL_dE ;
 +Use/NG+Err/Orth:t%{eõ%} PL-ILL_he ;
-+Use/NG+Err/Orth:%^StrGStii PL-ALL_lE-STEM ;
++Use/NG+Err/Orth:%^StrGStem%>ii PL-ALL_lE-STEM ;
 +Use/NG+Err/Orth:t%{eõ%} PL-ALL_lE-STEM ;
-+Use/NG+Err/Orth:%^StrGStiid%{eõ%} PL-COM ;
++Use/NG+Err/Orth:%^StrGStem%>iid%{eõ%} PL-COM ;
 +Use/NG+Err/Orth:t%{eõ%} PL-COM ;
 
 LEXICON NMN_16ABILINW/INEMINE !!= @CODE@ inemine:inemi abilinõ:abili
@@ -6478,6 +6478,10 @@ LEXICON NMN_43KANARIK/ELAENIK-SG  !usklik+A:%{ˋØ%}#uskli%{kØ%}%{kg%}
 
 LEXICON NMN_43KANARIK/ELAENIK-PL 
 :%^G2%>u       Harm-Neutr_PL-NOM ;
+NMN_43KANARIK/ELAENIK-PL-OBL ;
+@R.VowHarm.F@+Err/Orth-back:@R.VowHarm.F@%{back%} NMN_43KANARIK/ELAENIK-PL-OBL ;
+
+LEXICON NMN_43KANARIK/ELAENIK-PL-OBL
 :%^G4%>%{eõ%}    PL-GEN_ZERO ;
 :%^G4%>%{eõ%}    PL-ILL_hE ;
 :%^G4%>%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;

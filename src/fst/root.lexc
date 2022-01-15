@@ -85,7 +85,9 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
  +Err/Orth-raised-vow !!≈ * **@CODE@** 
  +Err/Orth-lowered-vow !!≈ * **@CODE@** 
  +Err/Orth-est !!≈ * **@CODE@** 
- +Err/Orth-weak-grade !!≈ * **@CODE@** 
+ +Err/Orth-weak-grade !!≈ * **@CODE@**
+ +Err/Orth-back	      !!≈ * **@CODE@** erroneous back harmony, see flags
+ +Err/Orth-front      !!≈ * **@CODE@** erroneous front harmony, see flags
  +Use/-Spell !!≈ * **@CODE@**
  +Use/NG     !!≈ * **@CODE@** No generation
  +Cmp/Hyph   !!≈ * **@CODE@** 
@@ -753,6 +755,12 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
 
  @U.Number.Pl@	    !!≈ |  **@CODE@** | Plural
  @U.Number.Sg@	    !!≈ |  **@CODE@** | Singular
+
+!! The following flag diacritics are being applied for vowel harmony variation
+@U.VowHarm.B@	 !!≈ |  **@CODE@** | Back harmony, used with subsequent Err/Orth-front
+@U.VowHarm.F@	 !!≈ |  **@CODE@** | Front harmony, used with subsequent Err/Orth-back
+@R.VowHarm.B@
+@R.VowHarm.F@
 
 !! # The Root lexicon
 
