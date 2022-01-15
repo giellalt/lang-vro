@@ -9504,6 +9504,7 @@ hanśa+N:hanśa N_1HANS1A "" ;
 
 ### PLURAL NOUNS
 
+### NUMERALS
 
 ### POSTPOSITIONA
 
