@@ -204,6 +204,7 @@ derived from 36särǵ
 
 
 
+
  LEXICON PROP_44SWDA  sõda:sõda
 
 

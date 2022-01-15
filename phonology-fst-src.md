@@ -276,7 +276,6 @@ Right context for gradation
 
 
 
-
 # Rules
 
 
@@ -491,7 +490,7 @@ päiv+N+Sg+Gen: **day/päivä**
 
 ### VOWEL LOSS
 **a:0**
-       a _ (HarmDummies:) %>  i  ;  
+       a _ (HarmDummiesVar) %>  i  ;  
 * *saa%{back%}%>i*
 * *sa00%>i*
 sõimama+V+Act+Ind+Prt+Sg1
@@ -542,7 +541,7 @@ juusk+N+Sg+Nom: ____
 * *ku000>i>d*
 ```
 
-[ Cns: |ArchCns:| Vow: ] _ (s:) (HarmDummies:) [(%^Pen: %^CC2C:|%^Pen: %^G3:|%^Pen: %^G4:|PenVOWHite %^Pen: %^G1:) %^VowRM: ]( CnsInZero: (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: )  ; 
+[ Cns: |ArchCns:| Vow: ] _ (s:) (HarmDummiesVar) [(%^Pen: %^CC2C:|%^Pen: %^G3:|%^Pen: %^G4:|PenVOWHite %^Pen: %^G1:) %^VowRM: ]( CnsInZero: (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: )  ; 
 * *tüü%{front%}%^VowRM%>hüq*
 * *tü000%>hüq*
 * *tervüs%{front%}%^VowRM%^WGStem%>i%>t*

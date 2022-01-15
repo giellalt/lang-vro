@@ -71,7 +71,9 @@ The Usage extents are marked using following tags:
  * **+Err/Orth-raised-vow** 
  * **+Err/Orth-lowered-vow** 
  * **+Err/Orth-est** 
- * **+Err/Orth-weak-grade** 
+ * **+Err/Orth-weak-grade**
+ * **+Err/Orth-back** erroneous back harmony, see flags
+ * **+Err/Orth-front** erroneous front harmony, see flags
  * **+Use/-Spell**
  * **+Use/NG** No generation
  * **+Cmp/Hyph** 
@@ -589,6 +591,10 @@ given the proper use of these flags.
 
  |  **@U.Number.Pl@** | Plural
  |  **@U.Number.Sg@** | Singular
+
+The following flag diacritics are being applied for vowel harmony variation
+ |  **@U.VowHarm.B@** | Back harmony, used with subsequent Err/Orth-front
+ |  **@U.VowHarm.F@** | Front harmony, used with subsequent Err/Orth-back
 
 # The Root lexicon
 

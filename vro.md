@@ -2363,7 +2363,9 @@ The Usage extents are marked using following tags:
  * **+Err/Orth-raised-vow** 
  * **+Err/Orth-lowered-vow** 
  * **+Err/Orth-est** 
- * **+Err/Orth-weak-grade** 
+ * **+Err/Orth-weak-grade**
+ * **+Err/Orth-back** erroneous back harmony, see flags
+ * **+Err/Orth-front** erroneous front harmony, see flags
  * **+Use/-Spell**
  * **+Use/NG** No generation
  * **+Cmp/Hyph** 
@@ -2881,6 +2883,10 @@ given the proper use of these flags.
 
  |  **@U.Number.Pl@** | Plural
  |  **@U.Number.Sg@** | Singular
+
+The following flag diacritics are being applied for vowel harmony variation
+ |  **@U.VowHarm.B@** | Back harmony, used with subsequent Err/Orth-front
+ |  **@U.VowHarm.F@** | Front harmony, used with subsequent Err/Orth-back
 
 # The Root lexicon
 
@@ -5173,6 +5179,7 @@ stem_vowel="o"
  * +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
 
  * :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
+
 
 
 
@@ -7731,6 +7738,7 @@ derived from 36särǵ
 
 
 
+
  LEXICON PROP_44SWDA  sõda:sõda
 
 
@@ -8040,7 +8048,6 @@ Right context for gradation
 
 
 
-
 # Rules
 
 
@@ -8255,7 +8262,7 @@ päiv+N+Sg+Gen: **day/päivä**
 
 ### VOWEL LOSS
 **a:0**
-       a _ (HarmDummies:) %>  i  ;  
+       a _ (HarmDummiesVar) %>  i  ;  
 * *saa%{back%}%>i*
 * *sa00%>i*
 sõimama+V+Act+Ind+Prt+Sg1
@@ -8306,7 +8313,7 @@ juusk+N+Sg+Nom: ____
 * *ku000>i>d*
 ```
 
-[ Cns: |ArchCns:| Vow: ] _ (s:) (HarmDummies:) [(%^Pen: %^CC2C:|%^Pen: %^G3:|%^Pen: %^G4:|PenVOWHite %^Pen: %^G1:) %^VowRM: ]( CnsInZero: (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: )  ; 
+[ Cns: |ArchCns:| Vow: ] _ (s:) (HarmDummiesVar) [(%^Pen: %^CC2C:|%^Pen: %^G3:|%^Pen: %^G4:|PenVOWHite %^Pen: %^G1:) %^VowRM: ]( CnsInZero: (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: )  ; 
 * *tüü%{front%}%^VowRM%>hüq*
 * *tü000%>hüq*
 * *tervüs%{front%}%^VowRM%^WGStem%>i%>t*

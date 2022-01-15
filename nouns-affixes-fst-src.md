@@ -2228,6 +2228,7 @@ stem_vowel="o"
 
 
 
+
 *kanarik # examples:*
 * *kanarik:* `kanarik+N+Sg+Nom`
 * *kanarigu:* `kanarik+N+Sg+Gen`
