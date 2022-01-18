@@ -1515,9 +1515,19 @@ LEXICON N_38PULL1
  N_38PULL1-SG ;
  N_38PULL1-PL ;
 LEXICON N_38PULL1-SG
-:%{back%} NMN_38PULL1-SG ;
+:%{back%} NMN_38PULL1/VIKS1-SG ;
 LEXICON N_38PULL1-PL
-:%{back%} NMN_38PULL1-PL ;
+:%{back%} NMN_38PULL1/VIKS1-PL ;
+
+LEXICON N_38VIKS1
+:%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
++Err/Orth-no-pal:%^NoPAL ATTESTED-NOUN-STEM-CONTINUED ;
+ N_38VIKS1-SG ;
+ N_38VIKS1-PL ;
+LEXICON N_38VIKS1-SG
+:%{back%} NMN_38PULL1/VIKS1-SG ;
+LEXICON N_38VIKS1-PL
+:%{back%} NMN_38PULL1/VIKS1-PL ;
 
 LEXICON N_38PAPP1
 :%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
@@ -4831,7 +4841,7 @@ LEXICON NMN_23SUUR1-SG
 :%^PAL      Harm-Neutr_SG-NOM ;
 +Err/Orth-no-pal:%^NoPAL      Harm-Neutr_SG-NOM ;
 :%^NoPAL%>õ      SG-GEN_ZERO-STEM ;
-             Harm-Neutr_SG-PAR_t ;
+:%^NoPAL             Harm-Neutr_SG-PAR_t ;
 :%^NoPALd%>õ             Harm-Neutr_SG-ILL_ZERO ;
 
 LEXICON NMN_23SUUR1-PL 
@@ -5962,17 +5972,17 @@ LEXICON NMN_38PUNG-PL
 :%{eõ%}    PL-ALL_lE-STEM ;
 :%{eõ%}    PL-COM ;
 
-LEXICON NMN_38PULL1 !!= * @CODE@ pulĺ:pull
-  NMN_38PULL1-SG ;
-  NMN_38PULL1-PL ;
-LEXICON NMN_38PULL1-SG 
+LEXICON NMN_38PULL1/VIKS1 !!= * @CODE@ pulĺ:pull
+  NMN_38PULL1/VIKS1-SG ;
+  NMN_38PULL1/VIKS1-PL ;
+LEXICON NMN_38PULL1/VIKS1-SG 
 :%^StrGStem%^PAL        Harm-Neutr_SG-NOM  ;
 +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ; !!= * @CODE@ no final palatal
 :%^WGStem%^NoPAL%>i       SG-GEN_ZERO-STEM        ;
 :%^StrGStem%^NoPAL%>i       Harm-Neutr_SG-ILL_ZERO        ;
 :%^StrGStem%^NoPAL%>i       Harm-Neutr_SG-PAR_ZERO        ;
 
-LEXICON NMN_38PULL1-PL 
+LEXICON NMN_38PULL1/VIKS1-PL 
 :%^WGStem%^NoPAL%>i       Harm-Neutr_PL-NOM ;
 :%^StrGStem%^NoPAL%>%{eõ%}    PL-GEN_ZERO ;
 :%^StrGStem%^NoPAL%>%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
