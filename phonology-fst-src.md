@@ -14,210 +14,210 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
 
 
 ## Special letters
- * **u̬** u plus U+032C COMBINING CARON BELOW
- * **U̬** u plus U+032C COMBINING CARON BELOW
- * **ü̬** ü plus U+032C COMBINING CARON BELOW
- * **Ü̬** ü plus U+032C COMBINING CARON BELOW
- * **i̬** i plus U+032C COMBINING CARON BELOW
- * **I̬** i plus U+032C COMBINING CARON BELOW
- * **õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
- * **Õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
- * **ˋ** U+02CB MODIFIER LETTER GRAVE ACCENT other parts of stem
- ```%{ˋØ%}:0 — U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
- **ˋ:0** — U+02CB MODIFIER LETTER GRAVE ACCENT used outside of rules, this is temporary removal 2017-04-20
+* **u̬** u plus U+032C COMBINING CARON BELOW
+* **U̬** u plus U+032C COMBINING CARON BELOW
+* **ü̬** ü plus U+032C COMBINING CARON BELOW
+* **Ü̬** ü plus U+032C COMBINING CARON BELOW
+* **i̬** i plus U+032C COMBINING CARON BELOW
+* **I̬** i plus U+032C COMBINING CARON BELOW
+* **õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+* **Õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+* **ˋ** U+02CB MODIFIER LETTER GRAVE ACCENT other parts of stem
+```%{ˋØ%}:0 — U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
+**ˋ:0** — U+02CB MODIFIER LETTER GRAVE ACCENT used outside of rules, this is temporary removal 2017-04-20
 
 
 ## Vowel harmony with "(t)a/ä"
 ```
-  %{aä%}:0    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
-  %{ae%}:a   — Vowel harmony with "a/e/õ" passive tahetu
-  %{aõ%}:a   — Vowel harmony with "a/e/õ" passive sõidõtu
-  %{äe%}:ä    — Vowel harmony with "ä/e/õ" passive
-  %{eõ%}:0    — Vowel harmony with "e/õ"
-  %{uü%}:0    — Vowel harmony with "u/ü"
-  %{öü%}:ö    — Vowel raising
-  %{ou%}:o    — Vowel raising
-  %{ei%}:e    — Vowel raising
-  %{õy%}:õ    — Vowel raising
-  %{ao%}:a    — Vowel raising
+ %{aä%}:0    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ %{ae%}:a   — Vowel harmony with "a/e/õ" passive tahetu
+ %{aõ%}:a   — Vowel harmony with "a/e/õ" passive sõidõtu
+ %{äe%}:ä    — Vowel harmony with "ä/e/õ" passive
+ %{eõ%}:0    — Vowel harmony with "e/õ"
+ %{uü%}:0    — Vowel harmony with "u/ü"
+ %{öü%}:ö    — Vowel raising
+ %{ou%}:o    — Vowel raising
+ %{ei%}:e    — Vowel raising
+ %{õy%}:õ    — Vowel raising
+ %{ao%}:a    — Vowel raising
 
-  %{eØ%}:e    — ütlemä:üt%{eØ%}l  
-  %{õØ%}:õ    — ütlemä:üt%{eØ%}l  
-  %{Øõ%}:0    — juurdlõma:juur%{dØ%}%{0õ%}l
+ %{eØ%}:e    — ütlemä:üt%{eØ%}l  
+ %{õØ%}:õ    — ütlemä:üt%{eØ%}l  
+ %{Øõ%}:0    — juurdlõma:juur%{dØ%}%{0õ%}l
 
-  %{dØ%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dv%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dn%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-  %{dl%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+ %{dØ%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dv%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dn%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+ %{dl%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
 
-  %{ij%}:i    ellä%{ij%}
-  %{gv%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gl%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gØ%}:g    — HJK and KimmoK ideas argnõma:ar%{gØ%}
-  %{uv%}:u    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{üv%}:ü    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{hØ%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{jØ%}:j    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kØ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{lØ%}:l    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{mØ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{nØ%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pØ%}:p    — HJK and KimmoK ideas oppama:o%{pØ%}pama
-  %{rØ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{sØ%}:s    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
-  %{vØ%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ij%}:i    ellä%{ij%}
+ %{gv%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{gl%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{gØ%}:g    — HJK and KimmoK ideas argnõma:ar%{gØ%}
+ %{uv%}:u    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{üv%}:ü    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{hØ%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{jØ%}:j    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kØ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{lØ%}:l    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{mØ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{nØ%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pØ%}:p    — HJK and KimmoK ideas oppama:o%{pØ%}pama
+ %{rØ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{sØ%}:s    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+ %{vØ%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{pØ%}:0    — häbü:häbü+N:hä%{pØ%}%{pbØ%}ü
-  %{tØ%}:0    — koda:ko%{tØ%}%{tdØ%}a
-  %{kØ%}:0    — nägo:nä%{kØ%}%{kgØ%}o
+ %{pØ%}:0    — häbü:häbü+N:hä%{pØ%}%{pbØ%}ü
+ %{tØ%}:0    — koda:ko%{tØ%}%{tdØ%}a
+ %{kØ%}:0    — nägo:nä%{kØ%}%{kgØ%}o
 
-  %{bv%}:b    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
-  %{dr%}:d    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
-  %{bm%}:b    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-  %{pb%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pb%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{bv%}:b    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+ %{dr%}:d    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
+ %{bm%}:b    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+ %{pb%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pb%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{tØ%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{t́Ø%}:t    — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
-  %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{t́d́%}:t́    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
+ %{tØ%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{t́Ø%}:t    — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
+ %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{t́d́%}:t́    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
 
-  %{pbØ%}:p   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pbØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pbØ%}:p   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pbØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{pbv%}:p   %{pbv%}:b   %{pbv%}:v   — tõbi: tõvõ tõpõ tõppõ
+ %{pbv%}:p   %{pbv%}:b   %{pbv%}:v   — tõbi: tõvõ tõpõ tõppõ
 
-  %{tdØ%}:d   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{tdØ%}:d   — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{kgØ%}:k   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kgØ%}:g   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kgØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kgØ%}:k   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kgØ%}:g   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kgØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{jiØ%}:i   — HJK and KimmoK ideas vari:var%{jiØ%}o
-  %{qmn%}:q   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{qn%}:q    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{jiØ%}:i   — HJK and KimmoK ideas vari:var%{jiØ%}o
+ %{qmn%}:q   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{qn%}:q    — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{dd́Ø%}:d   
-  %{dd́n%}:d   
-  %{dd́r%}:d   
-  %{dd́v%}:d   
-  %{dd́Ø%}:d   
-  %{gǵv%}:g   
-  %{gǵØ%}:g   
-  %{kḱg%}:k    %{kḱg%}:ḱ    %{kḱg%}:g   
-  %{kḱØ%}:k   
-  %{pṕb%}:p   %{pṕb%}:ṕ    %{pṕb%}:b   
-  %{tt́d%}:t    %{tt́d%}:t́    %{tt́d%}:d   
-  %{tt́Ø%}:t    täh%{tt́Ø%}
-  %{pṕØ%}:p   
+ %{dd́Ø%}:d   
+ %{dd́n%}:d   
+ %{dd́r%}:d   
+ %{dd́v%}:d   
+ %{dd́Ø%}:d   
+ %{gǵv%}:g   
+ %{gǵØ%}:g   
+ %{kḱg%}:k    %{kḱg%}:ḱ    %{kḱg%}:g   
+ %{kḱØ%}:k   
+ %{pṕb%}:p   %{pṕb%}:ṕ    %{pṕb%}:b   
+ %{tt́d%}:t    %{tt́d%}:t́    %{tt́d%}:d   
+ %{tt́Ø%}:t    täh%{tt́Ø%}
+ %{pṕØ%}:p   
 
 ```
 
 ## Palatalization of consonants
 ```
-  %{bb́%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dd́%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{ff́%}:f    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gǵ%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{hh́%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kḱ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{lĺ%}:l     — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{lĺ%}:ĺ     — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{mḿ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{nń%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pṕ%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{rŕ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{sś%}:s    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{sś%}:ś    — HJK and KimmoK ideas vaśma:va%{sØ%}%{sś%}
-  %{tt́%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{vv́%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{zź%}:z    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dd́n%}:d 
+ %{bb́%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dd́%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ff́%}:f    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{gǵ%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{hh́%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kḱ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{lĺ%}:l     — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{lĺ%}:ĺ     — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{mḿ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{nń%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pṕ%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{rŕ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{sś%}:s    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{sś%}:ś    — HJK and KimmoK ideas vaśma:va%{sØ%}%{sś%}
+ %{tt́%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{vv́%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{zź%}:z    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dd́n%}:d 
 ```
 
 ## Miscellaneous other symbols
 ```
-  %{XV%}:0    — This is used for echoing the previous vowel
-  %{XC%}:0    — This is used for lengthening a consonant
-  %^I7:0      — This appears in stem vaoma:va%^I7o for vaio
-  %^K7:0      — This appears in stem väemä:vä%^K7e for väkeq
-  %^V7:0      — This appears in stem häömä:hä%^V7ö for hävvü
-  %^T7:0      — This appears in stem kaoma:ka%^T7o for katoq
-  %^Y7:õ      — This appears for syna = s%^Y7na and is rendered as õ in the norm
+ %{XV%}:0    — This is used for echoing the previous vowel
+ %{XC%}:0    — This is used for lengthening a consonant
+ %^I7:0      — This appears in stem vaoma:va%^I7o for vaio
+ %^K7:0      — This appears in stem väemä:vä%^K7e for väkeq
+ %^V7:0      — This appears in stem häömä:hä%^V7ö for hävvü
+ %^T7:0      — This appears in stem kaoma:ka%^T7o for katoq
+ %^Y7:õ      — This appears for syna = s%^Y7na and is rendered as õ in the norm
 ```
 
 ## Triggers
 ```
-    %^OO2Õ:0    — joo%^OO2Õ%>i:j0õ0%>i
-    %^CC2C:0    — att%^CC2C%>m%{aä%} atma
-  %^PSS:0       vowel in passive tahetu, sõidõtu, eletü
-  %^ÄI2ÄÄ:0    — päiv%^ÄI2ÄÄ%>ä: päävä
-  %{front%}:0    — front harmony
-  %{back%}:0    — back harmony
- %^ErrorBack:0  — +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
-  %{PrsSg1%}:0  — this helps with %{eõ%}:i̬
+   %^OO2Õ:0    — joo%^OO2Õ%>i:j0õ0%>i
+   %^CC2C:0    — att%^CC2C%>m%{aä%} atma
+ %^PSS:0       vowel in passive tahetu, sõidõtu, eletü
+ %^ÄI2ÄÄ:0    — päiv%^ÄI2ÄÄ%>ä: päävä
+ %{front%}:0    — front harmony
+ %{back%}:0    — back harmony
+%^ErrorBack:0  — +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+ %{PrsSg1%}:0  — this helps with %{eõ%}:i̬
 ```
 
 ```
 
-  %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kg%}:k 	 HJK and KimmoK ideas kaigas:kai%{kg%}as
+ %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kg%}:k 	 HJK and KimmoK ideas kaigas:kai%{kg%}as
 
-  %{qmn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{qn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{XV%}:0		 This is used for echoing the previous vowel
-  %{XC%}:0	 This is used for lengthening a consonant
-  %^I7:0          This appears in stem vaoma:va%^I7o for vaio
-  %^K7:0           This appears in stem väemä:vä%^K7e for väkeq
-  %^V7:0          This appears in stem häömä:hä%^V7ö for hävvü
-  %^T7:0          This appears in stem kaoma:ka%^T7o for katoq
+ %{qmn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{qn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{XV%}:0		 This is used for echoing the previous vowel
+ %{XC%}:0	 This is used for lengthening a consonant
+ %^I7:0          This appears in stem vaoma:va%^I7o for vaio
+ %^K7:0           This appears in stem väemä:vä%^K7e for väkeq
+ %^V7:0          This appears in stem häömä:hä%^V7ö for hävvü
+ %^T7:0          This appears in stem kaoma:ka%^T7o for katoq
 
- **%^Y7:õ  **  This appears for syna = s%^Y7na and is rendered as õ in the norm
+**%^Y7:õ  **  This appears for syna = s%^Y7na and is rendered as õ in the norm
 ```
 
 
 
 ```
- %^NoGrad:0     — This will be placed after a stem to break Gradation
- %^APOCH:0      — This causes apochope: puhksama vs puhastaq
- %^StrD2T:0     — This changes g,d,b => k,t,p
+%^NoGrad:0     — This will be placed after a stem to break Gradation
+%^APOCH:0      — This causes apochope: puhksama vs puhastaq
+%^StrD2T:0     — This changes g,d,b => k,t,p
 
- %^G1:0	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
- %^G2:0	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
- %^G3:0	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
- %^G4:0	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k
+%^G1:0	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
+%^G2:0	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
+%^G3:0	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
+%^G4:0	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k
 
- %^WGStem:0     — This weakens "kipõń" to "kibõna", "ompel" to "ommel"
- %^StrGStem:0   — This strengthens "perädü" to "perätüt"
- %^ShortGStem:0   — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
- %^LongGStem:0     — This lengthens "pu%{tØ%}tu" to "puttuq"
+%^WGStem:0     — This weakens "kipõń" to "kibõna", "ompel" to "ommel"
+%^StrGStem:0   — This strengthens "perädü" to "perätüt"
+%^ShortGStem:0   — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
+%^LongGStem:0     — This lengthens "pu%{tØ%}tu" to "puttuq"
 
 
- %^Pen:0        — This moves us to penultimate coda
- %^PAL:0	       — Palatalization
- %^NoPAL:0	       — NoPalatalization
+%^Pen:0        — This moves us to penultimate coda
+%^PAL:0	       — Palatalization
+%^NoPAL:0	       — NoPalatalization
 
- %^JI20:0	       — in vari: vaŕo
- %^JI2I:0	       — in vari vari
- %^JI2J:0	       — in vari: varjo
+%^JI20:0	       — in vari: vaŕo
+%^JI2I:0	       — in vari vari
+%^JI2J:0	       — in vari: varjo
 
- %^PenWGStem:0  — This weakens "kipõń" to "kibõna"
- %^PenVowRM:0   — syncope tapõld : taplõma 
- %^D2S:0        — The ti => si
- %^TS2S:0       — The -ts- => -s-
- %^I2J:0        — The i => j change
- %^PLPRT:0      — The a:o attested in Plural kana:kanno and prt
- %^VOWRaise:0   — Raises vowel
- %^VOWLower:0   — Lowers vowel
- %^XLowerVow:0  — Lowers vowel two levels
- %^VOWLowerDelab:0   — Lowers vowel and delabializes it
- %^XLowerVowDelab:0  — Lowers vowel two levels and delabializes it
- %^U2E:0        — lowers u:õ and ü:e delabializes and lowers
- %^U2A:0        — lowers u:a and ü:ä delabializes and lowers
- %^VowRM:0      — this will remove stem final vowel
- %^CnsRM:0      — this will remove stem final consonant tervüs:tervü
+%^PenWGStem:0  — This weakens "kipõń" to "kibõna"
+%^PenVowRM:0   — syncope tapõld : taplõma 
+%^D2S:0        — The ti => si
+%^TS2S:0       — The -ts- => -s-
+%^I2J:0        — The i => j change
+%^PLPRT:0      — The a:o attested in Plural kana:kanno and prt
+%^VOWRaise:0   — Raises vowel
+%^VOWLower:0   — Lowers vowel
+%^XLowerVow:0  — Lowers vowel two levels
+%^VOWLowerDelab:0   — Lowers vowel and delabializes it
+%^XLowerVowDelab:0  — Lowers vowel two levels and delabializes it
+%^U2E:0        — lowers u:õ and ü:e delabializes and lowers
+%^U2A:0        — lowers u:a and ü:ä delabializes and lowers
+%^VowRM:0      — this will remove stem final vowel
+%^CnsRM:0      — this will remove stem final consonant tervüs:tervü
 ```
 
 
@@ -490,7 +490,7 @@ päiv+N+Sg+Gen: **day/päivä**
 
 ### VOWEL LOSS
 **a:0**
-       a _ (HarmDummiesVar) %>  i  ;  
+      a _ (HarmDummiesVar) %>  i  ;  
 * *saa%{back%}%>i*
 * *sa00%>i*
 sõimama+V+Act+Ind+Prt+Sg1

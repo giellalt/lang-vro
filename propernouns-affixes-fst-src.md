@@ -3,13 +3,13 @@ The Võro language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
 
- LEXICON PROP_1HANS1A  1 hanśa:hanśa
+LEXICON PROP_1HANS1A  1 hanśa:hanśa
 
 
 
 
 
- LEXICON PROP_1HERRAE  1 herrä:herrä
+LEXICON PROP_1HERRAE  1 herrä:herrä
 
 
 
@@ -24,7 +24,12 @@ nouns, but with a colon (':') as separator.
 
 
 
+LEXICON PROP_3ALADU  aladu:aladu
 * Yaml: **peraedue**
+
+
+LEXICON PROP_VERE  Rakvere:Rakv
+* Yaml: **Rakvere**
 
 
 
@@ -63,12 +68,12 @@ tukõv:tukõv
 * Yaml: **N-ellaei4, N-kipwnj9**
 
 
- LEXICON PROP_10AMEERIGA  Ameeriga:Ameerik
+LEXICON PROP_10AMEERIGA  Ameeriga:Ameerik
 cf. _10HWRAK
 
 
 
- LEXICON PROP_10VIDRIK  vidrik:vidrik
+LEXICON PROP_10VIDRIK  vidrik:vidrik
 gradation: no
 
 
@@ -141,7 +146,7 @@ gradation: yes
 
 Gradation: No
 
- * LEXICON PROP_29HAEAE  kuu:kuu
+* LEXICON PROP_29HAEAE  kuu:kuu
 Gradation: No
 
 
@@ -163,14 +168,14 @@ nimi:nim
 
 pesä:pesä
 
- LEXICON PROP_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
- :%{back%} NMN_36TUUM1/XX1-SG-OBL ;  This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
+LEXICON PROP_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
+:%{back%} NMN_36TUUM1/XX1-SG-OBL ;  This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
 
 
 
- LEXICON PROP_36SAERG1  särǵ:särgʼ
+LEXICON PROP_36SAERG1  särǵ:särgʼ
 
- LEXICON PROP_36PAEIV  päiv:päiv
+LEXICON PROP_36PAEIV  päiv:päiv
 
 kogõr:kogõr
 * Yaml: **N-kogwr36**
@@ -178,25 +183,25 @@ derived from 36särǵ
 
 
 
- LEXICON PROP_37PINI  pini:pini
+LEXICON PROP_37PINI  pini:pini
 
 
- * LEXICON PROP_38PULL1  pulĺ:pull
+* LEXICON PROP_38PULL1  pulĺ:pull
 
- * LEXICON PROP_38PAPP1  papṕ:papp
-
-
-
-
-
- LEXICON PROP_40TALO  talo:talo
-
- LEXICON PROP_40UJA  uja:uja
+* LEXICON PROP_38PAPP1  papṕ:papp
 
 
 
 
- LEXICON PROP_41ASK  ask:asko
+
+LEXICON PROP_40TALO  talo:talo
+
+LEXICON PROP_40UJA  uja:uja
+
+
+
+
+LEXICON PROP_41ASK  ask:asko
 * Yaml: __aig, aig__
 
 
@@ -205,13 +210,13 @@ derived from 36särǵ
 
 
 
- LEXICON PROP_44SWDA  sõda:sõda
+LEXICON PROP_44SWDA  sõda:sõda
 
 
 
 
 
- LEXICON PROP_46HAIN  hain:hain
+LEXICON PROP_46HAIN  hain:hain
 * Yaml: **N-jalg, N-hain**
 
 

@@ -16,11 +16,11 @@ CHECKME vowel harmony
 
 
 
- LEXICON PERS-PL1  maq:m
+LEXICON PERS-PL1  maq:m
 
- LEXICON PERS-PL2  saq:
+LEXICON PERS-PL2  saq:
 
- LEXICON PERS-PL3  timä:
+LEXICON PERS-PL3  timä:
 
 
 

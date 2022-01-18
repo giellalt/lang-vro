@@ -118,9 +118,9 @@ abilinõ:abili
 
 
 
- LEXICON NUM_22VWROKWNW  võrokõnõ:võrokõ
+LEXICON NUM_22VWROKWNW  võrokõnõ:võrokõ
 
- LEXICON NUM_22NAANW  naanõ:naa
+LEXICON NUM_22NAANW  naanõ:naa
 
 Gradation: No
 
@@ -162,9 +162,9 @@ pesä:tar
 
 nimi:nim
 
- * LEXICON NUM_36KATS1  katś:kat
+* LEXICON NUM_36KATS1  katś:kat
 
- * LEXICON NUM_36UETS1  ütś:üt
+* LEXICON NUM_36UETS1  ütś:üt
 
 
 kokr:ko%{kg%}r
@@ -200,15 +200,15 @@ derived from 36särǵ
 
 
 
- LEXICON NUM_43KANARIK 
+LEXICON NUM_43KANARIK 
 
- LEXICON NUM_43ELAENIK 
-
-
+LEXICON NUM_43ELAENIK 
 
 
 
- LEXICON NUM_44SWDA  sõda:sõda
+
+
+LEXICON NUM_44SWDA  sõda:sõda
 
 
 
@@ -230,31 +230,31 @@ vro-digits
 
 
 
- * **LEXICON ARABICCASES**  adds +Arab
+* **LEXICON ARABICCASES**  adds +Arab
 
- * **LEXICON ARABICCASE**  adds +Arab
+* **LEXICON ARABICCASE**  adds +Arab
 
- * **LEXICON ARABICCASE0**  adds +Arab
-
-
- * **LEXICON DIGITCASES**  to distinguish between 0 and oblique
-
- * **LEXICON DIGITCASE0**
+* **LEXICON ARABICCASE0**  adds +Arab
 
 
- * **LEXICON DIGITCASE**
+* **LEXICON DIGITCASES**  to distinguish between 0 and oblique
+
+* **LEXICON DIGITCASE0**
 
 
- * **LEXICON ARABICCASEORD** ordinals
+* **LEXICON DIGITCASE**
+
+
+* **LEXICON ARABICCASEORD** ordinals
 
 
 
- * **LEXICON ARABICCASECOLL** collectives
+* **LEXICON ARABICCASECOLL** collectives
 
 
- * **LEXICON ROMNUMTAGOBL**
+* **LEXICON ROMNUMTAGOBL**
 
- * **LEXICON ARABICCOMPOUNDS**  ! arabic as first part,
+* **LEXICON ARABICCOMPOUNDS**  ! arabic as first part,
 
 
 

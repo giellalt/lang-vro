@@ -1,6 +1,7 @@
 
 ### ADVERBS
 
+### ADJECTIVES
 
 ### CONJUNTIONS
 

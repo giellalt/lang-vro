@@ -2293,106 +2293,106 @@ Correction rules
 <small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-vro/blob/main/../src/cg3/dependency.cg3)</small>
 # Võru tags and basic lexica
 
- # Definitions for Multichar_Symbols
+# Definitions for Multichar_Symbols
 
 ## Analysis symbols
 The morphological analyses of wordforms for the Võro
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
- * **+WORK** (eng) work needed 
- * __b́__ b plus U+0301 COMBINING ACUTE
- * __d́__ d plus U+0301 COMBINING ACUTE
- * __f́__ f plus U+0301 COMBINING ACUTE
- * __h́__ h plus U+0301 COMBINING ACUTE
- * __t́__ t plus U+0301 COMBINING ACUTE
- * __v́__ v plus U+0301 COMBINING ACUTE
- * __B́__ B plus U+0301 COMBINING ACUTE
- * __D́__ D plus U+0301 COMBINING ACUTE
- * __F́__ F plus U+0301 COMBINING ACUTE
- * __H́__ H plus U+0301 COMBINING ACUTE
- * __T́__ T plus U+0301 COMBINING ACUTE
- * __V́__ V plus U+0301 COMBINING ACUTE
+* **+WORK** (eng) work needed 
+* __b́__ b plus U+0301 COMBINING ACUTE
+* __d́__ d plus U+0301 COMBINING ACUTE
+* __f́__ f plus U+0301 COMBINING ACUTE
+* __h́__ h plus U+0301 COMBINING ACUTE
+* __t́__ t plus U+0301 COMBINING ACUTE
+* __v́__ v plus U+0301 COMBINING ACUTE
+* __B́__ B plus U+0301 COMBINING ACUTE
+* __D́__ D plus U+0301 COMBINING ACUTE
+* __F́__ F plus U+0301 COMBINING ACUTE
+* __H́__ H plus U+0301 COMBINING ACUTE
+* __T́__ T plus U+0301 COMBINING ACUTE
+* __V́__ V plus U+0301 COMBINING ACUTE
 
- * **u̬** u plus U+032C COMBINING CARON BELOW
- * **U̬** u plus U+032C COMBINING CARON BELOW
- * **ü̬** ü plus U+032C COMBINING CARON BELOW
- * **Ü̬** ü plus U+032C COMBINING CARON BELOW
- * **i̬** i plus U+032C COMBINING CARON BELOW
- * **I̬** i plus U+032C COMBINING CARON BELOW
- * **õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
- * **Õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
- ```%{ˋØ%} - U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
+* **u̬** u plus U+032C COMBINING CARON BELOW
+* **U̬** u plus U+032C COMBINING CARON BELOW
+* **ü̬** ü plus U+032C COMBINING CARON BELOW
+* **Ü̬** ü plus U+032C COMBINING CARON BELOW
+* **i̬** i plus U+032C COMBINING CARON BELOW
+* **I̬** i plus U+032C COMBINING CARON BELOW
+* **õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+* **Õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+```%{ˋØ%} - U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
 
 
 The parts-of-speech are:
- * **+N** Noun
- * **+A** Adjective
- * **+Adv** Adverb
- * **+V** Verb
+* **+N** Noun
+* **+A** Adjective
+* **+Adv** Adverb
+* **+V** Verb
 
- * **+Pron** Pronoun
- * **+CS** subjunction
- * **+CC** Correlating conjunction
- * **+Det** Determiners
- * **+Adp** Adpositions
- * **+Po** Postposition
- * **+Pr** Preposition
- * **+Interj** Interjections
- * **+Pcle**
- * **+Num** Numerals
- * **+Qnt**
+* **+Pron** Pronoun
+* **+CS** subjunction
+* **+CC** Correlating conjunction
+* **+Det** Determiners
+* **+Adp** Adpositions
+* **+Po** Postposition
+* **+Pr** Preposition
+* **+Interj** Interjections
+* **+Pcle**
+* **+Num** Numerals
+* **+Qnt**
 
 The parts of speech are further split up into:
 
- * **+Prop**
- * **+Pers**
- * **+Dem**
- * **+Interr**
- * **+Refl**
- * **+Recipr**
- * **+Rel**
- * **+Indef**
- * **+Deg** adjective or adverb modifier. This is degree, depricate + AdA
+* **+Prop**
+* **+Pers**
+* **+Dem**
+* **+Interr**
+* **+Refl**
+* **+Recipr**
+* **+Rel**
+* **+Indef**
+* **+Deg** adjective or adverb modifier. This is degree, depricate + AdA
 
 The Usage extents are marked using following tags:
- * **+Err/Orth**
- * **+Err/Orth-dAq-should-be-q-inf** hirnahtadaq should be hirnahtaq
- * **+Err/Orth-no-pal** palatalization is missing
- * **+Err/Orth-no-q** Q is missing
- * **+Err/Orth-raised-vow** 
- * **+Err/Orth-lowered-vow** 
- * **+Err/Orth-est** 
- * **+Err/Orth-weak-grade**
- * **+Err/Orth-back** erroneous back harmony, see flags
- * **+Err/Orth-front** erroneous front harmony, see flags
- * **+Use/-Spell**
- * **+Use/NG** No generation
- * **+Cmp/Hyph** 
- * **+Use/PMatch**
+* **+Err/Orth**
+* **+Err/Orth-dAq-should-be-q-inf** hirnahtadaq should be hirnahtaq
+* **+Err/Orth-no-pal** palatalization is missing
+* **+Err/Orth-no-q** Q is missing
+* **+Err/Orth-raised-vow** 
+* **+Err/Orth-lowered-vow** 
+* **+Err/Orth-est** 
+* **+Err/Orth-weak-grade**
+* **+Err/Orth-back** erroneous back harmony, see flags
+* **+Err/Orth-front** erroneous front harmony, see flags
+* **+Use/-Spell**
+* **+Use/NG** No generation
+* **+Cmp/Hyph** 
+* **+Use/PMatch**
 
 The nominals are inflected in the following Case and Number
- * **+Sg** Singular
- * **+Pl** Plural
- * **+SP** Singular and Plural, used for CG and Apertium
+* **+Sg** Singular
+* **+Pl** Plural
+* **+SP** Singular and Plural, used for CG and Apertium
 
- * **+Abe** abessive
- * **+Abl** ablative
- * **+Acc** accusative
- * **+Ade** adessive
- * **+All** allative
- * **+Com** comitative
- * **+Com/Sh**
- * **+Ela** elative
- * **+Ess** essive
- * **+Ill** illative
- * **+Ine** inessive
- * **+Gen** genitive
- * **+Loc** locative
- * **+Nom** nominative
- * **+Par** partitive
- * **+Ter** terminative
- * **+Tra** translative
+* **+Abe** abessive
+* **+Abl** ablative
+* **+Acc** accusative
+* **+Ade** adessive
+* **+All** allative
+* **+Com** comitative
+* **+Com/Sh**
+* **+Ela** elative
+* **+Ess** essive
+* **+Ill** illative
+* **+Ine** inessive
+* **+Gen** genitive
+* **+Loc** locative
+* **+Nom** nominative
+* **+Par** partitive
+* **+Ter** terminative
+* **+Tra** translative
 
 
 
@@ -2400,401 +2400,401 @@ The possession is marked as such:
 There are no possessive markers
 
 The comparative forms are:
- * **+Comp**
- * **+Superl**
+* **+Comp**
+* **+Superl**
 Numerals are classified under:
- * **+Attr**
- * **+Card**
- * **+Ord**
+* **+Attr**
+* **+Card**
+* **+Ord**
 Verb moods are:
- * **+Cond**
- * **+Imprt**
- * **+Ind**
- * **+Jus**
- * **+Prs**
- * **+Prt**
- * **+Pot**
- * **+Quo** = quotative, quoted speech
+* **+Cond**
+* **+Imprt**
+* **+Ind**
+* **+Jus**
+* **+Prs**
+* **+Prt**
+* **+Pot**
+* **+Quo** = quotative, quoted speech
 
 Verb personal forms are:
 
 Subject conjugation
 
- * **+Sg1**
- * **+Sg2**
- * **+Sg3**
- * **+Pl1**
- * **+Pl2**
- * **+Pl3**
+* **+Sg1**
+* **+Sg2**
+* **+Sg3**
+* **+Pl1**
+* **+Pl2**
+* **+Pl3**
 
- * **+ScSg1**
- * **+ScSg2**
- * **+ScSg3**
- * **+ScPl1**
- * **+ScPl2**
- * **+ScPl3**
- * **+Sc**
+* **+ScSg1**
+* **+ScSg2**
+* **+ScSg3**
+* **+ScPl1**
+* **+ScPl2**
+* **+ScPl3**
+* **+Sc**
 
 Passive conjugation
 
- * **+PcSg1**
- * **+PcSg2**
- * **+PcSg3**
- * **+PcPl1**
- * **+PcPl2**
- * **+PcPl3**
- * **+Pc**
+* **+PcSg1**
+* **+PcSg2**
+* **+PcSg3**
+* **+PcPl1**
+* **+PcPl2**
+* **+PcPl3**
+* **+Pc**
 Other verb forms are
- * **+Inf** sõimadaq, elädäq
- * **+Inf/mA** sõimama, elämä
- * **+Ger** ollõn
- * **+ConNeg** saa eiq 3 elements in 2 orthographic units
- * **+ConNegII** ei saaq 3 elements in 2 orthographic units
- * **+Neg** saa-aiq 3 elements in 1 orthographic unit
- * **+ImprtII**
- * **+PrsPrc**
- * **+PrfPrc**
- * **+Sup** olõman, olõmaldaq; oldama
- * **+VGen**
- * **+VAbess**
- * **+Act** active
- * **+Pss** passive
- * **+PrsPrc**
- * **+PrfPrc** elet
+* **+Inf** sõimadaq, elädäq
+* **+Inf/mA** sõimama, elämä
+* **+Ger** ollõn
+* **+ConNeg** saa eiq 3 elements in 2 orthographic units
+* **+ConNegII** ei saaq 3 elements in 2 orthographic units
+* **+Neg** saa-aiq 3 elements in 1 orthographic unit
+* **+ImprtII**
+* **+PrsPrc**
+* **+PrfPrc**
+* **+Sup** olõman, olõmaldaq; oldama
+* **+VGen**
+* **+VAbess**
+* **+Act** active
+* **+Pss** passive
+* **+PrsPrc**
+* **+PrfPrc** elet
 
- * **+ABBR**
- * +Symbol = independent symbols in the text stream, like £, €, ©
- * **+ACR**
- * **+Acro**
+* **+ABBR**
+* +Symbol = independent symbols in the text stream, like £, €, ©
+* **+ACR**
+* **+Acro**
 
 Special symbols are classified with:
- * **+CLB**
- * **+PUNCT**
- * **+LEFT**
- * **+RIGHT**
+* **+CLB**
+* **+PUNCT**
+* **+LEFT**
+* **+RIGHT**
 The verbs are syntactically split according to transitivity:
- * **+TV**
- * **+IV**
+* **+TV**
+* **+IV**
 Special multiword units are analysed with:
- * **+Multi**
+* **+Multi**
 Non-dictionary words can be recognised with:
- * **+Guess**
+* **+Guess**
 
 Question and Focus particles:
 
- * **+Qst**
- * **+Foc**
- * **+Clt**
+* **+Qst**
+* **+Foc**
+* **+Clt**
 
- * **+Hom1**
- * **+Hom2**
- * **+Hom3**
- * **+Hom4**
+* **+Hom1**
+* **+Hom2**
+* **+Hom3**
+* **+Hom4**
 
 
 
 
 ### Tags distinguishing different versions of the same lemma (before POS)
- * +v1
- * +v2
- * +v3
- * +v4
- * +v5
- * +v6
- * +v7
- * +v8
- * +v9
- * +v10
- * +v11
- * +v12
- * +v13
- * +v14
- * +v15
- * +v16
- * +v17
- * +v18
- * +v19
- * +v20
- * +v21
- * +v22
- * +v23
- * +v24
+* +v1
+* +v2
+* +v3
+* +v4
+* +v5
+* +v6
+* +v7
+* +v8
+* +v9
+* +v10
+* +v11
+* +v12
+* +v13
+* +v14
+* +v15
+* +v16
+* +v17
+* +v18
+* +v19
+* +v20
+* +v21
+* +v22
+* +v23
+* +v24
 
 
 
- * **+Sem/Act** Activity
- * **+Sem/Amount** Amount
- * **+Sem/Ani** Animate
- * **+Sem/Aniprod** Animal Product
- * **+Sem/Body** Bodypart
- * **+Sem/Body-abstr** siellu, vuoig?a, jierbmi
- * **+Sem/Build** Building
- * **+Sem/Build-part** Part of Bulding, like the closet
- * **+Sem/Cat** Category
- * **+Sem/Clth** Clothes
- * **+Sem/Clth-jewl** Jewelery
- * **+Sem/Clth-part** part of clothes, boallu, sávdnji...
- * **+Sem/Ctain** Container
- * **+Sem/Ctain-abstr** Abstract container like bank account
- * **+Sem/Ctain-clth**
- * **+Sem/Curr** Currency like dollár, Not Money
- * **+Sem/Dance** Dance
- * **+Sem/Dir** Direction like GPS-kursa
- * **+Sem/Domain** Domain like politics, reindeerherding (a system of actions)
- * **+Sem/Drink** Drink
- * **+Sem/Dummytag** Dummytag
- * **+Sem/Edu** Educational event
- * **+Sem/Event** Event
- * **+Sem/Feat** Feature, like Árvu
- * **+Sem/Feat-phys** Physiological feature, ivdni, fárda
- * **+Sem/Feat-psych** Psychological feauture
- * **+Sem/Feat-measr** Psychological feauture
- * **+Sem/Fem** Female name
- * **+Sem/Food** Food
- * **+Sem/Food-med** Medicine
- * **+Sem/Furn** Furniture
- * **+Sem/Game** Game
- * **+Sem/Geom** Geometrical object
- * **+Sem/Group** Animal or Human Group
- * **+Sem/Hum** Human
- * **+Sem/Hum-abstr** Human abstract
- * **+Sem/Ideol** Ideology
- * **+Sem/Lang** Language
- * **+Sem/Mal** Male name
- * **+Sem/Mat** Material for producing things
- * **+Sem/Measr** Measure
- * **+Sem/Money** Has to do with money, like wages, not Curr(ency)
- * **+Sem/Obj** Object
- * **+Sem/Obj-clo** Cloth
- * **+Sem/Obj-cogn** Cloth
- * **+Sem/Obj-el** (Electrical) machine or apparatus
- * **+Sem/Obj-ling** Object with something written on it
- * **+Sem/Obj-rope** flexible ropelike object
- * **+Sem/Obj-surfc** Surface object
- * **+Sem/Org** Organisation
- * **+Sem/Part** Feature, oassi, bealli
- * **+Sem/Perc-cogn** Cognative perception
- * **+Sem/Perc-emo** Emotional perception
- * **+Sem/Perc-phys** Physical perception
- * **+Sem/Perc-psych** Physical perception
- * **+Sem/Plant** Plant
- * **+Sem/Plant-part** Plant part
- * **+Sem/Plc** Place
- * **+Sem/Plc-abstr** Abstract place
- * **+Sem/Plc-elevate** Place
- * **+Sem/Plc-line** Place
- * **+Sem/Plc-water** Place
- * **+Sem/Pos** Position (as in social position job)
- * **+Sem/Process** Process
- * **+Sem/Prod** Product
- * **+Sem/Prod-audio** Audio product
- * **+Sem/Prod-cogn** Cognition product
- * **+Sem/Prod-ling** Linguistic product
- * **+Sem/Prod-vis** Visual product
- * **+Sem/Rel** Relation
- * **+Sem/Route** Name of a Route
- * **+Sem/Rule** Rule or convention
- * **+Sem/Semcon** Semantic concept
- * **+Sem/Sign** Sign (e.g. numbers, punctuation) 
- * **+Sem/Sport** Sport
- * **+Sem/State** 
- * **+Sem/State-sick** Illness
- * **+Sem/Substnc** Substance, like Air and Water
- * **+Sem/Sur** Surname
- * **+Sem/Symbol** Symbol
- * **+Sem/Time** Time
- * **+Sem/Tool** Prototypical tool for repairing things
- * **+Sem/Tool-catch** Tool used for catching (e.g. fish)
- * **+Sem/Tool-clean** Tool used for cleaning
- * **+Sem/Tool-it** Tool used in IT
- * **+Sem/Tool-measr** Tool used for measuring
- * **+Sem/Tool-music** Music instrument
- * **+Sem/Tool-write** Writing tool
- * **+Sem/Txt** Text (girji, lávlla...)
- * **+Sem/Veh** Vehicle
- * **+Sem/Wpn** Weapon
- * **+Sem/Wthr** The Weather or the state of ground
+* **+Sem/Act** Activity
+* **+Sem/Amount** Amount
+* **+Sem/Ani** Animate
+* **+Sem/Aniprod** Animal Product
+* **+Sem/Body** Bodypart
+* **+Sem/Body-abstr** siellu, vuoig?a, jierbmi
+* **+Sem/Build** Building
+* **+Sem/Build-part** Part of Bulding, like the closet
+* **+Sem/Cat** Category
+* **+Sem/Clth** Clothes
+* **+Sem/Clth-jewl** Jewelery
+* **+Sem/Clth-part** part of clothes, boallu, sávdnji...
+* **+Sem/Ctain** Container
+* **+Sem/Ctain-abstr** Abstract container like bank account
+* **+Sem/Ctain-clth**
+* **+Sem/Curr** Currency like dollár, Not Money
+* **+Sem/Dance** Dance
+* **+Sem/Dir** Direction like GPS-kursa
+* **+Sem/Domain** Domain like politics, reindeerherding (a system of actions)
+* **+Sem/Drink** Drink
+* **+Sem/Dummytag** Dummytag
+* **+Sem/Edu** Educational event
+* **+Sem/Event** Event
+* **+Sem/Feat** Feature, like Árvu
+* **+Sem/Feat-phys** Physiological feature, ivdni, fárda
+* **+Sem/Feat-psych** Psychological feauture
+* **+Sem/Feat-measr** Psychological feauture
+* **+Sem/Fem** Female name
+* **+Sem/Food** Food
+* **+Sem/Food-med** Medicine
+* **+Sem/Furn** Furniture
+* **+Sem/Game** Game
+* **+Sem/Geom** Geometrical object
+* **+Sem/Group** Animal or Human Group
+* **+Sem/Hum** Human
+* **+Sem/Hum-abstr** Human abstract
+* **+Sem/Ideol** Ideology
+* **+Sem/Lang** Language
+* **+Sem/Mal** Male name
+* **+Sem/Mat** Material for producing things
+* **+Sem/Measr** Measure
+* **+Sem/Money** Has to do with money, like wages, not Curr(ency)
+* **+Sem/Obj** Object
+* **+Sem/Obj-clo** Cloth
+* **+Sem/Obj-cogn** Cloth
+* **+Sem/Obj-el** (Electrical) machine or apparatus
+* **+Sem/Obj-ling** Object with something written on it
+* **+Sem/Obj-rope** flexible ropelike object
+* **+Sem/Obj-surfc** Surface object
+* **+Sem/Org** Organisation
+* **+Sem/Part** Feature, oassi, bealli
+* **+Sem/Perc-cogn** Cognative perception
+* **+Sem/Perc-emo** Emotional perception
+* **+Sem/Perc-phys** Physical perception
+* **+Sem/Perc-psych** Physical perception
+* **+Sem/Plant** Plant
+* **+Sem/Plant-part** Plant part
+* **+Sem/Plc** Place
+* **+Sem/Plc-abstr** Abstract place
+* **+Sem/Plc-elevate** Place
+* **+Sem/Plc-line** Place
+* **+Sem/Plc-water** Place
+* **+Sem/Pos** Position (as in social position job)
+* **+Sem/Process** Process
+* **+Sem/Prod** Product
+* **+Sem/Prod-audio** Audio product
+* **+Sem/Prod-cogn** Cognition product
+* **+Sem/Prod-ling** Linguistic product
+* **+Sem/Prod-vis** Visual product
+* **+Sem/Rel** Relation
+* **+Sem/Route** Name of a Route
+* **+Sem/Rule** Rule or convention
+* **+Sem/Semcon** Semantic concept
+* **+Sem/Sign** Sign (e.g. numbers, punctuation) 
+* **+Sem/Sport** Sport
+* **+Sem/State** 
+* **+Sem/State-sick** Illness
+* **+Sem/Substnc** Substance, like Air and Water
+* **+Sem/Sur** Surname
+* **+Sem/Symbol** Symbol
+* **+Sem/Time** Time
+* **+Sem/Tool** Prototypical tool for repairing things
+* **+Sem/Tool-catch** Tool used for catching (e.g. fish)
+* **+Sem/Tool-clean** Tool used for cleaning
+* **+Sem/Tool-it** Tool used in IT
+* **+Sem/Tool-measr** Tool used for measuring
+* **+Sem/Tool-music** Music instrument
+* **+Sem/Tool-write** Writing tool
+* **+Sem/Txt** Text (girji, lávlla...)
+* **+Sem/Veh** Vehicle
+* **+Sem/Wpn** Weapon
+* **+Sem/Wthr** The Weather or the state of ground
 
 
 
 
 
- * **+Sem/Ant_Fem**
- * **+Sem/Ant_Mal**
- * **+Temp**
+* **+Sem/Ant_Fem**
+* **+Sem/Ant_Mal**
+* **+Temp**
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
- * **+V→N**
- * **+V→V**
- * **+V→A**
- * **+Prop→A**
- * **+Der**
- * **+Der/xxx**
- ** +Der/JA **	NomAg
- ** +Der/minE ** NomAct
- **+Der/lt	   ** A→Adv
+* **+V→N**
+* **+V→V**
+* **+V→A**
+* **+Prop→A**
+* **+Der**
+* **+Der/xxx**
+** +Der/JA **	NomAg
+** +Der/minE ** NomAct
+**+Der/lt	   ** A→Adv
 
 # Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 ```
-  %{aä%}    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
-  %{ae%}   — Vowel harmony with "a/e/õ" passive tahetu
-  %{aõ%}   — Vowel harmony with "a/e/õ" passive sõidõtu
-  %{äe%}    — Vowel harmony with "ä/e/õ" passive
-  %{eõ%}    — Vowel harmony with "e/õ"
-  %{uü%}    — Vowel harmony with "u/ü"
-  %{öü%}    — Vowel raising
-  %{ou%}    — Vowel raising
-  %{ei%}    — Vowel raising
-  %{õy%}    — Vowel raising
-  %{ao%}    — Vowel raising
-  %{eØ%}    — ütlemä:üt%{eØ%}l  
-  %{õØ%}    — ütlemä:üt%{eØ%}l  
-  %{Øõ%}    — juurdlõma:juur%{dØ%}%{0õ%}l
-  %{XV%}    — This is used for echoing the previous vowel
-  %{XC%}    — This is used for lengthening a consonant
-  %{dØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{tØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{t́Ø%}    — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
-  %{dv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{ij%}    ellä%{ij%}
-  %{gv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gl%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gØ%}    — HJK and KimmoK ideas argnõma:ar%{gØ%}
-  %{uv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{üv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{aä%}    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ %{ae%}   — Vowel harmony with "a/e/õ" passive tahetu
+ %{aõ%}   — Vowel harmony with "a/e/õ" passive sõidõtu
+ %{äe%}    — Vowel harmony with "ä/e/õ" passive
+ %{eõ%}    — Vowel harmony with "e/õ"
+ %{uü%}    — Vowel harmony with "u/ü"
+ %{öü%}    — Vowel raising
+ %{ou%}    — Vowel raising
+ %{ei%}    — Vowel raising
+ %{õy%}    — Vowel raising
+ %{ao%}    — Vowel raising
+ %{eØ%}    — ütlemä:üt%{eØ%}l  
+ %{õØ%}    — ütlemä:üt%{eØ%}l  
+ %{Øõ%}    — juurdlõma:juur%{dØ%}%{0õ%}l
+ %{XV%}    — This is used for echoing the previous vowel
+ %{XC%}    — This is used for lengthening a consonant
+ %{dØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{tØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{t́Ø%}    — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
+ %{dv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ij%}    ellä%{ij%}
+ %{gv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{gl%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{gØ%}    — HJK and KimmoK ideas argnõma:ar%{gØ%}
+ %{uv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{üv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
 ```
 
 
 ## Gemination
 ```
-  %{hØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{jØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{lØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{mØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{nØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pØ%}    — HJK and KimmoK ideas oppama:o%{pØ%}pama
-  %{rØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{sØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{vØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{Øp%}    — häbü:hä%{Øp%}%{pbØ%}ü
-  %{Øt%}    — koda:ko%{Øt%}%{tdØ%}a
-  %{Øk%}    — nägo:nä%{Øk%}%{kgØ%}o
+ %{hØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{jØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{lØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{mØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{nØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pØ%}    — HJK and KimmoK ideas oppama:o%{pØ%}pama
+ %{rØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{sØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{vØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{Øp%}    — häbü:hä%{Øp%}%{pbØ%}ü
+ %{Øt%}    — koda:ko%{Øt%}%{tdØ%}a
+ %{Øk%}    — nägo:nä%{Øk%}%{kgØ%}o
 
 ```
 
 ## Strong and weak
 ```
-  %{pb%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{td%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{t́d́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kg%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{bv%}    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
-  %{dr%}    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
-  %{bm%}    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-  %{dn%}    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-  %{dl%}    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-  %{pbØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pbv%}   — tõbi: tõvõ tõpõ tõppõ
-  %{tdØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kgØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{jiØ%}   — HJK and KimmoK ideas vari:var%{jiØ%}o
-  %{qmn%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{qn%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dd́Ø%}   
-  %{dd́n%}   
-  %{dd́r%}   
-  %{dd́v%}   
-  %{dd́Ø%}   
-  %{gǵv%}   
-  %{gǵØ%}   
-  %{tt́d%}   
-  %{tt́Ø%}    täh%{tt́Ø%}
-  %{kḱg%}   
-  %{kḱØ%}   
-  %{pṕb%}   
-  %{pṕØ%}   
+ %{pb%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{td%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{t́d́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kg%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{bv%}    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+ %{dr%}    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
+ %{bm%}    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+ %{dn%}    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+ %{dl%}    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+ %{pbØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pbv%}   — tõbi: tõvõ tõpõ tõppõ
+ %{tdØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kgØ%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{jiØ%}   — HJK and KimmoK ideas vari:var%{jiØ%}o
+ %{qmn%}   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{qn%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dd́Ø%}   
+ %{dd́n%}   
+ %{dd́r%}   
+ %{dd́v%}   
+ %{dd́Ø%}   
+ %{gǵv%}   
+ %{gǵØ%}   
+ %{tt́d%}   
+ %{tt́Ø%}    täh%{tt́Ø%}
+ %{kḱg%}   
+ %{kḱØ%}   
+ %{pṕb%}   
+ %{pṕØ%}   
 
 ```
 
 ## Palatalization
 ```
-  %{bb́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dd́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{ff́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gǵ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{hh́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kḱ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{lĺ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{mḿ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{nń%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pṕ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{rŕ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{sś%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{tt́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{vv́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{zź%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dd́n%}  
+ %{bb́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dd́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ff́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{gǵ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{hh́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kḱ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{lĺ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{mḿ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{nń%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pṕ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{rŕ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{sś%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{tt́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{vv́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{zź%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dd́n%}  
 ```
 
- ** %^I7         **  This appears in stem vaoma:va%^I7o for vaio
- ** %^K7         **  This appears in stem väemä:vä%^K7e for väkeq
- ** %^V7         **  This appears in stem häömä:hä%^V7ö for hävvü
- ** %^T7         **  This appears in stem kaoma:ka%^T7o for katoq
- ** %^Y7         **  This appears for syna = s%^Y7na and is rendered as õ in the norm
+** %^I7         **  This appears in stem vaoma:va%^I7o for vaio
+** %^K7         **  This appears in stem väemä:vä%^K7e for väkeq
+** %^V7         **  This appears in stem häömä:hä%^V7ö for hävvü
+** %^T7         **  This appears in stem kaoma:ka%^T7o for katoq
+** %^Y7         **  This appears for syna = s%^Y7na and is rendered as õ in the norm
 
 And following triggers to control variation
- %^ErrorBack	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+%^ErrorBack	 +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
 
-  %^CC2C 	 att%^CC2C%>m%{aä%} atma
-  %^OO2Õ		  joo%^OO2Õ%>i:j0õ0%>i
-  %^PSS		 vowel in passive tahetu, sõidõtu, eletü
+ %^CC2C 	 att%^CC2C%>m%{aä%} atma
+ %^OO2Õ		  joo%^OO2Õ%>i:j0õ0%>i
+ %^PSS		 vowel in passive tahetu, sõidõtu, eletü
 
-  %^ÄI2ÄÄ  päiv%^ÄI2ÄÄ%>ä: päävä
-  %{PrsSg1%}  — this helps with %{eõ%}:i̬
+ %^ÄI2ÄÄ  päiv%^ÄI2ÄÄ%>ä: päävä
+ %{PrsSg1%}  — this helps with %{eõ%}:i̬
 
- %^StrD2T  This changes g,d,b, => k,t,p
+%^StrD2T  This changes g,d,b, => k,t,p
 
- ** %^VowRM  ** this will remove stem final vowel
- ** %^CnsRM  ** this will remove stem final consonant tervüs:tervü
- ** %^StrGStem ** This strengthens "perädü" to "perätüt"
-  **%^NoGrad**
- ** %^WGStem ** This weakens
-  %^G1	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
-  %^G2	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
-  %^G3	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
-  %^G4	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k "sõda" to "sõtta"
- %^ShortGStem   — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
- %^LongGStem     — This lengthens "pu%{tØ%}tu" to "puttuq"
-  %^Pen	       This moves us to penultimate coda
-  %^PAL	       — Palatalization
-  %^NoPAL       — NoPalatalization
- %^JI20	       — in vari: vaŕo
- %^JI2I	       — in vari vari
- %^JI2J	       — in vari: varjo
+** %^VowRM  ** this will remove stem final vowel
+** %^CnsRM  ** this will remove stem final consonant tervüs:tervü
+** %^StrGStem ** This strengthens "perädü" to "perätüt"
+ **%^NoGrad**
+** %^WGStem ** This weakens
+ %^G1	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
+ %^G2	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
+ %^G3	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
+ %^G4	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k "sõda" to "sõtta"
+%^ShortGStem   — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
+%^LongGStem     — This lengthens "pu%{tØ%}tu" to "puttuq"
+ %^Pen	       This moves us to penultimate coda
+ %^PAL	       — Palatalization
+ %^NoPAL       — NoPalatalization
+%^JI20	       — in vari: vaŕo
+%^JI2I	       — in vari vari
+%^JI2J	       — in vari: varjo
 
- %^PenWGStem  This weakens "kipõń" to "kibõna"
+%^PenWGStem  This weakens "kipõń" to "kibõna"
 
- ** %^PenVowRM ** syncope tapõld : taplõma
+** %^PenVowRM ** syncope tapõld : taplõma
 
- **%^D2S	  ** käsi, susi
- %^TS2S  The -ts- => -s-
- %^I2J  The i => j change
+**%^D2S	  ** käsi, susi
+%^TS2S  The -ts- => -s-
+%^I2J  The i => j change
 
- ** %^PLPRT ** The a:o attested in Plural kana:kanno and prt
- **%^VOWRaise      ** Raises vowel
- **%^VOWLower  ** Lowers vowel
- **%^XLowerVow ** Lowers vowel two levels
- **%^VOWLowerDelab ** Lowers vowel and delabializes it
- **%^XLowerVowDelab ** Lowers vowel two levels and delabializes it
- %^U2E  lowers u:õ and ü:e delabializes and lowers
- %^U2A  lowers u:a and ü:ä delabializes and lowers
+** %^PLPRT ** The a:o attested in Plural kana:kanno and prt
+**%^VOWRaise      ** Raises vowel
+**%^VOWLower  ** Lowers vowel
+**%^XLowerVow ** Lowers vowel two levels
+**%^VOWLowerDelab ** Lowers vowel and delabializes it
+**%^XLowerVowDelab ** Lowers vowel two levels and delabializes it
+%^U2E  lowers u:õ and ü:e delabializes and lowers
+%^U2A  lowers u:a and ü:ä delabializes and lowers
 
- **∑** = a symbol used in front of `#` to block backtracking and
+**∑** = a symbol used in front of `#` to block backtracking and
 mwe reanalysis in hfst-tokenise (e.g. in dynanic compounds).
 Makes it possible to distinguish lexical and dynamic compounds
 in rules. It is converted to zero together with `#`.
@@ -2802,124 +2802,124 @@ in rules. It is converted to zero together with `#`.
 
 | Flag | Explanation
 | ---- | ----------- 
- |  @D.ErrOrth.ON@ 
- |  @C.ErrOrth@ 
- |  @P.ErrOrth.ON@ 
- |  @R.ErrOrth.ON@ 
+|  @D.ErrOrth.ON@ 
+|  @C.ErrOrth@ 
+|  @P.ErrOrth.ON@ 
+|  @R.ErrOrth.ON@ 
 
- * **@P.Pmatch.Backtrack@**:
+* **@P.Pmatch.Backtrack@**:
 
- * **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
- * **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous
+* **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
+* **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous
 with more frequent words. They should only be considered
 abbreviations in the middle of a sentence.
- * **+Gram/TNumAbbr**:  Transitive abbreviation if the following
+* **+Gram/TNumAbbr**:  Transitive abbreviation if the following
 constituent is numeric
- * **+Gram/NumNoAbbr**:  Transitive abbreviations for which numerals
+* **+Gram/NumNoAbbr**:  Transitive abbreviations for which numerals
 are complements and normal words. The abbreviation usage
 is less common and thus only the occurences in the middle of
 the sentence can be considered as true cases.
- * **+Gram/TIAbbr**:  Both transitive and intransitive abbreviation
- * **+Gram/IAbbr**:  Intransitive abbreviation (it takes no argument)
- * **+Gram/3syll**: trisyllabic verbs
- ; +Gram/Superl 
- ; +Gram/Comp 
+* **+Gram/TIAbbr**:  Both transitive and intransitive abbreviation
+* **+Gram/IAbbr**:  Intransitive abbreviation (it takes no argument)
+* **+Gram/3syll**: trisyllabic verbs
+; +Gram/Superl 
+; +Gram/Comp 
 
 
 
 # Oahpa Place names and case used 
- * **+%<plc_ine%>  **:  Ine, Ill, Ela
- * **+%<plc_ade%>  **:  Ade, All, Abl
- * **+%<pcl_pääl%> **:  pääl, pääle, päält
+* **+%<plc_ine%>  **:  Ine, Ill, Ela
+* **+%<plc_ade%>  **:  Ade, All, Abl
+* **+%<pcl_pääl%> **:  pääl, pääle, päält
 
 The tagged part of the compound should make a compound using:
 
- * **+CmpN/SgN** Singular Nominative
- * **+CmpN/SgG** Singular Genitive
+* **+CmpN/SgN** Singular Nominative
+* **+CmpN/SgG** Singular Genitive
 
 
 # Flag diacritics
 We have manually optimised the structure of our lexicon using the following
 flag diacritics to restrict morhpological combinatorics - only allow
 compounds with verbs if the verb is further derived into a noun again:
- |  **@P.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
- |  **@D.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
- |  **@C.NeedNoun@** | (Dis)allow compounds with verbs unless nominalised
+|  **@P.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+|  **@D.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+|  **@C.NeedNoun@** | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
- |  **@P.CmpFrst.FALSE@** | Require that words tagged as such only appear first
- |  **@D.CmpPref.TRUE@** | Block such words from entering ENDLEX
- |  **@P.CmpPref.FALSE@** | Block these words from making further compounds
- |  **@D.CmpLast.TRUE@** | Block such words from entering R
- |  **@D.CmpNone.TRUE@** | Combines with the next tag to prohibit compounding
- |  **@U.CmpNone.FALSE@** | Combines with the prev tag to prohibit compounding
- |  **@P.CmpOnly.TRUE@** | Sets a flag to indicate that the word has passed R
- |  **@D.CmpOnly.FALSE@** | Disallow words coming directly from root.
+|  **@P.CmpFrst.FALSE@** | Require that words tagged as such only appear first
+|  **@D.CmpPref.TRUE@** | Block such words from entering ENDLEX
+|  **@P.CmpPref.FALSE@** | Block these words from making further compounds
+|  **@D.CmpLast.TRUE@** | Block such words from entering R
+|  **@D.CmpNone.TRUE@** | Combines with the next tag to prohibit compounding
+|  **@U.CmpNone.FALSE@** | Combines with the prev tag to prohibit compounding
+|  **@P.CmpOnly.TRUE@** | Sets a flag to indicate that the word has passed R
+|  **@D.CmpOnly.FALSE@** | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
 
- |  **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj.
- |  **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
+|  **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj.
+|  **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
 
- |  **@U.Case.Abe@** | Abessive
- |  **@U.Case.Abl@** | Ablative
- |  **@U.Case.Ade@** | Adessive
- |  **@U.Case.All@** | Allative
- |  **@U.Case.Com@** | Comitative
- |  **@U.Case.Ela@** | Elative
- |  **@U.Case.Gen@** | Genitive
- |  **@U.Case.Ill@** | Illative
- |  **@U.Case.Ine@** | Inessive
- |  **@U.Case.Nom@** | Nominative
- |  **@U.Case.Par@** | Partitive
- |  **@U.Case.Ter@** | Terminative
- |  **@U.Case.Tra@** | Translative
+|  **@U.Case.Abe@** | Abessive
+|  **@U.Case.Abl@** | Ablative
+|  **@U.Case.Ade@** | Adessive
+|  **@U.Case.All@** | Allative
+|  **@U.Case.Com@** | Comitative
+|  **@U.Case.Ela@** | Elative
+|  **@U.Case.Gen@** | Genitive
+|  **@U.Case.Ill@** | Illative
+|  **@U.Case.Ine@** | Inessive
+|  **@U.Case.Nom@** | Nominative
+|  **@U.Case.Par@** | Partitive
+|  **@U.Case.Ter@** | Terminative
+|  **@U.Case.Tra@** | Translative
 
- |  **@U.Number.Pl@** | Plural
- |  **@U.Number.Sg@** | Singular
+|  **@U.Number.Pl@** | Plural
+|  **@U.Number.Sg@** | Singular
 
 The following flag diacritics are being applied for vowel harmony variation
- |  **@U.VowHarm.B@** | Back harmony, used with subsequent Err/Orth-front
- |  **@U.VowHarm.F@** | Front harmony, used with subsequent Err/Orth-back
+|  **@U.VowHarm.B@** | Back harmony, used with subsequent Err/Orth-front
+|  **@U.VowHarm.F@** | Front harmony, used with subsequent Err/Orth-back
 
 # The Root lexicon
 
 
 The word forms in the Võro language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
- * **adpositions ;**
- * **adverbs ;**
- * **conjunctors ;**
- * **interjections ;**
- * **pronouns ;**
- * **PronounTypes ;**
- * **Punctuation ;**
- * **Symbols ;**
- * **numerals ;**
+* **adpositions ;**
+* **adverbs ;**
+* **conjunctors ;**
+* **interjections ;**
+* **pronouns ;**
+* **PronounTypes ;**
+* **Punctuation ;**
+* **Symbols ;**
+* **numerals ;**
 look at verb_newwords.lexc
 
- * **Exceptions ;**
- * **Abbreviation ;**
- * **Acronym ;**
+* **Exceptions ;**
+* **Abbreviation ;**
+* **Acronym ;**
 
 Incoming
- * **A_NEWWORDS ;**
- * **ADP_NEWWORDS ;**
- * **ADV_NEWWORDS ;** 
- * **DET_NEWWORDS ;**
- * **INTERJ_NEWWORDS ;**
- * **N_NEWWORDS ;**
- * **@U.Cap.Obl@ PROP_NEWWORDS ;**
- * **@U.Cap.Opt@ PROP_NEWWORDS ;**
- * **V_NEWWORDS ;**
- * **GenitiveAttributes ;** Borrowed from experimental_languages est
- * **NUM-PREFIXES ;** copied from giella-shared/smi
+* **A_NEWWORDS ;**
+* **ADP_NEWWORDS ;**
+* **ADV_NEWWORDS ;** 
+* **DET_NEWWORDS ;**
+* **INTERJ_NEWWORDS ;**
+* **N_NEWWORDS ;**
+* **@U.Cap.Obl@ PROP_NEWWORDS ;**
+* **@U.Cap.Opt@ PROP_NEWWORDS ;**
+* **V_NEWWORDS ;**
+* **GenitiveAttributes ;** Borrowed from experimental_languages est
+* **NUM-PREFIXES ;** copied from giella-shared/smi
 
 
 less complex word classes
@@ -2960,17 +2960,17 @@ The Võro language quantifiers inflect in cases.
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/quantifiers.lexc)</small>Noun inflection for Võro
 
- LEXICON N_1HANS1A  1 hanśa:hanśa
+LEXICON N_1HANS1A  1 hanśa:hanśa
 
 
- LEXICON N_1VIU  1 viu:viu
+LEXICON N_1VIU  1 viu:viu
 
 
 
- LEXICON N_1HERRAE  1 herrä:herrä
+LEXICON N_1HERRAE  1 herrä:herrä
 
 
- LEXICON N_1PREI  1 prei:prei
+LEXICON N_1PREI  1 prei:prei
 
 
 * Yaml: **suhvli**
@@ -2981,11 +2981,11 @@ The Võro language quantifiers inflect in cases.
 
 
 
- LEXICON N_3PERAEDUE  perädü:perädü
+LEXICON N_3PERAEDUE  perädü:perädü
 * Yaml: **peraedue**
 
 
- LEXICON N_3ALADU  aladu:aladu
+LEXICON N_3ALADU  aladu:aladu
 * Yaml: **peraedue**
 
 
@@ -3049,7 +3049,7 @@ villõ:villõ
 * Yaml:**N-kipwnj9**
 
 
- LEXICON N_10HWRAK  hõrak:hõrak
+LEXICON N_10HWRAK  hõrak:hõrak
 
 *Noun 10 hõrak  examples:*
 * *hõrak:* `hõrak+N+Sg+Nom`
@@ -3079,62 +3079,62 @@ villõ:villõ
 * *hõrakildaq:* `hõrak+N+Pl+Abe`
 * *hõrakidõgaq:* `hõrak+N+Pl+Com`
 
- LEXICON N_10HAIDAK  haidak:haidak
+LEXICON N_10HAIDAK  haidak:haidak
 
- LEXICON N_10ESAEK  esäk:esäk
-
-
-
- LEXICON N_10AABITS  aabits:aabits
-
- LEXICON N_10HEERITS  heerits:heerits
-
- LEXICON N_10AADRWS1  aadrõś:aadrõs
-
- LEXICON N_10AMMAT1  ammat́:ammat
-
- LEXICON N_10HUEPAETS1  hüpätś:hüpä%{td%}s
+LEXICON N_10ESAEK  esäk:esäk
 
 
+
+LEXICON N_10AABITS  aabits:aabits
+
+LEXICON N_10HEERITS  heerits:heerits
+
+LEXICON N_10AADRWS1  aadrõś:aadrõs
+
+LEXICON N_10AMMAT1  ammat́:ammat
+
+LEXICON N_10HUEPAETS1  hüpätś:hüpä%{td%}s
 
 
 
 
 
- LEXICON N_11LAETEQ  läteq:lä%{tØ%}te
-
- LEXICON N_11ANNWQ  annõq:andõ
-
- LEXICON N_11AINWQ  ainõq:ainõ
- LEXICON N_11KELMEQ  kelmeq:ainõ
-
- LEXICON N_11VAIH  vaih:vaih
 
 
+LEXICON N_11LAETEQ  läteq:lä%{tØ%}te
+
+LEXICON N_11ANNWQ  annõq:andõ
+
+LEXICON N_11AINWQ  ainõq:ainõ
+LEXICON N_11KELMEQ  kelmeq:ainõ
+
+LEXICON N_11VAIH  vaih:vaih
 
 
- LEXICON N_12NWKWS1   nõkõś:nõ%{kg%}õ%{sś%}
-
- LEXICON N_13ALONW  alonõ:alo
-
- LEXICON N_13TAEHINE  tähine:tähi
-
-Gradation: No
 
 
- LEXICON N_14RITS1KAS  ritśkas:ritśka%{sØ%}
+LEXICON N_12NWKWS1   nõkõś:nõ%{kg%}õ%{sś%}
+
+LEXICON N_13ALONW  alonõ:alo
+
+LEXICON N_13TAEHINE  tähine:tähi
 
 Gradation: No
 
 
+LEXICON N_14RITS1KAS  ritśkas:ritśka%{sØ%}
 
- LEXICON N_14HAMMAS  hammas:ham%{bm%}a%{sØ%}, saabas:saapa
+Gradation: No
+
+
+
+LEXICON N_14HAMMAS  hammas:ham%{bm%}a%{sØ%}, saabas:saapa
 distinguished from 14RITS1KAS due to gradation
 
- LEXICON N_14IKAES  ikäs:ikkä
+LEXICON N_14IKAES  ikäs:ikkä
 distinguished from 14RITS1KAS due to gradation
 
- LEXICON N_14NUMMWR1  nummõŕ:numbõr
+LEXICON N_14NUMMWR1  nummõŕ:numbõr
 distinguished from 14RITS1KAS due to gradation
 
 
@@ -3154,19 +3154,19 @@ kotus:kotus
 * Yaml: **N-ilves15**
 
 
- LEXICON N_16INEMINE 
+LEXICON N_16INEMINE 
 inemine:inemi
 * Yaml: **N-inemine16**
 
- LEXICON N_16ABILINW 
+LEXICON N_16ABILINW 
 abilinõ:abili
 * Yaml: **N-abilinw16**
 
- LEXICON N_16TERAEKENE 
+LEXICON N_16TERAEKENE 
 inemine:inemi
 * Yaml: **N-inemine16**
 
- LEXICON N_16TSIRGUKWNW 
+LEXICON N_16TSIRGUKWNW 
 tsirgukõnõ:abili
 * Yaml: **N-abilinw16**
 
@@ -3176,44 +3176,44 @@ tsirgukõnõ:abili
 
 
 
- LEXICON N_19ALOMANW  alomanõ:aloma
+LEXICON N_19ALOMANW  alomanõ:aloma
 
- LEXICON N_19PEDAEJAENE  pedäjäne:pedäjä
+LEXICON N_19PEDAEJAENE  pedäjäne:pedäjä
 
- LEXICON N_20LATS1  latś:lat%{sś%}
+LEXICON N_20LATS1  latś:lat%{sś%}
 
- LEXICON N_20TAEUES1  täüś:täü
+LEXICON N_20TAEUES1  täüś:täü
 
- LEXICON N_20VAEITS1  väitś:väits
+LEXICON N_20VAEITS1  väitś:väits
 
- LEXICON N_20KUEUEDS1  küüdś:küüds
+LEXICON N_20KUEUEDS1  küüdś:küüds
 
- LEXICON N_20MIIS1  miiś:m%{ei%}%{ei%}
-
-
- LEXICON N_21HUEDSI  hüdsi:hü
+LEXICON N_20MIIS1  miiś:m%{ei%}%{ei%}
 
 
- LEXICON N_21KUSI  kusi:kus
-
- LEXICON N_22VWROKWNW  võrokõnõ:võrokõ
-
- LEXICON N_22NAANW  naanõ:naa
-
- LEXICON N_22VAEHAEKENE  vähäkene:vähäke
-
- * LEXICON N_23NUUL1  nuuĺ:n%{ou%}%{ou%}l
-
- * LEXICON N_23SUUR1  suuŕ:suur
+LEXICON N_21HUEDSI  hüdsi:hü
 
 
- * LEXICON N_23KIIL1   kiiĺ:keel
+LEXICON N_21KUSI  kusi:kus
 
- * LEXICON N_23HIIR1   hiiŕ:hiir
+LEXICON N_22VWROKWNW  võrokõnõ:võrokõ
 
- * LEXICON N_24KAESI  käsi:kä
+LEXICON N_22NAANW  naanõ:naa
 
- * LEXICON N_24SUSI  susi:su
+LEXICON N_22VAEHAEKENE  vähäkene:vähäke
+
+* LEXICON N_23NUUL1  nuuĺ:n%{ou%}%{ou%}l
+
+* LEXICON N_23SUUR1  suuŕ:suur
+
+
+* LEXICON N_23KIIL1   kiiĺ:keel
+
+* LEXICON N_23HIIR1   hiiŕ:hiir
+
+* LEXICON N_24KAESI  käsi:kä
+
+* LEXICON N_24SUSI  susi:su
 
 
 
@@ -3225,27 +3225,27 @@ tsirgukõnõ:abili
 gradation: yes
 
 
- * **LEXICON N_27KUEMMEND ** kümmend:küm
+* **LEXICON N_27KUEMMEND ** kümmend:küm
 
- * **LEXICON N_28TUETAER1 ** tütäŕ:tütär
+* **LEXICON N_28TUETAER1 ** tütäŕ:tütär
 
- * **LEXICON N_28PINNAER1 ** pinnäŕ:pin%{dn%}är
+* **LEXICON N_28PINNAER1 ** pinnäŕ:pin%{dn%}är
 
- * **LEXICON N_28PAPWR1 ** papõŕ:papõr
+* **LEXICON N_28PAPWR1 ** papõŕ:papõr
 
- * **LEXICON N_28KANNWL1 ** kannõĺ:kan%{dn%}õl
+* **LEXICON N_28KANNWL1 ** kannõĺ:kan%{dn%}õl
 
- * **LEXICON N_28KINNER1 ** kinneŕ:kin%{dn%}er
+* **LEXICON N_28KINNER1 ** kinneŕ:kin%{dn%}er
 
- * **LEXICON N_28SWSAR1 ** sõsaŕ:sõsar
+* **LEXICON N_28SWSAR1 ** sõsaŕ:sõsar
 
- * **LEXICON N_28PUNDAR ** pundar:pun%{td%}ar
+* **LEXICON N_28PUNDAR ** pundar:pun%{td%}ar
 
- * **LEXICON N_28KAEMMAEL ** kämmäl:käm%{bm%}äl
+* **LEXICON N_28KAEMMAEL ** kämmäl:käm%{bm%}äl
 
- * LEXICON N_29KUU  kuu:kuu
+* LEXICON N_29KUU  kuu:kuu
 
- * LEXICON N_29HAEAE  pää:pää
+* LEXICON N_29HAEAE  pää:pää
 
 
 
@@ -3271,28 +3271,28 @@ nimi:ni%{mØ%}m
 
 lumi:lum
 
- LEXICON N_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
+LEXICON N_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
 
- LEXICON N_36HANG1  hanǵ:hang
+LEXICON N_36HANG1  hanǵ:hang
 
 
- LEXICON N_36SAERG1  särǵ:sär%{gǵØ%}
+LEXICON N_36SAERG1  särǵ:sär%{gǵØ%}
 
- LEXICON N_36PAEIV  päiv:päiv
+LEXICON N_36PAEIV  päiv:päiv
 
- * LEXICON N_36SILM  silm:silm
+* LEXICON N_36SILM  silm:silm
 harmony: front
 
- * LEXICON N_36RAMM  ramm:ramm
+* LEXICON N_36RAMM  ramm:ramm
 harmony: back
 
- * LEXICON N_36TIIM  tiim:t%{ei%}%{ei%}m
+* LEXICON N_36TIIM  tiim:t%{ei%}%{ei%}m
 harmony: front
 
- * LEXICON N_36NJUKR  ńukr:ńu%{kg%}r
+* LEXICON N_36NJUKR  ńukr:ńu%{kg%}r
 harmony: back
 
- * LEXICON N_36LAEHK  lähk:läh%{kØ%}
+* LEXICON N_36LAEHK  lähk:läh%{kØ%}
 harmony: front
 
 kogõr:kogõr
@@ -3319,51 +3319,51 @@ oblique plural in õ
 derived from 36särǵ
 
 
- LEXICON N_37PINI  pini:pini
+LEXICON N_37PINI  pini:pini
 
- LEXICON N_37WLI  õli:õli
+LEXICON N_37WLI  õli:õli
 
- LEXICON N_37MUNA  muna:mu%{nØ%}na
-
-
+LEXICON N_37MUNA  muna:mu%{nØ%}na
 
 
 
 
 
- * LEXICON N_38HUETT  hütt:hütt
+
+
+* LEXICON N_38HUETT  hütt:hütt
 
 
 
 
- * LEXICON N_39VIDO  vido:vido
+* LEXICON N_39VIDO  vido:vido
 
- * LEXICON N_39HAEBUE  häbü:hä%{pbØ%}ü
+* LEXICON N_39HAEBUE  häbü:hä%{pbØ%}ü
 
- LEXICON N_40TALO  talo:talo
+LEXICON N_40TALO  talo:talo
 
- LEXICON N_40HELUE  helü:helü
+LEXICON N_40HELUE  helü:helü
 
- LEXICON N_40UJA  uja:u%{jØ%}ja
+LEXICON N_40UJA  uja:u%{jØ%}ja
 
- LEXICON N_40SAVV  savv:savvu
+LEXICON N_40SAVV  savv:savvu
 
- LEXICON N_40TUEKK  tükk:tü%{kØ%}kü
+LEXICON N_40TUEKK  tükk:tü%{kØ%}kü
 
 
 
- LEXICON N_41JUHT1  juht́:juht
+LEXICON N_41JUHT1  juht́:juht
 * Yaml: **juht́**
 
- LEXICON N_41AIG  aig:a
+LEXICON N_41AIG  aig:a
 * Yaml: **aig, aig**
 
- LEXICON N_41ASK  aig:aig
+LEXICON N_41ASK  aig:aig
 * Yaml: **aig, aig**
 ask:as%{kØ%}o
 juusk:j%{ou%}%{ou%}s%{kØ%}u
 
- LEXICON N_41VIIT  aig:aig
+LEXICON N_41VIIT  aig:aig
 * Yaml: **aig, aig**
 
 
@@ -3371,37 +3371,37 @@ juusk:j%{ou%}%{ou%}s%{kØ%}u
 
 
 
- LEXICON N_43KANARIK  usklik+A:%{ˋØ%}#uskli%{kg%}
+LEXICON N_43KANARIK  usklik+A:%{ˋØ%}#uskli%{kg%}
 
- LEXICON N_43ELAENIK  elänik+N:eläni%{kØ%}%{kg%}
+LEXICON N_43ELAENIK  elänik+N:eläni%{kØ%}%{kg%}
 
- LEXICON N_43SASLWK1 
+LEXICON N_43SASLWK1 
 
- LEXICON N_43APRIL1 
+LEXICON N_43APRIL1 
 
- LEXICON N_43SEKRETAER1 
+LEXICON N_43SEKRETAER1 
 
- LEXICON N_43AASTAK 
-
-
-
- LEXICON N_44SWDA  sõda:sõ%{tØ%}%{tdØ%}a
+LEXICON N_43AASTAK 
 
 
- LEXICON N_45KANA  kana:ka%{nØ%}na
 
- LEXICON N_45RIHAE  rihä:ri%{hØ%}hä
+LEXICON N_44SWDA  sõda:sõ%{tØ%}%{tdØ%}a
 
- LEXICON N_46HAIN  hain:hain
+
+LEXICON N_45KANA  kana:ka%{nØ%}na
+
+LEXICON N_45RIHAE  rihä:ri%{hØ%}hä
+
+LEXICON N_46HAIN  hain:hain
 * Yaml: **N-jalg, N-hain**
 
- LEXICON N_46TARK  tark:tark
+LEXICON N_46TARK  tark:tark
 * Yaml: **N-jalg, N-tark**
 
 
- LEXICON N_47ASI  asi:asi
+LEXICON N_47ASI  asi:asi
 
- LEXICON N_47KIRI  kiri:kiri
+LEXICON N_47KIRI  kiri:kiri
 
 
 
@@ -3422,7 +3422,7 @@ juusk:j%{ou%}%{ou%}s%{kØ%}u
 
 ### NOMINAL DECLENSIONS
 
- LEXICON NMN_1HANS1A  1 hanśa:hanśa
+LEXICON NMN_1HANS1A  1 hanśa:hanśa
 
 *Noun 01 hanśa examples:*
 * *hanśa* `hanśa+N+Sg+Nom:`
@@ -3453,7 +3453,7 @@ juusk:j%{ou%}%{ou%}s%{kØ%}u
 in d
 
 
- LEXICON NMN_1HERRAE  1 herrä:herrä
+LEXICON NMN_1HERRAE  1 herrä:herrä
 
 *Noun 01 herrä examples:*
 * *herrä* `herrä+N+Sg+Nom:`
@@ -3492,11 +3492,11 @@ in d
 
 
 
- LEXICON NMN_3PERAEDUE  perädü:perädü
+LEXICON NMN_3PERAEDUE  perädü:perädü
 * Yaml: **A-peraedue3** same as aladu
 
 
- LEXICON NMN_3ALADU  aladu:aladu
+LEXICON NMN_3ALADU  aladu:aladu
 
 *Noun 03 aladu examples:*
 * *aladu* `aladu+A+Sg+Nom:`
@@ -3508,6 +3508,11 @@ in d
 * *alatumb* `aladu+A+Comp+Sg+Nom:`
 
 * Yaml: **A-aladu3**
+
+
+LEXICON NMN_VERE  aladu:aladu
+
+* Yaml: **Rakvere**
 
 
 
@@ -3538,10 +3543,10 @@ in d
 
 
 
- * +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i Harm-Neutr_PL-GEN_dE ;  tervide
- * +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
+* +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i Harm-Neutr_PL-GEN_dE ;  tervide
+* +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
 
- * **LEXICON NMN_4AINUS ** Types 4, 8, 17
+* **LEXICON NMN_4AINUS ** Types 4, 8, 17
 
 *Noun 04 examples:*
 * *ainus* `ainus+A+Sg+Nom:`
@@ -3575,7 +3580,7 @@ ainus:ainus
 
 
 
- * LEXICON NMN_5OPPAJA/MAENGJAE  oppaja:oppaja
+* LEXICON NMN_5OPPAJA/MAENGJAE  oppaja:oppaja
 
 *Adjective 05 kerge examples:*
 * *kerge* `kerge+A+Sg+Nom:`
@@ -3604,7 +3609,7 @@ ainus:ainus
 * Yaml: **N-oppaja5, kerge5**
 
 
- * LEXICON NMN_6MAKW/HELLE  makõ:ma%{kØ%}kõ
+* LEXICON NMN_6MAKW/HELLE  makõ:ma%{kØ%}kõ
 
 *Adjective (6) tikõ 'eng /est /fin' - full paradigm: Noun - tikõ examples:*
 * *tikõ:* `tikõ+A+Sg+Nom`
@@ -3707,7 +3712,7 @@ kuldnõ:kuld
 
 Secondary
 
- * LEXICON NMN_8KOLMAS/VIIES  kolmas:kolma
+* LEXICON NMN_8KOLMAS/VIIES  kolmas:kolma
 
 *Noun 08 kolmas examples:*
 * *kolmas* `kolmas+N+Sg+Nom:`
@@ -3860,7 +3865,7 @@ Secondary
 
 
 
- * **LEXICON NMN_36RAMM/SILM ** silm:silm
+* **LEXICON NMN_36RAMM/SILM ** silm:silm
 
 *Noun 36 silmä ämm examples:*
 * *ämm* `ämm+N+Sg+Nom:`
@@ -3898,7 +3903,7 @@ Secondary
 
 Secondary
 
- * **LEXICON NMN_36NJUKR/LAEHK ** lähk:läh%{kØ%}
+* **LEXICON NMN_36NJUKR/LAEHK ** lähk:läh%{kØ%}
 
 *Noun 36 lähk examples:*
 * *lähk* `lähk+N+Sg+Nom:`
@@ -3934,9 +3939,9 @@ Secondary
 
 Secondary
 
- LEXICON NMN_9KIPWN1/ELLAEI  kipõń:kipõń fixme 2016-08-27
+LEXICON NMN_9KIPWN1/ELLAEI  kipõń:kipõń fixme 2016-08-27
 * Yaml: **N-kipwnj**
- LEXICON NMN_9KIPWN1/VETEL1  kipõń:ki%{pb%}õ%{nń%}
+LEXICON NMN_9KIPWN1/VETEL1  kipõń:ki%{pb%}õ%{nń%}
 
 *Noun 09 kipõń examples:*
 * *kipõń* `kipõń+N+Sg+Nom:`
@@ -3966,12 +3971,12 @@ Secondary
 
 
 
- LEXICON NMN_9ALLAS1/SINNEL1  allaś:allas
+LEXICON NMN_9ALLAS1/SINNEL1  allaś:allas
 * Yaml: **N-kipwnj**
 
 
 
- LEXICON NMN_9TUKWV/VERREV  tukõv:tu%{kg%}õv
+LEXICON NMN_9TUKWV/VERREV  tukõv:tu%{kg%}õv
 
 *Adjective 09 tukõv examples:*
 * *tukõv* `tukõv+A+Sg+Nom:`
@@ -4001,7 +4006,7 @@ Secondary
 
 
 
- LEXICON NMN_9SALLAI/ELLAEI  elläi:e%{lØ%}lä%{ij%}
+LEXICON NMN_9SALLAI/ELLAEI  elläi:e%{lØ%}lä%{ij%}
 
 *Noun 09 elläi examples:*
 * *elläi* `elläi+N+Sg+Nom:`
@@ -4033,7 +4038,7 @@ Secondary
 SHOULD THIS BE HERE, c.f. yaml
 
 
- LEXICON NMN_9TAHHE/HERRE  tahhe:ta%{hØ%}he
+LEXICON NMN_9TAHHE/HERRE  tahhe:ta%{hØ%}he
 
 *Noun 09 tahhe examples:*
 * *tahhe* `tahhe+N+Sg+Nom:`
@@ -4063,7 +4068,7 @@ SHOULD THIS BE HERE, c.f. yaml
 
 
 
- LEXICON NMN_9VILLW/XX  villõ:vi%{lØ%}lõ
+LEXICON NMN_9VILLW/XX  villõ:vi%{lØ%}lõ
 
 *Noun 09 villõ examples:*
 * *villõ* `villõ+N+Sg+Nom:`
@@ -4093,7 +4098,7 @@ SHOULD THIS BE HERE, c.f. yaml
 
 
 
-LEXICON NMN_10HWRAK   * @OCDE@ hõrak:hõrak
+LEXICON NMN_10HWRAK  * @OCDE@ hõrak:hõrak
 
 *Noun 10 hõrak  examples:*
 * *hõrak:* `hõrak+N+Sg+Nom`
@@ -4161,7 +4166,7 @@ LEXICON NMN_10HWRAK   * @OCDE@ hõrak:hõrak
 
 
 
-LEXICON NMN_10HAIDAK/ESAEK   * @OCDE@ haidak:haida%{kg%}
+LEXICON NMN_10HAIDAK/ESAEK  * @OCDE@ haidak:haida%{kg%}
 Noun (10) esäk
 * *esäk:* `esäk+N+Sg+Nom`
 * *esägu:* `esäk+N+Sg+Gen`
@@ -4253,7 +4258,7 @@ gradation: no
 **N-vidrik10**
 
 
-LEXICON NMN_10AABITS/HEERITS   * @OCDE@ aabits:aabi%{td%}s
+LEXICON NMN_10AABITS/HEERITS  * @OCDE@ aabits:aabi%{td%}s
 
 *Noun 10 aabits  examples:*
 * *aabits:* `aabits+N+Sg+Nom`
@@ -4320,7 +4325,7 @@ vowel_harmony: ONLY FRONT
 * *aadrõssidõgaq:* `aadrõś+N+Pl+Com`
 
 
-LEXICON NMN_10AMMAT1   * @OCDE@ ammat́:amma%{tt́d%}
+LEXICON NMN_10AMMAT1  * @OCDE@ ammat́:amma%{tt́d%}
 
 *Noun 10 ammat́ examples:*
 * *ammat́:* `ammat́+N+Sg+Nom`
@@ -4352,14 +4357,14 @@ LEXICON NMN_10AMMAT1   * @OCDE@ ammat́:amma%{tt́d%}
 **N-hwrak10**
 
 
-LEXICON NMN_10HUEPAETS1   * @OCDE@ hüpätś:hüpäts
+LEXICON NMN_10HUEPAETS1  * @OCDE@ hüpätś:hüpäts
 vowel_harmony: ONLY FRONT
 Gradation: YES
 **N-esaek10**
 
 
 
- LEXICON NMN_11AINWQ/KELMEQ  ainõq:ainõ
+LEXICON NMN_11AINWQ/KELMEQ  ainõq:ainõ
 
 *Noun 11 ainõq examples:*
 * *ainõq* `ainõq+N+Sg+Nom:`
@@ -4394,7 +4399,7 @@ Gradation: YES
 
 
 
- LEXICON NMN_11ANNWQ/LAETEQ  läteq:lä%{tØ%}te
+LEXICON NMN_11ANNWQ/LAETEQ  läteq:lä%{tØ%}te
 
 *Noun 11 läteq examples:*
 * *läteq* `läteq+N+Sg+Nom:`
@@ -4467,12 +4472,12 @@ Gradation: YES
 
 **N-suekues12**
 
- * +Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
+* +Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
 
 
 
 
- LEXICON NMN_13ALONW/TAEHINE  alonõ:alo
+LEXICON NMN_13ALONW/TAEHINE  alonõ:alo
 
 *Noun 13 alonõ examples:*
 * *alonõ* `alonõ+N+Sg+Nom:`
@@ -4500,14 +4505,14 @@ Gradation: YES
 
 
 
- LEXICON NMN_13XX/SAEAENE  sääne:sää
+LEXICON NMN_13XX/SAEAENE  sääne:sää
 **A-alonw**
 
 
 
 
 
- * **LEXICON NMN_14RITS1KAS/HERNEH ** ritśkas:ritśka
+* **LEXICON NMN_14RITS1KAS/HERNEH ** ritśkas:ritśka
 
 *Noun 14 ritśkas examples:*
 * *ritśkas* `ritśkas+N+Sg+Nom:`
@@ -4536,7 +4541,7 @@ Gradation: YES
 
 
 
- * **LEXICON NMN_14HAMMAS/IKAES ** hammas:ham%{bm%}a%{sØ%}
+* **LEXICON NMN_14HAMMAS/IKAES ** hammas:ham%{bm%}a%{sØ%}
 
 *Noun 14 hammas examples:*
 * *hammas* `hammas+N+Sg+Nom:`
@@ -4664,17 +4669,17 @@ Yaml: __N-hamwh_gt-norm.yaml__
 
 
 
- LEXICON NMN_16ABILINW/INEMINE  inemine:inemi abilinõ:abili
+LEXICON NMN_16ABILINW/INEMINE  inemine:inemi abilinõ:abili
 * Yaml: **N-inemine16**
 
 
- LEXICON NMN_16TSIRGUKWNW/TERAEKENE  inemine:inemi tsirgukõnõ:abili
+LEXICON NMN_16TSIRGUKWNW/TERAEKENE  inemine:inemi tsirgukõnõ:abili
 * Yaml: **N-inemine16**
 
 
 
 
- * LEXICON NMN_17ALGUS/UETSUES  aivastus:aivastus
+* LEXICON NMN_17ALGUS/UETSUES  aivastus:aivastus
 * Yaml: **N-aivastus18**
 
 
@@ -4689,7 +4694,7 @@ Yaml: __N-hamwh_gt-norm.yaml__
 
 
 
- LEXICON NMN_19ALOMANW/PEDAEJAENE   alomanõ:aloma
+LEXICON NMN_19ALOMANW/PEDAEJAENE   alomanõ:aloma
 * Yaml: **A-alomanw19**
 
 
@@ -4723,20 +4728,20 @@ Yaml: __N-hamwh_gt-norm.yaml__
 
 
 
- LEXICON NMN_22NAANW  naanõ:naa
+LEXICON NMN_22NAANW  naanõ:naa
 * Yaml: **N-vwrokwnw22**
 
 
- LEXICON NMN_22VWROKWNW/VAEHAEKENE  vähäkene:vähäke
+LEXICON NMN_22VWROKWNW/VAEHAEKENE  vähäkene:vähäke
 * Yaml: **N-vaehaekene22**
 
 
- * **LEXICON NMN_23NUUL1/KIIL1 ** nuuĺ:nool
+* **LEXICON NMN_23NUUL1/KIIL1 ** nuuĺ:nool
 * Yaml: **N-nuulj**
 
 
 
- * **LEXICON NMN_23SUUR1 ** suuŕ:suur
+* **LEXICON NMN_23SUUR1 ** suuŕ:suur
 * Yaml: **N-suurj**
 
 
@@ -4780,16 +4785,16 @@ Yaml: __N-hamwh_gt-norm.yaml__
 
 
 
- * **LEXICON NMN_27HAPU ** hapu:hapu
+* **LEXICON NMN_27HAPU ** hapu:hapu
 Yaml: **N-hapu27**
 
 
 
- * **LEXICON NMN_27KUEMMEND ** kümmend:küm
+* **LEXICON NMN_27KUEMMEND ** kümmend:küm
 
 
 
- * **LEXICON NMN_28TUETAER1 ** tütäŕ:tütär
+* **LEXICON NMN_28TUETAER1 ** tütäŕ:tütär
 * Yaml: **N-tuetaerj28, N-kannwl28**
 
 
@@ -4824,7 +4829,7 @@ gradation= no
 
 
 
- * LEXICON NMN_30MAA/TUEUE  tüü:tüü
+* LEXICON NMN_30MAA/TUEUE  tüü:tüü
 * Yaml: **N-tueue30**
 
 
@@ -4878,7 +4883,7 @@ gradation= no
 
 
 
- * LEXICON NMN_35UMA/PESAE  pesä:pe%{sØ%}sä
+* LEXICON NMN_35UMA/PESAE  pesä:pe%{sØ%}sä
 
 
 
@@ -4951,7 +4956,7 @@ nimi:nim
 
 
 
- * LEXICON NMN_36KWIK1/XX1   kõiḱ:kõi%{kØ%}%{kḱg%}
+* LEXICON NMN_36KWIK1/XX1   kõiḱ:kõi%{kØ%}%{kḱg%}
 
 
 
@@ -4965,7 +4970,7 @@ nimi:nim
 
 
 
- **LEXICON NMN_46SWBWR **
+**LEXICON NMN_46SWBWR **
 sõbõr:sõbõr
 Oblique plural in o
 * Yaml: **N-swbwr36**
@@ -5021,12 +5026,12 @@ pung:pung
 *Noun 38 pung examples:*
 
 
- * LEXICON NMN_38PULL1  pulĺ:pull
- * +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
+* LEXICON NMN_38PULL1  pulĺ:pull
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
 
 
 
- * +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
 
 
 
@@ -5060,9 +5065,9 @@ pung:pung
 
 
 
-    * :%^VOWRaise%^StrGStem%^PAL        Harm-Neutr_SG-NOM  ;  pu̬u̬ḿ
- * +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
-    * :%^VOWLower%^WGStem%^NoPAL%>i       SG-GEN_ZERO-STEM        ;  poomi
+   * :%^VOWRaise%^StrGStem%^PAL        Harm-Neutr_SG-NOM  ;  pu̬u̬ḿ
+* +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
+   * :%^VOWLower%^WGStem%^NoPAL%>i       SG-GEN_ZERO-STEM        ;  poomi
 
 
 
@@ -5124,7 +5129,7 @@ stem_vowel="o"
 
 
 
- * +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
 
 
 
@@ -5175,10 +5180,10 @@ stem_vowel="o"
 
 
 
- * :%^Pen%^PAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
- * +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
+* :%^Pen%^PAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
+* +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
 
- * :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
+* :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
 
 
 
@@ -5289,7 +5294,7 @@ stem_vowel="o"
 
 
 
- * LEXICON NMN_44SWDA  sõda:sõ%{tØ%}%{tdØ%}a
+* LEXICON NMN_44SWDA  sõda:sõ%{tØ%}%{tdØ%}a
 gradation: yes
 
 
@@ -5323,25 +5328,25 @@ gradation: yes
 * *sõtogaq:* `sõda+N+Pl+Com`
 
 
- * LEXICON NMN_45KANA/RIHAE  kana:ka%{nØ%}n%{ao%}
+* LEXICON NMN_45KANA/RIHAE  kana:ka%{nØ%}n%{ao%}
 * Yaml: **N-kana45**
 
 
- LEXICON NMN_46HAIN   jalg:jalg
+LEXICON NMN_46HAIN   jalg:jalg
 gradation: no
 
 
- LEXICON NMN_46TARK   jalg:jal%{gØ%}
+LEXICON NMN_46TARK   jalg:jal%{gØ%}
 gradation: yes
 
 
- * LEXICON NMN_47ASI  asi:a%{sś%}%{jiØ%}
+* LEXICON NMN_47ASI  asi:a%{sś%}%{jiØ%}
 
 
- * :%^NoPAL%^VowRM%>ö       PL-ALL_lE-STEM ;  IS THIS A REAL FORM?
+* :%^NoPAL%^VowRM%>ö       PL-ALL_lE-STEM ;  IS THIS A REAL FORM?
 
 
- * LEXICON NMN_2KASUNUQ/ELAENUEQ  elänüq:elänü
+* LEXICON NMN_2KASUNUQ/ELAENUEQ  elänüq:elänü
 
 
 
@@ -5356,7 +5361,7 @@ gradation: yes
 
 ### TAGS THAT CAN BE FOLLOWED BY CLITICS "K"
 ### PLURAL TAGS
- * +Use/NG+Err/Orth-no-q+Pl+Abe:%>ld%{aä%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Pl+Abe:%>ld%{aä%} K ;  no q
 
 
 
@@ -5391,8 +5396,8 @@ gradation: yes
 
 
 
- * +Use/NG+Err/Orth-no-q+Sg+Com:%>ga K ;  no q
- * +Use/NG+Err/Orth-no-q+Sg+Com:%>ga BACK_K ;  no q
+* +Use/NG+Err/Orth-no-q+Sg+Com:%>ga K ;  no q
+* +Use/NG+Err/Orth-no-q+Sg+Com:%>ga BACK_K ;  no q
 
 
 
@@ -5410,7 +5415,7 @@ gradation: yes
 
 
 
- LEXICON Harm-Neutr_SG-INE_hn  RARE
+LEXICON Harm-Neutr_SG-INE_hn  RARE
 
 
 
@@ -5457,7 +5462,7 @@ gradation: yes
 
 digits
 
- * **LEXICON SASCont ** FROM NUMERALS, gives -aastanõ etc.
+* **LEXICON SASCont ** FROM NUMERALS, gives -aastanõ etc.
 
 
 
@@ -5468,24 +5473,24 @@ The VÕRO language adjectives compare.
 
 
 
- LEXICON A_1HANS1A  1 hanśa:hanśa
+LEXICON A_1HANS1A  1 hanśa:hanśa
 
- LEXICON A_1HERRAE  1 herrä:herrä
+LEXICON A_1HERRAE  1 herrä:herrä
 
- LEXICON A_2ARTIKLI  suhvli:suhvli
+LEXICON A_2ARTIKLI  suhvli:suhvli
 * Yaml: **suhvli**
 
- LEXICON A_2KERGE  1 kerge:
+LEXICON A_2KERGE  1 kerge:
 
- LEXICON A_3ALADU  aladu:aladu
+LEXICON A_3ALADU  aladu:aladu
 * Yaml: **A-aladu**
 
- LEXICON A_3PERAEDUE  perädü:perädü
+LEXICON A_3PERAEDUE  perädü:perädü
 * Yaml: **A-peraedue**
 
 
 
- LEXICON A_4AINUS   ainus:ainus
+LEXICON A_4AINUS   ainus:ainus
 
 
 
@@ -5495,25 +5500,25 @@ The VÕRO language adjectives compare.
 
 
 
- * LEXICON A_8KULDNW  kuldnõ:kuld
- * LEXICON A_8KIIL1NE  kiiĺne:ki̬i̬ĺ
+* LEXICON A_8KULDNW  kuldnõ:kuld
+* LEXICON A_8KIIL1NE  kiiĺne:ki̬i̬ĺ
 
- * LEXICON A_8KOLMAS  kolmas:kolma
+* LEXICON A_8KOLMAS  kolmas:kolma
 
- * LEXICON A_8VIIES  viies:viie
+* LEXICON A_8VIIES  viies:viie
 
- * LEXICON A_9ALLAS1 
+* LEXICON A_9ALLAS1 
 
- * LEXICON A_9SINNEL1 
+* LEXICON A_9SINNEL1 
 
- * LEXICON A_9TAHHE 
+* LEXICON A_9TAHHE 
 
- * LEXICON A_9HERRE 
+* LEXICON A_9HERRE 
 
- * LEXICON A_9KIPWN1/ELLAEI  what is this
+* LEXICON A_9KIPWN1/ELLAEI  what is this
 * Yaml: **ellaei, suhvli**
 
- * LEXICON A_9SALLAI  what is this
+* LEXICON A_9SALLAI  what is this
 * Yaml: **ellaei, suhvli**
 * Yaml: **ellaei, suhvli**
 
@@ -5537,45 +5542,45 @@ The VÕRO language adjectives compare.
 
 
 
- LEXICON A_11AINWQ  ainõq:ainõ
+LEXICON A_11AINWQ  ainõq:ainõ
 
- LEXICON A_11KELMEQ  kelmeq:kelme
-
-
- LEXICON A_13ALONW  alonõ:alo
-
- LEXICON A_13TAEHINE  tähine:tähi
-
- LEXICON A_13TAEHINE-PL  tähine:tähi
+LEXICON A_11KELMEQ  kelmeq:kelme
 
 
- LEXICON A_14RITS1KAS   ritśkas:ritśka%{sØ%}
+LEXICON A_13ALONW  alonõ:alo
 
- LEXICON A_14HAMMAS   rikas:ri%{kØ%}ka%{sØ%}
+LEXICON A_13TAEHINE  tähine:tähi
 
- LEXICON A_14IKAES   rikas:ri%{kØ%}ka%{sØ%}
-
-
- LEXICON A_16ABILINW  inemine:inemi
-
- LEXICON A_16INEMINE  inemine:inemi
+LEXICON A_13TAEHINE-PL  tähine:tähi
 
 
+LEXICON A_14RITS1KAS   ritśkas:ritśka%{sØ%}
+
+LEXICON A_14HAMMAS   rikas:ri%{kØ%}ka%{sØ%}
+
+LEXICON A_14IKAES   rikas:ri%{kØ%}ka%{sØ%}
+
+
+LEXICON A_16ABILINW  inemine:inemi
+
+LEXICON A_16INEMINE  inemine:inemi
 
 
 
 
- LEXICON A_19ALOMANW  alomanõ:aloma
-
- LEXICON A_19PEDAEJAENE  pedäjäne:pedäjä
-
- LEXICON A_19PEDAEJAENE-PL  pedäjäne:pedäjä
 
 
+LEXICON A_19ALOMANW  alomanõ:aloma
 
- LEXICON A_22VWROKWNW  võrokõnõ:võrokõ
+LEXICON A_19PEDAEJAENE  pedäjäne:pedäjä
 
- LEXICON A_22VAEHAEKENE  võrokõnõ:võrokõ
+LEXICON A_19PEDAEJAENE-PL  pedäjäne:pedäjä
+
+
+
+LEXICON A_22VWROKWNW  võrokõnõ:võrokõ
+
+LEXICON A_22VAEHAEKENE  võrokõnõ:võrokõ
 
 
 
@@ -5621,15 +5626,15 @@ gradation: no
 
 
 
- * LEXICON A_2KASUNUQ  kasunuq:kasunu
- * LEXICON A_2ELAENUEQ  elänüq:elänü
+* LEXICON A_2KASUNUQ  kasunuq:kasunu
+* LEXICON A_2ELAENUEQ  elänüq:elänü
 
 
 
 
 
 
- * +Err/Orth+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ;  no q
+* +Err/Orth+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ;  no q
 
 
 
@@ -5637,7 +5642,7 @@ gradation: no
 
 
 
- * +Err/Orth+Use/NG+Pl+Com:id%{eõ%}ga K ;  no q
+* +Err/Orth+Use/NG+Pl+Com:id%{eõ%}ga K ;  no q
 
 
 
@@ -5661,11 +5666,11 @@ CHECKME vowel harmony
 
 
 
- LEXICON PERS-PL1  maq:m
+LEXICON PERS-PL1  maq:m
 
- LEXICON PERS-PL2  saq:
+LEXICON PERS-PL2  saq:
 
- LEXICON PERS-PL3  timä:
+LEXICON PERS-PL3  timä:
 
 
 
@@ -5770,8 +5775,8 @@ Pss_PrfPrc: sadat
 
 
 
- * **LEXICON V_49LWPMA** lõpma:lõpp
- * **LEXICON V_49LWPMA/XX** lõpma:lõ%{pØ%}p
+* **LEXICON V_49LWPMA** lõpma:lõpp
+* **LEXICON V_49LWPMA/XX** lõpma:lõ%{pØ%}p
 
 
 
@@ -5793,25 +5798,25 @@ Pss_PrfPrc: sadat
 
 
 
- * **LEXICON V_50TONISWMA** tonisõma:tonis
+* **LEXICON V_50TONISWMA** tonisõma:tonis
 * Yaml: **toniswma50**
- * **LEXICON V_50TONISWMA/HELISEMAE** tonisõma:tonis
+* **LEXICON V_50TONISWMA/HELISEMAE** tonisõma:tonis
 
 
 
 
- * **LEXICON V_50HELISEMAE** helisemä:helis
+* **LEXICON V_50HELISEMAE** helisemä:helis
 * Yaml: **helisemae50**
 
 
- * **LEXICON V_51NWSWMA** nõsõma:nõs
+* **LEXICON V_51NWSWMA** nõsõma:nõs
 * Yaml: **nwswma51**
 cf. tulõma
- * **LEXICON V_51PAESEMAE** päsemä:päs
+* **LEXICON V_51PAESEMAE** päsemä:päs
 * Yaml: **paesemae51**
 cf. tulõma
 
- * **LEXICON V_51NWSWMA/PAESEMAE** nõsõma:nõs
+* **LEXICON V_51NWSWMA/PAESEMAE** nõsõma:nõs
 
 
 
@@ -5821,13 +5826,13 @@ cf. tulõma
 
 
 
- * **LEXICON V_52ALOSTWLWMA** alostõlõma:alostõll
+* **LEXICON V_52ALOSTWLWMA** alostõlõma:alostõll
 * Yaml: **alostwllwma52**
- * **LEXICON V_52EHITELEMAE** ehitelemä:ehitell
+* **LEXICON V_52EHITELEMAE** ehitelemä:ehitell
 ehitelemä:ehitell
 * Yaml: **ehitellemae52**
 
- * **LEXICON V_52ALOSTWLWMA/EHITELEMAE** alostõllõma:alostõ%{lØ%}l
+* **LEXICON V_52ALOSTWLWMA/EHITELEMAE** alostõllõma:alostõ%{lØ%}l
 
 
 
@@ -5841,36 +5846,36 @@ ehitelemä:ehitell
 
 
 
- * **LEXICON V_53KAEMA** 
- * **LEXICON V_53JAEAEMAE** 
- * **LEXICON V_53XX/JAEAEMAE** 
+* **LEXICON V_53KAEMA** 
+* **LEXICON V_53JAEAEMAE** 
+* **LEXICON V_53XX/JAEAEMAE** 
 
- * :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+* :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
- *  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+*  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
 
- * :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
- * :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
- * :%^VOWRaise ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
+* :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
+* :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
+* :%^VOWRaise ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
 
- *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+*  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
- * **LEXICON V_53KAEMA/XX** 
+* **LEXICON V_53KAEMA/XX** 
 
- * :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+* :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
- *  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+*  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
 
- * :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
- * :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
- * :%^VOWRaise ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
+* :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
+* :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
+* :%^VOWRaise ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
 
- *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+*  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
 
- * **LEXICON V_55KWNWLWMA** kõnõlõma:kõ̭nõl
+* **LEXICON V_55KWNWLWMA** kõnõlõma:kõ̭nõl
 * Yaml: **kwnwlwma55**
- * **LEXICON V_55HAERELEMAE** härelemä:härel
+* **LEXICON V_55HAERELEMAE** härelemä:härel
 * Yaml: **haerelemae55**
 
 
@@ -5884,12 +5889,12 @@ ehitelemä:ehitell
 
 
 
- * **LEXICON V_56HIIBWLWMA** hiibõlõma:hiibõl
+* **LEXICON V_56HIIBWLWMA** hiibõlõma:hiibõl
 * Yaml: **hiibwlwma56**
- * **LEXICON V_56HEIKELEMAE** heikelemä:heikel
+* **LEXICON V_56HEIKELEMAE** heikelemä:heikel
 * Yaml: **heikelemae56**
 
- * **LEXICON V_56HIIBWLWMA/HEIKELEMAE** hiibõlõma:hiibõl
+* **LEXICON V_56HIIBWLWMA/HEIKELEMAE** hiibõlõma:hiibõl
 
 
 
@@ -5902,10 +5907,10 @@ ehitelemä:ehitell
 
 
 
- * **LEXICON V_56KAIBLWMA** kaiblõma+V:kai%{bv%}%{õØ%}l
+* **LEXICON V_56KAIBLWMA** kaiblõma+V:kai%{bv%}%{õØ%}l
 * Yaml: **hiibwlwma56**
 
- * **LEXICON V_56KAIBLWMA/XX** kaiblõma+V:kai%{bv%}%{õØ%}l
+* **LEXICON V_56KAIBLWMA/XX** kaiblõma+V:kai%{bv%}%{õØ%}l
 
 
 
@@ -5992,14 +5997,14 @@ kullõma+V:ku%{lØ%}l%{õØ%}%{lĺ%}
 
 
 
- * **LEXICON V_58HIRNAHTAMA** hirnahtama:hirnahta
+* **LEXICON V_58HIRNAHTAMA** hirnahtama:hirnahta
 * Yaml: **V-hirnahtama58**
 
- * **LEXICON V_58TAEHENDAEMAE** tähendämä:tähendä
+* **LEXICON V_58TAEHENDAEMAE** tähendämä:tähendä
 * Yaml: **V-hirnahtama58, V-taehendaemae**
 front
 
- * **LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE** hirnahtama:hirnahta, tähendämä:tähend
+* **LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE** hirnahtama:hirnahta, tähendämä:tähend
 
 
 
@@ -6008,11 +6013,11 @@ front
 
 
 
- * **LEXICON V_59KAOTAMA** kaotama:kaota
+* **LEXICON V_59KAOTAMA** kaotama:kaota
 Based on 59KAOTAMA
 * Yaml: **kerguetaemae**
 
- * **LEXICON V_59KAOTAMA/KERGUETAEMAE** kaotama:kao, kergütämä:kergü
+* **LEXICON V_59KAOTAMA/KERGUETAEMAE** kaotama:kao, kergütämä:kergü
 
 
 
@@ -6030,14 +6035,14 @@ Based on 59KAOTAMA
 +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
 
 
- * :%^VOWRaise%^WGStem%^NoPAL%>i   ACT-IND-PRT-SG1_ZERO/SG2_q/PL3_q ;  kaodi
+* :%^VOWRaise%^WGStem%^NoPAL%>i   ACT-IND-PRT-SG1_ZERO/SG2_q/PL3_q ;  kaodi
 +Act+Ind+Prt+Sg1, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
 
 +Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
 
- * :%^VOWRaise%^StrGStem%^NoPAL%>i Harm-Neutr_ACT-IND-PRT-SG2_USUALLY-STRONG ;  kaoti
+* :%^VOWRaise%^StrGStem%^NoPAL%>i Harm-Neutr_ACT-IND-PRT-SG2_USUALLY-STRONG ;  kaoti
 +Act+Ind+Prt+Sg2, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
 +Act+Ind+Prt+Pl2, +Use/NG+Err/Orth+Act+Ind+Prt+Pl3
 
@@ -6064,12 +6069,12 @@ Based on 59KAOTAMA
 * *kaotanuihe:* `kaotama+V+Act+PrfPrc+Pl+Ill`
 * *kaotanuq:* `kaotama+V+Act+PrfPrc`
 
- * **LEXICON V_60MANITSWMA** manitsõma:mani
+* **LEXICON V_60MANITSWMA** manitsõma:mani
 * Yaml: **manitswma60,manitswma61>manitswma**
- * **LEXICON V_60EHITSEMAE** ehitsemä:ehii
+* **LEXICON V_60EHITSEMAE** ehitsemä:ehii
 * Yaml: **manitswma60,manitswma61>manitswma**
 
- * **LEXICON V_60MANITSWMA/EHITSEMAE** manitsõma:mani
+* **LEXICON V_60MANITSWMA/EHITSEMAE** manitsõma:mani
 
 
 
@@ -6089,9 +6094,9 @@ tärknemä:tärk
 
 
 
- * **LEXICON V_63SWIMAMA** sõimama:sõima
+* **LEXICON V_63SWIMAMA** sõimama:sõima
 * Yaml: **V-swimama63**
- * **LEXICON V_63SWIMAMA/XX** sõimama:sõima
+* **LEXICON V_63SWIMAMA/XX** sõimama:sõima
 
 
 
@@ -6103,23 +6108,23 @@ tärknemä:tärk
 
 
 
- * **LEXICON V_63VISKAMA** viskama:vis%{kØ%}a
+* **LEXICON V_63VISKAMA** viskama:vis%{kØ%}a
 gradation: yes
 * Yaml: **V-viskama63**
- * **LEXICON V_63HINGAEMAE** hingämä:hingä
+* **LEXICON V_63HINGAEMAE** hingämä:hingä
 gradation: no
 * Yaml: **V-hingaemae63**
 
- * **LEXICON V_63VISKAMA/HINGAEMAE** viskama:viska
+* **LEXICON V_63VISKAMA/HINGAEMAE** viskama:viska
 
 
 
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>tid%{eõ%} K ;  no    q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl1:%^Pen%^VOWLower%^Pen%^WGStem%>timi K ;  no    q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%^Pen%^VOWLower%^Pen%^WGStem%>titi K ;  no    q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>tiv%{aä%} K ;  no    q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>tid%{eõ%} K ;  no    q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl1:%^Pen%^VOWLower%^Pen%^WGStem%>timi K ;  no    q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%^Pen%^VOWLower%^Pen%^WGStem%>titi K ;  no    q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>tiv%{aä%} K ;  no    q
 
 
 +Pss+Ind+Prt +Sg1-+Pl3, ConNeg
@@ -6143,12 +6148,12 @@ THIS FAR 2016-08-27
 
 
 
- * **LEXICON V_67HARINWMA** harinõma:hari
+* **LEXICON V_67HARINWMA** harinõma:hari
 * Yaml: **harinwma66,harinwma67 =>harinwma**
- * **LEXICON V_67NAEGUENEMAE** nägünemä:nägü
+* **LEXICON V_67NAEGUENEMAE** nägünemä:nägü
 * Yaml: **harinwma66,harinwma67 =>harinwma**
 
- * **LEXICON V_67HARINWMA/NAEGUENEMAE** harinõma:hari
+* **LEXICON V_67HARINWMA/NAEGUENEMAE** harinõma:hari
 
 
 
@@ -6168,16 +6173,16 @@ THIS FAR 2016-08-27
 
 
 
- * **LEXICON V_69HAARDUMA** haarduma:haar%{dØ%}u
- * **LEXICON V_69SUENDUEMAE** sündümä:sün%{dn%}ü
- * **LEXICON V_69HAARDUMA/SUENDUEMAE** sündümä:sündü
+* **LEXICON V_69HAARDUMA** haarduma:haar%{dØ%}u
+* **LEXICON V_69SUENDUEMAE** sündümä:sün%{dn%}ü
+* **LEXICON V_69HAARDUMA/SUENDUEMAE** sündümä:sündü
 
 Act_Ind_Prs_Pl3: essüseq
 
 
- * **LEXICON V_69SUURDUMA** suurduma:suurdu
- * **LEXICON V_69HUEUERDUEMAE** hüürdümä:h%{öü%}%{öü%}r%{dØ%}ü
- * **LEXICON V_69SUURDUMA/HUEUERDUEMAE** hüürdümä:h%{öü%}%{öü%}r%{dØ%}ü vowel raising Required 2016-09-15
+* **LEXICON V_69SUURDUMA** suurduma:suurdu
+* **LEXICON V_69HUEUERDUEMAE** hüürdümä:h%{öü%}%{öü%}r%{dØ%}ü
+* **LEXICON V_69SUURDUMA/HUEUERDUEMAE** hüürdümä:h%{öü%}%{öü%}r%{dØ%}ü vowel raising Required 2016-09-15
 
 
 
@@ -6186,12 +6191,12 @@ Act_Ind_Prs_Pl3: essüseq
 V_Inf/mA: miildümä 
 
 
- * **LEXICON V_70UNWHUMA** unõhuma:unõhtu
+* **LEXICON V_70UNWHUMA** unõhuma:unõhtu
 * Yaml: **V-unwhuma**
- * **LEXICON V_70ÄNGÄHÜMÄ** ängähümä:ängähtü
+* **LEXICON V_70ÄNGÄHÜMÄ** ängähümä:ängähtü
 * Yaml: **V-eraelduemae**
 
- * **LEXICON V_70UNWHUMA/ÄNGÄHÜMÄ** unõhuma:unõhtu
+* **LEXICON V_70UNWHUMA/ÄNGÄHÜMÄ** unõhuma:unõhtu
 
 
 
@@ -6202,12 +6207,12 @@ V_Inf/mA: miildümä
 
 
 
- * **LEXICON V_70VIPWRDUMA** unõhtuma:unõhtu
+* **LEXICON V_70VIPWRDUMA** unõhtuma:unõhtu
 * Yaml: **V-unwhtuma**
- * **LEXICON V_70ERAELDUEMAE** eräldümä:eräldü
+* **LEXICON V_70ERAELDUEMAE** eräldümä:eräldü
 * Yaml: **V-eraelduemae**
 
- * **LEXICON V_70VIPWRDUMA/ERAELDUEMAE** unõhtuma:unõhtu
+* **LEXICON V_70VIPWRDUMA/ERAELDUEMAE** unõhtuma:unõhtu
 
 
 
@@ -6215,22 +6220,22 @@ V_Inf/mA: miildümä
 
 
 
- * **LEXICON V_71HALLWTUMA** hallõtuma:hallõtu
+* **LEXICON V_71HALLWTUMA** hallõtuma:hallõtu
 * Yaml: **V-hallwtuma**
- * **LEXICON V_71ERAETUEMAE** erätümä:erä%{td%}ü
+* **LEXICON V_71ERAETUEMAE** erätümä:erä%{td%}ü
 * Yaml: **V-eraetuemae**
 
- * **LEXICON V_71HALLWTUMA/ERAETUEMAE** hallõtuma:hallõtu
+* **LEXICON V_71HALLWTUMA/ERAETUEMAE** hallõtuma:hallõtu
 
 
 
 
- * **LEXICON V_72VAOMA** vaoma:%{ˋØ%}va%^I7o
+* **LEXICON V_72VAOMA** vaoma:%{ˋØ%}va%^I7o
 * Yaml: **vaoma**
- * **LEXICON V_72TAEUEMAE** täümä:täü
+* **LEXICON V_72TAEUEMAE** täümä:täü
 * Yaml: **haeoemae**
 
- * **LEXICON V_72VAOMA/TAEUEMAE** vaoma:vao
+* **LEXICON V_72VAOMA/TAEUEMAE** vaoma:vao
 
 
 
@@ -6243,12 +6248,12 @@ V_Inf/mA: miildümä
 
 
 
- * **LEXICON V_74KULUMA** kuluma:kullu
+* **LEXICON V_74KULUMA** kuluma:kullu
 * Yaml: **V-kuluma**
- * **LEXICON V_74VAESUEMAE** väsümä:vässü
+* **LEXICON V_74VAESUEMAE** väsümä:vässü
 * Yaml: **V-vaesuemae**
 
- * **LEXICON V_74KULUMA/VAESUEMAE** kuluma:kullu
+* **LEXICON V_74KULUMA/VAESUEMAE** kuluma:kullu
 
 
 
@@ -6262,13 +6267,13 @@ V_Inf/mA: miildümä
 
 
 
- * **LEXICON V_75VALAMA** valama:vala
+* **LEXICON V_75VALAMA** valama:vala
 * Yaml: **V-valama75**
 vala, valla, vali, valõ
- * **LEXICON V_75JAERAEMAE** järämä:järä
+* **LEXICON V_75JAERAEMAE** järämä:järä
 * Yaml: **V-jaeraemae75**
 
- * **LEXICON V_75VALAMA/JAERAEMAE** valama:vala
+* **LEXICON V_75VALAMA/JAERAEMAE** valama:vala
 
 
 
@@ -6277,16 +6282,16 @@ vala, valla, vali, valõ
 
 
 
- * **LEXICON V_76HIGOMA** higoma:hi%{kg0%}o
+* **LEXICON V_76HIGOMA** higoma:hi%{kg0%}o
 * Yaml: **V-higoma76**
- * **LEXICON V_76PUEGAEMAE** pügämä:pü%{kg0%}ä
+* **LEXICON V_76PUEGAEMAE** pügämä:pü%{kg0%}ä
 * Yaml: **V-puegaemae76**
 
- * **LEXICON V_76HIGOMA/PUEGAEMAE** higoma:hi%{kg0%}o
+* **LEXICON V_76HIGOMA/PUEGAEMAE** higoma:hi%{kg0%}o
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 
- * :%^Pen%^G3 Harm-Neutr_INF_ZEROq ;  (2) lukõq
- * :%^Pen%^G3 Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
+* :%^Pen%^G3 Harm-Neutr_INF_ZEROq ;  (2) lukõq
+* :%^Pen%^G3 Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
 Inf, Act+PrsPrc+Sg+Nom
 
 
@@ -6294,7 +6299,7 @@ Pss+PrfPrc, Pss+PrsPrc
 
 
 
- *  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
+*  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
 
 
@@ -6309,32 +6314,32 @@ Pss+Ind
 Retain consonant and stem vowel
 
 Weaken consonant and replace stem vowel with i
- * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Retain consonant remove stem vowel and add i
- * :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+* :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
 Act+Ind+Prt+Sg3
 
 +Jus
 
- * **LEXICON V_76JAGAMA** jagama:ja%{kg0%}a
+* **LEXICON V_76JAGAMA** jagama:ja%{kg0%}a
 * Yaml: **V-higoma76**
 
- * **LEXICON V_76JAGAMA/XX** jagama:ja%{kg0%}a
+* **LEXICON V_76JAGAMA/XX** jagama:ja%{kg0%}a
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 
- * :%^Pen%^G3 Harm-Neutr_INF_ZEROq ;  (2) lukõq
- * :%^Pen%^G3 Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
+* :%^Pen%^G3 Harm-Neutr_INF_ZEROq ;  (2) lukõq
+* :%^Pen%^G3 Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
 Inf, Act+PrsPrc+Sg+Nom
 
 
 Pss+PrfPrc, Pss+PrsPrc
 
- * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRMe Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRMe Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
 
 
- *  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
+*  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
 
 
@@ -6349,24 +6354,24 @@ Pss+Ind
 Retain consonant and stem vowel
 
 Weaken consonant and replace stem vowel with i
- * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Retain consonant remove stem vowel and add i
- * :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+* :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
 Act+Ind+Prt+Sg3
 
 +Jus
 
 
- * **LEXICON V_76LUGWMA** lugõma:lu%{kg0%}õ
+* **LEXICON V_76LUGWMA** lugõma:lu%{kg0%}õ
 * Yaml: **V-higoma76**
 
 
- * **LEXICON V_76LUGWMA/XX** lugõma:lu%{kg0%}õ
+* **LEXICON V_76LUGWMA/XX** lugõma:lu%{kg0%}õ
 
 Retain consonant and stem vowel
- * :%^Pen%^G2 Harm-Neutr_INF_mA ;  (1) lugõma:lu%{kgØ%}õ
+* :%^Pen%^G2 Harm-Neutr_INF_mA ;  (1) lugõma:lu%{kgØ%}õ
 
 
 
@@ -6378,7 +6383,7 @@ Retain consonant and stem vowel
 
 
 Weaken consonant and semi-retension of stem vowel
- * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
 Pss+PrfPrc, Pss+PrsPrc
 
 Weaken consonant and semi-retension of stem vowel
@@ -6387,77 +6392,77 @@ Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
 Retain consonant and stem vowel
- *  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
+*  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
 
 Weaken consonant and replace stem vowel with i
- * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Retain consonant remove stem vowel and add i
- * :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+* :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
 Act+Ind+Prt+Sg3
 
 
 
- * **LEXICON V_77JUUMA** juuma:joo
+* **LEXICON V_77JUUMA** juuma:joo
 * Yaml: **juuma**
- * **LEXICON V_77SUEUEMAE** süümä:süü
+* **LEXICON V_77SUEUEMAE** süümä:süü
 * Yaml: **sueuemae**
 
- * **LEXICON V_77JUUMA/SUEUEMAE** juuma:joo
+* **LEXICON V_77JUUMA/SUEUEMAE** juuma:joo
 
 
- * :%^OO2Õ%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  (4) jõi- poi- sei- möi-
+* :%^OO2Õ%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  (4) jõi- poi- sei- möi-
 
- * :%^VOWRaise V_77JUUMA/SUEUEMAE_RAISED-VOWEL ;  (1) juu, süü
+* :%^VOWRaise V_77JUUMA/SUEUEMAE_RAISED-VOWEL ;  (1) juu, süü
 
- * :%^VOWLower V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL ;  (2) joo- söö-
+* :%^VOWLower V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL ;  (2) joo- söö-
 
- * :%^VOWRaise%^VowRM%>vv V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  (3) juvv
-
-
- * :%^VOWRaise ACT-IND-PRS-SG3_ZERO ;  (5) RAISED juu süü
- *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+* :%^VOWRaise%^VowRM%>vv V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  (3) juvv
 
 
+* :%^VOWRaise ACT-IND-PRS-SG3_ZERO ;  (5) RAISED juu süü
+*  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
 
 
- *  Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
- * LEXICON V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL  joo- söö-
- *  ACT-PRFPRC_nUq-SG-NOM ;  joonuq
 
- * LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE  juvv
- *  Harm-Neutr_INF_Aq ;  juvvaq süvväq
- * :%>%{aä%} Harm-Neutr_JUVVA_PSS-IND-PRS ;  juvva süvvä
- * :%>i Harm-Neutr_JUVVA_PSS-IND-PRT-1/2 ;  juvvi süvvi
+*  Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
- * LEXICON V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE  jõi-
+* LEXICON V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL  joo- söö-
+*  ACT-PRFPRC_nUq-SG-NOM ;  joonuq
 
- * **LEXICON V_77KAEUEMAE** käümä:käü
+* LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE  juvv
+*  Harm-Neutr_INF_Aq ;  juvvaq süvväq
+* :%>%{aä%} Harm-Neutr_JUVVA_PSS-IND-PRS ;  juvva süvvä
+* :%>i Harm-Neutr_JUVVA_PSS-IND-PRT-1/2 ;  juvvi süvvi
+
+* LEXICON V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE  jõi-
+
+* **LEXICON V_77KAEUEMAE** käümä:käü
 * Yaml: **sueuemae**
 
- * **LEXICON V_77XX/KAEUEMAE** käümä:käü
+* **LEXICON V_77XX/KAEUEMAE** käümä:käü
 
- * :%^VOWRaise V_77JUUMA/SUEUEMAE_RAISED-VOWEL ;  (1) käü
+* :%^VOWRaise V_77JUUMA/SUEUEMAE_RAISED-VOWEL ;  (1) käü
 
- *  V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL ;  (2) käü-
+*  V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL ;  (2) käü-
 
- * :%^VowRM%>vv V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  (3) kävv
+* :%^VowRM%>vv V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  (3) kävv
 
- * :%^VowRM%>ve V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  (4) käve
+* :%^VowRM%>ve V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  (4) käve
 
- *  ACT-IND-PRS-SG3_ZERO ;  (5) RAISED käü
+*  ACT-IND-PRS-SG3_ZERO ;  (5) RAISED käü
 
- *  ACT-IND-PRS-PL3_vAq ;  (6) käüväq
+*  ACT-IND-PRS-PL3_vAq ;  (6) käüväq
 
 
 
- * **LEXICON V_78VWIMA** võima:või
+* **LEXICON V_78VWIMA** võima:või
 * Yaml: **V-vwima**
- * **LEXICON V_VWIMA/XX** võima:või
+* **LEXICON V_VWIMA/XX** võima:või
 
 
 
@@ -6478,9 +6483,9 @@ Act+Ind+Prt+Sg3
 
 
 
- * **LEXICON V_78MINEMAE** minemä:min
+* **LEXICON V_78MINEMAE** minemä:min
 * Yaml: **V-minemae**
- * **LEXICON V_XX/MINEMAE** minemä:min
+* **LEXICON V_XX/MINEMAE** minemä:min
 
 
 
@@ -6488,14 +6493,14 @@ Remainder is in exceptions.lexc
 
 
 
- * **LEXICON V_79TULWMA** tulõma:tul
+* **LEXICON V_79TULWMA** tulõma:tul
 * Yaml: **tulwma**
- * **LEXICON V_79TULWMA/XX** tulõma:tul
+* **LEXICON V_79TULWMA/XX** tulõma:tul
 
 Retain consonant and stem vowel
 
- * :l Harm-Neutr_INF_Aq ;  (2) tullaq
- * :l%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) tullõv
+* :l Harm-Neutr_INF_Aq ;  (2) tullaq
+* :l%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) tullõv
 Act+PrsPrc+Sg+Nom
 
 
@@ -6507,60 +6512,60 @@ Act+PrsPrc+Sg+Nom
 
 
 
- * **LEXICON V_79PURWMA** purõma:pur
+* **LEXICON V_79PURWMA** purõma:pur
 * Yaml: **purwma**
- * **LEXICON V_79PURWMA/XX** purõma:pur
+* **LEXICON V_79PURWMA/XX** purõma:pur
 Retain consonant 
- *  Harm-Neutr_LUGWMA_PSS-PRC ;  (4) pur
+*  Harm-Neutr_LUGWMA_PSS-PRC ;  (4) pur
 Pss+PrfPrc, Pss+PrsPrc, 
 
 
 Retain consonant and stem vowel
- * :%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) purõma
+* :%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) purõma
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 +Jus, 
 
 Strengthen consonant
- * :%^StrGStem Harm-Neutr_INF_Aq ;  (2) purraq
+* :%^StrGStem Harm-Neutr_INF_Aq ;  (2) purraq
 Inf 
 Strengthen consonant 
- * :%^StrGStem%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) purrõv
+* :%^StrGStem%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) purrõv
 Act+PrsPrc+Sg+Nom
 
 Retain consonant and stem vowel
- *  Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) purnuq
+*  Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) purnuq
 +Act+PrfPrc
 
 
 Retain consonant and add õ
- * :%{eõ%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) purõ
+* :%{eõ%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) purõ
 Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
 Retain consonant and stem vowel
- * :%{eõ%} ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) purõma
+* :%{eõ%} ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) purõma
 Ind+Prs+ 3
 
 Strengthen consonant and replace stem vowel with i
- * :%>i TULWMA_ACT-IND-PRT-SG1 ;  (7) puri
+* :%>i TULWMA_ACT-IND-PRT-SG1 ;  (7) puri
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 consonant and add i
- * :%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) puri
+* :%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) puri
 Act+Ind+Prt+Sg3
 
- * **LEXICON V_79OLWMA** olõma:o
+* **LEXICON V_79OLWMA** olõma:o
 
- * **LEXICON V_79OLWMA/XX** olõma:o
-
-
+* **LEXICON V_79OLWMA/XX** olõma:o
 
 
- * **LEXICON V_80RAPAHUTMA** rapahutma:rapahuta
- * **LEXICON V_80HAEMMAEHUETMAE** hämmähütmä:hämmähütä
 
 
- * LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE  rapahutma:rapahuta
+* **LEXICON V_80RAPAHUTMA** rapahutma:rapahuta
+* **LEXICON V_80HAEMMAEHUETMAE** hämmähütmä:hämmähütä
+
+
+* LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE  rapahutma:rapahuta
 
 
 
@@ -6569,48 +6574,48 @@ Act+Ind+Prt+Sg3
 
 
 Retain consonant and stem vowel
- * :t Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) rapahutma
+* :t Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) rapahutma
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 +Jus, 
 
 Strengthen consonant
- * :t%>%{aä%} Harm-Neutr_INF_ZEROq ;  (2) rapahutaq
+* :t%>%{aä%} Harm-Neutr_INF_ZEROq ;  (2) rapahutaq
 Inf 
 Strengthen consonant 
- * :t Harm-Neutr_ACT-PRSPRC-SG-NOM_vA ;  (2b) rapahutva
+* :t Harm-Neutr_ACT-PRSPRC-SG-NOM_vA ;  (2b) rapahutva
 Act+PrsPrc+Sg+Nom
 
 Retain consonant and stem vowel
- * :t Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) rapahutnuq
+* :t Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) rapahutnuq
 +Act+PrfPrc
 
 Retain consonant 
- * :d%>%{eõ%} Harm-Neutr_LUGWMA_PSS-PRC ;  (4) rapahudõ
+* :d%>%{eõ%} Harm-Neutr_LUGWMA_PSS-PRC ;  (4) rapahudõ
 Pss+PrfPrc, Pss+PrsPrc, 
 
 Retain consonant and add õ
- * :d%>%{aä%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) rapahuda
+* :d%>%{aä%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) rapahuda
 
 Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
 Retain consonant and stem vowel
- * :t ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) rapahut
+* :t ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) rapahut
 Ind+Prs+ 3
 
 Strengthen consonant and replace stem vowel with i
- * :d%^VowRM%>i TULWMA_ACT-IND-PRT-SG1 ;  (7) rapahudi
+* :d%^VowRM%>i TULWMA_ACT-IND-PRT-SG1 ;  (7) rapahudi
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Strengthen consonant and add ʼ
- * : ACT-IND-PRT-SG3_t-PAL ;  (8) rapahut́ and error rapahut
+* : ACT-IND-PRT-SG3_t-PAL ;  (8) rapahut́ and error rapahut
 Act+Ind+Prt+Sg3
 
 
- * **LEXICON V_81TEGEMAE** tegemä:teg
+* **LEXICON V_81TEGEMAE** tegemä:teg
 * Yaml: **tegemä**
 Work
- * **LEXICON V_81XX/TEGEMAE** tegemä:te%{kØ%}%{ḱgØ%}
+* **LEXICON V_81XX/TEGEMAE** tegemä:te%{kØ%}%{ḱgØ%}
 
 *tegemä examples:*
 * *tegemä:* `tegemä+V+Inf/mA` (Eng. # (1))
@@ -6645,12 +6650,12 @@ Work
 
 
 
- * **LEXICON V_82ANDMA** andma:and
+* **LEXICON V_82ANDMA** andma:and
 * Yaml: **andma**
- * **LEXICON V_82PUEUEDMAE** püüdmä:püüd
+* **LEXICON V_82PUEUEDMAE** püüdmä:püüd
 * Yaml: **pueuedmae**
 
- * **LEXICON V_82ANDMA/PUEUEDMAE** andma:%{ˋØ%}an%{dd́n%}
+* **LEXICON V_82ANDMA/PUEUEDMAE** andma:%{ˋØ%}an%{dd́n%}
 
 
 
@@ -6662,14 +6667,14 @@ Work
 
 
 
- * LEXICON V_83NÕSTMA   nõstma:nõst
+* LEXICON V_83NÕSTMA   nõstma:nõst
 gradation: no
 * Yaml: **nwstma**
- * LEXICON V_83PÄSTMÄ   nõstma:nõst
+* LEXICON V_83PÄSTMÄ   nõstma:nõst
 gradation: no
 * Yaml: **nwstma**
 
- * LEXICON V_83NÕSTMA/PÄSTMÄ   nõstma:nõst
+* LEXICON V_83NÕSTMA/PÄSTMÄ   nõstma:nõst
 
 
 
@@ -6681,14 +6686,14 @@ gradation: no
 
 
 
- * LEXICON V_83SÕITMA   sõitma:sõit
+* LEXICON V_83SÕITMA   sõitma:sõit
 gradation: yes
 * Yaml: **switma**
- * LEXICON V_83HEITMAE   heitmä:heit
+* LEXICON V_83HEITMAE   heitmä:heit
 gradation: yes
 * Yaml: **heitmae**
 
- * LEXICON V_83SÕITMA/HEITMAE   sõitma:sõi%{tt́d%}a
+* LEXICON V_83SÕITMA/HEITMAE   sõitma:sõi%{tt́d%}a
 
 
 
@@ -6708,12 +6713,12 @@ sõida
 
 
 
- * LEXICON V_83LAULMA   laulma:laul
+* LEXICON V_83LAULMA   laulma:laul
 gradation: yes
 * Yaml: **switma**
 
 
- * LEXICON V_83LAULMA/XX   laulma:lau%{lĺ%}
+* LEXICON V_83LAULMA/XX   laulma:lau%{lĺ%}
 
 
 HERE is the distinction 2016-10-04
@@ -6730,11 +6735,11 @@ IS THIS RIGHT? 2015-09-02
 
 
 
- * LEXICON V_83ATMA   atma:atta
+* LEXICON V_83ATMA   atma:atta
 gradation: yes
 * Yaml: **switma**
 
- * LEXICON V_83ATMA/XX   atma:a%{tØ%}%{tt́%}
+* LEXICON V_83ATMA/XX   atma:a%{tØ%}%{tt́%}
 
 
 
@@ -6754,14 +6759,14 @@ IS THIS RIGHT? 2015-09-02
 
 
 
- * LEXICON V_83SUTMA   atma:a%{tØ%}%{tt́%}a
+* LEXICON V_83SUTMA   atma:a%{tØ%}%{tt́%}a
 gradation: yes
 * Yaml: **switma**
- * LEXICON V_83PETMÄ   petmä:pe%{tØ%}%{tt́%}ä
+* LEXICON V_83PETMÄ   petmä:pe%{tØ%}%{tt́%}ä
 gradation: G3, G4
 * Yaml: **heitmae**
 
- * LEXICON V_83SUTMA/PETMÄ   sutma:su%{tØ%}%{tt́%}a
+* LEXICON V_83SUTMA/PETMÄ   sutma:su%{tØ%}%{tt́%}a
 
 
 
@@ -6778,11 +6783,11 @@ sõida
 
 
 
- * LEXICON V_83VWTMA   võtma:võ%{tØ%}%{tt́Ø%}a
+* LEXICON V_83VWTMA   võtma:võ%{tØ%}%{tt́Ø%}a
 gradation: G3, G4, G1
 * Yaml: **vwtma**
 
- * LEXICON V_83VWTMA/XX   võtma:võ%{tØ%}%{tt́Ø%}a
+* LEXICON V_83VWTMA/XX   võtma:võ%{tØ%}%{tt́Ø%}a
 
 
 
@@ -6800,11 +6805,11 @@ sõida
 
 
 
- * LEXICON V_84LASKMA  laskma:lask
+* LEXICON V_84LASKMA  laskma:lask
 * Yaml: **nwstma**
- * LEXICON V_84KÄSKMÄ  käskmä:käsk
+* LEXICON V_84KÄSKMÄ  käskmä:käsk
 * Yaml: **nwstma**
- * LEXICON V_84LASKMA/KÄSKMÄ  laskma:las%{kḱØ%}
+* LEXICON V_84LASKMA/KÄSKMÄ  laskma:las%{kḱØ%}
 * Yaml: **nwstma**
 
 
@@ -6820,11 +6825,11 @@ sõida
 
 
 
- * **LEXICON V_85HIRNMA** kakma:kaku hirnma:hirnu
+* **LEXICON V_85HIRNMA** kakma:kaku hirnma:hirnu
 * Yaml: **kakma**
- * **LEXICON V_85TUEMPSMAE** kakma:kaku hirnma:hirnu
+* **LEXICON V_85TUEMPSMAE** kakma:kaku hirnma:hirnu
 * Yaml: **kakma**
- * **LEXICON V_85HIRNMA/TUEMPSMAE** kakma:kaku hirnma:hirnu
+* **LEXICON V_85HIRNMA/TUEMPSMAE** kakma:kaku hirnma:hirnu
 
 
 
@@ -6836,11 +6841,11 @@ sõida
 
 
 
- * **LEXICON V_85HAUDMA**  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u 
+* **LEXICON V_85HAUDMA**  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u 
 * Yaml: **haudma**
- * **LEXICON V_85VAELKMAE**  haudma:haud
+* **LEXICON V_85VAELKMAE**  haudma:haud
 * Yaml: **vaelkmae**
- * **LEXICON V_85HAUDMA/VAELKMAE** kakma:kakk haudma:haud
+* **LEXICON V_85HAUDMA/VAELKMAE** kakma:kakk haudma:haud
 
 
 
@@ -6852,11 +6857,11 @@ sõida
 
 
 
- * **LEXICON V_85KAKMA**  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u 
+* **LEXICON V_85KAKMA**  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u 
 * Yaml: **haudma**
- * **LEXICON V_85TRUEKMAE**  trükmä:trü%{kØ%}%{kḱ%}ü
+* **LEXICON V_85TRUEKMAE**  trükmä:trü%{kØ%}%{kḱ%}ü
 * Yaml: **vaelkmae**
- * **LEXICON V_85KAKMA/TRUEKMAE** kakma:kakk
+* **LEXICON V_85KAKMA/TRUEKMAE** kakma:kakk
 
 
 
@@ -6870,9 +6875,9 @@ sõida
 
 
 
- * **LEXICON V_86ISTMA** istma:istu
+* **LEXICON V_86ISTMA** istma:istu
 * Yaml: **istma**
- * **LEXICON V_86ISTMA/XX** istma:istu
+* **LEXICON V_86ISTMA/XX** istma:istu
 
 
 
@@ -6885,9 +6890,9 @@ sõida
 
 
 
- * **LEXICON V_86PUTMA** istma:istu
+* **LEXICON V_86PUTMA** istma:istu
 * Yaml: **istma**
- * **LEXICON V_86PUTMA/XX** istma:istu
+* **LEXICON V_86PUTMA/XX** istma:istu
 
 
 
@@ -6900,12 +6905,12 @@ sõida
 
 
 
- * **LEXICON V_86JAHTJMA** jaht́ma:ˋjah%{tØ%}i
+* **LEXICON V_86JAHTJMA** jaht́ma:ˋjah%{tØ%}i
 * Yaml: **jahtjma**
- * **LEXICON V_86EHTJMÄ** eht́mä:ehti
+* **LEXICON V_86EHTJMÄ** eht́mä:ehti
 * Yaml: **V-ehtjmae**
 
- * **LEXICON V_86JAHTJMA/EHTJMÄ** eht́mä:eh%{tt́%}
+* **LEXICON V_86JAHTJMA/EHTJMÄ** eht́mä:eh%{tt́%}
 
 
 
@@ -6917,12 +6922,12 @@ sõida
 
 
 
- * **LEXICON V_86TOL1MA** jaht́ma:ˋjah%{tØ%}i
+* **LEXICON V_86TOL1MA** jaht́ma:ˋjah%{tØ%}i
 * Yaml: **jahtjma**
- * **LEXICON V_86TIK1MÄ** eht́mä:ehti
+* **LEXICON V_86TIK1MÄ** eht́mä:ehti
 * Yaml: **V-ehtjmae**
 
- * **LEXICON V_86TOL1MA/TIK1MÄ** eht́mä:eh%{tt́%}
+* **LEXICON V_86TOL1MA/TIK1MÄ** eht́mä:eh%{tt́%}
 
 
 
@@ -6938,12 +6943,12 @@ sõida
 
 
 
- * **LEXICON V_87KOSIMA** kosima:ko%{sØ%}si
+* **LEXICON V_87KOSIMA** kosima:ko%{sØ%}si
 * Yaml: **V-kosima**
- * **LEXICON V_87KERIMAE** kerimä:keri
+* **LEXICON V_87KERIMAE** kerimä:keri
 * Yaml: **V-kerimae**
 
- * **LEXICON V_87KOSIMA/KERIMAE** kosima:kosi
+* **LEXICON V_87KOSIMA/KERIMAE** kosima:kosi
 
 
 
@@ -6952,10 +6957,10 @@ sõida
 
 
 
- * LEXICON V_88SIBAHAMA  sibama:siba
+* LEXICON V_88SIBAHAMA  sibama:siba
 * Yaml: **V-sibama88,sibahama**
 * Yaml: **V-juevaemae88**
- * LEXICON V_88SIBAHAMA/JUEVAEHAEMAE  sibama:siba
+* LEXICON V_88SIBAHAMA/JUEVAEHAEMAE  sibama:siba
 
 
 
@@ -6967,11 +6972,11 @@ sõida
 
 ### SETS BY CONSONANT QUALITY
 
- * : Harm-Neutr_ACT-IND-PRS-SG2_USUALLY-STRONG ;  kaota
+* : Harm-Neutr_ACT-IND-PRS-SG2_USUALLY-STRONG ;  kaota
 +Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
- * : ACT-IND-PRS-3_s/sEq ;  
+* : ACT-IND-PRS-3_s/sEq ;  
 +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
 
 
@@ -7006,16 +7011,16 @@ sõida
 
 
 
- * +Ind+Prs+Neg:%-%{XV%}iq K ;  This gives stress
- * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-iq K ;  This gives stress
- * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-%{XV%}i K ;  more neutral without q
- * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-i K ;  more neutral without q
+* +Ind+Prs+Neg:%-%{XV%}iq K ;  This gives stress
+* +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-iq K ;  This gives stress
+* +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-%{XV%}i K ;  more neutral without q
+* +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-i K ;  more neutral without q
 
 
 
 
 ### JUS
- * LEXICON MUTUAL_JUS_guq  regardless of harmony this is back 
+* LEXICON MUTUAL_JUS_guq  regardless of harmony this is back 
 
 CHECK THIS
 
@@ -7044,10 +7049,10 @@ CHECK THIS
 
 
 
- * LEXICON Harm-Neutr_JUVVA_PSS-IND-PRS  juvva süvvä
+* LEXICON Harm-Neutr_JUVVA_PSS-IND-PRS  juvva süvvä
 
 
- * LEXICON Harm-Neutr_JUVVA_PSS-IND-PRT-1/2  juvvi süvvi
+* LEXICON Harm-Neutr_JUVVA_PSS-IND-PRT-1/2  juvvi süvvi
 
 
 
@@ -7143,102 +7148,102 @@ CHECK THIS
 
 
 
- * +Use/NG+Err/Orth-no-q+Inf:%>d%{aä%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Inf:%>d%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth-no-q+Inf:%>i%{aä%} K ;  no q
-
-
- * +Use/NG+Err/Orth-no-q+Inf:%>%{aä%} K ;  no q
-
- * +Use/NG+Err/Orth-no-q+Inf:%>t%{aä%} K ;  no q
-
- * +Use/NG+Err/Orth-no-q+Inf: K ;  no q
-
- * **+Der/JA+N:%>j NMN_9KIPWN1/ELLAEI ;** This should have a +Der/JA tag
+* +Use/NG+Err/Orth-no-q+Inf:%>i%{aä%} K ;  no q
 
 
+* +Use/NG+Err/Orth-no-q+Inf:%>%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Inf:%>t%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Inf: K ;  no q
+
+* **+Der/JA+N:%>j NMN_9KIPWN1/ELLAEI ;** This should have a +Der/JA tag
 
 
 
+* +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
 
- * LEXICON ACT-PRFPRC-OBL_nU  only oblique cases and Pl+Nom
- * +Use/NG+Err/Orth+Act+PrfPrc+Pl+Nom:%>n%{uü%} K ;  no q
+* +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
 
- * +Use/NG+Err/Orth+Act+PrfPrc:%^WGStem%>n%{uü%} K ;  no q
+
+
+
+* LEXICON ACT-PRFPRC-OBL_nU  only oblique cases and Pl+Nom
+* +Use/NG+Err/Orth+Act+PrfPrc+Pl+Nom:%>n%{uü%} K ;  no q
+
+* +Use/NG+Err/Orth+Act+PrfPrc:%^WGStem%>n%{uü%} K ;  no q
 
 
 PASSIVE DISTRIBUTION
- * Harm-Neutr_NÕSTMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
- * Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
+* Harm-Neutr_NÕSTMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
+* Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
 
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>di K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>did%{eõ%} K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl1:%>dimi K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%>diti K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>di K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>div%{aä%} K ;  no q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>di K ;  no q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>did%{eõ%} K ;  no q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl1:%>dimi K ;  no q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%>diti K ;  no q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>di K ;  no q
+* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>div%{aä%} K ;  no q
 
- * Harm-Neutr_V0-PSS-PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
- * Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
-
-
- * +Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;  no q
- * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;  no q
+* Harm-Neutr_V0-PSS-PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
+* Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
 
-
-
- * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
-
- * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
-
- * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>tt%{aä%}%>v%{aä%} K ;  no q
-
-
- * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
-
- * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
-
- * +Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
- * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
-
-
- * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
-
- * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
-
- * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
-
- * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
-
- * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
+* +Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;  no q
+* +Use/NG+Err/Orth+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;  no q
+* +Use/NG+Err/Orth+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;  no q
+* +Use/NG+Err/Orth+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;  no q
 
 
 
 
+* +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
+
+* +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
+
+* +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>tt%{aä%}%>v%{aä%} K ;  no q
 
 
- * LEXICON Harm-Neutr_ACT-PRSPRC_v_LUGWMA  lugõma:lugõ
+* +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
+
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+* +Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
+
+
+
+
+
+
+* LEXICON Harm-Neutr_ACT-PRSPRC_v_LUGWMA  lugõma:lugõ
 Retain consonant and stem vowel
 
- * +Use/NG+Err/Orth-no-q+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
 
 
- * +Use/NG+Err/Orth-no-q+Act+PrfPrc:%>n%{uü%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Act+PrfPrc:%>n%{uü%} K ;  no q
 
 
 
 
 
- * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
- * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
 
 
 
@@ -7367,9 +7372,9 @@ abilinõ:abili
 
 
 
- LEXICON NUM_22VWROKWNW  võrokõnõ:võrokõ
+LEXICON NUM_22VWROKWNW  võrokõnõ:võrokõ
 
- LEXICON NUM_22NAANW  naanõ:naa
+LEXICON NUM_22NAANW  naanõ:naa
 
 Gradation: No
 
@@ -7411,9 +7416,9 @@ pesä:tar
 
 nimi:nim
 
- * LEXICON NUM_36KATS1  katś:kat
+* LEXICON NUM_36KATS1  katś:kat
 
- * LEXICON NUM_36UETS1  ütś:üt
+* LEXICON NUM_36UETS1  ütś:üt
 
 
 kokr:ko%{kg%}r
@@ -7449,15 +7454,15 @@ derived from 36särǵ
 
 
 
- LEXICON NUM_43KANARIK 
+LEXICON NUM_43KANARIK 
 
- LEXICON NUM_43ELAENIK 
-
-
+LEXICON NUM_43ELAENIK 
 
 
 
- LEXICON NUM_44SWDA  sõda:sõda
+
+
+LEXICON NUM_44SWDA  sõda:sõda
 
 
 
@@ -7479,31 +7484,31 @@ vro-digits
 
 
 
- * **LEXICON ARABICCASES**  adds +Arab
+* **LEXICON ARABICCASES**  adds +Arab
 
- * **LEXICON ARABICCASE**  adds +Arab
+* **LEXICON ARABICCASE**  adds +Arab
 
- * **LEXICON ARABICCASE0**  adds +Arab
-
-
- * **LEXICON DIGITCASES**  to distinguish between 0 and oblique
-
- * **LEXICON DIGITCASE0**
+* **LEXICON ARABICCASE0**  adds +Arab
 
 
- * **LEXICON DIGITCASE**
+* **LEXICON DIGITCASES**  to distinguish between 0 and oblique
+
+* **LEXICON DIGITCASE0**
 
 
- * **LEXICON ARABICCASEORD** ordinals
+* **LEXICON DIGITCASE**
+
+
+* **LEXICON ARABICCASEORD** ordinals
 
 
 
- * **LEXICON ARABICCASECOLL** collectives
+* **LEXICON ARABICCASECOLL** collectives
 
 
- * **LEXICON ROMNUMTAGOBL**
+* **LEXICON ROMNUMTAGOBL**
 
- * **LEXICON ARABICCOMPOUNDS**  ! arabic as first part,
+* **LEXICON ARABICCOMPOUNDS**  ! arabic as first part,
 
 
 
@@ -7537,13 +7542,13 @@ The Võro language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
 
- LEXICON PROP_1HANS1A  1 hanśa:hanśa
+LEXICON PROP_1HANS1A  1 hanśa:hanśa
 
 
 
 
 
- LEXICON PROP_1HERRAE  1 herrä:herrä
+LEXICON PROP_1HERRAE  1 herrä:herrä
 
 
 
@@ -7558,7 +7563,12 @@ nouns, but with a colon (':') as separator.
 
 
 
+LEXICON PROP_3ALADU  aladu:aladu
 * Yaml: **peraedue**
+
+
+LEXICON PROP_VERE  Rakvere:Rakv
+* Yaml: **Rakvere**
 
 
 
@@ -7597,12 +7607,12 @@ tukõv:tukõv
 * Yaml: **N-ellaei4, N-kipwnj9**
 
 
- LEXICON PROP_10AMEERIGA  Ameeriga:Ameerik
+LEXICON PROP_10AMEERIGA  Ameeriga:Ameerik
 cf. _10HWRAK
 
 
 
- LEXICON PROP_10VIDRIK  vidrik:vidrik
+LEXICON PROP_10VIDRIK  vidrik:vidrik
 gradation: no
 
 
@@ -7675,7 +7685,7 @@ gradation: yes
 
 Gradation: No
 
- * LEXICON PROP_29HAEAE  kuu:kuu
+* LEXICON PROP_29HAEAE  kuu:kuu
 Gradation: No
 
 
@@ -7697,14 +7707,14 @@ nimi:nim
 
 pesä:pesä
 
- LEXICON PROP_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
- :%{back%} NMN_36TUUM1/XX1-SG-OBL ;  This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
+LEXICON PROP_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
+:%{back%} NMN_36TUUM1/XX1-SG-OBL ;  This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
 
 
 
- LEXICON PROP_36SAERG1  särǵ:särgʼ
+LEXICON PROP_36SAERG1  särǵ:särgʼ
 
- LEXICON PROP_36PAEIV  päiv:päiv
+LEXICON PROP_36PAEIV  päiv:päiv
 
 kogõr:kogõr
 * Yaml: **N-kogwr36**
@@ -7712,25 +7722,25 @@ derived from 36särǵ
 
 
 
- LEXICON PROP_37PINI  pini:pini
+LEXICON PROP_37PINI  pini:pini
 
 
- * LEXICON PROP_38PULL1  pulĺ:pull
+* LEXICON PROP_38PULL1  pulĺ:pull
 
- * LEXICON PROP_38PAPP1  papṕ:papp
-
-
-
-
-
- LEXICON PROP_40TALO  talo:talo
-
- LEXICON PROP_40UJA  uja:uja
+* LEXICON PROP_38PAPP1  papṕ:papp
 
 
 
 
- LEXICON PROP_41ASK  ask:asko
+
+LEXICON PROP_40TALO  talo:talo
+
+LEXICON PROP_40UJA  uja:uja
+
+
+
+
+LEXICON PROP_41ASK  ask:asko
 * Yaml: __aig, aig__
 
 
@@ -7739,13 +7749,13 @@ derived from 36särǵ
 
 
 
- LEXICON PROP_44SWDA  sõda:sõda
+LEXICON PROP_44SWDA  sõda:sõda
 
 
 
 
 
- LEXICON PROP_46HAIN  hain:hain
+LEXICON PROP_46HAIN  hain:hain
 * Yaml: **N-jalg, N-hain**
 
 
@@ -7786,210 +7796,210 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
 
 
 ## Special letters
- * **u̬** u plus U+032C COMBINING CARON BELOW
- * **U̬** u plus U+032C COMBINING CARON BELOW
- * **ü̬** ü plus U+032C COMBINING CARON BELOW
- * **Ü̬** ü plus U+032C COMBINING CARON BELOW
- * **i̬** i plus U+032C COMBINING CARON BELOW
- * **I̬** i plus U+032C COMBINING CARON BELOW
- * **õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
- * **Õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
- * **ˋ** U+02CB MODIFIER LETTER GRAVE ACCENT other parts of stem
- ```%{ˋØ%}:0 — U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
- **ˋ:0** — U+02CB MODIFIER LETTER GRAVE ACCENT used outside of rules, this is temporary removal 2017-04-20
+* **u̬** u plus U+032C COMBINING CARON BELOW
+* **U̬** u plus U+032C COMBINING CARON BELOW
+* **ü̬** ü plus U+032C COMBINING CARON BELOW
+* **Ü̬** ü plus U+032C COMBINING CARON BELOW
+* **i̬** i plus U+032C COMBINING CARON BELOW
+* **I̬** i plus U+032C COMBINING CARON BELOW
+* **õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+* **Õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+* **ˋ** U+02CB MODIFIER LETTER GRAVE ACCENT other parts of stem
+```%{ˋØ%}:0 — U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
+**ˋ:0** — U+02CB MODIFIER LETTER GRAVE ACCENT used outside of rules, this is temporary removal 2017-04-20
 
 
 ## Vowel harmony with "(t)a/ä"
 ```
-  %{aä%}:0    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
-  %{ae%}:a   — Vowel harmony with "a/e/õ" passive tahetu
-  %{aõ%}:a   — Vowel harmony with "a/e/õ" passive sõidõtu
-  %{äe%}:ä    — Vowel harmony with "ä/e/õ" passive
-  %{eõ%}:0    — Vowel harmony with "e/õ"
-  %{uü%}:0    — Vowel harmony with "u/ü"
-  %{öü%}:ö    — Vowel raising
-  %{ou%}:o    — Vowel raising
-  %{ei%}:e    — Vowel raising
-  %{õy%}:õ    — Vowel raising
-  %{ao%}:a    — Vowel raising
+ %{aä%}:0    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ %{ae%}:a   — Vowel harmony with "a/e/õ" passive tahetu
+ %{aõ%}:a   — Vowel harmony with "a/e/õ" passive sõidõtu
+ %{äe%}:ä    — Vowel harmony with "ä/e/õ" passive
+ %{eõ%}:0    — Vowel harmony with "e/õ"
+ %{uü%}:0    — Vowel harmony with "u/ü"
+ %{öü%}:ö    — Vowel raising
+ %{ou%}:o    — Vowel raising
+ %{ei%}:e    — Vowel raising
+ %{õy%}:õ    — Vowel raising
+ %{ao%}:a    — Vowel raising
 
-  %{eØ%}:e    — ütlemä:üt%{eØ%}l  
-  %{õØ%}:õ    — ütlemä:üt%{eØ%}l  
-  %{Øõ%}:0    — juurdlõma:juur%{dØ%}%{0õ%}l
+ %{eØ%}:e    — ütlemä:üt%{eØ%}l  
+ %{õØ%}:õ    — ütlemä:üt%{eØ%}l  
+ %{Øõ%}:0    — juurdlõma:juur%{dØ%}%{0õ%}l
 
-  %{dØ%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dv%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dn%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-  %{dl%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+ %{dØ%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dv%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dn%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+ %{dl%}:d    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
 
-  %{ij%}:i    ellä%{ij%}
-  %{gv%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gl%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gØ%}:g    — HJK and KimmoK ideas argnõma:ar%{gØ%}
-  %{uv%}:u    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{üv%}:ü    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{hØ%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{jØ%}:j    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kØ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{lØ%}:l    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{mØ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{nØ%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pØ%}:p    — HJK and KimmoK ideas oppama:o%{pØ%}pama
-  %{rØ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{sØ%}:s    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
-  %{vØ%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ij%}:i    ellä%{ij%}
+ %{gv%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{gl%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{gØ%}:g    — HJK and KimmoK ideas argnõma:ar%{gØ%}
+ %{uv%}:u    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{üv%}:ü    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{hØ%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{jØ%}:j    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kØ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{lØ%}:l    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{mØ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{nØ%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pØ%}:p    — HJK and KimmoK ideas oppama:o%{pØ%}pama
+ %{rØ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{sØ%}:s    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+ %{vØ%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{pØ%}:0    — häbü:häbü+N:hä%{pØ%}%{pbØ%}ü
-  %{tØ%}:0    — koda:ko%{tØ%}%{tdØ%}a
-  %{kØ%}:0    — nägo:nä%{kØ%}%{kgØ%}o
+ %{pØ%}:0    — häbü:häbü+N:hä%{pØ%}%{pbØ%}ü
+ %{tØ%}:0    — koda:ko%{tØ%}%{tdØ%}a
+ %{kØ%}:0    — nägo:nä%{kØ%}%{kgØ%}o
 
-  %{bv%}:b    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
-  %{dr%}:d    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
-  %{bm%}:b    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
-  %{pb%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pb%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{bv%}:b    — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
+ %{dr%}:d    — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
+ %{bm%}:b    — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
+ %{pb%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pb%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{tØ%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{t́Ø%}:t    — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
-  %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{t́d́%}:t́    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
+ %{tØ%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{t́Ø%}:t    — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
+ %{td%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{t́d́%}:t́    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kg%}:k    — HJK and KimmoK ideas kaigas:kai%{kg%}as
 
-  %{pbØ%}:p   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pbØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pbØ%}:p   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pbØ%}:b   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pbØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{pbv%}:p   %{pbv%}:b   %{pbv%}:v   — tõbi: tõvõ tõpõ tõppõ
+ %{pbv%}:p   %{pbv%}:b   %{pbv%}:v   — tõbi: tõvõ tõpõ tõppõ
 
-  %{tdØ%}:d   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{tdØ%}:d   — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{kgØ%}:k   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kgØ%}:g   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kgØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kgØ%}:k   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kgØ%}:g   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kgØ%}:0   — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{jiØ%}:i   — HJK and KimmoK ideas vari:var%{jiØ%}o
-  %{qmn%}:q   — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{qn%}:q    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{jiØ%}:i   — HJK and KimmoK ideas vari:var%{jiØ%}o
+ %{qmn%}:q   — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{qn%}:q    — HJK and KimmoK ideas kana:ka%{nØ%}na
 
-  %{dd́Ø%}:d   
-  %{dd́n%}:d   
-  %{dd́r%}:d   
-  %{dd́v%}:d   
-  %{dd́Ø%}:d   
-  %{gǵv%}:g   
-  %{gǵØ%}:g   
-  %{kḱg%}:k    %{kḱg%}:ḱ    %{kḱg%}:g   
-  %{kḱØ%}:k   
-  %{pṕb%}:p   %{pṕb%}:ṕ    %{pṕb%}:b   
-  %{tt́d%}:t    %{tt́d%}:t́    %{tt́d%}:d   
-  %{tt́Ø%}:t    täh%{tt́Ø%}
-  %{pṕØ%}:p   
+ %{dd́Ø%}:d   
+ %{dd́n%}:d   
+ %{dd́r%}:d   
+ %{dd́v%}:d   
+ %{dd́Ø%}:d   
+ %{gǵv%}:g   
+ %{gǵØ%}:g   
+ %{kḱg%}:k    %{kḱg%}:ḱ    %{kḱg%}:g   
+ %{kḱØ%}:k   
+ %{pṕb%}:p   %{pṕb%}:ṕ    %{pṕb%}:b   
+ %{tt́d%}:t    %{tt́d%}:t́    %{tt́d%}:d   
+ %{tt́Ø%}:t    täh%{tt́Ø%}
+ %{pṕØ%}:p   
 
 ```
 
 ## Palatalization of consonants
 ```
-  %{bb́%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dd́%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{ff́%}:f    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{gǵ%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{hh́%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kḱ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{lĺ%}:l     — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{lĺ%}:ĺ     — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{mḿ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{nń%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{pṕ%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{rŕ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{sś%}:s    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{sś%}:ś    — HJK and KimmoK ideas vaśma:va%{sØ%}%{sś%}
-  %{tt́%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{vv́%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{zź%}:z    — HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{dd́n%}:d 
+ %{bb́%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dd́%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ff́%}:f    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{gǵ%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{hh́%}:h    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kḱ%}:k    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{lĺ%}:l     — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{lĺ%}:ĺ     — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{mḿ%}:m    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{nń%}:n    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{pṕ%}:p    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{rŕ%}:r    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{sś%}:s    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{sś%}:ś    — HJK and KimmoK ideas vaśma:va%{sØ%}%{sś%}
+ %{tt́%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{vv́%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{zź%}:z    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{dd́n%}:d 
 ```
 
 ## Miscellaneous other symbols
 ```
-  %{XV%}:0    — This is used for echoing the previous vowel
-  %{XC%}:0    — This is used for lengthening a consonant
-  %^I7:0      — This appears in stem vaoma:va%^I7o for vaio
-  %^K7:0      — This appears in stem väemä:vä%^K7e for väkeq
-  %^V7:0      — This appears in stem häömä:hä%^V7ö for hävvü
-  %^T7:0      — This appears in stem kaoma:ka%^T7o for katoq
-  %^Y7:õ      — This appears for syna = s%^Y7na and is rendered as õ in the norm
+ %{XV%}:0    — This is used for echoing the previous vowel
+ %{XC%}:0    — This is used for lengthening a consonant
+ %^I7:0      — This appears in stem vaoma:va%^I7o for vaio
+ %^K7:0      — This appears in stem väemä:vä%^K7e for väkeq
+ %^V7:0      — This appears in stem häömä:hä%^V7ö for hävvü
+ %^T7:0      — This appears in stem kaoma:ka%^T7o for katoq
+ %^Y7:õ      — This appears for syna = s%^Y7na and is rendered as õ in the norm
 ```
 
 ## Triggers
 ```
-    %^OO2Õ:0    — joo%^OO2Õ%>i:j0õ0%>i
-    %^CC2C:0    — att%^CC2C%>m%{aä%} atma
-  %^PSS:0       vowel in passive tahetu, sõidõtu, eletü
-  %^ÄI2ÄÄ:0    — päiv%^ÄI2ÄÄ%>ä: päävä
-  %{front%}:0    — front harmony
-  %{back%}:0    — back harmony
- %^ErrorBack:0  — +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
-  %{PrsSg1%}:0  — this helps with %{eõ%}:i̬
+   %^OO2Õ:0    — joo%^OO2Õ%>i:j0õ0%>i
+   %^CC2C:0    — att%^CC2C%>m%{aä%} atma
+ %^PSS:0       vowel in passive tahetu, sõidõtu, eletü
+ %^ÄI2ÄÄ:0    — päiv%^ÄI2ÄÄ%>ä: päävä
+ %{front%}:0    — front harmony
+ %{back%}:0    — back harmony
+%^ErrorBack:0  — +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+ %{PrsSg1%}:0  — this helps with %{eõ%}:i̬
 ```
 
 ```
 
-  %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{kg%}:k 	 HJK and KimmoK ideas kaigas:kai%{kg%}as
+ %{td%}:t 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{kg%}:k 	 HJK and KimmoK ideas kaigas:kai%{kg%}as
 
-  %{qmn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{qn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
-  %{XV%}:0		 This is used for echoing the previous vowel
-  %{XC%}:0	 This is used for lengthening a consonant
-  %^I7:0          This appears in stem vaoma:va%^I7o for vaio
-  %^K7:0           This appears in stem väemä:vä%^K7e for väkeq
-  %^V7:0          This appears in stem häömä:hä%^V7ö for hävvü
-  %^T7:0          This appears in stem kaoma:ka%^T7o for katoq
+ %{qmn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{qn%}:q 	 HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{XV%}:0		 This is used for echoing the previous vowel
+ %{XC%}:0	 This is used for lengthening a consonant
+ %^I7:0          This appears in stem vaoma:va%^I7o for vaio
+ %^K7:0           This appears in stem väemä:vä%^K7e for väkeq
+ %^V7:0          This appears in stem häömä:hä%^V7ö for hävvü
+ %^T7:0          This appears in stem kaoma:ka%^T7o for katoq
 
- **%^Y7:õ  **  This appears for syna = s%^Y7na and is rendered as õ in the norm
+**%^Y7:õ  **  This appears for syna = s%^Y7na and is rendered as õ in the norm
 ```
 
 
 
 ```
- %^NoGrad:0     — This will be placed after a stem to break Gradation
- %^APOCH:0      — This causes apochope: puhksama vs puhastaq
- %^StrD2T:0     — This changes g,d,b => k,t,p
+%^NoGrad:0     — This will be placed after a stem to break Gradation
+%^APOCH:0      — This causes apochope: puhksama vs puhastaq
+%^StrD2T:0     — This changes g,d,b => k,t,p
 
- %^G1:0	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
- %^G2:0	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
- %^G3:0	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
- %^G4:0	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k
+%^G1:0	       — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
+%^G2:0	       — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
+%^G3:0	       — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
+%^G4:0	       — This is used with %{pØ%} %{pbØ%} for p p, also t, k
 
- %^WGStem:0     — This weakens "kipõń" to "kibõna", "ompel" to "ommel"
- %^StrGStem:0   — This strengthens "perädü" to "perätüt"
- %^ShortGStem:0   — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
- %^LongGStem:0     — This lengthens "pu%{tØ%}tu" to "puttuq"
+%^WGStem:0     — This weakens "kipõń" to "kibõna", "ompel" to "ommel"
+%^StrGStem:0   — This strengthens "perädü" to "perätüt"
+%^ShortGStem:0   — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
+%^LongGStem:0     — This lengthens "pu%{tØ%}tu" to "puttuq"
 
 
- %^Pen:0        — This moves us to penultimate coda
- %^PAL:0	       — Palatalization
- %^NoPAL:0	       — NoPalatalization
+%^Pen:0        — This moves us to penultimate coda
+%^PAL:0	       — Palatalization
+%^NoPAL:0	       — NoPalatalization
 
- %^JI20:0	       — in vari: vaŕo
- %^JI2I:0	       — in vari vari
- %^JI2J:0	       — in vari: varjo
+%^JI20:0	       — in vari: vaŕo
+%^JI2I:0	       — in vari vari
+%^JI2J:0	       — in vari: varjo
 
- %^PenWGStem:0  — This weakens "kipõń" to "kibõna"
- %^PenVowRM:0   — syncope tapõld : taplõma 
- %^D2S:0        — The ti => si
- %^TS2S:0       — The -ts- => -s-
- %^I2J:0        — The i => j change
- %^PLPRT:0      — The a:o attested in Plural kana:kanno and prt
- %^VOWRaise:0   — Raises vowel
- %^VOWLower:0   — Lowers vowel
- %^XLowerVow:0  — Lowers vowel two levels
- %^VOWLowerDelab:0   — Lowers vowel and delabializes it
- %^XLowerVowDelab:0  — Lowers vowel two levels and delabializes it
- %^U2E:0        — lowers u:õ and ü:e delabializes and lowers
- %^U2A:0        — lowers u:a and ü:ä delabializes and lowers
- %^VowRM:0      — this will remove stem final vowel
- %^CnsRM:0      — this will remove stem final consonant tervüs:tervü
+%^PenWGStem:0  — This weakens "kipõń" to "kibõna"
+%^PenVowRM:0   — syncope tapõld : taplõma 
+%^D2S:0        — The ti => si
+%^TS2S:0       — The -ts- => -s-
+%^I2J:0        — The i => j change
+%^PLPRT:0      — The a:o attested in Plural kana:kanno and prt
+%^VOWRaise:0   — Raises vowel
+%^VOWLower:0   — Lowers vowel
+%^XLowerVow:0  — Lowers vowel two levels
+%^VOWLowerDelab:0   — Lowers vowel and delabializes it
+%^XLowerVowDelab:0  — Lowers vowel two levels and delabializes it
+%^U2E:0        — lowers u:õ and ü:e delabializes and lowers
+%^U2A:0        — lowers u:a and ü:ä delabializes and lowers
+%^VowRM:0      — this will remove stem final vowel
+%^CnsRM:0      — this will remove stem final consonant tervüs:tervü
 ```
 
 
@@ -8262,7 +8272,7 @@ päiv+N+Sg+Gen: **day/päivä**
 
 ### VOWEL LOSS
 **a:0**
-       a _ (HarmDummiesVar) %>  i  ;  
+      a _ (HarmDummiesVar) %>  i  ;  
 * *saa%{back%}%>i*
 * *sa00%>i*
 sõimama+V+Act+Ind+Prt+Sg1
@@ -9498,6 +9508,7 @@ hanśa+N:hanśa N_1HANS1A "" ;
 <small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/nouns.lexc)</small>
 ### ADVERBS
 
+### ADJECTIVES
 
 ### CONJUNTIONS
 
@@ -9618,12 +9629,12 @@ for text-to-speech systems.
 
 For example:
 
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
+* s.:syntynyt # ;  
+* os.:omaa% sukua # ;  
+* v.:vuosi # ;  
+* v.:vuonna # ;  
+* esim.:esimerkki # ; 
+* esim.:esimerkiksi # ; 
 
 
 * * *
