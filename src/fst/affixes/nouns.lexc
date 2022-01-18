@@ -2150,11 +2150,10 @@ LEXICON NMN_3ALADU-PL
 :%^Pen%^StrGStem%>i      PL-PAR_d        ;
 :%^Pen%^StrGStem%>i      PL-ALL_lE-STEM       ;
 
-LEXICON NMN_VERE !!= @CODE@ aladu:aladu
-
-!! * Yaml: **Rakvere**
-   NMN_VERE-SG ;
-   NMN_VERE-PL ;
+!LEXICON NMN_VERE !!= @CODE@ aladu:aladu
+!!! * Yaml: **Rakvere**
+!   NMN_VERE-SG ;
+!   NMN_VERE-PL ;
 
 LEXICON NMN_VERE-SG
 :ere Harm-Neutr_SG-NOM ;
