@@ -551,9 +551,6 @@ LEXICON NMN_3ALADU  aladu:aladu
 * Yaml: **A-aladu3**
 
 
-LEXICON NMN_VERE  aladu:aladu
-
-* Yaml: **Rakvere**
 
 
 
