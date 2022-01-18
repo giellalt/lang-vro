@@ -82,16 +82,27 @@ LEXICON PROP_2KERGE-PL
 !LEXICON PROP_3PERAEDUE-PL
 !:%{front%}     NMN_3PERAEDUE-PL ;
 
-!LEXICON PROP_3ALADU !!= @CODE@ aladu:aladu
+LEXICON PROP_3ALADU !!= @CODE@ aladu:aladu
 !! * Yaml: **peraedue**
-! PROP-PLC-DOWNCASE-SG-GEN ;
-!@U.Cap.Obl@   PROP_3ALADU-SG ;
-!@U.Cap.Obl@   PROP_3ALADU-PL ;
+ PROP-PLC-DOWNCASE-SG-GEN ;
+@U.Cap.Obl@   PROP_3ALADU-SG ;
+@U.Cap.Obl@   PROP_3ALADU-PL ;
 
-!LEXICON PROP_3ALADU-SG
-!:%{back%}     NMN_3ALADU-SG ;
-!LEXICON PROP_3ALADU-PL
-!:%{back%}     NMN_3ALADU-PL ;
+LEXICON PROP_3ALADU-SG
+:%{back%}     NMN_3ALADU-SG ;
+LEXICON PROP_3ALADU-PL
+:%{back%}     NMN_3ALADU-PL ;
+
+LEXICON PROP_VERE !!= @CODE@ Rakvere:Rakv
+!! * Yaml: **Rakvere**
+:ere PROP-PLC-DOWNCASE-SG-GEN ;
+@U.Cap.Obl@   PROP_VERE-SG ;
+@U.Cap.Obl@   PROP_VERE-PL ;
+
+LEXICON PROP_VERE-SG
+:%{back%}     NMN_VERE-SG ;
+LEXICON PROP_VERE-PL
+:%{back%}     NMN_VERE-PL ;
 
 
 !LEXICON PROP_4TERVUES

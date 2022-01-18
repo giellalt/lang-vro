@@ -2140,6 +2140,24 @@ LEXICON NMN_3ALADU-PL
 :%^Pen%^StrGStem%>i      PL-PAR_d        ;
 :%^Pen%^StrGStem%>i      PL-ALL_lE-STEM       ;
 
+LEXICON NMN_VERE !!= @CODE@ aladu:aladu
+
+!! * Yaml: **Rakvere**
+   NMN_VERE-SG ;
+   NMN_VERE-PL ;
+
+LEXICON NMN_VERE-SG
+:ere Harm-Neutr_SG-NOM ;
+:ere SG-GEN_ZERO-STEM ;
+:ere Harm-Neutr_SG-PAR_t ;
+:iirde Harm-Neutr_SG-ILL_ZERO ;
+LEXICON NMN_VERE-PL
+:ere Harm-Neutr_PL-NOM ;
+:er%>i Harm-Neutr_PL-GEN_dE ;
+:er%>i      PL-ILL_he       ;!CHECKME PL
+:er%>i      PL-PAR_d        ;
+:er%>i      PL-ALL_lE-STEM       ;
+
 !LEXICON NMN_4TERVUES !!= * __@CODE@__ Types 4, 8, 17
 !!! tervüs:tervüs
 !!! * Yaml: __N-tervues4__
