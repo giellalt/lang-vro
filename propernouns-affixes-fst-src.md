@@ -188,6 +188,8 @@ LEXICON PROP_37PINI  pini:pini
 
 * LEXICON PROP_38PULL1  pulĺ:pull
 
+* LEXICON PROP_38VIKS1  pulĺ:pull
+
 * LEXICON PROP_38PAPP1  papṕ:papp
 
 

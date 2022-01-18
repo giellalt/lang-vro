@@ -371,6 +371,7 @@ LEXICON N_37MUNA  muna:mu%{nØ%}na
 
 
 
+
 * LEXICON N_38HUETT  hütt:hütt
 
 
@@ -2066,7 +2067,7 @@ pung:pung
 *Noun 38 pung examples:*
 
 
-* LEXICON NMN_38PULL1  pulĺ:pull
+* LEXICON NMN_38PULL1/VIKS1  pulĺ:pull
 * +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
 
 
