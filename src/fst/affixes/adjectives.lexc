@@ -67,10 +67,11 @@ LEXICON A_8HAEIELM
 LEXICON A_8KULDNW !!= * @CODE@ kuldnõ:kuld
 :%{back%}  NMN_8KULDNW/KIIL1NE ;
 :%{back%}%>s%{eõ%} Harm-Neutr_COMP ;
+:%>sus N_4AINUS ; 
 LEXICON A_8KIIL1NE !!= * @CODE@ kiiĺne:ki̬i̬ĺ
 :%{front%}  NMN_8KULDNW/KIIL1NE ;
 :%{front%}%>s%{eõ%} Harm-Neutr_COMP ;
-
+:%>süs N_4TERVUES ;
 LEXICON A_8KOLMAS !!= * @CODE@ kolmas:kolma
 :%{back%}  NMN_8KOLMAS/VIIES ;
 
@@ -172,11 +173,13 @@ LEXICON A_13ALONW !!= @CODE@ alonõ:alo
 :%{back%}     NMN_13ALONW/TAEHINE ;
 +Der+Der/lt+Adv:dsõlt K ;
 :%{back%}%>ts%{eõ%} Harm-Neutr_COMP ;
+:%>dsus N_4AINUS ;
 
 LEXICON A_13TAEHINE !!= @CODE@ tähine:tähi
 :%{front%}     NMN_13ALONW/TAEHINE ;
 +Der+Der/lt+Adv:dselt K ;
-:%{back%}%>ts%{eõ%} Harm-Neutr_COMP ;
+:%{front%}%>ts%{eõ%} Harm-Neutr_COMP ;
+:%>dsüs N_4TERVUES ;
 
 LEXICON A_13TAEHINE-PL !!= @CODE@ tähine:tähi
 :%{front%}     NMN_13ALONW/TAEHINE-PL ;
@@ -201,12 +204,17 @@ LEXICON A_14IKAES  !!= @CODE@ rikas:ri%{kØ%}ka%{sØ%}
 
 LEXICON A_16ABILINW !!= @CODE@ inemine:inemi
 :%{back%} NMN_16ABILINW/INEMINE ;
-
+:%{back%}%>s%{eõ%} Harm-Neutr_COMP ;
+:%>sus N_4AINUS ;
 LEXICON A_16INEMINE !!= @CODE@ inemine:inemi
 :%{front%} NMN_16ABILINW/INEMINE ;
+:%{front%}%>s%{eõ%} Harm-Neutr_COMP ;
+:%>süs N_4TERVUES ;
 
 LEXICON A_16TSIRGUKWNW
 :%{back%} NMN_16TSIRGUKWNW/TERAEKENE ;
+:%{back%}%>s%{eõ%} Harm-Neutr_COMP ;
+:%>sus N_4AINUS ;
 
 LEXICON A_17ALGUS
 :%{back%}     NMN_17ALGUS/UETSUES ;
@@ -221,10 +229,12 @@ LEXICON A_17ALGUS
 LEXICON A_19ALOMANW !!= @CODE@ alomanõ:aloma
 :%{back%}     NMN_19ALOMANW/PEDAEJAENE ;
 :dsõ%{back%} COMP ;
+:%>dsus N_4AINUS ;
 
 LEXICON A_19PEDAEJAENE !!= @CODE@ pedäjäne:pedäjä
 :%{front%} NMN_19ALOMANW/PEDAEJAENE ;
 :dse%{front%} COMP ;
+:%>dsüs N_4TERVUES ;
 
 LEXICON A_19PEDAEJAENE-PL !!= @CODE@ pedäjäne:pedäjä
 :%{front%} NMN_19ALOMANW/PEDAEJAENE-PL ;
@@ -238,10 +248,12 @@ LEXICON A_19PEDAEJAENE-PL !!= @CODE@ pedäjäne:pedäjä
 LEXICON A_22VWROKWNW !!= @CODE@ võrokõnõ:võrokõ
 :%{back%}     NMN_22VWROKWNW/VAEHAEKENE ;
 :%{back%}s%{eõ%} COMP ;
+:%>sus N_4AINUS ;
 
 LEXICON A_22VAEHAEKENE !!= @CODE@ võrokõnõ:võrokõ
 :%{front%}     NMN_22VWROKWNW/VAEHAEKENE ;
 :%{front%}s%{eõ%} COMP ;
+:%>süs N_4TERVUES ;
 
 LEXICON A_23NUUL1
 :%{back%}  NMN_23NUUL1/KIIL1 ;
@@ -347,7 +359,7 @@ LEXICON A_43KANARIK
 :%>u%{back%} COMP ;
 
 LEXICON A_43ELAENIK
-@U.VowHarm.F@:@U.VowHarm.F@%{front%}  NMN_43KANARIK/ELAENIK ;
+@U.VowHarm.F@:@U.VowHarm.F@%{back%}  NMN_43KANARIK/ELAENIK ;!contextually front but inately back
 :%>u%{back%} COMP ;
 
 LEXICON A_44SWDA

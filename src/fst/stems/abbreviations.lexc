@@ -14,6 +14,7 @@ ITRAB ;
 TRNUMAB ;
 TRAB ;
 
+
 ! Now splitting according to POS, and according to dot or not
 ! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -49,6 +50,17 @@ LEXICON ab-nodot-noun ! The bulk
 LEXICON ab-nodot ! default
 +ABBR: # ;  ! no period, that is.
 
+LEXICON ab-nodot-pron-pl
+! jt ja tõõsõq
++Pron+Pl+ABBR: # ;
+
+LEXICON ab-nodot-propn ! 
++N+Prop+ABBR: # ;  ! no period, that is.
+
+LEXICON ab-nodot-adv !
++Adv+ABBR: # ;
+
+
 ! Here come POS and Case tags, with the period added.
 
 LEXICON ab-dot ! Default
@@ -67,16 +79,22 @@ LEXICON ab-dot-noun ! This is the lexicon for abbrs that must have a period.
 ! need the transitivity division.
 
 LEXICON noperiod
-!км² ab-nodot-noun ;
 !км ab-nodot-noun ;
 !см ab-nodot-noun ;
 !гг ab-nodot-noun ;
 !м3/с ab-nodot-noun ;
 !кв  ab-nodot-noun ;
+cm ab-nodot-noun ;
+ha ab-nodot-noun ;
+km² ab-nodot-noun ;
 km ab-nodot-noun ;
 m ab-nodot-noun ;
 nt ab-nodot-noun ;
+lk ab-nodot-noun ;
 
+IRA ab-nodot-propn ;
+
+jt ab-nodot-pron-pl ;
 ! =============================================== !
 !            Intransitive abbreviations           !
 ! =============================================== !
@@ -89,7 +107,8 @@ nt ab-nodot-noun ;
 
 
 LEXICON ITRAB
-
+jne ab-nodot-adv ;
+jm ab-nodot ;
 
 в ab ;
 г ab ;
@@ -139,6 +158,18 @@ Part ab-dot ;
 slaab ab-dot ;
 st ab-dot ;
 Tr  ab-dot ;
+i.m.a ab-dot ;
+m.a.p ab-dot ;
+u ab-dot ;
+a.t ab-dot ;
+a ab-dot ;
+k ab-dot ;
+jms ab-dot ;
+sks ab-dot ;
+t.t ab-dot ;
+e.k ab-dot ;
+ld.k ab-dot ;
+jm ab-dot ;
 
 ! fenr. 10.
 ! fenr. 5. a.
