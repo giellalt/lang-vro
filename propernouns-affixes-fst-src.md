@@ -95,7 +95,9 @@ Gradation: No
 Gradation: No
 
 
+LEXICON PROP_14HAMMAS  hammas:hamba, saabas:saapa
 gradation: yes
+distinguished from 14RITS1KAS due to gradation
 
 
 distinguished from 14RITS1KAS due to word final h

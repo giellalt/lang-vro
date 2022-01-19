@@ -33,7 +33,6 @@ LEXICON A_4AINUS   ainus:ainus
 
 * LEXICON A_8KULDNW  kuldnõ:kuld
 * LEXICON A_8KIIL1NE  kiiĺne:ki̬i̬ĺ
-
 * LEXICON A_8KOLMAS  kolmas:kolma
 
 * LEXICON A_8VIIES  viies:viie
@@ -93,7 +92,6 @@ LEXICON A_14IKAES   rikas:ri%{kØ%}ka%{sØ%}
 
 
 LEXICON A_16ABILINW  inemine:inemi
-
 LEXICON A_16INEMINE  inemine:inemi
 
 

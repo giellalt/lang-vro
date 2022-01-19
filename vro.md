@@ -4502,6 +4502,33 @@ LEXICON NMN_13ALONW/TAEHINE  alonõ:alo
 **A-alonw**
 
 
+LEXICON NMN_13VAHTSWNW  vahtsõnõ:vah
+
+*Noun 13 alonõ examples:*
+* *alonõ* `alonõ+N+Sg+Nom:`
+* *alost* `alonõ+N+Sg+Par:`
+* *alotsõhe* `alonõ+N+Sg+Ill:`
+* *alotsõl* `alonõ+N+Sg+Ade:`
+* *alotsõlt* `alonõ+N+Sg+Abl:`
+* *alotsõs* `alonõ+N+Sg+Tra:`
+* *alotsõniq* `alonõ+N+Sg+Ter:`
+* *alotsõldaq* `alonõ+N+Sg+Abe:`
+* *alotsõgaq* `alonõ+N+Sg+Com:`
+* *alodsõq* `alonõ+N+Pl+Nom:`
+* *alotsit* `alonõ+N+Pl+Par:`
+* *alotsihe* `alonõ+N+Pl+Ill:`
+* *alotsist* `alonõ+N+Pl+Ela:`
+* *alotsilõ* `alonõ+N+Pl+All:`
+* *alotsil* `alonõ+N+Pl+Ade:`
+* *alotsilt* `alonõ+N+Pl+Abl:`
+* *alotsis* `alonõ+N+Pl+Tra:`
+* *alotsiniq* `alonõ+N+Pl+Ter:`
+* *alotsildaq* `alonõ+N+Pl+Abe:`
+* *alotsidõgaq* `alonõ+N+Pl+Com:`
+
+**A-vahtswnw**
+
+
 
 LEXICON NMN_13XX/SAEAENE  sääne:sää
 **A-alonw**
@@ -4875,6 +4902,11 @@ gradation= no
 
 
 
+
+
+
+
+* LEXICON NMN_35EGAE  egä:e%{kØ%}%{kg%}ä
 
 
 
@@ -5500,7 +5532,6 @@ LEXICON A_4AINUS   ainus:ainus
 
 * LEXICON A_8KULDNW  kuldnõ:kuld
 * LEXICON A_8KIIL1NE  kiiĺne:ki̬i̬ĺ
-
 * LEXICON A_8KOLMAS  kolmas:kolma
 
 * LEXICON A_8VIIES  viies:viie
@@ -5560,7 +5591,6 @@ LEXICON A_14IKAES   rikas:ri%{kØ%}ka%{sØ%}
 
 
 LEXICON A_16ABILINW  inemine:inemi
-
 LEXICON A_16INEMINE  inemine:inemi
 
 
@@ -5845,7 +5875,7 @@ ehitelemä:ehitell
 
 
 
-* **LEXICON V_53KAEMA** 
+* **LEXICON V_53KAEMA** kaema:ka
 * **LEXICON V_53JAEAEMAE** 
 * **LEXICON V_53XX/JAEAEMAE** 
 
@@ -5859,17 +5889,21 @@ ehitelemä:ehitell
 
 *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
-* **LEXICON V_53KAEMA/XX** 
+* **LEXICON V_53KAEMA/XX** kaema:ka
 
-* :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
-*  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+* :%>e Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
-* :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
-* :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
-* :%^VOWRaise ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
 
-*  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+
+
+* :%>e ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+
+* :%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
+* :%>e V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
+* :%>e ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
+
+* :%>e ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
 
 * **LEXICON V_55KWNWLWMA** kõnõlõma:kõ̭nõl
@@ -7214,7 +7248,8 @@ PASSIVE DISTRIBUTION
 * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+* +Use/NG+Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ;  no q
 
 * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
@@ -7633,7 +7668,9 @@ Gradation: No
 Gradation: No
 
 
+LEXICON PROP_14HAMMAS  hammas:hamba, saabas:saapa
 gradation: yes
+distinguished from 14RITS1KAS due to gradation
 
 
 distinguished from 14RITS1KAS due to word final h
@@ -8119,6 +8156,9 @@ tahtma+V+Pss+PrfPrc+Sg+Nom: **want/haluta**
 
 ### PALATALIZATION
 **n2ń palatalization all**
+kestmä+V+Act+Ind+Prt+Sg3:
+* *kes{tt́}{äe}{front}^Pen^PAL^VowRM*
+* *kest́00000*
 
 
 akaŕ+A+Sg+Nom
@@ -8223,9 +8263,13 @@ tegemä+V+Act+Ind+Prs+Sg1: **do**
 **o2u̬**
 
 **Vx%{ou%}:Vyo**
+
 hoolas+A+Sg+Nom:
 * *h%{ou%}%{ou%}la%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^G1*
 * *hoolas00000*
+Toomas+N+Prop+Sg+Nom
+* *T{ou}{ou}ma{sØ}{back}^Pen^VOWLower^Pen^WGStem^StrGStem*
+* *Toomas000000*
 
 **Vx%{ou%}2Vyu̬**
 nuuĺ+N+Sg+Nom: **arrow**
@@ -8320,8 +8364,8 @@ juusk+N+Sg+Nom: ____
 * *ju̬u̬sk0000*
 
 
-* *kuu{back}^VowRM>i>d*
-* *ku000>i>d*
+* *kuu{back}^VOWLower^VowRM>i>d*
+* *ku0000>i>d*
 ```
 
 [ Cns: |ArchCns:| Vow: ] _ (s:) (HarmDummiesVar) [(%^Pen: %^CC2C:|%^Pen: %^G3:|%^Pen: %^G4:|PenVOWHite %^Pen: %^G1:) %^VowRM: ]( CnsInZero: (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: )  ; 
@@ -8348,7 +8392,9 @@ juuma+V+Inf
 nõstma+V+Inf/mA
 * *nõs{tt́}{aõ}{back}^Pen^NoPAL^VowRM>m{aä}*
 * *nõst00000>ma*
-
+kestmä+V+Act+Ind+Prt+Sg3:
+* *kes{tt́}{äe}{front}^Pen^PAL^VowRM*
+* *kest́00000*
 **ö:0**
 
 **i:0**
@@ -8469,6 +8515,9 @@ CONSONANT
 täht́+N+Err/Orth-no-pal+Sg+Nom: __star/tähti__
 * *täh{tt́Ø}{front}^StrGStem^NoPAL*
 * *täht000*
+võtma+V+Act+Ind+Prt+Pl3
+* *võ{tØ}{tt́Ø}a{back}^Pen^G3^Pen^NoPAL^VowRM>iq*
+* *võ0t0000000>iq*
 
 **%{kḱØ%}:ḱ**
 
@@ -8690,6 +8739,9 @@ rehksämä+V+Inf/mA:
 makḱ+N+Pl+All
 * *ma{kØ}{kḱ}{back}^StrGStem^NoPAL>{eõ}>l{eõ}*
 * *makk000>õ>lõ*
+egä+Det+Sg+Ill:
+* *e{kØ}{kg}ä{front}^Pen^G4*
+* *ekkä000*
 
 **%{pb%}:p**
 * *kau%{pb%}%{õØ%}%{lĺ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%>%{eõ%}%>m%{aä%}*
@@ -8727,6 +8779,9 @@ akaŕ+A+Sg+Nom
 
 * *avali{kØ}{kg}{back}^G3*
 * *avali0k00*
+egä+Det+Sg+Nom:
+* *e{kØ}{kg}ä{front}^Pen^G2*
+* *e0gä000*
 
 **%{kg%}:g**
 apteḱ+N+Sg+Gen:
@@ -8735,6 +8790,10 @@ apteḱ+N+Sg+Gen:
 agras+A+Sg+Nom:
 * *a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem*
 * *agras00000*
+egä+Det+Sg+Nom:
+* *e{kØ}{kg}ä{front}^Pen^G2*
+* *e0gä000*
+
 
 * *hõl%{kg%}a%{sØ%}%{back%}%^Pen%^G2*
 * *hõlgas000*
@@ -9511,6 +9570,8 @@ hanśa+N:hanśa N_1HANS1A "" ;
 
 ### ADJECTIVES
 
+
+
 ### CONJUNTIONS
 
 
@@ -9528,7 +9589,6 @@ hanśa+N:hanśa N_1HANS1A "" ;
 ### POSTPOSITIONA
 
 ### PRONOUNS
-
 
 ### VERBS
 
@@ -9578,8 +9638,11 @@ ADD NOUNS BELOW
 
 
 
+
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>
+
+
 
 
 CHECKME

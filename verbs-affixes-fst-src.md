@@ -127,7 +127,7 @@ ehitelemä:ehitell
 
 
 
-* **LEXICON V_53KAEMA** 
+* **LEXICON V_53KAEMA** kaema:ka
 * **LEXICON V_53JAEAEMAE** 
 * **LEXICON V_53XX/JAEAEMAE** 
 
@@ -141,17 +141,21 @@ ehitelemä:ehitell
 
 *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
-* **LEXICON V_53KAEMA/XX** 
+* **LEXICON V_53KAEMA/XX** kaema:ka
 
-* :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
-*  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+* :%>e Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
-* :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
-* :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
-* :%^VOWRaise ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
 
-*  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+
+
+* :%>e ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+
+* :%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
+* :%>e V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
+* :%>e ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
+
+* :%>e ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
 
 * **LEXICON V_55KWNWLWMA** kõnõlõma:kõ̭nõl
@@ -1496,7 +1500,8 @@ PASSIVE DISTRIBUTION
 * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+
+* +Use/NG+Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ;  no q
 
 * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 

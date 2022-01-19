@@ -3,6 +3,8 @@
 
 ### ADJECTIVES
 
+
+
 ### CONJUNTIONS
 
 
@@ -20,7 +22,6 @@
 ### POSTPOSITIONA
 
 ### PRONOUNS
-
 
 ### VERBS
 

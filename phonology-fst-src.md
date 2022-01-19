@@ -336,6 +336,9 @@ tahtma+V+Pss+PrfPrc+Sg+Nom: **want/haluta**
 
 ### PALATALIZATION
 **n2ń palatalization all**
+kestmä+V+Act+Ind+Prt+Sg3:
+* *kes{tt́}{äe}{front}^Pen^PAL^VowRM*
+* *kest́00000*
 
 
 akaŕ+A+Sg+Nom
@@ -440,9 +443,13 @@ tegemä+V+Act+Ind+Prs+Sg1: **do**
 **o2u̬**
 
 **Vx%{ou%}:Vyo**
+
 hoolas+A+Sg+Nom:
 * *h%{ou%}%{ou%}la%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^G1*
 * *hoolas00000*
+Toomas+N+Prop+Sg+Nom
+* *T{ou}{ou}ma{sØ}{back}^Pen^VOWLower^Pen^WGStem^StrGStem*
+* *Toomas000000*
 
 **Vx%{ou%}2Vyu̬**
 nuuĺ+N+Sg+Nom: **arrow**
@@ -537,8 +544,8 @@ juusk+N+Sg+Nom: ____
 * *ju̬u̬sk0000*
 
 
-* *kuu{back}^VowRM>i>d*
-* *ku000>i>d*
+* *kuu{back}^VOWLower^VowRM>i>d*
+* *ku0000>i>d*
 ```
 
 [ Cns: |ArchCns:| Vow: ] _ (s:) (HarmDummiesVar) [(%^Pen: %^CC2C:|%^Pen: %^G3:|%^Pen: %^G4:|PenVOWHite %^Pen: %^G1:) %^VowRM: ]( CnsInZero: (%^Pen: %^CC2C:) %^VowRM: %^CnsRM: )  ; 
@@ -565,7 +572,9 @@ juuma+V+Inf
 nõstma+V+Inf/mA
 * *nõs{tt́}{aõ}{back}^Pen^NoPAL^VowRM>m{aä}*
 * *nõst00000>ma*
-
+kestmä+V+Act+Ind+Prt+Sg3:
+* *kes{tt́}{äe}{front}^Pen^PAL^VowRM*
+* *kest́00000*
 **ö:0**
 
 **i:0**
@@ -686,6 +695,9 @@ CONSONANT
 täht́+N+Err/Orth-no-pal+Sg+Nom: __star/tähti__
 * *täh{tt́Ø}{front}^StrGStem^NoPAL*
 * *täht000*
+võtma+V+Act+Ind+Prt+Pl3
+* *võ{tØ}{tt́Ø}a{back}^Pen^G3^Pen^NoPAL^VowRM>iq*
+* *võ0t0000000>iq*
 
 **%{kḱØ%}:ḱ**
 
@@ -907,6 +919,9 @@ rehksämä+V+Inf/mA:
 makḱ+N+Pl+All
 * *ma{kØ}{kḱ}{back}^StrGStem^NoPAL>{eõ}>l{eõ}*
 * *makk000>õ>lõ*
+egä+Det+Sg+Ill:
+* *e{kØ}{kg}ä{front}^Pen^G4*
+* *ekkä000*
 
 **%{pb%}:p**
 * *kau%{pb%}%{õØ%}%{lĺ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%>%{eõ%}%>m%{aä%}*
@@ -944,6 +959,9 @@ akaŕ+A+Sg+Nom
 
 * *avali{kØ}{kg}{back}^G3*
 * *avali0k00*
+egä+Det+Sg+Nom:
+* *e{kØ}{kg}ä{front}^Pen^G2*
+* *e0gä000*
 
 **%{kg%}:g**
 apteḱ+N+Sg+Gen:
@@ -952,6 +970,10 @@ apteḱ+N+Sg+Gen:
 agras+A+Sg+Nom:
 * *a%{kg%}ra%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem*
 * *agras00000*
+egä+Det+Sg+Nom:
+* *e{kØ}{kg}ä{front}^Pen^G2*
+* *e0gä000*
+
 
 * *hõl%{kg%}a%{sØ%}%{back%}%^Pen%^G2*
 * *hõlgas000*

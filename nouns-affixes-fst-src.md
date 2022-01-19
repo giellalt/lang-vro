@@ -1542,6 +1542,33 @@ LEXICON NMN_13ALONW/TAEHINE  alonõ:alo
 **A-alonw**
 
 
+LEXICON NMN_13VAHTSWNW  vahtsõnõ:vah
+
+*Noun 13 alonõ examples:*
+* *alonõ* `alonõ+N+Sg+Nom:`
+* *alost* `alonõ+N+Sg+Par:`
+* *alotsõhe* `alonõ+N+Sg+Ill:`
+* *alotsõl* `alonõ+N+Sg+Ade:`
+* *alotsõlt* `alonõ+N+Sg+Abl:`
+* *alotsõs* `alonõ+N+Sg+Tra:`
+* *alotsõniq* `alonõ+N+Sg+Ter:`
+* *alotsõldaq* `alonõ+N+Sg+Abe:`
+* *alotsõgaq* `alonõ+N+Sg+Com:`
+* *alodsõq* `alonõ+N+Pl+Nom:`
+* *alotsit* `alonõ+N+Pl+Par:`
+* *alotsihe* `alonõ+N+Pl+Ill:`
+* *alotsist* `alonõ+N+Pl+Ela:`
+* *alotsilõ* `alonõ+N+Pl+All:`
+* *alotsil* `alonõ+N+Pl+Ade:`
+* *alotsilt* `alonõ+N+Pl+Abl:`
+* *alotsis* `alonõ+N+Pl+Tra:`
+* *alotsiniq* `alonõ+N+Pl+Ter:`
+* *alotsildaq* `alonõ+N+Pl+Abe:`
+* *alotsidõgaq* `alonõ+N+Pl+Com:`
+
+**A-vahtswnw**
+
+
 
 LEXICON NMN_13XX/SAEAENE  sääne:sää
 **A-alonw**
@@ -1915,6 +1942,11 @@ gradation= no
 
 
 
+
+
+
+
+* LEXICON NMN_35EGAE  egä:e%{kØ%}%{kg%}ä
 
 
 
