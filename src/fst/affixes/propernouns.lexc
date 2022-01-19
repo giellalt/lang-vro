@@ -437,16 +437,16 @@ LEXICON PROP_10VIDRIK-PL
 !:%{back%}     NMN_14RITS1KAS/HERNEH-PL ;!
 
 
-!LEXICON PROP_14HAMMAS !!= @CODE@ hammas:hamba, saabas:saapa
+LEXICON PROP_14HAMMAS !!= @CODE@ hammas:hamba, saabas:saapa
 !! gradation: yes
-!!! distinguished from 14RITS1KAS due to gradation
-!: PROP-PLC-DOWNCASE-SG-GEN ;
-!@U.Cap.Obl@        PROP_14HAMMAS-SG ;
-!@U.Cap.Obl@        PROP_14HAMMAS-PL ;
-!LEXICON PROP_14HAMMAS-SG
-!:%{back%}     NMN_14HAMMAS/IKAES-SG ;
-!LEXICON PROP_14HAMMAS-PL
-!:%{back%}     NMN_14HAMMAS/IKAES-PL ;
+!! distinguished from 14RITS1KAS due to gradation
+: PROP-PLC-DOWNCASE-SG-GEN ;
+@U.Cap.Obl@        PROP_14HAMMAS-SG ;
+@U.Cap.Obl@        PROP_14HAMMAS-PL ;
+LEXICON PROP_14HAMMAS-SG
+:%{back%}     NMN_14HAMMAS/IKAES-SG ;
+LEXICON PROP_14HAMMAS-PL
+:%{back%}     NMN_14HAMMAS/IKAES-PL ;
 
 
 !LEXICON PROP_PEREH !!= @CODE@ pereh:pereh
@@ -474,16 +474,16 @@ LEXICON PROP_10VIDRIK-PL
 !:%{back%}     NMN_HAMWH-PL ;
 
 
-!LEXICON PROP_15KOTUS
+LEXICON PROP_15KOTUS
 !! kotus:kotus
 !! * Yaml: **N-kotus15**
-!:õ PROP-PLC-DOWNCASE-SG-GEN ;
-!@U.Cap.Obl@        PROP_15KOTUS-SG ;
-!@U.Cap.Obl@        PROP_15KOTUS-PL ;
-!LEXICON PROP_15KOTUS-SG
-!:%{back%}     NMN_15KOTUS/ILVES-SG ;
-!LEXICON PROP_15KOTUS-PL
-!:%{back%}     NMN_15KOTUS/ILVES-PL ;
+:õ PROP-PLC-DOWNCASE-SG-GEN ;
+@U.Cap.Obl@        PROP_15KOTUS-SG ;
+@U.Cap.Obl@        PROP_15KOTUS-PL ;
+LEXICON PROP_15KOTUS-SG
+:%{back%}     NMN_15KOTUS/ILVES-SG ;
+LEXICON PROP_15KOTUS-PL
+:%{back%}     NMN_15KOTUS/ILVES-PL ;
 
 
 !LEXICON PROP_16INEMINE !!= @CODE@
@@ -1050,9 +1050,9 @@ LEXICON PROP_41ASK-PL
 !@U.Cap.Obl@  PROP_43ELAENIK-SG ;
 !@U.Cap.Obl@  PROP_43ELAENIK-PL ;
 !LEXICON PROP_43ELAENIK-SG
-!@U.VowHarm.F@:@U.VowHarm.F@%{front%}     NMN_43KANARIK/ELAENIK-SG ;
+!@U.VowHarm.F@:@U.VowHarm.F@%{back%}     NMN_43KANARIK/ELAENIK-SG ;
 !LEXICON PROP_43ELAENIK-PL
-!@U.VowHarm.F@:@U.VowHarm.F@%{front%}     NMN_43KANARIK/ELAENIK-PL ;
+!@U.VowHarm.F@:@U.VowHarm.F@%{back%}     NMN_43KANARIK/ELAENIK-PL ;
 
 
 LEXICON PROP_44SWDA !!= @CODE@ sõda:sõda

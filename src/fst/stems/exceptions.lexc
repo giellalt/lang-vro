@@ -16,6 +16,11 @@ hüä+A+Sg+Ill:hüvvä%{front%} K ;
 hüä+A:hüä%{front%} Harm-Neutr_PL-NOM ;
 hüä+A+Pl+Nom:hüvvi%{front%} PL-ALL_lE-STEM ;
 
+vahtsõnõ+A:vah%{back%} NMN_13VAHTSWNW ;!!13ALONW
+ülessulut+A:üles#sulu%{back%} NMN_PSS-PRFPRC_t/SG-GEN_dU ;
+
+egä+Det:e%{kØ%}%{kg%}ä%{front%} NMN_35EGAE ;
+
 !! ### CONJUNTIONS
 jaq+CC:ja CC_IN_q ;
 aq+CC:a CC_IN_q ;
@@ -23,6 +28,7 @@ egaq+CC:ega CC_IN_q "or" ;
 õgaq+CC:õga CC_IN_q "or" ;
 
 et+CS:et CS_ ;
+õt+CS:õt CS_ ;
 kuq+CS:ku CS_IN_q ;
 sis+CS:sis CS_ ;
 
@@ -86,6 +92,7 @@ Vana-Vigala+N+Prop+Sg+Gen:Vana-Vigala K ;
 
 !! ### NOUNS
 vaih+N+Sg+Nom:vahe K ;
+kiri+N+Sg+Ill+Err/Orth-back:kirja K ;
 
 !! ### PLURAL NOUNS
 
@@ -105,12 +112,13 @@ pääleq+Po:pääle PO-IS-ALL_IN_q ;
 hindä+Pron+Refl+All:hindäle K ;
 hindä+Pron+Refl+Gen:hindä K ;
 hindä+Pron+Refl+Ela:hinnäst K ;
-tuu:tu PRON-DEM ;
-tää:tä PRON-DEM ;
-
+tuu+Pron:tu PRON-DEM ;
+tää+Pron:tä PRON-DEM ;
+saq+Pron: PERS-SG2 ;
 
 !! ### VERBS
 ei:e V_EI ;
+olõma+V+Act+Ind+Prs+Sg3+Err/Orth-est:on K ;
 
 !! andma **to give/antaa**
 andma+V:an%{back%} PSS-IND-SG1_dX/SG3_dX ;
