@@ -202,7 +202,6 @@ derived from 36särǵ
 
 LEXICON NUM_43KANARIK 
 
-LEXICON NUM_43ELAENIK 
 
 
 
@@ -248,6 +247,8 @@ vro-digits
 * **LEXICON ARABICCASEORD** ordinals
 
 
+* **LEXICON ARABICCASEORD-ERR** ordinal inflection when preceded
+by .:, and with reduced case forms. The Err/Orth tag is added in the calling lexicon.
 
 * **LEXICON ARABICCASECOLL** collectives
 
