@@ -16,8 +16,8 @@
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Add language-specific flags for hfst-lexc compilation here:
-#HFST_LEXC_LOCAL_FLAGS=--Werror
-HFST_LEXC_LOCAL_FLAGS=
+HFST_LEXC_LOCAL_FLAGS=--Werror
+#HFST_LEXC_LOCAL_FLAGS=
 
 ####### Morphology source file defs: ########
 
@@ -28,7 +28,6 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 GT_LEXC_SRCS_L1_L2=\
 			 stems/abbreviations.lexc   \
 			 stems/acronyms.lexc        \
-			 stems/vro-digits.lexc        \
 			 stems/exceptions.lexc      \
 			 stems/adjectives_newwords.lexc    \
 			 stems/adpositions_newwords.lexc     \
@@ -77,6 +76,7 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/numerals.lexc \
 			 generated_files/arabic_roman_digits.lexc \
 	 	 	 generated_files/punctuation.lexc \
+	 	 	 generated_files/smi-digits.lexc \
 			 generated_files/symbols.lexc
 
 
