@@ -1066,13 +1066,13 @@ LEXICON NUM_43KANARIK-SG
 LEXICON NUM_43KANARIK-PL
 :%{back%}     NMN_43KANARIK/ELAENIK-PL ;
 
-LEXICON NUM_43ELAENIK !!= @CODE@
-        NUM_43ELAENIK-SG ;
-        NUM_43ELAENIK-PL ;
-LEXICON NUM_43ELAENIK-SG
-:%{front%}     NMN_43KANARIK/ELAENIK-SG ;
-LEXICON NUM_43ELAENIK-PL
-:%{front%}     NMN_43KANARIK/ELAENIK-PL ;
+!LEXICON NUM_43ELAENIK !!= @CODE@
+!        NUM_43ELAENIK-SG ;
+!        NUM_43ELAENIK-PL ;
+!LEXICON NUM_43ELAENIK-SG
+!:%{front%}     NMN_43KANARIK/ELAENIK-SG ;
+!LEXICON NUM_43ELAENIK-PL
+!:%{front%}     NMN_43KANARIK/ELAENIK-PL ;
 
 !LEXICON NUM_43SASLWK1 !!= @CODE@
 !        NUM_43SASLWK1-SG ;
@@ -1259,18 +1259,18 @@ LEXICON DIGITCASE   !!≈ * **@CODE@**
  +Sg+Gen:%>nda      K ;
  +Sg+Abe:%>ndal     K ;
 
-+Sg+Com:%>dijn    K ;
-    +Ess:%>din     K ;
- +Pl+Nom:%>dat     K ;
- +Pl+Gen:%>dijd9   K ;
- +Pl+Acc:%>dijd9   K ;
- +Pl+Ill:%>dijdda  K ;
- +Pl+Loc:%>dijn    K ;
- +Pl+Com:%>dijgujn K ;
+!+Sg+Com:%>dijn    K ;
+!    +Ess:%>din     K ;
+! +Pl+Nom:%>dat     K ;
+! +Pl+Gen:%>dijd9   K ;
+! +Pl+Acc:%>dijd9   K ;
+! +Pl+Ill:%>dijdda  K ;
+! +Pl+Loc:%>dijn    K ;
+! +Pl+Com:%>dijgujn K ;
 
-! LEXICON ARABICCASEORD-ERR   !!≈ * **@CODE@** ordinal inflection when preceded
-! !! by .:, and with reduced case forms. The Err/Orth tag is added in the calling lexicon.
-! +Sg+Gen:%>a      K ;
+ LEXICON ARABICCASEORD-ERR   !!≈ * **@CODE@** ordinal inflection when preceded
+ !! by .:, and with reduced case forms. The Err/Orth tag is added in the calling lexicon.
+ +Sg+Gen:%>a      K ;!CHECKME
 ! +Sg+Acc:%>a      K ;
 ! +Sg+Ill:%>ij     K ;
 ! +Sg+Loc:%>is     K ;
