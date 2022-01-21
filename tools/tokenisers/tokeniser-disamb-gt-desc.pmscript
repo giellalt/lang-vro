@@ -66,8 +66,8 @@ Define alphabet "a-z" !! * lower-case ASCII
                |"A-Z" !! * upper-case ASCII
                |Lst({àáâãāăȧäảåǎȁȃąạḁæǽǣèéêẽēĕėëẻěȅȇẹȩęḙḛìíîĩīīĭi̇ïỉǐịįȉȋḭɨòóôõōŏȯöỏőǒȍȏơǫọɵøờớỡởợǭộǿœùúûũūŭüủůűǔȕȗưụṳųṷṵừứữửựʉỳýŷỹȳẏÿỷƴỵɏÀÁÂÃĀĂȦÄẢÅǍȀȂĄẠḀÆǼǢÈÉÊẼĒĔĖËẺĚȄȆẸȨĘḘḚÌÍÎĨĪĪĬİÏỈǏỊĮȈȊḬƗÒÓÔÕŌŎȮÖỎŐǑȌȎƠǪỌƟØỜỚỠỞỢǬỘǾŒÙÚÛŨŪŬÜỦŮŰǓȔȖƯỤṲŲṶṴỪỨỮỬỰɄỲÝŶỸȲẎŸỶƳỴɎšžčđðíŋňŧñńŠŽČĐÐÍŊŇŦÑ})
                !! * select extended latin symbols
-               | Lst({b́ćd́f́ǵh́ḱĺḿB́ĆD́F́ǴH́ḰĹḾńṕŕśt́v́źŃṔŔŚT́V́Źu̬ü̬i̬õ̭U̬Ü̬I̬Õ̭})
-               !! * vro specific characters
+               | Lst({ćǵḱĺḿĆǴḰĹḾńṕŕśźŃṔŔŚŹ})
+               ! More lating extended, to cover the whole VRO alphabet
                | "0-9" !! ASCII digits
                | Lst({_§°†}) !! * select symbols
                !! * Combining diacritics as individual symbols,
@@ -94,7 +94,7 @@ Define alphaword alphabet+ ( alphamiddle alphabet+ );
 !! ## Unknown handling
 Define unknownform [alphaword].u ;
 !! Unknowns are tagged ?? and treated specially with `hfst-tokenise`
-Define unknownword unknownform 0:% %?%? 
+Define unknownword unknownform 0:% %?%?::280284
                         LC([blank | #]) RC([[blank ] | # ]);
 !! hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 !! remove empty analyses from other readings. Empty readings are also
