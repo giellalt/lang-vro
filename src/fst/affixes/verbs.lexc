@@ -2115,30 +2115,43 @@ LEXICON V_78SAAMA/XX
  ACT-PRFPRC-ALL_nUq ;
  MUTUAL_JUS_guq ;
 
-!LEXICON V_78VIIMÄ
-!!! * Yaml: __V-viimae__
-!:%{front%}  V_78XX/VIIMÄ ; 
+LEXICON V_78VIIMAE
+!! * Yaml: __V-viimae__
+:%{front%}  V_78XX/VIIMAE ; 
 
-!LEXICON V_78XX/VIIMÄ
+LEXICON V_78XX/VIIMAE
+! (1) I tegonimi:
+! (2) II tegonimi:
+! (3) tekev tm aktiiv:
+! (4) tettäv tm passiiv:
+:%^VOWRaise PSS-IND-PRT-ALL_di ;
+! (5) Olõvao 1. k maq:
+! 2nd person indicative present
+! 1st person plural present
+! (6) Olõvao 3. k tä:
+! (7) min 1. k maq: Sg1 and Pl3
+! (7.2) Sg2, Pl1 and Pl2
+! (8) min 3. k tä:
+! (9) jus:
+ 
+ ACT-IND-PRS-12 ;
+ ACT-IND-PRS-SG3_ZERO ;
+ ACT-IND-PRS-SG3_sE ;
+ ACT-IND-PRS-PL3_vAq ;
+ PSS-IND-SG1_dX/SG3_tX ;
 
-! ACT-IND-PRS-12 ;
-! ACT-IND-PRS-SG3_ZERO ;
-! ACT-IND-PRS-SG3_sE ;
-! ACT-IND-PRS-PL3_vAq ;
-! PSS-IND-SG1_dX/SG3_tX ;
+ Harm-Neutr_IND-PRT-SCSG1_iE ;
+ ACT-IND-PRT-12_i ;
+ ACT-IND-CONNEG ;
+ ACT-IND-PRT-SG3_i ;
+ ACT-IND-PRT-SG3_iE ;
 
-! Harm-Neutr_IND-PRT-SCSG1_iE ;
-! ACT-IND-PRT-12_i ;
-! ACT-IND-CONNEG ;
-! ACT-IND-PRT-SG3_i ;
-! ACT-IND-PRT-SG3_iE ;
-
-! Harm-Neutr_INF_mA ;
-! Harm-Neutr_INF_iAq ;
-! Harm-Neutr_ACT-PRSPRC_v ;
-! Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
-! PSS-PRSPRC_tAv ;
-!:%^WGStem PSS-PRFPRC_t/SG-GEN_dU ;
+ Harm-Neutr_INF_mA ;
+ Harm-Neutr_INF_iAq ;
+ Harm-Neutr_ACT-PRSPRC_v ;
+ Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
+ PSS-PRSPRC_tAv ;
+:%^WGStem PSS-PRFPRC_t/SG-GEN_dU ;
 
 
 LEXICON V_78MINEMAE !!≈ * **@CODE@** minemä:min
@@ -2295,6 +2308,7 @@ LEXICON V_79OLWMA/XX !!≈ * **@CODE@** olõma:o
 :l%{eõ%} ACT-IND-PRS-12 ;
 +Act+Ind+Prs+Sg3:m K ;
 +Act+Ind+Prs+Pl3:mm%{aä%}q K ;
++Act+Ind+Prs+Pl3+Use/NG+Err/Orth-no-q:mm%{aä%} K ;
 :mm%{aä%} ACT-IND-PRS-PL3_vAq ;
 :l PSS-IND-PRS-ALL_dA ;
 
