@@ -13,7 +13,7 @@ test+V:test V_48ELAEMAE "" ;
 
 kasuma+V:ka%{sØ%}s V_48KASUMA "_#suq, #u, %{ˋØ%}kasvi__kas|uma_" ;
 kuioma+V:kuio V_48KUIOMA "_#daq, #__kuio|ma_" ; !kuioq, kuio, kuivi
-
+asuma+V:a%{sØ%}su V_48PALAMA ;
 elämä+V:e%{lØ%}lä V_48ELAEMAE "_#läq, #ä__el|ämä_" ;
 imemä+V:i%{mØ%}me V_48ELAEMAE "_#meq, #e__im|emä_" ;
 küdsämä+Hom1+V:kü%{td%}sä V_48ELAEMAE "_#tsäq, #dsä, #dsäs__kü|dsämä_" ;
@@ -574,6 +574,8 @@ kaema+V:ka V_53KAEMA "_kaiaq, kae__ˋkaema_" ;
 !55 
 !(VES 85) kõnõlõma
 !4_sh-syl_sh-syl_sh-syl_sh-syl
+!stem= 3 syll
+!2nd syll short
 aelõma+V:ae%{lĺ%} V_55KWNWLWMA "_#daq, #õ__ˋael|õma_" ;
 habalõma+V:haba%{lĺ%} V_55KWNWLWMA "_#daq, #õ__habal|õma_" ;
 habõlõma+V:habõ%{lĺ%} V_55KWNWLWMA "_#daq, #õ__habõl|õma_" ;
@@ -599,6 +601,7 @@ räbelemä+V:räbe%{lĺ%} V_55HAERELEMAE "_#däq, #e__räbel|emä_" ;
 rägelemä+V:räge%{lĺ%} V_55HAERELEMAE "_#däq, #e__rägel|emä_" ;
 rüselemä+V:rüse%{lĺ%} V_55HAERELEMAE "_#däq, #le__rüsel|emä_" ;
 salalõma+V:sala%{lĺ%} V_55KWNWLWMA "_#daq, #õ__salal|õma_" ;
+tegelemä+V:tege%{lĺ%} V_55HAERELEMAE ;
 tõrõlõma+V:tõrõ%{lĺ%} V_55KWNWLWMA "_#daq, #õ__tõrõl|õma_" ;
 udsalõma+V:udsa%{lĺ%} V_55KWNWLWMA "_#daq, #õ__udsal|õma_" ;
 vahelõma+V:vahe%{lĺ%} V_55KWNWLWMA "_vaheldaq, vahelõ__vahelõma_" ;
@@ -855,6 +858,8 @@ tsuklõma+V:tsuk%{õØ%}%{lĺ%} V_57TAPLWMA "_tsukõldaq, %{ˋØ%}tsuklõ__ˋtsu
 
 !58 
 !(VES 83) hirnahtama tähendämä
+! stem=3 syllables
+! 2nd syll long
 ohostama+V:ohos%{tt́%}a V_58HIRNAHTAMA ;
 turtsahtama+V:turtsah%{tt́%}a V_58HIRNAHTAMA ;
 jõlahtama+V:jõlah%{tt́%}a V_58HIRNAHTAMA ;
@@ -885,6 +890,7 @@ alandama+V:alan%{dd́%}a V_58HIRNAHTAMA "_#q, #__alanda|ma_" ;
 alostama+V:alos%{tt́%}a V_58HIRNAHTAMA "_#q, #__alosta|ma_" ;
 angõrdama+V:angõr%{dd́%}a V_58HIRNAHTAMA "_#q, #__angõrda|ma_" ;
 armastama+V:armas%{tt́%}a V_58HIRNAHTAMA "_, # __armasta|ma_" ;
+moodustama+V:moodus%{tt́%}a V_58HIRNAHTAMA ;
 arõndama+V:arõn%{dd́%}a V_58HIRNAHTAMA "_#q, #__arõnda|ma_" ;
 askõldama+V:askõl%{dd́%}a V_58HIRNAHTAMA "_#q, #__askõlda|ma_" ;
 asõldama+V:asõl%{dd́%}a V_58HIRNAHTAMA "_#q, #__asõlda|ma_" ;
@@ -1395,6 +1401,28 @@ sessendämä+V:sessen%{dd́%}ä V_58TAEHENDAEMAE "_#q, #__sessendä|mä_" ;
 sikistämä+V:sikis%{tt́%}ä V_58TAEHENDAEMAE "_#q, #__sikistä|mä_" ;
 silestämä+V:siles%{tt́%}ä V_58TAEHENDAEMAE "_#q, #__silestä|mä_" ;
 sinistämä+V:sinis%{tt́%}ä V_58TAEHENDAEMAE "_#q, #__sinistä|mä_" ;
+sisaldama+V:sisal%{dd́%}a V_58HIRNAHTAMA ;
+võimaldama+V:võimal%{dd́%}a V_58HIRNAHTAMA ;
+viiuldama+v1+V:viiul%{dd́%}a V_58HIRNAHTAMA ;
+viiuldama+v2+V:viiol%{dd́%}a V_58HIRNAHTAMA ;
+sammõldama+V:sammõl%{dd́%}a V_58HIRNAHTAMA ;
+roidõldama+V:roidõl%{dd́%}a V_58HIRNAHTAMA ;
+rahuldama+V:rahul%{dd́%}a V_58HIRNAHTAMA ;
+vahistama+V:vahis%{tt́%}a V_58HIRNAHTAMA ;
+põhjustama+V:põhjus%{tt́%}a V_58HIRNAHTAMA ;
+takistama+V:takis%{tt́%}a V_58HIRNAHTAMA ;
+relvastama+V:relvas%{tt́%}a V_58HIRNAHTAMA ;
+sisustama+V:sisus%{tt́%}a V_58HIRNAHTAMA ;
+varustama+V:varus%{tt́%}a V_58HIRNAHTAMA ;
+vaidlustama+V:vaidlus%{tt́%}a V_58HIRNAHTAMA ;
+salvõstama+V:salvõs%{tt́%}a V_58HIRNAHTAMA ;
+paljastama+V:paljas%{tt́%}a V_58HIRNAHTAMA ;
+nilvõstama+V:nilvõs%{tt́%}a V_58HIRNAHTAMA ;
+kohustama+V:kohus%{tt́%}a V_58HIRNAHTAMA ;
+kindlustama+V:kindlus%{tt́%}a V_58HIRNAHTAMA ;
+kahjustama+V:kahjus%{tt́%}a V_58HIRNAHTAMA ;
+kipuhtama+V:kipuh%{tt́%}a V_58HIRNAHTAMA ;
+
 sobistama+V:sobis%{tt́%}a V_58HIRNAHTAMA "_#q, #__sobista|ma_" ;
 sopsahtama+V:sopsah%{tt́%}a V_58HIRNAHTAMA "_#q, #__sopsahta|ma_" ;
 sopõrdama+V:sopõr%{dd́%}a V_58HIRNAHTAMA "_#q, #__sopõrda|ma_" ;
@@ -3987,7 +4015,7 @@ tuuma+V:t%{ou%}%{ou%} V_77JUUMA "_tuvvaq, tu̬u̬, %{ˋØ%}tõi(õ)__tu̬u̬ma_"
 saama+V:saa V_78SAAMA "_saiaq, saa__ˋsaama_" ;
 !aama+V:aama V_78 "_ajjaq aiaq, aa, aet__ˋaama_" ;
 minemä+V:min V_78MINEMAE "_minnäq, lää, lännüq, mint, lätt, lätsi, lätś__minemä_" ;
-!viimä+V:v%{ei%}%{ei%}mä V_78 "_viiäq, vi̬i̬, veenüq, %{ˋØ%}vei(e)__vi̬i̬mä_" ;
+viimä+V:v%{ei%}%{ei%} V_78VIIMAE "_viiäq, vi̬i̬, veenüq, %{ˋØ%}vei(e)__vi̬i̬mä_" ;
 võima+V:või V_78VWIMA "_ˋvõidaq, või, %{ˋØ%}võidsõ võisõ__ˋvõima_" ;
 
 !79 
