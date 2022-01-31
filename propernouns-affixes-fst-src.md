@@ -53,6 +53,7 @@ LEXICON PROP_VERE  Rakvere:Rakv
 
 
 
+
 harmony: front
 
 kipõń:kipõń
@@ -108,6 +109,9 @@ distinguished from 14RITS1KAS due to word final h
 kotus:kotus
 * Yaml: **N-kotus15**
 
+kotus:kotus
+* Yaml: **N-kotus15**
+
 
 Gradation: No
 
@@ -146,6 +150,7 @@ gradation: yes
 
 
 
+* LEXICON PROP_29KUU  kuu:kuu
 Gradation: No
 
 * LEXICON PROP_29HAEAE  kuu:kuu

@@ -146,6 +146,8 @@ LEXICON A_22VAEHAEKENE  võrokõnõ:võrokõ
 
 
 
+
+
 gradation: no
 
 gradation: yes

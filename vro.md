@@ -2840,6 +2840,8 @@ tütär+N+Sg+Gen
 
 * *hirnu{back}^Pen^CC2C^VowRM>m{aä}*
 * *hirn00000>ma*
+* *kut{sś}u{back}^Pen^VOWRaise^Pen^PAL^VowRM*
+* *kutś0000000*
 * *tervüs{front}^VowRM^CnsRM>i>t*
 * *terv00000>i>t*
 juusk+N+Sg+Nom: ____
@@ -3001,6 +3003,8 @@ täht́+N+Err/Orth-no-pal+Sg+Nom: __star/tähti__
 võtma+V+Act+Ind+Prt+Pl3
 * *võ{tØ}{tt́Ø}a{back}^Pen^G3^Pen^NoPAL^VowRM>iq*
 * *võ0t0000000>iq*
+* *hoi{tt́Ø}{back}^VOWRaise^StrGStem^NoPAL>aq*
+* *hoit00000>aq*
 
 **%{kḱØ%}:ḱ**
 
@@ -3091,7 +3095,8 @@ vaśma+V+Inf/mA: **answer/vastata**
 * *va0ś0000>ma*
 * *ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem*
 * *hamba0000000*
-
+* *rahva{sØ}{back}^VowRM^WGStem>id{eõ}*
+* *rahv00000>idõ*
 
 **%{vØ%}:0**  
 kruv́ma+V+Inf/mA
@@ -3703,6 +3708,7 @@ The Usage extents are marked using following tags:
 * **+Err/Orth-back** erroneous back harmony, see flags
 * **+Err/Orth-front** erroneous front harmony, see flags
 * **+Use/-Spell**
+* **+Use/SpellNoSugg** not suggested in speller
 * **+Use/NG** No generation
 * **+Cmp/Hyph** 
 * **+Use/PMatch**
@@ -4328,6 +4334,7 @@ LEXICON PROP_VERE  Rakvere:Rakv
 
 
 
+
 harmony: front
 
 kipõń:kipõń
@@ -4383,6 +4390,9 @@ distinguished from 14RITS1KAS due to word final h
 kotus:kotus
 * Yaml: **N-kotus15**
 
+kotus:kotus
+* Yaml: **N-kotus15**
+
 
 Gradation: No
 
@@ -4421,6 +4431,7 @@ gradation: yes
 
 
 
+* LEXICON PROP_29KUU  kuu:kuu
 Gradation: No
 
 * LEXICON PROP_29HAEAE  kuu:kuu
@@ -5409,10 +5420,10 @@ Strengthen consonant and add ʼ
 Act+Ind+Prt+Sg3
 
 
-* **LEXICON V_81TEGEMAE** tegemä:teg
+* **LEXICON V_81TEGEMAE** tegemä:t
 * Yaml: **tegemä**
 Work
-* **LEXICON V_81XX/TEGEMAE** tegemä:te%{kØ%}%{ḱgØ%}
+* **LEXICON V_81XX/TEGEMAE** tegemä:t
 
 *tegemä examples:*
 * *tegemä:* `tegemä+V+Inf/mA` (Eng. # (1))
@@ -5437,6 +5448,44 @@ Work
 * *tetäs:* `tegemä+V+Pss+Ind+Prs+Sg3` (Eng. # (?4)!!)
 * *tettäv:* `tegemä+V+Pss+PrsPrc+Sg+Nom` (Eng. # (4))
 * *tekuq:* `tegemä+V+Jus` (Eng. # (9))
+
+
+
+
+
+
+
+
+
+
+* **LEXICON V_81NAEGEMAE** nägemä:täg
+* Yaml: **nägemä**
+Work
+* **LEXICON V_81XX/NAEGEMAE** nägemä:te%{kØ%}%{ḱgØ%}
+
+*nägemä examples:*
+* *nägemä:* `nägemä+V+Inf/mA` (Eng. # (1))
+* *nätäq:* `nägemä+V+Inf` (Eng. # (2))
+* *nännüq:* `nägemä+V+Act+PrfPrc` (Eng. # (3))
+* *nätt:* `nägemä+V+Pss+PrfPrc` (Eng. # (4))
+* *näi:* `nägemä+V+Act+Ind+Prs+Sg1` (Eng. # (5))
+* *näit:* `nägemä+V+Act+Ind+Prs+Sg2` (Eng. # (5))
+* *näge:* `nägemä+V+Act+Ind+Prs+Sg3` (Eng. # (6))
+* *näemiq:* `nägemä+V+Act+Ind+Prs+Pl1` (Eng. # (?5)!!)
+* *näitiq:* `nägemä+V+Act+Ind+Prs+Pl2` (Eng. # (5))
+* *nägeväq:* `nägemä+V+Act+Ind+Prs+Pl3` (Eng. # (?6)!!)
+* *näiq:* `nägemä+V+Act+Ind+ConNegI` (Eng. # ()!!)
+* *näi:* `nägemä+V+Act+Ind+ConNegII` (Eng. # ()!!)
+* *näi:* `nägemä+V+Act+Ind+Prt+Sg1` (Eng. # (7))
+* *näit:* `nägemä+V+Act+Ind+Prt+Sg2` (Eng. # (7))
+* *näkḱ:* `nägemä+V+Act+Ind+Prt+Sg3` (Eng. # (8))
+* *näimiq:* `nägemä+V+Act+Ind+Prt+Pl1` (Eng. # (7))
+* *näitiq:* `nägemä+V+Act+Ind+Prt+Pl2` (Eng. # (7))
+* *näiq:* `nägemä+V+Act+Ind+Prt+Pl3` (Eng. # (7))
+* *nätä:* `nägemä+V+Pss+Ind+Prs+Sg1` (Eng. # (?4)!!)
+* *nätäs:* `nägemä+V+Pss+Ind+Prs+Sg3` (Eng. # (?4)!!)
+* *nättäv:* `nägemä+V+Pss+PrsPrc+Sg+Nom` (Eng. # (4))
+* *näkuq:* `nägemä+V+Jus` (Eng. # (9))
 
 
 
@@ -5497,6 +5546,7 @@ gradation: yes
 IS THIS RIGHT? 2015-09-02
 
 sõida
+
 
 
 
@@ -5919,6 +5969,7 @@ CHECK THIS
 
 
 
+
 ### PASSIVE INDICATIVE PRETERIT CONJUGATION
 
 
@@ -5937,6 +5988,9 @@ CHECK THIS
 
 
 
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>tt%{uü%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
 
 
@@ -6006,22 +6060,17 @@ PASSIVE DISTRIBUTION
 
 * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
 * +Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
 
 
 * +Use/NG+Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
+
 
 
 
@@ -6040,7 +6089,6 @@ Retain consonant and stem vowel
 
 
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
 
 
@@ -6162,6 +6210,8 @@ LEXICON A_19PEDAEJAENE-PL  pedäjäne:pedäjä
 LEXICON A_22VWROKWNW  võrokõnõ:võrokõ
 
 LEXICON A_22VAEHAEKENE  võrokõnõ:võrokõ
+
+
 
 
 
@@ -6813,6 +6863,8 @@ LEXICON N_36HANG1  hanǵ:hang
 
 LEXICON N_36SAERG1  särǵ:sär%{gǵØ%}
 
+LEXICON N_36LAHT1  laht́:lah%{tt́Ø%}
+
 LEXICON N_36PAEIV  päiv:päiv
 
 * LEXICON N_36SILM  silm:silm
@@ -6936,6 +6988,8 @@ LEXICON N_46TARK  tark:tark
 
 
 LEXICON N_47ASI  asi:asi
+
+LEXICON N_47VELI  asi:asi
 
 LEXICON N_47KIRI  kiri:kiri
 
@@ -8345,6 +8399,10 @@ LEXICON NMN_22VWROKWNW/VAEHAEKENE  vähäkene:vähäke
 
 
 
+
+
+
+
 * **LEXICON NMN_27HAPU ** hapu:hapu
 Yaml: **N-hapu27**
 
@@ -8356,6 +8414,11 @@ Yaml: **N-hapu27**
 
 * **LEXICON NMN_28TUETAER1 ** tütäŕ:tütär
 * Yaml: **N-tuetaerj28, N-kannwl28**
+
+
+
+* **LEXICON NMN_28AHER/XX ** aher:ah%{tØ%}er
+* Yaml: **N-tuetaerj28**
 
 
 
@@ -8486,6 +8549,7 @@ nimi:nim
 * *nimmigaq:* `nimi+N+Pl+Com`
 
 
+* +Err/Orth-no-pal:%^NoPAL        Harm-Neutr_SG-NOM  ;  no palatal
 
 
 
@@ -8908,6 +8972,7 @@ gradation: yes
 * LEXICON NMN_47ASI  asi:a%{sś%}%{jiØ%}
 
 
+
 * :%^NoPAL%^VowRM%>ö       PL-ALL_lE-STEM ;  IS THIS A REAL FORM?
 
 
@@ -9206,6 +9271,8 @@ ADD NOUNS BELOW
 
 
 
+
+
 N_HAIDAK, N_10ESAEK in -gu
 N_10AABITS in -dsa, -ga
 N_10HWRAK in -ga ~ -gu
@@ -9254,6 +9321,10 @@ two-syllable
 
 
 Three-syllable words
+
+
+
+
 
 
 
@@ -9646,6 +9717,8 @@ petmä+V:pettä
 ### PLURAL NOUNS
 
 ### NUMERALS
+
+
 
 ### POSTPOSITIONA
 

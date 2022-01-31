@@ -318,6 +318,8 @@ LEXICON N_36HANG1  hanǵ:hang
 
 LEXICON N_36SAERG1  särǵ:sär%{gǵØ%}
 
+LEXICON N_36LAHT1  laht́:lah%{tt́Ø%}
+
 LEXICON N_36PAEIV  päiv:päiv
 
 * LEXICON N_36SILM  silm:silm
@@ -441,6 +443,8 @@ LEXICON N_46TARK  tark:tark
 
 
 LEXICON N_47ASI  asi:asi
+
+LEXICON N_47VELI  asi:asi
 
 LEXICON N_47KIRI  kiri:kiri
 
@@ -1850,6 +1854,10 @@ LEXICON NMN_22VWROKWNW/VAEHAEKENE  vähäkene:vähäke
 
 
 
+
+
+
+
 * **LEXICON NMN_27HAPU ** hapu:hapu
 Yaml: **N-hapu27**
 
@@ -1861,6 +1869,11 @@ Yaml: **N-hapu27**
 
 * **LEXICON NMN_28TUETAER1 ** tütäŕ:tütär
 * Yaml: **N-tuetaerj28, N-kannwl28**
+
+
+
+* **LEXICON NMN_28AHER/XX ** aher:ah%{tØ%}er
+* Yaml: **N-tuetaerj28**
 
 
 
@@ -1991,6 +2004,7 @@ nimi:nim
 * *nimmigaq:* `nimi+N+Pl+Com`
 
 
+* +Err/Orth-no-pal:%^NoPAL        Harm-Neutr_SG-NOM  ;  no palatal
 
 
 
@@ -2411,6 +2425,7 @@ gradation: yes
 
 
 * LEXICON NMN_47ASI  asi:a%{sś%}%{jiØ%}
+
 
 
 * :%^NoPAL%^VowRM%>ö       PL-ALL_lE-STEM ;  IS THIS A REAL FORM?

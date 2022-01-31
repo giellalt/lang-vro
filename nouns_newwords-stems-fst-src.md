@@ -38,6 +38,8 @@ ADD NOUNS BELOW
 
 
 
+
+
 N_HAIDAK, N_10ESAEK in -gu
 N_10AABITS in -dsa, -ga
 N_10HWRAK in -ga ~ -gu
@@ -86,6 +88,10 @@ two-syllable
 
 
 Three-syllable words
+
+
+
+
 
 
 

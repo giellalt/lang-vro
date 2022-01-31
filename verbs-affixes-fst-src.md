@@ -898,10 +898,10 @@ Strengthen consonant and add ʼ
 Act+Ind+Prt+Sg3
 
 
-* **LEXICON V_81TEGEMAE** tegemä:teg
+* **LEXICON V_81TEGEMAE** tegemä:t
 * Yaml: **tegemä**
 Work
-* **LEXICON V_81XX/TEGEMAE** tegemä:te%{kØ%}%{ḱgØ%}
+* **LEXICON V_81XX/TEGEMAE** tegemä:t
 
 *tegemä examples:*
 * *tegemä:* `tegemä+V+Inf/mA` (Eng. # (1))
@@ -926,6 +926,44 @@ Work
 * *tetäs:* `tegemä+V+Pss+Ind+Prs+Sg3` (Eng. # (?4)!!)
 * *tettäv:* `tegemä+V+Pss+PrsPrc+Sg+Nom` (Eng. # (4))
 * *tekuq:* `tegemä+V+Jus` (Eng. # (9))
+
+
+
+
+
+
+
+
+
+
+* **LEXICON V_81NAEGEMAE** nägemä:täg
+* Yaml: **nägemä**
+Work
+* **LEXICON V_81XX/NAEGEMAE** nägemä:te%{kØ%}%{ḱgØ%}
+
+*nägemä examples:*
+* *nägemä:* `nägemä+V+Inf/mA` (Eng. # (1))
+* *nätäq:* `nägemä+V+Inf` (Eng. # (2))
+* *nännüq:* `nägemä+V+Act+PrfPrc` (Eng. # (3))
+* *nätt:* `nägemä+V+Pss+PrfPrc` (Eng. # (4))
+* *näi:* `nägemä+V+Act+Ind+Prs+Sg1` (Eng. # (5))
+* *näit:* `nägemä+V+Act+Ind+Prs+Sg2` (Eng. # (5))
+* *näge:* `nägemä+V+Act+Ind+Prs+Sg3` (Eng. # (6))
+* *näemiq:* `nägemä+V+Act+Ind+Prs+Pl1` (Eng. # (?5)!!)
+* *näitiq:* `nägemä+V+Act+Ind+Prs+Pl2` (Eng. # (5))
+* *nägeväq:* `nägemä+V+Act+Ind+Prs+Pl3` (Eng. # (?6)!!)
+* *näiq:* `nägemä+V+Act+Ind+ConNegI` (Eng. # ()!!)
+* *näi:* `nägemä+V+Act+Ind+ConNegII` (Eng. # ()!!)
+* *näi:* `nägemä+V+Act+Ind+Prt+Sg1` (Eng. # (7))
+* *näit:* `nägemä+V+Act+Ind+Prt+Sg2` (Eng. # (7))
+* *näkḱ:* `nägemä+V+Act+Ind+Prt+Sg3` (Eng. # (8))
+* *näimiq:* `nägemä+V+Act+Ind+Prt+Pl1` (Eng. # (7))
+* *näitiq:* `nägemä+V+Act+Ind+Prt+Pl2` (Eng. # (7))
+* *näiq:* `nägemä+V+Act+Ind+Prt+Pl3` (Eng. # (7))
+* *nätä:* `nägemä+V+Pss+Ind+Prs+Sg1` (Eng. # (?4)!!)
+* *nätäs:* `nägemä+V+Pss+Ind+Prs+Sg3` (Eng. # (?4)!!)
+* *nättäv:* `nägemä+V+Pss+PrsPrc+Sg+Nom` (Eng. # (4))
+* *näkuq:* `nägemä+V+Jus` (Eng. # (9))
 
 
 
@@ -986,6 +1024,7 @@ gradation: yes
 IS THIS RIGHT? 2015-09-02
 
 sõida
+
 
 
 
@@ -1408,6 +1447,7 @@ CHECK THIS
 
 
 
+
 ### PASSIVE INDICATIVE PRETERIT CONJUGATION
 
 
@@ -1426,6 +1466,9 @@ CHECK THIS
 
 
 
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>tt%{uü%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
+* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
 
 
@@ -1495,22 +1538,17 @@ PASSIVE DISTRIBUTION
 
 * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
 * +Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
 
 
 * +Use/NG+Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
+
 
 
 
@@ -1529,7 +1567,6 @@ Retain consonant and stem vowel
 
 
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
 
 

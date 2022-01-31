@@ -537,6 +537,8 @@ tütär+N+Sg+Gen
 
 * *hirnu{back}^Pen^CC2C^VowRM>m{aä}*
 * *hirn00000>ma*
+* *kut{sś}u{back}^Pen^VOWRaise^Pen^PAL^VowRM*
+* *kutś0000000*
 * *tervüs{front}^VowRM^CnsRM>i>t*
 * *terv00000>i>t*
 juusk+N+Sg+Nom: ____
@@ -698,6 +700,8 @@ täht́+N+Err/Orth-no-pal+Sg+Nom: __star/tähti__
 võtma+V+Act+Ind+Prt+Pl3
 * *võ{tØ}{tt́Ø}a{back}^Pen^G3^Pen^NoPAL^VowRM>iq*
 * *võ0t0000000>iq*
+* *hoi{tt́Ø}{back}^VOWRaise^StrGStem^NoPAL>aq*
+* *hoit00000>aq*
 
 **%{kḱØ%}:ḱ**
 
@@ -788,7 +792,8 @@ vaśma+V+Inf/mA: **answer/vastata**
 * *va0ś0000>ma*
 * *ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem*
 * *hamba0000000*
-
+* *rahva{sØ}{back}^VowRM^WGStem>id{eõ}*
+* *rahv00000>idõ*
 
 **%{vØ%}:0**  
 kruv́ma+V+Inf/mA

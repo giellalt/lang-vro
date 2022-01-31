@@ -75,6 +75,7 @@ The Usage extents are marked using following tags:
 * **+Err/Orth-back** erroneous back harmony, see flags
 * **+Err/Orth-front** erroneous front harmony, see flags
 * **+Use/-Spell**
+* **+Use/SpellNoSugg** not suggested in speller
 * **+Use/NG** No generation
 * **+Cmp/Hyph** 
 * **+Use/PMatch**
