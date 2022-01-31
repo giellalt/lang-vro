@@ -1363,6 +1363,15 @@ LEXICON N_36PAEIV-SG
 LEXICON N_36PAEIV-PL
 :%{front%}     NMN_36PAEIV-PL ;
 
+LEXICON N_36LEIB !!= @CODE@ päiv:päiv
+: ATTESTED-NOUN-STEM-CONTINUED ;
+        N_36LEIB-SG ;
+        N_36LEIB-PL ;
+LEXICON N_36LEIB-SG
+:%{front%}     NMN_36LEIB-SG ;
+LEXICON N_36LEIB-PL
+:%{front%}     NMN_36LEIB-PL ;
+
 LEXICON N_36SILM !!= * @CODE@ silm:silm
 !! harmony: front
 : ATTESTED-NOUN-STEM-CONTINUED ;
@@ -5915,10 +5924,28 @@ LEXICON NMN_36KWIK1/XX1-PL
 LEXICON NMN_36PAEIV-SG 
 :%^StrGStem        Harm-Neutr_SG-NOM  ;
 :%^ÄI2ÄÄ%^WGStem%>%{aä%}       SG-GEN_ZERO-STEM        ;
+:%^ÄI2ÄÄ%^WGStem%>%{aä%}       SG-GEN_ZERO-STEM        ;
 :%^StrGStem%>%{aä%}       Harm-Neutr_SG-ILL_ZERO        ;
 :%^StrGStem%>%{aä%}       Harm-Neutr_SG-PAR_ZERO        ;
 
 LEXICON NMN_36PAEIV-PL 
+:%^ÄI2ÄÄ%^WGStem%>%{aä%}       Harm-Neutr_PL-NOM ;
+:%^StrGStem%>i    PL-GEN_ZERO ;
+:%^StrGStem%>i    Harm-Neutr_PL-PAR_ZERO ;
+:%^StrGStem%>i    PL-ILL_he ;
+:%^WGStem%>i  PL-ALL_lE-STEM ;
+:%^StrGStem%>i PL-COM ;
+
+!LEXICON NMN_36LEIB !!= * @CODE@ päiv:päiv
+!  NMN_36LEIB-SG ;
+!  NMN_36LEIB-PL ;
+LEXICON NMN_36LEIB-SG 
+:%^StrGStem        Harm-Neutr_SG-NOM  ;
+:%^ÄI2ÄÄ%^WGStem%>%{aä%}       SG-GEN_ZERO-STEM        ;
+:%^StrGStem%>%{aä%}       Harm-Neutr_SG-ILL_ZERO        ;
+:%^StrGStem%>%{aä%}       Harm-Neutr_SG-PAR_ZERO        ;
+
+LEXICON NMN_36LEIB-PL 
 :%^ÄI2ÄÄ%^WGStem%>%{aä%}       Harm-Neutr_PL-NOM ;
 :%^StrGStem%>i    PL-GEN_ZERO ;
 :%^StrGStem%>i    Harm-Neutr_PL-PAR_ZERO ;

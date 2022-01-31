@@ -328,6 +328,7 @@ LEXICON V_52EHITELEMAE !!≈ * **@CODE@** ehitelemä:ehitell
 LEXICON V_52ALOSTWLWMA/EHITELEMAE !!≈ * **@CODE@** alostõllõma:alostõ%{lØ%}l
 ! (1) I tegonimi: 
 :%^Pen%^VOWRaise%^WGStem%{eõ%} Harm-Neutr_INF_mA ;
++Use/NG+Err/Orth:%^Pen%^VOWRaise%^StrGStem%{eõ%} Harm-Neutr_INF_mA ;
 +Use/NG+Err/Orth:%^Pen%^VOWLower%^WGStem%{eõ%} Harm-Neutr_INF_mA ;
 :%^Pen%^VOWLower%^WGStem%{eõ%} ACT-IND-CONNEG ;
 :%^Pen%^VOWLower%^WGStem%>%{eõ%} Harm-Neutr_ACT-PRSPRC_v ;
@@ -2078,6 +2079,7 @@ LEXICON V_78SAAMA
 :%{back%} V_78SAAMA/XX ;
 LEXICON V_78SAAMA/XX
 ! (1) I tegonimi:
+ Harm-Neutr_INF_mA ;
 ! (2) II tegonimi:
 ! (3) tekev tm aktiiv:
 ! (4) Tettäv tm passiiv:
@@ -2110,7 +2112,6 @@ LEXICON V_78SAAMA/XX
 :%^VowRM%>i ACT-IND-PRT-PL3_q/vAq ;
 +Use/NG+Err/Orth:%^VowRM%>i%{eõ%} ACT-IND-PRT-PL3_q/vAq ;
 
- Harm-Neutr_INF_mA ;
  Harm-Neutr_INF_iAq ;
  ACT-PRSPRC_vA ;
  ACT-PRFPRC-ALL_nUq ;
@@ -4277,7 +4278,10 @@ LEXICON Harm-Neutr_PSS-PRFPRC_dU
 LEXICON Harm-Neutr_INF_mA
 +Inf/mA:%>m%{aä%} K ;
  V2N_minE ;
-+Act+Sup+Abe:%>m%{aä%}ldaq%{back%} K ;
++Act+Sup+Abe:%>m%{aä%}ld%{aä%}q K ;
++Act+Sup+Abe:%>m%{aä%}ldaq%{back%} K ;!CHECKME 2022-01-31
++Use/NG+Err/Orth-no-q+Act+Sup+Abe:%>m%{aä%}lda%{back%} K ;
++Use/NG+Err/Orth-no-q+Act+Sup+Abe:%>m%{aä%}ld%{aä%} K ;
 +Act+Sup+Ine:%>m%{aä%}n K ;
 +Use/NG+Act+Sup+Ine:%>m%{aä%}h K ;
 +Use/NG+Act+Sup+Ine:%>m%{aä%}hn K ;
