@@ -283,7 +283,8 @@ LEXICON PRON_PALL1O
 :%{back%} Harm-Neutr_SG-PAR_d ;
 
 :%{back%} Harm-Neutr_PL-NOM ;
-!:%{back%} PL-ALL_lE-STEM ;
+:%{back%} Harm-Neutr_PL-GEN_dE ;
+:%{back%}d%{eõ%} PL-ALL_lE-STEM ;
 
 LEXICON PRON_21MONI
 :i Harm-Neutr_SG-NOM ;
@@ -365,6 +366,7 @@ LEXICON PRON-INTERR_miae
 +Interr+SP:ink GEN_ZERO ;
 +Interr+SP:i%{front%} NEUTR_PARSUF_dA ;
 +Interr+SP:in NEUTR_COMSUF_kaq ;
++Interr+SP+Use/SpellNoSugg:in NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_gaq ;
 +Interr+SP:inka%{back%} NEUTR_TERSUF ;
 +Interr+SP:ee%{front%} NEUTR_TERSUF ;
 +Interr+SP:inka%{back%} PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;

@@ -110,11 +110,13 @@ kiri+N+Sg+Ill+Err/Orth-back:kirja K ;
 !! ### NUMERALS
 neli+v1+Num+Sg+Nom:neli K ;
 neli+v2+Num+Sg+Nom:nelli K ;
-neli+v1+Num+Sg+Gen:nelä K ;
-neli+v2+Num+Sg+Gen:nellä K ;
-neli+Num+Sg+Ela:neläst K ;
-neli+Num+Sg+Tra:neläs K ;
-neli+Num+Sg+Ill:neljä K ;
+neli+v1+Num+Sg+Gen:nelä%{front%} SG-GEN_ZERO-STEM ;
+neli+v2+Num+Sg+Gen:nellä%{front%} SG-GEN_ZERO-STEM ;
+
+viiś+Num+Sg+Nom:viiś K ;
+viiś+Num:viie%{front%} SG-GEN_ZERO-STEM ;
+viiś+Num+Sg+Par:viit K ;
+
 
 !! ### POSTPOSITIONA
 pääleq+Po:pääle PO-IS-ALL_IN_q ;

@@ -280,11 +280,17 @@ LEXICON A_23SUUR1
 !LEXICON A_27EHEQ
 !:%{front%}  NMN_27ASTÕQ/EHEQ ;
 
+LEXICON A_27PEHMEQ !pehmeq:pehm
+:%{front%}  NMN_27XX/PEHMEQ ;
+
 LEXICON A_27HAPU
 :%{back%}  NMN_27HAPU ;
 
 LEXICON A_28TUETAER1
 :%{front%}  NMN_28TUETAER1 ;
+
+LEXICON A_28AHER ! aher:ah%{tØ%}er
+:%{back%}  NMN_28AHER/XX ;
 
 LEXICON A_29KUU
 :%{back%}  NMN_29KUU/HAEAE ;
@@ -356,11 +362,11 @@ LEXICON A_40TALO
 
 LEXICON A_43KANARIK
 :%{back%}  NMN_43KANARIK/ELAENIK ;
-:%>u%{back%} COMP ;
+:%>u%{back%}%^G2 COMP ;
 
 LEXICON A_43ELAENIK
 @U.VowHarm.F@:@U.VowHarm.F@%{back%}  NMN_43KANARIK/ELAENIK ;!contextually front but inately back
-:%>u%{back%} COMP ;
+:%>u%{back%}%^G2 COMP ;
 
 LEXICON A_44SWDA
 :%{back%}  NMN_44SWDA ;
@@ -408,8 +414,9 @@ LEXICON Harm-Neutr_COMP
 
 LEXICON Harm-Neutr_COMP-01
 :%{aä%} SG-GEN_ZERO-STEM ;
-+Sg+Ill:%{aä%}l%{eõ%} K ;
++Sg+All:%{aä%}l%{eõ%} K ;
 +Sg+Ill:%{aä%}he K ;
++Sg+Par:%{aä%}t K ;
 +Sg+Nom: K ;
 
 :i PL-ALL_lE-STEM ;
@@ -432,6 +439,7 @@ LEXICON NMN_COMP
 :%{aä%} SG-GEN_ZERO-STEM ;
 +Sg+All:%{aä%}l%{eõ%} K ;
 +Sg+Ill:%{aä%}he K ;
++Sg+Par:%{aä%}t K ;
 +Sg+Nom: K ;
 
 +Pl+Nom:%{aä%}q K ;
