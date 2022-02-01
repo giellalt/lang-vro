@@ -1731,6 +1731,18 @@ LEXICON N_41ASK-SG
 LEXICON N_41ASK-PL
 :%{back%}     NMN_41ASK/VIIT-PL ;
 
+LEXICON N_41MAENG !!= @CODE@ aig:aig
+!! * Yaml: **aig, aig**
+!! ask:as%{kØ%}o
+!! juusk:j%{ou%}%{ou%}s%{kØ%}u
+:%^VOWRaise%^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
+        N_41MAENG-SG ;
+ N_41MAENG-PL ;
+LEXICON N_41MAENG-SG
+@U.VowHarm.F@:@U.VowHarm.F@%{back%}     NMN_41ASK/VIIT-SG ;
+LEXICON N_41MAENG-PL
+@U.VowHarm.F@:@U.VowHarm.F@%{back%}     NMN_41ASK/VIIT-PL ;
+
 LEXICON N_41VIIT !!= @CODE@ aig:aig
 !! * Yaml: **aig, aig**
 :%^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
@@ -6589,6 +6601,9 @@ LEXICON NMN_41ASK/VIIT-SG !CHECK VOW HEIGHT 2019-08-30
 
 LEXICON NMN_41ASK/VIIT-PL 
 :%^Pen%^VOWLower%^Pen%^WGStem       Harm-Neutr_PL-NOM ;
+ NMN_41ASK/VIIT-PL-OBL ;
+@R.VowHarm.F@+Err/Orth-front:@R.VowHarm.F@%{front%}  NMN_41ASK/VIIT-PL-OBL ;
+LEXICON NMN_41ASK/VIIT-PL-OBL
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>%{eõ%}    PL-GEN_ZERO ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>%{eõ%}    Harm-Neutr_PL-PAR_ZERO ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>%{eõ%}    PL-ILL_he ;
