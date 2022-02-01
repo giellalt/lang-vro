@@ -2971,6 +2971,8 @@ vari+N+Sg+Gen: **shadow/varjo**
 joudma+V+Act+Ind+Prt+Sg1
 * *jõ%{uv%}%{dd́v%}%{back%}%^WGStem%>i*
 * *jõvv00%>i*
+* *la{uv}{dv}{back}^WGStem>{aä}*
+* *lavv00>a*
 
 **%{üv%}:v**
 * *pü%{üv%}%{dd́v%}%{front%}%^WGStem%>et*
@@ -6867,6 +6869,8 @@ LEXICON N_36LAHT1  laht́:lah%{tt́Ø%}
 
 LEXICON N_36PAEIV  päiv:päiv
 
+LEXICON N_36LEIB  päiv:päiv
+
 * LEXICON N_36SILM  silm:silm
 harmony: front
 
@@ -6947,6 +6951,11 @@ LEXICON N_41AIG  aig:a
 * Yaml: **aig, aig**
 
 LEXICON N_41ASK  aig:aig
+* Yaml: **aig, aig**
+ask:as%{kØ%}o
+juusk:j%{ou%}%{ou%}s%{kØ%}u
+
+LEXICON N_41MAENG  aig:aig
 * Yaml: **aig, aig**
 ask:as%{kØ%}o
 juusk:j%{ou%}%{ou%}s%{kØ%}u
@@ -8599,6 +8608,8 @@ nimi:nim
 
 
 
+
+
 **LEXICON NMN_46SWBWR **
 sõbõr:sõbõr
 Oblique plural in o
@@ -9273,6 +9284,7 @@ ADD NOUNS BELOW
 
 
 
+
 N_HAIDAK, N_10ESAEK in -gu
 N_10AABITS in -dsa, -ga
 N_10HWRAK in -ga ~ -gu
@@ -9321,6 +9333,8 @@ two-syllable
 
 
 Three-syllable words
+
+
 
 
 
@@ -9717,6 +9731,9 @@ petmä+V:pettä
 ### PLURAL NOUNS
 
 ### NUMERALS
+
+
+
 
 
 

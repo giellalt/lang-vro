@@ -668,6 +668,8 @@ vari+N+Sg+Gen: **shadow/varjo**
 joudma+V+Act+Ind+Prt+Sg1
 * *jõ%{uv%}%{dd́v%}%{back%}%^WGStem%>i*
 * *jõvv00%>i*
+* *la{uv}{dv}{back}^WGStem>{aä}*
+* *lavv00>a*
 
 **%{üv%}:v**
 * *pü%{üv%}%{dd́v%}%{front%}%^WGStem%>et*

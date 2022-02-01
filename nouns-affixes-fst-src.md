@@ -322,6 +322,8 @@ LEXICON N_36LAHT1  laht́:lah%{tt́Ø%}
 
 LEXICON N_36PAEIV  päiv:päiv
 
+LEXICON N_36LEIB  päiv:päiv
+
 * LEXICON N_36SILM  silm:silm
 harmony: front
 
@@ -402,6 +404,11 @@ LEXICON N_41AIG  aig:a
 * Yaml: **aig, aig**
 
 LEXICON N_41ASK  aig:aig
+* Yaml: **aig, aig**
+ask:as%{kØ%}o
+juusk:j%{ou%}%{ou%}s%{kØ%}u
+
+LEXICON N_41MAENG  aig:aig
 * Yaml: **aig, aig**
 ask:as%{kØ%}o
 juusk:j%{ou%}%{ou%}s%{kØ%}u
@@ -2041,6 +2048,8 @@ nimi:nim
 
 
 * LEXICON NMN_36KWIK1/XX1   kõiḱ:kõi%{kØ%}%{kḱg%}
+
+
 
 
 
