@@ -3,26 +3,17 @@
 
 ### ADJECTIVES
 
-
-
 ### CONJUNTIONS
-
 
 ### GENITIVE ATTRIBUTES
 
-
-
-
 ### NOUNS
+
+### PROPER NOUNS
 
 ### PLURAL NOUNS
 
 ### NUMERALS
-
-
-
-
-
 
 ### POSTPOSITIONA
 
@@ -50,11 +41,9 @@ pidämä **to keep/ pitää**
 
 tegemä **to do/ tehdä**
 
-
 tundma **to feel/tuntea**
 
 võtma **to take (pass)/ ottaa**
-
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/stems/exceptions.lexc)</small>

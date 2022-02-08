@@ -1,31 +1,11 @@
 Verb inflection
 Võro language verbs inflect for person and number.
 
-
-
-
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: **V-kasuma48**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: **V-kuioma48**
-
-
-
-
 
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: **V-palama48**
@@ -33,62 +13,20 @@ There are other verbs here, cf. V_ELAEMAE
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: ____
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 There are other verbs here, cf. V_ELAEMAE
 * Yaml: __V-sadama48__
 
-
-
 Pss_PrfPrc: sadat
-
-
 
 * **LEXICON V_49LWPMA** lõpma:lõpp
 * **LEXICON V_49LWPMA/XX** lõpma:lõ%{pØ%}p
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V_50TONISWMA** tonisõma:tonis
 * Yaml: **toniswma50**
 * **LEXICON V_50TONISWMA/HELISEMAE** tonisõma:tonis
 
-
-
-
 * **LEXICON V_50HELISEMAE** helisemä:helis
 * Yaml: **helisemae50**
-
 
 * **LEXICON V_51NWSWMA** nõsõma:nõs
 * Yaml: **nwswma51**
@@ -99,14 +37,6 @@ cf. tulõma
 
 * **LEXICON V_51NWSWMA/PAESEMAE** nõsõma:nõs
 
-
-
-
-
-
-
-
-
 * **LEXICON V_52ALOSTWLWMA** alostõlõma:alostõll
 * Yaml: **alostwllwma52**
 * **LEXICON V_52EHITELEMAE** ehitelemä:ehitell
@@ -114,18 +44,6 @@ ehitelemä:ehitell
 * Yaml: **ehitellemae52**
 
 * **LEXICON V_52ALOSTWLWMA/EHITELEMAE** alostõllõma:alostõ%{lØ%}l
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V_53KAEMA** kaema:ka
 * **LEXICON V_53JAEAEMAE** 
@@ -143,11 +61,7 @@ ehitelemä:ehitell
 
 * **LEXICON V_53KAEMA/XX** kaema:ka
 
-
 * :%>e Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
-
-
-
 
 * :%>e ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
 
@@ -157,22 +71,10 @@ ehitelemä:ehitell
 
 * :%>e ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
-
 * **LEXICON V_55KWNWLWMA** kõnõlõma:kõ̭nõl
 * Yaml: **kwnwlwma55**
 * **LEXICON V_55HAERELEMAE** härelemä:härel
 * Yaml: **haerelemae55**
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V_56HIIBWLWMA** hiibõlõma:hiibõl
 * Yaml: **hiibwlwma56**
@@ -181,32 +83,10 @@ ehitelemä:ehitell
 
 * **LEXICON V_56HIIBWLWMA/HEIKELEMAE** hiibõlõma:hiibõl
 
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON V_56KAIBLWMA** kaiblõma+V:kai%{bv%}%{õØ%}l
 * Yaml: **hiibwlwma56**
 
 * **LEXICON V_56KAIBLWMA/XX** kaiblõma+V:kai%{bv%}%{õØ%}l
-
-
-
-
-
-
-
-
-
-
-
 
 taplõma:tapõl
 * Yaml: **taplwma57**
@@ -235,16 +115,6 @@ taplõma:tapõl
 * *taplõv:* `taplõma+V+Act+PrsPrc+Sg+Nom` (Eng. # (1))
 * *tapõlguq:* `taplõma+V+Jus` (Eng. # (2,3,4, ?9))
 
-
-
-
-
-
-
-
-
-
-
 võitlõma:võitõl
 * Yaml: **taplwma57**
 kiirdlemä:keerdel
@@ -253,34 +123,11 @@ kiirdlemä:keerdel
 * *väär{dØ}{eØ}{lĺ}{front}^Pen^VOWRaise^Pen^StrGStem^Pen^VowRM^NoPAL>{eõ}>m{aä}*
 * *väärd0l00000000>e>mä*
 
-
-
-
-
-
-
-
-
-
-
-
 kullõma+V:ku%{lØ%}l%{õØ%}%{lĺ%}
 * Yaml: **kiirdlemae57**
 
 * *ku%{lØ%}l%{õØ%}%{lĺ%}{back}^Pen^VOWRaise^Pen^CC2C^Pen^VowRM^NoPAL>{eõ}>m{aä}*
 * *ku0l0l00000000>õ>ma*
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V_58HIRNAHTAMA** hirnahtama:hirnahta
 * Yaml: **V-hirnahtama58**
@@ -291,23 +138,11 @@ front
 
 * **LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE** hirnahtama:hirnahta, tähendämä:tähend
 
-
-
-
-
-
-
-
 * **LEXICON V_59KAOTAMA** kaotama:kaota
 Based on 59KAOTAMA
 * Yaml: **kerguetaemae**
 
 * **LEXICON V_59KAOTAMA/KERGUETAEMAE** kaotama:kao, kergütämä:kergü
-
-
-
-
-
 
 +Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
 +Pss+PrsPrc, +Pss+PrfPrc
@@ -315,10 +150,7 @@ Based on 59KAOTAMA
 +Act+Ind+Prs+Sg1, +Act+Ind+ConNegII, +Act+Imprt+Sg2
 +Act+Ind+Prs+Neg, +Act+Ind+Prt+Neg, +Act+Ind+ConNegI
 
-
-
 +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
-
 
 * :%^VOWRaise%^WGStem%^NoPAL%>i   ACT-IND-PRT-SG1_ZERO/SG2_q/PL3_q ;  kaodi
 +Act+Ind+Prt+Sg1, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
@@ -326,15 +158,11 @@ Based on 59KAOTAMA
 +Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
-
 * :%^VOWRaise%^StrGStem%^NoPAL%>i Harm-Neutr_ACT-IND-PRT-SG2_USUALLY-STRONG ;  kaoti
 +Act+Ind+Prt+Sg2, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
 +Act+Ind+Prt+Pl2, +Use/NG+Err/Orth+Act+Ind+Prt+Pl3
 
-
 +Act+Ind+Prt+Sg3
-
-
 
 *kaotama examples:*
 * *kaoda-aiq:* `kaotama+V+Act+Ind+Prs+Neg`
@@ -361,37 +189,14 @@ Based on 59KAOTAMA
 
 * **LEXICON V_60MANITSWMA/EHITSEMAE** manitsõma:mani
 
-
-
-
-
-
-
-
-
-
 argnõma:arg
 * Yaml: **argnwma62**
 tärknemä:tärk
 * Yaml: **taerknemae62**
 
-
-
-
-
 * **LEXICON V_63SWIMAMA** sõimama:sõima
 * Yaml: **V-swimama63**
 * **LEXICON V_63SWIMAMA/XX** sõimama:sõima
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V_63VISKAMA** viskama:vis%{kØ%}a
 gradation: yes
@@ -402,8 +207,6 @@ gradation: no
 
 * **LEXICON V_63VISKAMA/HINGAEMAE** viskama:viska
 
-
-
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>tid%{eõ%} K ;  no    q
@@ -411,27 +214,11 @@ gradation: no
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%^Pen%^VOWLower%^Pen%^WGStem%>titi K ;  no    q
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>tiv%{aä%} K ;  no    q
 
-
 +Pss+Ind+Prt +Sg1-+Pl3, ConNeg
-
-
-
-
-
-
-
 
 THIS FAR 2016-08-27
 * Yaml: **V-puhksama64**
 * Yaml: **V-rehksaemae64**
-
-
-
-
-
-
-
-
 
 * **LEXICON V_67HARINWMA** harinõma:hari
 * Yaml: **harinwma66,harinwma67 =>harinwma**
@@ -440,23 +227,8 @@ THIS FAR 2016-08-27
 
 * **LEXICON V_67HARINWMA/NAEGUENEMAE** harinõma:hari
 
-
-
-
-
-
 * Yaml: **V-harkuma68**
 * Yaml: **V-naelguemae68**
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V_69HAARDUMA** haarduma:haar%{dØ%}u
 * **LEXICON V_69SUENDUEMAE** sündümä:sün%{dn%}ü
@@ -464,17 +236,11 @@ THIS FAR 2016-08-27
 
 Act_Ind_Prs_Pl3: essüseq
 
-
 * **LEXICON V_69SUURDUMA** suurduma:suurdu
 * **LEXICON V_69HUEUERDUEMAE** hüürdümä:h%{öü%}%{öü%}r%{dØ%}ü
 * **LEXICON V_69SUURDUMA/HUEUERDUEMAE** hüürdümä:h%{öü%}%{öü%}r%{dØ%}ü vowel raising Required 2016-09-15
 
-
-
-
-
 V_Inf/mA: miildümä 
-
 
 * **LEXICON V_70UNWHUMA** unõhuma:unõhtu
 * Yaml: **V-unwhuma**
@@ -483,27 +249,12 @@ V_Inf/mA: miildümä
 
 * **LEXICON V_70UNWHUMA/ÄNGÄHÜMÄ** unõhuma:unõhtu
 
-
-
-
-
-
-
-
-
-
 * **LEXICON V_70VIPWRDUMA** unõhtuma:unõhtu
 * Yaml: **V-unwhtuma**
 * **LEXICON V_70ERAELDUEMAE** eräldümä:eräldü
 * Yaml: **V-eraelduemae**
 
 * **LEXICON V_70VIPWRDUMA/ERAELDUEMAE** unõhtuma:unõhtu
-
-
-
-
-
-
 
 * **LEXICON V_71HALLWTUMA** hallõtuma:hallõtu
 * Yaml: **V-hallwtuma**
@@ -512,26 +263,12 @@ V_Inf/mA: miildümä
 
 * **LEXICON V_71HALLWTUMA/ERAETUEMAE** hallõtuma:hallõtu
 
-
-
-
 * **LEXICON V_72VAOMA** vaoma:%{ˋØ%}va%^I7o
 * Yaml: **vaoma**
 * **LEXICON V_72TAEUEMAE** täümä:täü
 * Yaml: **haeoemae**
 
 * **LEXICON V_72VAOMA/TAEUEMAE** vaoma:vao
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V_74KULUMA** kuluma:kullu
 * Yaml: **V-kuluma**
@@ -540,18 +277,6 @@ V_Inf/mA: miildümä
 
 * **LEXICON V_74KULUMA/VAESUEMAE** kuluma:kullu
 
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON V_75VALAMA** valama:vala
 * Yaml: **V-valama75**
 vala, valla, vali, valõ
@@ -559,13 +284,6 @@ vala, valla, vali, valõ
 * Yaml: **V-jaeraemae75**
 
 * **LEXICON V_75VALAMA/JAERAEMAE** valama:vala
-
-
-
-
-
-
-
 
 * **LEXICON V_76HIGOMA** higoma:hi%{kg0%}o
 * Yaml: **V-higoma76**
@@ -579,15 +297,10 @@ vala, valla, vali, valõ
 * :%^Pen%^G3 Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
 Inf, Act+PrsPrc+Sg+Nom
 
-
 Pss+PrfPrc, Pss+PrsPrc
 
-
-
-*  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
+* :%^Pen%^G2 ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
-
-
 
 Retain consonant and stem vowel
 
@@ -618,16 +331,12 @@ Act+Ind+Prt+Sg3
 * :%^Pen%^G3 Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
 Inf, Act+PrsPrc+Sg+Nom
 
-
 Pss+PrfPrc, Pss+PrsPrc
 
 * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRMe Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
 
-
 *  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
-
-
 
 Retain consonant and stem vowel
 
@@ -648,24 +357,13 @@ Act+Ind+Prt+Sg3
 
 +Jus
 
-
 * **LEXICON V_76LUGWMA** lugõma:lu%{kg0%}õ
 * Yaml: **V-higoma76**
-
 
 * **LEXICON V_76LUGWMA/XX** lugõma:lu%{kg0%}õ
 
 Retain consonant and stem vowel
 * :%^Pen%^G2 Harm-Neutr_INF_mA ;  (1) lugõma:lu%{kgØ%}õ
-
-
-
-
-
-
-
-
-
 
 Weaken consonant and semi-retension of stem vowel
 * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
@@ -688,15 +386,12 @@ Retain consonant remove stem vowel and add i
 * :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
 Act+Ind+Prt+Sg3
 
-
-
 * **LEXICON V_77JUUMA** juuma:joo
 * Yaml: **juuma**
 * **LEXICON V_77SUEUEMAE** süümä:süü
 * Yaml: **sueuemae**
 
 * **LEXICON V_77JUUMA/SUEUEMAE** juuma:joo
-
 
 * :%^OO2Õ%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  (4) jõi- poi- sei- möi-
 
@@ -706,13 +401,8 @@ Act+Ind+Prt+Sg3
 
 * :%^VOWRaise%^VowRM%>vv V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  (3) juvv
 
-
 * :%^VOWRaise ACT-IND-PRS-SG3_ZERO ;  (5) RAISED juu süü
 *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
-
-
-
-
 
 *  Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
@@ -743,41 +433,19 @@ Act+Ind+Prt+Sg3
 
 *  ACT-IND-PRS-PL3_vAq ;  (6) käüväq
 
-
-
 * **LEXICON V_78VWIMA** võima:või
 * Yaml: **V-vwima**
 * **LEXICON V_VWIMA/XX** võima:või
 
-
-
-
-
-
-
 * Yaml: **saama**
 
-
-
-
-
-
 * Yaml: __V-viimae__
-
-
-
-
-
 
 * **LEXICON V_78MINEMAE** minemä:min
 * Yaml: **V-minemae**
 * **LEXICON V_XX/MINEMAE** minemä:min
 
-
-
 Remainder is in exceptions.lexc
-
-
 
 * **LEXICON V_79TULWMA** tulõma:tul
 * Yaml: **tulwma**
@@ -789,22 +457,12 @@ Retain consonant and stem vowel
 * :l%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) tullõv
 Act+PrsPrc+Sg+Nom
 
-
-
-
-
-
-
-
-
-
 * **LEXICON V_79PURWMA** purõma:pur
 * Yaml: **purwma**
 * **LEXICON V_79PURWMA/XX** purõma:pur
 Retain consonant 
 *  Harm-Neutr_LUGWMA_PSS-PRC ;  (4) pur
 Pss+PrfPrc, Pss+PrsPrc, 
-
 
 Retain consonant and stem vowel
 * :%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) purõma
@@ -821,7 +479,6 @@ Act+PrsPrc+Sg+Nom
 Retain consonant and stem vowel
 *  Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) purnuq
 +Act+PrfPrc
-
 
 Retain consonant and add õ
 * :%{eõ%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) purõ
@@ -844,20 +501,10 @@ Act+Ind+Prt+Sg3
 
 * **LEXICON V_79OLWMA/XX** olõma:o
 
-
-
-
 * **LEXICON V_80RAPAHUTMA** rapahutma:rapahuta
 * **LEXICON V_80HAEMMAEHUETMAE** hämmähütmä:hämmähütä
 
-
 * LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE  rapahutma:rapahuta
-
-
-
-
-
-
 
 Retain consonant and stem vowel
 * :t Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) rapahutma
@@ -897,7 +544,6 @@ Strengthen consonant and add ʼ
 * : ACT-IND-PRT-SG3_t-PAL ;  (8) rapahut́ and error rapahut
 Act+Ind+Prt+Sg3
 
-
 * **LEXICON V_81TEGEMAE** tegemä:t
 * Yaml: **tegemä**
 Work
@@ -926,15 +572,6 @@ Work
 * *tetäs:* `tegemä+V+Pss+Ind+Prs+Sg3` (Eng. # (?4)!!)
 * *tettäv:* `tegemä+V+Pss+PrsPrc+Sg+Nom` (Eng. # (4))
 * *tekuq:* `tegemä+V+Jus` (Eng. # (9))
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V_81NAEGEMAE** nägemä:täg
 * Yaml: **nägemä**
@@ -965,31 +602,12 @@ Work
 * *nättäv:* `nägemä+V+Pss+PrsPrc+Sg+Nom` (Eng. # (4))
 * *näkuq:* `nägemä+V+Jus` (Eng. # (9))
 
-
-
-
-
-
-
-
-
-
 * **LEXICON V_82ANDMA** andma:and
 * Yaml: **andma**
 * **LEXICON V_82PUEUEDMAE** püüdmä:püüd
 * Yaml: **pueuedmae**
 
 * **LEXICON V_82ANDMA/PUEUEDMAE** andma:%{ˋØ%}an%{dd́n%}
-
-
-
-
-
-
-
-
-
-
 
 * LEXICON V_83NÕSTMA   nõstma:nõst
 gradation: no
@@ -1000,16 +618,6 @@ gradation: no
 
 * LEXICON V_83NÕSTMA/PÄSTMÄ   nõstma:nõst
 
-
-
-
-
-
-
-
-
-
-
 * LEXICON V_83SÕITMA   sõitma:sõit
 gradation: yes
 * Yaml: **switma**
@@ -1019,46 +627,19 @@ gradation: yes
 
 * LEXICON V_83SÕITMA/HEITMAE   sõitma:sõi%{tt́d%}a
 
-
-
 IS THIS RIGHT? 2015-09-02
 
 sõida
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * LEXICON V_83LAULMA   laulma:laul
 gradation: yes
 * Yaml: **switma**
 
-
 * LEXICON V_83LAULMA/XX   laulma:lau%{lĺ%}
-
 
 HERE is the distinction 2016-10-04
 
-
 IS THIS RIGHT? 2015-09-02
-
-
-
-
-
-
-
-
-
 
 * LEXICON V_83ATMA   atma:atta
 gradation: yes
@@ -1066,23 +647,7 @@ gradation: yes
 
 * LEXICON V_83ATMA/XX   atma:a%{tØ%}%{tt́%}
 
-
-
-
-
 IS THIS RIGHT? 2015-09-02
-
-
-
-
-
-
-
-
-
-
-
-
 
 * LEXICON V_83SUTMA   atma:a%{tØ%}%{tt́%}a
 gradation: yes
@@ -1093,20 +658,9 @@ gradation: G3, G4
 
 * LEXICON V_83SUTMA/PETMÄ   sutma:su%{tØ%}%{tt́%}a
 
-
-
 IS THIS RIGHT? 2015-09-02
 
-
 sõida
-
-
-
-
-
-
-
-
 
 * LEXICON V_83VWTMA   võtma:võ%{tØ%}%{tt́Ø%}a
 gradation: G3, G4, G1
@@ -1114,21 +668,9 @@ gradation: G3, G4, G1
 
 * LEXICON V_83VWTMA/XX   võtma:võ%{tØ%}%{tt́Ø%}a
 
-
-
 IS THIS RIGHT? 2015-09-02
 
-
 sõida
-
-
-
-
-
-
-
-
-
 
 * LEXICON V_84LASKMA  laskma:lask
 * Yaml: **nwstma**
@@ -1137,34 +679,11 @@ sõida
 * LEXICON V_84LASKMA/KÄSKMÄ  laskma:las%{kḱØ%}
 * Yaml: **nwstma**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON V_85HIRNMA** kakma:kaku hirnma:hirnu
 * Yaml: **kakma**
 * **LEXICON V_85TUEMPSMAE** kakma:kaku hirnma:hirnu
 * Yaml: **kakma**
 * **LEXICON V_85HIRNMA/TUEMPSMAE** kakma:kaku hirnma:hirnu
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V_85HAUDMA**  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u 
 * Yaml: **haudma**
@@ -1172,63 +691,19 @@ sõida
 * Yaml: **vaelkmae**
 * **LEXICON V_85HAUDMA/VAELKMAE** kakma:kakk haudma:haud
 
-
-
-
-
-
-
-
-
-
-
 * **LEXICON V_85KAKMA**  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u 
 * Yaml: **haudma**
 * **LEXICON V_85TRUEKMAE**  trükmä:trü%{kØ%}%{kḱ%}ü
 * Yaml: **vaelkmae**
 * **LEXICON V_85KAKMA/TRUEKMAE** kakma:kakk
 
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON V_86ISTMA** istma:istu
 * Yaml: **istma**
 * **LEXICON V_86ISTMA/XX** istma:istu
 
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON V_86PUTMA** istma:istu
 * Yaml: **istma**
 * **LEXICON V_86PUTMA/XX** istma:istu
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V_86JAHTJMA** jaht́ma:ˋjah%{tØ%}i
 * Yaml: **jahtjma**
@@ -1237,36 +712,12 @@ sõida
 
 * **LEXICON V_86JAHTJMA/EHTJMÄ** eht́mä:eh%{tt́%}
 
-
-
-
-
-
-
-
-
-
-
 * **LEXICON V_86TOL1MA** jaht́ma:ˋjah%{tØ%}i
 * Yaml: **jahtjma**
 * **LEXICON V_86TIK1MÄ** eht́mä:ehti
 * Yaml: **V-ehtjmae**
 
 * **LEXICON V_86TOL1MA/TIK1MÄ** eht́mä:eh%{tt́%}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON V_87KOSIMA** kosima:ko%{sØ%}si
 * Yaml: **V-kosima**
@@ -1275,25 +726,10 @@ sõida
 
 * **LEXICON V_87KOSIMA/KERIMAE** kosima:kosi
 
-
-
-
-
-
-
-
 * LEXICON V_88SIBAHAMA  sibama:siba
 * Yaml: **V-sibama88,sibahama**
 * Yaml: **V-juevaemae88**
 * LEXICON V_88SIBAHAMA/JUEVAEHAEMAE  sibama:siba
-
-
-
-
-
-
-
-
 
 ### SETS BY CONSONANT QUALITY
 
@@ -1304,45 +740,12 @@ sõida
 * : ACT-IND-PRS-3_s/sEq ;  
 +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
 
-
-
-
 ### INDICATIVE PRESENT SUBJECT CONJUGATION
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * +Ind+Prs+Neg:%-%{XV%}iq K ;  This gives stress
 * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-iq K ;  This gives stress
 * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-%{XV%}i K ;  more neutral without q
 * +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-i K ;  more neutral without q
-
-
-
 
 ### JUS
 * LEXICON MUTUAL_JUS_guq  regardless of harmony this is back 
@@ -1351,136 +754,23 @@ CHECK THIS
 
 ### PASSIVE INDICATIVE PRESENT CONJUGATION
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * LEXICON Harm-Neutr_JUVVA_PSS-IND-PRS  juvva süvvä
-
 
 * LEXICON Harm-Neutr_JUVVA_PSS-IND-PRT-1/2  juvvi süvvi
 
-
-
-
 ### INDICATIVE PRETERIT SUBJECT CONJUGATION
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### PASSIVE INDICATIVE PRETERIT CONJUGATION
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>tt%{uü%} K ;  no q
 * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
 * +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
-
-
-
 ### NON-FINITES
-
-
 
 * +Use/NG+Err/Orth-no-q+Inf:%>d%{aä%} K ;  no q
 
 * +Use/NG+Err/Orth-no-q+Inf:%>i%{aä%} K ;  no q
-
 
 * +Use/NG+Err/Orth-no-q+Inf:%>%{aä%} K ;  no q
 
@@ -1490,25 +780,18 @@ CHECK THIS
 
 * **+Der/JA+N:%>j NMN_9KIPWN1/ELLAEI ;** This should have a +Der/JA tag
 
-
-
 * +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
 
 * +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
-
-
-
 
 * LEXICON ACT-PRFPRC-OBL_nU  only oblique cases and Pl+Nom
 * +Use/NG+Err/Orth+Act+PrfPrc+Pl+Nom:%>n%{uü%} K ;  no q
 
 * +Use/NG+Err/Orth+Act+PrfPrc:%^WGStem%>n%{uü%} K ;  no q
 
-
 PASSIVE DISTRIBUTION
 * Harm-Neutr_NÕSTMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
 * Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
-
 
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>di K ;  no q
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>did%{eõ%} K ;  no q
@@ -1520,14 +803,10 @@ PASSIVE DISTRIBUTION
 * Harm-Neutr_V0-PSS-PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
 * Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
-
 * +Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;  no q
 * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;  no q
 * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;  no q
 * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;  no q
-
-
-
 
 * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
 
@@ -1535,45 +814,20 @@ PASSIVE DISTRIBUTION
 
 * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>tt%{aä%}%>v%{aä%} K ;  no q
 
-
 * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
-
 
 * +Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
 
-
-
 * +Use/NG+Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ;  no q
-
-
-
-
-
-
-
-
-
-
 
 * LEXICON Harm-Neutr_ACT-PRSPRC_v_LUGWMA  lugõma:lugõ
 Retain consonant and stem vowel
 
 * +Use/NG+Err/Orth-no-q+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
 
-
 * +Use/NG+Err/Orth-no-q+Act+PrfPrc:%>n%{uü%} K ;  no q
 
-
-
-
-
 * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
-
-
-
-
-
-
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/verbs.lexc)</small>

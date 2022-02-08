@@ -32,7 +32,6 @@ language are presented in this system in terms of the following symbols.
 * **Õ̭** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
 ```%{ˋØ%} - U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
 
-
 The parts-of-speech are:
 * **+N** Noun
 * **+A** Adjective
@@ -102,8 +101,6 @@ The nominals are inflected in the following Case and Number
 * **+Par** partitive
 * **+Ter** terminative
 * **+Tra** translative
-
-
 
 The possession is marked as such:
 There are no possessive markers
@@ -200,9 +197,6 @@ Question and Focus particles:
 * **+Hom3**
 * **+Hom4**
 
-
-
-
 ### Tags distinguishing different versions of the same lemma (before POS)
 * +v1
 * +v2
@@ -228,8 +222,6 @@ Question and Focus particles:
 * +v22
 * +v23
 * +v24
-
-
 
 * **+Sem/Act** Activity
 * **+Sem/Amount** Amount
@@ -324,14 +316,9 @@ Question and Focus particles:
 * **+Sem/Wpn** Weapon
 * **+Sem/Wthr** The Weather or the state of ground
 
-
-
-
-
 * **+Sem/Ant_Fem**
 * **+Sem/Ant_Mal**
 * **+Temp**
-
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
@@ -376,7 +363,6 @@ symbols in the lexicon files:
  %{uv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{üv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
 ```
-
 
 ## Gemination
 ```
@@ -508,7 +494,6 @@ mwe reanalysis in hfst-tokenise (e.g. in dynanic compounds).
 Makes it possible to distinguish lexical and dynamic compounds
 in rules. It is converted to zero together with `#`.
 
-
 | Flag | Explanation
 | ---- | ----------- 
 |  @D.ErrOrth.ON@ 
@@ -534,8 +519,6 @@ the sentence can be considered as true cases.
 ; +Gram/Superl 
 ; +Gram/Comp 
 
-
-
 # Oahpa Place names and case used 
 * **+%<plc_ine%>  **:  Ine, Ill, Ela
 * **+%<plc_ade%>  **:  Ade, All, Abl
@@ -545,7 +528,6 @@ The tagged part of the compound should make a compound using:
 
 * **+CmpN/SgN** Singular Nominative
 * **+CmpN/SgG** Singular Genitive
-
 
 # Flag diacritics
 We have manually optimised the structure of our lexicon using the following
@@ -599,7 +581,6 @@ The following flag diacritics are being applied for vowel harmony variation
 
 # The Root lexicon
 
-
 The word forms in the Võro language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 * **adpositions ;**
@@ -630,12 +611,7 @@ Incoming
 * **GenitiveAttributes ;** Borrowed from experimental_languages est
 * **NUM-PREFIXES ;** copied from giella-shared/smi
 
-
 less complex word classes
-
-
-
-
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/root.lexc)</small>

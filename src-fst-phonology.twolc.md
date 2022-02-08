@@ -2,17 +2,6 @@
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-vro/blob/main/src/fst/phonology.twolc) 
 
-
-
-
-
-
-
-
-
-
-
-
 ## Special letters
 * **u̬** u plus U+032C COMBINING CARON BELOW
 * **U̬** u plus U+032C COMBINING CARON BELOW
@@ -25,7 +14,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
 * **ˋ** U+02CB MODIFIER LETTER GRAVE ACCENT other parts of stem
 ```%{ˋØ%}:0 — U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
 **ˋ:0** — U+02CB MODIFIER LETTER GRAVE ACCENT used outside of rules, this is temporary removal 2017-04-20
-
 
 ## Vowel harmony with "(t)a/ä"
 ```
@@ -177,8 +165,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
 **%^Y7:õ  **  This appears for syna = s%^Y7na and is rendered as õ in the norm
 ```
 
-
-
 ```
 %^NoGrad:0     — This will be placed after a stem to break Gradation
 %^APOCH:0      — This causes apochope: puhksama vs puhastaq
@@ -193,7 +179,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
 %^StrGStem:0   — This strengthens "perädü" to "perätüt"
 %^ShortGStem:0   — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
 %^LongGStem:0     — This lengthens "pu%{tØ%}tu" to "puttuq"
-
 
 %^Pen:0        — This moves us to penultimate coda
 %^PAL:0	       — Palatalization
@@ -220,64 +205,14 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
 %^CnsRM:0      — this will remove stem final consonant tervüs:tervü
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Onset consonant or word boundary
-
-
-
-
-
-
-
-
 
 * *füüsi{kg}a{back}^Pen^StrGStem^VowRM>i>dõ*
 * *füüsik00000>i>dõ*
 
-
-
-
-
-
-
-
-
 Right context for gradation
 
-
-
-
-
 # Rules
-
 
 ## VOWEL HARMONY 
 ### Vowel harmony suffixes Front
@@ -301,7 +236,6 @@ tahtma+V+Pss+PrfPrc+Sg+Nom: **want/haluta**
 **%{aõ%}:õ**
 
 **%{äe%}:e**
-
 
 ### VOWEL LOWERING
 
@@ -340,7 +274,6 @@ kestmä+V+Act+Ind+Prt+Sg3:
 * *kes{tt́}{äe}{front}^Pen^PAL^VowRM*
 * *kest́00000*
 
-
 akaŕ+A+Sg+Nom
 * *a%{kg%}a%{rŕ%}%{back%}%^Pen%^G2%^PAL*
 * *akaŕ0000*
@@ -355,14 +288,12 @@ alostama+V+Act+Ind+Prt+Sg3:
 
 **n2n no palatalization all**
 
-
 rehksämä+V+Inf/mA:
 * *reh{kØ}ä{sś}{front}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}*
 * *rehk0s000000>ä>mä*
 hanǵ+N+Sg+Gen: **snow pack/hanki**
 * *han{gǵ}{back}^NoPAL>%{eõ%}*
 * *hang000>e*
-
 
 **{dd́n}:d́ palatalization for 3-way**
 
@@ -383,15 +314,12 @@ püüdmä+V+Act+Ind+Prs+Sg1
 * *pü%{üv%}%{dd́v%}%{front%}%^WGStem%>%{aä%}*
 * *püvv00%>ä*
 
-
-
 **%{pṕb%}:p**
 loroṕ+N+Sg+Par:
 * *loro{pṕb}{back}^StrGStem^NoPAL>i*
 * *lorop000>i*
 
 **%{tt́d%}:t**
-
 
 hainatama+V+Inf/mA
 * *haina{tt́d}a{back}^Pen^VOWRaise^Pen^StrGStem>m{aä}*
@@ -400,8 +328,6 @@ hainatama+V+Inf/mA
 **%{kḱg%}:k**
 * *pisla%{kḱg%}%{back%}%^G2%>*
 * *pislaḱ00%>*
-
-
 
 **%{pṕb%}:ṕ**
 loroṕ
@@ -418,27 +344,18 @@ kõiḱ+Pron+Sg+Nom
 * *kõ̭i%{kØ%}%{kḱg%}%{back%}%^CC2C%^PAL*
 * *kõ̭i0ḱ000*
 
-
-
 ### VOWEL CHANGE WITH PLURAL
-
-
-
-
 
 tegemä+V+Act+Ind+Prs+Sg1: **do**
 * *teg%{front%}%^WGStem%>%{eõ%}*
 * *ti̬000%>i̬*
 
-
 * *k%{ei%}%{ei%}%{lĺ%}%{front%}%^VOWRaise%^PAL*
 * *ki̬i̬ĺ000*
-
 
 **õ2õ̭**
 * *sõda%{back%}%^WGStem*
 * *sõ̭0a00*
-
 
 **o2u̬**
 
@@ -474,12 +391,10 @@ leib+N+Sg+Gen: **bread/leipä**
 * *pi%{tdØ%}ä%{front%}%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>t%{aä%}s*
 * *pe00000000e%>täs*
 
-
 **i:ä**
 päiv+N+Sg+Gen: **day/päivä**
 * *päiv%{front%}%^ÄI2ÄÄ%>ä*
 * *pääv00%>ä*
-
 
 **a2o**
 ```
@@ -492,8 +407,6 @@ päiv+N+Sg+Gen: **day/päivä**
 * *ka%{nØ%}n%{ao%}%{back%}%^G3%^PLPRT*
 * *kanno000*
 ```
-
-
 
 ### VOWEL LOSS
 **a:0**
@@ -545,7 +458,6 @@ juusk+N+Sg+Nom: ____
 * *j{ou}{ou}s{kØ}u{back}^VOWRaise^VowRM*
 * *ju̬u̬sk0000*
 
-
 * *kuu{back}^VOWLower^VowRM>i>d*
 * *ku0000>i>d*
 ```
@@ -586,8 +498,6 @@ hüdsi+N+Sg+Par:
 * *aigo%{back%}%^Pen%^WGStem*
 * *a00o000*
 
-
-
 **õ:0**
 * *tapõl{back}^Pen^VowRMõ>m{aä}*
 * *tap0l000õ>ma*
@@ -604,11 +514,9 @@ hamõq+N+Pl+Ill
 
 **%{õØ%}: 0**
 
-
 VOWEL LENGTHENING
 
 **%{XV%}:u**
-
 
 **%{XV%}:ü**
 
@@ -632,7 +540,6 @@ käskmä+V+Act+Ind+Prs+Neg **command/käskeä**
 
 **%{XV%}:i**
 
-
 **i2j**
 * *asi%{back%}%^I2J%>a*
 * *asj00%>a*
@@ -641,7 +548,6 @@ elläi+N+Sg+Gen
 * *e0läj0000>ä*
 
 **%{ij%}:j**
-
 
 **%{jiØ%}:j**
 
@@ -658,7 +564,6 @@ vari+N+Sg+Gen: **shadow/varjo**
 vari+N+Sg+Gen: **shadow/varjo**
 * *va%{rŕ%}%{jiØ%}o%{back%}%^Pen%^PAL%^Pen%^WGStem*
 * *vaŕ0o00000*
-
 
 **u2v** depricate to "%{uv%}:v"
 
@@ -707,10 +612,7 @@ võtma+V+Act+Ind+Prt+Pl3
 
 **%{kḱØ%}:ḱ**
 
-
-
 SECONDARY CONSONANT LENGTHENING
-
 
 **%{pØ%}:p**
 ```
@@ -748,7 +650,6 @@ igä+N+Sg+Ill
 * *mä%{Øk%}%{kgØ%}%{front%}%^G4%>%{eõ%}*
 * *mäkk00%>e*
 
-
 **%{XC%}:s**
 
 **%{XC%}:l**
@@ -761,7 +662,6 @@ igä+N+Sg+Ill
 kakma
 * *ka%{kØ%}%{kḱ%}u%{back%}%^VowRM%^PAL*
 * *kakḱ0000*
-
 
 ### Consonant weakening 
 
@@ -802,14 +702,9 @@ kruv́ma+V+Inf/mA
 * *kru{vØ}{vv́}{back}^VOWRaise^WGStem^PAL>m{aä}*
 * *kru0v́0000>ma*
 
-
 **%{rØ%}:0**  
 * *a%{rØ%}ro%{back%}%^Pen%^G2*
 * *a0ro000*
-
-
-
-
 
 **%{nØ%}:0**  
 * *su%{nØ%}ńo%{back%}%^Pen%^WGStem*
@@ -817,19 +712,13 @@ kruv́ma+V+Inf/mA
 * *va{nØ}{nń}u{back}^Pen^VOWRaise^Pen^CC2C^Pen^NoPAL^VowRM>m{aä}*
 * *va0n000000000>m{aä}*
 
-
-
 **%{lØ%}:0**  
 * *ta%{lØ%}lo%{back%}%^Pen%^WGStem*
 * *ta0lo000*
 
-
-
 **%{mØ%}:0**  
 * *su%{sØ%}śo%{back%}%^Pen%^WGStem*
 * *su0śo000*
-
-
 
 **%{kØ%}:0**  
 * *puh%{kØ%}as%{back%}%^WGStem%>taq*
@@ -840,8 +729,6 @@ kruv́ma+V+Inf/mA
 nätsk+A+Sg+Gen
 * *nä%{td%}s%{kØ%}%{front%}%^G1%>%{aä%}*
 * *näds000%>ä*
-
-
 
 * *eläni{kØ}{kg}{front}^G3*
 * *eläni0k00*
@@ -861,7 +748,6 @@ jõgi+N+Sg+Gen: **river/joki**
 * *jõ%{kØ%}%{kgØ%}%{back%}%^G1%>%{eõ%}*
 * *jõ0000%>õ*
 
-
 **pToZero**
 * *tapp%{back%}%^CC2C%>m%{aä%}*
 * *tap000%>ma*
@@ -872,7 +758,6 @@ jõgi+N+Sg+Gen: **river/joki**
 
 * *tap%{pØ%}%{back%}%^CC2C%>m%{aä%}*
 * *tap000%>ma*
-
 
 **XØToZero**
 agras+A+Sg+Gen
@@ -892,11 +777,9 @@ villui+A+Sg+Nom
 * *vi{lØ}lui{back}^Pen^G3*
 * *villui000*
 
-
 kevväi+N+Sg+Gen: **spring**
 * *ke%{vØ%}vä%{ij%}%{front%}%^Pen%^WGStem%>ä*
 * *ke0väj000%>ä*
-
 
 **%{sØ%}:s**
 ratas+N+Sg+Nom
@@ -913,7 +796,6 @@ agras+A+Sg+Nom
 hamõh+N+Sg+Nom
 * *ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem*
 * *ha0mõh000000*
-
 
 **%{kØ%}:k**
 rehksämä+V+Inf/mA:
@@ -937,11 +819,9 @@ egä+Det+Sg+Ill:
 * *li%{pb%}õ%{back%}%^Pen%^G2*
 * *lipõ000*
 
-
 **%{t́d́%}:d́**
 
 **%{t́d́%}:t́**
-
 
 **%{td%}:t**
 * *lu̬u̬dusõkai{td}sõ^Pen^VOWLower^Pen^WGStem>q*
@@ -955,7 +835,6 @@ nätsk+A+Sg+Nom
 hõrts+N+Sg+Nom
 * *hõr%{td%}so%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM*
 * *hõrts0000000*
-
 
 **%{kg%}:k**
 akaŕ+A+Sg+Nom
@@ -981,7 +860,6 @@ egä+Det+Sg+Nom:
 * *e{kØ}{kg}ä{front}^Pen^G2*
 * *e0gä000*
 
-
 * *hõl%{kg%}a%{sØ%}%{back%}%^Pen%^G2*
 * *hõlgas000*
 * *rän%{kg%}%{front%}%^G2%{aä%}*
@@ -994,20 +872,16 @@ nõkõś+N+Sg+Ill
 * *a%{kg%}ra%{sØ%}%{back%}%^Pen%^WGStem*
 * *agras000*
 
-
 **%{td%}:d**
 
 kaotama+V+Act+Ind+Prs+Sg1:
 * *kao%{td%}a%{back%}%^Pen%^G2*
 * *kaoda000*
 
-
 **%{tt́d%}:d**
 kergütämä+V+Act+Ind+Prs+Sg1:
 * *kergü%{tt́d%}ä%{front%}%^Pen%^WGStem*
 * *kergüdä000*
-
-
 
 **tToZero**
 hüdsi+N+Sg+Par:
@@ -1016,7 +890,6 @@ hüdsi+N+Sg+Par:
 
 * *att%{back%}%^CC2C%>m%{aä%}*
 * *at000%>ma*
-
 
 **%{tØ%}:0**
 * *puh%{tØ%}a%{sØ%}%{back%}%^Pen%^WGStem*
@@ -1029,13 +902,9 @@ sõda+N+Sg+Gen:
 * *sõ%{tØ%}%{tdØ%}a%{back%}%^Pen%^G1*
 * *sõ00a000*
 
-
-
 **%{t́Ø%}:0**
 
 ### CONSONANT QUALITY CHANGE
-
-
 
 **%{pṕb%}:b**
 * *loro%{pṕb%}%{back%}%^G2%>i*
@@ -1046,7 +915,6 @@ habras+A+Sg+Nom
 * *ha%{pb%}ra%{sØ%}%{back%}%^Pen%^WGStem%^StrGStem*
 * *habras0000*
 
-
 * *ki%{pb%}õ%{nń%}%{back%}%^Pen%^WGStem%>%{aä%}*
 * *kibõn000%>a*
 
@@ -1055,7 +923,6 @@ habras+A+Sg+Nom
 **b20**
 
 **%{pbØ%}:b**
-
 
 **%{dr%}:r**
 murrõq+N+Sg+Nom
@@ -1066,7 +933,6 @@ murrõq+N+Sg+Nom
 murrõq+N+Sg+Gen
 * *mur%{dr%}õ%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem*
 * *murdõ00000*
-
 
 **%{tdØ%}:d**
 
@@ -1079,7 +945,6 @@ kaardas+N+Sg+Nom
 * *kaar%{dØ%}a%{sØ%}%{back%}%^Pen%^VOWLower%^Pen%^StrGStem%^StrGStem*
 * *kaardas000000*
 
-
 **%{kgØ%}:g**
 jõgi+N+Sg+Nom: **river / joki**
 * *jõ{kØ}{kgØ}{back}^G2>i*
@@ -1091,7 +956,6 @@ lugõma+V+Act+Ind+Prs+Sg3
 **%{pbv%}:b**
 * *tõ%{pØ%}%{pbv%}%{back%}%^G2i*
 * *tõ0b00i*
-
 
 hammas
 * *ham%{bm%}a%{sØ%}%{back%}%^Pen%^WGStem*
@@ -1112,13 +976,10 @@ leib+N+Sg+Gen: **bread/leipä**
 * *lei{bv}{front}^ÄI2ÄÄ^WGStem>{aä}*
 * *leev000>ä*
 
-
-
 **%{dn%}:n**
 kannõĺ+N+Sg+Nom: **kantele**
 * *kan%{dn%}õ%{lĺ%}%{back%}%^Pen%^WGStem%^PAL*
 * *kannõĺ0000*
-
 
 **%{dl%}:l**
 * *tul%{back%}%>%{dl%}aq%^Pen%^WGStem*
@@ -1128,7 +989,6 @@ kannõĺ+N+Sg+Nom: **kantele**
 * *val%{dl%}%{back%}%^G1%>n*
 * *vall00%>n*
 
-
 **%{dv%}:v**
 * *pü%{üv%}%{dv%}%{front%}%^G1%>et*
 * *püvv00%>et*
@@ -1137,12 +997,7 @@ kannõĺ+N+Sg+Nom: **kantele**
 * *sü%{üv%}%{dv%}%{front%}%^G1%>ä*
 * *süvv00%>ä*
 
-
-
-
-
 **dTos**
-
 
 **tTos**
 
@@ -1153,22 +1008,18 @@ kaotama+V+Act+Ind+Prs+Sg1:
 
 There should always be a trigger
 
-
-
 ** %{dn%}:d**
 
 * *kan%{dn%}õl%{back%}%^Pen%^G2%^Pen%^VowRM%>õ*
 * *kand0l00000%>õ*
-
 
 **j2i**
 
 **{kḱg}:g **
 
 kõiḱ+Pron+Sg+Gen
-* *kõi%{kØ%}%{kḱg%}%{back%}%^G1%>%{eõ%}*
+* *kõi%{kØ%}%{kḱg%}%{back%}%^G2%^NoPAL%>%{eõ%}*
 * *kõi0g00%>õ*
-
 
 **k2g**
 * *hõrak%{back%}%^G1%>a*
@@ -1181,22 +1032,17 @@ kõiḱ+Pron+Sg+Gen
 * *süküs%{front%}%^Pen%^WGStem%>e*
 * *sügüs000%>e*
 
-
-
-
 igä+N+Sg+Ill
 * *i{kØ}{kgØ}ä{front}^Pen^G4*
 * *ikkä00*
 * *ko%{kg%}õr%{back%}%^StrGStem%^Pen%^VowRM%>õ*
 * *kok0r0000%>õ*
 
-
 **bTop**
 
 **%{pbv%}:p**
 * *tõ%{pØ%}%{pbv%}%{back%}%^G4%>%{eõ%}*
 * *tõpp00%>e*
-
 
 **%{pbØ%}:p**
 
@@ -1225,22 +1071,17 @@ närväs+A+Sg+Gen:
 * *när%{bv%}ä%{sØ%}%{front%}%^Pen%^VOWLower%^Pen%^StrGStem%^WGStem*
 * *närbä0000000*
 
-
-
-
 **%{gØ%}:g**
 liig+A+Sg+Nom:
 * *lii%{gØ%}%{back%}%^StrGStem*
 * *liig00*
 huug
 
-
 **d20**
 * *hüdsi%{front%}%^TS2S%^VowRM%>te*
 * *hü0s0000%>te*
 
 **%{dØ%}:0**
-
 
 **g20** deprication to {gǵØ}:0
 * *aig%{back%}%^WGStem%>o*
@@ -1262,7 +1103,6 @@ argnõma+V+Inf
 * *ar{gØ}{back}{eõ}^Pen^WGStem>d{aä}q*
 * *ar00õ00>daq*
 
-
 * *palgõ%{back%}%^WGStem%>h*
 * *pal0õ00%>h*
 
@@ -1276,41 +1116,26 @@ särǵ+N+Sg+Ill: **roach/särki**
 * *sär{gǵØ}{front}^StrGStem^NoPAL>%{eõ%}*
 * *särg000>e*
 
-
 **%{pbv%}:v**
 * *tõ%{pØ%}%{pbv%}%{back%}%^G1%>%{eõ%}*
 * *tõ0v00%>õ*
 
-
 **%{pbØ%}:0**
-
 
 **%{tdØ%}:0**
 * *hüdsi%{front%}%^TS2S%^VowRM%>te*
 * *hü0s0000%>te*
 
-
 **%{kgØ%}:0**
 * *mä%{kØ%}%{kgØ%}%{front%}%^G1%>%{eõ%}*
 * *mä0000%>e*
 
-
 * *u%{jØ%}jo%{back%}%^Pen%^WGStem%>m%{aä%}*
 * *u0jo000%>ma*
-
-
-
-
-
-
-
-
-
 
 püüdmä+V+Act+Ind+Prs+Sg3
 * *pü%{üv%}%{dd́v%}%{front%}%^PAL*
 * *püüd́00*
-
 
 pereq
 * *pe%{rØ%}re%{front%}%^WGStem%>h*
@@ -1319,7 +1144,6 @@ pereq
 naŕma
 * *na%{rØ%}%{rŕ%}%{back%}%^CC2C%^PAL%>m%{aä%}*
 * *na0r000%>ma*
-
 
 ### Other marks
 * *ki%{pb%}õ%{nń%}%{back%}%>a*

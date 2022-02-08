@@ -1,49 +1,22 @@
 Noun inflection for Võro
 
-
-
-
-
-
-
-
-
-
-
 * Yaml: **suhvli**
-
-
 
 * Yaml: **kerge**
 
-
-
 * Yaml: **peraedue**
 
-
 * Yaml: **peraedue**
-
-
 
 * Yaml: **tervues**
 
 * Yaml: **A-ainus**
 
-
 * Yaml: **N-oppaja5**
-
 
 * Yaml: **N-mängjä5**
 
-
-
 * Yaml: **fueuesiga**
-
-
-
-
-
-
 
 kipõnʼ:kipõn
 * Yaml:**N-kipwnj9**
@@ -63,42 +36,17 @@ elläi:elläi
 verrev:verrev
 * Yaml: **N-ellaei4, N-kipwnj9**
 
-
-
-
 gradation: no
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 gradation: yes
 distinguished from 14RITS1KAS due to gradation
 
-
 distinguished from 14RITS1KAS due to word final h
 
 distinguished from 14RITS1KAS due to word final h
-
 
 kotus:kotus
 * Yaml: **N-kotus15**
-
 
 inemine:inemi
 * Yaml: **N-inemine16**
@@ -106,59 +54,19 @@ inemine:inemi
 abilinõ:abili
 * Yaml: **N-abilinw16**
 
-
-
-
-
-
-
-
-
-
-
-
-
 LEXICON NUM_22VWROKWNW  võrokõnõ:võrokõ
 
 LEXICON NUM_22NAANW  naanõ:naa
 
 Gradation: No
 
-
-
-
-
-
-
 vowel_harmony: front
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Gradation: No
-
-
-
-
-
-
-
-
 
 tarõ:tar
 
 pesä:tar
-
 
 nimi:nim
 
@@ -166,30 +74,12 @@ nimi:nim
 
 * LEXICON NUM_36UETS1  ütś:üt
 
-
 kokr:ko%{kg%}r
 * Yaml: **N-kokr36**
-
 
 sõbõr:sõbõr
 * Yaml: **N-swbwr36**
 derived from 36särǵ
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * Yaml: **aig, kand**
 
@@ -197,37 +87,15 @@ derived from 36särǵ
 
 * Yaml: **aig, aig**
 
-
-
-
 LEXICON NUM_43KANARIK 
 
-
-
-
-
-
 LEXICON NUM_44SWDA  sõda:sõda
-
-
-
 
 * Yaml: **N-jalg, N-hain**
 
 * Yaml: **N-jalg, N-tark**
 
-
-
-
 vro-digits
-
-
-
-
-
-
-
-
 
 * **LEXICON ARABICCASES**  adds +Arab
 
@@ -235,30 +103,22 @@ vro-digits
 
 * **LEXICON ARABICCASE0**  adds +Arab
 
-
 * **LEXICON DIGITCASES**  to distinguish between 0 and oblique
 
 * **LEXICON DIGITCASE0**
 
-
 * **LEXICON DIGITCASE**
 
-
 * **LEXICON ARABICCASEORD** ordinals
-
 
 * **LEXICON ARABICCASEORD-ERR** ordinal inflection when preceded
 by .:, and with reduced case forms. The Err/Orth tag is added in the calling lexicon.
 
 * **LEXICON ARABICCASECOLL** collectives
 
-
 * **LEXICON ROMNUMTAGOBL**
 
 * **LEXICON ARABICCOMPOUNDS**  ! arabic as first part,
-
-
-
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/numerals.lexc)</small>

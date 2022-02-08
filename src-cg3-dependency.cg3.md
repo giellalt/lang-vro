@@ -7,9 +7,7 @@ This dep file is for sma, sme, smj, sje.
 
 Sentence delimiters are the following: <.> <!> <?> <...> <¶>
 
-
 # TAGS AND SETS
-
 
 N
 V
@@ -71,91 +69,9 @@ IM For fao
 
 ## POS sub-categories
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Syntactic tags and sets
 
 ### Syntactic tags in input to this file
-
 
 ### Syntactic tags added in this file
 
@@ -197,7 +113,6 @@ IM For fao
 * <mv> : main verb. A temporarily tag omitted in the end of the file.
 * <aux> : auxilary verb. A temporarily tag omitted in the end of the file.
 
-
 ### fao syntags
 
 * @>V
@@ -214,229 +129,25 @@ IM For fao
 
 ### Syntactic set definitions
 
-
-
-
-
-
-
-
-
-
-
-
 # Dep grammar
-
-
 
 Correction rules
 
-
-
 * **muitalit**
 
-
 * **XX**
 
 * **XX**
 
 * **XX**
-
-
 
 * **faoSumId=Rel**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## The finite verb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Mapping rules
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
-
-
-
-
-
 
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-vro/blob/main/../src/cg3/dependency.cg3)</small>

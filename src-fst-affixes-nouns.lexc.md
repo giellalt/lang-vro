@@ -2,58 +2,31 @@ Noun inflection for Võro
 
 LEXICON N_1HANS1A  1 hanśa:hanśa
 
-
 LEXICON N_1VIU  1 viu:viu
-
-
 
 LEXICON N_1HERRAE  1 herrä:herrä
 
-
 LEXICON N_1PREI  1 prei:prei
-
 
 * Yaml: **suhvli**
 
-
-
 * Yaml: **kerge**
-
-
 
 LEXICON N_3PERAEDUE  perädü:perädü
 * Yaml: **peraedue**
 
-
 LEXICON N_3ALADU  aladu:aladu
 * Yaml: **peraedue**
-
-
 
 * Yaml: **tervues**
 
 * Yaml: **A-ainus**
 
-
 * Yaml: **N-oppaja5**
-
 
 * Yaml: **N-mängjä5**
 
-
-
-
-
 * Yaml: **fueuesiga**
-
-
-
-
-
-
-
-
-
 
 kipõń:kipõn
 * Yaml:**N-kipwnj9**
@@ -67,7 +40,6 @@ sinneĺ:sinnel
 veteĺ:vetel
 * Yaml:**N-kipwnj9**
 
-
 tukõv:tukõv
 * Yaml: **N-ellaei4, N-kipwnj9**
 
@@ -80,14 +52,11 @@ sallai:sallai
 elläi:elläi
 * Yaml: **N-ellaei4, N-kipwnj9**
 
-
-
 herre:herre
 * Yaml:**N-kipwnj9**
 
 villõ:villõ
 * Yaml:**N-kipwnj9**
-
 
 LEXICON N_10HWRAK  hõrak:hõrak
 
@@ -123,8 +92,6 @@ LEXICON N_10HAIDAK  haidak:haidak
 
 LEXICON N_10ESAEK  esäk:esäk
 
-
-
 LEXICON N_10AABITS  aabits:aabits
 
 LEXICON N_10HEERITS  heerits:heerits
@@ -135,12 +102,6 @@ LEXICON N_10AMMAT1  ammat́:ammat
 
 LEXICON N_10HUEPAETS1  hüpätś:hüpä%{td%}s
 
-
-
-
-
-
-
 LEXICON N_11LAETEQ  läteq:lä%{tØ%}te
 
 LEXICON N_11ANNWQ  annõq:andõ
@@ -150,9 +111,6 @@ LEXICON N_11KELMEQ  kelmeq:ainõ
 
 LEXICON N_11VAIH  vaih:vaih
 
-
-
-
 LEXICON N_12NWKWS1   nõkõś:nõ%{kg%}õ%{sś%}
 
 LEXICON N_13ALONW  alonõ:alo
@@ -161,12 +119,9 @@ LEXICON N_13TAEHINE  tähine:tähi
 
 Gradation: No
 
-
 LEXICON N_14RITS1KAS  ritśkas:ritśka%{sØ%}
 
 Gradation: No
-
-
 
 LEXICON N_14HAMMAS  hammas:ham%{bm%}a%{sØ%}, saabas:saapa
 distinguished from 14RITS1KAS due to gradation
@@ -177,22 +132,17 @@ distinguished from 14RITS1KAS due to gradation
 LEXICON N_14NUMMWR1  nummõŕ:numbõr
 distinguished from 14RITS1KAS due to gradation
 
-
 vowel_harmony: front
 gradation: yes
 
-
 vowel_harmony: back
 gradation: yes
-
-
 
 kotus:kotus
 * Yaml: **N-kotus15**
 
 kotus:kotus
 * Yaml: **N-ilves15**
-
 
 LEXICON N_16INEMINE 
 inemine:inemi
@@ -210,12 +160,6 @@ LEXICON N_16TSIRGUKWNW
 tsirgukõnõ:abili
 * Yaml: **N-abilinw16**
 
-
-
-
-
-
-
 LEXICON N_19ALOMANW  alomanõ:aloma
 
 LEXICON N_19PEDAEJAENE  pedäjäne:pedäjä
@@ -230,9 +174,7 @@ LEXICON N_20KUEUEDS1  küüdś:küüds
 
 LEXICON N_20MIIS1  miiś:m%{ei%}%{ei%}
 
-
 LEXICON N_21HUEDSI  hüdsi:hü
-
 
 LEXICON N_21KUSI  kusi:kus
 
@@ -246,7 +188,6 @@ LEXICON N_22VAEHAEKENE  vähäkene:vähäke
 
 * LEXICON N_23SUUR1  suuŕ:suur
 
-
 * LEXICON N_23KIIL1   kiiĺ:keel
 
 * LEXICON N_23HIIR1   hiiŕ:hiir
@@ -255,15 +196,7 @@ LEXICON N_22VAEHAEKENE  vähäkene:vähäke
 
 * LEXICON N_24SUSI  susi:su
 
-
-
-
-
-
-
-
 gradation: yes
-
 
 * **LEXICON N_27KUEMMEND ** kümmend:küm
 
@@ -287,25 +220,13 @@ gradation: yes
 
 * LEXICON N_29HAEAE  pää:pää
 
-
-
-
-
-
-
-
-
 *Noun 33 examples:*
-
-
-
 
 tarõ:tar
 
 uma:uma
 
 pesä:pesä
-
 
 nimi:ni%{mØ%}m
 
@@ -314,7 +235,6 @@ lumi:lum
 LEXICON N_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
 
 LEXICON N_36HANG1  hanǵ:hang
-
 
 LEXICON N_36SAERG1  särǵ:sär%{gǵØ%}
 
@@ -347,11 +267,6 @@ kokr:ko%{kg%}r
 * Yaml: **N-kogwr36**
 derived from 36särǵ
 
-
-
-
-
-
 sõbõr:sõbõr
 oblique plural in o
 * Yaml: **N-swbwr36**
@@ -362,24 +277,13 @@ oblique plural in õ
 * Yaml: **N-swbwr36**
 derived from 36särǵ
 
-
 LEXICON N_37PINI  pini:pini
 
 LEXICON N_37WLI  õli:õli
 
 LEXICON N_37MUNA  muna:mu%{nØ%}na
 
-
-
-
-
-
-
-
 * LEXICON N_38HUETT  hütt:hütt
-
-
-
 
 * LEXICON N_39VIDO  vido:vido
 
@@ -394,8 +298,6 @@ LEXICON N_40UJA  uja:u%{jØ%}ja
 LEXICON N_40SAVV  savv:savvu
 
 LEXICON N_40TUEKK  tükk:tü%{kØ%}kü
-
-
 
 LEXICON N_41JUHT1  juht́:juht
 * Yaml: **juht́**
@@ -416,11 +318,6 @@ juusk:j%{ou%}%{ou%}s%{kØ%}u
 LEXICON N_41VIIT  aig:aig
 * Yaml: **aig, aig**
 
-
-
-
-
-
 LEXICON N_43KANARIK  usklik+A:%{ˋØ%}#uskli%{kg%}
 
 LEXICON N_43ELAENIK  elänik+N:eläni%{kØ%}%{kg%}
@@ -433,10 +330,7 @@ LEXICON N_43SEKRETAER1
 
 LEXICON N_43AASTAK 
 
-
-
 LEXICON N_44SWDA  sõda:sõ%{tØ%}%{tdØ%}a
-
 
 LEXICON N_45KANA  kana:ka%{nØ%}na
 
@@ -448,29 +342,11 @@ LEXICON N_46HAIN  hain:hain
 LEXICON N_46TARK  tark:tark
 * Yaml: **N-jalg, N-tark**
 
-
 LEXICON N_47ASI  asi:asi
 
 LEXICON N_47VELI  asi:asi
 
 LEXICON N_47KIRI  kiri:kiri
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### NOMINAL DECLENSIONS
 
@@ -500,10 +376,7 @@ LEXICON NMN_1HANS1A  1 hanśa:hanśa
 * *hanśadõldaq* `hanśa+N+Pl+Abe:`
 * *hanśadõgaq* `hanśa+N+Pl+Com:`
 
-
-
 in d
-
 
 LEXICON NMN_1HERRAE  1 herrä:herrä
 
@@ -531,22 +404,14 @@ LEXICON NMN_1HERRAE  1 herrä:herrä
 * *herrädeldäq* `herrä+N+Pl+Abe:`
 * *herrädegaq* `herrä+N+Pl+Com:`
 
-
-
 in d
-
 
 * Yaml: **suhvli**
 
-
-
 * Yaml: **kerge**
-
-
 
 LEXICON NMN_3PERAEDUE  perädü:perädü
 * Yaml: **A-peraedue3** same as aladu
-
 
 LEXICON NMN_3ALADU  aladu:aladu
 
@@ -560,10 +425,6 @@ LEXICON NMN_3ALADU  aladu:aladu
 * *alatumb* `aladu+A+Comp+Sg+Nom:`
 
 * Yaml: **A-aladu3**
-
-
-
-
 
 *Noun 04 tervüs examples:*
 * *tervüs* `tervüs+N+Sg+Nom:`
@@ -588,9 +449,6 @@ LEXICON NMN_3ALADU  aladu:aladu
 * *tervüisiniq* `tervüs+N+Pl+Ter:`
 * *tervüisildäq* `tervüs+N+Pl+Abe:`
 * *tervüisigaq* `tervüs+N+Pl+Com:`
-
-
-
 
 * +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i Harm-Neutr_PL-GEN_dE ;  tervide
 * +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
@@ -625,10 +483,6 @@ LEXICON NMN_3ALADU  aladu:aladu
 ainus:ainus
 * Yaml: **A-ainus4**
 
-
-
-
-
 * LEXICON NMN_5OPPAJA/MAENGJAE  oppaja:oppaja
 
 *Adjective 05 kerge examples:*
@@ -657,7 +511,6 @@ ainus:ainus
 
 * Yaml: **N-oppaja5, kerge5**
 
-
 * LEXICON NMN_6MAKW/HELLE  makõ:ma%{kØ%}kõ
 
 *Adjective (6) tikõ 'eng /est /fin' - full paradigm: Noun - tikõ examples:*
@@ -669,9 +522,6 @@ ainus:ainus
 * *tikkit:* `tikõ+A+Pl+Par`
 * *tikkihe:* `tikõ+A+Pl+Ill`
 * *tikkilõ:* `tikõ+A+Pl+All`
-
-
-
 
 *Noun 07 füüsiga examples:*
 * *füüsiga* `füüsiga+N+Sg+Nom:`
@@ -696,10 +546,6 @@ ainus:ainus
 * *füüsikiniq* `füüsiga+N+Pl+Ter:`
 * *füüsikildaq* `füüsiga+N+Pl+Abe:`
 * *füüsikidõgaq* `füüsiga+N+Pl+Com:`
-
-
-
-
 
 *Noun 08 kask examples:*
 * *kask* `kask+N+Sg+Nom:`
@@ -726,8 +572,6 @@ ainus:ainus
 * *kaskidõgaq* `kask+N+Pl+Com:`
 
 * Yaml: **N-kask**
-
-
 
 Secondary
 
@@ -756,8 +600,6 @@ kuldnõ:kuld
 * *kuldsidõgaq* `kuldnõ+A+Pl+Com:`
 
 * Yaml: **N-kuldnw**
-
-
 
 Secondary
 
@@ -790,11 +632,6 @@ Secondary
 
 * Yaml: **N-kuldnw**
 
-
-
-
-
-
 *Noun 08 sadang examples:*
 * *sadang* `sadang+N+Sg+Nom:`
 * *sadangut* `sadang+N+Sg+Par:`
@@ -819,10 +656,7 @@ Secondary
 * *sadangildaq* `sadang+N+Pl+Abe:`
 * *sadangidõgaq* `sadang+N+Pl+Com:`
 
-
-
 Secondary
-
 
 *Noun 08 tuhat examples:*
 * *tuhat* `tuhat+N+Sg+Nom:`
@@ -849,9 +683,6 @@ Secondary
 * *tuhandildaq* `tuhat+N+Pl+Abe:`
 * *tuhandidõgaq* `tuhat+N+Pl+Com:`
 
-
-
-
 *Noun 08 dollaŕ examples:*
 * *dollaŕ* `dollaŕ+N+Sg+Nom:`
 * *dollarit* `dollaŕ+N+Sg+Par:`
@@ -877,11 +708,7 @@ Secondary
 * *dollarildaq* `dollaŕ+N+Pl+Abe:`
 * *dollaridõgaq* `dollaŕ+N+Pl+Com:`
 
-
-
-
 Secondary
-
 
 *Noun 10 aastak  examples:*
 * *aastak:* `aastak+N+Sg+Nom`
@@ -912,8 +739,6 @@ Secondary
 * *aastakidõgaq:* `aastak+N+Pl+Com`
 **N-hwrak10**
 
-
-
 * **LEXICON NMN_36RAMM/SILM ** silm:silm
 
 *Noun 36 silmä ämm examples:*
@@ -943,12 +768,7 @@ Secondary
 * Yaml: **N-silm36**
 gradation No, vowelHarmony Front
 
-
-
 Secondary
-
-
-
 
 Secondary
 
@@ -981,10 +801,7 @@ Secondary
 * Yaml: **N-lähk36**
 gradation Yes, vowelHarmony Front
 
-
-
 Secondary
-
 
 Secondary
 
@@ -1018,12 +835,36 @@ LEXICON NMN_9KIPWN1/VETEL1  kipõń:ki%{pb%}õ%{nń%}
 
 * Yaml: **N-kipwnj**
 
+LEXICON NMN_9ALLWV1/XX  allõv́:ki%{pb%}õ%{nń%}
 
+*Noun 09 allõv́ examples:*
+* *allõv́* `allõv́+N+Sg+Nom:`
+* *alõvit* `allõv́+N+Sg+Par:`
+* *alõvihe* `allõv́+N+Sg+Ill:`
+* *alõvist* `allõv́+N+Sg+Ela:`
+* *alõvilõ* `allõv́+N+Sg+All:`
+* *alõvil* `allõv́+N+Sg+Ade:`
+* *alõvilt* `allõv́+N+Sg+Abl:`
+* *alõvis* `allõv́+N+Sg+Tra:`
+* *alõviniq* `allõv́+N+Sg+Ter:`
+* *alõvildaq* `allõv́+N+Sg+Abe:`
+* *alõvigaq* `allõv́+N+Sg+Com:`
+* *alõviq* `allõv́+N+Pl+Nom:`
+* *alõvõt* `allõv́+N+Pl+Par:`
+* *alõvõhe* `allõv́+N+Pl+Ill:`
+* *alõvõst* `allõv́+N+Pl+Ela:`
+* *alõvõlõ* `allõv́+N+Pl+All:`
+* *alõvõl* `allõv́+N+Pl+Ade:`
+* *alõvõlt* `allõv́+N+Pl+Abl:`
+* *alõvõs* `allõv́+N+Pl+Tra:`
+* *alõvõniq* `allõv́+N+Pl+Ter:`
+* *alõvõldaq* `allõv́+N+Pl+Abe:`
+* *alõvõdõgaq* `allõv́+N+Pl+Com:`
+
+* Yaml: **N-kipwnj**
 
 LEXICON NMN_9ALLAS1/SINNEL1  allaś:allas
 * Yaml: **N-kipwnj**
-
-
 
 LEXICON NMN_9TUKWV/VERREV  tukõv:tu%{kg%}õv
 
@@ -1053,8 +894,6 @@ LEXICON NMN_9TUKWV/VERREV  tukõv:tu%{kg%}õv
 
 * Yaml: **N-tukwv**
 
-
-
 LEXICON NMN_9SALLAI/ELLAEI  elläi:e%{lØ%}lä%{ij%}
 
 *Noun 09 elläi examples:*
@@ -1083,9 +922,7 @@ LEXICON NMN_9SALLAI/ELLAEI  elläi:e%{lØ%}lä%{ij%}
 
 * Yaml: **N-ellaei9**
 
-
 SHOULD THIS BE HERE, c.f. yaml
-
 
 LEXICON NMN_9TAHHE/HERRE  tahhe:ta%{hØ%}he
 
@@ -1115,8 +952,6 @@ LEXICON NMN_9TAHHE/HERRE  tahhe:ta%{hØ%}he
 * *tahehidõgaq* `tahhe+N+Pl+Com:`
 * Yaml: **N-kipwnj**
 
-
-
 LEXICON NMN_9VILLW/XX  villõ:vi%{lØ%}lõ
 
 *Noun 09 villõ examples:*
@@ -1144,8 +979,6 @@ LEXICON NMN_9VILLW/XX  villõ:vi%{lØ%}lõ
 * *vilõhildaq* `villõ+N+Pl+Abe:`
 * *vilõhidõgaq* `villõ+N+Pl+Com:`
 * Yaml: **N-kipwnj**
-
-
 
 LEXICON NMN_10HWRAK  * @OCDE@ hõrak:hõrak
 
@@ -1178,9 +1011,6 @@ LEXICON NMN_10HWRAK  * @OCDE@ hõrak:hõrak
 * *hõrakidõgaq:* `hõrak+N+Pl+Com`
 **N-hwrak10**
 
-
-
-
 *Noun 10 ameeriga  examples:*
 * *ameeriga:* `ameeriga+N+Sg+Nom`
 * *ameeriga:* `ameeriga+N+Sg+Gen`
@@ -1208,12 +1038,6 @@ LEXICON NMN_10HWRAK  * @OCDE@ hõrak:hõrak
 * *ameerikiniq:* `ameeriga+N+Pl+Ter`
 * *ameerikildaq:* `ameeriga+N+Pl+Abe`
 * *ameerikidõgaq:* `ameeriga+N+Pl+Com`
-
-
-
-
-
-
 
 LEXICON NMN_10HAIDAK/ESAEK  * @OCDE@ haidak:haida%{kg%}
 Noun (10) esäk
@@ -1245,7 +1069,6 @@ Noun (10) esäk
 * *esäkidegaq:* `esäk+N+Pl+Com`
 **N-hwrak10**
 
-
 *esäk examples:*
 * *esäk:* `esäk+N+Sg+Nom`
 * *esägu:* `esäk+N+Sg+Gen`
@@ -1273,7 +1096,6 @@ Noun (10) esäk
 * *esäkiniq:* `esäk+N+Pl+Ter`
 * *esäkildäq:* `esäk+N+Pl+Abe`
 * *esäkidegaq:* `esäk+N+Pl+Com`
-
 
 *Noun 10 vidrik  examples:*
 * *vidriku:* `vidrik+N+Sg+Nom`
@@ -1306,7 +1128,6 @@ vowel_harmony: BACK and FRONT
 gradation: no
 **N-vidrik10**
 
-
 LEXICON NMN_10AABITS/HEERITS  * @OCDE@ aabits:aabi%{td%}s
 
 *Noun 10 aabits  examples:*
@@ -1338,10 +1159,8 @@ LEXICON NMN_10AABITS/HEERITS  * @OCDE@ aabits:aabi%{td%}s
 * *aabitsidõgaq:* `aabits+N+Pl+Com`
 **N-hwrak10**
 
-
 vowel_harmony: ONLY FRONT
 **N-esaek10**
-
 
 **N-hwrak10**
 
@@ -1372,7 +1191,6 @@ vowel_harmony: ONLY FRONT
 * *aadrõssiniq:* `aadrõś+N+Pl+Ter`
 * *aadrõssildaq:* `aadrõś+N+Pl+Abe`
 * *aadrõssidõgaq:* `aadrõś+N+Pl+Com`
-
 
 LEXICON NMN_10AMMAT1  * @OCDE@ ammat́:amma%{tt́d%}
 
@@ -1405,13 +1223,10 @@ LEXICON NMN_10AMMAT1  * @OCDE@ ammat́:amma%{tt́d%}
 * *ammatidõgaq:* `ammat́+N+Pl+Com`
 **N-hwrak10**
 
-
 LEXICON NMN_10HUEPAETS1  * @OCDE@ hüpätś:hüpäts
 vowel_harmony: ONLY FRONT
 Gradation: YES
 **N-esaek10**
-
-
 
 LEXICON NMN_11AINWQ/KELMEQ  ainõq:ainõ
 
@@ -1440,13 +1255,7 @@ LEXICON NMN_11AINWQ/KELMEQ  ainõq:ainõ
 * *ainidõgaq* `ainõq+N+Pl+Com:`
 **A-ainwq11**
 
-
-
-
 **A-vaih11**
-
-
-
 
 LEXICON NMN_11ANNWQ/LAETEQ  läteq:lä%{tØ%}te
 
@@ -1476,12 +1285,6 @@ LEXICON NMN_11ANNWQ/LAETEQ  läteq:lä%{tØ%}te
 
 **A-ainwq11**
 
-
-
-
-
-
-
 *Noun 12 repäń examples:*
 * *repäń* `repäń+N+Sg+Nom:`
 * *rebäst* `repäń+N+Sg+Par:`
@@ -1508,23 +1311,13 @@ LEXICON NMN_11ANNWQ/LAETEQ  läteq:lä%{tØ%}te
 
 **N-repaenj12**
 
-
-
 **N-repaenj12**
 
-
-
-
 **N-suekues12**
-
-
 
 **N-suekues12**
 
 * +Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
-
-
-
 
 LEXICON NMN_13ALONW/TAEHINE  alonõ:alo
 
@@ -1552,7 +1345,6 @@ LEXICON NMN_13ALONW/TAEHINE  alonõ:alo
 
 **A-alonw**
 
-
 LEXICON NMN_13VAHTSWNW  vahtsõnõ:vah
 
 *Noun 13 alonõ examples:*
@@ -1579,14 +1371,8 @@ LEXICON NMN_13VAHTSWNW  vahtsõnõ:vah
 
 **A-vahtswnw**
 
-
-
 LEXICON NMN_13XX/SAEAENE  sääne:sää
 **A-alonw**
-
-
-
-
 
 * **LEXICON NMN_14RITS1KAS/HERNEH ** ritśkas:ritśka
 
@@ -1614,8 +1400,6 @@ LEXICON NMN_13XX/SAEAENE  sääne:sää
 * *ritśkiniq* `ritśkas+N+Pl+Ter:`
 * *ritśkildaq* `ritśkas+N+Pl+Abe:`
 * *ritśkidõgaq* `ritśkas+N+Pl+Com:`
-
-
 
 * **LEXICON NMN_14HAMMAS/IKAES ** hammas:ham%{bm%}a%{sØ%}
 
@@ -1646,10 +1430,6 @@ LEXICON NMN_13XX/SAEAENE  sääne:sää
 Distinguished from 14RITS1KAS due to gradation
 Yaml: __N-hammas_gt-norm.yaml__
 
-
-
-
-
 *Noun 14 nummõŕ examples:*
 * *nummõŕ* `nummõŕ+N+Sg+Nom:`
 * *nummõrd* `nummõŕ+N+Sg+Par:`
@@ -1676,16 +1456,9 @@ Yaml: __N-hammas_gt-norm.yaml__
 Distinguished from 14RITS1KAS due to gradation
 Yaml: __N-nummõŕ_gt-norm.yaml__
 
-
-
-
 Distinguished from 14RITS1KAS due  to word final h
 vowel_harmony_variant: hamõh
 Yaml: __N-pereh_gt-norm.yaml__
-
-
-
-
 
 *Noun 14 hamõh examples:*
 * *hamõh* `hamõh+N+Sg+Nom:`
@@ -1714,10 +1487,6 @@ Distinguished from 14RITS1KAS due  to word final h
 vowel_harmony_variant: pereh
 Yaml: __N-hamwh_gt-norm.yaml__
 
-
-
-
-
 *Noun 15 kotus examples:*
 * *kotus* `kotus+Hom1+N+Sg+Nom:`
 * *kotust* `kotus+Hom1+N+Sg+Par:`
@@ -1742,189 +1511,78 @@ Yaml: __N-hamwh_gt-norm.yaml__
 * *kotussildaq* `kotus+Hom1+N+Pl+Abe:`
 * *kotussidõgaq* `kotus+Hom1+N+Pl+Com:`
 
-
-
-
 LEXICON NMN_16ABILINW/INEMINE  inemine:inemi abilinõ:abili
 * Yaml: **N-inemine16**
-
 
 LEXICON NMN_16TSIRGUKWNW/TERAEKENE  inemine:inemi tsirgukõnõ:abili
 * Yaml: **N-inemine16**
 
-
-
-
 * LEXICON NMN_17ALGUS/UETSUES  aivastus:aivastus
 * Yaml: **N-aivastus18**
-
-
-
-
-
-
-
-
-
-
-
-
 
 LEXICON NMN_19ALOMANW/PEDAEJAENE   alomanõ:aloma
 * Yaml: **A-alomanw19**
 
-
-
 * Yaml: **N-latsj20**
 
-
-
-
-
-
-
-
 * Yaml: **N-vaeitsj20**
 
-
-
-
 * Yaml: **N-vaeitsj20**
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 LEXICON NMN_22NAANW  naanõ:naa
 * Yaml: **N-vwrokwnw22**
 
-
 LEXICON NMN_22VWROKWNW/VAEHAEKENE  vähäkene:vähäke
 * Yaml: **N-vaehaekene22**
-
 
 * **LEXICON NMN_23NUUL1/KIIL1 ** nuuĺ:nool
 * Yaml: **N-nuulj**
 
-
-
 * **LEXICON NMN_23SUUR1 ** suuŕ:suur
 * Yaml: **N-suurj**
 
-
-
 * Yaml: **N-kiilj23**
-
-
-
 
 * Yaml: **N-hiirj23**
 
-
-
-
-
 * Yaml: **N-susi24**
 
-
-
 * Yaml: **N-susi24**
-
-
 
 * Yaml: **N-sueaeq25**
 
-
-
-
-
-
-
-
-
-
-
 * Yaml: **N-hepemj26**
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON NMN_27HAPU ** hapu:hapu
 Yaml: **N-hapu27**
 
-
+* **LEXICON NMN_27XX/LAEMMI ** lämmi:lämmi
+Yaml: **N-hapu27**
 
 * **LEXICON NMN_27KUEMMEND ** kümmend:küm
-
-
 
 * **LEXICON NMN_28TUETAER1 ** tütäŕ:tütär
 * Yaml: **N-tuetaerj28, N-kannwl28**
 
-
-
 * **LEXICON NMN_28AHER/XX ** aher:ah%{tØ%}er
 * Yaml: **N-tuetaerj28**
 
-
-
 * Yaml: **N-pindaer28**
 
-
-
 * Yaml: **N-tuetaerj28, N-kannwl28**
-
-
 
 * Yaml: **N-kannwl28**
 gradation= yes
 
-
-
 * Yaml: **N-kannwl28**
 gradation= no
 
-
-
 * Yaml: **N-pundar28**
-
-
-
 
 * Yaml: **N-pää29**
 
-
-
-
-
-
 * LEXICON NMN_30MAA/TUEUE  tüü:tüü
 * Yaml: **N-tueue30**
-
-
-
-
-
-
-
-
-
 
 *Noun 33 igä examples:*
 * *igä:* `igä+N+Sg+Nom`
@@ -1954,33 +1612,12 @@ gradation= no
 * *ikildäq:* `igä+N+Pl+Abe`
 * *ikigaq:* `igä+N+Pl+Com`
 
-
-
-
-
-
-
-
-
-
-
-
-
 * LEXICON NMN_35EGAE  egä:e%{kØ%}%{kg%}ä
-
-
-
-
-
 
 * LEXICON NMN_35UMA/PESAE  pesä:pe%{sØ%}sä
 
-
-
 nimi:nim
 * Yaml: **N-nimi**
-
-
 
 *nimi examples:*
 * *nimi:* `nimi+N+Sg+Nom`
@@ -2010,12 +1647,7 @@ nimi:nim
 * *nimildäq:* `nimi+N+Pl+Abe`
 * *nimmigaq:* `nimi+N+Pl+Com`
 
-
-* +Err/Orth-no-pal:%^NoPAL        Harm-Neutr_SG-NOM  ;  no palatal
-
-
-
-
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no palatal
 
 *särǵ examples:*
 * *särǵ:* `särǵ+N+Sg+Nom`
@@ -2045,23 +1677,7 @@ nimi:nim
 * *särildäq:* `särǵ+N+Pl+Abe`
 * *särgigaq:* `särǵ+N+Pl+Com`
 
-
-
 * LEXICON NMN_36KWIK1/XX1   kõiḱ:kõi%{kØ%}%{kḱg%}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 **LEXICON NMN_46SWBWR **
 sõbõr:sõbõr
@@ -2069,14 +1685,10 @@ Oblique plural in o
 * Yaml: **N-swbwr36**
 derived from 36SAERG1
 
-
-
 kubõl:ku%{pb%}õl
 Oblique plural in õ
 * Yaml: **N-swbwr36**
 derived from 36SAERG1
-
-
 
 pini:pi%{nØ%}ni
 
@@ -2105,28 +1717,16 @@ pini:pi%{nØ%}ni
 * *pineldäq* `pini+N+Pl+Abe:`
 * *pinnegaq* `pini+N+Pl+Com:`
 
-
-
-
 pini:pi%{nØ%}ni
-
-
-
-
 
 pung:pung
 
 *Noun 38 pung examples:*
 
-
 * LEXICON NMN_38PULL1/VIKS1  pulĺ:pull
 * +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
 
-
-
 * +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
-
-
 
 *papṕ examples:*
 * *papṕ:* `papṕ+N+Sg+Nom`
@@ -2156,16 +1756,9 @@ pung:pung
 * *papõldaq:* `papṕ+N+Pl+Abe`
 * *pappegaq:* `papṕ+N+Pl+Com`
 
-
-
    * :%^VOWRaise%^StrGStem%^PAL        Harm-Neutr_SG-NOM  ;  pu̬u̬ḿ
 * +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
    * :%^VOWLower%^WGStem%^NoPAL%>i       SG-GEN_ZERO-STEM        ;  poomi
-
-
-
-
-
 
 kuld:kul%{dl%}
 
@@ -2194,37 +1787,10 @@ kuld:kul%{dl%}
 * *kullõldaq* `kuld+N+Pl+Abe:`
 * *kuldõgaq* `kuld+N+Pl+Com:`
 
-
-
-
-
-
 Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
 stem_vowel="o"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
-
-
 
 *juht́ examples:*
 * *juht́:* `juht́+N+Sg+Nom`
@@ -2254,38 +1820,10 @@ stem_vowel="o"
 * *juhõldaq:* `juht́+N+Pl+Abe`
 * *juhõgaq:* `juht́+N+Pl+Com`
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * :%^Pen%^PAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
 * +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
 
 * :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
-
-
-
-
-
-
-
-
-
 
 *kanarik # examples:*
 * *kanarik:* `kanarik+N+Sg+Nom`
@@ -2315,11 +1853,6 @@ stem_vowel="o"
 * *kanarigõldaq:* `kanarik+N+Pl+Abe`
 * *kanarigõgaq:* `kanarik+N+Pl+Com`
 
-
-
-
-
-
 *saslõḱ # examples:*
 * *saslõḱ:* `saslõḱ+N+Sg+Nom`
 * *saslõgi:* `saslõḱ+N+Sg+Gen`
@@ -2347,11 +1880,6 @@ stem_vowel="o"
 * *saslõgeniq:* `saslõḱ+N+Pl+Ter`
 * *saslõgeldaq:* `saslõḱ+N+Pl+Abe`
 * *saslõgegaq:* `saslõḱ+N+Pl+Com`
-
-
-
-
-
 
 *apriĺ # examples:*
 * *apriĺ:* `apriĺ+N+Sg+Nom`
@@ -2381,16 +1909,8 @@ stem_vowel="o"
 * *aprileldaq:* `apriĺ+N+Pl+Abe`
 * *aprilegaq:* `apriĺ+N+Pl+Com`
 
-
-
-
-
-
-
 * LEXICON NMN_44SWDA  sõda:sõ%{tØ%}%{tdØ%}a
 gradation: yes
-
-
 
 *sõda examples:*
 * *sõda:* `sõda+N+Sg+Nom`
@@ -2420,145 +1940,47 @@ gradation: yes
 * *sõtoldaq:* `sõda+N+Pl+Abe`
 * *sõtogaq:* `sõda+N+Pl+Com`
 
-
 * LEXICON NMN_45KANA/RIHAE  kana:ka%{nØ%}n%{ao%}
 * Yaml: **N-kana45**
-
 
 LEXICON NMN_46HAIN   jalg:jalg
 gradation: no
 
-
 LEXICON NMN_46TARK   jalg:jal%{gØ%}
 gradation: yes
 
-
 * LEXICON NMN_47ASI  asi:a%{sś%}%{jiØ%}
-
-
 
 * :%^NoPAL%^VowRM%>ö       PL-ALL_lE-STEM ;  IS THIS A REAL FORM?
 
-
 * LEXICON NMN_2KASUNUQ/ELAENUEQ  elänüq:elänü
-
-
 
 ### SINGULAR GENITIVE STEMS
 
-
-
-
 ### PLURAL ALLATIVE STEMS
-
-
 
 ### TAGS THAT CAN BE FOLLOWED BY CLITICS "K"
 ### PLURAL TAGS
 * +Use/NG+Err/Orth-no-q+Pl+Abe:%>ld%{aä%} K ;  no q
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### SINGULAR TAGS
-
-
-
 
 * +Use/NG+Err/Orth-no-q+Sg+Com:%>ga K ;  no q
 * +Use/NG+Err/Orth-no-q+Sg+Com:%>ga BACK_K ;  no q
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 LEXICON Harm-Neutr_SG-INE_hn  RARE
-
-
-
-
-
-
-
 
 ### TAGS THAT CANNOT BE FOLLOWED BY CLITICS
 
 ### CASES ONLY
 
-
-
-
-
-
-
-
-
-
-
-
-
 ### TAGS THAT CAN BE FOLLOWED BY CLITICS
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### TAGS WITH NO ADDED MORPHOLOGY THAT CANNOT BE FOLLOWED BY CLITICS
-
-
 
 digits
 
 * **LEXICON SASCont ** FROM NUMERALS, gives -aastanõ etc.
-
-
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/nouns.lexc)</small>
