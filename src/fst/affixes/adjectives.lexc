@@ -109,6 +109,11 @@ LEXICON A_9VETEL1
 :%{front%}     NMN_9KIPWN1/VETEL1 ;
 :%{front%}%^Pen%^WGStem%>a COMP ;
 
+LEXICON A_9ALLWV1
+!! * Yaml: **allwv1, kipwn1**
+:%{back%}     NMN_9ALLWV1/XX ;
+:%{back%}%^Pen%^WGStem%>i COMP ;
+
 LEXICON A_9VILLW
 !! * Yaml: **villw**
 :%{back%} NMN_9VILLW/XX ;
@@ -282,6 +287,9 @@ LEXICON A_23SUUR1
 
 LEXICON A_27PEHMEQ !pehmeq:pehm
 :%{front%}  NMN_27XX/PEHMEQ ;
+
+LEXICON A_27LAEMMI !lämmi:lämmi
+:%{front%}  NMN_27XX/LAEMMI ;
 
 LEXICON A_27HAPU
 :%{back%}  NMN_27HAPU ;

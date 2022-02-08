@@ -4,7 +4,12 @@ LEXICON Exceptions
 alla+Adv:alla ADV_ ;
 kah+Adv:kah ADV_ ;
 kaq+Adv:ka ADV_IN_q ;
+piaaigu+Adv:piaaigu ADV_ ;
+kaudu+Adv:kaudu ADV_ ;
 kuna+Adv+Interr:kuna ADV_ ;
+joht+Adv:joht ADV_ ;
+tuuläbi+Adv:tuuläbi ADV_ ;
+mille+Adv:mille ADV_ ;
 kooniq+Adv+Err/Orth-est:kuni ADV_ ;
 viil+Adv:viil ADV_ ;
 õnnõs+Adv:õnnõs ADV_ ;
@@ -20,6 +25,9 @@ sisest+Adv:sisest ADV_ ;
 mant+Adv:mant ADV_ ;
 muguq+Adv:mugu ADV_IN_q ;
 kestel+Adv+Use/NG+Err/Orth-est:kestel ADV_ ;
+ilosahe+v1+Adv:ilosahe ADV_ ;
+ilosahe+v2+Adv:ilusahe ADV_ ;
+muido+Err/Orth+Adv:mood́o ADV_ ;
 
 !! ### ADJECTIVES
 hüä+A+Sg+Nom:hüä K ; ! pesä type
@@ -106,6 +114,13 @@ Vana-Vigala+N+Prop+Sg+Gen:Vana-Vigala K ;
 !! ### NOUNS
 vaih+N+Sg+Nom:vahe K ;
 kiri+N+Sg+Ill+Err/Orth-back:kirja K ;
+sain+N+Sg+Gen+Use/NG+Err/Orth:saańa K ;!Räpinä murdõ vorḿ
+
+!! ### PROPER NOUNS
+Häädemeeste+N+Prop+Sem/Plc:Hääde#m%{front%} NMN_20MIIS1-PL_OBL ;
+la+N+Prop+Sem/Plc:la PROP_1HANS1A "article" ;
+Sri+N+Prop+Sem/Plc:Sri PROP_1HERRAE "" ;
+
 
 !! ### PLURAL NOUNS
 
@@ -128,6 +143,9 @@ säidse+Num+Sg+Nom:säidse%{front%} K ;
 säidse+v1+Num:säitsme%{front%} SG-GEN_ZERO-STEM ;
 säidse+v2+Num:säidsme%{front%} SG-GEN_ZERO-STEM ;
 
+katśkümmend+Num+Sg+Nom:katśkümmend K ;
+katśkümmend+Num+Sg+Gen:katõkümne K ;
+
 
 !! ### POSTPOSITIONA
 pääleq+Po:pääle PO-IS-ALL_IN_q ;
@@ -139,14 +157,24 @@ hindä+Pron+Refl+Ela:hinnäst K ;
 tuu+Pron:tu PRON-DEM ;
 tää+Pron:tä PRON-DEM ;
 saq+Pron: PERS-SG2 ;
+kõiḱ+Pron+Sg+Ine:kõgõn K ;
 
 !! ### VERBS
 ei:e V_EI ;
 olõma+V+Act+Ind+Prs+Sg3+Err/Orth-est:on K ;
+elämä+V+Act+Ind+Prs+Pl3+Err/Orth:elässeq K ;
+
+
+ajama+V+Act+Ind+Prt+ScSg1:ai%{back%} K ;
+ajama+V+Act+Ind+Prt+ScSg3:ai%{back%} K ;
 
 !! andma **to give/antaa**
 andma+V:an%{back%} PSS-IND-SG1_dX/SG3_dX ;
 andma+V+Pss+Ind+Prt+Sg3:anti K ; !CHECKME
+!andma+V+PssPrtPrc+Sg+Nom:ant K ;
+
+!pandma+V+PssPrtPrc+Pl+Nom:pantuq K ;
+
 
 !! kündma **to plow/kyntää**
 kündmä+V:kün%{front%} PSS-IND-SG1_dX/SG3_dX ;
