@@ -121,4 +121,8 @@ by .:, and with reduced case forms. The Err/Orth tag is added in the calling lex
 * **LEXICON ARABICCOMPOUNDS**  ! arabic as first part,
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-vro/blob/main/../src/fst/affixes/numerals.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/numerals.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/numerals.lexc)</small>
+
+---
+

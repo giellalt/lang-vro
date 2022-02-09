@@ -150,4 +150,8 @@ Correction rules
 **lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-vro/blob/main/../src/cg3/dependency.cg3)</small>
+
+<small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt/lang-vro/blob/main/src/cg3/dependency.cg3)</small>
+
+---
+
