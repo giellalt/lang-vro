@@ -4,7 +4,8 @@ LEXICON Exceptions
 alla+Adv:alla ADV_ ;
 kah+Adv:kah ADV_ ;
 kaq+Adv:ka ADV_IN_q ;
-piaaigu+Adv:piaaigu ADV_ ;
+piaaigo+v1+Adv:piaaigo ADV_ ;
+piaaigo+v2+Adv:piaaigu ADV_ ;
 kaudu+Adv:kaudu ADV_ ;
 kuna+Adv+Interr:kuna ADV_ ;
 joht+Adv:joht ADV_ ;
@@ -28,6 +29,8 @@ kestel+Adv+Use/NG+Err/Orth-est:kestel ADV_ ;
 ilosahe+v1+Adv:ilosahe ADV_ ;
 ilosahe+v2+Adv:ilusahe ADV_ ;
 muido+Err/Orth+Adv:mood́o ADV_ ;
+säälhulgan+Adv:säälhulgan ADV_ ;
+innekõgõ+Adv:innekõgõ ADV_ ;
 
 !! ### ADJECTIVES
 hüä+A+Sg+Nom:hüä K ; ! pesä type
@@ -120,7 +123,20 @@ sain+N+Sg+Gen+Use/NG+Err/Orth:saańa K ;!Räpinä murdõ vorḿ
 Häädemeeste+N+Prop+Sem/Plc:Hääde#m%{front%} NMN_20MIIS1-PL_OBL ;
 la+N+Prop+Sem/Plc:la PROP_1HANS1A "article" ;
 Sri+N+Prop+Sem/Plc:Sri PROP_1HERRAE "" ;
-
+Wilde+N+Prop:Wilde PROP_8WILDE ;
+Lawrence:Lawrence PROP_8WILDE ;
+Shakespeare:Shakespeare PROP_8DRAKE ;
+Cambridge:Cambridge PROP_8DRAKE ;
+Drake:Drake PROP_8DRAKE ;
+Belize:Belize PROP_8DRAKE ;
+Sorbonne:Sorbonne PROP_8WILDE ;
+Place:Place PROP_8DRAKE ;
+Orangž:Orangž PROP_8WILDE ;
+Gaulle:Gaulle PROP_8WILDE ;
+Browne:Browne PROP_8WILDE ;
+Bretagne:Bretagne PROP_8WILDE ;
+Yellowstone:Yellowstone PROP_8WILDE ;
+Woolsthorpe:Woolsthorpe PROP_8WILDE ;
 
 !! ### PLURAL NOUNS
 
@@ -146,6 +162,21 @@ säidse+v2+Num:säidsme%{front%} SG-GEN_ZERO-STEM ;
 katśkümmend+Num+Sg+Nom:katśkümmend K ;
 katśkümmend+Num+Sg+Gen:katõkümne K ;
 
+katśtõistkümmend+Num+Sg+Nom:katśtõistkümmend K ;
+katśtõistkümmend+Num:katõ NUM_TWIST ;
+katõtõistkümnes+A+Sg+Nom:katõ#tõist#kümnes K ;
+
+ütśtõistkümmend+Num+Sg+Nom:ütśtõistkümmend K ;
+ütśtõistkümmend+Num:üte NUM_TWIST ;
+ütetõistkümnes+A+Sg+Nom:üte#tõist#kümnes K ;
+
+viiśtõistkümmend+Num+Sg+Nom:viiś#tõist#kümmend K ;
+viiśtõistkümmend+Num:viie NUM_TWIST ;
+kuuśtõistkümmend+Num+Sg+Nom:kuuś#tõist#kümmend K ;
+kuuśtõistkümmend+Num:kuvvõ NUM_TWIST ;
+
+ütessätõistkümmend+Num+Sg+Nom:ütessätõistkümmend K ;
+ütessätõistkümmend+Num+Sg+Nom:ütessä NUM_TWIST ;
 
 !! ### POSTPOSITIONA
 pääleq+Po:pääle PO-IS-ALL_IN_q ;
