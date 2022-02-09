@@ -2757,6 +2757,29 @@ LEXICON NMN_8DOLLAR1/EEDER1-PL
 +Use/NG+Err/Orth:%^NoPAL%>ii      PL-PAR_d        ;
 +Use/NG+Err/Orth:%^NoPAL%>iid%{eõ%}      PL-COM        ;
 
+!LEXICON NMN_8WILDE/DRAKE
+!!! * Yaml: __N-dollaŕ__
+!  NMN_8WILDE/DRAKE-SG ;
+!  NMN_8WILDE/DRAKE-PL ;
+
+
+LEXICON NMN_8WILDE/DRAKE-SG 
+:%^PAL        Harm-Neutr_SG-NOM  ;
++Err/Orth-no-pal:%^NoPAL        Harm-Neutr_SG-NOM  ;
+:%^NoPAL'i        SG-GEN_ZERO-STEM       ;
+:%^NoPAL'i        Harm-Neutr_SG-PAR_t        ;
+:%^NoPAL'i        Harm-Neutr_SG-ILL_he       ;
+
+:%^NoPAL'i        SG-ILL_dE       ;
+
+LEXICON NMN_8WILDE/DRAKE-PL 
+:%^NoPAL'i        Harm-Neutr_PL-NOM ;
+:%^NoPAL'i     Harm-Neutr_PL-GEN_dE ;
+:%^NoPAL'i        PL-ILL_he       ;
+:%^NoPAL'i        PL-ALL_lE-STEM       ;
+:%^NoPAL'i      PL-PAR_t        ;
+:%^NoPAL'i%>d%{eõ%}      PL-COM        ;
+
 !LEXICON NMN_8AASTAK !!= * @OCDE@ aastak:aasta%{kg%}
 !!€gt-norm:  Noun 10 aastak 
 !!€  aastak: aastak+N+Sg+Nom
@@ -4839,11 +4862,11 @@ LEXICON NMN_20MIIS1-PL_OBL
 :e%>hi             PL-ALL_lE-STEM ;
 :e%>hi   PL-COM ;
 
-+Use/NG+Err/Orth:i̬i̬s%>te            PL-GEN_ZERO ;
++Use/NG+Err/Orth:i̬i̬%^VOWLowers%>te            PL-GEN_ZERO ;
 +Use/NG+Err/Orth:e%>hi            Harm-Neutr_PL-ILL_ZERO ;
 +Use/NG+Err/Orth:e%>hi            PL-ILL_dE ;
-+Use/NG+Err/Orth:i̬i̬s%>te             PL-ALL_lE-STEM ;
-+Use/NG+Err/Orth:i̬i̬s%>te PL-COM ;
++Use/NG+Err/Orth:i̬i̬%^VOWLowers%>te             PL-ALL_lE-STEM ;
++Use/NG+Err/Orth:i̬i̬%^VOWLowers%>te PL-COM ;
 
 !LEXICON NMN_21HUEDSI !!= * @CODE@ hüdsi:hü%{tdØ%}s
 !!! * Yaml: __N-huedsi21__ hüdsi+N:hü

@@ -1499,7 +1499,7 @@ Vow: _  %{pbv%}: (HarmDummiesVar) [ %^G1: |%^G2: | %^G3: |%^CC2C:] ;
 !! **@RULENAME@**
  Cx:Cy <=>
   _ Cy (HarmDummiesVar) PenVOWHite [ %^G3: |%^G4: |%^StrGStem:] ;
-  _ Cy [Vow:|ArchVow:] (Cns: | ArchCns: |%{ij%}:) (HarmDummiesVar) %^Pen: [%^G3:|%^G4: |%^StrGStem:]  ;
+  _ Cy [Vow:|ArchVow:] (Cns: | ArchCns: |%{ij%}:) (HarmDummiesVar) PenVOWHite %^Pen: [%^G3:|%^G4: |%^StrGStem:]  ;
 ! Cy _ Vow: (Cns: | ArchCns: |%{ij%}:) (HarmDummiesVar) %^Pen: %^G2:  ;
      where Cx in (%{lØ%} %{mØ%} %{rØ%} %{vØ%}) 
      	   Cy in ( l       m      r      v) matched ;
