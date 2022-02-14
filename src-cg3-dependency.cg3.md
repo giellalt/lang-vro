@@ -94,7 +94,6 @@ IM For fao
 * @FS-<SUBJ : finite verb in subclause functioning as subject
 * @FS-ADVL> : finite verb in subclause functioning as adverbial to the left of the main clause
 * @FS-<ADVL : finite verb in subclause functioning as adverbial to the right of the main clause
-* @FS-ACC>> : finite verb in subclause, object of speechact verb
 * @S< : a clause modifying a sentence to the right of it
 * @FS-ADVL : finite verb in subclause ...
 * @-FS-<ADVL : infinite subclause - eus
@@ -150,8 +149,4 @@ Correction rules
 **lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
 
 * * *
-
 <small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt/lang-vro/blob/main/src/cg3/dependency.cg3)</small>
-
----
-

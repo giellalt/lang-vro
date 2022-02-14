@@ -106,6 +106,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
 ## Palatalization of consonants
 ```
  %{bb́%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{cć%}:c    — HJK and KimmoK ideas Isaać:Isaa%{cć%}:ci
  %{dd́%}:d    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{ff́%}:f    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{gǵ%}:g    — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -582,6 +583,10 @@ joudma+V+Act+Ind+Prt+Sg1
 * *sü%{üv%}%{dv%}%{front%}%^WGStem%>ä*
 * *süvv00%>ä*
 
+* examples:*
+
+* examples:*
+
 **%^I7:i**
 * *va%^I7o%^StrGStem%>i*
 * *vaio0%>0*
@@ -662,6 +667,10 @@ igä+N+Sg+Ill
 kakma
 * *ka%{kØ%}%{kḱ%}u%{back%}%^VowRM%^PAL*
 * *kakḱ0000*
+
+**%{cć%}:ć**
+
+**%{cć%}:c**
 
 ### Consonant weakening 
 

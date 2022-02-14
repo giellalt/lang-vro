@@ -172,7 +172,7 @@ LEXICON N_20VAEITS1  väitś:väits
 
 LEXICON N_20KUEUEDS1  küüdś:küüds
 
-LEXICON N_20MIIS1  miiś:m%{ei%}%{ei%}
+LEXICON N_20MIIS1  miiś:m
 
 LEXICON N_21HUEDSI  hüdsi:hü
 
@@ -1308,8 +1308,6 @@ LEXICON NMN_11ANNWQ/LAETEQ  läteq:lä%{tØ%}te
 * *rebäsiniq* `repäń+N+Pl+Ter:`
 * *rebäsildäq* `repäń+N+Pl+Abe:`
 * *rebäsidegaq* `repäń+N+Pl+Com:`
-
-**N-repaenj12**
 
 **N-repaenj12**
 
