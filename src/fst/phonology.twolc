@@ -6,8 +6,8 @@
 
 
 Alphabet
-a b d e f g h i j k l m n o p q r s š t u v y z ž õ ü ä ö
-A B D E F G H I J K L M N O P Q R S Š T U V Y Z Ž Õ Ü Ä Ö
+a b c d e f g h i j k l m n o p q r s š t u v y z ž õ ü ä ö
+A B C D E F G H I J K L M N O P Q R S Š T U V Y Z Ž Õ Ü Ä Ö
 
 ́ ! U+0301 instead of the following two lines (testing)
 
@@ -23,8 +23,8 @@ B́ D́ F́ H́ T́ V́
 
  ʼ
 
- ǵ ḱ ĺ ḿ ń ṕ ŕ ś ź
- Ǵ Ḱ Ĺ Ḿ Ń Ṕ Ŕ Ś Ź
+ ǵ ḱ ĺ ḿ ń ṕ ŕ ś ź ć
+ Ǵ Ḱ Ĺ Ḿ Ń Ṕ Ŕ Ś Ź Ć
 
 
 !! ## Special letters
@@ -132,6 +132,7 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
 !! ## Palatalization of consonants
 !! ```
  %{bb́%}:b   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{cć%}:c   !!= @CODE@ — HJK and KimmoK ideas Isaać:Isaa%{cć%}:ci
  %{dd́%}:d   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{ff́%}:f   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{gǵ%}:g   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -1109,7 +1110,10 @@ Rules
 !!€ püvv00%>et
 !!€ sü%{üv%}%{dv%}%{front%}%^WGStem%>ä
 !!€ süvv00%>ä
-         ö _ [ %{dd́v%}:|%{gǵv%}:] (HarmDummiesVar) %^WGStem: ;
+         ö _ [ %{dd́v%}:|%{gǵv%}:] (HarmDummiesVar) VOWHite %^WGStem: ;
+!!löüdmä+V+PssPrtPrc+Sg+Nom
+!!€lö{üv}{dd́v}{front}^VOWLower^WGStem^NoPAL>{eõ}t
+!!€lövv0000>et
 
 "%^I7:i"
 !! **@RULENAME@**
@@ -1257,6 +1261,16 @@ Vow: _ [ t |%{tt́%}: ] Vow: (HarmDummiesVar) PenVOWHite %^Pen: %^StrGStem: ;
 !! kakma
 !!€ ka%{kØ%}%{kḱ%}u%{back%}%^VowRM%^PAL
 !!€ kakḱ0000
+
+"%{cć%}:ć"
+!! **@RULENAME@**
+ %{cć%}:ć <=> _ (HarmDummiesVar) GRAD  %^PAL: ;
+!Isaać
+
+"%{cć%}:c"
+!! **@RULENAME@**
+ %{cć%}:c <=> _ (HarmDummiesVar) GRAD %^NoPAL: ;
+
 
 
 !! ### Consonant weakening 

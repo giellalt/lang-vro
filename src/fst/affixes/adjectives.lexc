@@ -262,7 +262,7 @@ LEXICON A_22VAEHAEKENE !!= @CODE@ võrokõnõ:võrokõ
 
 LEXICON A_23NUUL1
 :%{back%}  NMN_23NUUL1/KIIL1 ;
-:%{back%}%^NoPALõ COMP ;
+:%{back%}%^VOWLower%^NoPALõ COMP ;
 
 LEXICON A_23SUUR1
 :%{back%}  NMN_23SUUR1 ;
@@ -270,7 +270,7 @@ LEXICON A_23SUUR1
 
 !LEXICON A_23KIIL1
 !:%{front%}  NMN_23NUUL1/KIIL1 ;
-!:e%{front%} COMP ;
+!:%^VOWLower%^NoPAL%>e%{front%} COMP ;
 
 
 !LEXICON A_24KAESI
