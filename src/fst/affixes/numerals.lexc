@@ -6,6 +6,16 @@
 LEXICON NUM-SG-NOM_
 +Sg+Nom: # ;
 
+LEXICON NUM_SADA_SG_OBL
++Sg+Ela:st#saast K ;
++Sg+Gen:#saa K ;
++Sg+Ter:#saani K ;
+
+LEXICON NUM_TWIST_OBL
++Sg+Ela:st#tõist#kümnest K ;
++Sg+Gen:#tõist#kümne K ;
++Sg+Ter:#tõist#kümneni K ;
+
 !LEXICON NUM_1HANS1A !!= @CODE@ 1 hanśa:hanśa
 !        NUM_1HANS1A-SG ;
 !        NUM_1HANS1A-PL ;
@@ -1309,11 +1319,6 @@ LEXICON ARABICCOMPOUNDS   !!≈ * **@CODE@**  ! arabic as first part,
                     ! variants, otherwise the PLX lexicon size explodes
 +Cmp/Hyph+Cmp#:∑-»»# SASCont ; !6-jahkásaš
 !+Use/NG: RHyph ; ! 3-
-
-LEXICON NUM_TWIST
-+Sg+Ela:st#tõist#kümnest K ;
-+Sg+Gen:#tõist#kümne K ;
-+Sg+Ter:#tõist#kümneni K ;
 
 
 
