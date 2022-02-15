@@ -4822,15 +4822,15 @@ LEXICON NMN_20MIIS1-PL
 :e%>he%{front%}      Harm-Neutr_PL-NOM ;
  NMN_20MIIS1-PL_OBL ;
 LEXICON NMN_20MIIS1-PL_OBL 
-:e%>hi%{front%}             PL-GEN_ZERO ;
-:e%>hi%{front%}            Harm-Neutr_PL-PAR_ZERO ;
-:e%>hi%{front%}            PL-ILL_he ;
-:e%>hi%{front%}             PL-ALL_lE-STEM ;
-:e%>hi%{front%}   PL-COM ;
+:ii%>hi%{front%}             PL-GEN_ZERO ;
+:ii%>hi%{front%}            Harm-Neutr_PL-PAR_ZERO ;
+:ii%>hi%{front%}            PL-ILL_he ;
+:ii%>hi%{front%}             PL-ALL_lE-STEM ;
+:ii%>hi%{front%}   PL-COM ;
 
 +Use/NG+Err/Orth:ees%{front%}%>te            PL-GEN_ZERO ;
-+Use/NG+Err/Orth:e%>hi%{front%}            Harm-Neutr_PL-ILL_ZERO ;
-+Use/NG+Err/Orth:e%>hi%{front%}            PL-ILL_dE ;
++Use/NG+Err/Orth:ii%>hi%{front%}            Harm-Neutr_PL-ILL_ZERO ;
++Use/NG+Err/Orth:ii%>hi%{front%}            PL-ILL_dE ;
 +Use/NG+Err/Orth:ees%{front%}%>te             PL-ALL_lE-STEM ;
 +Use/NG+Err/Orth:ees%{front%}%>te PL-COM ;
 
@@ -6548,6 +6548,11 @@ LEXICON NMN_40UJA/XX-PL
 :%^Pen%^WGStem%^VowRM%{aä%}    PL-ALL_lE-STEM ;
 :%^Pen%^StrGStem%^VowRM%{eõ%}    PL-ALL_lE-STEM ;
 :%^Pen%^StrGStem%^VowRM%{aä%}    PL-ALL_lE-STEM ;
+:%^Pen%^StrGStem%^VowRM%{eõ%}    PL-ILL_dE ;
+:%^Pen%^StrGStem%^VowRM%{aä%}    PL-ILL_dE ;
+:%^Pen%^StrGStem%^VowRM%{eõ%} PL-COM ;
+:%^Pen%^StrGStem%^VowRM%{aä%} PL-COM ;
+
 
 !LEXICON NMN_41KAND !!= @CODE@ kand:kand
 !  NMN_41KAND-SG ;
