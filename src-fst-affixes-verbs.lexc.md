@@ -55,7 +55,7 @@ ehitelemä:ehitell
 
 * :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
 * :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
-* :%^VOWRaise ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
+* :%^VOWRaise ACT_IND_PRS_3_s/sEq ;  (5) RAISED jääs jääseq 
 
 *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
@@ -67,7 +67,7 @@ ehitelemä:ehitell
 
 * :%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
 * :%>e V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
-* :%>e ACT-IND-PRS-3_s/sEq ;  (5) RAISED jääs jääseq 
+* :%>e ACT_IND_PRS_3_s/sEq ;  (5) RAISED jääs jääseq 
 
 * :%>e ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
@@ -152,13 +152,13 @@ Based on 59KAOTAMA
 
 +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
 
-* :%^VOWRaise%^WGStem%^NoPAL%>i   ACT-IND-PRT-SG1_ZERO/SG2_q/PL3_q ;  kaodi
+* :%^VOWRaise%^WGStem%^NoPAL%>i   ACT_IND_PRT_SG1_ZERO/SG2_q/PL3_q ;  kaodi
 +Act+Ind+Prt+Sg1, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
 
 +Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
-* :%^VOWRaise%^StrGStem%^NoPAL%>i Harm-Neutr_ACT-IND-PRT-SG2_USUALLY-STRONG ;  kaoti
+* :%^VOWRaise%^StrGStem%^NoPAL%>i Harm-Neutr_ACT_IND_PRT_SG2_USUALLY-STRONG ;  kaoti
 +Act+Ind+Prt+Sg2, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
 +Act+Ind+Prt+Pl2, +Use/NG+Err/Orth+Act+Ind+Prt+Pl3
 
@@ -294,12 +294,12 @@ vala, valla, vali, valõ
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 
 * :%^Pen%^G3 Harm-Neutr_INF_ZEROq ;  (2) lukõq
-* :%^Pen%^G3 Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
+* :%^Pen%^G3 Harm-Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) lukõv
 Inf, Act+PrsPrc+Sg+Nom
 
 Pss+PrfPrc, Pss+PrsPrc
 
-* :%^Pen%^G2 ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
+* :%^Pen%^G2 ACT_IND_PRS_SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
 
 Retain consonant and stem vowel
@@ -328,14 +328,14 @@ Act+Ind+Prt+Sg3
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 
 * :%^Pen%^G3 Harm-Neutr_INF_ZEROq ;  (2) lukõq
-* :%^Pen%^G3 Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) lukõv
+* :%^Pen%^G3 Harm-Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) lukõv
 Inf, Act+PrsPrc+Sg+Nom
 
 Pss+PrfPrc, Pss+PrsPrc
 
 * :%^Pen%^VOWLower%^Pen%^WGStem%^VowRMe Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
 
-*  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
+*  ACT_IND_PRS_SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
 
 Retain consonant and stem vowel
@@ -375,7 +375,7 @@ Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
 Retain consonant and stem vowel
-*  ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) lugõma
+*  ACT_IND_PRS_SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
 
 Weaken consonant and replace stem vowel with i
@@ -401,7 +401,7 @@ Act+Ind+Prt+Sg3
 
 * :%^VOWRaise%^VowRM%>vv V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  (3) juvv
 
-* :%^VOWRaise ACT-IND-PRS-SG3_ZERO ;  (5) RAISED juu süü
+* :%^VOWRaise ACT_IND_PRS_SG3_ZERO ;  (5) RAISED juu süü
 *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
 *  Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
@@ -429,7 +429,7 @@ Act+Ind+Prt+Sg3
 
 * :%^VowRM%>ve V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  (4) käve
 
-*  ACT-IND-PRS-SG3_ZERO ;  (5) RAISED käü
+*  ACT_IND_PRS_SG3_ZERO ;  (5) RAISED käü
 
 *  ACT-IND-PRS-PL3_vAq ;  (6) käüväq
 
@@ -454,7 +454,7 @@ Remainder is in exceptions.lexc
 Retain consonant and stem vowel
 
 * :l Harm-Neutr_INF_Aq ;  (2) tullaq
-* :l%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) tullõv
+* :l%>%{eõ%} Harm-Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) tullõv
 Act+PrsPrc+Sg+Nom
 
 * **LEXICON V_79PURWMA** purõma:pur
@@ -473,7 +473,7 @@ Strengthen consonant
 * :%^StrGStem Harm-Neutr_INF_Aq ;  (2) purraq
 Inf 
 Strengthen consonant 
-* :%^StrGStem%>%{eõ%} Harm-Neutr_ACT-PRSPRC-SG-NOM_v ;  (2b) purrõv
+* :%^StrGStem%>%{eõ%} Harm-Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) purrõv
 Act+PrsPrc+Sg+Nom
 
 Retain consonant and stem vowel
@@ -486,7 +486,7 @@ Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
 Retain consonant and stem vowel
-* :%{eõ%} ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) purõma
+* :%{eõ%} ACT_IND_PRS_SG3_ZERO/PL3_vAq ;  (6) purõma
 Ind+Prs+ 3
 
 Strengthen consonant and replace stem vowel with i
@@ -515,7 +515,7 @@ Strengthen consonant
 * :t%>%{aä%} Harm-Neutr_INF_ZEROq ;  (2) rapahutaq
 Inf 
 Strengthen consonant 
-* :t Harm-Neutr_ACT-PRSPRC-SG-NOM_vA ;  (2b) rapahutva
+* :t Harm-Neutr_ACT_PRSPRC_SG_NOM_vA ;  (2b) rapahutva
 Act+PrsPrc+Sg+Nom
 
 Retain consonant and stem vowel
@@ -533,7 +533,7 @@ Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
 Retain consonant and stem vowel
-* :t ACT-IND-PRS-SG3_ZERO/PL3_vAq ;  (6) rapahut
+* :t ACT_IND_PRS_SG3_ZERO/PL3_vAq ;  (6) rapahut
 Ind+Prs+ 3
 
 Strengthen consonant and replace stem vowel with i
@@ -541,7 +541,7 @@ Strengthen consonant and replace stem vowel with i
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Strengthen consonant and add ʼ
-* : ACT-IND-PRT-SG3_t-PAL ;  (8) rapahut́ and error rapahut
+* : ACT_IND_PRT_SG3_t-PAL ;  (8) rapahut́ and error rapahut
 Act+Ind+Prt+Sg3
 
 * **LEXICON V_81TEGEMAE** tegemä:t
@@ -733,11 +733,11 @@ sõida
 
 ### SETS BY CONSONANT QUALITY
 
-* : Harm-Neutr_ACT-IND-PRS-SG2_USUALLY-STRONG ;  kaota
+* : Harm-Neutr_ACT_IND_PRS_SG2_USUALLY-STRONG ;  kaota
 +Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
-* : ACT-IND-PRS-3_s/sEq ;  
+* : ACT_IND_PRS_3_s/sEq ;  
 +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
 
 ### INDICATIVE PRESENT SUBJECT CONJUGATION
@@ -791,7 +791,7 @@ CHECK THIS
 
 PASSIVE DISTRIBUTION
 * Harm-Neutr_NÕSTMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
-* Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
+* Harm-Neutr_KAOTAMA-PSS_PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>di K ;  no q
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>did%{eõ%} K ;  no q
@@ -800,8 +800,8 @@ PASSIVE DISTRIBUTION
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>di K ;  no q
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>div%{aä%} K ;  no q
 
-* Harm-Neutr_V0-PSS-PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
-* Harm-Neutr_KAOTAMA-PSS-PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
+* Harm-Neutr_V0_PSS_PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
+* Harm-Neutr_KAOTAMA-PSS_PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
 * +Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;  no q
 * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;  no q
