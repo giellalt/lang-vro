@@ -4,20 +4,29 @@
 LEXICON K
  ENDLEX ;
 +Clt:%>kin%{aä%}q ENDLEX ;
++Clt+Err/Orth-no-q:%>kin%{aä%} ENDLEX ;
 +Clt:%>kiq ENDLEX ;
-+Clt:%>gi ENDLEX ;!CHECKME
++Clt+Err/Orth-no-q:%>ki ENDLEX ;
++Clt:%>giq ENDLEX ;!CHECKME
++Clt+Err/Orth-no-q:%>gi ENDLEX ;!CHECKME
 +Err/Orth+Clt:%^ErrorBack%>kinaq ENDLEX ;
++Err/Orth+Clt+Err/Orth-no-q:%^ErrorBack%>kina ENDLEX ;
 
 LEXICON BACK_K
  ENDLEX ;
 +Clt:%>kinaq ENDLEX ;
++Clt+Err/Orth-no-q:%>kina ENDLEX ;
 +Clt:%>kiq ENDLEX ;
++Clt+Err/Orth-no-q:%>ki ENDLEX ;
 
 LEXICON FRONT_K
  ENDLEX ;
 +Clt:%>kinäq ENDLEX ;
++Clt+Err/Orth-no-q:%>kinä ENDLEX ;
 +Err/Orth+Clt:%>kinaq ENDLEX ; ! THIS WILL NEED WORK 2016-08-27
++Err/Orth+Clt+Err/Orth-no-q:%>kina ENDLEX ; ! THIS WILL NEED WORK 2016-08-27
 +Clt:%>kiq ENDLEX ;
++Clt+Err/Orth-no-q:%>ki ENDLEX ;
 
 ! Final lexicon
 ! =============

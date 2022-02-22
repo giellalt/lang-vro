@@ -21,8 +21,8 @@ LEXICON V_48KASUMA/XX
 :%^WGStem%>%{uü%} Harm-Neutr_INF_mA ;
 
 ! (2) II tegonimi: 
-:%>%{uü%} Harm-Neutr_INF_ZEROq ;
-:%>%{uü%} Harm-Neutr_ACT-PRSPRC_v ;
+:%^StrGStem%>%{uü%} Harm-Neutr_INF_ZEROq ;
+:%^StrGStem%>%{uü%} Harm-Neutr_ACT-PRSPRC_v ;
 
 ! (3) tekev tm aktiiv: 
 :%^WGStem%>%{uü%} Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
@@ -468,8 +468,14 @@ LEXICON V_53KAEMA/XX !!≈ * **@CODE@** kaema:ka
 :%>e ACT-IND-PRS-PL3_vAq ; !!= * @CODE@ (6) joovaq sööväq
 :%>e MUTUAL_JUS_guq ;
 
-!LEXICON V_54ISTMA !!≈ * __@CODE@__ 
+LEXICON V_54ISTMA !!≈ * __@CODE@__ 
+:%{back%} V_54ISTMA/LEPMAE ;
+LEXICON V_54LEPMAE !!≈ * __@CODE@__ 
+:%{front%} V_54ISTMA/LEPMAE ;
+LEXICON V_54ISTMA/LEPMAE !!≈ * __@CODE@__ 
 !+WORK: # ;
++Inf/mA:%^Pen%^CC2C%>m%{aä%} K ;
++Ind+Prs+ScSg3:%^Pen%^WGStem%>s K ;
 
 LEXICON V_55KWNWLWMA !!≈ * **@CODE@** kõnõlõma:kõ̭nõl
 !! * Yaml: **kwnwlwma55**
@@ -1596,8 +1602,8 @@ LEXICON V_74KULUMA/VAESUEMAE !!≈ * **@CODE@** kuluma:kullu
 :%^Pen%^WGStem Harm-Neutr_INF_mA ;
 
 ! (2) II tegonimi: 
- Harm-Neutr_INF_ZEROq ;
- Harm-Neutr_ACT-PRSPRC_v ;
+:%^Pen%^StrGStem Harm-Neutr_INF_ZEROq ;
+:%^Pen%^StrGStem Harm-Neutr_ACT-PRSPRC_v ;
 
 ! (3) tekev tm aktiiv: 
 :%^Pen%^WGStem Harm-Neutr_ACT-PRFPRC_WEAKGRADE-nUq ;
@@ -1627,7 +1633,7 @@ LEXICON V_74KULUMA/VAESUEMAE !!≈ * **@CODE@** kuluma:kullu
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^StrGStem ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 ! (8) min 3. k tä:
-:%^Pen%^StrGStem ACT_IND_PRT_SG3_ZERO ;
+:%^Pen%^StrGStem%^VowRM%>%{eõ%} ACT_IND_PRT_SG3_ZERO ;
 ! (9) jus: 
 
  ACT-IND-PRT-1/2_ZERO ;
@@ -4517,11 +4523,13 @@ LEXICON Harm-Neutr_V0_PSS_PRSPRC_dAv
 
 LEXICON Harm-Neutr_KAOTAMA-PSS_PRFPRC_t
 +Pss+PrfPrc:%>t K ;
++Pss+PrfPrc:%>d%{uü%} Harm-Neutr_COMP ;
+!+Pss+PrfPrc:%{td%} NMN_10RAAMAT/LEMBIT ; CHECKME
+
 +Pss+PrfPrc+Sg+Nom:%>t K ;
 +Pss+PrfPrc+Sg+Gen:%>d%{uü%} K ;
-+Pss+PrfPrc:%>d%{uü%} Harm-Neutr_COMP ;
-+Pss+PrfPrc+Sg+Par:%>d%{uü%}t K ;
-+Pss+PrfPrc+Sg+Ill:%>d%{uü%}he K ;
++Pss+PrfPrc+Sg+Par:%>t%{uü%}t K ;
++Pss+PrfPrc+Sg+Ill:%>t%{uü%}he K ;
 PSS-PRFPRC-PL-NOM_dUq ;
 +Pss+PrfPrc+Pl+Gen:%>d%{uü%}id%{eõ%} K ;
 +Use/NG+Err/Orth+Pss+PrfPrc+Pl+Gen:%>d%{uü%}isi K ;

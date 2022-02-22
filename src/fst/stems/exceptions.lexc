@@ -1,6 +1,7 @@
 
 LEXICON Exceptions
 !! ### ADVERBS
+kõgõst+Adv:kõgõst ADV_ ;
 alla+Adv:alla ADV_ ;
 kah+Adv:kah ADV_ ;
 kaq+Adv:ka ADV_IN_q ;
@@ -36,6 +37,7 @@ alatõn+Adv:alatõn ADV_ ;
 
 
 !! ### ADJECTIVES
+sääne+A+Sg+Nom+Use/SpellNoSugg:säänä K ; !
 hüä+A+Sg+Nom:hüä K ; ! pesä type
 hüä+A:hüä%{front%} SG-GEN_ZERO-STEM ;
 hüä+A+Sg+Par:hüvvä%{front%} K ;
@@ -118,9 +120,11 @@ Vana-Vigala+N+Prop+Sg+Gen:Vana-Vigala K ;
 
 
 !! ### NOUNS
+miiś+N+Pl+Nom+Use/SpellNoSugg:miheq K ;
 vaih+N+Sg+Nom:vahe K ;
 kiri+N+Sg+Ill+Err/Orth-back:kirja K ;
 sain+N+Sg+Gen+Use/NG+Err/Orth:saańa K ;!Räpinä murdõ vorḿ
+terveqarv+N+Pl+Gen:tervide#arvõ K ;!both parts decline?
 
 !! ### PROPER NOUNS
 Häädemeeste+N+Prop+Sem/Plc:Hääde#m NMN_20MIIS1-PL_OBL ;
@@ -190,6 +194,10 @@ mitosada+v2+Num+Sg+Nom:mitusada K ;
 mitosada+v1+Num+Sg+Par:mitondsata K ;
 mitosada+v2+Num+Sg+Par:mitundsata K ;
 
+milĺon+Num+Sg+Nom:milĺon K ;
+milĺon+v1+Num+Sg+Par:milĺonit K ;
+milĺon+v2+Num+Sg+Par:miljonit K ;
+
 !! ### POSTPOSITIONA
 pääleq+Po:pääle PO-IS-ALL_IN_q ;
 
@@ -201,6 +209,20 @@ tuu+Pron:tu PRON-DEM ;
 tää+Pron:tä PRON-DEM ;
 saq+Pron: PERS-SG2 ;
 kõiḱ+Pron+Sg+Ine:kõgõn K ;
+kõiḱ+Pron+Sg+Ela:kõgõst K ;
+
+kiäkiq+Pron+Indef+Sg+Nom:kiä INDEF_kiq ;
+kiäkiq+Pron+Indef+Pl+Nom:kinkaq INDEF_kiq ;
+kiäkiq+Pron+Indef+Sg+Gen:kinka INDEF_giq ;
+kiäkiq+Pron+Indef+Sg+Com:kinkagaq INDEF_kiq ;
+kiäkiq+Pron+Indef+Sg+Com+Err/Orth-no-q:kinkaga INDEF_kiq ;
+kiäkiq+Pron+Indef+Sg+Par:kedä INDEF_giq ;
+kiäkiq+Pron+Indef+Sg+Ill:kinkahe INDEF_giq ;
+kiäkiq+Pron+Indef+Sg+Ela:kinkast INDEF_kiq ;
+kiäkiq+Pron+Indef+Sg+All:kinkalõ INDEF_giq ;
+kiäkiq+Pron+Indef+Sg+Ade:kinkal INDEF_giq ;
+
+
 
 !! ### VERBS
 ei:e V_EI ;
@@ -312,6 +334,7 @@ tegemä+V:tekḱ%{front%} ACT_IND_PRT_SG3_ZERO ;
 tegemä+V:te%{front%} MUTUAL_JUS_kuq ; 
 
 tegemä+V+Act+Ind+Prs+Pl1:teemiq%{front%} K ;
+tegemä+V+Ind+Prt+OcSg3:tett́e K ;!Räpinä murragu vorm
 
 !! tundma **to feel/tuntea**
 tundma+V:tun%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;
