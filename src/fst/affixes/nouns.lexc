@@ -419,6 +419,24 @@ LEXICON N_10ESAEK-SG
 LEXICON N_10ESAEK-PL
 :%{front%}     NMN_10HAIDAK/ESAEK-PL ;
 
+LEXICON N_10RAAMAT !!= @CODE@ raamat:raamat
+:%^G3 ATTESTED-NOUN-STEM-CONTINUED ;
+        N_10RAAMAT-SG ;
+        N_10RAAMAT-PL ;
+LEXICON N_10RAAMAT-SG
+:%{back%}     NMN_10RAAMAT/LEMBIT-SG ;
+LEXICON N_10RAAMAT-PL
+:%{back%}     NMN_10RAAMAT/LEMBIT-PL ;
+
+LEXICON N_10LEMBIT !!= @CODE@ esäk:esäk
+: ATTESTED-NOUN-STEM-CONTINUED ;
+        N_10LEMBIT-SG ;
+        N_10LEMBIT-PL ;
+LEXICON N_10LEMBIT-SG
+:%{back%}     NMN_10RAAMAT/LEMBIT-SG ;
+LEXICON N_10LEMBIT-PL
+:%{front%}     NMN_10RAAMAT/LEMBIT-PL ;
+
 !LEXICON N_10VIDRIK !!= @CODE@ vidrik:vidrik
 !!! gradation: no
 !: ATTESTED-NOUN-STEM-CONTINUED ;
@@ -2009,7 +2027,7 @@ LEXICON NMN_1HANS1A-PL
 +Use/NG+Err/Orth:%>sii PL-PAR_d ;
 +Use/NG+Err/Orth:%>dõ        PL-ILL_dE ;
 
-!LEXICON NMN_1VIU !!= @CODE@ 1 viu:viu
+!LEXICON NMN_1VIU !!= @CODE@ 1 viu:viu kakao
 !        NMN_1VIU-SG ;
 !        NMN_1VIU-PL ;
 LEXICON NMN_1VIU-SG
@@ -3525,6 +3543,62 @@ LEXICON NMN_10HAIDAK/ESAEK-PL
 !!€ esäkildäq: esäk+N+Pl+Abe
 !!€ esäkidegaq: esäk+N+Pl+Com
 
+!LEXICON NMN_10RAAMAT/LEMBIT !!= * @OCDE@ raamat:raama%{td%}
+!! Noun (10) perit
+!!€  perit: perit+N+Sg+Nom
+!!€  peridü: perit+N+Sg+Gen
+!!€  peritüt: perit+N+Sg+Par
+!!€  peritühe: perit+N+Sg+Ill
+!!€  peritün: perit+N+Sg+Ine
+!!€  peritüst: perit+N+Sg+Ela
+!!€  peritüle: perit+N+Sg+All
+!!€  peritül: perit+N+Sg+Ade
+!!€  peritült: perit+N+Sg+Abl
+!!€  peritüs: perit+N+Sg+Tra
+!!€  peritüniq: perit+N+Sg+Ter
+!!€  peritüldäq: perit+N+Sg+Abe
+!!€  peritügäq: perit+N+Sg+Com
+!!€  peridüq: perit+N+Pl+Nom
+!!€  peritide: perit+N+Pl+Gen
+!!€  peritit: perit+N+Pl+Par
+!!€  peritihe: perit+N+Pl+Ill
+!!€  peritin: perit+N+Pl+Ine
+!!€  peritist: perit+N+Pl+Ela
+!!€  peritile: perit+N+Pl+All
+!!€  peritil: perit+N+Pl+Ade
+!!€  peritilt: perit+N+Pl+Abl
+!!€  peritis: perit+N+Pl+Tra
+!!€  peritiniq: perit+N+Pl+Ter
+!!€  peritildäq: perit+N+Pl+Abe
+!!€  peritidegaq: perit+N+Pl+Com
+!! **N-hwrak10**
+!  NMN_10RAAMAT/LEMBIT-SG ;
+!  NMN_10RAAMAT/LEMBIT-PL ;
+LEXICON NMN_10RAAMAT/LEMBIT-SG 
+:%^StrGStem        Harm-Neutr_SG-NOM  ;
+:%^WGStem%>%{uü%}    SG-GEN_ZERO ;
+:%^StrGStem%>%{uü%}       Harm-Neutr_SG-ALL_lE-STEM        ;
+:%^StrGStem%>%{uü%}    Harm-Neutr_SG-PAR_t        ;
+:%^StrGStem%>%{uü%}       SG-ILL_dE       ;
+:%^StrGStem%>%{uü%}       Harm-Neutr_SG-ILL_he       ;
+:%^WGStem%>%{uü%} Harm-Neutr_SG-COM ;
+
+LEXICON NMN_10RAAMAT/LEMBIT-PL 
+:%^WGStem%>%{uü%}    Harm-Neutr_PL-NOM ;
+:%^StrGStem%>i    Harm-Neutr_PL-GEN_dE ;
+:%^StrGStem%>i        PL-ILL_he       ;
+:%^StrGStem%>i        PL-ALL_lE-STEM       ;
+:%^StrGStem%>i      PL-PAR_t        ;
+:%^StrGStem%>id%{eõ%}        PL-COM       ;
++Use/NG+Err/Orth:%^StrGStem%>ii    Harm-Neutr_PL-GEN_dE ;
++Use/NG+Err/Orth:%^StrGStem%>ii      PL-PAR_d        ;
++Use/NG+Err/Orth:%^StrGStem%>ii        PL-ILL_he       ;
++Use/NG+Err/Orth:%^StrGStem%>i        PL-ILL_dE       ;
++Use/NG+Err/Orth:%^StrGStem%>ii        PL-ILL_dE       ;
++Use/NG+Err/Orth:%^StrGStem%>ii        PL-ALL_lE-STEM       ;
++Use/NG+Err/Orth:%^StrGStem%>iid%{eõ%}       PL-COM       ;
+
+
 !LEXICON NMN_10VIDRIK !!= * @OCDE@ vidrik:vidrik
 !!€gt-norm:  Noun 10 vidrik 
 !!€  vidriku: vidrik+N+Sg+Nom
@@ -3642,7 +3716,7 @@ LEXICON NMN_10AABITS/HEERITS-PL
 !LEXICON NMN_10HEERITS
 !!= * @OCDE@ heerits:heerits
 !! vowel_harmony: ONLY FRONT
-!!  **N-esaek10**
+!!  **N-lembit10**
 !  NMN_10HEERITS-SG ;
 !  NMN_10HEERITS-PL ;
 !LEXICON NMN_10HEERITS-SG 
@@ -3772,7 +3846,7 @@ LEXICON NMN_10AMMAT1-PL
 :%^StrGStem%^NoPAL%>i        PL-ILL_he       ;
 :%^StrGStem%^NoPAL%>i        PL-ALL_lE-STEM       ;
 :%^StrGStem%^NoPAL%>i      PL-PAR_t        ;
-:%^StrGStem%^NoPAL%>idõ        PL-COM       ;
+:%^StrGStem%^NoPAL%>id%{eõ%}        PL-COM       ;
 +Use/NG+Err/Orth:%^StrGStem%^NoPAL%>ii    Harm-Neutr_PL-GEN_dE ;
 +Use/NG+Err/Orth:%^StrGStem%^NoPAL%>ii      PL-PAR_d        ;
 +Use/NG+Err/Orth:%^StrGStem%^NoPAL%>ii        PL-ILL_he       ;
@@ -3784,7 +3858,7 @@ LEXICON NMN_10AMMAT1-PL
 LEXICON NMN_10HUEPAETS1 !!= * @OCDE@ hüpätś:hüpäts
 !! vowel_harmony: ONLY FRONT
 !! Gradation: YES
-!!  **N-esaek10**
+!!  **N-lembit10**
   NMN_10HUEPAETS1-SG ;
   NMN_10HUEPAETS1-PL ;
 LEXICON NMN_10HUEPAETS1-SG 
@@ -4691,11 +4765,11 @@ LEXICON NMN_19ALOMANW/PEDAEJAENE-SG
 
 LEXICON NMN_19ALOMANW/PEDAEJAENE-PL
 :ds%{eõ%}      Harm-Neutr_PL-NOM ;
-:idsi  PL-GEN_ZERO ;
-:idsi  Harm-Neutr_PL-PAR_ZERO ;
-:idsi  PL-ILL_he ;
-:idsi  PL-ALL_lE-STEM ;
-:idsi PL-COM ;
+:isi  PL-GEN_ZERO ;!was :idsi CHECKME 2022-02-22
+:isi  Harm-Neutr_PL-PAR_ZERO ;
+:isi  PL-ILL_he ;
+:isi  PL-ALL_lE-STEM ;
+:isi PL-COM ;
 +Use/NG+Err/Orth:st%{eõ%}  PL-GEN_ZERO ;
 +Use/NG+Err/Orth:idsi  Harm-Neutr_PL-ILL_ZERO ;
 +Use/NG+Err/Orth:idsi  PL-ILL_dE ;
