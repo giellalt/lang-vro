@@ -490,7 +490,7 @@ SET JaPcleCC = ("ja") + Pcle + CC ;
 
 #!! Verbs
 
-LIST OLLA = "olla" ;
+LIST OLLA = "olõma" ;#fin olla
 
 # verbs that can potentially not have a subject. Can add to these, but this is a start now.
 
@@ -502,16 +502,16 @@ LIST Non-Nom-Subj = "kiinnostaa" "tuntua" ; # partitive too
 # Sataa lunta. Paistaa aurinkoa.
 LIST Weather-Verbs = "sataa" "tuulla" "paistaa" ;
 
-SET AUXs = ("olla") + V  OR  ("ei") + V ;
+SET AUXs = ("olõma") + V  OR  ("ei") + V ;
 
 LIST VOI = "voida" ; 
 LIST VOIMA = "voima" ; 
 LIST YLLATTAA = "yllättää" ; 
 
 
-LIST REALCOPULAS = "olla" "voida" "saattaa" ;
-LIST COPULAS = "olla" "taitaa" "saattaa"  ; 
-LIST COP = "olla" ; 
+LIST REALCOPULAS = "olõma" "voida" "saattaa" ; #fin olla
+LIST COPULAS = "olõma" "taitaa" "saattaa"  ;  #fin olla
+LIST COP = "olõma" ; #fin olla
 
 LIST MOD-ASP =  "saađa" "häyttyyt"   ; #add lemmas  #!! * MOD-ASP = auxilaries
 
@@ -1088,7 +1088,7 @@ REMOVE:eiNeg Interj IF (0 ("ei"))(*1 ConNeg OR PrfPrc OR Inf BARRIER NEGV);
 
 	
 #!! * **Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
-SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE)) ;
+SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olõma")) ((-1 (N Pl Nom) OR Pron + Pl3 + SUBJ-CASE OR Pron + Pl + SUBJ-CASE) OR (1 (N Pl) + SUBJ-CASE)) ; #fin olla
   #$ Nämät käskyt mikkä mie tääpänä annan sinule
   #$ Kekkä oon nämät jokka oon sinun myötä?
   #$ Kaikki muut jokka oon tulheet ennen minuu
@@ -1100,7 +1100,7 @@ SELECT:Pl3ollaifplrelpronandplinterrpron Pl3 IF (0 ("olla")) ((-1 (N Pl Nom) OR 
   #% Kansa sillon ko olen tehny jotaki mistä toiset ei tykätäl.
 
 #!! * **Sg3ollaifplrelpronandplinterrpron** selects Sg3 if olla
-SELECT:Sg3ollaifplrelpronandplinterrpron Sg3 IF (0 ("olla")) (*-1 (N Sg Nom) OR  Relpronsg + Nom BARRIER WORD - Adv) ;
+SELECT:Sg3ollaifplrelpronandplinterrpron Sg3 IF (0 ("olõma")) (*-1 (N Sg Nom) OR  Relpronsg + Nom BARRIER WORD - Adv) ; #fin olla
   #$ ... Jumala hänen armossa oon suonut sinun palvelijale.
   #$ Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa ...
   #$  ... sillä Herra oon se joka tuomittee minun.
@@ -1173,7 +1173,7 @@ SELECT:Relpronifitsanounoracommabeforeit Relpronpl IF ((-1 N + Pl OR Pron + Pl O
    #$ Kaikki muut jokka oon tulheet ennen minuu
     #%Kekkä oon nämät jokka oon sinun myötä?
 
-# REMOVE:differentiatebetweenhäntänounandthirdperpron  ("häntä") IF (0 Pers) (*-1 V BARRIER WORD - Adv LINK NOT 0 ("olla")) ;
+# REMOVE:differentiatebetweenhäntänounandthirdperpron  ("häntä") IF (0 Pers) (*-1 V BARRIER WORD - Adv LINK NOT 0 ("olõma")) ; #fin olla
 #$ Ja Eesau juoksi häntä vasthaan, ja hän alkoi hyvväilemähään häntä, otti hänen kaulan ympäri ja summasteli häntä, ja het itkethiin.
 #$  ... hän kävelee heiðän eðessä, ja lamphaat kyytäthään häntä ...
 
@@ -1434,7 +1434,7 @@ MAP (@>N) TARGET Pron + Dem IF (1 N) (1 $$ALLCASES) (0 $$ALLCASES) ;
 MAP (@>N) TARGET Pron + Gen IF (1 N) ;
 MAP (@>N) TARGET Pron + Gen IF (2 N) (2 $$ALLCASES) (1 $$ALLCASES);
 
-MAP (@>N) TARGET NAttrs IF (*1 N BARRIER NP-BOUNDARY) (NEGATE 0 V + PrfPrc LINK -1 ("olla")) (0 $$ALLCASES LINK *1 $$ALLCASES BARRIER CLB) ; # (*1 N BARRIER CLB) ;
+MAP (@>N) TARGET NAttrs IF (*1 N BARRIER NP-BOUNDARY) (NEGATE 0 V + PrfPrc LINK -1 ("olõma")) (0 $$ALLCASES LINK *1 $$ALLCASES BARRIER CLB) ; # (*1 N BARRIER CLB) ; #fin olla
 
     # TODO: Need to include conjunctions
     # Saapuneet ja käsitellyt asiat vuonna 2009.
@@ -1640,7 +1640,7 @@ MAP (@+FAUXV) TARGET InfMa-VERB IF (*1 InfMa BARRIER V) ;
     # Äidin vanha ystävä voisi yrittää.
     # Äidin vanha ystävä voisi kyllä tulla käymään ensi vuonna.
     #                  @+FAUXV      @-FMAINV @-FMAINV
-MAP (@+FAUXV) TARGET V IF (0 ("olla") + Ind) (*1 PrfPrc BARRIER V) ;
+MAP (@+FAUXV) TARGET V IF (0 ("olõma") + Ind) (*1 PrfPrc BARRIER V) ; #fin olla
 MAP (@+FAUXV) TARGET V IF (0 COP) (1 PrfPrc) ; 	
     # Minä olen tullut.
 
