@@ -423,24 +423,28 @@ LEXICON A_2ELAENUEQ !!= * @CODE@ elänüq:elänü
 
 LEXICON Harm-Neutr_COMP
 
-+Comp:%>mb Harm-Neutr_COMP-01 ;
-+Err/Orth+Use/NG+Comp:%>mp Harm-Neutr_COMP-01 ;
-+Err/Orth+Use/NG+Comp+Sg+Nom:%>p # ;
++Comp:%>mb%{aä%} NMN_8KASK/HAEIELM ;
++Err/Orth+Use/NG+Comp:%>mp%{aä%} NMN_8KASK/HAEIELM ;
++Err/Orth+Use/NG+Comp:%>p%{aä%} NMN_8KASK/HAEIELM ;
+!NMN_8KASK/HAEIELM
+!+Comp:%>mb Harm-Neutr_COMP-01 ;
+!+Err/Orth+Use/NG+Comp:%>mp Harm-Neutr_COMP-01 ;
+!+Err/Orth+Use/NG+Comp+Sg+Nom:%>p # ;
 
-LEXICON Harm-Neutr_COMP-01
-:%{aä%} SG-GEN_ZERO-STEM ;
-+Sg+All:%{aä%}l%{eõ%} K ;
-+Sg+Ill:%{aä%}he K ;
-+Sg+Par:%{aä%}t K ;
-+Sg+Nom: K ;
+!LEXICON Harm-Neutr_COMP-01
+!:%{aä%} SG-GEN_ZERO-STEM ;
+!+Sg+All:%{aä%}l%{eõ%} K ;
+!+Sg+Ill:%{aä%}he K ;
+!+Sg+Par:%{aä%}t K ;
+!+Sg+Nom: K ;
 
-:i PL-ALL_lE-STEM ;
+!:i PL-ALL_lE-STEM ;
 
-+Pl+Gen:id%{eõ%} K ;
-+Pl+Ill:ihe K ;
-+Pl+Par:iid K ;
-+Pl+Com:id%{eõ%}g%{aä%}q K ;
-+Err/Orth+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ; !!= * @CODE@ no q
+!+Pl+Gen:id%{eõ%} K ;
+!+Pl+Ill:ihe K ;
+!+Pl+Par:iid K ;
+!+Pl+Com:id%{eõ%}g%{aä%}q K ;
+!+Err/Orth+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ; !!= * @CODE@ no q
 
 
 
