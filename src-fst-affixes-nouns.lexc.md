@@ -1818,6 +1818,33 @@ kuld:kul%{dl%}
 * *kullõldaq* `kuld+N+Pl+Abe:`
 * *kuldõgaq* `kuld+N+Pl+Com:`
 
+kuld:kul%{dl%}
+
+*Noun 38 kuld examples:*
+* *kuld* `kuld+N+Sg+Nom:`
+* *kulla* `kuld+N+Sg+Gen:`
+* *kulda* `kuld+N+Sg+Par:`
+* *kulda* `kuld+N+Sg+Ill:`
+* *kullast* `kuld+N+Sg+Ela:`
+* *kullalõ* `kuld+N+Sg+All:`
+* *kullal* `kuld+N+Sg+Ade:`
+* *kullalt* `kuld+N+Sg+Abl:`
+* *kullas* `kuld+N+Sg+Tra:`
+* *kullaniq* `kuld+N+Sg+Ter:`
+* *kullaldaq* `kuld+N+Sg+Abe:`
+* *kullagaq* `kuld+N+Sg+Com:`
+* *kullaq* `kuld+N+Pl+Nom:`
+* *kuldõ* `kuld+N+Pl+Par:`
+* *kuldõhe* `kuld+N+Pl+Ill:`
+* *kullõst* `kuld+N+Pl+Ela:`
+* *kullõlõ* `kuld+N+Pl+All:`
+* *kullõl* `kuld+N+Pl+Ade:`
+* *kullõlt* `kuld+N+Pl+Abl:`
+* *kullõs* `kuld+N+Pl+Tra:`
+* *kullõniq* `kuld+N+Pl+Ter:`
+* *kullõldaq* `kuld+N+Pl+Abe:`
+* *kuldõgaq* `kuld+N+Pl+Com:`
+
 Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
 stem_vowel="o"
 

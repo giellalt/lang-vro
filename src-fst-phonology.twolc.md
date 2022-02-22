@@ -490,6 +490,7 @@ nõstma+V+Inf/mA
 kestmä+V+Act+Ind+Prt+Sg3:
 * *kes{tt́}{äe}{front}^Pen^PAL^VowRM*
 * *kest́00000*
+
 **ö:0**
 
 **i:0**

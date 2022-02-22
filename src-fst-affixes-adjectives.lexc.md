@@ -89,8 +89,6 @@ gradation: no
 * LEXICON A_2KASUNUQ  kasunuq:kasunu
 * LEXICON A_2ELAENUEQ  elänüq:elänü
 
-* +Err/Orth+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ;  no q
-
 * +Err/Orth+Use/NG+Pl+Com:id%{eõ%}ga K ;  no q
 
 * * *

@@ -959,8 +959,6 @@ gradation: no
 * LEXICON A_2KASUNUQ  kasunuq:kasunu
 * LEXICON A_2ELAENUEQ  elänüq:elänü
 
-* +Err/Orth+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ;  no q
-
 * +Err/Orth+Use/NG+Pl+Com:id%{eõ%}ga K ;  no q
 
 * * *
@@ -2776,6 +2774,33 @@ pung:pung
    * :%^VOWRaise%^StrGStem%^PAL        Harm-Neutr_SG-NOM  ;  pu̬u̬ḿ
 * +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
    * :%^VOWLower%^WGStem%^NoPAL%>i       SG-GEN_ZERO-STEM        ;  poomi
+
+kuld:kul%{dl%}
+
+*Noun 38 kuld examples:*
+* *kuld* `kuld+N+Sg+Nom:`
+* *kulla* `kuld+N+Sg+Gen:`
+* *kulda* `kuld+N+Sg+Par:`
+* *kulda* `kuld+N+Sg+Ill:`
+* *kullast* `kuld+N+Sg+Ela:`
+* *kullalõ* `kuld+N+Sg+All:`
+* *kullal* `kuld+N+Sg+Ade:`
+* *kullalt* `kuld+N+Sg+Abl:`
+* *kullas* `kuld+N+Sg+Tra:`
+* *kullaniq* `kuld+N+Sg+Ter:`
+* *kullaldaq* `kuld+N+Sg+Abe:`
+* *kullagaq* `kuld+N+Sg+Com:`
+* *kullaq* `kuld+N+Pl+Nom:`
+* *kuldõ* `kuld+N+Pl+Par:`
+* *kuldõhe* `kuld+N+Pl+Ill:`
+* *kullõst* `kuld+N+Pl+Ela:`
+* *kullõlõ* `kuld+N+Pl+All:`
+* *kullõl* `kuld+N+Pl+Ade:`
+* *kullõlt* `kuld+N+Pl+Abl:`
+* *kullõs* `kuld+N+Pl+Tra:`
+* *kullõniq* `kuld+N+Pl+Ter:`
+* *kullõldaq* `kuld+N+Pl+Abe:`
+* *kuldõgaq* `kuld+N+Pl+Com:`
 
 kuld:kul%{dl%}
 
@@ -4675,6 +4700,7 @@ nõstma+V+Inf/mA
 kestmä+V+Act+Ind+Prt+Sg3:
 * *kes{tt́}{äe}{front}^Pen^PAL^VowRM*
 * *kest́00000*
+
 **ö:0**
 
 **i:0**
