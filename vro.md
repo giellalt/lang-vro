@@ -3830,7 +3830,7 @@ Retain consonant
 Pss+PrfPrc, Pss+PrsPrc, 
 
 Retain consonant and stem vowel
-* :%{eõ%} Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) purõma
+* :%{eõ%} Harm-Neutr_ACT_PRSPRC_v_LUGWMA ;  (1) purõma
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 +Jus, 
 
@@ -3872,7 +3872,7 @@ Act+Ind+Prt+Sg3
 * LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE  rapahutma:rapahuta
 
 Retain consonant and stem vowel
-* :t Harm-Neutr_ACT-PRSPRC_v_LUGWMA ;  (1) rapahutma
+* :t Harm-Neutr_ACT_PRSPRC_v_LUGWMA ;  (1) rapahutma
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 +Jus, 
 
@@ -4147,12 +4147,7 @@ CHECK THIS
 
 * +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
-
 * LEXICON ACT-PRFPRC-OBL_nU  only oblique cases and Pl+Nom
-* +Use/NG+Err/Orth+Act+PrfPrc+Pl+Nom:%>n%{uü%} K ;  no q
-
-* +Use/NG+Err/Orth+Act+PrfPrc:%^WGStem%>n%{uü%} K ;  no q
 
 PASSIVE DISTRIBUTION
 * Harm-Neutr_NÕSTMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
@@ -4165,7 +4160,7 @@ PASSIVE DISTRIBUTION
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>di K ;  no q
 * +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>div%{aä%} K ;  no q
 
-* Harm-Neutr_V0_PSS_PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
+* PSS_PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
 * Harm-Neutr_KAOTAMA-PSS_PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
 * +Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;  no q
@@ -4179,13 +4174,11 @@ PASSIVE DISTRIBUTION
 
 * +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>tt%{aä%}%>v%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
-
 * +Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
 
 * +Use/NG+Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ;  no q
 
-* LEXICON Harm-Neutr_ACT-PRSPRC_v_LUGWMA  lugõma:lugõ
+* LEXICON Harm-Neutr_ACT_PRSPRC_v_LUGWMA  lugõma:lugõ
 Retain consonant and stem vowel
 
 * +Use/NG+Err/Orth-no-q+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
