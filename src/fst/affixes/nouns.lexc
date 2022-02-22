@@ -1616,13 +1616,31 @@ LEXICON N_38HUETT-PL
 :%{front%} NMN_38HUETT-PL ;
 
 LEXICON N_38KULD
-: ATTESTED-NOUN-STEM-CONTINUED ;
+:%^StrGStem ATTESTED-NOUN-STEM-CONTINUED ;
  N_38KULD-SG ;
  N_38KULD-PL ;
 LEXICON N_38KULD-SG
 :%{back%} NMN_38KULD-SG ;
 LEXICON N_38KULD-PL
 :%{back%} NMN_38KULD-PL ;
+
+LEXICON N_38LAND
+:%^StrGStem ATTESTED-NOUN-STEM-CONTINUED ;
+ N_38LAND-SG ;
+ N_38LAND-PL ;
+LEXICON N_38LAND-SG
+:%{back%} NMN_38LAND/HAELL-SG ;
+LEXICON N_38LAND-PL
+:%{back%} NMN_38LAND/HAELL-PL ;
+
+LEXICON N_38HAELL
+:%^StrGStem ATTESTED-NOUN-STEM-CONTINUED ;
+ N_38HAELL-SG ;
+ N_38HAELL-PL ;
+LEXICON N_38HAELL-SG
+:%{front%} NMN_38LAND/HAELL-SG ;
+LEXICON N_38HAELL-PL
+:%{front%} NMN_38LAND/HAELL-PL ;
 
 LEXICON N_38POIG !poig:p
 :oig ATTESTED-NOUN-STEM-CONTINUED ;
@@ -6438,6 +6456,53 @@ LEXICON NMN_38KULD-SG
 
 LEXICON NMN_38KULD-PL 
 :%^WGStem%>%{aä%}       Harm-Neutr_PL-NOM ;
+:%^StrGStem%>õ    PL-GEN_ZERO ;
+:%^StrGStem%>õ    Harm-Neutr_PL-PAR_ZERO ;
+:%^StrGStem%>õ    Harm-Neutr_PL-ILL_ZERO ;
+:%^StrGStem%>õ    PL-ILL_he ;
+:%^StrGStem%>õ    PL-ILL_dE ;
+:%^WGStem%>õ    PL-ALL_lE-STEM ;
+:%^StrGStem%>õ    PL-COM ;
+
+!LEXICON NMN_38LAND/HAELL !!= * __@CODE@__ kuld:kuld
+!! kuld:kul%{dl%}
+!!€gt-norm: Noun 38 kuld
+!!€ kuld        kuld+N+Sg+Nom:
+!!€ kulla       kuld+N+Sg+Gen:
+!!€ kulda       kuld+N+Sg+Par:
+!!€ kulda       kuld+N+Sg+Ill:
+!!€ kullast     kuld+N+Sg+Ela:
+!!€ kullalõ     kuld+N+Sg+All:
+!!€ kullal      kuld+N+Sg+Ade:
+!!€ kullalt     kuld+N+Sg+Abl:
+!!€ kullas      kuld+N+Sg+Tra:
+!!€ kullaniq    kuld+N+Sg+Ter:
+!!€ kullaldaq   kuld+N+Sg+Abe:
+!!€ kullagaq    kuld+N+Sg+Com:
+!!€ kullaq      kuld+N+Pl+Nom:
+!!€ kuldõ       kuld+N+Pl+Par:
+!!€ kuldõhe     kuld+N+Pl+Ill:
+!!€ kullõst     kuld+N+Pl+Ela:
+!!€ kullõlõ     kuld+N+Pl+All:
+!!€ kullõl      kuld+N+Pl+Ade:
+!!€ kullõlt     kuld+N+Pl+Abl:
+!!€ kullõs      kuld+N+Pl+Tra:
+!!€ kullõniq    kuld+N+Pl+Ter:
+!!€ kullõldaq   kuld+N+Pl+Abe:
+!!€ kuldõgaq    kuld+N+Pl+Com:
+!!! Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
+!  NMN_38LAND/HAELL-SG ;
+!  NMN_38LAND/HAELL-PL ;
+
+LEXICON NMN_38LAND/HAELL-SG 
+:%^StrGStem ATTESTED-NOUN-STEM-CONTINUED ;
+:%^StrGStem        Harm-Neutr_SG-NOM  ;
+:%^WGStem%>%{uü%}       SG-GEN_ZERO-STEM        ;
+:%^StrGStem%>%{uü%}       Harm-Neutr_SG-ILL_ZERO        ;
+:%^StrGStem%>%{uü%}       Harm-Neutr_SG-PAR_ZERO        ;
+
+LEXICON NMN_38LAND/HAELL-PL 
+:%^WGStem%>%{uü%}       Harm-Neutr_PL-NOM ;
 :%^StrGStem%>õ    PL-GEN_ZERO ;
 :%^StrGStem%>õ    Harm-Neutr_PL-PAR_ZERO ;
 :%^StrGStem%>õ    Harm-Neutr_PL-ILL_ZERO ;

@@ -405,12 +405,12 @@ Rules
 "%{aä%}:a"
 !! **@RULENAME@**
 %{aä%}:a <=>
- BHARM _ ;
+ BHARM _ \[%^VowRM:]* [#|.#.|%>|%-];
 
 "%{aä%}:ä"
 !! **@RULENAME@**
 %{aä%}:ä <=>
- FHARM _ ;
+ FHARM _ \[%^VowRM:]* [#|.#.|%>|%-];
 
 "%{uü%}:u"
 !! **@RULENAME@**
@@ -911,7 +911,7 @@ Rules
 !! **@RULENAME@**
  Vx:0 <=>
      _ (HarmDummiesVar) [(VOWHite (%^NoPAL:)| PenVOWHite (%^Pen: %^NoPAL:|%^Pen: %^PAL:) |PenVOWHite %^Pen: %^WGStem:) %^VowRM:] ;
-          where Vx in (%{aõ%} %{ae%} %{äe%} ) ;
+          where Vx in (%{aõ%} %{ae%} %{äe%} %{aä%}) ;
 !%^Pen%^NoPAL%^VowRM
 !! nõstma+V+Inf/mA
 !!€ nõs{tt́}{aõ}{back}^Pen^NoPAL^VowRM>m{aä}
@@ -919,6 +919,7 @@ Rules
 !! kestmä+V+Act+Ind+Prt+Sg3:
 !!€ kes{tt́}{äe}{front}^Pen^PAL^VowRM
 !!€ kest́00000
+
 "ö:0"
 !! **@RULENAME@**
  ö:0 <=>  [ Cns: | :Cns |ArchCns:] _ (s:) (HarmDummiesVar) [  (PenVOWHite %^Pen: %^WGStem:|%^Pen: %^StrGStem:|%^Pen: %^CC2C:) %^VowRM: (e) ]   ; 
