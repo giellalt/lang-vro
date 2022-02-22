@@ -1078,6 +1078,10 @@ LEXICON N_10HAIDAK  haidak:haidak
 
 LEXICON N_10ESAEK  esäk:esäk
 
+LEXICON N_10RAAMAT  raamat:raamat
+
+LEXICON N_10LEMBIT  esäk:esäk
+
 LEXICON N_10AABITS  aabits:aabits
 
 LEXICON N_10HEERITS  heerits:heerits
@@ -2083,6 +2087,35 @@ Noun (10) esäk
 * *esäkildäq:* `esäk+N+Pl+Abe`
 * *esäkidegaq:* `esäk+N+Pl+Com`
 
+Noun (10) perit
+* *perit:* `perit+N+Sg+Nom`
+* *peridü:* `perit+N+Sg+Gen`
+* *peritüt:* `perit+N+Sg+Par`
+* *peritühe:* `perit+N+Sg+Ill`
+* *peritün:* `perit+N+Sg+Ine`
+* *peritüst:* `perit+N+Sg+Ela`
+* *peritüle:* `perit+N+Sg+All`
+* *peritül:* `perit+N+Sg+Ade`
+* *peritült:* `perit+N+Sg+Abl`
+* *peritüs:* `perit+N+Sg+Tra`
+* *peritüniq:* `perit+N+Sg+Ter`
+* *peritüldäq:* `perit+N+Sg+Abe`
+* *peritügäq:* `perit+N+Sg+Com`
+* *peridüq:* `perit+N+Pl+Nom`
+* *peritide:* `perit+N+Pl+Gen`
+* *peritit:* `perit+N+Pl+Par`
+* *peritihe:* `perit+N+Pl+Ill`
+* *peritin:* `perit+N+Pl+Ine`
+* *peritist:* `perit+N+Pl+Ela`
+* *peritile:* `perit+N+Pl+All`
+* *peritil:* `perit+N+Pl+Ade`
+* *peritilt:* `perit+N+Pl+Abl`
+* *peritis:* `perit+N+Pl+Tra`
+* *peritiniq:* `perit+N+Pl+Ter`
+* *peritildäq:* `perit+N+Pl+Abe`
+* *peritidegaq:* `perit+N+Pl+Com`
+**N-hwrak10**
+
 *Noun 10 vidrik  examples:*
 * *vidriku:* `vidrik+N+Sg+Nom`
 * *hõraku:* `vidrik+N+Sg+Gen`
@@ -2146,7 +2179,7 @@ LEXICON NMN_10AABITS/HEERITS  * @OCDE@ aabits:aabi%{td%}s
 **N-hwrak10**
 
 vowel_harmony: ONLY FRONT
-**N-esaek10**
+**N-lembit10**
 
 **N-hwrak10**
 
@@ -2212,7 +2245,7 @@ LEXICON NMN_10AMMAT1  * @OCDE@ ammat́:amma%{tt́d%}
 LEXICON NMN_10HUEPAETS1  * @OCDE@ hüpätś:hüpäts
 vowel_harmony: ONLY FRONT
 Gradation: YES
-**N-esaek10**
+**N-lembit10**
 
 LEXICON NMN_11AINWQ/KELMEQ  ainõq:ainõ
 
@@ -3143,6 +3176,8 @@ nouns, but with a colon (':') as separator.
 
 LEXICON PROP_1HANS1A  1 hanśa:hanśa
 
+LEXICON PROP_1VIU  1 viu:viu
+
 LEXICON PROP_1HERRAE  1 herrä:herrä
 
 * Yaml: **suhvli**
@@ -3181,6 +3216,8 @@ tukõv:tukõv
 
 LEXICON PROP_10AMEERIGA  Ameeriga:Ameerik
 cf. _10HWRAK
+
+LEXICON PROP_10LEMBIT  Lembit:Lembi%{td%}
 
 LEXICON PROP_10VIDRIK  vidrik:vidrik
 gradation: no
@@ -3369,6 +3406,10 @@ ehitelemä:ehitell
 * :%>e ACT_IND_PRS_3_s/sEq ;  (5) RAISED jääs jääseq 
 
 * :%>e ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+
+* __LEXICON V_54ISTMA__ 
+* __LEXICON V_54LEPMAE__ 
+* __LEXICON V_54ISTMA/LEPMAE__ 
 
 * **LEXICON V_55KWNWLWMA** kõnõlõma:kõ̭nõl
 * Yaml: **kwnwlwma55**
@@ -5387,6 +5428,7 @@ The Usage extents are marked using following tags:
 * **+Err/Orth-weak-grade**
 * **+Err/Orth-back** erroneous back harmony, see flags
 * **+Err/Orth-front** erroneous front harmony, see flags
+* **+Dial/-u-not-o** dialect u stem where o expected
 * **+Use/-Spell**
 * **+Use/SpellNoSugg** not suggested in speller
 * **+Use/NG** No generation
@@ -6073,6 +6115,7 @@ N_HAIDAK, N_10ESAEK in -gu
 N_10AABITS in -dsa, -ga
 N_10HWRAK in -ga ~ -gu
 N_10HEERITS in -dsä
+N_10RAAMAT, N_LEMBIT in -du/dü
 
 two-syllable
 

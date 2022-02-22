@@ -4,6 +4,8 @@ nouns, but with a colon (':') as separator.
 
 LEXICON PROP_1HANS1A  1 hanśa:hanśa
 
+LEXICON PROP_1VIU  1 viu:viu
+
 LEXICON PROP_1HERRAE  1 herrä:herrä
 
 * Yaml: **suhvli**
@@ -42,6 +44,8 @@ tukõv:tukõv
 
 LEXICON PROP_10AMEERIGA  Ameeriga:Ameerik
 cf. _10HWRAK
+
+LEXICON PROP_10LEMBIT  Lembit:Lembi%{td%}
 
 LEXICON PROP_10VIDRIK  vidrik:vidrik
 gradation: no

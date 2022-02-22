@@ -92,6 +92,10 @@ LEXICON N_10HAIDAK  haidak:haidak
 
 LEXICON N_10ESAEK  esäk:esäk
 
+LEXICON N_10RAAMAT  raamat:raamat
+
+LEXICON N_10LEMBIT  esäk:esäk
+
 LEXICON N_10AABITS  aabits:aabits
 
 LEXICON N_10HEERITS  heerits:heerits
@@ -1097,6 +1101,35 @@ Noun (10) esäk
 * *esäkildäq:* `esäk+N+Pl+Abe`
 * *esäkidegaq:* `esäk+N+Pl+Com`
 
+Noun (10) perit
+* *perit:* `perit+N+Sg+Nom`
+* *peridü:* `perit+N+Sg+Gen`
+* *peritüt:* `perit+N+Sg+Par`
+* *peritühe:* `perit+N+Sg+Ill`
+* *peritün:* `perit+N+Sg+Ine`
+* *peritüst:* `perit+N+Sg+Ela`
+* *peritüle:* `perit+N+Sg+All`
+* *peritül:* `perit+N+Sg+Ade`
+* *peritült:* `perit+N+Sg+Abl`
+* *peritüs:* `perit+N+Sg+Tra`
+* *peritüniq:* `perit+N+Sg+Ter`
+* *peritüldäq:* `perit+N+Sg+Abe`
+* *peritügäq:* `perit+N+Sg+Com`
+* *peridüq:* `perit+N+Pl+Nom`
+* *peritide:* `perit+N+Pl+Gen`
+* *peritit:* `perit+N+Pl+Par`
+* *peritihe:* `perit+N+Pl+Ill`
+* *peritin:* `perit+N+Pl+Ine`
+* *peritist:* `perit+N+Pl+Ela`
+* *peritile:* `perit+N+Pl+All`
+* *peritil:* `perit+N+Pl+Ade`
+* *peritilt:* `perit+N+Pl+Abl`
+* *peritis:* `perit+N+Pl+Tra`
+* *peritiniq:* `perit+N+Pl+Ter`
+* *peritildäq:* `perit+N+Pl+Abe`
+* *peritidegaq:* `perit+N+Pl+Com`
+**N-hwrak10**
+
 *Noun 10 vidrik  examples:*
 * *vidriku:* `vidrik+N+Sg+Nom`
 * *hõraku:* `vidrik+N+Sg+Gen`
@@ -1160,7 +1193,7 @@ LEXICON NMN_10AABITS/HEERITS  * @OCDE@ aabits:aabi%{td%}s
 **N-hwrak10**
 
 vowel_harmony: ONLY FRONT
-**N-esaek10**
+**N-lembit10**
 
 **N-hwrak10**
 
@@ -1226,7 +1259,7 @@ LEXICON NMN_10AMMAT1  * @OCDE@ ammat́:amma%{tt́d%}
 LEXICON NMN_10HUEPAETS1  * @OCDE@ hüpätś:hüpäts
 vowel_harmony: ONLY FRONT
 Gradation: YES
-**N-esaek10**
+**N-lembit10**
 
 LEXICON NMN_11AINWQ/KELMEQ  ainõq:ainõ
 

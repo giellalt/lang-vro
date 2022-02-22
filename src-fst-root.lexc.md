@@ -73,6 +73,7 @@ The Usage extents are marked using following tags:
 * **+Err/Orth-weak-grade**
 * **+Err/Orth-back** erroneous back harmony, see flags
 * **+Err/Orth-front** erroneous front harmony, see flags
+* **+Dial/-u-not-o** dialect u stem where o expected
 * **+Use/-Spell**
 * **+Use/SpellNoSugg** not suggested in speller
 * **+Use/NG** No generation

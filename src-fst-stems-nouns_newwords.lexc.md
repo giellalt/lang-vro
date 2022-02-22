@@ -8,6 +8,7 @@ N_HAIDAK, N_10ESAEK in -gu
 N_10AABITS in -dsa, -ga
 N_10HWRAK in -ga ~ -gu
 N_10HEERITS in -dsä
+N_10RAAMAT, N_LEMBIT in -du/dü
 
 two-syllable
 

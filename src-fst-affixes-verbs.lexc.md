@@ -71,6 +71,10 @@ ehitelemä:ehitell
 
 * :%>e ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
+* __LEXICON V_54ISTMA__ 
+* __LEXICON V_54LEPMAE__ 
+* __LEXICON V_54ISTMA/LEPMAE__ 
+
 * **LEXICON V_55KWNWLWMA** kõnõlõma:kõ̭nõl
 * Yaml: **kwnwlwma55**
 * **LEXICON V_55HAERELEMAE** härelemä:härel
