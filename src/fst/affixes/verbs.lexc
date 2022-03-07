@@ -3029,11 +3029,11 @@ LEXICON V_83VWTMA/XX  !!= * @CODE@ võtma:võ%{tØ%}%{tt́Ø%}a
 
 LEXICON V_84LASKMA !!= * @CODE@ laskma:lask
 !! * Yaml: **nwstma**
-:%{back%} V_84LASKMA/KÄSKMÄ ;
-LEXICON V_84KÄSKMÄ !!= * @CODE@ käskmä:käsk
+:%{back%} V_84LASKMA/KAESKMAE ;
+LEXICON V_84KAESKMAE !!= * @CODE@ käskmä:käsk
 !! * Yaml: **nwstma**
-:%{front%} V_84LASKMA/KÄSKMÄ ;
-LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:las%{kḱØ%}
+:%{front%} V_84LASKMA/KAESKMAE ;
+LEXICON V_84LASKMA/KAESKMAE !!= * @CODE@ laskma:las%{kḱØ%}
 !! * Yaml: **nwstma**
 ! (1) I tegonimi: 
 :%^VOWRaise%^StrGStem%^NoPAL Harm-Neutr_INF_mA ;
@@ -3047,7 +3047,8 @@ LEXICON V_84LASKMA/KÄSKMÄ !!= * @CODE@ laskma:las%{kḱØ%}
 :%^VOWRaise%^StrGStem%^NoPAL ACT_PRFPRC_ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: 
-:%^VOWRaise%^StrGStem%^NoPAL PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
+:%^VOWLower%^WGStem%^NoPAL PSS_IND_PRS/PRT_SG1_tX/SG3_tX ;
+!:%^VOWRaise%^StrGStem%^NoPAL PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 
 :%^VOWLower%^WGStem%^NoPAL PSS_PRFPRC_tU_SG_NOM ;
 
@@ -3778,6 +3779,16 @@ PSS_IND_PRS_PL2_tAtiq ;
 PSS_PRSPRC_tAv ;
 PSS_PRFPRC_t/SG-GEN_dU ;
 
+LEXICON PSS_IND_PRS/PRT_SG1_tX/SG3_tX
+PSS_IND_PRS/PRT_SG1_tX ;
+PSS_IND_PRS_SG2_tAt ;
+PSS_IND_PRS_SG2_tAdEq ;
+PSS_IND_PRS_SG3_tAs ;
+PSS_IND_PRS_PL1_tAmiq ;
+PSS_IND_PRS_PL2_tAtiq ;
+PSS_PRSPRC_tAv ;
+PSS_PRFPRC_t/SG-GEN_dU ;
+
 LEXICON PSS_IND_SG1_tX/SG3_tX
 PSS_IND_SG1_tX ;
 PSS_IND_PRS_SG2_tAt ;
@@ -3805,6 +3816,9 @@ LEXICON PSS_IND_CONNEG_dA
 LEXICON PSS_IND_PRS/PRT_SG1_dX
  PSS_IND_PRS_SG1_dA ;
  PSS_IND_PRT_SG1_di ;
+LEXICON PSS_IND_PRS/PRT_SG1_tX
+ PSS_IND_PRS_SG1_tA ;
+ PSS_IND_PRT_SG1_ti ;
 LEXICON PSS_IND_PRS_SG1_dA
 +Pss+Ind+Prs+Sg1:%>d%{aä%} K ;
 PSS_IND_CONNEG_dA ;

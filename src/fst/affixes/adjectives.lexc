@@ -50,9 +50,11 @@ LEXICON A_5MAENGJAE
 
 LEXICON A_6MAKW
 :%{back%}  NMN_6MAKW/HELLE ;
+:%{back%}%^Pen%^WGStem COMP ;
 
 LEXICON A_6HELLE
 :%{front%}  NMN_6MAKW/HELLE ;
+:%{front%}%^Pen%^WGStem COMP ;
 
 
 !LEXICON A_7FUEUESIGA
@@ -60,9 +62,11 @@ LEXICON A_6HELLE
 
 LEXICON A_8KASK
 :%{back%}  NMN_8KASK/HAEIELM ;
+:%{back%} COMP ;
 
 LEXICON A_8HAEIELM
 :%{front%}  NMN_8KASK/HAEIELM ;
+:%{front%} COMP ;
 
 LEXICON A_8KULDNW !!= * @CODE@ kuldnõ:kuld
 :%{back%}  NMN_8KULDNW/KIIL1NE ;
@@ -80,15 +84,19 @@ LEXICON A_8VIIES !!= * @CODE@ viies:viie
 
 LEXICON A_9ALLAS1 !!= * @CODE@
 :%{back%}  NMN_9ALLAS1/SINNEL1 ;
+:%{back%}%^Pen%^WGStem%^NoPAL COMP ;
 
 LEXICON A_9SINNEL1 !!= * @CODE@
 :%{front%}  NMN_9ALLAS1/SINNEL1 ;
+:%{front%}%^Pen%^WGStem%^NoPAL COMP ;
 
 LEXICON A_9TAHHE !!= * @CODE@
 :%{back%}  NMN_9TAHHE/HERRE ;
+:%{back%}%^Pen%^WGStem%>he COMP ;
 
 LEXICON A_9HERRE !!= * @CODE@
 :%{front%}  NMN_9TAHHE/HERRE ;
+:%{front%}%^Pen%^WGStem%>he COMP ;
 
 LEXICON A_9KIPWN1/ELLAEI !!= * @CODE@ what is this
 !! * Yaml: **ellaei, suhvli**
@@ -102,12 +110,12 @@ LEXICON A_9SALLAI !!= * @CODE@ what is this
 LEXICON A_9KIPWN1
 !! * Yaml: **ellaei, suhvli**
 :%{back%}     NMN_9KIPWN1/VETEL1 ;
-:%{back%}%^Pen%^WGStem%>a COMP ;
+:%{back%}%^Pen%^WGStem%^NoPAL%>a COMP ;
 
 LEXICON A_9VETEL1
 !! * Yaml: **ellaei, suhvli**
 :%{front%}     NMN_9KIPWN1/VETEL1 ;
-:%{front%}%^Pen%^WGStem%>a COMP ;
+:%{front%}%^Pen%^WGStem%^NoPAL%>ä COMP ;
 
 LEXICON A_9ALLWV1
 !! * Yaml: **allwv1, kipwn1**
@@ -344,8 +352,11 @@ LEXICON A_35PESAE
 
 LEXICON A_36SILM
 :%{front%}  NMN_36RAMM/SILM ;
+:%{front%}%>e COMP ;
+
 LEXICON A_36RAMM
 :%{back%}  NMN_36RAMM/SILM ;
+:%{back%}%>õ COMP ;
 
 LEXICON A_36LAEHK
 :%{front%}  NMN_36NJUKR/LAEHK ;
@@ -375,13 +386,13 @@ LEXICON A_40TALO
 !LEXICON A_42VARI
 !:%{back%}  NMN_42VARI ;
 
-LEXICON A_43KANARIK
+LEXICON A_43KANARIK !!harilik+A:harili%{kØ%}%{kg%}
 :%{back%}  NMN_43KANARIK/ELAENIK ;
-:%>u%{back%}%^G2 COMP ;
+:%{back%}%^G2%>u COMP ;
 
 LEXICON A_43ELAENIK
 @U.VowHarm.F@:@U.VowHarm.F@%{back%}  NMN_43KANARIK/ELAENIK ;!contextually front but inately back
-:%>u%{back%}%^G2 COMP ;
+:%{back%}%^G2%>u COMP ;
 
 LEXICON A_44SWDA
 :%{back%}  NMN_44SWDA ;
