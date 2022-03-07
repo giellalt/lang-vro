@@ -72,6 +72,7 @@ kotus:kotus
 
 Gradation: No
 
+LEXICON PROP_16ABILINW 
 abilinõ:abili
 * Yaml: **N-abilinw16**
 

@@ -3269,6 +3269,7 @@ kotus:kotus
 
 Gradation: No
 
+LEXICON PROP_16ABILINW 
 abilinõ:abili
 * Yaml: **N-abilinw16**
 
@@ -4039,9 +4040,9 @@ sõida
 
 * LEXICON V_84LASKMA  laskma:lask
 * Yaml: **nwstma**
-* LEXICON V_84KÄSKMÄ  käskmä:käsk
+* LEXICON V_84KAESKMAE  käskmä:käsk
 * Yaml: **nwstma**
-* LEXICON V_84LASKMA/KÄSKMÄ  laskma:las%{kḱØ%}
+* LEXICON V_84LASKMA/KAESKMAE  laskma:las%{kḱØ%}
 * Yaml: **nwstma**
 
 * **LEXICON V_85HIRNMA** kakma:kaku hirnma:hirnu
