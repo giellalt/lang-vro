@@ -26,6 +26,9 @@ puhul+Adv:puhul ADV_ ;
 sisest+Adv:sisest ADV_ ;
 mant+Adv:mant ADV_ ;
 muguq+Adv:mugu ADV_IN_q ;
+innekuuldmaldaq+Adv:innekuuldmalda ADV_IN_q ;
+tähelepandmaldaq+Adv:tähelepandmalda ADV_IN_q ;
+andisandmaldaq+Adv:andisandmalda ADV_IN_q ;
 kestel+Adv+Use/NG+Err/Orth-est:kestel ADV_ ;
 ilosahe+v1+Adv:ilosahe ADV_ ;
 ilosahe+v2+Adv:ilusahe ADV_ ;
@@ -37,6 +40,12 @@ alatõn+Adv:alatõn ADV_ ;
 
 
 !! ### ADJECTIVES
+süvä+A:süve%{front%} COMP ;
+paks+A:paks%{back%}õ COMP ;
+lühüt+A:lühe%{front%} COMP ;
+peenüq+A:peene%{front%} COMP ;
+jämmä+A:jämme%{front%} COMP ;
+
 sääne+A+Sg+Nom+Use/SpellNoSugg:säänä K ; !
 hüä+A+Sg+Nom:hüä K ; ! pesä type
 hüä+A:hüä%{front%} SG-GEN_ZERO-STEM ;
@@ -46,6 +55,19 @@ hüä+A:hüä%{front%} Harm-Neutr_PL-NOM ;
 hüä+A+Pl+Nom:hüvvi%{front%} PL-ALL_lE-STEM ;
 
 vahtsõnõ+A:vah%{back%} NMN_13VAHTSWNW ;!!13ALONW
+vahtsõnõ+A:vahtsõ%{back%} COMP ;
+kõva+A:kõvõ%{back%} COMP ;
+lagja+v1+A:lae%{back%} COMP ;
+lagja+v2+A:laje%{back%} COMP ;
+kehv+A:kehve%{front%} COMP ;
+
+kavvõmb+v1+A:kavvõ%{back%} COMP ;!CHECKME
+kavvõmb+v2+A:kavva%{back%} COMP ;!CHECKME
+pehmeq+A:pehme%{front%} COMP ;
+pühä+A:pühä%{front%} COMP ;
+nõrgõmb+A:nõrgõ%{back%} COMP ;!CHECKME
+tuntumb+A:tuntu%{back%} COMP ;!CHECKME
+ligemb+A:lige%{front%} COMP ;!CHECK Pos
 ülessulut+A:üles#sulu%{back%} NMN_PSS_PRFPRC_t/SG-GEN_dU ;
 
 egä+Det:e%{kØ%}%{kg%}ä%{front%} NMN_35EGAE ;
