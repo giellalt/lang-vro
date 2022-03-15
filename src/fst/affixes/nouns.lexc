@@ -1810,6 +1810,15 @@ LEXICON N_42VARI-SG
 LEXICON N_42VARI-PL
 :%{back%}     NMN_42VARI-PL ;
 
+!LEXICON N_42TUEHI ! tühi:tüh
+!:i ATTESTED-NOUN-STEM-CONTINUED ;
+!        N_42TUEHI-SG ;
+!        N_42TUEHI-PL ;
+!LEXICON N_42TUEHI-SG
+!:%{front%}     NMN_42TUEHI-SG ;
+!LEXICON N_42TUEHI-PL
+!:%{front%}     NMN_42TUEHI-PL ;
+
 
 LEXICON N_43KANARIK !!= @CODE@ usklik+A:%{ˋØ%}#uskli%{kg%}
 : ATTESTED-NOUN-STEM-CONTINUED ;
@@ -1928,14 +1937,14 @@ LEXICON N_47ASI-SG
 LEXICON N_47ASI-PL
 :%{back%}     NMN_47ASI-PL ;
 
-LEXICON N_47VELI !!= @CODE@ asi:asi
+LEXICON N_47VELI !!= @CODE@ veli:ve%{lØ%}l
 :%^WGStem%>i ATTESTED-NOUN-STEM-CONTINUED ;
         N_47VELI-SG ;
         N_47VELI-PL ;
 LEXICON N_47VELI-SG
 :%{front%}     NMN_47VELI-SG ;
 LEXICON N_47VELI-PL
-:%{fron%}     NMN_47VELI-PL ;
+:%{front%}     NMN_47VELI-PL ;
 
 LEXICON N_47KIRI !!= @CODE@ kiri:kiri
 : ATTESTED-NOUN-STEM-CONTINUED ;
@@ -6886,6 +6895,25 @@ LEXICON NMN_42VARI-PL
 +Use/NG+Err/Orth:%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>%{aä%}    PL-ILL_he ;
 +Use/NG+Err/Orth:%^Pen%^NoPAL%^Pen%^JI20%^VowRM%>%{aä%}    PL-ALL_lE-STEM ;
 
+LEXICON NMN_42TUEHI !!= * @CODE@ tühi:tüh
+  NMN_42TUEHI-SG ;
+  NMN_42TUEHI-PL ;
+
+LEXICON NMN_42TUEHI-SG 
+:i        Harm-Neutr_SG-NOM  ;
+:ä       SG-GEN_ZERO-STEM        ; !!= * @CODE@ vaŕo
+:jä       Harm-Neutr_SG-ILL_ZERO        ;
+:jä       Harm-Neutr_SG-PAR_ZERO        ;
+
+LEXICON NMN_42TUEHI-PL 
+:ä    Harm-Neutr_PL-NOM ;
+:e    PL-GEN_ZERO ; !!= * @CODE@ varjõ
+:je    Harm-Neutr_PL-PAR_ZERO ;
+:je    PL-ILL_he ;
+:e    PL-ALL_lE-STEM ;
+:e PL-COM ;
+
+
 
 LEXICON NMN_43KANARIK/ELAENIK
   NMN_43KANARIK/ELAENIK-SG ;
@@ -7213,18 +7241,18 @@ LEXICON NMN_47ASI-PL
 LEXICON NMN_47VELI-SG 
 :%^WGStem%>i       Harm-Neutr_SG-NOM  ;
 :%^StrGStem%>e    SG-GEN_ZERO-STEM        ;
-+Err/Orth-no-pal:%^WGStem%>e    SG-GEN_ZERO-STEM        ;
+:%^WGStem%>e    SG-GEN_ZERO-STEM        ;
 :%^WGStem%>j%{aä%}    Harm-Neutr_SG-ILL_ZERO        ;
 :%^WGStem%>j%{aä%}    Harm-Neutr_SG-PAR_ZERO        ;
 LEXICON NMN_47VELI-PL 
 :%^StrGStem%>e    Harm-Neutr_PL-NOM ;
-+Err/Orth-no-pal:%^WGStem%>e    Harm-Neutr_PL-NOM ;
-:%^WGStem%>ji       PL-GEN_ZERO ;
-:%^WGStem%>ji       Harm-Neutr_PL-PAR_ZERO ;
-:%^WGStem%>ji       PL-ILL_he ;
-:%^WGStem%>ji       PL-ALL_lE-STEM ;
+:%^WGStem%>e    Harm-Neutr_PL-NOM ;
+:%^WGStem%>%{back%}jo       PL-GEN_ZERO ;
+:%^StrGStem%>i       Harm-Neutr_PL-PAR_ZERO ;
+:%^StrGStem%>i       PL-ILL_he ;
+:%^WGStem%>%{back%}jo       PL-ALL_lE-STEM ;
 +Err/Orth-no-pal:%^StrGStem%>i       PL-ALL_lE-STEM ;
-:%^WGStem%>ji       PL-COM ;
+:%^WGStem%>%{back%}jo       PL-COM ;
 
 !LEXICON NMN_47KIRI !!= * @CODE@ kiri:ki%{rŕ%}%{jiØ%}
 !  NMN_47KIRI-SG ;

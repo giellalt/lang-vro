@@ -1993,6 +1993,7 @@ jämmüs+N:jämmüs N_18EHITUES "_#, #t__ˋjämmü|s_" ;
 jürjeń+N:jürje%{nń%} N_8EEDER1 "_#i, #it__jürjeń_" ;
 kaamõĺ+N:kaamõ%{lĺ%} N_8DOLLAR1 "_#i, #it__kaamõĺ_" ;
 lõkõŕ+N:lõkõ%{rŕ%} N_8DOLLAR1 ;
+metaĺ+N:meta%{lĺ%} N_8DOLLAR1 ;
 kaardin+N:kaardina N_8KASK "_#a, #at__ˋkaardin_" ;
 kahruvabarn+N:kahruvabarna N_8KASK "_#a, #at__kahruvabarn_" ;
 kahruvavvarn+N:kahruvavvarna N_8KASK "_#a, #at__kahruvavvarn_" ;
@@ -10020,8 +10021,8 @@ vari+N:va%{rŕ%}%{jiØ%}o N_42VARI "_vaŕo, %{ˋØ%}varjo__vari_" ;
 !aho+N:aho NMN_42 "_#, %{ˋØ%}ahjo__aho_" ;
 !rohi+N:rohi N_42VARI "_roho, %{ˋØ%}rohto__rohi_" ;
 !tuŕo+N:tuŕo NMN_42 "_#, %{ˋØ%}turjo__tuŕo_" ;
-!tühi+N:tühi NMN_42 "_tühä, %{ˋØ%}tühjä__tühi_" ;
-!tühitähi+N:tühi#tähi NMN_42 "_tühä#tähä, %{ˋØ%}tühjä#%{ˋØ%}tähjä__tühi#tähi_" ;
+tühi+A:tüh A_42TUEHI "_tühä, %{ˋØ%}tühjä__tühi_" ;
+tühitähi+N:tühi#täh A_42TUEHI "_tühä#tähä, %{ˋØ%}tühjä#%{ˋØ%}tähjä__tühi#tähi_" ;
 
 
 !43 
@@ -10931,7 +10932,7 @@ maakari+N:maaka%{rŕ%}%{jiØ%} N_47ASI "_#kaŕa, #%{ˋØ%}karja__maa|kari_" ;
 makõkahi+N:makõka%{hh́%}%{jiØ%} N_47ASI "_#kah́a, #%{ˋØ%}kahja__makõ|kahi_" ;
 manoqkiri+N:manoqki%{rŕ%}%{jiØ%} N_47KIRI "_#kirä #kiŕa, #%{ˋØ%}kirjä #%{ˋØ%}kirja__manoq|kiri_" ;
 mari+N:ma%{rŕ%}%{jiØ%} N_47ASI "_maŕa, %{ˋØ%}marja__mari_" ;
-!mõtsaveli+N:mõtsaveli NMN_47 "_#ve(l)le, #%{ˋØ%}veljä #%{ˋØ%}velle__mõtsa|veli_" ;
+mõtsaveli+N:mõtsave%{lØ%}l N_47VELI "_#ve(l)le, #%{ˋØ%}veljä #%{ˋØ%}velle__mõtsa|veli_" ;
 nali+N:na%{lĺ%}%{jiØ%} N_47ASI "_na(l)ĺa, %{ˋØ%}nalja %{ˋØ%}nalĺa__nali_" ;
 !nelli+N:nelli NMN_47 "_ne(l)lä, %{ˋØ%}neljä %{ˋØ%}nellä__nelli_" ;
 nimekiri+N:nime#ki%{rŕ%}%{jiØ%} N_47KIRI "_#kirä #kiŕa, #%{ˋØ%}kirjä #%{ˋØ%}kirja__pääl|kiri_" ;
@@ -10940,7 +10941,7 @@ ori+N:o%{rŕ%}%{jiØ%} N_47ASI "_oŕa, %{ˋØ%}orja__ori_" ;
 osi+N:o%{sś%}%{jiØ%} N_47ASI "_ośa, %{ˋØ%}osja__osi_" ;
 !padi+N:pa%{dd́%}i NMN_47 "_II, #d́a, #(t)t́a__pa|di_" ;
 padi+N:pa%{dd́%}%{jiØ%} N_47ASI "_I, pad́a padja, patt́a %{ˋØ%}patja__padi_" ;
-!puuĺveli+N:pu̬u̬ĺveli NMN_47 "_#ve(l)le, #%{ˋØ%}veljä #%{ˋØ%}velle__pu̬u̬ĺ|veli_" ;
+puuĺveli+N:pu̬u̬ĺ#ve%{lØ%}l N_47VELI "_#ve(l)le, #%{ˋØ%}veljä #%{ˋØ%}velle__pu̬u̬ĺ|veli_" ;
 !põh́a+N:põ%{hh́%}a NMN_47 "_#, %{ˋØ%}põhja __põh́a_" ;
 põhi+N:põ%{hh́%}%{jiØ%} N_47ASI "_põh́a, %{ˋØ%}põhja __põhi_" ;
 pääasi+N:pääa%{sś%}%{jiØ%} N_47ASI "_#aśa, #%{ˋØ%}asja__pää|asi_" ;
@@ -10956,6 +10957,10 @@ tulõkuri+N:tulõ#ku%{rŕ%}%{jiØ%} N_47ASI "_#kuŕa, #%{ˋØ%}kurja__tulõ|kuri
 vanakuri+N:vana#ku%{rŕ%}%{jiØ%} N_47ASI "_vanakuŕa, vanna%{ˋØ%}kurja__vanakuri_" ;
 !vanatühi+N:vanatühi NMN_47 "_vanatühä, vanna%{ˋØ%}tühjä __vanatühi_" ;
 veli+N:ve%{lØ%}l N_47VELI "_ve(l)le, %{ˋØ%}veljä %{ˋØ%}velle__veli_" ;
+sõaveli+N:sõa#ve%{lØ%}l N_47VELI ;
+moslõmiveli+N:moslõmi#ve%{lØ%}l N_47VELI ;
+amõtiveli+N:amõti#ve%{lØ%}l N_47VELI ;
+kooliveli+N:kooli#ve%{lØ%}l N_47VELI ;
 viigimari+N:viigima%{rŕ%}%{jiØ%} N_47ASI "_#maŕa, #%{ˋØ%}marja__viigi|mari_" ;
 viinamari+N:viinama%{rŕ%}%{jiØ%} N_47ASI "_#maŕa, #%{ˋØ%}marja__viina|mari_" ;
 vili+N:vi%{lĺ%}%{jiØ%} N_47KIRI "_vi(l)lä vi(l)ĺa, %{ˋØ%}viljä %{ˋØ%}vilja %{ˋØ%}villä %{ˋØ%}vilĺa__vili_" ;
