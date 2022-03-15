@@ -1332,7 +1332,7 @@ LEXICON N_46TARK  tark:tark
 
 LEXICON N_47ASI  asi:asi
 
-LEXICON N_47VELI  asi:asi
+LEXICON N_47VELI  veli:ve%{lØ%}l
 
 LEXICON N_47KIRI  kiri:kiri
 
@@ -2866,6 +2866,12 @@ stem_vowel="o"
 * +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
 
 * :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
+
+* LEXICON NMN_42TUEHI  tühi:tüh
+
+* :ä       SG-GEN_ZERO-STEM        ;  vaŕo
+
+* :e    PL-GEN_ZERO ;  varjõ
 
 *kanarik # examples:*
 * *kanarik:* `kanarik+N+Sg+Nom`
