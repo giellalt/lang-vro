@@ -2526,6 +2526,30 @@ Yaml: __N-hamwh_gt-norm.yaml__
 * *kotussildaq* `kotus+Hom1+N+Pl+Abe:`
 * *kotussidõgaq* `kotus+Hom1+N+Pl+Com:`
 
+*Noun 15 kotus examples:*
+* *kotus* `kotus+Hom1+N+Sg+Nom:`
+* *kotust* `kotus+Hom1+N+Sg+Par:`
+* *kotussõhe* `kotus+Hom1+N+Sg+Ill:`
+* *kotussõst* `kotus+Hom1+N+Sg+Ela:`
+* *kotussõlõ* `kotus+Hom1+N+Sg+All:`
+* *kotussõl* `kotus+Hom1+N+Sg+Ade:`
+* *kotussõlt* `kotus+Hom1+N+Sg+Abl:`
+* *kotussõs* `kotus+Hom1+N+Sg+Tra:`
+* *kotussõniq* `kotus+Hom1+N+Sg+Ter:`
+* *kotussõldaq* `kotus+Hom1+N+Sg+Abe:`
+* *kotusõgaq* `kotus+Hom1+N+Sg+Com:`
+* *kotusõq* `kotus+Hom1+N+Pl+Nom:`
+* *kotussit* `kotus+Hom1+N+Pl+Par:`
+* *kotussihe* `kotus+Hom1+N+Pl+Ill:`
+* *kotussist* `kotus+Hom1+N+Pl+Ela:`
+* *kotussilõ* `kotus+Hom1+N+Pl+All:`
+* *kotussil* `kotus+Hom1+N+Pl+Ade:`
+* *kotussilt* `kotus+Hom1+N+Pl+Abl:`
+* *kotussis* `kotus+Hom1+N+Pl+Tra:`
+* *kotussiniq* `kotus+Hom1+N+Pl+Ter:`
+* *kotussildaq* `kotus+Hom1+N+Pl+Abe:`
+* *kotussidõgaq* `kotus+Hom1+N+Pl+Com:`
+
 LEXICON NMN_16ABILINW/INEMINE  inemine:inemi abilinõ:abili
 * Yaml: **N-inemine16**
 
@@ -3266,6 +3290,9 @@ distinguished from 14RITS1KAS due to gradation
 distinguished from 14RITS1KAS due to word final h
 
 distinguished from 14RITS1KAS due to word final h
+
+kotus:kotus
+* Yaml: **N-kotus15**
 
 kotus:kotus
 * Yaml: **N-kotus15**

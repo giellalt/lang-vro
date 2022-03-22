@@ -70,6 +70,9 @@ kotus:kotus
 kotus:kotus
 * Yaml: **N-kotus15**
 
+kotus:kotus
+* Yaml: **N-kotus15**
+
 Gradation: No
 
 LEXICON PROP_16ABILINW 
