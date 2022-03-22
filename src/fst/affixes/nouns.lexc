@@ -4663,6 +4663,61 @@ LEXICON NMN_15KOTUS/ILVES-PL
 +Use/NG+Err/Orth:%^StrGStem%>iid%{eõ%} PL-COM ;
 +Use/NG+Err/Orth:t%{eõ%} PL-COM ;
 
+!LEXICON NMN_15KOTUS/ILVES kotus:kotus
+!!€gt-norm:  Noun 15 kotus
+!!€ kotus       kotus+Hom1+N+Sg+Nom:
+!!€ kotust      kotus+Hom1+N+Sg+Par:
+!!€ kotussõhe   kotus+Hom1+N+Sg+Ill:
+!!€ kotussõst   kotus+Hom1+N+Sg+Ela:
+!!€ kotussõlõ   kotus+Hom1+N+Sg+All:
+!!€ kotussõl    kotus+Hom1+N+Sg+Ade:
+!!€ kotussõlt   kotus+Hom1+N+Sg+Abl:
+!!€ kotussõs    kotus+Hom1+N+Sg+Tra:
+!!€ kotussõniq  kotus+Hom1+N+Sg+Ter:
+!!€ kotussõldaq kotus+Hom1+N+Sg+Abe:
+!!€ kotusõgaq   kotus+Hom1+N+Sg+Com:
+!!€ kotusõq     kotus+Hom1+N+Pl+Nom:
+!!€ kotussit    kotus+Hom1+N+Pl+Par:
+!!€ kotussihe   kotus+Hom1+N+Pl+Ill:
+!!€ kotussist   kotus+Hom1+N+Pl+Ela:
+!!€ kotussilõ   kotus+Hom1+N+Pl+All:
+!!€ kotussil    kotus+Hom1+N+Pl+Ade:
+!!€ kotussilt   kotus+Hom1+N+Pl+Abl:
+!!€ kotussis    kotus+Hom1+N+Pl+Tra:
+!!€ kotussiniq  kotus+Hom1+N+Pl+Ter:
+!!€ kotussildaq kotus+Hom1+N+Pl+Abe:
+!!€ kotussidõgaq        kotus+Hom1+N+Pl+Com:
+!!! * Yaml: __N-kotus15__
+!  NMN_15KOTUS/ILVES-SG ;
+!  NMN_15KOTUS/ILVES-PL ;
+
+LEXICON NMN_15JOHANNES-SG 
+:%^WGStem%>        Harm-Neutr_SG-NOM  ;
+:%^WGStem%>%{eõ%}   SG-GEN_ZERO  ;
++Use/NG+Err/Orth:%^WGStem%>e   SG-GEN_ZERO  ;
+:%^WGStem   Harm-Neutr_SG-PAR_t      ;
+:%^WGStem%>%{eõ%} Harm-Neutr_SG-COM ;
++Use/NG+Err/Orth:%^WGStem%>e Harm-Neutr_SG-COM ;
+
++Use/NG+Err/Orth:%^StrGStem%{eõ%}   SG-GEN_ZERO-STEM        ;
++Use/NG+Err/Orth:%^StrGStem%{eõ%}   SG-ILL_dE     ;
++Use/NG+Err/Orth:%^StrGStem%{eõ%}   Harm-Neutr_SG-ILL_he     ;
++Use/NG+Err/Orth:%^StrGStem%{eõ%} Harm-Neutr_SG-COM ;
+
++Use/NG+Err/Orth:%^StrGStem%>e   SG-GEN_ZERO-STEM        ;
++Use/NG+Err/Orth:%^StrGStem%>e   SG-ILL_dE     ;
++Use/NG+Err/Orth:%^StrGStem%>e   Harm-Neutr_SG-ILL_he     ;
++Use/NG+Err/Orth:%^StrGStem%>e Harm-Neutr_SG-COM ;
+
+LEXICON NMN_15JOHANNES-PL 
+:%^WGStem%>%{eõ%}   Harm-Neutr_PL-NOM  ;
++Use/NG+Err/Orth:%^WGStem%>e   Harm-Neutr_PL-NOM  ;
+:%^StrGStem%>i Harm-Neutr_PL-GEN_dE ;
+:%^StrGStem%>i PL-ILL_he ;
+:%^StrGStem%>i PL-PAR_t ;
+:%^StrGStem%>i PL-ALL_lE-STEM ;
+:%^StrGStem%>id%{eõ%} PL-COM ;
+
 LEXICON NMN_16ABILINW/INEMINE !!= @CODE@ inemine:inemi abilinõ:abili
 !! * Yaml: **N-inemine16**
         NMN_16ABILINW/INEMINE-SG ;
