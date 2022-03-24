@@ -168,7 +168,7 @@ Based on 59KAOTAMA
 
 +Act+Ind+Prt+Sg3
 
-*kaotama examples:*
+* kaotama examples:*
 * *kaoda-aiq:* `kaotama+V+Act+Ind+Prs+Neg`
 * *kaoda-as:* `kaotama+V+Act+Ind+Prt+Neg`
 * *kaoda:* `kaotama+V+Act+Ind+ConNegII`
@@ -494,7 +494,7 @@ Retain consonant and stem vowel
 Ind+Prs+ 3
 
 Strengthen consonant and replace stem vowel with i
-* :%>i TULWMA_ACT-IND-PRT-SG1 ;  (7) puri
+* :%>i TULWMA_ACT_IND_PRT_ZERO_and_X ;  (7) puri
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 consonant and add i
@@ -541,7 +541,7 @@ Retain consonant and stem vowel
 Ind+Prs+ 3
 
 Strengthen consonant and replace stem vowel with i
-* :d%^VowRM%>i TULWMA_ACT-IND-PRT-SG1 ;  (7) rapahudi
+* :d%^VowRM%>i TULWMA_ACT_IND_PRT_ZERO_and_X ;  (7) rapahudi
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Strengthen consonant and add ʼ
@@ -553,7 +553,7 @@ Act+Ind+Prt+Sg3
 Work
 * **LEXICON V_81XX/TEGEMAE** tegemä:t
 
-*tegemä examples:*
+* tegemä examples:*
 * *tegemä:* `tegemä+V+Inf/mA` (Eng. # (1))
 * *tetäq:* `tegemä+V+Inf` (Eng. # (2))
 * *tennüq:* `tegemä+V+Act+PrfPrc` (Eng. # (3))
@@ -582,7 +582,7 @@ Work
 Work
 * **LEXICON V_81XX/NAEGEMAE** nägemä:te%{kØ%}%{ḱgØ%}
 
-*nägemä examples:*
+* nägemä examples:*
 * *nägemä:* `nägemä+V+Inf/mA` (Eng. # (1))
 * *nätäq:* `nägemä+V+Inf` (Eng. # (2))
 * *nännüq:* `nägemä+V+Act+PrfPrc` (Eng. # (3))
@@ -630,6 +630,16 @@ gradation: yes
 * Yaml: **heitmae**
 
 * LEXICON V_83SÕITMA/HEITMAE   sõitma:sõi%{tt́d%}a
+
+IS THIS RIGHT? 2015-09-02
+
+sõida
+
+* LEXICON V_83TAHTMA   sõitma:sõit
+gradation: yes
+* Yaml: **switma**
+
+* LEXICON V_83TAHTMA/XX   sõitma:sõi%{tt́d%}a
 
 IS THIS RIGHT? 2015-09-02
 
@@ -791,13 +801,6 @@ CHECK THIS
 PASSIVE DISTRIBUTION
 * Harm-Neutr_NÕSTMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
 * Harm-Neutr_KAOTAMA-PSS_PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
-
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>di K ;  no q
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>did%{eõ%} K ;  no q
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl1:%>dimi K ;  no q
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%>diti K ;  no q
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>di K ;  no q
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>div%{aä%} K ;  no q
 
 * PSS_PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
 * Harm-Neutr_KAOTAMA-PSS_PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt

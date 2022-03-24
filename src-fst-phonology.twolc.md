@@ -584,9 +584,9 @@ joudma+V+Act+Ind+Prt+Sg1
 * *sü%{üv%}%{dv%}%{front%}%^WGStem%>ä*
 * *süvv00%>ä*
 
-* examples:*
+*  examples:*
 
-* examples:*
+*  examples:*
 
 **%^I7:i**
 * *va%^I7o%^StrGStem%>i*

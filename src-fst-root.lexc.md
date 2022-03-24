@@ -69,6 +69,9 @@ The Usage extents are marked using following tags:
 * **+Err/Orth-no-q** Q is missing
 * **+Err/Orth-raised-vow** 
 * **+Err/Orth-lowered-vow** 
+* **+Err/Orth-e-stem** should be i stem, but is e stem
+* **+Err/Orth-o-stem** should be u stem, but is o stem
+* **+Err/Orth-u-stem** should be o stem, but is u stem
 * **+Err/Orth-est** 
 * **+Err/Orth-weak-grade**
 * **+Err/Orth-back** erroneous back harmony, see flags
