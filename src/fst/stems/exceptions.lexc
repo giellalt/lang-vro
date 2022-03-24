@@ -188,6 +188,10 @@ säidse+Num+Sg+Nom:säidse%{front%} K ;
 säidse+v1+Num:säitsme%{front%} SG-GEN_ZERO-STEM ;
 säidse+v2+Num:säidsme%{front%} SG-GEN_ZERO-STEM ;
 
+kümne+Num+Sg+Gen:kümme K ;
+kümne+Num+Sg+Nom:kümne K ;
+kümne+Num+Sg+Par:kümmend K ;
+
 katśkümmend+Num+Sg+Nom:katśkümmend K ;
 katśkümmend+Num+Sg+Gen:katõkümne K ;
 
@@ -266,7 +270,7 @@ löüdmä+V:löü%{front%} PSS_PRFPRC_t_ONLY  ;
 pandma+V:pan%{back%} PSS_PRFPRC_t_ONLY  ;
 
 käümä+V+Act+Ind+Prs+Pl3:kääväq K ;
-käümä+V+Inf:kävvüq K ;
+käümä+V+Inf:kävvü Harm-Neutr_INF_ZEROq ;
 
 !! kündma **to plow/kyntää**
 kündmä+V:kün%{front%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;
@@ -287,16 +291,8 @@ minemä+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{front%}lää%-iq K ;
 minemä+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{front%}lää%-i K ;
 minemä+V+Act+Ind+Prt+Neg:%{front%}lää%-äs K ;
 minemä+V+Act+Ind+ConNegII:%{front%}lää K ;
-minemä+V+Act+Ind+Prt+Sg1:%{front%}lätsi K ;
-minemä+V+Act+Ind+Prt+Sg2:%{front%}lätsit K ;
-minemä+Use/NG+V+Act+Ind+Prt+Sg2:%{front%}lätsiq K ;
-minemä+Use/NG+V+Act+Ind+Prt+Sg2:%{front%}lätsideq K ;
+minemä+V:%{front%}lätsi TULWMA_ACT_IND_PRT_ZERO_and_X ;
 minemä+V+Act+Ind+Prt+Sg3:%{front%}lätś K ;
-minemä+V+Act+Ind+Prt+Pl1:%{front%}lätsimiq K ;
-minemä+V+Act+Ind+Prt+Pl2:%{front%}lätsitiq K ;
-minemä+Use/NG+V+Act+Ind+Prt+Pl2:%{front%}lätsideq K ;
-minemä+V+Act+Ind+Prt+Pl3:%{front%}lätsiq K ;
-minemä+Use/NG+V+Act+Ind+Prt+Pl3:%{front%}lätsiväq K ;
 
 !! nakkama **to begin/ alkaa**
 nakkama+V:naa%{back%} PSS_PRFPRC_t/SG-GEN_dU ;
