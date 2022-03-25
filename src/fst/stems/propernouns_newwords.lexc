@@ -987,8 +987,6 @@ Sarumõisa+N+Prop+Sem/Plc:Saru#mõisa PROP_5OPPAJA ;
 Pardsimõisa+N+Prop+Sem/Plc:Pardsi#mõisa PROP_5OPPAJA ;
 Jaugamõisa+N+Prop+Sem/Plc:Jauga#mõisa PROP_5OPPAJA ;
 Mõnistmõisa+N+Prop+Sem/Plc:Mõnist#mõisa PROP_5OPPAJA ;
-Õuruupa+N+Prop+Sem/Plc:Õuru̬u̬pa PROP_5OPPAJA "" ;
-Õuruupa+Use/NG+N+Prop+Sem/Plc:Euru̬u̬pa PROP_5OPPAJA "" ;
 Eelijä+N+Prop:Eelijä PROP_5MAENGJAE ;
 Arukülä+N+Prop+Sem/Plc:Aru#kü%{lØ%}lä PROP_35PESAE "" ;
 Nõvvokogoliit+N+Prop:Nõvvokogolii%{td%}o PROP_41ASK ;
@@ -1195,10 +1193,13 @@ Lõunõõdagu-Eesti+v1+N+Prop+Sem/Plc:Lõunõõdagu-Eesti PROP_1HERRAE "" ;
 Lõunõõdagu-Eesti+v2+N+Prop+Sem/Plc:Lõunaõdagu-Eesti PROP_1HERRAE "" ;
 Õdago-Eesti+N+Prop+Sem/Plc:Õdago-#Eesti PROP_1HERRAE "" ;
 Kesk-Eesti+N+Prop+Sem/Plc:Kesk-#Eesti PROP_1HERRAE "" ;
+Hummogu-Eesti+N+Prop+Sem/Plc:Hummogu-#Eesti PROP_1HERRAE "" ;
 Lõunõhummogu-Eesti+v1+N+Prop+Sem/Plc:Lõunõhummogu-#Eesti PROP_1HERRAE "" ;
 Lõunõhummogu-Eesti+v2+N+Prop+Sem/Plc:Lõunahummogu-#Eesti PROP_1HERRAE "" ;
 Lõunõ-Eesti+N+Prop+Sem/Plc:Lõunõ-#Eesti PROP_1HERRAE "" ;
 Põh́a-Eesti+N+Prop+Sem/Plc:Põh́a-Eesti PROP_1HERRAE "" ;
+Kodu-Eesti+N+Prop+Sem/Plc:Kodu-Eesti PROP_1HERRAE "" ;
+Kagu-Eesti+N+Prop+Sem/Plc:Kagu-Eesti PROP_1HERRAE "" ;
 Egüpt́+N+Prop+Sem/Plc:Egüp%{tt́%} PROP_8EEDER1 "" ;!
 Emmastõ+N+Prop+Sem/Plc:Emmastõ PROP_5OPPAJA "" ;
 Eostõ+N+Prop+Sem/Plc:Eostõ PROP_5OPPAJA "" ;
@@ -1260,7 +1261,7 @@ Meeriga+N+Prop+Sem/Plc:Meeri%{kg%} PROP_10AMEERIGA "" ;!
 Meemaskülä+N+Prop+Sem/Plc:Meemaskü%{lØ%}lä PROP_35PESAE "" ;
 Läti-Valga+N+Prop+Sem/Plc:Läti-Valka PROP_1HANS1A  "" ;!
 Lepässaarõ+N+Prop+Sem/Plc:Lepäs#saarõ PROP_ "" ;
-Loosi+N+Prop+Sem/Plc:L%{ou%}%{ou%}si PROP_ "" ;
+Loosi+N+Prop+Sem/Plc:Lu̬u̬si PROP_ "" ;
 Lutsi+N+Prop+Sem/Plc:Lutsi PROP_ "" ;
 Läti+N+Prop+Sem/Plc:Lät%{tt́Ø%} PROP_38PAPP1 "" ;!
 Läti+N+Prop+Sem/Plc:Lät%{tt́Ø%} PROP_38PAPP1 "" ;!
@@ -1690,8 +1691,23 @@ Leedu+N+Prop+Sem/Plc:Leedu PROP_ "" ;
 Aakre+N+Prop+Sem/Plc:Aakre PROP_5OPPAJA ;
 Al+N+Prop+Sem/Plc:Al PROP_5OPPAJA ;
 Etioopi+N+Prop+Sem/Plc:Etioopi PROP_5OPPAJA ;
-Euruupa+N+Prop+Sem/Plc:Euru̬u̬pa PROP_5OPPAJA ;
-Põh́a-Euruupa+N+Prop+Sem/Plc:Põh́a-Euru̬u̬pa PROP_5OPPAJA ;
+Õuruupa+N+Prop+Sem/Plc:Õuru̬u̬pa PROP_5OPPAJA "" ;
+Õuruupa+Use/NG+N+Prop+Sem/Plc:Euru̬u̬pa PROP_5OPPAJA "" ;
+Õdagu-Õuruupa+N+Prop+Sem/Plc:Õdagu-#Õuru̬u̬pa PROP_5OPPAJA "" ;
+Õdagu-Õuruupa+Err/Orth-o-stem+N+Prop+Sem/Plc:Õdago-#Õuru̬u̬pa PROP_5OPPAJA "" ;
+Kesk-Õuruupa+v1+N+Prop+Sem/Plc:Kesk-#Õuru̬u̬pa PROP_5OPPAJA "" ;
+Kesk-Õuruupa+v2+N+Prop+Sem/Plc:Kesk-#Euru̬u̬pa PROP_5OPPAJA "" ;
+Maisõmaa-Õuruupa+N+Prop+Sem/Plc:Maisõmaa-#Õuru̬u̬pa PROP_5OPPAJA "" ;
+Lõunõhummogu-Õuruupa+N+Prop+Sem/Plc:Lõunõhummogu-#Õuru̬u̬pa PROP_5OPPAJA "" ;
+Lõunõhummogu-Õuruupa+Err/Orth-o-stem+N+Prop+Sem/Plc:Lõunõhummogo-#Õuru̬u̬pa PROP_5OPPAJA "" ;
+Lõunõ-Õuruupa+N+Prop+Sem/Plc:Lõunõ-#Õuru̬u̬pa PROP_5OPPAJA "" ;
+Õuruupa+N+Prop+Sem/Plc:Õuru̬u̬pa PROP_5OPPAJA "" ;
+Sirgutii+N+Prop:Sirgut%{ei%}%{ei%} PROP_29HAEAE ;
+
+
+Põh́a-Õuruupa+v1+N+Prop+Sem/Plc:Põh́a-Õuru̬u̬pa PROP_5OPPAJA ;
+Põh́a-Õuruupa+v2+N+Prop+Sem/Plc:Põh́a-Euru̬u̬pa PROP_5OPPAJA ;
+Hummogu-Õuruupa+N+Prop+Sem/Plc:Hummogu-Õuruupa PROP_1HANS1A ;
 
 Kuĺbina+N+Prop+Sem/Plc:Kuĺbina PROP_5OPPAJA ;
 Hértsegoviina+N+Prop+Sem/Plc:Hértsegoviina PROP_5OPPAJA ;
@@ -2018,6 +2034,10 @@ Saarõmaa+N+Prop+Sem/Plc:Saarõmaa PROP_30MAA "" ;
 Śaksamaa+v1+N+Prop+Sem/Plc:Śaksamaa PROP_30MAA "" ;
 Śaksamaa+v2+N+Prop+Sem/Plc:Saksamaa PROP_30MAA "" ;
 Śaksamaa+v3+N+Prop+Sem/Plc:Säksamaa PROP_30MAA "" ;
+
+Lõunõ-Śaksamaa+N+Prop+Sem/Plc:Lõunõ-#Śaksamaa PROP_30MAA "" ;
+Hummogu-Śaksamaa+N+Prop+Sem/Plc:Hummogu-#Śaksamaa PROP_30MAA "" ;
+
 Śaksa+v1+N+Prop+Sem/Plc:Śaksa PROP_5OPPAJA "" ;
 Śaksa+v2+N+Prop+Sem/Plc:Saksa PROP_5OPPAJA "" ;
 Põh́a-Śaksamaa+N+Prop+Sem/Plc:Põh́a-#Śaksamaa PROP_30MAA "" ;
@@ -2239,6 +2259,11 @@ Otõpää+Use/NG+N+Prop+Sem/Plc:Otepää PROP_30TUEUE "" ;
 Pahtpää+N+Prop+Sem/Plc:Pahtpää PROP_30TUEUE "" ;
 Soomõ+N+Prop+Sem/Plc:S%{ou%}%{ou%}%{mḿ%} PROP_36TUUM1 "_Soomõ, Su̬u̬mõ__su̬u̬ḿ_" ;
 Põh́a-Soomõ+N+Prop+Sem/Plc:Põh́a-#S%{ou%}%{ou%}%{mḿ%} PROP_36TUUM1 "_Soomõ, Su̬u̬mõ__su̬u̬ḿ_" ;
+Lõunõ-Soomõ+N+Prop+Sem/Plc:Lõunõ-#S%{ou%}%{ou%}%{mḿ%} PROP_36TUUM1 ;
+Hummogu-Soomõ+N+Prop+Sem/Plc:Hummogu-#S%{ou%}%{ou%}%{mḿ%} PROP_36TUUM1 ;
+Põh́aõdagu-Soomõ+N+Prop+Sem/Plc:Põh́aõdagu-#S%{ou%}%{ou%}%{mḿ%} PROP_36TUUM1 ;
+Kesk-Soomõ+N+Prop+Sem/Plc:Kesk-#S%{ou%}%{ou%}%{mḿ%} PROP_36TUUM1 ;
+
 Paikuskunstipäiv+N+Prop+Sem/Time:Paikuskunstipäiv PROP_36PAEIV "" ;
 Palmiste+N+Prop+Sem/Plc:Palmiste PROP_5MAENGJAE "" ;
 Piigastõ+N+Prop+Sem/Plc:Piigastõ PROP_5OPPAJA "" ;
@@ -2416,9 +2441,22 @@ Vahejärv́+N+Prop+Sem/Plc:Vahe#jär%{vv́%} PROP_36SAERG1 ;
 Vahtsõjärv́+N+Prop+Sem/Plc:Vahtsõ#jär%{vv́%} PROP_36SAERG1 ;
 
 Kuriiliq+N+Prop+%<pcl_pääl%>+Sem/Plc:Kuriiliq PROP_ "" ;!
-Ukraina+N+Prop+Sem/Plc:Ukraina PROP_ "" ;
-Põh́a-Ukraina+N+Prop+Sem/Plc:Põh́a-Ukraina PROP_ "" ;
+Hummogu-Ukraina+N+Prop+Sem/Plc:Hummogu-#Ukraina PROP_1HANS1A "" ;
+Kuraperve-Ukraina+N+Prop+Sem/Plc:Kuraperve-#Ukraina PROP_1HANS1A "" ;
+Hääperve-Ukraina+N+Prop+Sem/Plc:Hääperve-#Ukraina PROP_1HANS1A "" ;
+Slobodaa-Ukraina+N+Prop+Sem/Plc:Slobodaa-#Ukraina PROP_1HANS1A "" ;
+Põh́aõdagu-Ukraina+N+Prop+Sem/Plc:Põh́aõdagu-#Ukraina PROP_1HANS1A "" ;
+Põh́ahummogu-Ukraina+N+Prop+Sem/Plc:Põh́ahummogu-#Ukraina PROP_1HANS1A "" ;
+Lõunõhummogu-Ukraina+N+Prop+Sem/Plc:Lõunõhummogu-#Ukraina PROP_1HANS1A "" ;
+Lõunõ-Ukraina+N+Prop+Sem/Plc:Lõunõ-#Ukraina PROP_1HANS1A "" ;
+Liido-Ukraina+N+Prop+Sem/Plc:Liido-#Ukraina PROP_1HANS1A "" ;
+Karpaadi-Ukraina+N+Prop+Sem/Plc:Karpaadi-#Ukraina PROP_1HANS1A "" ;
+Põh́a-Ukraina+N+Prop+Sem/Plc:Põh́a-Ukraina PROP_1HANS1A "" ;
 Poola+N+Prop+Sem/Plc:Poola PROP_1HANS1A  "" ;
+Lõunõ-Poola+v1+N+Prop+Sem/Plc:Lõunõ-#Poola PROP_1HANS1A  "" ;
+Lõunõ-Poola+v2+N+Prop+Sem/Plc:Lõuna-#Poola PROP_1HANS1A  "" ;
+Õdagu-Poola+N+Prop+Sem/Plc:Õdagu-#Poola PROP_1HANS1A  "" ;
+Hummogu-Poola+N+Prop+Sem/Plc:Hummogu-#Poola PROP_1HANS1A  "" ;
 Põh́a-Poola+N+Prop+Sem/Plc:Põh́a-Poola PROP_1HANS1A  "" ;
 Kanepi+N+Prop+Sem/Plc:Kanepi PROP_ "" ;
 Taheva+N+Prop+Sem/Plc:Taheva PROP_ "" ;
@@ -2475,7 +2513,5 @@ Põh́a-Afriga+N+Prop+Sem/Plc:Põh́a-Afri%{kg%} PROP_10AMEERIGA ;
 Õdagu-Viro+N+Prop+Sem/Plc:Õdagu-Viro PROP_1HANS1A ;
 Hummogu-Viro+N+Prop+Sem/Plc:Hummogu-Viro PROP_1HANS1A ;
 Lõunahummogu-Poola+N+Prop+Sem/Plc:Lõunahummogu-Poola PROP_1HANS1A ;
-Hummogu-Õuruupa+N+Prop+Sem/Plc:Hummogu-Õuruupa PROP_1HANS1A ;
-Põh́a-Õuruupa+N+Prop+Sem/Plc:Põh́a-Õuruupa PROP_1HANS1A ;
 Ütisriigiq+N+Prop+Sem/Plc:Ütis#rii%{kḱg%} N_38REHK1-PL ;
 Ütiskuningriiḱ+N+Prop+Sem/Plc:Ütis#kuning#rii%{kḱg%} N_38REHK1 ;
