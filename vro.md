@@ -1156,6 +1156,12 @@ LEXICON N_20LATS1  latś:lat%{sś%}
 
 LEXICON N_20TAEUES1  täüś:täü
 
+LEXICON N_20VIIS1  täüś:täü
+
+LEXICON N_20ORS1  täüś:täü
+
+LEXICON N_20HIRS1  täüś:täü
+
 LEXICON N_20VAEITS1  väitś:väits
 
 LEXICON N_20KUEUEDS1  küüdś:küüds
@@ -1282,6 +1288,8 @@ LEXICON N_40TALO  talo:talo
 LEXICON N_40HELUE  helü:helü
 
 LEXICON N_40UJA  uja:u%{jØ%}ja
+
+LEXICON N_40IJAE  ijä:i%{jØ%}jä
 
 LEXICON N_40SAVV  savv:savvu
 
@@ -2568,6 +2576,10 @@ LEXICON NMN_19ALOMANW/PEDAEJAENE   alomanõ:aloma
 
 * Yaml: **N-vaeitsj20**
 
+* Yaml: **N-vaeitsj20**
+
+* Yaml: **N-vaeitsj20**
+
 LEXICON NMN_22NAANW  naanõ:naa
 * Yaml: **N-vwrokwnw22**
 
@@ -3038,6 +3050,7 @@ gradation: yes
 ### SINGULAR TAGS
 
 * +Use/NG+Err/Orth-no-q+Sg+Com:%>ga K ;  no q
+* +Use/NG+Err/Orth-no-q+Err/Orth-front+Sg+Com:%>gä K ;  no q, front
 * +Use/NG+Err/Orth-no-q+Sg+Com:%>ga BACK_K ;  no q
 
 LEXICON Harm-Neutr_SG-INE_hn  RARE
@@ -3218,6 +3231,8 @@ LEXICON PERS-PL3  timä:
 ### INDEFINITE PRONOUNS
 
 ### INTERROGATIVE PRONOUNS
+
+* LEXICON PRON_36UETS1  ütś:üt
 
 * * *
 
@@ -5828,6 +5843,10 @@ symbols in the lexicon files:
  %{kḱØ%}   
  %{pṕb%}   
  %{pṕØ%}   
+
+ %{dśtv%}    tä%{üv%}%{śtv%}
+ %{djśt%}    vii%{jśt%}
+ %{drśt%}    var%{rśt%}
 
 ```
 

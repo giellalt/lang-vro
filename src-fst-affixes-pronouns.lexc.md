@@ -18,6 +18,8 @@ LEXICON PERS-PL3  timä:
 
 ### INTERROGATIVE PRONOUNS
 
+* LEXICON PRON_36UETS1  ütś:üt
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/pronouns.lexc)</small>

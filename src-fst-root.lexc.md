@@ -418,6 +418,10 @@ symbols in the lexicon files:
  %{pṕb%}   
  %{pṕØ%}   
 
+ %{dśtv%}    tä%{üv%}%{śtv%}
+ %{djśt%}    vii%{jśt%}
+ %{drśt%}    var%{rśt%}
+
 ```
 
 ## Palatalization
