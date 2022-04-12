@@ -811,6 +811,7 @@ tehnüs+N:tehnüs N_4TERVUES "_#, #t__ˋtehnü|s_" ;
 tehrüs+N:tehrüs N_4TERVUES "_#, #t__ˋtehrü|s_" ;
 tervüs+N:tervüs N_4TERVUES "_#, #t__ˋtervü|s_" ;
 tihkus+N:tihkus N_4AINUS "_#, #t__ˋtihku|s_" ;
+kõrvus+N:kõrvus N_4AINUS ;
 tiidüs+N:ti̬i̬düs N_4TERVUES "_#, #t__ti̬i̬dü|s_" ;
 truudus+N:truudus N_4AINUS "_#, #t__ˋtruudu|s_" ;
 tserküs+N:tserküs N_4TERVUES "_#, #t__ˋtserkü|s_" ;
@@ -2357,6 +2358,7 @@ sirdus+N:sirdus N_17ALGUS "_#, #t__ˋsirdu|s_" ;
 sisasḱ+N:sisas%{kḱ%} N_8DOLLAR1 "_#i, #it__sisasḱ_" ;
 soend́+N:soen%{dd́%} N_8DOLLAR1 "_#i, #it__soend́_" ;
 soeng+N:soengu N_8SADANG "_#u, #ut__soeng_" ;
+ülessoeng+N:üles#soengu N_8SADANG ;
 soldań+N:solda%{nń%} N_8DOLLAR1 "_#i, #it__ˋsoldań_" ;
 suhkaŕ+N:suhka%{rŕ%} N_8DOLLAR1 "_#i, #it__suhkaŕ_" ;
 sukmań+N:sukma%{nń%} N_8DOLLAR1 "_#i, #it__ˋsukmań_" ;
@@ -3530,6 +3532,9 @@ vanakurat́+N:vanakura%{tt́d%} N_10AMMAT1 "_vanakuradi, vannakuradit __vanakura
 vanavanõmb+N:vanavanõmb N_10HWRAK "_#a, vannavanõmbat__vanavanõmb_" ;
 vanik+N:vani%{kg%} N_10HAIDAK "_#gu, #kut__vani|k_" ;
 vannuḱ+N:vannu%{kḱg%} N_10AMMAT1 "_#gi, #kit__vannu|ḱ_" ;
+mineḱ+N:mine%{kḱg%} N_10AMMAT1 ;
+ülesmineḱ+N:üles#mine%{kḱg%} N_10AMMAT1 ;
+
 varik+N:vari%{kg%} N_10HAIDAK "_#gu, #kut__vari|k_" ;
 !vasik+N:vasi%{kg%} NMN_10 "_#ga #gõ, #kat #kõt__vasi|k_" ;
 veerik+N:veeri%{kg%} N_10ESAEK "_#gu, #kut__veeri|k_" ;
@@ -3646,6 +3651,7 @@ kröömeq+N:kr%{öü%}%{öü%}me N_11KELMEQ "_krü̬ü̬me, kröömet__kröömeq
 kuhtsõq+N:kuh%{td%}sõ N_11AINWQ-PL "_#idõ, #it__ˋkuhts|õq_" ;
 kummõq+N:kum%{bm%}õ N_11ANNWQ "_ˋkumbõ, kummõt__kummõq_" ;
 kutsõq+N:kutsõ N_11AINWQ "_ˋkutsõ, kutsõt__kutsõq_" ;
+üleskutsõq+N:üles#kutsõ N_11AINWQ ;
 kõnõq+N:kõ̭%{nØ%}nõ N_11ANNWQ "_ˋkõ̭nnõ, kõ̭nõt__kõ̭nõq_" ;
 kõrnõq+N:kõrnõ N_11AINWQ "_ˋkõrnõ, kõrnõt__kõrnõq_" ;
 kõrrõq+N:kõrrõ N_11ANNWQ "_ˋkõrrõ, kõ(r)rõt__kõrrõq_" ;
@@ -4708,6 +4714,7 @@ täütmäldäjätmine+N:täütmäldäjätmi N_16INEMINE ;
 vahtsõstsündümine+N:vahtsõstsündümi N_16INEMINE ;
 vallalõtegemine+N:vallalõtegemi N_16INEMINE ;
 vällälöüdmine+N:vällälöüdmi N_16INEMINE ;
+üleslöüdmi+N:üleslöüdmi N_16INEMINE ;
 vällämärkmine+N:vällämärkmi N_16INEMINE ;
 õkvaiskmine+N:õkvaiskmi N_16INEMINE ;
 ülesehitämine+N:ülesehitämi N_16INEMINE ;
@@ -5084,7 +5091,9 @@ välläütlemine+N:vällä%{ˋØ%}ütlemi N_16INEMINE "_#se, #st__ˋvällä%{ˋ�
 ülioṕlanõ+N:üli%{ˋØ%}oṕla N_16ABILINW "_#sõ, #st__üli%{ˋØ%}oṕla|nõ_" ;
 ütlemine+N:ütlemi N_16INEMINE "_#se, #st__ˋütlemi|ne_" ;
 üüriline+N:üürili N_16INEMINE "_#se, #st__üürili|ne_" ;
-
+ülestähendämine+N:üles#tähendämi N_16INEMINE ;
+ülesnõsõminõ+N:üles#nõsõmi N_16ABILINW ;
+üleskirotaminõ+N:üleskirotami N_16ABILINW ;
 
 !17 
 !(VES 10) %{ˋØ%}tervüs3
@@ -5494,6 +5503,8 @@ sünnüpääväkingitüs+N:sünnü#päävä#kingitüs N_18EHITUES "_#e, #t__king
 kinnitüs+N:kinnitüs N_18EHITUES "_#e, #t__kinnitüs_" ;
 kinähüs+N:kinähüs N_18EHITUES "_#e, #t__kinähüs_" ;
 kirotus+N:kirotus N_18AIVASTUS "_#õ, #t__kirotus_" ;
+üleskirotus+N:üles#kirotus N_18AIVASTUS "_#õ, #t__kirotus_" ;
+
 kirsahtus+N:kirsahtus N_18AIVASTUS "_#õ, #t__kirsahtus_" ;
 kirändüs+N:kirändüs N_18EHITUES "_#e, #t__kirändüs_" ;
 kirästüs+N:kirästüs N_18EHITUES "_#e, #t__kirästüs_" ;
@@ -5879,6 +5890,8 @@ tõrgahtus+N:tõrgahtus N_18AIVASTUS "_#õ, #t__tõrgahtus_" ;
 tõtõhus+N:tõtõhus N_18AIVASTUS "_#õ, #t__tõtõhus_" ;
 tõõstus+N:tõ̭õ̭stus N_18AIVASTUS "_#õ, #t__tõ̭õ̭stus_" ;
 tähendüs+N:tähendüs N_18EHITUES "_#e, #t__tähendüs_" ;
+ülestähendüs+N:üles#tähendüs N_18EHITUES ;
+ülesimetüs+N:üles#imetüs N_18EHITUES ;
 tävvehüs+N:tävvehüs N_18EHITUES "_#e, #t__tävvehüs_" ;
 töllerüs+N:töllerüs N_18EHITUES "_#e, #t__töllerüs_" ;
 tülgähtüs+N:tülgähtüs N_18EHITUES "_#e, #t__tülgähtüs_" ;
