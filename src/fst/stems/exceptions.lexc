@@ -148,6 +148,8 @@ kiri+N+Sg+Ill+Err/Orth-back:kirja K ;
 sain+N+Sg+Gen+Use/NG+Err/Orth:saańa K ;!Räpinä murdõ vorḿ
 terveqarv+N+Pl+Gen:tervide#arvõ K ;!both parts decline?
 
+rõivas+N+Sg+Nom+Err/Orth:rõivaś K ;
+
 !! ### PROPER NOUNS
 Häädemeeste+N+Prop+Sem/Plc:Hääde#m NMN_20MIIS1-PL_OBL ;
 la+N+Prop+Sem/Plc:la PROP_1HANS1A "article" ;
@@ -174,6 +176,8 @@ kuuś+Num+Sg+Nom:kuuś K ;
 kuuś+Num+Sg+Nom:kuvvõ%{back%} SG-GEN_ZERO-STEM ;
 kuuś+Num+Sg+Par:kuut K ;
 
+milĺoń+Num+Sg+Gen:milĺoni K ;
+milĺoń+Num+Sg+Nom:milĺoń K ;
 
 neli+v1+Num+Sg+Nom:neli K ;
 neli+v2+Num+Sg+Nom:nelli K ;
@@ -232,6 +236,7 @@ hindä+Pron+Refl+All:hindäle K ;
 hindä+Pron+Refl+Gen:hindä K ;
 hindä+Pron+Refl+Ela:hinnäst K ;
 tuu+Pron:tu PRON-DEM ;
+tuu+Pron+Dem+Sg+Par:toda K ;
 tää+Pron:tä PRON-DEM ;
 saq+Pron: PERS-SG2 ;
 kõiḱ+Pron+Sg+Ine:kõgõn K ;
@@ -258,6 +263,7 @@ elämä+V+Act+Ind+Prs+Pl3+Err/Orth:elässeq K ;
 
 ajama+V+Act+Ind+Prt+ScSg1:ai%{back%} K ;
 ajama+V+Act+Ind+Prt+ScSg3:ai%{back%} K ;
+ajama+V+Ind+Prt+OcSg3:aeti K ;
 
 !! andma **to give/antaa**
 !PSS_IND_PRS_ALL_dA ?
@@ -269,8 +275,21 @@ andma+V:an%{back%} PSS_PRFPRC_t_ONLY ;!ant
 löüdmä+V:löü%{front%} PSS_PRFPRC_t_ONLY  ;
 pandma+V:pan%{back%} PSS_PRFPRC_t_ONLY  ;
 
+!! ### VERBS WITH FORMS TO STUDY
+matma+V+PssPrtPrc+Sg+Nom:matõt K ;
+nakkama+V+ActPrtPrc+Sg+Nom:naanuq K ;
+häömä+V+ActPrtPrc+Sg+Nom:häönüq K ;
+pidämä+V+Ind+Prt+ScPl3:pidiq K ;
+oṕma+V+Ind+Prt+ScSg1:opsõ K ;
+oṕma+V+Ind+Prt+ScSg3:opsõ K ;
+minemä+V+Ind+Prt+OcSg3:minti K ;
+kaaldma+V+Ind+Prs+ScSg3:kaald K ;
+säädmä+V+Ind+Prt+OcSg3:säeti K ;
+sponsoriiŕmä+V+Ind+Prs+ScSg3:sponsoriir K ;
 käümä+V+Act+Ind+Prs+Pl3:kääväq K ;
 käümä+V+Inf:kävvü Harm-Neutr_INF_ZEROq ;
+tegemä+V+Ind+Prt+OcPl3:tettiq K ;
+
 
 !! kündma **to plow/kyntää**
 kündmä+V:kün%{front%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;

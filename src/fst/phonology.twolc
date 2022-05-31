@@ -150,6 +150,7 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
  %{sś%}:ś   !!= @CODE@ — HJK and KimmoK ideas vaśma:va%{sØ%}%{sś%}
  %{tt́%}:t   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{vv́%}:v   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ḱǵj%}:ḱ  !!= @CODE@ — HJK and KimmoK ideas laǵa:la%{ḱǵj%}a
  %{zź%}:z   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{dd́n%}:d !!= @CODE@
 !! ```
@@ -322,6 +323,7 @@ ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ
 %{kḱg%}
 %{kḱØ%}
 %{mḿ%}
+%{̭ḱǵj%}
 ; 
 
 
@@ -1835,6 +1837,22 @@ _ [%{td%}: | %{tt́d%}: ] (HarmDummiesVar) [ %^G2: | %^G3:| %^G4: ] ;
 !! murrõq+N+Sg+Gen
 !!€ mur%{dr%}õ%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem
 !!€ murdõ00000
+
+"%{ḱǵj%}:ǵ"
+!! **@RULENAME@**
+%{ḱǵj%}:ǵ <=> 
+     (%{kØ%}:|Vow) _ Vow (HarmDummiesVar) PenVOWHite %^Pen: %^G2: ;
+
+"%{ḱǵj%}:ḱ"
+!! **@RULENAME@**
+%{ḱǵj%}:k <=> 
+     (%{kØ%}:|Vow) _ Vow (HarmDummiesVar) PenVOWHite %^Pen: [%^G3:|%^G4:] ;
+
+"%{ḱǵj%}:0"
+!! **@RULENAME@**
+%{ḱǵj%}:0 <=> 
+     (%{kØ%}:|Vow) _ Vow (HarmDummiesVar) PenVOWHite %^Pen: %^G1: ;
+
 
 
 "%{tdØ%}:d"
