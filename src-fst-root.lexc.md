@@ -440,6 +440,7 @@ symbols in the lexicon files:
  %{sś%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{tt́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{vv́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ḱǵj%}   — HJK and KimmoK ideas laǵa:la%{ḱǵj%}a
  %{zź%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{dd́n%}  
 ```

@@ -23,6 +23,8 @@
 
 andma **to give/antaa**
 
+### VERBS WITH FORMS TO STUDY
+
 kündma **to plow/kyntää**
 
 minemä **to go/ mennä**

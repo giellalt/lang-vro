@@ -3287,6 +3287,8 @@ tukõv:tukõv
 LEXICON PROP_10AMEERIGA  Ameeriga:Ameerik
 cf. _10HWRAK
 
+LEXICON PROP_10ESAEK  esäk:esäk
+
 LEXICON PROP_10LEMBIT  Lembit:Lembi%{td%}
 
 LEXICON PROP_10VIDRIK  vidrik:vidrik
@@ -3367,6 +3369,8 @@ kogõr:kogõr
 derived from 36särǵ
 
 LEXICON PROP_37PINI  pini:pini
+
+LEXICON PROP_37WLI  pini:pini
 
 * LEXICON PROP_38PULL1  pulĺ:pull
 
@@ -4379,6 +4383,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
  %{sś%}:ś    — HJK and KimmoK ideas vaśma:va%{sØ%}%{sś%}
  %{tt́%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{vv́%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ḱǵj%}:ḱ   — HJK and KimmoK ideas laǵa:la%{ḱǵj%}a
  %{zź%}:z    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{dd́n%}:d 
 ```
@@ -5201,6 +5206,12 @@ murrõq+N+Sg+Gen
 * *mur%{dr%}õ%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem*
 * *murdõ00000*
 
+**%{ḱǵj%}:ǵ**
+
+**%{ḱǵj%}:ḱ**
+
+**%{ḱǵj%}:0**
+
 **%{tdØ%}:d**
 
 **%{dØ%}:d**
@@ -5868,6 +5879,7 @@ symbols in the lexicon files:
  %{sś%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{tt́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{vv́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ḱǵj%}   — HJK and KimmoK ideas laǵa:la%{ḱǵj%}a
  %{zź%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{dd́n%}  
 ```
@@ -6136,6 +6148,8 @@ ADD DETERMINERS BELOW
 ### VERBS
 
 andma **to give/antaa**
+
+### VERBS WITH FORMS TO STUDY
 
 kündma **to plow/kyntää**
 

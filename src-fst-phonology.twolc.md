@@ -122,6 +122,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
  %{sś%}:ś    — HJK and KimmoK ideas vaśma:va%{sØ%}%{sś%}
  %{tt́%}:t    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{vv́%}:v    — HJK and KimmoK ideas kana:ka%{nØ%}na
+ %{ḱǵj%}:ḱ   — HJK and KimmoK ideas laǵa:la%{ḱǵj%}a
  %{zź%}:z    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{dd́n%}:d 
 ```
@@ -943,6 +944,12 @@ murrõq+N+Sg+Nom
 murrõq+N+Sg+Gen
 * *mur%{dr%}õ%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem*
 * *murdõ00000*
+
+**%{ḱǵj%}:ǵ**
+
+**%{ḱǵj%}:ḱ**
+
+**%{ḱǵj%}:0**
 
 **%{tdØ%}:d**
 

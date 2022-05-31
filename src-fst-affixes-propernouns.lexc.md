@@ -45,6 +45,8 @@ tukõv:tukõv
 LEXICON PROP_10AMEERIGA  Ameeriga:Ameerik
 cf. _10HWRAK
 
+LEXICON PROP_10ESAEK  esäk:esäk
+
 LEXICON PROP_10LEMBIT  Lembit:Lembi%{td%}
 
 LEXICON PROP_10VIDRIK  vidrik:vidrik
@@ -125,6 +127,8 @@ kogõr:kogõr
 derived from 36särǵ
 
 LEXICON PROP_37PINI  pini:pini
+
+LEXICON PROP_37WLI  pini:pini
 
 * LEXICON PROP_38PULL1  pulĺ:pull
 
