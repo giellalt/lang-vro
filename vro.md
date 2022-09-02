@@ -1279,11 +1279,11 @@ LEXICON N_37MUNA  muna:mu%{nØ%}na
 
 * LEXICON N_38HUETT  hütt:hütt
 
-* LEXICON N_39VIDO  vido:vido
+* LEXICON N_39VIDO  vido:vi%{tØ%}%{tdØ%}o
 
-* LEXICON N_39HAEBUE  häbü:hä%{pbØ%}ü
+* LEXICON N_39HAEBUE  häbü:hä%{pØ%}%{pbØ%}ü
 
-LEXICON N_40TALO  talo:talo
+LEXICON N_40TALO  talo:ta%{lØ%}lo
 
 LEXICON N_40HELUE  helü:helü
 
