@@ -26,12 +26,10 @@ used with [divvunspell](https://github.com/divvun/divvunspell).
 Documentation
 -------------
 
-Documentation can be found here:
+Documentation can be found at:
 
-- [In source documentation generated with github
-   pages](https://gilellalt.github.io/lang-vro/)
-- https://giellalt.uit.no/lang/vro/VoroDocumentation.html (analyser)
-- https://giellalt.uit.no/index.html (infrastructure)
+-   <https://giellalt.uit.no/lang/vro/VoroDocumentation.html
+-   <https://giellalt.uit.no/index.html>
 
 Core dependencies
 -----------------
