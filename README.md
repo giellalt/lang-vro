@@ -17,6 +17,15 @@ Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-vro)
 for the Võro language by using the [Divvun Installer](http://divvun.no)
 (some languages are only available via the nightly channel).
 
+Use and test spellers
+---------------------
+
+The spellers downloadable at the top of this page (the `*.bhfst` files) can be
+used with [divvunspell](https://github.com/divvun/divvunspell).
+
+Documentation
+-------------
+
 Documentation can be found here:
 
 - [In source documentation generated with github
