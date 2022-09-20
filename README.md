@@ -4,6 +4,8 @@
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-vro)](https://github.com/giellalt/lang-vro/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-vro/main/badge.svg)](https://github.com/giellalt/lang-vro/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-vro)](https://github.com/giellalt/lang-vro/blob/main/LICENSE)
+[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-vro?platform=desktop&channel=nightly)
+[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-vro?platform=mbile&channel=nightly)
 
 This directory contains source files for the Võro language morphology
 and dictionary. The data and implementation are licenced under __LICENSE__
