@@ -2827,7 +2827,7 @@ LEXICON V_83TAHTMA  !!= * @CODE@ sõitma:sõit
 !! * Yaml: **switma**
 :%{back%} V_83TAHTMA/XX ;
 
-LEXICON V_83TAHTMA/XX  !!= * @CODE@ sõitma:sõi%{tt́d%}a
+LEXICON V_83TAHTMA/XX  !!= * @CODE@ sõitma:sõi%{tt́d%}a tahtma+V:tah%{tt́Ø%}a
 ! (1) I tegonimi: 
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM Harm-Neutr_INF_mA ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_PRSPRC_vA ;
@@ -2857,14 +2857,15 @@ LEXICON V_83TAHTMA/XX  !!= * @CODE@ sõitma:sõi%{tt́d%}a
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRS_SG3_ZERO/PL3_vAq ;
 
 ! (7) min 1. k maq: 
-:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
++Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
 
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ;
+
 +Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
 +Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
 ! (7.2) Sg2, Pl1 and Pl2
-:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_sE ; ! 1-6
+
++Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 
 +Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>iq K ;
 
@@ -4065,6 +4066,15 @@ LEXICON ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq
  ACT_IND_PRT_PL1_miq ;
  ACT_IND_PRT_PL2_tiq ;
 
+LEXICON ACT_IND_PRT_sE
+ ACT_IND_PRT_SG1_sE ;
+ ACT_IND_PRT_SG2_sEt ;
+ ACT_IND_PRT_SG2_sEdEq ;
+ ACT_IND_PRT_SG3_sE ;
+ ACT_IND_PRT_PL1_sEmiq ;
+ ACT_IND_PRT_PL2_sEtiq ;
+ ACT_IND_PRT_PL3_sEq ;
+
 LEXICON ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq
  ACT_IND_PRT_SG2_sEt ;
  ACT_IND_PRT_SG2_sEdEq ;
@@ -4125,8 +4135,8 @@ LEXICON ACT_IND_PRT_SG2_sEq
 +Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>s%{eõ%} K ;
 
 LEXICON ACT_IND_PRT_PL1_sEmiq
-+Act+Ind+Prt+Pl2:%>s%{eõ%}miq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>s%{eõ%}mi K ;
++Act+Ind+Prt+Pl1:%>s%{eõ%}miq K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>s%{eõ%}mi K ;
 
 LEXICON ACT_IND_PRT_PL2_sEtiq
 +Act+Ind+Prt+Pl2:%>s%{eõ%}tiq K ;
