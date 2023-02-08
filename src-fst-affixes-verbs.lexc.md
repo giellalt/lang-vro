@@ -639,7 +639,7 @@ sõida
 gradation: yes
 * Yaml: **switma**
 
-* LEXICON V_83TAHTMA/XX   sõitma:sõi%{tt́d%}a
+* LEXICON V_83TAHTMA/XX   sõitma:sõi%{tt́d%}a tahtma+V:tah%{tt́Ø%}a
 
 IS THIS RIGHT? 2015-09-02
 
