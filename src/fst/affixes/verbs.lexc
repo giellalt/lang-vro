@@ -122,7 +122,7 @@ LEXICON V_48PALAMA/ELAEMAE
 ! (4) Tettäv tm passiiv: elet
 :%^Pen%^WGStem%^VowRM%>%{eõ%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;!CHECKME
 
-:%^Pen%^WGStem%^VowRM%>%{eõ%} PSS_PRFPRC_tU_SG_NOM ;
++Err/Orth:%^Pen%^WGStem%^VowRM%>%{eõ%} PSS_PRFPRC_tU_SG_NOM ;
 ! (5) Olõvao 1. k maq: elä
 :%^Pen%^WGStem ACT_IND_CONNEG/PRS_SG1 ;
 ! 2nd person indicative present
@@ -599,12 +599,13 @@ LEXICON V_56HIIBWLWMA/HEIKELEMAE !!≈ * **@CODE@** hiibõlõma:hiibõl
 :%^Pen%^VOWLower%^Pen%^WGStem%>%{eõ%} Harm-Neutr_ACT_PRSPRC_v ;
 
 ! (3) tekev tm aktiiv: hirnnuq
-:%^Pen%^VOWRaise%^Pen%^StrGStem ACT_PRFPRC_ALL_nUq ;
+:%^Pen%^VOWLower%^Pen%^WGStem ACT_PRFPRC_ALL_nUq ; ! 2023-02-09
+!:%^Pen%^VOWRaise%^Pen%^StrGStem ACT_PRFPRC_ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: hirnut
 :%^Pen%^VOWRaise%^Pen%^StrGStem PSS_PRSPRC_tAv ;!CHECKME
 :%^Pen%^VOWLower%^Pen%^WGStem PSS_PRFPRC_d ;
-:%^Pen%^VOWLower%^Pen%^WGStem PSS_PRFPRC_dU-SG-NOM ;
++Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem PSS_PRFPRC_dU-SG-NOM ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem PSS_IND_PRS_ALL_dA ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem PSS_IND_PRT_ALL_di ;
 
@@ -4104,12 +4105,12 @@ LEXICON ACT_IND_PRT_SG2_dEq
 
 
 !2022-03-24LEXICON ACT_IND_PRT_PL1_imiq
-!+Act+Ind+Prt+Pl2:%>imiq K ;
-!+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>imi K ;
+!+Act+Ind+Prt+Pl1:%>imiq K ;
+!+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>imi K ;
 
 LEXICON ACT_IND_PRT_PL1_miq
-+Act+Ind+Prt+Pl2:%>miq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>mi K ;
++Act+Ind+Prt+Pl1:%>miq K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
 
 LEXICON ACT_IND_PRT_PL2_dEq
 +Use/NG+Err/Orth+Act+Ind+Prt+Pl2:%>d%{eõ%}q K ;
@@ -4143,8 +4144,8 @@ LEXICON ACT_IND_PRT_PL2_sEtiq
 +Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>s%{eõ%}ti K ;
 
 LEXICON ACT_IND_PRT_PL1_Emiq
-+Act+Ind+Prt+Pl2:%>%{eõ%}miq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>%{eõ%}mi K ;
++Act+Ind+Prt+Pl1:%>%{eõ%}miq K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>%{eõ%}mi K ;
 
 LEXICON ACT_IND_PRT_PL2_Etiq
 +Act+Ind+Prt+Pl2:%>%{eõ%}tiq K ;

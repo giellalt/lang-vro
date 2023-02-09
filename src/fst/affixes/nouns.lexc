@@ -5978,8 +5978,8 @@ LEXICON NMN_33JWGI/MAEGI-PL
 :%^G4%>i    PL-ILL_he ;
 :%^G3%>i  PL-ALL_lE-STEM ;
 :%^G3%>i    PL-COM ;
-+Use/NG+Err/Orth:%^G4%>i    Harm-Neutr_PL-ILL_ZERO ;
-+Use/NG+Err/Orth:%^G4%>i    PL-ILL_dE ;
++Use/NG+Err/Orth:%>%^G4%>i    Harm-Neutr_PL-ILL_ZERO ;
++Use/NG+Err/Orth:%>%^G4%>i    PL-ILL_dE ;
 
 !LEXICON NMN_34TULI/SUELI
 !  NMN_34TULI/SUELI-SG ;
@@ -7439,13 +7439,13 @@ LEXICON NMN_2KASUNUQ/ELAENUEQ !!= * @CODE@ elänüq:elänü
 LEXICON NMN_2KASUNUQ/ELAENUEQ-SG
 +Use/NG+Err/Orth-no-q+CmpN/SgN: ATTESTED-NOUN-STEM-CONTINUED ;
 :q Harm-Neutr_SG-NOM ;
-Harm-Neutr_SG-GEN ;
+: Harm-Neutr_SG-GEN ;
 
 +Sg+Par:t K ;
 +Sg+Ill:he K ;
 
 LEXICON NMN_2KASUNUQ/ELAENUEQ-PL
- Harm-Neutr_PL-NOM ;
+: Harm-Neutr_PL-NOM ;
 +Pl+Gen:id%{eõ%} K ;
 +Use/NG+Err/Orth+Pl+Gen:isi K ;
 +Pl+Par:id K ;
