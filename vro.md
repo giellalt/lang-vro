@@ -5083,6 +5083,9 @@ makḱ+N+Pl+All
 egä+Det+Sg+Ill:
 * *e{kØ}{kg}ä{front}^Pen^G4*
 * *ekkä000*
+igä+N+Sg+Ill: **age/ikä**
+* *i{kØ}{kgØ}ä{front}^Pen^G4*
+* *ikkä000*
 
 **%{pb%}:p**
 * *kau%{pb%}%{õØ%}%{lĺ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%>%{eõ%}%>m%{aä%}*
