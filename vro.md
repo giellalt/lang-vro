@@ -4740,6 +4740,9 @@ juusk+N+Sg+Nom: ____
 **e:0**
 * *herne%{hØ%}%{front%}%^VowRM%^WGStem%>id%{eõ%}*
 * *hern00000%>ide*
+läteq+N+Pl?Gen: **spring/lähde**
+* *lä{tØ}te{front}^Pen^VOWRaise^Pen^StrGStem^VowRM>id{eõ}*
+* *lätt0000000>ide*
 
 **o:0**
 juuma+V+Inf
