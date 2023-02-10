@@ -406,8 +406,10 @@ Act+Ind+Prt+Sg3
 * :%^VOWRaise%^VowRM%>vv V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  (3) juvv
 
 * :%^VOWRaise ACT_IND_PRS_SG3_ZERO ;  (5) RAISED juu süü
+* +Err/Orth:%^VOWRaise%>s ACT-COND ;  juussiq
 *  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
 
+*  PSS_PRFPRC_d ;  
 *  Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
 * LEXICON V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL  joo- söö-

@@ -374,6 +374,10 @@ Toomas+N+Prop+Sg+Nom
 nuuĺ+N+Sg+Nom: **arrow**
 * *n%{ou%}%{ou%}%{lĺ%}%{back%}%^VOWRaise%^PAL*
 * *nu̬u̬ĺ000*
+juuma+V+Pss+Cond+ConNegI: **drink/juoda**
+* *j{ou}{ou}{back}^VOWRaise^VowRM>vv{aä}>siq*
+* *ju̬0000>vva>siq*
+
 kiiĺ+N+Sg+Gen: **tongue/kieli**
 * *k%{ei%}%{ei%}{lĺ}%{front%}%^VOWRaise%^PAL*
 * *ki̬i̬ĺ000*
