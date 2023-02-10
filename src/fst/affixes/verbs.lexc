@@ -1998,7 +1998,7 @@ LEXICON V_77JUUMA/SUEUEMAE !!≈ * **@CODE@** juuma:joo
 ! (3) tekev tm aktiiv:
 
 ! (4) Tettäv tm passiiv:CHECKME
-:%^VOWRaise PSS_d ;
++Err/Orth:%^VOWRaise PSS_d ;
 :%^VOWRaise%^VowRM%>vv%{aä%} PSS-COND ;
 :%^OO2Õ%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ; !!= * @CODE@ (4) jõi- poi- sei- möi-
 !
@@ -2023,7 +2023,7 @@ LEXICON V_77JUUMA/SUEUEMAE !!≈ * **@CODE@** juuma:joo
 
 :%^VOWRaise ACT_IND_PRS_SG3_ZERO ; !!= * @CODE@ (5) RAISED juu süü
 ! Act+Ind+Prs+Sg3
-:%^VOWRaise%>s ACT-COND ;
++Err/Orth:%^VOWRaise%>s ACT-COND ; !!= * @CODE@ juussiq
  ACT-IND-PRS-PL3_vAq ; !!= * @CODE@ (6) joovaq sööväq
 
 
@@ -2037,7 +2037,7 @@ LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL
 ! (3) tekev tm aktiiv:
 ! (4) Tettäv tm passiiv:
  PSS_PRSPRC_dAv ;
- PSS_PRFPRC_d ;
+ PSS_PRFPRC_d ; !!= * @CODE@ 
  Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ; !!= * @CODE@ only 3rd person
 ! (5) Olõvao 1. k maq:
 ! 2nd person indicative present

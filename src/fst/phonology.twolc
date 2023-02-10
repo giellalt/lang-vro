@@ -725,8 +725,13 @@ Rules
   [ # Cns* | Cns ] _ Vx: ( ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns+ ArchCns: ) [ Vow: | ArchVow: | ArchVow: ArchCns: ] ( Cns:+ |ArchCns: Cns | %{sØ%}: | %{hØ%}: ) (HarmDummiesVar) %^Pen: %^VOWRaise: ;
  [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns+ ArchCns: ] [ Vow: | ArchVow: | ArchVow: ArchCns: ] ( Cns:+ |ArchCns: Cns | %{sØ%}: | %{hØ%}: ) (HarmDummiesVar) %^Pen: %^VOWRaise: ;
 !
-  [ # Cns* | Cns ] _ Vx: [ ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns: ] (HarmDummiesVar)  %^VOWRaise: ;
+  [ # Cns* | Cns ] _ Vx: ( ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns: ) (HarmDummiesVar)  %^VOWRaise: ;
+!  [ # Cns* | Cns ] _ Vx: [ ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns: ] (HarmDummiesVar)  %^VOWRaise: ;
  [ # Cns* | Cns ] Vx: _ [ ArchCns: | Cns (Cns) | ArchCns: ArchCns: | Cns ArchCns: ]  (HarmDummiesVar)  %^VOWRaise: ;
+!! juuma+V+Pss+Cond+ConNegI: **drink/juoda**
+!!€ j{ou}{ou}{back}^VOWRaise^VowRM>vv{aä}>siq
+!!€ ju̬0000>vva>siq
+
 !juuḱ
      	  where Vx in (%{ou%} %{öü%} %{õy%} %{ei%} )
 	  	Vy in ( u̬ ü̬ õ̭ i̬ ) matched ;
