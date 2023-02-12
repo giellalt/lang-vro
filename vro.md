@@ -5788,6 +5788,7 @@ source and target part-of-speech.
 * **+Der/xxx**
 ** +Der/JA **	NomAg
 ** +Der/minE ** NomAct
+** +Der/Us   ** A→N
 **+Der/lt	   ** A→Adv
 
 # Morphophonology
