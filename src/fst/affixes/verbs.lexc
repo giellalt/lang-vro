@@ -420,7 +420,7 @@ LEXICON V_53XX/JAEAEMAE !!≈ * **@CODE@**
 +Use/NG+Err/Orth: ACT_IND_PRS_SG3_sE ;
  ACT_IND_PRS_PL1_miq ;
  ACT-COND ;
- ACT-IND-PRS-PL3_vAq ;
+ ACT_IND_PRS_PL3_vAq ;
 
 :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ; !!= * @CODE@ jäi kii
 :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ; !!= * @CODE@ jäi kei
@@ -428,7 +428,7 @@ LEXICON V_53XX/JAEAEMAE !!≈ * **@CODE@**
 :%^VOWRaise ACT_IND_PRS_3_s/sEq ; !!= * @CODE@ (5) RAISED jääs jääseq 
 ! Act+Ind+Prs+Sg3
 
- ACT-IND-PRS-PL3_vAq ; !!= * @CODE@ (6) joovaq sööväq
+ ACT_IND_PRS_PL3_vAq ; !!= * @CODE@ (6) joovaq sööväq
 : MUTUAL_JUS_guq ;
 
 LEXICON V_53KAEMA/XX !!≈ * **@CODE@** kaema:ka
@@ -470,7 +470,7 @@ LEXICON V_53KAEMA/XX !!≈ * **@CODE@** kaema:ka
 +Use/NG+Err/Orth:%>e ACT_IND_PRS_SG3_sE ;
 :%>e ACT_IND_PRS_PL1_miq ;
 :%>e ACT-COND ;
-:%>e ACT-IND-PRS-PL3_vAq ;
+:%>e ACT_IND_PRS_PL3_vAq ;
 
 :%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ; !!= * @CODE@ jäi kii
 :%>e V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ; !!= * @CODE@ jäi kei
@@ -478,7 +478,7 @@ LEXICON V_53KAEMA/XX !!≈ * **@CODE@** kaema:ka
 :%>e ACT_IND_PRS_3_s/sEq ; !!= * @CODE@ (5) RAISED jääs jääseq 
 ! Act+Ind+Prs+Sg3
 
-:%>e ACT-IND-PRS-PL3_vAq ; !!= * @CODE@ (6) joovaq sööväq
+:%>e ACT_IND_PRS_PL3_vAq ; !!= * @CODE@ (6) joovaq sööväq
 :%>e MUTUAL_JUS_guq ;
 
 LEXICON V_54ISTMA !!≈ * __@CODE@__ 
@@ -1753,7 +1753,7 @@ LEXICON V_75VALAMA/JAERAEMAE !!≈ * **@CODE@** valama:vala
 !!
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
 :%^Pen%^WGStem ACT_IND_PRS_SG3_ZERO ;
-:%^Pen%^WGStem ACT-IND-PRS-PL3_vAq ;
+:%^Pen%^WGStem ACT_IND_PRS_PL3_vAq ;
 :%^Pen%^WGStem ACT_IND_PRS_3_s/sEq ;
 
 :%^Pen%^WGStem%^VowRM ACT-IND-PRT-12_i ;
@@ -2024,7 +2024,7 @@ LEXICON V_77JUUMA/SUEUEMAE !!≈ * **@CODE@** juuma:joo
 :%^VOWRaise ACT_IND_PRS_SG3_ZERO ; !!= * @CODE@ (5) RAISED juu süü
 ! Act+Ind+Prs+Sg3
 +Err/Orth:%^VOWRaise%>s ACT-COND ; !!= * @CODE@ juussiq
- ACT-IND-PRS-PL3_vAq ; !!= * @CODE@ (6) joovaq sööväq
+ ACT_IND_PRS_PL3_vAq ; !!= * @CODE@ (6) joovaq sööväq
 
 
 !:%^VOWRaise%^VowRM%>vv Harm-Neutr_IND-PRT-OC1-2_i ; !!= * @CODE@ juvv süvv
@@ -2066,7 +2066,7 @@ LEXICON V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL !!= * @CODE@ joo- söö-
 +Use/NG+Err/Orth: ACT_IND_PRS_SG3_sE ;
  ACT_IND_PRS_PL1_miq ;
  ACT-COND ;
- ACT-IND-PRS-PL3_vAq ; 
+ ACT_IND_PRS_PL3_vAq ; 
 
 LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE !!= * @CODE@ juvv
  Harm-Neutr_INF_Aq ; !!= * @CODE@ juvvaq süvväq
@@ -2114,7 +2114,7 @@ LEXICON V_77XX/KAEUEMAE !!≈ * **@CODE@** käümä:käü
  ACT_IND_PRS_SG3_ZERO ; !!= * @CODE@ (5) RAISED käü
 ! Act+Ind+Prs+Sg3
 
- ACT-IND-PRS-PL3_vAq ; !!= * @CODE@ (6) käüväq
+ ACT_IND_PRS_PL3_vAq ; !!= * @CODE@ (6) käüväq
 
 
 
@@ -2145,7 +2145,7 @@ LEXICON V_VWIMA/XX !!≈ * **@CODE@** võima:või
 
  ACT-IND-PRS-12 ;
  ACT_IND_PRS_SG3_ZERO ;
- ACT-IND-PRS-PL3_vAq ;
+ ACT_IND_PRS_PL3_vAq ;
 
  ACT-IND-CONNEG ;
 :%>s%{eõ%} ACT-IND-PRT-1/2_ZERO ;
@@ -2182,7 +2182,7 @@ LEXICON V_78SAAMA/XX
 
  ACT-IND-PRS-12 ;
  ACT_IND_PRS_SG3_ZERO ;
- ACT-IND-PRS-PL3_vAq ;
+ ACT_IND_PRS_PL3_vAq ;
 
  Harm-Neutr_IND-PRT-SCSG1_iE ;
  ACT-IND-PRT-12_i ;
@@ -2224,7 +2224,7 @@ LEXICON V_78XX/VIIMAE
  ACT-IND-PRS-12 ;
  ACT_IND_PRS_SG3_ZERO ;
  ACT_IND_PRS_SG3_sE ;
- ACT-IND-PRS-PL3_vAq ;
+ ACT_IND_PRS_PL3_vAq ;
  PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 
  Harm-Neutr_IND-PRT-SCSG1_iE ;
@@ -2398,7 +2398,7 @@ LEXICON V_79OLWMA/XX !!≈ * **@CODE@** olõma:o
 +Act+Ind+Prs+Sg3:m K ;
 +Act+Ind+Prs+Pl3:mm%{aä%}q K ;
 +Act+Ind+Prs+Pl3+Use/NG+Err/Orth-no-q:mm%{aä%} K ;
-:mm%{aä%} ACT-IND-PRS-PL3_vAq ;
+:mm%{aä%} ACT_IND_PRS_PL3_vAq ;
 :l PSS_IND_PRS_ALL_dA ;
 
 :ll ACT-IND-PRT-12_i ;
@@ -2447,7 +2447,7 @@ LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE !!= * @CODE@ rapahutma:rapahuta
 :%^WGStem%>%{aä%} ACT-IND-PRS-12 ;
 : ACT_IND_PRS_SG3_ZERO ;
 
-:%{aä%} ACT-IND-PRS-PL3_vAq ;
+:%{aä%} ACT_IND_PRS_PL3_vAq ;
 
 :%^WGStem ACT-IND-PRT-12_i ;
 +Act+Ind+Prt+Sg2:%>s%{eõ%}q K ;
@@ -2688,7 +2688,7 @@ LEXICON V_82ANDMA/PUEUEDMAE !!≈ * **@CODE@** andma:%{ˋØ%}an%{dd́n%}
 :%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 ! 1st person plural present
 :%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT_IND_PRS_PL1_miq ;
-:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRS-PL3_vAq ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRS_PL3_vAq ;
 
 ! (6) Olõvao 3. k tä: 
 :%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRS_SG3_ZERO/PL3_vAq ;
@@ -2981,7 +2981,7 @@ LEXICON V_83ATMA/XX  !!= * @CODE@ atma:a%{tØ%}%{tt́%}
 :%^WGStem%^NoPAL%{aä%} ACT_IND_PRS_PL1_miq ;
 
 %^StrGStem%^NoPAL ACT_IND_PRS_SG3_ZERO ;
-:%^CC2C%^NoPAL ACT-IND-PRS-PL3_vAq ;
+:%^CC2C%^NoPAL ACT_IND_PRS_PL3_vAq ;
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^WGStem%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ; !ati 
@@ -3271,7 +3271,7 @@ LEXICON V_85HAUDMA/VAELKMAE !!≈ * **@CODE@** kakma:kakk haudma:haud
 
 ! (6) Olõvao 3. k tä: 
 :%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRS_SG3_ZERO ;
-:%^VOWRaise%^StrGStem%^NoPAL ACT-IND-PRS-PL3_vAq ;
+:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRS_PL3_vAq ;
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
@@ -3296,12 +3296,12 @@ LEXICON V_85KAKMA !!≈ * **@CODE@**  kakma:%{ˋØ%}ka%{kØ%}%{kḱ%}u
 LEXICON V_85TRUEKMAE !!≈ * **@CODE@**  trükmä:trü%{kØ%}%{kḱ%}ü
 !! * Yaml: **vaelkmae**
 :%{front%} V_85KAKMA/TRUEKMAE ;
-LEXICON V_85KAKMA/TRUEKMAE !!≈ * **@CODE@** kakma:kakk
+LEXICON V_85KAKMA/TRUEKMAE !!≈ * **@CODE@** kakma:ka%{kØ%}%{kḱ%}u
 ! (1) I tegonimi: 
 :%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM Harm-Neutr_INF_mA ;
 
 ! (2) II tegonimi: 
-:%^Pen%^VOWRaise%^Pen%^G4%^Pen%^NoPAL Harm-Neutr_INF_ZEROq ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL Harm-Neutr_INF_ZEROq ;
 :%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM ACT_PRSPRC_vA ;
 
 ! (3) tekev tm aktiiv: 
@@ -3310,7 +3310,7 @@ LEXICON V_85KAKMA/TRUEKMAE !!≈ * **@CODE@** kakma:kakk
 ! (4) Tettäv tm passiiv: 
 :%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 
-:%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL PSS_PRFPRC_tU_SG_NOM ;
++Err/Orth:%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL PSS_PRFPRC_tU_SG_NOM ;
 
 ! (5) Olõvao 1. k maq: 
 :%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL ACT_IND_CONNEG/PRS_SG1 ;
@@ -3320,8 +3320,10 @@ LEXICON V_85KAKMA/TRUEKMAE !!≈ * **@CODE@** kakma:kakk
 ! 1st person plural present
 :%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL ACT_IND_PRS_PL1_miq ;
 
-! (6) Olõvao 3. k tä: 
-:%^Pen%^VOWRaise%^Pen%^G4%^Pen%^NoPAL%^VowRM ACT_IND_PRS_SG3_ZERO/PL3_vAq ;
+! (6) Olõvao 3. k tä:
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRS_SG3_ZERO ; !kakk
+:%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM ACT_IND_PRS_PL3_vAq ; !kakvaq
+! Third person pl may need rewiring due to under lying kakkvaq extra-strong
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
@@ -3333,8 +3335,8 @@ LEXICON V_85KAKMA/TRUEKMAE !!≈ * **@CODE@** kakma:kakk
 +Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
 ! (8) min 3. k tä: 
-:%^Pen%^VOWRaise%^Pen%^G4%^Pen%^PAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
-+Err/Orth-no-pal:%^Pen%^VOWRaise%^Pen%^G4%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
+:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^PAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
++Err/Orth-no-pal:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
 +Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_sE ;
 
 ! (9) jus: 
@@ -3594,7 +3596,7 @@ LEXICON V_87KOSIMA/KERIMAE !!≈ * **@CODE@** kosima:kosi
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
 :%^Pen%^WGStem ACT_IND_PRS_SG3_ZERO ;
 :%^Pen%^WGStem ACT_IND_PRS_3_s/sEq ;
-:%^Pen%^WGStem ACT-IND-PRS-PL3_vAq ;
+:%^Pen%^WGStem ACT_IND_PRS_PL3_vAq ;
 
 
 :%^Pen%^WGStem%^VowRM ACT-IND-PRT-12_E ; 
@@ -3739,7 +3741,7 @@ LEXICON ACT_IND_PRS_SG2_iq
 
 LEXICON ACT_IND_PRS_SG3_ZERO/PL3_vAq
 ACT_IND_PRS_SG3_ZERO ;
-ACT-IND-PRS-PL3_vAq ;
+ACT_IND_PRS_PL3_vAq ;
 
 LEXICON ACT_IND_PRS_SG3_ZERO
 +Act+Ind+Prs+Sg3: K ;
@@ -3763,10 +3765,10 @@ LEXICON ACT-IND-PRS-PL2_dEq
 LEXICON ACT_IND_PRS_SG3_sE
 +Act+Ind+Prs+Sg3:%>s%{eõ%} K ;
 
-!LEXICON ACT-IND-PRS-PL3_iAq
+!LEXICON ACT_IND_PRS_PL3_iAq
 !+Act+Ind+Prs+Pl3:%>i%{aä%}q K ;
 
-LEXICON ACT-IND-PRS-PL3_vAq
+LEXICON ACT_IND_PRS_PL3_vAq
 +Act+Ind+Prs+Pl3:%>v%{aä%}q K ;
 +Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl3:%>v%{aä%} K ;
 
