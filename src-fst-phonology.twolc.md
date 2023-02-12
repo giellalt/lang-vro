@@ -288,6 +288,13 @@ alostama+V+Act+Ind+Prt+Sg3:
 * *alos{tt́}a^Pen^VOWRaise^Pen^PAL^VowRM*
 * *alost́000000*
 
+**%{kḱ%}:ḱ**
+kakma
+* *ka%{kØ%}%{kḱ%}u%{back%}^Pen^VOWRaise^Pen^G4^Pen^PAL%^VowRM*
+* *kakḱ000000000*
+* *ka{kØ}{kḱ}u{back}^Pen^VOWRaise^Pen^G3^Pen^NoPAL^VowRM>n{uü}q*
+* *ka0k000000000>nuq*
+
 **n2n no palatalization all**
 
 rehksämä+V+Inf/mA:
@@ -540,9 +547,8 @@ VOWEL LENGTHENING
 
 **%{XV%}:õ**
 kannõĺ+N+Sg+Gen: **kantele**
-* *kan%{dn%}õ%{lĺ%}%{back%}%^Pen%^VowRM%^NoPAL%>%{XV%}*
+* *kan%{dn%}õ%{lĺ%}%{back%}%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{XV%}*
 * *kand0l0000%>õ*
-
 **%{XV%}:e**
 käskmä+V+Act+Ind+Prs+Neg **command/käskeä**
 * *käs%{kØ%}%{front%}%^WGStem%>%{eõ%}%-%{XV%}iq*
@@ -671,11 +677,6 @@ igä+N+Sg+Ill
 **%{XC%}:ĺ**
 
 **%{XC%}:k**
-
-**%{kḱ%}:ḱ**
-kakma
-* *ka%{kØ%}%{kḱ%}u%{back%}%^VowRM%^PAL*
-* *kakḱ0000*
 
 **%{cć%}:ć**
 
@@ -1023,6 +1024,8 @@ kannõĺ+N+Sg+Nom: **kantele**
 * *luvv00>a*
 * *sü%{üv%}%{dv%}%{front%}%^G1%>ä*
 * *süvv00%>ä*
+
+__VdVToVtV__
 
 **dTos**
 

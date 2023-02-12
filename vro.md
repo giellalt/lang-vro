@@ -3473,7 +3473,7 @@ ehitelemä:ehitell
 * :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
 * :%^VOWRaise ACT_IND_PRS_3_s/sEq ;  (5) RAISED jääs jääseq 
 
-*  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+*  ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
 
 * **LEXICON V_53KAEMA/XX** kaema:ka
 
@@ -3485,7 +3485,7 @@ ehitelemä:ehitell
 * :%>e V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
 * :%>e ACT_IND_PRS_3_s/sEq ;  (5) RAISED jääs jääseq 
 
-* :%>e ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+* :%>e ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
 
 * __LEXICON V_54ISTMA__ 
 * __LEXICON V_54LEPMAE__ 
@@ -3823,7 +3823,7 @@ Act+Ind+Prt+Sg3
 
 * :%^VOWRaise ACT_IND_PRS_SG3_ZERO ;  (5) RAISED juu süü
 * +Err/Orth:%^VOWRaise%>s ACT-COND ;  juussiq
-*  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+*  ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
 
 *  PSS_PRFPRC_d ;  
 *  Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
@@ -3853,7 +3853,7 @@ Act+Ind+Prt+Sg3
 
 *  ACT_IND_PRS_SG3_ZERO ;  (5) RAISED käü
 
-*  ACT-IND-PRS-PL3_vAq ;  (6) käüväq
+*  ACT_IND_PRS_PL3_vAq ;  (6) käüväq
 
 * **LEXICON V_78VWIMA** võima:või
 * Yaml: **V-vwima**
@@ -4127,7 +4127,7 @@ sõida
 * Yaml: **haudma**
 * **LEXICON V_85TRUEKMAE**  trükmä:trü%{kØ%}%{kḱ%}ü
 * Yaml: **vaelkmae**
-* **LEXICON V_85KAKMA/TRUEKMAE** kakma:kakk
+* **LEXICON V_85KAKMA/TRUEKMAE** kakma:ka%{kØ%}%{kḱ%}u
 
 * **LEXICON V_86ISTMA** istma:istu
 * Yaml: **istma**
@@ -4551,6 +4551,13 @@ alostama+V+Act+Ind+Prt+Sg3:
 * *alos{tt́}a^Pen^VOWRaise^Pen^PAL^VowRM*
 * *alost́000000*
 
+**%{kḱ%}:ḱ**
+kakma
+* *ka%{kØ%}%{kḱ%}u%{back%}^Pen^VOWRaise^Pen^G4^Pen^PAL%^VowRM*
+* *kakḱ000000000*
+* *ka{kØ}{kḱ}u{back}^Pen^VOWRaise^Pen^G3^Pen^NoPAL^VowRM>n{uü}q*
+* *ka0k000000000>nuq*
+
 **n2n no palatalization all**
 
 rehksämä+V+Inf/mA:
@@ -4803,9 +4810,8 @@ VOWEL LENGTHENING
 
 **%{XV%}:õ**
 kannõĺ+N+Sg+Gen: **kantele**
-* *kan%{dn%}õ%{lĺ%}%{back%}%^Pen%^VowRM%^NoPAL%>%{XV%}*
+* *kan%{dn%}õ%{lĺ%}%{back%}%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{XV%}*
 * *kand0l0000%>õ*
-
 **%{XV%}:e**
 käskmä+V+Act+Ind+Prs+Neg **command/käskeä**
 * *käs%{kØ%}%{front%}%^WGStem%>%{eõ%}%-%{XV%}iq*
@@ -4934,11 +4940,6 @@ igä+N+Sg+Ill
 **%{XC%}:ĺ**
 
 **%{XC%}:k**
-
-**%{kḱ%}:ḱ**
-kakma
-* *ka%{kØ%}%{kḱ%}u%{back%}%^VowRM%^PAL*
-* *kakḱ0000*
 
 **%{cć%}:ć**
 
@@ -5286,6 +5287,8 @@ kannõĺ+N+Sg+Nom: **kantele**
 * *luvv00>a*
 * *sü%{üv%}%{dv%}%{front%}%^G1%>ä*
 * *süvv00%>ä*
+
+__VdVToVtV__
 
 **dTos**
 

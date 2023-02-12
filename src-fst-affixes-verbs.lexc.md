@@ -57,7 +57,7 @@ ehitelemä:ehitell
 * :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
 * :%^VOWRaise ACT_IND_PRS_3_s/sEq ;  (5) RAISED jääs jääseq 
 
-*  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+*  ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
 
 * **LEXICON V_53KAEMA/XX** kaema:ka
 
@@ -69,7 +69,7 @@ ehitelemä:ehitell
 * :%>e V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
 * :%>e ACT_IND_PRS_3_s/sEq ;  (5) RAISED jääs jääseq 
 
-* :%>e ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+* :%>e ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
 
 * __LEXICON V_54ISTMA__ 
 * __LEXICON V_54LEPMAE__ 
@@ -407,7 +407,7 @@ Act+Ind+Prt+Sg3
 
 * :%^VOWRaise ACT_IND_PRS_SG3_ZERO ;  (5) RAISED juu süü
 * +Err/Orth:%^VOWRaise%>s ACT-COND ;  juussiq
-*  ACT-IND-PRS-PL3_vAq ;  (6) joovaq sööväq
+*  ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
 
 *  PSS_PRFPRC_d ;  
 *  Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
@@ -437,7 +437,7 @@ Act+Ind+Prt+Sg3
 
 *  ACT_IND_PRS_SG3_ZERO ;  (5) RAISED käü
 
-*  ACT-IND-PRS-PL3_vAq ;  (6) käüväq
+*  ACT_IND_PRS_PL3_vAq ;  (6) käüväq
 
 * **LEXICON V_78VWIMA** võima:või
 * Yaml: **V-vwima**
@@ -711,7 +711,7 @@ sõida
 * Yaml: **haudma**
 * **LEXICON V_85TRUEKMAE**  trükmä:trü%{kØ%}%{kḱ%}ü
 * Yaml: **vaelkmae**
-* **LEXICON V_85KAKMA/TRUEKMAE** kakma:kakk
+* **LEXICON V_85KAKMA/TRUEKMAE** kakma:ka%{kØ%}%{kḱ%}u
 
 * **LEXICON V_86ISTMA** istma:istu
 * Yaml: **istma**
