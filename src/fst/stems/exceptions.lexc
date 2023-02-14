@@ -51,7 +51,7 @@ hüä+A+Sg+Nom:hüä K ; ! pesä type
 hüä+A:hüä%{front%} SG-GEN_ZERO-STEM ;
 hüä+A+Sg+Par:hüvvä%{front%} K ;
 hüä+A+Sg+Ill:hüvvä%{front%} K ;
-hüä+A:hüä%{front%} Harm-Neutr_PL-NOM ;
+hüä+A:hüä%{front%} Harm_Neutr_PL-NOM ;
 hüä+A+Pl+Nom:hüvvi%{front%} PL-ALL_lE-STEM ;
 
 vahtsõnõ+A:vah%{back%} NMN_13VAHTSWNW ;!!13ALONW
@@ -267,10 +267,10 @@ ajama+V+Ind+Prt+OcSg3:aeti K ;
 
 !! andma **to give/antaa**
 !PSS_IND_PRS_ALL_dA ?
-andma+V:an%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;!andas
+andma+V+Use/NG+Err/Orth:an%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;!andas
 !andma+V:an%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;!antas
 andma+V+Pss+Ind+Prt+Sg3:anti K ; !CHECKME
-andma+V:an%{back%} PSS_PRFPRC_t_ONLY ;!ant
+andma+V+Use/NG+Err/Orth:an%{back%} PSS_PRFPRC_t_ONLY ;!ant
 
 löüdmä+V:löü%{front%} PSS_PRFPRC_t_ONLY  ;
 pandma+V:pan%{back%} PSS_PRFPRC_t_ONLY  ;
@@ -287,7 +287,7 @@ kaaldma+V+Ind+Prs+ScSg3:kaald K ;
 säädmä+V+Ind+Prt+OcSg3:säeti K ;
 sponsoriiŕmä+V+Ind+Prs+ScSg3:sponsoriir K ;
 käümä+V+Act+Ind+Prs+Pl3:kääväq K ;
-käümä+V+Inf:kävvü Harm-Neutr_INF_ZEROq ;
+käümä+V+Inf:kävvü Harm_Neutr_INF_ZEROq ;
 tegemä+V+Ind+Prt+OcPl3:tettiq K ;
 
 
@@ -318,10 +318,10 @@ nakkama+V:naa%{back%} PSS_PRFPRC_t/SG-GEN_dU ;
 nakkama+V:naa%{back%} PSS_IND_SG1_tX/SG3_tX ;
 
 !! nägemä **to see/nähdä**
-nägemä+V:näge%{front%} Harm-Neutr_INF_mA ;
-nägemä+V:nä%{front%} Harm-Neutr_INF_tAq ;
-nägemä+V:näke%{front%} Harm-Neutr_ACT_PRSPRC_SG_NOM_v ;
-nägemä+V:näge%{front%} Harm-Neutr_ACT_PRSPRC_OBL_v ;
+nägemä+V:näge%{front%} Harm_Neutr_INF_mA ;
+nägemä+V:nä%{front%} Harm_Neutr_INF_tAq ;
+nägemä+V:näke%{front%} Harm_Neutr_ACT_PRSPRC_SG_NOM_v ;
+nägemä+V:näge%{front%} Harm_Neutr_ACT_PRSPRC_OBL_v ;
 nägemä+V:nän%{front%} ACT_PRFPRC_ALL_nUq ;
 nägemä+V:nä%{front%} PSS_PRSPRC_ttAv ;
 nägemä+V:nä%{front%} PSS_IND_SG1_tX/SG3_tX ;
@@ -354,11 +354,11 @@ pandma+V+Pss+Ind+Prs+Sg3:pan%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;
 pidämä+V:pee%{front%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 
 !! tegemä **to do/ tehdä**
-tegemä+V:tege%{front%} Harm-Neutr_INF_mA ;
-tegemä+V:te%{front%} Harm-Neutr_INF_tAq ;
-tegemä+V+Use/NG+Err/Orth:tee%{front%} Harm-Neutr_INF_dAq ;
-tegemä+V:teke%{front%} Harm-Neutr_ACT_PRSPRC_SG_NOM_v ;
-tegemä+V:tege%{front%} Harm-Neutr_ACT_PRSPRC_OBL_v ;
+tegemä+V:tege%{front%} Harm_Neutr_INF_mA ;
+tegemä+V:te%{front%} Harm_Neutr_INF_tAq ;
+tegemä+V+Use/NG+Err/Orth:tee%{front%} Harm_Neutr_INF_dAq ;
+tegemä+V:teke%{front%} Harm_Neutr_ACT_PRSPRC_SG_NOM_v ;
+tegemä+V:tege%{front%} Harm_Neutr_ACT_PRSPRC_OBL_v ;
 tegemä+V:ten%{front%} ACT_PRFPRC_ALL_nUq ;
 tegemä+V:te%{front%} PSS_PRSPRC_ttAv ;
 tegemä+V:te%{front%} PSS_IND_PRS_SG1_tA/SG3_tAs ;
@@ -379,7 +379,7 @@ tegemä+V+Ind+Prt+OcSg3:tett́e K ;!Räpinä murragu vorm
 tundma+V:tun%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;
 
 !! võtma **to take (pass)/ ottaa**
-võtma+V:võe Harm-Neutr_NÕSTMA-PSS-DISTRIBUTION ; !!These are irregular but primary
+võtma+V:võe Harm_Neutr_NÕSTMA-PSS-DISTRIBUTION ; !!These are irregular but primary
 
 võtma+V:võe%{back%} PSS_IND_PRT_SG1_di/SG3_ti/PRS-SG1_dA/SG3_tAs/PSS_PRFPRC_t/SG-GEN_dU  ;
 

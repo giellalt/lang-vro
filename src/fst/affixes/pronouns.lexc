@@ -316,23 +316,23 @@ LEXICON PRON-DEM
 !LEXICON PRON-INDEF_mis
 
 LEXICON PRON_PALL1O
-: Harm-Neutr_SG-NOM ;
-:%{back%} Harm-Neutr_SG-GEN ;
-:%{back%} Harm-Neutr_SG-ALL_lE-STEM ;
-:%{back%} Harm-Neutr_SG-PAR_d ;
+: Harm_Neutr_SG-NOM ;
+:%{back%} Harm_Neutr_SG-GEN ;
+:%{back%} Harm_Neutr_SG-ALL_lE-STEM ;
+:%{back%} Harm_Neutr_SG-PAR_d ;
 
-:%{back%} Harm-Neutr_PL-NOM ;
-:%{back%} Harm-Neutr_PL-GEN_dE ;
+:%{back%} Harm_Neutr_PL-NOM ;
+:%{back%} Harm_Neutr_PL-GEN_dE ;
 :%{back%}d%{eõ%} PL-ALL_lE-STEM ;
 
 LEXICON PRON_21MONI
-:i Harm-Neutr_SG-NOM ;
-:%{back%}%>%{eõ%} Harm-Neutr_SG-GEN ;
-:%{back%}%>%{eõ%} Harm-Neutr_SG-ALL_lE-STEM ;
+:i Harm_Neutr_SG-NOM ;
+:%{back%}%>%{eõ%} Harm_Neutr_SG-GEN ;
+:%{back%}%>%{eõ%} Harm_Neutr_SG-ALL_lE-STEM ;
 +Sg+Par:%{back%}%>d%{aä%} K ;
-:%{back%} Harm-Neutr_SG-PAR_d ;
+:%{back%} Harm_Neutr_SG-PAR_d ;
 
-:%{back%}%>%{eõ%} Harm-Neutr_PL-NOM ;
+:%{back%}%>%{eõ%} Harm_Neutr_PL-NOM ;
 :%{back%}%>i PL-ALL_lE-STEM ;
 
 LEXICON Interrogative
@@ -368,16 +368,16 @@ muu+Pron:m%{ou%}%{ou%} PRON_30MAA "_#, #d__mu̬u̬_" ;
 kõiḱ+Pron:kõ̭i%{kØ%}%{kḱg%} PRON_36KWIK1 "_#gõ, #kkõ__kõ̭|iḱ_" ;
 
 LEXICON PRON_27MITU
-:u%{back%} Harm-Neutr_SG-NOM ;
-:o%{back%} Harm-Neutr_SG-NOM ;
-:m%{back%}%>%{eõ%} Harm-Neutr_SG-GEN ;
-:m%{back%}%>%{eõ%} Harm-Neutr_SG-ALL_lE-STEM ;
+:u%{back%} Harm_Neutr_SG-NOM ;
+:o%{back%} Harm_Neutr_SG-NOM ;
+:m%{back%}%>%{eõ%} Harm_Neutr_SG-GEN ;
+:m%{back%}%>%{eõ%} Harm_Neutr_SG-ALL_lE-STEM ;
 +Sg+Par:und%{back%} K ;
-:m%{back%}%>%{eõ%} Harm-Neutr_SG-ILL_he ;
+:m%{back%}%>%{eõ%} Harm_Neutr_SG-ILL_he ;
 :m%{back%}%>%{eõ%}  SG-ILL_hE ;
 +Pl+Par:mit # ;
-:m%{back%}%>%{eõ%} Harm-Neutr_PL-NOM ;
-:m%{back%}%>i Harm-Neutr_PL-GEN_dE ;
+:m%{back%}%>%{eõ%} Harm_Neutr_PL-NOM ;
+:m%{back%}%>i Harm_Neutr_PL-GEN_dE ;
 :m%{back%}%>i PL-ALL_lE-STEM ;
 
 !! ### INTERROGATIVE PRONOUNS

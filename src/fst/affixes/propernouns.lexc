@@ -853,7 +853,7 @@ LEXICON PROP_PLC_33MAEGI/GEN !mägi+N:mä%{kØ%}%{kgØ%} N_33MAEGI "_#e, #ke__m�
  PROP_PLC_33MAEGI-SG ;
 ! PROP_PLC_33MAEGI-PL ;
 LEXICON PROP_PLC_33MAEGI-SG
-+Sem/Plc:%{front%}%^G1%>%{eõ%} Harm-Neutr_SG-NOM  ;
++Sem/Plc:%{front%}%^G1%>%{eõ%} Harm_Neutr_SG-NOM  ;
 +Sem/Plc:%{front%} NMN_33JWGI/MAEGI-SG-OBL ;
 !LEXICON PROP_PLC_33MAEGI-PL
 !+Sem/Plc:%{front%} NMN_33JWGI/MAEGI-PL ;
@@ -924,7 +924,7 @@ LEXICON PROP_36TUUM1 !!= @CODE@ tuuḿ:t%{ou%}%{ou%}m
 @U.Cap.Obl@ PROP_36TUUM1-PL ;
 LEXICON PROP_36TUUM1-SG
 :%{back%} NMN_36TUUM1/XX1-SG-OBL ; !!= @CODE@ This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
-:%{back%}%^VOWLower%^WGStem%>%{eõ%} Harm-Neutr_SG-NOM ;
+:%{back%}%^VOWLower%^WGStem%>%{eõ%} Harm_Neutr_SG-NOM ;
 
 LEXICON PROP_36TUUM1-PL
 :%{back%}     NMN_36TUUM1/XX1-PL ; 
