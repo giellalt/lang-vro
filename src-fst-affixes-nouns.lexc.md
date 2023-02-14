@@ -462,7 +462,7 @@ LEXICON NMN_3ALADU  aladu:aladu
 * *tervüisildäq* `tervüs+N+Pl+Abe:`
 * *tervüisigaq* `tervüs+N+Pl+Com:`
 
-* +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i Harm-Neutr_PL-GEN_dE ;  tervide
+* +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i Harm_Neutr_PL-GEN_dE ;  tervide
 * +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
 
 * **LEXICON NMN_4AINUS ** Types 4, 8, 17
@@ -1714,7 +1714,7 @@ nimi:nim
 * *nimildäq:* `nimi+N+Pl+Abe`
 * *nimmigaq:* `nimi+N+Pl+Com`
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no palatal
 
 * särǵ examples:*
 * *särǵ:* `särǵ+N+Sg+Nom`
@@ -1791,9 +1791,9 @@ pung:pung
 * Noun 38 pung examples:*
 
 * LEXICON NMN_38PULL1/VIKS1  pulĺ:pull
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG-NOM  ;  no final palatal
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG-NOM  ;  no final palatal
 
 * papṕ examples:*
 * *papṕ:* `papṕ+N+Sg+Nom`
@@ -1823,8 +1823,8 @@ pung:pung
 * *papõldaq:* `papṕ+N+Pl+Abe`
 * *pappegaq:* `papṕ+N+Pl+Com`
 
-   * :%^VOWRaise%^StrGStem%^PAL        Harm-Neutr_SG-NOM  ;  pu̬u̬ḿ
-* +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
+   * :%^VOWRaise%^StrGStem%^PAL        Harm_Neutr_SG-NOM  ;  pu̬u̬ḿ
+* +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no final palatal
    * :%^VOWLower%^WGStem%^NoPAL%>i       SG-GEN_ZERO-STEM        ;  poomi
 
 kuld:kul%{dl%}
@@ -1884,7 +1884,7 @@ kuld:kul%{dl%}
 Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
 stem_vowel="o"
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no final palatal
 
 * juht́ examples:*
 * *juht́:* `juht́+N+Sg+Nom`
@@ -2069,7 +2069,7 @@ gradation: yes
 * +Use/NG+Err/Orth-no-q+Err/Orth-front+Sg+Com:%>gä K ;  no q, front
 * +Use/NG+Err/Orth-no-q+Sg+Com:%>ga BACK_K ;  no q
 
-LEXICON Harm-Neutr_SG-INE_hn  RARE
+LEXICON Harm_Neutr_SG-INE_hn  RARE
 
 ### TAGS THAT CANNOT BE FOLLOWED BY CLITICS
 

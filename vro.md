@@ -1446,7 +1446,7 @@ LEXICON NMN_3ALADU  aladu:aladu
 * *tervüisildäq* `tervüs+N+Pl+Abe:`
 * *tervüisigaq* `tervüs+N+Pl+Com:`
 
-* +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i Harm-Neutr_PL-GEN_dE ;  tervide
+* +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i Harm_Neutr_PL-GEN_dE ;  tervide
 * +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
 
 * **LEXICON NMN_4AINUS ** Types 4, 8, 17
@@ -2698,7 +2698,7 @@ nimi:nim
 * *nimildäq:* `nimi+N+Pl+Abe`
 * *nimmigaq:* `nimi+N+Pl+Com`
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no palatal
 
 * särǵ examples:*
 * *särǵ:* `särǵ+N+Sg+Nom`
@@ -2775,9 +2775,9 @@ pung:pung
 * Noun 38 pung examples:*
 
 * LEXICON NMN_38PULL1/VIKS1  pulĺ:pull
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG-NOM  ;  no final palatal
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm-Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG-NOM  ;  no final palatal
 
 * papṕ examples:*
 * *papṕ:* `papṕ+N+Sg+Nom`
@@ -2807,8 +2807,8 @@ pung:pung
 * *papõldaq:* `papṕ+N+Pl+Abe`
 * *pappegaq:* `papṕ+N+Pl+Com`
 
-   * :%^VOWRaise%^StrGStem%^PAL        Harm-Neutr_SG-NOM  ;  pu̬u̬ḿ
-* +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
+   * :%^VOWRaise%^StrGStem%^PAL        Harm_Neutr_SG-NOM  ;  pu̬u̬ḿ
+* +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no final palatal
    * :%^VOWLower%^WGStem%^NoPAL%>i       SG-GEN_ZERO-STEM        ;  poomi
 
 kuld:kul%{dl%}
@@ -2868,7 +2868,7 @@ kuld:kul%{dl%}
 Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
 stem_vowel="o"
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm-Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no final palatal
 
 * juht́ examples:*
 * *juht́:* `juht́+N+Sg+Nom`
@@ -3053,7 +3053,7 @@ gradation: yes
 * +Use/NG+Err/Orth-no-q+Err/Orth-front+Sg+Com:%>gä K ;  no q, front
 * +Use/NG+Err/Orth-no-q+Sg+Com:%>ga BACK_K ;  no q
 
-LEXICON Harm-Neutr_SG-INE_hn  RARE
+LEXICON Harm_Neutr_SG-INE_hn  RARE
 
 ### TAGS THAT CANNOT BE FOLLOWED BY CLITICS
 
@@ -3465,7 +3465,7 @@ ehitelemä:ehitell
 * **LEXICON V_53JAEAEMAE** 
 * **LEXICON V_53XX/JAEAEMAE** 
 
-* :%^VOWRaise Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+* :%^VOWRaise Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
 *  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
 
@@ -3477,7 +3477,7 @@ ehitelemä:ehitell
 
 * **LEXICON V_53KAEMA/XX** kaema:ka
 
-* :%>e Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+* :%>e Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
 * :%>e ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
 
@@ -3578,7 +3578,7 @@ Based on 59KAOTAMA
 +Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
-* :%^VOWRaise%^StrGStem%^NoPAL%>i Harm-Neutr_ACT_IND_PRT_SG2_USUALLY-STRONG ;  kaoti
+* :%^VOWRaise%^StrGStem%^NoPAL%>i Harm_Neutr_ACT_IND_PRT_SG2_USUALLY-STRONG ;  kaoti
 +Act+Ind+Prt+Sg2, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
 +Act+Ind+Prt+Pl2, +Use/NG+Err/Orth+Act+Ind+Prt+Pl3
 
@@ -3662,12 +3662,12 @@ Act_Ind_Prs_Pl3: essüseq
 
 V_Inf/mA: miildümä 
 
-* **LEXICON V_70UNWHUMA** unõhuma:unõhtu
+* **LEXICON V_70UNWHTUMA** unõhuma:unõhtu
 * Yaml: **V-unwhuma**
-* **LEXICON V_70ÄNGÄHÜMÄ** ängähümä:ängähtü
+* **LEXICON V_70ÄNGÄHTÜMÄ** ängähümä:ängähtü
 * Yaml: **V-eraelduemae**
 
-* **LEXICON V_70UNWHUMA/ÄNGÄHÜMÄ** unõhuma:unõhtu
+* **LEXICON V_70UNWHTUMA/ÄNGÄHTÜMÄ** unõhuma:unõhtu
 
 * **LEXICON V_70VIPWRDUMA** unõhtuma:unõhtu
 * Yaml: **V-unwhtuma**
@@ -3713,8 +3713,8 @@ vala, valla, vali, valõ
 * **LEXICON V_76HIGOMA/PUEGAEMAE** higoma:hi%{kg0%}o
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 
-* :%^Pen%^G3 Harm-Neutr_INF_ZEROq ;  (2) lukõq
-* :%^Pen%^G3 Harm-Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) lukõv
+* :%^Pen%^G3 Harm_Neutr_INF_ZEROq ;  (2) lukõq
+* :%^Pen%^G3 Harm_Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) lukõv
 Inf, Act+PrsPrc+Sg+Nom
 
 Pss+PrfPrc, Pss+PrsPrc
@@ -3732,11 +3732,11 @@ Pss+Ind
 Retain consonant and stem vowel
 
 Weaken consonant and replace stem vowel with i
-* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm_Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Retain consonant remove stem vowel and add i
-* :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+* :%^VowRM%>i Harm_Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
 Act+Ind+Prt+Sg3
 
 +Jus
@@ -3747,13 +3747,13 @@ Act+Ind+Prt+Sg3
 * **LEXICON V_76JAGAMA/XX** jagama:ja%{kg0%}a
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 
-* :%^Pen%^G3 Harm-Neutr_INF_ZEROq ;  (2) lukõq
-* :%^Pen%^G3 Harm-Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) lukõv
+* :%^Pen%^G3 Harm_Neutr_INF_ZEROq ;  (2) lukõq
+* :%^Pen%^G3 Harm_Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) lukõv
 Inf, Act+PrsPrc+Sg+Nom
 
 Pss+PrfPrc, Pss+PrsPrc
 
-* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRMe Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRMe Harm_Neutr_LUGWMA_PSS-PRC ;  (4) loet
 
 *  ACT_IND_PRS_SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
@@ -3768,11 +3768,11 @@ Pss+Ind
 Retain consonant and stem vowel
 
 Weaken consonant and replace stem vowel with i
-* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm_Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Retain consonant remove stem vowel and add i
-* :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+* :%^VowRM%>i Harm_Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
 Act+Ind+Prt+Sg3
 
 +Jus
@@ -3783,10 +3783,10 @@ Act+Ind+Prt+Sg3
 * **LEXICON V_76LUGWMA/XX** lugõma:lu%{kg0%}õ
 
 Retain consonant and stem vowel
-* :%^Pen%^G2 Harm-Neutr_INF_mA ;  (1) lugõma:lu%{kgØ%}õ
+* :%^Pen%^G2 Harm_Neutr_INF_mA ;  (1) lugõma:lu%{kgØ%}õ
 
 Weaken consonant and semi-retension of stem vowel
-* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e Harm-Neutr_LUGWMA_PSS-PRC ;  (4) loet
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e Harm_Neutr_LUGWMA_PSS-PRC ;  (4) loet
 Pss+PrfPrc, Pss+PrsPrc
 
 Weaken consonant and semi-retension of stem vowel
@@ -3799,11 +3799,11 @@ Retain consonant and stem vowel
 Ind+Prs+ 3
 
 Weaken consonant and replace stem vowel with i
-* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm-Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm_Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Retain consonant remove stem vowel and add i
-* :%^VowRM%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+* :%^VowRM%>i Harm_Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
 Act+Ind+Prt+Sg3
 
 * **LEXICON V_77JUUMA** juuma:joo
@@ -3826,15 +3826,15 @@ Act+Ind+Prt+Sg3
 *  ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
 
 *  PSS_PRFPRC_d ;  
-*  Harm-Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+*  Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
 * LEXICON V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL  joo- söö-
 *  ACT-PRFPRC_nUq-SG-NOM ;  joonuq
 
 * LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE  juvv
-*  Harm-Neutr_INF_Aq ;  juvvaq süvväq
-* :%>%{aä%} Harm-Neutr_JUVVA_PSS-IND-PRS ;  juvva süvvä
-* :%>i Harm-Neutr_JUVVA_PSS-IND-PRT-1/2 ;  juvvi süvvi
+*  Harm_Neutr_INF_Aq ;  juvvaq süvväq
+* :%>%{aä%} Harm_Neutr_JUVVA_PSS-IND-PRS ;  juvva süvvä
+* :%>i Harm_Neutr_JUVVA_PSS-IND-PRT-1/2 ;  juvvi süvvi
 
 * LEXICON V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE  jõi-
 
@@ -3875,35 +3875,35 @@ Remainder is in exceptions.lexc
 
 Retain consonant and stem vowel
 
-* :l Harm-Neutr_INF_Aq ;  (2) tullaq
-* :l%>%{eõ%} Harm-Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) tullõv
+* :l Harm_Neutr_INF_Aq ;  (2) tullaq
+* :l%>%{eõ%} Harm_Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) tullõv
 Act+PrsPrc+Sg+Nom
 
 * **LEXICON V_79PURWMA** purõma:pur
 * Yaml: **purwma**
 * **LEXICON V_79PURWMA/XX** purõma:pur
 Retain consonant 
-*  Harm-Neutr_LUGWMA_PSS-PRC ;  (4) pur
+*  Harm_Neutr_LUGWMA_PSS-PRC ;  (4) pur
 Pss+PrfPrc, Pss+PrsPrc, 
 
 Retain consonant and stem vowel
-* :%{eõ%} Harm-Neutr_ACT_PRSPRC_v_LUGWMA ;  (1) purõma
+* :%{eõ%} Harm_Neutr_ACT_PRSPRC_v_LUGWMA ;  (1) purõma
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 +Jus, 
 
 Strengthen consonant
-* :%^StrGStem Harm-Neutr_INF_Aq ;  (2) purraq
+* :%^StrGStem Harm_Neutr_INF_Aq ;  (2) purraq
 Inf 
 Strengthen consonant 
-* :%^StrGStem%>%{eõ%} Harm-Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) purrõv
+* :%^StrGStem%>%{eõ%} Harm_Neutr_ACT_PRSPRC_SG_NOM_v ;  (2b) purrõv
 Act+PrsPrc+Sg+Nom
 
 Retain consonant and stem vowel
-*  Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) purnuq
+*  Harm_Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) purnuq
 +Act+PrfPrc
 
 Retain consonant and add õ
-* :%{eõ%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) purõ
+* :%{eõ%} Harm_Neutr_LUGWMA_IND-CONNEGII ;  (5) purõ
 Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
 
@@ -3916,7 +3916,7 @@ Strengthen consonant and replace stem vowel with i
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 consonant and add i
-* :%>i Harm-Neutr_LUGWMA_IND-PRT-SG3 ;  (8) puri
+* :%>i Harm_Neutr_LUGWMA_IND-PRT-SG3 ;  (8) puri
 Act+Ind+Prt+Sg3
 
 * **LEXICON V_79OLWMA** olõma:o
@@ -3929,27 +3929,27 @@ Act+Ind+Prt+Sg3
 * LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE  rapahutma:rapahuta
 
 Retain consonant and stem vowel
-* :t Harm-Neutr_ACT_PRSPRC_v_LUGWMA ;  (1) rapahutma
+* :t Harm_Neutr_ACT_PRSPRC_v_LUGWMA ;  (1) rapahutma
 +Act+PrsPrc+Sg OBL, Inf/mA, 
 +Jus, 
 
 Strengthen consonant
-* :t%>%{aä%} Harm-Neutr_INF_ZEROq ;  (2) rapahutaq
+* :t%>%{aä%} Harm_Neutr_INF_ZEROq ;  (2) rapahutaq
 Inf 
 Strengthen consonant 
-* :t Harm-Neutr_ACT_PRSPRC_SG_NOM_vA ;  (2b) rapahutva
+* :t Harm_Neutr_ACT_PRSPRC_SG_NOM_vA ;  (2b) rapahutva
 Act+PrsPrc+Sg+Nom
 
 Retain consonant and stem vowel
-* :t Harm-Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) rapahutnuq
+* :t Harm_Neutr_ACT-PRFPRC_v_LUGWMA ;  (3) rapahutnuq
 +Act+PrfPrc
 
 Retain consonant 
-* :d%>%{eõ%} Harm-Neutr_LUGWMA_PSS-PRC ;  (4) rapahudõ
+* :d%>%{eõ%} Harm_Neutr_LUGWMA_PSS-PRC ;  (4) rapahudõ
 Pss+PrfPrc, Pss+PrsPrc, 
 
 Retain consonant and add õ
-* :d%>%{aä%} Harm-Neutr_LUGWMA_IND-CONNEGII ;  (5) rapahuda
+* :d%>%{aä%} Harm_Neutr_LUGWMA_IND-CONNEGII ;  (5) rapahuda
 
 Act+Ind+Prs+Sg1/Sg2/Pl1/Pl2, Ind+ConNegII, Ind+Prs+ConNeg
 Pss+Ind
@@ -4165,7 +4165,7 @@ sõida
 
 ### SETS BY CONSONANT QUALITY
 
-* : Harm-Neutr_ACT_IND_PRS_SG2_USUALLY-STRONG ;  kaota
+* : Harm_Neutr_ACT_IND_PRS_SG2_USUALLY-STRONG ;  kaota
 +Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
@@ -4186,9 +4186,9 @@ CHECK THIS
 
 ### PASSIVE INDICATIVE PRESENT CONJUGATION
 
-* LEXICON Harm-Neutr_JUVVA_PSS-IND-PRS  juvva süvvä
+* LEXICON Harm_Neutr_JUVVA_PSS-IND-PRS  juvva süvvä
 
-* LEXICON Harm-Neutr_JUVVA_PSS-IND-PRT-1/2  juvvi süvvi
+* LEXICON Harm_Neutr_JUVVA_PSS-IND-PRT-1/2  juvvi süvvi
 
 ### INDICATIVE PRETERIT SUBJECT CONJUGATION
 
@@ -4217,11 +4217,11 @@ CHECK THIS
 * LEXICON ACT-PRFPRC-OBL_nU  only oblique cases and Pl+Nom
 
 PASSIVE DISTRIBUTION
-* Harm-Neutr_NÕSTMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
-* Harm-Neutr_KAOTAMA-PSS_PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
+* Harm_Neutr_NÕSTMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
+* Harm_Neutr_KAOTAMA-PSS_PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
 * PSS_PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
-* Harm-Neutr_KAOTAMA-PSS_PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
+* Harm_Neutr_KAOTAMA-PSS_PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
 * +Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;  no q
 * +Use/NG+Err/Orth+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;  no q
@@ -4238,7 +4238,7 @@ PASSIVE DISTRIBUTION
 
 * +Use/NG+Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ;  no q
 
-* LEXICON Harm-Neutr_ACT_PRSPRC_v_LUGWMA  lugõma:lugõ
+* LEXICON Harm_Neutr_ACT_PRSPRC_v_LUGWMA  lugõma:lugõ
 Retain consonant and stem vowel
 
 * +Use/NG+Err/Orth-no-q+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
