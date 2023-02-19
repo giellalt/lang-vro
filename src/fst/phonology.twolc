@@ -836,7 +836,8 @@ Rules
 "ä:0"
 !! **@RULENAME@**
  ä:0 <=>  [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:|%{rŕ%}:|%{lĺ%}:) (HarmDummiesVar) PenVOWHite PenGRAD PenPAL  %^VowRM: ;
-   [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:|%{rŕ%}:|%{lĺ%}:) (HarmDummiesVar) PenVOWHite [ PenGRAD PenPAL [ %^Pen: %^VowRM:]| CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem:  ] %> i  ] ; 
+   [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:|%{rŕ%}:|%{lĺ%}:) (HarmDummiesVar) PenVOWHite [ PenGRAD PenPAL [ %^Pen: %^VowRM:|%^VowRM:]| CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem:  ] %> i  ] ; 
+!p ü {kgØ}:g ä:0 {front}:0 ^Pen:0 ^G2:0 ^VowRM:0 > i
 !! pügämä+V+Pss+PrfPrc:
 !!€ pü%{kgØ%}ä%{front%}%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>t
 !!€ pö00000000e%>t
@@ -1745,9 +1746,10 @@ Vow: _  %{pbv%}: (HarmDummiesVar) [ %^G1: |%^G2: | %^G3: |%^CC2C:] ;
          [Vow|Cns] _ (HarmDummiesVar) ( %^VOWLower:) %^WGStem:  ;
 !anõkduut́
          Vow _ [[Vow:|ArchVow:] (HarmDummiesVar) PenVOWHite %^Pen: [%^WGStem: | %^G1: ]|(HarmDummiesVar) %^WGStem: (%>) :Vow ] ;
+!k e r g ü {tt́d}:d {front}:0 ^VOWRaise:0 ^WGStem:0 ^NoPAL:0 > {aä}:ä
 !! kergütämä+V+Act+Ind+Prs+Sg1:
-!!€ kergü%{tt́d%}ä%{front%}%^Pen%^WGStem
-!!€ kergüdä000
+!!€ kergü{tt́d}{front}^VOWRaise^WGStem^NoPAL>{aä}
+!!€ kergüd0000>ä
    Vow _ [ [Vow|ArchVow:] (Cns:* |i:) (HarmDummiesVar) %^Pen:|(HarmDummiesVar) ] [%^WGStem: | %^G1: ];
    Cns _ [Vow:|ArchVow:] Cns (HarmDummiesVar) PenVOWHite %^Pen: [ %^WGStem: | %^G1: ] ;
 
@@ -1892,7 +1894,7 @@ _ [%{td%}: | %{tt́d%}: ] (HarmDummiesVar) [ %^G2: | %^G3:| %^G4: ] ;
 "%{kgØ%}:g"
 !! **@RULENAME@**
  %{kgØ%}:g <=>
-     (%{kØ%}:) _ Vow  (HarmDummiesVar) PenVOWHite %^Pen: %^G2: ;
+     (%{kØ%}:) _ Vow:  (HarmDummiesVar) PenVOWHite %^Pen: %^G2: ;
      (%{kØ%}:) _  (HarmDummiesVar) ( %^VOWLower:) %^G2: ;
 !! jõgi+N+Sg+Nom: **river / joki**
 !!€ jõ{kØ}{kgØ}{back}^G2>i
