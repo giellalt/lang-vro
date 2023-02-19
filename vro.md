@@ -1314,7 +1314,7 @@ juusk:j%{ou%}%{ou%}s%{kØ%}u
 LEXICON N_41VIIT  aig:aig
 * Yaml: **aig, aig**
 
-LEXICON N_43KANARIK  usklik+A:%{ˋØ%}#uskli%{kg%}
+LEXICON N_43KANARIK  usklik+A:%{ˋØ%}#uskli%{kØ%}%{kg%}
 
 LEXICON N_43ELAENIK  elänik+N:eläni%{kØ%}%{kg%}
 
@@ -3562,7 +3562,7 @@ front
 Based on 59KAOTAMA
 * Yaml: **kerguetaemae**
 
-* **LEXICON V_59KAOTAMA/KERGUETAEMAE** kaotama:kao, kergütämä:kergü
+* **LEXICON V_59KAOTAMA/KERGUETAEMAE** kaotama:kao%{tt́d%}, kergütämä:kergü%{tt́d%}
 
 +Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
 +Pss+PrsPrc, +Pss+PrfPrc
@@ -5165,8 +5165,8 @@ kaotama+V+Act+Ind+Prs+Sg1:
 
 **%{tt́d%}:d**
 kergütämä+V+Act+Ind+Prs+Sg1:
-* *kergü%{tt́d%}ä%{front%}%^Pen%^WGStem*
-* *kergüdä000*
+* *kergü{tt́d}{front}^VOWRaise^WGStem^NoPAL>{aä}*
+* *kergüd0000>ä*
 
 **tToZero**
 hüdsi+N+Sg+Par:

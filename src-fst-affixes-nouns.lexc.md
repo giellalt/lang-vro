@@ -330,7 +330,7 @@ juusk:j%{ou%}%{ou%}s%{kØ%}u
 LEXICON N_41VIIT  aig:aig
 * Yaml: **aig, aig**
 
-LEXICON N_43KANARIK  usklik+A:%{ˋØ%}#uskli%{kg%}
+LEXICON N_43KANARIK  usklik+A:%{ˋØ%}#uskli%{kØ%}%{kg%}
 
 LEXICON N_43ELAENIK  elänik+N:eläni%{kØ%}%{kg%}
 

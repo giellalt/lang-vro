@@ -146,7 +146,7 @@ front
 Based on 59KAOTAMA
 * Yaml: **kerguetaemae**
 
-* **LEXICON V_59KAOTAMA/KERGUETAEMAE** kaotama:kao, kergütämä:kergü
+* **LEXICON V_59KAOTAMA/KERGUETAEMAE** kaotama:kao%{tt́d%}, kergütämä:kergü%{tt́d%}
 
 +Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
 +Pss+PrsPrc, +Pss+PrfPrc

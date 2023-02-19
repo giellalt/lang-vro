@@ -902,8 +902,8 @@ kaotama+V+Act+Ind+Prs+Sg1:
 
 **%{tt́d%}:d**
 kergütämä+V+Act+Ind+Prs+Sg1:
-* *kergü%{tt́d%}ä%{front%}%^Pen%^WGStem*
-* *kergüdä000*
+* *kergü{tt́d}{front}^VOWRaise^WGStem^NoPAL>{aä}*
+* *kergüd0000>ä*
 
 **tToZero**
 hüdsi+N+Sg+Par:
