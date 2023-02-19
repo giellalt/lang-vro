@@ -806,7 +806,7 @@ Rules
 "a:0"
 !! **@RULENAME@**
  a:0 <=>
-  [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:) (HarmDummiesVar) PenVOWHite [ PenGRAD PenPAL [ %^VowRM: | %^Pen:0 %^JI2I: | %^Pen: %^VowRM:]| CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem:  ] %> i  ] ;  
+  [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:|%{sØ%}:) (HarmDummiesVar) PenVOWHite [ PenGRAD PenPAL [ %^VowRM: | %^Pen:0 %^JI2I: | %^Pen: %^VowRM:]| CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem:  ] %> i  ] ;  
 !  [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:) (HarmDummiesVar) (PenVOWHite) [ (%^Pen: %^CC2C:|%^Pen: %^StrGStem:|%^Pen: %^G2:| %^Pen: %^WGStem:) (%^Pen: %^NoPAL:) [ %^VowRM: | %^Pen: %^VowRM:]| CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem: ] %> i  ] ; 
 [ Cns:| ArchCns: ] _ (HarmDummiesVar) [ (%^StrGStem:|PenVOWHite [%^Pen: %^WGStem:| PenPAL ] |%^Pen: %^CC2C:|%^Pen: %^G2:) %^VowRM: | CnsInZero: %^VowRM: %^WGStem: %> ]  ; 
 ! [ Cns:| ArchCns: ] _ (HarmDummiesVar) [ (%^StrGStem:|PenVOWHite %^Pen: %^WGStem:|%^Pen: %^CC2C:) (0:) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM: %> ]  ; 
@@ -1355,6 +1355,7 @@ k:0 <=>
 !!hammas+N+Sg+Gen: __tooth/hammas__
 !!€ ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem
 !!€ hamba0000000
+
 !!rahvas+N+Pl+Gen: __nation/kansa__
 !!€ rahva{sØ}{back}^VowRM^WGStem>id{eõ}
 !!€ rahv00000>idõ

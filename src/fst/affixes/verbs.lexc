@@ -2404,13 +2404,17 @@ LEXICON V_79OLWMA/XX !!≈ * **@CODE@** olõma:o
 +Act+Ind+Prs+Sg3:m K ;
 +Act+Ind+Prs+Pl3:mm%{aä%}q K ;
 +Act+Ind+Prs+Pl3+Use/NG+Err/Orth-no-q:mm%{aä%} K ;
-:mm%{aä%} ACT_IND_PRS_PL3_vAq ;
++Use/NG+Err/Orth:mm%{aä%} ACT_IND_PRS_PL3_vAq ;
 :l PSS_IND_PRS_ALL_dA ;
 
-:ll ACT_IND_PRT_12_i ;
+:lli ACT_IND_PRT_SG1_ZERO ;
+!2023_02_19:ll ACT_IND_PRT_12_i ;
+:lli ACT_IND_PRT_PL1_miq ;
+:lli ACT_IND_PRT_PL2_tiq ;
+:ll ACT_IND_PRT_SG2_iq ;
 :l%{eõ%} ACT-IND-CONNEG ;
 +Act+Ind+Prt+Sg3:lĺ K ;
-+Act+Ind+Prt+Sg3:lle K ;
++Use/NG+Err/Orth+Act+Ind+Prt+Sg3:lle K ;
 :lli ACT_IND_PRT_PL3_q/vAq ;
 :l PSS_IND_PRT_SG1_di/SG3_ti ;
 
@@ -2420,7 +2424,7 @@ LEXICON V_79OLWMA/XX !!≈ * **@CODE@** olõma:o
 :l Harm_Neutr_ACT-PRFPRC_v_LUGWMA ;
 :l PSS_PRSPRC_tAv ;
 :l PSS_PRFPRC_t/SG-GEN_dU ;
-:l PSS_PRFPRC_tU_SG_NOM ;
++Use/NG+Err/Orth:l PSS_PRFPRC_tU_SG_NOM ;
 
 LEXICON V_80RAPAHUTMA !!≈ * **@CODE@** rapahutma:rapahuta
 :%{back%} V_80RAPAHUTMA/HAEMMAEHUETMAE ;
@@ -4199,9 +4203,10 @@ LEXICON ACT_IND_PRT_SG2/PL1/PL2_i
 LEXICON ACT_IND_PRT_SG2_q
 +Act+Ind+Prt+Sg2:%>q K ;
 +Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2: K ;
-!24LEXICON ACT_IND_PRT_SG2_iq
-!+Act+Ind+Prt+Sg2:%>iq K ;
-!+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>i K ;
+
+LEXICON ACT_IND_PRT_SG2_iq
++Act+Ind+Prt+Sg2:%>iq K ;
++Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>i K ;
 
 LEXICON ACT_IND_PRT_SG2/PL1/PL2_i_USUALLY_STRONG
 +Act+Ind+Prt+Sg2:%>it K ;
