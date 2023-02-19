@@ -713,6 +713,7 @@ vaśma+V+Inf/mA: **answer/vastata**
 * *va0ś0000>ma*
 * *ham%{bm%}a%{sØ%}%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem*
 * *hamba0000000*
+
 * *rahva{sØ}{back}^VowRM^WGStem>id{eõ}*
 * *rahv00000>idõ*
 
