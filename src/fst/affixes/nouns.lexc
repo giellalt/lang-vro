@@ -1468,17 +1468,17 @@ LEXICON N_36LAEHK-SG
 LEXICON N_36LAEHK-PL
 :%{front%} NMN_36NJUKR/LAEHK-PL ;
 
-!LEXICON N_36KOGWR
+LEXICON N_36KOGWR
 !! kogõr:kogõr
 !! * Yaml: **N-kogwr36**
 !! derived from 36särǵ
-!:%^Pen%^G1 ATTESTED-NOUN-STEM-CONTINUED ;
-!        N_36KOGWR-SG ;
-!        N_36KOGWR-PL ;
-!LEXICON N_36KOGWR-SG
-!:%{back%}     NMN_36KOGWR-SG ;
-!LEXICON N_36KOGWR-PL
-!:%{back%}     NMN_36KOGWR-PL ;
+:%^Pen%^G1 ATTESTED-NOUN-STEM-CONTINUED ;
+        N_36KOGWR-SG ;
+        N_36KOGWR-PL ;
+LEXICON N_36KOGWR-SG
+:%{back%}     NMN_36KOGWR-SG ;
+LEXICON N_36KOGWR-PL
+:%{back%}     NMN_36KOGWR-PL ;
 
 LEXICON N_36KOKR
 !! kokr:ko%{kg%}r
@@ -6283,23 +6283,23 @@ LEXICON NMN_36LEIB-PL
 !  NMN_36KOGWR-SG ;
 !  NMN_36KOGWR-PL ;
 
-!LEXICON NMN_36KOGWR-SG 
-!:%^Pen%^WGStem        Harm_Neutr_SG-NOM  ;
-!:%^Pen%^VowRM        Harm_Neutr_SG-NOM  ;
-!:%^Pen%^WGStem%^Pen%^VowRM%>õ       SG-GEN_ZERO-STEM        ;
-!:%^Pen%^VowRM%>õ       Harm_Neutr_SG-ILL_ZERO        ;
-!:%^Pen%^VowRM%>õ       Harm_Neutr_SG-PAR_ZERO        ;
+LEXICON NMN_36KOGWR-SG 
+:%^Pen%^WGStem        Harm_Neutr_SG-NOM  ;
++Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^VowRM        Harm_Neutr_SG-NOM  ;
+:%^Pen%^WGStem%^Pen%^VowRM%>õ       SG-GEN_ZERO-STEM        ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>õ       Harm_Neutr_SG-ILL_ZERO        ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>õ       Harm_Neutr_SG-PAR_ZERO        ;
 
-!LEXICON NMN_36KOGWR-PL 
-!:%^Pen%^WGStem%^Pen%^VowRM%>õ       Harm_Neutr_PL-NOM ;
-!:%^Pen%^VowRM%>i    PL-GEN_ZERO ;
-!:%^Pen%^VowRM%>i    Harm_Neutr_PL-PAR_ZERO ;
-!:%^Pen%^VowRM%>i  PL-ILL_he ;
-!:%^Pen%^WGStem%^Pen%^VowRM%>i  PL-ALL_lE-STEM ;
-!:%^Pen%^VowRM%>i    PL-COM ;
+LEXICON NMN_36KOGWR-PL 
+:%^Pen%^WGStem%^Pen%^VowRM%>õ       Harm_Neutr_PL-NOM ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>i    PL-GEN_ZERO ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>i    Harm_Neutr_PL-PAR_ZERO ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>i  PL-ILL_he ;
+:%^Pen%^WGStem%^Pen%^VowRM%>i  PL-ALL_lE-STEM ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>i    PL-COM ;
 
-!:%^Pen%^VowRM%>i  PL-ILL_dE ;
-!:%^Pen%^StrGStem%^Pen%^VowRM%>i    Harm_Neutr_PL-ILL_ZERO ;
++Use/NG+Err/Orth:%^Pen%^VowRM%>i  PL-ILL_dE ;
++Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^VowRM%>i    Harm_Neutr_PL-ILL_ZERO ;
 
 !LEXICON NMN_36KOKR !!= __@CODE@__
 !!! kokr:ko%{kg%}r
