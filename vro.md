@@ -4723,7 +4723,6 @@ tütär+N+Sg+Gen
 
 **U:0 Vx**
 ```
-
 * *hirnu{back}^Pen^CC2C^VowRM>m{aä}*
 * *hirn00000>ma*
 * *kut{sś}u{back}^Pen^VOWRaise^Pen^PAL^VowRM*
