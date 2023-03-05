@@ -1353,8 +1353,9 @@ LEXICON V_68HARKUMA/NAELGUEMAE
 
 ! (4) Tettäv tm passiiv: hirnut
 :%^Pen%^VOWRaise PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
+:%^Pen%^VOWRaise PSS_IND_CONNEG_tA ;
 
-:%^Pen%^VOWRaise PSS_PRFPRC_tU_SG_NOM ;
++Use/NG+Err/Orth:%^Pen%^VOWRaise PSS_PRFPRC_tU_SG_NOM ;
 
 ! (5) Olõvao 1. k maq: hirnu
 :%^Pen%^VOWRaise ACT_IND_CONNEG/PRS_SG1 ;
@@ -2085,7 +2086,7 @@ LEXICON V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL !!= * @CODE@ joo- söö-
 
 LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE !!= * @CODE@ juvv
  Harm_Neutr_INF_Aq ; !!= * @CODE@ juvvaq süvväq
-:%>%{aä%} Harm_Neutr_JUVVA_PSS-IND-PRS ; !!= * @CODE@ juvva süvvä
+:%>%{aä%} Harm_Neutr_JUVVA_PSS_IND_PRS ; !!= * @CODE@ juvva süvvä
 :%>i Harm_Neutr_JUVVA_PSS-IND-PRT-1/2 ; !!= * @CODE@ juvvi süvvi
 
 LEXICON V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE !!= * @CODE@ jõi-
@@ -2181,7 +2182,7 @@ LEXICON V_78SAAMA/XX
 ! (2) II tegonimi:
 ! (3) tekev tm aktiiv:
 ! (4) Tettäv tm passiiv:
-:%^VowRM%>i%{aä%} Harm_Neutr_JUVVA_PSS-IND-PRS ;
+:%^VowRM%>i%{aä%} Harm_Neutr_JUVVA_PSS_IND_PRS ;
  PSS_IND_PRT_SG1_di/SG3_ti ;
  PSS_PRSPRC_tAv ;
  PSS_PRFPRC_d ;
@@ -3879,7 +3880,7 @@ PSS_IND_PRS_PL2_dAtiq ;
 PSS_IND_PRS_PL3_dAsEq ;
 
 
-!LEXICON Harm_Neutr_VISKAMA_PSS-IND-PRS
+!LEXICON Harm_Neutr_VISKAMA_PSS_IND_PRS
 !PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 
 LEXICON PSS_IND_PRS_SG1_tA/SG3_tAs
@@ -4015,7 +4016,7 @@ LEXICON PSS_IND_PRS_PL3_dAsEq
 +Pss+Ind+Prs+Pl3:%>d%{aä%}s%{eõ%}q K ;
 +Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>d%{aä%}s%{eõ%} K ;
 
-LEXICON Harm_Neutr_JUVVA_PSS-IND-PRS !!= * @CODE@ juvva süvvä
+LEXICON Harm_Neutr_JUVVA_PSS_IND_PRS !!= * @CODE@ juvva süvvä
 +Pss+Ind+Prs+Sg1: K ;
 +Pss+Ind+Prs+Sg2:%>t K ;
 +Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>d%{eõ%}q K ;
@@ -4615,7 +4616,7 @@ LEXICON ACT-PRFPRC-OBL_nU !!= * @CODE@ only oblique cases and Pl+Nom
 
 !! PASSIVE DISTRIBUTION
 LEXICON Harm_Neutr_NÕSTMA-PSS-DISTRIBUTION
-Harm_Neutr_NÕSTMA-PSS-IND-PRS_dA ; !!= * @CODE@ +Pss+Ind+Prs+Sg1: sõidõda
+Harm_Neutr_NÕSTMA-PSS_IND_PRS_dA ; !!= * @CODE@ +Pss+Ind+Prs+Sg1: sõidõda
 !Harm_Neutr_KAOTAMA-PSS-IND-PRT_di ; !!= * @CODE@ +Pss+Ind+Prt+Sg1: sõidõdi
 !PSS_PRSPRC_dAv ; !!= * @CODE@ +Pss+PrsPrc+Sg+Nom: kaotõdav
 Harm_Neutr_KAOTAMA-PSS_PRFPRC_t ; !!= * @CODE@ +Pss+PrfPrc+Sg+Nom: kaotõt
@@ -4651,7 +4652,7 @@ PSS_PRSPRC_dAv ; !!= * @CODE@ +Pss+PrsPrc+Sg+Nom: kaotõdav
 Harm_Neutr_KAOTAMA-PSS_PRFPRC_t ; !!= * @CODE@ +Pss+PrfPrc+Sg+Nom: kaotõt
 
 
-LEXICON Harm_Neutr_NÕSTMA-PSS-IND-PRS_dA
+LEXICON Harm_Neutr_NÕSTMA-PSS_IND_PRS_dA
 PSS_IND_PRS/PRT_SG1_dX ;
 PSS_IND_PRS_SG2_tAt ;
 +Use/NG+Err/Orth: PSS_IND_PRS_SG2_tAdEq ;
