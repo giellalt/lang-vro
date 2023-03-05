@@ -4854,11 +4854,13 @@ joudma+V+Act+Ind+Prt+Sg1
 * *la{uv}{dv}{back}^WGStem>{aä}*
 * *lavv00>a*
 
-**%{üv%}:v**
-* *pü%{üv%}%{dd́v%}%{front%}%^WGStem%>et*
-* *püvv00%>et*
-* *sü%{üv%}%{dv%}%{front%}%^WGStem%>ä*
-* *süvv00%>ä*
+**%{dd́v%}:v**
+
+**{üv}:v**
+* *pü{üv}{dd́v}{front}^WGStem>et*
+* *püvv00>et*
+* *sü{üv}{dv}{front}^WGStem>ä*
+* *süvv00>ä*
 
 *  examples:*
 
@@ -4908,7 +4910,7 @@ SECONDARY CONSONANT LENGTHENING
 * *nupp0000000*
 ```
 
-**%{tØ%}:t**
+**{tØ}:t**
 * *sõ%{tØ%}da%{back%}%^G4%^PLPRT*
 * *sõtto000*
 * *si%{tØ%}t%{front%}%^StrGStem*
@@ -4922,6 +4924,8 @@ sõda+N+Sg+Ill:
 * *sõtta000*
 * *uh{tØ}a{sś}{back}^Pen^StrGStem^Pen^VowRM^NoPAL>{aä}>m{aä}*
 * *uht0s000000>a>ma*
+* *unõh{tØ}u{back}^Pen^StrGStem*
+* *unõhtu000*
 
 **%{t́Ø%}:t́**
 
@@ -5050,6 +5054,9 @@ agras+A+Sg+Gen
 elläi+N+Sg+Gen
 * *e{lØ}lä{ij}{front}^Pen^WGStem^I2J>{aä}*
 * *e0läj0000>ä*
+pereh+N+Sg+Gen: **family/perhe**
+* *pe{rØ}re{hØ}{front}^Pen^StrGStem^WGStem*
+* *perre00000*
 hamõh+N+Sg+Nom
 * *ha%{mØ%}mõ%{hØ%}%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^StrGStem*
 * *ha0mõh000000*
