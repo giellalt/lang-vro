@@ -2467,9 +2467,9 @@ LEXICON NMN_6MAKW/HELLE !!= * @CODE@ makõ:ma%{kØ%}kõ
 !!€  tikkihe: tikõ+A+Pl+Ill
 !!€  tikkilõ: tikõ+A+Pl+All
   NMN_6MAKW/HELLE-SG ;
-   NMN_9VILLW/XX-PL ;
++Err/Orth:   NMN_9VILLW/XX-PL ;
 +Err/Orth: NMN_9VILLW/XX-SG ;
-+Err/Orth:   NMN_6MAKW/HELLE-PL ;
+:   NMN_6MAKW/HELLE-PL ;
 
 LEXICON NMN_6MAKW/HELLE-SG 
 :%^Pen%^WGStem        Harm_Neutr_SG-NOM  ;
@@ -2483,6 +2483,7 @@ LEXICON NMN_6MAKW/HELLE-PL
 :%^Pen%^StrGStem%^VowRM%>i        PL-ILL_he       ;
 :%^Pen%^StrGStem%^VowRM%>i        PL-ALL_lE-STEM       ;
 :%^Pen%^StrGStem%^VowRM%>i      PL-PAR_t        ;
+:%^Pen%^StrGStem%^VowRM%>id%{eõ%} PL-COM ;
 
 !LEXICON NMN_7FUEUESIGA füüsiga+N:füüsi%{kg%}a
 !  NMN_7FUEUESIGA-SG ;
@@ -3365,9 +3366,9 @@ LEXICON NMN_9VILLW/XX !!= @CODE@ villõ:vi%{lØ%}lõ
 !!€ vilõhidõgaq villõ+N+Pl+Com:
 !! * Yaml: **N-kipwnj**
 !CHECKME 2019-08-30 NMN_6MAKW/HELLE-SG ;
-   NMN_9VILLW/XX-PL ;
++Err/Orth:   NMN_9VILLW/XX-PL ;
 !CHECKME +Err/Orth:   NMN_9VILLW/XX-SG ;
-   NMN_9VILLW/XX-SG ;
++Err/Orth:   NMN_9VILLW/XX-SG ;
 +Err/Orth:   NMN_6MAKW/HELLE-PL ;
 
 LEXICON NMN_9VILLW/XX-SG
@@ -6986,7 +6987,7 @@ LEXICON NMN_41ASK/VIIT-PL-OBL
 +Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>%{aä%}    PL-ILL_dE ;
 +Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>%{aä%}    PL-ILL_he ;
 +Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>%{aä%}    PL-ALL_lE-STEM ;
-:%^Pen%^VOWLower%^Pen%^StrGStem%^VowRM%>%{aä%}    PL-COM ;
++Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^StrGStem%^VowRM%>%{aä%}    PL-COM ;
 
 
 !LEXICON NMN_41LAUL !!= @CODE@ laul:laul
@@ -7341,7 +7342,7 @@ LEXICON NMN_46HAIN-PL
 :%>%{aä%}    Harm_Neutr_PL-NOM ;
 :%>o       PL-GEN_ZERO ;
 :%>o       Harm_Neutr_PL-PAR_ZERO ;
-:%>o       Harm_Neutr_PL-ILL_ZERO ;
++Use/NG+Err/Orth:%>o       Harm_Neutr_PL-ILL_ZERO ;
 :%>o       PL-ILL_he ;
 :%>o       PL-ALL_lE-STEM ;
 :%>o     PL-COM ;
