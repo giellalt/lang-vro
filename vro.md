@@ -3833,7 +3833,7 @@ Act+Ind+Prt+Sg3
 
 * LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE  juvv
 *  Harm_Neutr_INF_Aq ;  juvvaq süvväq
-* :%>%{aä%} Harm_Neutr_JUVVA_PSS-IND-PRS ;  juvva süvvä
+* :%>%{aä%} Harm_Neutr_JUVVA_PSS_IND_PRS ;  juvva süvvä
 * :%>i Harm_Neutr_JUVVA_PSS-IND-PRT-1/2 ;  juvvi süvvi
 
 * LEXICON V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE  jõi-
@@ -4186,7 +4186,7 @@ CHECK THIS
 
 ### PASSIVE INDICATIVE PRESENT CONJUGATION
 
-* LEXICON Harm_Neutr_JUVVA_PSS-IND-PRS  juvva süvvä
+* LEXICON Harm_Neutr_JUVVA_PSS_IND_PRS  juvva süvvä
 
 * LEXICON Harm_Neutr_JUVVA_PSS-IND-PRT-1/2  juvvi süvvi
 
@@ -4217,7 +4217,7 @@ CHECK THIS
 * LEXICON ACT-PRFPRC-OBL_nU  only oblique cases and Pl+Nom
 
 PASSIVE DISTRIBUTION
-* Harm_Neutr_NÕSTMA-PSS-IND-PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
+* Harm_Neutr_NÕSTMA-PSS_IND_PRS_dA ;  +Pss+Ind+Prs+Sg1: sõidõda
 * Harm_Neutr_KAOTAMA-PSS_PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
 * PSS_PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
