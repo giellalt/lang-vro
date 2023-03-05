@@ -342,6 +342,7 @@ LEXICON V_52ALOSTWLWMA/EHITELEMAE !!≈ * **@CODE@** alostõllõma:alostõ%{lØ%
 +Use/NG+Err/Orth:%^Pen%^VOWRaise%^StrGStem%{eõ%} Harm_Neutr_INF_mA ;
 +Use/NG+Err/Orth:%^Pen%^VOWLower%^WGStem%{eõ%} Harm_Neutr_INF_mA ;
 :%^Pen%^VOWLower%^WGStem%{eõ%} ACT-IND-CONNEG ;
++Act+Ind+ConNegII:%^Pen%^VOWLower%^WGStem%{eõ%} # ; ! yaml 2023_03_05
 :%^Pen%^VOWLower%^WGStem%>%{eõ%} Harm_Neutr_ACT_PRSPRC_v ;
 :%^Pen%^VOWRaise%>%{eõ%} Harm_Neutr_ACT_PRSPRC_v ;
 
@@ -515,7 +516,7 @@ LEXICON V_54ISTMA/LEPMAE !!≈ * __@CODE@__
 ! 1st person plural present
 :%^Pen%^WGStem ACT_IND_PRS_PL1_miq ;
 ! (6) Olõvao 3. k tä:
-:%^Pen%^WGStem ACT_IND_PRS_3_s/sEq ;
++Use/NG+Err/Orth:%^Pen%^WGStem ACT_IND_PRS_3_s/sEq ;
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^Pen%^StrGStem%^VowRM%>%{eõ%} ACT_IND_PRT_SG1_ZERO/PL3_q ;
@@ -937,12 +938,14 @@ LEXICON V_59KAOTAMA/KERGUETAEMAE !!≈ * **@CODE@** kaotama:kao%{tt́d%}, kergü
 
 :%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_PRFPRC_t/IND-SG1_dX/IND-SG3_dX ; != * @CODE@ kaotõ
 +Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
++Pss+Ind+ConNegII:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%}%>d%{aä%} # ; ! yaml 2023_03_05
 !! +Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
 !! +Pss+PrsPrc, +Pss+PrfPrc
 +Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_PRFPRC_dU-SG-NOM ;
 
 ! (5) Olõvao 1. k maq:
 :%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT_IND_CONNEG/PRS_SG1 ;
++Act+Ind+ConNegII:%^VOWLower%^WGStem%^NoPAL%>%{aä%} # ; ! yaml 2023_03_05
 !! +Act+Ind+Prs+Sg1, +Act+Ind+ConNegII, +Act+Imprt+Sg2
 !! +Act+Ind+Prs+Neg, +Act+Ind+Prt+Neg, +Act+Ind+ConNegI
 
@@ -1548,6 +1551,7 @@ LEXICON V_70VIPWRDUMA/ERAELDUEMAE !!≈ * **@CODE@** unõhtuma:unõhtu
 :%^Pen%^WGStem ACT-IND-PRT-1/2_ZERO ;
 :%^Pen%^StrGStem ACT-IND-CONNEG ;
 :%^Pen%^WGStem ACT-IND-CONNEG ;
++Act+Ind+ConNegII:%^Pen%^StrGStem # ; ! yaml 2023_03_05
 :%^Pen%^StrGStem ACT_IND_PRT_SG3_ZERO ;
 :%^Pen%^WGStem ACT_IND_PRT_SG3_ZERO ;
 
@@ -1802,7 +1806,7 @@ LEXICON V_76HIGOMA/PUEGAEMAE !!≈ * **@CODE@** higoma:hi%{kg0%}o
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;! loet
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>%{eõ%} PSS_IND_PRS_PL3_tAsEq ; !2023_02_19 pügä
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>%{eõ%} PSS_IND_PRT_PL3_diq ; !2023_02_19
-
++Pss+Ind+ConNegII:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>d%{aä%} # ; ! yaml 2023_03_25
 ! (5) Olõvao 1. k maq:
 :%^Pen%^G1 ACT_IND_CONNEG/PRS_SG1 ;
 
@@ -2699,6 +2703,7 @@ LEXICON V_82ANDMA/PUEUEDMAE !!≈ * **@CODE@** andma:%{ˋØ%}an%{dd́n%}
 ! see also exceptions: andma, löüdmä, pandma
 ! (5) Olõvao 1. k maq: 
 :%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT_IND_CONNEG/PRS_SG1 ;
++Act+Ind+ConNegII:%^VOWLower%^WGStem%^NoPAL%>%{aä%} # ; ! for yaml 2023_03_05
 ! 2nd person indicative present
 :%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 ! 1st person plural present
@@ -3330,6 +3335,7 @@ LEXICON V_85KAKMA/TRUEKMAE !!≈ * **@CODE@** kakma:ka%{kØ%}%{kḱ%}u
 
 ! (5) Olõvao 1. k maq: 
 :%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL ACT_IND_CONNEG/PRS_SG1 ;
++Act+Ind+ConNegII:%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL # ; ! yaml 2023_03_05
 ! 2nd person indicative present
 :%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 
@@ -3489,6 +3495,7 @@ LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * **@CODE@** eht́mä:eh%{tt́%}
 ! (5) Olõvao 1. k maq: (1. and Neg, ConNegs.)
 ! Different from 2.
 :%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_CONNEG/PRS_SG1 ;
++Act+Ind+ConNegII:%^VOWLower%^WGStem%^NoPAL%>i # ; ! yaml 2023_03_05
 ! 2nd person indicative present
 :%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 ! 1st person plural present
@@ -3618,6 +3625,7 @@ LEXICON V_87KOSIMA/KERIMAE !!≈ * **@CODE@** kosima:kosi
 :%^Pen%^WGStem%^VowRM ACT_IND_PRT_12_E ; 
 +Use/NG+Err/Orth:%^Pen%^WGStem ACT_IND_PRT_12_si ;
 :%^Pen%^WGStem ACT-IND-CONNEG ;
++Act+Ind+ConNegII:%^Pen%^WGStem # ; !Yaml-test requirement 2023_03_05
 :%^Pen%^WGStem%^VowRM ACT_IND_PRT_SG3_E ;
 :%^Pen%^WGStem%^VowRM%>%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
 +Use/NG+Err/Orth:%^Pen%^WGStem%>si ACT_IND_PRT_SG3_ZERO ;
