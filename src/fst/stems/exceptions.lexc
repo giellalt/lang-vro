@@ -20,7 +20,7 @@ inämb+v2+Adv:inämp ADV_ ;
 ütenkuun+Adv:ütenkuun ADV_ ;
 innembide+Adv:innembide ADV_ ;
 kipõstõ+Adv:kipõstõ ADV_ ;
-eśki+Adv+Use/NG+Err/Orth-no-pal:eski ADV_ ;
+eśki+Adv+Err/Orth-no-pal:eski ADV_ ;
 üüse+Adv:üüse ADV_ ;
 puhul+Adv:puhul ADV_ ;
 sisest+Adv:sisest ADV_ ;
@@ -29,7 +29,7 @@ muguq+Adv:mugu ADV_IN_q ;
 innekuuldmaldaq+Adv:innekuuldmalda ADV_IN_q ;
 tähelepandmaldaq+Adv:tähelepandmalda ADV_IN_q ;
 andisandmaldaq+Adv:andisandmalda ADV_IN_q ;
-kestel+Adv+Use/NG+Err/Orth-est:kestel ADV_ ;
+kestel+Adv+Err/Orth-est:kestel ADV_ ;
 ilosahe+v1+Adv:ilosahe ADV_ ;
 ilosahe+v2+Adv:ilusahe ADV_ ;
 muido+Err/Orth+Adv:mood́o ADV_ ;
@@ -145,7 +145,7 @@ Vana-Vigala+N+Prop+Sg+Gen:Vana-Vigala K ;
 miiś+N+Pl+Nom+Use/SpellNoSugg:miheq K ;
 vaih+N+Sg+Nom:vahe K ;
 kiri+N+Sg+Ill+Err/Orth-back:kirja K ;
-sain+N+Sg+Gen+Use/NG+Err/Orth:saańa K ;!Räpinä murdõ vorḿ
+sain+N+Sg+Gen+Err/Dial:saańa K ;!Räpinä murdõ vorḿ
 terveqarv+N+Pl+Gen:tervide#arvõ K ;!both parts decline?
 
 rõivas+N+Sg+Nom+Err/Orth:rõivaś K ;
@@ -266,10 +266,10 @@ ajama+V+Ind+Prt+OcSg3:aeti K ;
 
 !! andma **to give/antaa**
 !PSS_IND_PRS_ALL_dA ?
-andma+V+Use/NG+Err/Orth:an%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;!andas
+andma+V+Err/Dial:an%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;!andas
 !andma+V:an%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;!antas
 andma+V+Pss+Ind+Prt+Sg3:anti K ; !CHECKME
-andma+V+Use/NG+Err/Orth:an%{back%} PSS_PRFPRC_t_ONLY ;!ant
+andma+V+Err/Dial:an%{back%} PSS_PRFPRC_t_ONLY ;!ant
 
 löüdmä+V:löü%{front%} PSS_PRFPRC_t_ONLY  ;
 pandma+V:pan%{back%} PSS_PRFPRC_t_ONLY  ;
@@ -304,9 +304,9 @@ minemä+V+Act+Ind+Prs+Pl2:%{front%}läätiq K ;
 minemä+V+Act+Ind+Prs+Pl3:%{front%}lääväq K ;
 minemä+Use/NG+V+Act+Ind+Prs+Pl3:%{front%}lätväq K ;
 minemä+V+Act+Ind+Prs+Neg:%{front%}lää%-äiq K ;
-minemä+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{front%}lää%-äi K ;
-minemä+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{front%}lää%-iq K ;
-minemä+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{front%}lää%-i K ;
+minemä+V+Act+Err/Orth-no-q+Ind+Prs+Neg:%{front%}lää%-äi K ;
+minemä+V+Act+Err/Orth-no-q+Ind+Prs+Neg:%{front%}lää%-iq K ;
+minemä+V+Act+Err/Orth-no-q+Ind+Prs+Neg:%{front%}lää%-i K ;
 minemä+V+Act+Ind+Prt+Neg:%{front%}lää%-äs K ;
 minemä+V+Act+Ind+ConNegII:%{front%}lää K ;
 minemä+V:%{front%}lätsi TULWMA_ACT_IND_PRT_ZERO_and_X ;
@@ -336,12 +336,12 @@ nägemä+V:nä%{front%} MUTUAL_JUS_kuq ;
 
 !! olõma **to be/ olla**
 olõma+V+Act+Ind+Prs+Sg3+Err/Orth-est:on K ;
-olõma+V+Use/NG+Err/Orth+Act+Ind+Prs+Sg3:um%{back%} K ;
-olõma+v2+V+Use/NG+Err/Orth+Act+Ind+Prs+Pl3:ummaq%{back%} K ;
-olõma+v3+V+Use/NG+Err/Orth+Act+Ind+Prs+Pl3:ummavaq%{back%} K ;
-olõma+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-õi K ;
-olõma+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-iq K ;
-olõma+V+Act+Use/NG+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-i K ;
+olõma+V+Err/Dial+Act+Ind+Prs+Sg3:um%{back%} K ;
+olõma+v2+V+Err/Dial+Act+Ind+Prs+Pl3:ummaq%{back%} K ;
+olõma+v3+V+Err/Dial+Act+Ind+Prs+Pl3:ummavaq%{back%} K ;
+olõma+V+Act+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-õi K ;
+olõma+V+Act+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-iq K ;
+olõma+V+Act+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-i K ;
 
 !! nakkama **to start/ alkaa**
 nakkama+V+Act+Ind+Prt+Sg3:naaś%{back%} K ;
@@ -355,7 +355,7 @@ pidämä+V:pee%{front%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 !! tegemä **to do/ tehdä**
 tegemä+V:tege%{front%} Harm_Neutr_INF_mA ;
 tegemä+V:te%{front%} Harm_Neutr_INF_tAq ;
-tegemä+V+Use/NG+Err/Orth:tee%{front%} Harm_Neutr_INF_dAq ;
+tegemä+V+Err/Dial:tee%{front%} Harm_Neutr_INF_dAq ;
 tegemä+V:teke%{front%} Harm_Neutr_ACT_PRSPRC_SG_NOM_v ;
 tegemä+V:tege%{front%} Harm_Neutr_ACT_PRSPRC_OBL_v ;
 tegemä+V:ten%{front%} ACT_PRFPRC_ALL_nUq ;

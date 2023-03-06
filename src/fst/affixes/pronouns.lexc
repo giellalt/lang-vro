@@ -21,8 +21,8 @@ LEXICON A_MAANE ! määne:mä
 +Sg+Par:änest K ;
 +Sg+Ill:äntsehe K ;
 +Sg+Ine:äntsen K ;
-+Use/NG+Sg+Ine:äntseh K ;
-+Use/NG+Sg+Ine:äntsehn K ;
++Err/Dial+Sg+Ine:äntseh K ;
++Err/Dial+Sg+Ine:äntsehn K ;
 +Sg+Ela:äntsest K ;
 +Sg+All:äntsele K ;
 +Sg+Ade:äntsel K ;
@@ -40,8 +40,8 @@ LEXICON A_MAANE ! määne:mä
 +Pl+Par:äntsit K ;
 +Pl+Ill:äntsihe K ;
 +Pl+Ine:äntsin K ;
-+Use/NG+Pl+Ine:äntsih K ;
-+Use/NG+Pl+Ine:äntsihn K ;
++Err/Dial+Pl+Ine:äntsih K ;
++Err/Dial+Pl+Ine:äntsihn K ;
 +Pl+Ela:äntsist K ;
 +Pl+All:äntsile K ;
 +Pl+Ade:äntsil K ;
@@ -58,8 +58,8 @@ LEXICON A_MAANEGI
 +Sg+Par:estki K ;
 +Sg+Ill:tsehegi K ;
 +Sg+Ine:tsengi K ;
-+Use/NG+Sg+Ine:tsehki K ;
-+Use/NG+Sg+Ine:tsehngi K ;
++Err/Dial+Sg+Ine:tsehki K ;
++Err/Dial+Sg+Ine:tsehngi K ;
 +Sg+Ela:tsestki K ;
 +Sg+All:tselegi K ;
 +Sg+Ade:tselgi K ;
@@ -75,8 +75,8 @@ LEXICON A_MAANEGI
 +Pl+Par:tsitki K ;
 +Pl+Ill:tsihegi K ;
 +Pl+Ine:tsingi K ;
-+Use/NG+Pl+Ine:tsihki K ;
-+Use/NG+Pl+Ine:tsihngi K ;
++Err/Dial+Pl+Ine:tsihki K ;
++Err/Dial+Pl+Ine:tsihngi K ;
 +Pl+Ela:tsistki K ;
 +Pl+All:tsilegi K ;
 +Pl+Ade:tsilgi K ;
@@ -143,11 +143,11 @@ LEXICON PERS-SG1-2-NOM-COM
 +Ade:ul K ;
 +Ade:inol K ;
 +Ter:oniq K ;
-+Use/NG+Err/Orth-no-q+Ter:oni K ;
++Err/Orth-no-q+Ter:oni K ;
 +Com:uqkaq K ;
-+Use/NG+Err/Orth-no-q+Com:uqka K ;
++Err/Orth-no-q+Com:uqka K ;
 +Com:inogaq K ;
-+Use/NG+Err/Orth-no-q+Com:inoga K ;
++Err/Orth-no-q+Com:inoga K ;
 
 LEXICON PERS-SG1-2-ABE-TRA
 NEUTR_FOLLOW-CLITIC-OR-NOT_ABESUF ;
@@ -293,7 +293,7 @@ LEXICON DEM-TUU
 +Sg:tuu NEUTR_FOLLOW-CLITIC-OR-NOT_COMSUF_gaq ;
 
 +Pl+Nom:nuuq K ;
-+Pl+Use/NG+Err/Orth-no-q+Nom:nuu K ;
++Pl+Err/Orth-no-q+Nom:nuu K ;
 +Pl+Gen:noidõ K ;
 +Pl+Par:noid K ;
 +Pl+Ill:noihtõ K ;

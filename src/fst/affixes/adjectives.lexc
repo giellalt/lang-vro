@@ -440,12 +440,12 @@ LEXICON A_2ELAENUEQ !!= * @CODE@ elänüq:elänü
 LEXICON Harm_Neutr_COMP
 
 +Comp:%>mb%{aä%} NMN_8KASK/HAEIELM ;
-+Err/Orth+Use/NG+Comp:%>mp%{aä%} NMN_8KASK/HAEIELM ;
-+Err/Orth+Use/NG+Comp:%>p%{aä%} NMN_8KASK/HAEIELM ;
++Err/Dial+Comp:%>mp%{aä%} NMN_8KASK/HAEIELM ;
++Err/Dial+Comp:%>p%{aä%} NMN_8KASK/HAEIELM ;
 !NMN_8KASK/HAEIELM
 !+Comp:%>mb Harm_Neutr_COMP-01 ;
-!+Err/Orth+Use/NG+Comp:%>mp Harm_Neutr_COMP-01 ;
-!+Err/Orth+Use/NG+Comp+Sg+Nom:%>p # ;
+!+Err/Dial+Comp:%>mp Harm_Neutr_COMP-01 ;
+!+Err/Dial+Comp+Sg+Nom:%>p # ;
 
 !LEXICON Harm_Neutr_COMP-01
 !:%{aä%} SG-GEN_ZERO-STEM ;
@@ -460,7 +460,7 @@ LEXICON Harm_Neutr_COMP
 !+Pl+Ill:ihe K ;
 !+Pl+Par:iid K ;
 !+Pl+Com:id%{eõ%}g%{aä%}q K ;
-!+Err/Orth+Use/NG+Pl+Com:id%{eõ%}g%{aä%} K ; !!= * @CODE@ no q
+!+Err/Dial+Pl+Com:id%{eõ%}g%{aä%} K ; !!= * @CODE@ no q
 
 
 
@@ -468,8 +468,8 @@ LEXICON Harm_Neutr_COMP
 LEXICON COMP
 
 +Comp:%>mb NMN_COMP ;
-+Err/Orth+Use/NG+Comp:%>mp NMN_COMP ;
-+Err/Orth+Use/NG+Comp+Sg+Nom:%>p # ;
++Err/Dial+Comp:%>mp NMN_COMP ;
++Err/Dial+Comp+Sg+Nom:%>p # ;
 LEXICON NMN_COMP
 :%{aä%} SG-GEN_ZERO-STEM ;
 +Sg+All:%{aä%}l%{eõ%} K ;
@@ -483,9 +483,9 @@ LEXICON NMN_COMP
 +Pl+Gen:id%{eõ%} K ;
 +Pl+Ill:ihe K ;
 +Pl+Par:it K ;
-+Err/Orth+Use/NG+Pl+Par:iid K ;
++Err/Dial+Pl+Par:iid K ;
 +Pl+Com:id%{eõ%}gaq K ;
-+Err/Orth+Use/NG+Pl+Com:id%{eõ%}ga K ; !!= * @CODE@ no q
++Err/Dial+Pl+Com:id%{eõ%}ga K ; !!= * @CODE@ no q
 
 
 !!

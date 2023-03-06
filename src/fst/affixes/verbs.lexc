@@ -6,7 +6,7 @@ LEXICON V_EI
 +V+Neg+Prs:i # ;
 +V+Neg+Prt:s # ;
 +V+Neg+Prt:siq # ;
-+Use/NG+Err/Orth-no-q+V+Neg+Prt:si # ;
++Err/Orth-no-q+V+Neg+Prt:si # ;
 
 ! stem and suffix correlation for Võro verbal inflection:
 
@@ -31,7 +31,7 @@ LEXICON V_48KASUMA/XX
 ! (4) Tettäv tm passiiv:
 :%^WGStem%>%{uü%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 
-+Use/NG+Err/Orth:%^WGStem%>%{uü%} PSS_PRFPRC_tU_SG_NOM ;
++Err/Dial:%^WGStem%>%{uü%} PSS_PRFPRC_tU_SG_NOM ;
 
 ! (5) Olõvao 1. k maq: (1. and Neg, ConNegs.)
 ! Different from 2.
@@ -221,13 +221,13 @@ LEXICON V_49LWPMA/XX !!≈ * **@CODE@** lõpma:lõ%{pØ%}p
 
 ! (7) min 1. k maq:
 :%^StrGStem%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^StrGStem%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^StrGStem%>i ACT_IND_PRT_PL3_vAq ;
 
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^StrGStem%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 
-+Use/NG+Err/Orth:%^StrGStem ACT_IND_PRS_SG2_iq ;
++Err/Dial:%^StrGStem ACT_IND_PRS_SG2_iq ;
 
 ! (8) min 3. k tä:
 +Act+Ind+Prt+Sg3:%>i K ;
@@ -339,8 +339,8 @@ LEXICON V_52EHITELEMAE !!≈ * **@CODE@** ehitelemä:ehitell
 LEXICON V_52ALOSTWLWMA/EHITELEMAE !!≈ * **@CODE@** alostõllõma:alostõ%{lØ%}l
 ! (1) I tegonimi: 
 :%^Pen%^VOWRaise%^WGStem%{eõ%} Harm_Neutr_INF_mA ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^StrGStem%{eõ%} Harm_Neutr_INF_mA ;
-+Use/NG+Err/Orth:%^Pen%^VOWLower%^WGStem%{eõ%} Harm_Neutr_INF_mA ;
++Err/Dial:%^Pen%^VOWRaise%^StrGStem%{eõ%} Harm_Neutr_INF_mA ;
++Err/Dial:%^Pen%^VOWLower%^WGStem%{eõ%} Harm_Neutr_INF_mA ;
 :%^Pen%^VOWLower%^WGStem%{eõ%} ACT-IND-CONNEG ;
 +Act+Ind+ConNegII:%^Pen%^VOWLower%^WGStem%{eõ%} # ; ! yaml 2023_03_05
 :%^Pen%^VOWLower%^WGStem%>%{eõ%} Harm_Neutr_ACT_PRSPRC_v ;
@@ -359,7 +359,7 @@ LEXICON V_52ALOSTWLWMA/EHITELEMAE !!≈ * **@CODE@** alostõllõma:alostõ%{lØ%
 :%^Pen%^VOWLower%^WGStem PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;!2023_02_19
 
 :%^Pen%^VOWLower%^WGStem PSS_PRFPRC_d ;
-+Use/NG+Err/Orth:%^Pen%^VOWLower%^WGStem PSS_PRFPRC_dU-SG-NOM ;
++Err/Dial:%^Pen%^VOWLower%^WGStem PSS_PRFPRC_dU-SG-NOM ;
 :%^Pen%^VOWLower%^WGStem PSS_IND_PRS_ALL_dA ;
 
 ! (5) Olõvao 1. k maq: 
@@ -371,7 +371,7 @@ LEXICON V_52ALOSTWLWMA/EHITELEMAE !!≈ * **@CODE@** alostõllõma:alostõ%{lØ%
 :%^Pen%^VOWRaise ACT_IND_PRT_12_i ;
 :%^Pen%^VOWLower%^WGStem ACT_IND_PRT_12_i ;
 +Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^WGStem%>iq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^WGStem%>iv%{aä%}q K ;!2023_02_19
++Err/Dial+Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^WGStem%>iv%{aä%}q K ;!2023_02_19
 :%^Pen%^VOWRaise%>i ACT_IND_PRT_PL3_q/vAq ;
 
 ! (8) min 3. k tä: 
@@ -410,15 +410,15 @@ LEXICON V_53XX/JAEAEMAE !!≈ * **@CODE@**
 :%^VOWRaise ACT-PRFPRC-OBL_nU ;
 :%^VOWRaise ACT-IND-PRS-SG1_ZERO ;
 :%^VOWRaise ACT_IND_PRS_SG2_t ;
-+Use/NG+Err/Orth:%^VOWRaise ACT_IND_PRS_SG2_dEq ;
-!+Use/NG+Err/Orth:%^VOWRaise ACT-IND-PRS-PL2_dEq ;
++Err/Dial:%^VOWRaise ACT_IND_PRS_SG2_dEq ;
+!+Err/Dial:%^VOWRaise ACT-IND-PRS-PL2_dEq ;
 :%^VOWRaise ACT-IND-PRS-PL2_tiq ;
 :%^VOWRaise ACT-IND-CONNEG ;
 !:%^VOWRaise ACT_IND_PRS_SG3_ZERO ;
 :%^VOWRaise Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ; !!= * @CODE@ only 3rd person
 
  ACT-PRFPRC_nUq-SG-NOM ; !!= * @CODE@ jäänüq keenüq
-+Use/NG+Err/Orth: ACT_IND_PRS_SG3_sE ;
++Err/Dial: ACT_IND_PRS_SG3_sE ;
  ACT_IND_PRS_PL1_miq ;
  ACT-COND ;
  ACT_IND_PRS_PL3_vAq ;
@@ -461,14 +461,14 @@ LEXICON V_53KAEMA/XX !!≈ * **@CODE@** kaema:ka
 :%>e ACT-PRFPRC-OBL_nU ;
 :%>e ACT-IND-PRS-SG1_ZERO ;
 :%>e ACT_IND_PRS_SG2_t ;
-+Use/NG+Err/Orth:%>e ACT_IND_PRS_SG2_dEq ;
-!+Use/NG+Err/Orth:%>e ACT-IND-PRS-PL2_dEq ;
++Err/Dial:%>e ACT_IND_PRS_SG2_dEq ;
+!+Err/Dial:%>e ACT-IND-PRS-PL2_dEq ;
 :%>e ACT-IND-PRS-PL2_tiq ;
 :%>e ACT-IND-CONNEG ;
 !:%^VOWRaise ACT_IND_PRS_SG3_ZERO ;
 
 :%>e ACT-PRFPRC_nUq-SG-NOM ; !!= * @CODE@ jäänüq keenüq
-+Use/NG+Err/Orth:%>e ACT_IND_PRS_SG3_sE ;
++Err/Dial:%>e ACT_IND_PRS_SG3_sE ;
 :%>e ACT_IND_PRS_PL1_miq ;
 :%>e ACT-COND ;
 :%>e ACT_IND_PRS_PL3_vAq ;
@@ -502,7 +502,7 @@ LEXICON V_54ISTMA/LEPMAE !!≈ * __@CODE@__
 
 ! (4) Tettäv tm passiiv:
 :%^Pen%^WGStem PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
-+Use/NG+Err/Orth:%^Pen%^WGStem  PSS_PRFPRC_tU_SG_NOM ;
++Err/Dial:%^Pen%^WGStem  PSS_PRFPRC_tU_SG_NOM ;
 :%^Pen%^WGStem PSS_IND_PRT_PL3_diq ;
 :%^Pen%^WGStem PSS_IND_PRS_PL3_tAsEq ;
 ! (5) Olõvao 1. k maq: (1. and Neg, ConNegs.)
@@ -516,20 +516,20 @@ LEXICON V_54ISTMA/LEPMAE !!≈ * __@CODE@__
 ! 1st person plural present
 :%^Pen%^WGStem ACT_IND_PRS_PL1_miq ;
 ! (6) Olõvao 3. k tä:
-+Use/NG+Err/Orth:%^Pen%^WGStem ACT_IND_PRS_3_s/sEq ;
++Err/Dial:%^Pen%^WGStem ACT_IND_PRS_3_s/sEq ;
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^Pen%^StrGStem%^VowRM%>%{eõ%} ACT_IND_PRT_SG1_ZERO/PL3_q ;
 :%^Pen%^CC2C%^VowRM%>%{eõ%} ACT_IND_PRT_PL3_vAq ;!{eõ}
-+Use/NG+Err/Orth:%^Pen%^StrGStem%^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^CC2C%^VowRM%>i ACT_IND_PRT_PL3_vAq ;!{eõ}
++Err/Dial:%^Pen%^StrGStem%^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
++Err/Dial:%^Pen%^CC2C%^VowRM%>i ACT_IND_PRT_PL3_vAq ;!{eõ}
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^StrGStem%^VowRM%>%{eõ%} ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;!{eõ}
-+Use/NG+Err/Orth:%^Pen%^StrGStem%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;!{eõ}
++Err/Dial:%^Pen%^StrGStem%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;!{eõ}
 ! (8) min 3. k tä:
 :%^Pen%^StrGStem%^VowRM%>%{eõ%} ACT_IND_PRT_SG3_ZERO ;!{eõ}
-+Use/NG+Err/Orth:%^Pen%^StrGStem%^VowRM ACT_IND_PRT_SG3_i ;!{eõ}
++Err/Dial:%^Pen%^StrGStem%^VowRM ACT_IND_PRT_SG3_i ;!{eõ}
 ! (9)
 :%^Pen%^CC2C%^VowRM  MUTUAL_JUS_kuq ;
 
@@ -559,21 +559,21 @@ LEXICON V_55KWNWLWMA/HAERELEMAE
 ! (5) Olõvao 1. k maq: (1. and Neg, ConNegs.)
 ! Different from 2.
 :%^NoPAL%{eõ%} ACT_IND_CONNEG/PRS_SG1 ;
-+Use/NG+Err/Orth:%^NoPAL%{aä%} ACT_IND_CONNEG/PRS_SG1 ;
++Err/Dial:%^NoPAL%{aä%} ACT_IND_CONNEG/PRS_SG1 ;
 
 ! 2nd person indicative present
 :%^NoPAL%{eõ%} ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
-+Use/NG+Err/Orth:%^NoPAL%{aä%} ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
++Err/Dial:%^NoPAL%{aä%} ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 ! 1st person plural present
 :%^NoPAL%{eõ%} ACT_IND_PRS_PL1_miq ;
-+Use/NG+Err/Orth:%^NoPAL%{aä%} ACT_IND_PRS_PL1_miq ;
++Err/Dial:%^NoPAL%{aä%} ACT_IND_PRS_PL1_miq ;
 ! (6) Olõvao 3. k tä:
 :%^NoPAL%{eõ%} ACT_IND_PRS_3_s/sEq ;
-+Use/NG+Err/Orth:%^NoPAL%{aä%} ACT_IND_PRS_3_s/sEq ;
++Err/Dial:%^NoPAL%{aä%} ACT_IND_PRS_3_s/sEq ;
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
 ! (7.2) Sg2, Pl1 and Pl2
 
 :%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
@@ -581,7 +581,7 @@ LEXICON V_55KWNWLWMA/HAERELEMAE
 ! (8) min 3. k tä:
 :%^PAL ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:%^NoPAL ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth:%^NoPAL ACT_IND_PRT_SG3_i ;
++Err/Dial:%^NoPAL ACT_IND_PRT_SG3_i ;
 
 ! (9) jus: 
 :%^NoPAL MUTUAL_JUS_guq ;
@@ -611,7 +611,7 @@ LEXICON V_56HIIBWLWMA/HEIKELEMAE !!≈ * **@CODE@** hiibõlõma:hiibõl
 ! (4) Tettäv tm passiiv: hirnut
 :%^Pen%^VOWRaise%^Pen%^StrGStem PSS_PRSPRC_tAv ;!CHECKME
 :%^Pen%^VOWLower%^Pen%^WGStem PSS_PRFPRC_d ;
-+Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem PSS_PRFPRC_dU-SG-NOM ;
++Err/Dial:%^Pen%^VOWLower%^Pen%^WGStem PSS_PRFPRC_dU-SG-NOM ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem PSS_IND_PRS_ALL_dA ;
 :%^Pen%^VOWRaise%^Pen%^StrGStem PSS_IND_PRT_ALL_di ;
 
@@ -629,7 +629,7 @@ LEXICON V_56HIIBWLWMA/HEIKELEMAE !!≈ * **@CODE@** hiibõlõma:hiibõl
 
 ! (7) min 1. k maq: hirnõ
 :%^Pen%^VOWRaise%^Pen%^StrGStem%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^StrGStem%>i ACT_IND_PRT_PL3_vAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^VOWRaise%^Pen%^StrGStem%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
@@ -681,7 +681,7 @@ LEXICON V_56KAIBLWMA/XX !!≈ * **@CODE@** kaiblõma+V:kai%{bv%}%{õØ%}l
 
 ! (7) min 1. k maq: hirnõ
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>i ACT_IND_PRT_PL3_vAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
@@ -750,7 +750,7 @@ LEXICON V_57TAPLWMA/UETLEMAE
 
 ! (7) min 1. k maq: 
 :%^Pen%^VowRM%^NoPAL ACT_IND_PRT_12_i ;
-+Use/NG+Err/Orth:%^Pen%^VowRM%^NoPAL%>i ACT_IND_PRT_PL3_q/vAq ;
++Err/Dial:%^Pen%^VowRM%^NoPAL%>i ACT_IND_PRT_PL3_q/vAq ;
 
 ! (8) min 3. k tä: 
 :%^PAL ACT_IND_PRT_SG3_ZERO ;
@@ -801,7 +801,7 @@ LEXICON V_57VWITLWMA/KIIRDLEMAE ! väärdlemä+V:väär%{dØ%}%{eØ%}%{lĺ%}
 
 ! (7) min 1. k maq: 
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 
@@ -851,7 +851,7 @@ LEXICON V_57KULLWMA/XX ! kullõma+V:ku%{lØ%}l%{õØ%}%{lĺ%}
 
 ! (7) min 1. k maq: 
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^StrGStem%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^VOWRaise%^Pen%^CC2C%^Pen%^VowRM%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 
@@ -896,7 +896,7 @@ LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE !!≈ * **@CODE@** hirnahtama:hirnahta, täh
 :%^Pen%^VOWRaise%^Pen%^NoPAL Harm_Neutr_INF_ZEROq ;
 :%^Pen%^VOWRaise%^Pen%^NoPAL GER_INE ;
 
-+Use/NG+Err/Orth-dAq-should-be-q-inf:%^Pen%^VOWRaise%^Pen%^NoPAL Harm_Neutr_INF_dAq ;
++Err/Orth-dAq-should-be-q-inf:%^Pen%^VOWRaise%^Pen%^NoPAL Harm_Neutr_INF_dAq ;
 
 
 :%^Pen%^VOWRaise%^Pen%^NoPAL ACT-IND-PRS-12 ;
@@ -937,11 +937,11 @@ LEXICON V_59KAOTAMA/KERGUETAEMAE !!≈ * **@CODE@** kaotama:kao%{tt́d%}, kergü
 ! (4) Tettäv tm passiiv: !CHECKME
 
 :%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_PRFPRC_t/IND-SG1_dX/IND-SG3_dX ; != * @CODE@ kaotõ
-+Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
++Err/Dial:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 +Pss+Ind+ConNegII:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%}%>d%{aä%} # ; ! yaml 2023_03_05
 !! +Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
 !! +Pss+PrsPrc, +Pss+PrfPrc
-+Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_PRFPRC_dU-SG-NOM ;
++Err/Dial:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_PRFPRC_dU-SG-NOM ;
 
 ! (5) Olõvao 1. k maq:
 :%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT_IND_CONNEG/PRS_SG1 ;
@@ -961,26 +961,26 @@ LEXICON V_59KAOTAMA/KERGUETAEMAE !!≈ * **@CODE@** kaotama:kao%{tt́d%}, kergü
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRT_SG2_q ;
++Err/Dial:%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRT_SG2_q ;
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^VOWRaise%^StrGStem%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 !2
 :%^VOWRaise%^WGStem%^NoPAL%>i   ACT_IND_PRT_SG1_ZERO/SG2_q/PL3_q ; !!= * @CODE@ kaodi
-!! +Act+Ind+Prt+Sg1, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
+!! +Act+Ind+Prt+Sg1, +Err/Dial+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
 !CHECKED
 
 !3
 :%^VOWRaise%^StrGStem%^NoPAL%>%{aä%} INF-TYPE-EVEN-SYLL-STRONG-GRADE-IN-VOWEL-A ;
 !:t%^VOWRaise%>%{aä%} Harm_Neutr_ACT_IND_PRS_SG2_USUALLY-STRONG ; !!= * @CODE@ kaota
-!! +Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
+!! +Act+Ind+Prs+Sg2, +Err/Dial+Act+Ind+Prs+Sg2, 
 !! +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
 
 !4
 :%^VOWRaise%^StrGStem%^NoPAL%>i Harm_Neutr_ACT_IND_PRT_SG2_USUALLY-STRONG ; !!= * @CODE@ kaoti
-!! +Act+Ind+Prt+Sg2, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
-!! +Act+Ind+Prt+Pl2, +Use/NG+Err/Orth+Act+Ind+Prt+Pl3
+!! +Act+Ind+Prt+Sg2, +Err/Dial+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
+!! +Act+Ind+Prt+Pl2, +Err/Dial+Act+Ind+Prt+Pl3
 
 !5
 ! (8) min 3. k tä: 
@@ -1145,10 +1145,10 @@ LEXICON V_63SWIMAMA/XX !!≈ * **@CODE@** sõimama:sõima
 
 ! (7) min 1. k maq: Sg1 and Pl3 double S?
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>s%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%>s%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^StrGStem%>s%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
 
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>ss%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%>ss%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^StrGStem%>ss%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
 ! (7.2) Sg2, Pl1 and Pl2 double S?
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^VowRM%>s%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 
@@ -1188,12 +1188,12 @@ LEXICON V_63VISKAMA/HINGAEMAE !!≈ * **@CODE@** viskama:viska
 :%^Pen%^VOWLower%^Pen%^WGStem PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;!CHECKME
 
 +Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem PSS_PRFPRC_tU_SG_NOM ;
-+Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ; !!= * @CODE@ no    q
-+Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>di K ; !!= * @CODE@ no    q
-+Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>tid%{eõ%} K ; !!= * @CODE@ no    q
-+Use/NG+Err/Orth+Pss+Ind+Prt+Pl1:%^Pen%^VOWLower%^Pen%^WGStem%>timi K ; !!= * @CODE@ no    q
-+Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%^Pen%^VOWLower%^Pen%^WGStem%>titi K ; !!= * @CODE@ no    q
-+Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>tiv%{aä%} K ; !!= * @CODE@ no    q
++Err/Dial+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ; !!= * @CODE@ no    q
++Err/Dial+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>di K ; !!= * @CODE@ no    q
++Err/Dial+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>tid%{eõ%} K ; !!= * @CODE@ no    q
++Err/Dial+Pss+Ind+Prt+Pl1:%^Pen%^VOWLower%^Pen%^WGStem%>timi K ; !!= * @CODE@ no    q
++Err/Dial+Pss+Ind+Prt+Pl2:%^Pen%^VOWLower%^Pen%^WGStem%>titi K ; !!= * @CODE@ no    q
++Err/Dial+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>tiv%{aä%} K ; !!= * @CODE@ no    q
 
 
 !! +Pss+Ind+Prt +Sg1-+Pl3, ConNeg
@@ -1209,16 +1209,16 @@ LEXICON V_63VISKAMA/HINGAEMAE !!≈ * **@CODE@** viskama:viska
 
 ! (7) min 1. k maq: Sg1 and Pl3 double S?
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>s%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>s%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>s%>i ACT_IND_PRT_PL3_vAq ;
 
-+Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
++Err/Dial:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss%>i ACT_IND_PRT_PL3_vAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2 double S?
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>s%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 +Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>s%>i ACT_IND_PRT_SG2_q ;
 
-+Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
++Err/Dial:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 +Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>ss%>i ACT_IND_PRT_SG2_q ;
 
 ! (8) min 3. k tä:
@@ -1252,7 +1252,7 @@ LEXICON V_64PUHKSAMA/REHKSAEMAE !puhksama+V:puh%{kØ%}a%{sś%}
 ! (4) Tettäv tm passiiv: !CHECKME
 :%^Pen%^WGStem%^NoPAL PSS_PRSPRC_tAv ;
 :%^Pen%^WGStem%^NoPAL PSS_PRFPRC_t/SG-GEN_dU ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^NoPAL PSS_PRFPRC_tU_SG_NOM ;
++Err/Dial:%^Pen%^WGStem%^NoPAL PSS_PRFPRC_tU_SG_NOM ;
 :%^Pen%^WGStem%^NoPAL PSS_IND_PRS_ALL_tA ;
 :%^Pen%^WGStem%^NoPAL PSS-IND-PRT-ALL_ti ;
 
@@ -1267,7 +1267,7 @@ LEXICON V_64PUHKSAMA/REHKSAEMAE !puhksama+V:puh%{kØ%}a%{sś%}
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 ! (8) min 3. k tä: 
@@ -1355,7 +1355,7 @@ LEXICON V_68HARKUMA/NAELGUEMAE
 :%^Pen%^VOWRaise PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 :%^Pen%^VOWRaise PSS_IND_CONNEG_tA ;
 
-+Use/NG+Err/Orth:%^Pen%^VOWRaise PSS_PRFPRC_tU_SG_NOM ;
++Err/Dial:%^Pen%^VOWRaise PSS_PRFPRC_tU_SG_NOM ;
 
 ! (5) Olõvao 1. k maq: hirnu
 :%^Pen%^VOWRaise ACT_IND_CONNEG/PRS_SG1 ;
@@ -1397,7 +1397,7 @@ LEXICON V_69HAARDUMA/SUENDUEMAE !!≈ * **@CODE@** sündümä:sündü
 :%^Pen%^WGStem PSS_IND_PRS_ALL_tA ;
 :%^Pen%^WGStem PSS_PRSPRC_tAv ;
 :%^Pen%^WGStem PSS_PRFPRC_t/SG-GEN_dU ;
-+Use/NG+Err/Orth:%^Pen%^WGStem PSS_PRFPRC_tU_SG_NOM ;
++Err/Dial:%^Pen%^WGStem PSS_PRFPRC_tU_SG_NOM ;
 ! (5) Olõvao 1. k maq:
 ! 2nd person indicative present
 ! 1st person plural present
@@ -1461,61 +1461,61 @@ LEXICON V_70ÄNGÄHTÜMÄ !!≈ * **@CODE@** ängähümä:ängähtü
 
 LEXICON V_70UNWHTUMA/ÄNGÄHTÜMÄ !!≈ * **@CODE@** unõhuma:unõhtu
 ! (1) I tegonimi:
-+Use/NG+Err/Orth:%^Pen%^WGStem Harm_Neutr_INF_mA ;
++Err/Dial:%^Pen%^WGStem Harm_Neutr_INF_mA ;
 :%^Pen%^StrGStem Harm_Neutr_INF_mA ;
 
 ! (2) II tegonimi: 
-+Use/NG+Err/Orth:%^Pen%^WGStem Harm_Neutr_INF_dAq ;
++Err/Dial:%^Pen%^WGStem Harm_Neutr_INF_dAq ;
 :%^Pen%^WGStem GER_INE_dEn ;
 :%^Pen%^StrGStem Harm_Neutr_INF_dAq ;
-+Use/NG+Err/Orth:%^Pen%^WGStem Harm_Neutr_ACT_PRSPRC_v ;
++Err/Dial:%^Pen%^WGStem Harm_Neutr_ACT_PRSPRC_v ;
 :%^Pen%^StrGStem Harm_Neutr_ACT_PRSPRC_v ;
 
 ! (3) tekev tm aktiiv: 
-+Use/NG+Err/Orth:%^Pen%^WGStem ACT_PRFPRC_ALL_nUq ;
++Err/Dial:%^Pen%^WGStem ACT_PRFPRC_ALL_nUq ;
 :%^Pen%^StrGStem ACT_PRFPRC_ALL_nUq ;
 !: ACT_PRFPRC_ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: 
 :%^Pen%^WGStem PSS_IND_PRS_ALL_dA ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem PSS_IND_PRS_ALL_dA ;
-+Use/NG+Err/Orth:%^Pen%^WGStem PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
++Err/Dial:%^Pen%^StrGStem PSS_IND_PRS_ALL_dA ;
++Err/Dial:%^Pen%^WGStem PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
++Err/Dial:%^Pen%^StrGStem PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 :%^Pen%^StrGStem PSS_PRFPRC_t/SG-GEN_dU ; !2023_02_14
 
 ! (5) Olõvao 1. k maq:
 :%^Pen%^WGStem ACT-IND-PRS-SG1_ZERO ;!2023_02_14
 :%^Pen%^StrGStem ACT-IND-CONNEG ;!2023_02_14
-+Use/NG+Err/Orth:%^Pen%^WGStem ACT_IND_CONNEG/PRS_SG1 ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem ACT_IND_CONNEG/PRS_SG1 ;
++Err/Dial:%^Pen%^WGStem ACT_IND_CONNEG/PRS_SG1 ;
++Err/Dial:%^Pen%^StrGStem ACT_IND_CONNEG/PRS_SG1 ;
 
 ! 2nd person indicative present
 :%^Pen%^WGStem ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
++Err/Dial:%^Pen%^StrGStem ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 ! 1st person plural present
 :%^Pen%^WGStem ACT_IND_PRS_PL1_miq ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem ACT_IND_PRS_PL1_miq ;
++Err/Dial:%^Pen%^StrGStem ACT_IND_PRS_PL1_miq ;
 
 ! (6) Olõvao 3. k tä: 
 :%^Pen%^WGStem ACT_IND_PRS_3_s/sEq ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem ACT_IND_PRS_3_s/sEq ;
++Err/Dial:%^Pen%^StrGStem ACT_IND_PRS_3_s/sEq ;
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^Pen%^WGStem ACT_IND_PRT_SG1_ZERO ; !2023_02_14
 !:%^Pen%^WGStem  ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^WGStem ACT_IND_PRT_PL3_vAq ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^StrGStem ACT_IND_PRT_SG1_ZERO/PL3_q ;
++Err/Dial:%^Pen%^WGStem ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^StrGStem ACT_IND_PRT_PL3_vAq ;
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^WGStem ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
++Err/Dial:%^Pen%^StrGStem ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 
 ! (8) min 3. k tä:
-+Use/NG+Err/Orth:%^Pen%^WGStem ACT_IND_PRT_SG3_ZERO ;
++Err/Dial:%^Pen%^WGStem ACT_IND_PRT_SG3_ZERO ;
 :%^Pen%^StrGStem ACT_IND_PRT_SG3_ZERO ; !2023_02
 :%^Pen%^StrGStem ACT_IND_PRT_PL3_q ; !2023_02
 ! (9) jus: 
-+Use/NG+Err/Orth:%^Pen%^WGStem MUTUAL_JUS_guq ;
++Err/Dial:%^Pen%^WGStem MUTUAL_JUS_guq ;
 :%^Pen%^StrGStem MUTUAL_JUS_guq ;
 
 LEXICON V_70VIPWRDUMA !!≈ * **@CODE@** unõhtuma:unõhtu
@@ -1532,8 +1532,8 @@ LEXICON V_70VIPWRDUMA/ERAELDUEMAE !!≈ * **@CODE@** unõhtuma:unõhtu
 ! (4) Tettäv tm passiiv:
 :%^Pen%^StrGStem PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;!CHECKME
 
-+Use/NG+Err/Orth:%^Pen%^WGStem PSS_PRSPRC_tAv ;
-+Use/NG+Err/Orth:%^Pen%^WGStem PSS_PRFPRC_t/SG-GEN_dU ;
++Err/Dial:%^Pen%^WGStem PSS_PRSPRC_tAv ;
++Err/Dial:%^Pen%^WGStem PSS_PRFPRC_t/SG-GEN_dU ;
 ! (5) Olõvao 1. k maq:
 ! 2nd person indicative present
 ! 1st person plural present
@@ -1821,7 +1821,7 @@ LEXICON V_76HIGOMA/PUEGAEMAE !!≈ * **@CODE@** higoma:hi%{kg0%}o
 
 ! (7) min 1. k maq:
 :%^Pen%^VOWLower%^Pen%^G1%^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^G2 ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^G2 ACT_IND_PRT_PL3_vAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^VOWLower%^Pen%^G1%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
@@ -1891,7 +1891,7 @@ LEXICON V_76JAGAMA/XX !!≈ * **@CODE@** jagama:ja%{kg0%}a
 
 ! (7) min 1. k maq:
 :%^Pen%^VOWLower%^Pen%^G1%^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^G2 ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^G2 ACT_IND_PRT_PL3_vAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^VOWLower%^Pen%^G1%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
@@ -2070,8 +2070,8 @@ LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL
  ACT-PRFPRC-OBL_nU ;
  ACT-IND-PRS-SG1_ZERO ;
  ACT_IND_PRS_SG2_t ;
-+Use/NG+Err/Orth: ACT_IND_PRS_SG2_dEq ;
-+Use/NG+Err/Orth: ACT-IND-PRS-PL2_dEq ;
++Err/Dial: ACT_IND_PRS_SG2_dEq ;
++Err/Dial: ACT-IND-PRS-PL2_dEq ;
  ACT-IND-PRS-PL2_tiq ;
  ACT-IND-CONNEG ;
  ACT_IND_PRS_SG3_ZERO ;
@@ -2079,7 +2079,7 @@ LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL
 LEXICON V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL !!= * @CODE@ joo- söö-
 ! Act+PrfPrc+Sg+Nom, Act+Ind+Prs+Sg3, Act+Ind+Prs+Pl1, Act+Ind+Prs+Pl3
  ACT-PRFPRC_nUq-SG-NOM ; !!= * @CODE@ joonuq
-+Use/NG+Err/Orth: ACT_IND_PRS_SG3_sE ;
++Err/Dial: ACT_IND_PRS_SG3_sE ;
  ACT_IND_PRS_PL1_miq ;
  ACT-COND ;
  ACT_IND_PRS_PL3_vAq ; 
@@ -2091,11 +2091,11 @@ LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE !!= * @CODE@ juvv
 
 LEXICON V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE !!= * @CODE@ jõi-
  ACT-IND-PRT-1/2_ZERO ;
-+Use/NG+Err/Orth: ACT_IND_PRT_12_E ;
++Err/Dial: ACT_IND_PRT_12_E ;
  ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth: ACT_IND_PRT_SG3_E ;
++Err/Dial: ACT_IND_PRT_SG3_E ;
  ACT_IND_PRT_PL3_q/vAq ;
-+Use/NG+Err/Orth:%>%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
++Err/Dial:%>%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
 
 LEXICON V_77KAEUEMAE !!≈ * **@CODE@** käümä:käü
 !! * Yaml: **sueuemae**
@@ -2165,11 +2165,11 @@ LEXICON V_VWIMA/XX !!≈ * **@CODE@** võima:või
 
  ACT-IND-CONNEG ;
 :%>s%{eõ%} ACT-IND-PRT-1/2_ZERO ;
-+Use/NG+Err/Orth:%>ds%{eõ%} ACT-IND-PRT-1/2_ZERO ;
++Err/Dial:%>ds%{eõ%} ACT-IND-PRT-1/2_ZERO ;
 :%>s%{eõ%} ACT_IND_PRT_SG3_ZERO ;
 :%>s%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
-+Use/NG+Err/Orth:%>ds%{eõ%} ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth:%>ds%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
++Err/Dial:%>ds%{eõ%} ACT_IND_PRT_SG3_ZERO ;
++Err/Dial:%>ds%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
 
 
 
@@ -2209,7 +2209,7 @@ LEXICON V_78SAAMA/XX
  ACT_IND_PRT_SG3_i ;
  ACT_IND_PRT_SG3_iE ;
 :%^VowRM%>i ACT_IND_PRT_PL3_q/vAq ;
-+Use/NG+Err/Orth:%^VowRM%>i%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
++Err/Dial:%^VowRM%>i%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
 ACT-COND ;
 
  Harm_Neutr_INF_iAq ;
@@ -2413,8 +2413,8 @@ LEXICON V_79OLWMA/XX !!≈ * **@CODE@** olõma:o
 :l%{eõ%} ACT-IND-PRS-12 ;
 +Act+Ind+Prs+Sg3:m K ;
 +Act+Ind+Prs+Pl3:mm%{aä%}q K ;
-+Act+Ind+Prs+Pl3+Use/NG+Err/Orth-no-q:mm%{aä%} K ;
-+Use/NG+Err/Orth:mm%{aä%} ACT_IND_PRS_PL3_vAq ;
++Act+Ind+Prs+Pl3+Err/Orth-no-q:mm%{aä%} K ;
++Err/Dial:mm%{aä%} ACT_IND_PRS_PL3_vAq ;
 :l PSS_IND_PRS_ALL_dA ;
 
 :lli ACT_IND_PRT_SG1_ZERO ;
@@ -2424,7 +2424,7 @@ LEXICON V_79OLWMA/XX !!≈ * **@CODE@** olõma:o
 :ll ACT_IND_PRT_SG2_iq ;
 :l%{eõ%} ACT-IND-CONNEG ;
 +Act+Ind+Prt+Sg3:lĺ K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg3:lle K ;
++Err/Dial+Act+Ind+Prt+Sg3:lle K ;
 :lli ACT_IND_PRT_PL3_q/vAq ;
 :l PSS_IND_PRT_SG1_di/SG3_ti ;
 
@@ -2434,7 +2434,7 @@ LEXICON V_79OLWMA/XX !!≈ * **@CODE@** olõma:o
 :l Harm_Neutr_ACT-PRFPRC_v_LUGWMA ;
 :l PSS_PRSPRC_tAv ;
 :l PSS_PRFPRC_t/SG-GEN_dU ;
-+Use/NG+Err/Orth:l PSS_PRFPRC_tU_SG_NOM ;
++Err/Dial:l PSS_PRFPRC_tU_SG_NOM ;
 
 LEXICON V_80RAPAHUTMA !!≈ * **@CODE@** rapahutma:rapahuta
 :%{back%} V_80RAPAHUTMA/HAEMMAEHUETMAE ;
@@ -2476,7 +2476,7 @@ LEXICON V_80RAPAHUTMA/HAEMMAEHUETMAE !!= * @CODE@ rapahutma:rapahuta
 
 : ACT_IND_PRT_SG3_APOSTROPHE ;
 :%>i ACT_IND_PRT_PL3_q/vAq ;
-+Use/NG+Err/Orth:%>s%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
++Err/Dial:%>s%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
 
 
 !! Retain consonant and stem vowel
@@ -2692,14 +2692,14 @@ LEXICON V_82ANDMA/PUEUEDMAE !!≈ * **@CODE@** andma:%{ˋØ%}an%{dd́n%}
 
 ! (2) II tegonimi: 
 :%^VOWRaise%^StrGStem%^NoPAL Harm_Neutr_INF_Aq ;!CHECKME hoitaq 2022-01-31
-+Use/NG+Err/Orth:%^VOWLower%^WGStem%^NoPAL Harm_Neutr_INF_Aq ;
++Err/Dial:%^VOWLower%^WGStem%^NoPAL Harm_Neutr_INF_Aq ;
 ! (3) tekev tm aktiiv: 
 :%^VOWRaise%^StrGStem%^NoPAL ACT_PRFPRC_ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: 
 :%^VOWLower%^WGStem%^NoPAL%>%{eõ%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;!annõtas
 
-+Use/NG+Err/Orth:%^VOWLower%^WGStem%^NoPAL%>%{eõ%} PSS_PRFPRC_tU_SG_NOM ;
++Err/Dial:%^VOWLower%^WGStem%^NoPAL%>%{eõ%} PSS_PRFPRC_tU_SG_NOM ;
 :%^VOWLower%^WGStem%^NoPAL%>%{eõ%} PSS_PRFPRC_t_ONLY ;!annõt, lövvet
 ! see also exceptions: andma, löüdmä, pandma
 ! (5) Olõvao 1. k maq: 
@@ -2716,17 +2716,17 @@ LEXICON V_82ANDMA/PUEUEDMAE !!≈ * **@CODE@** andma:%{ˋØ%}an%{dd́n%}
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
-+Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG1_sE/PL3_sEq ;
-+Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_PL3_sEvAq ;
++Err/Dial:%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG1_sE/PL3_sEq ;
++Err/Dial:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_PL3_sEvAq ;
 ! (7.2) Sg2, Pl1 and Pl2
-+Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Dial:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 :%^VOWLower%^WGStem%^NoPAL ACT_IND_PRT_SG2_it/idEq/PL1_imiq/PL2_itiq ;!2023_02_14
 
 ! (8) min 3. k tä: 
 :%^VOWRaise%^StrGStem%^PAL ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG3_sE ;
++Err/Dial:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG3_sE ;
 
 ! (9) jus: 
 :%^VOWRaise%^StrGStem%^NoPAL MUTUAL_JUS_kuq ;
@@ -2767,9 +2767,9 @@ LEXICON V_83NÕSTMA/PÄSTMÄ  !!= * @CODE@ nõstma:nõst
 
 ! (7) min 1. k maq: nõsti
 :%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ;
-+Use/NG+Err/Orth:%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_PL3_vAq ;
-+Use/NG+Err/Orth:%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
++Err/Dial:%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ;
++Err/Dial:%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 :%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
@@ -2778,7 +2778,7 @@ LEXICON V_83NÕSTMA/PÄSTMÄ  !!= * @CODE@ nõstma:nõst
 ! (8) min 3. k tä: nõst́, nõstsõ
 :%^Pen%^PAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth:%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_sE ;
++Err/Dial:%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_sE ;
 
 ! (9) jus: nõstkuq
 :%^Pen%^NoPAL%^VowRM MUTUAL_JUS_kuq ;
@@ -2824,23 +2824,23 @@ LEXICON V_83SÕITMA/HEITMAE  !!= * @CODE@ sõitma:sõi%{tt́d%}a
 ! (7) min 1. k maq: 
 :%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
 
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ;
++Err/Dial+Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial+Act+Ind+Prt+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>iq K ;
++Err/Dial+Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>iq K ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s%{eõ%}q K ;
++Err/Dial+Act+Ind+Prt+Sg2:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s%{eõ%}q K ;
 
 
 
 ! (8) min 3. k tä: 
 :%^Pen%^VOWRaise%^Pen%^StrGStem ACT_IND_PRT_SG3_PEN-APOSTROPHE ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s%{eõ%} K ;
++Err/Dial+Act+Ind+Prt+Sg3:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s%{eõ%} K ;
 
 ! (9) jus: 
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM MUTUAL_JUS_kuq ;
@@ -2880,26 +2880,26 @@ LEXICON V_83TAHTMA/XX  !!= * @CODE@ sõitma:sõi%{tt́d%}a tahtma+V:tah%{tt́Ø%
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRS_SG3_ZERO/PL3_vAq ;
 
 ! (7) min 1. k maq: 
-+Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
++Err/Dial:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
 
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
++Err/Dial+Act+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial+Act+Ind+Prt+Pl3:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_sE ; ! 1-6
 
-+Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
++Err/Dial:%^Pen%^VOWLower%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>iq K ;
++Err/Dial+Act+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>iq K ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s%{eõ%}q K ;
++Err/Dial+Act+Ind+Prt+Sg2:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s%{eõ%}q K ;
 
 
 
 ! (8) min 3. k tä: 
 :%^Pen%^VOWRaise%^Pen%^StrGStem ACT_IND_PRT_SG3_PEN-APOSTROPHE ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s%{eõ%} K ;
++Err/Dial+Act+Ind+Prt+Sg3:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s%{eõ%} K ;
 
 ! (9) jus: 
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM MUTUAL_JUS_kuq ;
@@ -2949,18 +2949,18 @@ LEXICON V_83LAULMA/XX  !!= * @CODE@ laulma:lau%{lĺ%}
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-+Use/NG+Err/Orth:%^NoPAL  ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^NoPAL%>iq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^NoPAL%>s%{eõ%}q K ;
++Err/Dial:%^NoPAL  ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Dial+Act+Ind+Prt+Sg2:%^NoPAL%>iq K ;
++Err/Dial+Act+Ind+Prt+Sg2:%^NoPAL%>s%{eõ%}q K ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^NoPAL%>iv%{aä%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^NoPALM%>s%{eõ%}v%{aä%}q K ;
++Err/Dial+Act+Ind+Prt+Pl3:%^NoPAL%>iv%{aä%}q K ;
++Err/Dial+Act+Ind+Prt+Pl3:%^NoPALM%>s%{eõ%}v%{aä%}q K ;
 
 ! (8) min 3. k tä: 
 :%^PAL ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:%^NoPAL ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth:%^NoPAL ACT_IND_PRT_SG3_sE ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^VowRM%>s%{eõ%} K ;
++Err/Dial:%^NoPAL ACT_IND_PRT_SG3_sE ;
++Err/Dial+Act+Ind+Prt+Sg3:%^VowRM%>s%{eõ%} K ;
 
 ! (9) jus: 
 :%^NoPAL MUTUAL_JUS_guq ;
@@ -3007,28 +3007,28 @@ LEXICON V_83ATMA/XX  !!= * @CODE@ atma:a%{tØ%}%{tt́%}
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^WGStem%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ; !ati 
-+Use/NG+Err/Orth:%^CC2C%^NoPAL ACT_IND_PRT_SG1_sE/PL3_sEq ; 
++Err/Dial:%^CC2C%^NoPAL ACT_IND_PRT_SG1_sE/PL3_sEq ; 
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^WGStem%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 :%^CC2C%^NoPAL ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^WGStem%^NoPAL%^VowRM%>iq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}q K ;
++Err/Dial+Act+Ind+Prt+Sg2:%^WGStem%^NoPAL%^VowRM%>iq K ;
++Err/Dial+Act+Ind+Prt+Sg2:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}q K ;
 
 ! (8) min 3. k tä:
 :%^StrGStem%^PAL ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:%^StrGStem%^NoPAL ACT_IND_PRT_SG3_ZERO ;
 
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^CC2C%^NoPAL%^VowRM%>s%{eõ%} K ;
++Err/Dial+Act+Ind+Prt+Sg3:%^CC2C%^NoPAL%^VowRM%>s%{eõ%} K ;
 +Act+Ind+Prt+Pl1:%^WGStem%^NoPAL%^VowRM%>imiq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl1:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}miq K ;
++Err/Dial+Act+Ind+Prt+Pl1:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}miq K ;
 +Act+Ind+Prt+Pl2:%^WGStem%^NoPAL%^VowRM%>itiq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl2:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}tiq K ;
++Err/Dial+Act+Ind+Prt+Pl2:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}tiq K ;
 +Act+Ind+Prt+Pl3:%^WGStem%^NoPAL%^VowRM%>iq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^WGStem%^NoPAL%^VowRM%>iv%{aä%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}v%{aä%}q K ;
++Err/Dial+Act+Ind+Prt+Pl3:%^WGStem%^NoPAL%^VowRM%>iv%{aä%}q K ;
++Err/Dial+Act+Ind+Prt+Pl3:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}q K ;
++Err/Dial+Act+Ind+Prt+Pl3:%^CC2C%^NoPAL%^VowRM%>s%{eõ%}v%{aä%}q K ;
 
 
 ! (9) jus:
@@ -3063,7 +3063,7 @@ LEXICON V_83SUTMA/PETMÄ  !!= * @CODE@ sutma:su%{tØ%}%{tt́%}a
 ! (5) Olõvao 1. k maq: (1. and Neg, ConNegs.)
 ! Different from 2.
 :%^Pen%^WGStem%^Pen%^NoPAL ACT_IND_CONNEG/PRS_SG1 ; !! sõida
-+Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^NoPAL ACT-IND-CONNEG ;
++Err/Dial:%^Pen%^StrGStem%^Pen%^NoPAL ACT-IND-CONNEG ;
 ! 2nd person indicative present
 :%^Pen%^WGStem%^Pen%^NoPAL ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 
@@ -3075,22 +3075,22 @@ LEXICON V_83SUTMA/PETMÄ  !!= * @CODE@ sutma:su%{tØ%}%{tt́%}a
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ; 
-+Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ; 
++Err/Dial:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ; 
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-+Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Dial:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
-+Use/NG+Err/Orth:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_q ;
-+Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEq ;
++Err/Dial:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_q ;
++Err/Dial:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEq ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_PL3_vAq ;
-+Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
++Err/Dial+Act+Ind+Prt+Pl3:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
 
 ! (8) min 3. k tä: 
 :%^Pen%^StrGStem%^Pen%^PAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_sE ;
++Err/Dial:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_sE ;
 
 ! (9) jus: 
 :%^Pen%^CC2C%^Pen%^NoPAL%^VowRM MUTUAL_JUS_kuq ;
@@ -3121,7 +3121,7 @@ LEXICON V_83VWTMA/XX  !!= * @CODE@ võtma:võ%{tØ%}%{tt́Ø%}a
 ! (5) Olõvao 1. k maq: (1. and Neg, ConNegs.)
 ! Different from 2.
 :%^Pen%^G3%^Pen%^NoPAL ACT_IND_CONNEG/PRS_SG1 ; !! sõida
-+Use/NG+Err/Orth:%^Pen%^G4%^Pen%^NoPAL ACT-IND-CONNEG ;
++Err/Dial:%^Pen%^G4%^Pen%^NoPAL ACT-IND-CONNEG ;
 ! 2nd person indicative present
 :%^Pen%^G3%^Pen%^NoPAL ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 
@@ -3133,22 +3133,22 @@ LEXICON V_83VWTMA/XX  !!= * @CODE@ võtma:võ%{tØ%}%{tt́Ø%}a
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^Pen%^G3%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ; 
-+Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ; 
++Err/Dial:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ; 
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^G3%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-+Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Dial:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
-+Use/NG+Err/Orth:%^Pen%^G3%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_q ;
-+Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEq ;
++Err/Dial:%^Pen%^G3%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_q ;
++Err/Dial:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEq ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%^Pen%^G3%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_PL3_vAq ;
-+Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
++Err/Dial+Act+Ind+Prt+Pl3:%^Pen%^G3%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
 
 ! (8) min 3. k tä: 
 :%^Pen%^G4%^Pen%^PAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:%^Pen%^G4%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_sE ;
++Err/Dial:%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_sE ;
 
 ! (9) jus: 
 :%^Pen%^CC2C%^Pen%^NoPAL%^VowRM MUTUAL_JUS_kuq ;
@@ -3192,13 +3192,13 @@ LEXICON V_84LASKMA/KAESKMAE !!= * @CODE@ laskma:las%{kḱØ%}
 
 ! (7) min 1. k maq: 
 :%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^VOWLower%^WGStem%^NoPAL ACT_IND_PRT_SG1_sE/PL3_sEq ;
-+Use/NG+Err/Orth:%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
-+Use/NG+Err/Orth:%^VOWLower%^WGStem%^NoPAL ACT_IND_PRT_PL3_sEvAq ;
++Err/Dial:%^VOWLower%^WGStem%^NoPAL ACT_IND_PRT_SG1_sE/PL3_sEq ;
++Err/Dial:%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^VOWLower%^WGStem%^NoPAL ACT_IND_PRT_PL3_sEvAq ;
 
 :%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 
-+Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Dial:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
 ! (8) min 3. k tä: 
 :%^VOWRaise%^StrGStem%^PAL ACT_IND_PRT_SG3_ZERO ;
@@ -3242,10 +3242,10 @@ LEXICON V_85HIRNMA/TUEMPSMAE !!≈ * **@CODE@** kakma:kaku hirnma:hirnu
 
 ! (7) min 1. k maq: hirnõ
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ;
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM ACT_IND_PRT_12_E ;
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM ACT_IND_PRT_12_sE ;
@@ -3350,17 +3350,17 @@ LEXICON V_85KAKMA/TRUEKMAE !!≈ * **@CODE@** kakma:ka%{kØ%}%{kḱ%}u
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM  ACT_IND_PRT_PL3_sEvAq ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM  ACT_IND_PRT_PL3_sEvAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-+Use/NG+Err/Orth:%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Dial:%^Pen%^VOWLower%^Pen%^G3%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
 ! (8) min 3. k tä: 
 :%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^PAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:%^Pen%^VOWRaise%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth:%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_sE ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_sE ;
 
 ! (9) jus: 
 :%^Pen%^VOWRaise%^Pen%^G3%^Pen%^NoPAL%^VowRM MUTUAL_JUS_kuq ;
@@ -3397,17 +3397,17 @@ LEXICON V_86ISTMA/XX !!≈ * **@CODE@** istma:istu
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^NoPAL ACT_IND_PRS_3_s/sEq ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^StrGStem%^Pen%^NoPAL ACT_IND_PRS_3_s/sEq ;
++Err/Dial:%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Dial:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
 ! (8) min 3. k tä:
 :%^Pen%^StrGStem%^Pen%^PAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_E ;
++Err/Dial:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_E ;
 
 :%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s ACT_IND_PRT_SG3_E ;
 :%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_PL3_q/vAq ;
@@ -3448,17 +3448,17 @@ LEXICON V_86PUTMA/XX !!≈ * **@CODE@** istma:istu
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^NoPAL ACT_IND_PRS_3_s/sEq ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial:%^Pen%^StrGStem%^Pen%^NoPAL ACT_IND_PRS_3_s/sEq ;
++Err/Dial:%^Pen%^WGStem%^Pen%^NoPAL%>i ACT_IND_PRT_PL3_vAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^WGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Dial:%^Pen%^WGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
 ! (8) min 3. k tä:
 :%^Pen%^StrGStem%^Pen%^PAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_E ;
++Err/Dial:%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG3_E ;
 
 :%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>s ACT_IND_PRT_SG3_E ;
 :%^Pen%^StrGStem%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_PL3_q/vAq ;
@@ -3492,7 +3492,7 @@ LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * **@CODE@** eht́mä:eh%{tt́%}
 ! (4) Tettäv tm passiiv:
 :%^VOWLower%^WGStem%^NoPAL%>i PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 
-+Use/NG+Err/Orth:%^VOWLower%^WGStem%^NoPAL%>i PSS_PRFPRC_tU_SG_NOM ;
++Err/Dial:%^VOWLower%^WGStem%^NoPAL%>i PSS_PRFPRC_tU_SG_NOM ;
 ! (5) Olõvao 1. k maq: (1. and Neg, ConNegs.)
 ! Different from 2.
 :%^VOWLower%^WGStem%^NoPAL%>i ACT_IND_CONNEG/PRS_SG1 ;
@@ -3511,14 +3511,14 @@ LEXICON V_86JAHTJMA/EHTJMÄ !!≈ * **@CODE@** eht́mä:eh%{tt́%}
 
 !:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_12_i ;
 :%^VOWLower%^WGStem%^NoPAL%>e ACT-IND-PRT-1/2_ZERO ;
-+Use/NG+Err/Orth:%^VOWRaise%^StrGStem%^PAL%>s%{eõ%} ACT-IND-PRT-1/2_ZERO ;
++Err/Dial:%^VOWRaise%^StrGStem%^PAL%>s%{eõ%} ACT-IND-PRT-1/2_ZERO ;
 +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL%>s%{eõ%} ACT-IND-PRT-1/2_ZERO ;
 
 :%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG3_E ;
 :%^VOWLower%^WGStem%^NoPAL%>e ACT_IND_PRT_PL3_q/vAq ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg3:%^VOWRaise%^StrGStem%^PAL%>s%{eõ%} K ;
++Err/Dial+Act+Ind+Prt+Sg3:%^VOWRaise%^StrGStem%^PAL%>s%{eõ%} K ;
 +Err/Orth-no-pal+Act+Ind+Prt+Sg3:%^VOWRaise%^StrGStem%^NoPAL%>s%{eõ%} K ;
-+Use/NG+Err/Orth:%^VOWRaise%^CC2C%^PAL%>s%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
++Err/Dial:%^VOWRaise%^CC2C%^PAL%>s%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
 +Err/Orth-no-pal:%^VOWRaise%^CC2C%^NoPAL%>s%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
 
 
@@ -3607,7 +3607,7 @@ LEXICON V_87KOSIMA/KERIMAE !!≈ * **@CODE@** kosima:kosi
 ! (4) Tettäv tm passiiv:
 :%^Pen%^WGStem PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
 
-+Use/NG+Err/Orth:%^Pen%^WGStem PSS_PRFPRC_tU_SG_NOM ;
++Err/Dial:%^Pen%^WGStem PSS_PRFPRC_tU_SG_NOM ;
 ! (5) Olõvao 1. k maq:
 ! 2nd person indicative present
 ! 1st person plural present
@@ -3619,18 +3619,18 @@ LEXICON V_87KOSIMA/KERIMAE !!≈ * **@CODE@** kosima:kosi
 
 :%^Pen%^WGStem ACT-IND-PRS-12 ;
 :%^Pen%^WGStem ACT_IND_PRS_SG3_ZERO ;
-+Use/NG+Err/Orth:%^Pen%^WGStem ACT_IND_PRS_3_s/sEq ;
++Err/Dial:%^Pen%^WGStem ACT_IND_PRS_3_s/sEq ;
 :%^Pen%^WGStem ACT_IND_PRS_PL3_vAq ;
 
 
 :%^Pen%^WGStem%^VowRM ACT_IND_PRT_12_E ; 
-+Use/NG+Err/Orth:%^Pen%^WGStem ACT_IND_PRT_12_si ;
++Err/Dial:%^Pen%^WGStem ACT_IND_PRT_12_si ;
 :%^Pen%^WGStem ACT-IND-CONNEG ;
 +Act+Ind+ConNegII:%^Pen%^WGStem # ; !Yaml-test requirement 2023_03_05
 :%^Pen%^WGStem%^VowRM ACT_IND_PRT_SG3_E ;
 :%^Pen%^WGStem%^VowRM%>%{eõ%} ACT_IND_PRT_PL3_q/vAq ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%>si ACT_IND_PRT_SG3_ZERO ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%>si ACT_IND_PRT_PL3_q/vAq ;
++Err/Dial:%^Pen%^WGStem%>si ACT_IND_PRT_SG3_ZERO ;
++Err/Dial:%^Pen%^WGStem%>si ACT_IND_PRT_PL3_q/vAq ;
 
 :%^Pen%^WGStem MUTUAL_JUS_guq ;
 
@@ -3649,7 +3649,7 @@ LEXICON V_88SIBAHAMA/JUEVAEHAEMAE !!= * @CODE@ sibama:siba
 :%^Pen%^WGStem Harm_Neutr_INF_dAq ;
 :%^Pen%^StrGStem Harm_Neutr_INF_ZEROq ;
 :%^Pen%^StrGStem Harm_Neutr_ACT_PRSPRC_v ;
-+Use/NG+Err/Orth:%^Pen%^WGStem%>h%{XV%} Harm_Neutr_ACT_PRSPRC_v ;
++Err/Dial:%^Pen%^WGStem%>h%{XV%} Harm_Neutr_ACT_PRSPRC_v ;
 ! (3) tekev tm aktiiv:
 :%^Pen%^WGStem ACT_PRFPRC_ALL_nUq ;
 ! (4) Tettäv tm passiiv:
@@ -3703,7 +3703,7 @@ LEXICON INF-TYPE-EVEN-SYLL-STRONG-GRADE-IN-VOWEL-A
 : Harm_Neutr_INF_ZEROq ;
 
 : Harm_Neutr_ACT_IND_PRS_SG2_USUALLY-STRONG ; !!= * @CODE@ kaota
-!! +Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
+!! +Act+Ind+Prs+Sg2, +Err/Dial+Act+Ind+Prs+Sg2, 
 !! +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
 : ACT_IND_PRS_3_s/sEq ; !!= * @CODE@ 
@@ -3720,11 +3720,11 @@ LEXICON ACT-IND-PRS-12
  ACT-IND-CONNEG ;
 
  ACT_IND_PRS_SG2_t ;
-+Use/NG+Err/Orth: ACT_IND_PRS_SG2_dEq ;
++Err/Dial: ACT_IND_PRS_SG2_dEq ;
  ACT_IND_PRS_PL1_miq ;
  ACT-IND-PRS-PL2_tiq ;
-!+Use/NG+Err/Orth+Act+Ind+Prs+Pl2:%>d%{eõ%}q K ; These will be dealt with in cg
-!+Use/NG+Err/Orth+Act+Ind+Prs+Pl2:%>t K ; These will be dealt with in cg
+!+Err/Dial+Act+Ind+Prs+Pl2:%>d%{eõ%}q K ; These will be dealt with in cg
+!+Err/Dial+Act+Ind+Prs+Pl2:%>t K ; These will be dealt with in cg
 
 LEXICON Harm_Neutr_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK
  ACT-IND-PRS-SG1_ZERO ;
@@ -3734,7 +3734,7 @@ LEXICON Harm_Neutr_ACT-IND-PRS-SG1_ZERO_USUALLY-WEAK
 
 LEXICON Harm_Neutr_ACT_IND_PRS_SG2_USUALLY-STRONG
  ACT_IND_PRS_SG2_t ;
-+Use/NG+Err/Orth: ACT_IND_PRS_SG2_dEq ;
++Err/Dial: ACT_IND_PRS_SG2_dEq ;
  ACT_IND_PRS_PL1_miq ;
  ACT-IND-PRS-PL2_tiq ;
 
@@ -3756,12 +3756,12 @@ LEXICON ACT_IND_PRS_SG2_t
 +Act+Ind+Prs+Sg2:%>t K ;
 
 LEXICON ACT_IND_PRS_SG2_dEq
-+Use/NG+Err/Orth+Act+Ind+Prs+Sg2:%>d%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prs+Sg2:%>d%{eõ%} K ;
++Err/Dial+Act+Ind+Prs+Sg2:%>d%{eõ%}q K ;
++Err/Orth-no-q+Act+Ind+Prs+Sg2:%>d%{eõ%} K ;
 
 LEXICON ACT_IND_PRS_SG2_iq
-+Use/NG+Err/Orth+Act+Ind+Prs+Sg2:%>iq K ;
-+Use/NG+Err/Orth+Err/Orth-no-q+Act+Ind+Prs+Sg2:%>i K ;
++Err/Dial+Act+Ind+Prs+Sg2:%>iq K ;
++Err/Dial+Err/Orth-no-q+Act+Ind+Prs+Sg2:%>i K ;
 
 
 LEXICON ACT_IND_PRS_SG3_ZERO/PL3_vAq
@@ -3774,18 +3774,18 @@ LEXICON ACT_IND_PRS_SG3_ZERO
 
 LEXICON ACT_IND_PRS_PL1_miq
 +Act+Ind+Prs+Pl1:%>miq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl1:%>mi K ;
++Err/Orth-no-q+Act+Ind+Prs+Pl1:%>mi K ;
 
 LEXICON ACT-IND-PRS-PL2_tiq
 +Act+Ind+Prs+Pl2:%>tiq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl2:%>ti K ;
++Err/Orth-no-q+Act+Ind+Prs+Pl2:%>ti K ;
 
 !LEXICON ACT-IND-PRS-PL2_t
 !+Act+Ind+Prs+Pl2:%>t K ;
 
 LEXICON ACT-IND-PRS-PL2_dEq
 +Act+Ind+Prs+Pl2:%>d%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl2:%>d%{eõ%} K ;
++Err/Orth-no-q+Act+Ind+Prs+Pl2:%>d%{eõ%} K ;
 
 LEXICON ACT_IND_PRS_SG3_sE
 +Act+Ind+Prs+Sg3:%>s%{eõ%} K ;
@@ -3795,15 +3795,15 @@ LEXICON ACT_IND_PRS_SG3_sE
 
 LEXICON ACT_IND_PRS_PL3_vAq
 +Act+Ind+Prs+Pl3:%>v%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl3:%>v%{aä%} K ;
++Err/Orth-no-q+Act+Ind+Prs+Pl3:%>v%{aä%} K ;
 
 
 LEXICON ACT_IND_PRS_3_s/sEq
 +Act+Ind+Prs+Sg3:%>s K ;
 +Act+Ind+Prs+Pl3:%>s%{eõ%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prs+Pl3:%>ss%{eõ%}q K ;!õdaguvõro tendents
-+Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl3:%>s%{eõ%} K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prs+Pl3:%>ss%{eõ%} K ;!õdaguvõro tendents
++Err/Dial+Act+Ind+Prs+Pl3:%>ss%{eõ%}q K ;!õdaguvõro tendents
++Err/Orth-no-q+Act+Ind+Prs+Pl3:%>s%{eõ%} K ;
++Err/Orth-no-q+Act+Ind+Prs+Pl3:%>ss%{eõ%} K ;!õdaguvõro tendents
 
 LEXICON ACT_IND_CONNEG/PRS_SG1
  ACT-IND-CONNEG ;
@@ -3815,13 +3815,13 @@ LEXICON PSS-IND-CONNEG
 +Pss: IND-CONNEG ;
 LEXICON IND-CONNEG
 +Ind+Prs+Neg:%-%{XV%}iq K ; !!= * @CODE@ This gives stress
-+Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-iq K ; !!= * @CODE@ This gives stress
-+Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-%{XV%}i K ; !!= * @CODE@ more neutral without q
-+Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-i K ; !!= * @CODE@ more neutral without q
++Err/Orth-no-q+Ind+Prs+Neg:%-iq K ; !!= * @CODE@ This gives stress
++Err/Orth-no-q+Ind+Prs+Neg:%-%{XV%}i K ; !!= * @CODE@ more neutral without q
++Err/Orth-no-q+Ind+Prs+Neg:%-i K ; !!= * @CODE@ more neutral without q
 +Ind+ConNeg:%>q K ;
-+Err/Orth-no-q+Use/NG+Ind+ConNeg: K ;
++Err/Orth-no-q+Ind+ConNeg: K ;
 +Ind+Prt+Neg:%-%{XV%}s K ;
-+Use/NG+Err/Orth+Ind+Prt+Neg:%-s K ;
++Err/Dial+Ind+Prt+Neg:%-s K ;
 
 LEXICON ACT-COND
 +Act: COND ;
@@ -3829,7 +3829,7 @@ LEXICON PSS-COND
 +Pss: COND ;
 LEXICON COND
 +Cond+Prs+Neg:%>si%-iq K ;
-+Use/NG+Err/Orth-no-q+Cond+Prs+Neg:%>si%-i K ;
++Err/Orth-no-q+Cond+Prs+Neg:%>si%-i K ;
 +Cond+Prt+Neg:%>si%-is K ;
 +Cond+ConNeg:%>siq K ;
 +Cond+ConNegII:%>si K ;
@@ -3840,13 +3840,13 @@ LEXICON COND
 LEXICON MUTUAL_JUS_guq !!= * @CODE@ regardless of harmony this is back 
 +Jus:%>guq%{back%} K ;
 +Jus+ConNeg:%>guq-ui%{back%} K ;
-+Use/NG+Err/Orth-no-q+Jus:%>gu%{back%} K ;
-+Use/NG+Err/Orth-no-q+Jus+ConNeg:%>gu-ui%{back%} K ;
++Err/Orth-no-q+Jus:%>gu%{back%} K ;
++Err/Orth-no-q+Jus+ConNeg:%>gu-ui%{back%} K ;
 LEXICON MUTUAL_JUS_kuq 
 +Jus:%>kuq%{back%} K ;
 +Jus+ConNeg:%>kuq-ui%{back%} K ;
-+Use/NG+Err/Orth-no-q+Jus:%>ku%{back%} K ;
-+Use/NG+Err/Orth-no-q+Jus+ConNeg:%>ku-ui%{back%} K ;
++Err/Orth-no-q+Jus:%>ku%{back%} K ;
++Err/Orth-no-q+Jus+ConNeg:%>ku-ui%{back%} K ;
 
 !! CHECK THIS
 !!
@@ -3876,7 +3876,7 @@ PSS_IND_PRS_SG3_dAs ;
 PSS_IND_PRS_PL1_dAmiq ;
 PSS_IND_PRS_PL2_dAtiq ;
 +Pss+Ind+Prs+Pl2:%>d%{aä%}d%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>d%{aä%}d%{eõ%} K ;
++Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>d%{aä%}d%{eõ%} K ;
 PSS_IND_PRS_PL3_dAsEq ;
 
 
@@ -3906,8 +3906,8 @@ LEXICON PSS_IND_PRS/PRT_SG1_dX/SG3_tX
 PSS_IND_PRS/PRT_SG1_dX ;
 PSS_IND_PRS_SG2_tAt ;
 PSS_IND_PRT_SG2_tit ;
-+Use/NG+Err/Orth: PSS_IND_PRS_SG2_tAdEq ;
-+Use/NG+Err/Orth: PSS_IND_PRT_SG2_tidEq ;
++Err/Dial: PSS_IND_PRS_SG2_tAdEq ;
++Err/Dial: PSS_IND_PRT_SG2_tidEq ;
 PSS-IND-SG3_tX ;
 PSS_IND_PRS_PL1_tAmiq ;
 PSS_IND_PRT_PL1_timiq ;
@@ -3974,10 +3974,10 @@ LEXICON PSS_IND_PRS_SG2_dAt
 
 LEXICON PSS_IND_PRS_SG2_tAdEq
 +Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;
++Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;
 LEXICON PSS_IND_PRS_SG2_dAdEq
 +Pss+Ind+Prs+Sg2:%>d%{aä%}d%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>d%{aä%}d%{eõ%} K ;
++Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>d%{aä%}d%{eõ%} K ;
 
 LEXICON PSS_IND_PRS_SG3_dAs
 +Pss+Ind+Prs+Sg3:%>d%{aä%}s K ;
@@ -3994,52 +3994,52 @@ LEXICON PSS_IND_PRS_SG3_tAs
 
 LEXICON PSS_IND_PRS_PL1_tAmiq
 +Pss+Ind+Prs+Pl1:%>t%{aä%}miq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;
++Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;
 
 LEXICON PSS_IND_PRS_PL1_dAmiq
 +Pss+Ind+Prs+Pl1:%>d%{aä%}miq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>d%{aä%}mi K ;
++Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>d%{aä%}mi K ;
 
 LEXICON PSS_IND_PRS_PL2_tAtiq
 +Pss+Ind+Prs+Pl2:%>t%{aä%}tiq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;
++Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;
 
 LEXICON PSS_IND_PRS_PL2_dAtiq
 +Pss+Ind+Prs+Pl2:%>d%{aä%}tiq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>d%{aä%}ti K ;
++Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>d%{aä%}ti K ;
 
 LEXICON PSS_IND_PRS_PL3_tAsEq
 +Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;
++Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;
 
 LEXICON PSS_IND_PRS_PL3_dAsEq
 +Pss+Ind+Prs+Pl3:%>d%{aä%}s%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>d%{aä%}s%{eõ%} K ;
++Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>d%{aä%}s%{eõ%} K ;
 
 LEXICON Harm_Neutr_JUVVA_PSS_IND_PRS !!= * @CODE@ juvva süvvä
 +Pss+Ind+Prs+Sg1: K ;
 +Pss+Ind+Prs+Sg2:%>t K ;
-+Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>d%{eõ%}q K ;
++Err/Dial+Pss+Ind+Prs+Sg2:%>d%{eõ%}q K ;
 +Pss+Ind+Prs+Sg3:%>s K ;
 +Pss+Ind+Prs+Pl1:%>miq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>mi K ;
++Err/Orth-no-q+Pss+Ind+Prs+Pl1:%>mi K ;
 +Pss+Ind+Prs+Pl2:%>tiq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>ti K ;
++Err/Orth-no-q+Pss+Ind+Prs+Pl2:%>ti K ;
 +Pss+Ind+Prs+Pl3:%>s%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>s%{eõ%} K ;
++Err/Orth-no-q+Pss+Ind+Prs+Pl3:%>s%{eõ%} K ;
  PSS-IND-CONNEG ;
 
 
 LEXICON Harm_Neutr_JUVVA_PSS-IND-PRT-1/2 !!= * @CODE@ juvvi süvvi
 +Pss+Ind+Prt+Sg1: K ;
 +Pss+Ind+Prt+Sg2:%>t K ;
-+Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>d%{eõ%}q K ;
-+Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>q K ;
++Err/Dial+Pss+Ind+Prt+Sg2:%>d%{eõ%}q K ;
++Err/Dial+Pss+Ind+Prt+Sg2:%>q K ;
 +Pss+Ind+Prt+Pl1:%>miq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl1:%>mi K ;
++Err/Orth-no-q+Pss+Ind+Prt+Pl1:%>mi K ;
 +Pss+Ind+Prt+Pl2:%>tiq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl2:%>ti K ;
-!+Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%>d%{eõ%}q K ; These will be dealt with in cg
++Err/Orth-no-q+Pss+Ind+Prt+Pl2:%>ti K ;
+!+Err/Dial+Pss+Ind+Prt+Pl2:%>d%{eõ%}q K ; These will be dealt with in cg
 
 
 
@@ -4119,133 +4119,133 @@ LEXICON ACT_IND_PRT_SG2_Et
 
 
 !24LEXICON ACT_IND_PRT_SG2_idEq
-!+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>id%{eõ%}q K ;
-!+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>id%{eõ%} K ;
+!+Err/Dial+Act+Ind+Prt+Sg2:%>id%{eõ%}q K ;
+!+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>id%{eõ%} K ;
 
 LEXICON ACT_IND_PRT_SG2_EdEq
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>%{eõ%}d%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>%{eõ%}d%{eõ%} K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>%{eõ%}d%{eõ%}q K ;
++Err/Orth-no-q+Act+Ind+Prt+Sg2:%>%{eõ%}d%{eõ%} K ;
 
 LEXICON ACT_IND_PRT_SG2_dEq
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>d%{eõ%} K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
++Err/Orth-no-q+Act+Ind+Prt+Sg2:%>d%{eõ%} K ;
 
 
 !2022-03-24LEXICON ACT_IND_PRT_PL1_imiq
 !+Act+Ind+Prt+Pl1:%>imiq K ;
-!+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>imi K ;
+!+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>imi K ;
 
 LEXICON ACT_IND_PRT_PL1_miq
 +Act+Ind+Prt+Pl1:%>miq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
 
 LEXICON ACT_IND_PRT_PL2_dEq
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl2:%>d%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>d%{eõ%} K ;
++Err/Dial+Act+Ind+Prt+Pl2:%>d%{eõ%}q K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl2:%>d%{eõ%} K ;
 
 !24LEXICON ACT_IND_PRT_PL2_itiq
 !+Act+Ind+Prt+Pl2:%>itiq K ;
-!+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>iti K ;
+!+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>iti K ;
 
 LEXICON ACT_IND_PRT_PL2_tiq
 +Act+Ind+Prt+Pl2:%>tiq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
 
 LEXICON ACT_IND_PRT_SG2_sEt
 +Act+Ind+Prt+Sg2:%>s%{eõ%}t K ;
 
 LEXICON ACT_IND_PRT_SG2_sEdEq
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>s%{eõ%}d%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>s%{eõ%}d%{eõ%} K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>s%{eõ%}d%{eõ%}q K ;
++Err/Orth-no-q+Act+Ind+Prt+Sg2:%>s%{eõ%}d%{eõ%} K ;
 
 LEXICON ACT_IND_PRT_SG2_sEq
 +Act+Ind+Prt+Sg2:%>s%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>s%{eõ%} K ;
++Err/Orth-no-q+Act+Ind+Prt+Sg2:%>s%{eõ%} K ;
 
 LEXICON ACT_IND_PRT_PL1_sEmiq
 +Act+Ind+Prt+Pl1:%>s%{eõ%}miq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>s%{eõ%}mi K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl1:%>s%{eõ%}mi K ;
 
 LEXICON ACT_IND_PRT_PL2_sEtiq
 +Act+Ind+Prt+Pl2:%>s%{eõ%}tiq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>s%{eõ%}ti K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl2:%>s%{eõ%}ti K ;
 
 LEXICON ACT_IND_PRT_PL1_Emiq
 +Act+Ind+Prt+Pl1:%>%{eõ%}miq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>%{eõ%}mi K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl1:%>%{eõ%}mi K ;
 
 LEXICON ACT_IND_PRT_PL2_Etiq
 +Act+Ind+Prt+Pl2:%>%{eõ%}tiq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>%{eõ%}ti K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl2:%>%{eõ%}ti K ;
 
 
 LEXICON ACT-IND-PRT-1/2_ZERO
 +Act+Ind+Prt+Sg1: K ;
 +Act+Ind+Prt+Sg2:%>t K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>q K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>miq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
-!+Use/NG+Err/Orth+Act+Ind+Prt+Pl1: K ; ! These will be dealt with in cg
++Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
+!+Err/Dial+Act+Ind+Prt+Pl1: K ; ! These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>tiq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
 
 LEXICON ACT_IND_PRT_SG1_ZERO/SG2_q/PL3_q
 +Act+Ind+Prt+Sg1: K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>q K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>q K ;
 +Act+Ind+Prt+Pl3:%>q K ; 
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl3: K ; 
++Err/Orth-no-q+Act+Ind+Prt+Pl3: K ; 
 
 
 LEXICON Harm_Neutr_ACT_IND_PRT_SG2_USUALLY-STRONG
 +Act+Ind+Prt+Sg2:%>t K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>miq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
 +Act+Ind+Prt+Pl2:%>tiq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%>v%{aä%}q K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
++Err/Dial+Act+Ind+Prt+Pl3:%>v%{aä%}q K ;
 
 
 LEXICON ACT_IND_PRT_12_i
 :%>i ACT_IND_PRT_SG1_ZERO ;
  ACT_IND_PRT_SG2/PL1/PL2_i ;
 LEXICON ACT_IND_PRT_SG2/PL1/PL2_i
-+Use/NG+Err/Orth:%>i ACT_IND_PRT_SG2_q ;!2023_02_19
++Err/Dial:%>i ACT_IND_PRT_SG2_q ;!2023_02_19
  ACT_IND_PRT_SG2/PL1/PL2_i_USUALLY_STRONG ;
 
 LEXICON ACT_IND_PRT_SG2_q
 +Act+Ind+Prt+Sg2:%>q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2: K ;
++Err/Orth-no-q+Act+Ind+Prt+Sg2: K ;
 
 LEXICON ACT_IND_PRT_SG2_iq
 +Act+Ind+Prt+Sg2:%>iq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>i K ;
++Err/Orth-no-q+Act+Ind+Prt+Sg2:%>i K ;
 
 LEXICON ACT_IND_PRT_SG2/PL1/PL2_i_USUALLY_STRONG
 +Act+Ind+Prt+Sg2:%>it K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>id%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>id%{eõ%} K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>id%{eõ%}q K ;
++Err/Orth-no-q+Act+Ind+Prt+Sg2:%>id%{eõ%} K ;
 +Act+Ind+Prt+Pl1:%>imiq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>imi K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl1:%>imi K ;
 !+Act+Ind+Prt+Pl1:%>i K ; These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>itiq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>iti K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl2:%>iti K ;
 
 
 LEXICON ACT_IND_PRT_12_ZERO
 +Act+Ind+Prt+Sg1: K ;
 ACT_IND_PRT_SG2_t ;
 
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2: K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Sg2:%>d%{eõ%} K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>q K ;
++Err/Orth-no-q+Act+Ind+Prt+Sg2: K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
++Err/Orth-no-q+Act+Ind+Prt+Sg2:%>d%{eõ%} K ;
 
 +Act+Ind+Prt+Pl1:%>miq K ;
 +Act+Ind+Prt+Pl2:%>tiq K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl1:%>mi K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl2:%>ti K ;
 
 
 LEXICON ACT_IND_PRT_12_iE
@@ -4269,9 +4269,9 @@ LEXICON ACT_IND_PRT_12_sE
 
 LEXICON ACT_IND_PRT_12_E
 +Act+Ind+Prt+Sg1:%>%{eõ%} K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>%{eõ%}q K ; !2023_02_19
++Err/Dial+Act+Ind+Prt+Sg2:%>%{eõ%}q K ; !2023_02_19
 +Act+Ind+Prt+Sg2:%>%{eõ%}t K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>%{eõ%}d%{eõ%}q K ; !2023_02_19
++Err/Dial+Act+Ind+Prt+Sg2:%>%{eõ%}d%{eõ%}q K ; !2023_02_19
 +Act+Ind+Prt+Pl1:%>%{eõ%}miq K ;
 !+Act+Ind+Prt+Pl1:%>%{eõ%} K ; These will be dealt with in cg
 +Act+Ind+Prt+Pl2:%>%{eõ%}tiq K ;
@@ -4314,34 +4314,34 @@ LEXICON ACT_IND_PRT_SG3_sE
 
 LEXICON ACT_IND_PRT_PL3_q/vAq
  ACT_IND_PRT_PL3_q ;
-+Use/NG+Err/Orth: ACT_IND_PRT_PL3_vAq ;!2023_02_19
++Err/Dial: ACT_IND_PRT_PL3_vAq ;!2023_02_19
 LEXICON ACT_IND_PRT_PL3_q
 +Act+Ind+Prt+Pl3:%>q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl3: K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl3: K ;
 
 !24LEXICON ACT_IND_PRT_PL3_iq
 !+Act+Ind+Prt+Pl3:%>iq K ;
-!+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl3:%>i K ;
+!+Err/Orth-no-q+Act+Ind+Prt+Pl3:%>i K ;
 
 LEXICON ACT_IND_PRT_PL3_sEq
 +Act+Ind+Prt+Pl3:%>s%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl3:%>s%{eõ%} K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl3:%>s%{eõ%} K ;
 
 LEXICON ACT_IND_PRT_PL3_Eq
 +Act+Ind+Prt+Pl3:%>%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Ind+Prt+Pl3:%>%{eõ%} K ;
++Err/Orth-no-q+Act+Ind+Prt+Pl3:%>%{eõ%} K ;
 
 LEXICON ACT_IND_PRT_PL3_vAq
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%>v%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%>v%{aä%} K ;
++Err/Dial+Act+Ind+Prt+Pl3:%>v%{aä%}q K ;
++Err/Orth-no-q+Err/Dial+Act+Ind+Prt+Pl3:%>v%{aä%} K ;
 
 LEXICON ACT_IND_PRT_PL3_ivAq
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%>iv%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%>v%{aä%} K ;
++Err/Dial+Act+Ind+Prt+Pl3:%>iv%{aä%}q K ;
++Err/Orth-no-q+Err/Dial+Act+Ind+Prt+Pl3:%>v%{aä%} K ;
 
 LEXICON ACT_IND_PRT_PL3_sEvAq
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%>s%{eõ%}v%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%>s%{eõ%}v%{aä%} K ;
++Err/Dial+Act+Ind+Prt+Pl3:%>s%{eõ%}v%{aä%}q K ;
++Err/Orth-no-q+Err/Dial+Act+Ind+Prt+Pl3:%>s%{eõ%}v%{aä%} K ;
 
 
 !LEXICON ACT-IND-PRT-SC3_s
@@ -4365,7 +4365,7 @@ LEXICON ACT_IND_PRT_SG3_sJ
 LEXICON ACT-IND-PRT-SC3_si
 +Act+Ind+Prt+Sg3:%>si K ;
 +Act+Ind+Prt+Pl3:%>siq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%>siv%{aä%}q K ;
++Err/Dial+Act+Ind+Prt+Pl3:%>siv%{aä%}q K ;
 
 
 
@@ -4420,21 +4420,21 @@ LEXICON PSS_IND_PRT_SG1_ti
 
 LEXICON PSS_IND_PRT_SG2_diq
 +Pss+Ind+Prt+Sg2:%>diq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Sg2:%>di K ;
++Err/Orth-no-q+Pss+Ind+Prt+Sg2:%>di K ;
 LEXICON PSS_IND_PRT_SG2_dit
 +Pss+Ind+Prt+Sg2:%>dit K ;
 LEXICON PSS_IND_PRT_SG2_didEq
 +Pss+Ind+Prt+Sg2:%>did%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Sg2:%>did%{eõ%} K ;
++Err/Orth-no-q+Pss+Ind+Prt+Sg2:%>did%{eõ%} K ;
 
 LEXICON PSS_IND_PRT_SG2_tiq
 +Pss+Ind+Prt+Sg2:%>tiq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Sg2:%>ti K ;
++Err/Orth-no-q+Pss+Ind+Prt+Sg2:%>ti K ;
 LEXICON PSS_IND_PRT_SG2_tit
 +Pss+Ind+Prt+Sg2:%>tit K ;
 LEXICON PSS_IND_PRT_SG2_tidEq
 +Pss+Ind+Prt+Sg2:%>tid%{eõ%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Sg2:%>tid%{eõ%} K ;
++Err/Orth-no-q+Pss+Ind+Prt+Sg2:%>tid%{eõ%} K ;
 
 LEXICON PSS_IND_PRT_SG3_di
 +Pss+Ind+Prt+Sg3:%>di K ;
@@ -4443,60 +4443,60 @@ LEXICON PSS_IND_PRT_SG3_ti
 
 LEXICON	PSS_IND_PRT_PL1_dimiq
 +Pss+Ind+Prt+Pl1:%>dimiq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl1:%>dimi K ;
++Err/Orth-no-q+Pss+Ind+Prt+Pl1:%>dimi K ;
 LEXICON	PSS_IND_PRT_PL1_timiq
 +Pss+Ind+Prt+Pl1:%>timiq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl1:%>timi K ;
++Err/Orth-no-q+Pss+Ind+Prt+Pl1:%>timi K ;
 
 LEXICON	PSS_IND_PRT_PL2_ditiq
 +Pss+Ind+Prt+Pl2:%>ditiq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl2:%>diti K ;
++Err/Orth-no-q+Pss+Ind+Prt+Pl2:%>diti K ;
 LEXICON	PSS_IND_PRT_PL2_titiq
 +Pss+Ind+Prt+Pl2:%>titiq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl2:%>titi K ;
++Err/Orth-no-q+Pss+Ind+Prt+Pl2:%>titi K ;
 
 LEXICON	PSS_IND_PRT_PL3_diq
 +Pss+Ind+Prt+Pl3:%>diq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl3:%>di K ;
++Err/Orth-no-q+Pss+Ind+Prt+Pl3:%>di K ;
 
 LEXICON PSS_IND_PRT_PL3_divAq
 +Pss+Ind+Prt+Pl3:%>div%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl3:%>div%{aä%} K ;
++Err/Orth-no-q+Pss+Ind+Prt+Pl3:%>div%{aä%} K ;
 
 LEXICON	PSS_IND_PRT_PL3_tiq
 +Pss+Ind+Prt+Pl3:%>tiq K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl3:%>ti K ;
++Err/Orth-no-q+Pss+Ind+Prt+Pl3:%>ti K ;
 
 LEXICON PSS_IND_PRT_PL3_tivAq
 +Pss+Ind+Prt+Pl3:%>tiv%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+Ind+Prt+Pl3:%>tiv%{aä%} K ;
++Err/Orth-no-q+Pss+Ind+Prt+Pl3:%>tiv%{aä%} K ;
 
 LEXICON PSS-PRFPRC-PL-NOM_ttUq
 +Pss+PrfPrc+Pl+Nom:%>tt%{uü%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>tt%{uü%} K ; !!= * @CODE@ no q
++Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>tt%{uü%} K ; !!= * @CODE@ no q
 LEXICON PSS-PRFPRC-PL-NOM_tUq
 +Pss+PrfPrc+Pl+Nom:%>t%{uü%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ; !!= * @CODE@ no q
++Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ; !!= * @CODE@ no q
 LEXICON PSS-PRFPRC-PL-NOM_dUq
 +Pss+PrfPrc+Pl+Nom:%>d%{uü%}q K ;
-+Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ; !!= * @CODE@ no q
++Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ; !!= * @CODE@ no q
 
 !LEXICON Harm_Neutr_IND-PRT-OC1-2_i !!= * @CODE@ juvv süvv
 !!! usually weak grade
 !+Pss+Ind+Prt+Sg1:i K ;
 !+Pss+Ind+Prt+Sg2:it K ;
-!+Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:iq K ;
-!+Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:ideq K ;
+!+Err/Dial+Pss+Ind+Prt+Sg2:iq K ;
+!+Err/Dial+Pss+Ind+Prt+Sg2:ideq K ;
 !+Pss+Ind+Prt+Pl1:imiq K ;
 !+Pss+Ind+Prt+Pl2:itiq K ;
-!!+Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:ideq K ; These will be dealt with in cg
+!!+Err/Dial+Pss+Ind+Prt+Pl2:ideq K ; These will be dealt with in cg
 !:%{aä%} PSS-IND-CONNEG ; !CHECKME 2017-02-02
 
 !LEXICON Harm_Neutr_IND-PRT-OC3_i !!= * @CODE@ süüd
 !!! usually strong grade
 !+Pss+Ind+Prt+Sg3:%>i K ;
 !+Pss+Ind+Prt+Pl3:%>iq K ;
-!+Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>iv%{aä%}q K ;
+!+Err/Dial+Pss+Ind+Prt+Pl3:%>iv%{aä%}q K ;
 
 LEXICON Harm_Neutr_PSS_PRFPRC_dU
 +Pss+PrfPrc:d%{uü%} K ;
@@ -4506,14 +4506,14 @@ LEXICON Harm_Neutr_INF_mA
 +Inf/mA:%>m%{aä%} K ;
  V2N_minE ;
 +Act+Sup+Abe:%>m%{aä%}ld%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Sup+Abe:%>m%{aä%}ld%{aä%} K ;
++Err/Orth-no-q+Act+Sup+Abe:%>m%{aä%}ld%{aä%} K ;
 +Use/SpellNoSugg+Act+Sup+Abe:%>m%{aä%}d%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Act+Sup+Abe:%>m%{aä%}d%{aä%} K ;
-+Use/NG+Err/Orth-no-q+Act+Sup+Abe:%>m%{aä%}lda%{back%} K ;
-+Use/NG+Err/Orth-back+Act+Sup+Abe:%>m%{aä%}ldaq%{back%} K ;!CHECKME 2022-01-31
++Err/Orth-no-q+Act+Sup+Abe:%>m%{aä%}d%{aä%} K ;
++Err/Orth-no-q+Act+Sup+Abe:%>m%{aä%}lda%{back%} K ;
++Err/Orth-back+Act+Sup+Abe:%>m%{aä%}ldaq%{back%} K ;!CHECKME 2022-01-31
 +Act+Sup+Ine:%>m%{aä%}n K ;
-+Use/NG+Act+Sup+Ine:%>m%{aä%}h K ;
-+Use/NG+Act+Sup+Ine:%>m%{aä%}hn K ;
++Err/Dial+Act+Sup+Ine:%>m%{aä%}h K ;
++Err/Dial+Act+Sup+Ine:%>m%{aä%}hn K ;
 
 LEXICON GER_INE
 +Ger+Ine:%{eõ%}n K ;
@@ -4527,27 +4527,27 @@ LEXICON GER_INE_tEn
 
 LEXICON Harm_Neutr_INF_dAq
 +Inf:%>d%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Inf:%>d%{aä%} K ; !!= * @CODE@ no q
++Err/Orth-no-q+Inf:%>d%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON Harm_Neutr_INF_iAq
 +Inf:%>i%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Inf:%>i%{aä%} K ; !!= * @CODE@ no q
++Err/Orth-no-q+Inf:%>i%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON Harm_Neutr_INF_Aq
 +Inf:%>%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Inf:%>%{aä%} K ; !!= * @CODE@ no q
++Err/Orth-no-q+Inf:%>%{aä%} K ; !!= * @CODE@ no q
 
 !LEXICON Harm_Neutr_INF_vAq
 !+Inf:%>v%{aä%}q K ;
-!+Use/NG+Err/Orth-no-q+Inf:%>v%{aä%} K ; !!= * @CODE@ no q
+!+Err/Orth-no-q+Inf:%>v%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON Harm_Neutr_INF_tAq
 +Inf:%>t%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Inf:%>t%{aä%} K ; !!= * @CODE@ no q
++Err/Orth-no-q+Inf:%>t%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON Harm_Neutr_INF_ZEROq
 +Inf:%>q K ;
-+Use/NG+Err/Orth-no-q+Inf: K ; !!= * @CODE@ no q
++Err/Orth-no-q+Inf: K ; !!= * @CODE@ no q
 
 LEXICON V2N_minE
 +Der/minE+N:%>mis ATTESTED-NOUN-STEM-CONTINUED ;
@@ -4568,12 +4568,12 @@ LEXICON Harm_Neutr_ACT_PRSPRC_OBL_v
 +Act+PrsPrc+Sg+Ill:%>v%{aä%}he K ;
 +Act+PrsPrc+Pl+Nom:%>v%{aä%}q K ;
 +Act+PrsPrc+Pl+Gen:%>vid%{eõ%} K ;
-+Use/NG+Err/Orth+Act+PrsPrc+Pl+Gen:%>viid%{eõ%} K ;
++Err/Dial+Act+PrsPrc+Pl+Gen:%>viid%{eõ%} K ;
 +Act+PrsPrc+Pl+Par:%>vit K ;
-+Use/NG+Err/Orth+Act+PrsPrc+Pl+Par:%>viid K ;
++Err/Dial+Act+PrsPrc+Pl+Par:%>viid K ;
 +Act+PrsPrc+Pl+Ill:%>vihe K ;
-+Use/NG+Err/Orth+Act+PrsPrc+Pl+Ill:%>viihe K ;
-+Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ; !!= * @CODE@ no q
++Err/Dial+Act+PrsPrc+Pl+Ill:%>viihe K ;
++Err/Dial+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON ACT_PRSPRC_vA
 +Act+PrsPrc:%>v%{aä%} K ;  ! juuva süüvä
@@ -4585,25 +4585,25 @@ LEXICON ACT_PRSPRC_vA
 !+Act+PrsPrc+Sg+Ill:%>v%{aä%}he K ;
 !+Act+PrsPrc+Pl+Nom:%>v%{aä%}q K ;
 !+Act+PrsPrc+Pl+Gen:%>vid%{eõ%} K ;
-!+Use/NG+Err/Orth+Act+PrsPrc+Pl+Gen:%>viid%{eõ%} K ;
+!+Err/Dial+Act+PrsPrc+Pl+Gen:%>viid%{eõ%} K ;
 !+Act+PrsPrc+Pl+Par:%>vit K ;
-!+Use/NG+Err/Orth+Act+PrsPrc+Pl+Par:%>viid K ;
+!+Err/Dial+Act+PrsPrc+Pl+Par:%>viid K ;
 !+Act+PrsPrc+Pl+Ill:%>vihe K ;
-!+Use/NG+Err/Orth+Act+PrsPrc+Pl+Ill:%>viihe K ;
-!+Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ; !!= * @CODE@ no q
+!+Err/Dial+Act+PrsPrc+Pl+Ill:%>viihe K ;
+!+Err/Dial+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON ACT_PRFPRC_ALL_nUq
 +Act+PrfPrc:%>n%{uü%} NMN_2KASUNUQ/ELAENUEQ ;
 +Act+PrfPrc:%>n%{uü%} Harm_Neutr_COMP ;
 
 +Quo+Prt:%>n%{uü%}v%{aä%}q K ;
-+Use/NG+Err/Orth-no-q+Quo+Prt:%>n%{uü%}v%{aä%} K ;
++Err/Orth-no-q+Quo+Prt:%>n%{uü%}v%{aä%} K ;
 
 LEXICON ACT-PRFPRC_nUq-SG-NOM
 +Act+PrfPrc:%>n%{uü%}q K ;
 +Act+PrfPrc+Sg+Nom:%>n%{uü%}q K ;
-+Use/NG+Err/Orth-no-q+Act+PrfPrc:%>n%{uü%} K ;
-+Use/NG+Err/Orth-no-q+Act+PrfPrc+Sg+Nom:%>n%{uü%} K ;
++Err/Orth-no-q+Act+PrfPrc:%>n%{uü%} K ;
++Err/Orth-no-q+Act+PrfPrc+Sg+Nom:%>n%{uü%} K ;
 
 
 LEXICON ACT-PRFPRC-OBL_nU !!= * @CODE@ only oblique cases and Pl+Nom
@@ -4626,7 +4626,7 @@ LEXICON PSS_PRFPRC_t/IND-SG1_dX/IND-SG3_dX
  PSS-IND-SG3_dX ;
 
 PSS_IND_PRS_SG2_dAt ;
-+Use/NG+Err/Orth: PSS_IND_PRS_SG2_dAdEq ;
++Err/Dial: PSS_IND_PRS_SG2_dAdEq ;
 
 PSS_IND_PRS_PL1_dAmiq ;
 
@@ -4635,8 +4635,8 @@ PSS_IND_PRS_PL2_dAtiq ;
 PSS_IND_PRS_PL3_dAsEq ;
 
 PSS_IND_PRT_SG2_dit ;
-+Use/NG+Err/Orth: PSS_IND_PRT_SG2_diq ;
-+Use/NG+Err/Orth: PSS_IND_PRT_SG2_didEq ;
++Err/Dial: PSS_IND_PRT_SG2_diq ;
++Err/Dial: PSS_IND_PRT_SG2_didEq ;
 
 +Pss+Ind+Prt+Sg3:%>di K ;
 
@@ -4645,7 +4645,7 @@ PSS_IND_PRT_PL1_dimiq ;
 PSS_IND_PRT_PL2_ditiq ;
 
 PSS_IND_PRT_PL3_diq ;
-+Use/NG+Err/Orth: PSS_IND_PRT_PL3_divAq ;
++Err/Dial: PSS_IND_PRT_PL3_divAq ;
 
 
 PSS_PRSPRC_dAv ; !!= * @CODE@ +Pss+PrsPrc+Sg+Nom: kaotõdav
@@ -4655,21 +4655,21 @@ Harm_Neutr_KAOTAMA-PSS_PRFPRC_t ; !!= * @CODE@ +Pss+PrfPrc+Sg+Nom: kaotõt
 LEXICON Harm_Neutr_NÕSTMA-PSS_IND_PRS_dA
 PSS_IND_PRS/PRT_SG1_dX ;
 PSS_IND_PRS_SG2_tAt ;
-+Use/NG+Err/Orth: PSS_IND_PRS_SG2_tAdEq ;
++Err/Dial: PSS_IND_PRS_SG2_tAdEq ;
 PSS_IND_PRS_SG3_tAs ;
 PSS_IND_PRS_PL1_tAmiq ;
 PSS_IND_PRS_PL2_tAtiq ;
 PSS_IND_PRS_PL3_tAsEq ;
-+Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ; !!= * @CODE@ no q
-+Use/NG+Err/Orth+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ; !!= * @CODE@ no q
-+Use/NG+Err/Orth+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ; !!= * @CODE@ no q
-+Use/NG+Err/Orth+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ; !!= * @CODE@ no q
++Err/Dial+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ; !!= * @CODE@ no q
++Err/Dial+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ; !!= * @CODE@ no q
++Err/Dial+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ; !!= * @CODE@ no q
++Err/Dial+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ; !!= * @CODE@ no q
 
 
 LEXICON Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di
 +Pss+Ind+Prt+Sg3:%>di K ;
 PSS_IND_PRT_PL3_diq ;
-+Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>div%{aä%}q K ;
++Err/Dial+Pss+Ind+Prt+Pl3:%>div%{aä%}q K ;
 
 
 LEXICON PSS_PRSPRC_tAv
@@ -4683,10 +4683,10 @@ LEXICON PSS_PRSPRC_tAv
 +Pss+PrsPrc+Pl+Gen:%>t%{aä%}%>vid%{eõ%} K ;
 +Pss+PrsPrc+Pl+Par:%>t%{aä%}%>vit K ;
 +Pss+PrsPrc+Pl+Ill:%>t%{aä%}%>vihe K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Gen:%>t%{aä%}%>viid%{eõ%} K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Par:%>t%{aä%}%>viid K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Ill:%>t%{aä%}%>viihe K ;
-+Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ; !!= * @CODE@ no q
++Err/Dial+Pss+PrsPrc+Pl+Gen:%>t%{aä%}%>viid%{eõ%} K ;
++Err/Dial+Pss+PrsPrc+Pl+Par:%>t%{aä%}%>viid K ;
++Err/Dial+Pss+PrsPrc+Pl+Ill:%>t%{aä%}%>viihe K ;
++Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON PSS_PRSPRC_dAv
 +Pss+PrsPrc:%>d%{aä%}v K ;
@@ -4699,10 +4699,10 @@ LEXICON PSS_PRSPRC_dAv
 +Pss+PrsPrc+Pl+Gen:%>d%{aä%}%>vid%{eõ%} K ;
 +Pss+PrsPrc+Pl+Par:%>d%{aä%}%>vit K ;
 +Pss+PrsPrc+Pl+Ill:%>d%{aä%}%>vihe K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Gen:%>d%{aä%}%>viid%{eõ%} K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Par:%>d%{aä%}%>viid K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Ill:%>d%{aä%}%>viihe K ;
-+Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ; !!= * @CODE@ no q
++Err/Dial+Pss+PrsPrc+Pl+Gen:%>d%{aä%}%>viid%{eõ%} K ;
++Err/Dial+Pss+PrsPrc+Pl+Par:%>d%{aä%}%>viid K ;
++Err/Dial+Pss+PrsPrc+Pl+Ill:%>d%{aä%}%>viihe K ;
++Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON PSS_PRSPRC_ttAv
 +Pss+PrsPrc:%>tt%{aä%}v K ;
@@ -4715,10 +4715,10 @@ LEXICON PSS_PRSPRC_ttAv
 +Pss+PrsPrc+Pl+Gen:%>tt%{aä%}%>vid%{eõ%} K ;
 +Pss+PrsPrc+Pl+Par:%>tt%{aä%}%>vit K ;
 +Pss+PrsPrc+Pl+Ill:%>tt%{aä%}%>vihe K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Gen:%>tt%{aä%}%>viid%{eõ%} K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Par:%>tt%{aä%}%>viid K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Ill:%>tt%{aä%}%>viihe K ;
-+Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>tt%{aä%}%>v%{aä%} K ; !!= * @CODE@ no q
++Err/Dial+Pss+PrsPrc+Pl+Gen:%>tt%{aä%}%>viid%{eõ%} K ;
++Err/Dial+Pss+PrsPrc+Pl+Par:%>tt%{aä%}%>viid K ;
++Err/Dial+Pss+PrsPrc+Pl+Ill:%>tt%{aä%}%>viihe K ;
++Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>tt%{aä%}%>v%{aä%} K ; !!= * @CODE@ no q
 
 
 LEXICON Harm_Neutr_KAOTAMA-PSS_PRFPRC_t
@@ -4732,11 +4732,11 @@ LEXICON Harm_Neutr_KAOTAMA-PSS_PRFPRC_t
 +Pss+PrfPrc+Sg+Ill:%>d%{uü%}he K ; !2023_02_19
 PSS-PRFPRC-PL-NOM_dUq ;
 +Pss+PrfPrc+Pl+Gen:%>d%{uü%}id%{eõ%} K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Gen:%>d%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Gen:%>d%{uü%}isi K ;
 +Pss+PrfPrc+Pl+Par:%>d%{uü%}id K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Par:%>d%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Par:%>d%{uü%}isi K ;
 +Pss+PrfPrc+Pl+Ill:%>d%{uü%}ihe K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Ill:%>d%{uü%}isihe K ;
++Err/Dial+Pss+PrfPrc+Pl+Ill:%>d%{uü%}isihe K ;
 
 LEXICON PSS_PRFPRC_d
 +Pss+PrfPrc:%>d K ;
@@ -4749,10 +4749,10 @@ LEXICON PSS_PRFPRC_d
 +Pss+PrfPrc+Pl+Gen:%>d%{uü%}id%{eõ%} K ;
 +Pss+PrfPrc+Pl+Par:%>d%{uü%}id K ;
 +Pss+PrfPrc+Pl+Ill:%>d%{uü%}ihe K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Gen:%>d%{uü%}isi K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Par:%>d%{uü%}isi K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Ill:%>d%{uü%}isihe K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; !!= * @CODE@
++Err/Dial+Pss+PrfPrc+Pl+Gen:%>d%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Par:%>d%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Ill:%>d%{uü%}isihe K ;
++Err/Dial+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; !!= * @CODE@
 
 LEXICON PSS_PRFPRC_t_ONLY
 +Pss+PrfPrc:%>t K ;
@@ -4763,11 +4763,11 @@ LEXICON PSS_PRFPRC_t_ONLY
 +Pss+PrfPrc+Sg+Ill:%>t%{uü%}he K ;
  PSS-PRFPRC-PL-NOM_tUq ;
 +Pss+PrfPrc+Pl+Gen:%>t%{uü%}id%{eõ%} K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Gen:%>t%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Gen:%>t%{uü%}isi K ;
 +Pss+PrfPrc+Pl+Par:%>t%{uü%}id K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Par:%>t%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Par:%>t%{uü%}isi K ;
 +Pss+PrfPrc+Pl+Ill:%>t%{uü%}ihe K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Ill:%>t%{uü%}isihe K ;
++Err/Dial+Pss+PrfPrc+Pl+Ill:%>t%{uü%}isihe K ;
 
 LEXICON PSS_PRFPRC_t/SG-GEN_dU
 +Pss+PrfPrc:%>t K ;
@@ -4781,12 +4781,12 @@ LEXICON NMN_PSS_PRFPRC_t/SG-GEN_dU
 +Sg+Ill:%>t%{uü%}he K ;
 +Pl+Nom:%>d%{uü%}q K ;
 +Pl+Gen:%>t%{uü%}id%{eõ%} K ;
-+Use/NG+Err/Orth+Pl+Gen:%>t%{uü%}isi K ;
++Err/Dial+Pl+Gen:%>t%{uü%}isi K ;
 +Pl+Par:%>t%{uü%}id K ;
-+Use/NG+Err/Orth+Pl+Par:%>t%{uü%}isi K ;
++Err/Dial+Pl+Par:%>t%{uü%}isi K ;
 +Pl+Ill:%>t%{uü%}ihe K ;
-+Use/NG+Err/Orth+Pl+Ill:%>t%{uü%}isihe K ;
-+Use/NG+Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ; !!= * @CODE@ no q
++Err/Dial+Pl+Ill:%>t%{uü%}isihe K ;
++Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ; !!= * @CODE@ no q
 
 LEXICON PSS_PRFPRC_d/SG-GEN_dU
 +Pss+PrfPrc:%>d K ;
@@ -4797,11 +4797,11 @@ LEXICON PSS_PRFPRC_d/SG-GEN_dU
 +Pss+PrfPrc+Sg+Ill:%>d%{uü%}he K ;
  PSS-PRFPRC-PL-NOM_dUq ;
 +Pss+PrfPrc+Pl+Gen:%>t%{uü%}id%{eõ%} K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Gen:%>d%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Gen:%>d%{uü%}isi K ;
 +Pss+PrfPrc+Pl+Par:%>d%{uü%}id K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Par:%>d%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Par:%>d%{uü%}isi K ;
 +Pss+PrfPrc+Pl+Ill:%>d%{uü%}ihe K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Ill:%>d%{uü%}isihe K ;
++Err/Dial+Pss+PrfPrc+Pl+Ill:%>d%{uü%}isihe K ;
 
 LEXICON PSS_PRFPRC_tt
 +Pss+PrfPrc:%>tt K ;
@@ -4820,12 +4820,12 @@ PSS-PRFPRC-PL-NOM_tUq ;
 !CHECKME below 2019-01-09
 +Pss+Ind+Prt+Sg1:%>ti K ;
 +Pss+Ind+Prt+Sg2:%>ttit K ;
-+Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>ttid%{eõ%}q K ;
++Err/Dial+Pss+Ind+Prt+Sg2:%>ttid%{eõ%}q K ;
 +Pss+Ind+Prt+Sg3:%>tti K ;
 +Pss+Ind+Prt+Pl1:%>ttimiq K ;
 +Pss+Ind+Prt+Pl2:%>ttitiq K ;
 +Pss+Ind+Prt+Pl3:%>tiq K ;
-+Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>ttiv%{aä%}q K ;
++Err/Dial+Pss+Ind+Prt+Pl3:%>ttiv%{aä%}q K ;
 
 
 LEXICON PSS_PRFPRC_ttU
@@ -4845,12 +4845,12 @@ PSS-PRFPRC-PL-NOM_ttUq ;
 !CHECKME below 2019-01-09
 +Pss+Ind+Prt+Sg1:%>ti K ;
 +Pss+Ind+Prt+Sg2:%>ttit K ;
-+Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%>ttid%{eõ%}q K ;
++Err/Dial+Pss+Ind+Prt+Sg2:%>ttid%{eõ%}q K ;
 +Pss+Ind+Prt+Sg3:%>tti K ;
 +Pss+Ind+Prt+Pl1:%>ttimiq K ;
 +Pss+Ind+Prt+Pl2:%>ttitiq K ;
 +Pss+Ind+Prt+Pl3:%>tiq K ;
-+Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%>ttiv%{aä%}q K ;
++Err/Dial+Pss+Ind+Prt+Pl3:%>ttiv%{aä%}q K ;
 
 LEXICON PSS_PRFPRC_ttU-SG-NOM
 +Pss+PrfPrc:%>tt%{uü%} K ;
@@ -4878,19 +4878,19 @@ LEXICON Harm_Neutr_ACT_PRSPRC_v_LUGWMA !!= * @CODE@ lugõma:lugõ
 +Act+PrsPrc+Sg+Ill:%>v%{aä%}he K ;
 +Act+PrsPrc+Pl+Nom:%>v%{aä%}q K ;
 +Act+PrsPrc+Pl+Gen:%>vid%{eõ%} K ;
-+Use/NG+Err/Orth+Act+PrsPrc+Pl+Gen:%>viid%{eõ%} K ;
++Err/Dial+Act+PrsPrc+Pl+Gen:%>viid%{eõ%} K ;
 +Act+PrsPrc+Pl+Par:%>vit K ;
-+Use/NG+Err/Orth+Act+PrsPrc+Pl+Par:%>viid K ;
++Err/Dial+Act+PrsPrc+Pl+Par:%>viid K ;
 +Act+PrsPrc+Pl+Ill:%>vihe K ;
-+Use/NG+Err/Orth+Act+PrsPrc+Pl+Ill:%>viihe K ;
-+Use/NG+Err/Orth-no-q+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ; !!= * @CODE@ no q
++Err/Dial+Act+PrsPrc+Pl+Ill:%>viihe K ;
++Err/Orth-no-q+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ; !!= * @CODE@ no q
 !
 
 
 LEXICON Harm_Neutr_ACT-PRFPRC_v_LUGWMA
 +Act+PrfPrc:%>n%{uü%}q K ;
 +Act+PrfPrc:%>n%{uü%} NMN_2KASUNUQ/ELAENUEQ ; !FIX ME
-+Use/NG+Err/Orth-no-q+Act+PrfPrc:%>n%{uü%} K ; !!= * @CODE@ no q
++Err/Orth-no-q+Act+PrfPrc:%>n%{uü%} K ; !!= * @CODE@ no q
 
 
 LEXICON Harm_Neutr_LUGWMA_IND-PRT-SG3
@@ -4913,8 +4913,8 @@ LEXICON Harm_Neutr_LUGWMA_IND-CONNEGII
 LEXICON Harm_Neutr_LUGWMA_PSS-PRC
 +Pss+PrfPrc:%>t K ;
 +Pss+PrfPrc+Sg+Nom:%>t K ;
-+Use/NG+Err/Orth+Pss+PrfPrc:%>t%{uü%} K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>t%{uü%} K ;
++Err/Dial+Pss+PrfPrc:%>t%{uü%} K ;
++Err/Dial+Pss+PrfPrc+Sg+Nom:%>t%{uü%} K ;
 +Pss+PrfPrc+Sg+Gen:%>d%{uü%} K ;
 +Pss+PrfPrc:%>d%{uü%} Harm_Neutr_COMP ;
 +Pss+PrfPrc+Sg+Par:%>t%{uü%}t K ;
@@ -4923,9 +4923,9 @@ LEXICON Harm_Neutr_LUGWMA_PSS-PRC
 +Pss+PrfPrc+Pl+Gen:%>t%{uü%}id%{eõ%} K ;
 +Pss+PrfPrc+Pl+Par:%>t%{uü%}id K ;
 +Pss+PrfPrc+Pl+Ill:%>t%{uü%}ihe K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Gen:%>t%{uü%}isi K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Par:%>t%{uü%}isi K ;
-+Use/NG+Err/Orth+Pss+PrfPrc+Pl+Ill:%>t%{uü%}isihe K ;
++Err/Dial+Pss+PrfPrc+Pl+Gen:%>t%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Par:%>t%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Ill:%>t%{uü%}isihe K ;
 !
 +Pss+PrsPrc:%>t%{aä%}v K ;
 +Pss+PrsPrc+Sg+Nom:%>t%{aä%}v K ;
@@ -4937,45 +4937,45 @@ LEXICON Harm_Neutr_LUGWMA_PSS-PRC
 +Pss+PrsPrc+Pl+Gen:%>t%{aä%}%>vid%{eõ%} K ;
 +Pss+PrsPrc+Pl+Par:%>t%{aä%}%>vit K ;
 +Pss+PrsPrc+Pl+Ill:%>t%{aä%}%>vihe K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Gen:%>t%{aä%}%>viid%{eõ%} K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Par:%>t%{aä%}%>viid K ;
-+Use/NG+Err/Orth+Pss+PrsPrc+Pl+Ill:%>t%{aä%}%>viihe K ;
-+Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ; !!= * @CODE@ no q
++Err/Dial+Pss+PrsPrc+Pl+Gen:%>t%{aä%}%>viid%{eõ%} K ;
++Err/Dial+Pss+PrsPrc+Pl+Par:%>t%{aä%}%>viid K ;
++Err/Dial+Pss+PrsPrc+Pl+Ill:%>t%{aä%}%>viihe K ;
++Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ; !!= * @CODE@ no q
 !
 PSS_IND_PRS/PRT_SG1_dX ;
 PSS_IND_PRS_SG2_tAt ;
-+Use/NG+Err/Orth: PSS_IND_PRS_SG2_tAdEq ;
++Err/Dial: PSS_IND_PRS_SG2_tAdEq ;
 PSS_IND_PRS_SG3_tAs ;
 PSS_IND_PRS_PL1_tAmiq ;
 PSS_IND_PRS_PL2_tAtiq ;
 PSS_IND_PRS_PL3_tAsEq ;
 
 PSS_IND_PRT_SG2_tit ;
-+Use/NG+Err/Orth: PSS_IND_PRT_SG2_tidEq ;
++Err/Dial: PSS_IND_PRT_SG2_tidEq ;
 PSS_IND_PRT_SG3_ti ;
 PSS_IND_PRT_PL1_timiq ;
 PSS_IND_PRT_PL2_titiq ;
 PSS_IND_PRT_PL3_diq ;
-+Use/NG+Err/Orth: PSS_IND_PRT_PL3_tivAq ;
++Err/Dial: PSS_IND_PRT_PL3_tivAq ;
 
 
 LEXICON Harm_Neutr_LOGÕMA_ACT-IND-PRT-SG1
 +Act+Ind+Prt+Sg1: K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg1:%>e K ;
++Err/Dial+Act+Ind+Prt+Sg1:%>e K ;
 +Act+Ind+Prt+Sg2:%>t K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>%{eõ%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>%{eõ%}t K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Sg2:%>%{eõ%}d%{eõ%}q K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>q K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>d%{eõ%}q K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>%{eõ%}q K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>%{eõ%}t K ;
++Err/Dial+Act+Ind+Prt+Sg2:%>%{eõ%}d%{eõ%}q K ;
 +Act+Ind+Prt+Pl1:%>miq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl1:%>%{eõ%}miq K ;
++Err/Dial+Act+Ind+Prt+Pl1:%>%{eõ%}miq K ;
 +Act+Ind+Prt+Pl2:%>tiq K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl2:%>%{eõ%}tiq K ;
++Err/Dial+Act+Ind+Prt+Pl2:%>%{eõ%}tiq K ;
 +Act+Ind+Prt+Pl3:%>q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%>v%{aä%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%>%{eõ%}q K ;
-+Use/NG+Err/Orth+Act+Ind+Prt+Pl3:%>%{eõ%}v%{aä%}q K ;
++Err/Dial+Act+Ind+Prt+Pl3:%>v%{aä%}q K ;
++Err/Dial+Act+Ind+Prt+Pl3:%>%{eõ%}q K ;
++Err/Dial+Act+Ind+Prt+Pl3:%>%{eõ%}v%{aä%}q K ;
 
 LEXICON TULWMA_ACT_IND_PRT_ZERO_and_X
 : ACT_IND_PRT_SG1_ZERO ;
