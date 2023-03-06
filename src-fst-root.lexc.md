@@ -76,6 +76,9 @@ The Usage extents are marked using following tags:
 * **+Err/Orth-weak-grade**
 * **+Err/Orth-back** erroneous back harmony, see flags
 * **+Err/Orth-front** erroneous front harmony, see flags
+* **+Err/Dial** This is the initial Dialect distinction
+it will require further work from a professional, i.e., Sullõv or like for
+distinguishing dialects.
 * **+Dial/-u-not-o** dialect u stem where o expected
 * **+Use/-Spell**
 * **+Use/SpellNoSugg** not suggested in speller

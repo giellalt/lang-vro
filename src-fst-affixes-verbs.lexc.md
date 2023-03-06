@@ -157,14 +157,14 @@ Based on 59KAOTAMA
 +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
 
 * :%^VOWRaise%^WGStem%^NoPAL%>i   ACT_IND_PRT_SG1_ZERO/SG2_q/PL3_q ;  kaodi
-+Act+Ind+Prt+Sg1, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
++Act+Ind+Prt+Sg1, +Err/Dial+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl3
 
-+Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
++Act+Ind+Prs+Sg2, +Err/Dial+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
 * :%^VOWRaise%^StrGStem%^NoPAL%>i Harm_Neutr_ACT_IND_PRT_SG2_USUALLY-STRONG ;  kaoti
-+Act+Ind+Prt+Sg2, +Use/NG+Err/Orth+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
-+Act+Ind+Prt+Pl2, +Use/NG+Err/Orth+Act+Ind+Prt+Pl3
++Act+Ind+Prt+Sg2, +Err/Dial+Act+Ind+Prt+Sg2, +Act+Ind+Prt+Pl1,
++Act+Ind+Prt+Pl2, +Err/Dial+Act+Ind+Prt+Pl3
 
 +Act+Ind+Prt+Sg3
 
@@ -211,12 +211,12 @@ gradation: no
 
 * **LEXICON V_63VISKAMA/HINGAEMAE** viskama:viska
 
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>tid%{eõ%} K ;  no    q
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl1:%^Pen%^VOWLower%^Pen%^WGStem%>timi K ;  no    q
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl2:%^Pen%^VOWLower%^Pen%^WGStem%>titi K ;  no    q
-* +Use/NG+Err/Orth+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>tiv%{aä%} K ;  no    q
+* +Err/Dial+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
+* +Err/Dial+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>di K ;  no    q
+* +Err/Dial+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>tid%{eõ%} K ;  no    q
+* +Err/Dial+Pss+Ind+Prt+Pl1:%^Pen%^VOWLower%^Pen%^WGStem%>timi K ;  no    q
+* +Err/Dial+Pss+Ind+Prt+Pl2:%^Pen%^VOWLower%^Pen%^WGStem%>titi K ;  no    q
+* +Err/Dial+Pss+Ind+Prt+Pl3:%^Pen%^VOWLower%^Pen%^WGStem%>tiv%{aä%} K ;  no    q
 
 +Pss+Ind+Prt +Sg1-+Pl3, ConNeg
 
@@ -750,7 +750,7 @@ sõida
 ### SETS BY CONSONANT QUALITY
 
 * : Harm_Neutr_ACT_IND_PRS_SG2_USUALLY-STRONG ;  kaota
-+Act+Ind+Prs+Sg2, +Use/NG+Err/Orth+Act+Ind+Prs+Sg2, 
++Act+Ind+Prs+Sg2, +Err/Dial+Act+Ind+Prs+Sg2, 
 +Act+Ind+Prs+Pl1, +Act+Ind+Prs+Pl2
 
 * : ACT_IND_PRS_3_s/sEq ;  
@@ -759,9 +759,9 @@ sõida
 ### INDICATIVE PRESENT SUBJECT CONJUGATION
 
 * +Ind+Prs+Neg:%-%{XV%}iq K ;  This gives stress
-* +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-iq K ;  This gives stress
-* +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-%{XV%}i K ;  more neutral without q
-* +Err/Orth-no-q+Use/NG+Ind+Prs+Neg:%-i K ;  more neutral without q
+* +Err/Orth-no-q+Ind+Prs+Neg:%-iq K ;  This gives stress
+* +Err/Orth-no-q+Ind+Prs+Neg:%-%{XV%}i K ;  more neutral without q
+* +Err/Orth-no-q+Ind+Prs+Neg:%-i K ;  more neutral without q
 
 ### JUS
 * LEXICON MUTUAL_JUS_guq  regardless of harmony this is back 
@@ -778,25 +778,25 @@ CHECK THIS
 
 ### PASSIVE INDICATIVE PRETERIT CONJUGATION
 
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>tt%{uü%} K ;  no q
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
-* +Use/NG+Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
+* +Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>tt%{uü%} K ;  no q
+* +Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
+* +Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
 ### NON-FINITES
 
-* +Use/NG+Err/Orth-no-q+Inf:%>d%{aä%} K ;  no q
+* +Err/Orth-no-q+Inf:%>d%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Inf:%>i%{aä%} K ;  no q
+* +Err/Orth-no-q+Inf:%>i%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Inf:%>%{aä%} K ;  no q
+* +Err/Orth-no-q+Inf:%>%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Inf:%>t%{aä%} K ;  no q
+* +Err/Orth-no-q+Inf:%>t%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Inf: K ;  no q
+* +Err/Orth-no-q+Inf: K ;  no q
 
 * **+Der/JA+N:%>j NMN_9KIPWN1/ELLAEI ;** This should have a +Der/JA tag
 
-* +Use/NG+Err/Orth+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
+* +Err/Dial+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
 
 * LEXICON ACT-PRFPRC-OBL_nU  only oblique cases and Pl+Nom
 
@@ -807,29 +807,29 @@ PASSIVE DISTRIBUTION
 * PSS_PRSPRC_dAv ;  +Pss+PrsPrc+Sg+Nom: kaotõdav
 * Harm_Neutr_KAOTAMA-PSS_PRFPRC_t ;  +Pss+PrfPrc+Sg+Nom: kaotõt
 
-* +Use/NG+Err/Orth+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;  no q
-* +Use/NG+Err/Orth+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;  no q
-* +Use/NG+Err/Orth+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;  no q
-* +Use/NG+Err/Orth+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;  no q
+* +Err/Dial+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;  no q
+* +Err/Dial+Pss+Ind+Prs+Pl1:%>t%{aä%}mi K ;  no q
+* +Err/Dial+Pss+Ind+Prs+Pl2:%>t%{aä%}ti K ;  no q
+* +Err/Dial+Pss+Ind+Prs+Pl3:%>t%{aä%}s%{eõ%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
+* +Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
+* +Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>d%{aä%}%>v%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>tt%{aä%}%>v%{aä%} K ;  no q
+* +Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>tt%{aä%}%>v%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
+* +Err/Dial+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
 
-* +Use/NG+Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ;  no q
+* +Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ;  no q
 
 * LEXICON Harm_Neutr_ACT_PRSPRC_v_LUGWMA  lugõma:lugõ
 Retain consonant and stem vowel
 
-* +Use/NG+Err/Orth-no-q+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
+* +Err/Orth-no-q+Act+PrsPrc+Pl+Nom:%>v%{aä%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Act+PrfPrc:%>n%{uü%} K ;  no q
+* +Err/Orth-no-q+Act+PrfPrc:%>n%{uü%} K ;  no q
 
-* +Use/NG+Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
+* +Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
 
 * * *
 

@@ -462,8 +462,8 @@ LEXICON NMN_3ALADU  aladu:aladu
 * *tervüisildäq* `tervüs+N+Pl+Abe:`
 * *tervüisigaq* `tervüs+N+Pl+Com:`
 
-* +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i Harm_Neutr_PL-GEN_dE ;  tervide
-* +Use/NG+Err/Orth:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
+* +Err/Dial:%^VowRM%^CnsRM%>i Harm_Neutr_PL-GEN_dE ;  tervide
+* +Err/Dial:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
 
 * **LEXICON NMN_4AINUS ** Types 4, 8, 17
 
@@ -1356,7 +1356,7 @@ LEXICON NMN_11ANNWQ/LAETEQ  läteq:lä%{tØ%}te
 
 **N-suekues12**
 
-* +Use/NG+Err/Orth:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
+* +Err/Dial:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
 
 LEXICON NMN_13ALONW/TAEHINE  alonõ:alo
 
@@ -2061,13 +2061,13 @@ gradation: yes
 
 ### TAGS THAT CAN BE FOLLOWED BY CLITICS "K"
 ### PLURAL TAGS
-* +Use/NG+Err/Orth-no-q+Pl+Abe:%>ld%{aä%} K ;  no q
+* +Err/Orth-no-q+Pl+Abe:%>ld%{aä%} K ;  no q
 
 ### SINGULAR TAGS
 
-* +Use/NG+Err/Orth-no-q+Sg+Com:%>ga K ;  no q
-* +Use/NG+Err/Orth-no-q+Err/Orth-front+Sg+Com:%>gä K ;  no q, front
-* +Use/NG+Err/Orth-no-q+Sg+Com:%>ga BACK_K ;  no q
+* +Err/Orth-no-q+Sg+Com:%>ga K ;  no q
+* +Err/Orth-no-q+Err/Orth-front+Sg+Com:%>gä K ;  no q, front
+* +Err/Orth-no-q+Sg+Com:%>ga BACK_K ;  no q
 
 LEXICON Harm_Neutr_SG-INE_hn  RARE
 
