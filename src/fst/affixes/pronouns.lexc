@@ -89,19 +89,19 @@ LEXICON A_MAANEGI
 
 !! ### PERSONAL PRONOUN
 LEXICON PERS-SG1
-PERS-PL1 ;
+PERS_PL1 ;
 +Pers+Sg1: PERS-SG1-2-NOM-COM ;
 +Pers+Sg1:u PERS-SG1-2-ABE-TRA ;
 +Pers+Sg1:ino PERS-SG1-2-ABE-TRA ;
 
 LEXICON PERS-SG2
-PERS-PL2 ;
+PERS_PL2 ;
 +Pers+Sg2:s PERS-SG1-2-NOM-COM ;
 +Pers+Sg2:su PERS-SG1-2-ABE-TRA ;
 +Pers+Sg2:sino PERS-SG1-2-ABE-TRA ;
 
 LEXICON PERS-SG3
-!PERS-PL3 ;
+!PERS_PL3 ;
 +Pers+Sg3+Nom: FOR-PERS-SG3-GEN/NOM ;
 +Pers+Sg3+Gen: FOR-PERS-SG3-GEN/NOM ;
 +Pers+Sg3+Abe:imäldäq FRONT_K ;
@@ -159,31 +159,31 @@ NEUTR_FOLLOW-CLITIC-OR-NOT_TRASUF ;
 NEUTR_FOLLOW-CLITIC-OR-NOT_INESUF_N-H-HN ;
 
 
-LEXICON PERS-PL1 !!= @CODE@ maq:m
-+Pers+Pl1: PERS-PL1-2 ;
+LEXICON PERS_PL1 !!= @CODE@ maq:m
++Pers+Pl1: PERS_PL1-2 ;
 
-LEXICON PERS-PL2 !!= @CODE@ saq:
-+Pers+Pl2:t PERS-PL1-2 ;
+LEXICON PERS_PL2 !!= @CODE@ saq:
++Pers+Pl2:t PERS_PL1-2 ;
 
-LEXICON PERS-PL3 !!= @CODE@ timä:
+LEXICON PERS_PL3 !!= @CODE@ timä:
 +Pers+Pl3+Nom:ääq K ;
 +Pers+Pl3+Nom:ä K ;
 +Pers+Pl3+Nom:imäq K ;
 +Pers+Pl3+Nom:iäq K ;
 +Pers+Pl3+Gen:äide K ;
 +Pers+Pl3:äide%{front%} NEUTR_FOLLOW-CLITIC-OR-NOT_TERSUF ;
-+Pers+Pl3:ä FOR-PERS-PL1/2/3 ;
++Pers+Pl3:ä FOR-PERS_PL1/2/3 ;
 
 
-LEXICON PERS-PL1-2
+LEXICON PERS_PL1-2
 +Nom:iiq K ;
 +Nom:i K ;
 +Gen:iiq K ;
 +Gen:i K ;
 +Com:iiqkaq K ;
-:e FOR-PERS-PL1/2/3 ;
+:e FOR-PERS_PL1/2/3 ;
 
-LEXICON FOR-PERS-PL1/2/3
+LEXICON FOR-PERS_PL1/2/3
 +Par:id K ;
 +Ela:ist K ;
 +All:ile K ;
@@ -316,24 +316,24 @@ LEXICON PRON-DEM
 !LEXICON PRON-INDEF_mis
 
 LEXICON PRON_PALL1O
-: Harm_Neutr_SG-NOM ;
-:%{back%} Harm_Neutr_SG-GEN ;
-:%{back%} Harm_Neutr_SG-ALL_lE-STEM ;
-:%{back%} Harm_Neutr_SG-PAR_d ;
+: Harm_Neutr_SG_NOM ;
+:%{back%} Harm_Neutr_SG_GEN ;
+:%{back%} Harm_Neutr_SG_ALL_lE-STEM ;
+:%{back%} Harm_Neutr_SG_PAR_d ;
 
-:%{back%} Harm_Neutr_PL-NOM ;
-:%{back%} Harm_Neutr_PL-GEN_dE ;
-:%{back%}d%{eõ%} PL-ALL_lE-STEM ;
+:%{back%} Harm_Neutr_PL_NOM ;
+:%{back%} Harm_Neutr_PL_GEN_dE ;
+:%{back%}d%{eõ%} PL_ALL_lE-STEM ;
 
 LEXICON PRON_21MONI
-:i Harm_Neutr_SG-NOM ;
-:%{back%}%>%{eõ%} Harm_Neutr_SG-GEN ;
-:%{back%}%>%{eõ%} Harm_Neutr_SG-ALL_lE-STEM ;
+:i Harm_Neutr_SG_NOM ;
+:%{back%}%>%{eõ%} Harm_Neutr_SG_GEN ;
+:%{back%}%>%{eõ%} Harm_Neutr_SG_ALL_lE-STEM ;
 +Sg+Par:%{back%}%>d%{aä%} K ;
-:%{back%} Harm_Neutr_SG-PAR_d ;
+:%{back%} Harm_Neutr_SG_PAR_d ;
 
-:%{back%}%>%{eõ%} Harm_Neutr_PL-NOM ;
-:%{back%}%>i PL-ALL_lE-STEM ;
+:%{back%}%>%{eõ%} Harm_Neutr_PL_NOM ;
+:%{back%}%>i PL_ALL_lE-STEM ;
 
 LEXICON Interrogative
 !veid́oq+Pron:veid́oq PRON_11 "_ˋveit́o, veid́ot, %{ˋØ%}veit́(o)idõ, %{ˋØ%}veit́oid, %{ˋØ%}veitit__veid́oq_" ;
@@ -368,17 +368,17 @@ muu+Pron:m%{ou%}%{ou%} PRON_30MAA "_#, #d__mu̬u̬_" ;
 kõiḱ+Pron:kõ̭i%{kØ%}%{kḱg%} PRON_36KWIK1 "_#gõ, #kkõ__kõ̭|iḱ_" ;
 
 LEXICON PRON_27MITU
-:u%{back%} Harm_Neutr_SG-NOM ;
-:o%{back%} Harm_Neutr_SG-NOM ;
-:m%{back%}%>%{eõ%} Harm_Neutr_SG-GEN ;
-:m%{back%}%>%{eõ%} Harm_Neutr_SG-ALL_lE-STEM ;
+:u%{back%} Harm_Neutr_SG_NOM ;
+:o%{back%} Harm_Neutr_SG_NOM ;
+:m%{back%}%>%{eõ%} Harm_Neutr_SG_GEN ;
+:m%{back%}%>%{eõ%} Harm_Neutr_SG_ALL_lE-STEM ;
 +Sg+Par:und%{back%} K ;
-:m%{back%}%>%{eõ%} Harm_Neutr_SG-ILL_he ;
-:m%{back%}%>%{eõ%}  SG-ILL_hE ;
+:m%{back%}%>%{eõ%} Harm_Neutr_SG_ILL_he ;
+:m%{back%}%>%{eõ%}  SG_ILL_hE ;
 +Pl+Par:mit # ;
-:m%{back%}%>%{eõ%} Harm_Neutr_PL-NOM ;
-:m%{back%}%>i Harm_Neutr_PL-GEN_dE ;
-:m%{back%}%>i PL-ALL_lE-STEM ;
+:m%{back%}%>%{eõ%} Harm_Neutr_PL_NOM ;
+:m%{back%}%>i Harm_Neutr_PL_GEN_dE ;
+:m%{back%}%>i PL_ALL_lE-STEM ;
 
 !! ### INTERROGATIVE PRONOUNS
 LEXICON PRON-INTERR-HUM
@@ -387,17 +387,17 @@ LEXICON PRON-INTERR-HUM
 +Sem/Hum+Interr+SP+Par:edä # ;
 +Sem/Hum+Interr+SP+Com:inkaq # ;
 +Sem/Hum+Interr+SP:inka%{back%} PRON-INTERR_miae-ABE-ADE-ABL-ALL-ELA-ILL-INE-TRA ;
-+Sem/Hum+Interr+SP:e%{front%} NEUTR_ABESUF ;
-+Sem/Hum+Interr+SP:e%{front%} NEUTR_ABLSUF ;
-+Sem/Hum+Interr+SP:e%{front%} NEUTR_ADESUF ;
-+Sem/Hum+Interr+SP:el%{front%} NEUTR_ALLSUF_lE ;
-+Sem/Hum+Interr+SP:e%{front%} NEUTR_ELASUF ;
-+Sem/Hum+Interr+SP:e%{front%} NEUTR_ILLSUF_he ;
-+Sem/Hum+Interr+SP:e%{front%} NEUTR_INESUF_N-H-HN ;
-+Sem/Hum+Interr+SP:e%{front%} NEUTR_TRASUF ;
++Err/Dial+Sem/Hum+Interr+SP:e%{front%} NEUTR_ABESUF ;
++Err/Dial+Sem/Hum+Interr+SP:e%{front%} NEUTR_ABLSUF ;
++Err/Dial+Sem/Hum+Interr+SP:e%{front%} NEUTR_ADESUF ;
++Err/Dial+Sem/Hum+Interr+SP:el%{front%} NEUTR_ALLSUF_lE ;
++Err/Dial+Sem/Hum+Interr+SP:e%{front%} NEUTR_ELASUF ;
++Err/Dial+Sem/Hum+Interr+SP:e%{front%} NEUTR_ILLSUF_he ;
++Err/Dial+Sem/Hum+Interr+SP:e%{front%} NEUTR_INESUF_N-H-HN ;
++Err/Dial+Sem/Hum+Interr+SP:e%{front%} NEUTR_TRASUF ;
 
 +Sem/Hum+Interr+SP:inka%{back%} NEUTR_TERSUF ;
-+Sem/Hum+Interr+SP:eeniq TER_ZERO ;
++Err/Dial+Sem/Hum+Interr+SP:eeniq TER_ZERO ;
 
 LEXICON INDEF_kiq
 :kiq ENDLEX ;
@@ -469,11 +469,11 @@ LEXICON PRON_36KWIK1
 
 LEXICON PRON_36UETS1 !!= * @CODE@ ütś:üt
  PRON_36UETS1-SG ;
- PRON_36UETS1-PL ;
+ PRON_36UETS1_PL ;
 LEXICON PRON_36UETS1-SG
 :%{front%} NMN_36KATS1/UETS1-SG ;
-LEXICON PRON_36UETS1-PL
-:%{front%} NMN_36KATS1/UETS1-PL ;
+LEXICON PRON_36UETS1_PL
+:%{front%} NMN_36KATS1/UETS1_PL ;
 
 
 ! vim: set ft=xfst-lexc:

@@ -48,11 +48,11 @@ jämmä+A:jämme%{front%} COMP ;
 
 sääne+A+Sg+Nom+Use/SpellNoSugg:säänä K ; !
 hüä+A+Sg+Nom:hüä K ; ! pesä type
-hüä+A:hüä%{front%} SG-GEN_ZERO-STEM ;
+hüä+A:hüä%{front%} SG_GEN_ZERO-STEM ;
 hüä+A+Sg+Par:hüvvä%{front%} K ;
 hüä+A+Sg+Ill:hüvvä%{front%} K ;
-hüä+A:hüä%{front%} Harm_Neutr_PL-NOM ;
-hüä+A+Pl+Nom:hüvvi%{front%} PL-ALL_lE-STEM ;
+hüä+A:hüä%{front%} Harm_Neutr_PL_NOM ;
+hüä+A+Pl+Nom:hüvvi%{front%} PL_ALL_lE-STEM ;
 
 vahtsõnõ+A:vah%{back%} NMN_13VAHTSWNW ;!!13ALONW
 vahtsõnõ+A:vahtsõ%{back%} COMP ;
@@ -68,7 +68,7 @@ pühä+A:pühä%{front%} COMP ;
 nõrgõmb+A:nõrgõ%{back%} COMP ;!CHECKME
 tuntumb+A:tuntu%{back%} COMP ;!CHECKME
 ligemb+A:lige%{front%} COMP ;!CHECK Pos
-ülessulut+A:üles#sulu%{back%} NMN_PSS_PRFPRC_t/SG-GEN_dU ;
+ülessulut+A:üles#sulu%{back%} NMN_PSS_PRFPRC_t/SG_GEN_dU ;
 
 egä+Det:e%{kØ%}%{kg%}ä%{front%} NMN_35EGAE ;
 
@@ -151,7 +151,7 @@ terveqarv+N+Pl+Gen:tervide#arvõ K ;!both parts decline?
 rõivas+N+Sg+Nom+Err/Orth:rõivaś K ;
 
 !! ### PROPER NOUNS
-Häädemeeste+N+Prop+Sem/Plc:Hääde#m NMN_20MIIS1-PL_OBL ;
+Häädemeeste+N+Prop+Sem/Plc:Hääde#m NMN_20MIIS1_PL_OBL ;
 la+N+Prop+Sem/Plc:la PROP_1HANS1A "article" ;
 Sri+N+Prop+Sem/Plc:Sri PROP_1HERRAE "" ;
 Wilde+N+Prop:Wilde PROP_8WILDE ;
@@ -173,7 +173,7 @@ Woolsthorpe:Woolsthorpe PROP_8WILDE ;
 
 !! ### NUMERALS
 kuuś+Num+Sg+Nom:kuuś K ;
-kuuś+Num+Sg+Nom:kuvvõ%{back%} SG-GEN_ZERO-STEM ;
+kuuś+Num+Sg+Nom:kuvvõ%{back%} SG_GEN_ZERO-STEM ;
 kuuś+Num+Sg+Par:kuut K ;
 
 milĺoń+Num+Sg+Gen:milĺoni K ;
@@ -181,16 +181,16 @@ milĺoń+Num+Sg+Nom:milĺoń K ;
 
 neli+v1+Num+Sg+Nom:neli K ;
 neli+v2+Num+Sg+Nom:nelli K ;
-neli+v1+Num+Sg+Gen:nelä%{front%} SG-GEN_ZERO-STEM ;
-neli+v2+Num+Sg+Gen:nellä%{front%} SG-GEN_ZERO-STEM ;
+neli+v1+Num+Sg+Gen:nelä%{front%} SG_GEN_ZERO-STEM ;
+neli+v2+Num+Sg+Gen:nellä%{front%} SG_GEN_ZERO-STEM ;
 
 viiś+Num+Sg+Nom:viiś K ;
-viiś+Num:viie%{front%} SG-GEN_ZERO-STEM ;
+viiś+Num:viie%{front%} SG_GEN_ZERO-STEM ;
 viiś+Num+Sg+Par:viit K ;
 
 säidse+Num+Sg+Nom:säidse%{front%} K ;
-säidse+v1+Num:säitsme%{front%} SG-GEN_ZERO-STEM ;
-säidse+v2+Num:säidsme%{front%} SG-GEN_ZERO-STEM ;
+säidse+v1+Num:säitsme%{front%} SG_GEN_ZERO-STEM ;
+säidse+v2+Num:säidsme%{front%} SG_GEN_ZERO-STEM ;
 
 kümne+Num+Sg+Gen:kümme K ;
 kümne+Num+Sg+Nom:kümne K ;
@@ -292,11 +292,8 @@ tegemä+V+Ind+Prt+OcPl3:tettiq K ;
 !! kündma **to plow/kyntää**
 kündmä+V:kün%{front%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;
 
-!! süümä
-süümä+V:süvvä ACT_IND_CONNEGII ;
-
 !! nakkama **to begin/ alkaa**
-nakkama+V:naa%{back%} PSS_PRFPRC_t/SG-GEN_dU ;
+nakkama+V:naa%{back%} PSS_PRFPRC_t/SG_GEN_dU ;
 nakkama+V:naa%{back%} PSS_IND_SG1_tX/SG3_tX ;
 
 !! nägemä **to see/nähdä**
@@ -363,5 +360,5 @@ tundma+V:tun%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;
 !! võtma **to take (pass)/ ottaa**
 võtma+V:võe Harm_Neutr_NÕSTMA-PSS-DISTRIBUTION ; !!These are irregular but primary
 
-võtma+V:võe%{back%} PSS_IND_PRT_SG1_di/SG3_ti/PRS-SG1_dA/SG3_tAs/PSS_PRFPRC_t/SG-GEN_dU  ;
+võtma+V:võe%{back%} PSS_IND_PRT_SG1_di/SG3_ti/PRS-SG1_dA/SG3_tAs/PSS_PRFPRC_t/SG_GEN_dU  ;
 

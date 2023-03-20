@@ -6,7 +6,7 @@
 !LEXICON A_
 !+A: # ;
 
-LEXICON PROP-PLC-DOWNCASE-SG-GEN
+LEXICON PROP_PLC-DOWNCASE-SG_GEN
 @U.Cap.Opt@+Sg+Gen+Prop→A:@U.Cap.Opt@ # ;
 
 LEXICON A_1HANS1A !!= @CODE@ 1 hanśa:hanśa
@@ -169,7 +169,7 @@ LEXICON A_10HAIDAK
 
 LEXICON A_10ESAEK
 :%{back%}  NMN_10HAIDAK/ESAEK-SG ;
-:%{front%}  NMN_10HAIDAK/ESAEK-PL ;
+:%{front%}  NMN_10HAIDAK/ESAEK_PL ;
 
 !LEXICON A_10RAAMAT
 !:%{back%}  NMN_10RAAMAT/LEMBIT ;
@@ -203,8 +203,8 @@ LEXICON A_13TAEHINE !!= @CODE@ tähine:tähi
 +Der+Der/Us+N:%>dsüs N_4TERVUES ;
 +Der+Der/Us+N+Err/Orth:%>süs N_4TERVUES ;
 
-LEXICON A_13TAEHINE-PL !!= @CODE@ tähine:tähi
-:%{front%}     NMN_13ALONW/TAEHINE-PL ;
+LEXICON A_13TAEHINE_PL !!= @CODE@ tähine:tähi
+:%{front%}     NMN_13ALONW/TAEHINE_PL ;
 
 !LEXICON A_13SAEAENE !!= @CODE@ sääne:sää
 !:%{front%}     NMN_13XX/SAEAENE ;
@@ -258,8 +258,18 @@ LEXICON A_19PEDAEJAENE !!= @CODE@ pedäjäne:pedäjä
 :dse%{front%} COMP ;
 :%>dsüs N_4TERVUES ;
 
-LEXICON A_19PEDAEJAENE-PL !!= @CODE@ pedäjäne:pedäjä
-:%{front%} NMN_19ALOMANW/PEDAEJAENE-PL ;
+LEXICON A_19PEDAEJAENE_PL !!= @CODE@ pedäjäne:pedäjä
+:%{front%} NMN_19ALOMANW/PEDAEJAENE_PL ;
+
+LEXICON A_19TUJOKAS
+:%{back%} NMN_19TUJOKAS/SILMIKAES ; 
+:%{back%}ds%{eõ%} COMP ;
++Der+Der/Us+N:%>dsus N_4AINUS ;
+
+LEXICON A_19SILMIKAES
+:%{front%} NMN_19TUJOKAS/SILMIKAES ;
+:%{front%}ds%{eõ%} COMP ;
+:%>dsüs N_4TERVUES ;
 
 !LEXICON A_20VAEITS1
 !:%{front%}  NMN_20VAEITS1 ;
@@ -448,13 +458,13 @@ LEXICON Harm_Neutr_COMP
 !+Err/Dial+Comp+Sg+Nom:%>p # ;
 
 !LEXICON Harm_Neutr_COMP-01
-!:%{aä%} SG-GEN_ZERO-STEM ;
+!:%{aä%} SG_GEN_ZERO-STEM ;
 !+Sg+All:%{aä%}l%{eõ%} K ;
 !+Sg+Ill:%{aä%}he K ;
 !+Sg+Par:%{aä%}t K ;
 !+Sg+Nom: K ;
 
-!:i PL-ALL_lE-STEM ;
+!:i PL_ALL_lE-STEM ;
 
 !+Pl+Gen:id%{eõ%} K ;
 !+Pl+Ill:ihe K ;
@@ -471,14 +481,14 @@ LEXICON COMP
 +Err/Dial+Comp:%>mp NMN_COMP ;
 +Err/Dial+Comp+Sg+Nom:%>p # ;
 LEXICON NMN_COMP
-:%{aä%} SG-GEN_ZERO-STEM ;
+:%{aä%} SG_GEN_ZERO-STEM ;
 +Sg+All:%{aä%}l%{eõ%} K ;
 +Sg+Ill:%{aä%}he K ;
 +Sg+Par:%{aä%}t K ;
 +Sg+Nom: K ;
 
 +Pl+Nom:%{aä%}q K ;
-:i PL-ALL_lE-STEM ;
+:i PL_ALL_lE-STEM ;
 
 +Pl+Gen:id%{eõ%} K ;
 +Pl+Ill:ihe K ;
