@@ -1070,16 +1070,26 @@ LEXICON N_25ASWQ-SG
 LEXICON N_25ASWQ_PL
 :%{back%}     NMN_25ASWQ_PL ;
 
-!LEXICON N_26HEPEM1
-!:%^PAL ATTESTED-NOUN-STEM-CONTINUED ;
-! N_26HEPEM1-SG ;
-! N_26HEPEM1_PL ;
+LEXICON N_26KUPWM1
+ N_26KUPWM1_SG ;
+ N_26KUPWM1_PL ;
+LEXICON N_26KUPWM1_SG
+:%{back%} NMN_26KUPWM1/HEPEM1_SG ;
+LEXICON N_26KUPWM1_PL
+:%{back%} NMN_26KUPWM1/HEPEM1_PL ;
+LEXICON N_26HEPEM1
+ N_26HEPEM1_SG ;
+ N_26HEPEM1_PL ;
+LEXICON N_26HEPEM1_SG
+:%{front%} NMN_26KUPWM1/HEPEM1_SG ;
+LEXICON N_26HEPEM1_PL
+:%{front%} NMN_26KUPWM1/HEPEM1_PL ;
 
-!LEXICON N_26HEPEM1-SG
-!:%{front%} NMN_26HEPEM1-SG ;
-!LEXICON N_26HEPEM1_PL
-!:%{front%} NMN_26HEPEM1_PL ;
-!+N+Sg+Nom+WORK: K ;
+!LEXICON NMN_26KUPWM1/HEPEM1
+! NMN_26KUPWM1/HEPEM1_SG ;
+! NMN_26KUPWM1/HEPEM1_PL ;
+
+
 
 LEXICON N_27ASTWQ
 !: ATTESTED-NOUN-STEM-CONTINUED ;
@@ -5435,15 +5445,25 @@ LEXICON NMN_25ASWQ_PL
 +Err/Dial:%^Pen%^StrGStem%>miidõ PL_COM ;
 +Err/Dial:%^Pen%^WGStem%>ndõ PL_COM ;
 
-!LEXICON NMN_26HEPEM1
+LEXICON NMN_26KUPWM1/HEPEM1_SG
 !! * Yaml: **N-hepemj26**
-!  NMN_26HEPEM1-SG ;
-!  NMN_26HEPEM1_PL ;
+:%^Pen%^StrGStem%>ḿ ATTESTED-NOUN-STEM-CONTINUED ;
+:%^Pen%^StrGStem%>ḿ Harm_Neutr_SG_NOM ;
+:%^Pen%^WGStem%>m%{eõ%} SG_GEN_ZERO ;
+:%^Pen%^WGStem%>n Harm_Neutr_SG_PAR_d ;
+:%^Pen%^StrGStem%>m%>%{eõ%} Harm_Neutr_SG_ILL_he ;
+:%^Pen%^StrGStem%>m%>%{eõ%} Harm_Neutr_SG_ALL_lE-STEM ;
+:%^Pen%^StrGStem%>m%>%{eõ%} Harm_Neutr_SG_COM ;
 
-!LEXICON NMN_26HEPEM1-SG 
-!+WORK: #;
-!LEXICON NMN_26HEPEM1_PL 
-!+WORK: #;
+LEXICON NMN_26KUPWM1/HEPEM1_PL
+:%^Pen%^StrGStem%>m%>%{eõ%} Harm_Neutr_PL_NOM ;
+:%^Pen%^StrGStem%>mi Harm_Neutr_PL_GEN_dE ;
+:%^Pen%^StrGStem%>mi PL_PAR_t ;
+:%^Pen%^StrGStem%>mi PL_ILL_he ;
+:%^Pen%^StrGStem%>mi PL_ALL_lE-STEM ;
+:%^Pen%^StrGStem%>mid%{eõ%} PL_COM ;
+
+
 
 !LEXICON NMN_27ASTWQ/EHEQ !!eheq:eh%{t́Ø%}e%{qmn%}
 !  NMN_27ASTWQ/EHEQ-SG ;
