@@ -27,8 +27,6 @@ andma **to give/antaa**
 
 kündma **to plow/kyntää**
 
-süümä
-
 nakkama **to begin/ alkaa**
 
 nägemä **to see/nähdä**

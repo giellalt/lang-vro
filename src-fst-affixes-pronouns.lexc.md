@@ -6,11 +6,11 @@ nouns, but with a colon (':') as separator.
 
 CHECKME vowel harmony
 
-LEXICON PERS-PL1  maq:m
+LEXICON PERS_PL1  maq:m
 
-LEXICON PERS-PL2  saq:
+LEXICON PERS_PL2  saq:
 
-LEXICON PERS-PL3  timä:
+LEXICON PERS_PL3  timä:
 
 ### DEMONSTRATIVE PRONOUNS
 

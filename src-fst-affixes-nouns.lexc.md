@@ -462,8 +462,8 @@ LEXICON NMN_3ALADU  aladu:aladu
 * *tervüisildäq* `tervüs+N+Pl+Abe:`
 * *tervüisigaq* `tervüs+N+Pl+Com:`
 
-* +Err/Dial:%^VowRM%^CnsRM%>i Harm_Neutr_PL-GEN_dE ;  tervide
-* +Err/Dial:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
+* +Err/Dial:%^VowRM%^CnsRM%>i Harm_Neutr_PL_GEN_dE ;  tervide
+* +Err/Dial:%^VowRM%^CnsRM%>i PL_ILL_he ;  tervihe
 
 * **LEXICON NMN_4AINUS ** Types 4, 8, 17
 
@@ -1356,7 +1356,7 @@ LEXICON NMN_11ANNWQ/LAETEQ  läteq:lä%{tØ%}te
 
 **N-suekues12**
 
-* +Err/Dial:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
+* :%^Pen%^WGStem%^NoPAL%>sõ       SG_GEN_ZERO-STEM        ;  THIS NEEDS WORK
 
 LEXICON NMN_13ALONW/TAEHINE  alonõ:alo
 
@@ -1714,7 +1714,7 @@ nimi:nim
 * *nimildäq:* `nimi+N+Pl+Abe`
 * *nimmigaq:* `nimi+N+Pl+Com`
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG_NOM  ;  no palatal
 
 * särǵ examples:*
 * *särǵ:* `särǵ+N+Sg+Nom`
@@ -1791,9 +1791,9 @@ pung:pung
 * Noun 38 pung examples:*
 
 * LEXICON NMN_38PULL1/VIKS1  pulĺ:pull
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG_NOM  ;  no final palatal
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG_NOM  ;  no final palatal
 
 * papṕ examples:*
 * *papṕ:* `papṕ+N+Sg+Nom`
@@ -1823,9 +1823,9 @@ pung:pung
 * *papõldaq:* `papṕ+N+Pl+Abe`
 * *pappegaq:* `papṕ+N+Pl+Com`
 
-   * :%^VOWRaise%^StrGStem%^PAL        Harm_Neutr_SG-NOM  ;  pu̬u̬ḿ
-* +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no final palatal
-   * :%^VOWLower%^WGStem%^NoPAL%>i       SG-GEN_ZERO-STEM        ;  poomi
+   * :%^VOWRaise%^StrGStem%^PAL        Harm_Neutr_SG_NOM  ;  pu̬u̬ḿ
+* +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm_Neutr_SG_NOM  ;  no final palatal
+   * :%^VOWLower%^WGStem%^NoPAL%>i       SG_GEN_ZERO-STEM        ;  poomi
 
 kuld:kul%{dl%}
 
@@ -1884,7 +1884,7 @@ kuld:kul%{dl%}
 Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
 stem_vowel="o"
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG_NOM  ;  no final palatal
 
 * juht́ examples:*
 * *juht́:* `juht́+N+Sg+Nom`
@@ -1914,16 +1914,16 @@ stem_vowel="o"
 * *juhõldaq:* `juht́+N+Pl+Abe`
 * *juhõgaq:* `juht́+N+Pl+Com`
 
-* :%^Pen%^PAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
-* +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
+* :%^Pen%^PAL%^Pen%^JI20       SG_GEN_ZERO-STEM        ;  vaŕo
+* +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG_GEN_ZERO-STEM        ;  vaŕo
 
-* :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
+* :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL_GEN_ZERO ;  varjõ
 
 * LEXICON NMN_42TUEHI  tühi:tüh
 
-* :ä       SG-GEN_ZERO-STEM        ;  vaŕo
+* :ä       SG_GEN_ZERO-STEM        ;  vaŕo
 
-* :e    PL-GEN_ZERO ;  varjõ
+* :e    PL_GEN_ZERO ;  varjõ
 
 * kanarik # examples:*
 * *kanarik:* `kanarik+N+Sg+Nom`
@@ -2051,7 +2051,7 @@ gradation: yes
 
 * LEXICON NMN_47ASI  asi:a%{sś%}%{jiØ%}
 
-* :%^NoPAL%^VowRM%>ö       PL-ALL_lE-STEM ;  IS THIS A REAL FORM?
+* :%^NoPAL%^VowRM%>ö       PL_ALL_lE-STEM ;  IS THIS A REAL FORM?
 
 * LEXICON NMN_2KASUNUQ/ELAENUEQ  elänüq:elänü
 
@@ -2069,7 +2069,7 @@ gradation: yes
 * +Err/Orth-no-q+Err/Orth-front+Sg+Com:%>gä K ;  no q, front
 * +Err/Orth-no-q+Sg+Com:%>ga BACK_K ;  no q
 
-LEXICON Harm_Neutr_SG-INE_hn  RARE
+LEXICON Harm_Neutr_SG_INE_hn  RARE
 
 ### TAGS THAT CANNOT BE FOLLOWED BY CLITICS
 

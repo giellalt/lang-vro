@@ -116,7 +116,7 @@ pesä:pesä
 pesä:pesä
 
 LEXICON PROP_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
-:%{back%} NMN_36TUUM1/XX1-SG-OBL ;  This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
+:%{back%} NMN_36TUUM1/XX1-SG_OBL ;  This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
 
 LEXICON PROP_36SAERG1  särǵ:särgʼ
 

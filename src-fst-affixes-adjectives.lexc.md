@@ -59,7 +59,7 @@ LEXICON A_13ALONW  alonõ:alo
 
 LEXICON A_13TAEHINE  tähine:tähi
 
-LEXICON A_13TAEHINE-PL  tähine:tähi
+LEXICON A_13TAEHINE_PL  tähine:tähi
 
 LEXICON A_14RITS1KAS   ritśkas:ritśka%{sØ%}
 
@@ -74,7 +74,7 @@ LEXICON A_19ALOMANW  alomanõ:aloma
 
 LEXICON A_19PEDAEJAENE  pedäjäne:pedäjä
 
-LEXICON A_19PEDAEJAENE-PL  pedäjäne:pedäjä
+LEXICON A_19PEDAEJAENE_PL  pedäjäne:pedäjä
 
 LEXICON A_22VWROKWNW  võrokõnõ:võrokõ
 

@@ -929,7 +929,7 @@ LEXICON A_13ALONW  alonõ:alo
 
 LEXICON A_13TAEHINE  tähine:tähi
 
-LEXICON A_13TAEHINE-PL  tähine:tähi
+LEXICON A_13TAEHINE_PL  tähine:tähi
 
 LEXICON A_14RITS1KAS   ritśkas:ritśka%{sØ%}
 
@@ -944,7 +944,7 @@ LEXICON A_19ALOMANW  alomanõ:aloma
 
 LEXICON A_19PEDAEJAENE  pedäjäne:pedäjä
 
-LEXICON A_19PEDAEJAENE-PL  pedäjäne:pedäjä
+LEXICON A_19PEDAEJAENE_PL  pedäjäne:pedäjä
 
 LEXICON A_22VWROKWNW  võrokõnõ:võrokõ
 
@@ -1446,8 +1446,8 @@ LEXICON NMN_3ALADU  aladu:aladu
 * *tervüisildäq* `tervüs+N+Pl+Abe:`
 * *tervüisigaq* `tervüs+N+Pl+Com:`
 
-* +Err/Dial:%^VowRM%^CnsRM%>i Harm_Neutr_PL-GEN_dE ;  tervide
-* +Err/Dial:%^VowRM%^CnsRM%>i PL-ILL_he ;  tervihe
+* +Err/Dial:%^VowRM%^CnsRM%>i Harm_Neutr_PL_GEN_dE ;  tervide
+* +Err/Dial:%^VowRM%^CnsRM%>i PL_ILL_he ;  tervihe
 
 * **LEXICON NMN_4AINUS ** Types 4, 8, 17
 
@@ -2340,7 +2340,7 @@ LEXICON NMN_11ANNWQ/LAETEQ  läteq:lä%{tØ%}te
 
 **N-suekues12**
 
-* +Err/Dial:%^Pen%^WGStem%^StrGStem%^NoPAL%>õ       SG-GEN_ZERO-STEM        ;  THIS NEEDS WORK
+* :%^Pen%^WGStem%^NoPAL%>sõ       SG_GEN_ZERO-STEM        ;  THIS NEEDS WORK
 
 LEXICON NMN_13ALONW/TAEHINE  alonõ:alo
 
@@ -2698,7 +2698,7 @@ nimi:nim
 * *nimildäq:* `nimi+N+Pl+Abe`
 * *nimmigaq:* `nimi+N+Pl+Com`
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG_NOM  ;  no palatal
 
 * särǵ examples:*
 * *särǵ:* `särǵ+N+Sg+Nom`
@@ -2775,9 +2775,9 @@ pung:pung
 * Noun 38 pung examples:*
 
 * LEXICON NMN_38PULL1/VIKS1  pulĺ:pull
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG_NOM  ;  no final palatal
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL%>        Harm_Neutr_SG_NOM  ;  no final palatal
 
 * papṕ examples:*
 * *papṕ:* `papṕ+N+Sg+Nom`
@@ -2807,9 +2807,9 @@ pung:pung
 * *papõldaq:* `papṕ+N+Pl+Abe`
 * *pappegaq:* `papṕ+N+Pl+Com`
 
-   * :%^VOWRaise%^StrGStem%^PAL        Harm_Neutr_SG-NOM  ;  pu̬u̬ḿ
-* +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no final palatal
-   * :%^VOWLower%^WGStem%^NoPAL%>i       SG-GEN_ZERO-STEM        ;  poomi
+   * :%^VOWRaise%^StrGStem%^PAL        Harm_Neutr_SG_NOM  ;  pu̬u̬ḿ
+* +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL        Harm_Neutr_SG_NOM  ;  no final palatal
+   * :%^VOWLower%^WGStem%^NoPAL%>i       SG_GEN_ZERO-STEM        ;  poomi
 
 kuld:kul%{dl%}
 
@@ -2868,7 +2868,7 @@ kuld:kul%{dl%}
 Derived from PUHM, Gradation="yes", stem="+Sg+Nom"
 stem_vowel="o"
 
-* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG-NOM  ;  no final palatal
+* +Err/Orth-no-pal:%^StrGStem%^NoPAL        Harm_Neutr_SG_NOM  ;  no final palatal
 
 * juht́ examples:*
 * *juht́:* `juht́+N+Sg+Nom`
@@ -2898,16 +2898,16 @@ stem_vowel="o"
 * *juhõldaq:* `juht́+N+Pl+Abe`
 * *juhõgaq:* `juht́+N+Pl+Com`
 
-* :%^Pen%^PAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
-* +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG-GEN_ZERO-STEM        ;  vaŕo
+* :%^Pen%^PAL%^Pen%^JI20       SG_GEN_ZERO-STEM        ;  vaŕo
+* +Err/Orth-no-pal:%^Pen%^NoPAL%^Pen%^JI20       SG_GEN_ZERO-STEM        ;  vaŕo
 
-* :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL-GEN_ZERO ;  varjõ
+* :%^Pen%^NoPAL%^Pen%^JI2J%^VowRM%>õ    PL_GEN_ZERO ;  varjõ
 
 * LEXICON NMN_42TUEHI  tühi:tüh
 
-* :ä       SG-GEN_ZERO-STEM        ;  vaŕo
+* :ä       SG_GEN_ZERO-STEM        ;  vaŕo
 
-* :e    PL-GEN_ZERO ;  varjõ
+* :e    PL_GEN_ZERO ;  varjõ
 
 * kanarik # examples:*
 * *kanarik:* `kanarik+N+Sg+Nom`
@@ -3035,7 +3035,7 @@ gradation: yes
 
 * LEXICON NMN_47ASI  asi:a%{sś%}%{jiØ%}
 
-* :%^NoPAL%^VowRM%>ö       PL-ALL_lE-STEM ;  IS THIS A REAL FORM?
+* :%^NoPAL%^VowRM%>ö       PL_ALL_lE-STEM ;  IS THIS A REAL FORM?
 
 * LEXICON NMN_2KASUNUQ/ELAENUEQ  elänüq:elänü
 
@@ -3053,7 +3053,7 @@ gradation: yes
 * +Err/Orth-no-q+Err/Orth-front+Sg+Com:%>gä K ;  no q, front
 * +Err/Orth-no-q+Sg+Com:%>ga BACK_K ;  no q
 
-LEXICON Harm_Neutr_SG-INE_hn  RARE
+LEXICON Harm_Neutr_SG_INE_hn  RARE
 
 ### TAGS THAT CANNOT BE FOLLOWED BY CLITICS
 
@@ -3220,11 +3220,11 @@ nouns, but with a colon (':') as separator.
 
 CHECKME vowel harmony
 
-LEXICON PERS-PL1  maq:m
+LEXICON PERS_PL1  maq:m
 
-LEXICON PERS-PL2  saq:
+LEXICON PERS_PL2  saq:
 
-LEXICON PERS-PL3  timä:
+LEXICON PERS_PL3  timä:
 
 ### DEMONSTRATIVE PRONOUNS
 
@@ -3358,7 +3358,7 @@ pesä:pesä
 pesä:pesä
 
 LEXICON PROP_36TUUM1  tuuḿ:t%{ou%}%{ou%}m
-:%{back%} NMN_36TUUM1/XX1-SG-OBL ;  This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
+:%{back%} NMN_36TUUM1/XX1-SG_OBL ;  This allows for place names, which, for the most part, have nominative singulars that are identical to their genitive singulars.
 
 LEXICON PROP_36SAERG1  särǵ:särgʼ
 
@@ -3465,21 +3465,21 @@ ehitelemä:ehitell
 * **LEXICON V_53JAEAEMAE** 
 * **LEXICON V_53XX/JAEAEMAE** 
 
-* :%^VOWRaise Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+* :%^VOWRaise Harm_Neutr_77JUUMA/SUEUEMAE-PSS_IND_PRT_di ;  only 3rd person
 
-*  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+*  ACT-PRFPRC_nUq-SG_NOM ;  jäänüq keenüq
 
 * :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
 * :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
 * :%^VOWRaise ACT_IND_PRS_3_s/sEq ;  (5) RAISED jääs jääseq 
 
-*  ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
+* +Err/Dial: ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
 
 * **LEXICON V_53KAEMA/XX** kaema:ka
 
-* :%>e Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+* :%>e Harm_Neutr_77JUUMA/SUEUEMAE-PSS_IND_PRT_di ;  only 3rd person
 
-* :%>e ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+* :%>e ACT-PRFPRC_nUq-SG_NOM ;  jäänüq keenüq
 
 * :%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
 * :%>e V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
@@ -3827,15 +3827,15 @@ Act+Ind+Prt+Sg3
 
 *  PSS_PRFPRC_d ; 
 
-*  Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+*  Harm_Neutr_77JUUMA/SUEUEMAE-PSS_IND_PRT_di ;  only 3rd person
 
 * LEXICON V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL  joo- söö-
-*  ACT-PRFPRC_nUq-SG-NOM ;  joonuq
+*  ACT-PRFPRC_nUq-SG_NOM ;  joonuq
 
 * LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE  juvv
 *  Harm_Neutr_INF_Aq ;  juvvaq süvväq
 * :%>%{aä%} Harm_Neutr_JUVVA_PSS_IND_PRS ;  juvva süvvä
-* :%>i Harm_Neutr_JUVVA_PSS-IND-PRT-1/2 ;  juvvi süvvi
+* :%>i Harm_Neutr_JUVVA_PSS_IND_PRT_1/2 ;  juvvi süvvi
 
 * LEXICON V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE  jõi-
 
@@ -4102,8 +4102,6 @@ gradation: G3, G4, G1
 
 * LEXICON V_83VWTMA/XX   võtma:võ%{tØ%}%{tt́Ø%}a
 
-IS THIS RIGHT? 2015-09-02
-
 sõida
 
 * LEXICON V_84LASKMA  laskma:lask
@@ -4190,7 +4188,7 @@ CHECK THIS
 
 * LEXICON Harm_Neutr_JUVVA_PSS_IND_PRS  juvva süvvä
 
-* LEXICON Harm_Neutr_JUVVA_PSS-IND-PRT-1/2  juvvi süvvi
+* LEXICON Harm_Neutr_JUVVA_PSS_IND_PRT_1/2  juvvi süvvi
 
 ### INDICATIVE PRETERIT SUBJECT CONJUGATION
 
@@ -6180,8 +6178,6 @@ andma **to give/antaa**
 ### VERBS WITH FORMS TO STUDY
 
 kündma **to plow/kyntää**
-
-süümä
 
 nakkama **to begin/ alkaa**
 

@@ -49,21 +49,21 @@ ehitelemä:ehitell
 * **LEXICON V_53JAEAEMAE** 
 * **LEXICON V_53XX/JAEAEMAE** 
 
-* :%^VOWRaise Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+* :%^VOWRaise Harm_Neutr_77JUUMA/SUEUEMAE-PSS_IND_PRT_di ;  only 3rd person
 
-*  ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+*  ACT-PRFPRC_nUq-SG_NOM ;  jäänüq keenüq
 
 * :%^VOWRaise%^VowRM%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
 * :%^VowRM%>i V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
 * :%^VOWRaise ACT_IND_PRS_3_s/sEq ;  (5) RAISED jääs jääseq 
 
-*  ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
+* +Err/Dial: ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
 
 * **LEXICON V_53KAEMA/XX** kaema:ka
 
-* :%>e Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+* :%>e Harm_Neutr_77JUUMA/SUEUEMAE-PSS_IND_PRT_di ;  only 3rd person
 
-* :%>e ACT-PRFPRC_nUq-SG-NOM ;  jäänüq keenüq
+* :%>e ACT-PRFPRC_nUq-SG_NOM ;  jäänüq keenüq
 
 * :%>i V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE ;  jäi kii
 * :%>e V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE ;  jäi kei
@@ -411,15 +411,15 @@ Act+Ind+Prt+Sg3
 
 *  PSS_PRFPRC_d ; 
 
-*  Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
+*  Harm_Neutr_77JUUMA/SUEUEMAE-PSS_IND_PRT_di ;  only 3rd person
 
 * LEXICON V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL  joo- söö-
-*  ACT-PRFPRC_nUq-SG-NOM ;  joonuq
+*  ACT-PRFPRC_nUq-SG_NOM ;  joonuq
 
 * LEXICON V_77JUUMA/SUEUEMAE_RAISED-VOWEL-TENSE  juvv
 *  Harm_Neutr_INF_Aq ;  juvvaq süvväq
 * :%>%{aä%} Harm_Neutr_JUVVA_PSS_IND_PRS ;  juvva süvvä
-* :%>i Harm_Neutr_JUVVA_PSS-IND-PRT-1/2 ;  juvvi süvvi
+* :%>i Harm_Neutr_JUVVA_PSS_IND_PRT_1/2 ;  juvvi süvvi
 
 * LEXICON V_77JUUMA/SUEUEMAE_NON-RAISED-VOWEL-TENSE  jõi-
 
@@ -686,8 +686,6 @@ gradation: G3, G4, G1
 
 * LEXICON V_83VWTMA/XX   võtma:võ%{tØ%}%{tt́Ø%}a
 
-IS THIS RIGHT? 2015-09-02
-
 sõida
 
 * LEXICON V_84LASKMA  laskma:lask
@@ -774,7 +772,7 @@ CHECK THIS
 
 * LEXICON Harm_Neutr_JUVVA_PSS_IND_PRS  juvva süvvä
 
-* LEXICON Harm_Neutr_JUVVA_PSS-IND-PRT-1/2  juvvi süvvi
+* LEXICON Harm_Neutr_JUVVA_PSS_IND_PRT_1/2  juvvi süvvi
 
 ### INDICATIVE PRETERIT SUBJECT CONJUGATION
 
