@@ -27,7 +27,7 @@ andma **to give/antaa**
 
 kündma **to plow/kyntää**
 
-minemä **to go/ mennä**
+süümä
 
 nakkama **to begin/ alkaa**
 

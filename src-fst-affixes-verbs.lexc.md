@@ -409,7 +409,8 @@ Act+Ind+Prt+Sg3
 * +Err/Orth:%^VOWRaise%>s ACT-COND ;  juussiq
 *  ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
 
-*  PSS_PRFPRC_d ;  
+*  PSS_PRFPRC_d ; 
+
 *  Harm_Neutr_77JUUMA/SUEUEMAE-PSS-IND-PRT_di ;  only 3rd person
 
 * LEXICON V_77JUUMA/SUEUEMAE_NOT-RAISED-VOWEL  joo- söö-
@@ -452,6 +453,7 @@ Act+Ind+Prt+Sg3
 * **LEXICON V_XX/MINEMAE** minemä:min
 
 Remainder is in exceptions.lexc
+minemä **to go/ mennä**
 
 * **LEXICON V_79TULWMA** tulõma:tul
 * Yaml: **tulwma**
