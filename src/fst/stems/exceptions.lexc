@@ -266,8 +266,8 @@ ajama+V+Ind+Prt+OcSg3:aeti K ;
 
 !! andma **to give/antaa**
 !PSS_IND_PRS_ALL_dA ?
-andma+V+Err/Dial:an%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;!andas
-!andma+V:an%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;!antas
+andma+V+Err/Dial:an%{back%} PSS_IND_SG1_dX/SG3_dX ;!andas
+!andma+V:an%{back%} PSS_IND_SG1_dX/SG3_tX ;!antas
 andma+V+Pss+Ind+Prt+Sg3:anti K ; !CHECKME
 andma+V+Err/Dial:an%{back%} PSS_PRFPRC_t_ONLY ;!ant
 
@@ -290,7 +290,7 @@ tegemä+V+Ind+Prt+OcPl3:tettiq K ;
 
 
 !! kündma **to plow/kyntää**
-kündmä+V:kün%{front%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;
+kündmä+V:kün%{front%} PSS_IND_SG1_dX/SG3_dX ;
 
 !! nakkama **to begin/ alkaa**
 nakkama+V:naa%{back%} PSS_PRFPRC_t/SG_GEN_dU ;
@@ -327,10 +327,10 @@ olõma+V+Act+Err/Orth-no-q+Ind+Prs+Neg:%{back%}olõ%-i K ;
 nakkama+V+Act+Ind+Prt+Sg3:naaś%{back%} K ;
 
 !! pandma **to put/panna**
-pandma+V+Pss+Ind+Prs+Sg3:pan%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;
+pandma+V+Pss+Ind+Prs+Sg3:pan%{back%} PSS_IND_SG1_dX/SG3_dX ;
 
 !! pidämä **to keep/ pitää**
-pidämä+V:pee%{front%} PSS_IND_PRS/PRT_SG1_dX/SG3_tX ;
+pidämä+V:pee%{front%} PSS_IND_SG1_dX/SG3_tX ;
 
 !! tegemä **to do/ tehdä**
 tegemä+V:tege%{front%} Harm_Neutr_INF_mA ;
@@ -355,7 +355,7 @@ tegemä+V+Act+Ind+Prs+Pl1:teemiq%{front%} K ;
 tegemä+V+Ind+Prt+OcSg3:tett́e K ;!Räpinä murragu vorm
 
 !! tundma **to feel/tuntea**
-tundma+V:tun%{back%} PSS_IND_PRS/PRT_SG1_dX/SG3_dX ;
+tundma+V:tun%{back%} PSS_IND_SG1_dX/SG3_dX ;
 
 !! võtma **to take (pass)/ ottaa**
 võtma+V:võe Harm_Neutr_NÕSTMA-PSS-DISTRIBUTION ; !!These are irregular but primary
