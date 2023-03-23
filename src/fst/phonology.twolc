@@ -806,7 +806,7 @@ Rules
 "a:0"
 !! **@RULENAME@**
  a:0 <=>
-  [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:|%{sØ%}:) (HarmDummiesVar) PenVOWHite [ PenGRAD PenPAL [ %^VowRM: | %^Pen:0 %^JI2I: | %^Pen: %^VowRM:]| CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem:  ] %> i  ] ;  
+  [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:|%{sØ%}:|%{rŕ%}:|%{lĺ%}:|r |l) (HarmDummiesVar) PenVOWHite [ PenGRAD (PenPAL) [ %^VowRM: | %^Pen:0 %^JI2I: | %^Pen: %^VowRM:]| CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem:  ] %> i  ] ;  
 !  [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:) (HarmDummiesVar) (PenVOWHite) [ (%^Pen: %^CC2C:|%^Pen: %^StrGStem:|%^Pen: %^G2:| %^Pen: %^WGStem:) (%^Pen: %^NoPAL:) [ %^VowRM: | %^Pen: %^VowRM:]| CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem: ] %> i  ] ; 
 [ Cns:| ArchCns: ] _ (HarmDummiesVar) [ (%^StrGStem:|PenVOWHite [%^Pen: %^WGStem:| PenPAL ] |%^Pen: %^CC2C:|%^Pen: %^G2:) %^VowRM: | CnsInZero: %^VowRM: %^WGStem: %> ]  ; 
 ! [ Cns:| ArchCns: ] _ (HarmDummiesVar) [ (%^StrGStem:|PenVOWHite %^Pen: %^WGStem:|%^Pen: %^CC2C:) (0:) %^VowRM: | CnsInZero: %^VowRM: %^CnsRM: %> ]  ; 
@@ -835,7 +835,7 @@ Rules
 
 "ä:0"
 !! **@RULENAME@**
- ä:0 <=>  [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:|%{rŕ%}:|%{lĺ%}:) (HarmDummiesVar) PenVOWHite PenGRAD PenPAL  %^VowRM: ;
+ ä:0 <=>  [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:|%{sØ%}:|%{rŕ%}:|%{lĺ%}:|r|l) (HarmDummiesVar) PenVOWHite [PenGRAD (PenPAL) [ %^VowRM:| %^Pen:0 %^JI2I: | %^Pen: %^VowRM:]| CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem:  ] %> i  ] ;
    [ Cns: | :Cns | ArchCns:] _ (s:|%{sś%}:|%{rŕ%}:|%{lĺ%}:) (HarmDummiesVar) PenVOWHite [ PenGRAD PenPAL [ %^Pen: %^VowRM:|%^VowRM:]| CnsInZero: %^VowRM: %^WGStem:  %> | [%^StrGStem:  ] %> i  ] ; 
 !p ü {kgØ}:g ä:0 {front}:0 ^Pen:0 ^G2:0 ^VowRM:0 > i
 !! pügämä+V+Pss+PrfPrc:
@@ -1022,13 +1022,13 @@ Rules
 !! **@RULENAME@**
  %{XV%}:a <=> :a (HarmDummiesVar) PenBetweenStemAndStemFinal ( %- ) _  ;
        [ o (HarmDummiesVar) | a (HarmDummiesVar) | a: (HarmDummiesVar) PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
-           a: [r|l] (HarmDummiesVar) %^Pen: %^VowRM: %> _ ; 
+           a: [r|l] (HarmDummiesVar) PenGRAD %^Pen: %^VowRM: %> _ ; 
 
 "%{XV%}:ä"
 !! **@RULENAME@**
  %{XV%}:ä <=> :ä (HarmDummiesVar) PenBetweenStemAndStemFinal ( %- ) _  ;
        [ ö (HarmDummiesVar) | ä (HarmDummiesVar) | ä: (HarmDummiesVar) PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
-           ä: [r|l] (HarmDummiesVar) %^Pen: %^VowRM: %> _ ; 
+           ä: [r|l] (HarmDummiesVar) PenGRAD %^Pen: %^VowRM: %> _ ; 
 
 "%{XV%}:õ"
 !! **@RULENAME@**

@@ -1210,7 +1210,7 @@ LEXICON V_63VISKAMA/HINGAEMAE !!≈ * **@CODE@** viskama:viska
 ! (3) tekev tm aktiiv:
 :%^Pen%^VOWLower%^Pen%^WGStem ACT_PRFPRC_ALL_nUq ;
 ! (4) Tettäv tm passiiv:
-:%^Pen%^VOWLower%^Pen%^WGStem PSS_IND_SG1_dX/SG3_tX ;!CHECKME
+:%^Pen%^VOWLower%^Pen%^WGStem PSS_IND_SG1_dX/2_tX/SG3_tX ;!CHECKME
 :%^Pen%^VOWLower%^Pen%^WGStem PSS_IND_PRS_PL3_tAsEq ;
 :%^Pen%^VOWLower%^Pen%^WGStem PSS_IND_PRT_PL3_diq ;
 :%^Pen%^VOWLower%^Pen%^WGStem%d%{aä%} PSS_IND_CONNEGII ;
@@ -1848,7 +1848,7 @@ LEXICON V_76HIGOMA/PUEGAEMAE !!≈ * **@CODE@** higoma:hi%{kg0%}o
 
 ! (4) Tettäv tm passiiv:
 !! Pss+PrfPrc, Pss+PrsPrc
-:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%} PSS_IND_SG1_dX/SG3_tX ;! loet
+:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%} PSS_IND_SG1_dX/2_tX/SG3_tX ;! loet
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>%{eõ%} PSS_IND_PRS_PL3_tAsEq ; !2023_02_19 pügä
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>%{eõ%} PSS_IND_PRT_PL3_diq ; !2023_02_19
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>d%{aä%} PSS_IND_CONNEGII ; ! yaml 2023_03_25
@@ -3209,10 +3209,12 @@ LEXICON V_83VWTMA/XX  !!= * @CODE@ võtma:võ%{tØ%}%{tt́Ø%}a
 
 ! (4) Tettäv tm passiiv:
 
-:%^Pen%^G1%^Pen%^NoPAL%^VowRM%>e PSS_IND_SG1_dX/SG2_dX/SG3_tX ;
+:%^Pen%^G1%^Pen%^NoPAL%^VowRM%>e PSS_IND_SG1_dX/2_dX/SG3_tX ;
 !:%^Pen%^G1%^Pen%^NoPAL%^VowRM%>e PSS_IND_SG1_dX/SG3_tX ; !! IS THIS RIGHT? 2015-09-02
 
-:%^Pen%^G1%^Pen%^NoPAL%^VowRM%>e Harm_Neutr_LUGWMA_PSS-PRC ;
+:%^Pen%^G1%^Pen%^NoPAL%^VowRM%>e PSS_IND_PRS_PL3_tAsEq ;
+:%^Pen%^G1%^Pen%^NoPAL%^VowRM%>e PSS_IND_PRT_PL3_diq ;
+:%^Pen%^G1%^Pen%^NoPAL%^VowRM%>e PSS_PRC_t_tU_tA ;
 
 ! (5) Olõvao 1. k maq: (1. and Neg, ConNegs.)
 ! Different from 2.
@@ -3536,7 +3538,7 @@ LEXICON V_86PUTMA/XX !!≈ * **@CODE@** istma:istu
 ! (3) tekev tm aktiiv:
 :%^Pen%^CC2C%^Pen%^NoPAL%^VowRM ACT_PRFPRC_ALL_nUq ;
 ! (4) Tettäv tm passiiv:
-:%^Pen%^WGStem%^Pen%^NoPAL PSS_IND_SG1_dX/SG3_tX ;
+:%^Pen%^WGStem%^Pen%^NoPAL PSS_IND_SG1_dX/2_tX/SG3_tX ;
 
 :%^Pen%^WGStem%^Pen%^NoPAL PSS_PRFPRC_tU_SG_NOM ;
 
@@ -4019,16 +4021,6 @@ PSS_IND_PRS_PL2_dAtiq ;
 PSS_PRSPRC_dAv ;
 PSS_PRFPRC_d/SG_GEN_dU ;
 
-LEXICON PSS_IND_SG1_dX/SG2_dX/SG3_tX
-PSS_IND_SG1_dX ;
-PSS_IND_PRS_SG2_dAt ;
-+Err/Dial: PSS_IND_PRS_SG2_dAdEq ;
-PSS_IND_PRS_SG3_tAs ;
-PSS_IND_PRS_PL1_dAmiq ;
-PSS_IND_PRS_PL2_dAtiq ;
-PSS_IND_PRS_PL3_tAsEq ;
-PSS_PRSPRC_tAv ;
-PSS_PRFPRC_t/SG_GEN_dU ;
 
 LEXICON PSS_IND_SG1_dX/SG3_tX
 PSS_IND_SG1_dX ;
@@ -4040,6 +4032,34 @@ PSS_IND_SG3_tX ;
 +Err/Dial: PSS_IND_PRS_PL1_tAmiq ;
 PSS_IND_PRT_PL1_dimiq ;
 +Err/Dial:PSS_IND_PRS_PL2_tAtiq ;
+PSS_IND_PRT_PL2_ditiq ;
+PSS_PRSPRC_tAv ;
+PSS_PRFPRC_t/SG_GEN_dU ;
+
+LEXICON PSS_IND_SG1_dX/2_tX/SG3_tX
+PSS_IND_SG1_dX ;
+: PSS_IND_PRS_SG2_tAt ;
+PSS_IND_PRT_SG2_tit ;
++Err/Dial: PSS_IND_PRS_SG2_tAdEq ;
++Err/Dial: PSS_IND_PRT_SG2_tidEq ;
+PSS_IND_SG3_tX ;
+: PSS_IND_PRS_PL1_tAmiq ;
+PSS_IND_PRT_PL1_timiq ;
+: PSS_IND_PRS_PL2_tAtiq ;
+PSS_IND_PRT_PL2_titiq ;
+PSS_PRSPRC_tAv ;
+PSS_PRFPRC_t/SG_GEN_dU ;
+
+LEXICON PSS_IND_SG1_dX/2_dX/SG3_tX
+PSS_IND_SG1_dX ;
+: PSS_IND_PRS_SG2_dAt ;
+PSS_IND_PRT_SG2_dit ;
++Err/Dial: PSS_IND_PRS_SG2_tAtiq ;
++Err/Dial: PSS_IND_PRT_SG2_titiq ;
+PSS_IND_SG3_tX ;
+: PSS_IND_PRS_PL1_dAmiq ;
+PSS_IND_PRT_PL1_dimiq ;
+: PSS_IND_PRS_PL2_dAtiq ;
 PSS_IND_PRT_PL2_ditiq ;
 PSS_PRSPRC_tAv ;
 PSS_PRFPRC_t/SG_GEN_dU ;
@@ -4091,6 +4111,9 @@ LEXICON PSS_IND_PRS_SG2_dAt
 LEXICON PSS_IND_PRS_SG2_tAdEq
 +Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%}q K ;
 +Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>t%{aä%}d%{eõ%} K ;
+LEXICON PSS_IND_PRS_SG2_tAtiq
++Pss+Ind+Prs+Sg2:%>t%{aä%}tiq K ;
++Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>t%{aä%}ti K ;
 LEXICON PSS_IND_PRS_SG2_dAdEq
 +Pss+Ind+Prs+Sg2:%>d%{aä%}d%{eõ%}q K ;
 +Err/Orth-no-q+Pss+Ind+Prs+Sg2:%>d%{aä%}d%{eõ%} K ;
@@ -4558,6 +4581,9 @@ LEXICON PSS_IND_PRT_SG2_tit
 LEXICON PSS_IND_PRT_SG2_tidEq
 +Pss+Ind+Prt+Sg2:%>tid%{eõ%}q K ;
 +Err/Orth-no-q+Pss+Ind+Prt+Sg2:%>tid%{eõ%} K ;
+LEXICON PSS_IND_PRT_SG2_titiq
++Pss+Ind+Prt+Sg2:%>titiq K ;
++Err/Orth-no-q+Pss+Ind+Prt+Sg2:%>titi K ;
 
 LEXICON PSS_IND_PRT_SG3_di
 +Pss+Ind+Prt+Sg3:%>di K ;
@@ -5082,6 +5108,37 @@ PSS_IND_PRT_PL2_titiq ;
 PSS_IND_PRT_PL3_diq ;
 +Err/Dial: PSS_IND_PRT_PL3_tivAq ;
 
+LEXICON PSS_PRC_t_tU_tA
++Pss+PrfPrc:%>t K ;
++Pss+PrfPrc+Sg+Nom:%>t K ;
++Err/Dial+Pss+PrfPrc:%>t%{uü%} K ;
++Err/Dial+Pss+PrfPrc+Sg+Nom:%>t%{uü%} K ;
++Pss+PrfPrc+Sg+Gen:%>d%{uü%} K ;
++Pss+PrfPrc:%>d%{uü%} Harm_Neutr_COMP ;
++Pss+PrfPrc+Sg+Par:%>t%{uü%}t K ;
++Pss+PrfPrc+Sg+Ill:%>t%{uü%}he K ;
+ PSS-PRFPRC_PL_NOM_dUq ;
++Pss+PrfPrc+Pl+Gen:%>t%{uü%}id%{eõ%} K ;
++Pss+PrfPrc+Pl+Par:%>t%{uü%}id K ;
++Pss+PrfPrc+Pl+Ill:%>t%{uü%}ihe K ;
++Err/Dial+Pss+PrfPrc+Pl+Gen:%>t%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Par:%>t%{uü%}isi K ;
++Err/Dial+Pss+PrfPrc+Pl+Ill:%>t%{uü%}isihe K ;
+!
++Pss+PrsPrc:%>t%{aä%}v K ;
++Pss+PrsPrc+Sg+Nom:%>t%{aä%}v K ;
++Pss+PrsPrc+Sg+Gen:%>t%{aä%}%>v%{aä%} K ;
++Pss+PrsPrc:%>t%{aä%}%>v%{aä%} Harm_Neutr_COMP ;
++Pss+PrsPrc+Sg+Par:%>t%{aä%}%>v%{aä%}t K ;
++Pss+PrsPrc+Sg+Ill:%>t%{aä%}%>v%{aä%}he K ;
++Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%}q K ;
++Pss+PrsPrc+Pl+Gen:%>t%{aä%}%>vid%{eõ%} K ;
++Pss+PrsPrc+Pl+Par:%>t%{aä%}%>vit K ;
++Pss+PrsPrc+Pl+Ill:%>t%{aä%}%>vihe K ;
++Err/Dial+Pss+PrsPrc+Pl+Gen:%>t%{aä%}%>viid%{eõ%} K ;
++Err/Dial+Pss+PrsPrc+Pl+Par:%>t%{aä%}%>viid K ;
++Err/Dial+Pss+PrsPrc+Pl+Ill:%>t%{aä%}%>viihe K ;
++Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ; !!= * @CODE@ no q
 
 LEXICON Harm_Neutr_LOGÕMA_ACT-IND-PRT-SG1
 +Act+Ind+Prt+Sg1: K ;

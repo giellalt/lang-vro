@@ -2530,7 +2530,7 @@ LEXICON NMN_7FUEUESIGA-SG
 :%^Pen%^StrGStem        Harm_Neutr_SG_ILL_he       ;
 +Err/Dial:%^Pen%^StrGStem        SG_ILL_dE       ;
 :%^Pen%^StrGStem    Harm_Neutr_SG_ALL_lE-STEM ;
-:%^Pen%^WGStem Harm_Neutr_SG_COM ;
+:%^Pen%^WGStem SG_COM ;
 +Err/Orth-weak-grade:%^Pen%^WGStem        Harm_Neutr_SG_PAR_t        ;
 
 LEXICON NMN_7FUEUESIGA_PL 
@@ -2912,7 +2912,7 @@ LEXICON NMN_8AASTAK-SG
 +Err/Dial:%^G2%>%{aä%}    Harm_Neutr_SG_ALL_lE-STEM        ;
 :%^G3%>%{aä%}    Harm_Neutr_SG_PAR_t        ;
 :%^G3%>%{aä%}    Harm_Neutr_SG_ILL_he       ;
-:%^G2%>%{aä%} Harm_Neutr_SG_COM ;
+:%^G2%>%{aä%} SG_COM ;
 
 LEXICON NMN_8AASTAK_PL 
 :%^G2%>%{aä%}    Harm_Neutr_PL_NOM ;
@@ -3278,7 +3278,7 @@ LEXICON NMN_9SALLAI/ELLAEI-SG
 :%^Pen%^WGStem%^I2J%>%{aä%} SG_GEN_ZERO-STEM ;
 :%^Pen%^WGStem%^I2J%>%{aä%} Harm_Neutr_SG_PAR_t ;
 :%^Pen%^WGStem%^I2J%>%{aä%} FRONT_SG_ILL_he ;
-:%^Pen%^WGStem%^I2J%>%{aä%} Harm_Neutr_SG_COM ;
+:%^Pen%^WGStem%^I2J%>%{aä%} SG_COM ;
 !:%^Pen%^WGStem%>%{aä%} FRONT_SG_INE_n ;
 !:%^Pen%^WGStem%>%{aä%} SG_ELA_st ;
 +Err/Dial:%^Pen%^WGStem%^I2J%>%{aä%}      SG_ILL_dE  ;
@@ -3457,14 +3457,14 @@ LEXICON NMN_10HWRAK-SG
 :%^StrGStem%>%{aä%}    Harm_Neutr_SG_ALL_lE-STEM        ;
 :%^StrGStem%>%{aä%}    Harm_Neutr_SG_PAR_t        ;
 :%^StrGStem%>%{aä%}    Harm_Neutr_SG_ILL_he       ;
-:%^WGStem%>%{aä%} Harm_Neutr_SG_COM ;
+:%^WGStem%>%{aä%} SG_COM ;
 +Err/Dial:%^WGStem%>u    SG_GEN_ZERO ;
 +Err/Dial:%^StrGStem%>u       Harm_Neutr_SG_ALL_lE-STEM        ;
 +Err/Dial:%^StrGStem%>u    Harm_Neutr_SG_PAR_t        ;
 +Err/Dial:%^StrGStem%>%{aä%}       SG_ILL_dE       ;
 +Err/Dial:%^StrGStem%>u       SG_ILL_dE       ;
 +Err/Dial:%^StrGStem%>u       Harm_Neutr_SG_ILL_he       ;
-+Err/Dial:%^WGStem%>u Harm_Neutr_SG_COM ;
++Err/Dial:%^WGStem%>u SG_COM ;
 
 LEXICON NMN_10HWRAK_PL 
 :%^WGStem%>%{aä%}    Harm_Neutr_PL_NOM ;
@@ -3521,7 +3521,7 @@ LEXICON NMN_10AMEERIGA-SG
 :%^StrGStem%>%{aä%}    Harm_Neutr_SG_ALL_lE-STEM        ;
 :%^StrGStem%>%{aä%}    Harm_Neutr_SG_PAR_t        ;
 :%^StrGStem%>%{aä%}    Harm_Neutr_SG_ILL_he       ;
-:%^WGStem%>%{aä%} Harm_Neutr_SG_COM ;
+:%^WGStem%>%{aä%} SG_COM ;
 
 +Err/Orth-weak-grade:%^WGStem%>%{aä%}    Harm_Neutr_SG_ALL_lE-STEM        ;
 
@@ -3574,7 +3574,7 @@ LEXICON NMN_10HAIDAK/ESAEK-SG
 :%^StrGStem%>u    Harm_Neutr_SG_PAR_t        ;
 :%^StrGStem%>u       SG_ILL_dE       ;
 :%^StrGStem%>u       Harm_Neutr_SG_ILL_he       ;
-:%^WGStem%>u Harm_Neutr_SG_COM ;
+:%^WGStem%>u SG_COM ;
 
 LEXICON NMN_10HAIDAK/ESAEK_PL 
 :%^WGStem%>%{back%}u    Harm_Neutr_PL_NOM ;
@@ -3657,7 +3657,7 @@ LEXICON NMN_10RAAMAT/LEMBIT-SG
 :%^StrGStem%>%{uü%}    Harm_Neutr_SG_PAR_t        ;
 :%^StrGStem%>%{uü%}       SG_ILL_dE       ;
 :%^StrGStem%>%{uü%}       Harm_Neutr_SG_ILL_he       ;
-:%^WGStem%>%{uü%} Harm_Neutr_SG_COM ;
+:%^WGStem%>%{uü%} SG_COM ;
 
 LEXICON NMN_10RAAMAT/LEMBIT_PL 
 :%^WGStem%>%{uü%}    Harm_Neutr_PL_NOM ;
@@ -3714,7 +3714,7 @@ LEXICON NMN_10VIDRIK-SG
 :%>u    Harm_Neutr_SG_ALL_lE-STEM        ;
 :%>u    Harm_Neutr_SG_PAR_t        ;
 :%>u    Harm_Neutr_SG_ILL_he       ;
-:%>u Harm_Neutr_SG_COM ;
+:%>u SG_COM ;
 +Err/Dial:%>u    SG_ILL_dE       ;
 
 LEXICON NMN_10VIDRIK_PL 
@@ -3769,7 +3769,7 @@ LEXICON NMN_10AABITS/HEERITS-SG
 :%^StrGStem%>%{aä%}    Harm_Neutr_SG_ALL_lE-STEM        ;
 :%^StrGStem%>%{aä%}    Harm_Neutr_SG_PAR_t        ;
 :%^StrGStem%>%{aä%}    Harm_Neutr_SG_ILL_he       ;
-:%^WGStem%>%{aä%} Harm_Neutr_SG_COM ;
+:%^WGStem%>%{aä%} SG_COM ;
 +Err/Dial:%^WGStem%>%{aä%}    SG_GEN_ZERO ;
 +Err/Dial:%^StrGStem%>%{aä%}       Harm_Neutr_SG_ALL_lE-STEM        ;
 +Err/Dial:%^StrGStem%>%{aä%}       SG_ILL_dE       ;
@@ -3801,9 +3801,9 @@ LEXICON NMN_10AABITS/HEERITS_PL
 !:%^StrGStem%>%{aä%}    Harm_Neutr_SG_ALL_lE-STEM        ;
 !:%^StrGStem%>%{aä%}    Harm_Neutr_SG_PAR_t        ;
 !:%^StrGStem%>%{aä%}    FRONT_SG_ILL_he       ;
-!:%^StrGStem%>%{aä%} Harm_Neutr_SG_COM ;
+!:%^StrGStem%>%{aä%} SG_COM ;
 !+Err/Dial:%^StrGStem%>%{aä%}    SG_ILL_dE       ;
-!+Err/Dial:%^WGStem%>%{aä%} Harm_Neutr_SG_COM ;
+!+Err/Dial:%^WGStem%>%{aä%} SG_COM ;
 
 !LEXICON NMN_10HEERITS_PL 
 !:%^WGStem%>%{aä%}    Harm_Neutr_PL_NOM ;
@@ -3858,7 +3858,7 @@ LEXICON NMN_10AADRWS1-SG
 :%^NoPAL%>i    Harm_Neutr_SG_ALL_lE-STEM        ;
 :%^NoPAL%>si    Harm_Neutr_SG_PAR_t        ;
 :%^NoPAL%>si    Harm_Neutr_SG_ILL_he       ;
-:%^NoPAL%>i Harm_Neutr_SG_COM ;
+:%^NoPAL%>i SG_COM ;
 +Err/Dial:%^NoPAL%>si       SG_ILL_dE       ;
 
 LEXICON NMN_10AADRWS1_PL 
@@ -3914,7 +3914,7 @@ LEXICON NMN_10AMMAT1-SG
 :%^WGStem%^NoPAL%>i    Harm_Neutr_SG_ALL_lE-STEM        ;
 :%^StrGStem%^NoPAL%>i    Harm_Neutr_SG_PAR_t        ;
 :%^StrGStem%^NoPAL%>i    Harm_Neutr_SG_ILL_he       ;
-:%^StrGStem%^NoPAL%>i Harm_Neutr_SG_COM ;
+:%^StrGStem%^NoPAL%>i SG_COM ;
 
 LEXICON NMN_10AMMAT1_PL 
 :%^WGStem%^NoPAL%>i    Harm_Neutr_PL_NOM ;
@@ -3944,9 +3944,9 @@ LEXICON NMN_10HUEPAETS1-SG
 :%^StrGStem%^NoPAL%>i    Harm_Neutr_SG_ALL_lE-STEM        ;
 :%^StrGStem%^NoPAL%>i    Harm_Neutr_SG_PAR_t        ;
 :%^StrGStem%^NoPAL%>i    FRONT_SG_ILL_he       ;
-:%^StrGStem%^NoPAL%>i Harm_Neutr_SG_COM ;
+:%^StrGStem%^NoPAL%>i SG_COM ;
 +Err/Dial:%^StrGStem%^NoPAL%>i    SG_ILL_dE       ;
-+Err/Dial:%^WGStem%^NoPAL%>i Harm_Neutr_SG_COM ;
++Err/Dial:%^WGStem%^NoPAL%>i SG_COM ;
 
 LEXICON NMN_10HUEPAETS1_PL 
 :%^WGStem%^NoPAL%>i    Harm_Neutr_PL_NOM ;
@@ -4150,7 +4150,7 @@ LEXICON NMN_12HOPWN1/REPAEN1-SG
 :%^Pen%^WGStem%>s%{eõ%}       SG_GEN_ZERO-STEM        ;
 :%^Pen%^WGStem%>s       Harm_Neutr_SG_PAR_t        ;
 :%^Pen%^WGStem%>s%{eõ%}       FRONT_SG_ILL_he       ;
-:%^Pen%^WGStem%>s%{eõ%}       Harm_Neutr_SG_COM ;
+:%^Pen%^WGStem%>s%{eõ%}       SG_COM ;
 +Err/Dial:%^Pen%^WGStem%>s%{eõ%}       SG_ILL_dE       ;
 
 LEXICON NMN_12HOPWN1/REPAEN1_PL 
@@ -4184,7 +4184,7 @@ LEXICON NMN_12SUEKUES-SG
 :%^Pen%^WGStem%>e       SG_GEN_ZERO-STEM        ;
 :%^Pen%^WGStem%>       Harm_Neutr_SG_PAR_t        ;
 :%^Pen%^WGStem%>e       FRONT_SG_ILL_he       ;
-:%^Pen%^WGStem%>e       Harm_Neutr_SG_COM ;
+:%^Pen%^WGStem%>e       SG_COM ;
 +Err/Dial:%^Pen%^WGStem%>e       SG_ILL_dE       ;
 
 LEXICON NMN_12SUEKUES_PL 
@@ -4218,10 +4218,10 @@ LEXICON NMN_12NWKWS1-SG
 :%^Pen%^WGStem%^NoPAL%>õ       SG_GEN_ZERO        ;
 :%^Pen%^WGStem%^NoPAL       Harm_Neutr_SG_PAR_t        ;
 :%^Pen%^WGStem%^NoPAL%>sõ       Harm_Neutr_SG_ILL_he       ;!2020-02-13 WHAT
-:%^Pen%^WGStem%^NoPAL%>sõ       Harm_Neutr_SG_COM ;
+:%^Pen%^WGStem%^NoPAL%>sõ       SG_COM ;
 :%^Pen%^WGStem%^NoPAL%>sõ       SG_GEN_ZERO-STEM        ; !!= * @CODE@ THIS NEEDS WORK
 +Err/Dial:%^Pen%^WGStem%^NoPAL%>sõ       SG_ILL_dE       ;
-:%^Pen%^WGStem%^NoPAL%>sõ       Harm_Neutr_SG_COM ;
+:%^Pen%^WGStem%^NoPAL%>sõ       SG_COM ;
 
 LEXICON NMN_12NWKWS1_PL 
 :%^Pen%^WGStem%^NoPAL%>õ       Harm_Neutr_PL_NOM ;
@@ -4278,10 +4278,10 @@ LEXICON NMN_13ALONW/TAEHINE-SG
 :s  Harm_Neutr_SG_PAR_t ;
 :ts%{eõ%}       Harm_Neutr_SG_ILL_he ;
 :%>ts%{eõ%}      Harm_Neutr_SG_ALL_lE-STEM ;
-:%>ts%{eõ%}      Harm_Neutr_SG_COM ;
+:%>ts%{eõ%}      SG_COM ;
 +Err/Dial:%>is%{eõ%}      Harm_Neutr_SG_ALL_lE-STEM ;!foreign?
 +Err/Dial:ts%{eõ%}       SG_ILL_dE ;
-+Err/Dial:ds%{eõ%}       Harm_Neutr_SG_COM ;
++Err/Dial:ds%{eõ%}       SG_COM ;
 
 LEXICON NMN_13ALONW/TAEHINE_PL
 :%>ds%{eõ%}      Harm_Neutr_PL_NOM ;
@@ -4365,7 +4365,7 @@ LEXICON NMN_13XX/SAEAENE-SG
 :nts%{eõ%}       Harm_Neutr_SG_ILL_he ;
 :%>nts%{eõ%}      Harm_Neutr_SG_ALL_lE-STEM ;
 +Err/Dial:nts%{eõ%}       SG_ILL_dE ;
-+Err/Dial:nds%{eõ%}       Harm_Neutr_SG_COM ;
++Err/Dial:nds%{eõ%}       SG_COM ;
 
 LEXICON NMN_13XX/SAEAENE_PL
 :n%>ds%{eõ%}      Harm_Neutr_PL_NOM ;
@@ -4688,11 +4688,11 @@ LEXICON NMN_15KOTUS/ILVES-SG
 :%^WGStem%>        Harm_Neutr_SG_NOM  ;
 :%^WGStem%>%{eõ%}   SG_GEN_ZERO  ;
 :%^WGStem   Harm_Neutr_SG_PAR_t      ;
-:%^WGStem%>%{eõ%} Harm_Neutr_SG_COM ;
+:%^WGStem%>%{eõ%} SG_COM ;
 +Err/Dial:%^StrGStem%{eõ%}   SG_GEN_ZERO-STEM        ;
 +Err/Dial:%^StrGStem%{eõ%}   SG_ILL_dE     ;
 +Err/Dial:%^StrGStem%{eõ%}   Harm_Neutr_SG_ILL_he     ;
-+Err/Dial:%^StrGStem%{eõ%} Harm_Neutr_SG_COM ;
++Err/Dial:%^StrGStem%{eõ%} SG_COM ;
 
 LEXICON NMN_15KOTUS/ILVES_PL 
 :%^WGStem%>%{eõ%}   Harm_Neutr_PL_NOM  ;
@@ -4748,18 +4748,18 @@ LEXICON NMN_15JOHANNES-SG
 :%^WGStem%>%{eõ%}   SG_GEN_ZERO  ;
 +Err/Dial:%^WGStem%>e   SG_GEN_ZERO  ;
 :%^WGStem   Harm_Neutr_SG_PAR_t      ;
-:%^WGStem%>%{eõ%} Harm_Neutr_SG_COM ;
-+Err/Dial:%^WGStem%>e Harm_Neutr_SG_COM ;
+:%^WGStem%>%{eõ%} SG_COM ;
++Err/Dial:%^WGStem%>e SG_COM ;
 
 +Err/Dial:%^StrGStem%{eõ%}   SG_GEN_ZERO-STEM        ;
 +Err/Dial:%^StrGStem%{eõ%}   SG_ILL_dE     ;
 +Err/Dial:%^StrGStem%{eõ%}   Harm_Neutr_SG_ILL_he     ;
-+Err/Dial:%^StrGStem%{eõ%} Harm_Neutr_SG_COM ;
++Err/Dial:%^StrGStem%{eõ%} SG_COM ;
 
 +Err/Dial:%^StrGStem%>e   SG_GEN_ZERO-STEM        ;
 +Err/Dial:%^StrGStem%>e   SG_ILL_dE     ;
 +Err/Dial:%^StrGStem%>e   Harm_Neutr_SG_ILL_he     ;
-+Err/Dial:%^StrGStem%>e Harm_Neutr_SG_COM ;
++Err/Dial:%^StrGStem%>e SG_COM ;
 
 LEXICON NMN_15JOHANNES_PL 
 :%^WGStem%>%{eõ%}   Harm_Neutr_PL_NOM  ;
@@ -5325,7 +5325,7 @@ LEXICON NMN_24SUSI/XX-SG
 :e%^VOWLower      SG_GEN_ZERO-STEM ;
 :t             Harm_Neutr_SG_PAR_t ;
 :t             Harm_Neutr_SG_ILL_tE ;
-:e%^VOWLower      Harm_Neutr_SG_COM ;
+:e%^VOWLower      SG_COM ;
 
 LEXICON NMN_24SUSI/XX_PL 
 :e%^VOWLower      Harm_Neutr_PL_NOM ;
@@ -5353,7 +5353,7 @@ LEXICON NMN_24XX/KAESI-SG
 :e%^VOWLower      SG_GEN_ZERO-STEM ;
 :t             Harm_Neutr_SG_PAR_t ;
 :t             Harm_Neutr_SG_ILL_tE ;
-:e%^VOWLower      Harm_Neutr_SG_COM ;
+:e%^VOWLower      SG_COM ;
 
 LEXICON NMN_24XX/KAESI_PL 
 :e%^VOWLower      Harm_Neutr_PL_NOM ;
@@ -5381,7 +5381,7 @@ LEXICON NMN_25ASW/SUEAE-SG
        Harm_Neutr_SG_NOM ;
 :%>n              Harm_Neutr_SG_PAR_d ;
 :%>m%{eõ%}      FRONT_SG_ILL_he ;
-:%>m%{eõ%} Harm_Neutr_SG_COM ;
+:%>m%{eõ%} SG_COM ;
 
 +Err/Dial:%>m%{eõ%}      SG_ILL_dE ;
 
@@ -5415,14 +5415,14 @@ LEXICON NMN_25ASWQ-SG
 +Err/Orth-no-q:       Harm_Neutr_SG_NOM ;
 :%>n              Harm_Neutr_SG_PAR_d ;
 :%>mõ      Harm_Neutr_SG_ILL_he ;
-:%>mõ Harm_Neutr_SG_COM ;
+:%>mõ SG_COM ;
 
 +Err/Dial:%^Pen%^WGStem       Harm_Neutr_SG_NOM ;
 +Err/Dial:%^Pen%^StrGStem%>ma      SG_GEN_ZERO-STEM ;
 +Err/Dial:%^Pen%^StrGStem%>ma      Harm_Neutr_SG_ILL_he ;
 +Err/Dial:%^Pen%^StrGStem%>mõ      SG_ILL_dE ;
 +Err/Dial:%^Pen%^StrGStem%>ma      SG_ILL_dE ;
-+Err/Dial:%^Pen%^StrGStem%>ma Harm_Neutr_SG_COM ;
++Err/Dial:%^Pen%^StrGStem%>ma SG_COM ;
 
 LEXICON NMN_25ASWQ_PL 
 :%>mõ      Harm_Neutr_PL_NOM ;
@@ -5453,7 +5453,7 @@ LEXICON NMN_26KUPWM1/HEPEM1_SG
 :%^Pen%^WGStem%>n Harm_Neutr_SG_PAR_d ;
 :%^Pen%^StrGStem%>m%>%{eõ%} Harm_Neutr_SG_ILL_he ;
 :%^Pen%^StrGStem%>m%>%{eõ%} Harm_Neutr_SG_ALL_lE-STEM ;
-:%^Pen%^StrGStem%>m%>%{eõ%} Harm_Neutr_SG_COM ;
+:%^Pen%^StrGStem%>m%>%{eõ%} SG_COM ;
 
 LEXICON NMN_26KUPWM1/HEPEM1_PL
 :%^Pen%^StrGStem%>m%>%{eõ%} Harm_Neutr_PL_NOM ;
@@ -5519,7 +5519,7 @@ LEXICON NMN_27HAPU-SG
 :n Harm_Neutr_SG_PAR_d ;
 :%^VowRM%>nõ Harm_Neutr_SG_ILL_he ;
 :%^VowRM%>nõ Harm_Neutr_SG_ALL_lE-STEM ;
-:%^VowRM%>nõ Harm_Neutr_SG_COM ; !Sg+Gen and Sg+Com correlate 2023_02_19
+:%^VowRM%>nõ SG_COM ; !Sg+Gen and Sg+Com correlate 2023_02_19
 +Err/Dial:%^VowRM%>nõ SG_ILL_dE ;
 
 LEXICON NMN_27HAPU_PL 
@@ -5742,7 +5742,7 @@ LEXICON NMN_28KANNWL1/KINNER1-SG
 :%^Pen%^WGStem%^NoPAL Harm_Neutr_SG_PAR_d ;
 :%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{XV%} Harm_Neutr_SG_ILL_he ;
 :%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{XV%} Harm_Neutr_SG_ALL_lE-STEM ;
-:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{XV%} Harm_Neutr_SG_COM ;
+:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{XV%} SG_COM ;
 +Err/Dial:%^Pen%^StrGStem%^Pen%^VowRM%^NoPAL%>%{XV%} SG_ILL_dE ;
 
 LEXICON NMN_28KANNWL1/KINNER1_PL 
@@ -5817,6 +5817,7 @@ LEXICON NMN_28PUNDAR/KAEMMAEL-SG
 :%^Pen%^StrGStem%^Pen%^VowRM%>%{XV%} Harm_Neutr_SG_ILL_he ;
 :%^Pen%^StrGStem%^Pen%^VowRM%>%{XV%} Harm_Neutr_SG_ALL_lE-STEM ;
 +Err/Dial:%^Pen%^StrGStem%^Pen%^VowRM%>%{XV%} SG_ILL_dE ;
+:%^Pen%^StrGStem%^Pen%^VowRM%>%{XV%} SG_COM ;
 
 LEXICON NMN_28PUNDAR/KAEMMAEL_PL
 :%^Pen%^StrGStem%^Pen%^VowRM%>%{XV%} Harm_Neutr_PL_NOM ;
@@ -7505,7 +7506,7 @@ LEXICON SG_GEN_ZERO-STEM
  Harm_Neutr_SG_ABL ;
  Harm_Neutr_SG_ADE ;
  Harm_Neutr_SG_ALL_lE ;
- Harm_Neutr_SG_COM ;
+ SG_COM ;
  SG_ELA_st       ;
  SG_GEN_ZERO ;
  Harm_Neutr_SG_INE_n_h_hn ;
@@ -7518,7 +7519,7 @@ LEXICON Harm_Neutr_SG_ALL_lE-STEM
  Harm_Neutr_SG_ABL ;
  Harm_Neutr_SG_ADE ;
  Harm_Neutr_SG_ALL_lE ;
-+Err/Dial: Harm_Neutr_SG_COM ; !2023_02_19
++Err/Dial: SG_COM ; !2023_02_19
  SG_ELA_st       ;
  Harm_Neutr_SG_INE_n_h_hn ;
  Harm_Neutr_SG_TER   ;
@@ -7648,7 +7649,7 @@ LEXICON  Harm_Neutr_SG_ADE
 LEXICON  Harm_Neutr_SG_ALL_lE
 +Sg+All:%>l%{eõ%} K ;
 
-LEXICON  Harm_Neutr_SG_COM
+LEXICON  SG_COM
 +Sg+Com:%>gaq%{back%} K ;
 +Err/Orth-no-q+Sg+Com:%>ga K ; !!= * @CODE@ no q
 +Err/Orth-no-q+Err/Orth-front+Sg+Com:%>gä K ; !!= * @CODE@ no q, front
