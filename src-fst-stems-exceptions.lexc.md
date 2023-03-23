@@ -43,8 +43,6 @@ tegemä **to do/ tehdä**
 
 tundma **to feel/tuntea**
 
-võtma **to take (pass)/ ottaa**
-
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/exceptions.lexc)</small>

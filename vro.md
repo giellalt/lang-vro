@@ -4247,6 +4247,8 @@ Retain consonant and stem vowel
 
 * +Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
 
+* +Err/Orth-no-q+Pss+PrsPrc+Pl+Nom:%>t%{aä%}%>v%{aä%} K ;  no q
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/verbs.lexc)</small>
@@ -6194,8 +6196,6 @@ pidämä **to keep/ pitää**
 tegemä **to do/ tehdä**
 
 tundma **to feel/tuntea**
-
-võtma **to take (pass)/ ottaa**
 
 * * *
 
