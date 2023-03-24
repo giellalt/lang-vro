@@ -39,8 +39,6 @@ pandma **to put/panna**
 
 pidämä **to keep/ pitää**
 
-tegemä **to do/ tehdä**
-
 tundma **to feel/tuntea**
 
 * * *

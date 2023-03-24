@@ -586,6 +586,8 @@ Work
 * *tettäv:* `tegemä+V+Pss+PrsPrc+Sg+Nom` (Eng. # (4))
 * *tekuq:* `tegemä+V+Jus` (Eng. # (9))
 
+tegemä **to do/ tehdä**
+
 * **LEXICON V_81NAEGEMAE** nägemä:täg
 * Yaml: **nägemä**
 Work
@@ -761,7 +763,7 @@ sõida
 * : ACT_IND_PRS_3_s/sEq ;  
 +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
 
-### INDICATIVE PRESENT SUBJECT CONJUGATION
+### INDICATIVE PRESENT ACTIVE CONJUGATION
 
 * +Ind+Prs+Neg:%-%{XV%}iq K ;  This gives stress
 * +Err/Orth-no-q+Ind+Prs+Neg:%-iq K ;  This gives stress
@@ -826,6 +828,8 @@ PASSIVE DISTRIBUTION
 * +Err/Dial+Pss+PrfPrc+Sg+Nom:%>d%{uü%} K ; 
 
 * +Err/Orth-no-q+Pl+Nom:%>d%{uü%} K ;  no q
+
+* +Err/Orth-no-q+Pl+Nom:%>t%{uü%} K ;  no q
 
 * LEXICON Harm_Neutr_ACT_PRSPRC_v_LUGWMA  lugõma:lugõ
 Retain consonant and stem vowel
