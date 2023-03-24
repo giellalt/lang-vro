@@ -958,9 +958,9 @@ LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE !!≈ * **@CODE@** hirnahtama:hirnahta, täh
 ! (4) Tettäv tm passiiv:
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_IND_PRS_ALL_dA ;
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_IND_PRT_ALL_di ;
-:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_IND_SG1_dX/SG3_tX ;!CHECKME
+!2023_03_24:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_IND_SG1_dX/SG3_tX ;!CHECKME
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_PRFPRC_t/SG_GEN_dU ;
-:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_PRFPRC_dU-SG_NOM ;
++Err/Dial:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_PRFPRC_dU-SG_NOM ;
 
 ! (5) Olõvao 1. k maq:
 ! 2nd person indicative present
@@ -1174,7 +1174,7 @@ LEXICON V_62ARGNWMA/TAERKNEMAE
 :%^WGStem%>%{eõ%} PSS_IND_PRT_ALL_ti ;
 :%{eõ%}%^Pen%^WGStem PSS_PRSPRC_tAv ;
 :%{eõ%}%^Pen%^WGStem PSS_PRFPRC_t/SG_GEN_dU ;
-:%{eõ%}%^Pen%^WGStem PSS_PRFPRC_tU_SG_NOM ;
++Err/Dial:%{eõ%}%^Pen%^WGStem PSS_PRFPRC_tU_SG_NOM ;
 ! (5) Olõvao 1. k maq:
 ! 2nd person indicative present
 ! 1st person plural present
@@ -1432,7 +1432,7 @@ LEXICON V_68NAELGUEMAE
 :%{front%} V_68HARKUMA/NAELGUEMAE ;
 
 LEXICON V_68HARKUMA/NAELGUEMAE
-! (1) I tegonimi: hirnma
+! (1) I tegonimi: harkuma; nälgümä
 :%^Pen%^VOWRaise Harm_Neutr_INF_mA ;
 
 ! (2) II tegonimi: hirnuq
@@ -1446,6 +1446,7 @@ LEXICON V_68HARKUMA/NAELGUEMAE
 ! (4) Tettäv tm passiiv: hirnut
 :%^Pen%^VOWRaise PSS_IND_SG1_dX/SG3_tX ;
 :%^Pen%^VOWRaise PSS_IND_CONNEG_tA ;
+:%^Pen%^VOWRaise PSS_IND_CONNEGII_tA ;
 
 +Err/Dial:%^Pen%^VOWRaise PSS_PRFPRC_tU_SG_NOM ;
 
@@ -3387,7 +3388,7 @@ LEXICON V_84LASKMA/KAESKMAE !!= * @CODE@ laskma:las%{kḱØ%}
 ! (8) min 3. k tä: 
 :%^VOWRaise%^StrGStem%^PAL ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG3_ZERO ;
-:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG3_sE ;
++Err/Dial:%^VOWRaise%^StrGStem%^NoPAL ACT_IND_PRT_SG3_sE ;
 
 ! (9) jus: 
 :%^VOWLower%^WGStem%^NoPAL ACT_JUS_kuq ;!CHECKME2021-05-19
@@ -4024,6 +4025,9 @@ LEXICON PSS_IND_CONNEGII
 
 LEXICON PSS_IND_CONNEGII_dA
 +Pss+Ind+ConNegII:%>d%{aä%} K ;
+
+LEXICON PSS_IND_CONNEGII_tA
++Pss+Ind+ConNegII:%>t%{aä%} K ;
 
 LEXICON ACT-COND
 +Act: COND ;
