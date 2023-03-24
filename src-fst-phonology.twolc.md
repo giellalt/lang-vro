@@ -323,6 +323,8 @@ püüdmä+V+Act+Ind+Prs+Sg1
 * *pü%{üv%}%{dd́v%}%{front%}%^WGStem%>%{aä%}*
 * *püvv00%>ä*
 
+**%{dd́v%}:v**
+
 **%{pṕb%}:p**
 loroṕ+N+Sg+Par:
 * *loro{pṕb}{back}^StrGStem^NoPAL>i*
@@ -590,8 +592,6 @@ joudma+V+Act+Ind+Prt+Sg1
 * *jõvv00%>i*
 * *la{uv}{dv}{back}^WGStem>{aä}*
 * *lavv00>a*
-
-**%{dd́v%}:v**
 
 **{üv}:v**
 * *pü{üv}{dd́v}{front}^WGStem>et*

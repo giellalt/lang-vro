@@ -3487,9 +3487,14 @@ ehitelemä:ehitell
 
 * :%>e ACT_IND_PRS_PL3_vAq ;  (6) joovaq sööväq
 
-* __LEXICON V_54ISTMA__ 
+* __LEXICON V_54PUTMA__ 
 * __LEXICON V_54LEPMAE__ 
-* __LEXICON V_54ISTMA/LEPMAE__ 
+
+* __LEXICON V_54PUTMA/LEPMAE__
+
+* __LEXICON V_54ISTMA__ 
+* __LEXICON V_54KAEAETSMAE__ 
+* __LEXICON V_54ISTMA/KAEAETSMAE__ 
 
 * **LEXICON V_55KWNWLWMA** kõnõlõma:kõ̭nõl
 * Yaml: **kwnwlwma55**
@@ -3732,11 +3737,11 @@ Pss+Ind
 Retain consonant and stem vowel
 
 Weaken consonant and replace stem vowel with i
-* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm_Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm_Neutr_LOGÕMA_ACT_IND_PRT-SG1 ;  (7) loi
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Retain consonant remove stem vowel and add i
-* :%^VowRM%>i Harm_Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+* :%^VowRM ACT_IND_PRT_SG3_i ;  (8) lugi
 Act+Ind+Prt+Sg3
 
 +Jus
@@ -3753,7 +3758,7 @@ Inf, Act+PrsPrc+Sg+Nom
 
 Pss+PrfPrc, Pss+PrsPrc
 
-* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRMe Harm_Neutr_LUGWMA_PSS-PRC ;  (4) loet
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e Harm_Neutr_LUGWMA_PSS-PRC ;  (4) loet
 
 *  ACT_IND_PRS_SG3_ZERO/PL3_vAq ;  (6) lugõma
 Ind+Prs+ 3
@@ -3768,11 +3773,11 @@ Pss+Ind
 Retain consonant and stem vowel
 
 Weaken consonant and replace stem vowel with i
-* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm_Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm_Neutr_LOGÕMA_ACT_IND_PRT-SG1 ;  (7) loi
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Retain consonant remove stem vowel and add i
-* :%^VowRM%>i Harm_Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+* :%^VowRM ACT_IND_PRT_SG3_i ;  (8) lugi
 Act+Ind+Prt+Sg3
 
 +Jus
@@ -3785,9 +3790,9 @@ Act+Ind+Prt+Sg3
 Retain consonant and stem vowel
 * :%^Pen%^G2 Harm_Neutr_INF_mA ;  (1) lugõma:lu%{kgØ%}õ
 
-Weaken consonant and semi-retension of stem vowel
-* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e Harm_Neutr_LUGWMA_PSS-PRC ;  (4) loet
 Pss+PrfPrc, Pss+PrsPrc
+
+Weaken consonant and semi-retension of stem vowel
 
 Weaken consonant and semi-retension of stem vowel
 
@@ -3799,11 +3804,11 @@ Retain consonant and stem vowel
 Ind+Prs+ 3
 
 Weaken consonant and replace stem vowel with i
-* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm_Neutr_LOGÕMA_ACT-IND-PRT-SG1 ;  (7) loi
+* :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i Harm_Neutr_LOGÕMA_ACT_IND_PRT-SG1 ;  (7) loi
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 Retain consonant remove stem vowel and add i
-* :%^VowRM%>i Harm_Neutr_LUGWMA_IND-PRT-SG3 ;  (8) lugi
+* :%^VowRM ACT_IND_PRT_SG3_i ;  (8) lugi
 Act+Ind+Prt+Sg3
 
 * **LEXICON V_77JUUMA** juuma:joo
@@ -3918,7 +3923,7 @@ Strengthen consonant and replace stem vowel with i
 Act+Ind+PrtSg1/Sg2/Pl1-3
 
 consonant and add i
-* :%>i Harm_Neutr_LUGWMA_IND-PRT-SG3 ;  (8) puri
+* ACT_IND_PRT_SG3_i ;  (8)1 puri
 Act+Ind+Prt+Sg3
 
 * **LEXICON V_79OLWMA** olõma:o
@@ -4588,6 +4593,8 @@ püüdmä+V+Act+Ind+Prs+Sg1
 * *pü%{üv%}%{dd́v%}%{front%}%^WGStem%>%{aä%}*
 * *püvv00%>ä*
 
+**%{dd́v%}:v**
+
 **%{pṕb%}:p**
 loroṕ+N+Sg+Par:
 * *loro{pṕb}{back}^StrGStem^NoPAL>i*
@@ -4855,8 +4862,6 @@ joudma+V+Act+Ind+Prt+Sg1
 * *jõvv00%>i*
 * *la{uv}{dv}{back}^WGStem>{aä}*
 * *lavv00>a*
-
-**%{dd́v%}:v**
 
 **{üv}:v**
 * *pü{üv}{dd́v}{front}^WGStem>et*
