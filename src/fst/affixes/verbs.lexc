@@ -30,7 +30,7 @@ LEXICON V_48KASUMA/XX
 
 ! (4) Tettäv tm passiiv:
 :%^WGStem%>%{uü%} PSS_IND_SG1_dX/SG3_tX ;
-:%^WGStem%>%{uü%}%>d%{aä%} PSS_IND_CONNEGII ;
+:%^WGStem%>%{uü%} PSS_IND_CONNEGII_dA ;
 
 +Err/Dial:%^WGStem%>%{uü%} PSS_PRFPRC_tU_SG_NOM ;
 
@@ -1020,13 +1020,16 @@ LEXICON V_59KAOTAMA/KERGUETAEMAE !!≈ * **@CODE@** kaotama:kao%{tt́d%}, kergü
 
 :%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_PRFPRC_t/IND-SG1_dX/IND-SG3_dX ; != * @CODE@ kaotõ
 +Err/Dial:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_IND_SG1_dX/SG3_tX ;
-:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%}%>d%{aä%} PSS_IND_CONNEGII ; ! yaml 2023_03_05
+:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_IND_CONNEGII_dA ; ! yaml 2023_03_05
+:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_IND_CONNEG_dA ;
+
 !! +Pss+Ind+Prs+Sg1, +Pss+Ind+Prt+Sg1
 !! +Pss+PrsPrc, +Pss+PrfPrc
 +Err/Dial:%^VOWRaise%^StrGStem%^NoPAL%>%{eõ%} PSS_PRFPRC_dU-SG_NOM ;
 
 ! (5) Olõvao 1. k maq:
-:%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT_IND_CONNEG/PRS_SG1 ;
+:%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT_IND_CONNEG ;
+:%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT_IND_PRS-SG1_ZERO ;
 :%^VOWLower%^WGStem%^NoPAL%>%{aä%} ACT_IND_CONNEGII ; ! yaml 2023_03_05
 !! +Act+Ind+Prs+Sg1, +Act+Ind+ConNegII, +Act+Imprt+Sg2
 !! +Act+Ind+Prs+Neg, +Act+Ind+Prt+Neg, +Act+Ind+ConNegI
@@ -1273,7 +1276,7 @@ LEXICON V_63VISKAMA/HINGAEMAE !!≈ * **@CODE@** viskama:viska
 :%^Pen%^VOWLower%^Pen%^WGStem PSS_IND_SG1_dX/2_tX/SG3_tX ;!CHECKME
 :%^Pen%^VOWLower%^Pen%^WGStem PSS_IND_PRS_PL3_tAsEq ;
 :%^Pen%^VOWLower%^Pen%^WGStem PSS_IND_PRT_PL3_diq ;
-:%^Pen%^VOWLower%^Pen%^WGStem%d%{aä%} PSS_IND_CONNEGII ;
+:%^Pen%^VOWLower%^Pen%^WGStem PSS_IND_CONNEGII_dA ;
 
 +Err/Dial:%^Pen%^VOWLower%^Pen%^WGStem PSS_PRFPRC_tU_SG_NOM ;
 +Err/Dial+Pss+Ind+Prt+Sg2:%^Pen%^VOWLower%^Pen%^WGStem%>di K ; !!= * @CODE@ no    q
@@ -1493,7 +1496,7 @@ LEXICON V_69HAARDUMA/SUENDUEMAE !!≈ * **@CODE@** sündümä:sündü
 :%^Pen%^WGStem PSS_PRSPRC_tAv ;
 :%^Pen%^WGStem PSS_PRFPRC_t/SG_GEN_dU ;
 +Err/Dial:%^Pen%^WGStem PSS_PRFPRC_tU_SG_NOM ;
-:%^Pen%^WGStem%>t%{aä%} PSS_IND_CONNEGII ;
+:%^Pen%^WGStem PSS_IND_CONNEGII_tA ;
 
 ! (5) Olõvao 1. k maq:
 ! 2nd person indicative present
@@ -1914,7 +1917,9 @@ LEXICON V_76HIGOMA/PUEGAEMAE !!≈ * **@CODE@** higoma:hi%{kg0%}o
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%} PSS_IND_SG1_dX/2_tX/SG3_tX ;! loet
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>%{eõ%} PSS_IND_PRS_PL3_tAsEq ; !2023_02_19 pügä
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>%{eõ%} PSS_IND_PRT_PL3_diq ; !2023_02_19
-:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%}%>d%{aä%} PSS_IND_CONNEGII ; ! yaml 2023_03_25
+:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%} PSS_IND_CONNEGII_dA ; ! yaml 2023_03_25
+:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%{eõ%} PSS_IND_CONNEG_dA ;
+
 ! (5) Olõvao 1. k maq:
 :%^Pen%^G1 ACT_IND_CONNEG/PRS_SG1 ;
 :%^Pen%^G1 ACT_IND_CONNEGII ;
@@ -2058,7 +2063,7 @@ LEXICON V_76LUGWMA/XX !!≈ * **@CODE@** lugõma:lu%{kg0%}õ
 
 ! (4) loet tm passiiv: CHECKME
 
-:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e%>d%{aä%} PSS_IND_CONNEGII ;
+:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e PSS_IND_CONNEGII_dA ;
 
 !:%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e PSS_IND_SG1_dX/SG3_tX ;
 :%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>e PSS_IND_SG1_dX ;
@@ -2922,12 +2927,12 @@ LEXICON V_83NÕSTMA/PÄSTMÄ  !!= * @CODE@ nõstma:nõst
 :%^Pen%^NoPAL%^VowRM ACT_PRFPRC_ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: nõstõt
-:%^Pen%^NoPAL%^PSS PSS_IND_SG1_dX/SG3_tX ;
+:%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_IND_SG1_dX/SG3_tX ;
 
-:%^Pen%^NoPAL%^PSS PSS_PRFPRC_tU_SG_NOM ;
++Err/Dial:%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_PRFPRC_tU_SG_NOM ;
 
 ! (5) Olõvao 1. k maq: nõsta
- ACT_IND_PRS-12 ;
+:%^Pen%^NoPAL ACT_IND_PRS-12 ;
 
 ! (6) Olõvao 3. k tä: nõst
 :%^Pen%^NoPAL%^VowRM ACT_IND_PRS_SG3_ZERO/PL3_vAq ;
@@ -2939,7 +2944,7 @@ LEXICON V_83NÕSTMA/PÄSTMÄ  !!= * @CODE@ nõstma:nõst
 +Err/Dial:%^Pen%^NoPAL%^VowRM ACT_IND_PRT_PL3_sEvAq ;
 ! (7.2) Sg2, Pl1 and Pl2
 :%^Pen%^NoPAL%^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-:%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
++Err/Dial:%^Pen%^NoPAL%^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
 
 ! (8) min 3. k tä: nõst́, nõstsõ
@@ -4199,7 +4204,7 @@ LEXICON PSS_IND_SG1_dX
  PSS_IND_PRT_SG1_di ;
 LEXICON PSS_IND_PRS_SG1_dA
 +Pss+Ind+Prs+Sg1:%>d%{aä%} K ;
-PSS_IND_CONNEG_dA ;
+!2023_03_24PSS_IND_CONNEG_dA ;
 
 LEXICON PSS_IND_SG1_tX
  PSS_IND_PRS_SG1_tA ;

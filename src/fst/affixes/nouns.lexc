@@ -2635,7 +2635,7 @@ LEXICON NMN_8KULDNW/KIIL1NE-SG
 :%>s%{eõ%}        Harm_Neutr_SG_PAR_t        ;
 :%>s%{eõ%}        Harm_Neutr_SG_ILL_he       ;
 
-:%>s%{eõ%}        SG_ILL_dE       ;
++Err/Dial:%>s%{eõ%}        SG_ILL_dE       ;
 
 LEXICON NMN_8KULDNW/KIIL1NE_PL 
 :s%{eõ%}        Harm_Neutr_PL_NOM ;
@@ -3378,7 +3378,7 @@ LEXICON NMN_9VILLW/XX !!= @CODE@ villõ:vi%{lØ%}lõ
 !! * Yaml: **N-kipwnj**
 !CHECKME 2019-08-30 NMN_6MAKW/HELLE-SG ;
 :   NMN_9VILLW/XX_PL ;
-!CHECKME +Err/Orth:   NMN_9VILLW/XX-SG ;
+!CHECKME +Err/Orth: NMN_9VILLW/XX-SG ;
 :   NMN_9VILLW/XX-SG ;
 +Err/Orth:   NMN_6MAKW/HELLE_PL ;
 
@@ -3572,9 +3572,9 @@ LEXICON NMN_10HAIDAK/ESAEK-SG
 :%^WGStem%>u    SG_GEN_ZERO ;
 :%^StrGStem%>u       Harm_Neutr_SG_ALL_lE-STEM        ;
 :%^StrGStem%>u    Harm_Neutr_SG_PAR_t        ;
-:%^StrGStem%>u       SG_ILL_dE       ;
++Err/Dial:%^StrGStem%>u       SG_ILL_dE       ;
 :%^StrGStem%>u       Harm_Neutr_SG_ILL_he       ;
-:%^WGStem%>u SG_COM ;
+:%^StrGStem%>u SG_COM ;
 
 LEXICON NMN_10HAIDAK/ESAEK_PL 
 :%^WGStem%>%{back%}u    Harm_Neutr_PL_NOM ;
@@ -4218,10 +4218,10 @@ LEXICON NMN_12NWKWS1-SG
 :%^Pen%^WGStem%^NoPAL%>õ       SG_GEN_ZERO        ;
 :%^Pen%^WGStem%^NoPAL       Harm_Neutr_SG_PAR_t        ;
 :%^Pen%^WGStem%^NoPAL%>sõ       Harm_Neutr_SG_ILL_he       ;!2020-02-13 WHAT
-:%^Pen%^WGStem%^NoPAL%>sõ       SG_COM ;
-:%^Pen%^WGStem%^NoPAL%>sõ       SG_GEN_ZERO-STEM        ; !!= * @CODE@ THIS NEEDS WORK
+:%^Pen%^WGStem%^NoPAL%>õ       SG_COM ;
+:%^Pen%^WGStem%^NoPAL%>sõ       Harm_Neutr_SG_ALL_lE-STEM        ; !!= * @CODE@ THIS NEEDS WORK
 +Err/Dial:%^Pen%^WGStem%^NoPAL%>sõ       SG_ILL_dE       ;
-:%^Pen%^WGStem%^NoPAL%>sõ       SG_COM ;
++Err/Dial:%^Pen%^WGStem%^NoPAL%>sõ       SG_COM ;
 
 LEXICON NMN_12NWKWS1_PL 
 :%^Pen%^WGStem%^NoPAL%>õ       Harm_Neutr_PL_NOM ;
@@ -6459,10 +6459,10 @@ LEXICON NMN_37WLI/PINI_PL
 :%^Pen%^WGStem       Harm_Neutr_PL_NOM ;
 :%^Pen%^StrGStem%^VowRM%>%{eõ%}    PL_GEN_ZERO ;
 :%^Pen%^StrGStem%^VowRM%>%{eõ%}    Harm_Neutr_PL_PAR_ZERO ;
-:%^Pen%^StrGStem%^VowRM%>%{eõ%}    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:%^Pen%^StrGStem%^VowRM%>%{eõ%}    Harm_Neutr_PL_ILL_ZERO ;
 :%^Pen%^StrGStem%^VowRM%>%{eõ%}    PL_ILL_he ;
-:%^Pen%^StrGStem%^VowRM%>%{eõ%}    PL_ILL_dE ;
-:%^Pen%^StrGStem%^VowRM%>%{eõ%}  PL_ALL_lE-STEM ;
++Err/Dial:%^Pen%^StrGStem%^VowRM%>%{eõ%}    PL_ILL_dE ;
++Err/Dial:%^Pen%^StrGStem%^VowRM%>%{eõ%}  PL_ALL_lE-STEM ;
 :%^Pen%^WGStem%^VowRM%>%{eõ%}  PL_ALL_lE-STEM ;
 :%^Pen%^StrGStem%^VowRM%>%{eõ%} PL_COM ;
 
@@ -6856,11 +6856,11 @@ LEXICON NMN_40SAVV/TUEKK_PL
 :%^Pen%^StrGStem%^VowRM%{eõ%}    PL_GEN_ZERO ;
 :%^Pen%^StrGStem%^VowRM%{eõ%}    Harm_Neutr_PL_PAR_ZERO ;
 +Err/Dial:%^Pen%^StrGStem%^VowRM%{aä%}    Harm_Neutr_PL_PAR_ZERO ;
-:%^Pen%^StrGStem%^VowRM%{eõ%}    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:%^Pen%^StrGStem%^VowRM%{eõ%}    Harm_Neutr_PL_ILL_ZERO ;
 +Err/Dial:%^Pen%^StrGStem%^VowRM%{aä%}    Harm_Neutr_PL_ILL_ZERO ;
 :%^Pen%^StrGStem%^VowRM%{eõ%}    PL_ILL_hE ;
 +Err/Dial:%^Pen%^StrGStem%^VowRM%{aä%}    PL_ILL_hE ;
-:%^Pen%^StrGStem%^VowRM%{eõ%}    PL_ILL_dE ;
++Err/Dial:%^Pen%^StrGStem%^VowRM%{eõ%}    PL_ILL_dE ;
 +Err/Dial:%^Pen%^StrGStem%^VowRM%{aä%}    PL_ILL_dE ;
 :%^Pen%^WGStem%^VowRM%{eõ%}    PL_ALL_lE-STEM ;
 +Err/Dial:%^Pen%^WGStem%^VowRM%{aä%}    PL_ALL_lE-STEM ;
