@@ -397,7 +397,7 @@ GRC =  [ [ Vow: | :Vow ]  ( %> i ) |  %>  i ] %> %^WCns:0  ;
 
 HarmDummiesVar = HarmDummies: (HarmDummies:) ;
 
-PenBetweenStemAndStemFinal = [(HarmDummiesVar) ((%^Pen:) %^VOWLower:|(%^Pen:) %^VOWRaise:) (%^Pen: %^WGStem:|%^Pen: %^StrGStem:)] ;
+PenBetweenStemAndStemFinal = [(HarmDummiesVar) ((%^Pen:) %^VOWLower:|(%^Pen:) %^VOWRaise:) (%^Pen: %^WGStem:|%^Pen: %^G1:|%^Pen: %^StrGStem:)] ;
 
 
 !! # Rules
@@ -464,7 +464,7 @@ Rules
  u:o <=>
 !   u: _ (HarmDummiesVar) %^VOWLower: ;
 ! OnSetC   _ u: (HarmDummiesVar) %^VOWLower: ;
- OnSetC _ [CnsInZero:|%{pbØ%}:|%{tdØ%}:|%{kgØ%}:] VowInZero: (HarmDummiesVar) %^Pen: %^VOWLower: %^Pen: %^WGStem: %^VowRM:    ;
+ OnSetC _ [CnsInZero:|%{pbØ%}:|%{tdØ%}:|%{kgØ%}:] VowInZero: (HarmDummiesVar) %^Pen: %^VOWLower: %^Pen: [%^WGStem:|%^G1:] %^VowRM:    ;
  OnSetC _ [CnsInZero: |%{pbØ%}:|%{tdØ%}:|%{kgØ%}:] Vow:e (HarmDummiesVar) %^Pen: %^VOWLower: %^Pen: %^WGStem:    ;
 !!€ lugõ%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i
 !!€ lo00000000%>i
@@ -599,8 +599,8 @@ Rules
 "{dd́n}:n weaken 3-way"
 !! **@RULENAME@**
  Cx:Cy <=> _ (HarmDummiesVar) VOWHite [ %^WGStem: | %^G1: ]  ;
-           where Cx in (%{dd́n%} %{dd́v%} %{dd́Ø%} )
-                 Cy in (n v 0) matched ;
+           where Cx in (%{dd́n%} %{dd́Ø%} )
+                 Cy in (n 0) matched ;
 ! %{dd́n%}:n <=> _   (HarmDummiesVar)  %^WGStem:  ;
 
 !! andma+V+Act+Ind+Prs+Sg1
@@ -610,6 +610,10 @@ Rules
 !! püüdmä+V+Act+Ind+Prs+Sg1
 !!€ pü%{üv%}%{dd́v%}%{front%}%^WGStem%>%{aä%}
 !!€ püvv00%>ä
+
+"%{dd́v%}:v"
+!! **@RULENAME@**
+%{dd́v%}:v <=> (Vow: %{üv%}:) _ (HarmDummiesVar) VOWHite [ %^WGStem: | %^G1: ] ;
 
 
 
@@ -1026,7 +1030,7 @@ Rules
 
 "%{XV%}:ä"
 !! **@RULENAME@**
- %{XV%}:ä <=> :ä (HarmDummiesVar) PenBetweenStemAndStemFinal ( %- ) _  ;
+ %{XV%}:ä <=> :ä PenBetweenStemAndStemFinal ( %- ) _  ;
        [ ö (HarmDummiesVar) | ä (HarmDummiesVar) | ä: (HarmDummiesVar) PenBetweenStemAndStemFinal (%^VowRM:) ] %> h _ ;
            ä: [r|l] (HarmDummiesVar) PenGRAD %^Pen: %^VowRM: %> _ ; 
 
@@ -1126,10 +1130,6 @@ Rules
 !!laud+N+Sg+Gen: __table/pöytä__
 !!€ la{uv}{dv}{back}^WGStem>{aä}
 !!€ lavv00>a
-
-"%{dd́v%}:v"
-!! **@RULENAME@**
-%{dd́v%}:v <=> Vow: %{üv%}: _ (HarmDummiesVar) VOWHite  %^WGStem: ;
 
 "{üv}:v"
 !! **@RULENAME@**
