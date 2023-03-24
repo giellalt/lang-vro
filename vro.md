@@ -2340,7 +2340,7 @@ LEXICON NMN_11ANNWQ/LAETEQ  läteq:lä%{tØ%}te
 
 **N-suekues12**
 
-* :%^Pen%^WGStem%^NoPAL%>sõ       SG_GEN_ZERO-STEM        ;  THIS NEEDS WORK
+* :%^Pen%^WGStem%^NoPAL%>sõ       Harm_Neutr_SG_ALL_lE-STEM        ;  THIS NEEDS WORK
 
 LEXICON NMN_13ALONW/TAEHINE  alonõ:alo
 
