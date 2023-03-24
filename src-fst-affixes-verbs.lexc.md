@@ -769,7 +769,7 @@ sõida
 * +Err/Orth-no-q+Ind+Prs+Neg:%-i K ;  more neutral without q
 
 ### JUS
-* LEXICON MUTUAL_JUS_guq  regardless of harmony this is back 
+* LEXICON ACT_JUS_guq  regardless of harmony this is back 
 
 CHECK THIS
 
