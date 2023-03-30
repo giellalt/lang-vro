@@ -249,17 +249,48 @@ LEXICON A_17ALGUS
 !:%{front%}  NMN_18AIVASTUS/EHITUES ;
 
 LEXICON A_19ALOMANW !!= @CODE@ alomanõ:aloma
-:%{back%}     NMN_19ALOMANW/PEDAEJAENE ;
+:%{back%}     A_19ALOMANW/PEDAEJAENE_SG ;
+:%{back%}     A_19ALOMANW/PEDAEJAENE_PL ;
 :dsõ%{back%} COMP ;
 +Der+Der/Us+N:%>dsus N_4AINUS ;
 
 LEXICON A_19PEDAEJAENE !!= @CODE@ pedäjäne:pedäjä
-:%{front%} NMN_19ALOMANW/PEDAEJAENE ;
+:%{front%} A_19ALOMANW/PEDAEJAENE_SG ;
+:%{front%} A_19ALOMANW/PEDAEJAENE_PL ;
 :dse%{front%} COMP ;
 :%>dsüs N_4TERVUES ;
 
 LEXICON A_19PEDAEJAENE_PL !!= @CODE@ pedäjäne:pedäjä
 :%{front%} NMN_19ALOMANW/PEDAEJAENE_PL ;
+
+LEXICON A_19ALOMANW/PEDAEJAENE_SG
+:n%{eõ%} Harm_Neutr_SG_NOM ;
++Err/Dial:s Harm_Neutr_SG_NOM ;
+:ds%{eõ%}      SG_GEN_ZERO-STEM ;
++Err/Orth:ts%{eõ%}      SG_GEN_ZERO-STEM ;
+:s  Harm_Neutr_SG_PAR_t ;
+:s         Harm_Neutr_SG_ILL_tE ;
+
+LEXICON A_19ALOMANW/PEDAEJAENE_PL
+:ds%{eõ%}      Harm_Neutr_PL_NOM ;
++Err/Orth:ts%{eõ%}      Harm_Neutr_PL_NOM ;
+:idsi  PL_GEN_ZERO ;
+:idsi  Harm_Neutr_PL_PAR_ZERO ;
+:idsi  PL_ILL_he ;
+:idsi  PL_ALL_lE-STEM ;
+:idsi  PL_COM ;
++Err/Dial:idsi  Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:idsi  PL_ILL_dE ;
++Err/Dial:itsi  PL_ALL_lE-STEM ;
++Err/Dial:st%{eõ%}  PL_ALL_lE-STEM ;
++Err/Dial:st%{eõ%} PL_COM ;
+
++Err/Dial:st%{eõ%}  PL_GEN_ZERO ;
++Err/Dial:isi  PL_GEN_ZERO ;!was :idsi CHECKME 2022-02-22
++Err/Dial:isi  Harm_Neutr_PL_PAR_ZERO ;
++Err/Dial:isi  PL_ILL_he ;
++Err/Dial:isi  PL_ALL_lE-STEM ;
++Err/Dial:isi PL_COM ;
 
 LEXICON A_19TUJOKAS
 :%{back%} NMN_19TUJOKAS/SILMIKAES ; 

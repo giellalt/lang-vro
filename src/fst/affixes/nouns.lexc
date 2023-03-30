@@ -3384,11 +3384,11 @@ LEXICON NMN_9VILLW/XX !!= @CODE@ villõ:vi%{lØ%}lõ
 
 LEXICON NMN_9VILLW/XX-SG
 :%^Pen%^StrGStem Harm_Neutr_SG_NOM ;
-:%^Pen%^WGStem%>h%{eõ%} SG_GEN_ZERO-STEM ;
++Err/Dial:%^Pen%^WGStem%>h%{eõ%} SG_GEN_ZERO-STEM ;
 :%^Pen%^StrGStem SG_GEN_ZERO-STEM ;
-:%^Pen%^WGStem%>h%{eõ%} Harm_Neutr_SG_PAR_t ;
++Err/Dial:%^Pen%^WGStem%>h%{eõ%} Harm_Neutr_SG_PAR_t ;
 :%^Pen%^StrGStem Harm_Neutr_SG_PAR_t ;
-:%^Pen%^StrGStem%>h%{eõ%} Harm_Neutr_SG_ILL_he ;
+:%^Pen%^WGStem%>h%{eõ%} Harm_Neutr_SG_ILL_he ;
 +Err/Dial:%^Pen%^WGStem%>h%{eõ%} SG_ILL_dE ;
 +Err/Dial:%^Pen%^StrGStem Harm_Neutr_SG_ILL_he ;
 +Err/Dial:%^Pen%^StrGStem SG_ILL_dE ;
@@ -3396,12 +3396,12 @@ LEXICON NMN_9VILLW/XX-SG
 LEXICON NMN_9VILLW/XX_PL
 +Err/Dial:%^Pen%^WGStem%>hõ Harm_Neutr_PL_NOM ;
 :%^Pen%^StrGStem Harm_Neutr_PL_NOM ;
-:%^Pen%^StrGStem%>hi Harm_Neutr_PL_GEN_dE ;
-:%^Pen%^StrGStem%>hi        PL_ILL_he       ;
+:%^Pen%^WGStem%>hi Harm_Neutr_PL_GEN_dE ;
+:%^Pen%^WGStem%>hi        PL_ILL_he       ;
 :%^Pen%^WGStem%>hi        PL_ALL_lE-STEM       ;
 :%^Pen%^WGStem%>hi      PL_PAR_t        ;
 :%^Pen%^WGStem%>hid%{eõ%}      PL_COM        ;
-:%^Pen%^WGStem%>hii Harm_Neutr_PL_GEN_dE ;
++Err/Dial:%^Pen%^WGStem%>hii Harm_Neutr_PL_GEN_dE ;
 +Err/Dial:%^Pen%^StrGStem%^VowRM%>i Harm_Neutr_PL_GEN_dE ;
 +Err/Dial:%^Pen%^StrGStem%^VowRM%>ii Harm_Neutr_PL_GEN_dE ;
 +Err/Dial:%^Pen%^WGStem%>hii      PL_PAR_d        ;
@@ -5133,7 +5133,7 @@ LEXICON NMN_21HUEDSI_PL
 :ts%>i             PL_GEN_ZERO ;
 :ts%>i           Harm_Neutr_PL_PAR_ZERO ;
 :ts%>i           PL_ILL_he ;
-:ts%>i           Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:ts%>i           Harm_Neutr_PL_ILL_ZERO ;
 :ds%>i           PL_ALL_lE-STEM ;
 :ts%>i PL_COM ;
 +Err/Dial:s%>te              PL_GEN_ZERO ;
@@ -6389,10 +6389,10 @@ LEXICON NMN_46SWBWR_PL
 :%^Pen%^StrGStem%^Pen%^VowRM%>o    PL_GEN_ZERO ;
 :%^Pen%^StrGStem%^Pen%^VowRM%>o    Harm_Neutr_PL_PAR_ZERO ;
 :%^Pen%^StrGStem%^Pen%^VowRM%>o  PL_ILL_he ;
-:%^Pen%^StrGStem%^Pen%^VowRM%>o  PL_ILL_dE ;
 :%^Pen%^WGStem%^Pen%^VowRM%>o  PL_ALL_lE-STEM ;
 
-:%^Pen%^StrGStem%^Pen%^VowRM%>o    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:%^Pen%^StrGStem%^Pen%^VowRM%>o  PL_ILL_dE ;
++Err/Dial:%^Pen%^StrGStem%^Pen%^VowRM%>o    Harm_Neutr_PL_ILL_ZERO ;
 :%^Pen%^StrGStem%^Pen%^VowRM%>o    PL_COM ;
 
 !LEXICON NMN_46KUBWL !!= __@CODE@__
