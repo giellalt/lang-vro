@@ -29,8 +29,6 @@ kündma **to plow/kyntää**
 
 nakkama **to begin/ alkaa**
 
-nägemä **to see/nähdä**
-
 olõma **to be/ olla**
 
 nakkama **to start/ alkaa**

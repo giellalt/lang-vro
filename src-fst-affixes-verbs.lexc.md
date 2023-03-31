@@ -617,6 +617,8 @@ Work
 * *nättäv:* `nägemä+V+Pss+PrsPrc+Sg+Nom` (Eng. # (4))
 * *näkuq:* `nägemä+V+Jus` (Eng. # (9))
 
+nägemä **to see/nähdä**
+
 * **LEXICON V_82ANDMA** andma:and
 * Yaml: **andma**
 * **LEXICON V_82PUEUEDMAE** püüdmä:püüd

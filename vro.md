@@ -4033,6 +4033,8 @@ Work
 * *nättäv:* `nägemä+V+Pss+PrsPrc+Sg+Nom` (Eng. # (4))
 * *näkuq:* `nägemä+V+Jus` (Eng. # (9))
 
+nägemä **to see/nähdä**
+
 * **LEXICON V_82ANDMA** andma:and
 * Yaml: **andma**
 * **LEXICON V_82PUEUEDMAE** püüdmä:püüd
@@ -6191,8 +6193,6 @@ andma **to give/antaa**
 kündma **to plow/kyntää**
 
 nakkama **to begin/ alkaa**
-
-nägemä **to see/nähdä**
 
 olõma **to be/ olla**
 
