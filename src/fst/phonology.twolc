@@ -322,6 +322,7 @@ ArchCns =  %{hØ%} %{jØ%} %{kØ%} %{lØ%} %{mØ%} %{nØ%} %{pØ%} %{rØ%} %{sØ
 %{tt́d%}
 %{kḱg%}
 %{kḱØ%}
+%{jiØ%}
 %{mḿ%}
 %{̭ḱǵj%}
 ; 
@@ -918,13 +919,16 @@ Rules
 
 "o:0"
 !! **@RULENAME@**
- o:0 <=>  [ Cns: | :Cns |ArchCns:] _ (s:) (HarmDummiesVar) [ (PenVOWHite (%^Pen: %^NoPAL:) %^Pen: [%^G1:|%^G2:|%^G3:|%^G4:|%^StrGStem:|%^JI2I:|%^JI2J:]|%^Pen: %^CC2C:) %^VowRM: (õ) ]   ; 
+ o:0 <=>  [ Cns: | :Cns |ArchCns:] _ (s:) (HarmDummiesVar) [ (PenVOWHite (%^Pen: %^NoPAL:|%^Pen: %^PAL:) %^Pen: [%^G1:|%^G2:|%^G3:|%^G4:|%^StrGStem:|%^JI2I:|%^JI20:|%^JI2J:]|%^Pen: %^CC2C:) %^VowRM: (õ) ]   ; 
            o: _ (HarmDummiesVar) [VOWHite %^VowRM:|%^OO2Õ:] ;
 !! juuma+V+Inf
 !!€ j{ou}{ou}{back}^VOWRaise^VowRM>vv>{aä}q
 !!€ ju̬0000>vv>aq
     _ (HarmDummiesVar) PenVOWHite (%^Pen: %^WGStem:|%^Pen: %^StrGStem:) (%^NoPAL:) %^VowRM: ;
     _ (HarmDummiesVar) VOWHite  (%^NoPAL:) %^VowRM: ;
+
+!v a {rŕ}:ŕ {jiØ}:0 o:0 {back}:0^Pen:0^PAL:0^Pen:0^JI20:0^VowRM:0>{eõ}:õ
+
 
 "Vx%{ou%}:0"
 !! **@RULENAME@**
