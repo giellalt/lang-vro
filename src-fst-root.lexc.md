@@ -230,6 +230,8 @@ Question and Focus particles:
 * +v23
 * +v24
 
+* **+Sem/ID** used with numerals 2023_04_04
+
 * **+Sem/Act** Activity
 * **+Sem/Amount** Amount
 * **+Sem/Ani** Animate
