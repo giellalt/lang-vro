@@ -963,7 +963,9 @@ LEXICON V_58HIRNAHTAMA/TAEHENDAEMAE !!≈ * **@CODE@** hirnahtama:hirnahta, täh
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_IND_PRS_ALL_dA ;
 :%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_IND_PRT_ALL_di ;
 !2023_03_24:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_IND_SG1_dX/SG3_tX ;!CHECKME
-:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_PRFPRC_t/SG_GEN_dU ;
+:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} Harm_Neutr_KAOTAMA-PSS_PRFPRC_t ; !2023_04_04 
++Err/Dial:%^Pen%^VOWRaise%^Pen%^NoPAL Harm_Neutr_KAOTAMA-PSS_PRFPRC_t ; !2023_04_04 vahistadu
+!:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_PRFPRC_t/SG_GEN_dU ;
 +Err/Dial:%^Pen%^VOWRaise%^Pen%^NoPAL%^VowRM%>%{eõ%} PSS_PRFPRC_dU-SG_NOM ;
 
 ! (5) Olõvao 1. k maq:
@@ -1123,7 +1125,8 @@ LEXICON V_60MANITSWMA/EHITSEMAE !!≈ * **@CODE@** manitsõma:mani
  PSS_PRSPRC_tAv ;
 
 +Err/Dial:%^WGStem PSS_PRFPRC_t/SG_GEN_dU ;
-:ts%{eõ%}%^WGStem PSS_PRFPRC_t/SG_GEN_dU ;
+:ts%{eõ%}%^WGStem Harm_Neutr_KAOTAMA-PSS_PRFPRC_t ;!2023_04_04 3-syll
+!:ts%{eõ%}%^WGStem PSS_PRFPRC_t/SG_GEN_dU ;
 +Err/Orth:%^WGStem PSS_PRFPRC_tU_SG_NOM ;
 +Err/Orth:ts%{eõ%}%^WGStem PSS_PRFPRC_tU_SG_NOM ;
 :ts%{eõ%} PSS_IND_PRS_ALL_dA ;
