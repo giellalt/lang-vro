@@ -16,7 +16,6 @@ o q (->) o ʼ, #
 u q (->) u ʼ, # 
 ü q (->) ü ʼ, # 
 
-d́ (->) ď, # d + U+0301 not U+010F
 ǵ (->) g ʼ, # U+01F5 not g + U+02BC
 ḱ (->) k ʼ, # U+1E31 not k + U+02BC
 ĺ (->) l ʼ, # U+013A not l + U+02BC
@@ -24,17 +23,17 @@ d́ (->) ď, # d + U+0301 not U+010F
 ń (->) n ʼ, # U+0144 not n + U+02BC
 ŕ (->) r ʼ, # U+0155 not r + U+02BC
 ś (->) s ʼ, # U+015B not s + U+02BC
-t́ (->) ť, # t + U+0301 not U+0165 
 ź (->) z ʼ, # U+0174 not z + U+02BC
-b́ (->) b ʼ, # b + U+0301 not b + U+02BC
 ć (->) c ʼ, # U+0107 not c + U+02BC
-f́ (->) f ʼ, # f + U+0301 not f + U+02BC
-h́ (->) h ʼ, # h + U+0301 not h + U+02BC
 ḿ (->) m ʼ, # U+1E3F not m + U+02BC
 ṕ (->) p ʼ, # U+1E55 not p + U+02BC
-v́ (->) v ʼ, # v + U+0301 not v + U+02BC
+{d́} (->) ď, # d + U+0301 not U+010F
+{t́} (->) ť, # t + U+0301 not U+0165 
+{b́} (->) b ʼ, # b + U+0301 not b + U+02BC
+{f́} (->) f ʼ, # f + U+0301 not f + U+02BC
+{h́} (->) h ʼ, # h + U+0301 not h + U+02BC
+{v́} (->) v ʼ, # v + U+0301 not v + U+02BC
 
-D́ (->) D ʼ, # D + U+0301 NOT D +U+02BC
 Ǵ (->) G ʼ, # U+01F4 NOT G + U+02BC
 Ḱ (->) K ʼ, # U+1E30 NOT K + U+02BC
 Ĺ (->) L ʼ, # U+0139 NOT L + U+02BC
@@ -42,130 +41,131 @@ D́ (->) D ʼ, # D + U+0301 NOT D +U+02BC
 Ń (->) N ʼ, # U+0143 NOT N + U+02BC
 Ŕ (->) R ʼ, # U+0154 NOT R + U+02BC
 Ś (->) S ʼ, # U+015A NOT S + U+02BC
-T́ (->) T ʼ, # T + U+0301 NOT T + U+02BC
 Ź (->) Z ʼ, # U+0179 NOT Z + U+02BC
-B́ (->) B ʼ, # B + U+0301 NOT B + U+02BC
 Ć (->) C ʼ, # U+0106 NOT C + U+02BC
-F́ (->) F ʼ, # F + U+0301 NOT F + U+02BC
-H́ (->) H ʼ, # H + U+0301 NOT H + U+02BC
 Ḿ (->) M ʼ, # U+1E3E NOT M + U+02BC
 Ṕ (->) P ʼ, # U+1E54 NOT P + U+02BC
-V́ (->) V ʼ, # V + U+0301 NOT V + U+02BC
+{D́} (->) D ʼ, # D + U+0301 NOT D +U+02BC
+{T́} (->) T ʼ, # T + U+0301 NOT T + U+02BC
+{B́} (->) B ʼ, # B + U+0301 NOT B + U+02BC
+{F́} (->) F ʼ, # F + U+0301 NOT F + U+02BC
+{H́} (->) H ʼ, # H + U+0301 NOT H + U+02BC
+{V́} (->) V ʼ, # V + U+0301 NOT V + U+02BC
 
-d́ (->) d ', # d + U+0301 not d +' = U+0027 APOSTROPHE
 ǵ (->) g ', # U+01F5 not g + ' = U+0027 APOSTROPHE
 ḱ (->) k ', # U+1E31 not k + ' = U+0027 APOSTROPHE
 ĺ (->) l ', # U+013A not l + ' = U+0027 APOSTROPHE
 ń (->) n ', # U+0144 not n + ' = U+0027 APOSTROPHE
 ŕ (->) r ', # U+0155 not r + ' = U+0027 APOSTROPHE
 ś (->) s ', # U+015B not s + ' = U+0027 APOSTROPHE
-t́ (->) t ', # t + U+0301 not t + ' = U+0027 APOSTROPHE
 ź (->) z ', # U+0174 not z + ' = U+0027 APOSTROPHE
-b́ (->) b ', # b + U+0301 not b + ' = U+0027 APOSTROPHE
 ć (->) c ', # U+0107 not c + ' = U+0027 APOSTROPHE
-f́ (->) f ', # f + U+0301 not f + ' = U+0027 APOSTROPHE
-h́ (->) h ', # h + U+0301 not h + ' = U+0027 APOSTROPHE
 ḿ (->) m ', # U+1E3F not m + ' = U+0027 APOSTROPHE
 ṕ (->) p ', # U+1E55 not p + ' = U+0027 APOSTROPHE
-v́ (->) v ', # v + U+0301 not v + ' = U+0027 APOSTROPHE
+{d́} (->) d ', # d + U+0301 not d +' = U+0027 APOSTROPHE
+{t́} (->) t ', # t + U+0301 not t + ' = U+0027 APOSTROPHE
+{b́} (->) b ', # b + U+0301 not b + ' = U+0027 APOSTROPHE
+{f́} (->) f ', # f + U+0301 not f + ' = U+0027 APOSTROPHE
+{h́} (->) h ', # h + U+0301 not h + ' = U+0027 APOSTROPHE
+{v́} (->) v ', # v + U+0301 not v + ' = U+0027 APOSTROPHE
 
-D́ (->) D ', # D + U+0301 NOT D +' = U+0027 APOSTROPHE
 Ǵ (->) G ', # U+01F4 NOT G + ' = U+0027 APOSTROPHE
 Ḱ (->) K ', # U+1E30 NOT K + ' = U+0027 APOSTROPHE
 Ĺ (->) L ', # U+0139 NOT L + ' = U+0027 APOSTROPHE
 Ń (->) N ', # U+0143 NOT N + ' = U+0027 APOSTROPHE
 Ŕ (->) R ', # U+0154 NOT R + ' = U+0027 APOSTROPHE
 Ś (->) S ', # U+015A NOT S + ' = U+0027 APOSTROPHE
-T́ (->) T ', # T + U+0301 NOT T + ' = U+0027 APOSTROPHE
 Ź (->) Z ', # U+0179 NOT Z + ' = U+0027 APOSTROPHE
-B́ (->) B ', # B + U+0301 NOT B + ' = U+0027 APOSTROPHE
 Ć (->) C ', # U+0106 NOT C + ' = U+0027 APOSTROPHE
-F́ (->) F ', # F + U+0301 NOT F + ' = U+0027 APOSTROPHE
-H́ (->) H ', # H + U+0301 NOT H + ' = U+0027 APOSTROPHE
 Ḿ (->) M ', # U+1E3E NOT M + ' = U+0027 APOSTROPHE
 Ṕ (->) P ', # U+1E54 NOT P + ' = U+0027 APOSTROPHE
-V́ (->) V ', # V + U+0301 NOT V + ' = U+0027 APOSTROPHE
+{D́} (->) D ', # D + U+0301 NOT D +' = U+0027 APOSTROPHE
+{T́} (->) T ', # T + U+0301 NOT T + ' = U+0027 APOSTROPHE
+{B́} (->) B ', # B + U+0301 NOT B + ' = U+0027 APOSTROPHE
+{F́} (->) F ', # F + U+0301 NOT F + ' = U+0027 APOSTROPHE
+{H́} (->) H ', # H + U+0301 NOT H + ' = U+0027 APOSTROPHE
+{V́} (->) V ', # V + U+0301 NOT V + ' = U+0027 APOSTROPHE
 
-d́ (->) d 0, # d + U+0301 not d +ZERO MARKING REALLY SLOPPY
 ǵ (->) g 0, # U+01F5 not g + ZERO MARKING REALLY SLOPPY
 ḱ (->) k 0, # U+1E31 not k + ZERO MARKING REALLY SLOPPY
 ĺ (->) l 0, # U+013A not l + ZERO MARKING REALLY SLOPPY
 ń (->) n 0, # U+0144 not n + ZERO MARKING REALLY SLOPPY
 ŕ (->) r 0, # U+0155 not r + ZERO MARKING REALLY SLOPPY
 ś (->) s 0, # U+015B not s + ZERO MARKING REALLY SLOPPY
-t́ (->) t 0, # t + U+0301 not t + ZERO MARKING REALLY SLOPPY
 ź (->) z 0, # U+0174 not z + ZERO MARKING REALLY SLOPPY
-b́ (->) b 0, # b + U+0301 not b + ZERO MARKING REALLY SLOPPY
 ć (->) c 0, # U+0107 not c + ZERO MARKING REALLY SLOPPY
-f́ (->) f 0, # f + U+0301 not f + ZERO MARKING REALLY SLOPPY
-h́ (->) h 0, # h + U+0301 not h + ZERO MARKING REALLY SLOPPY
 ḿ (->) m 0, # U+1E3F not m + ZERO MARKING REALLY SLOPPY
 ṕ (->) p 0, # U+1E55 not p + ZERO MARKING REALLY SLOPPY
-v́ (->) v 0, # v + U+0301 not v + ZERO MARKING REALLY SLOPPY
+{d́} (->) d 0, # d + U+0301 not d +ZERO MARKING REALLY SLOPPY
+{t́} (->) t 0, # t + U+0301 not t + ZERO MARKING REALLY SLOPPY
+{b́} (->) b 0, # b + U+0301 not b + ZERO MARKING REALLY SLOPPY
+{f́} (->) f 0, # f + U+0301 not f + ZERO MARKING REALLY SLOPPY
+{h́} (->) h 0, # h + U+0301 not h + ZERO MARKING REALLY SLOPPY
+{v́} (->) v 0, # v + U+0301 not v + ZERO MARKING REALLY SLOPPY
 
-D́ (->) D 0, # D + U+0301 NOT D +ZERO MARKING REALLY SLOPPY
 Ǵ (->) G 0, # U+01F4 NOT G + ZERO MARKING REALLY SLOPPY
 Ḱ (->) K 0, # U+1E30 NOT K + ZERO MARKING REALLY SLOPPY
 Ĺ (->) L 0, # U+0139 NOT L + ZERO MARKING REALLY SLOPPY
 Ń (->) N 0, # U+0143 NOT N + ZERO MARKING REALLY SLOPPY
 Ŕ (->) R 0, # U+0154 NOT R + ZERO MARKING REALLY SLOPPY
 Ś (->) S 0, # U+015A NOT S + ZERO MARKING REALLY SLOPPY
-T́ (->) T 0, # T + U+0301 NOT T + ZERO MARKING REALLY SLOPPY
 Ź (->) Z 0, # U+0179 NOT Z + ZERO MARKING REALLY SLOPPY
-B́ (->) B 0, # B + U+0301 NOT B + ZERO MARKING REALLY SLOPPY
 Ć (->) C 0, # U+0106 NOT C + ZERO MARKING REALLY SLOPPY
-F́ (->) F 0, # F + U+0301 NOT F + ZERO MARKING REALLY SLOPPY
-H́ (->) H 0, # H + U+0301 NOT H + ZERO MARKING REALLY SLOPPY
 Ḿ (->) M 0, # U+1E3E NOT M + ZERO MARKING REALLY SLOPPY
 Ṕ (->) P 0, # U+1E54 NOT P + ZERO MARKING REALLY SLOPPY
-V́ (->) V 0, # V + U+0301 NOT V + ZERO MARKING REALLY SLOPPY
+{D́} (->) D 0, # D + U+0301 NOT D +ZERO MARKING REALLY SLOPPY
+{T́} (->) T 0, # T + U+0301 NOT T + ZERO MARKING REALLY SLOPPY
+{B́} (->) B 0, # B + U+0301 NOT B + ZERO MARKING REALLY SLOPPY
+{F́} (->) F 0, # F + U+0301 NOT F + ZERO MARKING REALLY SLOPPY
+{H́} (->) H 0, # H + U+0301 NOT H + ZERO MARKING REALLY SLOPPY
+{V́} (->) V 0, # V + U+0301 NOT V + ZERO MARKING REALLY SLOPPY
 
-d́ (->) d ʼ, #d + U+0301 not d + U+02BC 
-t́ (->) t ʼ, # t + U+0301 not t + U+02BC 
+{d́} (->) d ʼ, #d + U+0301 not d + U+02BC 
+{t́} (->) t ʼ, # t + U+0301 not t + U+02BC 
 
-d́ (->) d ’, #d + U+0301 not d + U+2019
 ǵ (->) g ’, # ǵ not g + U+2019
-h́ (->) h ’, # h + U+0301 not l + U+2019
 ĺ (->) l ’, # ĺ not l + U+2019
 ḿ (->) m ’, # ḿ not m + U+2019
 ṕ (->) p ’, # ṕ not p + U+2019
 ŕ (->) r ’, # ŕ not r + U+2019
 ś (->) s ’, # ś not s + U+2019
-t́ (->) t ’, # t + U+0301 not t + U+2019
-v́ (->) v ’, # v + U+0301 not v + U+2019
+{d́} (->) d ’, #d + U+0301 not d + U+2019
+{h́} (->) h ’, # h + U+0301 not l + U+2019
+{t́} (->) t ’, # t + U+0301 not t + U+2019
+{v́} (->) v ’, # v + U+0301 not v + U+2019
 
-D́ (->) D ’, #d + U+0301 not d + U+2019
 Ǵ (->) G ’, # ǵ not g + U+2019
-H́ (->) H ’, # h + U+0301 not l + U+2019
 Ĺ (->) L ’, # ĺ not l + U+2019
 Ḿ (->) M ’, # ḿ not m + U+2019
 Ṕ (->) P ’, # ṕ not p + U+2019
 Ŕ (->) R ’, # ŕ not r + U+2019
 Ś (->) S ’, # ś not s + U+2019
-T́ (->) T ’, # t + U+0301 not t + U+2019
-V́ (->) V ’, # v + U+0301 not v + U+2019
+{D́} (->) D ’, #d + U+0301 not d + U+2019
+{H́} (->) H ’, # h + U+0301 not l + U+2019
+{T́} (->) T ’, # t + U+0301 not t + U+2019
+{V́} (->) V ’, # v + U+0301 not v + U+2019
 
-d́ (->) d ´, #d + U+0301 not d + U+00B4
 ǵ (->) g ´, # ǵ not g + U+00B4
-h́ (->) h ´, # h + U+0301 not l + U+00B4
 ĺ (->) l ´, # ĺ not l + U+00B4
 ḿ (->) m ´, # ḿ not m + U+00B4
 ṕ (->) p ´, # ṕ not p + U+00B4
 ŕ (->) r ´, # ŕ not r + U+00B4
 ś (->) s ´, # ś not s + U+00B4
-t́ (->) t ´, # t + U+0301 not t + U+00B4
-v́ (->) v ´, # v + U+0301 not v + U+00B4
+{d́} (->) d ´, #d + U+0301 not d + U+00B4
+{h́} (->) h ´, # h + U+0301 not l + U+00B4
+{t́} (->) t ´, # t + U+0301 not t + U+00B4
+{v́} (->) v ´, # v + U+0301 not v + U+00B4
 
-D́ (->) D ´, #d + U+0301 not d + U+00B4
 Ǵ (->) G ´, # ǵ not g + U+00B4
-H́ (->) H ´, # h + U+0301 not l + U+00B4
 Ĺ (->) L ´, # ĺ not l + U+00B4
 Ḿ (->) M ´, # ḿ not m + U+00B4
 Ṕ (->) P ´, # ṕ not p + U+00B4
 Ŕ (->) R ´, # ŕ not r + U+00B4
 Ś (->) S ´, # ś not s + U+00B4
-T́ (->) T ´, # t + U+0301 not t + U+00B4
-V́ (->) V ´, # v + U+0301 not v + U+00B4
+{D́} (->) D ´, #d + U+0301 not d + U+00B4
+{H́} (->) H ´, # h + U+0301 not l + U+00B4
+{T́} (->) T ´, # t + U+0301 not t + U+00B4
+{V́} (->) V ´, # v + U+0301 not v + U+00B4
 
 
 #ʼ (->) 0, # U+02BC not ZERO MARKING REALLY SLOPPY
