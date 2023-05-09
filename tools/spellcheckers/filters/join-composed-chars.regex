@@ -1,0 +1,17 @@
+# Regex to turn a string of individual letters including combining diacritics
+# into multichar symbols (in the fst sense).
+# Needed to stay sane when working with speller error models.
+
+{D́} -> "D́" ,
+{T́} -> "T́" ,
+{B́} -> "B́" ,
+{F́} -> "F́" ,
+{H́} -> "H́" ,
+{V́} -> "V́" ,
+{d́} -> "d́" ,
+{t́} -> "t́" ,
+{b́} -> "b́" ,
+{f́} -> "f́" ,
+{h́} -> "h́" ,
+{v́} -> "v́" ;
+
