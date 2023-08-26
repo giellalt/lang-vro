@@ -2285,7 +2285,7 @@ _ [%{td%}: | %{tt́d%}: ] (HarmDummiesVar) [ %^G2: | %^G3:| %^G4: ] ;
 
 !!TESTS
 !echo 'v a s t a l i {back}:0 > n {eõ}:õ' | hfst-pair-test src/fst/phonology.compose.hfst
-!echo 'vallalinõ+A+Sg+Nom' | hfst-lookup src/morphology/lexicon.hfst
+!echo 'vallalinõ+A+Sg+Nom' | hfst-lookup src/fst/lexicon.hfst
 !echo 'k a u {pb}:p {õØ}:0 {lĺ}:l {back}:0 ^Pen:0 ^VOWRaise:0 ^Pen:0 ^StrGStem:0 ^Pen:0 ^VowRM:0 > {eõ}:õ > m {aä}:a ' | hfst-pair-test src/fst/phonology.compose.hfst
 
 !OLD
