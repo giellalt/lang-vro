@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-vro)](https://github.com/giellalt/lang-vro/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-vro)](https://github.com/giellalt/lang-vro/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-vro/main/badge.svg)](https://github.com/giellalt/lang-vro/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-vro/main/badge.svg)](https://github.com/giellalt/lang-vro/actions)
 
 This page documents the work on the **Võro language model**. 
 
