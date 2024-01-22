@@ -963,7 +963,7 @@ gradation: no
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -978,7 +978,7 @@ What is this 2017-03-27
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
 
@@ -3069,7 +3069,7 @@ digits
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -3197,7 +3197,7 @@ by .:, and with reduced case forms. The Err/Orth tag is added in the calling lex
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/numerals.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/numerals.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/numerals.lexc)</small>
 
 ---
 
@@ -3208,7 +3208,7 @@ The Võro language postpositions ...
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/postpositions.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/postpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/postpositions.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/postpositions.lexc)</small>
 
 ---
 
@@ -3236,7 +3236,7 @@ LEXICON PERS_PL3  timä:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
 
@@ -3392,7 +3392,7 @@ LEXICON PROP_46HAIN  hain:hain
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -3401,7 +3401,7 @@ The Võro language quantifiers inflect in cases.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/quantifiers.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/quantifiers.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/quantifiers.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/quantifiers.lexc)</small>
 
 ---
 
@@ -3410,7 +3410,7 @@ The Võro language quantifiers inflect in cases.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -4262,7 +4262,7 @@ Retain consonant and stem vowel
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -4270,7 +4270,7 @@ Clitics in Võro
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/clitics.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/clitics.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/clitics.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/clitics.lexc)</small>
 
 ---
 
@@ -5468,7 +5468,7 @@ naŕma
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-vro/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -6106,7 +6106,7 @@ less complex word classes
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -6115,7 +6115,7 @@ Veps acronyms ...
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/acronyms.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/acronyms.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/acronyms.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/acronyms.lexc)</small>
 
 ---
 
@@ -6129,7 +6129,7 @@ ADD NOUNS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/adjectives_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/adjectives_newwords.lexc)</small>
 
 ---
 
@@ -6141,7 +6141,7 @@ ADD NOUNS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adpositions_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/adpositions_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adpositions_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/adpositions_newwords.lexc)</small>
 
 ---
 
@@ -6151,7 +6151,7 @@ CHECKME
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/adverbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/adverbs_newwords.lexc)</small>
 
 ---
 
@@ -6163,7 +6163,7 @@ ADD DETERMINERS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/determiners_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/determiners_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/determiners_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/determiners_newwords.lexc)</small>
 
 ---
 
@@ -6210,7 +6210,7 @@ tundma **to feel/tuntea**
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/exceptions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/exceptions.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/exceptions.lexc)</small>
 
 ---
 
@@ -6221,7 +6221,7 @@ ADD INTERJECTIONS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/interjections_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/interjections_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/interjections_newwords.lexc)</small>
 
 ---
 
@@ -6230,7 +6230,7 @@ hanśa+N:hanśa N_1HANS1A "" ;
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
@@ -6252,7 +6252,7 @@ Three-syllable words
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/nouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/nouns_newwords.lexc)</small>
 
 ---
 
@@ -6262,7 +6262,7 @@ petmä+V:pettä
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
 
@@ -6278,7 +6278,7 @@ petmä+V:pettä
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/stems/verbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
 
@@ -6445,7 +6445,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-vro/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-vro/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -6465,7 +6465,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-vro/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -6475,7 +6475,7 @@ Ordinal numerals begin
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-vro/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 

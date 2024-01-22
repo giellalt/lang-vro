@@ -2085,7 +2085,7 @@ digits
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
