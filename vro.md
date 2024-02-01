@@ -5557,6 +5557,7 @@ distinguishing dialects.
 * **+Use/-Spell**
 * **+Use/SpellNoSugg** not suggested in speller
 * **+Use/NG** No generation
+* **+Use/Circ100** 
 * **+Cmp/Hyph** 
 * **+Use/PMatch**
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
@@ -5595,6 +5596,7 @@ Numerals are classified under:
 * **+Attr**
 * **+Card**
 * **+Ord**
+* **+Arab**
 Verb moods are:
 * **+Cond**
 * **+Imprt**
@@ -5658,6 +5660,7 @@ Other verb forms are
 
 Special symbols are classified with:
 * **+CLB**
+* **+CLBfinal**
 * **+PUNCT**
 * **+LEFT**
 * **+RIGHT**
@@ -5800,6 +5803,7 @@ Question and Focus particles:
 * **+Sem/Veh** Vehicle
 * **+Sem/Wpn** Weapon
 * **+Sem/Wthr** The Weather or the state of ground
+* **+Sem/Year** 
 
 * **+Sem/Ant_Fem**
 * **+Sem/Ant_Mal**
