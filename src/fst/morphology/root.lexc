@@ -98,10 +98,13 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
  +Use/-Spell !!≈ * **@CODE@**
  +Use/SpellNoSugg !!≈ * **@CODE@** not suggested in speller
  +Use/NG     !!≈ * **@CODE@** No generation
+ +Use/Circ100	   !!≈ * **@CODE@** 
  +Cmp/Hyph   !!≈ * **@CODE@** 
  +Use/PMatch !!≈ * **@CODE@**
  +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
  +Use/-TTS         !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+
+
 
 !! The nominals are inflected in the following Case and Number
  +Sg   !!≈ * **@CODE@** Singular
@@ -144,6 +147,7 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
  +Attr  !!≈ * **@CODE@**
  +Card !!≈ * **@CODE@**
  +Ord  !!≈ * **@CODE@**
+ +Arab !!≈ * **@CODE@**
 !! Verb moods are:
  +Cond  !!≈ * **@CODE@**
  +Imprt !!≈ * **@CODE@**
@@ -208,6 +212,7 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
 
 !! Special symbols are classified with:
 +CLB   !!≈ * **@CODE@**
++CLBfinal   !!≈ * **@CODE@**
 +PUNCT !!≈ * **@CODE@**
 +LEFT  !!≈ * **@CODE@**
 +RIGHT !!≈ * **@CODE@**
@@ -357,7 +362,7 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
  +Sem/Veh         !!≈ * **@CODE@** Vehicle
  +Sem/Wpn         !!≈ * **@CODE@** Weapon
  +Sem/Wthr        !!≈ * **@CODE@** The Weather or the state of ground
-
+ +Sem/Year	  !!≈ * **@CODE@** 
 
 
 ! Multiple Semantic tags:
