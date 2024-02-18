@@ -57,7 +57,7 @@ endif # CAN_XFST
 #### HFST transducers
 if CAN_HFST
 GT_ANALYSERS+=
-GT_GENERATORS+=
+GT_GENERATORS+=generator-dict-gt-norm.hfst
 
 if WANT_CUSTOM_FSTS
 CUSTOM_FSTS+=
