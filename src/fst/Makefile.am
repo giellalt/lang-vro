@@ -40,9 +40,6 @@ CUSTOM_FSTS=
 #### BEGIN: Add local processing instructions BELOW this line ####
 ##################################################################
 
-########################################################
-#### Add language-specific transducer targets here: ####
-
 #### Xerox transducers:
 if CAN_XFST
 GT_ANALYSERS+=
@@ -79,8 +76,190 @@ endif # CAN_FOMA
 #################################################
 #### Add language-specific build rules here: ####
 
+
+### Split multichar letters early, to avoid repetitive code. Multichar ###
+### letters must be split on both sides, and then the alphabet pruned, ###
+### for hfst-tokenise to work without issues.                          ###
+
+# Hfst - add weights to compounds if using tropical-semiring fst format:
+if WITH_OFST_TROPICAL
+.generated/generator-raw-gt-desc.hfst: .generated/generator-raw-gt-desc.tmp.hfst \
+					orthography/split-composed-chars.compose.hfst
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex            \
+				@\"orthography/split-composed-chars.compose.hfst\".i \
+			.o. @\"$<\"                               \
+			.o. @\"orthography/split-composed-chars.compose.hfst\" \
+			;\n\
+		 save stack $@.tmp\n\
+		 quit\n" | $(XFST_TOOL)
+	$(AM_V_REWEIGHT)$(HFST_PRUNE_ALPHABET) -i $@.tmp \
+		$(HFST_REWEIGHT) $(MORE_VERBOSITY) $(HFST_FLAGS) \
+			-S '+Cmp' -a 10 --arcs-only \
+		> $@
+	 $(AM_V_at)rm -f $@.tmp
+
+else
+
+.generated/generator-raw-gt-desc.hfst: .generated/generator-raw-gt-desc.tmp.hfst \
+					orthography/split-composed-chars.compose.hfst
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex            \
+				@\"orthography/split-composed-chars.compose.hfst\".i \
+			.o. @\"$<\"                               \
+			.o. @\"orthography/split-composed-chars.compose.hfst\" \
+			;\n\
+		 save stack $@.tmp\n\
+		 quit\n" | $(XFST_TOOL)
+	 $(AM_V_HPRUNE)$(HFST_PRUNE_ALPHABET) -i $@.tmp -o $@
+	 $(AM_V_at)rm -f $@.tmp
+
+endif
+
+.generated/analyser-raw-gt-desc.%: .generated/analyser-raw-gt-desc.tmp.% \
+					orthography/split-composed-chars.compose.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex            \
+				@\"orthography/split-composed-chars.compose.$*\".i \
+			.o. @\"$<\"                               \
+			.o. @\"orthography/split-composed-chars.compose.$*\" \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
+
+# Hfst:
+.generated/analyser-%.hfst: .generated/analyser-%.tmp.hfst                        \
+					filters/remove-combining-caron-below.hfst   \
+					filters/remove-modifier-letter-grave-accent.hfst   \
+					filters/remove-combining-circumflex-accent-below.hfst            
+	$(AM_V_RGX2FST)$(PRINTF) "                               \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.hfst\" \
+			.o. @\"filters/remove-combining-caron-below.hfst\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.hfst\"   \
+			;" \
+		| $(HFST_REGEXP2FST) $(HFST_FLAGS) $(HFST_FORMAT) \
+			-S --xerox-composition=ON \
+		| $(HFST_INVERT) \
+		> $@
+
+# We need to specify -gt- to avoid applying the filters to the raw fst:
+.generated/generator-gt-%.hfst: .generated/generator-gt-%.tmp.hfst                \
+					filters/remove-combining-caron-below.hfst   \
+					filters/remove-modifier-letter-grave-accent.hfst   \
+					filters/remove-combining-circumflex-accent-below.hfst            
+	$(AM_V_RGX2FST)$(PRINTF) "                               \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.hfst\" \
+			.o. @\"filters/remove-combining-caron-below.hfst\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.hfst\"   \
+			;" \
+		| $(HFST_REGEXP2FST) $(HFST_FLAGS) $(HFST_FORMAT) \
+			-S --xerox-composition=ON \
+		> $@
+
+# Xerox:
+# We need to specify -gt- to avoid applying the filters to the raw fst:
+.generated/analyser-gt-%.xfst: .generated/analyser-gt-%.tmp.xfst                  \
+					filters/remove-combining-caron-below.xfst   \
+					filters/remove-modifier-letter-grave-accent.xfst   \
+					filters/remove-combining-circumflex-accent-below.xfst            
+	$(AM_V_XFST)$(PRINTF) "read regex                        \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.xfst\" \
+			.o. @\"filters/remove-combining-caron-below.xfst\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.xfst\"   \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+.generated/generator-%.xfst: .generated/generator-%.tmp.xfst                      \
+					filters/remove-combining-caron-below.xfst   \
+					filters/remove-modifier-letter-grave-accent.xfst   \
+					filters/remove-combining-circumflex-accent-below.xfst            
+	$(AM_V_XFST)$(PRINTF) "read regex                        \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.xfst\" \
+			.o. @\"filters/remove-combining-caron-below.xfst\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.xfst\"   \
+			;\n\
+		 invert net\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+# Special case for the disamb analyser, since it follows the same filename
+# pattern as the raw fst:
+.generated/analyser-disamb-gt-%.xfst: .generated/analyser-disamb-gt-%.tmp.xfst    \
+					filters/remove-combining-caron-below.xfst   \
+					filters/remove-modifier-letter-grave-accent.xfst   \
+					filters/remove-combining-circumflex-accent-below.xfst            
+	$(AM_V_XFST)$(PRINTF) "read regex                        \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.xfst\" \
+			.o. @\"filters/remove-combining-caron-below.xfst\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.xfst\"   \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+# Foma, for completeness:
+# We need to specify -gt- to avoid applying the filters to the raw fst:
+.generated/analyser-gt-%.foma: .generated/analyser-gt-%.tmp.foma                  \
+					filters/remove-combining-caron-below.foma   \
+					filters/remove-modifier-letter-grave-accent.foma   \
+					filters/remove-combining-circumflex-accent-below.foma            
+	$(AM_V_XFST)$(PRINTF) "read regex                        \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.foma\" \
+			.o. @\"filters/remove-combining-caron-below.foma\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.foma\"   \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+.generated/generator-%.foma: .generated/generator-%.tmp.foma                      \
+					filters/remove-combining-caron-below.foma   \
+					filters/remove-modifier-letter-grave-accent.foma   \
+					filters/remove-combining-circumflex-accent-below.foma            
+	$(AM_V_XFST)$(PRINTF) "read regex                        \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.foma\" \
+			.o. @\"filters/remove-combining-caron-below.foma\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.foma\"   \
+			;\n\
+		 invert net\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+# Special case for the disamb analyser, since it follows the same filename
+# pattern as the raw fst:
+.generated/analyser-disamb-gt-%.foma: .generated/analyser-disamb-gt-%.tmp.foma    \
+					filters/remove-combining-caron-below.foma   \
+					filters/remove-modifier-letter-grave-accent.foma   \
+					filters/remove-combining-circumflex-accent-below.foma            
+	$(AM_V_XFST)$(PRINTF) "read regex                        \
+				@\"$<\"                                      \
+			.o. @\"filters/remove-combining-circumflex-accent-below.foma\" \
+			.o. @\"filters/remove-combining-caron-below.foma\"   \
+			.o. @\"filters/remove-modifier-letter-grave-accent.foma\"   \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+# Do NOT apply the accent removal filters to the normative
+# dictionary generator (both hfst and xfst/foma):
+.generated/generator-dict-gt-norm.hfst: .generated/generator-dict-gt-norm.tmp.hfst
+	$(AM_V_CP)cp -f $< $@
+
+.generated/generator-dict-gt-norm.%: .generated/generator-dict-gt-norm.tmp.%
+	$(AM_V_XFST)$(PRINTF) "\
+		 load stack $<\n\
+		 invert net\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
 ##################################################################
+
 
 include $(top_srcdir)/../giella-core/am-shared/src-fst-dir-include.am
