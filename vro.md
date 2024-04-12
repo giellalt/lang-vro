@@ -1,6 +1,10 @@
-# Võro description 
+# Võro language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-dependency.cg3.md 
 
 
 # C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
@@ -153,7 +157,14 @@ Correction rules
 **lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt/lang-vro/blob/main/src/cg3/dependency.cg3)</small>
+
+---
+
+# src-cg3-disambiguator.cg3.md 
+
+
 
 Disambiguator for Võro
 
@@ -399,7 +410,14 @@ Relative pronouns
 * **errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-vro/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+
+# src-cg3-functions.cg3.md 
+
+
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
 Sámi language technology project 2003-2018, University of Tromsø #
@@ -868,7 +886,14 @@ These were the set types.
 The analysis give double analysis because of optional semtags. We go for the one with semtag.
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-vro/blob/main/src/cg3/functions.cg3)</small>Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-vro/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+Adjective inflection
 The VÕRO language adjectives compare.
 
 LEXICON A_1HANS1A  1 hanśa:hanśa
@@ -967,6 +992,8 @@ gradation: no
 
 ---
 
+# src-fst-morphology-affixes-adverbs.lexc.md 
+
 Adverbs 
 The VÕRO language adverbs...
 
@@ -981,6 +1008,8 @@ What is this 2017-03-27
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 Noun inflection for Võro
 
@@ -3073,6 +3102,8 @@ digits
 
 ---
 
+# src-fst-morphology-affixes-numerals.lexc.md 
+
 Noun inflection for Võro
 
 * Yaml: **suhvli**
@@ -3201,6 +3232,8 @@ by .:, and with reduced case forms. The Err/Orth tag is added in the calling lex
 
 ---
 
+# src-fst-morphology-affixes-postpositions.lexc.md 
+
 Postpositions 
 The Võro language postpositions ...
 
@@ -3211,6 +3244,8 @@ The Võro language postpositions ...
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/postpositions.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/postpositions.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-pronouns.lexc.md 
 
 Pronoun inflection
 The Võro language pronouns inflect in the same cases as regular
@@ -3239,6 +3274,8 @@ LEXICON PERS_PL3  timä:
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
 The Võro language proper nouns inflect in the same cases as regular
@@ -3396,6 +3433,8 @@ LEXICON PROP_46HAIN  hain:hain
 
 ---
 
+# src-fst-morphology-affixes-quantifiers.lexc.md 
+
 Quantifier inflection
 The Võro language quantifiers inflect in cases.
 
@@ -3405,6 +3444,8 @@ The Võro language quantifiers inflect in cases.
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -3413,6 +3454,8 @@ The Võro language quantifiers inflect in cases.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 Verb inflection
 Võro language verbs inflect for person and number.
@@ -4266,6 +4309,8 @@ Retain consonant and stem vowel
 
 ---
 
+# src-fst-morphology-clitics.lexc.md 
+
 Clitics in Võro
 
 * * *
@@ -4273,6 +4318,8 @@ Clitics in Võro
 <small>This (part of) documentation was generated from [src/fst/morphology/clitics.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/clitics.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 # The Võro morphophonological/twolc rules file 
 
@@ -5472,6 +5519,8 @@ naŕma
 
 ---
 
+# src-fst-morphology-root.lexc.md 
+
 
 # Võru tags and basic lexica
 
@@ -6114,6 +6163,8 @@ less complex word classes
 
 ---
 
+# src-fst-morphology-stems-acronyms.lexc.md 
+
 Acronyms
 Veps acronyms ...
 
@@ -6122,6 +6173,8 @@ Veps acronyms ...
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/acronyms.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/acronyms.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adjectives_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -6137,6 +6190,8 @@ ADD NOUNS BELOW
 
 ---
 
+# src-fst-morphology-stems-adpositions_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are
 added to the xml source files.
 perrä:perrä PO_ "(eng) /(est) /(fin) " ;
@@ -6149,6 +6204,8 @@ ADD NOUNS BELOW
 
 ---
 
+# src-fst-morphology-stems-adverbs_newwords.lexc.md 
+
 
 
 CHECKME
@@ -6158,6 +6215,8 @@ CHECKME
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/adverbs_newwords.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-determiners_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are
 added to the xml source files.
@@ -6170,6 +6229,8 @@ ADD DETERMINERS BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/determiners_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/determiners_newwords.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-exceptions.lexc.md 
 
 
 ### ADVERBS
@@ -6218,6 +6279,8 @@ tundma **to feel/tuntea**
 
 ---
 
+# src-fst-morphology-stems-interjections_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 
@@ -6229,6 +6292,8 @@ ADD INTERJECTIONS BELOW
 
 ---
 
+# src-fst-morphology-stems-nouns.lexc.md 
+
 
 hanśa+N:hanśa N_1HANS1A "" ;
 
@@ -6237,6 +6302,8 @@ hanśa+N:hanśa N_1HANS1A "" ;
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -6260,6 +6327,8 @@ Three-syllable words
 
 ---
 
+# src-fst-morphology-stems-verbs.lexc.md 
+
 
 atma+V:atta, ikma+V:ikkõ
 petmä+V:pettä
@@ -6269,6 +6338,8 @@ petmä+V:pettä
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are
 added to the xml source files.
@@ -6285,6 +6356,8 @@ petmä+V:pettä
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -6453,6 +6526,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Võro are read out, e.g.
@@ -6473,6 +6548,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+
 
 
 Ordinal numerals begin
@@ -6482,6 +6559,8 @@ Ordinal numerals begin
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-vro/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
@@ -6780,7 +6859,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-vro/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for vro
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-vro/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for vro
 
 Usage:
 ```
@@ -6842,6 +6928,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-vro/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for vro
 
@@ -6906,6 +6994,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -6967,6 +7057,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-vro/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-
