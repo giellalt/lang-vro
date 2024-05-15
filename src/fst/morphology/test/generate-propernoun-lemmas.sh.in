@@ -22,10 +22,10 @@
 ###### Variables: #######
 POS=propernouns
 ### in ###
-source_file=${srcdir}/../../../src/fst/stems/propernouns_newwords.lexc
+source_file=${srcdir}/../stems/propernouns_newwords.lexc
 #source_file=${srcdir}/../../../src/fst/stems/${POS}.lexc
-generator_file=./../../../src/fst/generator-gt-norm
-analyser_file=./../../../src/fst/analyser-gt-norm
+generator_file=./../../generator-gt-norm
+analyser_file=./../../analyser-gt-norm
 
 ### out ###
 # Temporary files:
@@ -154,7 +154,7 @@ if [ "$Fail" = "1" ]; then
 fi
 
 if [ $transducer_found -eq 0 ]; then
-    echo ERROR: No transducer found
+    echo ERROR: No transducer found $analyser_file $generator_file
     exit 77
 fi
 
