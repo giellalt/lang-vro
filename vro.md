@@ -6123,6 +6123,18 @@ The following flag diacritics are being applied for vowel harmony variation
 |  **@U.VowHarm.B@** | Back harmony, used with subsequent Err/Orth-front
 |  **@U.VowHarm.F@** | Front harmony, used with subsequent Err/Orth-back
 
+| Flag diacritic | Explanation
+| :------------- |:-----------
+| @U.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 # The Root lexicon
 
 The word forms in the Võro language start from the lexeme roots of basic
