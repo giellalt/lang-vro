@@ -113,7 +113,6 @@ endif
 		 save stack $@\n\
 		 quit\n" | $(XFST_TOOL)
 
-
 # Hfst:
 .generated/analyser-%.hfst: .generated/analyser-%.tmp.hfst                        \
 					filters/remove-combining-caron-below.hfst   \
@@ -145,51 +144,7 @@ endif
 			-S --xerox-composition=ON \
 		> $@
 
-# Xerox:
-# We need to specify -gt- to avoid applying the filters to the raw fst:
-.generated/analyser-gt-%.xfst: .generated/analyser-gt-%.tmp.xfst                  \
-					filters/remove-combining-caron-below.xfst   \
-					filters/remove-modifier-letter-grave-accent.xfst   \
-					filters/remove-combining-circumflex-accent-below.xfst            
-	$(AM_V_XFST)$(PRINTF) "read regex                        \
-				@\"$<\"                                      \
-			.o. @\"filters/remove-combining-circumflex-accent-below.xfst\" \
-			.o. @\"filters/remove-combining-caron-below.xfst\"   \
-			.o. @\"filters/remove-modifier-letter-grave-accent.xfst\"   \
-			;\n\
-		 save stack $@\n\
-		 quit\n" | $(XFST) $(VERBOSITY)
-
-.generated/generator-%.xfst: .generated/generator-%.tmp.xfst                      \
-					filters/remove-combining-caron-below.xfst   \
-					filters/remove-modifier-letter-grave-accent.xfst   \
-					filters/remove-combining-circumflex-accent-below.xfst            
-	$(AM_V_XFST)$(PRINTF) "read regex                        \
-				@\"$<\"                                      \
-			.o. @\"filters/remove-combining-circumflex-accent-below.xfst\" \
-			.o. @\"filters/remove-combining-caron-below.xfst\"   \
-			.o. @\"filters/remove-modifier-letter-grave-accent.xfst\"   \
-			;\n\
-		 invert net\n\
-		 save stack $@\n\
-		 quit\n" | $(XFST) $(VERBOSITY)
-
-# Special case for the disamb analyser, since it follows the same filename
-# pattern as the raw fst:
-.generated/analyser-disamb-gt-%.xfst: .generated/analyser-disamb-gt-%.tmp.xfst    \
-					filters/remove-combining-caron-below.xfst   \
-					filters/remove-modifier-letter-grave-accent.xfst   \
-					filters/remove-combining-circumflex-accent-below.xfst            
-	$(AM_V_XFST)$(PRINTF) "read regex                        \
-				@\"$<\"                                      \
-			.o. @\"filters/remove-combining-circumflex-accent-below.xfst\" \
-			.o. @\"filters/remove-combining-caron-below.xfst\"   \
-			.o. @\"filters/remove-modifier-letter-grave-accent.xfst\"   \
-			;\n\
-		 save stack $@\n\
-		 quit\n" | $(XFST) $(VERBOSITY)
-
-# Foma, for completeness:
+# Foma:
 # We need to specify -gt- to avoid applying the filters to the raw fst:
 .generated/analyser-gt-%.foma: .generated/analyser-gt-%.tmp.foma                  \
 					filters/remove-combining-caron-below.foma   \
