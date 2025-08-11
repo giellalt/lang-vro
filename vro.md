@@ -5712,7 +5712,7 @@ Special symbols are classified with:
 * **+CLBfinal**
 * **+PUNCT**
 * **+LEFT**
-* **+RIGHT**
+* **+RIGHT +MIDDLE**
 The verbs are syntactically split according to transitivity:
 * **+TV**
 * **+IV**
