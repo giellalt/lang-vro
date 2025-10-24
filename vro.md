@@ -4,18 +4,18 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-dependency.cg3.md 
+## src-cg3-dependency.cg3.md 
 
 
-# C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
+## C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
 
 This dep file is for sma, sme, smj, sje.
 
-# DELIMITERS
+## DELIMITERS
 
 Sentence delimiters are the following: <.> <!> <?> <...> <¶>
 
-# TAGS AND SETS
+## TAGS AND SETS
 
 N
 V
@@ -75,13 +75,13 @@ Ess
 
 IM For fao
 
-## POS sub-categories
+### POS sub-categories
 
-## Syntactic tags and sets
+### Syntactic tags and sets
 
-### Syntactic tags in input to this file
+#### Syntactic tags in input to this file
 
-### Syntactic tags added in this file
+#### Syntactic tags added in this file
 
 * @FMV : finite main verb
 - oaidná: Son oaidná ollislaš gova. - She sees the whole picture
@@ -120,23 +120,23 @@ IM For fao
 * <mv> : main verb. A temporarily tag omitted in the end of the file.
 * <aux> : auxilary verb. A temporarily tag omitted in the end of the file.
 
-### fao syntags
+#### fao syntags
 
 * @>V
 
-### kal syntags
+#### kal syntags
 
 * @INS :
 * @<INS :
 * @INS> :
 
-### eus syntags
+#### eus syntags
 
 * @FS-SPRED : finite verb in subclause functioning as a subject predicate - eus, but not sure if in use
 
-### Syntactic set definitions
+#### Syntactic set definitions
 
-# Dep grammar
+## Dep grammar
 
 Correction rules
 
@@ -150,9 +150,9 @@ Correction rules
 
 * **faoSumId=Rel**
 
-## The finite verb
+### The finite verb
 
-# Mapping rules
+## Mapping rules
 
 **lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
 
@@ -162,17 +162,17 @@ Correction rules
 
 ---
 
-# src-cg3-disambiguator.cg3.md 
+## src-cg3-disambiguator.cg3.md 
 
 
 
 Disambiguator for Võro
 
-## Sets
+### Sets
 
 Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 
-### Part-of-Speech
+#### Part-of-Speech
 * N = noun
 * A = adjective
 * Num = numeral
@@ -184,7 +184,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pron = pronoun
 * Interj = interjection
 
-### Numerus
+#### Numerus
 
 * Sg = Singular
 * Pl = Plural
@@ -195,7 +195,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pl2 = Plural 2.p.
 * Pl3 = Plural 3.p.
 
-### Cases
+#### Cases
 * Nom
 * Gen
 * Acc
@@ -213,7 +213,7 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Com
 * SUBJ-CASE = Nom Par
 
-### Types
+#### Types
 * Prop = Proper noun
 * Interr = Interrogative
 * Dem = demonstrative pron
@@ -236,7 +236,7 @@ Interrpronpl "kuka" ja "mikä"
 * Foc/kaan = focus clitic -kaan
 * Foc/kaan = focus clitic -kaan
 
-## Sets with more members
+### Sets with more members
 
 * WORD = all PoS
 
@@ -258,11 +258,11 @@ Verbs
 
 * SV-BOUNDARY = words that start a sentence and finite verb
 
-## Disambiguation rules
+### Disambiguation rules
 
-### Dialects
+#### Dialects
 
-### Early rules
+#### Early rules
 
 * __person_test__ selects finite verb if there is a Pron Pers to the left
 
@@ -278,7 +278,7 @@ Possessive suffixes
 
 Numeral phrases
 
-### Preposition/postposition/adverb rules
+#### Preposition/postposition/adverb rules
 
 * **Prifgenpar** selects  preposition to the left of Gen or Par
 
@@ -286,7 +286,7 @@ Numeral phrases
 
 * **vasthaan**
 
-## Rules for mapping @CVP and @CNP on the CC and CS
+### Rules for mapping @CVP and @CNP on the CC and CS
 
 * **CVP** maps @CVP to CS and mutta
 
@@ -294,44 +294,44 @@ Numeral phrases
 
 * **CNPifInf** maps @CNP to CC between two Inf
 
-## Case rules
+### Case rules
 
-### Partitive
+#### Partitive
 
 Genitive
 
-### Illative
+#### Illative
 
-## Number rules
+### Number rules
 
-## More disambiguation rules
+### More disambiguation rules
 * **SgNotPl**
 
-### Elative
+#### Elative
 
-## Propernouns
+### Propernouns
 
-## Verbs
+### Verbs
 
-### Specific verbs	
+#### Specific verbs	
 
 ei negation verb
 
 eli
 
-## Adverbs
+### Adverbs
 
-### paljon
+#### paljon
 
-### kerran
+#### kerran
 
-### jälkhiin
+#### jälkhiin
 
-## Adjectives
+### Adjectives
 
 Conjunctions
 
-## Subjunctions
+### Subjunctions
 
 että
 
@@ -341,25 +341,25 @@ ko
 
 sillä	
 
-## Pronouns
+### Pronouns
 
-## Verb rules, Verbs
+### Verb rules, Verbs
 
-### Infinitive
+#### Infinitive
 
-## Present Sg3
+### Present Sg3
 
-## Present Pl3 or PrsPrc
+### Present Pl3 or PrsPrc
 
-## Present Pl3 or Passive
+### Present Pl3 or Passive
 
 Imperative
 
-## Past tense
+### Past tense
 
-### Prt Pl3 or Prt Sg2
+#### Prt Pl3 or Prt Sg2
 
-## Negative verb
+### Negative verb
 
 Relative pronouns
 
@@ -397,7 +397,7 @@ Relative pronouns
 
 * **+FMAINV**  to the remaining finite verbs which are not AUX    
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * **@<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
 
@@ -415,7 +415,7 @@ Relative pronouns
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
@@ -432,7 +432,7 @@ LEFT RIGHT because of apertium
 
 * Sets for Morphosyntactic properties
 
-## Syntactic tags
+### Syntactic tags
 
 * @+FAUXV : finite auxiliary verb 
 - ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture.
@@ -535,7 +535,7 @@ LEFT RIGHT because of apertium
 * @CMPND
 * @X : The function is unknown, e.g. because of that the word is unknown
 
-## Tag sets
+### Tag sets
 
 * Sets for verbs
 
@@ -568,9 +568,9 @@ ADLVCASE
 
 These were the set types.
 
-## Numeral outside the sentence
+### Numeral outside the sentence
 
-## HABITIVE MAPPING
+### HABITIVE MAPPING
 
 * **hab1** hab aux leat
 
@@ -836,7 +836,7 @@ These were the set types.
 
 * **TV<obj** (@<OBJ) for Acc; if there is a transitive mainverb to the left in the clause. Not for Rel. Not if you are a numeral followed by a measure-noun
 
-### sma object
+#### sma object
 
 * **<advlMeasr** (@<ADVL) for (Num Acc); if finite IV-mainverb to the left, measure-noun to the right
 
@@ -864,25 +864,25 @@ These were the set types.
 
 * **onlyV<opred2** (@<OPRED) for (N Ess) if;
 
-## SUBJ MAPPING - leftovers
+### SUBJ MAPPING - leftovers
 
 * **subj>ifV** (@SUBJ>) for NP-HEAD-NOM, DUPRON or (Num Nom) if; a finite mainverb is found to the right. This is a cleanup rule for subjects
 
 * **hnoun>ifV** (@SUBJ>) for NP-HEAD-NOM, DUPRON if. The counterpart of subj>ifV. You are HNOUN if there is a finite verb to your right, but NOT if there is a finite verb after a relative clause
 
-## OBJ MAPPING - leftovers
+### OBJ MAPPING - leftovers
 
-## <logo> MAPPING for MT - experimental
+### <logo> MAPPING for MT - experimental
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * **@<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
 
-###  **missingX** adds @X to all missings
+####  **missingX** adds @X to all missings
 
-###  **therestX** adds @X to all what is left, often errouneus disambiguated forms
+####  **therestX** adds @X to all what is left, often errouneus disambiguated forms
 
-## For Apertium:
+### For Apertium:
 The analysis give double analysis because of optional semtags. We go for the one with semtag.
 
 * * *
@@ -891,7 +891,7 @@ The analysis give double analysis because of optional semtags. We go for the one
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
 Adjective inflection
 The VÕRO language adjectives compare.
@@ -992,7 +992,7 @@ gradation: no
 
 ---
 
-# src-fst-morphology-affixes-adverbs.lexc.md 
+## src-fst-morphology-affixes-adverbs.lexc.md 
 
 Adverbs 
 The VÕRO language adverbs...
@@ -1009,7 +1009,7 @@ What is this 2017-03-27
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
 Noun inflection for Võro
 
@@ -1373,7 +1373,7 @@ LEXICON N_47VELI  veli:ve%{lØ%}l
 
 LEXICON N_47KIRI  kiri:kiri
 
-### NOMINAL DECLENSIONS
+#### NOMINAL DECLENSIONS
 
 LEXICON NMN_1HANS1A  1 hanśa:hanśa
 
@@ -3068,15 +3068,15 @@ gradation: yes
 
 * LEXICON NMN_2KASUNUQ/ELAENUEQ  elänüq:elänü
 
-### SINGULAR GENITIVE STEMS
+#### SINGULAR GENITIVE STEMS
 
-### PLURAL ALLATIVE STEMS
+#### PLURAL ALLATIVE STEMS
 
-### TAGS THAT CAN BE FOLLOWED BY CLITICS "K"
-### PLURAL TAGS
+#### TAGS THAT CAN BE FOLLOWED BY CLITICS "K"
+#### PLURAL TAGS
 * +Err/Orth-no-q+Pl+Abe:%>ld%{aä%} K ;  no q
 
-### SINGULAR TAGS
+#### SINGULAR TAGS
 
 * +Err/Orth-no-q+Sg+Com:%>ga K ;  no q
 * +Err/Orth-no-q+Err/Orth-front+Sg+Com:%>gä K ;  no q, front
@@ -3084,13 +3084,13 @@ gradation: yes
 
 LEXICON Harm_Neutr_SG_INE_hn  RARE
 
-### TAGS THAT CANNOT BE FOLLOWED BY CLITICS
+#### TAGS THAT CANNOT BE FOLLOWED BY CLITICS
 
-### CASES ONLY
+#### CASES ONLY
 
-### TAGS THAT CAN BE FOLLOWED BY CLITICS
+#### TAGS THAT CAN BE FOLLOWED BY CLITICS
 
-### TAGS WITH NO ADDED MORPHOLOGY THAT CANNOT BE FOLLOWED BY CLITICS
+#### TAGS WITH NO ADDED MORPHOLOGY THAT CANNOT BE FOLLOWED BY CLITICS
 
 digits
 
@@ -3102,7 +3102,7 @@ digits
 
 ---
 
-# src-fst-morphology-affixes-numerals.lexc.md 
+## src-fst-morphology-affixes-numerals.lexc.md 
 
 Noun inflection for Võro
 
@@ -3232,12 +3232,12 @@ by .:, and with reduced case forms. The Err/Orth tag is added in the calling lex
 
 ---
 
-# src-fst-morphology-affixes-postpositions.lexc.md 
+## src-fst-morphology-affixes-postpositions.lexc.md 
 
 Postpositions 
 The Võro language postpositions ...
 
-### POSTPOSITIONS WITH READY CASE ENDINGS
+#### POSTPOSITIONS WITH READY CASE ENDINGS
 
 * * *
 
@@ -3245,13 +3245,13 @@ The Võro language postpositions ...
 
 ---
 
-# src-fst-morphology-affixes-pronouns.lexc.md 
+## src-fst-morphology-affixes-pronouns.lexc.md 
 
 Pronoun inflection
 The Võro language pronouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
-### PERSONAL PRONOUN
+#### PERSONAL PRONOUN
 
 CHECKME vowel harmony
 
@@ -3261,11 +3261,11 @@ LEXICON PERS_PL2  saq:
 
 LEXICON PERS_PL3  timä:
 
-### DEMONSTRATIVE PRONOUNS
+#### DEMONSTRATIVE PRONOUNS
 
-### INDEFINITE PRONOUNS
+#### INDEFINITE PRONOUNS
 
-### INTERROGATIVE PRONOUNS
+#### INTERROGATIVE PRONOUNS
 
 * LEXICON PRON_36UETS1  ütś:üt
 
@@ -3275,7 +3275,7 @@ LEXICON PERS_PL3  timä:
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
 The Võro language proper nouns inflect in the same cases as regular
@@ -3433,7 +3433,7 @@ LEXICON PROP_46HAIN  hain:hain
 
 ---
 
-# src-fst-morphology-affixes-quantifiers.lexc.md 
+## src-fst-morphology-affixes-quantifiers.lexc.md 
 
 Quantifier inflection
 The Võro language quantifiers inflect in cases.
@@ -3444,10 +3444,10 @@ The Võro language quantifiers inflect in cases.
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 * * *
 
@@ -3455,7 +3455,7 @@ The Võro language quantifiers inflect in cases.
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
 Verb inflection
 Võro language verbs inflect for person and number.
@@ -4215,7 +4215,7 @@ sõida
 * Yaml: **V-juevaemae88**
 * LEXICON V_88SIBAHAMA/JUEVAEHAEMAE  sibama:siba
 
-### SETS BY CONSONANT QUALITY
+#### SETS BY CONSONANT QUALITY
 
 * : Harm_Neutr_ACT_IND_PRS_SG2_USUALLY-STRONG ;  kaota
 +Act+Ind+Prs+Sg2, +Err/Dial+Act+Ind+Prs+Sg2, 
@@ -4224,33 +4224,33 @@ sõida
 * : ACT_IND_PRS_3_s/sEq ;  
 +Act+Ind+Prs+Sg3, +Act+Ind+Prs+Pl3
 
-### INDICATIVE PRESENT ACTIVE CONJUGATION
+#### INDICATIVE PRESENT ACTIVE CONJUGATION
 
 * +Ind+Prs+Neg:%-%{XV%}iq K ;  This gives stress
 * +Err/Orth-no-q+Ind+Prs+Neg:%-iq K ;  This gives stress
 * +Err/Orth-no-q+Ind+Prs+Neg:%-%{XV%}i K ;  more neutral without q
 * +Err/Orth-no-q+Ind+Prs+Neg:%-i K ;  more neutral without q
 
-### JUS
+#### JUS
 * LEXICON ACT_JUS_guq  regardless of harmony this is back 
 
 CHECK THIS
 
-### PASSIVE INDICATIVE PRESENT CONJUGATION
+#### PASSIVE INDICATIVE PRESENT CONJUGATION
 
 * LEXICON Harm_Neutr_JUVVA_PSS_IND_PRS  juvva süvvä
 
 * LEXICON Harm_Neutr_JUVVA_PSS_IND_PRT_1/2  juvvi süvvi
 
-### INDICATIVE PRETERIT SUBJECT CONJUGATION
+#### INDICATIVE PRETERIT SUBJECT CONJUGATION
 
-### PASSIVE INDICATIVE PRETERIT CONJUGATION
+#### PASSIVE INDICATIVE PRETERIT CONJUGATION
 
 * +Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>tt%{uü%} K ;  no q
 * +Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>t%{uü%} K ;  no q
 * +Err/Orth-no-q+Pss+PrfPrc+Pl+Nom:%>d%{uü%} K ;  no q
 
-### NON-FINITES
+#### NON-FINITES
 
 * +Err/Orth-no-q+Inf:%>d%{aä%} K ;  no q
 
@@ -4309,7 +4309,7 @@ Retain consonant and stem vowel
 
 ---
 
-# src-fst-morphology-clitics.lexc.md 
+## src-fst-morphology-clitics.lexc.md 
 
 Clitics in Võro
 
@@ -4319,13 +4319,13 @@ Clitics in Võro
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
-# The Võro morphophonological/twolc rules file 
+## The Võro morphophonological/twolc rules file 
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-vro/blob/main/src/fst/phonology.twolc) 
 
-## Special letters
+### Special letters
 * **u̬** u plus U+032C COMBINING CARON BELOW
 * **U̬** u plus U+032C COMBINING CARON BELOW
 * **ü̬** ü plus U+032C COMBINING CARON BELOW
@@ -4338,7 +4338,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
 ```%{ˋØ%}:0 — U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
 **ˋ:0** — U+02CB MODIFIER LETTER GRAVE ACCENT used outside of rules, this is temporary removal 2017-04-20
 
-## Vowel harmony with "(t)a/ä"
+### Vowel harmony with "(t)a/ä"
 ```
  %{aä%}:0    — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
  %{ae%}:a   — Vowel harmony with "a/e/õ" passive tahetu
@@ -4426,7 +4426,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
 
 ```
 
-## Palatalization of consonants
+### Palatalization of consonants
 ```
  %{bb́%}:b    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{cć%}:c    — HJK and KimmoK ideas Isaać:Isaa%{cć%}:ci
@@ -4450,7 +4450,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
  %{dd́n%}:d 
 ```
 
-## Miscellaneous other symbols
+### Miscellaneous other symbols
 ```
  %{XV%}:0    — This is used for echoing the previous vowel
  %{XC%}:0    — This is used for lengthening a consonant
@@ -4461,7 +4461,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-v
  %^Y7:õ      — This appears for syna = s%^Y7na and is rendered as õ in the norm
 ```
 
-## Triggers
+### Triggers
 ```
    %^OO2Õ:0    — joo%^OO2Õ%>i:j0õ0%>i
    %^CC2C:0    — att%^CC2C%>m%{aä%} atma
@@ -4537,10 +4537,10 @@ Onset consonant or word boundary
 
 Right context for gradation
 
-# Rules
+## Rules
 
-## VOWEL HARMONY 
-### Vowel harmony suffixes Front
+### VOWEL HARMONY 
+#### Vowel harmony suffixes Front
 **%{aä%}:a**
 
 **%{aä%}:ä**
@@ -4562,7 +4562,7 @@ tahtma+V+Pss+PrfPrc+Sg+Nom: **want/haluta**
 
 **%{äe%}:e**
 
-### VOWEL LOWERING
+#### VOWEL LOWERING
 
 **u:o**
 * *lugõ%{back%}%^Pen%^VOWLower%^Pen%^WGStem%^VowRM%>i*
@@ -4590,10 +4590,10 @@ tahtma+V+Pss+PrfPrc+Sg+Nom: **want/haluta**
 
 **Delabializing o and ö**
 
-### VOWEL RAISING
+#### VOWEL RAISING
 **Delabializing o and ö**
 
-### PALATALIZATION
+#### PALATALIZATION
 **n2ń palatalization all**
 kestmä+V+Act+Ind+Prt+Sg3:
 * *kes{tt́}{äe}{front}^Pen^PAL^VowRM*
@@ -4678,7 +4678,7 @@ kõiḱ+Pron+Sg+Nom
 * *kõ̭i%{kØ%}%{kḱg%}%{back%}%^CC2C%^PAL*
 * *kõ̭i0ḱ000*
 
-### VOWEL CHANGE WITH PLURAL
+#### VOWEL CHANGE WITH PLURAL
 
 tegemä+V+Act+Ind+Prs+Sg1: **do**
 * *teg%{front%}%^WGStem%>%{eõ%}*
@@ -4746,7 +4746,7 @@ päiv+N+Sg+Gen: **day/päivä**
 * *kanno000*
 ```
 
-### VOWEL LOSS
+#### VOWEL LOSS
 **a:0**
       a _ (HarmDummiesVar) %>  i  ;  
 * *saa%{back%}%>i*
@@ -5008,7 +5008,7 @@ igä+N+Sg+Ill
 
 **%{cć%}:c**
 
-### Consonant weakening 
+#### Consonant weakening 
 
 **kToZero**  
 * *puhkas%{back%}%^WGStem%>taq*
@@ -5256,7 +5256,7 @@ sõda+N+Sg+Gen:
 
 **%{t́Ø%}:0**
 
-### CONSONANT QUALITY CHANGE
+#### CONSONANT QUALITY CHANGE
 
 **%{pṕb%}:b**
 * *loro%{pṕb%}%{back%}%^G2%>i*
@@ -5412,7 +5412,7 @@ igä+N+Sg+Ill
 * *mä%{kØ%}%{kgØ%}%{front%}%^G4%>%{eõ%}*
 * *mäkk00%>e*
 
-### STEM-FINAL CONSONANT LOSS
+#### STEM-FINAL CONSONANT LOSS
 **s20**
 kirotus+N+Pl+Gen:
 * *kirotus%{back%}%^CnsRM%>isi*
@@ -5505,7 +5505,7 @@ naŕma
 * *na%{rØ%}%{rŕ%}%{back%}%^CC2C%^PAL%>m%{aä%}*
 * *na0r000%>ma*
 
-### Other marks
+#### Other marks
 * *ki%{pb%}õ%{nń%}%{back%}%>a*
 * *kipõn0%>a*
 
@@ -5519,14 +5519,14 @@ naŕma
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-# Võru tags and basic lexica
+## Võru tags and basic lexica
 
-# Definitions for Multichar_Symbols
+## Definitions for Multichar_Symbols
 
-## Analysis symbols
+### Analysis symbols
 The morphological analyses of wordforms for the Võro
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -5732,7 +5732,7 @@ Question and Focus particles:
 * **+Hom3**
 * **+Hom4**
 
-### Tags distinguishing different versions of the same lemma (before POS)
+#### Tags distinguishing different versions of the same lemma (before POS)
 * +v1
 * +v2
 * +v3
@@ -5871,7 +5871,7 @@ source and target part-of-speech.
 ** +Der/Us   ** A→N
 **+Der/lt	   ** A→Adv
 
-# Morphophonology
+## Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 ```
@@ -5903,7 +5903,7 @@ symbols in the lexicon files:
  %{üv%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
 ```
 
-## Gemination
+### Gemination
 ```
  %{hØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{jØ%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -5921,7 +5921,7 @@ symbols in the lexicon files:
 
 ```
 
-## Strong and weak
+### Strong and weak
 ```
  %{pb%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{td%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -5959,7 +5959,7 @@ symbols in the lexicon files:
 
 ```
 
-## Palatalization
+### Palatalization
 ```
  %{bb́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
  %{dd́%}    — HJK and KimmoK ideas kana:ka%{nØ%}na
@@ -6063,7 +6063,7 @@ the sentence can be considered as true cases.
 ; +Gram/Superl 
 ; +Gram/Comp 
 
-# Oahpa Place names and case used 
+## Oahpa Place names and case used 
 * **+%<plc_ine%>  **:  Ine, Ill, Ela
 * **+%<plc_ade%>  **:  Ade, All, Abl
 * **+%<pcl_pääl%> **:  pääl, pääle, päält
@@ -6073,7 +6073,7 @@ The tagged part of the compound should make a compound using:
 * **+CmpN/SgN** Singular Nominative
 * **+CmpN/SgG** Singular Genitive
 
-# Flag diacritics
+## Flag diacritics
 We have manually optimised the structure of our lexicon using the following
 flag diacritics to restrict morhpological combinatorics - only allow
 compounds with verbs if the verb is further derived into a noun again:
@@ -6135,7 +6135,7 @@ The following flag diacritics are being applied for vowel harmony variation
 | @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
-# The Root lexicon
+## The Root lexicon
 
 The word forms in the Võro language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
@@ -6175,7 +6175,7 @@ less complex word classes
 
 ---
 
-# src-fst-morphology-stems-acronyms.lexc.md 
+## src-fst-morphology-stems-acronyms.lexc.md 
 
 Acronyms
 Veps acronyms ...
@@ -6186,7 +6186,7 @@ Veps acronyms ...
 
 ---
 
-# src-fst-morphology-stems-adjectives_newwords.lexc.md 
+## src-fst-morphology-stems-adjectives_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -6202,7 +6202,7 @@ ADD NOUNS BELOW
 
 ---
 
-# src-fst-morphology-stems-adpositions_newwords.lexc.md 
+## src-fst-morphology-stems-adpositions_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are
 added to the xml source files.
@@ -6216,7 +6216,7 @@ ADD NOUNS BELOW
 
 ---
 
-# src-fst-morphology-stems-adverbs_newwords.lexc.md 
+## src-fst-morphology-stems-adverbs_newwords.lexc.md 
 
 
 
@@ -6228,7 +6228,7 @@ CHECKME
 
 ---
 
-# src-fst-morphology-stems-determiners_newwords.lexc.md 
+## src-fst-morphology-stems-determiners_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are
 added to the xml source files.
@@ -6242,34 +6242,34 @@ ADD DETERMINERS BELOW
 
 ---
 
-# src-fst-morphology-stems-exceptions.lexc.md 
+## src-fst-morphology-stems-exceptions.lexc.md 
 
 
-### ADVERBS
+#### ADVERBS
 
-### ADJECTIVES
+#### ADJECTIVES
 
-### CONJUNTIONS
+#### CONJUNTIONS
 
-### GENITIVE ATTRIBUTES
+#### GENITIVE ATTRIBUTES
 
-### NOUNS
+#### NOUNS
 
-### PROPER NOUNS
+#### PROPER NOUNS
 
-### PLURAL NOUNS
+#### PLURAL NOUNS
 
-### NUMERALS
+#### NUMERALS
 
-### POSTPOSITIONA
+#### POSTPOSITIONA
 
-### PRONOUNS
+#### PRONOUNS
 
-### VERBS
+#### VERBS
 
 andma **to give/antaa**
 
-### VERBS WITH FORMS TO STUDY
+#### VERBS WITH FORMS TO STUDY
 
 kündma **to plow/kyntää**
 
@@ -6291,7 +6291,7 @@ tundma **to feel/tuntea**
 
 ---
 
-# src-fst-morphology-stems-interjections_newwords.lexc.md 
+## src-fst-morphology-stems-interjections_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -6304,7 +6304,7 @@ ADD INTERJECTIONS BELOW
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
 
 hanśa+N:hanśa N_1HANS1A "" ;
@@ -6315,7 +6315,7 @@ hanśa+N:hanśa N_1HANS1A "" ;
 
 ---
 
-# src-fst-morphology-stems-nouns_newwords.lexc.md 
+## src-fst-morphology-stems-nouns_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -6339,7 +6339,7 @@ Three-syllable words
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
 
 atma+V:atta, ikma+V:ikkõ
@@ -6351,7 +6351,7 @@ petmä+V:pettä
 
 ---
 
-# src-fst-morphology-stems-verbs_newwords.lexc.md 
+## src-fst-morphology-stems-verbs_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are
 added to the xml source files.
@@ -6369,7 +6369,7 @@ petmä+V:pettä
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -6538,7 +6538,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -6560,7 +6560,7 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
 
@@ -6572,26 +6572,26 @@ Ordinal numerals begin
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -6618,7 +6618,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -6634,7 +6634,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -6697,7 +6697,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -6730,7 +6730,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -6800,22 +6800,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -6826,11 +6826,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -6838,7 +6838,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -6850,25 +6850,25 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -6876,9 +6876,9 @@ expression **WORD - premodifiers**.
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for vro
+## Tokeniser for vro
 
 Usage:
 ```
@@ -6922,7 +6922,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -6941,9 +6941,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for vro
+## Grammar checker tokenisation for vro
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -7006,9 +7006,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
