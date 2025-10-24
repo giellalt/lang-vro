@@ -9,7 +9,7 @@
   },
   "geometry": {
     "type": "Point",
-    "coordinates: [0, 0]
+    "coordinates": [27.0, 57.85]
   }
 }
 ```
