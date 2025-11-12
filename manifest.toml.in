@@ -1,6 +1,3 @@
-spellername = "@GLANGUAGE@"
-spellerversion = "@SPELLERVERSION@"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "3F977B67-7BAE-4772-A64B-5B16BFDAEBA8", kind = "nsis" },
     { value = "44D38263-914F-4410-B3D2-1D5EDDEDA5EC", kind = "nsis" }
 ]
+
+[package.speller]
+name = "@GLANGUAGE@"
+version = "@SPELLERVERSION@"
+
+[package.grammar]
+name = "@GLANGUAGE@"
+version = "@GRAMCHECKVERSION@"
+
+[package.tts-text-proc]
+name = "@GLANGUAGE@"
+version = "@TTSTEXTPROCVERSION@"
