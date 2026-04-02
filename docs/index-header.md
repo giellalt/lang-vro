@@ -18,6 +18,7 @@ Center location data taken from [Glottolog](https://glottolog.org/). Area extent
 
 </div>
 
+
 This page documents the work on the **Võro language model**. 
 
 It contains appr 33000 stems, and an analyser in use for
