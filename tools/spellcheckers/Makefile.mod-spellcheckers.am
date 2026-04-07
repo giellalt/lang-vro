@@ -10,7 +10,7 @@
 # analyser-speller-gt-norm.%: analyser-speller-gt-norm.tmp.%
 #	build rules
 
-generator-speller-gt-norm.%: analyser-speller-gt-norm.tmp.% \
+generator-speller-gt-norm.%: .generated/generator-speller-gt-norm.tmp.% \
 		$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.% \
 		$(top_builddir)/src/fst/filters/remove-combining-caron-below.%             \
 		$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.%
@@ -23,7 +23,7 @@ generator-speller-gt-norm.%: analyser-speller-gt-norm.tmp.% \
 		save stack $@\n\
 		quit\n" | $(XFST_TOOL) -p $(VERBOSITY)
 
-analyser-speller-gt-norm.%: analyser-speller-gt-norm.tmp.% \
+analyser-speller-gt-norm.%: .generated/generator-speller-gt-norm.tmp.% \
 		$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.% \
 		$(top_builddir)/src/fst/filters/remove-combining-caron-below.%             \
 		$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.%
