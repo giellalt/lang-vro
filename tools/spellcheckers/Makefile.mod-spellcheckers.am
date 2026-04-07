@@ -10,59 +10,32 @@
 # analyser-speller-gt-norm.%: analyser-speller-gt-norm.tmp.%
 #	build rules
 
-generator-speller-gt-norm.hfst: analyser-speller-gt-norm.tmp.hfst \
-		$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.hfst \
-		$(top_builddir)/src/fst/filters/remove-combining-caron-below.hfst             \
-		$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.hfst
+generator-speller-gt-norm.%: analyser-speller-gt-norm.tmp.% \
+		$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.% \
+		$(top_builddir)/src/fst/filters/remove-combining-caron-below.%             \
+		$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.%
 	$(AM_V_HXFST)$(PRINTF) "read regex                                                     \
 			@\"$<\"                                                                        \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-caron-below.hfst\"             \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.hfst\"      \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.hfst\" \
+		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-caron-below.$*\"             \
+		.o. @\"$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.$*\"      \
+		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.$*\" \
 		;\n\
 		save stack $@\n\
-		quit\n" | $(HFST_XFST) -p $(VERBOSITY)
+		quit\n" | $(XFST_TOOL) -p $(VERBOSITY)
 
-analyser-speller-gt-norm.hfst: analyser-speller-gt-norm.tmp.hfst \
-		$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.hfst \
-		$(top_builddir)/src/fst/filters/remove-combining-caron-below.hfst             \
-		$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.hfst
+analyser-speller-gt-norm.%: analyser-speller-gt-norm.tmp.% \
+		$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.% \
+		$(top_builddir)/src/fst/filters/remove-combining-caron-below.%             \
+		$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.%
 	$(AM_V_HXFST)$(PRINTF) "read regex                                                     \
 			@\"$<\"                                                                        \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-caron-below.hfst\"             \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.hfst\"      \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.hfst\" \
+		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-caron-below.$*\"             \
+		.o. @\"$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.$*\"      \
+		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.$*\" \
 		;\n\
 		invert\n\
 		save stack $@\n\
-		quit\n" | $(HFST_XFST) -p $(VERBOSITY)
-
-generator-speller-gt-norm.foma: analyser-speller-gt-norm.tmp.foma \
-				$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.foma \
-				$(top_builddir)/src/fst/filters/remove-combining-caron-below.foma             \
-				$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.foma
-	$(AM_V_FOMA)$(PRINTF) "read regex                                                      \
-			@\"$<\"                                                                        \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-caron-below.foma\"             \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.foma\"      \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.foma\" \
-		;\n\
-		invert \n\
-		save stack $@\n\
-		quit\n" | $(FOMA) $(VERBOSITY)
-
-analyser-speller-gt-norm.foma: analyser-speller-gt-norm.tmp.foma \
-				$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.foma \
-				$(top_builddir)/src/fst/filters/remove-combining-caron-below.foma             \
-				$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.foma
-	$(AM_V_FOMA)$(PRINTF) "read regex                                                      \
-			@\"$<\"                                                                        \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-caron-below.foma\"             \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.foma\"      \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.foma\" \
-		;\n\
-		save stack $@\n\
-		quit\n" | $(FOMA) $(VERBOSITY)
+		quit\n" | $(XFST_TOOL) -p $(VERBOSITY)
 
 # END: Local processing
 #########################################
