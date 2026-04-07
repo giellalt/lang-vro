@@ -37,33 +37,6 @@ analyser-speller-gt-norm.hfst: analyser-speller-gt-norm.tmp.hfst \
 		save stack $@\n\
 		quit\n" | $(HFST_XFST) -p $(VERBOSITY)
 
-generator-speller-gt-norm.xfst: analyser-speller-gt-norm.tmp.xfst \
-		$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.xfst \
-		$(top_builddir)/src/fst/filters/remove-combining-caron-below.xfst             \
-		$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.xfst
-	$(AM_V_XFST)$(PRINTF) "read regex                                                      \
-			@\"$<\"                                                                        \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-caron-below.xfst\"             \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.xfst\"      \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.xfst\" \
-		    ;\n\
-		invert \n\
-		save stack $@\n\
-		quit\n" | $(XFST) $(VERBOSITY)
-
-analyser-speller-gt-norm.xfst: analyser-speller-gt-norm.tmp.xfst \
-				$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.xfst \
-				$(top_builddir)/src/fst/filters/remove-combining-caron-below.xfst             \
-				$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.xfst
-	$(AM_V_XFST)$(PRINTF) "read regex                                                      \
-			@\"$<\"                                                                        \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-caron-below.xfst\"             \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-modifier-letter-grave-accent.xfst\"      \
-		.o. @\"$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.xfst\" \
-		;\n\
-		save stack $@\n\
-		quit\n" | $(XFST) $(VERBOSITY)
-
 generator-speller-gt-norm.foma: analyser-speller-gt-norm.tmp.foma \
 				$(top_builddir)/src/fst/filters/remove-combining-circumflex-accent-below.foma \
 				$(top_builddir)/src/fst/filters/remove-combining-caron-below.foma             \
