@@ -103,6 +103,7 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
  +Use/PMatch !!≈ * **@CODE@**
  +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
  +Use/-TTS         !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+ +Use/GC
 
 
 
@@ -788,15 +789,25 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
 !! | Flag diacritic | Explanation
 !! | :------------- |:-----------
 @U.number.one@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.one@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.two@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.two@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.three@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.three@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.four@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.four@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.five@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.five@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.six@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.six@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.seven@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.seven@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.eight@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.eight@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.nine@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.nine@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.zero@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.ten@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 !! # The Root lexicon
 
 
