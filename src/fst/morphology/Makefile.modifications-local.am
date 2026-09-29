@@ -20,11 +20,11 @@
 
 # Copy shared stems files to local dir before building - digits are in smi for now:
 if HAVE_SHARED_SMI
-generated_files/smi-$(GLANG)-%.lexc: $(gt_SHARED_smi)/src/fst/stems/%.lexc
+generated_files/smi-$(GLANG)-%.lexc: $(gt_SHARED_smi)/src/fst/morphology/stems/%.lexc
 	$(AM_V_at)$(MKDIR_P) $(dir $@)
 	$(AM_V_CP)cp -f $< $@
 
-generated_files/smi-$(GLANG)-%.lexc: $(gt_SHARED_smi)/src/fst/stems/smi-%.lexc
+generated_files/smi-$(GLANG)-%.lexc: $(gt_SHARED_smi)/src/fst/morphology/stems/smi-%.lexc
 	$(AM_V_at)$(MKDIR_P) $(dir $@)
 	$(AM_V_CP)cp -f $< $@
 else
