@@ -44,7 +44,7 @@ i̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
 I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
 õ̭  !!≈ * **@CODE@** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
 Õ̭  !!≈ * **@CODE@** õ plus U+032D COMBINING CIRCUMFLEX ACCENT BELOW
-%{ˋØ%} !!≈ ```@CODE@ - U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
+{ˋØ} !!≈ ```@CODE@ - U+02CB MODIFIER LETTER GRAVE ACCENT used in rules```
 
 
 !! The parts-of-speech are:
@@ -524,169 +524,169 @@ I̬  !!≈ * **@CODE@** i plus U+032C COMBINING CARON BELOW
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
 !! ```
- %{aä%}   !!= @CODE@ — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
- %{ae%}  !!= @CODE@ — Vowel harmony with "a/e/õ" passive tahetu
- %{aõ%}  !!= @CODE@ — Vowel harmony with "a/e/õ" passive sõidõtu
- %{äe%}   !!= @CODE@ — Vowel harmony with "ä/e/õ" passive
- %{eõ%}   !!= @CODE@ — Vowel harmony with "e/õ"
- %{uü%}   !!= @CODE@ — Vowel harmony with "u/ü"
- %{öü%}   !!= @CODE@ — Vowel raising
- %{ou%}   !!= @CODE@ — Vowel raising
- %{ei%}   !!= @CODE@ — Vowel raising
- %{õy%}   !!= @CODE@ — Vowel raising
- %{ao%}   !!= @CODE@ — Vowel raising
- %{eØ%}   !!= @CODE@ — ütlemä:üt%{eØ%}l  
- %{õØ%}   !!= @CODE@ — ütlemä:üt%{eØ%}l  
- %{Øõ%}   !!= @CODE@ — juurdlõma:juur%{dØ%}%{0õ%}l
- %{XV%}   !!= @CODE@ — This is used for echoing the previous vowel
- %{XC%}   !!= @CODE@ — This is used for lengthening a consonant
- %{dØ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{tØ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{t́Ø%}   !!= @CODE@ — HJK and KimmoK ideas jaht́lõma:jah%{t́Ø%}%{eØ%}%{lĺ%}
- %{dv%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{ij%}   !!= @CODE@ ellä%{ij%}
- %{gv%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{gl%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{gØ%}   !!= @CODE@ — HJK and KimmoK ideas argnõma:ar%{gØ%}
- %{uv%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{üv%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
+ {aä}   !!= @CODE@ — Vowel harmony with "(t)a/ä" AÄ1:a AÄ1:ä AÄ1:0
+ {ae}  !!= @CODE@ — Vowel harmony with "a/e/õ" passive tahetu
+ {aõ}  !!= @CODE@ — Vowel harmony with "a/e/õ" passive sõidõtu
+ {äe}   !!= @CODE@ — Vowel harmony with "ä/e/õ" passive
+ {eõ}   !!= @CODE@ — Vowel harmony with "e/õ"
+ {uü}   !!= @CODE@ — Vowel harmony with "u/ü"
+ {öü}   !!= @CODE@ — Vowel raising
+ {ou}   !!= @CODE@ — Vowel raising
+ {ei}   !!= @CODE@ — Vowel raising
+ {õy}   !!= @CODE@ — Vowel raising
+ {ao}   !!= @CODE@ — Vowel raising
+ {eØ}   !!= @CODE@ — ütlemä:üt{eØ}l  
+ {õØ}   !!= @CODE@ — ütlemä:üt{eØ}l  
+ {Øõ}   !!= @CODE@ — juurdlõma:juur{dØ}{0õ}l
+ {XV}   !!= @CODE@ — This is used for echoing the previous vowel
+ {XC}   !!= @CODE@ — This is used for lengthening a consonant
+ {dØ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {tØ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {t́Ø}   !!= @CODE@ — HJK and KimmoK ideas jaht́lõma:jah{t́Ø}{eØ}{lĺ}
+ {dv}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {ij}   !!= @CODE@ ellä{ij}
+ {gv}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {gl}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {gØ}   !!= @CODE@ — HJK and KimmoK ideas argnõma:ar{gØ}
+ {uv}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {üv}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
 !! ```
 
 
 !! ## Gemination
 !! ```
- %{hØ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{jØ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{kØ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{lØ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{mØ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{nØ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{pØ%}   !!= @CODE@ — HJK and KimmoK ideas oppama:o%{pØ%}pama
- %{rØ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{sØ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{vØ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{Øp%}   !!= @CODE@ — häbü:hä%{Øp%}%{pbØ%}ü
- %{Øt%}   !!= @CODE@ — koda:ko%{Øt%}%{tdØ%}a
- %{Øk%}   !!= @CODE@ — nägo:nä%{Øk%}%{kgØ%}o
+ {hØ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {jØ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {kØ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {lØ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {mØ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {nØ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {pØ}   !!= @CODE@ — HJK and KimmoK ideas oppama:o{pØ}pama
+ {rØ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {sØ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {vØ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {Øp}   !!= @CODE@ — häbü:hä{Øp}{pbØ}ü
+ {Øt}   !!= @CODE@ — koda:ko{Øt}{tdØ}a
+ {Øk}   !!= @CODE@ — nägo:nä{Øk}{kgØ}o
 
 !! ```
 
 !! ## Strong and weak
 !! ```
- %{pb%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{td%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{t́d́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{kg%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{bv%}   !!= @CODE@ — HJK and KimmoK ideas närväs:när%{bv%}ä%{sØ%}
- %{dr%}   !!= @CODE@ — HJK and KimmoK ideas parras:par%{dr%}a%{sØ%}
- %{bm%}   !!= @CODE@ — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
- %{dn%}   !!= @CODE@ — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
- %{dl%}   !!= @CODE@ — HJK and KimmoK ideas lammas:lam%{bm%}a%{sØ%}
- %{pbØ%}  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{pbv%}  !!= @CODE@ — tõbi: tõvõ tõpõ tõppõ
- %{tdØ%}  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{kgØ%}  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{jiØ%}  !!= @CODE@ — HJK and KimmoK ideas vari:var%{jiØ%}o
- %{qmn%}  !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{qn%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{dd́Ø%}   !!= @CODE@
- %{dd́n%}   !!= @CODE@
- %{dd́r%}   !!= @CODE@
- %{dd́v%}   !!= @CODE@
- %{dd́Ø%}   !!= @CODE@
- %{gǵv%}   !!= @CODE@
- %{gǵØ%}   !!= @CODE@
- %{tt́d%}   !!= @CODE@
- %{tt́Ø%}   !!= @CODE@ täh%{tt́Ø%}
- %{kḱg%}   !!= @CODE@
- %{kḱØ%}   !!= @CODE@
- %{pṕb%}   !!= @CODE@
- %{pṕØ%}   !!= @CODE@
+ {pb}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {td}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {t́d́}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {kg}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {bv}   !!= @CODE@ — HJK and KimmoK ideas närväs:när{bv}ä{sØ}
+ {dr}   !!= @CODE@ — HJK and KimmoK ideas parras:par{dr}a{sØ}
+ {bm}   !!= @CODE@ — HJK and KimmoK ideas lammas:lam{bm}a{sØ}
+ {dn}   !!= @CODE@ — HJK and KimmoK ideas lammas:lam{bm}a{sØ}
+ {dl}   !!= @CODE@ — HJK and KimmoK ideas lammas:lam{bm}a{sØ}
+ {pbØ}  !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {pbv}  !!= @CODE@ — tõbi: tõvõ tõpõ tõppõ
+ {tdØ}  !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {kgØ}  !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {jiØ}  !!= @CODE@ — HJK and KimmoK ideas vari:var{jiØ}o
+ {qmn}  !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {qn}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {dd́Ø}   !!= @CODE@
+ {dd́n}   !!= @CODE@
+ {dd́r}   !!= @CODE@
+ {dd́v}   !!= @CODE@
+ {dd́Ø}   !!= @CODE@
+ {gǵv}   !!= @CODE@
+ {gǵØ}   !!= @CODE@
+ {tt́d}   !!= @CODE@
+ {tt́Ø}   !!= @CODE@ täh{tt́Ø}
+ {kḱg}   !!= @CODE@
+ {kḱØ}   !!= @CODE@
+ {pṕb}   !!= @CODE@
+ {pṕØ}   !!= @CODE@
 
- %{dśtv%}   !!= @CODE@ tä%{üv%}%{śtv%}
- %{djśt%}   !!= @CODE@ vii%{jśt%}
- %{drśt%}   !!= @CODE@ var%{rśt%}
+ {dśtv}   !!= @CODE@ tä{üv}{śtv}
+ {djśt}   !!= @CODE@ vii{jśt}
+ {drśt}   !!= @CODE@ var{rśt}
 
 
 !! ```
 
 !! ## Palatalization
 !! ```
- %{bb́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{dd́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{ff́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{gǵ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{hh́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{kḱ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{lĺ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{mḿ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{nń%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{pṕ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{rŕ%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{sś%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{tt́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{vv́%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{ḱǵj%}  !!= @CODE@ — HJK and KimmoK ideas laǵa:la%{ḱǵj%}a
- %{zź%}   !!= @CODE@ — HJK and KimmoK ideas kana:ka%{nØ%}na
- %{dd́n%}  !!= @CODE@
+ {bb́}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {dd́}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {ff́}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {gǵ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {hh́}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {kḱ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {lĺ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {mḿ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {nń}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {pṕ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {rŕ}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {sś}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {tt́}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {vv́}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {ḱǵj}  !!= @CODE@ — HJK and KimmoK ideas laǵa:la{ḱǵj}a
+ {zź}   !!= @CODE@ — HJK and KimmoK ideas kana:ka{nØ}na
+ {dd́n}  !!= @CODE@
 !! ```
 
- %^I7         !!= **@CODE@**  This appears in stem vaoma:va%^I7o for vaio
- %^K7         !!= **@CODE@**  This appears in stem väemä:vä%^K7e for väkeq
- %^V7         !!= **@CODE@**  This appears in stem häömä:hä%^V7ö for hävvü
- %^T7         !!= **@CODE@**  This appears in stem kaoma:ka%^T7o for katoq
- %^Y7         !!= **@CODE@**  This appears for syna = s%^Y7na and is rendered as õ in the norm
+ ^I7         !!= **@CODE@**  This appears in stem vaoma:va^I7o for vaio
+ ^K7         !!= **@CODE@**  This appears in stem väemä:vä^K7e for väkeq
+ ^V7         !!= **@CODE@**  This appears in stem häömä:hä^V7ö for hävvü
+ ^T7         !!= **@CODE@**  This appears in stem kaoma:ka^T7o for katoq
+ ^Y7         !!= **@CODE@**  This appears for syna = s^Y7na and is rendered as õ in the norm
  OÖ1 UY1 V1 V2 V3 K1
 
 !! And following triggers to control variation
- %{front%} %{back%}
+ {front} {back}
 !
-%^ErrorBack	!!= @CODE@ +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
+^ErrorBack	!!= @CODE@ +Err/Orth+Clt:%>kinaq in front harmony context BHARM disallowance
 
- %^CC2C 	!!= @CODE@ att%^CC2C%>m%{aä%} atma
- %^OO2Õ		!!= @CODE@  joo%^OO2Õ%>i:j0õ0%>i
- %^PSS		!!= @CODE@ vowel in passive tahetu, sõidõtu, eletü
+ ^CC2C 	!!= @CODE@ att^CC2C%>m{aä} atma
+ ^OO2Õ		!!= @CODE@  joo^OO2Õ%>i:j0õ0%>i
+ ^PSS		!!= @CODE@ vowel in passive tahetu, sõidõtu, eletü
 
- %^ÄI2ÄÄ !!= @CODE@ päiv%^ÄI2ÄÄ%>ä: päävä
- %{PrsSg1%} !!= @CODE@ — this helps with %{eõ%}:i̬
+ ^ÄI2ÄÄ !!= @CODE@ päiv^ÄI2ÄÄ%>ä: päävä
+ {PrsSg1} !!= @CODE@ — this helps with {eõ}:i̬
 
 ! 2015-03-26
-%^StrD2T !!= @CODE@ This changes g,d,b, => k,t,p
+^StrD2T !!= @CODE@ This changes g,d,b, => k,t,p
 
- %^VowRM  !!= **@CODE@** this will remove stem final vowel
- %^CnsRM  !!= **@CODE@** this will remove stem final consonant tervüs:tervü
- %^StrGStem !!= **@CODE@** This strengthens "perädü" to "perätüt"
- %^NoGrad   !!≈  **@CODE@**
- %^WGStem !!= **@CODE@** This weakens
- %^G1	      !!= @CODE@ — This is used with %{pØ%} %{pbØ%} for 0 0, also t, k
- %^G2	      !!= @CODE@ — This is used with %{pØ%} %{pbØ%} for 0 b, also t, k
- %^G3	      !!= @CODE@ — This is used with %{pØ%} %{pbØ%} for 0 p, also t, k
- %^G4	      !!= @CODE@ — This is used with %{pØ%} %{pbØ%} for p p, also t, k "sõda" to "sõtta"
-%^ShortGStem  !!= @CODE@ — This shortens "pu%{tØ%}tu" to "putma", an orthographic convension
-%^LongGStem    !!= @CODE@ — This lengthens "pu%{tØ%}tu" to "puttuq"
- %^Pen	      !!= @CODE@ This moves us to penultimate coda
- %^PAL	      !!= @CODE@ — Palatalization
- %^NoPAL      !!= @CODE@ — NoPalatalization
-%^JI20	      !!= @CODE@ — in vari: vaŕo
-%^JI2I	      !!= @CODE@ — in vari vari
-%^JI2J	      !!= @CODE@ — in vari: varjo
+ ^VowRM  !!= **@CODE@** this will remove stem final vowel
+ ^CnsRM  !!= **@CODE@** this will remove stem final consonant tervüs:tervü
+ ^StrGStem !!= **@CODE@** This strengthens "perädü" to "perätüt"
+ ^NoGrad   !!≈  **@CODE@**
+ ^WGStem !!= **@CODE@** This weakens
+ ^G1	      !!= @CODE@ — This is used with {pØ} {pbØ} for 0 0, also t, k
+ ^G2	      !!= @CODE@ — This is used with {pØ} {pbØ} for 0 b, also t, k
+ ^G3	      !!= @CODE@ — This is used with {pØ} {pbØ} for 0 p, also t, k
+ ^G4	      !!= @CODE@ — This is used with {pØ} {pbØ} for p p, also t, k "sõda" to "sõtta"
+^ShortGStem  !!= @CODE@ — This shortens "pu{tØ}tu" to "putma", an orthographic convension
+^LongGStem    !!= @CODE@ — This lengthens "pu{tØ}tu" to "puttuq"
+ ^Pen	      !!= @CODE@ This moves us to penultimate coda
+ ^PAL	      !!= @CODE@ — Palatalization
+ ^NoPAL      !!= @CODE@ — NoPalatalization
+^JI20	      !!= @CODE@ — in vari: vaŕo
+^JI2I	      !!= @CODE@ — in vari vari
+^JI2J	      !!= @CODE@ — in vari: varjo
 
-%^PenWGStem !!= @CODE@ This weakens "kipõń" to "kibõna"
+^PenWGStem !!= @CODE@ This weakens "kipõń" to "kibõna"
 
- %^PenVowRM !!= **@CODE@** syncope tapõld : taplõma
+ ^PenVowRM !!= **@CODE@** syncope tapõld : taplõma
 
-%^D2S	  !!= **@CODE@** käsi, susi
-%^TS2S !!= @CODE@ The -ts- => -s-
-%^I2J !!= @CODE@ The i => j change
+^D2S	  !!= **@CODE@** käsi, susi
+^TS2S !!= @CODE@ The -ts- => -s-
+^I2J !!= @CODE@ The i => j change
 
- %^PLPRT !!= **@CODE@** The a:o attested in Plural kana:kanno and prt
-%^VOWRaise      !!= **@CODE@** Raises vowel
-%^VOWLower  !!= **@CODE@** Lowers vowel
-%^XLowerVow !!= **@CODE@** Lowers vowel two levels
-%^VOWLowerDelab !!= **@CODE@** Lowers vowel and delabializes it
-%^XLowerVowDelab !!= **@CODE@** Lowers vowel two levels and delabializes it
-%^U2E !!= @CODE@ lowers u:õ and ü:e delabializes and lowers
-%^U2A !!= @CODE@ lowers u:a and ü:ä delabializes and lowers
+ ^PLPRT !!= **@CODE@** The a:o attested in Plural kana:kanno and prt
+^VOWRaise      !!= **@CODE@** Raises vowel
+^VOWLower  !!= **@CODE@** Lowers vowel
+^XLowerVow !!= **@CODE@** Lowers vowel two levels
+^VOWLowerDelab !!= **@CODE@** Lowers vowel and delabializes it
+^XLowerVowDelab !!= **@CODE@** Lowers vowel two levels and delabializes it
+^U2E !!= @CODE@ lowers u:õ and ü:e delabializes and lowers
+^U2A !!= @CODE@ lowers u:a and ü:ä delabializes and lowers
 
  ∑   !!≈ **@CODE@** = a symbol used in front of `#` to block backtracking and
      !!           mwe reanalysis in hfst-tokenise (e.g. in dynanic compounds).

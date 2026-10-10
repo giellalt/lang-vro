@@ -10,270 +10,270 @@ LEXICON PROP_PLC-DOWNCASE-SG_GEN
 @U.Cap.Opt@+Sg+Gen+Prop→A:@U.Cap.Opt@ # ;
 
 LEXICON A_1HANS1A !!= @CODE@ 1 hanśa:hanśa
-:%{back%} NMN_1HANS1A ;
+:{back} NMN_1HANS1A ;
 
 LEXICON A_1HERRAE !!= @CODE@ 1 herrä:herrä
-:%{front%} NMN_1HERRAE ;
+:{front} NMN_1HERRAE ;
 
 LEXICON A_2ARTIKLI !!= @CODE@ suhvli:suhvli
 !! * Yaml: **suhvli**
-:%{back%}   NMN_2ARTIKLI ;
+:{back}   NMN_2ARTIKLI ;
 
 LEXICON A_2KERGE !!= @CODE@ 1 kerge:
-:%{front%} NMN_2KERGE ;
+:{front} NMN_2KERGE ;
 
 LEXICON A_3ALADU !!= @CODE@ aladu:aladu
 !! * Yaml: **A-aladu**
-:%{back%}   NMN_3ALADU ;
-:%{back%}%^Pen%^StrGStem COMP ;
+:{back}   NMN_3ALADU ;
+:{back}^Pen^StrGStem COMP ;
 
 LEXICON A_3PERAEDUE !!= @CODE@ perädü:perädü
 !! * Yaml: **A-peraedue**
-:%{front%}   NMN_3PERAEDUE ;
-:%{front%}%^Pen%^StrGStem COMP ;
+:{front}   NMN_3PERAEDUE ;
+:{front}^Pen^StrGStem COMP ;
 
 
 
 !LEXICON A_4TERVUES
-!:%{front%}  NMN_4TERVUES ;
+!:{front}  NMN_4TERVUES ;
 LEXICON A_4AINUS  !!= @CODE@ ainus:ainus
-:%{back%}  NMN_4AINUS ;
-:%{back%}%^CnsRM COMP ;
+:{back}  NMN_4AINUS ;
+:{back}^CnsRM COMP ;
 
 LEXICON A_5OPPAJA
-:%{back%}  NMN_5OPPAJA/MAENGJAE ;
-:%{back%} COMP ;
+:{back}  NMN_5OPPAJA/MAENGJAE ;
+:{back} COMP ;
 
 LEXICON A_5MAENGJAE
-:%{front%}  NMN_5OPPAJA/MAENGJAE ;
-:%{front%} COMP ;
+:{front}  NMN_5OPPAJA/MAENGJAE ;
+:{front} COMP ;
 
 LEXICON A_6MAKW
-:%{back%}  NMN_6MAKW/HELLE ;
-:%{back%}%^Pen%^WGStem COMP ;
+:{back}  NMN_6MAKW/HELLE ;
+:{back}^Pen^WGStem COMP ;
 
 LEXICON A_6HELLE
-:%{front%}  NMN_6MAKW/HELLE ;
-:%{front%}%^Pen%^WGStem COMP ;
+:{front}  NMN_6MAKW/HELLE ;
+:{front}^Pen^WGStem COMP ;
 
 
 !LEXICON A_7FUEUESIGA
-!:%{back%}  NMN_7FUEUESIGA ;
+!:{back}  NMN_7FUEUESIGA ;
 
 LEXICON A_8KASK
-:%{back%}  NMN_8KASK/HAEIELM ;
-:%{back%} COMP ;
+:{back}  NMN_8KASK/HAEIELM ;
+:{back} COMP ;
 
 LEXICON A_8HAEIELM
-:%{front%}  NMN_8KASK/HAEIELM ;
-:%{front%} COMP ;
+:{front}  NMN_8KASK/HAEIELM ;
+:{front} COMP ;
 
 LEXICON A_8KULDNW !!= * @CODE@ kuldnõ:kuld
-:%{back%}  NMN_8KULDNW/KIIL1NE ;
-:%{back%}%>s%{eõ%} Harm_Neutr_COMP ;
+:{back}  NMN_8KULDNW/KIIL1NE ;
+:{back}%>s{eõ} Harm_Neutr_COMP ;
 +Der+Der/Us+N:%>sus N_4AINUS ; 
 LEXICON A_8KIIL1NE !!= * @CODE@ kiiĺne:ki̬i̬ĺ
-:%{front%}  NMN_8KULDNW/KIIL1NE ;
-:%{front%}%>s%{eõ%} Harm_Neutr_COMP ;
+:{front}  NMN_8KULDNW/KIIL1NE ;
+:{front}%>s{eõ} Harm_Neutr_COMP ;
 :%>süs N_4TERVUES ;
 LEXICON A_8KOLMAS !!= * @CODE@ kolmas:kolma
-:%{back%}  NMN_8KOLMAS/VIIES ;
+:{back}  NMN_8KOLMAS/VIIES ;
 
 LEXICON A_8VIIES !!= * @CODE@ viies:viie
-:%{front%}  NMN_8KOLMAS/VIIES ;
+:{front}  NMN_8KOLMAS/VIIES ;
 
 LEXICON A_9ALLAS1 !!= * @CODE@
-:%{back%}  NMN_9ALLAS1/SINNEL1 ;
-:%{back%}%^Pen%^WGStem%^NoPAL COMP ;
+:{back}  NMN_9ALLAS1/SINNEL1 ;
+:{back}^Pen^WGStem^NoPAL COMP ;
 
 LEXICON A_9SINNEL1 !!= * @CODE@
-:%{front%}  NMN_9ALLAS1/SINNEL1 ;
-:%{front%}%^Pen%^WGStem%^NoPAL COMP ;
+:{front}  NMN_9ALLAS1/SINNEL1 ;
+:{front}^Pen^WGStem^NoPAL COMP ;
 
 LEXICON A_9TAHHE !!= * @CODE@
-:%{back%}  NMN_9TAHHE/HERRE ;
-:%{back%}%^Pen%^WGStem%>he COMP ;
+:{back}  NMN_9TAHHE/HERRE ;
+:{back}^Pen^WGStem%>he COMP ;
 
 LEXICON A_9HERRE !!= * @CODE@
-:%{front%}  NMN_9TAHHE/HERRE ;
-:%{front%}%^Pen%^WGStem%>he COMP ;
+:{front}  NMN_9TAHHE/HERRE ;
+:{front}^Pen^WGStem%>he COMP ;
 
 LEXICON A_9KIPWN1/ELLAEI !!= * @CODE@ what is this
 !! * Yaml: **ellaei, suhvli**
 :     NMN_9KIPWN1/ELLAEI ;
-:%^Pen%^WGStem%>%{aä%} Harm_Neutr_COMP ;
+:^Pen^WGStem%>{aä} Harm_Neutr_COMP ;
 
 LEXICON A_9SALLAI !!= * @CODE@ what is this
 !! * Yaml: **ellaei, suhvli**
-:%{back%}     NMN_9SALLAI/ELLAEI ;
-:%^Pen%^WGStem%>%{aä%} Harm_Neutr_COMP ;
+:{back}     NMN_9SALLAI/ELLAEI ;
+:^Pen^WGStem%>{aä} Harm_Neutr_COMP ;
 LEXICON A_9KIPWN1
 !! * Yaml: **ellaei, suhvli**
-:%{back%}     NMN_9KIPWN1/VETEL1 ;
-:%{back%}%^Pen%^WGStem%^NoPAL%>a COMP ;
+:{back}     NMN_9KIPWN1/VETEL1 ;
+:{back}^Pen^WGStem^NoPAL%>a COMP ;
 
 LEXICON A_9VETEL1
 !! * Yaml: **ellaei, suhvli**
-:%{front%}     NMN_9KIPWN1/VETEL1 ;
-:%{front%}%^Pen%^WGStem%^NoPAL%>ä COMP ;
+:{front}     NMN_9KIPWN1/VETEL1 ;
+:{front}^Pen^WGStem^NoPAL%>ä COMP ;
 
 LEXICON A_9ALLWV1
 !! * Yaml: **allwv1, kipwn1**
-:%{back%}     NMN_9ALLWV1/XX ;
-:%{back%}%^Pen%^WGStem%>i COMP ;
+:{back}     NMN_9ALLWV1/XX ;
+:{back}^Pen^WGStem%>i COMP ;
 
 LEXICON A_9VILLW
 !! * Yaml: **villw**
-:%{back%} NMN_9VILLW/XX ;
-:%{back%}%^Pen%^WGStem COMP ;
+:{back} NMN_9VILLW/XX ;
+:{back}^Pen^WGStem COMP ;
 
 LEXICON A_9TUKWV
 !! * Yaml: **tukwv**
-:%{back%} NMN_9TUKWV/VERREV ;
-:%{back%}%^Pen%^WGStem%>a COMP ;
+:{back} NMN_9TUKWV/VERREV ;
+:{back}^Pen^WGStem%>a COMP ;
 
 LEXICON A_9VERREV
 !! * Yaml: **verrev**
-:%{front%} NMN_9TUKWV/VERREV ;
-:%^Pen%^WGStem%>ä%{front%} COMP ;
+:{front} NMN_9TUKWV/VERREV ;
+:^Pen^WGStem%>ä{front} COMP ;
 
 !LEXICON A_9SALLAI
 !! * Yaml: **sallai**
-!:%{back%}     NMN_9SALLAI/ELLAEI ;
-!:%^Pen%^WGStem%^I2J%>a%{back%} COMP ;
+!:{back}     NMN_9SALLAI/ELLAEI ;
+!:^Pen^WGStem^I2J%>a{back} COMP ;
 
 !LEXICON A_9ELLAEI
 !!! * Yaml: __ellaei__
-!:%{front%}     NMN_9SALLAI/ELLAEI ;
-!:%^Pen%^WGStem%^I2J%>ä%{front%} COMP ;
+!:{front}     NMN_9SALLAI/ELLAEI ;
+!:^Pen^WGStem^I2J%>ä{front} COMP ;
 
 LEXICON A_10AABITS
-:%{back%}  NMN_10AABITS/HEERITS ;
+:{back}  NMN_10AABITS/HEERITS ;
 
 LEXICON A_10AMMAT1
-:%{back%}  NMN_10AMMAT1 ;
+:{back}  NMN_10AMMAT1 ;
 
 LEXICON A_10HUEPAETS1
-:%{front%}  NMN_10HUEPAETS1 ;
+:{front}  NMN_10HUEPAETS1 ;
 
 
 LEXICON A_10HEERITS
-:%{front%}  NMN_10AABITS/HEERITS ;
+:{front}  NMN_10AABITS/HEERITS ;
 
 
 LEXICON A_10HWRAK
-:%{back%}  NMN_10HWRAK ;
+:{back}  NMN_10HWRAK ;
 
 LEXICON A_10HAIDAK
-:%{back%}  NMN_10HAIDAK/ESAEK ;
+:{back}  NMN_10HAIDAK/ESAEK ;
 
 LEXICON A_10ESAEK
-:%{back%}  NMN_10HAIDAK/ESAEK-SG ;
-:%{front%}  NMN_10HAIDAK/ESAEK_PL ;
+:{back}  NMN_10HAIDAK/ESAEK-SG ;
+:{front}  NMN_10HAIDAK/ESAEK_PL ;
 
 !LEXICON A_10RAAMAT
-!:%{back%}  NMN_10RAAMAT/LEMBIT ;
+!:{back}  NMN_10RAAMAT/LEMBIT ;
 
 !LEXICON A_10LEMBIT
-!:%{front%}  NMN_10RAAMAT/LEMBIT ;
+!:{front}  NMN_10RAAMAT/LEMBIT ;
 
 !LEXICON A_11LAETEQ
-!:%{front%}  NMN_11ANNWQ/LAETEQ ;
+!:{front}  NMN_11ANNWQ/LAETEQ ;
 
 LEXICON A_11AINWQ !!= @CODE@ ainõq:ainõ
-:%{back%}  NMN_11AINWQ/KELMEQ ;
+:{back}  NMN_11AINWQ/KELMEQ ;
 
 LEXICON A_11KELMEQ !!= @CODE@ kelmeq:kelme
-:%{front%}  NMN_11AINWQ/KELMEQ ;
+:{front}  NMN_11AINWQ/KELMEQ ;
 
 !LEXICON A_12REPAEN1
-!:%{front%}  NMN_12REPAEN1 ;
+!:{front}  NMN_12REPAEN1 ;
 
 LEXICON A_13ALONW !!= @CODE@ alonõ:alo
-:%{back%}     NMN_13ALONW/TAEHINE ;
+:{back}     NMN_13ALONW/TAEHINE ;
 +Der+Der/lt+Adv:dsõlt K ;
-:%{back%}%>ts%{eõ%} Harm_Neutr_COMP ;
+:{back}%>ts{eõ} Harm_Neutr_COMP ;
 +Der+Der/Us+N:%>dsus N_4AINUS ;
 +Err/Orth+Der+Der/Us+N:%>sus N_4AINUS ;
 
 LEXICON A_13TAEHINE !!= @CODE@ tähine:tähi
-:%{front%}     NMN_13ALONW/TAEHINE ;
+:{front}     NMN_13ALONW/TAEHINE ;
 +Der+Der/lt+Adv:dselt K ;
-:%{front%}%>ts%{eõ%} Harm_Neutr_COMP ;
+:{front}%>ts{eõ} Harm_Neutr_COMP ;
 +Der+Der/Us+N:%>dsüs N_4TERVUES ;
 +Der+Der/Us+N+Err/Orth:%>süs N_4TERVUES ;
 
 LEXICON A_13TAEHINE_PL !!= @CODE@ tähine:tähi
-:%{front%}     NMN_13ALONW/TAEHINE_PL ;
+:{front}     NMN_13ALONW/TAEHINE_PL ;
 
 !LEXICON A_13SAEAENE !!= @CODE@ sääne:sää
-!:%{front%}     NMN_13XX/SAEAENE ;
+!:{front}     NMN_13XX/SAEAENE ;
 
-LEXICON A_14RITS1KAS  !!= @CODE@ ritśkas:ritśka%{sØ%}
-:%{back%} Harm_Neutr_COMP ;
-:%{back%}  NMN_14RITS1KAS/HERNEH ;
+LEXICON A_14RITS1KAS  !!= @CODE@ ritśkas:ritśka{sØ}
+:{back} Harm_Neutr_COMP ;
+:{back}  NMN_14RITS1KAS/HERNEH ;
 
-LEXICON A_14HAMMAS  !!= @CODE@ rikas:ri%{kØ%}ka%{sØ%}
-:%{back%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem COMP ;
-:%{back%}  NMN_14HAMMAS/IKAES ;
+LEXICON A_14HAMMAS  !!= @CODE@ rikas:ri{kØ}ka{sØ}
+:{back}^Pen^VOWRaise^Pen^StrGStem^WGStem COMP ;
+:{back}  NMN_14HAMMAS/IKAES ;
 
-LEXICON A_14IKAES  !!= @CODE@ rikas:ri%{kØ%}ka%{sØ%}
-:%{front%}%^Pen%^VOWRaise%^Pen%^StrGStem%^WGStem COMP ;
-:%{front%}  NMN_14HAMMAS/IKAES ;
+LEXICON A_14IKAES  !!= @CODE@ rikas:ri{kØ}ka{sØ}
+:{front}^Pen^VOWRaise^Pen^StrGStem^WGStem COMP ;
+:{front}  NMN_14HAMMAS/IKAES ;
 
 !LEXICON A_15KOTUS
-!:%{back%}  NMN_15KOTUS/ILVES ;
+!:{back}  NMN_15KOTUS/ILVES ;
 
 LEXICON A_16ABILINW !!= @CODE@ inemine:inemi
-:%{back%} NMN_16ABILINW/INEMINE ;
-:%{back%}%>s%{eõ%} Harm_Neutr_COMP ;
+:{back} NMN_16ABILINW/INEMINE ;
+:{back}%>s{eõ} Harm_Neutr_COMP ;
 +Der+Der/Us+N:%>sus N_4AINUS ;
 LEXICON A_16INEMINE !!= @CODE@ inemine:inemi
-:%{front%} NMN_16ABILINW/INEMINE ;
-:%{front%}%>s%{eõ%} Harm_Neutr_COMP ;
+:{front} NMN_16ABILINW/INEMINE ;
+:{front}%>s{eõ} Harm_Neutr_COMP ;
 :%>süs N_4TERVUES ;
 
 LEXICON A_16TSIRGUKWNW
-:%{back%} NMN_16TSIRGUKWNW/TERAEKENE ;
-:%{back%}%>s%{eõ%} Harm_Neutr_COMP ;
+:{back} NMN_16TSIRGUKWNW/TERAEKENE ;
+:{back}%>s{eõ} Harm_Neutr_COMP ;
 +Der+Der/Us+N:%>sus N_4AINUS ;
 
 LEXICON A_17ALGUS
-:%{back%}     NMN_17ALGUS/UETSUES ;
+:{back}     NMN_17ALGUS/UETSUES ;
 
 
 !LEXICON A_18AIVASTUS
-!:%{back%}  NMN_18AIVASTUS/EHITUES ;
+!:{back}  NMN_18AIVASTUS/EHITUES ;
 
 !LEXICON A_18EHITUES
-!:%{front%}  NMN_18AIVASTUS/EHITUES ;
+!:{front}  NMN_18AIVASTUS/EHITUES ;
 
 LEXICON A_19ALOMANW !!= @CODE@ alomanõ:aloma
-:%{back%}     A_19ALOMANW/PEDAEJAENE_SG ;
-:%{back%}     A_19ALOMANW/PEDAEJAENE_PL ;
-:dsõ%{back%} COMP ;
+:{back}     A_19ALOMANW/PEDAEJAENE_SG ;
+:{back}     A_19ALOMANW/PEDAEJAENE_PL ;
+:dsõ{back} COMP ;
 +Der+Der/Us+N:%>dsus N_4AINUS ;
 
 LEXICON A_19PEDAEJAENE !!= @CODE@ pedäjäne:pedäjä
-:%{front%} A_19ALOMANW/PEDAEJAENE_SG ;
-:%{front%} A_19ALOMANW/PEDAEJAENE_PL ;
-:dse%{front%} COMP ;
+:{front} A_19ALOMANW/PEDAEJAENE_SG ;
+:{front} A_19ALOMANW/PEDAEJAENE_PL ;
+:dse{front} COMP ;
 :%>dsüs N_4TERVUES ;
 
 LEXICON A_19PEDAEJAENE_PL !!= @CODE@ pedäjäne:pedäjä
-:%{front%} NMN_19ALOMANW/PEDAEJAENE_PL ;
+:{front} NMN_19ALOMANW/PEDAEJAENE_PL ;
 
 LEXICON A_19ALOMANW/PEDAEJAENE_SG
-:n%{eõ%} Harm_Neutr_SG_NOM ;
+:n{eõ} Harm_Neutr_SG_NOM ;
 +Err/Dial:s Harm_Neutr_SG_NOM ;
-:ds%{eõ%}      SG_GEN_ZERO-STEM ;
-+Err/Orth:ts%{eõ%}      SG_GEN_ZERO-STEM ;
+:ds{eõ}      SG_GEN_ZERO-STEM ;
++Err/Orth:ts{eõ}      SG_GEN_ZERO-STEM ;
 :s  Harm_Neutr_SG_PAR_t ;
 :s         Harm_Neutr_SG_ILL_tE ;
 
 LEXICON A_19ALOMANW/PEDAEJAENE_PL
-:ds%{eõ%}      Harm_Neutr_PL_NOM ;
-+Err/Orth:ts%{eõ%}      Harm_Neutr_PL_NOM ;
+:ds{eõ}      Harm_Neutr_PL_NOM ;
++Err/Orth:ts{eõ}      Harm_Neutr_PL_NOM ;
 :idsi  PL_GEN_ZERO ;
 :idsi  Harm_Neutr_PL_PAR_ZERO ;
 :idsi  PL_ILL_he ;
@@ -282,10 +282,10 @@ LEXICON A_19ALOMANW/PEDAEJAENE_PL
 +Err/Dial:idsi  Harm_Neutr_PL_ILL_ZERO ;
 +Err/Dial:idsi  PL_ILL_dE ;
 +Err/Dial:itsi  PL_ALL_lE-STEM ;
-+Err/Dial:st%{eõ%}  PL_ALL_lE-STEM ;
-+Err/Dial:st%{eõ%} PL_COM ;
++Err/Dial:st{eõ}  PL_ALL_lE-STEM ;
++Err/Dial:st{eõ} PL_COM ;
 
-+Err/Dial:st%{eõ%}  PL_GEN_ZERO ;
++Err/Dial:st{eõ}  PL_GEN_ZERO ;
 +Err/Dial:isi  PL_GEN_ZERO ;!was :idsi CHECKME 2022-02-22
 +Err/Dial:isi  Harm_Neutr_PL_PAR_ZERO ;
 +Err/Dial:isi  PL_ILL_he ;
@@ -293,177 +293,177 @@ LEXICON A_19ALOMANW/PEDAEJAENE_PL
 +Err/Dial:isi PL_COM ;
 
 LEXICON A_19TUJOKAS
-:%{back%} NMN_19TUJOKAS/SILMIKAES ; 
-:%{back%}ds%{eõ%} COMP ;
+:{back} NMN_19TUJOKAS/SILMIKAES ; 
+:{back}ds{eõ} COMP ;
 +Der+Der/Us+N:%>dsus N_4AINUS ;
 
 LEXICON A_19SILMIKAES
-:%{front%} NMN_19TUJOKAS/SILMIKAES ;
-:%{front%}ds%{eõ%} COMP ;
+:{front} NMN_19TUJOKAS/SILMIKAES ;
+:{front}ds{eõ} COMP ;
 :%>dsüs N_4TERVUES ;
 
 !LEXICON A_20VAEITS1
-!:%{front%}  NMN_20VAEITS1 ;
+!:{front}  NMN_20VAEITS1 ;
 
 !LEXICON A_21HUEDSI
-!:%{front%}  NMN_21HUEDSI ;
+!:{front}  NMN_21HUEDSI ;
 
 LEXICON A_22VWROKWNW !!= @CODE@ võrokõnõ:võrokõ
-:%{back%}     NMN_22VWROKWNW/VAEHAEKENE ;
-:%{back%}s%{eõ%} COMP ;
+:{back}     NMN_22VWROKWNW/VAEHAEKENE ;
+:{back}s{eõ} COMP ;
 +Der+Der/Us+N:%>sus N_4AINUS ;
 
 LEXICON A_22VAEHAEKENE !!= @CODE@ võrokõnõ:võrokõ
-:%{front%}     NMN_22VWROKWNW/VAEHAEKENE ;
-:%{front%}s%{eõ%} COMP ;
+:{front}     NMN_22VWROKWNW/VAEHAEKENE ;
+:{front}s{eõ} COMP ;
 :%>süs N_4TERVUES ;
 
 LEXICON A_23NUUL1
-:%{back%}  NMN_23NUUL1/KIIL1 ;
-:%{back%}%^VOWLower%^NoPALõ COMP ;
+:{back}  NMN_23NUUL1/KIIL1 ;
+:{back}^VOWLower^NoPALõ COMP ;
 
 LEXICON A_23SUUR1
-:%{back%}  NMN_23SUUR1 ;
-:%{back%}%^NoPALõ COMP ;
+:{back}  NMN_23SUUR1 ;
+:{back}^NoPALõ COMP ;
 
 !LEXICON A_23KIIL1
-!:%{front%}  NMN_23NUUL1/KIIL1 ;
-!:%^VOWLower%^NoPAL%>e%{front%} COMP ;
+!:{front}  NMN_23NUUL1/KIIL1 ;
+!:^VOWLower^NoPAL%>e{front} COMP ;
 
 
 !LEXICON A_24KAESI
-!:%{front%}  NMN_24KAESI ;
+!:{front}  NMN_24KAESI ;
 
 !LEXICON A_25ASWQ
-!:%{back%}  NMN_25ASWQ ;
+!:{back}  NMN_25ASWQ ;
 
 !LEXICON A_26HEPEM1
-!:%{front%}  NMN_26HEPEM1 ;
+!:{front}  NMN_26HEPEM1 ;
 
 !LEXICON A_27EHEQ
-!:%{front%}  NMN_27ASTÕQ/EHEQ ;
+!:{front}  NMN_27ASTÕQ/EHEQ ;
 
 LEXICON A_27PEHMEQ !pehmeq:pehm
-:%{front%}  NMN_27XX/PEHMEQ ;
+:{front}  NMN_27XX/PEHMEQ ;
 
 LEXICON A_27LAEMMI !lämmi:lämmi
-:%{front%}  NMN_27XX/LAEMMI ;
+:{front}  NMN_27XX/LAEMMI ;
 
 LEXICON A_27HAPU
-:%{back%}  NMN_27HAPU ;
+:{back}  NMN_27HAPU ;
 
 LEXICON A_28TUETAER1
-:%{front%}  NMN_28TUETAER1 ;
+:{front}  NMN_28TUETAER1 ;
 
-LEXICON A_28AHER ! aher:ah%{tØ%}er
-:%{back%}  NMN_28AHER/XX ;
+LEXICON A_28AHER ! aher:ah{tØ}er
+:{back}  NMN_28AHER/XX ;
 
 LEXICON A_29KUU
-:%{back%}  NMN_29KUU/HAEAE ;
+:{back}  NMN_29KUU/HAEAE ;
 
 LEXICON A_29HAEAE
-:%{front%}  NMN_29KUU/HAEAE ;
+:{front}  NMN_29KUU/HAEAE ;
 
 !LEXICON A_30TUEUE
-!:%{front%}  NMN_30MAA/TUEUE ;
+!:{front}  NMN_30MAA/TUEUE ;
 
 !LEXICON A_31TAEI
-!:%{front%}  NMN_31TAEI ;
+!:{front}  NMN_31TAEI ;
 
 !LEXICON A_32VERI
-!:%{front%}  NMN_32VERI ;
+!:{front}  NMN_32VERI ;
 
 LEXICON A_33IGAE
-:%{front%}  NMN_33XX/IGAE ;
+:{front}  NMN_33XX/IGAE ;
 
 !LEXICON A_34TULI
-!:%{back%}  NMN_34TULI/SÜLI ;
+!:{back}  NMN_34TULI/SÜLI ;
 
 !LEXICON A_35TARW
-!:%{back%}  NMN_35TARW ;
+!:{back}  NMN_35TARW ;
 
 LEXICON A_35UMA
-:%{back%}  NMN_35UMA/PESAE ;
+:{back}  NMN_35UMA/PESAE ;
 
 LEXICON A_35PESAE
-:%{front%}  NMN_35UMA/PESAE ;
+:{front}  NMN_35UMA/PESAE ;
 
 !LEXICON A_36SAERG1
-!:%{front%}  NMN_36HANG1/SAERG1 ;
+!:{front}  NMN_36HANG1/SAERG1 ;
 !LEXICON A_36PAEIV
-!:%{front%}  NMN_36PAEIV ;
+!:{front}  NMN_36PAEIV ;
 
 LEXICON A_36SILM
-:%{front%}  NMN_36RAMM/SILM ;
-:%{front%}%>e COMP ;
+:{front}  NMN_36RAMM/SILM ;
+:{front}%>e COMP ;
 
 LEXICON A_36RAMM
-:%{back%}  NMN_36RAMM/SILM ;
-:%{back%}%>õ COMP ;
+:{back}  NMN_36RAMM/SILM ;
+:{back}%>õ COMP ;
 
 LEXICON A_36LAEHK
-:%{front%}  NMN_36NJUKR/LAEHK ;
-:%{front%}%^WGStem%>%{eõ%} COMP ;
+:{front}  NMN_36NJUKR/LAEHK ;
+:{front}^WGStem%>{eõ} COMP ;
 
 !LEXICON A_37PINI
-!:%{front%}  NMN_37WLI/PINI ;
+!:{front}  NMN_37WLI/PINI ;
 
 LEXICON A_38PUNG
-:%{back%}  NMN_38PUNG ;
+:{back}  NMN_38PUNG ;
 
 LEXICON A_38PULL1
-:%{back%}  NMN_38PULL1/VIKS1 ;
+:{back}  NMN_38PULL1/VIKS1 ;
 
 LEXICON A_38VIKS1
-:%{front%}  NMN_38PULL1/VIKS1 ;
+:{front}  NMN_38PULL1/VIKS1 ;
 
 !LEXICON A_39HAEBUE
-!:%{front%}  NMN_39HAEBUE ;
+!:{front}  NMN_39HAEBUE ;
 
 LEXICON A_40TALO
-:%{back%}  NMN_40TALO/HELUE ;
+:{back}  NMN_40TALO/HELUE ;
 
 !LEXICON A_41KAND
-!:%{back%}  NMN_41KAND ;
+!:{back}  NMN_41KAND ;
 
 !LEXICON A_42VARI
-!:%{back%}  NMN_42VARI ;
+!:{back}  NMN_42VARI ;
 
 LEXICON A_42TUEHI
-:%{front%} NMN_42TUEHI ;
+:{front} NMN_42TUEHI ;
 
-LEXICON A_43KANARIK !!harilik+A:harili%{kØ%}%{kg%}
-:%{back%}  NMN_43KANARIK/ELAENIK ;
-:%{back%}%^G2%>u COMP ;
+LEXICON A_43KANARIK !!harilik+A:harili{kØ}{kg}
+:{back}  NMN_43KANARIK/ELAENIK ;
+:{back}^G2%>u COMP ;
 
 LEXICON A_43ELAENIK
-@U.VowHarm.F@:@U.VowHarm.F@%{back%}  NMN_43KANARIK/ELAENIK ;!contextually front but inately back
-:%{back%}%^G2%>u COMP ;
+@U.VowHarm.F@:@U.VowHarm.F@{back}  NMN_43KANARIK/ELAENIK ;!contextually front but inately back
+:{back}^G2%>u COMP ;
 
 LEXICON A_44SWDA
-:%{back%}  NMN_44SWDA ;
+:{back}  NMN_44SWDA ;
 
 LEXICON A_45KANA
-:%{back%}  NMN_45KANA/RIHAE ;
-:%^VowRM%>õ%{back%} COMP ;
+:{back}  NMN_45KANA/RIHAE ;
+:^VowRM%>õ{back} COMP ;
 
 LEXICON A_46HAIN
 !! gradation: no
-:%{back%}  NMN_46HAIN ;
-:%>õ%{back%} COMP ;
+:{back}  NMN_46HAIN ;
+:%>õ{back} COMP ;
 
 LEXICON A_46TARK
 !! gradation: yes
-:%{back%}  NMN_46TARK ;
-:%^WGStem%>õ%{back%} COMP ;
+:{back}  NMN_46TARK ;
+:^WGStem%>õ{back} COMP ;
 
 LEXICON A_46SWBWR
 !! gradation: no
-:%{back%}  NMN_46SWBWR ;
-:%>a%{back%} COMP ;
+:{back}  NMN_46SWBWR ;
+:%>a{back} COMP ;
 
 LEXICON A_47ASI
-:%{back%}  NMN_47ASI ;
+:{back}  NMN_47ASI ;
 
 
 !LEXICON Adj-28
@@ -472,36 +472,36 @@ LEXICON A_47ASI
 !5
 
 LEXICON A_2KASUNUQ !!= * @CODE@ kasunuq:kasunu
-:%{back%} NMN_2KASUNUQ/ELAENUEQ  ;
+:{back} NMN_2KASUNUQ/ELAENUEQ  ;
 LEXICON A_2ELAENUEQ !!= * @CODE@ elänüq:elänü
-:%{front%} NMN_2KASUNUQ/ELAENUEQ  ;
+:{front} NMN_2KASUNUQ/ELAENUEQ  ;
 
 !!
 
 LEXICON Harm_Neutr_COMP
 
-+Comp:%>mb%{aä%} NMN_8KASK/HAEIELM ;
-+Err/Dial+Comp:%>mp%{aä%} NMN_8KASK/HAEIELM ;
-+Err/Dial+Comp:%>p%{aä%} NMN_8KASK/HAEIELM ;
++Comp:%>mb{aä} NMN_8KASK/HAEIELM ;
++Err/Dial+Comp:%>mp{aä} NMN_8KASK/HAEIELM ;
++Err/Dial+Comp:%>p{aä} NMN_8KASK/HAEIELM ;
 !NMN_8KASK/HAEIELM
 !+Comp:%>mb Harm_Neutr_COMP-01 ;
 !+Err/Dial+Comp:%>mp Harm_Neutr_COMP-01 ;
 !+Err/Dial+Comp+Sg+Nom:%>p # ;
 
 !LEXICON Harm_Neutr_COMP-01
-!:%{aä%} SG_GEN_ZERO-STEM ;
-!+Sg+All:%{aä%}l%{eõ%} K ;
-!+Sg+Ill:%{aä%}he K ;
-!+Sg+Par:%{aä%}t K ;
+!:{aä} SG_GEN_ZERO-STEM ;
+!+Sg+All:{aä}l{eõ} K ;
+!+Sg+Ill:{aä}he K ;
+!+Sg+Par:{aä}t K ;
 !+Sg+Nom: K ;
 
 !:i PL_ALL_lE-STEM ;
 
-!+Pl+Gen:id%{eõ%} K ;
+!+Pl+Gen:id{eõ} K ;
 !+Pl+Ill:ihe K ;
 !+Pl+Par:iid K ;
-!+Pl+Com:id%{eõ%}g%{aä%}q K ;
-!+Err/Dial+Pl+Com:id%{eõ%}g%{aä%} K ; !!= * @CODE@ no q
+!+Pl+Com:id{eõ}g{aä}q K ;
+!+Err/Dial+Pl+Com:id{eõ}g{aä} K ; !!= * @CODE@ no q
 
 
 
@@ -512,21 +512,21 @@ LEXICON COMP
 +Err/Dial+Comp:%>mp NMN_COMP ;
 +Err/Dial+Comp+Sg+Nom:%>p # ;
 LEXICON NMN_COMP
-:%{aä%} SG_GEN_ZERO-STEM ;
-+Sg+All:%{aä%}l%{eõ%} K ;
-+Sg+Ill:%{aä%}he K ;
-+Sg+Par:%{aä%}t K ;
+:{aä} SG_GEN_ZERO-STEM ;
++Sg+All:{aä}l{eõ} K ;
++Sg+Ill:{aä}he K ;
++Sg+Par:{aä}t K ;
 +Sg+Nom: K ;
 
-+Pl+Nom:%{aä%}q K ;
++Pl+Nom:{aä}q K ;
 :i PL_ALL_lE-STEM ;
 
-+Pl+Gen:id%{eõ%} K ;
++Pl+Gen:id{eõ} K ;
 +Pl+Ill:ihe K ;
 +Pl+Par:it K ;
 +Err/Dial+Pl+Par:iid K ;
-+Pl+Com:id%{eõ%}gaq K ;
-+Err/Dial+Pl+Com:id%{eõ%}ga K ; !!= * @CODE@ no q
++Pl+Com:id{eõ}gaq K ;
++Err/Dial+Pl+Com:id{eõ}ga K ; !!= * @CODE@ no q
 
 
 !!
