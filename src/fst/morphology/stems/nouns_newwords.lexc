@@ -12,6 +12,9 @@ test+N:test N_1HANS1A "" ;
 
 !1 
 !(VES 2) hanśa
+< [b|d|f|g|h|j|k|l|ĺ|m|n|ń|p|r|s|ś|t|t́|v]* [a|o|u|õ|e|i|ä|ö]^{1,2} [b|b l|b r|d|d ĺ|d ś|d́|d́ r|g|g ŕ|h|h k|h ĺ|h ń|h m|h v|j|k|k n|k s|l|l d́|l l|l ĺ|m|m b|m b l|m m|m p ś|n|ń|n d|n d s|n d ś|n d́|n g|n k|n n|n ń|n s|n ś|n t|p|r|r b|r d|r d́|ŕ|r g|r ĺ|r m|r s|r ś|r v|r ĺ|r ś|ŕ|ŕ s|ś|s k|ś k|s l|s ś|s t|t|t s|t ś|t ś k|t́|t́ k|v|v v] [a|e|o|õ] "+N":0 "+Guess":0 "+N_1_hans1a":0 > N_1HANS1A ;
+< [b|d|f|g|h|j|k|l|ĺ|m|n|ń|p|r|s|ś|t|t́|v]* [e|i|ä|ö|ü]^{1,2} [b|b l|b r|d|d ĺ|d ś|d́|d́ r|g|g ŕ|h|h k|h ĺ|h ń|h m|h v|j|k|k n|k s|l|l d́|l l|l ĺ|m|m b|m b l|m m|m p ś|n|ń|n d|n d s|n d ś|n d́|n g|n k|n n|n ń|n s|n ś|n t|p|r|r b|r d|r d́|ŕ|r g|r ĺ|r m|r s|r ś|r v|r ĺ|r ś|ŕ|ŕ s|ś|s k|ś k|s l|s ś|s t|t|t s|t ś|t ś k|t́|t́ k|v|v v] [ä|e|i|ü] "+N":0 "+Guess":0 "+N_1_herrae":0 > N_1HERRAE ;
+< [b|b l|b r|d|d ĺ|d ś|d́|d́ r|g|g ŕ|h|h k|h ĺ|h ń|h m|h v|j|k|k n|k s|l|l d́|l l|l ĺ|m|m b|m b l|m m|m p ś|n|ń|n d|n d s|n d ś|n d́|n g|n k|n n|n ń|n s|n ś|n t|p|r|r b|r d|r d́|ŕ|r g|r ĺ|r m|r s|r ś|r v|r ĺ|r ś|ŕ|ŕ s|ś|s k|ś k|s l|s ś|s t|t|t s|t ś|t ś k|t́|t́ k|v|v v] [i u|a o|e e|a u|a e|e o|ä o|e i] "+N":0 "+Guess":0 "+N_1_viu":0 > N_1VIU ;
 
 kuninganna+N:kuninganna N_1HANS1A ;
 teema+N:teema N_1HANS1A ;
@@ -20,7 +23,7 @@ put́ka+N:put́ka N_1HANS1A "_#, #t_" ;
 pitsa+N:pitsa N_1HANS1A "_#, #t_" ;
 mango+N:mango N_1HANS1A "_#, #t_" ;
 aalo+N:aalo N_1HANS1A "_#, #t__aalo_" ;
-arstiruhe+N:arstiruhe N_1HANS1A "_#, #t __arstiruhe_" ;
+arstiruhe+N:arsti#ruhe N_1HANS1A "_#, #t __arstiruhe_" ;
 daamõ+N:daamõ N_1HANS1A "_#, #t__daamõ_" ;
 disko+N:disko N_1HANS1A "_#, #t__disko_" ;
 firma+N:firma N_1HANS1A "_#, #t__firma_" ;
@@ -6966,6 +6969,9 @@ veri+N:ve{rØ}r N_32VERI "_#e, #d__ver|i_" ;
 
 !33 
 !(VES 25) igä
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [ä|ö|ü] [0:"{kØ}" g:"{kgØ}"] "i":0 "+N":0 "+Guess":0 "+N_33_maegi":0 > N_33MAEGI ;
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [a|o|u|õ] [0:"{kØ}" g:"{kgØ}"|0:"{pØ}" g:"{pbv}"] "i":0 "+N":0 "+Guess":0 "+N_33_jwgi":0 > N_33JWGI ;
+
 
 eloigä+N:elo#i{kØ}{kgØ}ä N_33IGAE "_#iä, #ikä__elo|igä_" ;
 hernetõbi+N:herne#tõ{pØ}{pbv} N_33JWGI "_#võ, #põ __ˋhernetõ|bi_" ;
@@ -6982,7 +6988,7 @@ lõugtõbi+N:lõug#tõ{pØ}{pbv} N_33JWGI "_#võ, #põ__lõugtõ|bi_" ;
 lõvvatõbi+N:lõvva#tõ{pØ}{pbv} N_33JWGI "_#võ, #põ__lõvvatõ|bi_" ;
 lägä+N:lä{kØ}{kgØ}ä N_33IGAE "_#ä, #kä__lä|gä_" ;
 !maarjaijä+N:maarjaijä NMN_33 "_#i(j)ä, #iiä__ˋmaarja|ijä_" ;
-manoqkiskmisvägi+N:manoq{ˋØ}kiskmisvä{kØ}{kgØ} N_33MAEGI "_#e, #ke__manoq{ˋØ}kiskmisvä|gi_" ;
+manoqkiskmisvägi+N:manoq{ˋØ}kiskmis#vä{kØ}{kgØ} N_33MAEGI "_#e, #ke__manoq{ˋØ}kiskmisvä|gi_" ;
 marutõbi+N:maru#tõ{pØ}{pbv} N_33JWGI "_#võ, #põ__marutõ|bi_" ;
 mädä+N:mä{tØ}{tdØ}ä N_33IGAE "_#ä, #tä__mä|dä_" ;
 mägi+N:mä{kØ}{kgØ} N_33MAEGI "_#e, #ke__mä|gi_" ;
@@ -6991,17 +6997,17 @@ nõgi+N:nõ{kØ}{kgØ} N_33JWGI "_nõ̭õ̭, nõkõ__nõgi_" ;
 nõlgutõbi+N:nõlgu#tõ{pØ}{pbv} N_33JWGI "_#võ, #põ__nõlgutõ|bi_" ;
 nõlõtõbi+N:nõlõ#tõ{pØ}{pbv} N_33JWGI "_#võ, #põ __nõlõtõ|bi_" ;
 nügä+N:nü{kØ}{kgØ}ä N_33IGAE "_#ä, #kä__nü|gä_" ;
-pakkregi+N:pakkre{kØ}{kgØ} N_33MAEGI "_#ri̬i̬, #reke__pakk|regi_" ;
 pallavtõbi+N:pallav#tõ{pØ}{pbv} N_33JWGI "_#võ, #põ__pallavtõ|bi_" ;
 pinitõbi+N:pini#tõ{pØ}{pbv} N_33JWGI "_#võ, #põ__pinitõ|bi_" ;
 päälagi+N:pää#la{kØ}{kgØ} N_33JWGI "_#e, #kõ__pääla|gi_" ;
 rasõhusvägi+N:rasõhus#vä{kØ}{kgØ} N_33MAEGI "_#e, #ke__rasõhusvä|gi_" ;
+pakkregi+N:pakk#re{kØ}{kgØ} N_33MAEGI "_#ri̬i̬, #reke__pakk|regi_" ;
 regi+N:re{kØ}{kgØ} N_33MAEGI "_ri̬i̬, reke__regi_" ;
 rägä+N:rä{kØ}{kgØ}ä N_33IGAE "_#ä, #kä__rä|gä_" ;
 rügä+N:rü{kØ}{kgØ}ä N_33IGAE "_#ä, #kä__rü|gä_" ;
 sataitõbi+N:satai#tõ{pØ}{pbv} N_33JWGI "_#võ, #põ__sataitõ|bi_" ;
 sivvutõbi+N:sivvu#tõ{pØ}{pbv} N_33JWGI "_#võ, #põ__sivvutõ|bi_" ;
-sõavägi+N:sõ̭avä{kØ}{kgØ} N_33MAEGI "_#e, #ke__sõ̭avä|gi_" ;
+sõavägi+N:sõ̭a#vä{kØ}{kgØ} N_33MAEGI "_#e, #ke__sõ̭avä|gi_" ;
 sõratõbi+N:sõra#tõ{pØ}{pbv} N_33JWGI "_#võ, #põ__sõratõ|bi_" ;
 !tugi+N:tugi NMN_33 "_toe, tukõ __tugi_" ;
 tõbi+N:tõ{pØ}{pbv} N_33JWGI "_#võ, #põ__tõ|bi_" ;
@@ -9385,55 +9391,32 @@ suvõülikuuĺ+N:suvõ#üli#k{ou}{ou}{lĺ} N_38PUUM1 "_#kooli, #ku̬u̬li__üli|
 
 !39 
 !(VES 27) häbü 
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [a|o|u|õ] [0:"{kØ}" g:"{kgØ}"|0:"{pØ}" g:"{pbv}"] "o":0 "+N":0 "+Guess":0 "+N_39_vido":0 > N_39VIDO ;
 
 ago+N:a{kØ}{kgØ}o N_39VIDO "_ao, ako__ago_" ;
-aolugu+N:aolu{kØ}{kgØ}u N_39VIDO "_#u, #ku__aolu|gu_" ;
-aśalugu+N:aśalu{kØ}{kgØ}u N_39VIDO "_#lu̬u̬, #luku__aśa|lugu_" ;
-autokoda+N:autoko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__ˋauto|koda_" ;
-elolugu+N:elolu{kØ}{kgØ}u N_39VIDO "_#u, #ku__elolu|gu_" ;
 hago+N:ha{kØ}{kgØ}o N_39VIDO "_#o, #ko__ha|go_" ;
-hainatego+N:hainate{kØ}{kgØ}o N_39VIDO "_#o, #ko__hainate|go_" ;
-haokubo+N:haoku{pØ}{pbØ}o N_39VIDO "_#ku̬u̬, #kupo__hao|kubo_" ;
-!higi+N:hi{kØ}{kgØ}i NMN_39 "_#i, #ki__hi|gi_" ;
-
-!huŕa+N:hu{rØ}ŕa NMN_39 "_#ŕa, #rŕa__hu|ŕa_" ;
-
-häbü+N:hä{pØ}{pbØ}ü N_39HAEBUE "_#ü, #pü__hä|bü_" ;
-häätego+N:hääte{kØ}{kgØ}o N_39VIDO "_#o, #ko__hääte|go_" ;
+hainatego+N:haina#te{kØ}{kgØ}o N_39VIDO "_#o, #ko__hainate|go_" ;
+häätego+N:hää#te{kØ}{kgØ}o N_39VIDO "_#o, #ko__hääte|go_" ;
 ido+N:i{tØ}{tdØ}o N_39VIDO "_io, ito__ido_" ;
 ilmajago+N:ilmaja{kØ}{kgØ}o N_39VIDO "_#o, #ko__ilmaja|go_" ;
 imehtego+N:imehte{kØ}{kgØ}o N_39VIDO "_#o, #ko__imehte|go_" ;
-imäkoda+N:imäko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__imä|koda_" ;
 jago+N:ja{kØ}{kgØ}o N_39VIDO "_#o, #ko__ja|go_" ;
-!juga+N:ju{kØ}{kgØ}a NMN_39 "_#a, #ka__ju|ga_" ;
-jumalakoda+N:jumalako{tØ}{tdØ}a N_39VIDO "_#kua, #kota__jumala|koda_" ;
 kado+N:ka{tØ}{tdØ}o N_39VIDO "_#o, #to__ka|do_" ;
 ḱago+N:ḱa{kØ}{kgØ}o N_39VIDO "_#o, #ko__ḱa|go_" ;
-katsasjago+N:katsasja{kØ}{kgØ}o N_39VIDO "_#ndajao, #ndatjako __ˋkatsa|sjago_" ;
-koda+N:ko{tØ}{tdØ}a N_39VIDO "_kua, kota__koda_" ;
+katsasjago+N:katsas#ja{kØ}{kgØ}o N_39VIDO "_#ndajao, #ndatjako __ˋkatsa|sjago_" ;
 kolmasjago+N:kolmasja{kØ}{kgØ}o N_39VIDO "_#ndajao, #ndatjako__kolma|sjago_" ;
 kŕabo+N:kŕa{pØ}{pbØ}o N_39VIDO "_#o, #po__kŕa|bo_" ;
 kräbo+N:krä{pØ}{pbØ}o N_39VIDO "_#o, #po __krä|bo_" ;
-kubo+N:ku{pØ}{pbØ}o N_39VIDO "_ku̬u̬, kupo__kubo_" ;
-!kudu+N:ku{kØ}{kgØ}u NMN_39 "_koe, kutu__kudu_" ;
 kuvvõsjago+N:kuvvõsja{kØ}{kgØ}o N_39VIDO "_#ndajao, #ndatjako__kuvvõ|sjago_" ;
 kõrdmago+N:kõrdma{kØ}{kgØ}o N_39VIDO "_#o, #ko__kõrdma|go_" ;
 kägo+N:kä{kØ}{kgØ}o N_39VIDO "_#o, #ko __kä|go_" ;
 kümnesjago+N:kümnes#ja{kØ}{kgØ}o N_39VIDO "_#ndäjao, #ndätjako__ˋkümne|sjago_" ;
 lado+N:la{tØ}{tdØ}o N_39VIDO "_#o, #to__la|do_" ;
 lago+N:la{kØ}{kgØ}o N_39VIDO "_#o, #ko__la|go_" ;
-latsõkoda+N:latsõko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__latsõ|koda_" ;
 ligo+N:li{kØ}{kgØ}o N_39VIDO "_#o, #ko__li|go_" ;
-juhiluba+N:juhi#lu{pØ}{pbØ}a N_39VIDO ;
-luba+N:lu{pØ}{pbØ}a N_39VIDO "_#a, #pa__lu|ba_" ;
-luga+N:lu{kØ}{kgØ}a N_39VIDO "_#a, #ka__lu|ga_" ;
-lugu+N:lu{kØ}{kgØ}u N_39VIDO "_#u, #ku__lu|gu_" ;
 lumõlago+N:lumõla{kØ}{kgØ}o N_39VIDO "_#o, #ko__lumõla|go_" ;
 mado+N:ma{tØ}{tdØ}o N_39VIDO "_#o, #to__ma|do_" ;
 mago+N:ma{kØ}{kgØ}o N_39VIDO "_#o, #ko__ma|go_" ;
-!magu+N:ma{kØ}{kgØ}u NMN_39 "_#o, #ku__ma|gu_" ;
-muda+N:mu{tØ}{tdØ}a N_39VIDO "_#a, #ta__mu|da_" ;
-mõjo+N:mõjo N_39VIDO "_mõo, mõjjo mõio__mõjo_" ;
 nado+N:na{tØ}{tdØ}o N_39VIDO "_#o, #to__na|do_" ;
 ńago+N:ńa{kØ}{kgØ}o N_39VIDO "_#o, #ko__ńa|go_" ;
 nelläsjago+N:nelläsja{kØ}{kgØ}o N_39VIDO "_#ndäjao, #ndätjako__nellä|sjago_" ;
@@ -9444,35 +9427,69 @@ pago+N:pa{kØ}{kgØ}o N_39VIDO "_#o, #ko__pa|go_" ;
 palgipago+N:palgipa{kØ}{kgØ}o N_39VIDO "_#o, #ko__palgipa|go_" ;
 pego+N:pe{kØ}{kgØ}o N_39VIDO "_#o, #ko__pe|go_" ;
 pigo+N:pi{kØ}{kgØ}o N_39VIDO "_#o, #ko__pi|go_" ;
-pilukoda+N:piluko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__pilu|koda_" ;
-pinokoda+N:pinoko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__pino|koda_" ;
 praagamago+N:praagama{kØ}{kgØ}o N_39VIDO "_#o, #ko__praagama|go_" ;
 pŕago+N:pŕa{kØ}{kgØ}o N_39VIDO "_#o, #ko __pŕa|go_" ;
 prägo+N:prä{kØ}{kgØ}o N_39VIDO "_#o, #ko __prä|go_" ;
-pujakoda+N:pujako{tØ}{tdØ}a N_39VIDO "_#kua, #kota__puja|koda_" ;
 päätigo+N:pääti{kØ}{kgØ}o N_39VIDO "_#tio, #tiko__pää|tigo_" ;
-!pügü+N:pü{kØ}{kgØ}ü NMN_39 "_#ü, #kü__pü|gü_" ;
 rindpago+N:rindpa{kØ}{kgØ}o N_39VIDO "_#o, #ko__rindpa|go_" ;
-ruga+N:ru{kØ}{kgØ}a N_39VIDO "_#a, #ka__ru|ga_" ;
 sado+N:sa{tØ}{tdØ}o N_39VIDO "_#o, #to__sa|do_" ;
 sago+N:sa{kØ}{kgØ}o N_39VIDO "_#o, #ko__sa|go_" ;
-sepikoda+N:sepiko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__sepi|koda_" ;
-suga+N:su{kØ}{kgØ}a N_39VIDO "_#a, #ka__su|ga_" ;
 suuhago+N:suuha{kØ}{kgØ}o N_39VIDO "_#o, #ko__suuha|go_" ;
 säitsmesjago+N:säitsmesja{kØ}{kgØ}o N_39VIDO "_#ndäjao, #ndätjako__ˋsäitsme|sjago_" ;
 tego+N:te{kØ}{kgØ}o N_39VIDO "_#o, #ko__te|go_" ;
 tigo+N:ti{kØ}{kgØ}o N_39VIDO "_#o, #ko__ti|go_" ;
 toonikägo+N:toonikä{kØ}{kgØ}o N_39VIDO "_#o, #ko__toonikä|go_" ;
-trepikoda+N:trepiko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__trepi|koda_" ;
 tsiatigo+N:tsiati{kØ}{kgØ}o N_39VIDO "_#o, #ko__tsiati|go_" ;
-uba+N:u{pØ}{pbØ}a N_39VIDO "_ua, upa__uba_" ;
 unõnägo+N:unõnä{kØ}{kgØ}o N_39VIDO "_#o, #ko__unõnä|go_" ;
-!vaba+N:va{pØ}{pbØ}a NMN_39 "_#ba, #pa __va|ba_" ;
 vago+N:va{kØ}{kgØ}o N_39VIDO "_#o, #ko__va|go_" ;
 vido+N:vi{tØ}{tdØ}o N_39VIDO "_#o, #to__vi|do_" ;
 nelivido+N:neli#vi{tØ}{tdØ}o N_39VIDO "_#o, #to__vi|do_" ;
 viiesjago+N:viiesja{kØ}{kgØ}o N_39VIDO "_#ndäjao, #ndätjako__viie|sjago_" ;
 ütsäsjago+N:ütsäsja{kØ}{kgØ}o N_39VIDO "_#ndäjao, #ndätjako__ˋütsä|sjago_" ;
+
+
+autokoda+N:auto#ko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__ˋauto|koda_" ;
+imäkoda+N:imä#ko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__imä|koda_" ;
+jumalakoda+N:jumala#ko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__jumala|koda_" ;
+koda+N:ko{tØ}{tdØ}a N_39VIDO "_kua, kota__koda_" ;
+latsõkoda+N:latsõ#ko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__latsõ|koda_" ;
+pilukoda+N:pilu#ko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__pilu|koda_" ;
+pinokoda+N:pino#ko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__pino|koda_" ;
+pujakoda+N:puja#ko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__puja|koda_" ;
+sepikoda+N:sepi#ko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__sepi|koda_" ;
+trepikoda+N:trepi#ko{tØ}{tdØ}a N_39VIDO "_#kua, #kota__trepi|koda_" ;
+
+
+aolugu+N:ao#lu{kØ}{kgØ}u N_39VIDO "_#u, #ku__aolu|gu_" ;
+aśalugu+N:aśa#lu{kØ}{kgØ}u N_39VIDO "_#lu̬u̬, #luku__aśa|lugu_" ;
+elolugu+N:elo#lu{kØ}{kgØ}u N_39VIDO "_#u, #ku__elolu|gu_" ;
+lugu+N:lu{kØ}{kgØ}u N_39VIDO "_#u, #ku__lu|gu_" ;
+
+ruga+N:ru{kØ}{kgØ}a N_39VIDO "_#a, #ka__ru|ga_" ;
+suga+N:su{kØ}{kgØ}a N_39VIDO "_#a, #ka__su|ga_" ;
+uba+N:u{pØ}{pbØ}a N_39VIDO "_ua, upa__uba_" ;
+
+haokubo+N:hao#ku{pØ}{pbØ}o N_39VIDO "_#ku̬u̬, #kupo__hao|kubo_" ;
+kubo+N:ku{pØ}{pbØ}o N_39VIDO "_ku̬u̬, kupo__kubo_" ;
+
+!higi+N:hi{kØ}{kgØ}i NMN_39 "_#i, #ki__hi|gi_" ;
+
+!huŕa+N:hu{rØ}ŕa NMN_39 "_#ŕa, #rŕa__hu|ŕa_" ;
+
+häbü+N:hä{pØ}{pbØ}ü N_39HAEBUE "_#ü, #pü__hä|bü_" ;
+!juga+N:ju{kØ}{kgØ}a NMN_39 "_#a, #ka__ju|ga_" ;
+!kudu+N:ku{kØ}{kgØ}u NMN_39 "_koe, kutu__kudu_" ;
+
+juhiluba+N:juhi#lu{pØ}{pbØ}a N_39VIDO ;
+luba+N:lu{pØ}{pbØ}a N_39VIDO "_#a, #pa__lu|ba_" ;
+luga+N:lu{kØ}{kgØ}a N_39VIDO "_#a, #ka__lu|ga_" ;
+
+!magu+N:ma{kØ}{kgØ}u NMN_39 "_#o, #ku__ma|gu_" ;
+muda+N:mu{tØ}{tdØ}a N_39VIDO "_#a, #ta__mu|da_" ;
+
+mõjo+N:mõjo N_39VIDO "_mõo, mõjjo mõio__mõjo_" ;
+!pügü+N:pü{kØ}{kgØ}ü NMN_39 "_#ü, #kü__pü|gü_" ;
+!vaba+N:va{pØ}{pbØ}a NMN_39 "_#ba, #pa __va|ba_" ;
 
 
 
