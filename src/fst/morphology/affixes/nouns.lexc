@@ -1804,7 +1804,9 @@ LEXICON N_41AIG-SG
 LEXICON N_41AIG_PL
 :{back}     NMN_41AIG_PL ;
 
-LEXICON N_41ASK !!= @CODE@ aig:aig
+LEXICON N_41ARM !!= @CODE@ arm:arm
+ N_41ASK ;
+LEXICON N_41ASK !!= @CODE@ ask:as{kØ}
 !! * Yaml: **aig, aig**
 !! ask:as{kØ}o
 !! juusk:j{ou}{ou}s{kØ}u
@@ -1828,6 +1830,8 @@ LEXICON N_41MAENG-SG
 LEXICON N_41MAENG_PL
 @U.VowHarm.F@:@U.VowHarm.F@{back}     NMN_41ASK/VIIT_PL ;
 
+LEXICON N_41MUETS !!= @CODE@ 41ARM/MUETS pair
+ N_41VIIT ;
 LEXICON N_41VIIT !!= @CODE@ aig:aig
 !! * Yaml: **aig, aig**
 :^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
