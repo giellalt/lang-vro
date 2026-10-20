@@ -403,7 +403,7 @@ LEXICON N_10HWRAK_PL
 :{back}     NMN_10HWRAK_PL ;
 
 LEXICON N_10HAIDAK !!= @CODE@ haidak:haidak
-:^G3 ATTESTED-NOUN-STEM-CONTINUED ;
+:^G2 ATTESTED-NOUN-STEM-CONTINUED ;
         N_10HAIDAK-SG ;
         N_10HAIDAK_PL ;
 LEXICON N_10HAIDAK-SG
@@ -421,7 +421,7 @@ LEXICON N_10ESAEK_PL
 :{front}     NMN_10HAIDAK/ESAEK_PL ;
 
 LEXICON N_10RAAMAT !!= @CODE@ raamat:raamat
-:^G3 ATTESTED-NOUN-STEM-CONTINUED ;
+:^G2 ATTESTED-NOUN-STEM-CONTINUED ;
         N_10RAAMAT-SG ;
         N_10RAAMAT_PL ;
 LEXICON N_10RAAMAT-SG
@@ -450,7 +450,7 @@ LEXICON N_10LEMBIT_PL
 !:{front}     NMN_10VIDRIK_PL ;
 
 LEXICON N_10AABITS !!= @CODE@ aabits:aabits
-:^G3 ATTESTED-NOUN-STEM-CONTINUED ;
+:^G2 ATTESTED-NOUN-STEM-CONTINUED ;
         N_10AABITS-SG ;
         N_10AABITS_PL ;
 LEXICON N_10AABITS-SG
@@ -520,8 +520,8 @@ LEXICON N_10HUEPAETS1_PL
 
 
 LEXICON N_11LAETEQ !!= @CODE@ läteq:lä{tØ}te
-:^Pen^G1%>q ATTESTED-NOUN-STEM-CONTINUED ;
-+Err/Orth-no-q:^Pen^G1 ATTESTED-NOUN-STEM-CONTINUED ;
+:^Pen^G0%>q ATTESTED-NOUN-STEM-CONTINUED ;
++Err/Orth-no-q:^Pen^G0 ATTESTED-NOUN-STEM-CONTINUED ;
  N_11LAETEQ-SG ;
  N_11LAETEQ_PL ;
 LEXICON N_11LAETEQ-SG
@@ -530,8 +530,8 @@ LEXICON N_11LAETEQ_PL
 :{front} NMN_11ANNWQ/LAETEQ_PL ;
 
 LEXICON N_11ANNWQ !!= @CODE@ annõq:andõ
-:^Pen^G1%>q ATTESTED-NOUN-STEM-CONTINUED ;
-+Err/Orth-no-q:^Pen^G1 ATTESTED-NOUN-STEM-CONTINUED ;
+:^Pen^G0%>q ATTESTED-NOUN-STEM-CONTINUED ;
++Err/Orth-no-q:^Pen^G0 ATTESTED-NOUN-STEM-CONTINUED ;
  N_11ANNWQ-SG ;
  N_11ANNWQ_PL ;
 LEXICON N_11ANNWQ-SG
@@ -1154,8 +1154,8 @@ LEXICON N_28PAPWR1_PL
 :{back} NMN_28PAPWR1_PL ;
 
 LEXICON N_28KANNWL1 !!= * **@CODE@** kannõĺ:kan{dn}õl
-:^Pen^G1^PAL ATTESTED-NOUN-STEM-CONTINUED ;
-+Err/Orth-no-pal:^Pen^G1^NoPAL ATTESTED-NOUN-STEM-CONTINUED ;
+:^Pen^G0^PAL ATTESTED-NOUN-STEM-CONTINUED ;
++Err/Orth-no-pal:^Pen^G0^NoPAL ATTESTED-NOUN-STEM-CONTINUED ;
  N_28KANNWL1-SG ;
  N_28KANNWL1_PL ;
 LEXICON N_28KANNWL1-SG
@@ -1164,8 +1164,8 @@ LEXICON N_28KANNWL1_PL
 :{back} NMN_28KANNWL1/KINNER1_PL ;
 
 LEXICON N_28KINNER1 !!= * **@CODE@** kinneŕ:kin{dn}er
-:^Pen^G1^PAL ATTESTED-NOUN-STEM-CONTINUED ;
-+Err/Orth-no-pal:^Pen^G1^NoPAL ATTESTED-NOUN-STEM-CONTINUED ;
+:^Pen^G0^PAL ATTESTED-NOUN-STEM-CONTINUED ;
++Err/Orth-no-pal:^Pen^G0^NoPAL ATTESTED-NOUN-STEM-CONTINUED ;
  N_28KINNER1-SG ;
  N_28KINNER1_PL ;
 LEXICON N_28KINNER1-SG
@@ -1263,7 +1263,7 @@ LEXICON N_31MAI_PL
 :{back} NMN_31MAI_PL ;
 
 LEXICON N_32VERI !!veri:ve{rØ}r
-:^G1%>i ATTESTED-NOUN-STEM-CONTINUED ;
+:^G0%>i ATTESTED-NOUN-STEM-CONTINUED ;
  N_32VERI-SG ;
  N_32VERI_PL ;
 LEXICON N_32VERI-SG
@@ -1272,7 +1272,7 @@ LEXICON N_32VERI_PL
 :{front} NMN_32VERI_PL ;
 
 LEXICON N_33IGAE !!igä:i{kØ}{kgØ}ä
-:^G2 ATTESTED-NOUN-STEM-CONTINUED ;
+:^G1 ATTESTED-NOUN-STEM-CONTINUED ;
  N_33IGAE-SG ;
  N_33IGAE_PL ;
 LEXICON N_33IGAE-SG
@@ -1283,7 +1283,7 @@ LEXICON N_33IGAE_PL
 LEXICON N_33JWGI !!jõgi:jõ{kØ}{kgØ}
 !!€gt-norm:  Noun 33
 ! gradation: yes
-:^G2i ATTESTED-NOUN-STEM-CONTINUED ;
+:^G1i ATTESTED-NOUN-STEM-CONTINUED ;
  N_33JWGI-SG ;
  N_33JWGI_PL ;
 LEXICON N_33JWGI-SG
@@ -1294,7 +1294,7 @@ LEXICON N_33JWGI_PL
 LEXICON N_33MAEGI !!mägi:mä{kØ}{kgØ}
 ! test
 ! gradation: yes
-:^G2i ATTESTED-NOUN-STEM-CONTINUED ;
+:^G1i ATTESTED-NOUN-STEM-CONTINUED ;
  N_33MAEGI-SG ;
  N_33MAEGI_PL ;
 LEXICON N_33MAEGI-SG
@@ -1484,7 +1484,7 @@ LEXICON N_36KOGWR
 !! kogõr:kogõr
 !! * Yaml: **N-kogwr36**
 !! derived from 36särǵ
-:^Pen^G1 ATTESTED-NOUN-STEM-CONTINUED ;
+:^Pen^G0 ATTESTED-NOUN-STEM-CONTINUED ;
         N_36KOGWR-SG ;
         N_36KOGWR_PL ;
 LEXICON N_36KOGWR-SG
@@ -1496,7 +1496,7 @@ LEXICON N_36KOKR
 !! kokr:ko{kg}r
 !! * Yaml: **N-kogwr36**
 !! derived from 36särǵ
-:^G1 ATTESTED-NOUN-STEM-CONTINUED ;
+:^G0 ATTESTED-NOUN-STEM-CONTINUED ;
         N_36KOKR-SG ;
         N_36KOKR_PL ;
 LEXICON N_36KOKR-SG
@@ -1709,6 +1709,42 @@ LEXICON N_39VIDO-SG
 LEXICON N_39VIDO_PL
 :{back}     NMN_39VIDO_PL ;
 
+LEXICON N_39KODA !!= * @CODE@ koda:vi{tØ}{tdØ}o
+: ATTESTED-NOUN-STEM-CONTINUED ;
+        N_39KODA-SG ;
+        N_39KODA_PL ;
+LEXICON N_39KODA-SG
+:{back}     NMN_39KODA-SG ;
+LEXICON N_39KODA_PL
+:{back}     NMN_39KODA_PL ;
+
+LEXICON N_39LUBA !!= * @CODE@ luba:vi{tØ}{tdØ}o
+: ATTESTED-NOUN-STEM-CONTINUED ;
+        N_39LUBA-SG ;
+        N_39LUBA_PL ;
+LEXICON N_39LUBA-SG
+:{back}     NMN_39LUBA-SG ;
+LEXICON N_39LUBA_PL
+:{back}     NMN_39LUBA_PL ;
+
+LEXICON N_39KUBO !!= * @CODE@ kubo:vi{tØ}{tdØ}o
+: ATTESTED-NOUN-STEM-CONTINUED ;
+        N_39KUBO-SG ;
+        N_39KUBO_PL ;
+LEXICON N_39KUBO-SG
+:{back}     NMN_39KUBO-SG ;
+LEXICON N_39KUBO_PL
+:{back}     NMN_39KUBO_PL ;
+
+LEXICON N_39LUGU !!= * @CODE@ lugu:lu{kØ}{kgØ}u
+: ATTESTED-NOUN-STEM-CONTINUED ;
+        N_39LUGU-SG ;
+        N_39LUGU_PL ;
+LEXICON N_39LUGU-SG
+:{back}     NMN_39LUGU-SG ;
+LEXICON N_39LUGU_PL
+:{back}     NMN_39LUGU_PL ;
+
 LEXICON N_39HAEBUE !!= * @CODE@ häbü:hä{pØ}{pbØ}ü
 : ATTESTED-NOUN-STEM-CONTINUED ;
         N_39HAEBUE-SG ;
@@ -1723,18 +1759,27 @@ LEXICON N_40TALO !!= @CODE@ talo:ta{lØ}lo
         N_40TALO-SG ;
         N_40TALO_PL ;
 LEXICON N_40TALO-SG
-:{back}     NMN_40TALO/HELUE-SG ;
+:{back}     NMN_40TALO-SG ;
 LEXICON N_40TALO_PL
-:{back}     NMN_40TALO/HELUE_PL ;
+:{back}     NMN_40TALO_PL ;
+
+LEXICON N_40HENU !!= @CODE@ henu:he{nØ}nu
+: ATTESTED-NOUN-STEM-CONTINUED ;
+        N_40HENU-SG ;
+        N_40HENU_PL ;
+LEXICON N_40HENU-SG
+:{back}     NMN_40HENU/HELUE-SG ;
+LEXICON N_40HENU_PL
+:{back}     NMN_40HENU/HELUE_PL ;
 
 LEXICON N_40HELUE !!= @CODE@ helü:helü
 : ATTESTED-NOUN-STEM-CONTINUED ;
         N_40HELUE-SG ;
         N_40HELUE_PL ;
 LEXICON N_40HELUE-SG
-:{front}     NMN_40TALO/HELUE-SG ;
+:{front}     NMN_40HENU/HELUE-SG ;
 LEXICON N_40HELUE_PL
-:{front}     NMN_40TALO/HELUE_PL ;
+:{front}     NMN_40HENU/HELUE_PL ;
 
 LEXICON N_40UJA !!= @CODE@ uja:u{jØ}ja
 : ATTESTED-NOUN-STEM-CONTINUED ;
@@ -1754,23 +1799,32 @@ LEXICON N_40IJAE-SG
 LEXICON N_40IJAE_PL
 :{front}     NMN_40UJA/IJAE_PL ;
 
-LEXICON N_40SAVV !!= @CODE@ savv:savvu
+LEXICON N_41SAVV !!= @CODE@ savv:savvu
 :^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
-        N_40SAVV-SG ;
-        N_40SAVV_PL ;
-LEXICON N_40SAVV-SG
-:{back}     NMN_40SAVV/TUEKK-SG ;
-LEXICON N_40SAVV_PL
-:{back}     NMN_40SAVV/TUEKK_PL ;
+        N_41SAVV-SG ;
+        N_41SAVV_PL ;
+LEXICON N_41SAVV-SG
+:{back}     NMN_41SAVV/TUEKK-SG ;
+LEXICON N_41SAVV_PL
+:{back}     NMN_41SAVV/TUEKK_PL ;
 
-LEXICON N_40TUEKK !!= @CODE@ tükk:tü{kØ}kü
+LEXICON N_41PAKK !!= @CODE@ pakk:pakko
 :^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
-        N_40TUEKK-SG ;
-        N_40TUEKK_PL ;
-LEXICON N_40TUEKK-SG
-:{front}     NMN_40SAVV/TUEKK-SG ;
-LEXICON N_40TUEKK_PL
-:{front}     NMN_40SAVV/TUEKK_PL ;
+        N_41PAKK-SG ;
+        N_41PAKK_PL ;
+LEXICON N_41PAKK-SG
+:{back}     NMN_41PAKK-SG ;
+LEXICON N_41PAKK_PL
+:{back}     NMN_41PAKK_PL ;
+
+LEXICON N_41TUEKK !!= @CODE@ tükk:tü{kØ}kü
+:^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
+        N_41TUEKK-SG ;
+        N_41TUEKK_PL ;
+LEXICON N_41TUEKK-SG
+:{front}     NMN_41SAVV/TUEKK-SG ;
+LEXICON N_41TUEKK_PL
+:{front}     NMN_41SAVV/TUEKK_PL ;
 
 !LEXICON N_41KAND !!= @CODE@ kand:kand
 !!! * Yaml: __aig, kand__
@@ -1805,7 +1859,17 @@ LEXICON N_41AIG_PL
 :{back}     NMN_41AIG_PL ;
 
 LEXICON N_41ARM !!= @CODE@ arm:arm
- N_41ASK ;
+!! * Yaml: **aig, aig**
+!! ask:as{kØ}o
+!! juusk:j{ou}{ou}s{kØ}u
+:^VOWRaise^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
+        N_41ARM-SG ;
+ N_41ARM_PL ;
+LEXICON N_41ARM-SG
+:{back}     NMN_41ARM/MUETS-SG ;
+LEXICON N_41ARM_PL
+:{back}     NMN_41ARM/MUETS_PL ;
+ 
 LEXICON N_41ASK !!= @CODE@ ask:as{kØ}
 !! * Yaml: **aig, aig**
 !! ask:as{kØ}o
@@ -1814,9 +1878,45 @@ LEXICON N_41ASK !!= @CODE@ ask:as{kØ}
         N_41ASK-SG ;
  N_41ASK_PL ;
 LEXICON N_41ASK-SG
-:{back}     NMN_41ASK/VIIT-SG ;
+:{back}     NMN_41ASK-SG ;
 LEXICON N_41ASK_PL
-:{back}     NMN_41ASK/VIIT_PL ;
+:{back}     NMN_41ASK_PL ;
+
+LEXICON N_41VUUL !!= @CODE@ ask:as{kØ}
+!! * Yaml: **aig, aig**
+!! ask:as{kØ}o
+!! juusk:j{ou}{ou}s{kØ}u
+:^VOWRaise^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
+        N_41VUUL-SG ;
+ N_41VUUL_PL ;
+LEXICON N_41VUUL-SG
+:{back}     NMN_41VUUL-SG ;
+LEXICON N_41VUUL_PL
+:{back}     NMN_41VUUL_PL ;
+
+LEXICON N_41JUUSK !!= @CODE@ ask:as{kØ}
+!! * Yaml: **aig, aig**
+!! ask:as{kØ}o
+!! juusk:j{ou}{ou}s{kØ}u
+:^VOWRaise^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
+        N_41JUUSK-SG ;
+ N_41JUUSK_PL ;
+LEXICON N_41JUUSK-SG
+:{back}     NMN_41JUUSK-SG ;
+LEXICON N_41JUUSK_PL
+:{back}     NMN_41JUUSK_PL ;
+
+LEXICON N_41HAIK !!= @CODE@ haik:hai{kg}u
+!! * Yaml: **aig, aig**
+!! haik:as{kØ}o
+!! juusk:j{ou}{ou}s{kØ}u
+:^VOWRaise^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
+        N_41HAIK-SG ;
+ N_41HAIK_PL ;
+LEXICON N_41HAIK-SG
+:{back}     NMN_41HAIK/VIIT-SG ;
+LEXICON N_41HAIK_PL
+:{back}     NMN_41HAIK/VIIT_PL ;
 
 LEXICON N_41MAENG !!= @CODE@ aig:aig
 !! * Yaml: **aig, aig**
@@ -1826,21 +1926,29 @@ LEXICON N_41MAENG !!= @CODE@ aig:aig
         N_41MAENG-SG ;
  N_41MAENG_PL ;
 LEXICON N_41MAENG-SG
-:{back}     NMN_41ASK/VIIT-SG ;
+:{back}     NMN_41ASK-SG ;
 LEXICON N_41MAENG_PL
-@U.VowHarm.F@:@U.VowHarm.F@{back}     NMN_41ASK/VIIT_PL ;
+@U.VowHarm.F@:@U.VowHarm.F@{back}     NMN_41ASK_PL ;
 
 LEXICON N_41MUETS !!= @CODE@ 41ARM/MUETS pair
- N_41VIIT ;
+!! * Yaml: **aig, aig**
+:^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
+        N_41MUETS-SG ;
+ N_41MUETS_PL ;
+LEXICON N_41MUETS-SG
+:{front}     NMN_41ARM/MUETS-SG ;
+LEXICON N_41MUETS_PL
+:{front}     NMN_41ARM/MUETS_PL ;
+
 LEXICON N_41VIIT !!= @CODE@ aig:aig
 !! * Yaml: **aig, aig**
 :^VowRM ATTESTED-NOUN-STEM-CONTINUED ;
         N_41VIIT-SG ;
  N_41VIIT_PL ;
 LEXICON N_41VIIT-SG
-:{front}     NMN_41ASK/VIIT-SG ;
+:{front}     NMN_41HAIK/VIIT-SG ;
 LEXICON N_41VIIT_PL
-:{front}     NMN_41ASK/VIIT_PL ;
+:{front}     NMN_41HAIK/VIIT_PL ;
 
 !LEXICON N_41LAUL !!= @CODE@ aig:aig
 !!! * Yaml: __aig, aig__
@@ -1940,6 +2048,24 @@ LEXICON N_44SWDA-SG
 :{back}     NMN_44SWDA-SG ;
 LEXICON N_44SWDA_PL
 :{back}     NMN_44SWDA_PL ;
+
+LEXICON N_44RAGJA !!= @CODE@ ragja:ra{kgØ}ja
+: ATTESTED-NOUN-STEM-CONTINUED ;
+        N_44RAGJA-SG ;
+ N_44RAGJA_PL ;
+LEXICON N_44RAGJA-SG
+:{back}     NMN_44RAGJA-SG ;
+LEXICON N_44RAGJA_PL
+:{back}     NMN_44RAGJA_PL ;
+
+LEXICON N_44TSIGA !!= @CODE@ sõda:sõ{tØ}{tdØ}a
+: ATTESTED-NOUN-STEM-CONTINUED ;
+        N_44TSIGA-SG ;
+ N_44TSIGA_PL ;
+LEXICON N_44TSIGA-SG
+:{back}     NMN_44TSIGA-SG ;
+LEXICON N_44TSIGA_PL
+:{back}     NMN_44TSIGA_PL ;
 
 
 LEXICON N_45KANA !!= @CODE@ kana:ka{nØ}na
@@ -2911,21 +3037,21 @@ LEXICON NMN_8WILDE/DRAKE_PL
 !  NMN_8AASTAK-SG ;
 !  NMN_8AASTAK_PL ;
 LEXICON NMN_8AASTAK-SG 
-:^G3        Harm_Neutr_SG_NOM  ;
-:^G2%>{aä}    SG_GEN_ZERO ;
-:^G3%>{aä}    Harm_Neutr_SG_ALL_lE-STEM        ;
-+Err/Dial:^G2%>{aä}    Harm_Neutr_SG_ALL_lE-STEM        ;
-:^G3%>{aä}    Harm_Neutr_SG_PAR_t        ;
-:^G3%>{aä}    Harm_Neutr_SG_ILL_he       ;
-:^G2%>{aä} SG_COM ;
+:^G2        Harm_Neutr_SG_NOM  ;
+:^G1%>{aä}    SG_GEN_ZERO ;
+:^G2%>{aä}    Harm_Neutr_SG_ALL_lE-STEM        ;
++Err/Dial:^G1%>{aä}    Harm_Neutr_SG_ALL_lE-STEM        ;
+:^G2%>{aä}    Harm_Neutr_SG_PAR_t        ;
+:^G2%>{aä}    Harm_Neutr_SG_ILL_he       ;
+:^G1%>{aä} SG_COM ;
 
 LEXICON NMN_8AASTAK_PL 
-:^G2%>{aä}    Harm_Neutr_PL_NOM ;
-:^G2%>i    Harm_Neutr_PL_GEN_dE ;
-:^G3%>i        PL_ILL_he       ;
-:^G2%>i        PL_ALL_lE-STEM       ;
-:^G3%>i      PL_PAR_t        ;
-:^G2%>idõ        PL_COM       ;
+:^G1%>{aä}    Harm_Neutr_PL_NOM ;
+:^G1%>i    Harm_Neutr_PL_GEN_dE ;
+:^G2%>i        PL_ILL_he       ;
+:^G1%>i        PL_ALL_lE-STEM       ;
+:^G2%>i      PL_PAR_t        ;
+:^G1%>idõ        PL_COM       ;
 
 
 LEXICON NMN_36RAMM/SILM !!= * **@CODE@** silm:silm
@@ -5995,20 +6121,20 @@ LEXICON NMN_33XX/IGAE !!igä:i{kØ}{kgØ}ä
   NMN_33XX/IGAE_PL ;
 
 LEXICON NMN_33XX/IGAE-SG 
-:^Pen^G2        Harm_Neutr_SG_NOM  ;
-:^Pen^G1       SG_GEN_ZERO-STEM        ;
-:^Pen^G4       Harm_Neutr_SG_ILL_ZERO        ;
-:^Pen^G3       Harm_Neutr_SG_PAR_ZERO        ;
+:^Pen^G1        Harm_Neutr_SG_NOM  ;
+:^Pen^G0       SG_GEN_ZERO-STEM        ;
+:^Pen^G3       Harm_Neutr_SG_ILL_ZERO        ;
+:^Pen^G2       Harm_Neutr_SG_PAR_ZERO        ;
 
 LEXICON NMN_33XX/IGAE_PL 
-:^Pen^G1       Harm_Neutr_PL_NOM ;
-:^Pen^G3^VowRM%>i    PL_GEN_ZERO ;
-:^Pen^G3^VowRM%>i    Harm_Neutr_PL_PAR_ZERO ;
-:^Pen^G4^VowRM%>i    PL_ILL_he ;
-:^Pen^G3^VowRM%>i  PL_ALL_lE-STEM ;
-:^Pen^G3^VowRM%>i    PL_COM ;
-+Err/Dial:^Pen^G4^VowRM%>i    Harm_Neutr_PL_ILL_ZERO ;
-+Err/Dial:^Pen^G4^VowRM%>i    PL_ILL_dE ;
+:^Pen^G0       Harm_Neutr_PL_NOM ;
+:^Pen^G2^VowRM%>i    PL_GEN_ZERO ;
+:^Pen^G2^VowRM%>i    Harm_Neutr_PL_PAR_ZERO ;
+:^Pen^G3^VowRM%>i    PL_ILL_he ;
+:^Pen^G2^VowRM%>i  PL_ALL_lE-STEM ;
+:^Pen^G2^VowRM%>i    PL_COM ;
++Err/Dial:^Pen^G3^VowRM%>i    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:^Pen^G3^VowRM%>i    PL_ILL_dE ;
 
 !LEXICON NMN_33JWGI/MAEGI
 !  NMN_33JWGI/MAEGI-SG ;
@@ -6016,22 +6142,22 @@ LEXICON NMN_33XX/IGAE_PL
 
 LEXICON NMN_33JWGI/MAEGI-SG 
 !tõ{pØ}{pbv}
-:^G2%>i        Harm_Neutr_SG_NOM  ;
+:^G1%>i        Harm_Neutr_SG_NOM  ;
 	NMN_33JWGI/MAEGI-SG_OBL ;
 LEXICON NMN_33JWGI/MAEGI-SG_OBL
-:^G1%>{eõ}       SG_GEN_ZERO-STEM        ;
-:^G4%>{eõ}       Harm_Neutr_SG_ILL_ZERO        ;
-:^G3%>{eõ}       Harm_Neutr_SG_PAR_ZERO        ;
+:^G0%>{eõ}       SG_GEN_ZERO-STEM        ;
+:^G3%>{eõ}       Harm_Neutr_SG_ILL_ZERO        ;
+:^G2%>{eõ}       Harm_Neutr_SG_PAR_ZERO        ;
 
 LEXICON NMN_33JWGI/MAEGI_PL 
-:^G1%>{eõ}       Harm_Neutr_PL_NOM ;
-:^G3%>i    PL_GEN_ZERO ;
-:^G3%>i    Harm_Neutr_PL_PAR_ZERO ;
-:^G4%>i    PL_ILL_he ;
-:^G3%>i  PL_ALL_lE-STEM ;
-:^G3%>i    PL_COM ;
-+Err/Dial:%>^G4%>i    Harm_Neutr_PL_ILL_ZERO ;
-+Err/Dial:%>^G4%>i    PL_ILL_dE ;
+:^G0%>{eõ}       Harm_Neutr_PL_NOM ;
+:^G2%>i    PL_GEN_ZERO ;
+:^G2%>i    Harm_Neutr_PL_PAR_ZERO ;
+:^G3%>i    PL_ILL_he ;
+:^G2%>i  PL_ALL_lE-STEM ;
+:^G2%>i    PL_COM ;
++Err/Dial:%>^G3%>i    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:%>^G3%>i    PL_ILL_dE ;
 
 !LEXICON NMN_34TULI/SUELI
 !  NMN_34TULI/SUELI-SG ;
@@ -6083,22 +6209,22 @@ LEXICON NMN_35EGAE !!= * @CODE@ egä:e{kØ}{kg}ä
   NMN_35EGAE_PL ;
 
 LEXICON NMN_35EGAE-SG 
-:^Pen^G2        Harm_Neutr_SG_NOM  ;
-:^Pen^G2       SG_GEN_ZERO-STEM        ;
-:^Pen^G4       Harm_Neutr_SG_ILL_ZERO        ;  ! ekkä
-:^Pen^G3       Harm_Neutr_SG_PAR_ZERO        ;  ! ekä
+:^Pen^G1        Harm_Neutr_SG_NOM  ;
+:^Pen^G1       SG_GEN_ZERO-STEM        ;
+:^Pen^G3       Harm_Neutr_SG_ILL_ZERO        ;  ! ekkä
+:^Pen^G2       Harm_Neutr_SG_PAR_ZERO        ;  ! ekä
 
 LEXICON NMN_35EGAE_PL 
-:^Pen^G2       Harm_Neutr_PL_NOM ;  ! tarõq
-:^Pen^G3^VowRM%>i    PL_GEN_ZERO ;
-:^Pen^G3^VowRM%>i    Harm_Neutr_PL_PAR_ZERO ;
-:^Pen^G4^VowRM%>i    Harm_Neutr_PL_ILL_ZERO ;
-:^Pen^G3^VowRM%>i    PL_ILL_he ;
-:^Pen^G3^VowRM%>i  PL_ALL_lE-STEM ;
-:^Pen^G3^VowRM%>i    PL_COM ;
+:^Pen^G1       Harm_Neutr_PL_NOM ;  ! tarõq
+:^Pen^G2^VowRM%>i    PL_GEN_ZERO ;
+:^Pen^G2^VowRM%>i    Harm_Neutr_PL_PAR_ZERO ;
+:^Pen^G3^VowRM%>i    Harm_Neutr_PL_ILL_ZERO ;
+:^Pen^G2^VowRM%>i    PL_ILL_he ;
+:^Pen^G2^VowRM%>i  PL_ALL_lE-STEM ;
+:^Pen^G2^VowRM%>i    PL_COM ;
 
-+Err/Dial:^Pen^G3^VowRM%>i    PL_ILL_dE ;
-+Err/Dial:^Pen^G2^VowRM%>i  PL_ALL_lE-STEM ;
++Err/Dial:^Pen^G2^VowRM%>i    PL_ILL_dE ;
++Err/Dial:^Pen^G1^VowRM%>i  PL_ALL_lE-STEM ;
 
 
 
@@ -6274,21 +6400,21 @@ LEXICON NMN_36KWIK1/XX1  !!= * @CODE@ kõiḱ:kõi{kØ}{kḱg}
   NMN_36KWIK1/XX1-SG ;
   NMN_36KWIK1/XX1_PL ;
 LEXICON NMN_36KWIK1/XX1-SG 
-:^G3^PAL        Harm_Neutr_SG_NOM  ;
-+Err/Orth-no-pal:^G3^NoPAL        Harm_Neutr_SG_NOM  ;
-:^G2^NoPAL%>{eõ}       SG_GEN_ZERO-STEM        ;
-:^G3^NoPAL%>{eõ}       Harm_Neutr_SG_ILL_ZERO        ;
-:^G3^NoPAL%>{eõ}       Harm_Neutr_SG_PAR_ZERO        ;
+:^G2^PAL        Harm_Neutr_SG_NOM  ;
++Err/Orth-no-pal:^G2^NoPAL        Harm_Neutr_SG_NOM  ;
+:^G1^NoPAL%>{eõ}       SG_GEN_ZERO-STEM        ;
+:^G2^NoPAL%>{eõ}       Harm_Neutr_SG_ILL_ZERO        ;
+:^G2^NoPAL%>{eõ}       Harm_Neutr_SG_PAR_ZERO        ;
 
 LEXICON NMN_36KWIK1/XX1_PL 
-:^G2^NoPAL%>{eõ}       Harm_Neutr_PL_NOM ;
-:^G2^NoPAL%>i    PL_GEN_ZERO ;
-:^G3^NoPAL%>i    Harm_Neutr_PL_PAR_ZERO ;
-:^G3^NoPAL%>i    PL_ILL_he ;
-+Err/Dial:^G4^NoPAL%>i    Harm_Neutr_PL_ILL_ZERO ;
-+Err/Dial:^G4^NoPAL%>i    PL_ILL_dE ;
-:^G2^NoPAL%>i  PL_ALL_lE-STEM ;
-:^G4^NoPAL%>i PL_COM ;
+:^G1^NoPAL%>{eõ}       Harm_Neutr_PL_NOM ;
+:^G1^NoPAL%>i    PL_GEN_ZERO ;
+:^G2^NoPAL%>i    Harm_Neutr_PL_PAR_ZERO ;
+:^G2^NoPAL%>i    PL_ILL_he ;
++Err/Dial:^G3^NoPAL%>i    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:^G3^NoPAL%>i    PL_ILL_dE ;
+:^G1^NoPAL%>i  PL_ALL_lE-STEM ;
+:^G3^NoPAL%>i PL_COM ;
 
 
 !LEXICON NMN_36PAEIV !!= * @CODE@ päiv:päiv
@@ -6769,66 +6895,170 @@ LEXICON NMN_38PUTR_PL
 !  NMN_39VIDO-SG ;
 !  NMN_39VIDO_PL ;
 LEXICON NMN_39VIDO-SG 
-:^Pen^G2        Harm_Neutr_SG_NOM  ;
-:^Pen^G1        SG_GEN_ZERO-STEM        ;
-:^Pen^G3 Harm_Neutr_SG_PAR_ZERO    ;
-:^Pen^G4 Harm_Neutr_SG_ILL_ZERO   ;
+:^Pen^G1        Harm_Neutr_SG_NOM  ;
+:^Pen^G0        SG_GEN_ZERO-STEM        ;
+:^Pen^G2 Harm_Neutr_SG_PAR_ZERO    ;
+:^Pen^G3 Harm_Neutr_SG_ILL_ZERO   ;
 
 LEXICON NMN_39VIDO_PL 
-:^Pen^G1        Harm_Neutr_PL_NOM ;
-:^Pen^G3^VowRM%>{eõ}  PL_GEN_ZERO ;
-:^Pen^G4^VowRM%>{eõ}      Harm_Neutr_PL_ILL_ZERO       ;
-:^Pen^G4^VowRM%>{eõ}      PL_ILL_he       ;
-:^Pen^G4^VowRM%>{eõ}      PL_ILL_dE       ;
-:^Pen^G3^VowRM%>{eõ}      Harm_Neutr_PL_PAR_ZERO        ;
-:^Pen^G3^VowRM%>{eõ}      PL_ALL_lE-STEM       ;
-:^Pen^G3^VowRM%>{aä}  PL_GEN_ZERO ;
-:^Pen^G4^VowRM%>{aä}      Harm_Neutr_PL_ILL_ZERO       ;
-:^Pen^G4^VowRM%>{aä}      PL_ILL_he       ;
-:^Pen^G4^VowRM%>{aä}      PL_ILL_dE       ;
-:^Pen^G3^VowRM%>{aä}      Harm_Neutr_PL_PAR_ZERO        ;
-:^Pen^G3^VowRM%>{aä}      PL_ALL_lE-STEM       ;
-:^Pen^G3^VowRM%>{aä} PL_COM ;
-:^Pen^G3^VowRM%>{eõ} PL_COM ;
+:^Pen^G0        Harm_Neutr_PL_NOM ;
+:^Pen^G2^VowRM%>{eõ}  PL_GEN_ZERO ;
+:^Pen^G3^VowRM%>{eõ}      Harm_Neutr_PL_ILL_ZERO       ;
+:^Pen^G3^VowRM%>{eõ}      PL_ILL_he       ;
+:^Pen^G3^VowRM%>{eõ}      PL_ILL_dE       ;
+:^Pen^G2^VowRM%>{eõ}      Harm_Neutr_PL_PAR_ZERO        ;
+:^Pen^G2^VowRM%>{eõ}      PL_ALL_lE-STEM       ;
+:^Pen^G2^VowRM%>{aä}  PL_GEN_ZERO ;
+:^Pen^G3^VowRM%>{aä}      Harm_Neutr_PL_ILL_ZERO       ;
+:^Pen^G3^VowRM%>{aä}      PL_ILL_he       ;
+:^Pen^G3^VowRM%>{aä}      PL_ILL_dE       ;
+:^Pen^G2^VowRM%>{aä}      Harm_Neutr_PL_PAR_ZERO        ;
+:^Pen^G2^VowRM%>{aä}      PL_ALL_lE-STEM       ;
+:^Pen^G2^VowRM%>{aä} PL_COM ;
+:^Pen^G2^VowRM%>{eõ} PL_COM ;
+
+!LEXICON NMN_39KODA !!= * @CODE@ koda:koda
+!  NMN_39KODA-SG ;
+!  NMN_39KODA_PL ;
+LEXICON NMN_39KODA-SG 
+:^Pen^G1        Harm_Neutr_SG_NOM  ;
+:^Pen^G0        SG_GEN_ZERO-STEM        ;
+:^Pen^G2 Harm_Neutr_SG_PAR_ZERO    ;
+:^Pen^G3 Harm_Neutr_SG_ILL_ZERO   ;
+
+LEXICON NMN_39KODA_PL 
+:^Pen^G0        Harm_Neutr_PL_NOM ;
+:^Pen^G2^VowRM%>{eõ}  PL_GEN_ZERO ;
+:^Pen^G3^VowRM%>{eõ}      Harm_Neutr_PL_ILL_ZERO       ;
+:^Pen^G3^VowRM%>{eõ}      PL_ILL_he       ;
+:^Pen^G3^VowRM%>{eõ}      PL_ILL_dE       ;
+:^Pen^G2^VowRM%>{eõ}      Harm_Neutr_PL_PAR_ZERO        ;
+:^Pen^G2^VowRM%>{eõ}      PL_ALL_lE-STEM       ;
+:^Pen^G2^VowRM%>{aä}  PL_GEN_ZERO ;
+:^Pen^G3^VowRM%>{aä}      Harm_Neutr_PL_ILL_ZERO       ;
+:^Pen^G3^VowRM%>{aä}      PL_ILL_he       ;
+:^Pen^G3^VowRM%>{aä}      PL_ILL_dE       ;
+:^Pen^G2^VowRM%>{aä}      Harm_Neutr_PL_PAR_ZERO        ;
+:^Pen^G2^VowRM%>{aä}      PL_ALL_lE-STEM       ;
+:^Pen^G2^VowRM%>{aä} PL_COM ;
+:^Pen^G2^VowRM%>{eõ} PL_COM ;
+
+!LEXICON NMN_39LUBA !!= * @CODE@ luba:luba
+!  NMN_39LUBA-SG ;
+!  NMN_39LUBA_PL ;
+LEXICON NMN_39LUBA-SG 
+:^Pen^G1        Harm_Neutr_SG_NOM  ;
+:^Pen^G0        SG_GEN_ZERO-STEM        ;
+:^Pen^G2 Harm_Neutr_SG_PAR_ZERO    ;
+:^Pen^G3 Harm_Neutr_SG_ILL_ZERO   ;
+
+LEXICON NMN_39LUBA_PL 
+:^Pen^G0        Harm_Neutr_PL_NOM ;
+:^Pen^G2^VowRM%>{eõ}  PL_GEN_ZERO ;
+:^Pen^G3^VowRM%>{eõ}      Harm_Neutr_PL_ILL_ZERO       ;
+:^Pen^G3^VowRM%>{eõ}      PL_ILL_he       ;
+:^Pen^G3^VowRM%>{eõ}      PL_ILL_dE       ;
+:^Pen^G2^VowRM%>{eõ}      Harm_Neutr_PL_PAR_ZERO        ;
+:^Pen^G2^VowRM%>{eõ}      PL_ALL_lE-STEM       ;
+:^Pen^G2^VowRM%>{aä}  PL_GEN_ZERO ;
+:^Pen^G3^VowRM%>{aä}      Harm_Neutr_PL_ILL_ZERO       ;
+:^Pen^G3^VowRM%>{aä}      PL_ILL_he       ;
+:^Pen^G3^VowRM%>{aä}      PL_ILL_dE       ;
+:^Pen^G2^VowRM%>{aä}      Harm_Neutr_PL_PAR_ZERO        ;
+:^Pen^G2^VowRM%>{aä}      PL_ALL_lE-STEM       ;
+:^Pen^G2^VowRM%>{aä} PL_COM ;
+:^Pen^G2^VowRM%>{eõ} PL_COM ;
+
+!LEXICON NMN_39KUBO !!= * @CODE@ kubo:kubo
+!  NMN_39KUBO-SG ;
+!  NMN_39KUBO_PL ;
+LEXICON NMN_39KUBO-SG 
+:^Pen^G1        Harm_Neutr_SG_NOM  ;
+:^Pen^G0        SG_GEN_ZERO-STEM        ;
+:^Pen^G2 Harm_Neutr_SG_PAR_ZERO    ;
+:^Pen^G3 Harm_Neutr_SG_ILL_ZERO   ;
+
+LEXICON NMN_39KUBO_PL 
+:^Pen^G0        Harm_Neutr_PL_NOM ;
+:^Pen^G2^VowRM%>{eõ}  PL_GEN_ZERO ;
+:^Pen^G3^VowRM%>{eõ}      Harm_Neutr_PL_ILL_ZERO       ;
+:^Pen^G3^VowRM%>{eõ}      PL_ILL_he       ;
+:^Pen^G3^VowRM%>{eõ}      PL_ILL_dE       ;
+:^Pen^G2^VowRM%>{eõ}      Harm_Neutr_PL_PAR_ZERO        ;
+:^Pen^G2^VowRM%>{eõ}      PL_ALL_lE-STEM       ;
+:^Pen^G2^VowRM%>{aä}  PL_GEN_ZERO ;
+:^Pen^G3^VowRM%>{aä}      Harm_Neutr_PL_ILL_ZERO       ;
+:^Pen^G3^VowRM%>{aä}      PL_ILL_he       ;
+:^Pen^G3^VowRM%>{aä}      PL_ILL_dE       ;
+:^Pen^G2^VowRM%>{aä}      Harm_Neutr_PL_PAR_ZERO        ;
+:^Pen^G2^VowRM%>{aä}      PL_ALL_lE-STEM       ;
+:^Pen^G2^VowRM%>{aä} PL_COM ;
+:^Pen^G2^VowRM%>{eõ} PL_COM ;
+
+!LEXICON NMN_39LUGU !!= * @CODE@ lugu:lugu
+!  NMN_39LUGU-SG ;
+!  NMN_39LUGU_PL ;
+LEXICON NMN_39LUGU-SG 
+:^Pen^G1        Harm_Neutr_SG_NOM  ;
+:^Pen^G0        SG_GEN_ZERO-STEM        ;
+:^Pen^G2 Harm_Neutr_SG_PAR_ZERO    ;
+:^Pen^G3 Harm_Neutr_SG_ILL_ZERO   ;
+
+LEXICON NMN_39LUGU_PL 
+:^Pen^G0        Harm_Neutr_PL_NOM ;
+:^Pen^G2^VowRM%>{eõ}  PL_GEN_ZERO ;
+:^Pen^G3^VowRM%>{eõ}      Harm_Neutr_PL_ILL_ZERO       ;
+:^Pen^G3^VowRM%>{eõ}      PL_ILL_he       ;
+:^Pen^G3^VowRM%>{eõ}      PL_ILL_dE       ;
+:^Pen^G2^VowRM%>{eõ}      Harm_Neutr_PL_PAR_ZERO        ;
+:^Pen^G2^VowRM%>{eõ}      PL_ALL_lE-STEM       ;
+:^Pen^G2^VowRM%>{aä}  PL_GEN_ZERO ;
+:^Pen^G3^VowRM%>{aä}      Harm_Neutr_PL_ILL_ZERO       ;
+:^Pen^G3^VowRM%>{aä}      PL_ILL_he       ;
+:^Pen^G3^VowRM%>{aä}      PL_ILL_dE       ;
+:^Pen^G2^VowRM%>{aä}      Harm_Neutr_PL_PAR_ZERO        ;
+:^Pen^G2^VowRM%>{aä}      PL_ALL_lE-STEM       ;
+:^Pen^G2^VowRM%>{aä} PL_COM ;
+:^Pen^G2^VowRM%>{eõ} PL_COM ;
 
 !LEXICON NMN_39HAEBUE !!= * @CODE@ häbü:häbü
 !  NMN_39HAEBUE-SG ;
 !  NMN_39HAEBUE_PL ;
 LEXICON NMN_39HAEBUE-SG 
-:^Pen^G2        Harm_Neutr_SG_NOM  ;
-:^Pen^G1        SG_GEN_ZERO-STEM        ;
-:^Pen^G3 Harm_Neutr_SG_PAR_ZERO    ;
-:^Pen^G4 Harm_Neutr_SG_ILL_ZERO   ;
+:^Pen^G1        Harm_Neutr_SG_NOM  ;
+:^Pen^G0        SG_GEN_ZERO-STEM        ;
+:^Pen^G2 Harm_Neutr_SG_PAR_ZERO    ;
+:^Pen^G3 Harm_Neutr_SG_ILL_ZERO   ;
 
 LEXICON NMN_39HAEBUE_PL 
-:^Pen^G1        Harm_Neutr_PL_NOM ;
-:^Pen^G3^VowRM%>{eõ}  PL_GEN_ZERO ;
-:^Pen^G4^VowRM%>{eõ}      PL_ILL_he       ;
-+Err/Dial:^Pen^G4^VowRM%>{eõ}      Harm_Neutr_PL_ILL_ZERO       ;
-+Err/Dial:^Pen^G4^VowRM%>{eõ}      PL_ILL_dE       ;
-:^Pen^G3^VowRM%>{eõ}      Harm_Neutr_PL_PAR_ZERO        ;
-:^Pen^G3^VowRM%>{eõ}      PL_ALL_lE-STEM       ;
-:^Pen^G3^VowRM%>{eõ} PL_COM ;
-+Err/Dial:^Pen^G3^VowRM%>{aä}  PL_GEN_ZERO ;
-+Err/Dial:^Pen^G4^VowRM%>{aä}      Harm_Neutr_PL_ILL_ZERO       ;
-+Err/Dial:^Pen^G4^VowRM%>{aä}      PL_ILL_he       ;
-+Err/Dial:^Pen^G4^VowRM%>{aä}      PL_ILL_dE       ;
-+Err/Dial:^Pen^G3^VowRM%>{aä}      Harm_Neutr_PL_PAR_ZERO        ;
-+Err/Dial:^Pen^G3^VowRM%>{aä}      PL_ALL_lE-STEM       ;
-+Err/Dial:^Pen^G3^VowRM%>{aä} PL_COM ;
+:^Pen^G0        Harm_Neutr_PL_NOM ;
+:^Pen^G2^VowRM%>{eõ}  PL_GEN_ZERO ;
+:^Pen^G3^VowRM%>{eõ}      PL_ILL_he       ;
++Err/Dial:^Pen^G3^VowRM%>{eõ}      Harm_Neutr_PL_ILL_ZERO       ;
++Err/Dial:^Pen^G3^VowRM%>{eõ}      PL_ILL_dE       ;
+:^Pen^G2^VowRM%>{eõ}      Harm_Neutr_PL_PAR_ZERO        ;
+:^Pen^G2^VowRM%>{eõ}      PL_ALL_lE-STEM       ;
+:^Pen^G2^VowRM%>{eõ} PL_COM ;
++Err/Dial:^Pen^G2^VowRM%>{aä}  PL_GEN_ZERO ;
++Err/Dial:^Pen^G3^VowRM%>{aä}      Harm_Neutr_PL_ILL_ZERO       ;
++Err/Dial:^Pen^G3^VowRM%>{aä}      PL_ILL_he       ;
++Err/Dial:^Pen^G3^VowRM%>{aä}      PL_ILL_dE       ;
++Err/Dial:^Pen^G2^VowRM%>{aä}      Harm_Neutr_PL_PAR_ZERO        ;
++Err/Dial:^Pen^G2^VowRM%>{aä}      PL_ALL_lE-STEM       ;
++Err/Dial:^Pen^G2^VowRM%>{aä} PL_COM ;
 
 
-LEXICON NMN_40TALO/HELUE
+LEXICON NMN_40HENU/HELUE
 ! G2, G3
-  NMN_40TALO/HELUE-SG ;
-  NMN_40TALO/HELUE_PL ;
-LEXICON NMN_40TALO/HELUE-SG 
+  NMN_40HENU/HELUE-SG ;
+  NMN_40HENU/HELUE_PL ;
+LEXICON NMN_40HENU/HELUE-SG 
 :^Pen^WGStem        Harm_Neutr_SG_NOM  ;
 :^Pen^WGStem       SG_GEN_ZERO-STEM        ;
 :^Pen^StrGStem       Harm_Neutr_SG_ILL_ZERO        ;
 :^Pen^StrGStem       Harm_Neutr_SG_PAR_ZERO        ;
 
-LEXICON NMN_40TALO/HELUE_PL 
+LEXICON NMN_40HENU/HELUE_PL 
 :^Pen^WGStem       Harm_Neutr_PL_NOM ;
 +Err/Dial:^Pen^StrGStem^VowRM{aä}    PL_GEN_ZERO ;
 :^Pen^StrGStem^VowRM{eõ}    PL_GEN_ZERO ;
@@ -6847,16 +7077,37 @@ LEXICON NMN_40TALO/HELUE_PL
 :^Pen^StrGStem^VowRM{eõ} PL_COM ;
 +Err/Dial:^Pen^StrGStem^VowRM{aä} PL_COM ;
 
-!LEXICON NMN_40SAVV/TUEKK !!= * @CODE@ savv:savvu tükk:tü{kØ}kü
-!  NMN_40SAVV/TUEKK-SG ;
-!  NMN_40SAVV/TUEKK_PL ;
-LEXICON NMN_40SAVV/TUEKK-SG 
+LEXICON NMN_40TALO
+! G2, G3
+  NMN_40TALO-SG ;
+  NMN_40TALO_PL ;
+LEXICON NMN_40TALO-SG 
+:^Pen^WGStem        Harm_Neutr_SG_NOM  ;
+:^Pen^WGStem       SG_GEN_ZERO-STEM        ;
+:^Pen^StrGStem       Harm_Neutr_SG_ILL_ZERO        ;
+:^Pen^StrGStem       Harm_Neutr_SG_PAR_ZERO        ;
+
+LEXICON NMN_40TALO_PL 
+:^Pen^WGStem       Harm_Neutr_PL_NOM ;
+:^Pen^StrGStem^VowRM{eõ}    PL_GEN_ZERO ;
+:^Pen^StrGStem^VowRM{eõ}    Harm_Neutr_PL_PAR_ZERO ;
++Err/Dial:^Pen^StrGStem^VowRM{eõ}    Harm_Neutr_PL_ILL_ZERO ;
+:^Pen^StrGStem^VowRM{eõ}    PL_ILL_he ;
++Err/Dial:^Pen^StrGStem^VowRM{eõ}    PL_ILL_dE ;
+:^Pen^WGStem^VowRM{eõ}    PL_ALL_lE-STEM ;
++Err/Dial:^Pen^StrGStem^VowRM{eõ}    PL_ALL_lE-STEM ;
+:^Pen^StrGStem^VowRM{eõ} PL_COM ;
+
+!LEXICON NMN_41SAVV/TUEKK !!= * @CODE@ savv:savvu tükk:tü{kØ}kü
+!  NMN_41SAVV/TUEKK-SG ;
+!  NMN_41SAVV/TUEKK_PL ;
+LEXICON NMN_41SAVV/TUEKK-SG 
 :^Pen^StrGStem^VowRM        Harm_Neutr_SG_NOM  ;
 :^Pen^WGStem       SG_GEN_ZERO-STEM        ;
 :^Pen^StrGStem       Harm_Neutr_SG_ILL_ZERO        ;
 :^Pen^StrGStem       Harm_Neutr_SG_PAR_ZERO        ;
 
-LEXICON NMN_40SAVV/TUEKK_PL 
+LEXICON NMN_41SAVV/TUEKK_PL 
 :^Pen^WGStem       Harm_Neutr_PL_NOM ;
 +Err/Dial:^Pen^StrGStem^VowRM{aä}    PL_GEN_ZERO ;
 :^Pen^StrGStem^VowRM{eõ}    PL_GEN_ZERO ;
@@ -6873,6 +7124,24 @@ LEXICON NMN_40SAVV/TUEKK_PL
 :^Pen^StrGStem^VowRM{eõ}    PL_COM ;
 +Err/Dial:^Pen^StrGStem^VowRM{aä}    PL_COM ;
 
+!LEXICON NMN_41PAKK !!= * @CODE@ pakk:pa{kØ}ko
+!  NMN_41PAKK-SG ;
+!  NMN_41PAKK_PL ;
+LEXICON NMN_41PAKK-SG 
+:^Pen^StrGStem^VowRM        Harm_Neutr_SG_NOM  ;
+:^Pen^WGStem       SG_GEN_ZERO-STEM        ;
+:^Pen^StrGStem       Harm_Neutr_SG_ILL_ZERO        ;
+:^Pen^StrGStem       Harm_Neutr_SG_PAR_ZERO        ;
+
+LEXICON NMN_41PAKK_PL 
+:^Pen^WGStem       Harm_Neutr_PL_NOM ;
+:^Pen^StrGStem^VowRM{eõ}    PL_GEN_ZERO ;
+:^Pen^StrGStem^VowRM{eõ}    Harm_Neutr_PL_PAR_ZERO ;
++Err/Dial:^Pen^StrGStem^VowRM{eõ}    Harm_Neutr_PL_ILL_ZERO ;
+:^Pen^StrGStem^VowRM{eõ}    PL_ILL_hE ;
++Err/Dial:^Pen^StrGStem^VowRM{eõ}    PL_ILL_dE ;
+:^Pen^WGStem^VowRM{eõ}    PL_ALL_lE-STEM ;
+:^Pen^StrGStem^VowRM{eõ}    PL_COM ;
 
 
 !LEXICON NMN_40UJA/IJAE
@@ -7006,21 +7275,129 @@ LEXICON NMN_41AIG_PL
 :igõ    PL_COM ;
 
 
-!LEXICON NMN_41ASK/VIIT !!= @CODE@ ask:asko, laul:laulu
-!  NMN_41ASK/VIIT-SG ;
-!  NMN_41ASK/VIIT_PL ;
+!LEXICON NMN_41HAIK/VIIT !!= @CODE@ ask:asko, laul:laulu
+!  NMN_41HAIK/VIIT-SG ;
+!  NMN_41HAIK/VIIT_PL ;
 
-LEXICON NMN_41ASK/VIIT-SG !CHECK VOW HEIGHT 2019-08-30
+LEXICON NMN_41HAIK/VIIT-SG !CHECK VOW HEIGHT 2019-08-30
 :^Pen^VOWRaise^Pen^StrGStem^VowRM        Harm_Neutr_SG_NOM  ;
 :^Pen^VOWLower^Pen^WGStem       SG_GEN_ZERO-STEM        ;
 :^Pen^VOWRaise^Pen^StrGStem       Harm_Neutr_SG_ILL_ZERO        ;
 :^Pen^VOWRaise^Pen^StrGStem       Harm_Neutr_SG_PAR_ZERO        ;
 
-LEXICON NMN_41ASK/VIIT_PL 
+LEXICON NMN_41HAIK/VIIT_PL 
 :^Pen^VOWLower^Pen^WGStem       Harm_Neutr_PL_NOM ;
- NMN_41ASK/VIIT_PL_OBL ;
-@R.VowHarm.F@+Err/Orth-front:@R.VowHarm.F@{front}  NMN_41ASK/VIIT_PL_OBL ;
-LEXICON NMN_41ASK/VIIT_PL_OBL
+ NMN_41HAIK/VIIT_PL_OBL ;
+@R.VowHarm.F@+Err/Orth-front:@R.VowHarm.F@{front}  NMN_41HAIK/VIIT_PL_OBL ;
+LEXICON NMN_41HAIK/VIIT_PL_OBL
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_GEN_ZERO ;
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    Harm_Neutr_PL_PAR_ZERO ;
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_ILL_he ;
+:^Pen^VOWLower^Pen^WGStem^VowRM%>{eõ}    PL_ALL_lE-STEM ;
+
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_COM ;
+
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{aä}    PL_GEN_ZERO ;
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{aä}    Harm_Neutr_PL_PAR_ZERO ;
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_ILL_dE ;
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{aä}    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{aä}    PL_ILL_dE ;
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{aä}    PL_ILL_he ;
++Err/Dial:^Pen^VOWLower^Pen^WGStem^VowRM%>{aä}    PL_ALL_lE-STEM ;
++Err/Dial:^Pen^VOWLower^Pen^StrGStem^VowRM%>{aä}    PL_COM ;
+
+!LEXICON NMN_41ASK !!= @CODE@ ask:asko, laul:laulu
+!  NMN_41ASK-SG ;
+!  NMN_41ASK_PL ;
+
+LEXICON NMN_41ASK-SG !CHECK VOW HEIGHT 2019-08-30
+:^Pen^VOWRaise^Pen^StrGStem^VowRM        Harm_Neutr_SG_NOM  ;
+:^Pen^VOWLower^Pen^WGStem       SG_GEN_ZERO-STEM        ;
+:^Pen^VOWRaise^Pen^StrGStem       Harm_Neutr_SG_ILL_ZERO        ;
+:^Pen^VOWRaise^Pen^StrGStem       Harm_Neutr_SG_PAR_ZERO        ;
+
+LEXICON NMN_41ASK_PL 
+:^Pen^VOWLower^Pen^WGStem       Harm_Neutr_PL_NOM ;
+ NMN_41ASK_PL_OBL ;
+@R.VowHarm.F@+Err/Orth-front:@R.VowHarm.F@{front}  NMN_41ASK_PL_OBL ;
+LEXICON NMN_41ASK_PL_OBL
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_GEN_ZERO ;
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    Harm_Neutr_PL_PAR_ZERO ;
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_ILL_he ;
+:^Pen^VOWLower^Pen^WGStem^VowRM%>{eõ}    PL_ALL_lE-STEM ;
+
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_COM ;
+
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_ILL_dE ;
+
+!LEXICON NMN_41VUUL !!= @CODE@ ask:asko, laul:laulu
+!  NMN_41VUUL-SG ;
+!  NMN_41VUUL_PL ;
+
+LEXICON NMN_41VUUL-SG !CHECK VOW HEIGHT 2019-08-30
+:^Pen^VOWRaise^Pen^StrGStem^VowRM        Harm_Neutr_SG_NOM  ;
+:^Pen^VOWLower^Pen^WGStem       SG_GEN_ZERO-STEM        ;
+:^Pen^VOWRaise^Pen^StrGStem       Harm_Neutr_SG_ILL_ZERO        ;
+:^Pen^VOWRaise^Pen^StrGStem       Harm_Neutr_SG_PAR_ZERO        ;
+
+LEXICON NMN_41VUUL_PL 
+:^Pen^VOWLower^Pen^WGStem       Harm_Neutr_PL_NOM ;
+ NMN_41VUUL_PL_OBL ;
+@R.VowHarm.F@+Err/Orth-front:@R.VowHarm.F@{front}  NMN_41VUUL_PL_OBL ;
+LEXICON NMN_41VUUL_PL_OBL
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_GEN_ZERO ;
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    Harm_Neutr_PL_PAR_ZERO ;
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_ILL_he ;
+:^Pen^VOWLower^Pen^WGStem^VowRM%>{eõ}    PL_ALL_lE-STEM ;
+
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_COM ;
+
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_ILL_dE ;
+
+!LEXICON NMN_41JUUSK !!= @CODE@ ask:asko, laul:laulu
+!  NMN_41JUUSK-SG ;
+!  NMN_41JUUSK_PL ;
+
+LEXICON NMN_41JUUSK-SG !CHECK VOW HEIGHT 2019-08-30
+:^Pen^VOWRaise^Pen^StrGStem^VowRM        Harm_Neutr_SG_NOM  ;
+:^Pen^VOWLower^Pen^WGStem       SG_GEN_ZERO-STEM        ;
+:^Pen^VOWRaise^Pen^StrGStem       Harm_Neutr_SG_ILL_ZERO        ;
+:^Pen^VOWRaise^Pen^StrGStem       Harm_Neutr_SG_PAR_ZERO        ;
+
+LEXICON NMN_41JUUSK_PL 
+:^Pen^VOWLower^Pen^WGStem       Harm_Neutr_PL_NOM ;
+ NMN_41JUUSK_PL_OBL ;
+@R.VowHarm.F@+Err/Orth-front:@R.VowHarm.F@{front}  NMN_41JUUSK_PL_OBL ;
+LEXICON NMN_41JUUSK_PL_OBL
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_GEN_ZERO ;
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    Harm_Neutr_PL_PAR_ZERO ;
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_ILL_he ;
+:^Pen^VOWLower^Pen^WGStem^VowRM%>{eõ}    PL_ALL_lE-STEM ;
+
+:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_COM ;
+
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_ILL_dE ;
+
+
+!LEXICON NMN_41ARM/MUETS !!= @CODE@ arm:armo, laul:laulu
+!  NMN_41ARM/MUETS-SG ;
+!  NMN_41ARM/MUETS_PL ;
+
+LEXICON NMN_41ARM/MUETS-SG !CHECK VOW HEIGHT 2019-08-30
+:^Pen^VOWRaise^Pen^StrGStem^VowRM        Harm_Neutr_SG_NOM  ;
+:^Pen^VOWLower^Pen^WGStem       SG_GEN_ZERO-STEM        ;
+:^Pen^VOWRaise^Pen^StrGStem       Harm_Neutr_SG_ILL_ZERO        ;
+:^Pen^VOWRaise^Pen^StrGStem       Harm_Neutr_SG_PAR_ZERO        ;
+
+LEXICON NMN_41ARM/MUETS_PL 
+:^Pen^VOWLower^Pen^WGStem       Harm_Neutr_PL_NOM ;
+ NMN_41ARM/MUETS_PL_OBL ;
+@R.VowHarm.F@+Err/Orth-front:@R.VowHarm.F@{front}  NMN_41ARM/MUETS_PL_OBL ;
+LEXICON NMN_41ARM/MUETS_PL_OBL
 :^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_GEN_ZERO ;
 :^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    Harm_Neutr_PL_PAR_ZERO ;
 :^Pen^VOWRaise^Pen^StrGStem^VowRM%>{eõ}    PL_ILL_he ;
@@ -7123,33 +7500,33 @@ LEXICON NMN_43KANARIK/ELAENIK
   NMN_43KANARIK/ELAENIK_PL ;
 
 LEXICON NMN_43KANARIK/ELAENIK-SG  !usklik+A:{ˋØ}#uskli{kØ}{kg}
-:^G3        Harm_Neutr_SG_NOM  ;
-:^G2%>u       SG_GEN_ZERO-STEM        ;
-:^G4%>u       Harm_Neutr_SG_ILL_ZERO        ;
-:^G4%>u       Harm_Neutr_SG_PAR_ZERO        ;
+:^G2        Harm_Neutr_SG_NOM  ;
+:^G1%>u       SG_GEN_ZERO-STEM        ;
+:^G3%>u       Harm_Neutr_SG_ILL_ZERO        ;
+:^G3%>u       Harm_Neutr_SG_PAR_ZERO        ;
 
 LEXICON NMN_43KANARIK/ELAENIK_PL 
-:^G2%>u       Harm_Neutr_PL_NOM ;
+:^G1%>u       Harm_Neutr_PL_NOM ;
 NMN_43KANARIK/ELAENIK_PL_OBL ;
 @R.VowHarm.F@+Err/Orth-front:@R.VowHarm.F@{front} NMN_43KANARIK/ELAENIK_PL_OBL ;
 
 LEXICON NMN_43KANARIK/ELAENIK_PL_OBL
-:^G4%>{eõ}    PL_GEN_ZERO ;
-:^G4%>{eõ}    PL_ILL_he ;
-:^G4%>{eõ}    Harm_Neutr_PL_PAR_ZERO ;
-:^G2%>{eõ}    PL_ALL_lE-STEM ;
-:^G2%>{eõ}       PL_COM ;
+:^G3%>{eõ}    PL_GEN_ZERO ;
+:^G3%>{eõ}    PL_ILL_he ;
+:^G3%>{eõ}    Harm_Neutr_PL_PAR_ZERO ;
+:^G1%>{eõ}    PL_ALL_lE-STEM ;
+:^G1%>{eõ}       PL_COM ;
 
 
-+Err/Dial:^G2%>{aä}    PL_ALL_lE-STEM ;
-+Err/Dial:^G4%>{aä}    PL_GEN_ZERO ;
-+Err/Dial:^G4%>{eõ}    Harm_Neutr_PL_ILL_ZERO ;
-+Err/Dial:^G4%>{aä}    Harm_Neutr_PL_ILL_ZERO ;
-+Err/Dial:^G4%>{eõ}    PL_ILL_dE ;
-+Err/Dial:^G4%>{aä}    PL_ILL_he ;
-+Err/Dial:^G4%>{aä}    PL_ILL_dE ;
-+Err/Dial:^G4%>{aä}    Harm_Neutr_PL_PAR_ZERO ;
-+Err/Dial:^G2%>{aä}       PL_COM ;
++Err/Dial:^G1%>{aä}    PL_ALL_lE-STEM ;
++Err/Dial:^G3%>{aä}    PL_GEN_ZERO ;
++Err/Dial:^G3%>{eõ}    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:^G3%>{aä}    Harm_Neutr_PL_ILL_ZERO ;
++Err/Dial:^G3%>{eõ}    PL_ILL_dE ;
++Err/Dial:^G3%>{aä}    PL_ILL_he ;
++Err/Dial:^G3%>{aä}    PL_ILL_dE ;
++Err/Dial:^G3%>{aä}    Harm_Neutr_PL_PAR_ZERO ;
++Err/Dial:^G1%>{aä}       PL_COM ;
 
 ! for k,t,p 3,2,4
 ! for l 2,1,4
@@ -7188,19 +7565,19 @@ LEXICON NMN_43KANARIK/ELAENIK_PL_OBL
 
 LEXICON NMN_43SASLWK1/XX-SG 
 
-:^G3^PAL        Harm_Neutr_SG_NOM  ;
-+Err/Orth-no-pal:^G3^NoPAL%>        Harm_Neutr_SG_NOM  ;
-:^VOWLower^G2^NoPAL%>i       SG_GEN_ZERO-STEM        ;
-:^VOWRaise^G4^NoPAL%>i       Harm_Neutr_SG_ILL_ZERO        ;
-:^VOWRaise^G4^NoPAL%>i       Harm_Neutr_SG_PAR_ZERO        ;
+:^G2^PAL        Harm_Neutr_SG_NOM  ;
++Err/Orth-no-pal:^G2^NoPAL%>        Harm_Neutr_SG_NOM  ;
+:^VOWLower^G1^NoPAL%>i       SG_GEN_ZERO-STEM        ;
+:^VOWRaise^G3^NoPAL%>i       Harm_Neutr_SG_ILL_ZERO        ;
+:^VOWRaise^G3^NoPAL%>i       Harm_Neutr_SG_PAR_ZERO        ;
 
 LEXICON NMN_43SASLWK1/XX_PL 
-:^VOWLower^G2^NoPAL%>i       Harm_Neutr_PL_NOM ;
-:^VOWRaise^G4^NoPAL%>{eõ}    PL_GEN_ZERO ;
-:^VOWRaise^G4^NoPAL%>{eõ}    PL_ILL_he ;
-:^VOWRaise^G4^NoPAL%>{eõ}    Harm_Neutr_PL_PAR_ZERO ;
-:^VOWLower^G2^NoPAL%>{eõ}    PL_ALL_lE-STEM ;
-:^VOWLower^G2^NoPAL%>{eõ}       PL_COM ;
+:^VOWLower^G1^NoPAL%>i       Harm_Neutr_PL_NOM ;
+:^VOWRaise^G3^NoPAL%>{eõ}    PL_GEN_ZERO ;
+:^VOWRaise^G3^NoPAL%>{eõ}    PL_ILL_he ;
+:^VOWRaise^G3^NoPAL%>{eõ}    Harm_Neutr_PL_PAR_ZERO ;
+:^VOWLower^G1^NoPAL%>{eõ}    PL_ALL_lE-STEM ;
+:^VOWLower^G1^NoPAL%>{eõ}       PL_COM ;
 
 ! for k,t,p 3,2,4
 ! for l,n,r 2,1,4
@@ -7289,18 +7666,18 @@ LEXICON NMN_43APRIL1/SEKRETAER1_PL
 !  NMN_43AASTAK_PL ;
 
 LEXICON NMN_43AASTAK-SG 
-:^G3        Harm_Neutr_SG_NOM  ;
-:^G1%>{aä}       SG_GEN_ZERO-STEM        ;
-:^G4%>{aä}       Harm_Neutr_SG_ILL_ZERO        ;
-:^G4%>{aä}       Harm_Neutr_SG_PAR_ZERO        ;
+:^G2        Harm_Neutr_SG_NOM  ;
+:^G0%>{aä}       SG_GEN_ZERO-STEM        ;
+:^G3%>{aä}       Harm_Neutr_SG_ILL_ZERO        ;
+:^G3%>{aä}       Harm_Neutr_SG_PAR_ZERO        ;
 
 LEXICON NMN_43AASTAK_PL 
-:^G2%>{aä}       Harm_Neutr_PL_NOM ;
-:^G4%>õ    PL_GEN_ZERO ;
-:^G4%>õ    PL_ILL_he ;
-:^G4%>õ    Harm_Neutr_PL_PAR_ZERO ;
-:^G2%>õ    PL_ALL_lE-STEM ;
-:^G4%>õ       PL_COM ;
+:^G1%>{aä}       Harm_Neutr_PL_NOM ;
+:^G3%>õ    PL_GEN_ZERO ;
+:^G3%>õ    PL_ILL_he ;
+:^G3%>õ    Harm_Neutr_PL_PAR_ZERO ;
+:^G1%>õ    PL_ALL_lE-STEM ;
+:^G3%>õ       PL_COM ;
 
 
 
@@ -7310,22 +7687,22 @@ LEXICON NMN_44SWDA !!= * @CODE@ sõda:sõ{tØ}{tdØ}a
   NMN_44SWDA-SG ;
   NMN_44SWDA_PL ;
 LEXICON NMN_44SWDA-SG 
-:^Pen^G2 Harm_Neutr_SG_NOM  ;
-:^Pen^G1       SG_GEN_ZERO-STEM        ;
-:^Pen^G3       Harm_Neutr_SG_ILL_ZERO        ;
-+Err/Dial:^Pen^G4       Harm_Neutr_SG_ILL_ZERO        ;!20223_04_04
-:^Pen^G3       Harm_Neutr_SG_PAR_ZERO        ;
+:^Pen^G1 Harm_Neutr_SG_NOM  ;
+:^Pen^G0       SG_GEN_ZERO-STEM        ;
+:^Pen^G2       Harm_Neutr_SG_ILL_ZERO        ;
++Err/Dial:^Pen^G3       Harm_Neutr_SG_ILL_ZERO        ;!20223_04_04
+:^Pen^G2       Harm_Neutr_SG_PAR_ZERO        ;
 
 LEXICON NMN_44SWDA_PL 
-:^Pen^G1       Harm_Neutr_PL_NOM ;
-:^Pen^G3^VowRM%>o    PL_GEN_ZERO ;
-:^Pen^G3^VowRM%>o    Harm_Neutr_PL_PAR_ZERO ;
-+Err/Dial:^Pen^G4^VowRM%>o    Harm_Neutr_PL_ILL_ZERO ;
-:^Pen^G4^VowRM%>o    PL_ILL_he ;
-+Err/Dial:^Pen^G4^VowRM%>o    PL_ILL_dE ;
-:^Pen^G3^VowRM%>o  PL_ALL_lE-STEM ;
-+Err/Dial:^Pen^G1^VowRM%>o  PL_ALL_lE-STEM ;
-:^Pen^G3^VowRM%>o  PL_COM ;
+:^Pen^G0       Harm_Neutr_PL_NOM ;
+:^Pen^G2^VowRM%>o    PL_GEN_ZERO ;
+:^Pen^G2^VowRM%>o    Harm_Neutr_PL_PAR_ZERO ;
++Err/Dial:^Pen^G3^VowRM%>o    Harm_Neutr_PL_ILL_ZERO ;
+:^Pen^G3^VowRM%>o    PL_ILL_he ;
++Err/Dial:^Pen^G3^VowRM%>o    PL_ILL_dE ;
+:^Pen^G2^VowRM%>o  PL_ALL_lE-STEM ;
++Err/Dial:^Pen^G0^VowRM%>o  PL_ALL_lE-STEM ;
+:^Pen^G2^VowRM%>o  PL_COM ;
 
 ! Test data:
 !!€gt-norm: sõda
@@ -7356,6 +7733,50 @@ LEXICON NMN_44SWDA_PL
 !!€ sõtoldaq: sõda+N+Pl+Abe
 !!€ sõtogaq: sõda+N+Pl+Com
 
+LEXICON NMN_44RAGJA !!= * @CODE@ ragja:ra{kgØ}ja
+!! gradation: yes
+  NMN_44RAGJA-SG ;
+  NMN_44RAGJA_PL ;
+LEXICON NMN_44RAGJA-SG 
+:^Pen^G1 Harm_Neutr_SG_NOM  ;
+:^Pen^G0       SG_GEN_ZERO-STEM        ;
+:^Pen^G2       Harm_Neutr_SG_ILL_ZERO        ;
++Err/Dial:^Pen^G3       Harm_Neutr_SG_ILL_ZERO        ;!20223_04_04
+:^Pen^G2       Harm_Neutr_SG_PAR_ZERO        ;
+
+LEXICON NMN_44RAGJA_PL 
+:^Pen^G0       Harm_Neutr_PL_NOM ;
+:^Pen^G2^VowRM%>o    PL_GEN_ZERO ;
+:^Pen^G2^VowRM%>o    Harm_Neutr_PL_PAR_ZERO ;
++Err/Dial:^Pen^G3^VowRM%>o    Harm_Neutr_PL_ILL_ZERO ;
+:^Pen^G3^VowRM%>o    PL_ILL_he ;
++Err/Dial:^Pen^G3^VowRM%>o    PL_ILL_dE ;
+:^Pen^G2^VowRM%>o  PL_ALL_lE-STEM ;
++Err/Dial:^Pen^G0^VowRM%>o  PL_ALL_lE-STEM ;
+:^Pen^G2^VowRM%>o  PL_COM ;
+
+
+LEXICON NMN_44TSIGA !!= * @CODE@ sõda:sõ{tØ}{tdØ}a
+!! gradation: yes
+  NMN_44TSIGA-SG ;
+  NMN_44TSIGA_PL ;
+LEXICON NMN_44TSIGA-SG 
+:^Pen^G1 Harm_Neutr_SG_NOM  ;
+:^Pen^G0       SG_GEN_ZERO-STEM        ;
+:^Pen^G2       Harm_Neutr_SG_ILL_ZERO        ;
++Err/Dial:^Pen^G3       Harm_Neutr_SG_ILL_ZERO        ;!20223_04_04
+:^Pen^G2       Harm_Neutr_SG_PAR_ZERO        ;
+
+LEXICON NMN_44TSIGA_PL 
+:^Pen^G0       Harm_Neutr_PL_NOM ;
+:^Pen^G2^VowRM%>o    PL_GEN_ZERO ;
+:^Pen^G2^VowRM%>o    Harm_Neutr_PL_PAR_ZERO ;
++Err/Dial:^Pen^G3^VowRM%>o    Harm_Neutr_PL_ILL_ZERO ;
+:^Pen^G3^VowRM%>o    PL_ILL_he ;
++Err/Dial:^Pen^G3^VowRM%>o    PL_ILL_dE ;
+:^Pen^G2^VowRM%>o  PL_ALL_lE-STEM ;
++Err/Dial:^Pen^G0^VowRM%>o  PL_ALL_lE-STEM ;
+:^Pen^G2^VowRM%>o  PL_COM ;
 
 LEXICON NMN_45KANA/RIHAE !!= * @CODE@ kana:ka{nØ}n{ao}
 !! * Yaml: **N-kana45**

@@ -167,8 +167,8 @@ LEXICON V_48SADAMA/XX
 :^Pen^G2 Harm_Neutr_INF_mA ;
 
 ! (2) II tegonimi:
-:^Pen^G4 Harm_Neutr_INF_ZEROq ;
-:^Pen^G4 GER_INE ;
+:^Pen^G3 Harm_Neutr_INF_ZEROq ;
+:^Pen^G3 GER_INE ;
  Harm_Neutr_ACT_PRSPRC_v ;
 ! (3) tekev tm aktiiv:
 :^Pen^G2 ACT_PRFPRC_ALL_nUq ;
@@ -186,13 +186,13 @@ LEXICON V_48SADAMA/XX
 ! (7) min 1. k maq: Sg1 and Pl3
 ! (7.2) Sg2, Pl1 and Pl2
 ! (8) min 3. k tä:
-:^Pen^G4%>{eõ} ACT_IND_PRT_SG3_ZERO ;
+:^Pen^G3%>{eõ} ACT_IND_PRT_SG3_ZERO ;
 ! (9) jus:
 
 :^StrGStem ACT_IND_PRS-12 ;
 :^Pen^G2 ACT_IND_PRS_3_s/sEq ;
 
-:^G4%>{eõ} ACT_IND_PRT-1/2_ZERO ;
+:^G3%>{eõ} ACT_IND_PRT-1/2_ZERO ;
 
 LEXICON V_49LWPMA !!≈ * **@CODE@** lõpma:lõpp
 :{back} V_49LWPMA/XX ;
@@ -1913,8 +1913,8 @@ LEXICON V_76HIGOMA/PUEGAEMAE !!≈ * **@CODE@** higoma:hi{kg0}o
 !! +Act+PrsPrc+Sg OBL, Inf/mA, 
 
 ! (2) II tegonimi:
-:^Pen^G3 Harm_Neutr_INF_ZEROq ; !!= * @CODE@ (2) lukõq
-:^Pen^G3 Harm_Neutr_ACT_PRSPRC_SG_NOM_v ; !!= * @CODE@ (2b) lukõv
+:^Pen^G2 Harm_Neutr_INF_ZEROq ; !!= * @CODE@ (2) lukõq
+:^Pen^G2 Harm_Neutr_ACT_PRSPRC_SG_NOM_v ; !!= * @CODE@ (2b) lukõv
 :^Pen^G2 Harm_Neutr_ACT_PRSPRC_OBL_v ;
 !! Inf, Act+PrsPrc+Sg+Nom
 
@@ -1930,23 +1930,23 @@ LEXICON V_76HIGOMA/PUEGAEMAE !!≈ * **@CODE@** higoma:hi{kg0}o
 :^Pen^VOWLower^Pen^WGStem^VowRM{eõ} PSS_IND_CONNEG_dA ;
 
 ! (5) Olõvao 1. k maq:
-:^Pen^G1 ACT_IND_CONNEG/PRS_SG1 ;
-:^Pen^G1 ACT_IND_CONNEGII ;
+:^Pen^G0 ACT_IND_CONNEG/PRS_SG1 ;
+:^Pen^G0 ACT_IND_CONNEGII ;
 
 ! 2nd person indicative present
-:^Pen^G1 ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
+:^Pen^G0 ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 ! 1st PL person indicative present
-:^Pen^G1 ACT_IND_PRS_PL1_miq ;
+:^Pen^G0 ACT_IND_PRS_PL1_miq ;
 ! (6) Olõvao 3. k tä:
 :^Pen^G2 ACT_IND_PRS_SG3_ZERO/PL3_vAq ; !!= * @CODE@ (6) lugõma
 !! Ind+Prs+ 3
 
 ! (7) min 1. k maq:
-:^Pen^VOWLower^Pen^G1^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
+:^Pen^VOWLower^Pen^G0^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
 +Err/Dial:^Pen^G2 ACT_IND_PRT_PL3_vAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
-:^Pen^VOWLower^Pen^G1^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
+:^Pen^VOWLower^Pen^G0^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 
 ! (8) min 3. k tä:
 :^Pen^G2^VowRM ACT_IND_PRT_SG3_i ;
@@ -1987,8 +1987,8 @@ LEXICON V_76JAGAMA/XX !!≈ * **@CODE@** jagama:ja{kg0}a
 !! +Act+PrsPrc+Sg OBL, Inf/mA, 
 
 ! (2) II tegonimi:
-:^Pen^G3 Harm_Neutr_INF_ZEROq ; !!= * @CODE@ (2) lukõq
-:^Pen^G3 Harm_Neutr_ACT_PRSPRC_SG_NOM_v ; !!= * @CODE@ (2b) lukõv
+:^Pen^G2 Harm_Neutr_INF_ZEROq ; !!= * @CODE@ (2) lukõq
+:^Pen^G2 Harm_Neutr_ACT_PRSPRC_SG_NOM_v ; !!= * @CODE@ (2b) lukõv
 :^Pen^G2 Harm_Neutr_ACT_PRSPRC_OBL_v ;
 !! Inf, Act+PrsPrc+Sg+Nom
 
@@ -2002,26 +2002,26 @@ LEXICON V_76JAGAMA/XX !!≈ * **@CODE@** jagama:ja{kg0}a
 :^Pen^VOWLower^Pen^WGStem^VowRM%>e Harm_Neutr_LUGWMA_PSS-PRC ; !!= * @CODE@ (4) loet
 
 ! (5) Olõvao 1. k maq:
-:^Pen^G1 ACT_IND_CONNEG/PRS_SG1 ;
-:^Pen^G1 ACT_IND_CONNEGII ;
+:^Pen^G0 ACT_IND_CONNEG/PRS_SG1 ;
+:^Pen^G0 ACT_IND_CONNEGII ;
 
 ! 2nd person indicative present
-:^Pen^G1 ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
+:^Pen^G0 ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 ! 1st PL person indicative present
-:^Pen^G1 ACT_IND_PRS_PL1_miq ;
+:^Pen^G0 ACT_IND_PRS_PL1_miq ;
 ! (6) Olõvao 3. k tä:
  ACT_IND_PRS_SG3_ZERO/PL3_vAq ; !!= * @CODE@ (6) lugõma
 !! Ind+Prs+ 3
 
 ! (7) min 1. k maq:
-:^Pen^VOWLower^Pen^G1^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
+:^Pen^VOWLower^Pen^G0^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
 +Err/Dial:^Pen^G2 ACT_IND_PRT_PL3_vAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
-:^Pen^VOWLower^Pen^G1^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
+:^Pen^VOWLower^Pen^G0^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 
 ! (8) min 3. k tä:
-^Pen^VOWLower^Pen^G1^VowRM ACT_IND_PRT_SG3_i ;
+^Pen^VOWLower^Pen^G0^VowRM ACT_IND_PRT_SG3_i ;
 !! Retain consonant and stem vowel
 
 !! Weaken consonant and semi-retension of stem vowel
@@ -2063,8 +2063,8 @@ LEXICON V_76LUGWMA/XX !!≈ * **@CODE@** lugõma:lu{kg0}õ
 :^Pen^G2 Harm_Neutr_INF_mA ; !!= * @CODE@ (1) lugõma:lu{kgØ}õ
 
 ! (2) II tegonimi:
-:^Pen^G3 Harm_Neutr_INF_ZEROq ;
-:^Pen^G3 Harm_Neutr_ACT_PRSPRC_SG_NOM_v ;
+:^Pen^G2 Harm_Neutr_INF_ZEROq ;
+:^Pen^G2 Harm_Neutr_ACT_PRSPRC_SG_NOM_v ;
 :^Pen^G2 Harm_Neutr_ACT_PRSPRC_OBL_v ;
 
 ! (3) lugõnuq tm aktiiv:
@@ -2097,8 +2097,8 @@ LEXICON V_76LUGWMA/XX !!≈ * **@CODE@** lugõma:lu{kg0}õ
 
 ! (5) Olõvao 1. k maq: (1. and Neg, ConNegs.)
 ! Different from 2.
-!:^Pen^VOWLower^Pen^G1 ACT_IND_CONNEG/PRS_SG1 ; !
-!:^Pen^VOWLower^Pen^G1 ACT_IND_CONNEGII ;
+!:^Pen^VOWLower^Pen^G0 ACT_IND_CONNEG/PRS_SG1 ; !
+!:^Pen^VOWLower^Pen^G0 ACT_IND_CONNEGII ;
 
 ! 2nd person indicative present
 :^Pen^VOWLower^Pen^WGStem^VowRM%>e ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
@@ -3373,55 +3373,55 @@ LEXICON V_83VWTMA/XX  !!= * @CODE@ võtma:võ{tØ}{tt́Ø}a
 :^Pen^CC2C^Pen^NoPAL^VowRM Harm_Neutr_INF_mA ;
 
 ! (2) II tegonimi: 
-:^Pen^G4^Pen^NoPAL Harm_Neutr_INF_ZEROq ;
+:^Pen^G3^Pen^NoPAL Harm_Neutr_INF_ZEROq ;
 :^Pen^CC2C^Pen^NoPAL^VowRM ACT_PRSPRC_vA ;
-:^Pen^G4^Pen^NoPAL^VowRM GER_INE ;
+:^Pen^G3^Pen^NoPAL^VowRM GER_INE ;
 
 ! (3) tekev tm aktiiv: 
 :^Pen^CC2C^Pen^NoPAL^VowRM ACT_PRFPRC_ALL_nUq ;
 
 ! (4) Tettäv tm passiiv:
 
-:^Pen^G1^Pen^NoPAL^VowRM%>e PSS_IND_SG1_dX/2_dX/SG3_tX ;
-!:^Pen^G1^Pen^NoPAL^VowRM%>e PSS_IND_SG1_dX/SG3_tX ; !! IS THIS RIGHT? 2015-09-02
+:^Pen^G0^Pen^NoPAL^VowRM%>e PSS_IND_SG1_dX/2_dX/SG3_tX ;
+!:^Pen^G0^Pen^NoPAL^VowRM%>e PSS_IND_SG1_dX/SG3_tX ; !! IS THIS RIGHT? 2015-09-02
 
-:^Pen^G1^Pen^NoPAL^VowRM%>e PSS_IND_PRS_PL3_tAsEq ;
-:^Pen^G1^Pen^NoPAL^VowRM%>e PSS_IND_PRT_PL3_diq ;
-:^Pen^G1^Pen^NoPAL^VowRM%>e PSS_PRC_t_tU_tA ;
+:^Pen^G0^Pen^NoPAL^VowRM%>e PSS_IND_PRS_PL3_tAsEq ;
+:^Pen^G0^Pen^NoPAL^VowRM%>e PSS_IND_PRT_PL3_diq ;
+:^Pen^G0^Pen^NoPAL^VowRM%>e PSS_PRC_t_tU_tA ;
 
 ! (5) Olõvao 1. k maq: (1. and Neg, ConNegs.)
 ! Different from 2.
-:^Pen^G3^Pen^NoPAL ACT_IND_CONNEG/PRS_SG1 ; !! sõida
-:^Pen^G3^Pen^NoPAL ACT_IND_CONNEGII ;
+:^Pen^G2^Pen^NoPAL ACT_IND_CONNEG/PRS_SG1 ; !! sõida
+:^Pen^G2^Pen^NoPAL ACT_IND_CONNEGII ;
 
-+Err/Dial:^Pen^G4^Pen^NoPAL ACT_IND_CONNEG ;
++Err/Dial:^Pen^G3^Pen^NoPAL ACT_IND_CONNEG ;
 ! 2nd person indicative present
-:^Pen^G3^Pen^NoPAL ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
+:^Pen^G2^Pen^NoPAL ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 
 ! 1st person plural present
-:^Pen^G3^Pen^NoPAL ACT_IND_PRS_PL1_miq ; 
+:^Pen^G2^Pen^NoPAL ACT_IND_PRS_PL1_miq ; 
 
 ! (6) Olõvao 3. k tä: 
-:^Pen^G4^Pen^NoPAL^VowRM ACT_IND_PRS_SG3_ZERO ;
+:^Pen^G3^Pen^NoPAL^VowRM ACT_IND_PRS_SG3_ZERO ;
 :^Pen^CC2C^Pen^NoPAL^VowRM ACT_IND_PRS_PL3_vAq ;
 
 ! (7) min 1. k maq: Sg1 and Pl3
-:^Pen^G3^Pen^NoPAL^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ; 
+:^Pen^G2^Pen^NoPAL^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ; 
 +Err/Dial:^Pen^CC2C^Pen^NoPAL^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ; 
 
 ! (7.2) Sg2, Pl1 and Pl2
-:^Pen^G3^Pen^NoPAL^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
+:^Pen^G2^Pen^NoPAL^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
 +Err/Dial:^Pen^CC2C^Pen^NoPAL^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
-+Err/Dial:^Pen^G3^Pen^NoPAL^VowRM%>i ACT_IND_PRT_SG2_q ;
++Err/Dial:^Pen^G2^Pen^NoPAL^VowRM%>i ACT_IND_PRT_SG2_q ;
 +Err/Dial:^Pen^CC2C^Pen^NoPAL^VowRM ACT_IND_PRT_SG2_sEq ;
 
-+Err/Dial+Act+Ind+Prt+Pl3:^Pen^G3^Pen^NoPAL^VowRM%>i ACT_IND_PRT_PL3_vAq ;
++Err/Dial+Act+Ind+Prt+Pl3:^Pen^G2^Pen^NoPAL^VowRM%>i ACT_IND_PRT_PL3_vAq ;
 +Err/Dial:^Pen^CC2C^Pen^NoPAL^VowRM ACT_IND_PRT_PL3_sEvAq ;
 
 ! (8) min 3. k tä: 
-:^Pen^G4^Pen^PAL^VowRM ACT_IND_PRT_SG3_ZERO ;
-+Err/Orth-no-pal:^Pen^G4^Pen^NoPAL^VowRM ACT_IND_PRT_SG3_ZERO ;
+:^Pen^G3^Pen^PAL^VowRM ACT_IND_PRT_SG3_ZERO ;
++Err/Orth-no-pal:^Pen^G3^Pen^NoPAL^VowRM ACT_IND_PRT_SG3_ZERO ;
 +Err/Dial:^Pen^CC2C^Pen^NoPAL^VowRM ACT_IND_PRT_SG3_sE ;
 
 ! (9) jus: 
@@ -3600,50 +3600,50 @@ LEXICON V_85TRUEKMAE !!≈ * **@CODE@**  trükmä:trü{kØ}{kḱ}ü
 :{front} V_85KAKMA/TRUEKMAE ;
 LEXICON V_85KAKMA/TRUEKMAE !!≈ * **@CODE@** kakma:ka{kØ}{kḱ}u
 ! (1) I tegonimi: 
-:^Pen^VOWRaise^Pen^G3^Pen^NoPAL^VowRM Harm_Neutr_INF_mA ;
+:^Pen^VOWRaise^Pen^G2^Pen^NoPAL^VowRM Harm_Neutr_INF_mA ;
 
 ! (2) II tegonimi: 
 :^Pen^VOWRaise^Pen^StrGStem^Pen^NoPAL Harm_Neutr_INF_ZEROq ;
-:^Pen^VOWRaise^Pen^G3^Pen^NoPAL^VowRM ACT_PRSPRC_vA ;
+:^Pen^VOWRaise^Pen^G2^Pen^NoPAL^VowRM ACT_PRSPRC_vA ;
 
 ! (3) tekev tm aktiiv: 
-:^Pen^VOWRaise^Pen^G3^Pen^NoPAL^VowRM ACT_PRFPRC_ALL_nUq ;
+:^Pen^VOWRaise^Pen^G2^Pen^NoPAL^VowRM ACT_PRFPRC_ALL_nUq ;
 
 ! (4) Tettäv tm passiiv: 
-:^Pen^VOWLower^Pen^G3^Pen^NoPAL PSS_IND_SG1_dX/SG3_tX ;
+:^Pen^VOWLower^Pen^G2^Pen^NoPAL PSS_IND_SG1_dX/SG3_tX ;
 
-+Err/Orth:^Pen^VOWLower^Pen^G3^Pen^NoPAL PSS_PRFPRC_tU_SG_NOM ;
++Err/Orth:^Pen^VOWLower^Pen^G2^Pen^NoPAL PSS_PRFPRC_tU_SG_NOM ;
 
 ! (5) Olõvao 1. k maq: 
-:^Pen^VOWLower^Pen^G3^Pen^NoPAL ACT_IND_CONNEG/PRS_SG1 ;
-:^Pen^VOWLower^Pen^G3^Pen^NoPAL ACT_IND_CONNEGII ; ! yaml 2023_03_05
+:^Pen^VOWLower^Pen^G2^Pen^NoPAL ACT_IND_CONNEG/PRS_SG1 ;
+:^Pen^VOWLower^Pen^G2^Pen^NoPAL ACT_IND_CONNEGII ; ! yaml 2023_03_05
 ! 2nd person indicative present
-:^Pen^VOWLower^Pen^G3^Pen^NoPAL ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
+:^Pen^VOWLower^Pen^G2^Pen^NoPAL ACT_IND_PRS_SG2_t/dEq/PL2_tiq ;
 
 ! 1st person plural present
-:^Pen^VOWLower^Pen^G3^Pen^NoPAL ACT_IND_PRS_PL1_miq ;
+:^Pen^VOWLower^Pen^G2^Pen^NoPAL ACT_IND_PRS_PL1_miq ;
 
 ! (6) Olõvao 3. k tä:
 :^Pen^VOWRaise^Pen^StrGStem^Pen^NoPAL^VowRM ACT_IND_PRS_SG3_ZERO ; !kakk
-:^Pen^VOWRaise^Pen^G3^Pen^NoPAL^VowRM ACT_IND_PRS_PL3_vAq ; !kakvaq
+:^Pen^VOWRaise^Pen^G2^Pen^NoPAL^VowRM ACT_IND_PRS_PL3_vAq ; !kakvaq
 ! Third person pl may need rewiring due to under lying kakkvaq extra-strong
 
 ! (7) min 1. k maq: Sg1 and Pl3
 :^Pen^WGStem^Pen^NoPAL^VowRM%>i ACT_IND_PRT_SG1_ZERO/PL3_q ;
-+Err/Dial:^Pen^VOWRaise^Pen^G3^Pen^NoPAL^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ;
-+Err/Dial:^Pen^VOWRaise^Pen^G3^Pen^NoPAL^VowRM  ACT_IND_PRT_PL3_sEvAq ;
++Err/Dial:^Pen^VOWRaise^Pen^G2^Pen^NoPAL^VowRM ACT_IND_PRT_SG1_sE/PL3_sEq ;
++Err/Dial:^Pen^VOWRaise^Pen^G2^Pen^NoPAL^VowRM  ACT_IND_PRT_PL3_sEvAq ;
 
 ! (7.2) Sg2, Pl1 and Pl2
-:^Pen^VOWLower^Pen^G3^Pen^NoPAL^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
-+Err/Dial:^Pen^VOWLower^Pen^G3^Pen^NoPAL^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
+:^Pen^VOWLower^Pen^G2^Pen^NoPAL^VowRM%>i ACT_IND_PRT_SG2_t/dEq/PL1_miq/PL2_tiq ;
++Err/Dial:^Pen^VOWLower^Pen^G2^Pen^NoPAL^VowRM ACT_IND_PRT_SG2_sEt/sEdEq/PL1_sEmiq/PL2_sEtiq ;
 
 ! (8) min 3. k tä: 
 :^Pen^VOWRaise^Pen^StrGStem^Pen^PAL^VowRM ACT_IND_PRT_SG3_ZERO ;
 +Err/Orth-no-pal:^Pen^VOWRaise^Pen^StrGStem^Pen^NoPAL^VowRM ACT_IND_PRT_SG3_ZERO ;
-+Err/Dial:^Pen^VOWRaise^Pen^G3^Pen^NoPAL^VowRM ACT_IND_PRT_SG3_sE ;
++Err/Dial:^Pen^VOWRaise^Pen^G2^Pen^NoPAL^VowRM ACT_IND_PRT_SG3_sE ;
 
 ! (9) jus: 
-:^Pen^VOWRaise^Pen^G3^Pen^NoPAL^VowRM ACT_JUS_kuq ;
+:^Pen^VOWRaise^Pen^G2^Pen^NoPAL^VowRM ACT_JUS_kuq ;
 
 
 LEXICON V_86ISTMA !!≈ * **@CODE@** istma:istu
