@@ -9738,14 +9738,14 @@ ijä+N:i{jØ}jä N_40IJAE ;
 < [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [u:"{ou}" u:"{ou}"] [d s|l] 0:"u"  "+N":0 "+Guess":0 "+N_41_vuul":0 > N_41VUUL ;
 < [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [u:"{ou}" u:"{ou}"] [s k:"{kØ}"|t:"{td}"] 0:"u"  "+N":0 "+Guess":0 "+N_41_juusk":0 > N_41JUUSK ;
 < [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [a|e|i|o] [h k:"{kØ}"|i k:"{kg}"|l g:"{gØ}"|n:"n" d:"{dn}"|r k:"{kg}"|r t:"{td}" s|s k:"{kØ}"] 0:"o"  "+N":0 "+Guess":0 "+N_41_ask":0 > N_41ASK ;
-< [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [ä|e|i|ü] [h k:"{kØ}"|i k:"{kg}"|ü k:"{kg}"|k:"{kØ}" k|l g:"{gØ}"|n:"n" d:"{dn}"|p:"{pØ}" p|r k:"{kg}"|r t:"{td}" s|s k:"{kØ}"|t:"{tØ}" t|ü:"{üv}" d:"{dv}"] ["0":ü]  "+N":0 "+Guess":0 "+N_41_viit":0 > N_41VIIT ;
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [ä|e|i|ü] [h k:"{kØ}"|i k:"{kg}"|ü k:"{kg}"|k:"{kØ}" k|l g:"{gØ}"|n:"n" d:"{dn}"|p:"{pØ}" p|r k:"{kg}"|r t:"{td}" s|s k:"{kØ}"|t:"{tØ}" t|ü:"{üv}" d:"{dv}"] 0:"ü"  "+N":0 "+Guess":0 "+N_41_viit":0 > N_41VIIT ;
 < [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [a|e|i|ä] [i v|n g|r m|r v] 0:"u"  "+N":0 "+Guess":0 "+N_41_arm":0 > N_41ARM ;
 < [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [a|e|i|õ|ä] [i v|n g|r m|r v] 0:"o"  "+N":0 "+Guess":0 "+N_41_maeng":0 > N_41MAENG ;
-< [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [ä|e|ü] [h r|l l|m p s|n g|n n|s s|t s|v v|ä r|ü n|ü r] ["0":ü]  "+N":0 "+Guess":0 "+N_41_muets":0 > N_41MUETS ;
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [ä|e|ü] [h r|l l|m p s|n g|n n|s s|t s|v v|ä r|ü n|ü r] 0:"ü"  "+N":0 "+Guess":0 "+N_41_muets":0 > N_41MUETS ;
 
-< [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [ä|e|ü] [k:"{kØ}" k|p:"{pØ}" p|t:"{tØ}" t|v:"{vØ}" v] ["0":ü]  "+N":0 "+Guess":0 "+N_41_tuekk":0 > N_41TUEKK ;
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [ä|e|ü] [k:"{kØ}" k|p:"{pØ}" p|t:"{tØ}" t|v:"{vØ}" v] 0:"ü"  "+N":0 "+Guess":0 "+N_41_tuekk":0 > N_41TUEKK ;
 < [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [a|i|o|u|õ] [k:"{kØ}" k|p:"{pØ}" p|t:"{tØ}" t|v:"{vØ}" v] 0:"u"  "+N":0 "+Guess":0 "+N_41_savv":0 > N_41SAVV ;
-< [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [a|ä] [k:"{kØ}" k|p:"{pØ}" p|t:"{tØ}" t|v:"{vØ}" v] ["0":o]  "+N":0 "+Guess":0 "+N_41_pakk":0 > N_41PAKK ;
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|ś|t|t́|v]* [a|ä] [k:"{kØ}" k|p:"{pØ}" p|t:"{tØ}" t|v:"{vØ}" v] 0:"o"  "+N":0 "+Guess":0 "+N_41_pakk":0 > N_41PAKK ;
 
 tükk+N:tü{kØ}kü N_41TUEKK "_#ü, #kü__tük|k_" ;
 savv+N:sa{vØ}vu N_41SAVV ;
