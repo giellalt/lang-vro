@@ -12,8 +12,11 @@ test+N:test N_1HANS1A "" ;
 
 !1 
 !(VES 2) hanśa
-< [b|d|f|g|h|j|k|l|ĺ|m|n|ń|p|r|s|ś|t|t́|v]* [a|o|u|õ|e|i|ä|ö]^{1,2} [b|b l|b r|d|d ĺ|d ś|d́|d́ r|g|g ŕ|h|h k|h ĺ|h ń|h m|h v|j|k|k n|k s|l|l d́|l l|l ĺ|m|m b|m b l|m m|m p ś|n|ń|n d|n d s|n d ś|n d́|n g|n k|n n|n ń|n s|n ś|n t|p|r|r b|r d|r d́|ŕ|r g|r ĺ|r m|r s|r ś|r v|r ĺ|r ś|ŕ|ŕ s|ś|s k|ś k|s l|s ś|s t|t|t s|t ś|t ś k|t́|t́ k|v|v v] [a|e|o|õ] "+N":0 "+Guess":0 "+N_1_hans1a":0 > N_1HANS1A ;
-< [b|d|f|g|h|j|k|l|ĺ|m|n|ń|p|r|s|ś|t|t́|v]* [e|i|ä|ö|ü]^{1,2} [b|b l|b r|d|d ĺ|d ś|d́|d́ r|g|g ŕ|h|h k|h ĺ|h ń|h m|h v|j|k|k n|k s|l|l d́|l l|l ĺ|m|m b|m b l|m m|m p ś|n|ń|n d|n d s|n d ś|n d́|n g|n k|n n|n ń|n s|n ś|n t|p|r|r b|r d|r d́|ŕ|r g|r ĺ|r m|r s|r ś|r v|r ĺ|r ś|ŕ|ŕ s|ś|s k|ś k|s l|s ś|s t|t|t s|t ś|t ś k|t́|t́ k|v|v v] [ä|e|i|ü] "+N":0 "+Guess":0 "+N_1_herrae":0 > N_1HERRAE ;
+< [b|d|f|g|h|j|k|l|ĺ|m|n|ń|p|r|s|ś|t|t́|v]* [a|a a|a i|a u|e|e e|e i|i|i i|i u|o|o i|o o|u|u i|u o|u u|ä|ä i|ä ä|õ|õ i|õ u|õ õ|ö] [b|b l|b r|d|d ĺ|d s|d ś|d́|d́ r|g|g l|g ŕ|h|h k|h m|h r|h v|h ĺ|h ń|j|k|k n|l|l d́|l l|l ĺ|m|m b|m b l|m m|m p ś|n|n d|n d s|n d ś|n d́|n g|n k|n n|n s|n t|n ń|n ś|p|r|r b|r d|r d́|r g|r m|r r|r s|r v|r ĺ|r ś|s|s k|s l|s t|s ś|t|t s|t ś|t ś k|t́|t́ k|v|v v|ĺ|ń|ŕ|ŕ s|ś|ś k] [a|e|i|o|u|õ] "+N":0 "+Guess":0 "+N_1_hans1a":0 > N_1HANS1A ;
+!< [b|d|f|g|h|j|k|l|ĺ|m|n|ń|p|r|s|ś|t|t́|v]* [e|i|ä|ö|ü]^{1,2} [b|b l|b r|d|d ĺ|d ś|d́|d́ r|g|g ŕ|h|h k|h ĺ|h ń|h m|h v|j|k|k n|k s|l|l d́|l l|l ĺ|m|m b|m b l|m m|m p ś|n|ń|n d|n d s|n d ś|n d́|n g|n k|n n|n ń|n s|n ś|n t|p|r|r b|r d|r d́|ŕ|r g|r ĺ|r m|r s|r ś|r v|r ĺ|r ś|ŕ|ŕ s|ś|s k|ś k|s l|s ś|s t|t|t s|t ś|t ś k|t́|t́ k|v|v v] [ä|e|i|ü] "+N":0 "+Guess":0 "+N_1_herrae":0 > N_1HERRAE ;
+< [b|d|f|g|h|j|k|l|ĺ|m|n|ń|p|r|s|ś|t|t́|v]* [a ä i|e|e i|i|i i|ä|ä i|ä ä|ö|ö ö|ü|ü ü] [b|b l|b r|d|d ĺ|d s|d ś|d́|d́ r|g|g l|g ŕ|h k|h m|h r|h v|h ĺ|h ń|j|k|k n|l|l d́|l l|l ĺ|m|m b|m b l|m m|m p ś|n|n d|n d s|n d ś|n d́|n g|n k|n n|n s|n t|n ń|n ś|p|r|r b|r d|r d́|r d s|r g|r m|r r|r s|r v|r ĺ|r ś|s|s k|s l|s s|s t|s ś|t|t s|t ś k|t́|t́ k|v|v v|ĺ|ń|ŕ|ŕ s|ś|ś k] [e|i|ä|ü] "+N":0 "+Guess":0 "+N_1_herrae":0 > N_1HERRAE ;
+
+
 < [b|b l|b r|d|d ĺ|d ś|d́|d́ r|g|g ŕ|h|h k|h ĺ|h ń|h m|h v|j|k|k n|k s|l|l d́|l l|l ĺ|m|m b|m b l|m m|m p ś|n|ń|n d|n d s|n d ś|n d́|n g|n k|n n|n ń|n s|n ś|n t|p|r|r b|r d|r d́|ŕ|r g|r ĺ|r m|r s|r ś|r v|r ĺ|r ś|ŕ|ŕ s|ś|s k|ś k|s l|s ś|s t|t|t s|t ś|t ś k|t́|t́ k|v|v v] [i u|a o|e e|a u|a e|e o|ä o|e i] "+N":0 "+Guess":0 "+N_1_viu":0 > N_1VIU ;
 
 kuninganna+N:kuninganna N_1HANS1A ;
@@ -335,6 +338,8 @@ esperanto+N:esperanto N_1HANS1A ;
 !2
 !(VES 1) ˋsuhvli1
 
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [e|e i|i|i i|ä|ä ä|ä ü|ö|ü|ü ü] [b l|b r|d|d l|d r|g l|g r|h k|h k l|h k r|h t r|h v l|k l|k r|k s l|k t r|l|l m|l s k r|l t́ r|m b r|m l|m p l|n d|n d l|n d r|n g l|n k l|n t l|n t s l|p l|p r|r b l|r g l|r h v l|r k l|r l|s k l|s k r|s l|s r|s t|s t r|t l|t r|t s|t s l|v l|v r|ś k] [i|e|ü] "+N":0 "+Guess":0 "+N_2_kerge":0 > N_2KERGE ;
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [a|a a|a e|a i|a i u|a u|e|e i|i|i a|i i|i u|o|o e|o o|u|u u|õ] [b l|b r|d|d l|d r|g r|h k r|h m r|h t|h t r|h v l|h v r|k|k l|k r|k s t|k ś n|l b r|l d r|l m|l r|l t r|l v r|m b r|m l|n d|n d l|n d r|n d s|n g l|n g r|n k r|n t s l|p j|p l|p r|p ś l|r|r b r|r d|r g|r k l|r m|r t l|s k l|s k r|s l|s p l|s r|s s|s t|s t l|s t r|t l|t r|t s|t s l|t ś k|v l|ĺ t|ś k] [a|e o|i|i o|o|u] "+N":0 "+Guess":0 "+N_2_artikli":0 > N_2ARTIKLI ;
 ingli+N:ingli N_2KERGE ;
 müübli+N:müübli N_2KERGE ;
 tiigri+N:tiigri N_2KERGE "_#, #t_" ;
@@ -345,16 +350,16 @@ assõsri+N:assõsri N_2ARTIKLI "_#, #t__assõsri_" ;
 astri+N:astri N_2ARTIKLI "_#, #t__ˋastri_" ;
 datli+N:datli N_2ARTIKLI "_#, #t__ˋdatli_" ;
 detsembri+N:detsembri N_2KERGE "_#, #t__detsembri_" ;
-detsiliitri+N:detsi{ˋØ}liitri N_2KERGE "_#, #t__detsiˋliitri_" ;
-detsimetri+N:detsi{ˋØ}metri N_2KERGE "_#, #t __detsiˋmetri_" ;
-detsimiitri+N:detsimi̬i̬tri N_2KERGE "_#, #t__detsimi̬i̬tri_" ;
-diametri+N:dia{ˋØ}metri N_2KERGE "_#, #t__diaˋmetri_" ;
-diamiitri+N:diami̬i̬tri N_2KERGE "_#, #t__diami̬i̬tri_" ;
+detsiliitri+N:detsi#{ˋØ}liitri N_2KERGE "_#, #t__detsiˋliitri_" ;
+detsimetri+N:detsi#{ˋØ}metri N_2KERGE "_#, #t __detsiˋmetri_" ;
+detsimiitri+N:detsi#mi̬i̬tri N_2KERGE "_#, #t__detsimi̬i̬tri_" ;
+diametri+N:dia#{ˋØ}metri N_2KERGE "_#, #t__diaˋmetri_" ;
+diamiitri+N:dia#mi̬i̬tri N_2KERGE "_#, #t__diami̬i̬tri_" ;
 diisli+N:diisli N_2KERGE "_#, #t__ˋdiisli_" ;
 rektri+N:rektri N_2KERGE "_#, #t__rektri_" ;
 direktri+N:direktri N_2KERGE "_#, #t__direktri_" ;
 eelektri+N:eelektri N_2KERGE "_#, #t__eelektri_" ;
-ekskavaatri+N:ekska{ˋØ}vaatri N_2ARTIKLI "_#, #t__ekskaˋvaatri_" ;
+ekskavaatri+N:ekska#{ˋØ}vaatri N_2ARTIKLI "_#, #t__ekskaˋvaatri_" ;
 engli+N:engli N_2KERGE "_#, #t__ˋengli_" ;
 haakri+N:haakri N_2ARTIKLI "_#, #t__ˋhaakri_" ;
 haavisto+N:haavisto N_2ARTIKLI "_#, #t__haavisto_" ;
@@ -382,7 +387,7 @@ kasvisto+N:kasvisto N_2ARTIKLI "_#, #t__kasvisto_" ;
 keisri+N:keisri N_2KERGE "_#, #t__ˋkeisri_" ;
 kiivri+N:kiivri N_2KERGE "_#, #t__ˋkiivri_" ;
 kilometri+N:kilo{ˋØ}metri N_2KERGE "_#, #t __kiloˋmetri_" ;
-kilomiitri+N:kilomi̬i̬tri N_2KERGE "_#, #t__kilomi̬i̬tri_" ;
+kilomiitri+N:kilo#mi̬i̬tri N_2KERGE "_#, #t__kilomi̬i̬tri_" ;
 kimli+N:kimli N_2KERGE "_#, #t__ˋkimli_" ;
 kivestü+N:kivestü N_2KERGE "_#, #t __kivestü_" ;
 klambri+N:klambri N_2ARTIKLI "_#, #t __ˋklambri_" ;
@@ -403,14 +408,14 @@ krihvli+N:krihvli N_2KERGE "_#, #t__ˋkrihvli_" ;
 krimpli+N:krimpli N_2KERGE "_#, #t__ˋkrimpli_" ;
 kritsli+N:kritsli N_2KERGE "_#, #t__ˋkritsli_" ;
 krutśki+N:krutśki N_2ARTIKLI "_#, #t__ˋkrutśki_" ;
-kruustli+N:{{ˋØ}Ø}#kruustli N_2ARTIKLI "_#, #t__ˋkruustli_" ;
+kruustli+N:{ˋØ}kruustli N_2ARTIKLI "_#, #t__ˋkruustli_" ;
 krõngli+N:krõ̭ngli N_2ARTIKLI "_#, #t__ˋkrõ̭ngli_" ;
 kräpästü+N:kräpästü N_2KERGE "_#, #t__kräpästü_" ;
 kukli+N:kukli N_2ARTIKLI "_#, #t __ˋkukli_" ;
 kukro+N:kukro N_2ARTIKLI "_#, #t__ˋkukro_" ;
-kultivaatri+N:kulti{ˋØ}vaatri N_2ARTIKLI "_#, #t__kulti{ˋØ}vaatri_" ;
+kultivaatri+N:kulti#{ˋØ}vaatri N_2ARTIKLI "_#, #t__kulti{ˋØ}vaatri_" ;
 kupśli+N:kupśli N_2ARTIKLI "_#, #t__kupśli_" ;
-kuraatri+N:ku{ˋØ}raatri N_2ARTIKLI "_#, #t __ku{ˋØ}raatri_" ;
+kuraatri+N:ku#{ˋØ}raatri N_2ARTIKLI "_#, #t __ku{ˋØ}raatri_" ;
 kuusisto+N:kuusisto N_2ARTIKLI "_#, #t __kuusisto_" ;
 kuutsli+N:ku̬u̬tsli N_2ARTIKLI "_#, #t__ku̬u̬tsli_" ;
 kõivisto+N:kõivisto N_2ARTIKLI "_#, #t__kõivisto_" ;
@@ -420,7 +425,7 @@ kühvli+N:kühvli N_2KERGE "_#, #t__ˋkühvli_" ;
 laagri+N:laagri N_2ARTIKLI "_#, #t__ˋlaagri_" ;
 lahtri+N:lahtri N_2ARTIKLI "_#, #t__ˋlahtri_" ;
 lapjo+N:lapjo N_2ARTIKLI "_#, #t__ˋlapjo_" ;
-lasõŕtrükli+N:lasõŕ{ˋØ}trükli N_2KERGE "_#, #t__lasõŕ{ˋØ}trükli_" ;
+lasõŕtrükli+N:lasõŕ#{ˋØ}trükli N_2KERGE "_#, #t__lasõŕ{ˋØ}trükli_" ;
 laudu+N:laudu N_2ARTIKLI "_#, #t__ˋlaudu_" ;
 lautsi+N:lautsi N_2ARTIKLI "_#, #t__ˋlautsi_" ;
 leiko+N:leiko N_2ARTIKLI "_#, #t__ˋleiko_" ;
@@ -438,9 +443,9 @@ meisli+N:meisli N_2KERGE "_#, #t__ˋmeisli_" ;
 metri+N:metri N_2KERGE "_#, #t__ˋmetri_" ;
 miitri+N:mi̬i̬tri N_2KERGE "_#, #t __mi̬i̬tri_" ;
 mikri+N:mikri N_2KERGE "_#, #t__ˋmikri_" ;
-milliliitri+N:milli{ˋØ}liitri N_2KERGE "_#, #t__milli{ˋØ}liitri_" ;
-millimetri+N:milli{ˋØ}metri N_2KERGE "_#, #t__milli{ˋØ}metri_" ;
-millimiitri+N:millimi̬i̬tri N_2KERGE "_#, #t__millimi̬i̬tri_" ;
+milliliitri+N:milli#{ˋØ}liitri N_2KERGE "_#, #t__milli{ˋØ}liitri_" ;
+millimetri+N:milli#{ˋØ}metri N_2KERGE "_#, #t__milli{ˋØ}metri_" ;
+millimiitri+N:milli#mi̬i̬tri N_2KERGE "_#, #t__millimi̬i̬tri_" ;
 ministri+N:ministri N_2KERGE "_#, #t__ministri_" ;
 mundri+N:mundri N_2ARTIKLI "_#, #t__ˋmundri_" ;
 muskli+N:muskli N_2ARTIKLI "_#, #t__ˋmuskli_" ;
@@ -466,7 +471,7 @@ nuusli+N:nuusli N_2ARTIKLI "_#, #t __ˋnuusli_" ;
 nuustri+N:nuustri N_2ARTIKLI "_#, #t __ˋnuustri_" ;
 nuutri+N:nuutri N_2ARTIKLI "_#, #t __ˋnuutri_" ;
 nõdõrmu+N:nõdõrmu N_2ARTIKLI "_#, #t__nõdõrmu_" ;
-nõgõltrükli+N:nõgõl{ˋØ}trükli N_2KERGE "_#, #t__nõgõl{ˋØ}trükli_" ;
+nõgõltrükli+N:nõgõl#{ˋØ}trükli N_2KERGE "_#, #t__nõgõl{ˋØ}trükli_" ;
 nõgõsto+N:nõgõsto N_2ARTIKLI "_#, #t__nõgõsto_" ;
 nähkri+N:nähkri N_2KERGE "_#, #t __ˋnähkri_" ;
 näütsi+N:näütsi N_2KERGE "_#, #t __ˋnäütsi_" ;
@@ -476,7 +481,7 @@ oktoobri+N:oktoobri N_2ARTIKLI "_#, #t__oktoobri_" ;
 orkõstri+N:orkõstri N_2ARTIKLI "_#, #t__orkõstri_" ;
 paatri+N:paatri N_2ARTIKLI "_#, #t__ˋpaatri_" ;
 paiusto+N:paiusto N_2ARTIKLI "_#, #t__paiusto_" ;
-pakkvankri+N:pakk{ˋØ}vankri N_2ARTIKLI "_#, #t__pakk{ˋØ}vankri_" ;
+pakkvankri+N:pakk#{ˋØ}vankri N_2ARTIKLI "_#, #t__pakk{ˋØ}vankri_" ;
 palando+N:palando N_2ARTIKLI "_#, #t__palando_" ;
 paĺto+N:paĺto N_2ARTIKLI "_#, #t__ˋpaĺto_" ;
 papli+N:papli N_2ARTIKLI "_#, #t__ˋpapli_" ;
@@ -484,7 +489,7 @@ pedästü+N:pedästü N_2KERGE "_#, #t__pedästü_" ;
 peikli+N:peikli N_2KERGE "_#, #t__ˋpeikli_" ;
 pekli+N:pekli N_2KERGE "_#, #t__ˋpekli_" ;
 pekri+N:pekri N_2KERGE "_#, #t__ˋpekri_" ;
-perserihkli+N:ˋ#perse{ˋØ}rihkli N_2KERGE "_#, #t__ˋperse{ˋØ}rihkli_" ;
+perserihkli+N:{ˋØ}perse#{ˋØ}rihkli N_2KERGE "_#, #t__ˋperse{ˋØ}rihkli_" ;
 pihistü+N:pihistü N_2KERGE "_#, #t__pihistü_" ;
 piibli+N:piibli N_2KERGE "_#, #t__ˋpiibli_" ;
 piigli+N:pi̬i̬gli N_2KERGE "_#, #t __pi̬i̬gli_" ;
@@ -497,14 +502,14 @@ preili+N:preili N_2KERGE "_#, #t__ˋpreili_" ;
 priistri+N:pri̬i̬stri N_2KERGE "_#, #t__pri̬i̬stri_" ;
 prikstu+N:prikstu N_2ARTIKLI "_#, #t__ˋprikstu_" ;
 prohvõsri+N:prohvõsri N_2ARTIKLI "_#, #t__prohvõsri_" ;
-pruntsli+N:pruntsli N_2KERGE "_#, #t__ˋpruntsli_" ;
+pruntsli+N:pruntsli N_2ARTIKLI "_#, #t__ˋpruntsli_" ;
 puhmisto+N:puhmisto N_2ARTIKLI "_#, #t__puhmisto_" ;
 pulbri+N:pulbri N_2ARTIKLI "_#, #t__ˋpulbri_" ;
 pundri+N:pundri N_2ARTIKLI "_#, #t__ˋpundri_" ;
 punkri+N:punkri N_2ARTIKLI "_#, #t__ˋpunkri_" ;
 purkli+N:purkli N_2ARTIKLI "_#, #t__ˋpurkli_" ;
-pussnuhkri+N:puss{ˋØ}nuhkri N_2ARTIKLI "_#, #t __puss{ˋØ}nuhkri_" ;
-pussnäägri+N:puss{ˋØ}näägri N_2KERGE "_#, #t__puss{ˋØ}näägri_" ;
+pussnuhkri+N:puss#{ˋØ}nuhkri N_2ARTIKLI "_#, #t __puss{ˋØ}nuhkri_" ;
+pussnäägri+N:puss#{ˋØ}näägri N_2KERGE "_#, #t__puss{ˋØ}näägri_" ;
 putli+N:putli N_2ARTIKLI "_#, #t__ˋputli_" ;
 puudri+N:puudri N_2ARTIKLI "_#, #t__ˋpuudri_" ;
 puustli+N:puustli N_2ARTIKLI "_#, #t __ˋpuustli_" ;
@@ -574,10 +579,10 @@ trikli+N:trikli N_2KERGE "_#, #t__ˋtrikli_" ;
 trumli+N:trumli N_2ARTIKLI "_#, #t__ˋtrumli_" ;
 trõkśna+N:trõ̭kśna N_2ARTIKLI "_#, #t__ˋtrõ̭kśna_" ;
 trükli+N:trükli N_2KERGE "_#, #t__ˋtrükli_" ;
-tsendimetri+N:tsendi{ˋØ}metri N_2KERGE "_#, #t__tsendi{ˋØ}metri_" ;
-tsendimiitri+N:tsendimi̬i̬tri N_2KERGE "_#, #t__tsendimi̬i̬tri_" ;
-tsiajungri+N:tsia{ˋØ}jungri N_2ARTIKLI "_#, #t__tsia{ˋØ}jungri_" ;
-tsibipuutri+N:tsibi{ˋØ}puutri N_2ARTIKLI "_#, #t__tsibi{ˋØ}puutri_" ;
+tsendimetri+N:tsendi#{ˋØ}metri N_2KERGE "_#, #t__tsendi{ˋØ}metri_" ;
+tsendimiitri+N:tsendi#mi̬i̬tri N_2KERGE "_#, #t__tsendimi̬i̬tri_" ;
+tsiajungri+N:tsia#{ˋØ}jungri N_2ARTIKLI "_#, #t__tsia{ˋØ}jungri_" ;
+tsibipuutri+N:tsibi#{ˋØ}puutri N_2ARTIKLI "_#, #t__tsibi{ˋØ}puutri_" ;
 tsikli+N:tsikli N_2KERGE "_#, #t__ˋtsikli_" ;
 tsillendri+N:tsillendri N_2KERGE "_#, #t__tsillendri_" ;
 tsirkli+N:tsirkli N_2KERGE "_#, #t__ˋtsirkli_" ;
@@ -587,23 +592,23 @@ tsukõlmu+N:tsukõlmu N_2ARTIKLI "_#, #t__tsukõlmu_" ;
 tsungõlmu+N:tsungõlmu N_2ARTIKLI "_#, #t__tsungõlmu_" ;
 tsungõrmu+N:tsungõrmu N_2ARTIKLI "_#, #t__tsungõrmu_" ;
 tsüllendri+N:tsüllendri N_2KERGE "_#, #t__tsüllendri_" ;
-tuhapuskri+N:tuha{ˋØ}puskri N_2ARTIKLI "_#, #t__tuha{ˋØ}puskri_" ;
+tuhapuskri+N:tuha#{ˋØ}puskri N_2ARTIKLI "_#, #t__tuha{ˋØ}puskri_" ;
 tuhkri+N:tuhkri N_2ARTIKLI "_#, #t __ˋtuhkri_" ;
 tuhkru+N:tuhkru N_2ARTIKLI "_#, #t__ˋtuhkru_" ;
 tuhvli+N:tuhvli N_2ARTIKLI "_#, #t__ˋtuhvli_" ;
 tundsa+N:tundsa N_2ARTIKLI "_#, #t__ˋtundsa_" ;
 tõhvli+N:tõhvli N_2ARTIKLI "_#, #t__ˋtõhvli_" ;
 tõrdo+N:tõrdo N_2ARTIKLI "_#, #t__ˋtõrdo_" ;
-täitapja+N:täi{ˋØ}tapja N_2ARTIKLI "_#, #t__täi{ˋØ}tapja_" ;
+täitapja+N:täi#{ˋØ}tapja N_2ARTIKLI "_#, #t__täi{ˋØ}tapja_" ;
 tündri+N:tündri N_2KERGE "_#, #t__ˋtündri_" ;
 uhtu+N:uhtu N_2ARTIKLI "_#, #t__ˋuhtu_" ;
 ungru+N:ungru N_2ARTIKLI "_#, #t__ˋungru_" ;
 unkri+N:unkri N_2ARTIKLI "_#, #t__ˋunkri_" ;
-urbaplaastri+N:urba{ˋØ}plaastri N_2ARTIKLI "_#, #t__urba{ˋØ}plaastri_" ;
-uuŕmaakri+N:uuŕ{ˋØ}maakri N_2ARTIKLI "_#, #t__uuŕ{ˋØ}maakri_" ;
+urbaplaastri+N:urba#{ˋØ}plaastri N_2ARTIKLI "_#, #t__urba{ˋØ}plaastri_" ;
+uuŕmaakri+N:uuŕ#{ˋØ}maakri N_2ARTIKLI "_#, #t__uuŕ{ˋØ}maakri_" ;
 vakstu+N:vakstu N_2ARTIKLI "_#, #t__ˋvakstu_" ;
 vankri+N:vankri N_2ARTIKLI "_#, #t__ˋvankri_" ;
-vedrovankri+N:vedro{ˋØ}vankri N_2ARTIKLI "_#, #t__vedro{ˋØ}vankri_" ;
+vedrovankri+N:vedro#{ˋØ}vankri N_2ARTIKLI "_#, #t__vedro{ˋØ}vankri_" ;
 velskri+N:velskri N_2KERGE "_#, #t__ˋvelskri_" ;
 veśki+N:veśki N_2KERGE "_#, #t__ˋveśki_" ;
 video+N:video N_2ARTIKLI "_#, #t__video_" ;
@@ -620,10 +625,10 @@ värbli+N:värbli N_2KERGE "_#, #t__ˋvärbli_" ;
 västri+N:västri N_2KERGE "_#, #t__ˋvästri_" ;
 vürhvli+N:vürhvli N_2KERGE "_#, #t__ˋvürhvli_" ;
 vüülmü+N:vü̬ü̬lmü N_2KERGE "_#, #t__vü̬ü̬lmü_" ;
-vüürmündri+N:vü̬ü̬r{ˋØ}mündri N_2KERGE "_#, #t__vü̬ü̬r|{ˋØ}mündri_" ;
+vüürmündri+N:vü̬ü̬r#{ˋØ}mündri N_2KERGE "_#, #t__vü̬ü̬r|{ˋØ}mündri_" ;
 ämbri+N:ämbri N_2KERGE "_#, #t__ˋämbri_" ;
 ärkli+N:ärkli N_2KERGE "_#, #t__ˋärkli_" ;
-üsäpuutri+N:üsä{ˋØ}puutri N_2ARTIKLI "_#, #t__üsä{ˋØ}puutri_" ;
+üsäpuutri+N:üsä#{ˋØ}puutri N_2ARTIKLI "_#, #t__üsä{ˋØ}puutri_" ;
 
 !!pihistik+N:pihistik NMN_2 "_#gu, #kku__pihisti|k_" ;
 
@@ -631,7 +636,8 @@ vüürmündri+N:vü̬ü̬r{ˋØ}mündri N_2KERGE "_#, #t__vü̬ü̬r|{ˋØ}münd
 
 !3 
 !(VES 1) perädü
-
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [a|a o|e|i|o|u|ä o|õ] [d:"{td}"] [u] "+N":0 "+Guess":0 "+N_3_aladu":0 > N_3ALADU ;
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [e|ä] [d:"{td}"] [ü] "+N":0 "+Guess":0 "+N_3_peraedue":0 > N_3PERAEDUE ;
 alaaladu+N:alaaladu N_3ALADU "_#du, #tut__alaala|du_" ;
 armõdu+N:armõdu N_3ALADU "_#du, #tut __armõ|du_" ;
 eräpoolõdu+N:eräpoolõdu N_3ALADU "_#du, #tut__eräpoolõ|du_" ;
@@ -677,9 +683,10 @@ võimõdu+N:võimõdu N_3ALADU "_#du, #tut__võimõ|du_" ;
 
 !4 
 !(VES 10) {ˋØ}tervüs1
-
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [e|e e|i|ä|ä e|ä ä|ä ü|ö ü|ü|ü ü] [b|d|g|h j|h k|h k l|h m|h n|h r|h v|k|k j|k k|k s|k ḱ|l b|l g|l l|l m|ĺ d|ĺ k|m m|n d m|n g|p p|p r|r b t|r g|r j|r k|r m|r p|r r|r t|r v|s t|s t́|t|t s|t t|v|v v] [ü] "+N":0 "+Guess":0 "+N_4_tervues":0 > N_4TERVUES ;
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [a|a e|a i|a u|i i|i u|o i|u|u i|u u|õ|õ e|õ i|õ u] [b|d|g|h j|h k|h k l|h m|h n|h r|h v|k|k j|k k|k s|k ḱ|l b|l g|l l|l m|l ś k|ĺ d|ĺ k|m m|n d m|n g|p p|p r|r b t|r g|r j|r k|r m|r p|r r|r t|r v|s t|s t́|t|t s|t t|v|v v]? [u] [s]"+N":0 "+Guess":0 "+N_4_ainus":0 > N_4AINUS ;
 ahnus+N:ahnus N_4AINUS "_#, #t__ˋahnu|s_" ;
-ahopaistus+N:aho{ˋØ}paistus N_4AINUS "_#, #t__aho{ˋØ}paistu|s_" ;
+ahopaistus+N:aho#{ˋØ}paistus N_4AINUS "_#, #t__aho{ˋØ}paistu|s_" ;
 algus+N:algus N_4AINUS "_#, #t__ˋalgu|s_" ;
 alossäädüs+N:alos{ˋØ}säädüs N_4TERVUES "_#, #t__alos{ˋØ}säädü|s_" ;
 aovalgus+N:ao{ˋØ}valgus N_4AINUS "_#, #t__ao{ˋØ}valgu|s_" ;
@@ -695,7 +702,7 @@ häädüs+N:häädüs N_4TERVUES "_#, #t__ˋhäädü|s_" ;
 hüübüs+N:hüübüs N_4TERVUES "_#, #t__ˋhüübü|s_" ;
 ihkus+N:ihkus N_4AINUS "_#, #t__ˋihku|s_" ;
 ihnus+N:ihnus N_4AINUS "_#, #t__ˋihnu|s_" ;
-ihonuhklus+N:iho{ˋØ}nuhklus N_4AINUS "_#, #t__iho{ˋØ}nuhklu|s_" ;
+ihonuhklus+N:iho#{ˋØ}nuhklus N_4AINUS "_#, #t__iho{ˋØ}nuhklu|s_" ;
 julgus+N:julgus N_4AINUS "_#, #t__ˋjulgu|s_" ;
 jämmüs+N:jämmüs N_4TERVUES "_#, #t__ˋjämmü|s_" ;
 kaibus+N:kaibus N_4AINUS "_#, #t__ˋkaibu|s_" ;
@@ -719,7 +726,7 @@ kurbtus+N:kurbtus N_4AINUS "_#, #t__ˋkurbtu|s_" ;
 kurjus+N:kurjus N_4AINUS "_#, #t__ˋkurju|s_" ;
 kuumus+N:kuumus N_4AINUS "_#, #t__ˋkuumu|s_" ;
 kõvvus+N:kõvvus N_4AINUS "_#, #t__ˋkõvvu|s_" ;
-käevalgus+N:käe{ˋØ}valgus N_4AINUS "_#, #t__käe{ˋØ}valgu|s_" ;
+käevalgus+N:käe#{ˋØ}valgus N_4AINUS "_#, #t__käe{ˋØ}valgu|s_" ;
 kärmüs+N:kärmüs N_4TERVUES "_#, #t__ˋkärmü|s_" ;
 lahkus+N:lahkus N_4AINUS "_#, #t__ˋlahku|s_" ;
 laidus+N:laidus N_4AINUS "_#, #t__ˋlaidu|s_" ;
@@ -736,7 +743,7 @@ luutus+N:lu̬u̬tus N_4AINUS "_#, #t__lu̬u̬tu|s_" ;
 lõhkus+N:lõhkus N_4AINUS "_#, #t__ˋlõhku|s_" ;
 lõikus+N:lõikus N_4AINUS "_#, #t__ˋlõiku|s_" ;
 lähküs+N:lähküs N_4TERVUES "_#, #t__ˋlähkü|s_" ;
-lämmäoppus+N:lämmäoppus N_4AINUS "_#, #t__ˋlämmäoppu|s_" ;
+lämmäoppus+N:lämmä#oppus N_4AINUS "_#, #t__ˋlämmäoppu|s_" ;
 lämmüs+N:lämmüs N_4TERVUES "_#, #t __ˋlämmü|s_" ;
 läütüs+N:läütüs N_4TERVUES "_#, #t__ˋläütü|s_" ;
 löüdüs+N:löüdüs N_4TERVUES "_#, #t__ˋlöüdü|s_" ;
@@ -782,9 +789,9 @@ puhtus+N:puhtus N_4AINUS "_#, #t__ˋpuhtu|s_" ;
 pulmus+N:pulmus N_4AINUS "_#, #t __ˋpulmu|s_" ;
 puudus+N:puudus N_4AINUS "_#, #t__ˋpuudu|s_" ;
 puustus+N:puustus N_4AINUS "_#, #t__ˋpuustu|s_" ;
-põh́avalgus+N:põh́a{ˋØ}valgus N_4AINUS "_#, #t__põh́a{ˋØ}valgu|s_" ;
+põh́avalgus+N:põh́a#{ˋØ}valgus N_4AINUS "_#, #t__põh́a{ˋØ}valgu|s_" ;
 põhjus+N:põhjus N_4AINUS "_#, #t __ˋpõhju|s_" ;
-päävävalgus+N:päävä{ˋØ}valgus N_4AINUS "_#, #t__päävä{ˋØ}valgu|s_" ;
+päävävalgus+N:päävä#{ˋØ}valgus N_4AINUS "_#, #t__päävä{ˋØ}valgu|s_" ;
 rahvus+N:rahvus N_4AINUS "_#, #t__ˋrahvu|s_" ;
 rammus+N:rammus N_4AINUS "_#, #t__ˋrammu|s_" ;
 ramsus+N:ramsus N_4AINUS "_#, #t__ˋramsu|s_" ;
@@ -800,7 +807,7 @@ saĺdus+N:saĺdus N_4AINUS "_#, #t__ˋsaĺdu|s_" ;
 salgus+N:salgus N_4AINUS "_#, #t__ˋsalgu|s_" ;
 selgüs+N:selgüs N_4TERVUES "_#, #t__ˋselgü|s_" ;
 sikkus+N:sikkus N_4AINUS "_#, #t__sikku|s_" ;
-silmävalgus+N:silmä{ˋØ}valgus N_4AINUS "_#, #t__silmä{ˋØ}valgu|s_" ;
+silmävalgus+N:silmä#{ˋØ}valgus N_4AINUS "_#, #t__silmä{ˋØ}valgu|s_" ;
 singus+N:singus N_4AINUS "_#, #t__ˋsingu|s_" ;
 sirdus+N:sirdus N_4AINUS "_#, #t__ˋsirdu|s_" ;
 sund́us+N:sund́us N_4AINUS "_#, #t__ˋsund́u|s_" ;
@@ -847,17 +854,20 @@ võhlus+N:võhlus N_4AINUS "_#, #t__ˋvõhlu|s_" ;
 võlśkus+N:võlśkus N_4AINUS "_#, #t__ˋvõlśku|s_" ;
 võrkus+N:võrkus N_4AINUS "_#, #t__ˋvõrku|s_" ;
 väetüs+N:väetüs N_4TERVUES "_#, #t__ˋväetü|s_" ;
-vällälöüdüs+N:vällä{ˋØ}löüdüs N_4TERVUES "_#, #t__ˋvällä{ˋØ}löüdü|s_" ;
-vällänäütüs+N:vällä{ˋØ}näütüs N_4TERVUES "_#, #t__ˋvällä{ˋØ}näütü|s_" ;
+vällälöüdüs+N:vällä#{ˋØ}löüdüs N_4TERVUES "_#, #t__ˋvällä{ˋØ}löüdü|s_" ;
+vällänäütüs+N:vällä#{ˋØ}näütüs N_4TERVUES "_#, #t__ˋvällä{ˋØ}näütü|s_" ;
 väärtüs+N:väärtüs N_4TERVUES "_#, #t__ˋväärtü|s_" ;
 õigus+N:õigus N_4AINUS "_#, #t__ˋõigu|s_" ;
 õndsus+N:õ̭ndsus N_4AINUS "_#, #t__ˋõ̭ndsu|s_" ;
-ülekaehus+N:üle{ˋØ}kaehus N_4AINUS "_#, #t__üle{ˋØ}kaehu|s_" ;
+ülekaehus+N:üle#{ˋØ}kaehus N_4AINUS "_#, #t__üle{ˋØ}kaehu|s_" ;
 ütsüs+N:ütsüs N_4TERVUES "_#, #t__ˋütsü|s_" ;
 
 !5 
 !(VES 1) {ˋØ}suhvli2,
 !(VES 3) oppaja, {ˋØ}kerge
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [e|e e|e i|i|i a|i i|o e e|u|u u|ä|ä ä|ä ü|õ|ö|ö ü|ü|ü ü] [b l|b r|d|d j|d l|d r|g l|g r|h k n|h k r|h t r|h v l|j|k l|k r|k s l|k t r|k v|k ś n|l|l d r|l g|l m|l s k r|l t́ r|m|m b|m b r|m l|m p|m p l|m p s n|n|n d l|n d r|n g j|n g l|n j|n k l|n k s n|n t l|n t s l|p j|p l|p n|p r|p ś n|r|r b|r b l|r d j|r g|r g l|r h v l|r j|r k j|r k l|r k s n|r l|r t n|r t s k n|r ḱ n|s|s k l|s k r|s l|s r|s t|s t r|t j|t l|t n|t r|t s|t s k n|t s l|t ś k|v l|v r|ś k] [e|i|i ä|ä|ü] "+N":0 "+Guess":0 "+N_5_maengjae":0 > N_5MAENGJAE ;
+
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [a|a a|a e|a i|a i u|a i õ u u|a o|a u|e|e a|e e|e i|e o o|e u u|i|i a a|i e|i i|i o a u|i u|o|o a|o e|o i|o o|o u u|u|u i|u u|ä a|õ|õ i|õ u i|õ u u|õ õ|ö ö|ü|ü ü a] [b|b j|b l|b r|d|d l|d r|d s n|d ś n|f|f t|g|g n|g r|h k|h k j|h k l|h k n|h k r|h m r|h t|h t j|h t r|h v l|h v r|h ḱ n|j|k|k j|k l|k n|k r|k s|k s n|k s t|k v|k ś n|l|l b r|l d j|l d r|l g|l j|l k|l k s j|l k s n|l k ś n|l m|l n|l r|l t r|l v r|l ḱ n|m|m b l|m b r|m j|m l|m p k|m p ś n|n|n c|n d|n d j|n d l|n d r|n d s j|n d v|n g l|n g r|n j|n k r|n k s n|n k ś n|n s|n s k|n t|n t s k|n t s l|p|p h|p j|p k|p l|p r|p s k|p s n|p ś l|p ś n|r|r b|r b j|r b l|r b r|r d|r d j|r g|r h|r j|r k|r k l|r k n|r k s|r k s n|r k ś n|r m|r n|r s j|r s l|r s n|r t|r t l|r t n|r v|s|s j|s k|s k j|s k l|s k r|s k v|s k ń|s l|s n|s p l|s r|s s|s t|s t j|s t l|s t r|t|t j|t k|t l|t r|t s|t s j|t s k|t s k n|t s l|t s n|t s ḱ n|t t|t v|t ś k|t ś n|v|v l|ĺ t|ś k|ḱ l|ḱ s] [a|e|i|i a|i o|o|u|ä|õ] "+N":0 "+Guess":0 "+N_5_oppaja":0 > N_5OPPAJA ;
 
 mõsula+N:mõsula N_5OPPAJA "_#, #t_" ;
 ladina+N:ladina N_5OPPAJA ;!GUESS 3 short syllables
@@ -1795,10 +1805,10 @@ abijuhataja+N:abi#juhataja  N_5OPPAJA ;
 
 !6 
 !(VES 14) makõ1
-
-ellävhõpõ+N:ellävhõ{pØ}põ N_6MAKW "_#, #t__ellävhõpõ_" ;
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [a|i|u|õ] [0:"{kØ}" k|0:"{tØ}" t|0:"{pØ}" p] [õ] "+N":0 "+Guess":0 "+N_6_makw":0 > N_6MAKW ; !B_G2G3
+ellävhõpõ+N:elläv#hõ{pØ}põ N_6MAKW "_#, #t__ellävhõpõ_" ;
 hõpõ+N:hõ{pØ}põ N_6MAKW "_#, #t__hõ|põ_" ;
-juudihõpõ+N:juudihõ{pØ}põ N_6MAKW "_#, #t__juudihõpõ_" ;
+juudihõpõ+N:juudi#hõ{pØ}põ N_6MAKW "_#, #t__juudihõpõ_" ;
 kupõ+N:ku{pØ}põ N_6MAKW "_#, #t__kupõ_" ;
 lipõ+N:li{pØ}põ N_6MAKW "_#, #t__lipõ_" ;
 tsagõhõq+N:tsagõhõq N_6MAKW_PL "_#idõ, #it__tsagõh|õq_" ;
@@ -1809,7 +1819,7 @@ vanatikõ+N:vanati{kØ}kõ N_6MAKW "_#, vannatikõt__vanatikõ_" ;
 !7 
 !(VES 3) füüsiga
 ! long.short.short
-
+< [i] [g] [a] "+N":0 "+Guess":0 "+N_7_fueuesiga":0 > N_7FUEUESIGA ;
 botaaniga+N:botaani{kg}a N_7FUEUESIGA "_#ga, #kat__botaani|ga_" ;
 eelektrooniga+v1+N:eelektrooni{kg}a N_7FUEUESIGA "_#ga, #kat__eelektrooni|ga_" ;
 eelektrooniga+v2+N:elektrooni{kg}a N_7FUEUESIGA "_#ga, #kat__eelektrooni|ga_" ;
@@ -1864,8 +1874,12 @@ elektrotekniga+N:elektro#tekni{kg}a N_7FUEUESIGA ;
 !(VES 13) esänd, 
 !(VES 15) angõrjas,
 !(VES 48) kask
-
-
+<  [a|a a|e|e e|i|i i|i i o|i u|o|o e|u|u i a|õ|ü] [d́:"{dd́}"|h t́:"{tt́}"|l ǵ:"{gǵ}"|m ḿ:"{mḿ}"|n d́:"{dd́}"|n ǵ:"{gǵ}"|r d́:"{dd́}"|r ǵ:"{gǵ}"|r ḿ:"{mḿ}"|s t́:"{tt́}"|s ḱ:"{kḱ}"|s ḿ:"{mḿ}"|t s ḱ:"{kḱ}"|t ḿ:"{mḿ}"|t́:"{tt́}"|ĺ:"{lĺ}"|ń:"{nń}"|ŕ:"{rŕ}"|ḿ:"{mḿ}"] "+N":0 "+Guess":0 "+N_8_dollar1":0 > N_8DOLLAR1 ;
+<  [e|e i e|e i ä|i|ä|ä ö|ü] [d́:"{dd́}"|h t́:"{tt́}"|l ǵ:"{gǵ}"|m ḿ:"{mḿ}"|n d́:"{dd́}"|n ǵ:"{gǵ}"|r d́:"{dd́}"|r ǵ:"{gǵ}"|r ḿ:"{mḿ}"|s t́:"{tt́}"|s ḱ:"{kḱ}"|s ḿ:"{mḿ}"|t s ḱ:"{kḱ}"|t ḿ:"{mḿ}"|t́:"{tt́}"|ĺ:"{lĺ}"|ń:"{nń}"|ŕ:"{rŕ}"|ḿ:"{mḿ}"] "+N":0 "+Guess":0 "+N_8_eeder1":0 > N_8EEDER1 ;
+!< [a|i|o|u|õ] [h k|l|l g|m b|n|n g|r m|r n|r v|s|s k|v] "+N":0 "+Guess":0 "+N_8_kask":0 > N_8KASK ;
+!<  [e|i|ä|ä i e] [l g|l m|m b|n|n d|n g|r g|r m|r n|v] "+N":0 "+Guess":0 "+N_8_haeielm":0 > N_8HAEIELM ;
+!<  [ [a|u u|õ i] [k n|l g n|l n] [õ] ] "+N":0 "+Guess":0 "+N_8_kuldnw":0 > N_8KULDNW ;
+!< t u h [a] [0:"{nØ}" t:"{td}"] "+N":0 "+Guess":0 "+N_8_tuhat":0 > N_8TUHAT ;
 kardohk+N:kardohka N_8KASK "_#a, #at_" ;
 praadikardohk+N:praadi#kardohka N_8KASK "_#a, #at_" ;
 friikardohk+N:frii#kardohka N_8KASK "_#a, #at_" ;
@@ -1876,7 +1890,7 @@ aadoḿ+N:aado{mḿ} N_8DOLLAR1 "_#i, #it__aadoḿ_" ;
 algoritḿ+N:algorit{mḿ} N_8DOLLAR1 "" ;
 antisemitisḿ+N:antisemitis{mḿ} N_8DOLLAR1 "" ;
 teoreeḿ+N:teoree{mḿ} N_8DOLLAR1 "" ;
-matõmaatigaprobleeḿ+N:matõmaatigaproblee{mḿ} N_8DOLLAR1 "" ;
+matõmaatigaprobleeḿ+N:matõmaatiga#problee{mḿ} N_8DOLLAR1 "" ;
 probleeḿ+N:problee{mḿ} N_8DOLLAR1 "" ;
 interregnuḿ+N:interregnu{mḿ} N_8DOLLAR1 "" ;
 sandarḿ+N:sandar{mḿ} N_8DOLLAR1 "" ;
@@ -1963,7 +1977,7 @@ häierm+N:häiermä N_8HAEIELM "_#ä, #ät__häierm_" ;
 härbäń+N:härbä{nń} N_8EEDER1 "_#i, #it__ˋhärbäń_" ;
 härmuĺ+N:härmu{lĺ} N_8DOLLAR1 "_#i, #it __härmuĺ_" ;
 häädüs+N:häädüs N_18EHITUES "_#, #t__ˋhäädü|s_" ;
-hääpuulnõ+N:hää{ˋØ}puul N_8KULDNW "_#sõ, #sõt__hää{ˋØ}puul|nõ_" ;
+hääpuulnõ+N:hää#{ˋØ}puul N_8KULDNW "_#sõ, #sõt__hää{ˋØ}puul|nõ_" ;
 häönǵ+N:häön{gǵ} N_8EEDER1 "_#i, #it__häönǵ_" ;
 hüräsḱ+N:hüräs{kḱ} N_8EEDER1 "_#i, #it__hüräsḱ_" ;
 hüväpuulnõ+N:hüvä{ˋØ}puul N_8KULDNW "_#sõ, #sõt__hüvä{ˋØ}puul|nõ_" ;
@@ -1971,7 +1985,7 @@ hüübüs+N:hüübüs N_18EHITUES "_#, #t__ˋhüübü|s_" ;
 ihkus+N:ihkus N_17ALGUS "_#, #t__ˋihku|s_" ;
 ihnus+N:ihnus N_17ALGUS "_#, #t__ˋihnu|s_" ;
 ihnusḱ+N:ihnus{kḱ} N_8DOLLAR1 "_#i, #it__ihnusḱ_" ;
-ihonuhklus+N:iho{ˋØ}nuhklus N_17ALGUS "_#, #t__iho{ˋØ}nuhklu|s_" ;
+ihonuhklus+N:iho#{ˋØ}nuhklus N_17ALGUS "_#, #t__iho{ˋØ}nuhklu|s_" ;
 imänd+N:imändä N_8HAEIELM "_#ä, #ät__imänd_" ;
 irasḱ+N:iras{kḱ} N_8DOLLAR1 "_#i, #it__irasḱ_" ;
 issänd+N:issändä N_8HAEIELM "_#ä, #ät__ˋissänd_" ;
@@ -2544,6 +2558,15 @@ perändüslooming+N:perändüs#loomingu N_8SADANG ;
 !9 
 !(VES 4) kipõń, elläi,
 !(VES 14) makõ2
+!< [a e|e|i|i i e|o e|ä|ü|ü ä ü ü e|ü ü e] [k|l l|r r|t|t s|v v] [ä i] "+N":0 "+Guess":0 "+N_9_ellaei":0 > N_9ELLAEI ;
+!< [a|a a|i|i a|u|õ] [j j|k|l l|p|r r|s s|t|t s] [a i|u i] "+N":0 "+Guess":0 "+N_9_sallai":0 > N_9SALLAI ;
+!< [a|i|o|u|õ] [j|l|m|n|v] "+N":0 "+Guess":0 "+N_9_tukwv":0 > N_9TUKWV ;
+!< [e|i|ü] [j|l|m|n] "+N":0 "+Guess":0 "+N_9_verrev":0 > N_9VERREV ;
+!< [a|o|u|õ] [ĺ|ń|ŕ|ḿ] "+N":0 "+Guess":0 "+N_9_kipwn1":0 > N_9KIPWN1 ;
+!< [e|i|ä|ü] [ĺ|ń|ŕ] "+N":0 "+Guess":0 "+N_9_vetel1":0 > N_9VETEL1 ;
+!< [a|o|u|õ] [ĺ|ń|ŕ|ś] "+N":0 "+Guess":0 "+N_9_allas1":0 > N_9ALLAS1 ;
+!< [e|ä] [ĺ|ń] "+N":0 "+Guess":0 "+N_9_sinnel1":0 > N_9SINNEL1 ;
+!< [i|u|õ] [k|p] [õ] "+N":0 "+Guess":0 "+N_9_villw":0 > N_9VILLW ;
 ahhil+N:a{hØ}hil N_9TUKWV "_#ila, #ilat__ah|hil_" ;
 ahhuń+N:a{hØ}hu{nń} N_9KIPWN1 "_#una, #unat__ah|huń_" ;
 akań+N:a{kg}a{nń} N_9KIPWN1 "_agana, aganat__akań_" ;
@@ -2555,7 +2578,7 @@ anomamõsumassin+N:anomamõsuma{sØ}sin N_9TUKWV "_#a, #at__anomamõsumassin_" ;
 aśaajjai+N:aśaa{jØ}ja{ij} N_9SALLAI "_#ajaja, #ajajat__aśa|ajjai_" ;
 elläi+N:e{lØ}lä{ij} N_9ELLAEI "_#äjä, #äjät__el|läi_" ;
 ellävhõpõ+N:ellävhõ{pb}õ N_9VILLW "_#bõhõ, #bõhõt __ellävhõ|põ_" ;
-eloelläi+N:eloe{lØ}lä{ij} N_9ELLAEI "_#äjä, #äjät__eloel|läi_" ;
+eloelläi+N:elo#e{lØ}lä{ij} N_9ELLAEI "_#äjä, #äjät__eloel|läi_" ;
 hapin+N:ha{pb}in N_9TUKWV "_#bina, #binat__ha|pin_" ;
 hapõń+N:ha{pb}õ{nń} N_9KIPWN1 "_#bõna, #bõnat__ha|põń_" ;
 habõnaq+N:ha{pb}õn N_9TUKWV_PL "_#idõ, #it__habõn|aq_" ;
@@ -2577,7 +2600,7 @@ hussin+N:hu{sØ}sin N_9TUKWV "_#ina, #inat__hus|sin_" ;
 hõpõ+N:hõ{pb}õ N_9VILLW "_#bõhõ, #bõhõt__hõ|põ_" ;
 hõtil+N:hõ{td}il N_9TUKWV "_#dila, #dilat__hõ|til_" ;
 hõrilaq+N:hõ{rØ}ril N_9TUKWV_PL "_#(i)dõ, #it__hõril|aq_" ;
-!hämmär+N:hä{mØ}mär NMN_9 "_#ärä, #ärät__häm|mär_" ;
+hämmär+N:hä{mØ}mär N_9VERREV "_#ärä, #ärät__häm|mär_" ;
 härmävitäi+N:härmävi{td}ä{ij} N_9ELLAEI "_#däjä, #däjät __härmävi|täi_" ;
 hüpin+N:hü{pb}in N_9VERREV "_#binä, #binät__hü|pin_" ;
 hütin+N:hü{td}in N_9VERREV "_#dinä, #dinät__hü|tin_" ;
@@ -2637,7 +2660,6 @@ kropin+N:kro{pb}in N_9TUKWV "_#bina, #binat__kro|pin_" ;
 krupõń+N:kru{pb}õ{nń} N_9KIPWN1 "_#bõna, #bõnat__kru|põń_" ;
 krõkin+N:krõ{kg}in N_9TUKWV "_#gina, #ginat__krõ|kin_" ;
 krõpin+N:krõ{pb}in N_9TUKWV "_#bina, #binat__krõ|pin_" ;
-kupõ+N:ku{pb}õ N_9VILLW "_#bõhõ, #bõhõt__ku|põ_" ;
 kutin+N:ku{td}in N_9TUKWV "_#dina, #dinat__ku|tin_" ;
 !kujorakoi+N:kujora{kg}o{ij} NMN_9 "_#goja, #gojat __kujora|koi_" ;
 kujotekij+N:kujote{kg}ij N_9VERREV  "_#gijä, #gijät__kujote|kij_" ;
@@ -2659,6 +2681,7 @@ kärrin+N:kä{rØ}rin N_9TUKWV "_#ina, #inat__kär|rin_" ;
 küpäŕ+N:kü{pb}ä{rŕ} N_9VETEL1 "_#bärä, #bärät__kü|päŕ_" ;
 küllüm+N:kü{lØ}lüm N_9VERREV "_#ümä, #ümät__kül|lüm_" ;
 lapin+N:la{pb}in N_9TUKWV "_#bina, #binat__la|pin_" ;
+kupõ+N:ku{pb}õ N_9VILLW "_#bõhõ, #bõhõt__ku|põ_" ;
 lipõ+N:li{pb}õ N_9VILLW "_#bõhõ, #libõht__li|põ_" ;
 lipõń+N:li{pb}õ{nń} N_9KIPWN1 "_#bõna, #bõnat__li|põń_" ;
 lipõŕ+N:li{pb}õ{rŕ} N_9ALLAS1 "_#bõri, #bõrit__li|põŕ_" ;
@@ -2801,8 +2824,8 @@ toroküpäŕ+N:toro#kü{pb}ä{rŕ} N_9VETEL1 "_#bärä, #bärät__torokü|päŕ_
 tossin+N:to{sØ}sin N_9TUKWV "_#ina, #inat__tos|sin_" ;
 tsakim+N:tsa{kg}im N_9TUKWV "_#gima, #gimat__tsa|kim_" ;
 tsakin+N:tsa{kg}in N_9TUKWV "_#gina, #ginat__tsa|kin_" ;
-!tsakõq+N:tsa{kg}õq NMN_9 "_#gõhidõ, #gõhit__tsa|kõq_" ;
-tsagõhõq+N:tsa{kg}õ N_9VILLW_PL "_#idõ, #it__tsagõh|õq_" ;
+tsakõq+N:tsa{kg}õq N_9VILLW "_#gõhidõ, #gõhit__tsa|kõq_" ;
+tsagõhõq+N:tsa{kg}õ N_9VILLW_PL "_#idõ, #it__tsagõh|õq_" ;! NEEDED?
 tsetseń+N:tse{td}se{nń} N_9VETEL1 "_#dsenä, #dsenät__tse|tseń_" ;
 tsikań+N:tsi{kg}a{nń} N_9ALLAS1 "_#gani, #ganit__tsi|kań_" ;
 tsikaŕ+N:tsi{kg}a{rŕ} N_9ALLAS1 "_#gari, #garit__tsi|kaŕ_" ;
@@ -2810,7 +2833,7 @@ tsikuń+N:tsi{kg}u{nń} N_9ALLAS1 "_#guni, #gunit__tsi|kuń_" ;
 tsikuŕ+N:tsi{kg}u{rŕ} N_9ALLAS1 "_#guri, #gurit__tsi|kuŕ_" ;
 tsipin+N:tsi{pb}in N_9VERREV "_#binä, #binät__tsi|pin_" ;
 tsipõń+N:tsi{pb}õ{nń} N_9KIPWN1 "_#bõna, #bõnat__tsi|põń_" ;
-tsibiputin+N:tsibipu{td}in N_9TUKWV "_#dina, #dinat__tsibipu|tin_" ;
+tsibiputin+N:tsibi#pu{td}in N_9TUKWV "_#dina, #dinat__tsibipu|tin_" ;
 tsirrin+N:tsi{rØ}rin N_9VERREV "_#inä, #inät__tsir|rin_" ;
 tsirrin+N:tsi{rØ}rin N_9VERREV "_#inä, #inät__tsir|rin_" ;
 tsirruĺ+N:tsi{rØ}ru{lĺ} N_9ALLAS1 "_#uli, #ulit__tsir|ruĺ_" ;
@@ -2830,8 +2853,8 @@ tupin+N:tu{pb}in N_9TUKWV "_#bina, #binat__tu|pin_" ;
 tuhhaŕ+N:tu{hØ}ha{rŕ} N_9KIPWN1 "_#ara, #arat__tuh|haŕ_" ;
 tuhhin+N:tu{hØ}hin N_9TUKWV "_#ina, #inat__tuh|hin_" ;
 tuhaelläi+N:tuha#e{lØ}lä{ij} N_9ELLAEI "_#äjä, #äjät__tuhael|läi_" ;
-tuulõvirril+N:tuulõvi{rØ}ril N_9VERREV "_#ilä, #ilät__tuulõvir|ril_" ;
-tuulõvurril+N:tuulõvu{rØ}ril N_9TUKWV "_#ila, #ilat__tuulõvur|ril_" ;
+tuulõvirril+N:tuulõ#vi{rØ}ril N_9VERREV "_#ilä, #ilät__tuulõvir|ril_" ;
+tuulõvurril+N:tuulõ#vu{rØ}ril N_9TUKWV "_#ila, #ilat__tuulõvur|ril_" ;
 tõrrin+N:tõ{rØ}rin N_9TUKWV "_#ina, #inat__tõr|rin_" ;
 tümmin+N:tü{mØ}min N_9VERREV "_#inä, #inät__tüm|min_" ;
 upin+N:u{pb}in N_9TUKWV "_ubina, ubinat__upin_" ;
@@ -2844,10 +2867,11 @@ vaadivitäi+N:vaadivi{td}ä{ij} N_9ELLAEI "_#däjä, #däjät__vaadivi|täi_" ;
 vallij+N:va{lØ}lij N_9TUKWV  "_#ija, #ijat__val|lij_" ;
 vallim+N:va{lØ}lim N_9TUKWV "_#ima #imõ, #imat #imõt__val|lim_" ;
 vammil+N:va{mØ}mil N_9TUKWV "_#ila, #ilat__vam|mil_" ;
-vanapakań+N:vanapa{kg}a{nń} N_9KIPWN1 "_vanapagana, vannapaganat__vanapakań_" ;
+vanapakań+N:vana#pa{kg}a{nń} N_9KIPWN1 "_vanapagana, vannapaganat__vanapakań_" ;
 vanatikõ+N:vanati{kg}õ N_9VILLW "_#gõhõ, #gõhõt__vanati|kõ_" ;
 vassaŕ+N:va{sØ}sa{rŕ} N_9KIPWN1 "_#ara, #arat__vas|saŕ_" ;
-!vereväq+N:vereväq NMN_9 "_#ide, #it__verev|äq_" ;
+verrev+N:ve{rØ}rev N_9VERREV ;
+!vereväq+N:verreväq NMN_9 "_#ide, #it__verev|äq_" ;
 veriputsai+N:veripu{td}sa{ij} N_9SALLAI "_#dsaja, #dsajat__veripu|tsai_" ;
 vessüm+N:ve{sØ}süm N_9VERREV "_#ümä, #ümät__ves|süm_" ;
 vikuŕ+N:vi{kg}u{rŕ} N_9ALLAS1 "_#guri, #gurit__vi|kuŕ_" ;
@@ -2855,7 +2879,7 @@ vituŕ+N:vi{td}u{rŕ} N_9ALLAS1 "_#duri, #durit__vi|tuŕ_" ;
 vitäi+N:vi{td}ä{ij} N_9ELLAEI "_#däjä, #däjät__vi|täi_" ;
 virrin+N:vi{rØ}rin N_9VERREV "_#inä, #inät__vir|rin_" ;
 virrui+N:vi{rØ}ru{ij} N_9SALLAI "_#uja, #ujat__vir|rui_" ;
-virbivitäi+N:virbivi{td}ä{ij} N_9ELLAEI "_#däjä, #däjät__virbivi|täi_" ;
+virbivitäi+N:virbi#vi{td}ä{ij} N_9ELLAEI "_#däjä, #däjät__virbivi|täi_" ;
 vissel+N:vi{sØ}sel N_9VERREV "_#elä, #elät__vis|sel_" ;
 vollin+N:vo{lØ}lin N_9TUKWV "_#ina, #inat__vol|lin_" ;
 vuhhin+N:vu{hØ}hin N_9TUKWV "_#ina, #inat__vuh|hin_" ;
@@ -9478,7 +9502,7 @@ aolugu+N:ao#lu{kØ}{kgØ}u N_39LUGU "_#u, #ku__aolu|gu_" ;
 elolugu+N:elo#lu{kØ}{kgØ}u N_39LUGU "_#u, #ku__elolu|gu_" ;
 lugu+N:lu{kØ}{kgØ}u N_39LUGU "_#u, #ku__lu|gu_" ;
 
-< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [a|o|u|õ] [0:"{kØ}" g:"{kgØ}"|0:"{tØ}" d:"{tdØ}"|0:"{pØ}" b:"{pbv}"] "a":0 "+N":0 "+Guess":0 "+N_39_luba":0 > N_39LUBA ;
+< [b|d|f|g|h|j|k|l|m|n|p|r|s|t|v]* [a|o|u|õ] [0:"{kØ}" g:"{kgØ}"|0:"{tØ}" d:"{tdØ}"|0:"{pØ}" b:"{pbv}"] a "+N":0 "+Guess":0 "+N_39_luba":0 > N_39LUBA ;
 juga+N:ju{kØ}{kgØ}a N_39LUBA "_#a, #ka__ju|ga_" ;
 juhiluba+N:juhi#lu{pØ}{pbØ}a N_39LUBA ;
 luba+N:lu{pØ}{pbØ}a N_39LUBA "_#a, #pa__lu|ba_" ;
