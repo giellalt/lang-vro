@@ -4104,10 +4104,12 @@ LEXICON ACT_IND_CONNEGII/IMPRT_SG2
  ACT_IND_CONNEGII ;
  ACT_IMPRT_SG2 ;
 LEXICON ACT_IND_CONNEGII
-+Act+Ind+ConNegII: K ;
++Act+Ind+ConNegII:q K ;
++Act+Ind+ConNegII+Err/Orth-no-q: K ;
 
 LEXICON ACT_IMPRT_SG2
-+Act+Imprt+Sg2: K ;
++Act+Imprt+Sg2:q K ;
++Act+Imprt+Sg2+Err/Orth-no-q: K ;
 
 LEXICON PSS_IND_CONNEGII
 +Pss+Ind+ConNegII: K ;
